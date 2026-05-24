@@ -2,7 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
+    "composite_figi": "BBG000BX7WP9",
     "cusip": "00089H106",
+    "figi": "BBG000BX7WP9",
     "isin": "US00089H1068"
   },
   "industry": "Construction & Engineering",
@@ -36,11 +38,6 @@
       "symbol": "ACS.VI"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "OCI.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "OCI1.F"
@@ -50,7 +47,7 @@
   "name": "ACS, Actividades de Construccion y Servicios, S.A.",
   "primary_symbol": "ACSAF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

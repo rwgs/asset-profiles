@@ -1,28 +1,20 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00878H9Z1",
+    "figi": "BBG00878H9Z1",
     "isin": "FR0000120404"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry": "Hotels, Restaurants & Leisure",
+  "industry_group": "Consumer Services",
   "isin": "FR0000120404",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "AC"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ACCYY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ACP"
     },
     {
       "currency": "USD",
@@ -65,16 +57,6 @@
       "symbol": "ACCN.MX"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "ACP.AX"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "ACP.L"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "ACR.DU"
@@ -83,16 +65,6 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ACR.F"
-    },
-    {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "ACR.OL"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ACR.SG"
     },
     {
       "currency": "EUR",
@@ -105,17 +77,17 @@
       "symbol": "FR0000120404.SW"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Associated Capital Group, Inc.",
-  "primary_symbol": "AC",
+  "market_cap_band": "Large Cap",
+  "name": "Accor SA",
+  "primary_symbol": "ACCYY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Associated Capital Group, Inc. provides investment advisory services in the United States. The company offers alternative investment management and asset management services. It also invests in new and existing businesses. The company was founded in 1976 and is headquartered in Greenwich, Connecticut.",
-  "website": "http://www.associated-capital-group.com"
+  "sector": "Consumer Discretionary",
+  "summary": "Accor SA operates a chain of hotels. It operates through three segments: HotelServices, Hotel Assets & Others, and New Businesses. The company owns, operates, manages, and franchises hotels. It also provides digital solutions to independent hotel operators and restaurant owners through D-edge, ResDiary, and Adoria platforms; and hotel booking services for companies and travels agencies through Gekko solutions. In addition, the company offers concierge services; and digital sales through VeryChic, which offers private sales with luxury and d upscale hotel rooms, as well as rents private luxury homes operated by onefinestay. As of December 31, 2020, it operated 5,139 hotels with 753,344 rooms in 110 countries worldwide. The company was founded in 1967 and is headquartered in Issy-les-Moulineaux, France.",
+  "website": "http://group.accor.com/en"
 }

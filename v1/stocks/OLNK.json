@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000M3HYQ7",
+    "cusip": "68267M106",
+    "figi": "BBG000M3HYQ7"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "OLNK"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "OneLink Corporation",
   "primary_symbol": "OLNK",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "OneLink Corporation provides integrated global distribution and financial settlement services to the travel and tourism industry. It enables non-airline travel suppliers, such as hotels, rental car operators, and cruise lines to distribute a pre-paid product through travel agents worldwide, as well as to effect financial settlement through an online global distribution and financial settlement system. It offers services, including business-to-business marketing channel, to connect travel suppliers with travel agents, including distribution and settlement. OneLink Corporation was formerly known as One Link 4 Travel Inc. and changed its name to OneLink Corporation in March 2006. The company was founded in 2001 and is based in San Francisco, California with an additional office in Reading, United Kingdom."
 }

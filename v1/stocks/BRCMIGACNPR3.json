@@ -1,7 +1,9 @@
 {
+  "country": "Brazil",
+  "country_code": "BR",
   "identifiers": {
     "composite_figi": "BBG000C7WZT6",
-    "figi": "BBG000C7X2N4",
+    "figi": "BBG000C7X1M7",
     "isin": "BRCMIGACNPR3"
   },
   "industry_group": "Utilities",
@@ -9,25 +11,20 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CIDA.BE"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CIDA.SG"
     }
   ],
-  "name": "CIA EN.GE.PFD-CEMIGRB-",
-  "primary_symbol": "CIDA.BE",
+  "name": "CIA EN. DE MINAS GERAIS-CEMIG R",
+  "primary_symbol": "CIDA.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "CIA EN.GE.PFD-CEMIGRB- represents the preferred shares of Companhia Energética de Minas Gerais (CEMIG), a Brazilian power company involved in electricity generation, transmission, and distribution. CEMIG is based in Belo Horizonte, Brazil."
+  "summary": "CIA EN. DE MINAS GERAIS-CEMIG R is a Brazilian power company that generates, transmits, and distributes electricity. The company is based in Belo Horizonte, Brazil."
 }

@@ -2,6 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG000JHD961",
+    "figi": "BBG000JHDFH5",
     "isin": "NL0000226223"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -9,11 +11,6 @@
   "isin": "NL0000226223",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0INB.IL"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -60,16 +57,6 @@
       "symbol": "SGM.F"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "SGM.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SGM.SG"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "SGMR.DU"
@@ -85,11 +72,6 @@
       "symbol": "SGMR.SG"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "STM.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "STM.MI"
@@ -98,11 +80,6 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "STM.PA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "STM.VI"
     },
     {
       "currency": "EUR",
@@ -116,16 +93,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "STMICROELECTRONICS NV STMICROEL",
-  "primary_symbol": "0INB.IL",
+  "name": "STMicroelectronics NV",
+  "primary_symbol": "SGM.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "STMicroelectronics N.V. is a Franco-Italian multinational electronics and semiconductor manufacturer headquartered in Geneva, Switzerland. The company designs, develops, manufactures, and markets a range of semiconductor products used in various applications. STMicroelectronics N.V. is headquartered in Geneva, Switzerland.",
+  "summary": "STMicroelectronics N.V. is a global semiconductor company that designs, develops, manufactures, and markets a broad range of semiconductor integrated circuits and discrete devices. The company serves customers across a diverse range of applications, including automotive, industrial, personal electronics, and communications infrastructure. STMicroelectronics is headquartered in Geneva, Switzerland.",
   "website": "http://www.st.com"
 }

@@ -2,6 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000RGBVW8",
+    "cusip": "29286D105",
+    "figi": "BBG000RGBVW8",
     "isin": "FR0010208488"
   },
   "industry": "Multi-Utilities",
@@ -20,26 +23,6 @@
       "symbol": "ENGQF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GZF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GZF.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GZF.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GZF.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "ENGI.MI"
@@ -56,33 +39,13 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "GSZ.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "GSZ.SG"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "GZF.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "GZF.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GZF.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "GZF.SG"
     },
     {
       "currency": "EUR",
@@ -94,7 +57,7 @@
   "name": "ENGIE SA",
   "primary_symbol": "ENGIY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

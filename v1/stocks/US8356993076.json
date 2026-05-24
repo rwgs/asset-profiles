@@ -2,7 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "cusip": "835699307",
+    "composite_figi": "BBG000KBRKP1",
+    "cusip": "83572B109",
+    "figi": "BBG000KBRKP1",
     "isin": "US8356993076"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -14,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SNEJF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SONA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SONA.MU"
     },
     {
       "currency": "USD",
@@ -51,19 +43,9 @@
       "symbol": "SON1.VI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SONA.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SONA.F"
-    },
-    {
-      "currency": "IDR",
-      "exchange_mic": "XIDX",
-      "symbol": "SONA.JK"
     },
     {
       "currency": "EUR",
@@ -85,7 +67,7 @@
   "name": "Sony Group Corporation",
   "primary_symbol": "SNEJF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

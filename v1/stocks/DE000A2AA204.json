@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BYP2J0",
-    "figi": "BBG000BYP4Q8",
+    "figi": "BBG000BYP3L5",
     "isin": "DE000A2AA204"
   },
   "industry": "Capital Markets",
@@ -12,24 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DFTK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DFTK.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DFTK.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "DFTK.DU"
     },
     {
       "currency": "EUR",
@@ -43,16 +28,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "DF DT.FORFAIT AG  NA O.N.",
-  "primary_symbol": "DFTK.BE",
+  "name": "DF Deutsche Forfait AG",
+  "primary_symbol": "DFTK.DE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "DF Deutsche Forfait AG is a German financial services company that specializes in providing forfaiting and trade finance solutions. They purchase export receivables from companies, assuming the risk of non-payment. DF Deutsche Forfait AG is based in Cologne, Germany.",
+  "summary": "DF Deutsche Forfait AG, a forfaiting company, provides foreign trade finance and related services for exporters, importers, and other financial companies worldwide. It is involved in the collection of foreign trade receivables; and provision of marketing and consulting services. The company also engages in granting of loans, purchase and sale of promissory notes, processing of payment transactions, and debt collection activities. In addition, the company offers project financing and factoring services, as well as professional support for structuring of transactions or formulation of payment instruments. DF Deutsche Forfait AG was founded in 2000 and is headquartered in Gruenwald, Germany.",
   "website": "http://www.dfag.de"
 }

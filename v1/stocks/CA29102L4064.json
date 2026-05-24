@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG001M6WF64",
+    "cusip": "18469P209",
+    "figi": "BBG001M6WF64",
     "isin": "CA29102L4064"
   },
   "industry": "Capital Markets",
@@ -13,38 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "EMO"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EMOTF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EMO.F"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "EMO.V"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "LLJA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "LLJA.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "ClearBridge Energy Midstream Opportunity Fund Inc",
   "primary_symbol": "EMO",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

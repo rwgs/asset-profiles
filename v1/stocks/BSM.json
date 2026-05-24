@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG008B5CF29",
+    "figi": "BBG008B5CF29"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "BSM"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "one",
+  "name": "Black Stone Minerals, L.P.",
   "primary_symbol": "BSM",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Black Stone Minerals, L.P., together with its subsidiaries, owns and manages oil and natural gas mineral interests. It owns mineral interests in approximately 16.9 million gross acres, nonparticipating royalty interests in 1.8 million gross acres, and overriding royalty interests in 1.6 million gross acres located in 41 states in the United States. The company was founded in 1876 and is based in Houston, Texas."
 }

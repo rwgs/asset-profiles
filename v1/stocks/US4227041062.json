@@ -1,8 +1,10 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000DP2C46",
     "cusip": "422704106",
-    "figi": "BBG000DP2GP4",
+    "figi": "BBG000DP2FG6",
     "isin": "US4227041062"
   },
   "industry_group": "Materials",
@@ -10,30 +12,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HCL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HCL.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "HCL.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HCL.SG"
     }
   ],
-  "name": "HECLA MNG  DL-,25",
-  "primary_symbol": "HCL.BE",
+  "name": "HECLA MINING CO. Registered Sha",
+  "primary_symbol": "HCL.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

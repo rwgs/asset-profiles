@@ -2,6 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "cusip": "26210W605",
     "isin": "CA26210W6053"
   },
   "industry": "Diversified Telecommunication Services",
@@ -13,28 +14,13 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "ABB.AX"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XBOM",
-      "symbol": "ABB.BO"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XNSE",
-      "symbol": "ABB.NS"
-    },
-    {
-      "currency": "IDR",
-      "exchange_mic": "XIDX",
-      "symbol": "ABBA.JK"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Aussie Broadband Limited",
   "primary_symbol": "ABB.AX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

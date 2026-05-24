@@ -1,5 +1,9 @@
 {
+  "country": "Finland",
+  "country_code": "FI",
   "identifiers": {
+    "composite_figi": "BBG000MV7HG4",
+    "figi": "BBG000MV7N80",
     "isin": "FI0009005870"
   },
   "industry_group": "Real Estate",
@@ -7,15 +11,20 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "K34.BE"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "KCR.L"
     }
   ],
-  "name": "KCR Residential REIT plc",
-  "primary_symbol": "KCR.L",
+  "name": "Konecranes Oyj",
+  "primary_symbol": "K34.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

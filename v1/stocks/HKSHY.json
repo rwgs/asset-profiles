@@ -1,6 +1,11 @@
 {
   "country": "Hong Kong",
   "country_code": "HK",
+  "identifiers": {
+    "composite_figi": "BBG000PJHBH9",
+    "cusip": "43858X100",
+    "figi": "BBG000PJHBH9"
+  },
   "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "kind": "stock",
@@ -15,7 +20,7 @@
   "name": "The Hongkong and Shanghai Hotels, Limited",
   "primary_symbol": "HKSHY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

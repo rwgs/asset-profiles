@@ -2,6 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000BKBN27",
+    "figi": "BBG000BKBN27",
     "isin": "BMG348041077"
   },
   "industry": "Food & Staples Retailing",
@@ -20,16 +22,6 @@
       "symbol": "FPAFY"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPC.MU"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "FPC.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FPC.F"
@@ -41,10 +33,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "First Pacific Company Limited",
+  "name": "First Pacific Company Ltd.",
   "primary_symbol": "FPAFF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

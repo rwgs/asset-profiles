@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG001MM1TL6",
+    "cusip": "09214V104",
     "figi": "BBG001MM1TR0",
     "isin": "CA09214V1040"
   },
@@ -22,11 +23,6 @@
       "symbol": "BKIRF"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "BIN.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BIN.F"
@@ -35,16 +31,6 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BIN.SG"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "BKI.AX"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "BKI.BK"
     },
     {
       "currency": "CAD",
@@ -56,7 +42,7 @@
   "name": "Black Iron Inc.",
   "primary_symbol": "BIN.MU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

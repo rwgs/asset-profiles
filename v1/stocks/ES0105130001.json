@@ -2,6 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
+    "composite_figi": "BBG005CY5L62",
+    "figi": "BBG00CP4FCN9",
     "isin": "ES0105130001"
   },
   "industry": "IT Services",
@@ -10,24 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DOM.CR"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XMAD",
       "symbol": "DOM.MC"
-    },
-    {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "DOME.BA"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "DOME.ST"
     },
     {
       "currency": "MXN",
@@ -46,10 +33,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "DOMINGUEZ CIA, S.A",
-  "primary_symbol": "DOM.CR",
+  "name": "Global Dominion Access SA",
+  "primary_symbol": "DOM.MC",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

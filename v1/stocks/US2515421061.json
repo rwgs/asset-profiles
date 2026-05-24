@@ -2,7 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000GNH0N7",
     "cusip": "251542106",
+    "figi": "BBG000GNH0N7",
     "isin": "US2515421061"
   },
   "industry": "Capital Markets",
@@ -19,11 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "DBOEY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "63DA.SG"
     },
     {
       "currency": "EUR",
@@ -55,7 +52,7 @@
   "name": "Deutsche Borse AG",
   "primary_symbol": "DBOEF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

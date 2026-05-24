@@ -3,6 +3,7 @@
   "country_code": "GG",
   "identifiers": {
     "composite_figi": "BBG004FJ52G6",
+    "cusip": "G17977110",
     "figi": "BBG004FJ52L0",
     "isin": "GG00BMGYLN96"
   },
@@ -33,11 +34,6 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "BUR.PA"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GG00BMGYLN96.SG"
     }
@@ -46,7 +42,7 @@
   "name": "Burford Capital Limited",
   "primary_symbol": "BUR",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

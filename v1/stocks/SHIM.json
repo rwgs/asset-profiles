@@ -1,6 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG01JN8VS80",
+    "cusip": "82455M109",
+    "figi": "BBG01JN8VS80"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -13,7 +18,7 @@
   "name": "Shimmick Corporation Common Stock",
   "primary_symbol": "SHIM",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

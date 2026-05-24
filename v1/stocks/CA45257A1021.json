@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000LFTPN0",
+    "cusip": "45257A102",
     "figi": "BBG000LFVWD3",
     "isin": "CA45257A1021"
   },
@@ -20,11 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "IKL.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IPT.MU"
     },
     {
       "currency": "USD",
@@ -52,11 +48,6 @@
       "symbol": "IPT.AX"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "IPT.SG"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "IPT.V"
@@ -66,7 +57,7 @@
   "name": "IMPACT Silver Corp.",
   "primary_symbol": "IKL.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

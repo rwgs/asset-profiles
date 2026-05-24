@@ -2,7 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000BX64Z1",
     "cusip": "816078307",
+    "figi": "BBG000BX64Z1",
     "isin": "US8160783077"
   },
   "industry": "Construction & Engineering",
@@ -21,11 +23,6 @@
       "symbol": "SKHSY"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SPH"
-    },
-    {
       "currency": "JPY",
       "exchange_mic": "XTKS",
       "symbol": "1928.T"
@@ -40,7 +37,7 @@
   "name": "Sekisui House, Ltd.",
   "primary_symbol": "SKHSF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

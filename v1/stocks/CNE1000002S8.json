@@ -2,6 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG000GRSBW2",
+    "figi": "BBG000GRSBW2",
     "isin": "CNE1000002S8"
   },
   "industry": "Marine",
@@ -15,21 +17,6 @@
       "symbol": "CSDXF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HIFH.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HIFH.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HIFH.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HIFH.F"
@@ -41,10 +28,10 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "COSCO SHIPPING Energy Transportation Co., Ltd.",
+  "name": "COSCO SHIPPING Energy Transportation Co., Ltd. Class H",
   "primary_symbol": "CSDXF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

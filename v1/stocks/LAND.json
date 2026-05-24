@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG0014JY842",
+    "cusip": "376549101",
+    "figi": "BBG0014JY842"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "LAND"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Gladstone Land Corporation",
   "primary_symbol": "LAND",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Gladstone Land Corporation is a publicly traded real estate investment trust that acquires and owns farmland and farm-related properties located in major agricultural markets in the U.S. The Company currently owns 150 farms, comprised of approximately 103,000 acres in 15 different states and over 55,000 acre-feet of water assets in California. Gladstone Land farms are predominantly located in regions where its tenants can grow fresh produce annual row crops, such as berries and vegetables, which are generally planted and harvested annually. The Company also owns farms growing permanent crops, such as almonds, blueberries, figs, olives, pistachios, and wine grapes, which are generally planted every 20-plus year and harvested annually. Over 30% of its fresh produce acreage is either organic or in transition to become organic, and nearly 20% of its permanent crop acreage falls into this category. Gladstone Land pays monthly distributions to its stockholders and has paid 150 consecutive monthly cash distributions on its common stock since its initial public offering in January 2013. The current per-share distribution on its common stock is 0.0467 US dollars per month, or 0.5604 US dollars per year. Gladstone Land Corporation was founded and established on June 14, 1997 and is based in McLean, United States."
 }

@@ -1,38 +1,21 @@
 {
-  "country": "Germany",
-  "country_code": "DE",
+  "country": "Australia",
+  "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000BPQR12",
+    "cusip": "632525408",
+    "figi": "BBG000BPQR12",
     "isin": "AU000000NAB4"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "AU000000NAB4",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "NAB.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "NABZY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NAL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NAL.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NAL.MU"
     },
     {
       "currency": "USD",
@@ -43,11 +26,6 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "NAB.AX"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XCNQ",
-      "symbol": "NAB.CN"
     },
     {
       "currency": "AUD",
@@ -70,11 +48,6 @@
       "symbol": "NABPH.AX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "NAL.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NAL.F"
@@ -85,17 +58,17 @@
       "symbol": "NAL.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "NABAG Anlage- Und Beteiligungs AG",
-  "primary_symbol": "NAB.HM",
+  "market_cap_band": "Large Cap",
+  "name": "National Australia Bank Limited",
+  "primary_symbol": "NABZY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "NABAG Anlage- Und Beteiligungs AG operates as an investment company. NABAG Anlage- Und Beteiligungs AG is based in Nuremberg, Germany.",
-  "website": "http://www.nabag-ag.de"
+  "summary": "National Australia Bank Limited provides financial services to individuals and businesses in Australia, New Zealand, and internationally. It operates through Business and Private Banking, Personal Banking, Corporate and Institutional Banking, and New Zealand Banking segments. It operates through Business and Private Banking; Personal Banking; Corporate and Institutional Banking; New Zealand Banking; Corporate Functions and Other; and MLC Wealth segments. The company accepts transaction accounts, savings accounts, deposit accounts, and term deposits; and specialized accounts, such as foreign currency, business interest, statutory trust, community free saver, farm management, and project bank accounts, as well as farm management deposits. National Australia Bank Limited also provides home loans; personal loans; business loans; vehicle and equipment finance; and trade and invoice finance, as well as business overdrafts and bank guarantees. In addition, the company offers insurance products consisting of car, home and content, landlord, travel, caravan and trailer, life, and business insurance products; and pension, superannuation, self-managed super funds, cash management, and financial planning and advisory services. Further, it provides investment products; credit, debit, and business cards; payments and merchant services; travel services; online and internet banking services; small business services; international and foreign exchange solutions; and industry specific banking services. National Australia Bank Limited was founded in 1834 and is based in Docklands, Australia.",
+  "website": "http://www.nab.com.au"
 }

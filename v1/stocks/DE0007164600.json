@@ -3,6 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BDSLD7",
+    "cusip": "803054204",
     "figi": "BBG000BDSMR0",
     "isin": "DE0007164600"
   },
@@ -40,11 +41,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SAP.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAP.TI"
     },
     {
       "currency": "USD",
@@ -141,7 +137,7 @@
   "name": "SAP SE",
   "primary_symbol": "SAP",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BN5Y60",
+    "cusip": "53620R109",
+    "figi": "BBG000BN5Y60",
     "isin": "CA53620R1091"
   },
   "industry": "Capital Markets",
@@ -13,23 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "LEO"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "LEO.BK"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "LEO.ST"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "BNY Mellon Strategic Municipals, Inc.",
   "primary_symbol": "LEO",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

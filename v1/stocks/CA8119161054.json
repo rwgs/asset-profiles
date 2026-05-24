@@ -2,6 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
+    "composite_figi": "BBG000NCT9J6",
+    "cusip": "811916105",
+    "figi": "BBG000NCT9J6",
     "isin": "CA8119161054"
   },
   "industry": "Banks",
@@ -17,22 +20,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "SA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "SAN"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRM.MU"
     },
     {
       "currency": "GBP",
@@ -55,16 +43,6 @@
       "symbol": "BSDK.F"
     },
     {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "SA.BK"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "SAN.AX"
-    },
-    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "SAN.BA"
@@ -80,11 +58,6 @@
       "symbol": "SAN.MX"
     },
     {
-      "currency": "NZD",
-      "exchange_mic": "XNZE",
-      "symbol": "SAN.NZ"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "SAN.VI"
@@ -98,33 +71,13 @@
       "currency": "EUR",
       "exchange_mic": "XBRU",
       "symbol": "SANTA.BR"
-    },
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "SEA.JO"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSE",
-      "symbol": "SEA.TO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SRM.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SRM.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Banco Santander, S.A.",
   "primary_symbol": "BCDRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

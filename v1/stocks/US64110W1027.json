@@ -1,19 +1,16 @@
 {
-  "country": "India",
-  "country_code": "IN",
+  "country": "Cayman Islands",
+  "country_code": "KY",
   "identifiers": {
+    "composite_figi": "BBG000CT5FT2",
     "cusip": "64110W102",
+    "figi": "BBG000CT5JR6",
     "isin": "US64110W1027"
   },
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US64110W1027",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0K6G.IL"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -25,30 +22,20 @@
       "symbol": "NEH.MU"
     },
     {
-      "currency": "INR",
-      "exchange_mic": "XBOM",
-      "symbol": "NEH.BO"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "NEH.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "NEH.SG"
     }
   ],
-  "name": "NETEASE INC NETEASE ADR REP 25",
-  "primary_symbol": "0K6G.IL",
+  "name": "NETEASE INC. ADR/5",
+  "primary_symbol": "NEH.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "NetEase, Inc. is a leading Chinese internet technology company that develops and operates online games, advertising services, and e-commerce platforms. The company's popular online games include titles developed in-house and licensed from international developers. NetEase is headquartered in Hangzhou, China"
+  "summary": "NetEase, Inc. is a Chinese technology company providing online services focused on gaming, e-commerce, and media content. The company develops and operates online games, runs e-commerce platforms, and offers online advertising services, with its headquarters in Hangzhou, China. This ticker represents the American Depositary Receipt (ADR) of NetEase shares."
 }

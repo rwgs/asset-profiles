@@ -1,7 +1,9 @@
 {
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG000VZC4Y8",
-    "figi": "BBG000VZC673",
+    "figi": "BBG000VZC5T1",
     "isin": "CNE100000FN7"
   },
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
@@ -9,25 +11,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "X2S.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "X2S.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "X2S.SG"
     }
   ],
-  "name": "SINOPHARM GRP CO.LTD.YC 1",
-  "primary_symbol": "X2S.BE",
+  "name": "Sinopharm Group Co. Ltd. Regist",
+  "primary_symbol": "X2S.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG00PPXGH18",
+    "cusip": "68280L101",
+    "figi": "BBG00PPXGH18"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "ONEW"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "one",
+  "name": "OneWater Marine Inc.",
   "primary_symbol": "ONEW",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "OneWater Marine Inc. operates as a recreational marine retailer in the United States. The company offers new and pre-owned recreational boats and yachts, as well as related marine products comprising parts and accessories. It also provides boat repair and maintenance services; and other ancillary services, including indoor and outdoor storage, and marina services. In addition, the company arranges related boat financing, insurance, and extended service contracts for customers with third-party lenders and insurance companies. Further, it is involved in the rental of boats and personal watercraft. OneWater Marine Inc. was founded in 2014 and is headquartered in Buford, Georgia."
 }

@@ -1,7 +1,9 @@
 {
+  "country": "Brazil",
+  "country_code": "BR",
   "identifiers": {
     "composite_figi": "BBG00195NHC0",
-    "figi": "BBG00195NHK1",
+    "figi": "BBG00195NHH5",
     "isin": "BRPETRACNOR9"
   },
   "industry_group": "Energy",
@@ -9,30 +11,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PJXC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PJXC.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "PJXC.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PJXC.SG"
     }
   ],
-  "name": "PETROLEO BRAS.SA PET.",
-  "primary_symbol": "PJXC.BE",
+  "name": "PETROLEO BRASILEIRO S.A. Regist",
+  "primary_symbol": "PJXC.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

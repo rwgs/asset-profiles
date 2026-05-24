@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BNQN34",
+    "cusip": "55262C100",
+    "figi": "BBG000BNQN34",
     "isin": "JP3898400001"
   },
   "industry": "Insurance",
@@ -17,37 +20,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "MBI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "MBJ.BE"
     },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "MBJ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MSBHF"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "MBI.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "MBI.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "MBI.SG"
     },
     {
       "currency": "AED",
@@ -69,7 +47,7 @@
   "name": "MBIA Inc.",
   "primary_symbol": "MBI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

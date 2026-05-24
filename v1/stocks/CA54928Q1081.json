@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG001D9BVR3",
+    "cusip": "54928Q108",
     "figi": "BBG001D9BVY5",
     "isin": "CA54928Q1081"
   },
@@ -15,21 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "LKT.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUC.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUC.MU"
     },
     {
       "currency": "USD",
@@ -52,11 +38,6 @@
       "symbol": "LKT.SG"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "LUC.F"
-    },
-    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "LUC.ST"
@@ -71,7 +52,7 @@
   "name": "Lucara Diamond Corp.",
   "primary_symbol": "LKT.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

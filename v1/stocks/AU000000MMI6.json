@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG005GBRSR6",
+    "cusip": "566324109",
+    "figi": "BBG005GBRSR6",
     "isin": "AU000000MMI6"
   },
   "industry": "Real Estate Management & Development",
@@ -18,23 +21,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "M6M.F"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "MMI.AX"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XCNQ",
-      "symbol": "MMI.CN"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Marcus & Millichap, Inc.",
   "primary_symbol": "MMI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

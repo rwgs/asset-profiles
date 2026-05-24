@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000CWVLJ4",
+    "figi": "BBG000CWVLJ4",
     "isin": "DE000A1K0235"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -15,51 +17,21 @@
       "symbol": "SESMF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMHN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMHN.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMHN.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMHN.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SMHN.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SMHN.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SMHN.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SMHN.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "SUSS MicroTec SE",
   "primary_symbol": "SESMF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

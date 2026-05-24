@@ -2,6 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "composite_figi": "BBG000C1C9T9",
+    "figi": "BBG000C1C9T9",
     "isin": "NO0003021909"
   },
   "industry": "Capital Markets",
@@ -13,16 +15,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "ABGSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DAB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DAB.MU"
     },
     {
       "currency": "GBP",
@@ -40,31 +32,6 @@
       "symbol": "ABGO.OL"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XBRU",
-      "symbol": "ASC.BR"
-    },
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "ASC.JO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XATH",
-      "symbol": "ASCO.AT"
-    },
-    {
-      "currency": "DKK",
-      "exchange_mic": "XCSE",
-      "symbol": "DAB.CO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "DAB.F"
-    },
-    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "NO0003021909.SW"
@@ -74,7 +41,7 @@
   "name": "ABG Sundal Collier Holding ASA",
   "primary_symbol": "ABGSF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

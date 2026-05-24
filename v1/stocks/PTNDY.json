@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000D79GC1",
+    "cusip": "69368D102",
+    "figi": "BBG000D79GC1"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "PTNDY"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "PT Vale Indonesia Tbk",
   "primary_symbol": "PTNDY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "PT Vale Indonesia Tbk, together with its subsidiaries, engages in the mining and processing of nickel in Indonesia. The company was formerly known as PT International Nickel Indonesia Tbk and changed its name to PT Vale Indonesia Tbk in September 2011. PT Vale Indonesia Tbk was incorporated in 1968 and is headquartered in Jakarta, Indonesia."
 }

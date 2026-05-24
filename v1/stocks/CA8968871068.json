@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000GYSDK6",
+    "cusip": "896887106",
+    "figi": "BBG000GYSDK6",
     "isin": "CA8968871068"
   },
   "industry": "Metals & Mining",
@@ -25,26 +28,6 @@
       "symbol": "CM5R.MU"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TLG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TLG.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TLG.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TLG.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CM5R.F"
@@ -55,41 +38,16 @@
       "symbol": "CM5R.SG"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "TLG.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "TLG.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "TLG.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "TLG.SG"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "TLG.TO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "TLG.VI"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Troilus Gold Corp.",
   "primary_symbol": "CHXMF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

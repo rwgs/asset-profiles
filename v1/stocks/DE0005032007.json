@@ -3,6 +3,7 @@
   "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000BBNLK8",
+    "cusip": "014752109",
     "figi": "BBG000BBNNW1",
     "isin": "DE0005032007"
   },
@@ -15,36 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "ALX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALX.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XAMS",
-      "symbol": "ALX.AS"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "ALX.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ALX.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ALX.SG"
     },
     {
       "currency": "EUR",
@@ -61,7 +32,7 @@
   "name": "Alexander's, Inc.",
   "primary_symbol": "ALX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

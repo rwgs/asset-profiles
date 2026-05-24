@@ -2,7 +2,9 @@
   "country": "Argentina",
   "country_code": "AR",
   "identifiers": {
+    "composite_figi": "BBG000BTYTL9",
     "cusip": "879273209",
+    "figi": "BBG000BTYTL9",
     "isin": "US8792732096"
   },
   "industry": "Diversified Telecommunication Services",
@@ -19,16 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "TEO"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TEO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TEO.MU"
     },
     {
       "currency": "ARS",
@@ -55,7 +47,7 @@
   "name": "Telecom Argentina S.A.",
   "primary_symbol": "TCMFF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,6 +1,11 @@
 {
   "country": "Chile",
   "country_code": "CL",
+  "identifiers": {
+    "composite_figi": "BBG000BCZQ13",
+    "cusip": "05965X109",
+    "figi": "BBG000BCZQ13"
+  },
   "industry": "Banks",
   "industry_group": "Banks",
   "kind": "stock",
@@ -15,7 +20,7 @@
   "name": "Banco Santander-Chile",
   "primary_symbol": "BSAC",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

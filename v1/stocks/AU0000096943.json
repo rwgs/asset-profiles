@@ -3,6 +3,7 @@
   "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000CGJMB9",
+    "cusip": "297178105",
     "figi": "BBG000CGJP77",
     "isin": "AU0000096943"
   },
@@ -17,34 +18,14 @@
       "symbol": "ESS"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PIONF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PNL.BE"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0IIR.L"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "AU0000096943.SG"
-    },
-    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "E1SS34.SA"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "ESS.AX"
     },
     {
       "currency": "EUR",
@@ -55,23 +36,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EXP.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PNL.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "PNL.L"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Essex Property Trust, Inc.",
   "primary_symbol": "ESS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

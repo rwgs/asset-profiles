@@ -2,6 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG01WZQ2RY3",
+    "cusip": "00777X470",
+    "figi": "BBG01WZQ2RY3",
     "isin": "FR0000120271"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -18,11 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "TOTB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOTB.HA"
     },
     {
       "currency": "USD",
@@ -50,16 +48,6 @@
       "symbol": "FP.VI"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "FPP.AX"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "FPP.L"
-    },
-    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "FR0000120271.SW"
@@ -85,11 +73,6 @@
       "symbol": "TOTB.F"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "TOTB.SG"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "TTA.L"
@@ -99,7 +82,7 @@
   "name": "TOTAL SE",
   "primary_symbol": "TOT",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

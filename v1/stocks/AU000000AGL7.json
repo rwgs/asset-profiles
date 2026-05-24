@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00HCYVQQ4",
+    "cusip": "00857U206",
+    "figi": "BBG00HCYVQQ4",
     "isin": "AU000000AGL7"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -13,33 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "AGL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AGL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "N9Z1.BE"
-    },
-    {
-      "currency": "NZD",
-      "exchange_mic": "XNZE",
-      "symbol": "AGL.NZ"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "N9Z1.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "agilon health, inc.",
   "primary_symbol": "AGL",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

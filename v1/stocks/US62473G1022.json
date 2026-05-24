@@ -1,6 +1,10 @@
 {
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000R0X3K4",
     "cusip": "62473G102",
+    "figi": "BBG000R0X3K4",
     "isin": "US62473G1022"
   },
   "industry_group": "Capital Goods",
@@ -23,11 +27,6 @@
       "symbol": "MTX.TI"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MTX1.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MTX.F"
@@ -41,11 +40,6 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "MTX.VI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "MTX1.F"
     },
     {
       "currency": "EUR",
@@ -67,7 +61,7 @@
   "name": "MTU Aero Engines AG",
   "primary_symbol": "MTUAF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

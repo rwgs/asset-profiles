@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG004T0ZMF6",
+    "cusip": "40053W101",
+    "figi": "BBG004T0ZMF6"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "AVAL"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "one",
+  "name": "Grupo Aval Acciones y Valores S.A.",
   "primary_symbol": "AVAL",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Grupo Aval Acciones y Valores S.A. provides a range of financial services and products in Colombia and Central America. The company offers traditional deposit services and products, including checking accounts, savings accounts, time deposits, and other deposits. It also provides commercial loans comprising general purpose loans, working capital loans, leases, loans funded by development banks, corporate credit cards, and overdraft loans; consumer loans, such as payroll loans, personal loans, automobile and other vehicle loans, credit cards, overdrafts, leases, and general-purpose loans; and microcredit and mortgage loans. In addition, the company offers pension and severance fund management services; investment banking services, including services relating to capital markets, mergers and acquisitions, and delivering financial consulting services; mobile and online banking services; and bancassurance, insurance, trust, bonded warehousing, real estate escrow, merchandise and document storage and deposit, customs agency, cargo management, surety bond and merchandise distribution, and payment and collection services, as well as provides deposit and lending operations in foreign currencies. Further, it is involved in equity investments in various sectors, including infrastructure, energy and gas, agribusiness, and hotels; and providing treasury operations. The company was incorporated in 1994 and is headquartered in Bogotá, Colombia."
 }

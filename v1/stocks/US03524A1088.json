@@ -1,4 +1,6 @@
 {
+  "country": "Belgium",
+  "country_code": "BE",
   "identifiers": {
     "cusip": "03524A108",
     "isin": "US03524A1088"
@@ -15,22 +17,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "BUD.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ITKA.BE"
     },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "ITKA.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "BUD.SG"
     },
     {
       "currency": "AED",
@@ -43,10 +35,10 @@
       "symbol": "ITKA.SG"
     }
   ],
-  "name": "ANHEUSER BUSCH INBEV NV ANHEUSE",
+  "name": "Anheuser-Busch InBev SA/NV Sponsored ADR",
   "primary_symbol": "0A22.IL",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

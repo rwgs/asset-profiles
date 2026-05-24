@@ -2,6 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG006D4G345",
+    "cusip": "82937X103",
+    "figi": "BBG006D4G345",
     "isin": "KYG8167W1380"
   },
   "industry": "Biotechnology",
@@ -18,16 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SBMFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMZ1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMZ1.MU"
     },
     {
       "currency": "EUR",
@@ -49,7 +42,7 @@
   "name": "Sino Biopharmaceutical Limited",
   "primary_symbol": "SBHMY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

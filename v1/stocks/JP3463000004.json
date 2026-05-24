@@ -3,6 +3,7 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000LF8708",
+    "cusip": "874060205",
     "figi": "BBG000LF9BP1",
     "isin": "JP3463000004"
   },
@@ -15,26 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "TAK"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TKD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TKD.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TKD.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TKD.MU"
     },
     {
       "currency": "USD",
@@ -60,11 +41,6 @@
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "TAKP34.SA"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "TKD.DU"
     },
     {
       "currency": "EUR",
@@ -93,10 +69,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Takeda Pharmaceutical Company Limited",
+  "name": "Takeda Pharmaceutical Co. Ltd.",
   "primary_symbol": "TAK",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

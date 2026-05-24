@@ -1,4 +1,6 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000BK67C7",
     "cusip": "369550108",
@@ -17,26 +19,6 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "GDX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GDX.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GDX.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GDX.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "GDX.TI"
     },
     {
@@ -48,11 +30,6 @@
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "GDBR34.SA"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "GDX.DU"
     },
     {
       "currency": "EUR",
@@ -74,7 +51,7 @@
   "name": "General Dynamics Corporation",
   "primary_symbol": "GD",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

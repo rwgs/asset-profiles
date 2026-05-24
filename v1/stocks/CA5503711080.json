@@ -1,5 +1,9 @@
 {
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000BZYV49",
+    "cusip": "550371108",
     "isin": "CA5503711080"
   },
   "industry_group": "Materials",
@@ -7,30 +11,20 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUG.BE"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA5503711080.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "LUG.F"
     }
   ],
-  "name": "LUOYANG GLASS CO. H  YC 1",
-  "primary_symbol": "LUG.BE",
+  "name": "LUNDIN GOLD INC",
+  "primary_symbol": "CA5503711080.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Luoyang Glass Co., Ltd. manufactures and sells glass products. The company offers float glass, online coated glass, and other types of glass. Luoyang Glass is based in Luoyang, China."
+  "summary": "LUNDIN GOLD INC is a gold mining company that owns and operates the Fruta del Norte gold mine in Ecuador. The company is focused on increasing gold production and exploring for new resources in the area. Lundin Gold Inc is headquartered in Vancouver, British Columbia."
 }

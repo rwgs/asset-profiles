@@ -1,8 +1,9 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "cusip": "47089W104",
+    "composite_figi": "BBG000MBQ083",
+    "figi": "BBG000MBS5M4",
     "isin": "US47089W1045"
   },
   "industry": "Software",
@@ -13,44 +14,19 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "JAN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JAN.MU"
+      "symbol": "5AR1.BE"
     },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "JAN.AX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "JAN.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "JAN.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "JAN.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "US47089W1045.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "JAPAN ASIA INV.",
-  "primary_symbol": "JAN.BE",
+  "name": "AI Financial Corporation",
+  "primary_symbol": "5AR1.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

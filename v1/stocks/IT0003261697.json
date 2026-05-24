@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG000G18867",
+    "figi": "BBG000G18867",
     "isin": "IT0003261697"
   },
   "industry": "Capital Markets",
@@ -13,11 +15,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "AZIHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HDB"
     },
     {
       "currency": "USD",
@@ -53,33 +50,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HDB.SG"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "HDBN.MX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "HDFA.F"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XBOM",
-      "symbol": "HDFCBANK.BO"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XNSE",
-      "symbol": "HDFCBANK.NS"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Azimut Holding S.p.A.",
+  "name": "Azimut Holding Spa",
   "primary_symbol": "AZIHF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

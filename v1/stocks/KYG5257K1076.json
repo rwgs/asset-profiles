@@ -2,6 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG001LRJTK8",
+    "cusip": "495669103",
+    "figi": "BBG001LRJTK8",
     "isin": "KYG5257K1076"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -15,24 +18,9 @@
       "symbol": "KGBLY"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KLN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KLN.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1888.HK"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "1888.T"
     },
     {
       "currency": "EUR",
@@ -49,7 +37,7 @@
   "name": "Kingboard Laminates Holdings Limited",
   "primary_symbol": "KGBLY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

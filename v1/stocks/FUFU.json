@@ -1,6 +1,11 @@
 {
   "country": "Singapore",
   "country_code": "SG",
+  "identifiers": {
+    "composite_figi": "BBG01GVHVGZ3",
+    "cusip": "G1152A104",
+    "figi": "BBG01GVHVGZ3"
+  },
   "industry_group": "Software & Services",
   "kind": "stock",
   "listings": [
@@ -14,7 +19,7 @@
   "name": "BitFuFu Inc. Class A Ordinary Shares",
   "primary_symbol": "FUFU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

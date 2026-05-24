@@ -2,6 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG000BM83C0",
+    "figi": "BBG000BM83C0",
     "isin": "CNE100000536"
   },
   "industry": "Marine",
@@ -15,26 +17,6 @@
       "symbol": "CITAF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EZ5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EZ5.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EZ5.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EZ5.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EZ5.F"
@@ -46,10 +28,10 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "COSCO SHIPPING Development Co., Ltd.",
+  "name": "COSCO SHIPPING Development Co., Ltd. Class H",
   "primary_symbol": "CITAF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG00QNKF3W4",
+    "figi": "BBG00QNKF3W4",
     "isin": "AU000000KZR3"
   },
   "industry": "Metals & Mining",
@@ -20,16 +22,6 @@
       "symbol": "KR1.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KZR"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "2KZ.F"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000KZR3.SG"
@@ -46,10 +38,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Kalamazoo Resources Limited",
+  "name": "Kalamazoo Resources Ltd.",
   "primary_symbol": "KAMRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

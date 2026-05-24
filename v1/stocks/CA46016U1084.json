@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00HFFC8P4",
+    "cusip": "46016U108",
+    "figi": "BBG00HFFC8P4",
     "isin": "CA46016U1084"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "IPCFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IPT.BE"
     },
     {
       "currency": "SEK",
@@ -39,7 +37,7 @@
   "name": "International Petroleum Corporation",
   "primary_symbol": "IPCFF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

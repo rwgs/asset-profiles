@@ -1,32 +1,24 @@
 {
+  "country": "Indonesia",
+  "country_code": "ID",
   "identifiers": {
     "composite_figi": "BBG000H0B9B6",
-    "figi": "BBG000H0BF77",
+    "figi": "BBG000H0BD27",
     "isin": "ID1000095003"
   },
   "isin": "ID1000095003",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PQ9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PQ9.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PQ9.SG"
     }
   ],
-  "name": "BK MANDIRI (PERS)  RP 250",
-  "primary_symbol": "PQ9.BE",
+  "name": "Bank Mandiri Taspen, PT Registe",
+  "primary_symbol": "PQ9.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

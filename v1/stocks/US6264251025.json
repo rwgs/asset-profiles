@@ -2,7 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000CLKT76",
     "cusip": "626425102",
+    "figi": "BBG000CLKT76",
     "isin": "US6264251025"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -26,11 +28,6 @@
       "symbol": "6981.T"
     },
     {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "MUR.JO"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MUR1.F"
@@ -40,7 +37,7 @@
   "name": "Murata Manufacturing Co., Ltd.",
   "primary_symbol": "MRAAF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

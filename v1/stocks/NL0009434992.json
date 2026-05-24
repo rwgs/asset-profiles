@@ -2,28 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000WCFV84",
+    "cusip": "N53745100",
+    "figi": "BBG000WCFWH2",
     "isin": "NL0009434992"
   },
   "industry": "Chemicals",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Materials",
   "isin": "NL0009434992",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DLY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DLY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DLY.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -33,11 +21,6 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0EDD.L"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "DLY.DU"
     },
     {
       "currency": "EUR",
@@ -60,17 +43,17 @@
       "symbol": "LYBN.MX"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "DoubleLine Yield Opportunities Fund",
-  "primary_symbol": "DLY",
+  "market_cap_band": "Large Cap",
+  "name": "LyondellBasell Industries NV",
+  "primary_symbol": "LYB",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "DoubleLine Yield Opportunities Fund is a closed-end fund. The fund's objective is to seek high current income and secondarily, capital appreciation, by investing in a portfolio of investments including, among others, mortgage-backed securities, asset-backed securities, corporate debt, and other credit instruments. The fund is managed by DoubleLine Capital LP.",
+  "sector": "Materials",
+  "summary": "LyondellBasell Industries N.V. operates as a chemical company in the United States, Germany, Mexico, Italy, Poland, France, Japan, China, the Netherlands, and internationally. The company operates in six segments: Olefins and Polyolefins√Ç¬óAmericas; Olefins and Polyolefins√Ç¬óEurope, Asia, International; Intermediates and Derivatives; Advanced Polymer Solutions; Refining; and Technology. It produces and markets olefins and co-products; polyolefins; polyethylene products, which consist of high density polyethylene, low density polyethylene, and linear low density polyethylene; and polypropylene (PP) products, such as PP homopolymers and copolymers. The company also produces and sells propylene oxide and its derivatives; oxyfuels and related products; and intermediate chemicals, such as styrene monomers, acetyls, ethylene glycols, and ethylene oxides and derivatives. In addition, it produces and markets compounds and solutions, such as polypropylene compounds, engineered plastics, masterbatches, engineered composites, colors, and powders; and advanced polymers. Further, the company refines crude oil and other crude oils of varied types and sources into gasoline, diesel, and jet fuel; develops and licenses chemical and polyolefin process technologies; and manufactures and sells polyolefin catalysts. LyondellBasell Industries N.V. was founded in 1955 and is headquartered in Houston, Texas.",
   "website": "http://www.lyondellbasell.com"
 }

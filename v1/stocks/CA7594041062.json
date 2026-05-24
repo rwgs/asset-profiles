@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000CX3M38",
+    "cusip": "759404106",
+    "figi": "BBG000CX3M38",
     "isin": "CA7594041062"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -25,11 +28,6 @@
       "symbol": "RET-A.V"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XBRU",
-      "symbol": "RET.BR"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "RET.V"
@@ -39,7 +37,7 @@
   "name": "Reitmans (Canada) Limited",
   "primary_symbol": "RTMAF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

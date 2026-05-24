@@ -2,6 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG000BL7ZQ7",
+    "figi": "BBG000BL7ZQ7",
     "isin": "CNE1000004K1"
   },
   "industry": "Beverages",
@@ -18,11 +20,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "TSGTY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TSI"
     },
     {
       "currency": "USD",
@@ -55,16 +52,6 @@
       "symbol": "600600.SS"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "TSI.AX"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "TSI.BK"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "TSI.DU"
@@ -81,10 +68,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Tsingtao Brewery Company Limited",
+  "name": "Tsingtao Brewery Co., Ltd.",
   "primary_symbol": "TSGTF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

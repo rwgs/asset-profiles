@@ -1,6 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG006MM6RH9",
+    "cusip": "09073N300",
+    "figi": "BBG006MM6RH9"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -13,7 +18,7 @@
   "name": "Streamex Corp. Common Stock",
   "primary_symbol": "STEX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

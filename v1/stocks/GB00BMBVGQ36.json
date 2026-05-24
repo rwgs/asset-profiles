@@ -2,6 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000BWJ5L1",
+    "cusip": "411618200",
+    "figi": "BBG000BWJ5L1",
     "isin": "GB00BMBVGQ36"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "HBRIY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PMO"
     },
     {
       "currency": "USD",
@@ -44,7 +42,7 @@
   "name": "Harbour Energy plc",
   "primary_symbol": "HBRIY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

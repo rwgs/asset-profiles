@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000BSRCK7",
+    "cusip": "320654205",
+    "figi": "BBG000BSRCK7"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "FKYS"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "First Keystone Corporation",
   "primary_symbol": "FKYS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "First Keystone Corporation operates as the bank holding company for First Keystone Community Bank that provides various banking and related financial services to individual, business, government, and public and institutional customers in Northeastern Pennsylvania market area. The company accepts non-interest bearing and interest-bearing demand accounts; checking, savings, and money market accounts; time deposits and certificates of deposits; and individual retirement accounts. It also offers commercial and industrial loans, which include short-term loans and lines of credit to finance machinery and equipment, inventory, and accounts receivable; commercial real estate loans secured primarily by commercial retail space, commercial office buildings, residential housing, and hotels; residential real estate loans, such as one-to-four family residential mortgage loans, home equity term loans, and home equity lines of credit; and consumer loans, including vehicle loans, stock secured loans, and loans secured by financial institution deposits, as well as agricultural loans, and state and political subdivisions loans. In addition, the company provides trust and agency services that include trust investment accounts, investment advisory services, mutual funds, estate planning, and management of pension and profit-sharing plans to individuals, corporations, and others. Further, it offers debit and credit cards, and safe deposit boxes, as well as operates full-service offices and automated teller machines located in Columbia, Luzerne, Montour, Monroe, and Northampton counties. First Keystone Corporation was founded in 1864 and is headquartered in Berwick, Pennsylvania."
 }

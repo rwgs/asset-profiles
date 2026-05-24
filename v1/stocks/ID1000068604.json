@@ -2,6 +2,8 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
+    "composite_figi": "BBG00BGSD8C1",
+    "figi": "BBG00BGSD8C1",
     "isin": "ID1000068604"
   },
   "industry": "Tobacco",
@@ -13,16 +15,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "GDNGY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GGG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GGG.MU"
     },
     {
       "currency": "USD",
@@ -49,7 +41,7 @@
   "name": "PT Gudang Garam Tbk",
   "primary_symbol": "GDNGY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

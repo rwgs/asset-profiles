@@ -2,6 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "cusip": "14042M102",
     "isin": "CA14042M1023"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -25,16 +26,6 @@
       "symbol": "CPXWF"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "CPX.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CPX.SG"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "CPX.TO"
@@ -44,7 +35,7 @@
   "name": "CAPITAL POWER CORPORATION",
   "primary_symbol": "CPRHF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

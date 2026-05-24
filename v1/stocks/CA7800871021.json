@@ -3,6 +3,7 @@
   "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000BTN800",
+    "cusip": "780087102",
     "figi": "BBG000BTNB85",
     "isin": "CA7800871021"
   },
@@ -15,21 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "RA6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RYC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RYC.MU"
     },
     {
       "currency": "USD",
@@ -50,38 +36,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RA6.SG"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSE",
-      "symbol": "RY.TO"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "RYC.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "RYC.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "RYC.SG"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "RYN.MX"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Rayonier Inc.",
   "primary_symbol": "RA6.MU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

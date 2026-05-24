@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000QSR2J5",
+    "cusip": "04682R107",
+    "figi": "BBG000QSR2J5",
     "isin": "CA04682R1073"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -17,27 +20,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "ATI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ATI.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "ATD.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ATD.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "ATH.MI"
     },
     {
       "currency": "CAD",
@@ -46,23 +29,8 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "ATH.VI"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ATI.F"
-    },
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "ATI.JO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "ATI.PA"
     },
     {
       "currency": "EUR",
@@ -74,7 +42,7 @@
   "name": "Athabasca Oil Corporation",
   "primary_symbol": "ATHOF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

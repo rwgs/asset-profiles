@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG002RRKQ60",
+    "cusip": "27887W100",
+    "figi": "BBG002RRKQ60",
     "isin": "CA27887W1005"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -25,11 +28,6 @@
       "symbol": "ECO.L"
     },
     {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "ECO.OL"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "EOG.V"
@@ -49,7 +47,7 @@
   "name": "Eco (Atlantic) Oil & Gas Ltd.",
   "primary_symbol": "ECAOF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

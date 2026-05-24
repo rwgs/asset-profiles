@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000C8NT27",
+    "figi": "BBG000C8NT27",
     "isin": "DE000A1YCMM2"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -15,29 +17,9 @@
       "symbol": "SRWRF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWVK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWVK.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWVK.MU"
-    },
-    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "DE000A1YCMM2.SW"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SWVK.DU"
     },
     {
       "currency": "EUR",
@@ -54,7 +36,7 @@
   "name": "SolarWorld Aktiengesellschaft",
   "primary_symbol": "SRWRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000BGYJR3",
+    "figi": "BBG002HCYT63",
     "isin": "DE000CBK1001"
   },
   "industry": "Banks",
@@ -10,21 +12,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CBKD.IL"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "CBK.MI"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "COMMERCIAL INTERNATIONAL BANK (",
-  "primary_symbol": "CBKD.IL",
+  "name": "Commerzbank AG",
+  "primary_symbol": "CBK.MI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

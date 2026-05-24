@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG001855699",
+    "figi": "BBG001855699"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "BGX"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "one",
+  "name": "Blackstone Long-Short Credit Income Fund",
   "primary_symbol": "BGX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Blackstone Long-Short Credit Income Fund is a close-ended fixed income mutual fund launched by The Blackstone Group LP. The fund is managed by GSO / Blackstone Debt Funds Management LLC. It takes both long and short positions to invest in the fixed income markets of the United States. The fund seeks to invest in stocks of companies operating across diversified sectors. It primarily invests in loans and fixed-income instruments of corporate issuers, including first and second lien secured loans and high-yield corporate debt securities of varying maturities. The fund seeks to invest in securities rated below investment grade. It employs fundamental analysis using a research-driven credit approach to create its portfolio. The fund benchmarks the performance of its portfolio against a composite index comprised of 70% S&P/LSTA Leveraged Loan Index and 30% Barclays US High Yield Index. Blackstone Long-Short Credit Income Fund was formed on October 22, 2010 and is domiciled in the United States."
 }

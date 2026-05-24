@@ -1,8 +1,8 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GLJ2B8",
     "cusip": "21036P108",
-    "figi": "BBG000GLJ5J3",
     "isin": "US21036P1084"
   },
   "industry_group": "Food, Beverage & Tobacco",
@@ -10,19 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CB1A.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "CB1A.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CB1A.DU"
     },
     {
       "currency": "EUR",
@@ -31,10 +21,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "CONST.BRANDS A  DL-,01",
-  "primary_symbol": "CB1A.MU",
+  "name": "Constellation Brands, Inc.",
+  "primary_symbol": "CB1A.DE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

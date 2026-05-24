@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG00BDCNNF2",
+    "cusip": "448811208",
+    "figi": "BBG00BDCNNF2"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "HRNNF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Hydro One Limited",
   "primary_symbol": "HRNNF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Hydro One Limited operates as an electricity transmission and distribution company in Ontario. It operates through three segments: Transmission, Distribution, and Other. The company owns and operates approximately 30,000 circuit kilometers of high-voltage transmission lines and approximately 126,000 circuit kilometers primary low-voltage distribution lines. It provides telecommunications support services for its transmission and distribution businesses; and information and communications technology services and solutions. It serves residential, small business, commercial, and industrial customers, as well as municipal utilities. Hydro One Limited was incorporated in 2015 and is headquartered in Toronto, Canada."
 }

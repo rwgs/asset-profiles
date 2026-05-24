@@ -3,6 +3,7 @@
   "country_code": "ES",
   "identifiers": {
     "composite_figi": "BBG000BXD232",
+    "cusip": "05946K101",
     "figi": "BBG000BXD4Z3",
     "isin": "ES0113211835"
   },
@@ -19,32 +20,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "BBVA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "BBVXF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BOY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BOY.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BOY.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BOY.MU"
     },
     {
       "currency": "ARS",
@@ -60,11 +36,6 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "BBVA.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "BBVA.DU"
     },
     {
       "currency": "EUR",
@@ -102,11 +73,6 @@
       "symbol": "BOY.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "BOY.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BOY.F"
@@ -126,7 +92,7 @@
   "name": "Banco Bilbao Vizcaya Argentaria, S.A.",
   "primary_symbol": "BBVA",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

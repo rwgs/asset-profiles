@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000BSJDV2",
+    "cusip": "878742303",
+    "figi": "BBG000BSJDV2",
     "isin": "CA8787422044"
   },
   "industry": "Metals & Mining",
@@ -20,16 +23,6 @@
       "symbol": "TECK"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TEKB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TEKB.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "TECK-A.TO"
@@ -43,11 +36,6 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "TECKN.MX"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "TEKB.DU"
     },
     {
       "currency": "EUR",
@@ -66,10 +54,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Teck Resources Limited",
+  "name": "Teck Resources Ltd",
   "primary_symbol": "TCKRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

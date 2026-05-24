@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000GJJ063",
+    "cusip": "45853N102",
+    "figi": "BBG000GJJ063"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "IESFY"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Interconexión Eléctrica S.A. E.S.P.",
   "primary_symbol": "IESFY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Interconexión Eléctrica S.A. E.S.P. engages in the electric power, roads, and ICT and telecommunications business activities. It designs, builds, operates, and maintains high voltage power transmission systems; connects generators, operators, and consumers to electrical systems; constructs infrastructure projects; and provides maintenance services, as well as electrical and energy studies. The company also designs, builds, operates, and maintains highway infrastructure; and offers telecommunications and ICT solutions. The company was founded in 1967 and is based in Medellín, Colombia. Interconexión Eléctrica S.A. E.S.P. operates as a subsidiary of Ecopetrol S.A."
 }

@@ -2,6 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000JJKDN1",
+    "cusip": "81814P209",
+    "figi": "BBG000JJKDN1",
     "isin": "GB00B1FH8J72"
   },
   "industry": "Water Utilities",
@@ -13,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "STRNY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SVT"
     },
     {
       "currency": "USD",
@@ -53,18 +51,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SVT1.SG"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "SVTN.V"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Severn Trent Plc",
   "primary_symbol": "STRNY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

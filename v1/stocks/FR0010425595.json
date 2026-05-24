@@ -2,6 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG0084L1XN2",
+    "cusip": "15117K103",
+    "figi": "BBG0084L1XN2",
     "isin": "FR0010425595"
   },
   "industry": "Biotechnology",
@@ -9,11 +12,6 @@
   "isin": "FR0010425595",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0WA2.IL"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -25,24 +23,9 @@
       "symbol": "CMVLF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZVA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZVA.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALCLS.PA"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "ZVA.DU"
     },
     {
       "currency": "EUR",
@@ -51,26 +34,21 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ZVA.SG"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ZVAA.F"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "CELLECTIS SA CELLECTIS ORD SHS",
-  "primary_symbol": "0WA2.IL",
+  "name": "Cellectis S.A.",
+  "primary_symbol": "CLLS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Cellectis SA is a French biopharmaceutical company focused on developing allogeneic CAR-T cell therapies for cancer. The company uses its gene editing technology to create off-the-shelf CAR-T cell products. Cellectis is headquartered in Paris, France.",
+  "summary": "Cellectis S.A., a clinical stage biotechnological company, develops immuno-oncology products based on gene-edited T-cells that express chimeric antigen receptors to target and eradicate cancer cells. It operates through two segments, Therapeutics and Plants. The company is developing UCART19, an allogeneic T-cell product candidate for the treatment of CD19-expressing hematologic malignancies, such as acute lymphoblastic leukemia; ALLO-501 and ALLO-501A to treat relapsed/refractory diffuse large B-cell lymphoma and follicular lymphoma; ALLO-316 for the treatment of Renal Cell Carcinoma; UCART123 for the treatment of acute myeloid leukemia; and UCART22 to treat B-cell acute lymphoblastic leukemia. It is also developing UCARTCS1 and ALLO-715 for the treatment of multiple myeloma. In addition, the company produces high oleic soybean oil, other soybean products, and fiber wheat. It has strategic alliances with Allogene Therapeutics, Inc.; Les Laboratoires Servier; The University of Texas M.D. Anderson Cancer Center; and Iovance Biotherapeutics, as well as a strategic research and development collaboration with Cytovia Therapeutics, Inc. The company was founded in 1999 and is headquartered in Paris, France.",
   "website": "http://www.cellectis.com"
 }

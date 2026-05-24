@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG00QB303Q8",
+    "cusip": "98979N100",
+    "figi": "BBG00QB303Q8"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "ZTLLF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Zonetail Inc.",
   "primary_symbol": "ZTLLF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Zonetail Inc. provides a mobile platform that transforms the way residents of high- and mid-rise apartments and condominium buildings to manage their homes by connecting people to products, amenities, and services. The company's platform addresses the needs of residents of multi-family residential buildings, planned communities, condominium communities, and housing cooperatives. Zonetail Inc. is based in Toronto, Canada."
 }

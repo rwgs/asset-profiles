@@ -2,6 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG0038W8416",
+    "cusip": "16951X102",
+    "figi": "BBG0038W8416",
     "isin": "BMG2113B1081"
   },
   "industry": "Gas Utilities",
@@ -20,16 +23,6 @@
       "symbol": "CRGGF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LGX1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LGX1.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LGX1.F"
@@ -44,7 +37,7 @@
   "name": "China Resources Gas Group Limited",
   "primary_symbol": "CGASY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

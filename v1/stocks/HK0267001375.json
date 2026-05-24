@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BG4LG3",
+    "cusip": "154760409",
+    "figi": "BBG000BG4LG3",
     "isin": "HK0267001375"
   },
   "industry": "Banks",
@@ -15,26 +18,6 @@
       "symbol": "CPF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CPF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CPF.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CPF.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CPF.SG"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "XCP1.F"
@@ -44,7 +27,7 @@
   "name": "Central Pacific Financial Corp.",
   "primary_symbol": "CPF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

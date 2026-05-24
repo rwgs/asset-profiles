@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00DGHN8D9",
+    "cusip": "81948A102",
+    "figi": "BBG00DGHN8D9",
     "isin": "CA81948A1021"
   },
   "industry": "Construction & Engineering",
@@ -13,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "INTWF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IWIA.MU"
     },
     {
       "currency": "EUR",
@@ -39,7 +37,7 @@
   "name": "Sharc International Systems Inc.",
   "primary_symbol": "INTWF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

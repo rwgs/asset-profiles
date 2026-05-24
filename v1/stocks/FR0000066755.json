@@ -2,8 +2,7 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DGPNR2",
-    "figi": "BBG000DGPR75",
+    "cusip": "72369H106",
     "isin": "FR0000066755"
   },
   "industry": "Machinery",
@@ -11,6 +10,11 @@
   "isin": "FR0000066755",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "PHT"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -38,20 +42,15 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PHT.SG"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "PIG.PA"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "HAULOTTE GROUP INH.EO-,13",
-  "primary_symbol": "PHT.BE",
+  "name": "Haulotte Group SA",
+  "primary_symbol": "PHT",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

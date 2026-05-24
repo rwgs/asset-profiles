@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "71375U101",
+    "composite_figi": "BBG000P23KW4",
+    "cusip": "74386T105",
+    "figi": "BBG000P23KW4",
     "isin": "US71375U1016"
   },
   "industry": "Banks",
@@ -16,29 +18,14 @@
       "symbol": "PFS"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PRFT"
-    },
-    {
       "currency": "INR",
       "exchange_mic": "XBOM",
       "symbol": "PFS.BO"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PFS.F"
-    },
-    {
       "currency": "INR",
       "exchange_mic": "XNSE",
       "symbol": "PFS.NS"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PFS.SG"
     },
     {
       "currency": "EUR",
@@ -50,7 +37,7 @@
   "name": "Provident Financial Services, Inc.",
   "primary_symbol": "PFS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000MNYFN8",
+    "cusip": "60254C100",
+    "figi": "BBG000MNYFN8",
     "isin": "CA60254C1005"
   },
   "industry": "Metals & Mining",
@@ -25,11 +28,6 @@
       "symbol": "XYD.MU"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "MSV.AX"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "MSV.TO"
@@ -49,7 +47,7 @@
   "name": "Minco Silver Corporation",
   "primary_symbol": "MISVF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

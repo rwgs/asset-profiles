@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG004PP4922",
+    "cusip": "861780104",
+    "figi": "BBG004PP4922"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "BANX"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "one",
+  "name": "ArrowMark Financial Corp.",
   "primary_symbol": "BANX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "ArrowMark Financial Corp. is a closed-end balanced mutual fund launched and managed by ArrowMark Asset Management, LLC. It invests in public equity and fixed income markets of global region. For its equity portion, the fund invests in stocks of companies operating across financials, banks sectors. It invests in growth and value stocks of companies across diversified market capitalization. For its fixed income portion, the fund invests in debt and subordinated debt, structured notes and securities, regulatory capital securities which are rated below investment grade. ArrowMark Financial Corp. was formed on February 7, 2013 and is domiciled in the United States."
 }

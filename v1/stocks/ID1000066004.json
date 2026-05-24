@@ -2,6 +2,9 @@
   "country": "Taiwan, Province of China",
   "country_code": "TW",
   "identifiers": {
+    "composite_figi": "BBG00KLHL9W6",
+    "cusip": "00215W100",
+    "figi": "BBG00KLHL9W6",
     "isin": "ID1000066004"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -15,31 +18,16 @@
       "symbol": "ASX"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASX.MU"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "ASEHN.MX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ASX.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "ASE Technology Holding Co., Ltd.",
   "primary_symbol": "ASX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

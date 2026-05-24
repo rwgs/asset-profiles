@@ -2,8 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BSWTH8",
-    "figi": "BBG000BSWX34",
+    "composite_figi": "BBG000BNJRZ8",
+    "cusip": "058586108",
+    "figi": "BBG000BNJRZ8",
     "isin": "CA0585861085"
   },
   "industry": "Machinery",
@@ -14,57 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "BLD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "BLDP"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PO0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PO0.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PO0.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PO0.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "BLD.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "BLD.SG"
     },
     {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "BLDP.TO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "PO0.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "PO0.DU"
     },
     {
       "currency": "EUR",
@@ -78,10 +34,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "BRIT. LD CO. PLC  LS-,25",
-  "primary_symbol": "BLD.BE",
+  "name": "Ballard Power Systems Inc.",
+  "primary_symbol": "BLDP",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

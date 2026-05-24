@@ -1,7 +1,9 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Poland",
+  "country_code": "PL",
   "identifiers": {
+    "composite_figi": "BBG000QY2SV8",
+    "figi": "BBG000QY2VK3",
     "isin": "GB0031030819"
   },
   "industry": "Pharmaceuticals",
@@ -9,16 +11,6 @@
   "isin": "GB0031030819",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "APH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "APH.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -30,34 +22,9 @@
       "symbol": "DVL.MU"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "APH.AX"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "APH.DU"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "APH.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "APH.SG"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "DVL.AX"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XBOM",
-      "symbol": "DVL.BO"
     },
     {
       "currency": "EUR",
@@ -65,27 +32,22 @@
       "symbol": "DVL.F"
     },
     {
-      "currency": "INR",
-      "exchange_mic": "XNSE",
-      "symbol": "DVL.NS"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DVL.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "AMPIO PHARMACEUTIC.DL-,01",
-  "primary_symbol": "APH.BE",
+  "market_cap_band": "Small Cap",
+  "name": "ALLIANCE PHARMA PLC",
+  "primary_symbol": "DVL.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Ampio Pharmaceuticals Inc. is a biopharmaceutical company focused on the development of therapies for the treatment of inflammatory conditions, specifically osteoarthritis. Their lead product candidate is Ampion, an injectable biologic drug. The company is headquartered in Englewood, Colorado.",
-  "website": "http://www.ausprimaryhemp.com.au"
+  "summary": "Alliance Pharma PLC is a pharmaceutical company that acquires, markets, and distributes established pharmaceutical products and consumer healthcare brands. The company focuses on products with strong brand recognition and growth potential. Alliance Pharma PLC is headquartered in Chippenham, United Kingdom.",
+  "website": "http://www.alliancepharmaceuticals.com"
 }

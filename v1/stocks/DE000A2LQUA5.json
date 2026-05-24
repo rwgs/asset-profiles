@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BT4RM5",
+    "cusip": "128125101",
+    "figi": "BBG000BT4RM5",
     "isin": "DE000A2LQUA5"
   },
   "industry": "Capital Markets",
@@ -13,43 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "CSQ"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CSQ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CSQ.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "CSQ.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CSQ.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "CSQ.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CSQ.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Calamos Strategic Total Return Fund",
   "primary_symbol": "CSQ",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

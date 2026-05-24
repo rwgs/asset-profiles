@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000BHPV12",
+    "cusip": "805112109",
+    "figi": "BBG000BHPV12",
     "isin": "CA8051121090"
   },
   "industry": "Machinery",
@@ -20,31 +23,6 @@
       "symbol": "S97.F"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "SIS.AX"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "SIS.BK"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XBOM",
-      "symbol": "SIS.BO"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "SIS.L"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XNSE",
-      "symbol": "SIS.NS"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "SIS.TO"
@@ -54,7 +32,7 @@
   "name": "Savaria Corporation",
   "primary_symbol": "SISXF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

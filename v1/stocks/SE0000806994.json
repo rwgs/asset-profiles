@@ -2,18 +2,15 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG000BZKM71",
+    "figi": "BBG000BZKQ72",
     "isin": "SE0000806994"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Capital Goods",
   "isin": "SE0000806994",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JMM"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -28,24 +25,19 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "JMM.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "JMM.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Nuveen Multi-Market Income Fund",
-  "primary_symbol": "JMM",
+  "market_cap_band": "Mid Cap",
+  "name": "JM AB",
+  "primary_symbol": "JMM.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Nuveen Multi-Market Income Fund is a closed-end investment fund managed by Nuveen Asset Management. The fund seeks to generate income by investing in a portfolio of multi-sector debt securities. The fund is based in the United States.",
+  "sector": "Industrials",
+  "summary": "JM AB (publ) develops and sells housing and residential areas in the Nordic region. The company operates in five segments: JM Residential Stockholm, JM Residential Sweden, JM International, JM Property Development, and JM Construction. It is involved in the acquisition of development properties; planning, pre-construction, production, management, and sale of residential units; development of rental housing, residential care facilities, and commercial properties; and contract works primarily in the Greater Stockholm area. The company was founded in 1945 and is headquartered in Solna, Sweden.",
   "website": "http://www.jm.se"
 }

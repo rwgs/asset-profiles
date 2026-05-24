@@ -2,6 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG000BQY7G9",
+    "figi": "BBG000BQY7G9",
     "isin": "CH0012032048"
   },
   "industry": "Pharmaceuticals",
@@ -40,11 +42,6 @@
       "symbol": "RO.SW"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "ROG.AX"
-    },
-    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "ROG.SW"
@@ -59,7 +56,7 @@
   "name": "Roche Holding AG",
   "primary_symbol": "RHHBF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

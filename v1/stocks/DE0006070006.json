@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000C14F32",
+    "figi": "BBG000C14F32",
     "isin": "DE0006070006"
   },
   "industry": "Construction & Engineering",
@@ -55,16 +57,6 @@
       "symbol": "HOT.F"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "HOT.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "HOT.SG"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "HOT.VI"
@@ -74,7 +66,7 @@
   "name": "HOCHTIEF Aktiengesellschaft",
   "primary_symbol": "HOCFF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

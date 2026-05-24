@@ -2,6 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000C1F9F1",
+    "figi": "BBG000C1F9F1",
     "isin": "HK0200030994"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -13,16 +15,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "MDEVF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MX7A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MX7A.MU"
     },
     {
       "currency": "HKD",
@@ -44,7 +36,7 @@
   "name": "Melco International Development Limited",
   "primary_symbol": "MDEVF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

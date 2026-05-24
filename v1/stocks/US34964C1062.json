@@ -1,6 +1,10 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG005JRZD47",
     "cusip": "34964C106",
+    "figi": "BBG005JRZDD7",
     "isin": "US34964C1062"
   },
   "industry_group": "Consumer Durables & Apparel",
@@ -9,19 +13,14 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "2FB.DE"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "2FB.SG"
     }
   ],
-  "name": "FORT.BRAND.HOME+SEC.INC.",
-  "primary_symbol": "2FB.DE",
+  "name": "Fortune Brands Home & Sec.Inc.R",
+  "primary_symbol": "2FB.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

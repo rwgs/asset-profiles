@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG0078PJKQ7",
+    "cusip": "21833P301",
+    "figi": "BBG0078PJKQ7",
     "isin": "LU1829218749"
   },
   "industry": "Biotechnology",
@@ -23,23 +26,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "337.F"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CRB.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "CRB.F"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Corbus Pharmaceuticals Holdings, Inc.",
   "primary_symbol": "CRBP",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

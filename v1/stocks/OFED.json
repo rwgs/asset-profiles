@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG001DCR685",
+    "cusip": "675607105",
+    "figi": "BBG001DCR685"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "OFED"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "one",
+  "name": "Oconee Federal Financial Corp.",
   "primary_symbol": "OFED",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Oconee Federal Financial Corp. operates as a holding company for Oconee Federal Savings and Loan Association that provides various banking products and services in the Oconee and Pickens County areas of northwestern South Carolina, and the northeast area of Georgia in Stephens County and Rabun County. It offers deposit products, including demand, money market, NOW, savings, and individual retirement accounts, as well as certificates of deposit. The company's loan portfolio comprises one-to-four family residential and multi-family real estate loans; home equity loans and lines of credit; nonresidential real estate loans; mortgage loans; construction and land loans; commercial and industrial loans; agricultural loans; and consumer and other loans, such as installment loans for various consumer purposes, including the purchase of automobiles, boats, and other legitimate personal purposes. Oconee Federal Financial Corp. was founded in 1924 and is based in Seneca, South Carolina. Oconee Federal Financial Corp. operates as a subsidiary of Oconee Federal, MHC."
 }

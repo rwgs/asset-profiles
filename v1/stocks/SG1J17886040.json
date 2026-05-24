@@ -2,6 +2,8 @@
   "country": "Mexico",
   "country_code": "MX",
   "identifiers": {
+    "composite_figi": "BBG000R8FY47",
+    "figi": "BBG000R8FY47",
     "isin": "SG1J17886040"
   },
   "industry": "Air Freight & Logistics",
@@ -20,16 +22,6 @@
       "symbol": "PAC"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCDVF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PFQ.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "G9N.F"
@@ -43,38 +35,13 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "GAPB.MX"
-    },
-    {
-      "currency": "SGD",
-      "exchange_mic": "XSES",
-      "symbol": "P15.SI"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "PAC.AX"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "PAC.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PFQ.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PFQ.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Grupo Aeroportuario del Pacifico, S.A.B. de C.V.",
   "primary_symbol": "GPAEF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

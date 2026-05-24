@@ -1,8 +1,10 @@
 {
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000BF2GR6",
     "cusip": "110448107",
-    "figi": "BBG000BF2LL1",
+    "figi": "BBG000BF2KH8",
     "isin": "US1104481072"
   },
   "industry_group": "Food, Beverage & Tobacco",
@@ -10,25 +12,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BMTA.BE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "BMTA.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BMTA.SG"
     }
   ],
-  "name": "BRIT.AMER.TOBACCO ADR/",
-  "primary_symbol": "BMTA.BE",
+  "name": "BRITISH AMERICAN TOBACCO PLC Re",
+  "primary_symbol": "BMTA.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

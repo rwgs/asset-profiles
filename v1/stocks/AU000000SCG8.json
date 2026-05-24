@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG006W7VV66",
+    "figi": "BBG006W7VV66",
     "isin": "AU000000SCG8"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -9,11 +11,6 @@
   "isin": "AU000000SCG8",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCG.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -28,23 +25,13 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "SCG.AX"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "SCG.BK"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SCG.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "SPORTING-FUTEBOL INH.EO 1",
-  "primary_symbol": "SCG.MU",
+  "name": "Scentre Group",
+  "primary_symbol": "STGPF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

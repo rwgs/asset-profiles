@@ -1,8 +1,10 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000J57KY8",
     "cusip": "125269100",
-    "figi": "BBG000J57PL1",
+    "figi": "BBG000J57N36",
     "isin": "US1252691001"
   },
   "industry_group": "Materials",
@@ -10,40 +12,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "C4F.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "C4F.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "C4F.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "C4F.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "C4F.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "C4F.SG"
     }
   ],
-  "name": "CF INDS HLDGS  DL-,01",
-  "primary_symbol": "C4F.BE",
+  "name": "CF Industries Holdings Inc. Reg",
+  "primary_symbol": "C4F.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

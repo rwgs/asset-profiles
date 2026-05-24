@@ -2,7 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "cusip": "204319107",
+    "composite_figi": "BBG000BZ8Z21",
+    "cusip": "12570Q107",
+    "figi": "BBG000BZ8Z21",
     "isin": "US2043191079"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -26,16 +28,6 @@
       "symbol": "CFRUY"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RIT1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RIT1.TA"
-    },
-    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "CFR.JO"
@@ -53,11 +45,6 @@
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
-      "symbol": "RIT1.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
       "symbol": "RIU1.F"
     }
   ],
@@ -65,7 +52,7 @@
   "name": "Compagnie Financiere Richemont SA",
   "primary_symbol": "CFRHF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

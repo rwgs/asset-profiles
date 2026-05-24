@@ -1,5 +1,8 @@
 {
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000BWH908",
     "isin": "FR0010259150"
   },
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
@@ -7,25 +10,20 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0MH6.IL"
-    },
-    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "FR0010259150.SW"
     }
   ],
-  "name": "IPSEN SA IPSEN ORD SHS",
-  "primary_symbol": "0MH6.IL",
+  "name": "IPSEN",
+  "primary_symbol": "FR0010259150.SW",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Ipsen SA is a global specialty pharmaceutical group with a focus on innovative medicines in oncology, neuroscience, and rare diseases. The company develops and commercializes drugs and is headquartered in Boulogne-Billancourt, France."
+  "summary": "IPSEN is a global specialty pharmaceutical company focused on innovative medicines in oncology, neuroscience, and rare diseases. The company develops and commercializes treatments that address unmet medical needs in these therapeutic areas; headquarters are located in Boulogne-Billancourt, France. Ipsen operates worldwide."
 }

@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG0069PR8R5",
+    "cusip": "89186Q101",
+    "figi": "BBG0069PR8R5"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "TOWTF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Tower One Wireless Corp.",
   "primary_symbol": "TOWTF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Tower One Wireless Corp. owns, develops, and operates build-to-suit multitenant communications towers in Argentina, Colombia, Mexico, the United States, and internationally. It primarily engages in the leasing of space on communications sites to mobile network operators. The company also provides tower-related services, including site acquisition, zoning and permitting, structural analysis, and construction. Tower One Wireless Corp. was incorporated in 2005 and is headquartered in Bogotá, Colombia."
 }

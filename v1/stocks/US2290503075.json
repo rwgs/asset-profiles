@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "229050307",
+    "composite_figi": "BBG000CTBX52",
+    "cusip": "12562N104",
+    "figi": "BBG000CTBX52",
     "isin": "US2290503075"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -14,18 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "CKX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CYRX"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "CKX Lands, Inc.",
   "primary_symbol": "CKX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

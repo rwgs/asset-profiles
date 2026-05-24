@@ -3,6 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000BZ0DK8",
+    "cusip": "046353108",
     "figi": "BBG000BZ0PH5",
     "isin": "GB0009895292"
   },
@@ -82,11 +83,6 @@
       "symbol": "ZEG.F"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "ZEG.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ZEG.SG"
@@ -106,7 +102,7 @@
   "name": "AstraZeneca PLC",
   "primary_symbol": "AZN",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

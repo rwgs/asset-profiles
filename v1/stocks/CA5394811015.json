@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000C45984",
+    "cusip": "539481101",
+    "figi": "BBG000C45984",
     "isin": "CA5394811015"
   },
   "industry": "Insurance",
@@ -15,49 +18,9 @@
       "symbol": "L"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "L8G.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "L8G.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LBLCF"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0JVI.L"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSE",
-      "symbol": "L-PB.TO"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSE",
-      "symbol": "L.TO"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "L8G.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "L8G.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "L8G.SG"
     },
     {
       "currency": "EUR",
@@ -69,7 +32,7 @@
   "name": "Loews Corporation",
   "primary_symbol": "L",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

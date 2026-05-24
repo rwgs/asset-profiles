@@ -1,19 +1,16 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Australia",
+  "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG007LX8LL0",
+    "figi": "BBG007LX8LV9",
     "isin": "AU000000MPL3"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry": "Insurance",
+  "industry_group": "Insurance",
   "isin": "AU000000MPL3",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPV"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -30,32 +27,22 @@
       "symbol": "MPL.AX"
     },
     {
-      "currency": "INR",
-      "exchange_mic": "XBOM",
-      "symbol": "MPL.BO"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "MPL.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MPV.F"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Barings Participation Investors",
-  "primary_symbol": "MPV",
+  "market_cap_band": "Mid Cap",
+  "name": "MEDIBANK PRIVATE LTD",
+  "primary_symbol": "MPV.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Barings Participation Investors is a closed ended fixed income mutual fund launched and managed by Barings LLC. The fund invests in the fixed income markets of the United States. It primarily invests in below-investment grade, long-term corporate debt obligations which are directly purchased from its issuers. The fund also seeks to invest in warrants, conversion rights, or other equity related instruments. It benchmarks the performance of its portfolio against Standard and Poor's Industrials Composite, Russell 2000 Index, Lehman Brothers U.S. High Yield Index, and Lehman Brothers Intermediate U.S. Credit Index. The fund was formerly known as Babson Capital Participation Investors. Barings Participation Investors was formed on April 7, 1988 and is domiciled in the United States.",
-  "website": "http://www.babsoncapital.com/mpv"
+  "summary": "Medibank Private Limited, an integrated healthcare company, provides private health insurance and health solutions in Australia. The company operates through two segments, Health Insurance and Medibank Health. The Health Insurance segment offers private health insurance products, including hospital cover that provides members with health cover for hospital treatments; and ancillary cover, which offers members with health cover for healthcare services, such as dental, optical, and physiotherapy. This segment also provides health insurance products to overseas visitors and overseas students. The Medibank Health segment offers health management and telehealth services to government and corporate customers, as well as distributes travel, life, and pet insurance products. Medibank Private Limited underwrites its health insurance products under the Medibank and ahm brands. The company was founded in 1976 and is based in Docklands, Australia.",
+  "website": "http://www.medibank.com.au"
 }

@@ -2,6 +2,7 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "cusip": "66510M204",
     "isin": "CA66510M2040"
   },
   "isin": "CA66510M2040",
@@ -11,27 +12,12 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "NAK.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ND3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ND3.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ND3.SG"
     }
   ],
   "name": "NAK Stoffe AG",
   "primary_symbol": "NAK.HM",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

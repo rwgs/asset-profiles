@@ -3,7 +3,6 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BCLBN7",
-    "figi": "BBG000BCLJB3",
     "isin": "DE0005774103"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -11,16 +10,6 @@
   "isin": "DE0005774103",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FEV.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FEV.MU"
-    },
     {
       "currency": "CHF",
       "exchange_mic": "XSWX",
@@ -32,19 +21,9 @@
       "symbol": "FEV.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "FEV.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FEV.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "FEV.L"
     },
     {
       "currency": "EUR",
@@ -53,16 +32,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "FORTEC ELEKTRO. O.N.",
-  "primary_symbol": "FEV.HM",
+  "name": "FORTEC Elektronik AG",
+  "primary_symbol": "DE0005774103.SW",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Fortec Elektronik AG distributes electronic components and systems. The company offers displays, embedded systems, power supplies and touch solutions. The company is headquartered in Germering, Germany.",
+  "summary": "FORTEC Elektronik AG develops and distributes standardized and customized solutions in the field of display technology, embedded systems, and power supplies, headquartered in Germering, Germany. The company offers a wide range of products, including TFT displays, touchscreens, embedded boards, and power supplies, catering to various industrial applications. FORTEC also provides engineering services and support to its customers.",
   "website": "http://www.fortecag.de"
 }

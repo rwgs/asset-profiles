@@ -1,6 +1,11 @@
 {
   "country": "Germany",
   "country_code": "DE",
+  "identifiers": {
+    "composite_figi": "BBG000BG0R10",
+    "cusip": "202597605",
+    "figi": "BBG000BG0R10"
+  },
   "industry": "Banks",
   "industry_group": "Banks",
   "kind": "stock",
@@ -15,7 +20,7 @@
   "name": "Commerzbank AG",
   "primary_symbol": "CRZBY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

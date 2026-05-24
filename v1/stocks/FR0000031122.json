@@ -2,6 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000PMHX66",
+    "cusip": "009119108",
+    "figi": "BBG000PMHX66",
     "isin": "FR0000031122"
   },
   "industry": "Airlines",
@@ -40,44 +43,14 @@
       "symbol": "AFRAF"
     },
     {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "AF.BK"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "AF.MI"
     },
     {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "AF.P.V"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "AF.PA"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "AFA.AX"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "AFP.AX"
-    },
-    {
-      "currency": "CHF",
-      "exchange_mic": "XSWX",
-      "symbol": "AFP.SW"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "AFR.AX"
     },
     {
       "currency": "AED",
@@ -106,10 +79,10 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Air France-KLM SA",
+  "name": "AIR FRANCE - KLM",
   "primary_symbol": "AFLYY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

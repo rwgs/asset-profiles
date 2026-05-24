@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000HD9K80",
+    "figi": "BBG000HD9K80",
     "isin": "AU000000KAR6"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -30,16 +32,6 @@
       "symbol": "KAR.AX"
     },
     {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "KAR.ST"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "LBL.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LBL.F"
@@ -54,7 +46,7 @@
   "name": "Karoon Energy Ltd",
   "primary_symbol": "KRNGF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

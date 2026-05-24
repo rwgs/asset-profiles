@@ -2,7 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000BQQFV3",
     "cusip": "251561304",
+    "figi": "BBG000BQQFV3",
     "isin": "US2515613048"
   },
   "industry": "Airlines",
@@ -19,16 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "DLAKY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LHAB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LHAB.MU"
     },
     {
       "currency": "EUR",
@@ -56,11 +48,6 @@
       "symbol": "LHA.VI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "LHAB.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LHAB.F"
@@ -75,7 +62,7 @@
   "name": "Deutsche Lufthansa AG",
   "primary_symbol": "DLAKF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

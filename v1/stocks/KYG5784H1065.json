@@ -3,6 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG0035WV4N9",
+    "cusip": "G5784H106",
     "figi": "BBG0035WV4S4",
     "isin": "KYG5784H1065"
   },
@@ -17,24 +18,9 @@
       "symbol": "MANU"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MUF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MUF.MU"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0Z1Q.L"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "MUF.DU"
     },
     {
       "currency": "EUR",
@@ -51,7 +37,7 @@
   "name": "Manchester United plc",
   "primary_symbol": "MANU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

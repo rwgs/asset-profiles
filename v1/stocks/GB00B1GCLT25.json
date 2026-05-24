@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG001XQTYX1",
+    "cusip": "73101T101",
+    "figi": "BBG001XQTYX1",
     "isin": "GB00B1GCLT25"
   },
   "industry": "Capital Markets",
@@ -13,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "POLR"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XZF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XZF.MU"
     },
     {
       "currency": "EUR",
@@ -44,7 +37,7 @@
   "name": "Polar Petroleum Corp.",
   "primary_symbol": "POLR",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

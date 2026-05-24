@@ -3,6 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00B6BFWH9",
+    "cusip": "G25839104",
     "figi": "BBG00B6BFWM3",
     "isin": "GB00BDCPN049"
   },
@@ -15,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "CCEP"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CK0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CK0.MU"
     },
     {
       "currency": "USD",
@@ -52,26 +43,16 @@
       "symbol": "CCEPN.MX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CK0.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CK0.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CK0.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Coca-Cola Europacific Partners PLC",
   "primary_symbol": "CCEP",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

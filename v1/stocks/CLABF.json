@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG009GZW7G7",
+    "cusip": "21872J307",
+    "figi": "BBG009GZW7G7"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "CLABF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Core One Labs Inc.",
   "primary_symbol": "CLABF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Core One Labs Inc. operates as a psychedelic research and development company. The company focuses on providing psychedelic medicines to novel delivery systems and psychedelic assisted psychotherapy; and intends to further develop and apply the technology to psychedelic compounds, such as psilocybin. It also provides natural health products; news dissemination services; financing services; and operates medical clinics, as well as engages in micro cultivation. The company was formerly known as Lifestyle Delivery Systems Inc. and changed its name to Core One Labs Inc. in September 2019. Core One Labs Inc. was incorporated in 2010 and is headquartered in Vancouver, Canada."
 }

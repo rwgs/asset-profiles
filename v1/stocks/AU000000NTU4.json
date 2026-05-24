@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000QS7M21",
+    "figi": "BBG000QS7M21",
     "isin": "AU000000NTU4"
   },
   "industry": "Metals & Mining",
@@ -13,11 +15,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "NOURF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTU.BE"
     },
     {
       "currency": "USD",
@@ -54,7 +51,7 @@
   "name": "Northern Minerals Limited",
   "primary_symbol": "NOURF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

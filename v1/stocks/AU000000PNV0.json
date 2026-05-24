@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000C6XBV7",
+    "figi": "BBG000C6XBV7",
     "isin": "AU000000PNV0"
   },
   "industry": "Biotechnology",
@@ -33,23 +35,13 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "PNV.AX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PNV.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PNV.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "PolyNovo Limited",
+  "name": "Polynovo Ltd.",
   "primary_symbol": "CALZF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

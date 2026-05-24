@@ -2,7 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000MS3287",
     "cusip": "410693105",
+    "figi": "BBG000MS3287",
     "isin": "US4106931052"
   },
   "industry": "Insurance",
@@ -39,18 +41,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HNRB.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "HNRB.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Hannover Ruck SE",
   "primary_symbol": "HVRRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,38 +3,18 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000RJPRF5",
-    "figi": "BBG000RJPTT6",
+    "figi": "BBG000RJPRR2",
     "isin": "NO0010358484"
   },
-  "industry": "Metals & Mining",
+  "industry": "Energy Equipment & Services",
   "industry_group": "Energy",
   "isin": "NO0010358484",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "E2M.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "E2M.MU"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "E2M.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "E2M.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "E2M.SG"
     },
     {
       "currency": "NOK",
@@ -48,10 +28,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ELECTROMAG.GEOSVCS  NK 1",
-  "primary_symbol": "E2M.BE",
+  "name": "ElectroMagnetic GeoServices ASA",
+  "primary_symbol": "E2M.F",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -59,5 +39,5 @@
   "schema_version": "1.0.0",
   "sector": "Energy",
   "summary": "Electromagnetic Geoservices ASA (EMGS) is a Norwegian company that provides electromagnetic (EM) seabed logging services to the oil and gas industry. The company uses EM technology to map subsurface geology and identify hydrocarbon reservoirs, and is headquartered in Trondheim, Norway. EMGS helps oil and gas companies reduce exploration risk and improve drilling success rates.",
-  "website": "http://e2metals.com.au"
+  "website": "http://www.emgs.com"
 }

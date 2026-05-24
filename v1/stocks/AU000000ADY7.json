@@ -2,8 +2,6 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000PXC924",
-    "figi": "BBG000PXCDN2",
     "isin": "AU000000ADY7"
   },
   "industry": "Metals & Mining",
@@ -12,29 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AHS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AHS.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AHS.MU"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "ADY.AX"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "ADY.V"
     },
     {
       "currency": "EUR",
@@ -48,10 +26,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ADMIRALTY RES",
-  "primary_symbol": "AHS.BE",
+  "name": "Admiralty Resources NL",
+  "primary_symbol": "ADY.AX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

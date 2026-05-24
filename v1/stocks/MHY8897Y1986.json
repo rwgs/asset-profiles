@@ -2,6 +2,8 @@
   "country": "Greece",
   "country_code": "GR",
   "identifiers": {
+    "composite_figi": "BBG000Q46L54",
+    "figi": "BBG000Q46L54",
     "isin": "MHY8897Y1986"
   },
   "industry": "Marine",
@@ -15,16 +17,6 @@
       "symbol": "TOPS"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOPS.TA"
-    },
-    {
-      "currency": "IDR",
-      "exchange_mic": "XIDX",
-      "symbol": "TOPS.JK"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UERX.F"
@@ -34,7 +26,7 @@
   "name": "Top Ships Inc.",
   "primary_symbol": "TOPS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

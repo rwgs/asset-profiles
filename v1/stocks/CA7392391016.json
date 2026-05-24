@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000BW1NX8",
+    "cusip": "739239101",
     "figi": "BBG000BW1RV1",
     "isin": "CA7392391016"
   },
@@ -42,26 +43,16 @@
       "symbol": "PCR.SG"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "POW.AX"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "POW.L"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "POW.TO"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "POWER CORPORATION OF CDA",
+  "name": "Power Corporation of Canada",
   "primary_symbol": "PCR.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

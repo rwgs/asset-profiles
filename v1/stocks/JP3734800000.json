@@ -1,19 +1,16 @@
 {
-  "country": "Taiwan, Province of China",
-  "country_code": "TW",
+  "country": "Japan",
+  "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000D3Y6Y0",
+    "figi": "BBG000D3ZCD9",
     "isin": "JP3734800000"
   },
-  "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "JP3734800000",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6594.TWO"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -70,17 +67,17 @@
       "symbol": "NIDECN.MX"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Alcorlink Corp.",
-  "primary_symbol": "6594.TWO",
+  "market_cap_band": "Large Cap",
+  "name": "Nidec Corp.",
+  "primary_symbol": "NIB.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Alcorlink Corp., a fabless IC design company, provides device controller and image application solutions primarily in Taiwan. It offers I/O product/image application/others, which include flash and smart card readers, USB cameras, intelligent storage solutions, hub controllers, and MFi products. The company was founded in 2015 and is based in Taipei City, Taiwan.",
-  "website": "http://www.alcorlink.com"
+  "sector": "Industrials",
+  "summary": "Nidec Corporation is a Japanese manufacturer of electric motors. The company produces a wide range of motors, including small precision motors, medium-sized motors, and large motors. Nidec's motors are used in a variety of applications, including hard disk drives, home appliances, and automobiles. The company is headquartered in Kyoto, Japan.",
+  "website": "http://www.nidec.com"
 }

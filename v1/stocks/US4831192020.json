@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "483119202",
+    "composite_figi": "BBG001J2MVT8",
+    "cusip": "483119301",
+    "figi": "BBG001J2MVT8",
     "isin": "US4831192020"
   },
   "industry": "Biotechnology",
@@ -19,18 +21,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "27F.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "27F.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Kala Pharmaceuticals, Inc.",
   "primary_symbol": "KALA",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

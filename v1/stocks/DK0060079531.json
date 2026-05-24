@@ -1,7 +1,8 @@
 {
+  "country": "Denmark",
+  "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG000BSSC62",
-    "figi": "BBG000BSSFT0",
+    "composite_figi": "BBG000BSNX70",
     "isin": "DK0060079531"
   },
   "industry_group": "Transportation",
@@ -9,24 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DS81.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DS81.MU"
-    },
-    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "DK0060079531.SW"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "DS81.DU"
     },
     {
       "currency": "EUR",
@@ -34,15 +20,15 @@
       "symbol": "DS81.SG"
     }
   ],
-  "name": "DSV PANALPINA BONUS-AKT.",
-  "primary_symbol": "DS81.BE",
+  "name": "DSV A/S",
+  "primary_symbol": "DK0060079531.SW",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "DSV A/S is a global transport and logistics company that provides supply chain management solutions. The company offers air and sea freight, road transport, warehousing, and distribution services. DSV is headquartered in Hedehusene, Denmark."
+  "summary": "DSV A/S is a Danish transport and logistics company that provides supply chain solutions worldwide. The company offers services including air and sea freight, road transport, and warehousing. DSV is headquartered in Hedehusene, Denmark."
 }

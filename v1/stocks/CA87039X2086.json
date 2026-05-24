@@ -2,6 +2,9 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
+    "composite_figi": "BBG00HTBWMG5",
+    "cusip": "87039X208",
+    "figi": "BBG00HTBWMG5",
     "isin": "CA87039X2086"
   },
   "industry": "Interactive Media & Services",
@@ -15,24 +18,9 @@
       "symbol": "SE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SEHCF"
-    },
-    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "S2EA34.SA"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "SE.BK"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XCNQ",
-      "symbol": "SE.CN"
     },
     {
       "currency": "MXN",
@@ -44,7 +32,7 @@
   "name": "Sea Limited",
   "primary_symbol": "SE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

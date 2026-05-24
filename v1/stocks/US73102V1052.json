@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "73102V105",
+    "composite_figi": "BBG00BN3PRL3",
+    "cusip": "73102V204",
+    "figi": "BBG00BN3PRL3",
     "isin": "US73102V1052"
   },
   "industry": "Electrical Equipment",
@@ -26,11 +28,6 @@
       "symbol": "PPW.MU"
     },
     {
-      "currency": "IDR",
-      "exchange_mic": "XIDX",
-      "symbol": "POLA.JK"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PPW.F"
@@ -45,7 +42,7 @@
   "name": "Polar Power, Inc.",
   "primary_symbol": "POLA",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,19 +1,16 @@
 {
-  "country": "Denmark",
-  "country_code": "DK",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BVQ1G0",
+    "figi": "BBG000BVQ492",
     "isin": "DE000A2YNT30"
   },
-  "industry": "Software",
-  "industry_group": "Insurance",
+  "industry": "Chemicals",
+  "industry_group": "Materials",
   "isin": "DE000A2YNT30",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ACT"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -23,11 +20,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "ACT.MU"
-    },
-    {
-      "currency": "DKK",
-      "exchange_mic": "XCSE",
-      "symbol": "ACT.CO"
     },
     {
       "currency": "EUR",
@@ -45,32 +37,22 @@
       "symbol": "ACT.F"
     },
     {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "ACT.JO"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "ACT.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A2YNT30.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "Enact Holdings, Inc.",
-  "primary_symbol": "ACT",
+  "market_cap_band": "Micro Cap",
+  "name": "ALZCHEM GROUP AG INH O.N.",
+  "primary_symbol": "ACT.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Enact Holdings, Inc., formerly known as Genworth Mortgage Holdings, Inc., is a mortgage insurance company providing private mortgage insurance in the United States. The company's mortgage insurance products protect lenders against losses from borrower defaults. Enact Holdings, Inc. is headquartered in Raleigh, North Carolina.",
-  "website": "http://www.decideact.net"
+  "sector": "Materials",
+  "summary": "Alzchem Group AG is a specialty chemicals company based in Germany that produces a variety of chemical products including fine chemicals, performance chemicals, and basic chemicals for various industries, headquartered in Trostberg, Germany",
+  "website": "http://www.alzchem.com"
 }

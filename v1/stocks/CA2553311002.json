@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000N57D97",
+    "cusip": "255331100",
+    "figi": "BBG000N57D97",
     "isin": "CA2553311002"
   },
   "industry": "Industrial Conglomerates",
@@ -20,11 +23,6 @@
       "symbol": "BEW.F"
     },
     {
-      "currency": "SGD",
-      "exchange_mic": "XSES",
-      "symbol": "BEW.SI"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "DIV.TO"
@@ -34,7 +32,7 @@
   "name": "Diversified Royalty Corp.",
   "primary_symbol": "BEVFF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

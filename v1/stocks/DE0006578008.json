@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000PF5BN3",
+    "figi": "BBG000PF5BN3",
     "isin": "DE0006578008"
   },
   "industry": "Trading Companies & Distributors",
@@ -25,11 +27,6 @@
       "symbol": "KWG.MU"
     },
     {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "KWG.BK"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "KWG.DE"
@@ -45,11 +42,6 @@
       "symbol": "KWG.F"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "KWG.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KWG.SG"
@@ -59,7 +51,7 @@
   "name": "KHD Humboldt Wedag International AG",
   "primary_symbol": "KHDHF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

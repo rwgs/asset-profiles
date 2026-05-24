@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000R52CF3",
+    "figi": "BBG000R52CF3",
     "isin": "AU000000RMS4"
   },
   "industry": "Metals & Mining",
@@ -30,11 +32,6 @@
       "symbol": "RMS.AX"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "RMS.L"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "RRZ.DU"
@@ -54,7 +51,7 @@
   "name": "Ramelius Resources Limited",
   "primary_symbol": "RMLRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

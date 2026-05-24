@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000C2YZ60",
+    "cusip": "36237H101",
+    "figi": "BBG000C2YZ60",
     "isin": "CA75888V1004"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -15,26 +18,16 @@
       "symbol": "GIII"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ISRJF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GI4.F"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "GIII.V"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "G-III Apparel Group, Ltd.",
   "primary_symbol": "GIII",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

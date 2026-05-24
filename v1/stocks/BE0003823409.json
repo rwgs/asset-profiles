@@ -2,8 +2,6 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000C4MP43",
-    "figi": "BBG002K1SM29",
     "isin": "BE0003823409"
   },
   "industry": "Biotechnology",
@@ -11,11 +9,6 @@
   "isin": "BE0003823409",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FTD.MU"
-    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -35,18 +28,13 @@
       "currency": "EUR",
       "exchange_mic": "XBRU",
       "symbol": "TUB.BR"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMAD",
-      "symbol": "TUB.MC"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "FIN.DE TUBIZE ACT.NOUV.",
-  "primary_symbol": "FTD.MU",
+  "name": "Financiere de Tubize SA",
+  "primary_symbol": "0D53.L",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

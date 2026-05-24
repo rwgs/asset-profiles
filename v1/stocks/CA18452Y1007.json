@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BBGQF1",
+    "cusip": "000361105",
+    "figi": "BBG000BBGQF1",
     "isin": "CA18452Y1007"
   },
   "industry": "Aerospace & Defense",
@@ -13,31 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "AIR"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CKU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CLRMF"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "AIR.AX"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "AIR.L"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "AIR.V"
     },
     {
       "currency": "AED",
@@ -53,18 +31,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ARZ.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "CKU.F"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "AAR Corp.",
   "primary_symbol": "AIR",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

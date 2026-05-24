@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00M61H3N2",
+    "cusip": "58504D100",
+    "figi": "BBG00M61H3N2",
     "isin": "CA58504D1006"
   },
   "industry": "Pharmaceuticals",
@@ -31,11 +34,6 @@
     },
     {
       "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "LABS.P.V"
-    },
-    {
-      "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "LABS.TO"
     },
@@ -59,7 +57,7 @@
   "name": "MediPharm Labs Corp.",
   "primary_symbol": "MEDIF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

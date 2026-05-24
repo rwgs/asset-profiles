@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000BB36V1",
+    "figi": "BBG000BB36V1"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "CRF"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "one",
+  "name": "Cornerstone Total Return Fund, Inc.",
   "primary_symbol": "CRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Cornerstone Total Return Fund, Inc. is a closed-ended equity mutual fund launched and managed by Cornerstone Advisors, LLC. It invests in the public equity markets of the United States. The fund seeks to invest in stocks of companies operating across diversified sectors. It primarily invests in value and growth stocks of companies across all market capitalizations. The fund also invests through other closed-end investment companies and ETFs. It benchmarks the performance of its portfolio against the S&P 500 Index. Cornerstone Total Return Fund, Inc. was formed on March 16, 1973 and is domiciled in the United States."
 }

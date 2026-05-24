@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000JQJC22",
+    "cusip": "257701201",
+    "figi": "BBG000JQJC22"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "DGICA"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Donegal Group Inc.",
   "primary_symbol": "DGICA",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Donegal Group Inc., an insurance holding company, provides commercial and personal lines of property and casualty coverages. It operates through three segments: Investment Function, Commercial Lines of Insurance, and Personal Lines of Insurance. The company offers protection against liability for bodily injury and property damage arising from automobile accidents and protection against loss from damage to automobiles owned by the insured for commercial automobile; protection to businesses against perils combining liability and physical damage coverages; and benefits to employees for injuries sustained during employment. It provides protection against liability for bodily injury and property damage arising from automobile accidents and protection against loss from damage to automobiles owned by the insured for private passenger automobile; and coverage for damage to residences and their contents from a range of perils, including fire, lightning, windstorm, and theft. The company markets its insurance products primarily to Mid-Atlantic, Midwest, Southern, and Southwestern states through a network of independent insurance agents. The company was incorporated in 1986 and is based in Marietta, Pennsylvania. Donegal Group Inc. operates as a subsidiary of Donegal Mutual Insurance Company."
 }

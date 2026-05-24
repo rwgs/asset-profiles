@@ -1,24 +1,15 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000BHSPR4",
+    "figi": "BBG000BHSS07",
     "isin": "FR0013176526"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry_group": "Capital Goods",
   "isin": "FR0013176526",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FR"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FRTN"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -30,37 +21,20 @@
       "symbol": "VSA2.MU"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "F5W.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "FRP.L"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "VSA2.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "VSA2.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "First Industrial Realty Trust, Inc.",
-  "primary_symbol": "FR",
+  "name": "VALEO SA INH.  EO 1",
+  "primary_symbol": "VSA2.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "First Industrial Realty Trust, Inc. (NYSE: FR) is a leading fully integrated owner, operator, and developer of industrial real estate with a track record of providing industry-leading customer service to multinational corporations and regional customers. Across major markets in the United States, our local market experts manage, lease, buy, (re)develop, and sell bulk and regional distribution centers, light industrial, and other industrial facility types. In total, we own and have under development approximately 64.1 million square feet of industrial space as of September 30, 2020.",
-  "website": "http://www.firstindustrial.com"
+  "sector": "Industrials",
+  "summary": "Valeo SA is a global automotive supplier. They design, develop, and manufacture a wide range of components and systems for automobiles, including powertrain systems, thermal systems, visibility systems, and driver assistance systems. The company is headquartered in Paris, France."
 }

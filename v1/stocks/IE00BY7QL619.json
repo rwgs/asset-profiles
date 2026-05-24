@@ -3,6 +3,7 @@
   "country_code": "IE",
   "identifiers": {
     "composite_figi": "BBG000BVWLJ6",
+    "cusip": "G51502105",
     "figi": "BBG000BVWMZ6",
     "isin": "IE00BY7QL619"
   },
@@ -15,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "JCI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TYIA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TYIA.MU"
     },
     {
       "currency": "GBP",
@@ -42,11 +33,6 @@
       "symbol": "TYIA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "TYIA.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TYIA.F"
@@ -61,7 +47,7 @@
   "name": "Johnson Controls International plc",
   "primary_symbol": "JCI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000C4QP94",
     "cusip": "743312100",
+    "figi": "BBG000C4R3P4",
     "isin": "US7433121008"
   },
   "industry": "Software",
@@ -13,17 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "PGR.CR"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "PRGS"
-    },
-    {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "PGR.BA"
     },
     {
       "currency": "AED",
@@ -36,21 +28,16 @@
       "symbol": "PGR.F"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "PGR.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PGR.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "PROAGRO, C.A.",
-  "primary_symbol": "PGR.CR",
+  "name": "Progress Software Corporation",
+  "primary_symbol": "PRGS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

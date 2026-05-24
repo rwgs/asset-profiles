@@ -1,38 +1,20 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG007Z641R6",
+    "figi": "BBG008F928Y9",
     "isin": "FR0012596468"
   },
   "industry": "Biotechnology",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "FR0012596468",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RFM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RFM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RFM.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALSEN.PA"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "RFM.DU"
     },
     {
       "currency": "EUR",
@@ -46,16 +28,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "RiverNorth Flexible Municipal Income Fund, Inc.",
-  "primary_symbol": "RFM",
+  "name": "Sensorion SA",
+  "primary_symbol": "ALSEN.PA",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "RiverNorth Flexible Municipal Income Fund, Inc. is a closed-end management investment company. The fund's investment objective is to seek current income exempt from federal income tax (except that the income may be subject to the federal alternative minimum tax). The fund invests primarily in municipal securities.",
+  "sector": "Health Care",
+  "summary": "Sensorion SA, a clinical-stage biopharmaceutical company, develops therapies for the treatment of inner ear disorders in France. It engages in developing USHER-GT, a gene therapy development program to restore inner ear function for patients suffering from usher syndrome Type 1; OTOF-GT, a gene therapy development program to restore hearing in people living with Otoferlin deficiency; and SENS-401, a drug candidate to treat sudden sensorineural hearing loss. The company's pipeline includes various products in development stage for restoring, treating, and preventing inner ear related disorders. Sensorion SA has a collaboration agreement with Institut Pasteur for gene therapy program to restore auditory functions. The company was founded in 2009 and is headquartered in Montpellier, France.",
   "website": "http://www.sensorion.com"
 }

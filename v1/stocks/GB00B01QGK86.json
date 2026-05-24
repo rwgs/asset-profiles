@@ -2,6 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG009H8PSJ5",
+    "figi": "BBG009H8PSJ5",
     "isin": "GB00B01QGK86"
   },
   "industry": "Software",
@@ -25,11 +27,6 @@
       "symbol": "NZB.MU"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "NCC.AX"
-    },
-    {
       "currency": "INR",
       "exchange_mic": "XBOM",
       "symbol": "NCC.BO"
@@ -43,11 +40,6 @@
       "currency": "INR",
       "exchange_mic": "XNSE",
       "symbol": "NCC.NS"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "NCCL.L"
     },
     {
       "currency": "EUR",
@@ -64,7 +56,7 @@
   "name": "NCC Group plc",
   "primary_symbol": "NCCGF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

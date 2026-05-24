@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000F4RZ43",
+    "cusip": "874028103",
+    "figi": "BBG000F4RZ43"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "TAIT"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "one",
+  "name": "Taitron Components Incorporated",
   "primary_symbol": "TAIT",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Taitron Components Incorporated engages in the supply of original designed and manufactured (ODM) electronic components, and distribution of brand name electronic components. It distributes discrete semiconductors, commodity integrated circuits, optoelectronic devices, and passive components. The company also offers value-added engineering and turn-key solutions focusing on providing contract electronic manufacturers (CEMs) and original equipment manufacturers (OEMs) with ODM products for turn-key projects. It serves other electronic distributors, CEMs, and OEMs in the United States, South Korea, China, Taiwan, and internationally. The company has strategic allies with Teamforce Co. Ltd.; Grand Shine Management; and Zowie Technology Corporation. Taitron Components Incorporated was incorporated in 1989 and is headquartered in Valencia, California."
 }

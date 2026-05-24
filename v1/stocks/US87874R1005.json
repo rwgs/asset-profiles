@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "87874R100",
+    "composite_figi": "BBG000Q1L8V3",
+    "cusip": "278279104",
+    "figi": "BBG000Q1L8V3",
     "isin": "US87874R1005"
   },
   "industry": "Capital Markets",
@@ -14,38 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "EFT"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EFT.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EFT.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTGT"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EFT.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "EFT.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Eaton Vance Floating-Rate Income Trust",
   "primary_symbol": "EFT",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

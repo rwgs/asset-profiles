@@ -2,6 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000CGY930",
+    "figi": "BBG000CGY930",
     "isin": "GB0007958233"
   },
   "industry": "Aerospace & Defense",
@@ -20,21 +22,16 @@
       "symbol": "SNR"
     },
     {
-      "currency": "CAD",
-      "exchange_mic": "XCNQ",
-      "symbol": "SNR.CN"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "SNR.L"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Senior plc",
+  "name": "Senior Plc",
   "primary_symbol": "SNIRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

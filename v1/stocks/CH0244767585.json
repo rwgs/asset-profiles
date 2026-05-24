@@ -3,6 +3,7 @@
   "country_code": "CH",
   "identifiers": {
     "composite_figi": "BBG007DJM539",
+    "cusip": "H42097107",
     "figi": "BBG007DJM575",
     "isin": "CH0244767585"
   },
@@ -15,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "UBS"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMAD",
-      "symbol": "UBS.MC"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "UBS.VI"
     },
     {
       "currency": "CHF",
@@ -51,7 +42,7 @@
   "name": "UBS Group AG",
   "primary_symbol": "UBS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

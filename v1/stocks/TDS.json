@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000BV0VK7",
+    "cusip": "879433829",
+    "figi": "BBG000BV0VK7"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "TDS"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "one",
+  "name": "Telephone and Data Systems, Inc.",
   "primary_symbol": "TDS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Telephone and Data Systems, Inc., a telecommunications company, provides communications services to residential, commercial, and wholesale customers in the United States. It operates through two segments: TDS Telecom and Array. The company offers internet connections and all-home Wi-Fi services, fiber internet, security, and support services; advanced home TV entertainment combined with a digital video recording (DVR) services; TDS TV+, an integrated cloud TV platform that combines linear and on-demand programming, mobile device interfaces, personalized recommendations, and network-based DVR; digital television; local and long-distance telephone service, voice over internet protocol, and enhanced services; wireless services to customers; broadband, IP-based services, and hosted voice and video collaboration services to small- and medium-sized businesses; carrying data and voice traffic services; wholesale services; and communication services in underserved areas. The company is also leases tower spaces to tenants; provides ancillary services. The company sells and distributes its products through third-party direct sales, retail stores, sales agents, and an online platform to sell services and products. Telephone and Data Systems, Inc. was incorporated in 1968 and is headquartered in Chicago, Illinois."
 }

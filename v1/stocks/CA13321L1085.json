@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000DSZTN6",
+    "cusip": "13321L108",
     "figi": "BBG000DSZWZ6",
     "isin": "CA13321L1085"
   },
@@ -19,11 +20,6 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "CCO"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "CJ6.BE"
     },
     {
@@ -35,21 +31,6 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0R35.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "C7C1.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "CCO.F"
-    },
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "CCO.JO"
     },
     {
       "currency": "CAD",
@@ -76,7 +57,7 @@
   "name": "Cameco Corporation",
   "primary_symbol": "CCJ",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

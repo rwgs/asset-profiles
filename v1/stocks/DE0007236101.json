@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BCCRV3",
-    "figi": "BBG000BCCVG1",
+    "composite_figi": "BBG000R8K0M5",
+    "figi": "BBG000R8K0R0",
     "isin": "DE0007236101"
   },
   "industry": "Machinery",
@@ -11,26 +11,6 @@
   "isin": "DE0007236101",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIE.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIE.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIE.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -44,17 +24,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "SIEN"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "SMAWF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "S0Z.F"
     },
     {
       "currency": "EUR",
@@ -67,11 +37,6 @@
       "symbol": "SIE.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SIE.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SIE.F"
@@ -80,11 +45,6 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "SIE.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SIE.SG"
     },
     {
       "currency": "EUR",
@@ -113,16 +73,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "SIEMENS AG  NA O.N.",
-  "primary_symbol": "SIE.BE",
+  "name": "Siemens Aktiengesellschaft",
+  "primary_symbol": "SIE.TI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Siemens AG is a German multinational conglomerate corporation headquartered in Munich. It is the largest industrial manufacturing company in Europe with principal divisions focusing on automation and digitalization in the process and manufacturing industries; intelligent infrastructure for buildings and distributed energy systems; smart mobility solutions for rail and road transport; and medical technology and digital healthcare services. The company has a global presence.",
+  "summary": "SIEMENS is a global technology powerhouse focused on industry, infrastructure, transport, and healthcare. The company develops and manufactures products, designs and installs complex systems and projects, and offers a wide range of services. Siemens is headquartered in Munich, Germany.",
   "website": "http://www.siemens.com"
 }

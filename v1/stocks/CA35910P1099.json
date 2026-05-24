@@ -1,19 +1,17 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000PXGNT0",
+    "cusip": "35910P109",
+    "figi": "BBG000PXGR66",
     "isin": "CA35910P1099"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA35910P1099",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FL"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -25,24 +23,9 @@
       "symbol": "LITOF"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "0IQK.L"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "FL.MX"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "FL.V"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "FOOT.VI"
     },
     {
       "currency": "EUR",
@@ -53,24 +36,19 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HL2.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "WOO.F"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "Foot Locker, Inc.",
-  "primary_symbol": "FL",
+  "market_cap_band": "Micro Cap",
+  "name": "Frontier Lithium Inc.",
+  "primary_symbol": "HL2.MU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Foot Locker, Inc., through its subsidiaries, operates as an athletic footwear and apparel retailer. The company engages in the retail of athletic footwear, apparel, accessories, equipment, and team licensed merchandise under the Foot Locker, Lady Foot Locker, Kids Foot Locker, Champs Sports, Eastbay, Footaction, Runners Point, and Sidestep brand names. As of January 30, 2021, it operated through 2,998 retail stores in 27 countries across the United States, Canada, Europe, Australia, New Zealand, and Asia; and 127 franchised Foot Locker stores located in the Middle East, as well as through various e-commerce sites and mobile apps. The company was founded in 1879 and is headquartered in New York, New York.",
-  "website": "http://www.footlocker-inc.com"
+  "sector": "Materials",
+  "summary": "Frontier Lithium Inc. engages in the acquisition, exploration, and development of mining properties in Canada. It explores for lithium, cesium, tantalum, and rubidium metals. The company primarily holds a 100% interest in the PAK Lithium project, which covers 1,378 contiguous mining claim units totaling 26,774 hectares located in northwestern Ontario, Canada. It has a strategic partnership agreement with XPS Expert Process Solutions to develop a process to refine spodumene concentrate into lithium hydroxide. The company was formerly known as Houston Lake Mining Inc. and changed its name to Frontier Lithium Inc. in May 2016. Frontier Lithium Inc. was founded in 1995 and is headquartered in Val Caron, Canada.",
+  "website": "http://www.frontierlithium.com"
 }

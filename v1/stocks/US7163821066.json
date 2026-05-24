@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000DLT8K7",
     "cusip": "716382106",
+    "figi": "BBG000DLT8K7",
     "isin": "US7163821066"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -69,18 +71,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PQM.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PQM.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Express, Inc.",
+  "name": "PetMed Express, Inc.",
   "primary_symbol": "CELX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

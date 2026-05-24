@@ -2,18 +2,15 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000F965G8",
+    "figi": "BBG000F965G8",
     "isin": "AU000000GPT8"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Real Estate",
   "isin": "AU000000GPT8",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GPT.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -23,29 +20,19 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "GPT.AX"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "GPT.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "GPT.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "GENUINE PARTS  DL 1",
-  "primary_symbol": "GPT.MU",
+  "name": "GPT Group",
+  "primary_symbol": "GPTGF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "GENUINE PARTS DL 1 is a service organization engaged in the distribution of automotive replacement parts, industrial replacement parts, office products and electrical/electronic materials. Genuine Parts Company serves automotive, industrial, office products and electrical/electronic marketplaces. It is headquartered in Atlanta, Georgia.",
+  "sector": "Real Estate",
+  "summary": "The GPT Group is one of Australia's largest diversified property groups and a top 50 ASX listed company by market capitalisation. GPT owns and manages a $25.3 billion portfolio of retail, office and logistics property assets across Australia. The Group has a substantial investor base with more than 32,000 shareholders.",
   "website": "http://www.gpt.com.au"
 }

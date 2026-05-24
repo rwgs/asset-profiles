@@ -2,7 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000D4PV55",
     "cusip": "654445303",
+    "figi": "BBG000D4PV55",
     "isin": "US6544453037"
   },
   "industry": "Interactive Media & Services",
@@ -19,16 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "NTDOY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTOA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTOA.MU"
     },
     {
       "currency": "GBP",
@@ -59,18 +51,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NTOA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "NTOA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Nintendo Co., Ltd.",
   "primary_symbol": "NTDOF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

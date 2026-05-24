@@ -2,6 +2,8 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG012S3FZ21",
+    "figi": "BBG012S3FZ21",
     "isin": "CNE100005F09"
   },
   "industry": "Metals & Mining",
@@ -28,16 +30,6 @@
       "currency": "CNY",
       "exchange_mic": "XSHE",
       "symbol": "002466.SZ"
-    },
-    {
-      "currency": "SAR",
-      "exchange_mic": "XSAU",
-      "symbol": "2220.SR"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "2220.T"
     },
     {
       "currency": "EUR",
@@ -74,7 +66,7 @@
   "name": "Lithium Corporation",
   "primary_symbol": "ALLIF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,23 +2,15 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000G8R745",
+    "figi": "BBG000G8RBP3",
     "isin": "GB0002652740"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry_group": "Real Estate",
   "isin": "GB0002652740",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DLN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DLN.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -35,19 +27,9 @@
       "symbol": "DWVYF"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "DLN.F"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "DLN.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "DLN.SG"
     },
     {
       "currency": "AED",
@@ -66,16 +48,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "DE' LONGHI S.P.A.  EO 1,5",
-  "primary_symbol": "DLN.BE",
+  "name": "Derwent London plc",
+  "primary_symbol": "DVK.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
+  "sector": "Real Estate",
   "summary": "Derwent London Plc is a real estate investment trust (REIT) specializing in commercial property in London's central submarkets. The company acquires, develops, and manages a portfolio of office and retail properties. Derwent London is headquartered in London, United Kingdom.",
   "website": "http://www.derwentlondon.com"
 }

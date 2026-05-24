@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "829392604",
+    "composite_figi": "BBG000QVHQW1",
+    "cusip": "829392703",
+    "figi": "BBG000QVHQW1",
     "isin": "US8293926049"
   },
   "industry": "Health Care Technology",
@@ -24,18 +26,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "111N.F"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "SINT.ST"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Sintx Technologies, Inc.",
   "primary_symbol": "SINT",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

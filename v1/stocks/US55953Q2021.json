@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "55953Q202",
+    "composite_figi": "BBG002Q75DL4",
+    "cusip": "58518C106",
+    "figi": "BBG002Q75DL4",
     "isin": "US55953Q2021"
   },
   "industry": "Professional Services",
@@ -14,28 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "MGNT"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MGNT.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MGNT.ME"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "MGNT.VI"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Meganet Corporation",
   "primary_symbol": "MGNT",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG005KG06B4",
+    "figi": "BBG005KG06B4",
     "isin": "DE0008303504"
   },
   "industry": "Real Estate Management & Development",
@@ -35,11 +37,6 @@
       "symbol": "TEG.MU"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "TEG.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "TEG.DE"
@@ -53,11 +50,6 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TEG.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "TEG.L"
     },
     {
       "currency": "EUR",
@@ -74,7 +66,7 @@
   "name": "TAG Immobilien AG",
   "primary_symbol": "TAGOF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

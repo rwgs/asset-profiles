@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG00HLCWDF2",
+    "cusip": "23204X103",
+    "figi": "BBG00HLCWDF2"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "CTOS"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Custom Truck One Source, Inc.",
   "primary_symbol": "CTOS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Custom Truck One Source, Inc. provides specialty equipment rental and sale services to electric utility transmission and distribution, telecommunications, rail, forestry, waste management, and other infrastructure-related industries in the United States and Canada. It operates through two segments: Specialty Equipment Rentals (SER); and Specialty Truck Equipment and Manufacturing (STEM). The company owns new and used specialty equipment, including truck-mounted aerial lifts, cranes, service trucks, dump trucks, trailers, digger derricks, and other machinery and equipment. It offers new equipment for sale to be used for end-markets, which can be modified to meet customers specific needs. In addition, the company provides truck and equipment maintenance and repair services; and rents and sells specialized tools, including stringing blocks, insulated hot stick, and rigging equipment, as well as sale of specialized aftermarket parts. The company was formerly known as Nesco Holdings, Inc. and changed its name to Custom Truck One Source, Inc. in April 2021. The company was founded in 1988 and is headquartered in Kansas City, Missouri."
 }

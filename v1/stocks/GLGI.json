@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000PKR604",
+    "cusip": "39807A100",
+    "figi": "BBG000PKR604"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "GLGI"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Greystone Logistics, Inc.",
   "primary_symbol": "GLGI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Greystone Logistics, Inc., through its subsidiaries, manufactures and markets plastic pallets and pelletized recycled plastic resins in the United States. It offers rackable, can, nestable, display, monoblock, half-barrel and slim keg stackable, drum, and mid duty pallets. The company sells its pallets through a network of independent contractor, distributors, and direct sales. It serves the food, chemical, pharmaceutical, beverage and dairy industries. The company was formerly known as PalWeb Corporation and changed its name to Greystone Logistics, Inc. in March 2005. Greystone Logistics, Inc. was incorporated in 1969 and is based in Tulsa, Oklahoma."
 }

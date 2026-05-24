@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000BT3ZB0",
+    "figi": "BBG000BT3ZB0",
     "isin": "DE0007165631"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -18,26 +20,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SRT.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRT3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRT3.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRT3.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRT3.MU"
     },
     {
       "currency": "USD",
@@ -75,19 +57,9 @@
       "symbol": "SRT3.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SRT3.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SRT3.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SRT3.SG"
     },
     {
       "currency": "EUR",
@@ -109,7 +81,7 @@
   "name": "Sartorius Aktiengesellschaft",
   "primary_symbol": "SARTF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

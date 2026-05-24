@@ -2,6 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000P628K6",
+    "figi": "BBG000P628K6",
     "isin": "JP3386030005"
   },
   "industry": "Metals & Mining",
@@ -13,11 +15,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "JFEEF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JFR"
     },
     {
       "currency": "JPY",
@@ -44,7 +41,7 @@
   "name": "JFE Holdings, Inc.",
   "primary_symbol": "JFEEF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG00V76Y020",
+    "cusip": "87609L105",
     "figi": "BBG00V76Y084",
     "isin": "CA87609L1058"
   },
@@ -50,33 +51,13 @@
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "TRG.CN"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "TRG.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMAD",
-      "symbol": "TRG.MC"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "TRG.SG"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "TRG.ST"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Tarachi Gold Corp.",
+  "name": "Tarachi Gold Corp",
   "primary_symbol": "4RZ.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

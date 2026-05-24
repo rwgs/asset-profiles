@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000HW5GX3",
+    "cusip": "136385101",
     "figi": "BBG000HW5K64",
     "isin": "CA1363851017"
   },
@@ -17,39 +18,14 @@
       "symbol": "CNQ"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CRC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CRC.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "CNQ.TO"
     },
     {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "CRC.BK"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CRC.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CRC.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "CRC.L"
     },
     {
       "currency": "EUR",
@@ -61,7 +37,7 @@
   "name": "Canadian Natural Resources Limited",
   "primary_symbol": "CNQ",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

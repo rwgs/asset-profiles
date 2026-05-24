@@ -1,6 +1,9 @@
 {
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00356SP44",
+    "composite_figi": "BBG00H3P5Z91",
+    "figi": "BBG00H3P5ZH2",
     "isin": "SE0009858152"
   },
   "industry_group": "Health Care Equipment & Services",
@@ -8,15 +11,20 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "2B4.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0009858152.SG"
     }
   ],
   "name": "BONESUPPORT HOLDING AB",
-  "primary_symbol": "SE0009858152.SG",
+  "primary_symbol": "2B4.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

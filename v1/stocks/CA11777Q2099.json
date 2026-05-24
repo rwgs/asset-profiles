@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000TT7BJ2",
+    "cusip": "11777Q209",
     "figi": "BBG000TT7DD4",
     "isin": "CA11777Q2099"
   },
@@ -27,31 +28,6 @@
       "symbol": "BTG"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BTG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BTG.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BTG.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BTGN"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BTO"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0QYN.L"
@@ -72,26 +48,6 @@
       "symbol": "5BG.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "BTG.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "BTG.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "BTG.SG"
-    },
-    {
-      "currency": "SGD",
-      "exchange_mic": "XSES",
-      "symbol": "BTG.SI"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "BTGN.MX"
@@ -106,7 +62,7 @@
   "name": "B2Gold Corp.",
   "primary_symbol": "5BG.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

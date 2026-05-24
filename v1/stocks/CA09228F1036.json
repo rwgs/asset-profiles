@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000CR90K4",
+    "cusip": "09228F103",
     "figi": "BBG000CR9355",
     "isin": "CA09228F1036"
   },
@@ -15,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "BB"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BBN"
     },
     {
       "currency": "USD",
@@ -57,19 +53,9 @@
       "symbol": "BB.TO"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "BBN.AX"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "BBN.MX"
-    },
-    {
-      "currency": "CHF",
-      "exchange_mic": "XSWX",
-      "symbol": "BBN.SW"
     },
     {
       "currency": "EUR",
@@ -96,7 +82,7 @@
   "name": "BlackBerry Limited",
   "primary_symbol": "BB",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

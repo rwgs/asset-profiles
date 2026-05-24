@@ -1,7 +1,9 @@
 {
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000HJTKL0",
-    "figi": "BBG000HJTPL9",
+    "composite_figi": "BBG000PZVGH6",
+    "figi": "BBG000PZVGT3",
     "isin": "DE0005557508"
   },
   "industry_group": "Telecommunication Services",
@@ -11,43 +13,13 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "DTE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTE.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTE.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTE.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "DTE.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTEL.BD"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "DTE.DU"
     }
   ],
-  "name": "DT.TELEKOM AG NA",
-  "primary_symbol": "DTE.BE",
+  "name": "DEUTSCHE TELEKOM",
+  "primary_symbol": "DTE.TI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BHWVB3",
     "cusip": "276317104",
+    "figi": "BBG000BHWVB3",
     "isin": "US2763171046"
   },
   "industry": "Building Products",
@@ -19,23 +21,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EAQ.F"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XBOM",
-      "symbol": "EML.BO"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "EML.L"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "The Eastern Company",
   "primary_symbol": "EML",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

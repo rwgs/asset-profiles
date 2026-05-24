@@ -2,6 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG00BVLXTR5",
+    "figi": "BBG00BVLXTR5",
     "isin": "GB0007973794"
   },
   "industry": "Professional Services",
@@ -30,11 +32,6 @@
       "symbol": "SEO.MU"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRP.HA"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "SEO.DU"
@@ -53,23 +50,13 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "SRP.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "SRP.PA"
-    },
-    {
-      "currency": "INR",
-      "exchange_mic": "XNSE",
-      "symbol": "SRPL.NS"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Serco Group plc",
   "primary_symbol": "SCGPY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

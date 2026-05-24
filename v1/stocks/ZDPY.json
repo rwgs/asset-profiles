@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000MFVW88",
+    "cusip": "98978X208",
+    "figi": "BBG000MFVW88"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "ZDPY"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Zoned Properties, Inc.",
   "primary_symbol": "ZDPY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Zoned Properties, Inc., a property investment company, focuses on acquiring value-added real estate properties within the regulated cannabis industry in the United States. The company operates through two segments: Property Investment Portfolio and Real Estate Services. The Property Investment Portfolio segment engages in the operations, leasing, and management of leased commercial properties. The Real Estate Services segment provides advisory, brokerage, and technology services related to commercial properties. The company was formerly known as Vanguard Minerals Corporation and changed its name to Zoned Properties Inc. in October 2013. Zoned Properties Inc. was incorporated in 2003 and is headquartered in Scottsdale, Arizona."
 }

@@ -2,7 +2,9 @@
   "country": "Luxembourg",
   "country_code": "LU",
   "identifiers": {
+    "composite_figi": "BBG000GLP1V1",
     "cusip": "74973Y103",
+    "figi": "BBG000GLP1V1",
     "isin": "US74973Y1038"
   },
   "industry": "Media",
@@ -14,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "RGLXY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RRTU.MU"
     },
     {
       "currency": "EUR",
@@ -50,7 +47,7 @@
   "name": "RTL Group S.A.",
   "primary_symbol": "RGLXY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

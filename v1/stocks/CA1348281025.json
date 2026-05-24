@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000DFWWY8",
+    "cusip": "134828102",
+    "figi": "BBG000DFWWY8",
     "isin": "CA1348281025"
   },
   "industry": "Metals & Mining",
@@ -17,32 +20,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "CCB"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "U7N1.BE"
     },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "U7N1.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CCB.SG"
     },
     {
       "currency": "CAD",
@@ -64,7 +47,7 @@
   "name": "Canada Carbon Inc.",
   "primary_symbol": "BRUZF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

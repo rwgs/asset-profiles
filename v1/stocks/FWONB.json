@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG01HN2W3J9",
+    "figi": "BBG01HN2W3J9"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "FWONB"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Formula One Group",
   "primary_symbol": "FWONB",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Formula One Group, together with its subsidiaries, engages in the motorsports business in the United States, the United Kingdom, Spain, and internationally. The company holds commercial rights for the Fédération Internationale de l'Automobile (FIA) Formula One World Championship, an annual nine-month long motor race-based competition in which teams compete for the Constructors' championship and drivers compete for the Drivers' championship. It is also involved in filming, television production and post-production, and digital and social media activities; provision of freight, logistical, and travel related services, as well as technical support at Formula 1 events; production of the international television feed; and operation of the Formula 1 Paddock Club hospitality program, F2 and F3 race series, and F1 Academy. The company was founded in 1950 and is headquartered in Englewood, Colorado. Formula One Group operates as a subsidiary of Liberty Media Corporation."
 }

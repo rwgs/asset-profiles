@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000JRKKW7",
+    "cusip": "09950M300",
     "figi": "BBG000JRKPJ1",
     "isin": "CA09950M3003"
   },
@@ -20,11 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "B3H.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BLX"
     },
     {
       "currency": "USD",
@@ -47,26 +43,16 @@
       "symbol": "B3H.SG"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "BLX.AX"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "BLX.TO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "D8Q.F"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Boralex Inc.",
   "primary_symbol": "B3H.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

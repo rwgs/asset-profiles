@@ -6,7 +6,7 @@
     "figi": "BBG000R30TS9",
     "isin": "DE000A1EMHE0"
   },
-  "industry": "Software",
+  "industry": "Household Products",
   "industry_group": "Materials",
   "isin": "DE000A1EMHE0",
   "kind": "stock",
@@ -20,11 +20,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "GTK.HM"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "GTK.AX"
     },
     {
       "currency": "EUR",
@@ -42,21 +37,16 @@
       "symbol": "GTK.F"
     },
     {
-      "currency": "NZD",
-      "exchange_mic": "XNZE",
-      "symbol": "GTK.NZ"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GTK.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "TONKENS AGRAR AG",
+  "market_cap_band": "Nano Cap",
+  "name": "Tonkens Agrar AG",
   "primary_symbol": "GTK.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -64,5 +54,5 @@
   "schema_version": "1.0.0",
   "sector": "Materials",
   "summary": "Tonkens Agrar AG is an agricultural company. They are involved in agricultural production and trading. The company is based in Germany.",
-  "website": "http://www.gentrack.com"
+  "website": "http://www.tonkens-agrar.de"
 }

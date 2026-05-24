@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00ZVWX8F7",
+    "cusip": "68405H100",
+    "figi": "BBG00ZVWX8F7",
     "isin": "CA68405H1001"
   },
   "industry": "Household Products",
@@ -15,19 +18,9 @@
       "symbol": "OPTHF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OPTI"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA68405H1001.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBRU",
-      "symbol": "OPTI.BR"
     },
     {
       "currency": "CAD",
@@ -38,18 +31,12 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "OPTI.L"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "OPTI.ST"
     }
   ],
-  "market_cap_band": "Micro Cap",
   "name": "Optimi Health Corp.",
   "primary_symbol": "OPTHF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

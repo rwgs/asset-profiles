@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000HSM790",
+    "cusip": "39342L108",
+    "figi": "BBG000HSM790",
     "isin": "CA39342L1085"
   },
   "industry": "Pharmaceuticals",
@@ -13,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "GTBIF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GTII"
     },
     {
       "currency": "USD",
@@ -49,7 +47,7 @@
   "name": "Green Thumb Industries Inc.",
   "primary_symbol": "GTBIF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

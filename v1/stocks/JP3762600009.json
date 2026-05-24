@@ -3,6 +3,7 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000BZPXB7",
+    "cusip": "65535H208",
     "figi": "BBG000BZPZB2",
     "isin": "JP3762600009"
   },
@@ -47,11 +48,6 @@
       "symbol": "8604.T"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XAMS",
-      "symbol": "NSE.AS"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "NSE.DU"
@@ -67,11 +63,6 @@
       "symbol": "NSE.SG"
     },
     {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "NSE.V"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NSEA.F"
@@ -81,7 +72,7 @@
   "name": "Nomura Holdings, Inc.",
   "primary_symbol": "NMR",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

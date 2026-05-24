@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000FGX0T9",
+    "figi": "BBG000FGX0T9",
     "isin": "DE0005089031"
   },
   "industry": "Diversified Telecommunication Services",
@@ -17,26 +19,6 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "UTDI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UTDI.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UTDI.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UTDI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "UTDI.TI"
     },
     {
@@ -48,11 +30,6 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "UTDI.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "UTDI.DU"
     },
     {
       "currency": "EUR",
@@ -74,7 +51,7 @@
   "name": "United Internet AG",
   "primary_symbol": "UDIRF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

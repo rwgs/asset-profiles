@@ -1,5 +1,9 @@
 {
+  "country": "South Africa",
+  "country_code": "ZA",
   "identifiers": {
+    "composite_figi": "BBG000BLLBF6",
+    "figi": "BBG000BLLCQ2",
     "isin": "ZAE000109815"
   },
   "industry_group": "Banks",
@@ -7,30 +11,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SBK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SKC2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SKC2.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SKC2.SG"
     }
   ],
-  "name": "AFRICAN EQU.EMP.INV.",
-  "primary_symbol": "SBK.BE",
+  "name": "Standard Bank Group Ltd. Regist",
+  "primary_symbol": "SKC2.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

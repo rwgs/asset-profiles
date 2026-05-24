@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000BV8FN1",
+    "cusip": "68244N201",
+    "figi": "BBG000BV8FN1"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "OWVI"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "One World Ventures, Inc.",
   "primary_symbol": "OWVI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "One World Ventures, Inc., a cryptocurrency datacenter hosting company in Wyoming. The company engages in the purchase and installation of cryptocurrency mine hosting equipment; and provides cryptocurrency mine hosting services with a secure datacenter, access to electricity, climate-controlled facility, internet, and maintenance to clients. One World Ventures, Inc. was incorporated in 1997 and is based in Las Vegas, Nevada."
 }

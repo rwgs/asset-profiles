@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000HS74G6",
+    "cusip": "136375102",
     "figi": "BBG000HS7779",
     "isin": "CA1363751027"
   },
@@ -30,11 +31,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "CY2.MU"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "CNI.AX"
     },
     {
       "currency": "BRL",
@@ -71,7 +67,7 @@
   "name": "Canadian National Railway Company",
   "primary_symbol": "CNI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

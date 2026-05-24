@@ -1,6 +1,11 @@
 {
   "country": "Brazil",
   "country_code": "BR",
+  "identifiers": {
+    "composite_figi": "BBG01KK16ZG8",
+    "cusip": "20441B704",
+    "figi": "BBG01KK16ZG8"
+  },
   "industry_group": "Utilities",
   "kind": "stock",
   "listings": [
@@ -14,7 +19,7 @@
   "name": "Companhia Paranaense de Energia (COPEL)",
   "primary_symbol": "ELPC",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

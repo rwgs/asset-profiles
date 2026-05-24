@@ -1,6 +1,11 @@
 {
   "country": "Singapore",
   "country_code": "SG",
+  "identifiers": {
+    "composite_figi": "BBG01PR70N34",
+    "cusip": "G0864B103",
+    "figi": "BBG01PR70N34"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -13,7 +18,7 @@
   "name": "Basel Medical Group Ltd Ordinary Shares",
   "primary_symbol": "BMGL",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

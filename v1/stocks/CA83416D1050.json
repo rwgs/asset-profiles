@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG00XZBMQR3",
+    "cusip": "83416D105",
     "figi": "BBG00XZBMQX6",
     "isin": "CA83416D1050"
   },
@@ -17,19 +18,9 @@
       "symbol": "0ZJ.MU"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SVS.CR"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0ZJ.F"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "SVS.AX"
     },
     {
       "currency": "CAD",
@@ -41,7 +32,7 @@
   "name": "SOLARVEST BIOENER",
   "primary_symbol": "0ZJ.MU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,7 +1,9 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000BVVWX7",
+    "figi": "BBG000BVVZ51",
     "isin": "FR0004050250"
   },
   "industry": "Capital Markets",
@@ -12,14 +14,19 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "NE9.BE"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
       "symbol": "NRO"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Neuberger Berman Real Estate Securities Income Fund Inc.",
-  "primary_symbol": "NRO",
+  "name": "Neurones SA",
+  "primary_symbol": "NE9.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

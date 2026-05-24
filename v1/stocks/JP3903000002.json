@@ -1,24 +1,16 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Japan",
+  "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000C24G92",
+    "figi": "BBG000C24JL2",
     "isin": "JP3903000002"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Energy",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "JP3903000002",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5711.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MUJ"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -40,17 +32,17 @@
       "symbol": "MUJ.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "ANTERO MIDSTREAM  DL -,01",
-  "primary_symbol": "5711.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "MITSUBISHI MAT.",
+  "primary_symbol": "MUJ.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Antero Midstream Corporation is a limited partnership formed to own, operate, and develop midstream energy infrastructure. The company focuses on gathering, compressing, processing, and transporting natural gas and natural gas liquids (NGLs) for Antero Resources, primarily operating in the Appalachian Basin. Antero Midstream is headquartered in Denver, Colorado.",
-  "website": "http://www.blackrock.com/investing/products/240267/blackrock-muniholdings-new-jersey-insured-fund-inc-usd-fund"
+  "sector": "Materials",
+  "summary": "Mitsubishi Materials Corporation is a Japanese company engaged in the manufacturing and sale of cement, metals, and advanced materials. Its operations span from resource development and recycling to the production of high-performance components and electronic materials. The company is headquartered in Tokyo, Japan.",
+  "website": "http://www.mmc.co.jp"
 }

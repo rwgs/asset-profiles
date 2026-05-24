@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000F02T51",
+    "cusip": "12685J105",
+    "figi": "BBG000F02T51"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "CABO"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Cable One, Inc.",
   "primary_symbol": "CABO",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Cable One, Inc., together with its subsidiaries, provides data, video, and voice services to residential and business customers in the United States. The company offers residential data services, a service to enhance Wi-Fi signal throughout the home, as well as expert technology support and network security services. It also provides various residential video services from basic video service to digital services with access to hundreds of channels. In addition, the company offers Sparklight TV, an IPTV video service and a cloud-based digital video recorder (DVR) service that allows customers to stream video channels from the cloud through a new app on supported devices, such as the Amazon Firestick, Apple TV, and Android-based smart televisions that does not require the use of a set-top box. Further, it provides traditional telecommunications services; residential voice services; fiber optic-based products include dark fiber, E-Line, E-Lan and E-Access ethernet services; and network-to-network interface connections. Additionally, it provides data, voice, and video products to business customers, including small to mid-markets, enterprises, and wholesale and carrier customers. Cable One, Inc. was incorporated in 1980 and is headquartered in Phoenix, Arizona."
 }

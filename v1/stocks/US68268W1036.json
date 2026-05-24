@@ -1,7 +1,7 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005497GZ3",
-    "cusip": "68268W103",
     "isin": "US68268W1036"
   },
   "industry_group": "Diversified Financials",
@@ -9,15 +9,20 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "0S1.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US68268W1036.SG"
     }
   ],
-  "name": "ONEMAIN HOLDINGS INC",
-  "primary_symbol": "US68268W1036.SG",
+  "name": "OneMain Holdings, Inc.",
+  "primary_symbol": "0S1.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

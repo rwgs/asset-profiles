@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000JK82B9",
+    "figi": "BBG000JK82B9"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "VODPF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Vodafone Group Public Limited Company",
   "primary_symbol": "VODPF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Vodafone Group Public Limited Company provides telecommunication services in Germany, the United Kingdom, rest of Europe, Turkey, and South Africa. It offers mobile and fixed services; connectivity business solutions, such as digital services, the Internet of Things (IoT) and financial services; and IoT platforms. The company also provides cloud, multi-cloud, and edge computing solutions; M-PESA, an African mobile money platform to make payments and offer financial services; and international voice and roaming services. In addition, it offers unified communications, mobile connectivity, IoT connectivity, cloud and edge, E2E solutions, and security services; leases fibre and other fixed connectivity services; and engages in infrastructure assets, shared operations, growth platforms, retail, and service operations. The company serves private and public sector customers in health, banking and finance, transport and logistics, retail, utilities, and agriculture industries. Vodafone Group Public Limited Company was incorporated in 1984 and is based in Newbury, the United Kingdom."
 }

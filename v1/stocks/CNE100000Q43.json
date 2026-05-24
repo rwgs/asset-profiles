@@ -2,6 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG0016RL5W1",
+    "figi": "BBG0016RL5W1",
     "isin": "CNE100000Q43"
   },
   "industry": "Banks",
@@ -32,26 +34,6 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "EK7.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EK7.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EK7.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EK7.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "IDCBF"
     },
     {
@@ -63,11 +45,6 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EK7.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "EK7.SG"
     },
     {
       "currency": "EUR",
@@ -109,7 +86,7 @@
   "name": "Bank of China Limited",
   "primary_symbol": "ACGBF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

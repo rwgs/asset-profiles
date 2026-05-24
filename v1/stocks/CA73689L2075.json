@@ -3,6 +3,7 @@
   "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000BK6MB5",
+    "cusip": "369604301",
     "figi": "BBG000BK6PH2",
     "isin": "CA73689L2075"
   },
@@ -19,22 +20,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "PFFOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "POR"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "POTA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "POTA.MU"
     },
     {
       "currency": "EUR",
@@ -90,28 +76,13 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "GNE.PA"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "POR.V"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "POTA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "POTA.SG"
     }
   ],
   "market_cap_band": "Mega Cap",
   "name": "General Electric Company",
   "primary_symbol": "GE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

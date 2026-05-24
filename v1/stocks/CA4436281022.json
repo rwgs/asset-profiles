@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000PM99H6",
+    "cusip": "443628102",
     "figi": "BBG000PM9C70",
     "isin": "CA4436281022"
   },
@@ -19,52 +20,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "HBM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HBM.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HBM.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HBM.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "OCKA.MU"
     },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0AHJ.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "HBM.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "HBM.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "HBM.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "HBM.SG"
     },
     {
       "currency": "CAD",
@@ -91,7 +52,7 @@
   "name": "Hudbay Minerals Inc.",
   "primary_symbol": "HBM",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

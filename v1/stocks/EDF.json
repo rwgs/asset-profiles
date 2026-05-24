@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG00162SCL6",
+    "cusip": "86164T107",
+    "figi": "BBG00162SCL6"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "EDF"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "one",
+  "name": "Virtus Stone Harbor Emerging Markets Income Fund",
   "primary_symbol": "EDF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Virtus Stone Harbor Emerging Markets Income Fund is a closed-ended fixed income mutual fund launched and managed by Stone Harbor Investment Partners LP. The fund invests in the fixed income markets of emerging market countries across the globe. It primarily invests in sovereign debt obligations, corporate debt securities, structured notes, convertible securities, securities issued by supranational organizations, floating rate commercial loans, and securitized loan participations. The fund focuses on factors such as liquidity, volatility, tax implications, interest rate sensitivity, counterparty risks, economic factors, currency exchange rates, and technical market considerations to create its portfolio. It benchmarks the performance of its portfolios against the JP Morgan EMBI Global Diversified TR Index, the JPMorgan CEMBI Broad Diversified Index, and the JPMorgan GBI-EM Global Diversified Composite TR Index. Virtus Stone Harbor Emerging Markets Income Fund was formed on December 22, 2010 and is domiciled in the United States."
 }

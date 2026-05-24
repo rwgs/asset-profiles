@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000BGY478",
+    "figi": "BBG000BGY478"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "CAPS"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "one",
+  "name": "Capstone Holding Corp.",
   "primary_symbol": "CAPS",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Capstone Holding Corp., through its subsidiaries, engages in the distribution and installation of building products in the United States and Canada. It operates in two segments, TotalStone and Carolina Stone. The company offers manufactured stone veneer under the Cultured Stone, Dutch Quality Stone, and Toro Stone brand names; natural stone under the Pangaea Stone brand name; panelized stone system under the Interloc brand name; mechanically attached stone veneer systems under the Beon Stone brand name; moisture management system under the D-Rain brand name; landscape and hardscape products under the Aura Natural Landscapes brand name; and modular masonry fireplaces under the Isokern brand name. It serves masonry dealers, brick distributors, landscape yards, hearth and home dealers, building material dealers, contractors, builders, and homeowners. The company was formerly known as Capstone Therapeutics Corp. and changed its name to Capstone Holding Corp. in February 2022. Capstone Holding Corp. was incorporated in 1987 and is headquartered in Alsip, Illinois."
 }

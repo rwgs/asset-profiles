@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000BD6341",
+    "cusip": "861837102",
+    "figi": "BBG000BD6341"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "SGRZ"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Stonepath Group Inc.",
   "primary_symbol": "SGRZ",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Stonepath Group Inc., a third-party logistics company, provides transportation and logistics services worldwide. The company offers various supply chain solutions to a diverse client base, including manufacturers, distributors, and retail chains. Its transportation services include air and ocean freight forwarding, distribution, customs brokerage, consulting services, shipment tracking between pickup and delivery, and other customized management services. Stonepath Group co-ordinates the movement of raw materials, supplies, components, and finished goods for its customers throughout North America and internationally. The company also provides warehousing and distribution services in North America, and offers customs clearance and bonded warehousing services in the international markets. In addition, it provides contract logistics, global project management, order fulfillment, and inventory control services. As of March 31, 2006, the company operated a network of offices in 21 major metropolitan areas in North America, 17 locations in the Asia Pacific region, 3 locations in Brazil, and 1 location in Europe, as well as a network of independent agents and service partners worldwide. The company was formerly known as Net Value Holdings and changed its name to Stonepath Group Inc. in October 2000. The company was incorporated in 1998 and is based in Seattle, Washington. On May 8, 2007, an involuntary petition for bankruptcy protection was filed by Spherion Corporation, Custom Transfer Incorporated, and Overbye Transport Incorporated against Stonepath Group Inc. under Chapter 7 liquidation with the U.S. Bankruptcy Court for the District of Delaware."
 }

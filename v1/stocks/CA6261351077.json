@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000HZMH92",
+    "cusip": "626135107",
+    "figi": "BBG000HZMH92",
     "isin": "CA6261351077"
   },
   "industry": "Metals & Mining",
@@ -25,11 +28,6 @@
       "symbol": "NGU.MU"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "MUN.PA"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "MUN.V"
@@ -44,7 +42,7 @@
   "name": "Mundoro Capital Inc.",
   "primary_symbol": "MUNMF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

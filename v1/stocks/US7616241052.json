@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "761624105",
+    "composite_figi": "BBG005VQ4CM1",
+    "cusip": "02927U208",
+    "figi": "BBG005VQ4CM1",
     "isin": "US7616241052"
   },
   "industry": "Metals & Mining",
@@ -21,16 +23,6 @@
       "symbol": "REX"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RX3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RX3.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RX3.F"
@@ -40,7 +32,7 @@
   "name": "American Resources Corporation",
   "primary_symbol": "AREC",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000DKRX35",
+    "figi": "BBG000DKRX35",
     "isin": "AU000000DYL4"
   },
   "industry": "Metals & Mining",
@@ -40,11 +42,6 @@
       "symbol": "JMI.F"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "JMI.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JMI.SG"
@@ -54,7 +51,7 @@
   "name": "Deep Yellow Limited",
   "primary_symbol": "DYLLF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

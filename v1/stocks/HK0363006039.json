@@ -1,7 +1,9 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000JGMHP4",
-    "figi": "BBG000JGMMK8",
+    "figi": "BBG000JGMM00",
     "isin": "HK0363006039"
   },
   "industry_group": "Capital Goods",
@@ -9,20 +11,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGI.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SGI.SG"
     }
   ],
-  "name": "SHANGHAI IND. HLDGS",
-  "primary_symbol": "SGI.MU",
+  "name": "SHANGHAI INDUSTRIAL HLDGS LTD.R",
+  "primary_symbol": "SGI.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

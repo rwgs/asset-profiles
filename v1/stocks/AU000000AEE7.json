@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000B9X8C0",
+    "cusip": "023608102",
+    "figi": "BBG000B9X8C0",
     "isin": "AU000000AEE7"
   },
   "industry": "Electric Utilities",
@@ -13,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "AEE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AURA.TA"
     },
     {
       "currency": "BRL",
@@ -33,23 +31,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AE4.F"
-    },
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "AEE.JO"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "AURA.L"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Ameren Corporation",
   "primary_symbol": "AEE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

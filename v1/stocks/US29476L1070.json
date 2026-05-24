@@ -2,43 +2,25 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BG8M31",
     "cusip": "29476L107",
+    "figi": "BBG000BG8P98",
     "isin": "US29476L1070"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Banks",
+  "industry_group": "Real Estate",
   "isin": "US29476L1070",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0IIB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "EQR"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "0IIB.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "0IIB.DU"
     },
     {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "E1QR34.SA"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "EQR.AX"
     },
     {
       "currency": "MXN",
@@ -52,16 +34,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "NOTES 80 SILBER ETC",
-  "primary_symbol": "0IIB.MU",
+  "name": "Equity Residential",
+  "primary_symbol": "EQR",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "NOTES 80 SILBER ETC is an exchange-traded commodity (ETC) that tracks the price of silver. The ETC is structured as a debt instrument (note) and is collateralized with physical silver holdings. Investors use this ETC to gain exposure to silver price movements without directly owning the metal.",
+  "sector": "Real Estate",
+  "summary": "Equity Residential is committed to creating communities where people thrive. The Company, a member of the S&P 500, is focused on the acquisition, development and management of residential properties located in and around dynamic cities that attract high quality long-term renters. Equity Residential owns or has investments in 305 properties consisting of 78,568 apartment units, located in Boston, New York, Washington, D.C., Seattle, San Francisco, Southern California and Denver.",
   "website": "http://www.equityapartments.com"
 }

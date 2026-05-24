@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "826197501",
+    "composite_figi": "BBG000BGJYL3",
+    "cusip": "826176109",
+    "figi": "BBG000BGJYL3",
     "isin": "US8261975010"
   },
   "industry": "Capital Markets",
@@ -16,21 +18,6 @@
       "symbol": "SIEB"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIEB.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SIEB.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SIEB.SG"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "STF.SG"
@@ -40,7 +27,7 @@
   "name": "Siebert Financial Corp.",
   "primary_symbol": "SIEB",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

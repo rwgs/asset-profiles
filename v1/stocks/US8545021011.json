@@ -1,41 +1,18 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000H4XG46",
     "cusip": "854502101",
-    "figi": "BBG000H4XJV0",
     "isin": "US8545021011"
   },
-  "industry": "Capital Markets",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "US8545021011",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWF.MU"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "SWF.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SWF.DE"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SWF.DU"
     },
     {
       "currency": "EUR",
@@ -43,17 +20,16 @@
       "symbol": "SWF.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "STANLEY BL. + DECK.DL2,50",
-  "primary_symbol": "SWF.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Stanley Black & Decker, Inc.",
+  "primary_symbol": "SWF.DE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Stanley Black & Decker, Inc. is a diversified global provider of hand tools, power tools, accessories, storage, and engineered fastening systems. The company also provides security solutions and oil & gas services. Their headquarters are located in New Britain, Connecticut, USA.",
-  "website": "http://www.selfwealth.com.au"
+  "summary": "Stanley Black & Decker, Inc. is a diversified global provider of hand tools, power tools, accessories, storage, and engineered fastening systems. The company also provides security solutions and oil & gas services. Their headquarters are located in New Britain, Connecticut, USA."
 }

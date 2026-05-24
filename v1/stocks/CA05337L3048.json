@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000K7ZHS5",
+    "cusip": "05337L304",
+    "figi": "BBG000K7ZHS5",
     "isin": "CA05337L3048"
   },
   "industry": "Metals & Mining",
@@ -13,26 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "AVLNF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OU5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OU5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OU5A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OU5A.MU"
     },
     {
       "currency": "CAD",
@@ -54,7 +37,7 @@
   "name": "Avalon Advanced Materials Inc.",
   "primary_symbol": "AVLNF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

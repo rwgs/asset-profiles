@@ -2,6 +2,8 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
+    "composite_figi": "BBG00NTJTKC7",
+    "figi": "BBG00NTJTKD6",
     "isin": "PTEDP0AM0009"
   },
   "industry": "Multi-Utilities",
@@ -9,21 +11,6 @@
   "isin": "PTEDP0AM0009",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0OF7.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EDP.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EDP.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -38,11 +25,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "ELCPF"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "EDP.DU"
     },
     {
       "currency": "EUR",
@@ -66,16 +48,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "EDP ENERGIAS DE PORTUGAL SA ENE",
-  "primary_symbol": "0OF7.IL",
+  "name": "EDP S.A.",
+  "primary_symbol": "EDP.TI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "EDP ENERGIAS DE PORTUGAL SA is a Portuguese electric utility company involved in the generation, distribution, and supply of electricity and gas. The company operates renewable energy plants, including hydro, wind, and solar. Its headquarters are located in Lisbon, Portugal.",
+  "summary": "EDP - Energias de Portugal, S.A. engages in the generation, transportation, distribution, and supply of electricity in Portugal, Spain, France, Brazil, the United States, and internationally. The company operates through Renewables, Networks, and Client Solutions & Energy Management segments. It primarily generates electricity through hydro, CCGT, coal, wind, solar, nuclear, and cogeneration sources. The company also distributes and supplies natural gas. It has an installed capacity of 24 GW; and serves 8,615,444 electricity customers and 691,370 gas customers. The company also operates 312,433 kilometers of distribution overhead lines; and 62,258 kilometers of distribution underground lines. In addition, it offers engineering, laboratory tests, professional training, energy, and property management services. The company was incorporated in 1976 and is headquartered in Lisbon, Portugal.",
   "website": "http://www.edp.com"
 }

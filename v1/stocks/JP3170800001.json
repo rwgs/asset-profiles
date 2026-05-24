@@ -2,6 +2,8 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG004HQHKK0",
+    "figi": "BBG004HQHKK0",
     "isin": "JP3170800001"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,41 +17,16 @@
       "symbol": "OSG"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OSG.BE"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "19O.F"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "6136.HK"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "6136.T"
-    },
-    {
-      "currency": "TWD",
-      "exchange_mic": "XTAI",
-      "symbol": "6136.TW"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "OSG.F"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Overseas Shipholding Group, Inc.",
   "primary_symbol": "OSG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

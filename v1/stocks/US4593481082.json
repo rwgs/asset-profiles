@@ -2,7 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
+    "composite_figi": "BBG000J65W72",
     "cusip": "459348108",
+    "figi": "BBG000J65W72",
     "isin": "US4593481082"
   },
   "industry": "Airlines",
@@ -26,11 +28,6 @@
       "symbol": "INR.TI"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INRA.BE"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "IAG.L"
@@ -49,18 +46,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "INR.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "INRA.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "International Consolidated Airlines Group, S.A.",
   "primary_symbol": "BABWF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000CJNBG7",
-    "figi": "BBG000CJPGT0",
     "isin": "FR0000074122"
   },
   "industry": "IT Services",
@@ -11,16 +9,6 @@
   "isin": "FR0000074122",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XII.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XII.MU"
-    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -35,18 +23,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "XII.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "XII.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "SCT.INF.IND.  EO 2",
-  "primary_symbol": "XII.BE",
+  "name": "Societe pour l'Informatique Industrielle SII S.A.",
+  "primary_symbol": "0MVM.L",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

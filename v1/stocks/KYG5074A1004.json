@@ -1,28 +1,20 @@
 {
-  "country": "Taiwan, Province of China",
-  "country_code": "TW",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG00YHKV659",
+    "figi": "BBG00YHKV659",
     "isin": "KYG5074A1004"
   },
-  "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry": "Health Care Equipment & Supplies",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "KYG5074A1004",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "6618.TWO"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "JDHIF"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "6618.T"
     },
     {
       "currency": "EUR",
@@ -30,17 +22,17 @@
       "symbol": "KYG5074A1004.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "UHT Unitech Co., Ltd.",
-  "primary_symbol": "6618.TWO",
+  "market_cap_band": "Large Cap",
+  "name": "JD Health International, Inc.",
+  "primary_symbol": "JDHIF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "UHT Unitech Co., Ltd. manufactures and sells medium and high grade carbon fiber in Taiwan and internationally. Its products are used in aerospace, automotive, energy, and other sectors. The company is based in Taoyuan, Taiwan.",
-  "website": "http://www.uht.com.tw"
+  "sector": "Health Care",
+  "summary": "JD Health International Inc., an investment holding company, operates an online healthcare platform in the People's Republic of China. It offers pharmaceutical and healthcare products, including OTC drugs, prescription drugs, and medical devices and supplies, as well as health and wellness products through direct selling and online retail pharmacy network. The company also provides online healthcare services, such as online consultation, prescription renewal, chronic disease management, family doctor, and consumer healthcare services; health management and intelligent healthcare solutions, as well as technical and advertising services. In addition, its platform allows users to book appointments and pay for services, such as general physical exams, aesthetic medicines, vaccination appointments, dental care services, and nucleic acid testing tests. The company was incorporated in 2018 and is headquartered in Beijing, the People's Republic of China. JD Health International Inc. is a subsidiary of JD Jiankang Limited.",
+  "website": "http://ir.jdhealth.com"
 }

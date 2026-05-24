@@ -2,6 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG000VXNRF1",
+    "figi": "BBG000VXNRF1",
     "isin": "GB00B1XH2C03"
   },
   "industry": "Metals & Mining",
@@ -23,11 +25,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "FEX.MU"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "FEX.AX"
     },
     {
       "currency": "AED",
@@ -54,7 +51,7 @@
   "name": "Ferrexpo plc",
   "primary_symbol": "FEEXF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

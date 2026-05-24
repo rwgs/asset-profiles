@@ -2,7 +2,9 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
+    "composite_figi": "BBG000K11Z96",
     "cusip": "670100205",
+    "figi": "BBG000K11Z96",
     "isin": "US6701002056"
   },
   "industry": "Biotechnology",
@@ -14,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "NONOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NOVA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NOVA.MU"
     },
     {
       "currency": "USD",
@@ -41,29 +33,14 @@
       "symbol": "NNOR.VI"
     },
     {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "NOVA.BK"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "NOVA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "NOVA.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NOVA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "NOVA.SG"
     },
     {
       "currency": "EUR",
@@ -90,7 +67,7 @@
   "name": "Novo Nordisk A/S",
   "primary_symbol": "NONOF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

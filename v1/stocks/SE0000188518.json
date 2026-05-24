@@ -1,19 +1,16 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG000BZJL66",
+    "figi": "BBG000BZJP49",
     "isin": "SE0000188518"
   },
-  "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "SE0000188518",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CATB"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -32,11 +29,6 @@
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
-      "symbol": "209A.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
       "symbol": "SKVB.F"
     },
     {
@@ -46,16 +38,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Catabasis Pharmaceuticals, Inc.",
-  "primary_symbol": "CATB",
+  "name": "Catella AB Class B",
+  "primary_symbol": "SKVB.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Catabasis Pharmaceuticals, Inc., a biopharmaceutical company, focuses on the discovery, development, and commercialization of therapeutics in the United States. The company's lead product candidate is QLS-215, a monoclonal antibody inhibitor of plasma kallikrein that is in preclinical development for the treatment of hereditary angioedema, a rare, debilitating and potentially life-threatening disease. The company was incorporated in 2008 and is based in Boston, Massachusetts.",
-  "website": "http://www.catabasis.com"
+  "sector": "Financials",
+  "summary": "Catella AB is a Swedish financial services group that offers property investment management, corporate finance, and banking services. The company operates in several European countries. Catella AB is headquartered in Stockholm, Sweden.",
+  "website": "http://www.catella.com"
 }

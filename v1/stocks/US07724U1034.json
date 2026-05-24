@@ -2,7 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000BZQRH3",
     "cusip": "07724U103",
+    "figi": "BBG000BZQRH3",
     "isin": "US07724U1034"
   },
   "industry": "Household Products",
@@ -46,11 +48,6 @@
       "symbol": "BEIA.F"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "BEIA.SG"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "BEIN.MX"
@@ -60,7 +57,7 @@
   "name": "Beiersdorf Aktiengesellschaft",
   "primary_symbol": "BDRFF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

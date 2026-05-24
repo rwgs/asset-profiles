@@ -2,6 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00ZK0QLY7",
+    "cusip": "42341P104",
+    "figi": "BBG00ZK0QLY7",
     "isin": "DE000A161408"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -60,11 +63,6 @@
       "symbol": "HFG.F"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "HFG.L"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HFG.SG"
@@ -84,7 +82,7 @@
   "name": "HelloFresh SE",
   "primary_symbol": "HELFY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BQZDN7",
+    "cusip": "694213109",
+    "figi": "BBG000BQZDN7",
     "isin": "CA6942131096"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,23 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "PEMC"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEMSF"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "PEMC.V"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Pacific Energy & Mining Company",
   "primary_symbol": "PEMC",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

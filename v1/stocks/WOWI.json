@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000BJD590",
+    "cusip": "59163F204",
+    "figi": "BBG000BJD590"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "WOWI"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Metro One Telecommunications, I",
   "primary_symbol": "WOWI",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Metro One Telecommunications, Inc. provides mobile commerce platform that enables retailers to launch their own branded mobile applications in the United States. Its Mobile Commerce Merchant Platform allows small and medium-sized business retailers and enterprises to launch a branded and functional mobile app; Mobile Commerce Enterprise platform that enables enterprise retailers, who owns and operates brick and mortar store, as well as e-commerce platforms to engage with their customer online and in-store through the customer's mobile application; and Instore engagement Suite solutions. The company was formerly known as Metro One Direct Information Services Inc. and changed its name to Metro One Telecommunications, Inc. in December 1995. Metro One Telecommunications, Inc. was incorporated in 1989 and is based in Sheridan, Wyoming."
 }

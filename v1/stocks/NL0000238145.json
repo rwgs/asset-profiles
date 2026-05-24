@@ -1,19 +1,16 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000C6YWQ6",
+    "figi": "BBG000C6Z0Z5",
     "isin": "NL0000238145"
   },
-  "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Media & Entertainment",
   "isin": "NL0000238145",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "APM"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -36,11 +33,6 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "A1V.F"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "APM.DE"
     },
@@ -58,24 +50,19 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "APM.SG"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "APM.V"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Aptorum Group Limited",
-  "primary_symbol": "APM",
+  "market_cap_band": "Micro Cap",
+  "name": "AD PEPPER MEDIA  EO 0,05",
+  "primary_symbol": "APM.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Aptorum Group Limited, a pharmaceutical company, engages in the discovery, development, and commercialization of therapeutic assets to treat diseases with unmet medical needs, particularly infectious diseases and cancers. Its pipeline through the establishment of drug discovery platforms enable the discovery of new therapeutics assets, such as systematic screening of existing approved drug molecules, and microbiome-based research platform for treatments of metabolic diseases. The company is also pursuing therapeutic and diagnostic projects in neurology, gastroenterology, metabolic disorders, women's health, and other disease areas. It also has projects focused on surgical robotics and natural supplement for women undergoing menopause and experiencing related symptoms. Aptorum Group Limited was incorporated in 2010 and is headquartered in London, the United Kingdom.",
-  "website": "http://www.aptorumgroup.com"
+  "sector": "Communications",
+  "summary": "AD Pepper Media International N.V. is a German-based digital marketing company that provides performance-based marketing solutions, including affiliate marketing, search engine marketing, display advertising, and email marketing. The company operates through various subsidiaries across Europe. AD Pepper Media International N.V. is headquartered in Nuremberg, Germany.",
+  "website": "http://adpeppergroup.com"
 }

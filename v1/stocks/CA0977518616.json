@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000F54FK1",
+    "cusip": "097751861",
+    "figi": "BBG000F54FK1",
     "isin": "CA0977518616"
   },
   "industry": "Consumer Finance",
@@ -15,11 +18,6 @@
       "symbol": "BBDC"
     },
     {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "BBDC.BA"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TRY.F"
@@ -29,7 +27,7 @@
   "name": "Barings BDC, Inc.",
   "primary_symbol": "BBDC",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

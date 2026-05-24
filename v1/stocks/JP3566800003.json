@@ -1,7 +1,9 @@
 {
+  "country": "Japan",
+  "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000K65JV2",
-    "figi": "BBG000K65P20",
+    "figi": "BBG000K65NF1",
     "isin": "JP3566800003"
   },
   "industry_group": "Transportation",
@@ -9,25 +11,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JAP.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "JAP.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JAP.SG"
     }
   ],
-  "name": "CENTRAL JAP RWY",
-  "primary_symbol": "JAP.MU",
+  "name": "CENTRAL JAPAN RAILWAY CO. Regis",
+  "primary_symbol": "JAP.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

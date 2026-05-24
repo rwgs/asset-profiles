@@ -1,58 +1,31 @@
 {
-  "country": "China",
-  "country_code": "CN",
+  "country": "Japan",
+  "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00BDKZ6N9",
-    "figi": "BBG00BDKZ6V0",
     "isin": "CNE100002359"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry": "IT Services",
+  "industry_group": "Software & Services",
   "isin": "CNE100002359",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CIM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CIM.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CNICF"
-    },
-    {
       "currency": "JPY",
       "exchange_mic": "XTKS",
       "symbol": "3908.T"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "CIM.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CIM.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "CHINA INT.CAP.CORP.H YC 1",
-  "primary_symbol": "CIM.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Collabos Corporation",
+  "primary_symbol": "3908.T",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "China International Capital Corporation (CICC) is a leading investment bank in China, providing investment banking, securities, research, and asset management services. It serves both domestic and international clients. The company's headquarters are in Beijing, China.",
-  "website": "http://www.cicc.com"
+  "sector": "Information Technology",
+  "summary": "Collabos Corporation provides cloud-based call center systems. The company offers its cloud-based call center systems to corporations, including customer consultation offices and product inquiry centers. Its service includes COLLABOS PHONE, a softphone service for call centers. The company was founded in 2001 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.collabos.com"
 }

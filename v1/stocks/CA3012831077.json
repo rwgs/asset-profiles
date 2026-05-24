@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000SPYXQ5",
+    "cusip": "301283107",
+    "figi": "BBG000SPYXQ5",
     "isin": "CA3012831077"
   },
   "industry": "Airlines",
@@ -12,27 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "EIF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "EIFZF"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "EIF.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EIF.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "EIF.SG"
     },
     {
       "currency": "CAD",
@@ -41,10 +24,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "EIFELHOEHEN-KLINIK O.N.",
-  "primary_symbol": "EIF.BE",
+  "name": "Exchange Income Corporation",
+  "primary_symbol": "EIFZF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

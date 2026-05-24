@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000F7RDX3",
+    "cusip": "560912107",
+    "figi": "BBG000F7RDX3",
     "isin": "CA5609121077"
   },
   "industry": "Metals & Mining",
@@ -25,11 +28,6 @@
       "symbol": "MJT.MU"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "MJS.SG"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "MJS.V"
@@ -49,7 +47,7 @@
   "name": "Majestic Gold Corp.",
   "primary_symbol": "MJGCF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

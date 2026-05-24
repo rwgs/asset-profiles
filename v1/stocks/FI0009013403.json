@@ -1,0 +1,35 @@
+{
+  "country": "Finland",
+  "country_code": "FI",
+  "identifiers": {
+    "isin": "FI0009013403"
+  },
+  "isin": "FI0009013403",
+  "kind": "stock",
+  "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "KC4.BE"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "KC4.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "KC4.DE"
+    }
+  ],
+  "name": "KONE Oyj Class B",
+  "primary_symbol": "KC4.BE",
+  "provenance": {
+    "fetched_at": "2026-05-24T08:15:25Z",
+    "license": "MIT",
+    "source": "FinanceDatabase",
+    "source_url": "https://github.com/JerBouma/FinanceDatabase"
+  },
+  "schema_version": "1.0.0"
+}

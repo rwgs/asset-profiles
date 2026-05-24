@@ -1,8 +1,9 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "cusip": "09260D107",
+    "composite_figi": "BBG000L025C8",
+    "figi": "BBG000L029K1",
     "isin": "US09260D1072"
   },
   "industry": "Biotechnology",
@@ -11,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BBN1.BE"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "BXN.AX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "US09260D1072.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Bioxyne Limited",
-  "primary_symbol": "BXN.AX",
+  "name": "Blackstone Inc.",
+  "primary_symbol": "BBN1.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

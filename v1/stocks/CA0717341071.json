@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000DLFM21",
+    "cusip": "071734107",
     "figi": "BBG000DLFNQ3",
     "isin": "CA0717341071"
   },
@@ -15,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "BHC"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BHC.AQ"
     },
     {
       "currency": "USD",
@@ -50,18 +56,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BVF.SG"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "VRX.AX"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Bausch Health Companies Inc.",
   "primary_symbol": "BHC",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,7 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000BXRM15",
     "cusip": "502441306",
+    "figi": "BBG000BXRM15",
     "isin": "US5024413065"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -19,16 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "LVMUY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MOHF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MOHF.MU"
     },
     {
       "currency": "EUR",
@@ -64,18 +56,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MOHF.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "MOHF.SG"
     }
   ],
   "market_cap_band": "Mega Cap",
   "name": "LVMH Mo√´t Hennessy - Louis Vuitton, Societe Europeenne",
   "primary_symbol": "LVMHF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

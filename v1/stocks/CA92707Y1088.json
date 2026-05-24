@@ -3,6 +3,7 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG00HVW2335",
+    "cusip": "92707Y108",
     "figi": "BBG00HVW23D4",
     "isin": "CA92707Y1088"
   },
@@ -22,11 +23,6 @@
       "symbol": "VFF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VFF.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "02V.F"
@@ -37,21 +33,16 @@
       "symbol": "02V.SG"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "VFF.SG"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "VFF.TO"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "VILLAGE FARMS INTL INC.",
+  "name": "Village Farms International, Inc.",
   "primary_symbol": "02V.HM",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

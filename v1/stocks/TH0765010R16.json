@@ -1,7 +1,7 @@
 {
+  "country": "Thailand",
+  "country_code": "TH",
   "identifiers": {
-    "composite_figi": "BBG000BW38N0",
-    "figi": "BBG000BW3BG1",
     "isin": "TH0765010R16"
   },
   "industry_group": "Transportation",
@@ -9,25 +9,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NYVQ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NYVQ.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NYVQ.SG"
     }
   ],
-  "name": "AIRPORTS THAIL.-NVDR-BA 1",
-  "primary_symbol": "NYVQ.BE",
+  "name": "Airports of Thailand PCL Reg. S",
+  "primary_symbol": "NYVQ.SG",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

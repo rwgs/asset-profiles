@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000RDBTH7",
+    "figi": "BBG000RDBTH7"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "LPMDF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Landmark REIT",
   "primary_symbol": "LPMDF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Landmark REIT, formerly Lippo Malls Indonesia Retail Trust, is the only Indonesia-exposed retail real estate investment trust listed on SGX Securities. It offers investors a unique opportunity to participate in the retail property sector in Southeast Asia's largest economy. With the rebranding, the Trust has expanded its investment mandate to pursue a diversified, multi-asset and multi-geography approach with a focus on real estate opportunities across Asia. Landmark REIT's portfolio comprises 29 retail properties (the Properties) with a total net lettable area of 948,468 square meters and total carrying value of Rp18,609.8 billion as at 31 March 2026. The Properties are strategically located in major cities of Indonesia with large middle-income population. Tenants include well-known retailers such as Hypermart, Matahari Department Store and Sogo, as well as popular consumer brands including Zara, Uniqlo, H&M, Adidas, Victoria Secret, Giordano, Starbucks, Fitness First, Timezone, Miniso and AZKO, among others. Landmark REIT was incorporated in 2007 in Singapore."
 }

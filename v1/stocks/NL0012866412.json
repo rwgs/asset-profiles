@@ -2,6 +2,9 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
+    "composite_figi": "BBG000KB2KY8",
+    "cusip": "073320103",
+    "figi": "BBG000KB2KY8",
     "isin": "NL0012866412"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -20,16 +23,6 @@
       "symbol": "BESVF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BSI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BSI.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XAMS",
       "symbol": "BESI.AS"
@@ -38,11 +31,6 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "BESIN.MX"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "BSI.DU"
     },
     {
       "currency": "EUR",
@@ -59,7 +47,7 @@
   "name": "BE Semiconductor Industries N.V.",
   "primary_symbol": "BESIY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

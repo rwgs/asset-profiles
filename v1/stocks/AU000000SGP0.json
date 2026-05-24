@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000D35JC8",
+    "figi": "BBG000D35JC8",
     "isin": "AU000000SGP0"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -23,18 +25,13 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "SGP.AX"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "SGP.BK"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Stockland",
   "primary_symbol": "STKAF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

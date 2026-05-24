@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000Q2BVH7",
+    "cusip": "966084204",
+    "figi": "BBG000Q2BVH7"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "WSR"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Whitestone REIT",
   "primary_symbol": "WSR",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Whitestone REIT is a community-centered real estate investment trust (REIT) that acquires, owns, operates, and develops open-air, retail centers located in some of the fastest growing markets in the country: Phoenix, Austin, Dallas-Fort Worth, Houston and San Antonio. Our centers are convenience focused: merchandised with a mix of service-oriented tenants providing food (restaurants and grocers), self-care (health and fitness), services (financial and logistics), education and entertainment to the surrounding communities. The Company believes its strong community connections and deep tenant relationships are key to the success of its current centers and its acquisition strategy. Whitestone REIT was incorporated in 1998 in Maryland, USA."
 }

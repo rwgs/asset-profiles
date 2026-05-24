@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000HJ3BF5",
+    "cusip": "146900105",
+    "figi": "BBG000HJ3BF5",
     "isin": "CA1469001053"
   },
   "industry": "Paper & Forest Products",
@@ -13,11 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "CADNF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "CAS.PA"
     },
     {
       "currency": "CAD",
@@ -39,7 +37,7 @@
   "name": "Cascades Inc.",
   "primary_symbol": "CADNF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

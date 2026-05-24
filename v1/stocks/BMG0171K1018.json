@@ -2,6 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG00GXKRKV5",
+    "cusip": "01609Y108",
+    "figi": "BBG00GXKRKV5",
     "isin": "BMG0171K1018"
   },
   "industry": "Pharmaceuticals",
@@ -20,24 +23,9 @@
       "symbol": "ALBHF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TWY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TWY.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0241.HK"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "TWY.DU"
     },
     {
       "currency": "EUR",
@@ -50,11 +38,6 @@
       "symbol": "TWY.SG"
     },
     {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "TWY.V"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TWYA.F"
@@ -64,7 +47,7 @@
   "name": "Alibaba Health Information Technology Limited",
   "primary_symbol": "ALBBY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

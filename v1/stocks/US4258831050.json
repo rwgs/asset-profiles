@@ -2,7 +2,9 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG000BR6CQ6",
     "cusip": "425883105",
+    "figi": "BBG000BR6CQ6",
     "isin": "US4258831050"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -14,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "HMRZF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMSA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMSA.MU"
     },
     {
       "currency": "USD",
@@ -55,7 +47,7 @@
   "name": "H & M Hennes & Mauritz AB (publ)",
   "primary_symbol": "HMRZF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

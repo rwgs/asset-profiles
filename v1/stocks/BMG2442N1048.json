@@ -2,6 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000MW22J7",
+    "figi": "BBG000MW22J7",
     "isin": "BMG2442N1048"
   },
   "industry": "Marine",
@@ -20,44 +22,14 @@
       "symbol": "CSPKY"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTH.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTH.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTH.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1199.HK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CTH.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CTH.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "CTH.L"
     },
     {
       "currency": "EUR",
@@ -69,7 +41,7 @@
   "name": "COSCO SHIPPING Ports Limited",
   "primary_symbol": "CSPKF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

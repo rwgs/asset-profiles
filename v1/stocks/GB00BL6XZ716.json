@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000CYSFS7",
+    "cusip": "129500104",
+    "figi": "BBG000CYSFS7",
     "isin": "GB00BL6XZ716"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -15,36 +18,16 @@
       "symbol": "CAL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XC2R.BE"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BRP.F"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "CAL.L"
-    },
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "CRP.JO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "XC2R.F"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Caleres, Inc.",
   "primary_symbol": "CAL",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

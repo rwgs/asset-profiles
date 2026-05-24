@@ -2,9 +2,9 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00MP4X9S9",
+    "composite_figi": "BBG000C23KH5",
     "cusip": "86959C103",
-    "figi": "BBG00MP4X9Z1",
+    "figi": "BBG000C23KH5",
     "isin": "US86959C1036"
   },
   "industry": "Banks",
@@ -12,11 +12,6 @@
   "isin": "US86959C1036",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SVHI.BE"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -51,18 +46,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SVHH.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SVHI.F"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "SVEN.HAND.A ADR  SK 4,30",
-  "primary_symbol": "SVHI.BE",
+  "name": "Svenska Handelsbanken AB (publ)",
+  "primary_symbol": "SVNLF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

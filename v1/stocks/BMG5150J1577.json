@@ -2,6 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG0056LBYY1",
+    "cusip": "479087405",
+    "figi": "BBG0056LBYY1",
     "isin": "BMG5150J1577"
   },
   "industry": "Auto Components",
@@ -20,16 +23,6 @@
       "symbol": "JELCF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JOHB.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "JOHB.F"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JOHB.SG"
@@ -39,7 +32,7 @@
   "name": "Johnson Electric Holdings Limited",
   "primary_symbol": "JEHLY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

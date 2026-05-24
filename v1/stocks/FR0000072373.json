@@ -3,7 +3,7 @@
   "country_code": "FR",
   "identifiers": {
     "composite_figi": "BBG000D7NK27",
-    "figi": "BBG000D7NN21",
+    "figi": "BBG000D7NKL6",
     "isin": "FR0000072373"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -12,19 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EGID.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EGID.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "EGID.SG"
     },
     {
       "currency": "EUR",
@@ -33,10 +23,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "EGIDE S.A. INH.  EO 2",
-  "primary_symbol": "EGID.MU",
+  "name": "Egide S.A.",
+  "primary_symbol": "EGID.F",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

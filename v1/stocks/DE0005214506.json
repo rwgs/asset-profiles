@@ -2,18 +2,15 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BMBZM4",
+    "figi": "BBG000BMC1K0",
     "isin": "DE0005214506"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "DE0005214506",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ADC"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -38,24 +35,19 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ADC.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "AGL.F"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "Agree Realty Corporation",
-  "primary_symbol": "ADC",
+  "market_cap_band": "Nano Cap",
+  "name": "AdCapital AG",
+  "primary_symbol": "ADC.BE",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "Agree Realty Corporation is a publicly traded real estate investment trust primarily engaged in the acquisition and development of properties net leased to industry-leading retail tenants. As of September 30, 2020, the Company owned and operated a portfolio of 1,027 properties, located in 45 states and containing approximately 21.0 million square feet of gross leasable area. The Company's common stock is listed on the New York Stock Exchange under the symbol \"ADC\".",
-  "website": "http://www.agreerealty.com"
+  "sector": "Financials",
+  "summary": "ADCapital AG is a German investment company, primarily focused on private equity investments in small and medium-sized companies, located in Germany",
+  "website": "http://www.adcapital.de"
 }

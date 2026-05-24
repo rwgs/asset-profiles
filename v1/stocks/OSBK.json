@@ -1,8 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000F05RP0",
+    "cusip": "675608103",
+    "figi": "BBG000F05RP0"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +14,14 @@
       "symbol": "OSBK"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Oconee Financial Corporation",
   "primary_symbol": "OSBK",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Oconee Financial Corporation operates as the bank holding company for Oconee State Bank that provides a range of commercial and consumer banking products and services to consumers, businesses, and communities. The company offers various deposit products, including checking, savings/money market, and individual retirement accounts, as well as certificates of deposits. It also provides loans comprising consumer, construction, commercial, small business administration, and mortgage loans; lines of credit; and debit and credit cards. In addition, the company offers bill pay, electronic statements, safe deposit box, overdraft protection, stop payment, wire transfer, mobile and remote deposit, ACH advantage, merchant card, check recovery, mobile text banking, and investment services; and online, mobile, and telephone banking services. It operates thee full-service financial centers in Oconee County; one full-service financial center in Gwinnett County; one limited service loan production office in Athens/Clarke County; one financial center in Bogart; one financial center located on Experiment Station Road, which serves the Butler's Crossing community; one financial center located on North Brown Road in Lawrenceville; and one loan production office located in One Press Place in downtown Athens; and three automated teller machines located in Oconee County. Oconee Financial Corporation was founded in 1960 and is headquartered in Watkinsville, Georgia."
 }

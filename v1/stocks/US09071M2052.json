@@ -2,7 +2,9 @@
   "country": "Israel",
   "country_code": "IL",
   "identifiers": {
+    "composite_figi": "BBG001Y26LK0",
     "cusip": "09071M205",
+    "figi": "BBG001Y26LK0",
     "isin": "US09071M2052"
   },
   "industry": "Biotechnology",
@@ -21,16 +23,6 @@
       "symbol": "BLRX.TA"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YP2A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YP2A.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "YP2A.F"
@@ -40,7 +32,7 @@
   "name": "BioLineRx Ltd.",
   "primary_symbol": "BLRX",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

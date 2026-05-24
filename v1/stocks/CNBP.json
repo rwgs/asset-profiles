@@ -1,8 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
-  "industry": "Diversified Financial Services",
-  "industry_group": "Diversified Financials",
+  "identifiers": {
+    "composite_figi": "BBG000QKG2M0",
+    "figi": "BBG000QKG2M0"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -11,17 +13,14 @@
       "symbol": "CNBP"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "one",
+  "name": "Cornerstone Bancorp Inc.",
   "primary_symbol": "CNBP",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "one does not have significant operations. It intends to effect a merger, capital stock exchange, asset acquisition, stock purchase, reorganization, or other similar business combination with one or more operating businesses. The company was incorporated in 2020 and is based in San Francisco, California.",
-  "website": "http://www.a-star.co"
+  "summary": "Cornerstone Bancorp Inc. operates as the bank holding company for Cornerstone National Bank & Trust Company that provides various financial products and services to individuals and businesses. It offers checking, savings, money market, and individual retirement accounts; and certificates of deposit. The company also provides home equity, vehicle, personal, equipment, association, and real estate construction loans; residential mortgages and refinances; construction, and medical and dental practice financing services; commercial and multi-family mortgages; and letters and lines of credit products. In addition, it provides online and mobile banking, payment, cash management, and bill pay services; and personal and business account services. Further, it offers securities custody accounts; investment management services; trust, estate, and guardianship services; and retirement plans. The company operates in the Chicago metropolitan area through its main office in Palatine, Illinois, and branch offices in Crystal Lake, Deer Park, Naperville, and Schaumburg, Illinois. Cornerstone Bancorp Inc. was founded in 2000 and is headquartered in Palatine, Illinois."
 }

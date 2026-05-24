@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BFX2H4",
+    "cusip": "59318E102",
+    "figi": "BBG000BFX2H4",
     "isin": "LU1602144575"
   },
   "industry": "Capital Markets",
@@ -13,18 +16,13 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "CMU"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "CMU.V"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "MFS High Yield Municipal Trust",
   "primary_symbol": "CMU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

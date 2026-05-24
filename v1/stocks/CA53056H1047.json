@@ -2,6 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG001MHGV54",
+    "cusip": "53056H104",
+    "figi": "BBG001MHGV54",
     "isin": "CA53056H1047"
   },
   "industry": "Metals & Mining",
@@ -45,21 +48,16 @@
       "symbol": "PGW.F"
     },
     {
-      "currency": "NZD",
-      "exchange_mic": "XNZE",
-      "symbol": "PGW.NZ"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PGW.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Liberty Gold Corp.",
+  "name": "Liberty Gold Corp",
   "primary_symbol": "LGDTF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

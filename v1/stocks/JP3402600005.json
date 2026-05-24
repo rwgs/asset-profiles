@@ -2,8 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000JQB8X5",
-    "figi": "BBG000JQBG30",
+    "composite_figi": "BBG0033BG891",
+    "cusip": "86563T104",
+    "figi": "BBG0033BG891",
     "isin": "JP3402600005"
   },
   "industry": "Metals & Mining",
@@ -11,16 +12,6 @@
   "isin": "JP3402600005",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S19.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S19.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -32,11 +23,6 @@
       "symbol": "STMNF"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "S19.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "S19.F"
@@ -45,18 +31,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "S19.SG"
-    },
-    {
-      "currency": "SGD",
-      "exchange_mic": "XSES",
-      "symbol": "S19.SI"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "SUMITOMO MET.MNG",
-  "primary_symbol": "S19.BE",
+  "name": "Sumitomo Metal Mining Co., Ltd.",
+  "primary_symbol": "SMMYY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

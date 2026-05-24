@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG00NRGMDW6",
+    "figi": "BBG00NRGMDW6",
     "isin": "AU000000MFG4"
   },
   "industry": "Capital Markets",
@@ -13,21 +15,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "MGLLF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNA.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "5NVA.F"
     },
     {
       "currency": "AUD",
@@ -49,7 +36,7 @@
   "name": "Magellan Financial Group Limited",
   "primary_symbol": "MGLLF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

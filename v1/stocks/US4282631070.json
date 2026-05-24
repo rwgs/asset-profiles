@@ -2,7 +2,9 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG000BM81B5",
     "cusip": "428263107",
+    "figi": "BBG000BM81B5",
     "isin": "US4282631070"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -44,13 +46,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HXGC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "US4282631070.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Hexagon AB (publ)",
+  "name": "Hexagon AB",
   "primary_symbol": "HXGBF",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

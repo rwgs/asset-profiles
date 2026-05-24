@@ -2,6 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000BHVZQ9",
+    "cusip": "649274305",
+    "figi": "BBG000BHVZQ9",
     "isin": "HK0000608585"
   },
   "industry": "Real Estate Management & Development",
@@ -13,16 +16,6 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "NDVLY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NWDA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NWDA.MU"
     },
     {
       "currency": "USD",
@@ -41,10 +34,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "New World Development Company Limited",
+  "name": "New World Development Co. Ltd.",
   "primary_symbol": "NDVLY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

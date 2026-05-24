@@ -2,6 +2,9 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
+    "composite_figi": "BBG000BRR3N6",
+    "cusip": "296036304",
+    "figi": "BBG000BRR3N6",
     "isin": "AT0000652011"
   },
   "industry": "Banks",
@@ -20,49 +23,14 @@
       "symbol": "EBKOF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EBO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EBO.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EBO.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EBO.MU"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "EBO.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "EBO.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "EBO.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EBO.F"
-    },
-    {
-      "currency": "NZD",
-      "exchange_mic": "XNZE",
-      "symbol": "EBO.NZ"
     },
     {
       "currency": "EUR",
@@ -94,7 +62,7 @@
   "name": "Erste Group Bank AG",
   "primary_symbol": "EBKDY",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

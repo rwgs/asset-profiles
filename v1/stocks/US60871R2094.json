@@ -1,4 +1,6 @@
 {
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000J8SLX8",
     "cusip": "60871R209",
@@ -15,30 +17,15 @@
       "symbol": "NY7.MU"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TAP1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TAP1.MU"
-    },
-    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "NY7.DU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "TAP1.DU"
     }
   ],
   "name": "MOLSON COORS BEV B DL0,01",
   "primary_symbol": "NY7.MU",
   "provenance": {
-    "fetched_at": "2026-05-17T08:09:19Z",
+    "fetched_at": "2026-05-24T08:15:25Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
