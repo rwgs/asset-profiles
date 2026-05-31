@@ -1,0 +1,113 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Fixed Income",
+      "weight": 0.999598
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.000402
+    }
+  ],
+  "aum_usd": 6670357600.69,
+  "category": "REITs",
+  "category_group": "Real Estate",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 1.0
+    }
+  ],
+  "holdings_count": 27,
+  "identifiers": {
+    "isin": "US9229085538"
+  },
+  "isin": "US9229085538",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VNQ"
+    }
+  ],
+  "name": "Vanguard Real Estate ETF",
+  "primary_symbol": "VNQ",
+  "provenance": {
+    "fetched_at": "2026-05-31T08:33:31Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000862084"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Unknown",
+      "weight": 1.0
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "912797QD2",
+      "isin": "US912797QD26",
+      "name": "United States Treasury Bill",
+      "weight": 0.063791
+    },
+    {
+      "cusip": "912797TG2",
+      "isin": "US912797TG20",
+      "name": "United States Treasury Bill",
+      "weight": 0.057097
+    },
+    {
+      "cusip": "912797TH0",
+      "isin": "US912797TH03",
+      "name": "United States Treasury Bill",
+      "weight": 0.055443
+    },
+    {
+      "cusip": "912797TK3",
+      "isin": "US912797TK32",
+      "name": "United States Treasury Bill",
+      "weight": 0.054809
+    },
+    {
+      "cusip": "912797TJ6",
+      "isin": "US912797TJ68",
+      "name": "United States Treasury Bill",
+      "weight": 0.054705
+    },
+    {
+      "cusip": "912797SM0",
+      "isin": "US912797SM07",
+      "name": "United States Treasury Bill",
+      "weight": 0.053198
+    },
+    {
+      "cusip": "912797SN8",
+      "isin": "US912797SN89",
+      "name": "United States Treasury Bill",
+      "weight": 0.052992
+    },
+    {
+      "cusip": "912797SD0",
+      "isin": "US912797SD08",
+      "name": "United States Treasury Bill",
+      "weight": 0.052323
+    },
+    {
+      "cusip": "912797SL2",
+      "isin": "US912797SL24",
+      "name": "United States Treasury Bill",
+      "weight": 0.051544
+    },
+    {
+      "cusip": "912797SP3",
+      "isin": "US912797SP38",
+      "name": "United States Treasury Bill",
+      "weight": 0.051397
+    }
+  ]
+}

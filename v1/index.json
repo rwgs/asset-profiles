@@ -1,9 +1,9 @@
 {
   "counts": {
-    "etfs": 19,
-    "stocks": 97734
+    "etfs": 10,
+    "stocks": 98464
   },
-  "generated_at": "2026-05-24T08:15:25Z",
+  "generated_at": "2026-05-31T08:33:31Z",
   "isins": {
     "ANN4327C1220": "stocks/ANN4327C1220.json",
     "AT000000STR1": "stocks/AT000000STR1.json",
@@ -14040,8 +14040,6 @@
     "US78446M1099": "stocks/US78446M1099.json",
     "US78462F1030": "etfs/US78462F1030.json",
     "US78463M1071": "stocks/US78463M1071.json",
-    "US78464A6982": "etfs/US78464A6982.json",
-    "US78464A8707": "etfs/US78464A8707.json",
     "US78467D1037": "stocks/US78467D1037.json",
     "US78469X1072": "stocks/US78469X1072.json",
     "US78472M1062": "stocks/US78472M1062.json",
@@ -14094,13 +14092,6 @@
     "US81362J2096": "stocks/US81362J2096.json",
     "US81367P1012": "stocks/US81367P1012.json",
     "US81367P2002": "stocks/US81367P2002.json",
-    "US81369Y2090": "etfs/US81369Y2090.json",
-    "US81369Y3080": "etfs/US81369Y3080.json",
-    "US81369Y4070": "etfs/US81369Y4070.json",
-    "US81369Y5069": "etfs/US81369Y5069.json",
-    "US81369Y6059": "etfs/US81369Y6059.json",
-    "US81369Y7040": "etfs/US81369Y7040.json",
-    "US81369Y8030": "etfs/US81369Y8030.json",
     "US81373F1057": "stocks/US81373F1057.json",
     "US81577F1093": "stocks/US81577F1093.json",
     "US8157941027": "stocks/US8157941027.json",
@@ -14470,6 +14461,7 @@
     "US9224751084": "stocks/US9224751084.json",
     "US92259F1012": "stocks/US92259F1012.json",
     "US92276F1003": "stocks/US92276F1003.json",
+    "US9229085538": "etfs/US9229085538.json",
     "US92332W1053": "stocks/US92332W1053.json",
     "US92334N1037": "stocks/US92334N1037.json",
     "US92336Y1073": "stocks/US92336Y1073.json",
@@ -14739,7 +14731,7 @@
     "ZAE000265971": "stocks/ZAE000265971.json",
     "ZAE000298253": "stocks/ZAE000298253.json"
   },
-  "next_refresh_at": "2026-05-31T08:15:25Z",
+  "next_refresh_at": "2026-06-07T08:33:31Z",
   "schema_version": "1.0.0",
   "symbols": {
     "000002.SZ": {
@@ -30872,6 +30864,10 @@
       "kind": "stock",
       "path": "stocks/US0138721065.json"
     },
+    "0HCC.L": {
+      "kind": "stock",
+      "path": "stocks/0HCC.L.json"
+    },
     "0HCH.L": {
       "isin": "US0152711091",
       "kind": "stock",
@@ -33183,6 +33179,10 @@
       "isin": "GB0008085614",
       "kind": "stock",
       "path": "stocks/GB0008085614.json"
+    },
+    "0KOD.L": {
+      "kind": "stock",
+      "path": "stocks/0KOD.L.json"
     },
     "0KR.F": {
       "kind": "stock",
@@ -35695,6 +35695,10 @@
       "kind": "stock",
       "path": "stocks/0P4C.IL.json"
     },
+    "0P4G.IL": {
+      "kind": "stock",
+      "path": "stocks/0P4G.IL.json"
+    },
     "0P4X.IL": {
       "kind": "stock",
       "path": "stocks/0P4X.IL.json"
@@ -36064,6 +36068,10 @@
       "isin": "SE0005190238",
       "kind": "stock",
       "path": "stocks/SE0005190238.json"
+    },
+    "0QEJ.L": {
+      "kind": "stock",
+      "path": "stocks/0QEJ.L.json"
     },
     "0QEK.IL": {
       "isin": "DK0060495240",
@@ -40708,14 +40716,26 @@
       "kind": "stock",
       "path": "stocks/KYG2116D1198.json"
     },
+    "1101.TW": {
+      "kind": "stock",
+      "path": "stocks/1101.TW.json"
+    },
     "1103.HK": {
       "kind": "stock",
       "path": "stocks/1103.HK.json"
+    },
+    "1103.TW": {
+      "kind": "stock",
+      "path": "stocks/1103.TW.json"
     },
     "1104.HK": {
       "isin": "BMG0403V2062",
       "kind": "stock",
       "path": "stocks/BMG0403V2062.json"
+    },
+    "1104.TW": {
+      "kind": "stock",
+      "path": "stocks/1104.TW.json"
     },
     "1105.HK": {
       "isin": "BMG8196H1280",
@@ -41289,6 +41309,10 @@
       "kind": "stock",
       "path": "stocks/1210.HK.json"
     },
+    "1210.TW": {
+      "kind": "stock",
+      "path": "stocks/1210.TW.json"
+    },
     "1211.HK": {
       "isin": "CNE100000296",
       "kind": "stock",
@@ -41327,6 +41351,14 @@
       "isin": "CNE100002GY8",
       "kind": "stock",
       "path": "stocks/CNE100002GY8.json"
+    },
+    "1216.TW": {
+      "kind": "stock",
+      "path": "stocks/1216.TW.json"
+    },
+    "1217.TW": {
+      "kind": "stock",
+      "path": "stocks/1217.TW.json"
     },
     "1218.HK": {
       "kind": "stock",
@@ -41409,6 +41441,10 @@
     "123040.KQ": {
       "kind": "stock",
       "path": "stocks/123040.KQ.json"
+    },
+    "1231.TW": {
+      "kind": "stock",
+      "path": "stocks/1231.TW.json"
     },
     "1232.HK": {
       "kind": "stock",
@@ -41793,6 +41829,14 @@
       "kind": "stock",
       "path": "stocks/1303.TW.json"
     },
+    "1304.TW": {
+      "kind": "stock",
+      "path": "stocks/1304.TW.json"
+    },
+    "1305.TW": {
+      "kind": "stock",
+      "path": "stocks/1305.TW.json"
+    },
     "130580.KQ": {
       "kind": "stock",
       "path": "stocks/130580.KQ.json"
@@ -41800,6 +41844,10 @@
     "1308.HK": {
       "kind": "stock",
       "path": "stocks/1308.HK.json"
+    },
+    "1308.TW": {
+      "kind": "stock",
+      "path": "stocks/1308.TW.json"
     },
     "1309.TW": {
       "kind": "stock",
@@ -41874,6 +41922,10 @@
     "1319.HK": {
       "kind": "stock",
       "path": "stocks/1319.HK.json"
+    },
+    "1319.TW": {
+      "kind": "stock",
+      "path": "stocks/1319.TW.json"
     },
     "131970.KQ": {
       "kind": "stock",
@@ -42175,6 +42227,10 @@
       "kind": "stock",
       "path": "stocks/1383.HK.json"
     },
+    "1383.T": {
+      "kind": "stock",
+      "path": "stocks/1383.T.json"
+    },
     "1384.T": {
       "kind": "stock",
       "path": "stocks/1384.T.json"
@@ -42405,6 +42461,10 @@
       "kind": "stock",
       "path": "stocks/1413.TW.json"
     },
+    "1414.TW": {
+      "kind": "stock",
+      "path": "stocks/1414.TW.json"
+    },
     "1415.HK": {
       "isin": "KYG248141163",
       "kind": "stock",
@@ -42435,6 +42495,10 @@
     "1418.TW": {
       "kind": "stock",
       "path": "stocks/1418.TW.json"
+    },
+    "1419.T": {
+      "kind": "stock",
+      "path": "stocks/1419.T.json"
     },
     "1419.TW": {
       "kind": "stock",
@@ -42971,6 +43035,10 @@
       "kind": "stock",
       "path": "stocks/1518.T.json"
     },
+    "1519.TW": {
+      "kind": "stock",
+      "path": "stocks/1519.TW.json"
+    },
     "151910.KQ": {
       "kind": "stock",
       "path": "stocks/151910.KQ.json"
@@ -42987,6 +43055,10 @@
     "1521.TW": {
       "kind": "stock",
       "path": "stocks/1521.TW.json"
+    },
+    "1522.TW": {
+      "kind": "stock",
+      "path": "stocks/1522.TW.json"
     },
     "1523.HK": {
       "isin": "KYG713321035",
@@ -43045,6 +43117,10 @@
     "1532.HK": {
       "kind": "stock",
       "path": "stocks/1532.HK.json"
+    },
+    "1532.TW": {
+      "kind": "stock",
+      "path": "stocks/1532.TW.json"
     },
     "1533.HK": {
       "kind": "stock",
@@ -43634,6 +43710,10 @@
       "kind": "stock",
       "path": "stocks/160813.SZ.json"
     },
+    "1609.TW": {
+      "kind": "stock",
+      "path": "stocks/1609.TW.json"
+    },
     "160910.SZ": {
       "kind": "stock",
       "path": "stocks/160910.SZ.json"
@@ -44182,6 +44262,10 @@
       "kind": "stock",
       "path": "stocks/KYG9836P1081.json"
     },
+    "1663.T": {
+      "kind": "stock",
+      "path": "stocks/1663.T.json"
+    },
     "166401.SZ": {
       "kind": "stock",
       "path": "stocks/166401.SZ.json"
@@ -44263,6 +44347,10 @@
       "isin": "KYG7573R1056",
       "kind": "stock",
       "path": "stocks/KYG7573R1056.json"
+    },
+    "167A.T": {
+      "kind": "stock",
+      "path": "stocks/167A.T.json"
     },
     "1680.HK": {
       "isin": "KYG573611004",
@@ -44558,6 +44646,10 @@
       "kind": "stock",
       "path": "stocks/1718.T.json"
     },
+    "1718.TW": {
+      "kind": "stock",
+      "path": "stocks/1718.TW.json"
+    },
     "1719.T": {
       "kind": "stock",
       "path": "stocks/1719.T.json"
@@ -44584,9 +44676,17 @@
       "kind": "stock",
       "path": "stocks/KYG527871019.json"
     },
+    "1722.TW": {
+      "kind": "stock",
+      "path": "stocks/1722.TW.json"
+    },
     "1723.T": {
       "kind": "stock",
       "path": "stocks/1723.T.json"
+    },
+    "1723.TW": {
+      "kind": "stock",
+      "path": "stocks/1723.TW.json"
     },
     "1724.KL": {
       "kind": "stock",
@@ -45178,6 +45278,10 @@
       "kind": "stock",
       "path": "stocks/JP3190000004.json"
     },
+    "1802.TW": {
+      "kind": "stock",
+      "path": "stocks/1802.TW.json"
+    },
     "1803.T": {
       "kind": "stock",
       "path": "stocks/1803.T.json"
@@ -45205,6 +45309,10 @@
     "1808.T": {
       "kind": "stock",
       "path": "stocks/1808.T.json"
+    },
+    "1808.TW": {
+      "kind": "stock",
+      "path": "stocks/1808.TW.json"
     },
     "1809.HK": {
       "isin": "KYG7255W1096",
@@ -45248,6 +45356,10 @@
       "isin": "KYG532241042",
       "kind": "stock",
       "path": "stocks/KYG532241042.json"
+    },
+    "1813.T": {
+      "kind": "stock",
+      "path": "stocks/1813.T.json"
     },
     "1813.TWO": {
       "kind": "stock",
@@ -45559,6 +45671,10 @@
     "1867.T": {
       "kind": "stock",
       "path": "stocks/1867.T.json"
+    },
+    "186A.T": {
+      "kind": "stock",
+      "path": "stocks/186A.T.json"
     },
     "1870.HK": {
       "kind": "stock",
@@ -46161,6 +46277,10 @@
       "kind": "stock",
       "path": "stocks/KYG3224E1061.json"
     },
+    "1952.T": {
+      "kind": "stock",
+      "path": "stocks/1952.T.json"
+    },
     "1953.HK": {
       "isin": "KYG7569L1041",
       "kind": "stock",
@@ -46327,6 +46447,10 @@
     "1979.T": {
       "kind": "stock",
       "path": "stocks/1979.T.json"
+    },
+    "1980.T": {
+      "kind": "stock",
+      "path": "stocks/1980.T.json"
     },
     "198080.KQ": {
       "kind": "stock",
@@ -47033,6 +47157,10 @@
     "1CA0.MU": {
       "kind": "stock",
       "path": "stocks/1CA0.MU.json"
+    },
+    "1CFR.MI": {
+      "kind": "stock",
+      "path": "stocks/1CFR.MI.json"
     },
     "1CLD.DU": {
       "kind": "stock",
@@ -49461,6 +49589,10 @@
       "kind": "stock",
       "path": "stocks/1RZ.F.json"
     },
+    "1S.MI": {
+      "kind": "stock",
+      "path": "stocks/1S.MI.json"
+    },
     "1S0.BE": {
       "kind": "stock",
       "path": "stocks/1S0.BE.json"
@@ -49629,6 +49761,10 @@
     "1STCUS.BO": {
       "kind": "stock",
       "path": "stocks/1STCUS.BO.json"
+    },
+    "1SXP.DE": {
+      "kind": "stock",
+      "path": "stocks/1SXP.DE.json"
     },
     "1SY.SG": {
       "kind": "stock",
@@ -50550,6 +50686,10 @@
       "kind": "stock",
       "path": "stocks/1XX.SG.json"
     },
+    "1XYL.MI": {
+      "kind": "stock",
+      "path": "stocks/1XYL.MI.json"
+    },
     "1Y0.F": {
       "kind": "stock",
       "path": "stocks/1Y0.F.json"
@@ -50934,6 +51074,10 @@
     "2003.T": {
       "kind": "stock",
       "path": "stocks/2003.T.json"
+    },
+    "2004.T": {
+      "kind": "stock",
+      "path": "stocks/2004.T.json"
     },
     "200413.SZ": {
       "kind": "stock",
@@ -51609,6 +51753,10 @@
       "kind": "stock",
       "path": "stocks/2108.TW.json"
     },
+    "2109.T": {
+      "kind": "stock",
+      "path": "stocks/2109.T.json"
+    },
     "2109.TW": {
       "kind": "stock",
       "path": "stocks/2109.TW.json"
@@ -51826,6 +51974,10 @@
       "isin": "CNE1000049J8",
       "kind": "stock",
       "path": "stocks/CNE1000049J8.json"
+    },
+    "2146.T": {
+      "kind": "stock",
+      "path": "stocks/2146.T.json"
     },
     "214610.KQ": {
       "kind": "stock",
@@ -52272,6 +52424,10 @@
       "kind": "stock",
       "path": "stocks/2204.T.json"
     },
+    "2204.TW": {
+      "kind": "stock",
+      "path": "stocks/2204.TW.json"
+    },
     "2206.T": {
       "kind": "stock",
       "path": "stocks/2206.T.json"
@@ -52312,6 +52468,10 @@
     "2211.T": {
       "kind": "stock",
       "path": "stocks/2211.T.json"
+    },
+    "2211.TW": {
+      "kind": "stock",
+      "path": "stocks/2211.TW.json"
     },
     "2212.T": {
       "kind": "stock",
@@ -52907,6 +53067,10 @@
       "kind": "stock",
       "path": "stocks/2308.HK.json"
     },
+    "2308.TW": {
+      "kind": "stock",
+      "path": "stocks/2308.TW.json"
+    },
     "2309.HK": {
       "isin": "KYG1132K1233",
       "kind": "stock",
@@ -53019,9 +53183,17 @@
       "kind": "stock",
       "path": "stocks/2326.HK.json"
     },
+    "2326.T": {
+      "kind": "stock",
+      "path": "stocks/2326.T.json"
+    },
     "2327.HK": {
       "kind": "stock",
       "path": "stocks/2327.HK.json"
+    },
+    "2327.T": {
+      "kind": "stock",
+      "path": "stocks/2327.T.json"
     },
     "2327.TW": {
       "kind": "stock",
@@ -53031,6 +53203,10 @@
       "kind": "stock",
       "path": "stocks/2328.HK.json"
     },
+    "2328.TW": {
+      "kind": "stock",
+      "path": "stocks/2328.TW.json"
+    },
     "2329.HK": {
       "kind": "stock",
       "path": "stocks/2329.HK.json"
@@ -53038,6 +53214,10 @@
     "2329.T": {
       "kind": "stock",
       "path": "stocks/2329.T.json"
+    },
+    "2329.TW": {
+      "kind": "stock",
+      "path": "stocks/2329.TW.json"
     },
     "2330.HK": {
       "isin": "KYG2111Y1180",
@@ -53060,6 +53240,10 @@
     "2331.TW": {
       "kind": "stock",
       "path": "stocks/2331.TW.json"
+    },
+    "2332.TW": {
+      "kind": "stock",
+      "path": "stocks/2332.TW.json"
     },
     "2334.T": {
       "kind": "stock",
@@ -53105,6 +53289,10 @@
     "2340.T": {
       "kind": "stock",
       "path": "stocks/2340.T.json"
+    },
+    "2340.TW": {
+      "kind": "stock",
+      "path": "stocks/2340.TW.json"
     },
     "2341.HK": {
       "isin": "KYG2920K1013",
@@ -53219,6 +53407,10 @@
       "kind": "stock",
       "path": "stocks/CNE100000213.json"
     },
+    "2355.TW": {
+      "kind": "stock",
+      "path": "stocks/2355.TW.json"
+    },
     "2356.HK": {
       "isin": "HK2356013600",
       "kind": "stock",
@@ -53274,6 +53466,10 @@
       "isin": "KYG8919C1096",
       "kind": "stock",
       "path": "stocks/KYG8919C1096.json"
+    },
+    "2363.TW": {
+      "kind": "stock",
+      "path": "stocks/2363.TW.json"
     },
     "2364.TW": {
       "kind": "stock",
@@ -53352,6 +53548,10 @@
       "kind": "stock",
       "path": "stocks/2377.HK.json"
     },
+    "2377.TW": {
+      "kind": "stock",
+      "path": "stocks/2377.TW.json"
+    },
     "2378.T": {
       "kind": "stock",
       "path": "stocks/2378.T.json"
@@ -53403,6 +53603,10 @@
       "kind": "stock",
       "path": "stocks/238200.KQ.json"
     },
+    "2383.TW": {
+      "kind": "stock",
+      "path": "stocks/2383.TW.json"
+    },
     "238490.KQ": {
       "kind": "stock",
       "path": "stocks/238490.KQ.json"
@@ -53429,6 +53633,10 @@
       "kind": "stock",
       "path": "stocks/HK2388011192.json"
     },
+    "2388.TW": {
+      "kind": "stock",
+      "path": "stocks/2388.TW.json"
+    },
     "2390.TW": {
       "kind": "stock",
       "path": "stocks/2390.TW.json"
@@ -53448,6 +53656,10 @@
     "2393.TW": {
       "kind": "stock",
       "path": "stocks/2393.TW.json"
+    },
+    "2395.T": {
+      "kind": "stock",
+      "path": "stocks/2395.T.json"
     },
     "2395.TW": {
       "kind": "stock",
@@ -53601,6 +53813,10 @@
     "2404.T": {
       "kind": "stock",
       "path": "stocks/2404.T.json"
+    },
+    "2404.TW": {
+      "kind": "stock",
+      "path": "stocks/2404.TW.json"
     },
     "2405.TW": {
       "kind": "stock",
@@ -53851,6 +54067,10 @@
       "kind": "stock",
       "path": "stocks/2449.T.json"
     },
+    "2449.TW": {
+      "kind": "stock",
+      "path": "stocks/2449.TW.json"
+    },
     "244920.KS": {
       "kind": "stock",
       "path": "stocks/244920.KS.json"
@@ -53907,6 +54127,10 @@
       "kind": "stock",
       "path": "stocks/2459.TW.json"
     },
+    "2461.T": {
+      "kind": "stock",
+      "path": "stocks/2461.T.json"
+    },
     "2462.T": {
       "kind": "stock",
       "path": "stocks/2462.T.json"
@@ -53922,6 +54146,10 @@
     "246690.KQ": {
       "kind": "stock",
       "path": "stocks/246690.KQ.json"
+    },
+    "2467.TW": {
+      "kind": "stock",
+      "path": "stocks/2467.TW.json"
     },
     "246710.KQ": {
       "kind": "stock",
@@ -53943,6 +54171,10 @@
       "kind": "stock",
       "path": "stocks/246960.KQ.json"
     },
+    "2471.T": {
+      "kind": "stock",
+      "path": "stocks/2471.T.json"
+    },
     "2472.TW": {
       "kind": "stock",
       "path": "stocks/2472.TW.json"
@@ -53959,6 +54191,10 @@
       "kind": "stock",
       "path": "stocks/247540.KQ.json"
     },
+    "2476.TW": {
+      "kind": "stock",
+      "path": "stocks/2476.TW.json"
+    },
     "247660.KQ": {
       "kind": "stock",
       "path": "stocks/247660.KQ.json"
@@ -53970,6 +54206,10 @@
     "2477.TW": {
       "kind": "stock",
       "path": "stocks/2477.TW.json"
+    },
+    "2478.TW": {
+      "kind": "stock",
+      "path": "stocks/2478.TW.json"
     },
     "2479.T": {
       "kind": "stock",
@@ -54022,6 +54262,10 @@
     "2485.TW": {
       "kind": "stock",
       "path": "stocks/2485.TW.json"
+    },
+    "2486.TW": {
+      "kind": "stock",
+      "path": "stocks/2486.TW.json"
     },
     "2488.HK": {
       "isin": "CNE1000000V6",
@@ -54214,6 +54458,10 @@
       "kind": "stock",
       "path": "stocks/JP3320800000.json"
     },
+    "2501.TW": {
+      "kind": "stock",
+      "path": "stocks/2501.TW.json"
+    },
     "2502.T": {
       "isin": "JP3116000005",
       "kind": "stock",
@@ -54223,6 +54471,14 @@
       "kind": "stock",
       "path": "stocks/2503.T.json"
     },
+    "2504.TW": {
+      "kind": "stock",
+      "path": "stocks/2504.TW.json"
+    },
+    "2505.TW": {
+      "kind": "stock",
+      "path": "stocks/2505.TW.json"
+    },
     "2509.TW": {
       "kind": "stock",
       "path": "stocks/2509.TW.json"
@@ -54230,6 +54486,10 @@
     "250930.KQ": {
       "kind": "stock",
       "path": "stocks/250930.KQ.json"
+    },
+    "250A.T": {
+      "kind": "stock",
+      "path": "stocks/250A.T.json"
     },
     "2511.TW": {
       "kind": "stock",
@@ -54242,6 +54502,10 @@
     "251370.KQ": {
       "kind": "stock",
       "path": "stocks/251370.KQ.json"
+    },
+    "2515.TW": {
+      "kind": "stock",
+      "path": "stocks/2515.TW.json"
     },
     "2518.HK": {
       "isin": "KYG066341028",
@@ -54277,9 +54541,21 @@
       "kind": "stock",
       "path": "stocks/2533.T.json"
     },
+    "2534.TW": {
+      "kind": "stock",
+      "path": "stocks/2534.TW.json"
+    },
     "253590.KQ": {
       "kind": "stock",
       "path": "stocks/253590.KQ.json"
+    },
+    "2536.TW": {
+      "kind": "stock",
+      "path": "stocks/2536.TW.json"
+    },
+    "2538.TW": {
+      "kind": "stock",
+      "path": "stocks/2538.TW.json"
     },
     "253840.KQ": {
       "kind": "stock",
@@ -54292,6 +54568,10 @@
     "2540.T": {
       "kind": "stock",
       "path": "stocks/2540.T.json"
+    },
+    "2540.TW": {
+      "kind": "stock",
+      "path": "stocks/2540.TW.json"
     },
     "254120.KQ": {
       "kind": "stock",
@@ -54360,6 +54640,10 @@
       "kind": "stock",
       "path": "stocks/2579.T.json"
     },
+    "2585.T": {
+      "kind": "stock",
+      "path": "stocks/2585.T.json"
+    },
     "2586.T": {
       "kind": "stock",
       "path": "stocks/2586.T.json"
@@ -54392,6 +54676,10 @@
     "2593P.T": {
       "kind": "stock",
       "path": "stocks/2593P.T.json"
+    },
+    "2594.T": {
+      "kind": "stock",
+      "path": "stocks/2594.T.json"
     },
     "2596.TWO": {
       "kind": "stock",
@@ -54521,6 +54809,10 @@
       "kind": "stock",
       "path": "stocks/2602.T.json"
     },
+    "2603.TW": {
+      "kind": "stock",
+      "path": "stocks/2603.TW.json"
+    },
     "2605.TW": {
       "kind": "stock",
       "path": "stocks/2605.TW.json"
@@ -54528,6 +54820,10 @@
     "2606.HK": {
       "kind": "stock",
       "path": "stocks/2606.HK.json"
+    },
+    "2606.TW": {
+      "kind": "stock",
+      "path": "stocks/2606.TW.json"
     },
     "260660.KQ": {
       "kind": "stock",
@@ -54537,6 +54833,10 @@
       "isin": "CNE1000012B3",
       "kind": "stock",
       "path": "stocks/CNE1000012B3.json"
+    },
+    "2607.TW": {
+      "kind": "stock",
+      "path": "stocks/2607.TW.json"
     },
     "2608.HK": {
       "isin": "KYG794911092",
@@ -54568,9 +54868,17 @@
       "kind": "stock",
       "path": "stocks/261200.KQ.json"
     },
+    "2613.T": {
+      "kind": "stock",
+      "path": "stocks/2613.T.json"
+    },
     "2613.TW": {
       "kind": "stock",
       "path": "stocks/2613.TW.json"
+    },
+    "2615.TW": {
+      "kind": "stock",
+      "path": "stocks/2615.TW.json"
     },
     "2616.HK": {
       "kind": "stock",
@@ -54601,6 +54909,10 @@
     "2633.TW": {
       "kind": "stock",
       "path": "stocks/2633.TW.json"
+    },
+    "2634.TW": {
+      "kind": "stock",
+      "path": "stocks/2634.TW.json"
     },
     "2636.TW": {
       "kind": "stock",
@@ -54653,6 +54965,14 @@
     "264450.KQ": {
       "kind": "stock",
       "path": "stocks/264450.KQ.json"
+    },
+    "2645.TW": {
+      "kind": "stock",
+      "path": "stocks/2645.TW.json"
+    },
+    "2646.TW": {
+      "kind": "stock",
+      "path": "stocks/2646.TW.json"
     },
     "264850.KQ": {
       "kind": "stock",
@@ -54719,6 +55039,10 @@
     "2669.T": {
       "kind": "stock",
       "path": "stocks/2669.T.json"
+    },
+    "2670.T": {
+      "kind": "stock",
+      "path": "stocks/2670.T.json"
     },
     "267250.KS": {
       "kind": "stock",
@@ -54813,6 +55137,10 @@
     "2689.T": {
       "kind": "stock",
       "path": "stocks/2689.T.json"
+    },
+    "268A.T": {
+      "kind": "stock",
+      "path": "stocks/268A.T.json"
     },
     "2692.T": {
       "kind": "stock",
@@ -55100,6 +55428,10 @@
       "kind": "stock",
       "path": "stocks/272550.KS.json"
     },
+    "2726.T": {
+      "kind": "stock",
+      "path": "stocks/2726.T.json"
+    },
     "2726.TWO": {
       "kind": "stock",
       "path": "stocks/2726.TWO.json"
@@ -55145,6 +55477,10 @@
     "2733.TWO": {
       "kind": "stock",
       "path": "stocks/2733.TWO.json"
+    },
+    "2734.T": {
+      "kind": "stock",
+      "path": "stocks/2734.T.json"
     },
     "2734.TWO": {
       "kind": "stock",
@@ -55254,6 +55590,10 @@
     "2756.TWO": {
       "kind": "stock",
       "path": "stocks/2756.TWO.json"
+    },
+    "2760.T": {
+      "kind": "stock",
+      "path": "stocks/2760.T.json"
     },
     "2761.T": {
       "kind": "stock",
@@ -55596,6 +55936,10 @@
       "kind": "stock",
       "path": "stocks/2804.T.json"
     },
+    "2805.T": {
+      "kind": "stock",
+      "path": "stocks/2805.T.json"
+    },
     "2806.T": {
       "kind": "stock",
       "path": "stocks/2806.T.json"
@@ -55603,6 +55947,10 @@
     "2809.T": {
       "kind": "stock",
       "path": "stocks/2809.T.json"
+    },
+    "2810.T": {
+      "kind": "stock",
+      "path": "stocks/2810.T.json"
     },
     "2811.T": {
       "kind": "stock",
@@ -55676,6 +56024,10 @@
       "kind": "stock",
       "path": "stocks/2831.T.json"
     },
+    "2834.TW": {
+      "kind": "stock",
+      "path": "stocks/2834.TW.json"
+    },
     "2836.HK": {
       "kind": "stock",
       "path": "stocks/2836.HK.json"
@@ -55733,6 +56085,10 @@
       "isin": "KYG9T43R1023",
       "kind": "stock",
       "path": "stocks/KYG9T43R1023.json"
+    },
+    "285A.T": {
+      "kind": "stock",
+      "path": "stocks/285A.T.json"
     },
     "2867.TW": {
       "kind": "stock",
@@ -55821,6 +56177,10 @@
       "kind": "stock",
       "path": "stocks/2883.T.json"
     },
+    "2883.TW": {
+      "kind": "stock",
+      "path": "stocks/2883.TW.json"
+    },
     "2884.T": {
       "kind": "stock",
       "path": "stocks/2884.T.json"
@@ -55834,10 +56194,18 @@
       "kind": "stock",
       "path": "stocks/KYG6983A1085.json"
     },
+    "2885.TW": {
+      "kind": "stock",
+      "path": "stocks/2885.TW.json"
+    },
     "2886.HK": {
       "isin": "BMG1118Y1214",
       "kind": "stock",
       "path": "stocks/BMG1118Y1214.json"
+    },
+    "2886.TW": {
+      "kind": "stock",
+      "path": "stocks/2886.TW.json"
     },
     "2887.TW": {
       "kind": "stock",
@@ -55880,6 +56248,10 @@
       "kind": "stock",
       "path": "stocks/2892.T.json"
     },
+    "2892.TW": {
+      "kind": "stock",
+      "path": "stocks/2892.TW.json"
+    },
     "289220.KQ": {
       "kind": "stock",
       "path": "stocks/289220.KQ.json"
@@ -55891,6 +56263,10 @@
     "2897.T": {
       "kind": "stock",
       "path": "stocks/2897.T.json"
+    },
+    "2897.TW": {
+      "kind": "stock",
+      "path": "stocks/2897.TW.json"
     },
     "2899.HK": {
       "kind": "stock",
@@ -56141,6 +56517,10 @@
       "kind": "stock",
       "path": "stocks/2913.HK.json"
     },
+    "2913.TW": {
+      "kind": "stock",
+      "path": "stocks/2913.TW.json"
+    },
     "2915.T": {
       "kind": "stock",
       "path": "stocks/2915.T.json"
@@ -56212,6 +56592,10 @@
     "2928.TWO": {
       "kind": "stock",
       "path": "stocks/2928.TWO.json"
+    },
+    "2929.T": {
+      "kind": "stock",
+      "path": "stocks/2929.T.json"
     },
     "2929.TW": {
       "kind": "stock",
@@ -56341,6 +56725,10 @@
       "kind": "stock",
       "path": "stocks/2979.T.json"
     },
+    "2980.T": {
+      "kind": "stock",
+      "path": "stocks/2980.T.json"
+    },
     "298000.KS": {
       "kind": "stock",
       "path": "stocks/298000.KS.json"
@@ -56373,6 +56761,10 @@
       "kind": "stock",
       "path": "stocks/2984.KL.json"
     },
+    "2984.T": {
+      "kind": "stock",
+      "path": "stocks/2984.T.json"
+    },
     "298540.KQ": {
       "kind": "stock",
       "path": "stocks/298540.KQ.json"
@@ -56388,6 +56780,10 @@
     "299170.KQ": {
       "kind": "stock",
       "path": "stocks/299170.KQ.json"
+    },
+    "2993.T": {
+      "kind": "stock",
+      "path": "stocks/2993.T.json"
     },
     "299660.KQ": {
       "kind": "stock",
@@ -56479,6 +56875,10 @@
     "29LN.F": {
       "kind": "stock",
       "path": "stocks/29LN.F.json"
+    },
+    "29M.AX": {
+      "kind": "stock",
+      "path": "stocks/29M.AX.json"
     },
     "29O.F": {
       "kind": "stock",
@@ -58500,6 +58900,10 @@
       "isin": "CA50077N1024",
       "kind": "stock",
       "path": "stocks/CA50077N1024.json"
+    },
+    "2KS.F": {
+      "kind": "stock",
+      "path": "stocks/2KS.F.json"
     },
     "2KT.F": {
       "kind": "stock",
@@ -63839,6 +64243,10 @@
       "kind": "stock",
       "path": "stocks/3010.SR.json"
     },
+    "3010.TW": {
+      "kind": "stock",
+      "path": "stocks/3010.TW.json"
+    },
     "3011.T": {
       "kind": "stock",
       "path": "stocks/3011.T.json"
@@ -63851,13 +64259,25 @@
       "kind": "stock",
       "path": "stocks/301300.KQ.json"
     },
+    "3015.TW": {
+      "kind": "stock",
+      "path": "stocks/3015.TW.json"
+    },
     "3016.TW": {
       "kind": "stock",
       "path": "stocks/3016.TW.json"
     },
+    "3017.TW": {
+      "kind": "stock",
+      "path": "stocks/3017.TW.json"
+    },
     "3018.KL": {
       "kind": "stock",
       "path": "stocks/3018.KL.json"
+    },
+    "3019.TW": {
+      "kind": "stock",
+      "path": "stocks/3019.TW.json"
     },
     "3020.SR": {
       "kind": "stock",
@@ -63914,6 +64334,14 @@
     "3028.TW": {
       "kind": "stock",
       "path": "stocks/3028.TW.json"
+    },
+    "3029.TW": {
+      "kind": "stock",
+      "path": "stocks/3029.TW.json"
+    },
+    "3030.TW": {
+      "kind": "stock",
+      "path": "stocks/3030.TW.json"
     },
     "303030.KQ": {
       "kind": "stock",
@@ -64003,6 +64431,10 @@
     "3045.T": {
       "kind": "stock",
       "path": "stocks/3045.T.json"
+    },
+    "3045.TW": {
+      "kind": "stock",
+      "path": "stocks/3045.TW.json"
     },
     "3046.T": {
       "kind": "stock",
@@ -65027,6 +65459,10 @@
       "kind": "stock",
       "path": "stocks/320000.KQ.json"
     },
+    "3201.T": {
+      "kind": "stock",
+      "path": "stocks/3201.T.json"
+    },
     "3202.T": {
       "kind": "stock",
       "path": "stocks/3202.T.json"
@@ -65094,6 +65530,10 @@
     "322180.KQ": {
       "kind": "stock",
       "path": "stocks/322180.KQ.json"
+    },
+    "3222.T": {
+      "kind": "stock",
+      "path": "stocks/3222.T.json"
     },
     "322310.KQ": {
       "kind": "stock",
@@ -65263,6 +65703,10 @@
       "kind": "stock",
       "path": "stocks/3275.T.json"
     },
+    "3276.T": {
+      "kind": "stock",
+      "path": "stocks/3276.T.json"
+    },
     "3276.TWO": {
       "kind": "stock",
       "path": "stocks/3276.TWO.json"
@@ -65292,6 +65736,10 @@
     "3280.T": {
       "kind": "stock",
       "path": "stocks/3280.T.json"
+    },
+    "3281.T": {
+      "kind": "stock",
+      "path": "stocks/3281.T.json"
     },
     "3282.T": {
       "kind": "stock",
@@ -65338,6 +65786,10 @@
       "kind": "stock",
       "path": "stocks/329.F.json"
     },
+    "3290.T": {
+      "kind": "stock",
+      "path": "stocks/3290.T.json"
+    },
     "3290.TWO": {
       "kind": "stock",
       "path": "stocks/3290.TWO.json"
@@ -65347,9 +65799,17 @@
       "kind": "stock",
       "path": "stocks/JP3131090007.json"
     },
+    "3292.T": {
+      "kind": "stock",
+      "path": "stocks/3292.T.json"
+    },
     "3293.T": {
       "kind": "stock",
       "path": "stocks/3293.T.json"
+    },
+    "3293.TWO": {
+      "kind": "stock",
+      "path": "stocks/3293.TWO.json"
     },
     "3294.TWO": {
       "kind": "stock",
@@ -65362,6 +65822,10 @@
     "329560.KQ": {
       "kind": "stock",
       "path": "stocks/329560.KQ.json"
+    },
+    "3296.T": {
+      "kind": "stock",
+      "path": "stocks/3296.T.json"
     },
     "3296.TW": {
       "kind": "stock",
@@ -65790,6 +66254,10 @@
       "kind": "stock",
       "path": "stocks/334890.KS.json"
     },
+    "3349.T": {
+      "kind": "stock",
+      "path": "stocks/3349.T.json"
+    },
     "3349.TWO": {
       "kind": "stock",
       "path": "stocks/3349.TWO.json"
@@ -65813,6 +66281,10 @@
     "335.SG": {
       "kind": "stock",
       "path": "stocks/335.SG.json"
+    },
+    "3350.T": {
+      "kind": "stock",
+      "path": "stocks/3350.T.json"
     },
     "3352.T": {
       "kind": "stock",
@@ -65861,6 +66333,10 @@
     "3359.T": {
       "kind": "stock",
       "path": "stocks/3359.T.json"
+    },
+    "3360.T": {
+      "kind": "stock",
+      "path": "stocks/3360.T.json"
     },
     "3360.TWO": {
       "isin": "JP3274150006",
@@ -66003,6 +66479,10 @@
       "isin": "KYG555551095",
       "kind": "stock",
       "path": "stocks/KYG555551095.json"
+    },
+    "3380.TW": {
+      "kind": "stock",
+      "path": "stocks/3380.TW.json"
     },
     "338220.KQ": {
       "kind": "stock",
@@ -66319,6 +66799,10 @@
       "kind": "stock",
       "path": "stocks/342550.KQ.json"
     },
+    "3426.T": {
+      "kind": "stock",
+      "path": "stocks/3426.T.json"
+    },
     "3426.TWO": {
       "kind": "stock",
       "path": "stocks/3426.TWO.json"
@@ -66421,6 +66905,10 @@
       "kind": "stock",
       "path": "stocks/3444.TWO.json"
     },
+    "3445.T": {
+      "kind": "stock",
+      "path": "stocks/3445.T.json"
+    },
     "3446.T": {
       "kind": "stock",
       "path": "stocks/3446.T.json"
@@ -66432,6 +66920,10 @@
     "3449.T": {
       "kind": "stock",
       "path": "stocks/3449.T.json"
+    },
+    "3450.TW": {
+      "kind": "stock",
+      "path": "stocks/3450.TW.json"
     },
     "3451.T": {
       "kind": "stock",
@@ -66469,6 +66961,10 @@
       "kind": "stock",
       "path": "stocks/3464.T.json"
     },
+    "3465.T": {
+      "kind": "stock",
+      "path": "stocks/3465.T.json"
+    },
     "3466.T": {
       "kind": "stock",
       "path": "stocks/3466.T.json"
@@ -66480,6 +66976,10 @@
     "3467.T": {
       "kind": "stock",
       "path": "stocks/3467.T.json"
+    },
+    "3468.T": {
+      "kind": "stock",
+      "path": "stocks/3468.T.json"
     },
     "3469.T": {
       "kind": "stock",
@@ -66592,6 +67092,10 @@
     "3485.TWO": {
       "kind": "stock",
       "path": "stocks/3485.TWO.json"
+    },
+    "3487.T": {
+      "kind": "stock",
+      "path": "stocks/3487.T.json"
     },
     "3488.T": {
       "kind": "stock",
@@ -67394,6 +67898,10 @@
       "kind": "stock",
       "path": "stocks/3615.TWO.json"
     },
+    "3617.TW": {
+      "kind": "stock",
+      "path": "stocks/3617.TW.json"
+    },
     "3618.HK": {
       "kind": "stock",
       "path": "stocks/3618.HK.json"
@@ -67580,6 +68088,10 @@
       "kind": "stock",
       "path": "stocks/3660.T.json"
     },
+    "3661.T": {
+      "kind": "stock",
+      "path": "stocks/3661.T.json"
+    },
     "3661.TW": {
       "kind": "stock",
       "path": "stocks/3661.TW.json"
@@ -67694,6 +68206,10 @@
       "isin": "CNE1000023S4",
       "kind": "stock",
       "path": "stocks/CNE1000023S4.json"
+    },
+    "3678.T": {
+      "kind": "stock",
+      "path": "stocks/3678.T.json"
     },
     "3678.TWO": {
       "kind": "stock",
@@ -68037,6 +68553,14 @@
       "kind": "stock",
       "path": "stocks/3714.TW.json"
     },
+    "3715.TW": {
+      "kind": "stock",
+      "path": "stocks/3715.TW.json"
+    },
+    "3716.TW": {
+      "kind": "stock",
+      "path": "stocks/3716.TW.json"
+    },
     "3719.KL": {
       "kind": "stock",
       "path": "stocks/3719.KL.json"
@@ -68061,6 +68585,10 @@
     "373200.KQ": {
       "kind": "stock",
       "path": "stocks/373200.KQ.json"
+    },
+    "3733.T": {
+      "kind": "stock",
+      "path": "stocks/3733.T.json"
     },
     "373340.KQ": {
       "kind": "stock",
@@ -68128,6 +68656,10 @@
     "3768.T": {
       "kind": "stock",
       "path": "stocks/3768.T.json"
+    },
+    "3769.T": {
+      "kind": "stock",
+      "path": "stocks/3769.T.json"
     },
     "3770.T": {
       "kind": "stock",
@@ -68354,6 +68886,10 @@
       "kind": "stock",
       "path": "stocks/3816.KL.json"
     },
+    "3817.T": {
+      "kind": "stock",
+      "path": "stocks/3817.T.json"
+    },
     "3823.T": {
       "kind": "stock",
       "path": "stocks/3823.T.json"
@@ -68455,6 +68991,10 @@
       "kind": "stock",
       "path": "stocks/3853.T.json"
     },
+    "3854.T": {
+      "kind": "stock",
+      "path": "stocks/3854.T.json"
+    },
     "3856.T": {
       "kind": "stock",
       "path": "stocks/3856.T.json"
@@ -68470,6 +69010,10 @@
     "3861.T": {
       "kind": "stock",
       "path": "stocks/3861.T.json"
+    },
+    "3863.T": {
+      "kind": "stock",
+      "path": "stocks/3863.T.json"
     },
     "3865.T": {
       "isin": "JP3841800000",
@@ -68949,6 +69493,10 @@
       "isin": "CNE1000002D0",
       "kind": "stock",
       "path": "stocks/CNE1000002D0.json"
+    },
+    "3983.T": {
+      "kind": "stock",
+      "path": "stocks/3983.T.json"
     },
     "3984.T": {
       "kind": "stock",
@@ -72388,6 +72936,10 @@
       "kind": "stock",
       "path": "stocks/4004.T.json"
     },
+    "4005.T": {
+      "kind": "stock",
+      "path": "stocks/4005.T.json"
+    },
     "4006.KL": {
       "kind": "stock",
       "path": "stocks/4006.KL.json"
@@ -72550,6 +73102,10 @@
       "kind": "stock",
       "path": "stocks/JP3148800000.json"
     },
+    "4063.T": {
+      "kind": "stock",
+      "path": "stocks/4063.T.json"
+    },
     "4064.T": {
       "kind": "stock",
       "path": "stocks/4064.T.json"
@@ -72586,6 +73142,10 @@
     "4070.SR": {
       "kind": "stock",
       "path": "stocks/4070.SR.json"
+    },
+    "4071.T": {
+      "kind": "stock",
+      "path": "stocks/4071.T.json"
     },
     "4078.T": {
       "kind": "stock",
@@ -72698,6 +73258,10 @@
       "kind": "stock",
       "path": "stocks/4105.TWO.json"
     },
+    "4107.T": {
+      "kind": "stock",
+      "path": "stocks/4107.T.json"
+    },
     "4107.TWO": {
       "kind": "stock",
       "path": "stocks/4107.TWO.json"
@@ -72766,9 +73330,17 @@
       "kind": "stock",
       "path": "stocks/4121.TWO.json"
     },
+    "4123.TWO": {
+      "kind": "stock",
+      "path": "stocks/4123.TWO.json"
+    },
     "4124.T": {
       "kind": "stock",
       "path": "stocks/4124.T.json"
+    },
+    "4125.T": {
+      "kind": "stock",
+      "path": "stocks/4125.T.json"
     },
     "4126.TWO": {
       "kind": "stock",
@@ -72878,6 +73450,10 @@
       "kind": "stock",
       "path": "stocks/4163.TWO.json"
     },
+    "4164.TW": {
+      "kind": "stock",
+      "path": "stocks/4164.TW.json"
+    },
     "4165.T": {
       "kind": "stock",
       "path": "stocks/4165.T.json"
@@ -72950,6 +73526,10 @@
       "kind": "stock",
       "path": "stocks/4176.T.json"
     },
+    "417A.T": {
+      "kind": "stock",
+      "path": "stocks/417A.T.json"
+    },
     "4180.SR": {
       "kind": "stock",
       "path": "stocks/4180.SR.json"
@@ -72957,6 +73537,10 @@
     "4180.T": {
       "kind": "stock",
       "path": "stocks/4180.T.json"
+    },
+    "4183.T": {
+      "kind": "stock",
+      "path": "stocks/4183.T.json"
     },
     "4185.T": {
       "kind": "stock",
@@ -73671,6 +74255,10 @@
       "kind": "stock",
       "path": "stocks/4361.T.json"
     },
+    "4362.T": {
+      "kind": "stock",
+      "path": "stocks/4362.T.json"
+    },
     "4364.T": {
       "kind": "stock",
       "path": "stocks/4364.T.json"
@@ -73690,6 +74278,10 @@
     "4368.T": {
       "kind": "stock",
       "path": "stocks/4368.T.json"
+    },
+    "4369.T": {
+      "kind": "stock",
+      "path": "stocks/4369.T.json"
     },
     "4381.T": {
       "kind": "stock",
@@ -73836,6 +74428,10 @@
     "4410.T": {
       "kind": "stock",
       "path": "stocks/4410.T.json"
+    },
+    "4413.T": {
+      "kind": "stock",
+      "path": "stocks/4413.T.json"
     },
     "4416.TWO": {
       "kind": "stock",
@@ -74412,6 +75008,10 @@
       "kind": "stock",
       "path": "stocks/4559.T.json"
     },
+    "4559.TWO": {
+      "kind": "stock",
+      "path": "stocks/4559.TWO.json"
+    },
     "4560.TW": {
       "kind": "stock",
       "path": "stocks/4560.TW.json"
@@ -74718,6 +75318,10 @@
       "kind": "stock",
       "path": "stocks/4633.T.json"
     },
+    "4634.T": {
+      "kind": "stock",
+      "path": "stocks/4634.T.json"
+    },
     "4641.T": {
       "kind": "stock",
       "path": "stocks/4641.T.json"
@@ -74741,6 +75345,10 @@
     "4653.T": {
       "kind": "stock",
       "path": "stocks/4653.T.json"
+    },
+    "4657.T": {
+      "kind": "stock",
+      "path": "stocks/4657.T.json"
     },
     "4658.T": {
       "kind": "stock",
@@ -74797,6 +75405,10 @@
     "4679.T": {
       "kind": "stock",
       "path": "stocks/4679.T.json"
+    },
+    "4680.T": {
+      "kind": "stock",
+      "path": "stocks/4680.T.json"
     },
     "4681.T": {
       "isin": "JP3974450003",
@@ -74917,6 +75529,10 @@
       "isin": "US09074B1070",
       "kind": "stock",
       "path": "stocks/US09074B1070.json"
+    },
+    "4704.T": {
+      "kind": "stock",
+      "path": "stocks/4704.T.json"
     },
     "4705.T": {
       "kind": "stock",
@@ -75189,6 +75805,10 @@
       "kind": "stock",
       "path": "stocks/4770.T.json"
     },
+    "4770.TW": {
+      "kind": "stock",
+      "path": "stocks/4770.TW.json"
+    },
     "4776.T": {
       "kind": "stock",
       "path": "stocks/4776.T.json"
@@ -75427,6 +76047,10 @@
       "kind": "stock",
       "path": "stocks/480S.MC.json"
     },
+    "4812.T": {
+      "kind": "stock",
+      "path": "stocks/4812.T.json"
+    },
     "4813.T": {
       "kind": "stock",
       "path": "stocks/4813.T.json"
@@ -75554,6 +76178,10 @@
     "4887.T": {
       "kind": "stock",
       "path": "stocks/4887.T.json"
+    },
+    "4888.T": {
+      "kind": "stock",
+      "path": "stocks/4888.T.json"
     },
     "489.F": {
       "kind": "stock",
@@ -75726,6 +76354,10 @@
       "kind": "stock",
       "path": "stocks/4911.TWO.json"
     },
+    "4912.T": {
+      "kind": "stock",
+      "path": "stocks/4912.T.json"
+    },
     "4912.TW": {
       "kind": "stock",
       "path": "stocks/4912.TW.json"
@@ -75745,6 +76377,10 @@
     "4917.T": {
       "kind": "stock",
       "path": "stocks/4917.T.json"
+    },
+    "4919.T": {
+      "kind": "stock",
+      "path": "stocks/4919.T.json"
     },
     "4919.TW": {
       "kind": "stock",
@@ -76088,6 +76724,10 @@
     "49BA.SG": {
       "kind": "stock",
       "path": "stocks/49BA.SG.json"
+    },
+    "49DA.F": {
+      "kind": "stock",
+      "path": "stocks/49DA.F.json"
     },
     "49F.F": {
       "kind": "stock",
@@ -78865,6 +79505,10 @@
       "kind": "stock",
       "path": "stocks/4YA.F.json"
     },
+    "4YD.F": {
+      "kind": "stock",
+      "path": "stocks/4YD.F.json"
+    },
     "4YE.F": {
       "kind": "stock",
       "path": "stocks/4YE.F.json"
@@ -79363,6 +80007,10 @@
       "kind": "stock",
       "path": "stocks/5016.KL.json"
     },
+    "5016.T": {
+      "kind": "stock",
+      "path": "stocks/5016.T.json"
+    },
     "5018.T": {
       "kind": "stock",
       "path": "stocks/5018.T.json"
@@ -79456,6 +80104,10 @@
       "kind": "stock",
       "path": "stocks/5032.KL.json"
     },
+    "5032.T": {
+      "kind": "stock",
+      "path": "stocks/5032.T.json"
+    },
     "5035.KL": {
       "kind": "stock",
       "path": "stocks/5035.KL.json"
@@ -79532,9 +80184,17 @@
       "kind": "stock",
       "path": "stocks/5073.KL.json"
     },
+    "5074.T": {
+      "kind": "stock",
+      "path": "stocks/5074.T.json"
+    },
     "5075.KL": {
       "kind": "stock",
       "path": "stocks/5075.KL.json"
+    },
+    "5076.T": {
+      "kind": "stock",
+      "path": "stocks/5076.T.json"
     },
     "5077.KL": {
       "kind": "stock",
@@ -79787,6 +80447,10 @@
       "isin": "JP3404200002",
       "kind": "stock",
       "path": "stocks/JP3404200002.json"
+    },
+    "5110.T": {
+      "kind": "stock",
+      "path": "stocks/5110.T.json"
     },
     "511180.SS": {
       "kind": "stock",
@@ -80313,6 +80977,10 @@
     "520030.KS": {
       "kind": "stock",
       "path": "stocks/520030.KS.json"
+    },
+    "5201.T": {
+      "kind": "stock",
+      "path": "stocks/5201.T.json"
     },
     "5202.T": {
       "kind": "stock",
@@ -82069,6 +82737,10 @@
       "kind": "stock",
       "path": "stocks/5460.TWO.json"
     },
+    "5461.T": {
+      "kind": "stock",
+      "path": "stocks/5461.T.json"
+    },
     "5463.T": {
       "kind": "stock",
       "path": "stocks/5463.T.json"
@@ -82313,6 +82985,10 @@
     "5533.TW": {
       "kind": "stock",
       "path": "stocks/5533.TW.json"
+    },
+    "5534.TW": {
+      "kind": "stock",
+      "path": "stocks/5534.TW.json"
     },
     "5536.TWO": {
       "kind": "stock",
@@ -82901,6 +83577,10 @@
       "isin": "JP3638600001",
       "kind": "stock",
       "path": "stocks/JP3638600001.json"
+    },
+    "5715.T": {
+      "kind": "stock",
+      "path": "stocks/5715.T.json"
     },
     "5724.T": {
       "kind": "stock",
@@ -84526,9 +85206,25 @@
       "kind": "stock",
       "path": "stocks/583.SI.json"
     },
+    "5830.T": {
+      "kind": "stock",
+      "path": "stocks/5830.T.json"
+    },
+    "5831.T": {
+      "kind": "stock",
+      "path": "stocks/5831.T.json"
+    },
+    "5832.T": {
+      "kind": "stock",
+      "path": "stocks/5832.T.json"
+    },
     "5835.KL": {
       "kind": "stock",
       "path": "stocks/5835.KL.json"
+    },
+    "5838.T": {
+      "kind": "stock",
+      "path": "stocks/5838.T.json"
     },
     "584.SI": {
       "kind": "stock",
@@ -84537,6 +85233,10 @@
     "5843.KL": {
       "kind": "stock",
       "path": "stocks/5843.KL.json"
+    },
+    "5844.T": {
+      "kind": "stock",
+      "path": "stocks/5844.T.json"
     },
     "5851.T": {
       "kind": "stock",
@@ -84562,6 +85262,10 @@
       "kind": "stock",
       "path": "stocks/5871A.TW.json"
     },
+    "5876.TW": {
+      "kind": "stock",
+      "path": "stocks/5876.TW.json"
+    },
     "5878.KL": {
       "kind": "stock",
       "path": "stocks/5878.KL.json"
@@ -84573,6 +85277,10 @@
     "5880.TW": {
       "kind": "stock",
       "path": "stocks/5880.TW.json"
+    },
+    "5888.T": {
+      "kind": "stock",
+      "path": "stocks/5888.T.json"
     },
     "58FC02.KS": {
       "kind": "stock",
@@ -85538,6 +86246,10 @@
     "597.F": {
       "kind": "stock",
       "path": "stocks/597.F.json"
+    },
+    "5970.T": {
+      "kind": "stock",
+      "path": "stocks/5970.T.json"
     },
     "5971.T": {
       "kind": "stock",
@@ -93907,6 +94619,10 @@
       "kind": "stock",
       "path": "stocks/6054.T.json"
     },
+    "6055.T": {
+      "kind": "stock",
+      "path": "stocks/6055.T.json"
+    },
     "6059.T": {
       "kind": "stock",
       "path": "stocks/6059.T.json"
@@ -93983,6 +94699,10 @@
     "6078.HK": {
       "kind": "stock",
       "path": "stocks/6078.HK.json"
+    },
+    "6080.T": {
+      "kind": "stock",
+      "path": "stocks/6080.T.json"
     },
     "6081.T": {
       "kind": "stock",
@@ -94073,6 +94793,10 @@
       "isin": "US75629J1016",
       "kind": "stock",
       "path": "stocks/US75629J1016.json"
+    },
+    "6099.T": {
+      "kind": "stock",
+      "path": "stocks/6099.T.json"
     },
     "60A.BE": {
       "kind": "stock",
@@ -94328,6 +95052,14 @@
       "kind": "stock",
       "path": "stocks/6139.KL.json"
     },
+    "6139.TW": {
+      "kind": "stock",
+      "path": "stocks/6139.TW.json"
+    },
+    "6140.T": {
+      "kind": "stock",
+      "path": "stocks/6140.T.json"
+    },
     "6141.T": {
       "isin": "JP3924800000",
       "kind": "stock",
@@ -94360,6 +95092,10 @@
     "6145.T": {
       "kind": "stock",
       "path": "stocks/6145.T.json"
+    },
+    "6146.T": {
+      "kind": "stock",
+      "path": "stocks/6146.T.json"
     },
     "6146.TWO": {
       "kind": "stock",
@@ -94819,6 +95555,10 @@
       "kind": "stock",
       "path": "stocks/6208.TWO.json"
     },
+    "6209.T": {
+      "kind": "stock",
+      "path": "stocks/6209.T.json"
+    },
     "6209.TW": {
       "kind": "stock",
       "path": "stocks/6209.TW.json"
@@ -94875,6 +95615,10 @@
     "6222.TWO": {
       "kind": "stock",
       "path": "stocks/6222.TWO.json"
+    },
+    "6223.TWO": {
+      "kind": "stock",
+      "path": "stocks/6223.TWO.json"
     },
     "6224.TW": {
       "kind": "stock",
@@ -95008,6 +95752,10 @@
       "kind": "stock",
       "path": "stocks/6254.KL.json"
     },
+    "6254.T": {
+      "kind": "stock",
+      "path": "stocks/6254.T.json"
+    },
     "6255.T": {
       "kind": "stock",
       "path": "stocks/6255.T.json"
@@ -95076,6 +95824,10 @@
       "kind": "stock",
       "path": "stocks/6271.T.json"
     },
+    "6271.TW": {
+      "kind": "stock",
+      "path": "stocks/6271.TW.json"
+    },
     "6272.T": {
       "kind": "stock",
       "path": "stocks/6272.T.json"
@@ -95083,6 +95835,10 @@
     "6272.TWO": {
       "kind": "stock",
       "path": "stocks/6272.TWO.json"
+    },
+    "6273.T": {
+      "kind": "stock",
+      "path": "stocks/6273.T.json"
     },
     "6276.T": {
       "kind": "stock",
@@ -95099,6 +95855,10 @@
     "6277.TW": {
       "kind": "stock",
       "path": "stocks/6277.TW.json"
+    },
+    "6278.T": {
+      "kind": "stock",
+      "path": "stocks/6278.T.json"
     },
     "6278.TW": {
       "kind": "stock",
@@ -95135,6 +95895,10 @@
     "6286.T": {
       "kind": "stock",
       "path": "stocks/6286.T.json"
+    },
+    "6287.T": {
+      "kind": "stock",
+      "path": "stocks/6287.T.json"
     },
     "6288.TW": {
       "kind": "stock",
@@ -95660,6 +96424,10 @@
       "kind": "stock",
       "path": "stocks/JP3326410002.json"
     },
+    "6419.T": {
+      "kind": "stock",
+      "path": "stocks/6419.T.json"
+    },
     "6419.TWO": {
       "kind": "stock",
       "path": "stocks/6419.TWO.json"
@@ -95679,6 +96447,10 @@
     "6424.T": {
       "kind": "stock",
       "path": "stocks/6424.T.json"
+    },
+    "6425.T": {
+      "kind": "stock",
+      "path": "stocks/6425.T.json"
     },
     "6426.TW": {
       "kind": "stock",
@@ -95752,9 +96524,17 @@
       "kind": "stock",
       "path": "stocks/6445.T.json"
     },
+    "6446.TW": {
+      "kind": "stock",
+      "path": "stocks/6446.TW.json"
+    },
     "6446.TWO": {
       "kind": "stock",
       "path": "stocks/6446.TWO.json"
+    },
+    "6448.T": {
+      "kind": "stock",
+      "path": "stocks/6448.T.json"
     },
     "6449.TW": {
       "kind": "stock",
@@ -95929,6 +96709,10 @@
       "kind": "stock",
       "path": "stocks/6485.TWO.json"
     },
+    "6486.T": {
+      "kind": "stock",
+      "path": "stocks/6486.T.json"
+    },
     "6488.T": {
       "kind": "stock",
       "path": "stocks/6488.T.json"
@@ -96058,6 +96842,14 @@
       "kind": "stock",
       "path": "stocks/6502.T.json"
     },
+    "6503.T": {
+      "kind": "stock",
+      "path": "stocks/6503.T.json"
+    },
+    "6504.T": {
+      "kind": "stock",
+      "path": "stocks/6504.T.json"
+    },
     "6504.TW": {
       "kind": "stock",
       "path": "stocks/6504.TW.json"
@@ -96142,6 +96934,18 @@
     "6523.TWO": {
       "kind": "stock",
       "path": "stocks/6523.TWO.json"
+    },
+    "6525.T": {
+      "kind": "stock",
+      "path": "stocks/6525.T.json"
+    },
+    "6526.T": {
+      "kind": "stock",
+      "path": "stocks/6526.T.json"
+    },
+    "6526.TW": {
+      "kind": "stock",
+      "path": "stocks/6526.TW.json"
     },
     "6527.TWO": {
       "kind": "stock",
@@ -96246,6 +97050,10 @@
     "6550.T": {
       "kind": "stock",
       "path": "stocks/6550.T.json"
+    },
+    "6550.TW": {
+      "kind": "stock",
+      "path": "stocks/6550.TW.json"
     },
     "6551.T": {
       "kind": "stock",
@@ -96580,6 +97388,10 @@
       "kind": "stock",
       "path": "stocks/KYG2072S1003.json"
     },
+    "6605.TW": {
+      "kind": "stock",
+      "path": "stocks/6605.TW.json"
+    },
     "6606.HK": {
       "isin": "KYG6485S1021",
       "kind": "stock",
@@ -96638,6 +97450,10 @@
       "kind": "stock",
       "path": "stocks/6618.TWO.json"
     },
+    "6619.T": {
+      "kind": "stock",
+      "path": "stocks/6619.T.json"
+    },
     "6620.T": {
       "kind": "stock",
       "path": "stocks/6620.T.json"
@@ -96686,6 +97502,10 @@
     "6628.T": {
       "kind": "stock",
       "path": "stocks/6628.T.json"
+    },
+    "6630.T": {
+      "kind": "stock",
+      "path": "stocks/6630.T.json"
     },
     "6632.T": {
       "kind": "stock",
@@ -96769,6 +97589,10 @@
     "6650.TWO": {
       "kind": "stock",
       "path": "stocks/6650.TWO.json"
+    },
+    "6651.T": {
+      "kind": "stock",
+      "path": "stocks/6651.T.json"
     },
     "6651.TWO": {
       "kind": "stock",
@@ -97305,6 +98129,10 @@
       "kind": "stock",
       "path": "stocks/6771.T.json"
     },
+    "6771.TW": {
+      "kind": "stock",
+      "path": "stocks/6771.TW.json"
+    },
     "6775.TWO": {
       "kind": "stock",
       "path": "stocks/6775.TWO.json"
@@ -97484,6 +98312,10 @@
       "kind": "stock",
       "path": "stocks/6807.KL.json"
     },
+    "6807.T": {
+      "kind": "stock",
+      "path": "stocks/6807.T.json"
+    },
     "6810.T": {
       "kind": "stock",
       "path": "stocks/6810.T.json"
@@ -97592,6 +98424,10 @@
     "6823.T": {
       "kind": "stock",
       "path": "stocks/6823.T.json"
+    },
+    "6824.T": {
+      "kind": "stock",
+      "path": "stocks/6824.T.json"
     },
     "6825.TWO": {
       "kind": "stock",
@@ -97771,6 +98607,10 @@
     "6871.T": {
       "kind": "stock",
       "path": "stocks/6871.T.json"
+    },
+    "6873.TW": {
+      "kind": "stock",
+      "path": "stocks/6873.TW.json"
     },
     "6874.T": {
       "kind": "stock",
@@ -98757,6 +99597,10 @@
       "kind": "stock",
       "path": "stocks/6890.T.json"
     },
+    "6890.TW": {
+      "kind": "stock",
+      "path": "stocks/6890.TW.json"
+    },
     "689009.SS": {
       "kind": "stock",
       "path": "stocks/689009.SS.json"
@@ -98986,6 +99830,10 @@
       "kind": "stock",
       "path": "stocks/6919.HK.json"
     },
+    "6919.TW": {
+      "kind": "stock",
+      "path": "stocks/6919.TW.json"
+    },
     "6920.T": {
       "kind": "stock",
       "path": "stocks/6920.T.json"
@@ -99010,6 +99858,10 @@
     "6928.T": {
       "kind": "stock",
       "path": "stocks/6928.T.json"
+    },
+    "6929.T": {
+      "kind": "stock",
+      "path": "stocks/6929.T.json"
     },
     "6930.T": {
       "kind": "stock",
@@ -99072,6 +99924,10 @@
       "kind": "stock",
       "path": "stocks/US3073051027.json"
     },
+    "6955.T": {
+      "kind": "stock",
+      "path": "stocks/6955.T.json"
+    },
     "6957.T": {
       "kind": "stock",
       "path": "stocks/6957.T.json"
@@ -99108,6 +99964,10 @@
     "6965.T": {
       "kind": "stock",
       "path": "stocks/6965.T.json"
+    },
+    "6966.T": {
+      "kind": "stock",
+      "path": "stocks/6966.T.json"
     },
     "6967.T": {
       "isin": "JP3375800004",
@@ -99343,6 +100203,10 @@
     "6AP.MU": {
       "kind": "stock",
       "path": "stocks/6AP.MU.json"
+    },
+    "6AU.F": {
+      "kind": "stock",
+      "path": "stocks/6AU.F.json"
     },
     "6AX.F": {
       "isin": "CA23345B2003",
@@ -100458,6 +101322,10 @@
       "kind": "stock",
       "path": "stocks/6MU.SG.json"
     },
+    "6N2.F": {
+      "kind": "stock",
+      "path": "stocks/6N2.F.json"
+    },
     "6N5.BE": {
       "isin": "SE0010832204",
       "kind": "stock",
@@ -100561,6 +101429,10 @@
     "6NS.F": {
       "kind": "stock",
       "path": "stocks/6NS.F.json"
+    },
+    "6O7.F": {
+      "kind": "stock",
+      "path": "stocks/6O7.F.json"
     },
     "6OM.BE": {
       "kind": "stock",
@@ -101459,6 +102331,10 @@
       "kind": "stock",
       "path": "stocks/7033.KL.json"
     },
+    "7033.T": {
+      "kind": "stock",
+      "path": "stocks/7033.T.json"
+    },
     "7034.KL": {
       "kind": "stock",
       "path": "stocks/7034.KL.json"
@@ -101891,6 +102767,10 @@
       "kind": "stock",
       "path": "stocks/7130.KL.json"
     },
+    "7130.T": {
+      "kind": "stock",
+      "path": "stocks/7130.T.json"
+    },
     "7131.KL": {
       "kind": "stock",
       "path": "stocks/7131.KL.json"
@@ -101918,6 +102798,10 @@
     "7148.KL": {
       "kind": "stock",
       "path": "stocks/7148.KL.json"
+    },
+    "7148.T": {
+      "kind": "stock",
+      "path": "stocks/7148.T.json"
     },
     "7149.KL": {
       "kind": "stock",
@@ -102011,6 +102895,10 @@
       "kind": "stock",
       "path": "stocks/7170.T.json"
     },
+    "7172.T": {
+      "kind": "stock",
+      "path": "stocks/7172.T.json"
+    },
     "7173.T": {
       "kind": "stock",
       "path": "stocks/7173.T.json"
@@ -102022,6 +102910,10 @@
     "7175.T": {
       "kind": "stock",
       "path": "stocks/7175.T.json"
+    },
+    "7177.T": {
+      "kind": "stock",
+      "path": "stocks/7177.T.json"
     },
     "7178.KL": {
       "kind": "stock",
@@ -102035,9 +102927,17 @@
       "kind": "stock",
       "path": "stocks/7180.KL.json"
     },
+    "7180.T": {
+      "kind": "stock",
+      "path": "stocks/7180.T.json"
+    },
     "7181.KL": {
       "kind": "stock",
       "path": "stocks/7181.KL.json"
+    },
+    "7181.T": {
+      "kind": "stock",
+      "path": "stocks/7181.T.json"
     },
     "7181PA.KL": {
       "kind": "stock",
@@ -102046,6 +102946,10 @@
     "7182.KL": {
       "kind": "stock",
       "path": "stocks/7182.KL.json"
+    },
+    "7182.T": {
+      "kind": "stock",
+      "path": "stocks/7182.T.json"
     },
     "7183.T": {
       "kind": "stock",
@@ -102114,6 +103018,10 @@
     "7199.KL": {
       "kind": "stock",
       "path": "stocks/7199.KL.json"
+    },
+    "7199.T": {
+      "kind": "stock",
+      "path": "stocks/7199.T.json"
     },
     "71BA.BE": {
       "isin": "US0900401060",
@@ -102571,6 +103479,10 @@
       "kind": "stock",
       "path": "stocks/7278.T.json"
     },
+    "7279.T": {
+      "kind": "stock",
+      "path": "stocks/7279.T.json"
+    },
     "7280.T": {
       "kind": "stock",
       "path": "stocks/7280.T.json"
@@ -102705,6 +103617,10 @@
       "kind": "stock",
       "path": "stocks/731.F.json"
     },
+    "7313.T": {
+      "kind": "stock",
+      "path": "stocks/7313.T.json"
+    },
     "7314.T": {
       "kind": "stock",
       "path": "stocks/7314.T.json"
@@ -102732,6 +103648,10 @@
     "7320.T": {
       "kind": "stock",
       "path": "stocks/7320.T.json"
+    },
+    "7322.T": {
+      "kind": "stock",
+      "path": "stocks/7322.T.json"
     },
     "7325.T": {
       "kind": "stock",
@@ -102775,6 +103695,10 @@
       "isin": "KYG7170M1033",
       "kind": "stock",
       "path": "stocks/KYG7170M1033.json"
+    },
+    "7350.T": {
+      "kind": "stock",
+      "path": "stocks/7350.T.json"
     },
     "7351.T": {
       "kind": "stock",
@@ -102851,6 +103775,30 @@
     "7374.KL": {
       "kind": "stock",
       "path": "stocks/7374.KL.json"
+    },
+    "7380.T": {
+      "kind": "stock",
+      "path": "stocks/7380.T.json"
+    },
+    "7381.T": {
+      "kind": "stock",
+      "path": "stocks/7381.T.json"
+    },
+    "7383.T": {
+      "kind": "stock",
+      "path": "stocks/7383.T.json"
+    },
+    "7384.T": {
+      "kind": "stock",
+      "path": "stocks/7384.T.json"
+    },
+    "7388.T": {
+      "kind": "stock",
+      "path": "stocks/7388.T.json"
+    },
+    "7389.T": {
+      "kind": "stock",
+      "path": "stocks/7389.T.json"
     },
     "7399.T": {
       "kind": "stock",
@@ -103118,6 +104066,10 @@
     "7475.T": {
       "kind": "stock",
       "path": "stocks/7475.T.json"
+    },
+    "7476.T": {
+      "kind": "stock",
+      "path": "stocks/7476.T.json"
     },
     "7477.T": {
       "kind": "stock",
@@ -103909,6 +104861,10 @@
       "kind": "stock",
       "path": "stocks/7744.T.json"
     },
+    "7745.T": {
+      "kind": "stock",
+      "path": "stocks/7745.T.json"
+    },
     "7746.T": {
       "kind": "stock",
       "path": "stocks/7746.T.json"
@@ -103998,6 +104954,10 @@
     "7782.T": {
       "kind": "stock",
       "path": "stocks/7782.T.json"
+    },
+    "7791.T": {
+      "kind": "stock",
+      "path": "stocks/7791.T.json"
     },
     "77S.BE": {
       "kind": "stock",
@@ -104143,6 +105103,10 @@
       "kind": "stock",
       "path": "stocks/7839.T.json"
     },
+    "7840.T": {
+      "kind": "stock",
+      "path": "stocks/7840.T.json"
+    },
     "7844.T": {
       "kind": "stock",
       "path": "stocks/7844.T.json"
@@ -104191,6 +105155,10 @@
       "kind": "stock",
       "path": "stocks/7863.T.json"
     },
+    "7864.T": {
+      "kind": "stock",
+      "path": "stocks/7864.T.json"
+    },
     "7865.T": {
       "kind": "stock",
       "path": "stocks/7865.T.json"
@@ -104218,6 +105186,10 @@
     "7872.T": {
       "kind": "stock",
       "path": "stocks/7872.T.json"
+    },
+    "7874.T": {
+      "kind": "stock",
+      "path": "stocks/7874.T.json"
     },
     "7877.T": {
       "kind": "stock",
@@ -104446,6 +105418,10 @@
       "kind": "stock",
       "path": "stocks/7940.T.json"
     },
+    "7942.T": {
+      "kind": "stock",
+      "path": "stocks/7942.T.json"
+    },
     "7943.KL": {
       "kind": "stock",
       "path": "stocks/7943.KL.json"
@@ -104525,6 +105501,10 @@
     "7966.T": {
       "kind": "stock",
       "path": "stocks/7966.T.json"
+    },
+    "7970.T": {
+      "kind": "stock",
+      "path": "stocks/7970.T.json"
     },
     "7971.T": {
       "kind": "stock",
@@ -105333,6 +106313,10 @@
       "isin": "PLPGNIG00014",
       "kind": "stock",
       "path": "stocks/PLPGNIG00014.json"
+    },
+    "7GL.F": {
+      "kind": "stock",
+      "path": "stocks/7GL.F.json"
     },
     "7GO.BE": {
       "kind": "stock",
@@ -106235,6 +107219,10 @@
       "kind": "stock",
       "path": "stocks/7T8.MU.json"
     },
+    "7TB.F": {
+      "kind": "stock",
+      "path": "stocks/7TB.F.json"
+    },
     "7TE1.SG": {
       "isin": "US29286U1079",
       "kind": "stock",
@@ -106530,6 +107518,10 @@
       "kind": "stock",
       "path": "stocks/NO0010907389.json"
     },
+    "7XR.F": {
+      "kind": "stock",
+      "path": "stocks/7XR.F.json"
+    },
     "7XT.BE": {
       "kind": "stock",
       "path": "stocks/7XT.BE.json"
@@ -106766,6 +107758,10 @@
       "kind": "stock",
       "path": "stocks/8028.HK.json"
     },
+    "8028.TW": {
+      "kind": "stock",
+      "path": "stocks/8028.TW.json"
+    },
     "8030.HK": {
       "kind": "stock",
       "path": "stocks/8030.HK.json"
@@ -106777,6 +107773,10 @@
     "8030.T": {
       "kind": "stock",
       "path": "stocks/8030.T.json"
+    },
+    "8032.T": {
+      "kind": "stock",
+      "path": "stocks/8032.T.json"
     },
     "8032.TWO": {
       "kind": "stock",
@@ -106917,6 +107917,10 @@
     "8050.SR": {
       "kind": "stock",
       "path": "stocks/8050.SR.json"
+    },
+    "8050.T": {
+      "kind": "stock",
+      "path": "stocks/8050.T.json"
     },
     "8050.TWO": {
       "kind": "stock",
@@ -107141,6 +108145,10 @@
       "kind": "stock",
       "path": "stocks/8081.T.json"
     },
+    "8081.TW": {
+      "kind": "stock",
+      "path": "stocks/8081.TW.json"
+    },
     "8083.HK": {
       "isin": "BMG2164J1099",
       "kind": "stock",
@@ -107229,6 +108237,10 @@
     "8096.TWO": {
       "kind": "stock",
       "path": "stocks/8096.TWO.json"
+    },
+    "8097.T": {
+      "kind": "stock",
+      "path": "stocks/8097.T.json"
     },
     "8097.TWO": {
       "kind": "stock",
@@ -107346,9 +108358,17 @@
       "kind": "stock",
       "path": "stocks/8110.SR.json"
     },
+    "8111.T": {
+      "kind": "stock",
+      "path": "stocks/8111.T.json"
+    },
     "8111.TWO": {
       "kind": "stock",
       "path": "stocks/8111.TWO.json"
+    },
+    "8112.TW": {
+      "kind": "stock",
+      "path": "stocks/8112.TW.json"
     },
     "8113.T": {
       "kind": "stock",
@@ -107374,6 +108394,10 @@
       "isin": "KYG2161J1022",
       "kind": "stock",
       "path": "stocks/KYG2161J1022.json"
+    },
+    "8117.T": {
+      "kind": "stock",
+      "path": "stocks/8117.T.json"
     },
     "8118.HK": {
       "isin": "KYG125871049",
@@ -107433,6 +108457,10 @@
     "8128.HK": {
       "kind": "stock",
       "path": "stocks/8128.HK.json"
+    },
+    "8129.T": {
+      "kind": "stock",
+      "path": "stocks/8129.T.json"
     },
     "8130.HK": {
       "isin": "BMG2617D1056",
@@ -107524,6 +108552,10 @@
       "kind": "stock",
       "path": "stocks/8141.T.json"
     },
+    "8142.T": {
+      "kind": "stock",
+      "path": "stocks/8142.T.json"
+    },
     "8143.HK": {
       "kind": "stock",
       "path": "stocks/8143.HK.json"
@@ -107581,6 +108613,10 @@
     "8153.HK": {
       "kind": "stock",
       "path": "stocks/8153.HK.json"
+    },
+    "8153.T": {
+      "kind": "stock",
+      "path": "stocks/8153.T.json"
     },
     "8154.T": {
       "kind": "stock",
@@ -107641,6 +108677,10 @@
       "isin": "KYG6420C1217",
       "kind": "stock",
       "path": "stocks/KYG6420C1217.json"
+    },
+    "8167.T": {
+      "kind": "stock",
+      "path": "stocks/8167.T.json"
     },
     "8168.HK": {
       "isin": "KYG024821004",
@@ -108400,6 +109440,10 @@
       "kind": "stock",
       "path": "stocks/KYG0113B1288.json"
     },
+    "8341.T": {
+      "kind": "stock",
+      "path": "stocks/8341.T.json"
+    },
     "8341.TW": {
       "kind": "stock",
       "path": "stocks/8341.TW.json"
@@ -108427,6 +109471,10 @@
     "8346.KL": {
       "kind": "stock",
       "path": "stocks/8346.KL.json"
+    },
+    "8346.T": {
+      "kind": "stock",
+      "path": "stocks/8346.T.json"
     },
     "8347.HK": {
       "kind": "stock",
@@ -108618,6 +109666,10 @@
       "kind": "stock",
       "path": "stocks/8387.T.json"
     },
+    "8388.T": {
+      "kind": "stock",
+      "path": "stocks/8388.T.json"
+    },
     "8390.TWO": {
       "kind": "stock",
       "path": "stocks/8390.TWO.json"
@@ -108629,6 +109681,10 @@
     "8393.T": {
       "kind": "stock",
       "path": "stocks/8393.T.json"
+    },
+    "8395.T": {
+      "kind": "stock",
+      "path": "stocks/8395.T.json"
     },
     "8397.KL": {
       "kind": "stock",
@@ -108851,6 +109907,10 @@
       "kind": "stock",
       "path": "stocks/KYG826111075.json"
     },
+    "8439.T": {
+      "kind": "stock",
+      "path": "stocks/8439.T.json"
+    },
     "8446.HK": {
       "kind": "stock",
       "path": "stocks/8446.HK.json"
@@ -108924,6 +109984,10 @@
     "8472.TWO": {
       "kind": "stock",
       "path": "stocks/8472.TWO.json"
+    },
+    "8473.TW": {
+      "kind": "stock",
+      "path": "stocks/8473.TW.json"
     },
     "8477.TWO": {
       "kind": "stock",
@@ -109209,6 +110273,10 @@
       "kind": "stock",
       "path": "stocks/8567.KL.json"
     },
+    "8570.T": {
+      "kind": "stock",
+      "path": "stocks/8570.T.json"
+    },
     "858.MU": {
       "isin": "SE0009889405",
       "kind": "stock",
@@ -109222,6 +110290,10 @@
       "isin": "JP3200450009",
       "kind": "stock",
       "path": "stocks/JP3200450009.json"
+    },
+    "8593.T": {
+      "kind": "stock",
+      "path": "stocks/8593.T.json"
     },
     "8594.S": {
       "kind": "stock",
@@ -109449,6 +110521,10 @@
       "kind": "stock",
       "path": "stocks/869.F.json"
     },
+    "8697.T": {
+      "kind": "stock",
+      "path": "stocks/8697.T.json"
+    },
     "8698.T": {
       "kind": "stock",
       "path": "stocks/8698.T.json"
@@ -109543,6 +110619,10 @@
       "kind": "stock",
       "path": "stocks/8715.T.json"
     },
+    "8729.T": {
+      "kind": "stock",
+      "path": "stocks/8729.T.json"
+    },
     "8737.T": {
       "kind": "stock",
       "path": "stocks/8737.T.json"
@@ -109566,6 +110646,10 @@
     "8747.T": {
       "kind": "stock",
       "path": "stocks/8747.T.json"
+    },
+    "8750.T": {
+      "kind": "stock",
+      "path": "stocks/8750.T.json"
     },
     "8761.KL": {
       "kind": "stock",
@@ -109599,6 +110683,14 @@
       "kind": "stock",
       "path": "stocks/879.F.json"
     },
+    "8793.T": {
+      "kind": "stock",
+      "path": "stocks/8793.T.json"
+    },
+    "8795.T": {
+      "kind": "stock",
+      "path": "stocks/8795.T.json"
+    },
     "87IP.L": {
       "kind": "stock",
       "path": "stocks/87IP.L.json"
@@ -109610,6 +110702,10 @@
     "8801.T": {
       "kind": "stock",
       "path": "stocks/8801.T.json"
+    },
+    "8802.T": {
+      "kind": "stock",
+      "path": "stocks/8802.T.json"
     },
     "8803.T": {
       "isin": "JP3834800009",
@@ -109661,6 +110757,14 @@
       "kind": "stock",
       "path": "stocks/886.MU.json"
     },
+    "8860.T": {
+      "kind": "stock",
+      "path": "stocks/8860.T.json"
+    },
+    "8864.T": {
+      "kind": "stock",
+      "path": "stocks/8864.T.json"
+    },
     "8869.KL": {
       "kind": "stock",
       "path": "stocks/8869.KL.json"
@@ -109668,6 +110772,10 @@
     "8869.T": {
       "kind": "stock",
       "path": "stocks/8869.T.json"
+    },
+    "8871.T": {
+      "kind": "stock",
+      "path": "stocks/8871.T.json"
     },
     "8876.T": {
       "kind": "stock",
@@ -109700,6 +110808,10 @@
     "8890.T": {
       "kind": "stock",
       "path": "stocks/8890.T.json"
+    },
+    "8892.T": {
+      "kind": "stock",
+      "path": "stocks/8892.T.json"
     },
     "8893.KL": {
       "kind": "stock",
@@ -109760,6 +110872,10 @@
     "8909.T": {
       "kind": "stock",
       "path": "stocks/8909.T.json"
+    },
+    "891.F": {
+      "kind": "stock",
+      "path": "stocks/891.F.json"
     },
     "8912.T": {
       "kind": "stock",
@@ -109882,13 +110998,37 @@
       "kind": "stock",
       "path": "stocks/8945.T.json"
     },
+    "8952.T": {
+      "kind": "stock",
+      "path": "stocks/8952.T.json"
+    },
+    "8953.T": {
+      "kind": "stock",
+      "path": "stocks/8953.T.json"
+    },
     "8954.T": {
       "kind": "stock",
       "path": "stocks/8954.T.json"
     },
+    "8955.T": {
+      "kind": "stock",
+      "path": "stocks/8955.T.json"
+    },
+    "8956.T": {
+      "kind": "stock",
+      "path": "stocks/8956.T.json"
+    },
     "8957.T": {
       "kind": "stock",
       "path": "stocks/8957.T.json"
+    },
+    "8958.T": {
+      "kind": "stock",
+      "path": "stocks/8958.T.json"
+    },
+    "8960.T": {
+      "kind": "stock",
+      "path": "stocks/8960.T.json"
     },
     "8961.T": {
       "kind": "stock",
@@ -109898,6 +111038,10 @@
       "kind": "stock",
       "path": "stocks/8963.T.json"
     },
+    "8964.T": {
+      "kind": "stock",
+      "path": "stocks/8964.T.json"
+    },
     "8966.KL": {
       "kind": "stock",
       "path": "stocks/8966.KL.json"
@@ -109905,6 +111049,10 @@
     "8966.T": {
       "kind": "stock",
       "path": "stocks/8966.T.json"
+    },
+    "8967.T": {
+      "kind": "stock",
+      "path": "stocks/8967.T.json"
     },
     "8968.F": {
       "kind": "stock",
@@ -109922,6 +111070,10 @@
       "kind": "stock",
       "path": "stocks/8975.T.json"
     },
+    "8976.T": {
+      "kind": "stock",
+      "path": "stocks/8976.T.json"
+    },
     "8977.T": {
       "kind": "stock",
       "path": "stocks/8977.T.json"
@@ -109933,6 +111085,14 @@
     "8982.KL": {
       "kind": "stock",
       "path": "stocks/8982.KL.json"
+    },
+    "8985.T": {
+      "kind": "stock",
+      "path": "stocks/8985.T.json"
+    },
+    "8986.T": {
+      "kind": "stock",
+      "path": "stocks/8986.T.json"
     },
     "8987.T": {
       "kind": "stock",
@@ -110909,6 +112069,10 @@
     "8JM.MU": {
       "kind": "stock",
       "path": "stocks/8JM.MU.json"
+    },
+    "8JN.F": {
+      "kind": "stock",
+      "path": "stocks/8JN.F.json"
     },
     "8JR.F": {
       "kind": "stock",
@@ -112189,6 +113353,14 @@
       "kind": "stock",
       "path": "stocks/902.F.json"
     },
+    "9021.T": {
+      "kind": "stock",
+      "path": "stocks/9021.T.json"
+    },
+    "9023.T": {
+      "kind": "stock",
+      "path": "stocks/9023.T.json"
+    },
     "9024.T": {
       "kind": "stock",
       "path": "stocks/9024.T.json"
@@ -112249,6 +113421,10 @@
       "kind": "stock",
       "path": "stocks/9045.T.json"
     },
+    "9046.T": {
+      "kind": "stock",
+      "path": "stocks/9046.T.json"
+    },
     "9048.T": {
       "kind": "stock",
       "path": "stocks/9048.T.json"
@@ -112260,6 +113436,10 @@
     "9051.T": {
       "kind": "stock",
       "path": "stocks/9051.T.json"
+    },
+    "9052.T": {
+      "kind": "stock",
+      "path": "stocks/9052.T.json"
     },
     "9057.T": {
       "kind": "stock",
@@ -112476,6 +113656,10 @@
       "kind": "stock",
       "path": "stocks/JP3247010006.json"
     },
+    "9143.T": {
+      "kind": "stock",
+      "path": "stocks/9143.T.json"
+    },
     "9145.T": {
       "kind": "stock",
       "path": "stocks/9145.T.json"
@@ -112558,6 +113742,10 @@
       "kind": "stock",
       "path": "stocks/FR0014000JX7.json"
     },
+    "9221.T": {
+      "kind": "stock",
+      "path": "stocks/9221.T.json"
+    },
     "9232.T": {
       "kind": "stock",
       "path": "stocks/9232.T.json"
@@ -112573,6 +113761,14 @@
     "924.HK": {
       "kind": "stock",
       "path": "stocks/924.HK.json"
+    },
+    "9247.T": {
+      "kind": "stock",
+      "path": "stocks/9247.T.json"
+    },
+    "9248.T": {
+      "kind": "stock",
+      "path": "stocks/9248.T.json"
     },
     "926.BE": {
       "isin": "GB00BNC5T391",
@@ -112731,6 +113927,14 @@
       "kind": "stock",
       "path": "stocks/92V.F.json"
     },
+    "9302.T": {
+      "kind": "stock",
+      "path": "stocks/9302.T.json"
+    },
+    "9303.T": {
+      "kind": "stock",
+      "path": "stocks/9303.T.json"
+    },
     "9304.T": {
       "kind": "stock",
       "path": "stocks/9304.T.json"
@@ -112798,6 +114002,10 @@
     "9334.KL": {
       "kind": "stock",
       "path": "stocks/9334.KL.json"
+    },
+    "9336.T": {
+      "kind": "stock",
+      "path": "stocks/9336.T.json"
     },
     "9342.KL": {
       "kind": "stock",
@@ -112933,6 +114141,10 @@
       "isin": "JP3396350005",
       "kind": "stock",
       "path": "stocks/JP3396350005.json"
+    },
+    "9413.T": {
+      "kind": "stock",
+      "path": "stocks/9413.T.json"
     },
     "9416.T": {
       "kind": "stock",
@@ -113172,6 +114384,10 @@
       "kind": "stock",
       "path": "stocks/JP3180400008.json"
     },
+    "9533.T": {
+      "kind": "stock",
+      "path": "stocks/9533.T.json"
+    },
     "9534.T": {
       "kind": "stock",
       "path": "stocks/9534.T.json"
@@ -113306,6 +114522,10 @@
       "kind": "stock",
       "path": "stocks/9619.T.json"
     },
+    "9621.T": {
+      "kind": "stock",
+      "path": "stocks/9621.T.json"
+    },
     "9624.T": {
       "kind": "stock",
       "path": "stocks/9624.T.json"
@@ -113431,6 +114651,10 @@
       "kind": "stock",
       "path": "stocks/9691.T.json"
     },
+    "9692.T": {
+      "kind": "stock",
+      "path": "stocks/9692.T.json"
+    },
     "9695.KL": {
       "kind": "stock",
       "path": "stocks/9695.KL.json"
@@ -113489,6 +114713,10 @@
     "9707.T": {
       "kind": "stock",
       "path": "stocks/9707.T.json"
+    },
+    "9708.T": {
+      "kind": "stock",
+      "path": "stocks/9708.T.json"
     },
     "9709.T": {
       "kind": "stock",
@@ -113826,6 +115054,10 @@
       "kind": "stock",
       "path": "stocks/9880.T.json"
     },
+    "9882.T": {
+      "kind": "stock",
+      "path": "stocks/9882.T.json"
+    },
     "9885.T": {
       "kind": "stock",
       "path": "stocks/9885.T.json"
@@ -113936,6 +115168,10 @@
     "9906.T": {
       "kind": "stock",
       "path": "stocks/9906.T.json"
+    },
+    "9907.TW": {
+      "kind": "stock",
+      "path": "stocks/9907.TW.json"
     },
     "9908.HK": {
       "isin": "CNE100003TX1",
@@ -114175,6 +115411,10 @@
       "kind": "stock",
       "path": "stocks/9958.HK.json"
     },
+    "9958.TW": {
+      "kind": "stock",
+      "path": "stocks/9958.TW.json"
+    },
     "9959.HK": {
       "isin": "KYG5571R1011",
       "kind": "stock",
@@ -114407,6 +115647,10 @@
     "99EP.BE": {
       "kind": "stock",
       "path": "stocks/99EP.BE.json"
+    },
+    "99H.F": {
+      "kind": "stock",
+      "path": "stocks/99H.F.json"
     },
     "99Q.F": {
       "kind": "stock",
@@ -118127,9 +119371,21 @@
       "kind": "stock",
       "path": "stocks/AACOW.json"
     },
+    "AACP": {
+      "kind": "stock",
+      "path": "stocks/AACP.json"
+    },
+    "AACPR": {
+      "kind": "stock",
+      "path": "stocks/AACPR.json"
+    },
     "AACPU": {
       "kind": "stock",
       "path": "stocks/AACPU.json"
+    },
+    "AACPW": {
+      "kind": "stock",
+      "path": "stocks/AACPW.json"
     },
     "AACQ": {
       "kind": "stock",
@@ -119266,6 +120522,10 @@
       "kind": "stock",
       "path": "stocks/CH0012221716.json"
     },
+    "ABBNY": {
+      "kind": "stock",
+      "path": "stocks/ABBNY.json"
+    },
     "ABBOTINDIA.BO": {
       "kind": "stock",
       "path": "stocks/ABBOTINDIA.BO.json"
@@ -119418,6 +120678,10 @@
       "isin": "LU1646950771",
       "kind": "stock",
       "path": "stocks/LU1646950771.json"
+    },
+    "ABDN.L": {
+      "kind": "stock",
+      "path": "stocks/ABDN.L.json"
     },
     "ABDP-GB.AQ": {
       "kind": "stock",
@@ -119582,6 +120846,10 @@
       "isin": "US0434361046",
       "kind": "stock",
       "path": "stocks/US0434361046.json"
+    },
+    "ABG.AX": {
+      "kind": "stock",
+      "path": "stocks/ABG.AX.json"
     },
     "ABG.BE": {
       "kind": "stock",
@@ -120122,6 +121390,10 @@
     "ABSI": {
       "kind": "stock",
       "path": "stocks/ABSI.json"
+    },
+    "ABSL-B.ST": {
+      "kind": "stock",
+      "path": "stocks/ABSL-B.ST.json"
     },
     "ABSLBANETF.BO": {
       "kind": "stock",
@@ -121251,9 +122523,17 @@
       "kind": "stock",
       "path": "stocks/CNE100000Q43.json"
     },
+    "ACGC": {
+      "kind": "stock",
+      "path": "stocks/ACGC.json"
+    },
     "ACGCU": {
       "kind": "stock",
       "path": "stocks/ACGCU.json"
+    },
+    "ACGCW": {
+      "kind": "stock",
+      "path": "stocks/ACGCW.json"
     },
     "ACGI": {
       "kind": "stock",
@@ -121490,6 +122770,10 @@
       "kind": "stock",
       "path": "stocks/ACKRF.json"
     },
+    "ACL.AX": {
+      "kind": "stock",
+      "path": "stocks/ACL.AX.json"
+    },
     "ACL.JO": {
       "kind": "stock",
       "path": "stocks/ACL.JO.json"
@@ -121498,6 +122782,10 @@
       "isin": "CA0467894006",
       "kind": "stock",
       "path": "stocks/CA0467894006.json"
+    },
+    "ACLN.SW": {
+      "kind": "stock",
+      "path": "stocks/ACLN.SW.json"
     },
     "ACLN0000.CM": {
       "kind": "stock",
@@ -121616,6 +122904,10 @@
     "ACNV": {
       "kind": "stock",
       "path": "stocks/ACNV.json"
+    },
+    "ACO-X.NE": {
+      "kind": "stock",
+      "path": "stocks/ACO-X.NE.json"
     },
     "ACO-X.TO": {
       "isin": "CA0467894006",
@@ -124482,6 +125774,10 @@
       "kind": "stock",
       "path": "stocks/AEL-PB.json"
     },
+    "AEL.AX": {
+      "kind": "stock",
+      "path": "stocks/AEL.AX.json"
+    },
     "AEL.BO": {
       "kind": "stock",
       "path": "stocks/AEL.BO.json"
@@ -124791,6 +126087,10 @@
       "isin": "SE0008212161",
       "kind": "stock",
       "path": "stocks/SE0008212161.json"
+    },
+    "AERO.SW": {
+      "kind": "stock",
+      "path": "stocks/AERO.SW.json"
     },
     "AEROMEX.MX": {
       "kind": "stock",
@@ -125601,6 +126901,10 @@
     "AFRMF": {
       "kind": "stock",
       "path": "stocks/AFRMF.json"
+    },
+    "AFRY.ST": {
+      "kind": "stock",
+      "path": "stocks/AFRY.ST.json"
     },
     "AFS.F": {
       "kind": "stock",
@@ -127787,6 +129091,10 @@
       "kind": "stock",
       "path": "stocks/AI7.F.json"
     },
+    "AIA.AT": {
+      "kind": "stock",
+      "path": "stocks/AIA.AT.json"
+    },
     "AIA.AX": {
       "kind": "stock",
       "path": "stocks/AIA.AX.json"
@@ -127909,6 +129217,10 @@
       "kind": "stock",
       "path": "stocks/AIDX.json"
     },
+    "AIDX.TO": {
+      "kind": "stock",
+      "path": "stocks/AIDX.TO.json"
+    },
     "AIE.BE": {
       "kind": "stock",
       "path": "stocks/AIE.BE.json"
@@ -127948,6 +129260,10 @@
     "AIF.TO": {
       "kind": "stock",
       "path": "stocks/AIF.TO.json"
+    },
+    "AIFA": {
+      "kind": "stock",
+      "path": "stocks/AIFA.json"
     },
     "AIFC": {
       "kind": "stock",
@@ -128824,6 +130140,10 @@
     "AIXA.TI": {
       "kind": "stock",
       "path": "stocks/AIXA.TI.json"
+    },
+    "AIXAD.XC": {
+      "kind": "stock",
+      "path": "stocks/AIXAD.XC.json"
     },
     "AIXC": {
       "kind": "stock",
@@ -130226,6 +131546,10 @@
       "kind": "stock",
       "path": "stocks/ALAI.L.json"
     },
+    "ALAIR.PA": {
+      "kind": "stock",
+      "path": "stocks/ALAIR.PA.json"
+    },
     "ALALO.PA": {
       "isin": "FR001400BJ77",
       "kind": "stock",
@@ -130263,6 +131587,10 @@
     "ALAR": {
       "kind": "stock",
       "path": "stocks/ALAR.json"
+    },
+    "ALAR.TA": {
+      "kind": "stock",
+      "path": "stocks/ALAR.TA.json"
     },
     "ALARF.PA": {
       "kind": "stock",
@@ -130456,6 +131784,10 @@
       "isin": "FR0010907956",
       "kind": "stock",
       "path": "stocks/FR0010907956.json"
+    },
+    "ALCBX.PA": {
+      "kind": "stock",
+      "path": "stocks/ALCBX.PA.json"
     },
     "ALCC": {
       "kind": "stock",
@@ -130806,6 +132138,10 @@
       "kind": "stock",
       "path": "stocks/FR0011490648.json"
     },
+    "ALESE.PA": {
+      "kind": "stock",
+      "path": "stocks/ALESE.PA.json"
+    },
     "ALESK.PA": {
       "kind": "stock",
       "path": "stocks/ALESK.PA.json"
@@ -131002,6 +132338,10 @@
       "isin": "DE0006569403",
       "kind": "stock",
       "path": "stocks/DE0006569403.json"
+    },
+    "ALGAE.PA": {
+      "kind": "stock",
+      "path": "stocks/ALGAE.PA.json"
     },
     "ALGAU.PA": {
       "isin": "FR0013495298",
@@ -131527,6 +132867,10 @@
       "kind": "stock",
       "path": "stocks/FR0013335742.json"
     },
+    "ALLEI.ST": {
+      "kind": "stock",
+      "path": "stocks/ALLEI.ST.json"
+    },
     "ALLEN.MX": {
       "kind": "stock",
       "path": "stocks/ALLEN.MX.json"
@@ -131984,6 +133328,10 @@
     "ALOD": {
       "kind": "stock",
       "path": "stocks/ALOD.json"
+    },
+    "ALODC.PA": {
+      "kind": "stock",
+      "path": "stocks/ALODC.PA.json"
     },
     "ALODI.PA": {
       "kind": "stock",
@@ -132480,6 +133828,10 @@
       "kind": "stock",
       "path": "stocks/FR0010528059.json"
     },
+    "ALSYDB.CO": {
+      "kind": "stock",
+      "path": "stocks/ALSYDB.CO.json"
+    },
     "ALT": {
       "isin": "US02155H2004",
       "kind": "stock",
@@ -132535,6 +133887,10 @@
     "ALTD": {
       "kind": "stock",
       "path": "stocks/ALTD.json"
+    },
+    "ALTD.PA": {
+      "kind": "stock",
+      "path": "stocks/ALTD.PA.json"
     },
     "ALTEO.BD": {
       "kind": "stock",
@@ -132974,6 +134330,10 @@
       "isin": "FR0013143872",
       "kind": "stock",
       "path": "stocks/FR0013143872.json"
+    },
+    "ALWTR.PA": {
+      "kind": "stock",
+      "path": "stocks/ALWTR.PA.json"
     },
     "ALX": {
       "isin": "DE0005032007",
@@ -133714,6 +135074,10 @@
       "kind": "stock",
       "path": "stocks/US0079031078.json"
     },
+    "AMD.TA": {
+      "kind": "stock",
+      "path": "stocks/AMD.TA.json"
+    },
     "AMD.VI": {
       "isin": "US0079031078",
       "kind": "stock",
@@ -134413,6 +135777,10 @@
       "kind": "stock",
       "path": "stocks/AMP.F.json"
     },
+    "AMP.L": {
+      "kind": "stock",
+      "path": "stocks/AMP.L.json"
+    },
     "AMP.MC": {
       "isin": "ES0109260531",
       "kind": "stock",
@@ -134445,6 +135813,10 @@
       "isin": "IT0004056880",
       "kind": "stock",
       "path": "stocks/IT0004056880.json"
+    },
+    "AMPA.TA": {
+      "kind": "stock",
+      "path": "stocks/AMPA.TA.json"
     },
     "AMPD.CN": {
       "isin": "CA00175D1006",
@@ -134790,6 +136162,10 @@
     "AMV": {
       "kind": "stock",
       "path": "stocks/AMV.json"
+    },
+    "AMV0.DE": {
+      "kind": "stock",
+      "path": "stocks/AMV0.DE.json"
     },
     "AMVMF": {
       "isin": "NL0000888691",
@@ -135357,6 +136733,10 @@
       "kind": "stock",
       "path": "stocks/ANDRO.AT.json"
     },
+    "ANE.MC": {
+      "kind": "stock",
+      "path": "stocks/ANE.MC.json"
+    },
     "ANE.V": {
       "isin": "ES0105563003",
       "kind": "stock",
@@ -135839,6 +137219,10 @@
       "kind": "stock",
       "path": "stocks/ANR.AX.json"
     },
+    "ANRG.TO": {
+      "kind": "stock",
+      "path": "stocks/ANRG.TO.json"
+    },
     "ANRO": {
       "kind": "stock",
       "path": "stocks/ANRO.json"
@@ -135951,6 +137335,10 @@
       "isin": "DE000A2H7PA8",
       "kind": "stock",
       "path": "stocks/DE000A2H7PA8.json"
+    },
+    "ANTIN.PA": {
+      "kind": "stock",
+      "path": "stocks/ANTIN.PA.json"
     },
     "ANTL.V": {
       "kind": "stock",
@@ -136685,6 +138073,10 @@
       "kind": "stock",
       "path": "stocks/AOUT.json"
     },
+    "AOV.AX": {
+      "kind": "stock",
+      "path": "stocks/AOV.AX.json"
+    },
     "AOVTF": {
       "kind": "stock",
       "path": "stocks/AOVTF.json"
@@ -136738,6 +138130,10 @@
     "AP": {
       "kind": "stock",
       "path": "stocks/AP.json"
+    },
+    "AP-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/AP-UN.TO.json"
     },
     "AP-WT": {
       "kind": "stock",
@@ -138248,6 +139644,10 @@
       "kind": "stock",
       "path": "stocks/AQNU.json"
     },
+    "AQP.CO": {
+      "kind": "stock",
+      "path": "stocks/AQP.CO.json"
+    },
     "AQQRF": {
       "kind": "stock",
       "path": "stocks/AQQRF.json"
@@ -138439,6 +139839,10 @@
       "kind": "stock",
       "path": "stocks/ARA.MX.json"
     },
+    "ARA.TO": {
+      "kind": "stock",
+      "path": "stocks/ARA.TO.json"
+    },
     "ARAD.TA": {
       "kind": "stock",
       "path": "stocks/ARAD.TA.json"
@@ -138485,6 +139889,10 @@
     "ARAI": {
       "kind": "stock",
       "path": "stocks/ARAI.json"
+    },
+    "ARAMI.PA": {
+      "kind": "stock",
+      "path": "stocks/ARAMI.PA.json"
     },
     "ARAN.TA": {
       "kind": "stock",
@@ -138548,6 +139956,10 @@
     "ARBE": {
       "kind": "stock",
       "path": "stocks/ARBE.json"
+    },
+    "ARBE.TA": {
+      "kind": "stock",
+      "path": "stocks/ARBE.TA.json"
     },
     "ARBEW": {
       "kind": "stock",
@@ -138720,13 +140132,25 @@
       "kind": "stock",
       "path": "stocks/ARCIW.json"
     },
+    "ARCL": {
+      "kind": "stock",
+      "path": "stocks/ARCL.json"
+    },
     "ARCLK.IS": {
       "kind": "stock",
       "path": "stocks/ARCLK.IS.json"
     },
+    "ARCLR": {
+      "kind": "stock",
+      "path": "stocks/ARCLR.json"
+    },
     "ARCLU": {
       "kind": "stock",
       "path": "stocks/ARCLU.json"
+    },
+    "ARCLW": {
+      "kind": "stock",
+      "path": "stocks/ARCLW.json"
     },
     "ARCM.L": {
       "kind": "stock",
@@ -139007,6 +140431,10 @@
       "kind": "stock",
       "path": "stocks/US04626D2062.json"
     },
+    "ARGH.V": {
+      "kind": "stock",
+      "path": "stocks/ARGH.V.json"
+    },
     "ARGKF": {
       "kind": "stock",
       "path": "stocks/ARGKF.json"
@@ -139027,6 +140455,10 @@
     "ARGO-PA": {
       "kind": "stock",
       "path": "stocks/ARGO-PA.json"
+    },
+    "ARGO.CN": {
+      "kind": "stock",
+      "path": "stocks/ARGO.CN.json"
     },
     "ARGO.JK": {
       "kind": "stock",
@@ -139191,6 +140623,10 @@
     "ARIS": {
       "kind": "stock",
       "path": "stocks/ARIS.json"
+    },
+    "ARIS.MI": {
+      "kind": "stock",
+      "path": "stocks/ARIS.MI.json"
     },
     "ARIS.TO": {
       "kind": "stock",
@@ -140047,6 +141483,10 @@
       "kind": "stock",
       "path": "stocks/ARVEE.NS.json"
     },
+    "ARVEN.PA": {
+      "kind": "stock",
+      "path": "stocks/ARVEN.PA.json"
+    },
     "ARVIND.BO": {
       "kind": "stock",
       "path": "stocks/ARVIND.BO.json"
@@ -140169,6 +141609,10 @@
       "isin": "AU000000AGY0",
       "kind": "stock",
       "path": "stocks/AU000000AGY0.json"
+    },
+    "ARYT.TA": {
+      "kind": "stock",
+      "path": "stocks/ARYT.TA.json"
     },
     "ARZ.DU": {
       "isin": "CA18452Y1007",
@@ -140628,6 +142072,10 @@
     "ASCN.SW": {
       "kind": "stock",
       "path": "stocks/ASCN.SW.json"
+    },
+    "ASCNZ.XC": {
+      "kind": "stock",
+      "path": "stocks/ASCNZ.XC.json"
     },
     "ASCO.AT": {
       "kind": "stock",
@@ -141101,6 +142549,10 @@
       "kind": "stock",
       "path": "stocks/ASK-R.BK.json"
     },
+    "ASK.AX": {
+      "kind": "stock",
+      "path": "stocks/ASK.AX.json"
+    },
     "ASK.BK": {
       "kind": "stock",
       "path": "stocks/ASK.BK.json"
@@ -141108,6 +142560,10 @@
     "ASKE": {
       "kind": "stock",
       "path": "stocks/ASKE.json"
+    },
+    "ASKER.ST": {
+      "kind": "stock",
+      "path": "stocks/ASKER.ST.json"
     },
     "ASKH": {
       "kind": "stock",
@@ -141251,6 +142707,10 @@
       "isin": "US0453961080",
       "kind": "stock",
       "path": "stocks/US0453961080.json"
+    },
+    "ASMDEE-B.ST": {
+      "kind": "stock",
+      "path": "stocks/ASMDEE-B.ST.json"
     },
     "ASME.BE": {
       "kind": "stock",
@@ -141750,6 +143210,10 @@
       "kind": "stock",
       "path": "stocks/ASTI.CN.json"
     },
+    "ASTK.CO": {
+      "kind": "stock",
+      "path": "stocks/ASTK.CO.json"
+    },
     "ASTK.OL": {
       "kind": "stock",
       "path": "stocks/ASTK.OL.json"
@@ -141777,6 +143241,10 @@
     "ASTO.L": {
       "kind": "stock",
       "path": "stocks/ASTO.L.json"
+    },
+    "ASTOR.ST": {
+      "kind": "stock",
+      "path": "stocks/ASTOR.ST.json"
     },
     "ASTR": {
       "kind": "stock",
@@ -172522,6 +173990,10 @@
       "kind": "stock",
       "path": "stocks/AT0000A2RE99.json"
     },
+    "AT0000A3A964.VI": {
+      "kind": "stock",
+      "path": "stocks/AT0000A3A964.VI.json"
+    },
     "AT0000APOST4.SW": {
       "kind": "stock",
       "path": "stocks/AT0000APOST4.SW.json"
@@ -173469,6 +174941,10 @@
       "kind": "stock",
       "path": "stocks/ATON.json"
     },
+    "ATON.MI": {
+      "kind": "stock",
+      "path": "stocks/ATON.MI.json"
+    },
     "ATOR": {
       "kind": "stock",
       "path": "stocks/ATOR.json"
@@ -173594,6 +175070,10 @@
       "kind": "stock",
       "path": "stocks/ATRI.json"
     },
+    "ATRL.TO": {
+      "kind": "stock",
+      "path": "stocks/ATRL.TO.json"
+    },
     "ATRLF": {
       "kind": "stock",
       "path": "stocks/ATRLF.json"
@@ -173658,6 +175138,10 @@
     "ATS.L": {
       "kind": "stock",
       "path": "stocks/ATS.L.json"
+    },
+    "ATS.TO": {
+      "kind": "stock",
+      "path": "stocks/ATS.TO.json"
     },
     "ATS.VI": {
       "isin": "AT0000969985",
@@ -175138,6 +176622,10 @@
     "AUTO.L": {
       "kind": "stock",
       "path": "stocks/AUTO.L.json"
+    },
+    "AUTO.OL": {
+      "kind": "stock",
+      "path": "stocks/AUTO.OL.json"
     },
     "AUTOAXLES.BO": {
       "kind": "stock",
@@ -177156,6 +178644,10 @@
       "kind": "stock",
       "path": "stocks/AXMP.json"
     },
+    "AXN.TA": {
+      "kind": "stock",
+      "path": "stocks/AXN.TA.json"
+    },
     "AXNA.BE": {
       "isin": "IT0004056880",
       "kind": "stock",
@@ -177804,6 +179296,10 @@
       "kind": "stock",
       "path": "stocks/CA05476A1012.json"
     },
+    "AYV.PA": {
+      "kind": "stock",
+      "path": "stocks/AYV.PA.json"
+    },
     "AYV.SI": {
       "kind": "stock",
       "path": "stocks/AYV.SI.json"
@@ -177980,6 +179476,10 @@
     "AZDDQ": {
       "kind": "stock",
       "path": "stocks/AZDDQ.json"
+    },
+    "AZE.BR": {
+      "kind": "stock",
+      "path": "stocks/AZE.BR.json"
     },
     "AZEK": {
       "isin": "US05478C1053",
@@ -181511,6 +183011,10 @@
       "kind": "stock",
       "path": "stocks/BAW.JO.json"
     },
+    "BAWAT.ST": {
+      "kind": "stock",
+      "path": "stocks/BAWAT.ST.json"
+    },
     "BAX": {
       "isin": "US0718131099",
       "kind": "stock",
@@ -182950,6 +184454,10 @@
       "kind": "stock",
       "path": "stocks/BCG.BO.json"
     },
+    "BCG.L": {
+      "kind": "stock",
+      "path": "stocks/BCG.L.json"
+    },
     "BCG.NS": {
       "kind": "stock",
       "path": "stocks/BCG.NS.json"
@@ -184354,6 +185862,10 @@
       "kind": "stock",
       "path": "stocks/BEAN.SW.json"
     },
+    "BEANZ.XC": {
+      "kind": "stock",
+      "path": "stocks/BEANZ.XC.json"
+    },
     "BEAR-DAX-X12-AVA-9.ST": {
       "kind": "stock",
       "path": "stocks/BEAR-DAX-X12-AVA-9.ST.json"
@@ -184664,6 +186176,10 @@
     "BEIJ-B.ST": {
       "kind": "stock",
       "path": "stocks/BEIJ-B.ST.json"
+    },
+    "BEIJBS.XC": {
+      "kind": "stock",
+      "path": "stocks/BEIJBS.XC.json"
     },
     "BEIJF": {
       "isin": "CNE100000262",
@@ -185679,6 +187195,10 @@
       "kind": "stock",
       "path": "stocks/BFSA.SG.json"
     },
+    "BFSA.VI": {
+      "kind": "stock",
+      "path": "stocks/BFSA.VI.json"
+    },
     "BFSBG18-PRO.OL": {
       "kind": "stock",
       "path": "stocks/BFSBG18-PRO.OL.json"
@@ -185698,6 +187218,10 @@
     "BFT.SI": {
       "kind": "stock",
       "path": "stocks/BFT.SI.json"
+    },
+    "BFT.WA": {
+      "kind": "stock",
+      "path": "stocks/BFT.WA.json"
     },
     "BFTI": {
       "kind": "stock",
@@ -186690,6 +188214,10 @@
       "kind": "stock",
       "path": "stocks/BHIB.L.json"
     },
+    "BHIC": {
+      "kind": "stock",
+      "path": "stocks/BHIC.json"
+    },
     "BHIL": {
       "kind": "stock",
       "path": "stocks/BHIL.json"
@@ -186779,6 +188307,10 @@
     "BHNGF": {
       "kind": "stock",
       "path": "stocks/BHNGF.json"
+    },
+    "BHNY.TA": {
+      "kind": "stock",
+      "path": "stocks/BHNY.TA.json"
     },
     "BHO.SI": {
       "kind": "stock",
@@ -187182,6 +188714,10 @@
       "isin": "KYG070341048",
       "kind": "stock",
       "path": "stocks/KYG070341048.json"
+    },
+    "BIDWU": {
+      "kind": "stock",
+      "path": "stocks/BIDWU.json"
     },
     "BIE.MI": {
       "isin": "IT0005516130",
@@ -187824,6 +189360,10 @@
     "BIOEN.IS": {
       "kind": "stock",
       "path": "stocks/BIOEN.IS.json"
+    },
+    "BIOEX.ST": {
+      "kind": "stock",
+      "path": "stocks/BIOEX.ST.json"
     },
     "BIOFILCHEM.BO": {
       "kind": "stock",
@@ -188943,6 +190483,10 @@
       "kind": "stock",
       "path": "stocks/BKFPF.json"
     },
+    "BKFR.TA": {
+      "kind": "stock",
+      "path": "stocks/BKFR.TA.json"
+    },
     "BKG.AX": {
       "kind": "stock",
       "path": "stocks/BKG.AX.json"
@@ -189896,6 +191440,10 @@
       "kind": "stock",
       "path": "stocks/CA45073W1068.json"
     },
+    "BLITZ-M.TA": {
+      "kind": "stock",
+      "path": "stocks/BLITZ-M.TA.json"
+    },
     "BLIV": {
       "kind": "stock",
       "path": "stocks/BLIV.json"
@@ -190019,6 +191567,10 @@
     "BLMZ": {
       "kind": "stock",
       "path": "stocks/BLMZ.json"
+    },
+    "BLN.TO": {
+      "kind": "stock",
+      "path": "stocks/BLN.TO.json"
     },
     "BLN.V": {
       "kind": "stock",
@@ -192178,6 +193730,10 @@
       "isin": "AU000000BNO5",
       "kind": "stock",
       "path": "stocks/AU000000BNO5.json"
+    },
+    "BNOR.OL": {
+      "kind": "stock",
+      "path": "stocks/BNOR.OL.json"
     },
     "BNORDIK-CSE.CO": {
       "kind": "stock",
@@ -194476,6 +196032,10 @@
       "kind": "stock",
       "path": "stocks/BPT.AX.json"
     },
+    "BPT.L": {
+      "kind": "stock",
+      "path": "stocks/BPT.L.json"
+    },
     "BPTEX.BO": {
       "kind": "stock",
       "path": "stocks/BPTEX.BO.json"
@@ -194807,6 +196367,10 @@
     "BRAI": {
       "kind": "stock",
       "path": "stocks/BRAI.json"
+    },
+    "BRAIN.ST": {
+      "kind": "stock",
+      "path": "stocks/BRAIN.ST.json"
     },
     "BRAM.JK": {
       "kind": "stock",
@@ -195371,6 +196935,10 @@
     "BRIH.MU": {
       "kind": "stock",
       "path": "stocks/BRIH.MU.json"
+    },
+    "BRIH.TA": {
+      "kind": "stock",
+      "path": "stocks/BRIH.TA.json"
     },
     "BRIJLEAS.BO": {
       "kind": "stock",
@@ -197245,6 +198813,10 @@
       "kind": "stock",
       "path": "stocks/BSYI.json"
     },
+    "BT-A.L": {
+      "kind": "stock",
+      "path": "stocks/BT-A.L.json"
+    },
     "BT1.BE": {
       "isin": "VN000000BT18",
       "kind": "stock",
@@ -197696,6 +199268,10 @@
       "kind": "stock",
       "path": "stocks/BTLN.json"
     },
+    "BTLS.BR": {
+      "kind": "stock",
+      "path": "stocks/BTLS.BR.json"
+    },
     "BTM": {
       "kind": "stock",
       "path": "stocks/BTM.json"
@@ -197873,6 +199449,10 @@
     "BTRVB.LS": {
       "kind": "stock",
       "path": "stocks/BTRVB.LS.json"
+    },
+    "BTRW.L": {
+      "kind": "stock",
+      "path": "stocks/BTRW.L.json"
     },
     "BTRYF": {
       "isin": "AU000000BAT1",
@@ -205848,6 +207428,10 @@
       "kind": "stock",
       "path": "stocks/CAN.AX.json"
     },
+    "CAN.L": {
+      "kind": "stock",
+      "path": "stocks/CAN.L.json"
+    },
     "CAN.MX": {
       "isin": "US1444302046",
       "kind": "stock",
@@ -206217,6 +207801,10 @@
       "kind": "stock",
       "path": "stocks/CAPS.json"
     },
+    "CAPSL.OL": {
+      "kind": "stock",
+      "path": "stocks/CAPSL.OL.json"
+    },
     "CAPT": {
       "kind": "stock",
       "path": "stocks/CAPT.json"
@@ -206386,6 +207974,10 @@
     "CARE.JK": {
       "kind": "stock",
       "path": "stocks/CARE.JK.json"
+    },
+    "CARE.ST": {
+      "kind": "stock",
+      "path": "stocks/CARE.ST.json"
     },
     "CARE.TO": {
       "kind": "stock",
@@ -207623,6 +209215,10 @@
       "kind": "stock",
       "path": "stocks/CBNT.json"
     },
+    "CBO.AX": {
+      "kind": "stock",
+      "path": "stocks/CBO.AX.json"
+    },
     "CBOBA": {
       "kind": "stock",
       "path": "stocks/CBOBA.json"
@@ -208100,6 +209696,18 @@
       "isin": "LU1296758029",
       "kind": "stock",
       "path": "stocks/LU1296758029.json"
+    },
+    "CCAQ": {
+      "kind": "stock",
+      "path": "stocks/CCAQ.json"
+    },
+    "CCAQU": {
+      "kind": "stock",
+      "path": "stocks/CCAQU.json"
+    },
+    "CCAQW": {
+      "kind": "stock",
+      "path": "stocks/CCAQW.json"
     },
     "CCARF": {
       "kind": "stock",
@@ -214283,6 +215891,10 @@
       "kind": "stock",
       "path": "stocks/CHG.BK.json"
     },
+    "CHG.DE": {
+      "kind": "stock",
+      "path": "stocks/CHG.DE.json"
+    },
     "CHG.L": {
       "kind": "stock",
       "path": "stocks/CHG.L.json"
@@ -216083,6 +217695,10 @@
       "kind": "stock",
       "path": "stocks/CINGW.json"
     },
+    "CINIS.ST": {
+      "kind": "stock",
+      "path": "stocks/CINIS.ST.json"
+    },
     "CINR": {
       "kind": "stock",
       "path": "stocks/CINR.json"
@@ -217151,6 +218767,10 @@
       "kind": "stock",
       "path": "stocks/CLAR.CN.json"
     },
+    "CLARI.PA": {
+      "kind": "stock",
+      "path": "stocks/CLARI.PA.json"
+    },
     "CLAS": {
       "kind": "stock",
       "path": "stocks/CLAS.json"
@@ -217280,6 +218900,10 @@
     "CLC.L": {
       "kind": "stock",
       "path": "stocks/CLC.L.json"
+    },
+    "CLC.WA": {
+      "kind": "stock",
+      "path": "stocks/CLC.WA.json"
     },
     "CLCFF": {
       "isin": "CA17104U1021",
@@ -217453,6 +219077,10 @@
     "CLFL.BO": {
       "kind": "stock",
       "path": "stocks/CLFL.BO.json"
+    },
+    "CLG.AX": {
+      "kind": "stock",
+      "path": "stocks/CLG.AX.json"
     },
     "CLG.F": {
       "kind": "stock",
@@ -218188,6 +219816,10 @@
     "CLTN.SW": {
       "kind": "stock",
       "path": "stocks/CLTN.SW.json"
+    },
+    "CLTNZ.XC": {
+      "kind": "stock",
+      "path": "stocks/CLTNZ.XC.json"
     },
     "CLTS": {
       "kind": "stock",
@@ -220178,6 +221810,10 @@
       "kind": "stock",
       "path": "stocks/CNL.AX.json"
     },
+    "CNL.TO": {
+      "kind": "stock",
+      "path": "stocks/CNL.TO.json"
+    },
     "CNLCAP.AT": {
       "kind": "stock",
       "path": "stocks/CNLCAP.AT.json"
@@ -220500,6 +222136,10 @@
       "isin": "CA1363851017",
       "kind": "stock",
       "path": "stocks/CA1363851017.json"
+    },
+    "CNQ.AX": {
+      "kind": "stock",
+      "path": "stocks/CNQ.AX.json"
     },
     "CNQ.TO": {
       "isin": "CA1363851017",
@@ -220980,6 +222620,10 @@
       "isin": "AU000000COB8",
       "kind": "stock",
       "path": "stocks/AU000000COB8.json"
+    },
+    "COBA": {
+      "kind": "stock",
+      "path": "stocks/COBA.json"
     },
     "COBAD": {
       "kind": "stock",
@@ -221841,6 +223485,10 @@
     "CON": {
       "kind": "stock",
       "path": "stocks/CON.json"
+    },
+    "CON.DE": {
+      "kind": "stock",
+      "path": "stocks/CON.DE.json"
     },
     "CONA.F": {
       "kind": "stock",
@@ -222789,6 +224437,10 @@
       "kind": "stock",
       "path": "stocks/CP61.VI.json"
     },
+    "CP8.AX": {
+      "kind": "stock",
+      "path": "stocks/CP8.AX.json"
+    },
     "CP82.VI": {
       "kind": "stock",
       "path": "stocks/CP82.VI.json"
@@ -223135,6 +224787,10 @@
       "kind": "stock",
       "path": "stocks/CPIN.JK.json"
     },
+    "CPINV.BR": {
+      "kind": "stock",
+      "path": "stocks/CPINV.BR.json"
+    },
     "CPIP.JO": {
       "kind": "stock",
       "path": "stocks/CPIP.JO.json"
@@ -223177,6 +224833,10 @@
     "CPKPY": {
       "kind": "stock",
       "path": "stocks/CPKPY.json"
+    },
+    "CPKR.TO": {
+      "kind": "stock",
+      "path": "stocks/CPKR.TO.json"
     },
     "CPL-R.BK": {
       "kind": "stock",
@@ -225218,6 +226878,10 @@
       "kind": "stock",
       "path": "stocks/US22041X1028.json"
     },
+    "CRSR.TA": {
+      "kind": "stock",
+      "path": "stocks/CRSR.TA.json"
+    },
     "CRSS": {
       "isin": "US22766K1034",
       "kind": "stock",
@@ -226636,6 +228300,10 @@
       "kind": "stock",
       "path": "stocks/US1264081035.json"
     },
+    "CSX-H.V": {
+      "kind": "stock",
+      "path": "stocks/CSX-H.V.json"
+    },
     "CSX.AX": {
       "isin": "CH0012138530",
       "kind": "stock",
@@ -227989,6 +229657,10 @@
       "kind": "stock",
       "path": "stocks/CU5A.F.json"
     },
+    "CU6.AX": {
+      "kind": "stock",
+      "path": "stocks/CU6.AX.json"
+    },
     "CU67.VI": {
       "kind": "stock",
       "path": "stocks/CU67.VI.json"
@@ -228295,6 +229967,10 @@
       "kind": "stock",
       "path": "stocks/CULP.json"
     },
+    "CULT.CN": {
+      "kind": "stock",
+      "path": "stocks/CULT.CN.json"
+    },
     "CULT.MI": {
       "isin": "IT0005257347",
       "kind": "stock",
@@ -228453,6 +230129,10 @@
     "CURX": {
       "kind": "stock",
       "path": "stocks/CURX.json"
+    },
+    "CURY.L": {
+      "kind": "stock",
+      "path": "stocks/CURY.L.json"
     },
     "CURY3.SA": {
       "kind": "stock",
@@ -228731,6 +230411,10 @@
     "CVBI11.SA": {
       "kind": "stock",
       "path": "stocks/CVBI11.SA.json"
+    },
+    "CVC.AS": {
+      "kind": "stock",
+      "path": "stocks/CVC.AS.json"
     },
     "CVC.AX": {
       "kind": "stock",
@@ -231177,6 +232861,10 @@
       "kind": "stock",
       "path": "stocks/D.json"
     },
+    "D-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/D-UN.TO.json"
+    },
     "D.BK": {
       "kind": "stock",
       "path": "stocks/D.BK.json"
@@ -231465,6 +233153,10 @@
     "D2G.SG": {
       "kind": "stock",
       "path": "stocks/D2G.SG.json"
+    },
+    "D2J.F": {
+      "kind": "stock",
+      "path": "stocks/D2J.F.json"
     },
     "D2JA.F": {
       "kind": "stock",
@@ -232134,6 +233826,10 @@
     "D9A.SG": {
       "kind": "stock",
       "path": "stocks/D9A.SG.json"
+    },
+    "D9C.F": {
+      "kind": "stock",
+      "path": "stocks/D9C.F.json"
     },
     "D9D.F": {
       "kind": "stock",
@@ -235575,6 +237271,10 @@
       "kind": "stock",
       "path": "stocks/DEMCO.BK.json"
     },
+    "DEME.BR": {
+      "kind": "stock",
+      "path": "stocks/DEME.BR.json"
+    },
     "DEMG.L": {
       "kind": "stock",
       "path": "stocks/DEMG.L.json"
@@ -236373,6 +238073,10 @@
       "kind": "stock",
       "path": "stocks/DFXN.SG.json"
     },
+    "DFY.TO": {
+      "kind": "stock",
+      "path": "stocks/DFY.TO.json"
+    },
     "DFYA.BE": {
       "kind": "stock",
       "path": "stocks/DFYA.BE.json"
@@ -236655,6 +238359,10 @@
     "DGKLB.IS": {
       "kind": "stock",
       "path": "stocks/DGKLB.IS.json"
+    },
+    "DGL.AX": {
+      "kind": "stock",
+      "path": "stocks/DGL.AX.json"
     },
     "DGL.BE": {
       "isin": "MHY2188B1083",
@@ -237432,6 +239140,10 @@
       "kind": "stock",
       "path": "stocks/DIA.VI.json"
     },
+    "DIA.WA": {
+      "kind": "stock",
+      "path": "stocks/DIA.WA.json"
+    },
     "DIAAF": {
       "kind": "stock",
       "path": "stocks/DIAAF.json"
@@ -237904,6 +239616,10 @@
     "DIPL.TA": {
       "kind": "stock",
       "path": "stocks/DIPL.TA.json"
+    },
+    "DIR-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/DIR-UN.TO.json"
     },
     "DIRIT.IS": {
       "kind": "stock",
@@ -240177,6 +241893,10 @@
       "kind": "stock",
       "path": "stocks/AU000000DNK9.json"
     },
+    "DNL.AX": {
+      "kind": "stock",
+      "path": "stocks/DNL.AX.json"
+    },
     "DNL.L": {
       "kind": "stock",
       "path": "stocks/DNL.L.json"
@@ -240378,6 +242098,10 @@
       "kind": "stock",
       "path": "stocks/NO0010096985.json"
     },
+    "DNR.MI": {
+      "kind": "stock",
+      "path": "stocks/DNR.MI.json"
+    },
     "DNRRW": {
       "kind": "stock",
       "path": "stocks/DNRRW.json"
@@ -240399,6 +242123,10 @@
     "DNTH": {
       "kind": "stock",
       "path": "stocks/DNTH.json"
+    },
+    "DNTL.TO": {
+      "kind": "stock",
+      "path": "stocks/DNTL.TO.json"
     },
     "DNTUF": {
       "kind": "stock",
@@ -240699,6 +242427,10 @@
       "kind": "stock",
       "path": "stocks/DOF5.F.json"
     },
+    "DOFG.OL": {
+      "kind": "stock",
+      "path": "stocks/DOFG.OL.json"
+    },
     "DOFO.OL": {
       "kind": "stock",
       "path": "stocks/DOFO.OL.json"
@@ -240958,6 +242690,10 @@
     "DOU.AX": {
       "kind": "stock",
       "path": "stocks/DOU.AX.json"
+    },
+    "DOU.DE": {
+      "kind": "stock",
+      "path": "stocks/DOU.DE.json"
     },
     "DOUG": {
       "kind": "stock",
@@ -241392,6 +243128,10 @@
     "DPM.TO": {
       "kind": "stock",
       "path": "stocks/DPM.TO.json"
+    },
+    "DPMAY": {
+      "kind": "stock",
+      "path": "stocks/DPMAY.json"
     },
     "DPMLF": {
       "kind": "stock",
@@ -242132,6 +243872,10 @@
       "kind": "stock",
       "path": "stocks/US2620371045.json"
     },
+    "DRR-U.TO": {
+      "kind": "stock",
+      "path": "stocks/DRR-U.TO.json"
+    },
     "DRR.AX": {
       "kind": "stock",
       "path": "stocks/DRR.AX.json"
@@ -242571,6 +244315,10 @@
       "kind": "stock",
       "path": "stocks/DSFI.JK.json"
     },
+    "DSFIR.AS": {
+      "kind": "stock",
+      "path": "stocks/DSFIR.AS.json"
+    },
     "DSG.BE": {
       "isin": "US2533931026",
       "kind": "stock",
@@ -242835,6 +244583,10 @@
     "DSPG": {
       "kind": "stock",
       "path": "stocks/DSPG.json"
+    },
+    "DSPW.PR": {
+      "kind": "stock",
+      "path": "stocks/DSPW.PR.json"
     },
     "DSR.F": {
       "kind": "stock",
@@ -243350,6 +245102,10 @@
       "kind": "stock",
       "path": "stocks/DTG.DE.json"
     },
+    "DTG.F": {
+      "kind": "stock",
+      "path": "stocks/DTG.F.json"
+    },
     "DTG.V": {
       "kind": "stock",
       "path": "stocks/DTG.V.json"
@@ -243510,6 +245266,10 @@
     "DTT.F": {
       "kind": "stock",
       "path": "stocks/DTT.F.json"
+    },
+    "DTT0.F": {
+      "kind": "stock",
+      "path": "stocks/DTT0.F.json"
     },
     "DTTVY": {
       "kind": "stock",
@@ -243758,6 +245518,10 @@
     "DUG.AX": {
       "kind": "stock",
       "path": "stocks/DUG.AX.json"
+    },
+    "DUG.ST": {
+      "kind": "stock",
+      "path": "stocks/DUG.ST.json"
     },
     "DUI.AX": {
       "kind": "stock",
@@ -244191,6 +245955,10 @@
       "isin": "GB0002670437",
       "kind": "stock",
       "path": "stocks/GB0002670437.json"
+    },
+    "DVP.AX": {
+      "kind": "stock",
+      "path": "stocks/DVP.AX.json"
     },
     "DVQ1.BE": {
       "isin": "CA2568272058",
@@ -244686,6 +246454,10 @@
     "DXI-H.V": {
       "kind": "stock",
       "path": "stocks/DXI-H.V.json"
+    },
+    "DXI.AX": {
+      "kind": "stock",
+      "path": "stocks/DXI.AX.json"
     },
     "DXLG": {
       "kind": "stock",
@@ -245456,6 +247228,10 @@
       "isin": "US2810201077",
       "kind": "stock",
       "path": "stocks/US2810201077.json"
+    },
+    "E1K.F": {
+      "kind": "stock",
+      "path": "stocks/E1K.F.json"
     },
     "E1MN34.SA": {
       "isin": "US2774321002",
@@ -246824,6 +248600,10 @@
       "kind": "stock",
       "path": "stocks/US3843135084.json"
     },
+    "EAGLE.HE": {
+      "kind": "stock",
+      "path": "stocks/EAGLE.HE.json"
+    },
     "EAH.L": {
       "isin": "LU2356220926",
       "kind": "stock",
@@ -247606,6 +249386,10 @@
       "kind": "stock",
       "path": "stocks/EBTC.json"
     },
+    "EBUS.AS": {
+      "kind": "stock",
+      "path": "stocks/EBUS.AS.json"
+    },
     "EBYH": {
       "kind": "stock",
       "path": "stocks/EBYH.json"
@@ -248082,6 +249866,10 @@
       "isin": "IT0005241192",
       "kind": "stock",
       "path": "stocks/IT0005241192.json"
+    },
+    "ECNR.TA": {
+      "kind": "stock",
+      "path": "stocks/ECNR.TA.json"
     },
     "ECNS.SN": {
       "kind": "stock",
@@ -248954,6 +250742,10 @@
       "kind": "stock",
       "path": "stocks/US6475812060.json"
     },
+    "EDV.AX": {
+      "kind": "stock",
+      "path": "stocks/EDV.AX.json"
+    },
     "EDV.TO": {
       "isin": "GB00BL6K5J42",
       "kind": "stock",
@@ -249004,6 +250796,10 @@
     "EDXC": {
       "kind": "stock",
       "path": "stocks/EDXC.json"
+    },
+    "EDY.V": {
+      "kind": "stock",
+      "path": "stocks/EDY.V.json"
     },
     "EE": {
       "kind": "stock",
@@ -249068,6 +250864,10 @@
     "EEA": {
       "kind": "stock",
       "path": "stocks/EEA.json"
+    },
+    "EEAM-M.TA": {
+      "kind": "stock",
+      "path": "stocks/EEAM-M.TA.json"
     },
     "EED5.BE": {
       "kind": "stock",
@@ -252645,6 +254445,10 @@
       "kind": "stock",
       "path": "stocks/NO0010722283.json"
     },
+    "ELAD.TA": {
+      "kind": "stock",
+      "path": "stocks/ELAD.TA.json"
+    },
     "ELAL.TA": {
       "kind": "stock",
       "path": "stocks/ELAL.TA.json"
@@ -253976,6 +255780,10 @@
       "kind": "stock",
       "path": "stocks/EMED.json"
     },
+    "EMEIS.PA": {
+      "kind": "stock",
+      "path": "stocks/EMEIS.PA.json"
+    },
     "EMER.CN": {
       "kind": "stock",
       "path": "stocks/EMER.CN.json"
@@ -254500,6 +256308,10 @@
       "kind": "stock",
       "path": "stocks/EMT.AX.json"
     },
+    "EMTC-M.TA": {
+      "kind": "stock",
+      "path": "stocks/EMTC-M.TA.json"
+    },
     "EMTC.TA": {
       "kind": "stock",
       "path": "stocks/EMTC.TA.json"
@@ -254816,6 +256628,10 @@
     "ENCW": {
       "kind": "stock",
       "path": "stocks/ENCW.json"
+    },
+    "END.MC": {
+      "kind": "stock",
+      "path": "stocks/END.MC.json"
     },
     "ENDD11.SA": {
       "kind": "stock",
@@ -255502,6 +257318,10 @@
       "kind": "stock",
       "path": "stocks/ENR0.MU.json"
     },
+    "ENRAD.ST": {
+      "kind": "stock",
+      "path": "stocks/ENRAD.ST.json"
+    },
     "ENRFF": {
       "isin": "SG9999000020",
       "kind": "stock",
@@ -255566,6 +257386,10 @@
     "ENSG": {
       "kind": "stock",
       "path": "stocks/ENSG.json"
+    },
+    "ENSU.OL": {
+      "kind": "stock",
+      "path": "stocks/ENSU.OL.json"
     },
     "ENSV": {
       "kind": "stock",
@@ -255885,6 +257709,10 @@
     "ENY.F": {
       "kind": "stock",
       "path": "stocks/ENY.F.json"
+    },
+    "ENY.MI": {
+      "kind": "stock",
+      "path": "stocks/ENY.MI.json"
     },
     "ENY.MU": {
       "kind": "stock",
@@ -257112,6 +258940,10 @@
       "kind": "stock",
       "path": "stocks/DE0005494165.json"
     },
+    "EQS.PA": {
+      "kind": "stock",
+      "path": "stocks/EQS.PA.json"
+    },
     "EQS.SG": {
       "isin": "DE0005494165",
       "kind": "stock",
@@ -257469,6 +259301,10 @@
     "ERDCF": {
       "kind": "stock",
       "path": "stocks/ERDCF.json"
+    },
+    "ERE-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/ERE-UN.TO.json"
     },
     "ERE.DU": {
       "kind": "stock",
@@ -258214,6 +260050,10 @@
       "kind": "stock",
       "path": "stocks/ESGR.json"
     },
+    "ESGR-B.ST": {
+      "kind": "stock",
+      "path": "stocks/ESGR-B.ST.json"
+    },
     "ESGRO": {
       "kind": "stock",
       "path": "stocks/ESGRO.json"
@@ -258304,6 +260144,10 @@
       "isin": "CA26908N1078",
       "kind": "stock",
       "path": "stocks/CA26908N1078.json"
+    },
+    "ESIGM.MI": {
+      "kind": "stock",
+      "path": "stocks/ESIGM.MI.json"
     },
     "ESINQ": {
       "kind": "stock",
@@ -258494,6 +260338,10 @@
     "ESPA3.SA": {
       "kind": "stock",
       "path": "stocks/ESPA3.SA.json"
+    },
+    "ESPE.MI": {
+      "kind": "stock",
+      "path": "stocks/ESPE.MI.json"
     },
     "ESPGY": {
       "kind": "stock",
@@ -258855,6 +260703,10 @@
     "ETAO": {
       "kind": "stock",
       "path": "stocks/ETAO.json"
+    },
+    "ETAOF": {
+      "kind": "stock",
+      "path": "stocks/ETAOF.json"
     },
     "ETAR": {
       "kind": "stock",
@@ -261044,6 +262896,10 @@
     "EX96.VI": {
       "kind": "stock",
       "path": "stocks/EX96.VI.json"
+    },
+    "EXA.PA": {
+      "kind": "stock",
+      "path": "stocks/EXA.PA.json"
     },
     "EXAC.PA": {
       "kind": "stock",
@@ -264402,6 +266258,10 @@
       "kind": "stock",
       "path": "stocks/FB2.L.json"
     },
+    "FB20.F": {
+      "kind": "stock",
+      "path": "stocks/FB20.F.json"
+    },
     "FB2A.BE": {
       "isin": "US30303M1027",
       "kind": "stock",
@@ -264868,6 +266728,10 @@
       "isin": "DE000A1YC913",
       "kind": "stock",
       "path": "stocks/DE000A1YC913.json"
+    },
+    "FCA-U.V": {
+      "kind": "stock",
+      "path": "stocks/FCA-U.V.json"
     },
     "FCA.BE": {
       "isin": "GB00BG0TPX62",
@@ -265459,6 +267323,10 @@
     "FDJ.VI": {
       "kind": "stock",
       "path": "stocks/FDJ.VI.json"
+    },
+    "FDJU.PA": {
+      "kind": "stock",
+      "path": "stocks/FDJU.PA.json"
     },
     "FDK.BE": {
       "kind": "stock",
@@ -271209,6 +273077,10 @@
       "kind": "stock",
       "path": "stocks/FORRB.BD.json"
     },
+    "FORSE.PA": {
+      "kind": "stock",
+      "path": "stocks/FORSE.PA.json"
+    },
     "FORT.L": {
       "isin": "GB00BYYW3C20",
       "kind": "stock",
@@ -272066,6 +273938,10 @@
       "isin": "SE0008374250",
       "kind": "stock",
       "path": "stocks/SE0008374250.json"
+    },
+    "FPR.AX": {
+      "kind": "stock",
+      "path": "stocks/FPR.AX.json"
     },
     "FPR.BE": {
       "isin": "US0215131063",
@@ -273919,6 +275795,10 @@
       "kind": "stock",
       "path": "stocks/FRSH.json"
     },
+    "FRSH.V": {
+      "kind": "stock",
+      "path": "stocks/FRSH.V.json"
+    },
     "FRSHTRP.BO": {
       "kind": "stock",
       "path": "stocks/FRSHTRP.BO.json"
@@ -274029,6 +275909,10 @@
     "FRUTION.BO": {
       "kind": "stock",
       "path": "stocks/FRUTION.BO.json"
+    },
+    "FRVIA.PA": {
+      "kind": "stock",
+      "path": "stocks/FRVIA.PA.json"
     },
     "FRVO": {
       "kind": "stock",
@@ -275342,6 +277226,10 @@
       "kind": "stock",
       "path": "stocks/FTS-PH.TO.json"
     },
+    "FTS.NE": {
+      "kind": "stock",
+      "path": "stocks/FTS.NE.json"
+    },
     "FTS.TO": {
       "kind": "stock",
       "path": "stocks/FTS.TO.json"
@@ -275394,6 +277282,10 @@
     "FTWS": {
       "kind": "stock",
       "path": "stocks/FTWS.json"
+    },
+    "FTWYF": {
+      "kind": "stock",
+      "path": "stocks/FTWYF.json"
     },
     "FTXP": {
       "kind": "stock",
@@ -276399,6 +278291,10 @@
     "FWRG": {
       "kind": "stock",
       "path": "stocks/FWRG.json"
+    },
+    "FWTC.V": {
+      "kind": "stock",
+      "path": "stocks/FWTC.V.json"
     },
     "FWV.BE": {
       "kind": "stock",
@@ -278665,6 +280561,10 @@
     "GALAXYSURF.NS": {
       "kind": "stock",
       "path": "stocks/GALAXYSURF.NS.json"
+    },
+    "GALD.SW": {
+      "kind": "stock",
+      "path": "stocks/GALD.SW.json"
     },
     "GALE.SW": {
       "isin": "CH0360674466",
@@ -282911,6 +284811,10 @@
       "kind": "stock",
       "path": "stocks/GEA.PA.json"
     },
+    "GEA.WA": {
+      "kind": "stock",
+      "path": "stocks/GEA.WA.json"
+    },
     "GEAGF": {
       "kind": "stock",
       "path": "stocks/GEAGF.json"
@@ -283223,6 +285127,10 @@
     "GELGF": {
       "kind": "stock",
       "path": "stocks/GELGF.json"
+    },
+    "GELN.L": {
+      "kind": "stock",
+      "path": "stocks/GELN.L.json"
     },
     "GELS": {
       "kind": "stock",
@@ -283715,6 +285623,10 @@
     "GF": {
       "kind": "stock",
       "path": "stocks/GF.json"
+    },
+    "GF.SW": {
+      "kind": "stock",
+      "path": "stocks/GF.SW.json"
     },
     "GF4.BE": {
       "kind": "stock",
@@ -285709,6 +287621,10 @@
       "kind": "stock",
       "path": "stocks/GIO.SG.json"
     },
+    "GIP.V": {
+      "kind": "stock",
+      "path": "stocks/GIP.V.json"
+    },
     "GIPCL.BO": {
       "kind": "stock",
       "path": "stocks/GIPCL.BO.json"
@@ -286012,6 +287928,10 @@
     "GJ89.VI": {
       "kind": "stock",
       "path": "stocks/GJ89.VI.json"
+    },
+    "GJAB.ST": {
+      "kind": "stock",
+      "path": "stocks/GJAB.ST.json"
     },
     "GJAJ.PA": {
       "kind": "stock",
@@ -288666,6 +290586,10 @@
       "kind": "stock",
       "path": "stocks/CNE1000001V4.json"
     },
+    "GNVR": {
+      "kind": "stock",
+      "path": "stocks/GNVR.json"
+    },
     "GNW": {
       "kind": "stock",
       "path": "stocks/GNW.json"
@@ -290296,6 +292220,10 @@
       "kind": "stock",
       "path": "stocks/CA38144C1005.json"
     },
+    "GQG.AX": {
+      "kind": "stock",
+      "path": "stocks/GQG.AX.json"
+    },
     "GQI.F": {
       "kind": "stock",
       "path": "stocks/GQI.F.json"
@@ -290481,6 +292409,10 @@
     "GRABW": {
       "kind": "stock",
       "path": "stocks/GRABW.json"
+    },
+    "GRAC.TA": {
+      "kind": "stock",
+      "path": "stocks/GRAC.TA.json"
     },
     "GRAF": {
       "kind": "stock",
@@ -292278,6 +294210,10 @@
       "kind": "stock",
       "path": "stocks/GSEVW.json"
     },
+    "GSF.L": {
+      "kind": "stock",
+      "path": "stocks/GSF.L.json"
+    },
     "GSF.OL": {
       "isin": "NO0010365521",
       "kind": "stock",
@@ -293608,6 +295544,10 @@
       "kind": "stock",
       "path": "stocks/GUARN0000.CM.json"
     },
+    "GUBRA.CO": {
+      "kind": "stock",
+      "path": "stocks/GUBRA.CO.json"
+    },
     "GUBRF.IS": {
       "kind": "stock",
       "path": "stocks/GUBRF.IS.json"
@@ -294241,6 +296181,10 @@
     "GVYB": {
       "kind": "stock",
       "path": "stocks/GVYB.json"
+    },
+    "GVYM.TA": {
+      "kind": "stock",
+      "path": "stocks/GVYM.TA.json"
     },
     "GW2A.BE": {
       "kind": "stock",
@@ -295895,6 +297839,10 @@
       "kind": "stock",
       "path": "stocks/BMG507361001.json"
     },
+    "H57.F": {
+      "kind": "stock",
+      "path": "stocks/H57.F.json"
+    },
     "H5C.BE": {
       "kind": "stock",
       "path": "stocks/H5C.BE.json"
@@ -296398,6 +298346,10 @@
       "kind": "stock",
       "path": "stocks/HABT11.SA.json"
     },
+    "HACBF": {
+      "kind": "stock",
+      "path": "stocks/HACBF.json"
+    },
     "HACBY": {
       "kind": "stock",
       "path": "stocks/HACBY.json"
@@ -296531,6 +298483,10 @@
     "HAGA4.SA": {
       "kind": "stock",
       "path": "stocks/HAGA4.SA.json"
+    },
+    "HAGHY": {
+      "kind": "stock",
+      "path": "stocks/HAGHY.json"
     },
     "HAI.TO": {
       "kind": "stock",
@@ -297186,6 +299142,10 @@
       "kind": "stock",
       "path": "stocks/HAUP.json"
     },
+    "HAUTO.OL": {
+      "kind": "stock",
+      "path": "stocks/HAUTO.OL.json"
+    },
     "HAV-B.ST": {
       "kind": "stock",
       "path": "stocks/HAV-B.ST.json"
@@ -297209,6 +299169,10 @@
     "HAVAR": {
       "kind": "stock",
       "path": "stocks/HAVAR.json"
+    },
+    "HAVAS.AS": {
+      "kind": "stock",
+      "path": "stocks/HAVAS.AS.json"
     },
     "HAVAU": {
       "kind": "stock",
@@ -297632,6 +299596,10 @@
       "kind": "stock",
       "path": "stocks/HBF.SG.json"
     },
+    "HBFGF": {
+      "kind": "stock",
+      "path": "stocks/HBFGF.json"
+    },
     "HBG.F": {
       "kind": "stock",
       "path": "stocks/HBG.F.json"
@@ -297977,6 +299945,10 @@
     "HBU.F": {
       "kind": "stock",
       "path": "stocks/HBU.F.json"
+    },
+    "HBX.MC": {
+      "kind": "stock",
+      "path": "stocks/HBX.MC.json"
     },
     "HC1.BE": {
       "isin": "US4228061093",
@@ -298341,6 +300313,10 @@
       "kind": "stock",
       "path": "stocks/HCL-INSYS.NS.json"
     },
+    "HCL.AX": {
+      "kind": "stock",
+      "path": "stocks/HCL.AX.json"
+    },
     "HCL.BE": {
       "kind": "stock",
       "path": "stocks/HCL.BE.json"
@@ -298519,6 +300495,10 @@
     "HCVIW": {
       "kind": "stock",
       "path": "stocks/HCVIW.json"
+    },
+    "HCW.AX": {
+      "kind": "stock",
+      "path": "stocks/HCW.AX.json"
     },
     "HCW.BE": {
       "isin": "IE00BJQTJ848",
@@ -299046,6 +301026,14 @@
       "isin": "US04280A1007",
       "kind": "stock",
       "path": "stocks/US04280A1007.json"
+    },
+    "HDRN": {
+      "kind": "stock",
+      "path": "stocks/HDRN.json"
+    },
+    "HDRNW": {
+      "kind": "stock",
+      "path": "stocks/HDRNW.json"
     },
     "HDRSF": {
       "kind": "stock",
@@ -300494,6 +302482,10 @@
       "kind": "stock",
       "path": "stocks/HGGCF.json"
     },
+    "HGGE.TA": {
+      "kind": "stock",
+      "path": "stocks/HGGE.TA.json"
+    },
     "HGGGQ": {
       "kind": "stock",
       "path": "stocks/HGGGQ.json"
@@ -301148,6 +303140,10 @@
       "kind": "stock",
       "path": "stocks/HIAA.F.json"
     },
+    "HIAB.HE": {
+      "kind": "stock",
+      "path": "stocks/HIAB.HE.json"
+    },
     "HIAG.SW": {
       "isin": "CH0239518779",
       "kind": "stock",
@@ -301626,6 +303622,10 @@
     "HIPPOCABS.BO": {
       "kind": "stock",
       "path": "stocks/HIPPOCABS.BO.json"
+    },
+    "HIPR.TA": {
+      "kind": "stock",
+      "path": "stocks/HIPR.TA.json"
     },
     "HIQ.F": {
       "kind": "stock",
@@ -302554,6 +304554,10 @@
       "kind": "stock",
       "path": "stocks/US4415931009.json"
     },
+    "HLI.AX": {
+      "kind": "stock",
+      "path": "stocks/HLI.AX.json"
+    },
     "HLI.F": {
       "kind": "stock",
       "path": "stocks/HLI.F.json"
@@ -302650,6 +304654,10 @@
     "HLN": {
       "kind": "stock",
       "path": "stocks/HLN.json"
+    },
+    "HLN.L": {
+      "kind": "stock",
+      "path": "stocks/HLN.L.json"
     },
     "HLNE": {
       "kind": "stock",
@@ -304178,6 +306186,10 @@
       "kind": "stock",
       "path": "stocks/HOLM-B.ST.json"
     },
+    "HOLN.SW": {
+      "kind": "stock",
+      "path": "stocks/HOLN.SW.json"
+    },
     "HOLO": {
       "kind": "stock",
       "path": "stocks/HOLO.json"
@@ -305026,6 +307038,10 @@
     "HPS-A.TO": {
       "kind": "stock",
       "path": "stocks/HPS-A.TO.json"
+    },
+    "HPSS.CN": {
+      "kind": "stock",
+      "path": "stocks/HPSS.CN.json"
     },
     "HPST": {
       "kind": "stock",
@@ -306999,6 +309015,10 @@
       "kind": "stock",
       "path": "stocks/HUBN.SW.json"
     },
+    "HUBNZ.XC": {
+      "kind": "stock",
+      "path": "stocks/HUBNZ.XC.json"
+    },
     "HUBS": {
       "isin": "US4435731009",
       "kind": "stock",
@@ -307131,6 +309151,10 @@
       "kind": "stock",
       "path": "stocks/HUHU.json"
     },
+    "HUI.L": {
+      "kind": "stock",
+      "path": "stocks/HUI.L.json"
+    },
     "HUIHY": {
       "isin": "BMG4639H1227",
       "kind": "stock",
@@ -307253,6 +309277,10 @@
     "HUMT": {
       "kind": "stock",
       "path": "stocks/HUMT.json"
+    },
+    "HUMX-M.TA": {
+      "kind": "stock",
+      "path": "stocks/HUMX-M.TA.json"
     },
     "HUMX.TA": {
       "kind": "stock",
@@ -308324,6 +310352,10 @@
     "HYBT": {
       "kind": "stock",
       "path": "stocks/HYBT.json"
+    },
+    "HYCO.ST": {
+      "kind": "stock",
+      "path": "stocks/HYCO.ST.json"
     },
     "HYD.AX": {
       "kind": "stock",
@@ -310418,6 +312450,10 @@
       "kind": "stock",
       "path": "stocks/US4593481082.json"
     },
+    "IAG.XA": {
+      "kind": "stock",
+      "path": "stocks/IAG.XA.json"
+    },
     "IAGPD.AX": {
       "kind": "stock",
       "path": "stocks/IAGPD.AX.json"
@@ -311753,6 +313789,10 @@
     "ICON.L": {
       "kind": "stock",
       "path": "stocks/ICON.L.json"
+    },
+    "ICOS.MI": {
+      "kind": "stock",
+      "path": "stocks/ICOS.MI.json"
     },
     "ICOTF": {
       "kind": "stock",
@@ -314559,6 +316599,10 @@
       "kind": "stock",
       "path": "stocks/IIPZF.json"
     },
+    "IIQ.AX": {
+      "kind": "stock",
+      "path": "stocks/IIQ.AX.json"
+    },
     "IIREF": {
       "kind": "stock",
       "path": "stocks/IIREF.json"
@@ -315663,6 +317707,10 @@
       "kind": "stock",
       "path": "stocks/IMC.L.json"
     },
+    "IMC.WA": {
+      "kind": "stock",
+      "path": "stocks/IMC.WA.json"
+    },
     "IMCAP.BO": {
       "kind": "stock",
       "path": "stocks/IMCAP.BO.json"
@@ -315679,6 +317727,10 @@
       "isin": "NL0010801007",
       "kind": "stock",
       "path": "stocks/NL0010801007.json"
+    },
+    "IMCD.VI": {
+      "kind": "stock",
+      "path": "stocks/IMCD.VI.json"
     },
     "IMCI": {
       "kind": "stock",
@@ -316173,6 +318225,10 @@
     "IMQ1.F": {
       "kind": "stock",
       "path": "stocks/IMQ1.F.json"
+    },
+    "IMQCF": {
+      "kind": "stock",
+      "path": "stocks/IMQCF.json"
     },
     "IMR.AX": {
       "isin": "CA45250A3073",
@@ -318117,6 +320173,10 @@
       "kind": "stock",
       "path": "stocks/INS-GB.AQ.json"
     },
+    "INS.DE": {
+      "kind": "stock",
+      "path": "stocks/INS.DE.json"
+    },
     "INS.DU": {
       "kind": "stock",
       "path": "stocks/INS.DU.json"
@@ -318332,6 +320392,10 @@
     "INTE": {
       "kind": "stock",
       "path": "stocks/INTE.json"
+    },
+    "INTEA-D.ST": {
+      "kind": "stock",
+      "path": "stocks/INTEA-D.ST.json"
     },
     "INTECCAP.BO": {
       "kind": "stock",
@@ -318731,6 +320795,10 @@
       "kind": "stock",
       "path": "stocks/SE0006220018.json"
     },
+    "INWM.XC": {
+      "kind": "stock",
+      "path": "stocks/INWM.XC.json"
+    },
     "INX.F": {
       "isin": "NL0010801007",
       "kind": "stock",
@@ -319048,6 +321116,10 @@
     "IOR": {
       "kind": "stock",
       "path": "stocks/IOR.json"
+    },
+    "IOS.DE": {
+      "kind": "stock",
+      "path": "stocks/IOS.DE.json"
     },
     "IOSP": {
       "kind": "stock",
@@ -321189,6 +323261,10 @@
       "kind": "stock",
       "path": "stocks/US4622221004.json"
     },
+    "ISI.TA": {
+      "kind": "stock",
+      "path": "stocks/ISI.TA.json"
+    },
     "ISIG": {
       "kind": "stock",
       "path": "stocks/ISIG.json"
@@ -322320,6 +324396,10 @@
       "kind": "stock",
       "path": "stocks/US6402681083.json"
     },
+    "ITH.L": {
+      "kind": "stock",
+      "path": "stocks/ITH.L.json"
+    },
     "ITH.MU": {
       "isin": "US6402681083",
       "kind": "stock",
@@ -323339,6 +325419,10 @@
     "IVFZF": {
       "kind": "stock",
       "path": "stocks/IVFZF.json"
+    },
+    "IVG.MI": {
+      "kind": "stock",
+      "path": "stocks/IVG.MI.json"
     },
     "IVH": {
       "kind": "stock",
@@ -324739,6 +326823,10 @@
       "kind": "stock",
       "path": "stocks/J4S.MU.json"
     },
+    "J4V.F": {
+      "kind": "stock",
+      "path": "stocks/J4V.F.json"
+    },
     "J5L1.BE": {
       "kind": "stock",
       "path": "stocks/J5L1.BE.json"
@@ -326121,6 +328209,10 @@
       "kind": "stock",
       "path": "stocks/JDN.V.json"
     },
+    "JDO.AX": {
+      "kind": "stock",
+      "path": "stocks/JDO.AX.json"
+    },
     "JDORGOCHEM.BO": {
       "kind": "stock",
       "path": "stocks/JDORGOCHEM.BO.json"
@@ -326270,6 +328362,10 @@
     "JECFF": {
       "kind": "stock",
       "path": "stocks/JECFF.json"
+    },
+    "JEEN.TA": {
+      "kind": "stock",
+      "path": "stocks/JEEN.TA.json"
     },
     "JEF": {
       "isin": "US47233W1099",
@@ -327952,6 +330048,10 @@
       "kind": "stock",
       "path": "stocks/JNPR-U.TI.json"
     },
+    "JNS.AX": {
+      "kind": "stock",
+      "path": "stocks/JNS.AX.json"
+    },
     "JNSH": {
       "kind": "stock",
       "path": "stocks/JNSH.json"
@@ -328599,6 +330699,10 @@
     "JPTSEC.BO": {
       "kind": "stock",
       "path": "stocks/JPTSEC.BO.json"
+    },
+    "JPWR-H.V": {
+      "kind": "stock",
+      "path": "stocks/JPWR-H.V.json"
     },
     "JPWR-UN.V": {
       "kind": "stock",
@@ -330841,6 +332945,10 @@
     "KALLAM.BO": {
       "kind": "stock",
       "path": "stocks/KALLAM.BO.json"
+    },
+    "KALMAR.HE": {
+      "kind": "stock",
+      "path": "stocks/KALMAR.HE.json"
     },
     "KALO": {
       "kind": "stock",
@@ -335120,6 +337228,10 @@
       "kind": "stock",
       "path": "stocks/KLRS.json"
     },
+    "KLS.AX": {
+      "kind": "stock",
+      "path": "stocks/KLS.AX.json"
+    },
     "KLS.TO": {
       "kind": "stock",
       "path": "stocks/KLS.TO.json"
@@ -336306,6 +338418,10 @@
       "kind": "stock",
       "path": "stocks/KOMN.SW.json"
     },
+    "KOMOF": {
+      "kind": "stock",
+      "path": "stocks/KOMOF.json"
+    },
     "KOMP.OL": {
       "kind": "stock",
       "path": "stocks/KOMP.OL.json"
@@ -337201,11 +339317,6 @@
       "kind": "stock",
       "path": "stocks/KRDXF.json"
     },
-    "KRE": {
-      "isin": "US78464A6982",
-      "kind": "etf",
-      "path": "etfs/US78464A6982.json"
-    },
     "KRE.CO": {
       "kind": "stock",
       "path": "stocks/KRE.CO.json"
@@ -337637,6 +339748,10 @@
     "KRTX": {
       "kind": "stock",
       "path": "stocks/KRTX.json"
+    },
+    "KRU.WA": {
+      "kind": "stock",
+      "path": "stocks/KRU.WA.json"
     },
     "KRUR.TA": {
       "kind": "stock",
@@ -338419,9 +340534,17 @@
       "kind": "stock",
       "path": "stocks/KTN.json"
     },
+    "KTN.F": {
+      "kind": "stock",
+      "path": "stocks/KTN.F.json"
+    },
     "KTN.V": {
       "kind": "stock",
       "path": "stocks/KTN.V.json"
+    },
+    "KTN.VI": {
+      "kind": "stock",
+      "path": "stocks/KTN.VI.json"
     },
     "KTNNF": {
       "kind": "stock",
@@ -340209,6 +342332,10 @@
       "kind": "stock",
       "path": "stocks/L1FC34.SA.json"
     },
+    "L1G.AX": {
+      "kind": "stock",
+      "path": "stocks/L1G.AX.json"
+    },
     "L1HX34.SA": {
       "isin": "US5024311095",
       "kind": "stock",
@@ -340454,6 +342581,10 @@
       "isin": "CA6076771014",
       "kind": "stock",
       "path": "stocks/CA6076771014.json"
+    },
+    "L3O0.F": {
+      "kind": "stock",
+      "path": "stocks/L3O0.F.json"
     },
     "L3R.BE": {
       "kind": "stock",
@@ -340766,6 +342897,10 @@
       "kind": "stock",
       "path": "stocks/FI4000081138.json"
     },
+    "L7H.F": {
+      "kind": "stock",
+      "path": "stocks/L7H.F.json"
+    },
     "L7R.F": {
       "isin": "SE0012558617",
       "kind": "stock",
@@ -341015,6 +343150,10 @@
       "isin": "CA58504D1006",
       "kind": "stock",
       "path": "stocks/CA58504D1006.json"
+    },
+    "LABS.L": {
+      "kind": "stock",
+      "path": "stocks/LABS.L.json"
     },
     "LABS.P.V": {
       "kind": "stock",
@@ -341293,6 +343432,10 @@
     "LAMM-B.ST": {
       "kind": "stock",
       "path": "stocks/LAMM-B.ST.json"
+    },
+    "LAMOR.HE": {
+      "kind": "stock",
+      "path": "stocks/LAMOR.HE.json"
     },
     "LAMOSA.MX": {
       "kind": "stock",
@@ -342098,6 +344241,10 @@
       "kind": "stock",
       "path": "stocks/LBUY.json"
     },
+    "LBW.WA": {
+      "kind": "stock",
+      "path": "stocks/LBW.WA.json"
+    },
     "LBWB.MU": {
       "kind": "stock",
       "path": "stocks/LBWB.MU.json"
@@ -342624,6 +344771,10 @@
     "LDB.SG": {
       "kind": "stock",
       "path": "stocks/LDB.SG.json"
+    },
+    "LDBB.F": {
+      "kind": "stock",
+      "path": "stocks/LDBB.F.json"
     },
     "LDC-R.BK": {
       "kind": "stock",
@@ -343616,6 +345767,10 @@
     "LFER": {
       "kind": "stock",
       "path": "stocks/LFER.json"
+    },
+    "LFEV": {
+      "kind": "stock",
+      "path": "stocks/LFEV.json"
     },
     "LFEX": {
       "kind": "stock",
@@ -345116,6 +347271,10 @@
       "kind": "stock",
       "path": "stocks/LILM.json"
     },
+    "LILMF": {
+      "kind": "stock",
+      "path": "stocks/LILMF.json"
+    },
     "LILMW": {
       "kind": "stock",
       "path": "stocks/LILMW.json"
@@ -345396,6 +347555,10 @@
     "LIQT": {
       "kind": "stock",
       "path": "stocks/LIQT.json"
+    },
+    "LIS.AX": {
+      "kind": "stock",
+      "path": "stocks/LIS.AX.json"
     },
     "LIS.BE": {
       "isin": "AU000000LTR4",
@@ -346705,6 +348868,10 @@
     "LMN.SW": {
       "kind": "stock",
       "path": "stocks/LMN.SW.json"
+    },
+    "LMN.V": {
+      "kind": "stock",
+      "path": "stocks/LMN.V.json"
     },
     "LMNA.F": {
       "isin": "US1206132037",
@@ -348248,6 +350415,10 @@
       "kind": "stock",
       "path": "stocks/LPHL-L.TA.json"
     },
+    "LPHL.TA": {
+      "kind": "stock",
+      "path": "stocks/LPHL.TA.json"
+    },
     "LPHM": {
       "kind": "stock",
       "path": "stocks/LPHM.json"
@@ -348730,6 +350901,10 @@
     "LRC.SG": {
       "kind": "stock",
       "path": "stocks/LRC.SG.json"
+    },
+    "LRC0.F": {
+      "kind": "stock",
+      "path": "stocks/LRC0.F.json"
     },
     "LRCDF": {
       "kind": "stock",
@@ -349775,6 +351950,10 @@
       "kind": "stock",
       "path": "stocks/LTMAQ.json"
     },
+    "LTMC.MI": {
+      "kind": "stock",
+      "path": "stocks/LTMC.MI.json"
+    },
     "LTMCF": {
       "kind": "stock",
       "path": "stocks/LTMCF.json"
@@ -350447,6 +352626,10 @@
     "LUNR": {
       "kind": "stock",
       "path": "stocks/LUNR.json"
+    },
+    "LUNR.V": {
+      "kind": "stock",
+      "path": "stocks/LUNR.V.json"
     },
     "LUNRW": {
       "kind": "stock",
@@ -351938,6 +354121,10 @@
       "isin": "US55616P1049",
       "kind": "stock",
       "path": "stocks/US55616P1049.json"
+    },
+    "M.RO": {
+      "kind": "stock",
+      "path": "stocks/M.RO.json"
     },
     "M.V": {
       "kind": "stock",
@@ -353479,6 +355666,10 @@
       "kind": "stock",
       "path": "stocks/M8Y.SG.json"
     },
+    "M98.F": {
+      "kind": "stock",
+      "path": "stocks/M98.F.json"
+    },
     "M9K.BE": {
       "kind": "stock",
       "path": "stocks/M9K.BE.json"
@@ -354241,6 +356432,10 @@
       "kind": "stock",
       "path": "stocks/MAIR.json"
     },
+    "MAIRE.MI": {
+      "kind": "stock",
+      "path": "stocks/MAIRE.MI.json"
+    },
     "MAITHANALL-BL.NS": {
       "kind": "stock",
       "path": "stocks/MAITHANALL-BL.NS.json"
@@ -354785,6 +356980,10 @@
       "kind": "stock",
       "path": "stocks/MANT.json"
     },
+    "MANTA.HE": {
+      "kind": "stock",
+      "path": "stocks/MANTA.HE.json"
+    },
     "MANTEX-TO4.ST": {
       "kind": "stock",
       "path": "stocks/MANTEX-TO4.ST.json"
@@ -354825,6 +357024,10 @@
     "MAORF": {
       "kind": "stock",
       "path": "stocks/MAORF.json"
+    },
+    "MAP.AX": {
+      "kind": "stock",
+      "path": "stocks/MAP.AX.json"
     },
     "MAP.MC": {
       "isin": "US5651001043",
@@ -354953,6 +357156,10 @@
       "isin": "US5719032022",
       "kind": "stock",
       "path": "stocks/US5719032022.json"
+    },
+    "MAR-UN.V": {
+      "kind": "stock",
+      "path": "stocks/MAR-UN.V.json"
     },
     "MAR.BE": {
       "kind": "stock",
@@ -356039,6 +358246,10 @@
       "kind": "stock",
       "path": "stocks/DE0008148206.json"
     },
+    "MBK.WA": {
+      "kind": "stock",
+      "path": "stocks/MBK.WA.json"
+    },
     "MBKET-R.BK": {
       "kind": "stock",
       "path": "stocks/MBKET-R.BK.json"
@@ -356190,6 +358401,10 @@
     "MBR.BE": {
       "kind": "stock",
       "path": "stocks/MBR.BE.json"
+    },
+    "MBR.WA": {
+      "kind": "stock",
+      "path": "stocks/MBR.WA.json"
     },
     "MBRF11.SA": {
       "kind": "stock",
@@ -356725,6 +358940,10 @@
       "isin": "ZAE000265971",
       "kind": "stock",
       "path": "stocks/ZAE000265971.json"
+    },
+    "MCG.L": {
+      "kind": "stock",
+      "path": "stocks/MCG.L.json"
     },
     "MCG.MU": {
       "isin": "US5894001008",
@@ -357413,6 +359632,10 @@
     "MD7A.F": {
       "kind": "stock",
       "path": "stocks/MD7A.F.json"
+    },
+    "MD8.F": {
+      "kind": "stock",
+      "path": "stocks/MD8.F.json"
     },
     "MD8B.F": {
       "kind": "stock",
@@ -358419,6 +360642,10 @@
       "kind": "stock",
       "path": "stocks/MEDV.NE.json"
     },
+    "MEDX.SW": {
+      "kind": "stock",
+      "path": "stocks/MEDX.SW.json"
+    },
     "MEDXF": {
       "kind": "stock",
       "path": "stocks/MEDXF.json"
@@ -359244,6 +361471,10 @@
       "kind": "stock",
       "path": "stocks/METSL.BO.json"
     },
+    "METSO.HE": {
+      "kind": "stock",
+      "path": "stocks/METSO.HE.json"
+    },
     "METUR.IS": {
       "kind": "stock",
       "path": "stocks/METUR.IS.json"
@@ -359518,6 +361749,10 @@
     "MFDB": {
       "kind": "stock",
       "path": "stocks/MFDB.json"
+    },
+    "MFEA.MI": {
+      "kind": "stock",
+      "path": "stocks/MFEA.MI.json"
     },
     "MFEC-R.BK": {
       "kind": "stock",
@@ -360413,6 +362648,10 @@
       "kind": "stock",
       "path": "stocks/MGRO.JK.json"
     },
+    "MGRO.V": {
+      "kind": "stock",
+      "path": "stocks/MGRO.V.json"
+    },
     "MGROF": {
       "isin": "CA62822A1030",
       "kind": "stock",
@@ -360698,6 +362937,10 @@
     "MHC-U.TO": {
       "kind": "stock",
       "path": "stocks/MHC-U.TO.json"
+    },
+    "MHC-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/MHC-UN.TO.json"
     },
     "MHC.AX": {
       "kind": "stock",
@@ -361265,6 +363508,10 @@
       "kind": "stock",
       "path": "stocks/LU0046676465.json"
     },
+    "MIA.TA": {
+      "kind": "stock",
+      "path": "stocks/MIA.TA.json"
+    },
     "MIAX": {
       "kind": "stock",
       "path": "stocks/MIAX.json"
@@ -361605,6 +363852,10 @@
     "MIL.L": {
       "kind": "stock",
       "path": "stocks/MIL.L.json"
+    },
+    "MIL.WA": {
+      "kind": "stock",
+      "path": "stocks/MIL.WA.json"
     },
     "MILA.F": {
       "kind": "stock",
@@ -363959,6 +366210,10 @@
       "kind": "stock",
       "path": "stocks/MLS.AX.json"
     },
+    "MLS.WA": {
+      "kind": "stock",
+      "path": "stocks/MLS.WA.json"
+    },
     "MLSBT.PA": {
       "kind": "stock",
       "path": "stocks/MLSBT.PA.json"
@@ -364087,6 +366342,10 @@
       "isin": "CA56501R1064",
       "kind": "stock",
       "path": "stocks/CA56501R1064.json"
+    },
+    "MLUAV.PA": {
+      "kind": "stock",
+      "path": "stocks/MLUAV.PA.json"
     },
     "MLUMG.PA": {
       "kind": "stock",
@@ -365427,6 +367686,10 @@
       "kind": "stock",
       "path": "stocks/MNRG.L.json"
     },
+    "MNRHF": {
+      "kind": "stock",
+      "path": "stocks/MNRHF.json"
+    },
     "MNRIF": {
       "isin": "TH0128B10Z17",
       "kind": "stock",
@@ -365467,6 +367730,10 @@
     "MNSBP": {
       "kind": "stock",
       "path": "stocks/MNSBP.json"
+    },
+    "MNSEF": {
+      "kind": "stock",
+      "path": "stocks/MNSEF.json"
     },
     "MNSF": {
       "kind": "stock",
@@ -366477,6 +368744,10 @@
     "MOONG.BK": {
       "kind": "stock",
       "path": "stocks/MOONG.BK.json"
+    },
+    "MOOO.CN": {
+      "kind": "stock",
+      "path": "stocks/MOOO.CN.json"
     },
     "MOOO34.SA": {
       "isin": "US02209S1033",
@@ -367957,6 +370228,10 @@
       "kind": "stock",
       "path": "stocks/MRF.NS.json"
     },
+    "MRFCF": {
+      "kind": "stock",
+      "path": "stocks/MRFCF.json"
+    },
     "MRFG3.SA": {
       "isin": "US56656T1051",
       "kind": "stock",
@@ -369381,6 +371656,10 @@
       "kind": "stock",
       "path": "stocks/MSRINDIA.BO.json"
     },
+    "MSRM": {
+      "kind": "stock",
+      "path": "stocks/MSRM.json"
+    },
     "MSRS.ME": {
       "kind": "stock",
       "path": "stocks/MSRS.ME.json"
@@ -369722,6 +372001,10 @@
       "kind": "stock",
       "path": "stocks/MTARTECH.NS.json"
     },
+    "MTAV.TA": {
+      "kind": "stock",
+      "path": "stocks/MTAV.TA.json"
+    },
     "MTB": {
       "isin": "US55261F1049",
       "kind": "stock",
@@ -370013,6 +372296,10 @@
       "kind": "stock",
       "path": "stocks/MTI.SG.json"
     },
+    "MTI.ST": {
+      "kind": "stock",
+      "path": "stocks/MTI.ST.json"
+    },
     "MTIG4.SA": {
       "kind": "stock",
       "path": "stocks/MTIG4.SA.json"
@@ -370125,6 +372412,10 @@
     "MTLK": {
       "kind": "stock",
       "path": "stocks/MTLK.json"
+    },
+    "MTLN.L": {
+      "kind": "stock",
+      "path": "stocks/MTLN.L.json"
     },
     "MTLO.V": {
       "kind": "stock",
@@ -371811,6 +374102,10 @@
       "kind": "stock",
       "path": "stocks/MVVYF.json"
     },
+    "MVW.OL": {
+      "kind": "stock",
+      "path": "stocks/MVW.OL.json"
+    },
     "MVX.BE": {
       "isin": "TH0692010R12",
       "kind": "stock",
@@ -372738,6 +375033,10 @@
     "MYJ": {
       "kind": "stock",
       "path": "stocks/MYJ.json"
+    },
+    "MYLKF": {
+      "kind": "stock",
+      "path": "stocks/MYLKF.json"
     },
     "MYM.BE": {
       "isin": "AT0000938204",
@@ -374823,6 +377122,10 @@
       "kind": "stock",
       "path": "stocks/NANO.PA.json"
     },
+    "NANO.TO": {
+      "kind": "stock",
+      "path": "stocks/NANO.TO.json"
+    },
     "NANOFH.HE": {
       "isin": "FI4000330972",
       "kind": "stock",
@@ -376200,6 +378503,10 @@
     "NCH.BK": {
       "kind": "stock",
       "path": "stocks/NCH.BK.json"
+    },
+    "NCH2.DE": {
+      "kind": "stock",
+      "path": "stocks/NCH2.DE.json"
     },
     "NCHB11.SA": {
       "kind": "stock",
@@ -377611,6 +379918,10 @@
       "kind": "stock",
       "path": "stocks/NEMCF.json"
     },
+    "NEMCL": {
+      "kind": "stock",
+      "path": "stocks/NEMCL.json"
+    },
     "NEMD.BA": {
       "kind": "stock",
       "path": "stocks/NEMD.BA.json"
@@ -377670,6 +379981,10 @@
       "isin": "CA64046G1063",
       "kind": "stock",
       "path": "stocks/CA64046G1063.json"
+    },
+    "NEOBO.ST": {
+      "kind": "stock",
+      "path": "stocks/NEOBO.ST.json"
     },
     "NEOE3.SA": {
       "kind": "stock",
@@ -380477,6 +382792,10 @@
       "kind": "stock",
       "path": "stocks/NIOSAG.BO.json"
     },
+    "NIOX.L": {
+      "kind": "stock",
+      "path": "stocks/NIOX.L.json"
+    },
     "NIP.MU": {
       "kind": "stock",
       "path": "stocks/NIP.MU.json"
@@ -381402,6 +383721,10 @@
     "NKTX": {
       "kind": "stock",
       "path": "stocks/NKTX.json"
+    },
+    "NKW-H.V": {
+      "kind": "stock",
+      "path": "stocks/NKW-H.V.json"
     },
     "NKW.V": {
       "kind": "stock",
@@ -384485,6 +386808,10 @@
       "kind": "stock",
       "path": "stocks/NORDIG.ST.json"
     },
+    "NORION.ST": {
+      "kind": "stock",
+      "path": "stocks/NORION.ST.json"
+    },
     "NORNQ": {
       "kind": "stock",
       "path": "stocks/NORNQ.json"
@@ -385056,6 +387383,10 @@
       "isin": "SE0014808838",
       "kind": "stock",
       "path": "stocks/SE0014808838.json"
+    },
+    "NPH.JO": {
+      "kind": "stock",
+      "path": "stocks/NPH.JO.json"
     },
     "NPH.NZ": {
       "isin": "ZAE000298253",
@@ -385932,6 +388263,10 @@
       "kind": "stock",
       "path": "stocks/NRPR.json"
     },
+    "NRR-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/NRR-UN.TO.json"
+    },
     "NRR.L": {
       "kind": "stock",
       "path": "stocks/NRR.L.json"
@@ -386396,6 +388731,10 @@
     "NSIL.NS": {
       "kind": "stock",
       "path": "stocks/NSIL.NS.json"
+    },
+    "NSIS-B.CO": {
+      "kind": "stock",
+      "path": "stocks/NSIS-B.CO.json"
     },
     "NSIT": {
       "isin": "US45765U1034",
@@ -389499,6 +391838,10 @@
       "kind": "stock",
       "path": "stocks/SE0014731089.json"
     },
+    "NWG.WA": {
+      "kind": "stock",
+      "path": "stocks/NWG.WA.json"
+    },
     "NWGAF": {
       "kind": "stock",
       "path": "stocks/NWGAF.json"
@@ -389518,6 +391861,10 @@
     "NWGN": {
       "kind": "stock",
       "path": "stocks/NWGN.json"
+    },
+    "NWH-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/NWH-UN.TO.json"
     },
     "NWH.AX": {
       "kind": "stock",
@@ -389959,6 +392306,10 @@
       "kind": "stock",
       "path": "stocks/NX8.MU.json"
     },
+    "NXB": {
+      "kind": "stock",
+      "path": "stocks/NXB.json"
+    },
     "NXC": {
       "kind": "stock",
       "path": "stocks/NXC.json"
@@ -390017,6 +392368,10 @@
     "NXEN.SG": {
       "kind": "stock",
       "path": "stocks/NXEN.SG.json"
+    },
+    "NXFIL.AS": {
+      "kind": "stock",
+      "path": "stocks/NXFIL.AS.json"
     },
     "NXFNF": {
       "kind": "stock",
@@ -390227,6 +392582,10 @@
       "kind": "stock",
       "path": "stocks/NXR-GB.AQ.json"
     },
+    "NXR-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/NXR-UN.TO.json"
+    },
     "NXR.BE": {
       "isin": "DE000A1K03W5",
       "kind": "stock",
@@ -390306,6 +392665,10 @@
     "NXSL": {
       "kind": "stock",
       "path": "stocks/NXSL.json"
+    },
+    "NXSN.TA": {
+      "kind": "stock",
+      "path": "stocks/NXSN.TA.json"
     },
     "NXST": {
       "isin": "US65336K1034",
@@ -390558,6 +392921,10 @@
     "NYAX": {
       "kind": "stock",
       "path": "stocks/NYAX.json"
+    },
+    "NYAX.TA": {
+      "kind": "stock",
+      "path": "stocks/NYAX.TA.json"
     },
     "NYC": {
       "kind": "stock",
@@ -392679,6 +395046,10 @@
       "kind": "stock",
       "path": "stocks/OBS.VI.json"
     },
+    "OBSE.ST": {
+      "kind": "stock",
+      "path": "stocks/OBSE.ST.json"
+    },
     "OBSN.SW": {
       "kind": "stock",
       "path": "stocks/OBSN.SW.json"
@@ -393213,6 +395584,10 @@
       "kind": "stock",
       "path": "stocks/OCTO.json"
     },
+    "OCTV": {
+      "kind": "stock",
+      "path": "stocks/OCTV.json"
+    },
     "OCTVV": {
       "kind": "stock",
       "path": "stocks/OCTVV.json"
@@ -393351,6 +395726,10 @@
     "ODD.ST": {
       "kind": "stock",
       "path": "stocks/ODD.ST.json"
+    },
+    "ODD.V": {
+      "kind": "stock",
+      "path": "stocks/ODD.V.json"
     },
     "ODDB.BE": {
       "kind": "stock",
@@ -394823,6 +397202,10 @@
       "kind": "stock",
       "path": "stocks/OIZ.BE.json"
     },
+    "OIZ.F": {
+      "kind": "stock",
+      "path": "stocks/OIZ.F.json"
+    },
     "OIZ.IR": {
       "kind": "stock",
       "path": "stocks/OIZ.IR.json"
@@ -395726,6 +398109,10 @@
       "kind": "stock",
       "path": "stocks/US6821431029.json"
     },
+    "OMER.MI": {
+      "kind": "stock",
+      "path": "stocks/OMER.MI.json"
+    },
     "OMEX": {
       "kind": "stock",
       "path": "stocks/OMEX.json"
@@ -395733,6 +398120,10 @@
     "OMF": {
       "kind": "stock",
       "path": "stocks/OMF.json"
+    },
+    "OMG.AX": {
+      "kind": "stock",
+      "path": "stocks/OMG.AX.json"
     },
     "OMG.L": {
       "kind": "stock",
@@ -396382,6 +398773,10 @@
       "kind": "stock",
       "path": "stocks/GB00BP6S8Z30.json"
     },
+    "ONT.L": {
+      "kind": "stock",
+      "path": "stocks/ONT.L.json"
+    },
     "ONTEX.BR": {
       "kind": "stock",
       "path": "stocks/ONTEX.BR.json"
@@ -396800,6 +399195,10 @@
       "kind": "stock",
       "path": "stocks/OPLN.json"
     },
+    "OPM.PA": {
+      "kind": "stock",
+      "path": "stocks/OPM.PA.json"
+    },
     "OPMC": {
       "kind": "stock",
       "path": "stocks/OPMC.json"
@@ -396978,6 +399377,10 @@
     "OPTIFIN.BO": {
       "kind": "stock",
       "path": "stocks/OPTIFIN.BO.json"
+    },
+    "OPTIMA.AT": {
+      "kind": "stock",
+      "path": "stocks/OPTIMA.AT.json"
     },
     "OPTL": {
       "kind": "stock",
@@ -399628,6 +402031,10 @@
     "OVER.SG": {
       "kind": "stock",
       "path": "stocks/OVER.SG.json"
+    },
+    "OVH.PA": {
+      "kind": "stock",
+      "path": "stocks/OVH.PA.json"
     },
     "OVI.F": {
       "isin": "FI0009900401",
@@ -402966,6 +405373,10 @@
       "kind": "stock",
       "path": "stocks/NL0010391108.json"
     },
+    "P7V.DE": {
+      "kind": "stock",
+      "path": "stocks/P7V.DE.json"
+    },
     "P7V.F": {
       "isin": "NL0010391108",
       "kind": "stock",
@@ -404859,6 +407270,10 @@
       "kind": "stock",
       "path": "stocks/PAZ.SN.json"
     },
+    "PAZ.TA": {
+      "kind": "stock",
+      "path": "stocks/PAZ.TA.json"
+    },
     "PAZA.ME": {
       "kind": "stock",
       "path": "stocks/PAZA.ME.json"
@@ -405117,6 +407532,10 @@
       "isin": "US69318G1067",
       "kind": "stock",
       "path": "stocks/US69318G1067.json"
+    },
+    "PBF.CN": {
+      "kind": "stock",
+      "path": "stocks/PBF.CN.json"
     },
     "PBF.MX": {
       "isin": "US69318G1067",
@@ -406021,6 +408440,10 @@
       "isin": "NL0015000AU7",
       "kind": "stock",
       "path": "stocks/NL0015000AU7.json"
+    },
+    "PCO.WA": {
+      "kind": "stock",
+      "path": "stocks/PCO.WA.json"
     },
     "PCOA": {
       "kind": "stock",
@@ -407674,6 +410097,10 @@
       "kind": "stock",
       "path": "stocks/PET.L.json"
     },
+    "PET.TO": {
+      "kind": "stock",
+      "path": "stocks/PET.TO.json"
+    },
     "PETB.IL": {
       "kind": "stock",
       "path": "stocks/PETB.IL.json"
@@ -407758,6 +410185,10 @@
     "PEV": {
       "kind": "stock",
       "path": "stocks/PEV.json"
+    },
+    "PEVMD": {
+      "kind": "stock",
+      "path": "stocks/PEVMD.json"
     },
     "PEW": {
       "kind": "stock",
@@ -411234,6 +413665,10 @@
       "kind": "stock",
       "path": "stocks/PKN.SG.json"
     },
+    "PKN.WA": {
+      "kind": "stock",
+      "path": "stocks/PKN.WA.json"
+    },
     "PKNOF": {
       "kind": "stock",
       "path": "stocks/PKNOF.json"
@@ -411250,9 +413685,17 @@
       "kind": "stock",
       "path": "stocks/PKO.PR.json"
     },
+    "PKO.WA": {
+      "kind": "stock",
+      "path": "stocks/PKO.WA.json"
+    },
     "PKOH": {
       "kind": "stock",
       "path": "stocks/PKOH.json"
+    },
+    "PKP.WA": {
+      "kind": "stock",
+      "path": "stocks/PKP.WA.json"
     },
     "PKPH": {
       "kind": "stock",
@@ -411957,6 +414400,10 @@
       "kind": "stock",
       "path": "stocks/PLNTQ.json"
     },
+    "PLNW.PA": {
+      "kind": "stock",
+      "path": "stocks/PLNW.PA.json"
+    },
     "PLO-H.V": {
       "kind": "stock",
       "path": "stocks/PLO-H.V.json"
@@ -412320,6 +414767,10 @@
       "kind": "stock",
       "path": "stocks/PLUR.json"
     },
+    "PLUR.TA": {
+      "kind": "stock",
+      "path": "stocks/PLUR.TA.json"
+    },
     "PLUR.V": {
       "kind": "stock",
       "path": "stocks/PLUR.V.json"
@@ -412362,6 +414813,10 @@
       "isin": "US74365A3095",
       "kind": "stock",
       "path": "stocks/US74365A3095.json"
+    },
+    "PLX.PA": {
+      "kind": "stock",
+      "path": "stocks/PLX.PA.json"
     },
     "PLX.TA": {
       "isin": "US74365A3095",
@@ -412795,6 +415250,10 @@
       "kind": "stock",
       "path": "stocks/PMNT.json"
     },
+    "PMNT.TA": {
+      "kind": "stock",
+      "path": "stocks/PMNT.TA.json"
+    },
     "PMNXF": {
       "isin": "AU000000PRU3",
       "kind": "stock",
@@ -413049,6 +415508,10 @@
     "PMXX": {
       "kind": "stock",
       "path": "stocks/PMXX.json"
+    },
+    "PMZ-UN.TO": {
+      "kind": "stock",
+      "path": "stocks/PMZ-UN.TO.json"
     },
     "PN": {
       "kind": "stock",
@@ -413380,6 +415843,10 @@
       "isin": "CA50077N1024",
       "kind": "stock",
       "path": "stocks/CA50077N1024.json"
+    },
+    "PNGA.CN": {
+      "kind": "stock",
+      "path": "stocks/PNGA.CN.json"
     },
     "PNGAY": {
       "kind": "stock",
@@ -416721,6 +419188,10 @@
       "kind": "stock",
       "path": "stocks/PRME.json"
     },
+    "PRMG.TA": {
+      "kind": "stock",
+      "path": "stocks/PRMG.TA.json"
+    },
     "PRMI": {
       "kind": "stock",
       "path": "stocks/PRMI.json"
@@ -417474,10 +419945,18 @@
       "kind": "stock",
       "path": "stocks/DE000A2YN371.json"
     },
+    "PRY.MI": {
+      "kind": "stock",
+      "path": "stocks/PRY.MI.json"
+    },
     "PRY.MU": {
       "isin": "DE000A2YN371",
       "kind": "stock",
       "path": "stocks/DE000A2YN371.json"
+    },
+    "PRYME.OL": {
+      "kind": "stock",
+      "path": "stocks/PRYME.OL.json"
     },
     "PRYNF": {
       "kind": "stock",
@@ -419619,6 +422098,10 @@
       "kind": "stock",
       "path": "stocks/PUGE.json"
     },
+    "PUIG.MC": {
+      "kind": "stock",
+      "path": "stocks/PUIG.MC.json"
+    },
     "PUK": {
       "isin": "GB0007099541",
       "kind": "stock",
@@ -419681,6 +422164,10 @@
       "isin": "US74584P3010",
       "kind": "stock",
       "path": "stocks/US74584P3010.json"
+    },
+    "PULS.TA": {
+      "kind": "stock",
+      "path": "stocks/PULS.TA.json"
     },
     "PULSRIN.BO": {
       "kind": "stock",
@@ -420588,6 +423075,10 @@
       "kind": "stock",
       "path": "stocks/PWR.CN.json"
     },
+    "PWRL": {
+      "kind": "stock",
+      "path": "stocks/PWRL.json"
+    },
     "PWRMF": {
       "isin": "CA73929Q1072",
       "kind": "stock",
@@ -420694,6 +423185,10 @@
     "PX91.SG": {
       "kind": "stock",
       "path": "stocks/PX91.SG.json"
+    },
+    "PXA.AX": {
+      "kind": "stock",
+      "path": "stocks/PXA.AX.json"
     },
     "PXA.V": {
       "kind": "stock",
@@ -422647,6 +425142,10 @@
       "kind": "stock",
       "path": "stocks/US29977A1051.json"
     },
+    "QGL.AX": {
+      "kind": "stock",
+      "path": "stocks/QGL.AX.json"
+    },
     "QGLDF": {
       "kind": "stock",
       "path": "stocks/QGLDF.json"
@@ -423452,10 +425951,6 @@
     "QQ.L": {
       "kind": "stock",
       "path": "stocks/QQ.L.json"
-    },
-    "QQQ": {
-      "kind": "etf",
-      "path": "etfs/QQQ.json"
     },
     "QQQ210R-DC018.MX": {
       "kind": "stock",
@@ -424782,6 +427277,10 @@
     "R3I1.SG": {
       "kind": "stock",
       "path": "stocks/R3I1.SG.json"
+    },
+    "R3NK.DE": {
+      "kind": "stock",
+      "path": "stocks/R3NK.DE.json"
     },
     "R3Q.BE": {
       "isin": "NO0010112675",
@@ -428778,6 +431277,10 @@
       "kind": "stock",
       "path": "stocks/RECT.json"
     },
+    "RECT.BR": {
+      "kind": "stock",
+      "path": "stocks/RECT.BR.json"
+    },
     "RECT11.SA": {
       "kind": "stock",
       "path": "stocks/RECT11.SA.json"
@@ -428797,6 +431300,10 @@
     "RED.LS": {
       "kind": "stock",
       "path": "stocks/RED.LS.json"
+    },
+    "RED.MC": {
+      "kind": "stock",
+      "path": "stocks/RED.MC.json"
     },
     "REDD.L": {
       "kind": "stock",
@@ -428821,6 +431328,10 @@
     "REDINGTON.NS": {
       "kind": "stock",
       "path": "stocks/REDINGTON.NS.json"
+    },
+    "REDLD": {
+      "kind": "stock",
+      "path": "stocks/REDLD.json"
     },
     "REDU": {
       "kind": "stock",
@@ -429928,6 +432439,10 @@
       "kind": "stock",
       "path": "stocks/IT0005466963.json"
     },
+    "RFG.L": {
+      "kind": "stock",
+      "path": "stocks/RFG.L.json"
+    },
     "RFGPF": {
       "kind": "stock",
       "path": "stocks/RFGPF.json"
@@ -430190,6 +432705,10 @@
       "kind": "stock",
       "path": "stocks/RGA.json"
     },
+    "RGAS.TA": {
+      "kind": "stock",
+      "path": "stocks/RGAS.TA.json"
+    },
     "RGB.BE": {
       "kind": "stock",
       "path": "stocks/RGB.BE.json"
@@ -430376,6 +432895,10 @@
     "RGMP": {
       "kind": "stock",
       "path": "stocks/RGMP.json"
+    },
+    "RGN.AX": {
+      "kind": "stock",
+      "path": "stocks/RGN.AX.json"
     },
     "RGN.F": {
       "isin": "US7599161095",
@@ -431763,6 +434286,10 @@
       "kind": "stock",
       "path": "stocks/RIV.json"
     },
+    "RIV.AX": {
+      "kind": "stock",
+      "path": "stocks/RIV.AX.json"
+    },
     "RIV.L": {
       "kind": "stock",
       "path": "stocks/RIV.L.json"
@@ -432237,6 +434764,10 @@
       "kind": "stock",
       "path": "stocks/RKTE.json"
     },
+    "RKTO": {
+      "kind": "stock",
+      "path": "stocks/RKTO.json"
+    },
     "RKUNF": {
       "kind": "stock",
       "path": "stocks/RKUNF.json"
@@ -432382,6 +434913,10 @@
     "RLE.L": {
       "kind": "stock",
       "path": "stocks/RLE.L.json"
+    },
+    "RLF.AX": {
+      "kind": "stock",
+      "path": "stocks/RLF.AX.json"
     },
     "RLF.BE": {
       "isin": "KYG5635P1090",
@@ -433132,6 +435667,10 @@
     "RMRDF": {
       "kind": "stock",
       "path": "stocks/RMRDF.json"
+    },
+    "RMRHF": {
+      "kind": "stock",
+      "path": "stocks/RMRHF.json"
     },
     "RMRK": {
       "kind": "stock",
@@ -434249,6 +436788,10 @@
       "kind": "stock",
       "path": "stocks/ROK.V.json"
     },
+    "ROKO-B.ST": {
+      "kind": "stock",
+      "path": "stocks/ROKO-B.ST.json"
+    },
     "ROKU": {
       "isin": "US77543R1023",
       "kind": "stock",
@@ -434616,6 +437159,10 @@
       "kind": "stock",
       "path": "stocks/ES0157261019.json"
     },
+    "ROVI.VI": {
+      "kind": "stock",
+      "path": "stocks/ROVI.VI.json"
+    },
     "ROVIN.MX": {
       "isin": "ES0157261019",
       "kind": "stock",
@@ -434912,6 +437459,10 @@
       "kind": "stock",
       "path": "stocks/RPI-UN.TO.json"
     },
+    "RPI.L": {
+      "kind": "stock",
+      "path": "stocks/RPI.L.json"
+    },
     "RPID": {
       "kind": "stock",
       "path": "stocks/RPID.json"
@@ -434923,6 +437474,10 @@
     "RPKIF": {
       "kind": "stock",
       "path": "stocks/RPKIF.json"
+    },
+    "RPL.AX": {
+      "kind": "stock",
+      "path": "stocks/RPL.AX.json"
     },
     "RPL.BE": {
       "isin": "FI0009005987",
@@ -434985,6 +437540,10 @@
     "RPNRF": {
       "kind": "stock",
       "path": "stocks/RPNRF.json"
+    },
+    "RPOL.TA": {
+      "kind": "stock",
+      "path": "stocks/RPOL.TA.json"
     },
     "RPOWER.BO": {
       "kind": "stock",
@@ -435558,6 +438117,10 @@
       "kind": "stock",
       "path": "stocks/RS1.F.json"
     },
+    "RS1.L": {
+      "kind": "stock",
+      "path": "stocks/RS1.L.json"
+    },
     "RS1.MU": {
       "kind": "stock",
       "path": "stocks/RS1.MU.json"
@@ -435928,6 +438491,10 @@
     "RSRV": {
       "kind": "stock",
       "path": "stocks/RSRV.json"
+    },
+    "RSS.MC": {
+      "kind": "stock",
+      "path": "stocks/RSS.MC.json"
     },
     "RSS.V": {
       "kind": "stock",
@@ -437496,6 +440063,10 @@
       "kind": "stock",
       "path": "stocks/GB00BVFCZV34.json"
     },
+    "RWL.AX": {
+      "kind": "stock",
+      "path": "stocks/RWL.AX.json"
+    },
     "RWL.BE": {
       "kind": "stock",
       "path": "stocks/RWL.BE.json"
@@ -437632,6 +440203,10 @@
     "RWTQ": {
       "kind": "stock",
       "path": "stocks/RWTQ.json"
+    },
+    "RWTS": {
+      "kind": "stock",
+      "path": "stocks/RWTS.json"
     },
     "RWT^A": {
       "kind": "stock",
@@ -441706,8 +444281,9 @@
       "path": "stocks/SANCTRN.BO.json"
     },
     "SAND": {
+      "isin": "CA80013R2063",
       "kind": "stock",
-      "path": "stocks/SAND.json"
+      "path": "stocks/CA80013R2063.json"
     },
     "SAND.CN": {
       "kind": "stock",
@@ -443417,6 +445993,10 @@
       "kind": "stock",
       "path": "stocks/SBNK16-PRO.OL.json"
     },
+    "SBNOR.OL": {
+      "kind": "stock",
+      "path": "stocks/SBNOR.OL.json"
+    },
     "SBNY": {
       "kind": "stock",
       "path": "stocks/SBNY.json"
@@ -444274,6 +446854,10 @@
       "kind": "stock",
       "path": "stocks/SCDA.json"
     },
+    "SCDX.TA": {
+      "kind": "stock",
+      "path": "stocks/SCDX.TA.json"
+    },
     "SCE-PG": {
       "kind": "stock",
       "path": "stocks/SCE-PG.json"
@@ -444814,6 +447398,10 @@
       "isin": "CH0008742519",
       "kind": "stock",
       "path": "stocks/CH0008742519.json"
+    },
+    "SCMNZ.XC": {
+      "kind": "stock",
+      "path": "stocks/SCMNZ.XC.json"
     },
     "SCMWY": {
       "isin": "CH0008742519",
@@ -445425,6 +448013,10 @@
       "kind": "stock",
       "path": "stocks/SD1.F.json"
     },
+    "SD1.HM": {
+      "kind": "stock",
+      "path": "stocks/SD1.HM.json"
+    },
     "SD2.BE": {
       "kind": "stock",
       "path": "stocks/SD2.BE.json"
@@ -445723,6 +448315,10 @@
       "kind": "stock",
       "path": "stocks/SDIG.json"
     },
+    "SDIIF": {
+      "kind": "stock",
+      "path": "stocks/SDIIF.json"
+    },
     "SDIL11.SA": {
       "kind": "stock",
       "path": "stocks/SDIL11.SA.json"
@@ -445820,6 +448416,10 @@
     "SDPNF": {
       "kind": "stock",
       "path": "stocks/SDPNF.json"
+    },
+    "SDR.AX": {
+      "kind": "stock",
+      "path": "stocks/SDR.AX.json"
     },
     "SDR.L": {
       "isin": "GB00BP9LHF23",
@@ -446005,6 +448605,10 @@
       "isin": "GB0000163088",
       "kind": "stock",
       "path": "stocks/GB0000163088.json"
+    },
+    "SDZ.SW": {
+      "kind": "stock",
+      "path": "stocks/SDZ.SW.json"
     },
     "SE": {
       "isin": "CA87039X2086",
@@ -447692,6 +450296,10 @@
       "isin": "CH0406705126",
       "kind": "stock",
       "path": "stocks/CH0406705126.json"
+    },
+    "SENSZ.XC": {
+      "kind": "stock",
+      "path": "stocks/SENSZ.XC.json"
     },
     "SENX.L": {
       "kind": "stock",
@@ -449932,6 +452540,10 @@
     "SGRO.PA": {
       "kind": "stock",
       "path": "stocks/SGRO.PA.json"
+    },
+    "SGRON.MX": {
+      "kind": "stock",
+      "path": "stocks/SGRON.MX.json"
     },
     "SGRP": {
       "kind": "stock",
@@ -453770,6 +456382,10 @@
       "kind": "stock",
       "path": "stocks/SKAKO.CO.json"
     },
+    "SKAN.SW": {
+      "kind": "stock",
+      "path": "stocks/SKAN.SW.json"
+    },
     "SKAND.OL": {
       "kind": "stock",
       "path": "stocks/SKAND.OL.json"
@@ -455206,6 +457822,10 @@
     "SLRK": {
       "kind": "stock",
       "path": "stocks/SLRK.json"
+    },
+    "SLRM.TA": {
+      "kind": "stock",
+      "path": "stocks/SLRM.TA.json"
     },
     "SLRN": {
       "kind": "stock",
@@ -459625,6 +462245,14 @@
       "kind": "stock",
       "path": "stocks/SPAI.json"
     },
+    "SPAI.CN": {
+      "kind": "stock",
+      "path": "stocks/SPAI.CN.json"
+    },
+    "SPAIF": {
+      "kind": "stock",
+      "path": "stocks/SPAIF.json"
+    },
     "SPAL.BO": {
       "kind": "stock",
       "path": "stocks/SPAL.BO.json"
@@ -460077,6 +462705,10 @@
       "kind": "stock",
       "path": "stocks/SPG.CO.json"
     },
+    "SPG.DE": {
+      "kind": "stock",
+      "path": "stocks/SPG.DE.json"
+    },
     "SPG.JO": {
       "kind": "stock",
       "path": "stocks/SPG.JO.json"
@@ -460154,6 +462786,10 @@
     "SPH": {
       "kind": "stock",
       "path": "stocks/SPH.json"
+    },
+    "SPH.MC": {
+      "kind": "stock",
+      "path": "stocks/SPH.MC.json"
     },
     "SPH1.BE": {
       "isin": "JP3420600003",
@@ -462039,6 +464675,10 @@
       "kind": "stock",
       "path": "stocks/CA82967M1005.json"
     },
+    "SRBEF": {
+      "kind": "stock",
+      "path": "stocks/SRBEF.json"
+    },
     "SRBIF": {
       "kind": "stock",
       "path": "stocks/SRBIF.json"
@@ -463623,6 +466263,10 @@
       "kind": "stock",
       "path": "stocks/SSNC.json"
     },
+    "SSNLF": {
+      "kind": "stock",
+      "path": "stocks/SSNLF.json"
+    },
     "SSNT": {
       "kind": "stock",
       "path": "stocks/SSNT.json"
@@ -464504,6 +467148,10 @@
       "kind": "stock",
       "path": "stocks/STE.V.json"
     },
+    "STEAF": {
+      "kind": "stock",
+      "path": "stocks/STEAF.json"
+    },
     "STEAV.HE": {
       "isin": "FI0009005961",
       "kind": "stock",
@@ -464528,6 +467176,10 @@
     "STEC.TA": {
       "kind": "stock",
       "path": "stocks/STEC.TA.json"
+    },
+    "STECH.OL": {
+      "kind": "stock",
+      "path": "stocks/STECH.OL.json"
     },
     "STEELCAS.BO": {
       "kind": "stock",
@@ -465093,6 +467745,10 @@
       "kind": "stock",
       "path": "stocks/JP3402600005.json"
     },
+    "STMNZ.XC": {
+      "kind": "stock",
+      "path": "stocks/STMNZ.XC.json"
+    },
     "STMP": {
       "kind": "stock",
       "path": "stocks/STMP.json"
@@ -465216,6 +467872,10 @@
     "STOR": {
       "kind": "stock",
       "path": "stocks/STOR.json"
+    },
+    "STOR-B.ST": {
+      "kind": "stock",
+      "path": "stocks/STOR-B.ST.json"
     },
     "STOR.MX": {
       "kind": "stock",
@@ -465401,6 +468061,10 @@
     "STRF": {
       "kind": "stock",
       "path": "stocks/STRF.json"
+    },
+    "STRG.TA": {
+      "kind": "stock",
+      "path": "stocks/STRG.TA.json"
     },
     "STRGRENWO.BO": {
       "kind": "stock",
@@ -466574,6 +469238,10 @@
       "kind": "stock",
       "path": "stocks/SUNLOC.BO.json"
     },
+    "SUNN.SW": {
+      "kind": "stock",
+      "path": "stocks/SUNN.SW.json"
+    },
     "SUNN0000.CM": {
       "kind": "stock",
       "path": "stocks/SUNN0000.CM.json"
@@ -466666,6 +469334,10 @@
       "isin": "US86803X2045",
       "kind": "stock",
       "path": "stocks/US86803X2045.json"
+    },
+    "SUNWQ": {
+      "kind": "stock",
+      "path": "stocks/SUNWQ.json"
     },
     "SUO.F": {
       "kind": "stock",
@@ -466842,6 +469514,10 @@
       "isin": "DE0005176903",
       "kind": "stock",
       "path": "stocks/DE0005176903.json"
+    },
+    "SUR.CN": {
+      "kind": "stock",
+      "path": "stocks/SUR.CN.json"
     },
     "SUR.DE": {
       "isin": "DE0005176903",
@@ -467831,6 +470507,10 @@
       "kind": "stock",
       "path": "stocks/SVPLF.json"
     },
+    "SVR.AX": {
+      "kind": "stock",
+      "path": "stocks/SVR.AX.json"
+    },
     "SVR.NZ": {
       "kind": "stock",
       "path": "stocks/SVR.NZ.json"
@@ -467855,6 +470535,10 @@
     "SVROF": {
       "kind": "stock",
       "path": "stocks/SVROF.json"
+    },
+    "SVRT-M.TA": {
+      "kind": "stock",
+      "path": "stocks/SVRT-M.TA.json"
     },
     "SVRT.TA": {
       "kind": "stock",
@@ -468711,6 +471395,10 @@
       "kind": "stock",
       "path": "stocks/SWORDEDGE.BO.json"
     },
+    "SWP.AX": {
+      "kind": "stock",
+      "path": "stocks/SWP.AX.json"
+    },
     "SWP.PA": {
       "kind": "stock",
       "path": "stocks/SWP.PA.json"
@@ -468956,6 +471644,10 @@
     "SX.PA": {
       "kind": "stock",
       "path": "stocks/SX.PA.json"
+    },
+    "SX2.AX": {
+      "kind": "stock",
+      "path": "stocks/SX2.AX.json"
     },
     "SXC": {
       "kind": "stock",
@@ -469286,6 +471978,10 @@
     "SYDDF": {
       "kind": "stock",
       "path": "stocks/SYDDF.json"
+    },
+    "SYENS.BR": {
+      "kind": "stock",
+      "path": "stocks/SYENS.BR.json"
     },
     "SYEV": {
       "kind": "stock",
@@ -470865,6 +473561,10 @@
       "kind": "stock",
       "path": "stocks/T3X.BE.json"
     },
+    "T3Z.SG": {
+      "kind": "stock",
+      "path": "stocks/T3Z.SG.json"
+    },
     "T41.F": {
       "kind": "stock",
       "path": "stocks/T41.F.json"
@@ -472014,6 +474714,10 @@
       "isin": "US8740801043",
       "kind": "stock",
       "path": "stocks/US8740801043.json"
+    },
+    "TAL.AX": {
+      "kind": "stock",
+      "path": "stocks/TAL.AX.json"
     },
     "TAL.F": {
       "kind": "stock",
@@ -474914,6 +477618,10 @@
       "kind": "stock",
       "path": "stocks/DE0008303504.json"
     },
+    "TEGD.XC": {
+      "kind": "stock",
+      "path": "stocks/TEGD.XC.json"
+    },
     "TEGR": {
       "kind": "stock",
       "path": "stocks/TEGR.json"
@@ -477190,6 +479898,10 @@
       "kind": "stock",
       "path": "stocks/THEMISMED.NS.json"
     },
+    "THEON.AS": {
+      "kind": "stock",
+      "path": "stocks/THEON.AS.json"
+    },
     "THEP.PA": {
       "isin": "IE000V6NHO66",
       "kind": "stock",
@@ -477202,6 +479914,10 @@
     "THERMAX.NS": {
       "kind": "stock",
       "path": "stocks/THERMAX.NS.json"
+    },
+    "THES.TA": {
+      "kind": "stock",
+      "path": "stocks/THES.TA.json"
     },
     "THFF": {
       "kind": "stock",
@@ -479208,6 +481924,10 @@
       "kind": "stock",
       "path": "stocks/TKM1T.TL.json"
     },
+    "TKMS.DE": {
+      "kind": "stock",
+      "path": "stocks/TKMS.DE.json"
+    },
     "TKN-R.BK": {
       "kind": "stock",
       "path": "stocks/TKN-R.BK.json"
@@ -479322,6 +482042,10 @@
     "TKU.V": {
       "kind": "stock",
       "path": "stocks/TKU.V.json"
+    },
+    "TKUGF": {
+      "kind": "stock",
+      "path": "stocks/TKUGF.json"
     },
     "TKUMF": {
       "kind": "stock",
@@ -479473,6 +482197,10 @@
     "TLC": {
       "kind": "stock",
       "path": "stocks/TLC.json"
+    },
+    "TLC.AX": {
+      "kind": "stock",
+      "path": "stocks/TLC.AX.json"
     },
     "TLCC": {
       "kind": "stock",
@@ -481232,6 +483960,10 @@
     "TNGNQ": {
       "kind": "stock",
       "path": "stocks/TNGNQ.json"
+    },
+    "TNGRF": {
+      "kind": "stock",
+      "path": "stocks/TNGRF.json"
     },
     "TNGX": {
       "kind": "stock",
@@ -483136,6 +485868,10 @@
       "kind": "stock",
       "path": "stocks/TPROJECT.BO.json"
     },
+    "TPROM.XC": {
+      "kind": "stock",
+      "path": "stocks/TPROM.XC.json"
+    },
     "TPRP": {
       "kind": "stock",
       "path": "stocks/TPRP.json"
@@ -483743,6 +486479,10 @@
       "kind": "stock",
       "path": "stocks/TRA.NZ.json"
     },
+    "TRA.TA": {
+      "kind": "stock",
+      "path": "stocks/TRA.TA.json"
+    },
     "TRA.V": {
       "kind": "stock",
       "path": "stocks/TRA.V.json"
@@ -483950,6 +486690,10 @@
     "TRBO": {
       "kind": "stock",
       "path": "stocks/TRBO.json"
+    },
+    "TRBR.V": {
+      "kind": "stock",
+      "path": "stocks/TRBR.V.json"
     },
     "TRBX": {
       "kind": "stock",
@@ -484509,6 +487253,10 @@
       "kind": "stock",
       "path": "stocks/TRJA.JK.json"
     },
+    "TRK.WA": {
+      "kind": "stock",
+      "path": "stocks/TRK.WA.json"
+    },
     "TRKA": {
       "kind": "stock",
       "path": "stocks/TRKA.json"
@@ -484576,6 +487324,10 @@
     "TRLFF": {
       "kind": "stock",
       "path": "stocks/TRLFF.json"
+    },
+    "TRLT.TA": {
+      "kind": "stock",
+      "path": "stocks/TRLT.TA.json"
     },
     "TRM.AX": {
       "kind": "stock",
@@ -485114,6 +487866,10 @@
     "TRUE": {
       "kind": "stock",
       "path": "stocks/TRUE.json"
+    },
+    "TRUE-B.ST": {
+      "kind": "stock",
+      "path": "stocks/TRUE-B.ST.json"
     },
     "TRUE.BK": {
       "kind": "stock",
@@ -487595,6 +490351,10 @@
       "kind": "stock",
       "path": "stocks/TVAIU.json"
     },
+    "TVAVF": {
+      "kind": "stock",
+      "path": "stocks/TVAVF.json"
+    },
     "TVBCF": {
       "kind": "stock",
       "path": "stocks/TVBCF.json"
@@ -487652,6 +490412,10 @@
       "isin": "CA87505Y4094",
       "kind": "stock",
       "path": "stocks/CA87505Y4094.json"
+    },
+    "TVE1T.TL": {
+      "kind": "stock",
+      "path": "stocks/TVE1T.TL.json"
     },
     "TVEAT.TL": {
       "kind": "stock",
@@ -489064,6 +491828,10 @@
       "kind": "stock",
       "path": "stocks/TYU2.SG.json"
     },
+    "TYUM.CN": {
+      "kind": "stock",
+      "path": "stocks/TYUM.CN.json"
+    },
     "TYX.AX": {
       "kind": "stock",
       "path": "stocks/TYX.AX.json"
@@ -489169,6 +491937,10 @@
     "TZ8.SG": {
       "kind": "stock",
       "path": "stocks/TZ8.SG.json"
+    },
+    "TZ9.F": {
+      "kind": "stock",
+      "path": "stocks/TZ9.F.json"
     },
     "TZB5.BE": {
       "kind": "stock",
@@ -492698,6 +495470,10 @@
     "UMFG": {
       "kind": "stock",
       "path": "stocks/UMFG.json"
+    },
+    "UMG.AS": {
+      "kind": "stock",
+      "path": "stocks/UMG.AS.json"
     },
     "UMG.AX": {
       "kind": "stock",
@@ -500151,6 +502927,10 @@
       "kind": "stock",
       "path": "stocks/VAL.BO.json"
     },
+    "VAL.JO": {
+      "kind": "stock",
+      "path": "stocks/VAL.JO.json"
+    },
     "VAL.L": {
       "kind": "stock",
       "path": "stocks/VAL.L.json"
@@ -500817,6 +503597,10 @@
     "VBLT": {
       "kind": "stock",
       "path": "stocks/VBLT.json"
+    },
+    "VBNB": {
+      "kind": "stock",
+      "path": "stocks/VBNB.json"
     },
     "VBNK": {
       "kind": "stock",
@@ -501748,6 +504532,10 @@
       "kind": "stock",
       "path": "stocks/VEND.json"
     },
+    "VEND.OL": {
+      "kind": "stock",
+      "path": "stocks/VEND.OL.json"
+    },
     "VENI.CN": {
       "kind": "stock",
       "path": "stocks/VENI.CN.json"
@@ -501960,6 +504748,10 @@
       "kind": "stock",
       "path": "stocks/VESTL.IS.json"
     },
+    "VESTUM.ST": {
+      "kind": "stock",
+      "path": "stocks/VESTUM.ST.json"
+    },
     "VESUVIUS.BO": {
       "kind": "stock",
       "path": "stocks/VESUVIUS.BO.json"
@@ -502024,6 +504816,10 @@
       "isin": "CA9255401064",
       "kind": "stock",
       "path": "stocks/CA9255401064.json"
+    },
+    "VEZ.F": {
+      "kind": "stock",
+      "path": "stocks/VEZ.F.json"
     },
     "VFC": {
       "kind": "stock",
@@ -502289,6 +505085,10 @@
       "isin": "IE00BKX55T58",
       "kind": "stock",
       "path": "stocks/IE00BKX55T58.json"
+    },
+    "VGFCQ": {
+      "kind": "stock",
+      "path": "stocks/VGFCQ.json"
     },
     "VGG041JN1065.SG": {
       "isin": "VGG041JN1065",
@@ -503220,6 +506020,10 @@
       "kind": "stock",
       "path": "stocks/IT0004717200.json"
     },
+    "VIMIAN.ST": {
+      "kind": "stock",
+      "path": "stocks/VIMIAN.ST.json"
+    },
     "VIMTALABS.BO": {
       "kind": "stock",
       "path": "stocks/VIMTALABS.BO.json"
@@ -503452,6 +506256,10 @@
     "VIRI": {
       "kind": "stock",
       "path": "stocks/VIRI.json"
+    },
+    "VIRI.PA": {
+      "kind": "stock",
+      "path": "stocks/VIRI.PA.json"
     },
     "VIRINCHI.BO": {
       "kind": "stock",
@@ -504833,6 +507641,11 @@
       "kind": "stock",
       "path": "stocks/CA33833X1015.json"
     },
+    "VNQ": {
+      "isin": "US9229085538",
+      "kind": "etf",
+      "path": "etfs/US9229085538.json"
+    },
     "VNRFY": {
       "kind": "stock",
       "path": "stocks/VNRFY.json"
@@ -504848,6 +507661,10 @@
     "VNT-R.BK": {
       "kind": "stock",
       "path": "stocks/VNT-R.BK.json"
+    },
+    "VNT.AX": {
+      "kind": "stock",
+      "path": "stocks/VNT.AX.json"
     },
     "VNT.BK": {
       "kind": "stock",
@@ -505247,6 +508064,10 @@
       "kind": "stock",
       "path": "stocks/VOLCAN.SN.json"
     },
+    "VOLCAR-B.ST": {
+      "kind": "stock",
+      "path": "stocks/VOLCAR-B.ST.json"
+    },
     "VOLLF.BO": {
       "kind": "stock",
       "path": "stocks/VOLLF.BO.json"
@@ -505460,6 +508281,10 @@
     "VOTI.V": {
       "kind": "stock",
       "path": "stocks/VOTI.V.json"
+    },
+    "VOTR.F": {
+      "kind": "stock",
+      "path": "stocks/VOTR.F.json"
     },
     "VOTS11.SA": {
       "kind": "stock",
@@ -506119,6 +508944,10 @@
       "kind": "stock",
       "path": "stocks/VRDR.json"
     },
+    "VRDS.TA": {
+      "kind": "stock",
+      "path": "stocks/VRDS.TA.json"
+    },
     "VRDSF": {
       "kind": "stock",
       "path": "stocks/VRDSF.json"
@@ -506713,6 +509542,10 @@
       "kind": "stock",
       "path": "stocks/VSHO11.SA.json"
     },
+    "VSL.AX": {
+      "kind": "stock",
+      "path": "stocks/VSL.AX.json"
+    },
     "VSL.BE": {
       "isin": "AU000000DCC9",
       "kind": "stock",
@@ -506938,6 +509771,10 @@
     "VSU.F": {
       "kind": "stock",
       "path": "stocks/VSU.F.json"
+    },
+    "VSURE.ST": {
+      "kind": "stock",
+      "path": "stocks/VSURE.ST.json"
     },
     "VSVS.L": {
       "kind": "stock",
@@ -508892,6 +511729,10 @@
       "kind": "stock",
       "path": "stocks/W8Z0.F.json"
     },
+    "W92.F": {
+      "kind": "stock",
+      "path": "stocks/W92.F.json"
+    },
     "W9C.BE": {
       "isin": "CA21037X1006",
       "kind": "stock",
@@ -510841,6 +513682,10 @@
       "kind": "stock",
       "path": "stocks/GB0009465807.json"
     },
+    "WEGYF": {
+      "kind": "stock",
+      "path": "stocks/WEGYF.json"
+    },
     "WEGZY": {
       "kind": "stock",
       "path": "stocks/WEGZY.json"
@@ -512593,6 +515438,10 @@
       "kind": "stock",
       "path": "stocks/WILD.TO.json"
     },
+    "WILK.TA": {
+      "kind": "stock",
+      "path": "stocks/WILK.TA.json"
+    },
     "WILLAMAGOR.BO": {
       "kind": "stock",
       "path": "stocks/WILLAMAGOR.BO.json"
@@ -512893,6 +515742,10 @@
       "isin": "US86633R3021",
       "kind": "stock",
       "path": "stocks/US86633R3021.json"
+    },
+    "WISE.L": {
+      "kind": "stock",
+      "path": "stocks/WISE.L.json"
     },
     "WISE.ST": {
       "kind": "stock",
@@ -515759,6 +518612,10 @@
       "kind": "stock",
       "path": "stocks/WTMAU.json"
     },
+    "WTN.AX": {
+      "kind": "stock",
+      "path": "stocks/WTN.AX.json"
+    },
     "WTNW": {
       "kind": "stock",
       "path": "stocks/WTNW.json"
@@ -516378,6 +519235,10 @@
       "isin": "CA9411881043",
       "kind": "stock",
       "path": "stocks/CA9411881043.json"
+    },
+    "WWTIF": {
+      "kind": "stock",
+      "path": "stocks/WWTIF.json"
     },
     "WWU.BE": {
       "kind": "stock",
@@ -517531,11 +520392,6 @@
       "kind": "stock",
       "path": "stocks/XBC.TO.json"
     },
-    "XBI": {
-      "isin": "US78464A8707",
-      "kind": "etf",
-      "path": "etfs/US78464A8707.json"
-    },
     "XBIO": {
       "kind": "stock",
       "path": "stocks/XBIO.json"
@@ -517730,6 +520586,10 @@
     "XCF.SI": {
       "kind": "stock",
       "path": "stocks/XCF.SI.json"
+    },
+    "XCFT": {
+      "kind": "stock",
+      "path": "stocks/XCFT.json"
     },
     "XCH": {
       "kind": "stock",
@@ -518671,11 +521531,6 @@
       "kind": "stock",
       "path": "stocks/AU000000LRS6.json"
     },
-    "XLE": {
-      "isin": "US81369Y5069",
-      "kind": "etf",
-      "path": "etfs/US81369Y5069.json"
-    },
     "XLE1.F": {
       "kind": "stock",
       "path": "stocks/XLE1.F.json"
@@ -518687,11 +521542,6 @@
     "XLEFF": {
       "kind": "stock",
       "path": "stocks/XLEFF.json"
-    },
-    "XLF": {
-      "isin": "US81369Y6059",
-      "kind": "etf",
-      "path": "etfs/US81369Y6059.json"
     },
     "XLF.BE": {
       "kind": "stock",
@@ -518708,16 +521558,6 @@
     "XLF.MU": {
       "kind": "stock",
       "path": "stocks/XLF.MU.json"
-    },
-    "XLI": {
-      "isin": "US81369Y7040",
-      "kind": "etf",
-      "path": "etfs/US81369Y7040.json"
-    },
-    "XLK": {
-      "isin": "US81369Y8030",
-      "kind": "etf",
-      "path": "etfs/US81369Y8030.json"
     },
     "XLM.L": {
       "kind": "stock",
@@ -518746,11 +521586,6 @@
     "XLO": {
       "kind": "stock",
       "path": "stocks/XLO.json"
-    },
-    "XLP": {
-      "isin": "US81369Y3080",
-      "kind": "etf",
-      "path": "etfs/US81369Y3080.json"
     },
     "XLPI": {
       "kind": "stock",
@@ -518788,19 +521623,9 @@
       "kind": "stock",
       "path": "stocks/XLTD.json"
     },
-    "XLV": {
-      "isin": "US81369Y2090",
-      "kind": "etf",
-      "path": "etfs/US81369Y2090.json"
-    },
     "XLWH": {
       "kind": "stock",
       "path": "stocks/XLWH.json"
-    },
-    "XLY": {
-      "isin": "US81369Y4070",
-      "kind": "etf",
-      "path": "etfs/US81369Y4070.json"
     },
     "XLY.TO": {
       "isin": "CA05335P1099",
@@ -519008,6 +521833,10 @@
     "XOM": {
       "kind": "stock",
       "path": "stocks/XOM.json"
+    },
+    "XOM-B.ST": {
+      "kind": "stock",
+      "path": "stocks/XOM-B.ST.json"
     },
     "XOM-U.TI": {
       "kind": "stock",
@@ -520385,6 +523214,10 @@
     "XT3B.SG": {
       "kind": "stock",
       "path": "stocks/XT3B.SG.json"
+    },
+    "XTB.WA": {
+      "kind": "stock",
+      "path": "stocks/XTB.WA.json"
     },
     "XTC.AX": {
       "kind": "stock",
@@ -522073,6 +524906,10 @@
       "kind": "stock",
       "path": "stocks/YIPI.json"
     },
+    "YIPS.MC": {
+      "kind": "stock",
+      "path": "stocks/YIPS.MC.json"
+    },
     "YIQG.BE": {
       "kind": "stock",
       "path": "stocks/YIQG.BE.json"
@@ -522236,6 +525073,10 @@
     "YKSLN.IS": {
       "kind": "stock",
       "path": "stocks/YKSLN.IS.json"
+    },
+    "YKTS.MC": {
+      "kind": "stock",
+      "path": "stocks/YKTS.MC.json"
     },
     "YLG.SG": {
       "kind": "stock",
@@ -523158,6 +525999,10 @@
       "kind": "stock",
       "path": "stocks/YTEN.json"
     },
+    "YTENQ": {
+      "kind": "stock",
+      "path": "stocks/YTENQ.json"
+    },
     "YTESTQFTACHYON": {
       "kind": "stock",
       "path": "stocks/YTESTQFTACHYON.json"
@@ -523821,6 +526666,10 @@
       "kind": "stock",
       "path": "stocks/NO0010073489.json"
     },
+    "Z8M.F": {
+      "kind": "stock",
+      "path": "stocks/Z8M.F.json"
+    },
     "ZA0.BE": {
       "kind": "stock",
       "path": "stocks/ZA0.BE.json"
@@ -523844,6 +526693,10 @@
     "ZAAG": {
       "kind": "stock",
       "path": "stocks/ZAAG.json"
+    },
+    "ZAB.WA": {
+      "kind": "stock",
+      "path": "stocks/ZAB.WA.json"
     },
     "ZAC.V": {
       "isin": "CA9888161044",
@@ -523971,6 +526824,10 @@
       "isin": "NO0010713936",
       "kind": "stock",
       "path": "stocks/NO0010713936.json"
+    },
+    "ZAP.WA": {
+      "kind": "stock",
+      "path": "stocks/ZAP.WA.json"
     },
     "ZAPLOX-BTU.ST": {
       "kind": "stock",
@@ -524582,6 +527439,10 @@
       "kind": "stock",
       "path": "stocks/ZEV.json"
     },
+    "ZEVY": {
+      "kind": "stock",
+      "path": "stocks/ZEVY.json"
+    },
     "ZFI1.BE": {
       "kind": "stock",
       "path": "stocks/ZFI1.BE.json"
@@ -524822,6 +527683,10 @@
     "ZICX": {
       "kind": "stock",
       "path": "stocks/ZICX.json"
+    },
+    "ZIG.L": {
+      "kind": "stock",
+      "path": "stocks/ZIG.L.json"
     },
     "ZIGA-R.BK": {
       "kind": "stock",
@@ -525738,6 +528603,10 @@
     "ZPPOLYSA.BO": {
       "kind": "stock",
       "path": "stocks/ZPPOLYSA.BO.json"
+    },
+    "ZPRS.TA": {
+      "kind": "stock",
+      "path": "stocks/ZPRS.TA.json"
     },
     "ZPRVF": {
       "kind": "stock",
