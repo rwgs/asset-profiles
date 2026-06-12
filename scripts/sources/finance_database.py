@@ -1,4 +1,4 @@
-"""FinanceDatabase loader — pulls equities.csv / etfs.csv from
+"""FinanceDatabase loader — pulls equities / etfs data from
 JerBouma/FinanceDatabase (MIT) and yields normalized rows.
 """
 
@@ -18,10 +18,10 @@ log = logging.getLogger(__name__)
 # Raw GitHub URLs. We pin to `main` for the weekly cadence — if upstream
 # breaks the schema this is the place we'll notice first.
 EQUITIES_CSV_URL = (
-    "https://raw.githubusercontent.com/JerBouma/FinanceDatabase/main/database/equities.csv"
+    "https://raw.githubusercontent.com/JerBouma/FinanceDatabase/main/compression/equities.bz2"
 )
 ETFS_CSV_URL = (
-    "https://raw.githubusercontent.com/JerBouma/FinanceDatabase/main/database/etfs.csv"
+    "https://raw.githubusercontent.com/JerBouma/FinanceDatabase/main/compression/etfs.bz2"
 )
 SOURCE_REPO_URL = "https://github.com/JerBouma/FinanceDatabase"
 
@@ -35,8 +35,14 @@ class FinanceDatabaseSource:
 
 def _fetch_csv(url: str) -> pd.DataFrame:
     log.info("fetching %s", url)
-    body = default_http().get(url, accept="text/csv")
-    df = pd.read_csv(io.BytesIO(body), dtype=str, keep_default_na=False, na_values=[""])
+    body = default_http().get(url)
+    df = pd.read_csv(
+        io.BytesIO(body),
+        compression="bz2",
+        dtype=str,
+        keep_default_na=False,
+        na_values=[""],
+    )
     log.info("loaded %d rows from %s", len(df), url.rsplit("/", 1)[-1])
     return df
 
