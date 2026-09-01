@@ -154,7 +154,7 @@ def build_etfs(
 
         try:
             if cik:
-                holdings = edgar.fetch_latest_nport(cik)
+                holdings = edgar.fetch_latest_nport(cik, ticker=ticker)
                 source_label = "SEC EDGAR N-PORT"
                 source_url = f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}"
                 license_label = "public domain"
