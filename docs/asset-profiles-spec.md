@@ -130,6 +130,10 @@ This is a hard requirement — supports takedowns and audit.
 - Multiple symbol variants can point to the same path (cross-listings).
 - Filenames prefer ISIN when known, fall back to symbol-only (US-listed
   primary) — the index abstracts this from clients.
+- A key whose first dot-separated component is a DOS device name (`CON`,
+  `PRN`, `AUX`, `NUL`, `COM0`-`COM9`, `LPT0`-`LPT9`) takes a trailing `_` on
+  that component, so `CON.DE` is stored as `CON_.DE.json`. Without this,
+  Windows cannot check the repository out at all.
 - Both `symbols` and `isins` indexes — clients can resolve from either.
 
 ### 5.2 `stocks/{key}.json`
@@ -282,6 +286,7 @@ asset-profiles/
 1. **Canonical key** for a profile record = ISIN if present, else
    `{primary_symbol}` (US listing assumed primary).
 2. **Filename** = `{key}.json`. Multiple symbols → one file via index.
+   Keys colliding with a DOS device name are escaped (see 5.1).
 3. **Cross-listings of the same share class** share one file (same ISIN).
 4. **Different share classes** = different files (different ISINs).
 5. **ADRs and underlying** = different files (different ISINs), but

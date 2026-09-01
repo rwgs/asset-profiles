@@ -19,6 +19,9 @@ The filename **must** match the record's `shard_key`:
 
 - For stocks/ETFs with an ISIN: `{ISIN}.json` (e.g. `US0378331005.json`)
 - Otherwise: `{primary_symbol}.json` (e.g. `AAPL.json`)
+- If that key's first dot-separated component is a DOS device name (`CON`,
+  `PRN`, `AUX`, `NUL`, `COM0`-`COM9`, `LPT0`-`LPT9`) it carries a trailing
+  `_`: `CON_.json`, `CON_.DE.json`
 
 If you're unsure which key applies, check the path that
 `v1/index.json` resolves to.

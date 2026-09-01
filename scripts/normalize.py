@@ -7,7 +7,7 @@ Two main entry points:
 
 Plus helpers:
 
-  - shard_key(record): ISIN if present, else primary_symbol
+  - shard_key(record): ISIN if present, else primary_symbol, device-name safe
   - group_cross_listings(stocks): merge same-ISIN stock rows into one
   - apply_overrides(record, overrides_dir): deep-merge per-record patch
 """
@@ -215,9 +215,35 @@ def normalize_stock(
     return _strip_empty(record)
 
 
+# Windows resolves any filename whose component before the first dot is a DOS
+# device name to that device, so `CON.DE.json` is the console rather than a
+# file and checkout of the whole repository fails there. Escaping the leading
+# component avoids it; no ISIN or symbol upstream contains `_`, which keeps the
+# escaped key collision-free.
+RESERVED_DEVICE_NAMES = frozenset(
+    ["CON", "PRN", "AUX", "NUL"]
+    + [f"COM{i}" for i in range(10)]
+    + [f"LPT{i}" for i in range(10)]
+)
+
+
 def shard_key(record: dict) -> str:
-    """Filename stem: ISIN if known, else primary symbol."""
-    return record.get("isin") or record["primary_symbol"]
+    """Filename stem: ISIN if known, else primary symbol.
+
+    Share-class symbols carry a `/` (`BRK/A`) that the build writes as a nested
+    path, so each component is escaped separately. A component colliding with a
+    DOS device name takes a trailing `_` on its first dot-separated part:
+    `CON` -> `CON_`, `CON.DE` -> `CON_.DE`, `CON/A` -> `CON_/A`.
+    """
+    key = record.get("isin") or record["primary_symbol"]
+    return "/".join(_escape_device_name(part) for part in key.split("/"))
+
+
+def _escape_device_name(component: str) -> str:
+    head, dot, rest = component.partition(".")
+    if head.upper() in RESERVED_DEVICE_NAMES:
+        return f"{head}_{dot}{rest}"
+    return component
 
 
 def group_cross_listings(stocks: Iterable[dict]) -> list[dict]:
