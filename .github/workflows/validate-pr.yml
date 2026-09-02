@@ -30,5 +30,8 @@ jobs:
       - name: Install dependencies
         run: uv pip install --system -r scripts/requirements.txt
 
+      - name: Run tests
+        run: python -m pytest scripts/tests
+
       - name: Validate v1/
         run: python scripts/validate.py v1/

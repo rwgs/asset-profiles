@@ -49,6 +49,7 @@ The build code lives in `scripts/`. Run locally with:
 
 ```bash
 uv pip install -r scripts/requirements.txt
+python -m pytest scripts/tests
 SEC_USER_AGENT="dev-name dev@example.com" python scripts/build.py
 python scripts/validate.py v1/
 ```
@@ -72,9 +73,10 @@ PRs welcome for:
 
 ## PR validation
 
-`.github/workflows/validate-pr.yml` runs `python scripts/validate.py v1/`
-on every PR. It checks JSON Schema conformance, weight-sum invariants,
-and index consistency. Make sure it passes locally before pushing.
+`.github/workflows/validate-pr.yml` runs `python -m pytest scripts/tests` and then
+`python scripts/validate.py v1/` on every PR. The tests cover the normalizer
+and the validator; the validator checks JSON Schema conformance, weight-sum
+invariants, and index consistency. Make sure both pass locally before pushing.
 
 ## License
 
