@@ -48,10 +48,11 @@ everything else.
 4. **#5 is independent** of all of the above.
 5. **#7 conflicts with nothing**, sharing no file with #1, #2, #3, or #6, and
    touching `CONTRIBUTING.md` in a different section from #5. But it is not
-   order-free: it carries two `xfail(strict=True)` cases over the `CON` keys,
-   so whichever of #5 and #7 lands second needs the other's state accounted
-   for. Landing #7 first turns #5's next CI run red until #5 flips them to
-   plain assertions, which is two lines and is the marker doing its job.
+   order-free, and the interaction with #5 is **symmetric**: #7 carries two
+   `xfail(strict=True)` cases over the `CON` keys, so whichever of the two
+   merges second sees them reported as unexpected passes and needs them turned
+   into plain assertions in its own branch first. Two lines either way, and the
+   marker doing its job. Recorded on both PRs.
 
 ## Current phase
 
@@ -142,8 +143,16 @@ is smaller than it looks: T3, T4, and T6, none of them blocked.
     contract.
   - Automated validation: none has run. See P1 -- the PR reports
     `no checks reported`. #7 carries two `xfail(strict=True)` cases over `CON`
-    and `CON.DE`, so once #7 merges, #5's own CI run reports them as unexpected
-    passes. Turning them into plain assertions is two lines and belongs to #5.
+    and `CON.DE`, so whichever of #5 and #7 merges second reports them as
+    unexpected passes and owns turning them into plain assertions. Two lines.
+  - Owed on merge, and larger than that flip: **#5's stated test coverage is
+    not in the tree.** Its description reports 16 `shard_key` cases and a
+    `validate_shard_names` fixture, but its diff adds no test file, so nothing
+    re-runs any of it. #7 gives them a home, so committing them alongside the
+    xfail flip is what makes the claim in #5's description true. This matters
+    more here than elsewhere: 83,764 of 98,489 shards take their filename
+    straight from an upstream ticker refreshed weekly, so the next `PRN` or
+    `COM1` listing is a data event rather than a code change.
   - Manual validation owed on merge: `git clone` on Windows with default
     `core.protectNTFS`, which is the case that cannot be tested on the CI
     runner.
