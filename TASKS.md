@@ -88,21 +88,6 @@ smaller than it looks.
     failed and the inactivity disable is why it no longer runs, and #1 alone
     will not bring it back.
 
-- [ ] **T1.** Add a test harness and run it in CI.
-  - Scope: `pytest` in `scripts/requirements.txt`, tests under `scripts/tests/`,
-    a `pytest` step in `.github/workflows/validate-pr.yml`. Cover
-    `normalize.shard_key`, `_aggregate_weights`, `apply_overrides`, and
-    `validate.validate_record` against a fixture record. No production code
-    changes in this task.
-  - Acceptance criteria: `pytest scripts/tests` passes locally and in CI on a
-    fresh clone; a deliberately broken fixture fails it; `AGENTS.md` gains the
-    real command in place of its note that none exists.
-  - Automated validation: the suite itself, plus a red-then-green check that CI
-    actually fails when a test fails.
-  - Manual validation: none needed.
-  - Dependencies or blockers: none. This is the prerequisite for T2 to T4, which
-    are otherwise unprovable.
-
 - [~] **T2.** Escape DOS device names in shard filenames.
   **Submitted as [#5](https://github.com/wealthfolio/asset-profiles/pull/5),
   2026-09-01. Awaiting CI approval (P1) and review.**
@@ -120,7 +105,10 @@ smaller than it looks.
     consumers see no change, since filenames are not part of the client
     contract.
   - Automated validation: none has run. See P1 -- the PR reports
-    `no checks reported`.
+    `no checks reported`. T1's suite now carries two `xfail(strict=True)` cases
+    over `CON` and `CON.DE`, so once #5 is rebased on a `main` holding the
+    harness, its own CI run reports them as unexpected passes. Turning them
+    into plain assertions belongs to #5.
   - Manual validation owed on merge: `git clone` on Windows with default
     `core.protectNTFS`, which is the case that cannot be tested on the CI
     runner.
@@ -149,11 +137,14 @@ smaller than it looks.
     neither record is lost.
   - Automated validation: tests over `BRK/A`, `BF/A`, `AKO/B`, `RAC/WS`,
     `BIO/B`, plus a collision case and a regression case asserting
-    `US0378331005`, `AAPL`, `BRK-A`, and `CON_.DE` are unchanged.
+    `US0378331005`, `AAPL`, `BRK-A`, and `CON_.DE` are unchanged. T1 already
+    wrote the first five as `xfail(strict=True)`, asserting only that the
+    result holds no separator; this task turns them into plain assertions on
+    the exact expected key and adds the rest.
   - Manual validation: `python scripts/build.py --limit 2000 --out ./probe`,
     then confirm `probe/stocks/` contains no directories.
-  - Dependencies or blockers: T1, and #5 -- building this before #5 merges
-    means resolving the same function twice. `PLAN.md` holds the approach and
+  - Dependencies or blockers: #5 -- building this before #5 merges means
+    resolving the same function twice. `PLAN.md` holds the approach and
     the measurement that rules out the obvious escape character.
   - Evidence: 9 directories holding 13 records exist under `v1/stocks/`
     (`AKO`, `BF`, `BIO`, `BRK`, `CRD`, `HEI`, `HVT`, `RAC`, `WSO`). All 13 are
@@ -204,7 +195,7 @@ smaller than it looks.
     allows.
   - Manual validation: run the validator on Windows in a plain console with no
     environment overrides.
-  - Dependencies or blockers: T1.
+  - Dependencies or blockers: none; T1 landed the harness.
   - Evidence: reading a random 4,000-shard sample raised
     `UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f`, and printing
     an index error raised `UnicodeEncodeError` on the arrow the validator puts
@@ -227,14 +218,35 @@ smaller than it looks.
     a nested shard, and a count mismatch.
   - Manual validation: `python scripts/validate.py v1/` and confirm the nested
     records now appear in the report.
-  - Dependencies or blockers: T1. Lands before T2 or after it, but the report it
-    produces is what proves T2 worked.
+  - Dependencies or blockers: none; T1 landed the harness. Lands before T2 or
+    after it, but the report it produces is what proves T2 worked.
   - Evidence: `counts.stocks` is 98,464; `index.json` names 98,463 distinct
     stock paths; 98,462 `.json` files sit directly under `v1/stocks/` and 13
     more sit one level down. Three numbers, four values, and the current
     validator reports only the one mismatch it happens to check. The
     record-to-path gap of one is unexplained and this task is where it gets
     identified.
+
+- [ ] **T8.** Decide what to do about the numpy ceiling `etf-scraper` drags in.
+  - Scope: `etf-scraper>=0.1.2` requires `numpy<2.0`, which publishes no wheel
+    for Python 3.13, so `uv pip install -r scripts/requirements.txt` tries to
+    compile numpy from source and fails on any host without a C toolchain.
+    Choose between pinning the project to 3.12, replacing the dependency with
+    direct issuer fetches through `http_cache`, and carrying it as an optional
+    extra. Raised while doing T1 rather than acted on: it settles a dependency
+    question, so ask first.
+  - Acceptance criteria: the documented setup command succeeds on the current
+    stable Python, or the documentation names the version it requires and why.
+  - Automated validation: the CI install step, run on both 3.12 and 3.13.
+  - Manual validation: a clean `uv venv` and install on Windows.
+  - Dependencies or blockers: none, and it blocks nothing. The tests do not
+    import it and neither does the stocks pass.
+  - Evidence: measured 2026-09-02 on Python 3.13.9, Windows. `pip install
+    etf-scraper` resolves `numpy<2.0` and dies in meson looking for a compiler.
+    CI is unaffected -- it pins 3.12, where numpy 1.26 has a wheel -- which is
+    why nine failing scheduled runs never reported it. `issuer_scraper.py` is
+    the only importer, it imports lazily inside the fetch function, and it is
+    the non-US fallback that produces no records at all today.
 
 - [ ] **T5.** Rebuild `v1/` with repaired keys and retire the nested shards.
   - Scope: one commit containing only regenerated data, after T6, T3, and T4
@@ -388,6 +400,23 @@ that leaves, rather than marking incomplete work done.
   - Ran on 2026-05-09, 05-10, 05-17, 05-24, and 05-31, then stopped. 13 weeks
     with no refresh as of 2026-09-02, against a published `next_refresh_at` of
     2026-06-07. Reopened as Phase 4.
+- [x] **T1.** Add a test harness and run it in CI. 2026-09-02.
+  - `pytest>=8.0` in `scripts/requirements.txt`, 37 tests under
+    `scripts/tests/`, and a `pytest scripts/tests` step in `validate-pr.yml`
+    ahead of the validator, so a failure surfaces in seconds rather than after
+    the minute `v1/` takes. No production code changed.
+  - Validation: 30 passed and 7 xfailed on Python 3.13.9 on Windows.
+    Red-then-green checked twice, and neither temporary change was kept: a
+    fixture edited to make `sector_weights` sum to 1.5 failed three tests, and a
+    simulated `shard_key` fix turned six of the seven strict xfails into
+    reported unexpected passes -- including catching that the simulation escaped
+    `CON.DE` to `CON.DE_` rather than `CON_.DE`, which is the wrong fix.
+  - Validation skipped: the CI step itself has never run, for the same reason
+    P1 exists, so `pytest` resolving from `scripts/requirements.txt` on the
+    runner is unproven. The risk that leaves is a green local suite and a red
+    first CI run. Locally the suite ran against `pytest`, `jsonschema`,
+    `pycountry`, and `pyyaml` installed on their own, because the full
+    requirements do not install on this host -- see T8.
 - [x] Populate the planning documents from the repository as it stands, and
   record the cross-repository work `wealthfolio-dev` needs. 2026-09-02.
   - Validation: every claim in `AGENTS.md`, `SPEC.md`, `ROADMAP.md`, and this

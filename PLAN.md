@@ -146,10 +146,13 @@ for 13 records nothing can currently read anyway.
 
 ## Verification
 
-**Automated**, in the `pytest` harness T1 adds:
+**Automated**, in the `pytest` harness under `scripts/tests/`:
 
 - `shard_key` over each observed separator key -- `BRK/A`, `BF/A`, `AKO/B`,
   `RAC/WS`, `BIO/B` -- asserting the exact expected output contains no `/`.
+  These five already exist as `xfail(strict=True)`, asserting only the absence
+  of a separator, so this change tightens them to the expected key and drops
+  the marker.
 - `shard_key` over `CON`, `CON.DE`, and `CON/A`, asserting #5's device escaping
   still applies and composes with this one: `CON_`, `CON_.DE`, `CON__A`.
   Catches a change that replaces #5's rule instead of extending it, which is

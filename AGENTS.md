@@ -59,9 +59,9 @@ across about 98,000 files, so glob it rather than reading it whole, and expect
 
 Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
 `scripts/requirements.txt` and installed with `uv`. Targets are GitHub Actions
-`ubuntu-latest` for the build and jsDelivr for delivery. There is no test
-suite, formatter, linter, or type checker configured; `validate.py` is the only
-automated check that exists.
+`ubuntu-latest` for the build and jsDelivr for delivery. `pytest` covers the
+normalizer and the validator; there is no formatter, linter, or type checker
+configured.
 
 Windows is a supported development host and the pipeline is not safe on it.
 `git clone` fails outright with `invalid path 'v1/stocks/CON.DE.json'` and,
@@ -118,9 +118,11 @@ PR #5 fixes the first; the second is unfixed. See `TASKS.md`.
 
 ## Commands
 
-Set up. Python 3.12 or newer, with `uv` on PATH. `uv pip install` needs either
-an active virtualenv or `--system`; the bare command in `README.md` and
-`CONTRIBUTING.md` fails without one.
+Set up. Python 3.12, with `uv` on PATH. `uv pip install` needs either an active
+virtualenv or `--system`; the bare command in `README.md` and `CONTRIBUTING.md`
+fails without one. Not 3.13: `etf-scraper` pins `numpy<2.0`, which has no wheel
+for 3.13, so the install tries to compile numpy from source and fails. The
+tests import neither and run anywhere.
 
 ```bash
 uv venv
@@ -150,8 +152,20 @@ named in the index and absent from the tree.
 PYTHONUTF8=1 PYTHONIOENCODING=utf-8 python scripts/validate.py v1/
 ```
 
-There is no `test`, `lint`, `fmt`, or `typecheck` command. Do not invent one
-inside a change that needs it; adding the harness is its own task.
+Test. Fast, and it needs only `pycountry` and `jsonschema` from the
+requirements, so it runs where a full install does not.
+
+```bash
+python -m pytest scripts/tests
+```
+
+A `shard_key` case marked `xfail(strict=True)` is a defect the suite knows
+about and the code has not fixed yet. When the fix lands, pytest reports it as
+an unexpected pass: turn it into a plain assertion in the same change rather
+than dropping the marker.
+
+There is no `lint`, `fmt`, or `typecheck` command. Do not invent one inside a
+change that needs it; adding the harness is its own task.
 
 `validate-pr.yml` is gated behind maintainer approval for fork pull requests and
 has never run against any of the five open ones, so assume a proposed change has
@@ -159,10 +173,10 @@ been reviewed and not checked.
 
 ## Validation
 
-- Run the focused check while implementing: `validate.py` against a small
-  `--out` tree, not against `v1/`.
+- Run the focused check while implementing: `python -m pytest scripts/tests`,
+  and `validate.py` against a small `--out` tree rather than against `v1/`.
 - Run the complete required local gate before reporting done:
-  `python scripts/validate.py v1/`.
+  `python -m pytest scripts/tests` and `python scripts/validate.py v1/`.
 - Inspect the final status and diff, and confirm every changed line traces to
   something the task asked for.
 - Verify visible behavior by reading the shard the change was meant to affect
