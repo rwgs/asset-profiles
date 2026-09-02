@@ -12,8 +12,8 @@ there, not from zero. Phases 1 to 4 land in this repository; Phase 5 lands in
 `wealthfolio-dev` and is tracked here because it is the outcome this dataset
 exists to enable.
 
-Five pull requests are open upstream and they already carry parts of Phases 1,
-2, and 4 -- including Phase 2's headline exit criterion. None has been through
+Six pull requests are open upstream and they already carry parts of Phases 1,
+2, and 4 -- including Phase 2's headline exit criterion and the test harness. None has been through
 CI, because fork PRs are gated behind approval that has never been given. So
 the first thing on this roadmap is not code: it is letting the checks run and
 merging what is already written. See the pull-requests section of `TASKS.md`

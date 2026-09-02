@@ -10,20 +10,21 @@ number here once the pipeline has run again.
 
 ## Pull requests
 
-Five are open against `wealthfolio/asset-profiles`, all from forks, and they
+Six are open against `wealthfolio/asset-profiles`, all from forks, and they
 cover a large part of Phases 1, 2, and 4. Read this before starting anything
-below: three of the tasks in this file are already written and waiting.
+below: four of the tasks in this file are already written and waiting.
 
 | PR | What it does | Author | Opened | State |
 | --- | --- | --- | --- | --- |
+| [#7](https://github.com/wealthfolio/asset-profiles/pull/7) | Add a pytest harness and run it in CI | rwgs | 2026-09-02 | Open, CI never ran |
 | [#6](https://github.com/wealthfolio/asset-profiles/pull/6) | Resolve N-PORT by fund series, not filer CIK | rwgs | 2026-09-01 | Open, CI never ran |
 | [#5](https://github.com/wealthfolio/asset-profiles/pull/5) | Escape DOS device names in shard filenames | rwgs | 2026-09-01 | Open, CI never ran |
 | [#3](https://github.com/wealthfolio/asset-profiles/pull/3) | Correct four wrong CIKs in the universe | bjmc | 2026-06-12 | Open, CI never ran |
 | [#2](https://github.com/wealthfolio/asset-profiles/pull/2) | Add funds to the universe | bjmc | 2026-06-12 | Open, CI never ran |
 | [#1](https://github.com/wealthfolio/asset-profiles/pull/1) | Point FinanceDatabase at its moved URLs | bjmc | 2026-06-12 | Open, CI never ran |
 
-**Nothing has been validated by anything but review.** Every one of the five
-reports `no checks reported`, and the two most recent show GitHub run status
+**Nothing has been validated by anything but review.** Every one of the six
+reports `no checks reported`, and the most recent ones show GitHub run status
 `action_required` at 0s duration: `validate-pr.yml` is gated behind maintainer
 approval for fork pull requests, so the repository's only automated check has
 never executed against any proposed change. Getting that approval is P1 below,
@@ -45,19 +46,25 @@ everything else.
    configured. #6 touches only `scripts/`, so #3 can still land as explicit
    documentation if the maintainers prefer that. Their call, noted on #3.
 4. **#5 is independent** of all of the above.
+5. **#7 conflicts with nothing**, sharing no file with #1, #2, #3, or #6, and
+   touching `CONTRIBUTING.md` in a different section from #5. But it is not
+   order-free: it carries two `xfail(strict=True)` cases over the `CON` keys,
+   so whichever of #5 and #7 lands second needs the other's state accounted
+   for. Landing #7 first turns #5's next CI run red until #5 flips them to
+   plain assertions, which is two lines and is the marker doing its job.
 
 ## Current phase
 
-Phase 1, *A dataset that validates everywhere and hides nothing*. Two items are
-already submitted and two are maintainer actions, so the code left to write is
-smaller than it looks.
+Phase 1, *A dataset that validates everywhere and hides nothing*. Three items
+are already submitted and two are maintainer actions, so the code left to write
+is smaller than it looks: T3, T4, and T6, none of them blocked.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
-    runs on #1, #2, #3, #5, and #6, and decide whether first-time fork
+    runs on #1, #2, #3, #5, #6, and #7, and decide whether first-time fork
     contributors should stay gated. Nothing here needs a commit.
   - Acceptance criteria: `gh pr checks` reports a real result, pass or fail, on
-    all five open PRs.
+    all six open PRs.
   - Automated validation: the workflow itself, once it is allowed to start.
   - Manual validation: none.
   - Dependencies or blockers: needs repository write access on
@@ -88,6 +95,35 @@ smaller than it looks.
     failed and the inactivity disable is why it no longer runs, and #1 alone
     will not bring it back.
 
+- [~] **T1.** Add a test harness and run it in CI.
+  **Submitted as [#7](https://github.com/wealthfolio/asset-profiles/pull/7),
+  2026-09-02. Awaiting CI approval (P1) and review. Committed on `origin/main`
+  at `4c2ad33421`, so the harness is present in this working tree.**
+  - Scope as submitted: `pytest>=8.0` in `scripts/requirements.txt`, 37 tests
+    under `scripts/tests/`, and a `python -m pytest scripts/tests` step in
+    `validate-pr.yml` ahead of the validator, so a failure surfaces in seconds
+    rather than after the minute `v1/` takes. Covers `normalize.shard_key`,
+    `_aggregate_weights`, `apply_overrides`, and `validate.validate_record`.
+    No production code changed.
+  - Acceptance criteria, met locally: 30 passed and 7 xfailed on Python 3.13.9
+    on Windows; a deliberately broken fixture fails the suite; `AGENTS.md`
+    carries the real command in place of its note that none existed.
+  - Automated validation: none has run. See P1.
+  - Manual validation: red-then-green checked twice, and neither temporary
+    change was kept. A fixture edited to make `sector_weights` sum to 1.5
+    failed three tests. A simulated `shard_key` fix turned six of the seven
+    strict xfails into reported unexpected passes -- and the seventh caught
+    that the simulation escaped `CON.DE` to `CON.DE_` rather than `CON_.DE`,
+    which is the wrong fix.
+  - Validation owed on merge: `pytest` resolving from
+    `scripts/requirements.txt` on the runner is unproven, since the CI step has
+    never executed. The risk that leaves is a green local suite and a red first
+    CI run. Locally the suite ran against `pytest`, `jsonschema`, `pycountry`,
+    and `pyyaml` installed on their own, because the full requirements do not
+    install on this host -- see T8.
+  - Dependencies or blockers: none. It was the prerequisite for T3, T4, and T6,
+    which are now unblocked whatever upstream does with #7.
+
 - [~] **T2.** Escape DOS device names in shard filenames.
   **Submitted as [#5](https://github.com/wealthfolio/asset-profiles/pull/5),
   2026-09-01. Awaiting CI approval (P1) and review.**
@@ -105,10 +141,9 @@ smaller than it looks.
     consumers see no change, since filenames are not part of the client
     contract.
   - Automated validation: none has run. See P1 -- the PR reports
-    `no checks reported`. T1's suite now carries two `xfail(strict=True)` cases
-    over `CON` and `CON.DE`, so once #5 is rebased on a `main` holding the
-    harness, its own CI run reports them as unexpected passes. Turning them
-    into plain assertions belongs to #5.
+    `no checks reported`. #7 carries two `xfail(strict=True)` cases over `CON`
+    and `CON.DE`, so once #7 merges, #5's own CI run reports them as unexpected
+    passes. Turning them into plain assertions is two lines and belongs to #5.
   - Manual validation owed on merge: `git clone` on Windows with default
     `core.protectNTFS`, which is the case that cannot be tested on the CI
     runner.
@@ -137,7 +172,7 @@ smaller than it looks.
     neither record is lost.
   - Automated validation: tests over `BRK/A`, `BF/A`, `AKO/B`, `RAC/WS`,
     `BIO/B`, plus a collision case and a regression case asserting
-    `US0378331005`, `AAPL`, `BRK-A`, and `CON_.DE` are unchanged. T1 already
+    `US0378331005`, `AAPL`, `BRK-A`, and `CON_.DE` are unchanged. #7 already
     wrote the first five as `xfail(strict=True)`, asserting only that the
     result holds no separator; this task turns them into plain assertions on
     the exact expected key and adds the rest.
@@ -195,7 +230,7 @@ smaller than it looks.
     allows.
   - Manual validation: run the validator on Windows in a plain console with no
     environment overrides.
-  - Dependencies or blockers: none; T1 landed the harness.
+  - Dependencies or blockers: none; #7 carries the harness.
   - Evidence: reading a random 4,000-shard sample raised
     `UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f`, and printing
     an index error raised `UnicodeEncodeError` on the arrow the validator puts
@@ -218,7 +253,7 @@ smaller than it looks.
     a nested shard, and a count mismatch.
   - Manual validation: `python scripts/validate.py v1/` and confirm the nested
     records now appear in the report.
-  - Dependencies or blockers: none; T1 landed the harness. Lands before T2 or
+  - Dependencies or blockers: none; #7 carries the harness. Lands before T2 or
     after it, but the report it produces is what proves T2 worked.
   - Evidence: `counts.stocks` is 98,464; `index.json` names 98,463 distinct
     stock paths; 98,462 `.json` files sit directly under `v1/stocks/` and 13
@@ -400,23 +435,6 @@ that leaves, rather than marking incomplete work done.
   - Ran on 2026-05-09, 05-10, 05-17, 05-24, and 05-31, then stopped. 13 weeks
     with no refresh as of 2026-09-02, against a published `next_refresh_at` of
     2026-06-07. Reopened as Phase 4.
-- [x] **T1.** Add a test harness and run it in CI. 2026-09-02.
-  - `pytest>=8.0` in `scripts/requirements.txt`, 37 tests under
-    `scripts/tests/`, and a `pytest scripts/tests` step in `validate-pr.yml`
-    ahead of the validator, so a failure surfaces in seconds rather than after
-    the minute `v1/` takes. No production code changed.
-  - Validation: 30 passed and 7 xfailed on Python 3.13.9 on Windows.
-    Red-then-green checked twice, and neither temporary change was kept: a
-    fixture edited to make `sector_weights` sum to 1.5 failed three tests, and a
-    simulated `shard_key` fix turned six of the seven strict xfails into
-    reported unexpected passes -- including catching that the simulation escaped
-    `CON.DE` to `CON.DE_` rather than `CON_.DE`, which is the wrong fix.
-  - Validation skipped: the CI step itself has never run, for the same reason
-    P1 exists, so `pytest` resolving from `scripts/requirements.txt` on the
-    runner is unproven. The risk that leaves is a green local suite and a red
-    first CI run. Locally the suite ran against `pytest`, `jsonschema`,
-    `pycountry`, and `pyyaml` installed on their own, because the full
-    requirements do not install on this host -- see T8.
 - [x] Populate the planning documents from the repository as it stands, and
   record the cross-repository work `wealthfolio-dev` needs. 2026-09-02.
   - Validation: every claim in `AGENTS.md`, `SPEC.md`, `ROADMAP.md`, and this
