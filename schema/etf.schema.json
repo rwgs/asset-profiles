@@ -5,6 +5,12 @@
   "type": "object",
   "required": ["schema_version", "kind", "primary_symbol", "listings", "name", "provenance"],
   "additionalProperties": false,
+  "$defs": {
+    "weight": {
+      "type": "number",
+      "description": "Fraction of net assets, as a decimal (0.317, not 31.7). Negative where the fund holds a short position or a derivative of negative value, which SEC N-PORT reports and 11 of the 49 US funds in the universe carry; unbounded above, because a leveraged fund's exposure exceeds its net assets. The guard on scale is not this bound but the sum-to-1 invariant `validate.py` enforces per axis, measured across those 49 funds to hold within 3e-06."
+    }
+  },
   "properties": {
     "schema_version": {
       "type": "string",
@@ -59,7 +65,7 @@
         "additionalProperties": false,
         "properties": {
           "sector": { "type": "string", "minLength": 1 },
-          "weight": { "type": "number", "minimum": 0, "maximum": 1 }
+          "weight": { "$ref": "#/$defs/weight" }
         }
       }
     },
@@ -77,7 +83,7 @@
               { "type": "null" }
             ]
           },
-          "weight":       { "type": "number", "minimum": 0, "maximum": 1 }
+          "weight":       { "$ref": "#/$defs/weight" }
         }
       }
     },
@@ -89,7 +95,7 @@
         "additionalProperties": false,
         "properties": {
           "asset_class": { "type": "string", "minLength": 1 },
-          "weight":      { "type": "number", "minimum": 0, "maximum": 1 }
+          "weight":      { "$ref": "#/$defs/weight" }
         }
       }
     },
@@ -104,7 +110,7 @@
           "isin":   { "type": "string", "pattern": "^[A-Z]{2}[A-Z0-9]{9}[0-9]$" },
           "cusip":  { "type": "string", "pattern": "^[A-Z0-9]{9}$" },
           "name":   { "type": "string" },
-          "weight": { "type": "number", "minimum": 0, "maximum": 1 }
+          "weight": { "$ref": "#/$defs/weight" }
         }
       }
     },

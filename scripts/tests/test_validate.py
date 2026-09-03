@@ -280,3 +280,58 @@ def test_an_assigned_code_that_is_not_us_passes(stock_record):
     """Guard against a check that only recognises the fixture's own code."""
     stock_record["country_code"] = "JE"  # Jersey: assigned, and in the dataset
     assert validate.validate_record(stock_record) == []
+
+
+# ---- negative weights ---------------------------------------------------
+#
+# SEC N-PORT reports short positions and derivatives of negative value, so a
+# holding can carry a negative `valUSD` and a bucket can aggregate negative.
+# `weight` was constrained to [0, 1], which rejected 11 of the 49 US funds in
+# the universe outright -- ten at rounding scale and `SH`, an inverse fund, at
+# -0.24. The sum-to-1 invariant is what guards the scale, measured across those
+# 49 funds to hold within 3e-06.
+
+
+def test_a_negative_weight_is_allowed(etf_record):
+    """`SH` holds -24% of net assets in one asset class. That is the filing."""
+    etf_record["asset_class_weights"] = [
+        {"asset_class": "Equity", "weight": 1.24},
+        {"asset_class": "Derivative-equity", "weight": -0.24},
+    ]
+    assert validate.validate_record(etf_record) == []
+
+
+def test_a_weight_slightly_over_one_is_allowed(etf_record):
+    """Renormalizing over a total that includes negatives pushes the largest
+    bucket just past 1. Measured at 1.000097 on VTV."""
+    etf_record["country_weights"] = [
+        {"country": "United States", "country_code": "US", "weight": 1.000097},
+        {"country": "Canada", "country_code": "CA", "weight": -0.000097},
+    ]
+    assert validate.validate_record(etf_record) == []
+
+
+def test_a_negative_top_holding_is_allowed(etf_record):
+    etf_record["top_holdings"] = [{"symbol": "SPY", "weight": -0.001062}]
+    assert validate.validate_record(etf_record) == []
+
+
+def test_percent_scale_weights_are_still_rejected(etf_record):
+    """The bound that went away was doing this job; the sum invariant must
+    still do it, or `31.7` for 31.7% ships silently."""
+    etf_record["sector_weights"] = [
+        {"sector": "Technology", "weight": 60.0},
+        {"sector": "Financials", "weight": 40.0},
+    ]
+    errors = validate.validate_record(etf_record)
+    assert [e for e in errors if e.startswith("weights: sector_weights sums to 100.0000")]
+
+
+def test_top_holdings_over_one_are_still_rejected_with_a_negative_present(etf_record):
+    etf_record["top_holdings"] = [
+        {"symbol": "AAPL", "weight": 0.9},
+        {"symbol": "MSFT", "weight": 0.9},
+        {"symbol": "SPY", "weight": -0.1},
+    ]
+    errors = validate.validate_record(etf_record)
+    assert [e for e in errors if "top_holdings" in e]
