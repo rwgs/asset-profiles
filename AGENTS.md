@@ -66,8 +66,13 @@ configured.
 Windows is a supported development host and the pipeline is not safe on it.
 `git clone` fails outright with `invalid path 'v1/stocks/CON.DE.json'` and,
 because it fails while building the index, leaves the working tree empty rather
-than skipping the record -- so a Windows checkout exists only with the
-`core.protectNTFS` check relaxed. PR #5 fixes that, and it is still open.
+than skipping the record -- so a Windows checkout exists only with
+`core.protectNTFS=false` **and** `skip-worktree` set on the two `CON` paths.
+Both are needed: the first lets the clone finish, the second stops git trying
+to materialise names Windows refuses. That is why `git status` reads clean
+while two tracked files are absent from disk -- `git ls-files -v v1/stocks/`
+shows them as `S`. Do not clear those bits expecting a fix; PR #5 is the fix,
+and it is still open.
 
 The locale half is fixed: every `read_text()` in `scripts/` names its encoding
 and the validator reports in ASCII, so the gate runs on a cp1252 host with no

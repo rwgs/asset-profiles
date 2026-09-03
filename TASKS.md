@@ -230,20 +230,30 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
   **Committed on `origin/main` at `14cc37b1c1`, 2026-09-02, so this working
   tree has it and T4 can be written on a correct base. Not pushed and no PR
   opened, so nothing upstream has it.**
-  - Branch: `fix/locale-independent-text-io` at `91f52bff70`, holding the four
-    upstream-relevant files and neither planning document, per the split T1
-    used. **It is based on `test/pytest-harness` (#7), not on `upstream/main`**,
-    because `scripts/tests/` does not exist upstream and a branch cut from
-    there could not carry the two tests. So an eventual PR is stacked on #7:
-    its diff shows #7's six files until #7 merges, after which it shows four.
-    The two source files apply to `upstream/main` unchanged either way.
-  - Not opened as a PR, and the reason is review economics rather than risk:
-    it merges clean against all six open PRs (`git merge-tree`, verified), no
-    open PR reintroduces the defect, and it blocks nothing -- while #1 is why
-    the dataset is stale, #6 fixes six wrong ETF records and #5 makes the
-    repository cloneable at all. A seventh PR spends a review slot on the
-    lowest-impact defect in the queue, and it is a better submission after #7
-    lands and the tests can travel with it.
+  - Branch: `fix/locale-independent-text-io` at `5e3bebd189`, cut off
+    `upstream/main` and holding only `validate.py` and `build.py` -- the split
+    T1 used, with neither planning document. Verified to merge clean against
+    all six open PRs, and its two blobs are byte-identical to the gate-verified
+    versions on `main`.
+  - **The two tests are not on that branch, and cannot be.** `scripts/tests/`
+    does not exist on `upstream/main`, so a branch cut from there has nowhere
+    to put them -- and a tests-only branch is red by construction, since both
+    assert the fixed behavior. Measured: reverting `validate.py` to the
+    revision `upstream/main` still carries makes both fail. So they are owed to
+    #7, which adds the harness that hosts them, and the PR says so rather than
+    implying coverage it does not ship. This is the same debt recorded above
+    against #5, disclosed instead of discovered.
+  - Deliberately not stacked on #7. A branch based on `test/pytest-harness`
+    would carry the tests, but its PR silently includes #7's six files until #7
+    merges, so a maintainer merging this one would merge #7's CI step and
+    requirements change without being asked. Given how carefully the merge
+    order above is tracked, hiding one PR inside another is the worse trade.
+  - It waits on nothing. It merges clean against all six, no open PR
+    reintroduces the defect, and nothing here blocks it. The cost of sending it
+    is a review slot spent on the lowest-impact defect in a queue where #1 is
+    why the dataset is stale, #6 fixes six wrong ETF records and #5 makes the
+    repository cloneable at all -- worth stating on the PR so a maintainer can
+    triage it last without having to work that out.
   - Delivered: `encoding="utf-8"` on the six `read_text()` calls that had none
     -- `validate.py` 42, 120, 133, 146 and `build.py` 335, 339 -- and the
     validator's own messages reduced to ASCII. **Three characters, not the two
