@@ -10,7 +10,9 @@ differ only in `scripts/` and the planning documents, so no figure about `v1/`
 moved between them. P2's are newer: 2026-09-03 at `ccab4c6f78`, on Python
 3.14.5 with every requirement except `etf-scraper` installed -- which is T8's
 subject and does not touch the stocks pass. T7's are newer again: 2026-09-03 at
-`55db8b4e0b`, same host and interpreter. Re-measure rather than trust a number
+`55db8b4e0b`, same host and interpreter. T9 through T12's are newer again:
+2026-09-03 at `6e83a572e6`, same host, and they are the first taken against
+**live EDGAR** with `SEC_USER_AGENT` set. Re-measure rather than trust a number
 here once the pipeline has run again.
 
 ## Pull requests
@@ -112,25 +114,69 @@ rather than of the work. Its exit criteria assume merges, a CI run, and a
 refresh, and all three need a maintainer who has said the repository is on
 standby. Nothing in this checkout can supply them.
 
+**Phase 2 is nearly done, and one item is left.** T9 through T12 landed on
+2026-09-03: an unassigned `country_code` is rejected, a holding's sector
+resolves through CUSIP, the build reports per-fund coverage, and an ISIN-less
+record every symbol of which is claimed is absorbed. What remains is omitting a
+majority-synthetic weighted list, which is the only Phase 2 item that changes
+what the dataset publishes rather than how it is built.
+
+**This fork now publishes.** Answered 2026-09-03 and recorded in `DECISIONS.md`:
+`README.md` points jsDelivr at `rwgs/asset-profiles@main` and the weekly
+refresh is this repository's obligation. That unblocks the half of P2 that was
+waiting on a maintainer, and it makes the rebuild below a scheduled event
+rather than a hypothetical.
+
 So what remains here is not Phase 1 code:
 
-- **P1 and the second half of P2** are maintainer actions. Approving CI on the
-  seven open PRs and re-enabling a schedule GitHub disabled for inactivity both
-  need write access on a repository that is on standby.
+- **P1 is a maintainer action** and stays blocked: approving CI on the seven
+  open PRs needs write access on a repository that is on standby. **P2's
+  refresh half is no longer blocked** -- the schedule that matters is this
+  fork's, and it needs `SEC_USER_AGENT` set as a repository secret plus
+  sign-off on the rebuild.
 - **The published dataset is still stale**, and honestly says so:
   `next_refresh_at` is 2026-06-07 and was deliberately left there. Every record
-  holds data fetched on 2026-05-31, and upstream has added roughly 14,000 equity
-  rows since. Clearing the gate did not refresh anything, and the full rebuild
-  under T5 stays available and unstarted.
-- **Two open questions are still open**, and both settle what the dataset
-  publishes rather than how it is built: the duplicate-record question below,
-  and whether this fork should publish at all.
+  holds data fetched on 2026-05-31.
+- **A rebuild shrinks the dataset, and that is the thing to weigh.** Measured
+  against the live source on 2026-09-03: 112,654 equity rows normalize to
+  111,537 and merge to 90,514 records, against 98,463 published. Upstream now
+  publishes 30,378 rows carrying an ISIN against the 14,716 records that hold
+  one here, so the cross-listing merge absorbs 21,022 rows rather than leaving
+  them as separate shards. Roughly 8,000 shard URLs stop resolving. That is
+  more correct and it is still a breaking change for anything holding a path,
+  which is why it needs sign-off rather than a schedule.
+- **A rebuild also nearly quadruples ETF coverage.** A live ETF-only probe on
+  2026-09-03 produced **38 records from the 65 universe entries**, against the
+  10 published. #6's series resolution is what finds the other 28.
+- **Both open questions are answered**, 2026-09-03. See the questions section.
 - **W6 and W7** are what this repository owes the client, and W6 needs holdings
   data that must not be committed here.
-- **#6 being on `main` cannot be seen in the data**, and will not be until a
-  refresh runs. Its four Schwab records still hold the byte-identical holdings
-  the CIK-level lookup produced on 2026-05-31. The fix is proven against fixture
-  filings and unproven against EDGAR, which needs `SEC_USER_AGENT` -- see T7.
+- **#6 is now proven against live EDGAR**, not only against fixtures -- see T7,
+  which this closes. It still cannot be seen in the published data until a
+  refresh runs.
+
+### Found by the coverage report, and not fixed
+
+Both surfaced on 2026-09-03 by the first live ETF probe, and neither is in
+scope for the change that found them. Raised rather than acted on.
+
+- **A negative weight fails the schema, and 11 of the 49 EDGAR-sourced funds
+  hit it.** N-PORT reports short positions and negative-value derivatives, so a
+  holding can carry a negative `valUSD`; `weight` is constrained to `>= 0`, and
+  renormalizing over a total that includes negatives also pushes a positive
+  bucket past 1. XLK, XLE, XLY, XLP, VOO, VTI, VEA, VWO, VXUS, VTV and SH all
+  build a record and then fail to validate. Most are rounding-scale
+  (`-6e-06`), but `SH` -- an inverse fund -- is `-0.239799`, which is real
+  exposure the schema has no way to express. Deciding whether the dataset
+  represents a short position, or excludes the funds that hold one, settles
+  what it publishes.
+- **`build.py --no-stocks` silently produces 100% `Unknown` sector weights.**
+  The enrichment index comes from `_index_stocks(stocks)` and `stocks` is empty
+  under that flag, so every ETF record built without the stocks pass loses the
+  sector axis entirely. The probe above shows `sector 100%` on all 38 records
+  for exactly this reason. It is a trap rather than a defect in the output --
+  no published record came from such a build -- but a refresh must never use
+  the flag.
 
 The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
 
@@ -162,11 +208,14 @@ The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
   - Automated validation: the refresh workflow's own run.
   - Manual validation: fetch `index.json` from jsDelivr and confirm the date
     moved.
-  - Dependencies or blockers: **the remaining half is blocked**, same reason as
-    P1. Re-enabling a disabled schedule needs maintainer access on a repository
-    that is on standby, so the published dataset stays stale at 2026-05-31 --
-    a known state rather than an open incident. Merging #1 did not need that
-    access, because `main` is this fork's integration branch.
+  - Dependencies or blockers: **no longer blocked, as of 2026-09-03.** The
+    schedule that matters is this fork's, not upstream's -- see the publishing
+    decision in `DECISIONS.md`. Both this fork's workflows report `state:
+    active` and neither has ever run. What the refresh now needs is
+    `SEC_USER_AGENT` set as a repository secret, and sign-off on the rebuild,
+    which is a 98,000-file rewrite that also removes roughly 8,000 shard URLs.
+    Upstream's schedule stays stopped and that is no longer this project's
+    problem.
   - **Delivered, and verified against the live source rather than on review.**
     `database/equities.csv` still answers 404 on 2026-09-03; both
     `compression/equities.bz2` and `compression/etfs.bz2` answer 200.
@@ -357,13 +406,12 @@ The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
     nested paths -- but only to check them for device names, not to validate
     them against the schema.
 
-- [~] **T7 (Phase 2).** Resolve N-PORT filings by fund series.
+- [x] **T7 (Phase 2).** Resolve N-PORT filings by fund series.
   **Submitted as [#6](https://github.com/wealthfolio/asset-profiles/pull/6),
   2026-09-01, and merged into `main` at `52fdc78ce3`, 2026-09-03, with the
   tests it owed at `55db8b4e0b`. Still open upstream and still awaiting CI
-  approval (P1) and review. Left at `[~]` for the reason below: the code is
-  delivered and covered, and the manual validation it exists for has not been
-  run.**
+  approval (P1) and review. **Closed 2026-09-03: the manual validation it was
+  left open for has been run, against live EDGAR.**
   - Scope as submitted: resolve a ticker to its `(CIK, series ID)` through
     SEC's `company_tickers_mf.json`, then take the newest N-PORT carrying that
     series. Series lookup reads each filing's `-index-headers.html`, about 3 KB
@@ -394,12 +442,24 @@ The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
     - What that does not cover: the parse of a real multi-megabyte N-PORT, and
       whether a real `-index-headers.html` matches `_SERIES_ID_RE`. The fixture
       header is written to the format, not captured from EDGAR.
-  - **Manual validation still owed, and not run: compare `SCHD`, `SCHB`,
-    `SCHX`, `SCHF` against Schwab's published breakdowns.** It needs a live
-    EDGAR fetch, so it needs `SEC_USER_AGENT` carrying a real name and email,
-    which is unset on this host. That is the check that would show the four
-    records are each fund's own rather than merely different from each other,
-    and nothing in the fixture tests substitutes for it.
+  - **Manual validation: done 2026-09-03, against live EDGAR, and it passes.**
+    Refetching the four Schwab funds with `SEC_USER_AGENT` set gives four
+    different filings, each recognisably its own fund rather than merely
+    different from the others:
+
+    | Fund | Holdings | Top three | Countries |
+    | --- | --- | --- | --- |
+    | SCHD | 102 | QUALCOMM, Texas Instruments, UnitedHealth | 4 |
+    | SCHB | 2,411 | NVIDIA, Apple, Microsoft | 17 |
+    | SCHX | 751 | NVIDIA, Apple, Microsoft | 12 |
+    | SCHF | 1,479 | Samsung, SK hynix, ASML | 32, 6 US holdings |
+
+    All four are about 99% Equity, where the published records say 98% Fixed
+    Income; SCHD's dividend names and SCHF's ex-US concentration are each
+    what that fund is. This also proves the two things the fixtures could not:
+    a real `-index-headers.html` matches `_SERIES_ID_RE`, and a real
+    multi-megabyte N-PORT parses. The published records are still the
+    byte-identical 2026-05-31 ones until a refresh runs.
   - Dependencies or blockers: observing the result in published data needs P2,
     since no refresh can currently complete. Merging it into `main` needed
     neither -- `main` is this fork's integration branch, and its one line of
@@ -411,6 +471,93 @@ The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
     SPDR (config points at SPDR Series Trust `0001064642`; they file under
     Select Sector SPDR Trust `0001064641`), plus VIG, VNQ, VYM, EEM, IEMG,
     QQQM, RSP, SMH, BND, VEA, VWO and VXUS.
+
+- [x] **T9 (Phase 2).** Reject a country code ISO 3166-1 never assigned.
+  **Done 2026-09-03, committed on `main` at `790b45e584`.**
+  - Scope: `edgar._classify_country` accepted any `[A-Z]{2}` and fell back to
+    the code as its own display name, so `XX` -- what an N-PORT filer writes
+    for a holding it does not place -- became a country named `XX`. Drop it at
+    the source and add the existence rule to `validate_record`.
+  - Acceptance criteria, met: no new record can carry one, and a record that
+    does is an error at the top level and per `country_weights` entry.
+  - **The gate is red on `v1/`, deliberately, and this is the third time that
+    has been the design working.** `python scripts/validate.py v1/` reports
+    **4 errors** and exits 1, on SCHD, SCHB, SCHX and SCHF -- the same four
+    records, and the only ones in all 98,473 that carry an unassigned code.
+    Only a rebuild repairs them; do not delete or regenerate a shard to clear
+    it. Verified against live EDGAR that a rebuild does repair them: refetching
+    all four gives 0 `XX` holdings.
+  - Automated validation: 78 passed to 90. Six new tests, every one confirmed
+    red against the previous code and green after. The other six added assert
+    unchanged behaviour and pass both ways, which is what they are for.
+  - Manual validation: the locale-strict form
+    (`-X warn_default_encoding -W error::EncodingWarning`) reports the same
+    four errors and no `EncodingWarning`.
+
+- [x] **T10 (Phase 2).** Resolve a holding's sector through CUSIP.
+  **Done 2026-09-03, committed on `main` at `b8806b695d`.**
+  - Scope: `_enrich_holding` joined a holding to the stock dataset on ISIN then
+    ticker. Add a CUSIP leg, after both, so no existing match changes.
+  - Evidence, and it corrects the premise in `ROADMAP.md`: the ticker leg is
+    nearly useless for an EDGAR fund. Of 4,857 live holdings across SPY, QQQM
+    and the four Schwab funds, **4,845 carry an ISIN and exactly 1 carries a
+    ticker** -- N-PORT does not report tickers. The narrow side is the stock
+    index, where only 14,716 of 98,463 records carry an ISIN against 16,519
+    carrying a CUSIP.
+  - Acceptance criteria, met and measured against live filings: resolved sector
+    weight moves SCHD 87.0% to 98.5%, SCHB 66.6% to 80.1%, SCHX 68.5% to 79.8%,
+    SPY 69.0% to 79.6%, QQQM 66.3% to 76.8%, SCHF 56.9% to 59.4%.
+  - Manual validation: end to end through `normalize_etf` with the stock shards
+    on disk as the index, SCHD's `Unknown` sector weight falls **13.0% to 1.5%**
+    and Energy corrects from 9.3% to 13.3%, having been undercounted by the
+    holdings that resolved nowhere. That is the red-then-green that means
+    something: the nine new tests assert the API, so against the previous
+    signature they fail as `TypeError` rather than as a behaviour difference.
+  - Automated validation: 90 passed to 99.
+
+- [x] **T11 (Phase 2).** Report per-fund coverage from the build.
+  **Done 2026-09-03, committed on `main` at `209ddb2343`.**
+  - Scope: the build reported `etfs: N valid, M invalid`. Under that a universe
+    entry could produce nothing without being named, and a record whose weights
+    are 100% `Unknown` looked like one that carries signal.
+  - Acceptance criteria, met: one line per universe entry, either its holdings
+    count and unknown share per axis or the reason it has no record,
+    distinguishing the four ways an entry can vanish -- the source raised, the
+    record did not validate, nothing was found and nothing reported, and the
+    entry has no ticker.
+  - Automated validation: 99 passed to 105, one test per branch.
+  - **Manual validation: a live ETF-only build, and it earned its place
+    immediately.** 38 of 65 entries produced a record, against 10 published.
+    It named the 11 that build and then fail to validate and the 16 that
+    error, and both findings above the task list came out of reading it.
+  - Note: that probe ran `--no-stocks`, so every record reports `sector 100%`
+    unknown. That is the flag, not the funds -- see the second finding above.
+
+- [x] **T12 (Phase 2).** Absorb an ISIN-less record whose every symbol is claimed.
+  **Done 2026-09-03, committed on `main` at `d9bcbd11fd`. This answers the
+  duplicate-record question.**
+  - Scope: `build_index` keys `symbols` by symbol and the last writer wins, so
+    a record whose every symbol another record also lists reaches the index by
+    no route at all. That was `stocks/SAND.json`, the gap of one T4 traced.
+  - **Measured against the live source, because `v1/` no longer shows it.**
+    T5 retired that shard, so only a rebuild recreates the defect. Of 112,654
+    equity rows, 111,537 normalize and 90,515 survive the merge, and exactly
+    one is unreachable: `SAND`.
+  - Acceptance criteria, met: after the fix the same live data yields 90,514
+    records, **0 unreachable and 0 symbols claimed twice**. The count moves by
+    exactly one, so nothing else was touched.
+  - The rule absorbs only a record whose symbols are *all* claimed. One that
+    keeps a symbol of its own is why `BIO/B` and `RAC/WS` exist, and dropping
+    every ISIN-less duplicate would lose the only record of those securities.
+  - The `BRK/A` pairs turned out not to be part of this. T6 keys them `BRK_A`,
+    distinct from `BRK-A`, so both are reachable -- two upstream listings, not
+    one record hiding another. The `TASKS.md` text that grouped them with
+    `SAND` predates T6 and was wrong by the time it was read.
+  - `ECC` stays as it is: two ISIN-less rows for Eagle Point Credit that key
+    alike. `write_records` reports the collision and skips the second, which is
+    the right place for it and loses nothing silently.
+  - Automated validation: 105 passed to 110. Both absorption tests confirmed
+    red before the change; the three regression tests pass either way.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),
@@ -722,20 +869,27 @@ The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
 - ~~Whether the weekly schedule is disabled.~~ **Answered 2026-09-02**: nine
   scheduled runs failed on a 404, 2026-06-07 to 2026-08-02, then no run at all.
   Both causes are named in P2.
-- What to do about a record duplicated across an ISIN-bearing and an ISIN-less
-  row. `SAND` and the eleven `BRK/A`-style pairs are the same defect:
-  `group_cross_listings` merges by ISIN, so a row without one cannot be
-  absorbed. Dropping the ISIN-less rows loses `BIO/B` and `RAC/WS`, which have
-  no alternate form; merging by symbol needs a rule for when two symbols are one
-  security. Settles what the dataset publishes, so it is asked rather than
-  implemented.
-- ~~Which repository publishes to the CDN.~~ **Answered 2026-09-03**: neither,
-  in any meaningful sense. `README.md` documents
-  `wealthfolio/asset-profiles@main` and jsDelivr will still serve whatever is on
-  it, but its maintainer has said the repository is not used and is on standby,
-  so no client is being served a fresh dataset from anywhere. If this fork is to
-  publish instead, that is a new decision and it needs `README.md`, the refresh
-  workflow, and a `DECISIONS.md` entry -- ask before starting it.
+- ~~What to do about a record duplicated across an ISIN-bearing and an
+  ISIN-less row.~~ **Answered 2026-09-03 by T12**: absorb an ISIN-less record
+  only when *every* symbol it lists is already claimed. Measured against the
+  live source, that is exactly one record, `SAND`, and after the fix nothing is
+  unreachable. The question assumed `SAND` and the eleven `BRK/A` pairs were
+  one defect; they are not, because T6 keys `BRK/A` as `BRK_A` and both forms
+  are reachable. `BIO/B` and `RAC/WS` are kept, since neither is shadowed.
+- ~~Which repository publishes to the CDN.~~ **Answered 2026-09-03, twice.**
+  First: neither, in any meaningful sense, upstream being on standby. Then
+  **this fork does** -- decided the same day and recorded in `DECISIONS.md`.
+  `README.md` points jsDelivr at `rwgs/asset-profiles@main`, the refresh
+  workflow commits as the GitHub Actions bot and takes `SEC_USER_AGENT` from a
+  repository secret, and the weekly refresh is this repository's obligation.
+  Fetching the repointed URLs turned up three defects that predate the fork and
+  are fixed in the same commit: `stocks/AAPL.json` and `etfs/SPY.json` 404
+  because a record is keyed by ISIN, `@v1.0.0` names a tag that exists on
+  neither repository, and the record counts were aspirational.
+- **`SEC_USER_AGENT` is not yet set as a repository secret on
+  `rwgs/asset-profiles`**, and the ETF pass takes 403 from EDGAR without it.
+  `gh secret list` reports none. That is the one thing standing between the
+  workflow as committed and a refresh that completes.
 
 ## Cross-repository work in `wealthfolio-dev`
 

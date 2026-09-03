@@ -20,8 +20,10 @@ integrated Wealthfolio provider yields geographic weights for a fund, which is
 the specific gap this dataset exists to close.
 
 This checkout has two remotes: `origin` is `rwgs/asset-profiles` and `upstream`
-is `wealthfolio/asset-profiles`. Upstream is what jsDelivr serves and what
-`README.md`'s URLs point at.
+is `wealthfolio/asset-profiles`. **`origin` is what jsDelivr serves and what
+`README.md`'s URLs point at**, decided 2026-09-03 -- see `DECISIONS.md`.
+Upstream stays where changes are offered, and every branch stays mergeable
+there, but it is no longer what a client fetches.
 
 **Upstream is on standby, stated by its maintainer.** On 2026-09-03 `afadil`
 replied on [PR #5](https://github.com/wealthfolio/asset-profiles/pull/5): *"this
@@ -102,9 +104,9 @@ Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
 is the one exception, split into `scripts/requirements-issuer.txt` because it
 pins `numpy<2.0` and would otherwise cap the whole project at 3.12. Targets are GitHub Actions
 `ubuntu-latest` for the build and jsDelivr for delivery. `pytest` covers the
-normalizer, the validator, the build's write-and-reap loop, and EDGAR's
-series-level filing selection; there is no formatter, linter, or type checker
-configured.
+normalizer, the validator, the build's write-and-reap loop and coverage report,
+and EDGAR's series-level filing selection and country classification; there is
+no formatter, linter, or type checker configured.
 
 **Windows is a supported development host and the repository now clones on it.**
 PR #5's escaping is merged to `main`, so this is fixed rather than worked
@@ -112,7 +114,8 @@ around. Verified 2026-09-02 by cloning `main` with `core.protectNTFS` left at
 its default: the clone completed, `git status` was clean, no path carried
 `skip-worktree`, and all 98,464 stock shards were on disk -- the same count a
 Linux checkout gets. `validate.py v1/` then reported the same errors there as on
-Linux -- 15 at the time, and zero since -- and the suite the same count.
+Linux -- 15 at the time, then zero, and 4 since T9 -- and the suite the same
+count.
 
 If you are in an older checkout, `core.protectNTFS=false` and `skip-worktree` on
 `v1/stocks/CON.json` and `v1/stocks/CON.DE.json` were the workaround. Clear them
@@ -221,8 +224,11 @@ Validate. This is the whole gate, and it takes about a minute over `v1/`.
 python scripts/validate.py v1/
 ```
 
-That command is complete on every host, and since 2026-09-03 it **exits 0** on
-all of them. Treat any failure as something your change caused.
+That command is complete on every host. It **exits 1 with 4 errors** as of
+2026-09-03, and those four are known: SCHD, SCHB, SCHX and SCHF each carry a
+country code ISO 3166-1 never assigned, which T9 made a failure and only a
+rebuild repairs. Expect exactly those four. Treat any other failure, or a
+different count, as something your change caused.
 
 It reported 15 errors for a day and the history is worth knowing, because the
 number appears in `TASKS.md` and in commit messages: T4 made an unreachable
@@ -231,9 +237,11 @@ under directories plus `stocks/SAND.json`, and a three-way count mismatch. T6
 stopped new ones being created and the minimal half of T5 retired the 14. The
 gate going red was the design working, not a regression.
 
-**A red gate on `v1/` is now a real result, so do not rebuild the data to clear
+**A red gate on `v1/` is a real result, so do not rebuild the data to clear
 it.** Deleting or regenerating shards is destructive work that needs sign-off;
-see the working boundaries above.
+see the working boundaries above. This has now happened three times -- T4's 15,
+then zero, then T9's 4 -- and each time the gate going red was the design
+working rather than a regression.
 
 To check that no new call has started relying on the host locale, make the
 warning fatal -- it names the offending line:
@@ -245,10 +253,10 @@ python -X warn_default_encoding -W error::EncodingWarning scripts/validate.py v1
 Test. Fast, and it needs only `pycountry` and `jsonschema` from the
 requirements, so it runs where a full install does not. `test_build.py` and
 `test_edgar.py` `importorskip` on `pandas` and `requests`, so on that bare
-install they skip rather than fail: measured 2026-09-03, **68 passed and 2
+install they skip rather than fail: measured 2026-09-03, **83 passed and 2
 skipped** with only `pytest`, `pycountry` and `jsonschema` installed, against
-**78 passed** with the full requirements. CI installs everything, so nothing is
-skipped on the runner.
+**110 passed** with the full requirements. CI installs everything, so nothing
+is skipped on the runner.
 
 ```bash
 python -m pytest scripts/tests

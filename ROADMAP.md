@@ -94,7 +94,9 @@ over nested records, and the tests.
 ## Phase 2: ETF records that describe the fund they name
 
 **Current, and opened on 2026-09-03** when its headline change merged into
-`origin/main`. The other four items below have not started.
+`origin/main`. Three of the other four landed the same day; one is left, and it
+is the only one that changes what the dataset publishes rather than how it is
+built.
 
 ### Outcome
 
@@ -114,13 +116,21 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
   with the tests it owed at `55db8b4e0b`. Still open upstream.
 - Resolve a holding's sector through CUSIP and ticker as well as ISIN. Only
   about 15% of stock records carry an ISIN, which is why the lookup mostly
-  misses.
+  misses. **Done at `b8806b695d`, 2026-09-03.** The ticker leg was already
+  there and is nearly useless for an EDGAR fund -- of 4,857 live holdings
+  across six funds, 4,845 carry an ISIN and 1 carries a ticker. CUSIP is the
+  leg that reaches the rest: resolved sector weight moves SCHD 87.0% to 98.5%
+  and SPY 69.0% to 79.6%.
 - Reject placeholder country codes. `XX` reaches a published record today
   because the schema checks the shape of a code and not its existence.
+  **Done at `790b45e584`, 2026-09-03**, at the source and in the validator.
+  Four published records carry one, so the gate is red on them until a rebuild
+  runs.
 - Omit a weighted list that is majority-synthetic instead of renormalizing
   `Unknown` to 1.0, and add the validator rule that makes shipping one an error.
 - Report per-fund coverage from the build: unknown share per axis, and every
-  universe entry that produced no record with the reason why.
+  universe entry that produced no record with the reason why. **Done at
+  `209ddb2343`, 2026-09-03.**
 
 ### Dependencies and risks
 
@@ -140,15 +150,21 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
 
 ### Exit criteria
 
-- [~] Four funds sharing one CIK produce four different records, each matching
-  its own published holdings. **The first half is met and the second is not.**
-  Two funds in one trust resolve to their own filings, asserted over fixture
-  filings in `scripts/tests/test_edgar.py`; comparing a real record against the
-  fund's published breakdown needs a live EDGAR fetch and then a refresh, so
-  the published records are still the byte-identical ones built on 2026-05-31.
-- [ ] No published weighted list is majority-synthetic.
-- [ ] Every published `country_code` resolves in `pycountry`.
-- [ ] The build reports each universe entry as a record or a named failure.
+- [x] Four funds sharing one CIK produce four different records, each matching
+  its own published holdings. **Met, and against live EDGAR rather than
+  fixtures**, 2026-09-03. Refetching SCHD, SCHB, SCHX and SCHF gives four
+  different filings, each recognisably its own fund: SCHD 102 holdings led by
+  QUALCOMM, Texas Instruments and UnitedHealth; SCHB 2,411 led by NVIDIA,
+  Apple and Microsoft; SCHX 751 of the same mega-caps; SCHF 1,479 led by
+  Samsung, SK hynix and ASML with 6 US holdings across 32 countries. All four
+  are 99% Equity, where the published records say 98% Fixed Income. That also
+  proves what the fixtures could not: a real `-index-headers.html` matches the
+  regex and a real multi-megabyte N-PORT parses.
+- [ ] No published weighted list is majority-synthetic. **The one item left.**
+- [~] Every published `country_code` resolves in `pycountry`. The rule exists
+  and no new record can carry an unassigned code; the four already published
+  fail it until a rebuild.
+- [x] The build reports each universe entry as a record or a named failure.
 
 ### Validation
 
