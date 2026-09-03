@@ -10,12 +10,13 @@ number here once the pipeline has run again.
 
 ## Pull requests
 
-Six are open against `wealthfolio/asset-profiles`, all from forks, and they
+Seven are open against `wealthfolio/asset-profiles`, all from forks, and they
 cover a large part of Phases 1, 2, and 4. Read this before starting anything
 below: four of the tasks in this file are already written and waiting.
 
 | PR | What it does | Author | Opened | State |
 | --- | --- | --- | --- | --- |
+| [#8](https://github.com/wealthfolio/asset-profiles/pull/8) | Read and report text independently of the host locale | rwgs | 2026-09-02 | Open, CI never ran |
 | [#7](https://github.com/wealthfolio/asset-profiles/pull/7) | Add a pytest harness and run it in CI | rwgs | 2026-09-02 | Open, CI never ran |
 | [#6](https://github.com/wealthfolio/asset-profiles/pull/6) | Resolve N-PORT by fund series, not filer CIK | rwgs | 2026-09-01 | Open, CI never ran |
 | [#5](https://github.com/wealthfolio/asset-profiles/pull/5) | Escape DOS device names in shard filenames | rwgs | 2026-09-01 | Open, CI never ran |
@@ -46,7 +47,12 @@ everything else.
    configured. #6 touches only `scripts/`, so #3 can still land as explicit
    documentation if the maintainers prefer that. Their call, noted on #3.
 4. **#5 is independent** of all of the above.
-5. **#7 conflicts with nothing**, sharing no file with #1, #2, #3, or #6, and
+5. **#8 is order-free.** It merges clean against all six others, depends on
+   none of them, and unlike #5 it flips none of #7's `xfail(strict=True)`
+   cases -- all seven are `normalize.shard_key` cases and #8 touches neither
+   `normalize.py` nor `test_normalize.py`. Its two tests are owed to #7 and
+   are not in it, which its description states.
+6. **#7 conflicts with nothing**, sharing no file with #1, #2, #3, or #6, and
    touching `CONTRIBUTING.md` in a different section from #5. But it is not
    order-free, and the interaction with #5 is **symmetric**: #7 carries two
    `xfail(strict=True)` cases over the `CON` keys, so whichever of the two
@@ -63,10 +69,10 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
-    runs on #1, #2, #3, #5, #6, and #7, and decide whether first-time fork
+    runs on #1, #2, #3, #5, #6, #7, and #8, and decide whether first-time fork
     contributors should stay gated. Nothing here needs a commit.
   - Acceptance criteria: `gh pr checks` reports a real result, pass or fail, on
-    all six open PRs.
+    all seven open PRs.
   - Automated validation: the workflow itself, once it is allowed to start.
   - Manual validation: none.
   - Dependencies or blockers: needs repository write access on
@@ -227,14 +233,15 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
     QQQM, RSP, SMH, BND, VEA, VWO and VXUS.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
-  **Committed on `origin/main` at `14cc37b1c1`, 2026-09-02, so this working
-  tree has it and T4 can be written on a correct base. Not pushed and no PR
-  opened, so nothing upstream has it.**
+  **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),
+  2026-09-02. Awaiting CI approval (P1) and review. Committed on `origin/main`
+  at `14cc37b1c1`, so this working tree has it and T4 can be written on a
+  correct base.**
   - Branch: `fix/locale-independent-text-io` at `5e3bebd189`, cut off
     `upstream/main` and holding only `validate.py` and `build.py` -- the split
     T1 used, with neither planning document. Verified to merge clean against
-    all six open PRs, and its two blobs are byte-identical to the gate-verified
-    versions on `main`.
+    all six others, and its two blobs are byte-identical to the gate-verified
+    versions on `main`. GitHub reports it `MERGEABLE` over two files.
   - **The two tests are not on that branch, and cannot be.** `scripts/tests/`
     does not exist on `upstream/main`, so a branch cut from there has nowhere
     to put them -- and a tests-only branch is red by construction, since both
@@ -248,12 +255,14 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
     merges, so a maintainer merging this one would merge #7's CI step and
     requirements change without being asked. Given how carefully the merge
     order above is tracked, hiding one PR inside another is the worse trade.
-  - It waits on nothing. It merges clean against all six, no open PR
-    reintroduces the defect, and nothing here blocks it. The cost of sending it
-    is a review slot spent on the lowest-impact defect in a queue where #1 is
-    why the dataset is stale, #6 fixes six wrong ETF records and #5 makes the
-    repository cloneable at all -- worth stating on the PR so a maintainer can
-    triage it last without having to work that out.
+  - It waits on nothing and blocks nothing, so it was sent without waiting
+    for #7. Its description ranks it last on purpose: #1 is why the dataset is
+    stale, #6 fixes six wrong ETF records and #5 makes the repository cloneable
+    at all, while this one only ever bites a contributor on a non-UTF-8 host --
+    which is why CI has never reported it.
+  - Validation owed on merge: the two tests, once #7 lands. Nothing else --
+    unlike #7, the change itself is verified locally on the platform it is
+    about, which is the platform CI cannot provide.
   - Delivered: `encoding="utf-8"` on the six `read_text()` calls that had none
     -- `validate.py` 42, 120, 133, 146 and `build.py` 335, 339 -- and the
     validator's own messages reduced to ASCII. **Three characters, not the two

@@ -25,7 +25,7 @@ is `wealthfolio/asset-profiles`. Upstream is what jsDelivr serves and what
 to upstream -- which is how the two open PRs from this fork were sent. A commit
 on `origin/main` alone changes nothing any client can see.
 
-**Check the open pull requests before starting work.** Six are open upstream
+**Check the open pull requests before starting work.** Seven are open upstream
 and they already cover a large part of what `TASKS.md` lists, including the two
 worst defects and the test harness. `gh pr list --repo wealthfolio/asset-profiles`, and see the
 pull-requests section of `TASKS.md` for the merge order, which is not obvious:
@@ -179,7 +179,7 @@ There is no `lint`, `fmt`, or `typecheck` command. Do not invent one inside a
 change that needs it; adding the harness is its own task.
 
 `validate-pr.yml` is gated behind maintainer approval for fork pull requests and
-has never run against any of the six open ones, so assume a proposed change has
+has never run against any of the seven open ones, so assume a proposed change
 been reviewed and not checked.
 
 ## Validation
