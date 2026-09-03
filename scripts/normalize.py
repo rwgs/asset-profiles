@@ -98,16 +98,40 @@ def _strip_empty(d: dict) -> dict:
 
 
 def _resolve_mic_for_symbol(symbol: str, mic_map: dict) -> Optional[str]:
+    """Guess a venue from a Yahoo-style suffix. Fallback only.
+
+    The source's own `mic` column answers 99.3% of rows and is preferred, so
+    this runs for the remainder. There is no bare-symbol default: the map used
+    to carry `"": XNYS`, which is why every US listing was published as the
+    NYSE and why every listing on one of the 23 suffixes the map lacks was
+    too. A venue nobody can name is now absent rather than wrong.
+    """
     # exact suffix (e.g. ".TO")
     for suffix, mic in mic_map.items():
         if suffix and symbol.endswith(suffix):
             return mic
-    # bare symbol → default ("" key)
-    return mic_map.get("")
+    return None
+
+
+# Two of the 38 currency values the source reports are quoting units rather
+# than ISO 4217 currencies: `ILA` is Israeli agorot and `ZAC` South African
+# cents, 560 and 409 rows. They are normalized because the same source
+# already does exactly this for the largest pence-quoted venue -- it reports
+# `GBP` for London, not `GBX` -- so leaving these two would publish an
+# inconsistency of the source's rather than a fact about the venue. The
+# quoting unit is a separate field this schema does not carry; see the
+# MIC-registry candidate in `TASKS.md`.
+CURRENCY_ALIASES = {"ILA": "ILS", "ZAC": "ZAR"}
+
+
+def _source_currency(row: dict) -> Optional[str]:
+    """The currency the source reports, normalized to an ISO 4217 code."""
+    code = (row.get("currency") or "").strip().upper() or None
+    return CURRENCY_ALIASES.get(code, code)
 
 
 def _yahoo_currency_for_mic(mic: str | None) -> Optional[str]:
-    """Best-effort: pick a currency from the exchange MIC."""
+    """Best-effort: pick a currency from the exchange MIC. Fallback only."""
     if not mic:
         return None
     return {
@@ -176,8 +200,14 @@ def normalize_stock(
     if website and not website.startswith(("http://", "https://")):
         website = "https://" + website
 
-    mic = _resolve_mic_for_symbol(symbol, mappings.get("exchange_mic", {}))
-    currency = _yahoo_currency_for_mic(mic)
+    # The source names the venue and the currency; the suffix map and the
+    # MIC-to-currency table are fallbacks for the rows where it does not.
+    # Measured 2026-09-03: the guess disagreed with the source on 47,310 of
+    # 112,654 rows, Apple's own `XNAS` among them.
+    mic = (row.get("mic") or "").strip().upper() or None
+    if not mic:
+        mic = _resolve_mic_for_symbol(symbol, mappings.get("exchange_mic", {}))
+    currency = _source_currency(row) or _yahoo_currency_for_mic(mic)
     listing = _strip_empty({
         "symbol": symbol,
         "exchange_mic": mic,

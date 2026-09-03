@@ -492,3 +492,85 @@ def test_a_record_with_no_isin_is_untouched():
         [record], kind_by_isin={}, wrong_isins={"CA18452Y1007"}
     )
     assert record == before
+
+
+# ---- listing venue and currency -----------------------------------------
+
+# A cut of the real suffix map: enough to prove the fallback still runs, and
+# deliberately without a "" key, which is the default this change retired.
+# `.TI` is absent here for the same reason it is absent from the real map.
+MIC_MAP = {".DU": "XDUS", ".TW": "XTAI", ".L": "XLON"}
+
+
+def _listing(row, mic_map=MIC_MAP):
+    record = normalize.normalize_stock(
+        row, fetched_at="2026-09-03T00:00:00Z", mappings={"exchange_mic": mic_map}
+    )
+    assert record is not None
+    assert len(record["listings"]) == 1
+    return record["listings"][0]
+
+
+def test_listing_takes_the_venue_the_source_reports():
+    """Apple is the case that made this wrong: a bare symbol fell to the map's
+    "" default and published XNYS, while the source says XNAS all along."""
+    listing = _listing(
+        {"symbol": "AAPL", "name": "Apple Inc.", "mic": "XNAS", "currency": "USD"}
+    )
+    assert listing == {"symbol": "AAPL", "exchange_mic": "XNAS", "currency": "USD"}
+
+
+def test_listing_prefers_the_source_over_a_suffix_that_would_also_match():
+    """`.L` maps to XLON here too, but the point is the source decides -- and
+    it supplies a currency the MIC-to-currency table would get wrong. HHPD.IL
+    is a London GDR quoted in dollars."""
+    listing = _listing(
+        {"symbol": "HHPD.L", "name": "Hon Hai GDR", "mic": "XLON", "currency": "USD"}
+    )
+    assert listing["exchange_mic"] == "XLON"
+    assert listing["currency"] == "USD"
+
+
+def test_listing_falls_back_to_the_suffix_map_when_the_source_is_silent():
+    listing = _listing({"symbol": "1101.TW", "name": "Taiwan Cement"})
+    assert listing == {"symbol": "1101.TW", "exchange_mic": "XTAI", "currency": "TWD"}
+
+
+def test_listing_omits_the_venue_when_nothing_can_name_it():
+    """The retired `"": XNYS` default is why 44,663 US listings claimed the
+    NYSE and 345 Tel Aviv companies claimed it too. A venue nobody can name is
+    absent now, which the schema allows: only `symbol` is required."""
+    listing = _listing({"symbol": "ZZZZ", "name": "Nowhere Inc."})
+    assert listing == {"symbol": "ZZZZ"}
+
+
+def test_du_is_duesseldorf_and_not_dubai():
+    """`.DU` mapped to DIFX, so 3,467 listings were published as Dubai in AED.
+    Pinned on the fallback path, which is the one the map still decides."""
+    listing = _listing({"symbol": "APC.DU", "name": "Apple Inc."})
+    assert listing["exchange_mic"] == "XDUS"
+
+
+def test_an_unrecognised_suffix_names_no_venue_rather_than_guessing_one():
+    """`.TI` is the case that proves this. Its 345 rows report
+    `exchange: TLO`, which reads like Tel Aviv and is not -- they are Snap,
+    Covestro, Glencore and Adidas, quoted in EUR, on what is most likely an
+    Italian MTF. Mapping it on the strength of the code would have published
+    345 European blue chips as Israeli."""
+    listing = _listing({"symbol": "1COV.TI", "name": "Covestro AG"})
+    assert listing == {"symbol": "1COV.TI"}
+
+
+@pytest.mark.parametrize(
+    ("reported", "published"), [("ILA", "ILS"), ("ZAC", "ZAR"), ("GBP", "GBP")]
+)
+def test_a_quoting_unit_is_published_as_its_iso_currency(reported, published):
+    """The source mixes conventions in one column: `ILA` agorot and `ZAC`
+    cents are sub-units, while London -- also quoted in pence -- is reported
+    as `GBP` rather than `GBX`. Normalizing the two sub-units is what makes
+    the field mean one thing. The `GBP` case pins that a real ISO code is
+    passed through untouched."""
+    listing = _listing(
+        {"symbol": "X.TI", "name": "Some Co.", "mic": "XTAE", "currency": reported}
+    )
+    assert listing["currency"] == published

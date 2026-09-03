@@ -1,11 +1,27 @@
 # Yahoo-style exchange suffix → ISO 10383 MIC code.
-# Bare symbol (no suffix) is assumed US-primary; we default to XNYS but
-# the build pass will override based on the source's listed exchange
-# when known.
 #
-# This is a mirror of the Wealthfolio client mapping; keep them in sync.
-
-"":      XNYS    # default for US-listed (will be refined per row)
+# This is the *fallback*. `normalize_stock` reads the venue from the source's
+# own `mic` column, which answers 111,823 of 112,654 rows (99.3%) and is
+# already ISO 10383, so this map is consulted only for the 831 it leaves.
+# Measured 2026-09-03: the guess this map produces disagreed with the source
+# on 47,310 rows, so preferring the source is the whole of that correction.
+#
+# There is deliberately no bare-symbol default. It used to be `"": XNYS`,
+# which published every US listing as the NYSE -- Apple included -- and gave
+# XNYS/USD to every listing on one of the 23 suffixes this map lacks. A
+# listing whose venue nobody can name now publishes no `exchange_mic` at all,
+# because a wrong MIC is worse than an absent one.
+#
+# `.TI` is deliberately absent, and it is the case that proves the rule. Its
+# 345 rows all report `exchange: TLO`, which reads like Tel Aviv and is not:
+# they are Snap, Covestro, Glencore, Adidas and Air France KLM, quoted in EUR
+# and domiciled across the US and western Europe -- an Italian MTF, most
+# likely EuroTLX. Mapping it on the strength of the code would have published
+# 345 European blue chips as Israeli. It stays unmapped until an ISO 10383
+# registry can name the venue; see the MIC-registry candidate in `TASKS.md`.
+#
+# This is a mirror of the Wealthfolio client mapping; keep them in sync. Note
+# that the client carries the same `.DU` defect corrected below.
 ".N":    XNYS    # NYSE
 ".OQ":   XNAS    # Nasdaq
 ".US":   XNAS
@@ -61,7 +77,7 @@
 ".SR":   XSAU    # Saudi Tadawul
 ".QA":   DSMD    # Qatar
 ".AD":   XADS    # Abu Dhabi
-".DU":   DIFX    # Dubai
+".DU":   XDUS    # Duesseldorf (was DIFX/Dubai: wrong, and Yahoo has no .DU for Dubai)
 ".CA":   XCAI    # Cairo
 ".JO":   XJSE    # Johannesburg
 
