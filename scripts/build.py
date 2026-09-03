@@ -151,15 +151,20 @@ def build_stocks(mappings: dict, fetched_at: str, limit: int | None = None) -> l
 # ---- ETFs pass ----------------------------------------------------------
 
 
-def _index_stocks(stocks: Iterable[dict]) -> tuple[dict, dict]:
+def _index_stocks(stocks: Iterable[dict]) -> tuple[dict, dict, dict]:
+    """Index the stocks pass by every identifier a holding might carry."""
     by_isin: dict[str, dict] = {}
     by_symbol: dict[str, dict] = {}
+    by_cusip: dict[str, dict] = {}
     for s in stocks:
         if s.get("isin"):
             by_isin[s["isin"]] = s
         for lst in s.get("listings", []):
             by_symbol[lst["symbol"]] = s
-    return by_isin, by_symbol
+        cusip = (s.get("identifiers") or {}).get("cusip")
+        if cusip:
+            by_cusip[cusip] = s
+    return by_isin, by_symbol, by_cusip
 
 
 def build_etfs(
@@ -167,6 +172,7 @@ def build_etfs(
     fd_etfs_meta: dict[str, dict],
     stocks_by_isin: dict[str, dict],
     stocks_by_symbol: dict[str, dict],
+    stocks_by_cusip: dict[str, dict],
     fetched_at: str,
     mappings: dict,
 ) -> tuple[list[dict], list[tuple[str, str]]]:
@@ -218,6 +224,7 @@ def build_etfs(
                 fetched_at=fetched_at,
                 stocks_by_isin=stocks_by_isin,
                 stocks_by_symbol=stocks_by_symbol,
+                stocks_by_cusip=stocks_by_cusip,
                 source_label=source_label,
                 source_url=source_url,
                 license_label=license_label,
@@ -326,9 +333,9 @@ def main(argv: list[str] | None = None) -> int:
             fd_etf_rows = list(finance_database.fetch_etfs_meta())
             fd_etfs_meta = {r["symbol"]: r for r in fd_etf_rows if r.get("symbol")}
 
-            by_isin, by_symbol = _index_stocks(stocks)
+            by_isin, by_symbol, by_cusip = _index_stocks(stocks)
             etfs, etf_errors = build_etfs(
-                universe, fd_etfs_meta, by_isin, by_symbol, fetched_at, mappings
+                universe, fd_etfs_meta, by_isin, by_symbol, by_cusip, fetched_at, mappings
             )
 
             etf_keys, invalid = write_records(

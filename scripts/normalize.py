@@ -304,6 +304,7 @@ def normalize_etf(
     fetched_at: str,
     stocks_by_isin: dict[str, dict],
     stocks_by_symbol: dict[str, dict],
+    stocks_by_cusip: dict[str, dict],
     source_label: str,
     source_url: str,
     license_label: str,
@@ -332,9 +333,9 @@ def normalize_etf(
             ],
         }
 
-    `stocks_by_isin` / `stocks_by_symbol` come from the stocks pass and
-    are used to look up sector / country for holdings that didn't carry
-    that info in the filing.
+    `stocks_by_isin` / `stocks_by_symbol` / `stocks_by_cusip` come from the
+    stocks pass and are used to look up sector / country for holdings that
+    didn't carry that info in the filing.
     """
     primary_symbol = (meta.get("symbol") or meta.get("ticker") or "").strip()
     if not primary_symbol:
@@ -348,7 +349,10 @@ def normalize_etf(
         "currency": meta.get("currency") or _yahoo_currency_for_mic(meta.get("exchange_mic")),
     })]
 
-    enriched = [_enrich_holding(h, stocks_by_isin, stocks_by_symbol) for h in holdings.get("holdings", [])]
+    enriched = [
+        _enrich_holding(h, stocks_by_isin, stocks_by_symbol, stocks_by_cusip)
+        for h in holdings.get("holdings", [])
+    ]
 
     sector_weights = _aggregate_weights(enriched, "sector")
     country_weights = _aggregate_country_weights(enriched)
@@ -409,14 +413,27 @@ def _enrich_holding(
     h: dict,
     stocks_by_isin: dict[str, dict],
     stocks_by_symbol: dict[str, dict],
+    stocks_by_cusip: dict[str, dict],
 ) -> dict:
-    """Fill in sector / country / asset_class from the stock dataset when missing."""
+    """Fill in sector / country / asset_class from the stock dataset when missing.
+
+    Three identifiers rather than one, because each side of the join is narrow
+    in a different place. An N-PORT holding almost always carries an ISIN and
+    almost never a ticker -- measured over SPY, QQQM and four Schwab funds:
+    4,845 of 4,857 holdings had an ISIN and 1 had a ticker -- but only 14,716
+    of the 98,463 stock records carry an ISIN against 16,519 carrying a CUSIP.
+    So the CUSIP leg is what reaches the US holdings the ISIN leg misses: it
+    moves SCHD's resolved sector weight from 87.0% to 98.5% and SPY's from
+    69.0% to 79.6%.
+    """
     enriched = dict(h)
     stock = None
     if h.get("isin"):
         stock = stocks_by_isin.get(h["isin"])
     if stock is None and h.get("ticker"):
         stock = stocks_by_symbol.get(h["ticker"])
+    if stock is None and h.get("cusip"):
+        stock = stocks_by_cusip.get(h["cusip"])
     if stock is not None:
         if not enriched.get("sector"):
             enriched["sector"] = stock.get("sector")

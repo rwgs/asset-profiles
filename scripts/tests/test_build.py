@@ -88,3 +88,27 @@ def test_a_shard_left_nested_by_the_old_key_is_reaped(tmp_path, stock_record):
     assert not stale.exists(), "the nested shard survived beside its replacement"
     assert (tmp_path / "BRK_A.json").exists()
     assert summary["removed"] == 1
+
+
+def test_index_stocks_keys_a_record_by_isin_symbol_and_cusip(stock_record):
+    by_isin, by_symbol, by_cusip = build._index_stocks([stock_record])
+    assert by_isin["US0378331005"] is stock_record
+    assert by_symbol["AAPL"] is stock_record
+    assert by_cusip["037833100"] is stock_record
+
+
+def test_index_stocks_keys_a_record_that_carries_only_a_cusip(stock_record):
+    """The common shape: 16,519 stock records carry a CUSIP, 14,716 an ISIN."""
+    del stock_record["isin"]
+    stock_record["identifiers"] = {"cusip": "037833100"}
+    by_isin, by_symbol, by_cusip = build._index_stocks([stock_record])
+    assert by_isin == {}
+    assert by_cusip["037833100"] is stock_record
+
+
+def test_index_stocks_skips_a_record_with_no_identifiers(stock_record):
+    del stock_record["isin"]
+    del stock_record["identifiers"]
+    by_isin, by_symbol, by_cusip = build._index_stocks([stock_record])
+    assert by_isin == {} and by_cusip == {}
+    assert by_symbol["AAPL"] is stock_record  # a listing symbol is always there

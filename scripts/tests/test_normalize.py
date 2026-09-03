@@ -198,3 +198,66 @@ def test_apply_overrides_resolves_a_record_without_an_isin_by_symbol(tmp_path):
 def test_apply_overrides_keeps_the_record_when_the_override_is_invalid_json(tmp_path, stock_record):
     (tmp_path / "US0378331005.json").write_text("{ not json", encoding="utf-8")
     assert normalize.apply_overrides(stock_record, tmp_path) == stock_record
+
+
+# ---- holding enrichment -------------------------------------------------
+#
+# N-PORT carries no sector, so every ETF `sector_weights` entry comes from
+# joining a holding to the stock dataset. Each side of that join is narrow in a
+# different place: a holding almost always has an ISIN and almost never a
+# ticker, while only 15% of stock records carry an ISIN against 17% carrying a
+# CUSIP. So all three legs earn their place.
+
+
+def _stock(**kw) -> dict:
+    base = {"sector": "Technology", "country": "United States", "country_code": "US"}
+    base.update(kw)
+    return base
+
+
+def test_a_holding_resolves_by_isin():
+    h = {"isin": "US0378331005", "weight": 1.0}
+    out = normalize._enrich_holding(h, {"US0378331005": _stock()}, {}, {})
+    assert out["sector"] == "Technology"
+
+
+def test_a_holding_resolves_by_ticker_when_the_isin_is_unknown():
+    h = {"isin": "US9999999999", "ticker": "AAPL", "weight": 1.0}
+    out = normalize._enrich_holding(h, {}, {"AAPL": _stock()}, {})
+    assert out["sector"] == "Technology"
+
+
+def test_a_holding_resolves_by_cusip_when_isin_and_ticker_miss():
+    """The leg that matters most in practice: an N-PORT holding carries a CUSIP
+    and an ISIN, but the stock record it belongs to often carries only a CUSIP."""
+    h = {"isin": "US0378331005", "cusip": "037833100", "weight": 1.0}
+    out = normalize._enrich_holding(h, {}, {}, {"037833100": _stock()})
+    assert out["sector"] == "Technology"
+    assert out["country_code"] == "US"
+
+
+def test_isin_wins_over_cusip_when_both_resolve():
+    h = {"isin": "US0378331005", "cusip": "037833100", "weight": 1.0}
+    out = normalize._enrich_holding(
+        h,
+        {"US0378331005": _stock(sector="Technology")},
+        {},
+        {"037833100": _stock(sector="Financials")},
+    )
+    assert out["sector"] == "Technology"
+
+
+def test_a_holding_that_resolves_nowhere_is_unknown_not_dropped():
+    h = {"isin": "US9999999999", "cusip": "999999999", "weight": 1.0}
+    out = normalize._enrich_holding(h, {}, {}, {})
+    assert out["sector"] == "Unknown"
+    assert out["country"] == "Unknown"
+    assert out["asset_class"] == "Other"
+    assert out["weight"] == 1.0
+
+
+def test_enrichment_does_not_overwrite_what_the_filing_stated():
+    h = {"cusip": "037833100", "country": "Japan", "country_code": "JP", "weight": 1.0}
+    out = normalize._enrich_holding(h, {}, {}, {"037833100": _stock()})
+    assert out["country_code"] == "JP"
+    assert out["sector"] == "Technology"  # absent in the filing, so filled in
