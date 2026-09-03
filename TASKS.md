@@ -260,27 +260,54 @@ more than their size suggests, because W4 would feed every one of them into the
 client's asset rows, and **P10C** -- the client package they would land in --
 exists on the finding that a wrong MIC is worse than an absent one.
 
-- **`XNAS` is never emitted.** All 44,663 US listings are published as `XNYS`,
-  Apple's own record included, so every Nasdaq-listed company claims the NYSE.
-  `config/exchange_mic.yml` maps `""` to `XNYS` as the bare-symbol default, and
-  the refinement its own third line promises -- "the build pass will override
-  based on the source's listed exchange when known" -- was never written.
-- **`.DU` resolves to Dubai.** `config/exchange_mic.yml:64` maps it to `DIFX`;
-  Yahoo's `.DU` is Duesseldorf, `XDUS`. 3,467 listings are published as Dubai
-  in AED, and `APC.DU` is Apple.
-- **19,401 of 111,535 listings, 17.4%, carry a suffix the map does not have.**
-  `_resolve_mic_for_symbol` falls through to the `""` default and publishes
-  `XNYS`/`USD` for a venue that is neither. 23 distinct suffixes; four German
-  ones are most of the volume -- `.BE` 7,662, `.MU` 6,075, `.HM` 1,276, `.HA`
-  839 -- and the tail includes `.TA` Tel Aviv, `.IL` the LSE international
-  order book, `.TWO` TPEx and `.AQ` Aquis. An unmapped suffix should be a build
-  error rather than a default.
-- **`currency` is inferred from the guessed MIC and never read from the
-  source.** `normalize.py:179-180` derives the MIC from the symbol suffix and
-  the currency from that MIC, so each of the three above is one error told
-  twice. FinanceDatabase ships `currency` and `exchange` columns and
-  `normalize_stock` reads neither, which is also the cheap fix for all three:
-  take the source's answer and infer only where it is absent.
+**The first four are fixed in the pipeline by T23, 2026-09-03**, and are kept
+here because their measurements are the before-picture. They are one defect
+with four faces and one fix. `v1/` still holds all four until a rebuild.
+
+- ~~**`XNAS` is never emitted.**~~ All 44,663 US listings were published as
+  `XNYS`, Apple's own record included, so every Nasdaq-listed company claimed
+  the NYSE. `config/exchange_mic.yml` mapped `""` to `XNYS` as the bare-symbol
+  default, and the refinement its own third line promised -- "the build pass
+  will override based on the source's listed exchange when known" -- was never
+  written. **T23 wrote it, from the source's `mic` column rather than its
+  `exchange` one: 8,236 listings move to `XNAS`.**
+- ~~**`.DU` resolves to Dubai.**~~ `config/exchange_mic.yml` mapped it to
+  `DIFX`; Yahoo's `.DU` is Duesseldorf, `XDUS`. 3,467 listings were published
+  as Dubai in AED, and `APC.DU` is Apple. **Corrected in the map, and the same
+  3,467 move to `XDUS`/`EUR`.**
+- ~~**19,401 of 111,535 listings, 17.4%, carry a suffix the map does not
+  have.**~~ `_resolve_mic_for_symbol` fell through to the `""` default and
+  published `XNYS`/`USD` for a venue that was neither. 23 distinct suffixes;
+  four German ones were most of the volume -- `.BE` 7,662, `.MU` 6,075, `.HM`
+  1,276, `.HA` 839 -- and the tail includes `.IL` the LSE international order
+  book, `.TWO` TPEx and `.AQ` Aquis. **The source answers 19,407 of the 19,769
+  symbols on an unmapped suffix, so this is retired by reading it rather than
+  by extending the map.** Its closing proposal -- that an unmapped suffix be a
+  build error -- was **considered and rejected**: with the source answering
+  98.2% it buys little, and it would fail the unattended Sunday refresh
+  whenever FinanceDatabase adds a venue. The default is gone instead, so those
+  listings publish no MIC.
+  - **One entry in that tail was wrong, and it is the useful part of this
+    bullet.** It reads `.TA` as Tel Aviv. The suffix actually carrying the
+    Tel Aviv-looking rows is **`.TI`**, and it is *not* Tel Aviv: all 345 of
+    its rows report `exchange: TLO`, and they are Snap, GoPro, Covestro,
+    Glencore, Adidas and Air France KLM -- US and western European companies,
+    quoted in EUR, domiciled across FR, DE, US, ES and NL, with no Israeli
+    company among them. Most likely the Italian MTF EuroTLX. It is left
+    unmapped rather than guessed, since mapping it on the strength of the code
+    would have published 345 European blue chips as Israeli. Naming that venue
+    properly needs the MIC registry in the candidates section below.
+- ~~**`currency` is inferred from the guessed MIC and never read from the
+  source.**~~ It derived the MIC from the symbol suffix and the currency from
+  that MIC, so each of the three above was one error told twice.
+  **`normalize_stock` now reads both, and 25,218 listings change currency**,
+  led by `USD` to `EUR` 16,309 and `AED` to `EUR` 3,441.
+  - Worth carrying forward, because it is what the fix does *not* reach:
+    **369 rows name a venue but still get no currency**, because they resolve
+    to one of 12 MICs the fallback table has no entry for -- `BVCA` 110,
+    `XBER` 63, `XTAE` 61, `XJPX` 57, `XCOL` 20. The source leaves `currency`
+    blank on 1,367 rows that do carry a `mic`, and the table is what answers
+    for them. Raised, not fixed.
 - **The sector mapping is a partial no-op, and a licence decision rests on
   it.** `config/sector_taxonomy.yml` renames eleven FinanceDatabase sector
   strings, and two of the eleven values actually published -- `Information
@@ -1428,6 +1455,82 @@ exists on the finding that a wrong MIC is worse than an absent one.
     build stops.
   - Dependencies or blockers: none. It is small, and it should not be bundled
     into a data rebuild, since fixing it changes the record count.
+
+- [~] **T23.** Read a listing's venue and currency from the source.
+  **Pipeline half done 2026-09-03, committed on `main` at `1530f70157`;
+  `v1/` still holds all four defects until a rebuild, which needs sign-off.**
+  - Scope: the first four findings of the client-integration review above,
+    which are one defect with four faces -- the MIC was guessed from the Yahoo
+    symbol suffix and the currency then derived from that guess, so each error
+    was told twice.
+  - **The source answers it directly, which the review did not know.** It ships
+    a `mic` column, already ISO 10383, populated on **111,823 of 112,654 rows
+    (99.3%)** across 72 well-formed values, and a `currency` column on 110,517.
+    The review proposed reading `currency` and `exchange`; `exchange` is
+    Yahoo's own code (`NMS`, `NYQ`, `IOB`) and would need a new code-to-MIC
+    table, so `mic` is the smaller and better lever.
+  - Acceptance criteria, met in the pipeline: the guess is no longer the
+    primary answer, and `validate.py` passes on a full probe build.
+    **47,310 of 112,654 rows disagreed with the source**; in the probe that is
+    **47,285 of 111,535 listings, 42.4%**:
+
+    | change | listings |
+    | --- | --- |
+    | `XNYS` to `OTCM` | 11,745 |
+    | `XNYS` to `XNAS` | 8,236 |
+    | `XNYS` to `XBER` | 7,662 |
+    | `XNYS` to `XMUN` | 6,075 |
+    | `DIFX` to `XDUS` | 3,467 |
+    | `XTKS` to `XJPX` | 3,057 |
+    | `XNYS` to `XTAE` | 527 |
+    | `XNYS` to none | 406 |
+
+    plus 25,218 currency corrections, led by `USD` to `EUR` 16,309 and `AED`
+    to `EUR` 3,441. **`OTCM` was never counted by the review**: 11,745
+    over-the-counter listings claimed the NYSE, more than the Nasdaq ones did.
+  - Three changes to the suffix map, which stays as the fallback for the 831
+    rows the source leaves: `.DU` corrected from `DIFX` to `XDUS`; the
+    bare-symbol default `"": XNYS` retired, so a venue nobody can name is
+    absent rather than wrong; and `.TI` deliberately left unmapped -- see the
+    correction under the review findings above, which is the near-miss worth
+    reading before touching this map again.
+  - **`ILA` and `ZAC` are normalized to `ILS` and `ZAR`**, 969 rows. They are
+    quoting units rather than ISO 4217 codes, and the decision turned on the
+    source contradicting itself: the same column reports `GBP` for London,
+    which is also quoted in pence, rather than `GBX`. Publishing the sub-unit
+    for two venues and the currency for the third would be publishing an
+    inconsistency of the source's rather than a fact about a venue. The
+    quoting unit is a real field this schema does not carry; the MIC-registry
+    candidate below is where it belongs.
+  - **A knock-on nobody predicted, and it is the reason this is not a
+    one-line change.** `group_cross_listings` promotes a US-listed member of
+    an ISIN group to primary by testing `exchange_mic` against a set of four
+    US MICs. The old `""` to `XNYS` default made that test true for nearly
+    every record, so the rule barely discriminated; with a real MIC it does.
+    Measured against the probe: **1,997 records change `primary_symbol`** --
+    Tyson Foods was led by `TF7A.BE`, a Berlin line, and is now `TSN` --
+    **515 change `name`** toward the fuller US form (`CAESARS ENTMT INC.
+    DL-,01` becomes `Caesars Entertainment, Inc.`), **149 change `sector`**
+    and **71 `country_code`**, in each case because the source disagrees with
+    itself between a company's listings and the US line is now preferred.
+    This cannot be shipped separately: an accurate MIC is what makes the rule
+    discriminate, so the two are one change.
+  - **It also moves T19's count, by improving it.** The identity check
+    compares OpenFIGI's name against the record's, and the record's name now
+    comes from the US listing rather than a German one. 323 ISINs are dropped
+    against 322, on a set that differs by 6 in and 5 out: `US4234031049` stops
+    being disowned because the record now reads `Hello Group` rather than
+    `Momo Inc.`, which is what OpenFIGI calls it.
+  - Automated validation, done: **230 passed**, from 221. Nine cases over the
+    source winning, the suffix fallback still running, an unmappable venue
+    being absent, `.DU`, `.TI`, and the three currency forms.
+  - Manual validation, outstanding until the rebuild: `v1/stocks/AAPL.json`
+    still reads `XNYS` today. Verified instead against a full `--no-etfs`
+    probe tree, where `validate.py` exits 0 and the record count is unchanged
+    at 90,513.
+  - Dependencies or blockers: none. The rebuild is the outstanding half, and
+    it is much larger than T22's -- 47,285 listings and 1,997 primaries rather
+    than 893 records.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),

@@ -1,9 +1,24 @@
-# In flight: nothing. T19 and T20 are complete in the code and in the data
+# In flight: T23's rebuild. T19 and T20 are complete in code and in data
 
 The arc that has been in flight since the OpenFIGI sweep is finished. Both
 rules are on `main`, and **T22's rebuild applied them to `v1/`**, so the
 defects they correct have stopped being served rather than only stopped being
-produced. There is no partially-landed change to pick up.
+produced.
+
+**What is in flight is T23**, and it is in exactly the state T19 and T20 were
+in this morning: the pipeline half is on `main` at `1530f70157` and gate-
+verified, and `v1/` still holds the defect. A listing's venue and currency now
+come from the source's own `mic` and `currency` columns rather than from a
+guess at the symbol suffix. The rebuild that spends it is larger than T22's by
+two orders of magnitude in records touched -- **47,285 of 111,535 listings,
+42.4%, change their MIC**, 25,218 change currency, and 1,997 records change
+`primary_symbol` as a knock-on -- so it wants its own sign-off and its own
+rehearsal, both of which are done and recorded under T23.
+
+**One thing to know before that rebuild runs unattended:** `refresh.yml` fires
+Sunday 06:00 UTC, builds, validates and auto-commits `v1/**` as the bot. T23
+is on `main` now, so if no rebuild happens first, that job is what publishes
+these 47,285 corrections, with nobody reading the diff.
 
 ## What landed, and where it can be seen
 
