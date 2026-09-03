@@ -67,9 +67,12 @@ Windows is a supported development host and the pipeline is not safe on it.
 `git clone` fails outright with `invalid path 'v1/stocks/CON.DE.json'` and,
 because it fails while building the index, leaves the working tree empty rather
 than skipping the record -- so a Windows checkout exists only with the
-`core.protectNTFS` check relaxed. Separately, several `read_text()` calls have
-no `encoding=`, so a bare `python scripts/validate.py v1/` fails on cp1252.
-PR #5 fixes the first; the second is unfixed. See `TASKS.md`.
+`core.protectNTFS` check relaxed. PR #5 fixes that, and it is still open.
+
+The locale half is fixed: every `read_text()` in `scripts/` names its encoding
+and the validator reports in ASCII, so the gate runs on a cp1252 host with no
+environment overrides. Keep it that way -- a bare `read_text()` or a non-ASCII
+character in a message the validator writes itself puts it back.
 
 ## Working boundaries
 
@@ -144,12 +147,15 @@ Validate. This is the whole gate, and it takes about a minute over `v1/`.
 python scripts/validate.py v1/
 ```
 
-On Windows, force UTF-8 or the validator dies printing its own error strings.
-Until #5 merges, also expect three failures for the two `CON` shards that are
-named in the index and absent from the tree.
+That command is complete on every host, Windows included. Until #5 merges,
+expect three failures on Windows for the two `CON` shards that are named in the
+index and absent from the tree.
+
+To check that no new call has started relying on the host locale, make the
+warning fatal -- it names the offending line:
 
 ```bash
-PYTHONUTF8=1 PYTHONIOENCODING=utf-8 python scripts/validate.py v1/
+python -X warn_default_encoding -W error::EncodingWarning scripts/validate.py v1/
 ```
 
 Test. Fast, and it needs only `pycountry` and `jsonschema` from the

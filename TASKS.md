@@ -57,8 +57,9 @@ everything else.
 ## Current phase
 
 Phase 1, *A dataset that validates everywhere and hides nothing*. Three items
-are already submitted and two are maintainer actions, so the code left to write
-is smaller than it looks: T3, T4, and T6, none of them blocked.
+are already submitted, two are maintainer actions and T3 is written but not yet
+sent, so the code left to write is smaller than it looks: T4, which nothing
+blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -225,26 +226,55 @@ is smaller than it looks: T3, T4, and T6, none of them blocked.
     Select Sector SPDR Trust `0001064641`), plus VIG, VNQ, VYM, EEM, IEMG,
     QQQM, RSP, SMH, BND, VEA, VWO and VXUS.
 
-- [ ] **T3.** Make text I/O and diagnostics platform-independent.
-  - Scope: every `read_text()` and `write_text()` in `scripts/` gains an
-    explicit `encoding="utf-8"` -- `build.py:335`, `build.py:339`,
-    `validate.py:42`, `validate.py:120`, `validate.py:135`, `validate.py:147`.
-    Replace the two non-ASCII characters the validator prints in its own error
-    messages, U+2192 and U+00B1, with `->` and `+/-`.
-  - Acceptance criteria: `python scripts/validate.py v1/` runs to completion on
-    Windows with no `PYTHONUTF8` or `PYTHONIOENCODING` set; a record containing
-    non-ASCII text is read without error.
-  - Automated validation: a test that writes a fixture containing non-ASCII text
-    and validates it; run under a forced cp1252 default where the platform
-    allows.
-  - Manual validation: run the validator on Windows in a plain console with no
-    environment overrides.
-  - Dependencies or blockers: none; #7 carries the harness.
-  - Evidence: reading a random 4,000-shard sample raised
-    `UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f`, and printing
-    an index error raised `UnicodeEncodeError` on the arrow the validator puts
-    in its own message. Only `PYTHONUTF8=1 PYTHONIOENCODING=utf-8` gets the
-    validator to finish on this host.
+- [~] **T3.** Make text I/O and diagnostics platform-independent.
+  **Written and validated locally 2026-09-02. Not committed and not submitted
+  upstream, so nothing outside this working tree has it yet.**
+  - Delivered: `encoding="utf-8"` on the six `read_text()` calls that had none
+    -- `validate.py` 42, 120, 133, 146 and `build.py` 335, 339 -- and the
+    validator's own messages reduced to ASCII. **Three characters, not the two
+    this task's scope named:** `+/-` for U+00B1 and `->` for U+2192 as written,
+    plus `<=` for U+2264 in the `top_holdings` message, which is printed by the
+    same report and would have kept the gate red on its own. No production
+    behavior changed beyond the encoding: no record, path, or URL moved.
+  - Acceptance criteria, met: `python scripts/validate.py v1/` now runs to
+    completion on Windows with no `PYTHONUTF8` or `PYTHONIOENCODING` set -- 82
+    seconds over 98,462 shards, reporting only the three pre-existing `CON`
+    failures #5 owns. Before the change the same command died after 3.5 seconds
+    on `UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f`, having
+    validated nothing and printed nothing.
+  - Automated validation: two tests added to `scripts/tests/test_validate.py`,
+    and an `index_of` fixture in `conftest.py` that builds the smallest index
+    the schema accepts. 32 passed and 7 xfailed, up from 30 and 7. Red-then-green
+    checked by reverting `validate.py` to `HEAD` and re-running: both new tests
+    failed, the other 30 passed, and the file was restored byte-identical.
+    - A shard whose name carries byte 0x8F -- undecodable in cp1252, and the
+      byte the `v1/` sample actually failed on -- validates through
+      `validate_tree`.
+    - Every message the validator writes itself is ASCII. Values inside a
+      message can be non-ASCII, since they come from the data; the templates
+      around them cannot.
+  - Manual validation: `build.py --no-stocks --no-etfs --out <dir>` over two
+    non-ASCII shards, which skips both fetch passes and reaches nothing but the
+    index rebuild, so it exercises `build.py`'s two lines with no network. It
+    crashed on the same 0x8f before the change and rebuilt the index cleanly
+    after, with a Japanese name intact through the read.
+  - Also available now, and recorded in `AGENTS.md`:
+    `python -X warn_default_encoding -W error::EncodingWarning scripts/validate.py v1/`
+    names the offending line if a future call starts relying on the host locale.
+    It was what located all six sites.
+  - Why the build's log lines were left alone, measured rather than assumed:
+    `logging` catches the encode failure and falls back to backslashreplace, so
+    `edgar.py:83`'s `ticker->CIK` arrow prints as `ticker→CIK` and the run
+    continues at exit 0. `print()` raises and takes the process with it. Only
+    the validator reports through `print()`, so only its messages had to change
+    -- and a future diagnostic added with `print()` needs the same care.
+  - Not fixed, and deliberately out of scope: a `jsonschema` message quoting a
+    non-ASCII record value is still printed verbatim, so a schema failure on a
+    record with an accented name can still raise `UnicodeEncodeError` on a
+    cp1252 console. No such failure exists in `v1/` today -- the gate's only
+    three errors are the ASCII `CON` ones -- and suppressing it means either
+    forcing the stream encoding or mangling the value, both of which change how
+    every diagnostic reads. Raised rather than folded in.
 
 - [ ] **T4.** Make an unreachable or unvalidated shard a validator failure.
   - Scope: `validate.validate_tree` and `validate.validate_index`. Walk the
@@ -264,6 +294,19 @@ is smaller than it looks: T3, T4, and T6, none of them blocked.
     records now appear in the report.
   - Dependencies or blockers: none; #7 carries the harness. Lands before T2 or
     after it, but the report it produces is what proves T2 worked.
+  - **Base this on T3, not on `upstream/main`.** T4 rewrites the exact lines T3
+    changed: `validate.py` 120 and 133 are inside the two read loops it merges
+    into one walk, 94 and 99 are in the `validate_index` it extends, and
+    `build.py` 335 and 339 are the re-read named in the scope above. A branch
+    cut off `upstream/main` writes that new walk against the unfixed base and
+    silently drops `encoding=` back out -- undoing T3 inside the function that
+    replaces it. Cut it from `main` after T3, or base it on T3's branch.
+  - Keep it a separate PR from T3 rather than folding the two together, for a
+    review reason: T3 is mechanical and obviously correct, while this changes
+    what the gate *fails on* -- the 13 nested records start failing, which
+    someone has to accept as a decision. Bundling makes the trivial fix hostage
+    to review of the contentious one. Order is #7, then T3, then T4; all three
+    extend `scripts/tests/test_validate.py`.
   - Evidence: `counts.stocks` is 98,464; `index.json` names 98,463 distinct
     stock paths; 98,462 `.json` files sit directly under `v1/stocks/` and 13
     more sit one level down. Three numbers, four values, and the current
