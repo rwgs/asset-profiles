@@ -39,7 +39,7 @@ _validators: dict[str, Draft202012Validator] = {}
 def _validator(name: str) -> Draft202012Validator:
     if name not in _validators:
         path = SCHEMA_DIR / f"{name}.schema.json"
-        schema = json.loads(path.read_text())
+        schema = json.loads(path.read_text(encoding="utf-8"))
         _validators[name] = Draft202012Validator(schema)
     return _validators[name]
 
@@ -70,13 +70,13 @@ def validate_record(record: dict) -> list[str]:
             continue
         total = sum(w.get("weight", 0.0) for w in ws)
         if abs(total - 1.0) > WEIGHT_SUM_TOL:
-            errors.append(f"weights: {field} sums to {total:.4f}, expected 1.0 ± {WEIGHT_SUM_TOL}")
+            errors.append(f"weights: {field} sums to {total:.4f}, expected 1.0 +/- {WEIGHT_SUM_TOL}")
 
     th = record.get("top_holdings") or []
     if th:
         top_total = sum(h.get("weight", 0.0) for h in th)
         if top_total > 1.0 + WEIGHT_SUM_TOL:
-            errors.append(f"weights: top_holdings sums to {top_total:.4f}, must be ≤ 1.0")
+            errors.append(f"weights: top_holdings sums to {top_total:.4f}, must be <= 1.0")
 
     return errors
 
@@ -91,12 +91,12 @@ def validate_index(index: dict, root: Path) -> list[str]:
     for sym, entry in index.get("symbols", {}).items():
         path = root / entry["path"]
         if not path.exists():
-            errors.append(f"index: symbol {sym!r} → {entry['path']} (file missing)")
+            errors.append(f"index: symbol {sym!r} -> {entry['path']} (file missing)")
 
     for isin, path_str in index.get("isins", {}).items():
         path = root / path_str
         if not path.exists():
-            errors.append(f"index: isin {isin} → {path_str} (file missing)")
+            errors.append(f"index: isin {isin} -> {path_str} (file missing)")
 
     counts = index.get("counts", {})
     actual_stocks = sum(1 for _ in (root / "stocks").glob("*.json")) if (root / "stocks").exists() else 0
@@ -117,7 +117,7 @@ def validate_tree(root: Path) -> int:
     files = sorted((root / "stocks").glob("*.json")) if (root / "stocks").exists() else []
     for path in files:
         try:
-            record = json.loads(path.read_text())
+            record = json.loads(path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as e:
             print(f"FAIL {path}: invalid JSON: {e}")
             total_errors += 1
@@ -130,7 +130,7 @@ def validate_tree(root: Path) -> int:
     files = sorted((root / "etfs").glob("*.json")) if (root / "etfs").exists() else []
     for path in files:
         try:
-            record = json.loads(path.read_text())
+            record = json.loads(path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as e:
             print(f"FAIL {path}: invalid JSON: {e}")
             total_errors += 1
@@ -143,7 +143,7 @@ def validate_tree(root: Path) -> int:
     index_path = root / "index.json"
     if index_path.exists():
         try:
-            index = json.loads(index_path.read_text())
+            index = json.loads(index_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as e:
             print(f"FAIL {index_path}: invalid JSON: {e}")
             return total_errors + 1

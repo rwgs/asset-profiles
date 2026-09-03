@@ -332,11 +332,11 @@ def main(argv: list[str] | None = None) -> int:
     valid_stocks: list[dict] = []
     if (out_dir / "stocks").exists():
         for path in (out_dir / "stocks").glob("*.json"):
-            valid_stocks.append(json.loads(path.read_text()))
+            valid_stocks.append(json.loads(path.read_text(encoding="utf-8")))
     valid_etfs: list[dict] = []
     if (out_dir / "etfs").exists():
         for path in (out_dir / "etfs").glob("*.json"):
-            valid_etfs.append(json.loads(path.read_text()))
+            valid_etfs.append(json.loads(path.read_text(encoding="utf-8")))
 
     index = build_index(valid_stocks, valid_etfs, generated_at=fetched_at)
     (out_dir / "index.json").write_text(
