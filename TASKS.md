@@ -179,6 +179,18 @@ So what remains here is not Phase 1 code:
   a worse defect than the receipt keying T18 was raised for. Also worth
   carrying forward: only **9,356 of 90,513** stock records have an ISIN at all,
   against `DECISIONS.md` making ISIN the canonical key.
+- **OpenFIGI is adopted, and putting all 9,356 published ISINs to it replaced
+  three heuristics with typed answers.** T18's extent is **445** records keyed
+  by a depositary receipt's ISIN, not the 2 it was raised for -- NVIDIA,
+  Netflix and Walmart among them, each keyed by its Canadian receipt. T19's is
+  **104 confirmed**, down from the detector's 164. And a question nobody
+  asked got answered: **445 `EURO-ZONE` structured certificates, 108 ETPs and
+  69 funds are published as stock records**, which is now T20.
+- **GLEIF was measured too, and it half-works.** A receipt's ISIN maps to the
+  *issuer's* LEI -- Nestle's ADR and its Swiss ordinary share one -- so the
+  join is exact. But 1,365 of T18's 2,142 are not in the file, only 176 gain a
+  local ISIN, and Hon Hai and TSMC's Taiwan lines are absent entirely. It
+  closes 8.2% of the class and misses the cases it was wanted for.
 
 ### Found by the coverage report, and not fixed
 
@@ -957,6 +969,38 @@ exists on the finding that a wrong MIC is worse than an absent one.
     depositary bank's. If the issuer's, the Nestle and Hon Hai cases resolve
     directly; if the bank's, GLEIF is no better than OpenFIGI here. One file
     and one lookup settles it, and nobody has run it.
+  - **Run 2026-09-03. A receipt's ISIN maps to the issuer's LEI, so the
+    mechanism works -- and coverage is why it still does not close this task.**
+    GLEIF's `isin-lei-20260903T071508.zip`, 9,205,209 ISIN-to-LEI rows over
+    98,721 LEIs, fetched through this repository's own `http_cache`
+    (`mapping.gleif.org/robots.txt` carries an empty `Disallow:`, so nothing is
+    excluded).
+    - **Nestle resolves.** `US6410694060`, the ADR ISIN this dataset
+      publishes, and `CH0038863350`, the Swiss ordinary it lacks, map to the
+      *same* LEI `KY37LUS27QQX7BB93L28` -- confirmed against the LEI register
+      as *NESTLE S.A.*, legal address CH, so it is the issuer's LEI and not the
+      depositary bank's. That LEI carries seven ISINs, four CH and three US.
+      The join is exact and needs no name matching anywhere in it.
+    - **Hon Hai does not.** Neither `US4380908057` nor `TW0002317005` is in the
+      file at all.
+    - **Nor does TSMC, which matters to T15.** `US8740391003` reaches a LEI
+      carrying two ISINs, both US; `TW0002330008` -- the single holding that
+      decides whether VWO and IEMG publish `sector_weights` -- is absent.
+    - **Across the 2,142: 777 reach a LEI, 1,365 are absent, and 176 gain an
+      ISIN issued in the country the record claims.** So GLEIF closes 8.2% of
+      the class, and the Taiwan cases it is most needed for are exactly the
+      ones missing. Worth adopting for what it reaches; not the answer to this
+      task.
+  - **The extent is 445, measured 2026-09-03, and no longer a name heuristic.**
+    Every one of the 9,356 published ISINs was put to OpenFIGI, which types the
+    security each identifies: **407 ADR, 24 GDR, 6 Canadian DR**, plus Dutch
+    certificates, NY registered shares and plain receipts -- **445 records
+    keyed by a depositary receipt's ISIN**, against the 2 this task was raised
+    for and the 101 a name check found. A floor rather than a ceiling, since
+    OpenFIGI had no answer for 836 of the 9,356. Led by `country_code` CN 52,
+    JP 50, DE 48, GB 29, US 27 -- and those US 27 are the shape nobody
+    expected: `CA67080A1093` is NVIDIA, `CA64113H1029` Netflix,
+    `CA93267X1006` Walmart, each keyed by its *Canadian* depositary receipt.
 
 - [ ] **T19.** Decide what to publish when the source attaches one company's
   ISIN to another company that shares its ticker.
@@ -990,13 +1034,26 @@ exists on the finding that a wrong MIC is worse than an absent one.
     ISIN. Here a consumer joining on `CA18452Y1007` is handed a different
     company, in a different country, in a different sector, and the company it
     asked for is published under a key it has no way to guess.
-  - **164 is a lower bound.** The detector requires the true owner to appear in
-    the source *without* an ISIN and to share the record's bare ticker, so it
-    finds only collisions where both sides survived into the dataset. It found
-    209 such pairs in all; 45 of them are the same company under a wrong
-    `country_code` rather than a wrong ISIN -- CSR Limited published as
-    Morocco, Sayona Mining as Canada -- which is a third, smaller defect in the
-    same measurement and needs no schema question to fix.
+  - **164 was the bare-ticker detector's output; OpenFIGI cut it to 104
+    confirmed, 2026-09-03.** Asked what each of those 164 ISINs actually is,
+    OpenFIGI resolved 147 and **named a different company than the record in
+    104** -- `CA18452Y1007` is CLEAN AIR METALS INC, `CA7800871021` is ROYAL
+    BANK OF CANADA against a record reading Rayonier, `CA5394811015` is LOBLAW
+    against Loews. 36 were false positives where OpenFIGI agreed with the
+    record, 7 ambiguous, 17 unresolved. **104 is the confirmed count**; the
+    detector's 164 should not be quoted.
+  - Still a floor, because the detector only finds a collision where *both*
+    sides survived into the dataset sharing a bare ticker. It found 209 pairs
+    in all; the other 45 are the same company under a wrong `country_code` --
+    CSR Limited published as Morocco, Sayona Mining as Canada -- a third,
+    smaller defect that needs no schema question to fix.
+  - **A route that looked exact and is not, recorded so it is not retried:**
+    comparing each record's own `composite_figi` against the FIGIs OpenFIGI
+    returns for its ISIN. It fires on **1,242** records and is *not* a
+    wrong-ISIN detector -- in most of them the names agree exactly (`ALUMINA
+    LTD` against `ALUMINA LTD`) and it is the FIGI that is stale or names
+    another venue's composite. A useful internal-consistency check and a
+    misleading identifier check.
   - Scope, and it is a decision before it is a change: choose between dropping
     the ISIN from a record that fails a plausibility check and keeping it with
     the record marked. Dropping it is cheap, reversible, and costs the 164
@@ -1013,6 +1070,42 @@ exists on the finding that a wrong MIC is worse than an absent one.
     question rather than an edit, and it should be settled together with T18's
     since both are answers to "what does this dataset do when the source's
     identifier is wrong".
+
+- [ ] **T20.** Stop publishing instruments that are not equities as stock
+  records.
+  - **Found 2026-09-03 by the OpenFIGI sweep run for T18 and T19**, which typed
+    every published ISIN and so answered a question nobody had asked: *is this
+    even a share?* For a meaningful number of records it is not.
+  - The counts, from the 8,520 ISINs OpenFIGI resolved: **445 `EURO-ZONE`**,
+    **108 `ETP`**, **49 `Closed-End Fund`**, **20 `Open-End Fund`**, **12
+    `EURO-DOLLAR`**, **10 `EURO MTN`**, **9 `EURO NON-DOLLAR`**. Against 7,205
+    `Common Stock`.
+  - **The 445 are one issuer's structured certificates.** 443 records carry a
+    name beginning `EGB OE` or `RCB OE` -- Erste Group Bank and Raiffeisen
+    Centrobank turbo certificates -- and every one is `country_code` `AT`.
+    `v1/stocks/AT0000A2H326.json` is published as `"kind": "stock"`, named
+    `EGB OE TL.Z./DAIMLER`, with `sector` *Consumer Discretionary* and a single
+    Vienna listing whose symbol is the ISIN itself. It is a leveraged
+    certificate over Daimler, not a company, and it has no sector of its own to
+    report.
+  - Why it matters rather than being untidy: a client classifying a holding
+    gets a sector and a country for something that has neither, and the
+    certificates inherit the *underlying's* sector, so 443 Austrian records
+    silently carry German industrial exposure. The ETPs are worse placed
+    still -- this repository publishes funds under `v1/etfs/`, so an ETP in
+    `v1/stocks/` is in the wrong tree as well as the wrong `kind`.
+  - Scope: decide whether the stocks pass filters on instrument type, and if so
+    what supplies the type. FinanceDatabase does not appear to carry one, so
+    the cheap route is a name rule over the two `OE` prefixes, and the correct
+    route is OpenFIGI's `securityType` -- now available, but it would make a
+    third-party mapping a gate on what ships rather than an enrichment, which
+    is a change in what OpenFIGI is for and needs `DECISIONS.md` to say so.
+  - Acceptance criteria: the number of non-equity instruments published under
+    `v1/stocks/` is stated and either zero or justified; whichever rule is
+    chosen is asserted in `scripts/tests` over `AT0000A2H326`.
+  - Dependencies or blockers: none factual. It shares T19's open question --
+    what this dataset does when a source hands it something it should not
+    publish -- and should be decided alongside it rather than separately.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),

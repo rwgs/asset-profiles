@@ -70,9 +70,24 @@ change. Second, the measurement turned up a defect nobody was looking for --
 **164 records keyed by another company's ISIN**, now T19 -- which is worse than
 what T18 was raised for and is decided by the same question.
 
-**So the next decision is a joint one**: T15's three questions and T19's
-publish-or-drop are all "what does this dataset do when an identifier is
-wrong", and answering them separately risks answering them inconsistently.
+**So the next decision is a joint one**: T15's three questions, T19's
+publish-or-drop and now T20's are all "what does this dataset do when a source
+hands it something wrong", and answering them separately risks answering them
+inconsistently.
+
+**Since then OpenFIGI was adopted and both follow-on measurements ran.** The
+sweep put all 9,356 published ISINs to it and replaced every name heuristic
+with a typed answer: T18's extent is 445 rather than 2, T19's confirmed count
+is 104 rather than 164, and 622 non-equity instruments turned up in the stocks
+tree as T20. GLEIF answered the question T18 posed -- a receipt's ISIN maps to
+the issuer's LEI, so the join is exact -- but reaches only 777 of the 2,142 and
+misses Hon Hai and TSMC entirely, so it is worth adopting for what it covers
+and is not the close of T18.
+
+**What is still nobody's answer but the maintainer's**: T15's provenance
+question, T19's publish-or-drop, T20's filter-or-keep. All three are the same
+question wearing different clothes, and no code should land on any of them
+until it is answered.
 
 **Then Phase 3.** `ROADMAP.md` has the order; it has not been opened and its
 exit criteria have not been re-read against what the last two days changed.
