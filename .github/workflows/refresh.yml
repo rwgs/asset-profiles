@@ -33,10 +33,17 @@ jobs:
         uses: astral-sh/setup-uv@v3
         with:
           enable-cache: true
-          cache-dependency-glob: 'scripts/requirements.txt'
+          cache-dependency-glob: 'scripts/requirements*.txt'
 
       - name: Install dependencies
         run: uv pip install --system -r scripts/requirements.txt
+
+      # The issuer-holdings fallback is optional and lives in its own file, so
+      # the documented dev setup installs on Python past 3.12. This job pins
+      # 3.12, where etf-scraper's numpy<2.0 ceiling still has a wheel, so the
+      # build keeps the fallback it has always had.
+      - name: Install the issuer-holdings fallback
+        run: uv pip install --system -r scripts/requirements-issuer.txt
 
       - name: Build dataset
         env:

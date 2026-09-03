@@ -141,6 +141,13 @@ SEC_USER_AGENT="your-name your@email" python scripts/build.py
 python scripts/validate.py v1/
 ```
 
+The non-US issuer fallback is an optional extra, because it pins `numpy<2.0` and
+so has no wheel past Python 3.12. Add it only if you are working on that path:
+
+```bash
+uv pip install -r scripts/requirements-issuer.txt
+```
+
 ## Design decisions
 
 A few open questions from the spec have been resolved for v1:

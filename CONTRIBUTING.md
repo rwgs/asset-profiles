@@ -53,6 +53,13 @@ SEC_USER_AGENT="dev-name dev@example.com" python scripts/build.py
 python scripts/validate.py v1/
 ```
 
+Working on `sources/issuer_scraper.py` also needs its optional extra, which is
+kept out of `requirements.txt` so the setup above installs on Python past 3.12:
+
+```bash
+uv pip install -r scripts/requirements-issuer.txt
+```
+
 PRs welcome for:
 
 - New normalization rules (e.g. better sector mapping)

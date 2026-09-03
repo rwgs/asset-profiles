@@ -5,4 +5,8 @@ pandas>=2.2
 python-dateutil>=2.9
 lxml>=5.1
 pycountry>=23.12
-etf-scraper>=0.1.2
+
+# The issuer-holdings fallback is not here on purpose. `etf-scraper` pins
+# numpy<2.0, which publishes no wheel past Python 3.12, so listing it makes the
+# documented setup fail on any newer interpreter. Install it separately when you
+# need that fallback: `uv pip install -r scripts/requirements-issuer.txt`.
