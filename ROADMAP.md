@@ -93,6 +93,9 @@ over nested records, and the tests.
 
 ## Phase 2: ETF records that describe the fund they name
 
+**Current, and opened on 2026-09-03** when its headline change merged into
+`origin/main`. The other four items below have not started.
+
 ### Outcome
 
 Each fund's record reflects that fund's own holdings, and a weighted list is
@@ -107,7 +110,8 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
   entries share a CIK with another entry, so the current lookup cannot tell them
   apart. **Written and submitted as PR #6**, which also finds that 19 of the 52
   configured US CIKs name the wrong filer, and makes the config's CIK advisory
-  rather than load-bearing.
+  rather than load-bearing. **Merged into `main` at `52fdc78ce3`, 2026-09-03**,
+  with the tests it owed at `55db8b4e0b`. Still open upstream.
 - Resolve a holding's sector through CUSIP and ticker as well as ISIN. Only
   about 15% of stock records carry an ISIN, which is why the lookup mostly
   misses.
@@ -136,17 +140,23 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
 
 ### Exit criteria
 
-- Four funds sharing one CIK produce four different records, each matching its
-  own published holdings.
-- No published weighted list is majority-synthetic.
-- Every published `country_code` resolves in `pycountry`.
-- The build reports each universe entry as a record or a named failure.
+- [~] Four funds sharing one CIK produce four different records, each matching
+  its own published holdings. **The first half is met and the second is not.**
+  Two funds in one trust resolve to their own filings, asserted over fixture
+  filings in `scripts/tests/test_edgar.py`; comparing a real record against the
+  fund's published breakdown needs a live EDGAR fetch and then a refresh, so
+  the published records are still the byte-identical ones built on 2026-05-31.
+- [ ] No published weighted list is majority-synthetic.
+- [ ] Every published `country_code` resolves in `pycountry`.
+- [ ] The build reports each universe entry as a record or a named failure.
 
 ### Validation
 
 - Automated: tests over fixture N-PORT XML covering a multi-series trust, a
   placeholder country code, and a holdings set with no resolvable sectors; the
-  new validator rules.
+  new validator rules. **The multi-series trust is done**, against a fake HTTP
+  layer rather than captured filings -- so it covers the selection and not the
+  parse of a real N-PORT.
 - Manual: compare `SCHD`, `SCHB`, `SCHX`, and `SCHF` against Schwab's published
   breakdowns, and `SPY` against the S&P 500's known sector split.
 

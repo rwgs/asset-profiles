@@ -9,8 +9,9 @@ against this working tree at `1979d5a8c3` or, for T4's, at `2a76205957`. The two
 differ only in `scripts/` and the planning documents, so no figure about `v1/`
 moved between them. P2's are newer: 2026-09-03 at `ccab4c6f78`, on Python
 3.14.5 with every requirement except `etf-scraper` installed -- which is T8's
-subject and does not touch the stocks pass. Re-measure rather than trust a
-number here once the pipeline has run again.
+subject and does not touch the stocks pass. T7's are newer again: 2026-09-03 at
+`55db8b4e0b`, same host and interpreter. Re-measure rather than trust a number
+here once the pipeline has run again.
 
 ## Pull requests
 
@@ -22,7 +23,7 @@ below: four of the tasks in this file are already written and waiting.
 | --- | --- | --- | --- | --- |
 | [#8](https://github.com/wealthfolio/asset-profiles/pull/8) | Read and report text independently of the host locale | rwgs | 2026-09-02 | Open, CI never ran |
 | [#7](https://github.com/wealthfolio/asset-profiles/pull/7) | Add a pytest harness and run it in CI | rwgs | 2026-09-02 | Open, CI never ran |
-| [#6](https://github.com/wealthfolio/asset-profiles/pull/6) | Resolve N-PORT by fund series, not filer CIK | rwgs | 2026-09-01 | Open, CI never ran |
+| [#6](https://github.com/wealthfolio/asset-profiles/pull/6) | Resolve N-PORT by fund series, not filer CIK | rwgs | 2026-09-01 | Open upstream, CI never ran; **merged into `main`** |
 | [#5](https://github.com/wealthfolio/asset-profiles/pull/5) | Escape DOS device names in shard filenames | rwgs | 2026-09-01 | Open upstream, CI never ran; **merged into `main`** |
 | [#3](https://github.com/wealthfolio/asset-profiles/pull/3) | Correct four wrong CIKs in the universe | bjmc | 2026-06-12 | Open, CI never ran |
 | [#2](https://github.com/wealthfolio/asset-profiles/pull/2) | Add funds to the universe | bjmc | 2026-06-12 | Open, CI never ran |
@@ -62,6 +63,10 @@ it is now known to be unlikely rather than merely unattempted.
    #3's corrections and finds fifteen more, for 19 wrong CIKs out of 52
    configured. #6 touches only `scripts/`, so #3 can still land as explicit
    documentation if the maintainers prefer that. Their call, noted on #3.
+   **Merged into `main` at `52fdc78ce3`, 2026-09-03**, with the tests it owed
+   committed alongside at `55db8b4e0b`. Its one line of `build.py` auto-merged
+   clean over T4's and T6's rewrite of that file, and `edgar.py` was untouched
+   on `main`, so the branch landed whole.
 4. **#5 is independent** of all of the above.
 5. **#8 is order-free.** It merges clean against all six others, depends on
    none of them, and unlike #5 it flips none of #7's `xfail(strict=True)`
@@ -85,20 +90,24 @@ it is now known to be unlikely rather than merely unattempted.
 
 ## Current phase
 
-Phase 1, *A dataset that validates everywhere and hides nothing*. **Every task
-in it that can be done from a fork is done**, as of 2026-09-03. T1, T3, and T7
-are written and submitted; T2, T4, T6, T8, and the signed-off half of T5 are on
-`main`; #1 is merged there too.
+Phase 2, *ETF records that describe the fund they name*, opened on 2026-09-03
+when its headline change landed on `main`: T7, submitted upstream as #6, plus
+the tests it owed. Nothing else in Phase 2 has started, and the four remaining
+items are listed under it in `ROADMAP.md`.
+
+Phase 1 is behind it, and **every task in it that can be done from a fork is
+done**. T1 and T3 are written and submitted; T2, T4, T6, T8, and the signed-off
+half of T5 are on `main`; #1, #5, #6, and #8 are merged there too.
 
 The headline is that `python scripts/validate.py v1/` **exits 0** -- on Windows,
 under the locale-strict form, with no environment overrides -- and the suite is
-71 passed with no strict markers left. Both numbers were red or absent a week
+78 passed with no strict markers left. Both numbers were red or absent a week
 ago. What made that true, in order: T1 gave the project a suite, #5 made it
 clone on Windows, T3 made it run on a non-UTF-8 host, T4 made an unreachable
 shard a failure, T6 stopped new ones being created, and T5's minimal route
 retired the 14 that already existed.
 
-**The phase still cannot close as written**, and that is a property of upstream
+**Phase 1 still cannot close as written**, and that is a property of upstream
 rather than of the work. Its exit criteria assume merges, a CI run, and a
 refresh, and all three need a maintainer who has said the repository is on
 standby. Nothing in this checkout can supply them.
@@ -118,8 +127,12 @@ So what remains here is not Phase 1 code:
   and whether this fork should publish at all.
 - **W6 and W7** are what this repository owes the client, and W6 needs holdings
   data that must not be committed here.
+- **#6 being on `main` cannot be seen in the data**, and will not be until a
+  refresh runs. Its four Schwab records still hold the byte-identical holdings
+  the CIK-level lookup produced on 2026-05-31. The fix is proven against fixture
+  filings and unproven against EDGAR, which needs `SEC_USER_AGENT` -- see T7.
 
-Phase 2 is what the next code change belongs to. See `ROADMAP.md`.
+The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -344,9 +357,13 @@ Phase 2 is what the next code change belongs to. See `ROADMAP.md`.
     nested paths -- but only to check them for device names, not to validate
     them against the schema.
 
-- [~] **T7 (Phase 2, submitted early).** Resolve N-PORT filings by fund series.
+- [~] **T7 (Phase 2).** Resolve N-PORT filings by fund series.
   **Submitted as [#6](https://github.com/wealthfolio/asset-profiles/pull/6),
-  2026-09-01. Awaiting CI approval (P1) and review.**
+  2026-09-01, and merged into `main` at `52fdc78ce3`, 2026-09-03, with the
+  tests it owed at `55db8b4e0b`. Still open upstream and still awaiting CI
+  approval (P1) and review. Left at `[~]` for the reason below: the code is
+  delivered and covered, and the manual validation it exists for has not been
+  run.**
   - Scope as submitted: resolve a ticker to its `(CIK, series ID)` through
     SEC's `company_tickers_mf.json`, then take the newest N-PORT carrying that
     series. Series lookup reads each filing's `-index-headers.html`, about 3 KB
@@ -356,12 +373,37 @@ Phase 2 is what the next code change belongs to. See `ROADMAP.md`.
     `scripts/build.py` and `scripts/sources/edgar.py`.
   - Acceptance criteria: four funds sharing a trust produce four different
     records. This is Phase 2's headline exit criterion, arriving before Phase 1
-    closes.
-  - Automated validation: none has run. See P1.
-  - Manual validation owed on merge: compare `SCHD`, `SCHB`, `SCHX`, `SCHF`
-    against Schwab's published breakdowns.
+    closes. **Met against fixture filings, not against EDGAR** -- see the two
+    validation entries below, which is the whole distinction that matters here.
+  - **Automated validation: 78 passed, from 71.** #6 shipped no tests, the same
+    debt #5 arrived with, so seven were written on merge in a new
+    `scripts/tests/test_edgar.py` and committed at `55db8b4e0b`. They run
+    against a fake HTTP layer holding one trust that files for two funds --
+    the shape the defect lives in -- and cover the series lookup's CIK padding
+    and case, the two funds resolving to their own filings, the per-trust
+    header scan resuming rather than restarting, a series that never filed
+    being reported instead of given a sibling's filing, a configured CIK that
+    does not file the series being overridden and logged, and an unreadable
+    mapping degrading to the CIK-level answer. `importorskip("requests")`
+    keeps the suite runnable on a bare install, as `test_build.py` does.
+    - Red-then-green was measured on the defect rather than on the new API,
+      because seven `AttributeError`s prove only that the code is new: against
+      the pre-merge `edgar.py`, XLK and XLF both return the same filing --
+      `2026-04-30`, holding `MSFT` -- and after it they return their own. The
+      file was restored byte-identical afterwards.
+    - What that does not cover: the parse of a real multi-megabyte N-PORT, and
+      whether a real `-index-headers.html` matches `_SERIES_ID_RE`. The fixture
+      header is written to the format, not captured from EDGAR.
+  - **Manual validation still owed, and not run: compare `SCHD`, `SCHB`,
+    `SCHX`, `SCHF` against Schwab's published breakdowns.** It needs a live
+    EDGAR fetch, so it needs `SEC_USER_AGENT` carrying a real name and email,
+    which is unset on this host. That is the check that would show the four
+    records are each fund's own rather than merely different from each other,
+    and nothing in the fixture tests substitutes for it.
   - Dependencies or blockers: observing the result in published data needs P2,
-    since no refresh can currently complete.
+    since no refresh can currently complete. Merging it into `main` needed
+    neither -- `main` is this fork's integration branch, and its one line of
+    `build.py` auto-merged clean over T4's and T6's rewrite of that file.
   - It also supersedes the CIK question: deriving the filer from SEC's own
     mapping makes a wrong `cik:` in the config a logged warning rather than a
     silent wrong record, and it finds **19 of the 52 configured US CIKs are
@@ -671,7 +713,7 @@ Phase 2 is what the next code change belongs to. See `ROADMAP.md`.
     are now simply absent rather than repaired, which the open duplicate-record
     question below covers.
 
-### Measurements and questions owed this phase
+### Measurements and questions owed Phase 1
 
 - ~~Why `counts.stocks` exceeds the number of distinct index paths by one.~~
   **Answered 2026-09-02 by T4**: `stocks/SAND.json`, an ISIN-less duplicate of

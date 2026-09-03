@@ -102,7 +102,8 @@ Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
 is the one exception, split into `scripts/requirements-issuer.txt` because it
 pins `numpy<2.0` and would otherwise cap the whole project at 3.12. Targets are GitHub Actions
 `ubuntu-latest` for the build and jsDelivr for delivery. `pytest` covers the
-normalizer and the validator; there is no formatter, linter, or type checker
+normalizer, the validator, the build's write-and-reap loop, and EDGAR's
+series-level filing selection; there is no formatter, linter, or type checker
 configured.
 
 **Windows is a supported development host and the repository now clones on it.**
@@ -242,7 +243,12 @@ python -X warn_default_encoding -W error::EncodingWarning scripts/validate.py v1
 ```
 
 Test. Fast, and it needs only `pycountry` and `jsonschema` from the
-requirements, so it runs where a full install does not.
+requirements, so it runs where a full install does not. `test_build.py` and
+`test_edgar.py` `importorskip` on `pandas` and `requests`, so on that bare
+install they skip rather than fail: measured 2026-09-03, **68 passed and 2
+skipped** with only `pytest`, `pycountry` and `jsonschema` installed, against
+**78 passed** with the full requirements. CI installs everything, so nothing is
+skipped on the runner.
 
 ```bash
 python -m pytest scripts/tests
