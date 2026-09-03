@@ -4,11 +4,13 @@ The work in flight and the work already validated. A task is one reviewable
 outcome: if it cannot be finished and checked in a single pass, it is a phase
 and belongs in `ROADMAP.md`.
 
-Every measurement below was taken on 2026-09-02 on Windows with Python 3.13.9,
+Most measurements below were taken on 2026-09-02 on Windows with Python 3.13.9,
 against this working tree at `1979d5a8c3` or, for T4's, at `2a76205957`. The two
 differ only in `scripts/` and the planning documents, so no figure about `v1/`
-moved between them. Re-measure rather than trust a number here once the pipeline
-has run again.
+moved between them. P2's are newer: 2026-09-03 at `ccab4c6f78`, on Python
+3.14.5 with every requirement except `etf-scraper` installed -- which is T8's
+subject and does not touch the stocks pass. Re-measure rather than trust a
+number here once the pipeline has run again.
 
 ## Pull requests
 
@@ -24,7 +26,7 @@ below: four of the tasks in this file are already written and waiting.
 | [#5](https://github.com/wealthfolio/asset-profiles/pull/5) | Escape DOS device names in shard filenames | rwgs | 2026-09-01 | Open upstream, CI never ran; **merged into `main`** |
 | [#3](https://github.com/wealthfolio/asset-profiles/pull/3) | Correct four wrong CIKs in the universe | bjmc | 2026-06-12 | Open, CI never ran |
 | [#2](https://github.com/wealthfolio/asset-profiles/pull/2) | Add funds to the universe | bjmc | 2026-06-12 | Open, CI never ran |
-| [#1](https://github.com/wealthfolio/asset-profiles/pull/1) | Point FinanceDatabase at its moved URLs | bjmc | 2026-06-12 | Open, CI never ran |
+| [#1](https://github.com/wealthfolio/asset-profiles/pull/1) | Point FinanceDatabase at its moved URLs | bjmc | 2026-06-12 | Open upstream, CI never ran; **merged into `main`** |
 
 **Upstream is on standby and none of this will be merged soon.** Asked about #5
 on 2026-09-03, `afadil` replied: *"this repo is not used at all, it was an idea
@@ -46,7 +48,10 @@ it is now known to be unlikely rather than merely unattempted.
 **Merge order matters, and GitHub will not warn about it.**
 
 1. **#1 first.** Until it lands every scheduled refresh fails, so no other
-   change can be observed in the published data. See P2.
+   change can be observed in the published data. See P2. **Merged into `main`
+   at `ccab4c6f78`, 2026-09-03**, and verified against the live source rather
+   than on review -- so the pipeline runs here even though the published
+   dataset is still stale.
 2. **#3 and #2 conflict with each other**, though both report no conflict with
    `main` -- GitHub computes that against the base branch only. #3 edits BND's
    `cik:` value and #2 inserts BNDX on the following line, so
@@ -86,10 +91,17 @@ which made the repository clone on Windows, and T6 followed it, which was the
 last of them. The suite is 71 passed with no strict markers left, and a probe
 tree built through the repaired pipeline validates clean.
 
-What is left is not code. T5's rebuild needs sign-off, and would take `v1/` from
-15 errors to 0 -- the probe is the evidence it now would. T8's dependency
-question can be settled locally and blocks nothing. Everything else is a request
-to a maintainer who has said the repository is on standby.
+What is left is not code, with one exception now closed: #1's URL fix was
+merged into `main` on 2026-09-03, so the pipeline fetches again. That was the
+last thing standing between this checkout and a real build, and it means T5 is
+now blocked on sign-off alone rather than on sign-off *and* a dead source.
+
+So the open items are three decisions and a measurement. T5's rebuild needs
+sign-off and would take `v1/` from 15 errors to 0 -- the probe is the evidence
+it now would, and P2 records that it would also grow the dataset by about 14%.
+T8's dependency question can be settled locally and blocks nothing. W7's
+country-code list can be produced today. Everything else is a request to a
+maintainer who has said the repository is on standby.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -108,18 +120,38 @@ to a maintainer who has said the repository is on standby.
     never executed. The cost is a button; the cost of not doing it is that every
     merge decision below is made on review alone.
 
-- [ ] **P2.** Land the FinanceDatabase URL fix and restart the refresh.
+- [~] **P2.** Land the FinanceDatabase URL fix and restart the refresh.
+  **The fix half is done: #1 is merged into `main` at `ccab4c6f78`, 2026-09-03.
+  The refresh half stays blocked on a maintainer.**
   - Scope: merge #1, then re-enable the schedule. Two separate causes stopped
-    the weekly job and fixing one does not fix the other.
+    the weekly job and fixing one does not fix the other -- which is why half of
+    this task could be closed and half cannot.
   - Acceptance criteria: a refresh run completes with conclusion `success` and
     commits; `v1/index.json` `generated_at` moves off 2026-05-31.
   - Automated validation: the refresh workflow's own run.
   - Manual validation: fetch `index.json` from jsDelivr and confirm the date
     moved.
-  - Dependencies or blockers: **effectively blocked**, same reason as P1. Merging
-    #1 needs maintainer access and re-enabling a schedule does too, and the
-    repository is on standby. The dataset therefore stays stale at 2026-05-31,
-    which is now a known state rather than an open incident.
+  - Dependencies or blockers: **the remaining half is blocked**, same reason as
+    P1. Re-enabling a disabled schedule needs maintainer access on a repository
+    that is on standby, so the published dataset stays stale at 2026-05-31 --
+    a known state rather than an open incident. Merging #1 did not need that
+    access, because `main` is this fork's integration branch.
+  - **Delivered, and verified against the live source rather than on review.**
+    `database/equities.csv` still answers 404 on 2026-09-03; both
+    `compression/equities.bz2` and `compression/etfs.bz2` answer 200.
+    `build.py --limit 500 --no-etfs --out <probe>` then fetched and parsed
+    **112,654 equity rows** from the archive, normalized 500 records, and
+    reported 500 valid and 0 invalid; `validate.py` on that probe exits 0 and
+    the suite stays at 71 passed. **This is the first run of the stocks pass
+    against the live source in this project** -- every earlier probe, T6's
+    included, had to substitute for it.
+  - Consequence for T5, and it is new: upstream now publishes 112,654 equity
+    rows against the 98,464 stock shards in `v1/`. A rebuild is not a refresh of
+    the same records, it is roughly a 14% larger dataset. Re-measure rather than
+    plan against `v1/`'s counts.
+  - Not covered by the above: the ETF pass. It needs `SEC_USER_AGENT` and a live
+    EDGAR fetch, and `--limit` does not reach it, so #1's `etfs.bz2` half is
+    verified as a URL and a parse but not through a full ETF build.
   - Evidence: nine consecutive scheduled runs failed, 2026-06-07 through
     2026-08-02, every one of them in about 30 seconds on
     `requests.exceptions.HTTPError: 404 Client Error: Not Found for url:
@@ -532,9 +564,24 @@ to a maintainer who has said the repository is on standby.
   - Manual validation: fresh `git clone` on Windows, then validate; spot-check
     that `BRK-A.json` and the repaired `BRK/A` record are not duplicates of each
     other.
-  - Dependencies or blockers: **blocked, needs sign-off.** This deletes tracked
-    data and rewrites tens of thousands of files. Per `AGENTS.md`, that is
-    destructive work and is not implied by the pipeline fix that requires it.
+  - Dependencies or blockers: **blocked on sign-off, and on that alone now.**
+    This deletes tracked data and rewrites tens of thousands of files. Per
+    `AGENTS.md`, that is destructive work and is not implied by the pipeline fix
+    that requires it. Until 2026-09-03 it was also blocked on the source: the
+    stocks pass died on a 404 and could not have rebuilt anything. #1's merge
+    removed that half, so this is now a decision rather than a wait.
+  - Scope grew with that merge, and the number should be re-measured before
+    starting: upstream publishes 112,654 equity rows against `v1/`'s 98,464
+    shards, so a rebuild adds roughly 14,000 records as well as repairing the
+    13 nested keys. A cheaper alternative exists and is worth pricing against
+    it -- delete the 14 unreachable shards and regenerate `index.json` alone
+    with `build.py --no-stocks --no-etfs`, which is a 15-file diff rather than a
+    98,000-file one, at the cost of leaving the published records as stale as
+    they are today. Whether that clears all 15 errors is **reasoned, not
+    measured**: the 14 named shards go with the files, and the count should
+    reconcile once the index is rebuilt from disk, but T4's `SAND` finding is
+    the only evidence that no second shadowed symbol is hiding behind it. Price
+    it by measuring before choosing it.
 
 ### Measurements and questions owed this phase
 
