@@ -86,10 +86,11 @@ def write_if_changed(path: Path, payload: dict, *, summary: dict) -> None:
 
 
 def reap_removed(directory: Path, current_keys: set[str], summary: dict) -> None:
-    if not directory.exists():
-        return
-    for path in directory.glob("*.json"):
-        if path.stem not in current_keys:
+    for path in validate_mod.shard_paths(directory):
+        # A nested shard's key is its path below `directory`, not its stem:
+        # `BRK/A.json` is keyed `BRK/A` and stemmed `A`, so reaping on the stem
+        # would delete every record a path separator nested.
+        if path.relative_to(directory).with_suffix("").as_posix() not in current_keys:
             path.unlink()
             summary["removed"] += 1
 
@@ -329,14 +330,14 @@ def main(argv: list[str] | None = None) -> int:
 
     # ---- index ----
     # Re-load successful records from disk to ensure index reflects post-validation truth.
-    valid_stocks: list[dict] = []
-    if (out_dir / "stocks").exists():
-        for path in (out_dir / "stocks").glob("*.json"):
-            valid_stocks.append(json.loads(path.read_text(encoding="utf-8")))
-    valid_etfs: list[dict] = []
-    if (out_dir / "etfs").exists():
-        for path in (out_dir / "etfs").glob("*.json"):
-            valid_etfs.append(json.loads(path.read_text(encoding="utf-8")))
+    valid_stocks = [
+        json.loads(path.read_text(encoding="utf-8"))
+        for path in validate_mod.shard_paths(out_dir / "stocks")
+    ]
+    valid_etfs = [
+        json.loads(path.read_text(encoding="utf-8"))
+        for path in validate_mod.shard_paths(out_dir / "etfs")
+    ]
 
     index = build_index(valid_stocks, valid_etfs, generated_at=fetched_at)
     (out_dir / "index.json").write_text(

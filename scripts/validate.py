@@ -4,7 +4,7 @@ CLI:
     python scripts/validate.py v1/
 
 Also exposed as a Python API:
-    from validate import validate_record, validate_tree, ValidationError
+    from validate import validate_record, validate_tree, shard_paths, ValidationError
 """
 
 from __future__ import annotations
@@ -13,7 +13,6 @@ import json
 import logging
 import sys
 from pathlib import Path
-from typing import Iterable
 
 import jsonschema
 from jsonschema import Draft202012Validator
@@ -54,6 +53,20 @@ def _schema_name_for(record: dict) -> str:
 # ---- public API ---------------------------------------------------------
 
 
+def shard_paths(directory: Path) -> list[Path]:
+    """Every shard under `directory`, including any that a path separator nested.
+
+    A shard key containing `/` -- FinanceDatabase publishes share classes as
+    `BRK/A` -- makes `build.py` create a directory, so a one-level glob leaves
+    those records unvalidated, unindexed, and unreaped. Sorted, because two
+    callers print a report and two write a generated artifact that should not
+    depend on filesystem enumeration order.
+    """
+    if not directory.exists():
+        return []
+    return sorted(directory.rglob("*.json"))
+
+
 def validate_record(record: dict) -> list[str]:
     """Validate a single record. Returns list of error messages (empty = OK)."""
     errors: list[str] = []
@@ -88,23 +101,31 @@ def validate_index(index: dict, root: Path) -> list[str]:
         loc = "/".join(str(p) for p in e.absolute_path)
         errors.append(f"index: {loc}: {e.message}")
 
+    named: set[str] = set()
     for sym, entry in index.get("symbols", {}).items():
-        path = root / entry["path"]
-        if not path.exists():
+        named.add(entry["path"])
+        if not (root / entry["path"]).exists():
             errors.append(f"index: symbol {sym!r} -> {entry['path']} (file missing)")
 
     for isin, path_str in index.get("isins", {}).items():
-        path = root / path_str
-        if not path.exists():
+        named.add(path_str)
+        if not (root / path_str).exists():
             errors.append(f"index: isin {isin} -> {path_str} (file missing)")
 
+    # A client resolves through the index and never guesses a filename, so a
+    # shard the index does not name cannot be read by anything.
     counts = index.get("counts", {})
-    actual_stocks = sum(1 for _ in (root / "stocks").glob("*.json")) if (root / "stocks").exists() else 0
-    actual_etfs = sum(1 for _ in (root / "etfs").glob("*.json")) if (root / "etfs").exists() else 0
-    if counts.get("stocks") != actual_stocks:
-        errors.append(f"index: counts.stocks={counts.get('stocks')} but {actual_stocks} files on disk")
-    if counts.get("etfs") != actual_etfs:
-        errors.append(f"index: counts.etfs={counts.get('etfs')} but {actual_etfs} files on disk")
+    for kind in ("stocks", "etfs"):
+        on_disk = {p.relative_to(root).as_posix() for p in shard_paths(root / kind)}
+        kind_named = {p for p in named if p.startswith(f"{kind}/")}
+        for path_str in sorted(on_disk - kind_named):
+            errors.append(f"index: {path_str} on disk but not named by the index")
+        claimed = counts.get(kind)
+        if not (claimed == len(on_disk) == len(kind_named)):
+            errors.append(
+                f"index: counts.{kind}={claimed} but {len(on_disk)} file(s) on disk "
+                f"and {len(kind_named)} path(s) named"
+            )
 
     return errors
 
@@ -112,33 +133,19 @@ def validate_index(index: dict, root: Path) -> list[str]:
 def validate_tree(root: Path) -> int:
     """Validate every file in `root`. Returns count of errors."""
     total_errors = 0
-    files: Iterable[Path]
 
-    files = sorted((root / "stocks").glob("*.json")) if (root / "stocks").exists() else []
-    for path in files:
-        try:
-            record = json.loads(path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError as e:
-            print(f"FAIL {path}: invalid JSON: {e}")
-            total_errors += 1
-            continue
-        errs = validate_record(record)
-        for err in errs:
-            print(f"FAIL {path}: {err}")
-        total_errors += len(errs)
-
-    files = sorted((root / "etfs").glob("*.json")) if (root / "etfs").exists() else []
-    for path in files:
-        try:
-            record = json.loads(path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError as e:
-            print(f"FAIL {path}: invalid JSON: {e}")
-            total_errors += 1
-            continue
-        errs = validate_record(record)
-        for err in errs:
-            print(f"FAIL {path}: {err}")
-        total_errors += len(errs)
+    for kind in ("stocks", "etfs"):
+        for path in shard_paths(root / kind):
+            try:
+                record = json.loads(path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as e:
+                print(f"FAIL {path}: invalid JSON: {e}")
+                total_errors += 1
+                continue
+            errs = validate_record(record)
+            for err in errs:
+                print(f"FAIL {path}: {err}")
+            total_errors += len(errs)
 
     index_path = root / "index.json"
     if index_path.exists():
