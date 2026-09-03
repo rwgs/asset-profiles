@@ -102,3 +102,94 @@ def test_check_sec_contact_refuses_when_unconfigured(monkeypatch):
 def test_check_sec_contact_passes_when_configured(monkeypatch):
     monkeypatch.setenv("SEC_USER_AGENT", "A Person a@example.com")
     http_cache.check_sec_contact()
+
+
+# ---- the POST path -------------------------------------------------------
+#
+# Added for OpenFIGI, whose mapping endpoint is POST-only. The module docstring
+# had claimed the cache key hashed the body since before one could be sent;
+# `_cache_key` now does, which is what stops two different payloads to the same
+# URL sharing an answer.
+
+
+class _FakeResponse:
+    def __init__(self, content: bytes):
+        self.content = content
+        self.status_code = 200
+
+    def raise_for_status(self):
+        pass
+
+
+def _offline_cache(tmp_path, monkeypatch, content=b'[{"data": []}]'):
+    """An HttpCache that records its calls instead of making them."""
+    monkeypatch.setenv("SEC_USER_AGENT", "A Person a@example.com")
+    cache = http_cache.HttpCache(cache_dir=tmp_path, respect_robots=False)
+    calls = []
+
+    def fake_request(method, url, **kw):
+        calls.append((method, url, kw))
+        return _FakeResponse(content)
+
+    monkeypatch.setattr(cache.session, "request", fake_request)
+    monkeypatch.setattr(cache._rate, "wait", lambda host: None)
+    return cache, calls
+
+
+def test_a_post_body_changes_the_cache_key(tmp_path):
+    cache = http_cache.HttpCache(cache_dir=tmp_path)
+    url = "https://api.openfigi.com/v3/mapping"
+    a = cache._cache_key("POST", url, "application/json", b'[{"idValue": "A"}]')
+    b = cache._cache_key("POST", url, "application/json", b'[{"idValue": "B"}]')
+    assert a != b
+
+
+def test_a_get_key_is_unchanged_by_the_body_parameter(tmp_path):
+    """A warm `.http_cache` must stay valid: adding POST may not move the key
+    of any request the pipeline was already making."""
+    cache = http_cache.HttpCache(cache_dir=tmp_path)
+    url = "https://example.invalid/x.csv"
+    assert cache._cache_key("GET", url, None) == cache._cache_key("GET", url, None, None)
+
+
+def test_post_json_sends_the_bytes_it_hashed(tmp_path, monkeypatch):
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "US0378331005"}])
+    (method, url, kw), = calls
+    assert method == "POST"
+    assert kw["data"] == b'[{"idValue":"US0378331005"}]'
+    assert kw["headers"]["Content-Type"] == "application/json"
+
+
+def test_two_payloads_differing_only_in_key_order_share_one_request(tmp_path, monkeypatch):
+    """Sorting the keys is what makes the disk cache hit across runs."""
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"a": 1, "b": 2}])
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"b": 2, "a": 1}])
+    assert len(calls) == 1
+
+
+def test_a_cached_post_replays_without_a_second_request(tmp_path, monkeypatch):
+    cache, calls = _offline_cache(tmp_path, monkeypatch, content=b'[{"data": [1]}]')
+    first = cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    second = cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    assert first == second == [{"data": [1]}]
+    assert len(calls) == 1
+
+
+def test_a_different_payload_is_fetched_rather_than_replayed(tmp_path, monkeypatch):
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "Y"}])
+    assert len(calls) == 2
+
+
+def test_a_get_still_sends_no_body(tmp_path, monkeypatch):
+    """`data=None` is what requests expects for a bodyless request; passing the
+    parameter unconditionally must not turn a GET into one with a body."""
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.get("https://example.invalid/x.csv")
+    (method, _, kw), = calls
+    assert method == "GET"
+    assert kw["data"] is None
+    assert "Content-Type" not in kw["headers"]

@@ -2,7 +2,7 @@
 
 Single shared session per process. Each request is:
 
-  1. Looked up in `.http_cache/{sha256(method:url:body)}` first.
+  1. Looked up in `.http_cache/{sha256(method:url:accept:body)}` first.
   2. Otherwise fetched, with a 1 req/sec/host token bucket.
   3. robots.txt-checked once per host (cached).
   4. Sent with the SEC-required User-Agent (env: SEC_USER_AGENT).
@@ -45,6 +45,10 @@ SEC_HOSTS = frozenset(["sec.gov", "www.sec.gov"])
 
 MIN_INTERVAL_SEC = 1.0  # 1 req/sec/host
 
+# Hosts that ask for less than that. OpenFIGI allows 25 requests a minute
+# without an API key, which 1/sec would exceed by more than twice over.
+HOST_MIN_INTERVAL_SEC = {"api.openfigi.com": 2.5}
+
 
 def _user_agent() -> str:
     return os.environ.get("SEC_USER_AGENT") or os.environ.get("USER_AGENT") or DEFAULT_UA
@@ -75,7 +79,8 @@ class _RateLimiter:
         with self._lock:
             now = time.monotonic()
             prev = self._last.get(host, 0.0)
-            wait_for = self._min_interval - (now - prev)
+            interval = HOST_MIN_INTERVAL_SEC.get(host, self._min_interval)
+            wait_for = interval - (now - prev)
             if wait_for > 0:
                 time.sleep(wait_for)
             self._last[host] = time.monotonic()
@@ -114,10 +119,32 @@ class HttpCache:
     def get_json(self, url: str, **kw) -> dict | list:
         return json.loads(self.get_text(url, accept="application/json", **kw))
 
+    def post_json(self, url: str, payload, *, force: bool = False) -> dict | list:
+        """POST a JSON payload and cache the response against it.
+
+        The payload is serialized once, deterministically, and the same bytes
+        are both sent and hashed into the cache key -- so two calls differing
+        only in dict ordering share an entry and two differing in content never
+        do. OpenFIGI's mapping endpoint is POST-only, which is why this exists.
+        """
+        body = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()
+        raw = self._request(
+            "POST", url, accept="application/json", force=force, body=body
+        )
+        return json.loads(raw.decode("utf-8", errors="replace"))
+
     # ---- internal ------------------------------------------------------
 
-    def _request(self, method: str, url: str, *, accept: Optional[str], force: bool) -> bytes:
-        key = self._cache_key(method, url, accept)
+    def _request(
+        self,
+        method: str,
+        url: str,
+        *,
+        accept: Optional[str],
+        force: bool,
+        body: Optional[bytes] = None,
+    ) -> bytes:
+        key = self._cache_key(method, url, accept, body)
         cache_path = self.cache_dir / key
         if not force and cache_path.exists():
             return cache_path.read_bytes()
@@ -135,13 +162,17 @@ class HttpCache:
         if accept:
             headers["Accept"] = accept
         log.debug("HTTP %s %s", method, url)
-        resp = self.session.request(method, url, headers=headers, timeout=60)
+        if body is not None:
+            headers["Content-Type"] = "application/json"
+        resp = self.session.request(method, url, headers=headers, data=body, timeout=60)
         resp.raise_for_status()
-        body = resp.content
-        cache_path.write_bytes(body)
-        return body
+        content = resp.content
+        cache_path.write_bytes(content)
+        return content
 
-    def _cache_key(self, method: str, url: str, accept: Optional[str]) -> str:
+    def _cache_key(
+        self, method: str, url: str, accept: Optional[str], body: Optional[bytes] = None
+    ) -> str:
         h = hashlib.sha256()
         h.update(method.encode())
         h.update(b"\x00")
@@ -149,6 +180,9 @@ class HttpCache:
         if accept:
             h.update(b"\x00")
             h.update(accept.encode())
+        if body is not None:
+            h.update(b"\x00")
+            h.update(body)
         return h.hexdigest()
 
     def _robots_allows(self, url: str) -> bool:

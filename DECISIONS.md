@@ -12,6 +12,73 @@ The 2026-05-09 entries below were settled at bootstrap and are reconstructed
 from `README.md`, `CONTRIBUTING.md`, and `docs/asset-profiles-spec.md` sections
 13 and 15. They were load-bearing before they were written down here.
 
+## 2026-09-03 Adopt OpenFIGI as an identifier-mapping source
+
+Status: Accepted.
+
+### Decision
+
+`scripts/sources/openfigi.py` may map an identifier -- ISIN to composite FIGI
+-- and the result may be stored and republished. It is the fourth source and
+the first that supplies no data of its own, only a join. Joining is all it may
+do: no field a record publishes may take its *value* from OpenFIGI.
+
+Join on composite FIGI only. **Never join on the ticker OpenFIGI returns**:
+Roche's ISIN yields a ticker set whose bare symbols match `RHHVF` and also
+Roper Technologies' `ROP`, so a ticker join books Roche's weight into Roper's
+sector silently. Measured 2026-09-03, and it is the reason `composite_figis`
+exists rather than a general accessor.
+
+### Why
+
+Two problems needed it and neither could be solved from the sources already
+here. The sector bridge, T15: N-PORT reports ISIN and CUSIP and never a
+ticker -- 1 of 4,857 holdings measured -- while the stock dataset carries 9,400
+ISINs and 12,798 CUSIPs against 42,817 composite FIGIs, so the join fails on
+identifier shape rather than on missing data. And the identifier defects, T18
+and T19: 2,142 published records carry an ISIN whose country disagrees with
+their own, FinanceDatabase reports every one of those pairings itself, and
+nothing already in the pipeline can tell a correct disagreement from a wrong
+one. OpenFIGI can, and did -- it named a different company than the record for
+104 of the 164 suspects put to it.
+
+The licence clears, checked 2026-09-03 rather than assumed. FIGI identifiers
+carry a Bloomberg public-domain dedication with the MIT licence embedded in the
+OMG standard: *"FIGI Identifiers may be freely reproduced, distributed,
+transmitted, used, modified, built upon, or otherwise exploited by anyone for
+any purpose, commercial or non-commercial"*. No attribution clause, no
+non-commercial limit, no restriction on storing or republishing a mapping.
+Identifier mapping is neither a quote, a fundamental, nor a proprietary
+taxonomy, so neither 2026-05-09 licensing decision reaches it.
+
+### Rejected alternatives
+
+- **GLEIF's ISIN-to-LEI file.** CC0, so the licence is easier still, but it
+  bridges only to a legal name and would need fuzzy matching -- which is the
+  failure mode being avoided. Second choice if OpenFIGI becomes unavailable.
+- **Do nothing and accept the omissions.** T13 omits `sector_weights` on four
+  ex-US equity funds, and the cause is measured as an identifier gap rather
+  than a data gap: 58.7% of the unresolved weight is holdings matching no
+  record, against 0.2% matching a record that carries no sector. Accepting it
+  means publishing funds with no sector axis for a reason that is fixable.
+- **Add a ticker leg to the join for the holdings FIGI misses.** Rejected on
+  the Roche/Roper measurement above. A wrong sector is worse than none, which
+  is the same principle the client's P10C package rests on.
+
+### Consequences
+
+`http_cache` gained a POST path, because OpenFIGI's mapping endpoint is
+POST-only, and the body now enters the cache key -- which the module docstring
+had claimed since before a body could be sent. It also gained
+`HOST_MIN_INTERVAL_SEC`, since OpenFIGI allows 25 requests a minute
+unauthenticated and the default 1/sec would exceed that twice over.
+
+**Provenance is not settled by this entry and is the open question.** Every
+record names source, URL, fetch time and licence, and a record that cannot be
+attributed does not ship. A sector reached through OpenFIGI through a
+FinanceDatabase record has a two-hop provenance the schema has no shape for.
+Nothing may ship on the bridge until that is decided -- see `TASKS.md` T15.
+
 ## 2026-09-03 This fork publishes; upstream stays the place changes are offered
 
 Status: Accepted.

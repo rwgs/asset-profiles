@@ -81,14 +81,21 @@ two of them report no conflict with `main` while conflicting with each other.
 - `scripts/sources/` holds one module per upstream: `finance_database.py`
   (stock rows, MIT), `edgar.py` (SEC N-PORT for US funds, public domain),
   `issuer_scraper.py` (issuer holdings via the `etf-scraper` package, fallback
-  for non-US funds only).
+  for non-US funds only), and `openfigi.py`, which supplies no data of its own
+  -- only an ISIN-to-composite-FIGI join. Join on composite FIGI and never on
+  the ticker it returns; `DECISIONS.md` has the measurement that rules the
+  ticker out.
 - `scripts/normalize.py` turns source rows into schema-shaped records and owns
   `shard_key`, cross-listing merge, weight aggregation, and override merge.
 - `scripts/validate.py` is both the CLI gate and the library the build calls
   per record. It enforces JSON Schema plus the weight-sum invariants.
 - `scripts/http_cache.py` is the only HTTP path: disk cache under
-  `.http_cache/`, one request per second per host, robots.txt honored, and the
-  SEC-required User-Agent from `SEC_USER_AGENT`. Do not bypass it. A request to
+  `.http_cache/`, one request per second per host unless
+  `HOST_MIN_INTERVAL_SEC` names a slower one, robots.txt honored, and the
+  SEC-required User-Agent from `SEC_USER_AGENT`. Do not bypass it. `post_json`
+  exists for OpenFIGI, whose endpoint is POST-only; it hashes the request body
+  into the cache key, so a new POST caller gets caching for free and two
+  payloads to one URL can never share an answer. A request to
   `sec.gov` without a contact address in the User-Agent raises rather than
   falling back to a default, and `build.py` makes the same check up front so a
   missing one costs five seconds instead of a wrong dataset.
