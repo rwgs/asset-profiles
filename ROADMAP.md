@@ -93,10 +93,15 @@ over nested records, and the tests.
 
 ## Phase 2: ETF records that describe the fund they name
 
-**Current, and opened on 2026-09-03** when its headline change merged into
-`origin/main`. Three of the other four landed the same day; one is left, and it
-is the only one that changes what the dataset publishes rather than how it is
-built.
+**Reached and closed on 2026-09-03**, the day it opened. All four exit criteria
+are met in the published data, not only in the code: `v1/` was rebuilt twice,
+at `383fec4aea` and again to apply the omit rule, and
+`python scripts/validate.py v1/` exits 0.
+
+The outcome in one record: `SCHD` published 98.0% Fixed Income with the whole
+Schwab trust's holdings for three months. It now publishes 99.95% Equity, 102
+holdings led by QUALCOMM, Texas Instruments and UnitedHealth, and a dividend
+fund's sector profile. ETF records went from 10 to 49.
 
 ### Outcome
 
@@ -164,10 +169,12 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
   are 99% Equity, where the published records say 98% Fixed Income. That also
   proves what the fixtures could not: a real `-index-headers.html` matches the
   regex and a real multi-megabyte N-PORT parses.
-- [~] No published weighted list is majority-synthetic. The rule exists and no
-  new record can carry one; the eleven already published fail it until a
-  rebuild. **This is the only criterion outstanding, and a rebuild is all it
-  needs.**
+- [x] No published weighted list is majority-synthetic. **Met in the published
+  data.** The rebuild applied T13's rule: `sector_weights` omitted on ten funds
+  and `asset_class_weights` on one, per axis rather than per record, so `BND`
+  keeps the 40-country breakdown that is real and drops the equity sector that
+  was 100% `Unknown`. Four of the ten are a coverage gap rather than a correct
+  answer, and T15 is the fix.
 - [x] Every published `country_code` resolves in `pycountry`. **Met in the
   published data** by the rebuild at `383fec4aea`: no record carries `XX`.
 - [x] The build reports each universe entry as a record or a named failure.

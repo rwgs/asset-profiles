@@ -1,74 +1,67 @@
-# One rebuild from closing Phase 2
+# No change in flight
 
-Nothing is mid-edit. Phase 2's four items are all implemented and `v1/` has been
-rebuilt once, at `383fec4aea`. That rebuild predates T13, the last item to land,
-so the published tree holds exactly what T13's rule rejects and
-`python scripts/validate.py v1/` reports **11 errors**. A second rebuild clears
-them and closes the phase.
+Phase 2 closed on 2026-09-03, the day it opened. There is nothing mid-edit, and
+saying so is more useful than leaving a finished plan in place pretending to be
+current.
 
-## What the day delivered
+Everything that must outlive the last change has been promoted: the two
+rebuilds and their measurements to `TASKS.md` under T14 and T16, Phase 2's exit
+criteria to `ROADMAP.md`, the publishing decision to `DECISIONS.md`, and the
+gate's new resting state to `AGENTS.md`.
 
-Seven pipeline commits and one data commit, in order:
+## Where the project stands
 
-| Commit | Change |
-| --- | --- |
-| `790b45e584` | Reject a country code ISO 3166-1 never assigned |
-| `b8806b695d` | Resolve a holding's sector through CUSIP |
-| `209ddb2343` | Report per-fund ETF coverage from the build |
-| `d9bcbd11fd` | Absorb an ISIN-less record whose every symbol is claimed |
-| `6e83a572e6` | Publish from this fork; fix URLs that never resolved |
-| `61699480e4` | Let a weight express a short position |
-| `ebf634d73b` | Omit a weighted list that is mostly unresolved |
-| `383fec4aea` | Rebuild `v1/` from the live sources |
+`python scripts/validate.py v1/` **exits 0** against a dataset rebuilt the same
+day, and the suite is **124 passed** (97 and 2 skipped on a bare install). The
+published dataset is 90,513 stock records and 49 ETF records, generated
+2026-09-03, with `next_refresh_at` 2026-09-10 -- a commitment this repository
+now has to keep, since it is what jsDelivr serves.
 
-The visible result is that `SCHD` describes `SCHD`. It published 98.0% Fixed
-Income with the whole Schwab trust's holdings for three months; it now publishes
-99.95% Equity, 102 holdings led by QUALCOMM, Texas Instruments and UnitedHealth,
-with Health Care at 20.6%. Phase 2 exists for that sentence.
+Phase 2 existed for one sentence, and it is true now: **`SCHD` describes
+`SCHD`.** It published 98.0% Fixed Income carrying the whole Schwab trust's
+holdings for three months. It publishes 99.95% Equity, 102 holdings led by
+QUALCOMM, Texas Instruments and UnitedHealth, Health Care 20.6% and Consumer
+Staples 18.5%.
 
-## The next action
+## What is worth doing next, in order
 
-**Rebuild again.** It is the same operation as T14, now with a measured cost:
-5m48s to build, 59s to validate, about 2m30s to stage and commit. It would omit
-`sector_weights` on ten funds and `asset_class_weights` on one, take the gate to
-exit 0, and close Phase 2's last exit criterion.
-
-It is a second `v1/**` rewrite, so it needs sign-off like the first. The diff
-will be far smaller than T14's: only the 49 ETF records change, plus every
-stock record's `provenance.fetched_at`.
-
-## What comes after, and why it is worth doing
-
-**T15, the identifier bridge.** T13 omits `sector_weights` on four ex-US equity
-funds -- IEMG, EEM, VWO, VXUS -- and the cause is measured and is not missing
-sector data:
+**T15, the identifier bridge**, is the highest-value work and `TASKS.md` has
+it. It is the difference between a coverage gap and a correct answer among
+T13's ten omissions: six are bond funds, where omitting an equity sector is
+right, but IEMG, EEM, VWO and VXUS lose a list only because their holdings
+cannot be joined. The measurement that makes this the right fix rather than a
+new data source:
 
 - 58.7% of unresolved weight is holdings matching no stock record; 0.2% is
   records carrying no sector.
-- The companies are already here. Unmatched holdings against records held for
-  the same market: CN 6,189 against 5,992, IN 1,777 against 5,558, JP 1,137
-  against 5,110.
-- N-PORT reports ISIN and CUSIP and never a ticker -- 1 in 4,857 holdings. The
-  dataset carries 9,400 ISINs and 12,798 CUSIPs but **42,817 composite FIGIs**.
+- The companies are already here: CN 6,189 unmatched holdings against 5,992
+  records held, IN 1,777 against 5,558, JP 1,137 against 5,110.
+- N-PORT reports ISIN and CUSIP and never a ticker -- 1 in 4,857 holdings --
+  while the dataset carries 9,400 ISINs and **42,817 composite FIGIs**.
 
-So a bridge from holding ISIN to composite FIGI would republish those lists
-using sector data already in the dataset. OpenFIGI is the candidate and its
-licence must be checked first: `DECISIONS.md` constrains this area, and the fact
-that identifier mapping is not quotes, fundamentals or a proprietary taxonomy is
-an argument rather than an answer.
+Check OpenFIGI's licence before writing anything. `DECISIONS.md` constrains
+this area, and identifier mapping not being quotes, fundamentals or a
+proprietary taxonomy is an argument, not an answer.
 
-## Still owed, and not this project's code
+**Then Phase 3.** `ROADMAP.md` has the order; it has not been opened and its
+exit criteria have not been re-read against what the last two days changed.
 
-- **`SEC_USER_AGENT` as a repository secret** on `rwgs/asset-profiles`.
-  `gh secret list` reports none, and the scheduled refresh takes 403 from EDGAR
-  without it. The workflow is committed and correct; the secret is not set.
-- **P1**, approving CI on the seven open upstream PRs, needs write access on a
-  repository that is on standby.
-- **W1 through W7**, the client-side work in `wealthfolio-dev`.
+## Two things to know before touching the pipeline
 
-## One trap worth keeping in mind
+- **The first scheduled refresh has never run.** `SEC_USER_AGENT` was set as a
+  repository secret on 2026-09-03 at 08:13Z, so the next Sunday 06:00 UTC run
+  is the first end-to-end test of the workflow on a runner. It will rebuild and
+  push `v1/**` unreviewed if it succeeds, and the gate runs before the commit
+  step, so a red gate stops the push rather than publishing over it.
+- **`build.py --no-stocks` silently omits every `sector_weights` list.** The
+  enrichment index comes from the in-memory stocks pass, so an ETF-only build
+  resolves nothing and T13's rule then drops the axis entirely. It is a trap
+  rather than a defect in the output, and a refresh must never use the flag.
 
-`build.py --no-stocks` silently produces 100% `Unknown` sector weights, because
-the enrichment index comes from the in-memory stocks pass. Under T13 that now
-means every `sector_weights` list is omitted rather than merely wrong. A refresh
-must never use the flag.
+## Two upstream facts that have not changed
+
+- Upstream is on standby and the seven open pull requests have still never been
+  through CI. P1 needs write access nobody here has.
+- Work still lands on `origin/main` and each change still keeps an
+  upstream-mergeable branch. That this fork publishes does not change where
+  changes are offered.

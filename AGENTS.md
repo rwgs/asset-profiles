@@ -88,7 +88,10 @@ two of them report no conflict with `main` while conflicting with each other.
   per record. It enforces JSON Schema plus the weight-sum invariants.
 - `scripts/http_cache.py` is the only HTTP path: disk cache under
   `.http_cache/`, one request per second per host, robots.txt honored, and the
-  SEC-required User-Agent from `SEC_USER_AGENT`. Do not bypass it.
+  SEC-required User-Agent from `SEC_USER_AGENT`. Do not bypass it. A request to
+  `sec.gov` without a contact address in the User-Agent raises rather than
+  falling back to a default, and `build.py` makes the same check up front so a
+  missing one costs five seconds instead of a wrong dataset.
 - `schema/` holds the three JSON Schemas. `config/` holds the ETF universe, the
   Yahoo-suffix-to-MIC map, and the sector label map.
 - `manual_overrides/{shard_key}.json` is deep-merged over a generated record
@@ -96,11 +99,17 @@ two of them report no conflict with `main` while conflicting with each other.
 
 `v1/**` is generated. Never hand-edit a shard or `index.json`; change the
 source, the normalizer, or an override and rebuild. `v1/` is roughly 90,600
-files, so glob it rather than reading it whole, and expect git to be slow: a
-`git add -A v1/` after a rebuild takes about two minutes and the commit
-another thirty seconds. A timed-out `git add` leaves a stale
-`.git/index.lock`; the editor's git integration will then fail against it
-repeatedly, so check that no `git` process holds it before removing it.
+files, so glob it rather than reading it whole, and expect git to be slow.
+
+Measured twice on 2026-09-03, and the difference is the lesson: `git add -A v1/`
+after a rebuild took **1m43s** on an otherwise idle disk and **13m41s** while a
+build and several test runs competed for the same one. Start it, then leave the
+disk alone -- it is I/O bound, not stuck. The commit itself is about thirty
+seconds either way. A `git add` that is killed part-way leaves a stale, empty
+`.git/index.lock`; the editor's git integration then fails against it
+repeatedly, which looks like the cause and is not. Confirm no live `git`
+process holds it -- CPU time still climbing means it is working -- before
+removing it.
 
 A full rebuild is **about seven minutes** on a developer host -- 5m48s to build
 and 59s to validate, measured 2026-09-03 with a warm `.http_cache`. Cold, the
@@ -216,7 +225,8 @@ the build reports a named failure and continues without it, which is already
 what happens for every fund reaching that path -- all ten published ETF records
 come from EDGAR and none from the scraper.
 
-Build. `SEC_USER_AGENT` must carry a real name and email or EDGAR answers 403.
+Build. `SEC_USER_AGENT` must carry a real name and email, or the build exits 2
+before doing any work. `--no-etfs` does not need it.
 
 ```bash
 SEC_USER_AGENT="your-name your@email" python scripts/build.py
@@ -231,13 +241,14 @@ Validate. This is the whole gate, and it takes about a minute over `v1/`.
 python scripts/validate.py v1/
 ```
 
-That command is complete on every host. It **exits 1 with 11 errors** as of
-2026-09-03, and those eleven are known: T13 made a mostly-unresolved weighted
-list a failure, and the rebuild at `383fec4aea` predates that rule, so the tree
-holds exactly what the rule rejects -- ten `sector_weights` and one
-`asset_class_weights`, on six bond funds and four ex-US equity funds. A rebuild
-clears them. Expect exactly those eleven. Treat any other failure, or a
-different count, as something your change caused.
+That command is complete on every host, and as of 2026-09-03 it **exits 0** on
+all of them, against a `v1/` rebuilt the same day. Treat any failure as
+something your change caused.
+
+The count has been red three times and each time it was the design working:
+T4's 15, T9's 4, and T13's 11. None was cleared by editing a shard -- two by a
+rebuild and one by the fix that caused it. If you make the gate red, say which
+of those two it is.
 
 It reported 15 errors for a day and the history is worth knowing, because the
 number appears in `TASKS.md` and in commit messages: T4 made an unreachable
@@ -247,11 +258,11 @@ stopped new ones being created and the minimal half of T5 retired the 14. The
 gate going red was the design working, not a regression.
 
 **A red gate on `v1/` is a real result, so do not rebuild the data to clear
-it.** Deleting or regenerating shards is destructive work that needs sign-off;
-see the working boundaries above. This has now happened four times -- T4's 15,
-then zero, then T9's 4, then T13's 11 -- and each time the gate going red was
-the design working rather than a regression. Three of the four were cleared by
-a rebuild or by the fix that caused them, never by editing a shard.
+it without sign-off.** Deleting or regenerating shards is destructive work; see
+the working boundaries above. A rebuild is the right answer often enough that
+the rule is worth stating precisely: it is what cleared T9's 4 and T13's 11,
+both times as a separate commit holding nothing but `v1/**`, and both times
+after being rehearsed into a `--out` tree first.
 
 To check that no new call has started relying on the host locale, make the
 warning fatal -- it names the offending line:
@@ -263,9 +274,9 @@ python -X warn_default_encoding -W error::EncodingWarning scripts/validate.py v1
 Test. Fast, and it needs only `pycountry` and `jsonschema` from the
 requirements, so it runs where a full install does not. `test_build.py` and
 `test_edgar.py` `importorskip` on `pandas` and `requests`, so on that bare
-install they skip rather than fail: measured 2026-09-03, **97 passed and 2
+install they skip rather than fail: measured 2026-09-03, **97 passed and 3
 skipped** with only `pytest`, `pycountry` and `jsonschema` installed, against
-**124 passed** with the full requirements. CI installs everything, so nothing
+**139 passed** with the full requirements. CI installs everything, so nothing
 is skipped on the runner.
 
 ```bash

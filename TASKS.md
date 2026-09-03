@@ -114,12 +114,13 @@ rather than of the work. Its exit criteria assume merges, a CI run, and a
 refresh, and all three need a maintainer who has said the repository is on
 standby. Nothing in this checkout can supply them.
 
-**Phase 2's four items are all done, and one rebuild separates it from
-closing.** T9 through T13 landed on 2026-09-03, and T14 rebuilt `v1/` so five
-of them are visible in the published data. Three of the four exit criteria are
-met. The fourth -- no published weighted list is majority-synthetic -- has its
-rule and fails on eleven records, because T14's rebuild predates T13. One more
-rebuild closes the phase.
+**Phase 2 is closed**, on 2026-09-03, the day it opened. T9 through T13
+landed and `v1/` was rebuilt twice -- T14, then again to apply T13's rule -- so
+all four exit criteria are met in the published data rather than only in the
+code. `python scripts/validate.py v1/` **exits 0**.
+
+Phase 3 has not been opened. `ROADMAP.md` has the phase order; T15, the
+identifier bridge, is the highest-value follow-on and is written up below.
 
 **`v1/` was rebuilt, and `SCHD` now reads as its own fund**: 99.95% Equity
 against the 98.0% Fixed Income it published for three months, 102 holdings led
@@ -139,9 +140,13 @@ So what remains here is not Phase 1 code:
   refresh half is no longer blocked** -- the schedule that matters is this
   fork's, and it needs `SEC_USER_AGENT` set as a repository secret plus
   sign-off on the rebuild.
-- ~~The published dataset is still stale.~~ **Refreshed 2026-09-03 by T14.**
-  `generated_at` is 2026-09-03 and `next_refresh_at` 2026-09-10, and that is
-  now a commitment this repository has to keep.
+- ~~The published dataset is still stale.~~ **Refreshed 2026-09-03 by T14 and
+  again by T16.** `generated_at` is 2026-09-03 and `next_refresh_at`
+  2026-09-10, and that is now a commitment this repository has to keep.
+- ~~`SEC_USER_AGENT` is not set as a repository secret.~~ **Set 2026-09-03 at
+  08:13Z**, confirmed with `gh secret list`. The scheduled refresh can now
+  complete, and the next Sunday 06:00 UTC run is the first test of it
+  end to end on a runner.
 - **The rebuild shrank the dataset, and the reason was measured, not
   assumed.** 90,513 stock records against 98,463, and 8,730 index symbols stop
   resolving -- **every one of them absent from FinanceDatabase upstream too**,
@@ -616,6 +621,65 @@ The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
     spending P2's acceptance signal as intended. Those fields were deliberately
     frozen through T5 because repairing reachability is not a refresh; this is
     one.
+
+- [x] **T16.** Rebuild `v1/` to apply the omit rule.
+  **Done 2026-09-03 with sign-off, committed on `main` on its own. This closes
+  Phase 2.**
+  - Scope: T13's rule landed after T14's rebuild, so the tree held exactly what
+    the rule rejects and the gate reported 11 errors. Apply it.
+  - Acceptance criteria, met: `diff: +0 / ~90562 / -0` -- no record added or
+    removed, every file changed only because `provenance.fetched_at` is stamped
+    per build. Counts unchanged at 90,513 stocks and 49 ETFs.
+    **`validate.py v1/` OK, exit 0**, from 11 errors.
+  - Manual validation, and it is what shows the rule is selective rather than
+    blunt: **the rule works per axis, not per record.** `BND` drops an equity
+    sector breakdown that was 100% `Unknown` and keeps its 40-country and
+    asset-class lists, which are real. `SH` drops sector and asset class and
+    keeps country. `SCHD` keeps all three at 0.2% unresolved.
+  - Timing: 5m59s to build, 66s to validate -- within seconds of T14's, so the
+    figure in `AGENTS.md` is now confirmed twice rather than measured once.
+
+- [x] **T17.** Fail loudly when no SEC contact address is configured.
+  **Done 2026-09-03, committed on `main`.**
+  - Scope: `SEC_USER_AGENT` became a repository secret when this fork took over
+    publishing, and `http_cache.DEFAULT_UA` still named
+    `opensource@wealthfolio.app`. So a blank or missing secret did not fail --
+    it sent upstream's contact address, satisfied SEC, and the build succeeded.
+    Raised during review of that commit rather than found by a test.
+  - **The consequence was worse than misattribution, and it was traced rather
+    than assumed.** `sources.edgar._ticker_index` catches `Exception` and
+    degrades to an empty mapping with a warning, by design. So a bad secret
+    would resolve no CIK, produce no ETF record, let `reap_removed` delete all
+    49 shards already on disk, pass the validator on the remains because the
+    counts stay consistent at zero, and let `git-auto-commit` push it. A
+    misconfigured secret would have silently removed every ETF record from the
+    published dataset.
+  - Delivered in two parts, because the requirement has two halves:
+    - `DEFAULT_UA` now carries **no email at all**, so it cannot satisfy SEC by
+      construction. The check is `"@" in user_agent` for `sec.gov` hosts only,
+      placed ahead of the robots.txt fetch, which is itself a request to the
+      host.
+    - `build.py` runs the same check up front when the ETF pass is enabled and
+      exits 2. Five seconds instead of a five-minute stocks pass followed by a
+      wrong dataset. `--no-etfs` is unaffected, since it needs no SEC contact.
+  - Acceptance criteria, met and measured on all three paths: a full build with
+    no secret and a cold cache exits **2** having written **0** files; a
+    `--no-etfs --limit 20` build with no secret exits **0** and writes 21 files;
+    a configured contact passes.
+  - Red-then-green on the defect rather than the API: against the committed
+    `http_cache.py`, `_user_agent()` with nothing set returns
+    `'Wealthfolio asset-profiles bot (opensource@wealthfolio.app) ...'` and no
+    guard exists. That is the behaviour the fix removes.
+  - Automated validation: 124 passed to 139. A new `test_http_cache.py` covers
+    the only HTTP path the pipeline has, including that a warm cache still
+    reads without a contact (no traffic, so no requirement) and that
+    `notsec.gov` is not treated as SEC.
+  - **Raised and not fixed:** the broad `except Exception` in `edgar` means any
+    sustained EDGAR outage has the same shape -- no records, a passing gate, a
+    push. T17 closes the configuration route into it, not the outage route. A
+    build that was asked for ETF records and produced none arguably should not
+    exit 0, but that is a behaviour change with a judgement in it and it is not
+    what this task was for.
 
 - [ ] **T15 (Phase 2 follow-on).** Bridge a holding's ISIN to a record the
   dataset already has.
