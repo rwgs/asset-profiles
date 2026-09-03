@@ -252,8 +252,9 @@ def group_cross_listings(stocks: Iterable[dict]) -> list[dict]:
     """Merge multiple stock records sharing the same ISIN into one record.
 
     Cross-listings keep distinct `listings[]` entries but a single
-    canonical record per ISIN. Records without an ISIN pass through
-    untouched (keyed by symbol).
+    canonical record per ISIN. A record without an ISIN passes through keyed
+    by symbol, unless every symbol it lists is already claimed by an
+    ISIN-bearing record -- see `_absorb_shadowed`.
     """
     by_isin: dict[str, list[dict]] = defaultdict(list)
     no_isin: list[dict] = []
@@ -263,7 +264,7 @@ def group_cross_listings(stocks: Iterable[dict]) -> list[dict]:
         else:
             no_isin.append(s)
 
-    merged: list[dict] = list(no_isin)
+    merged: list[dict] = []
     for isin, group in by_isin.items():
         if len(group) == 1:
             merged.append(group[0])
@@ -291,7 +292,49 @@ def group_cross_listings(stocks: Iterable[dict]) -> list[dict]:
                 if k not in primary or not primary.get(k):
                     primary[k] = v
         merged.append(primary)
-    return merged
+
+    # ISIN-less records stay ahead of the merged ones, as they were before
+    # absorption existed: `write_records` keeps the first of two records that
+    # key alike, so the order decides which survives a collision.
+    return _absorb_shadowed(merged, no_isin) + merged
+
+
+def _absorb_shadowed(with_isin: list[dict], no_isin: list[dict]) -> list[dict]:
+    """Fold away an ISIN-less record every symbol of which is already claimed.
+
+    `build_index` keys `symbols` by symbol and the last writer wins, so a
+    record whose every symbol another record also lists reaches the index by no
+    route at all -- it sits on disk unreachable, which is what `stocks/SAND.json`
+    was. Sandstorm Gold publishes both with an ISIN and without, and the
+    ISIN-bearing record already lists `SAND` among the seven cross-listings it
+    merged, so the ISIN-less one adds a file and no reachable data.
+
+    Only a record whose symbols are *all* claimed is absorbed. One that keeps a
+    symbol of its own is the reason `BIO/B` and `RAC/WS` exist, and dropping it
+    would lose a security the dataset has no other record of.
+    """
+    claimed: dict[str, dict] = {}
+    for record in with_isin:
+        for lst in record.get("listings", []):
+            claimed.setdefault(lst["symbol"], record)
+
+    kept = []
+    for record in no_isin:
+        symbols = [lst["symbol"] for lst in record.get("listings", [])]
+        if not symbols or not all(sym in claimed for sym in symbols):
+            kept.append(record)
+            continue
+        primary = claimed[symbols[0]]
+        for k, v in record.items():
+            if k in {"listings", "primary_symbol", "isin"}:
+                continue
+            if k not in primary or not primary.get(k):
+                primary[k] = v
+        log.info(
+            "absorbed %s into %s: every symbol it lists is already claimed",
+            record.get("primary_symbol"), primary.get("isin"),
+        )
+    return kept
 
 
 # ---- ETFs ---------------------------------------------------------------

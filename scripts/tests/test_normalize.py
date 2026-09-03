@@ -261,3 +261,65 @@ def test_enrichment_does_not_overwrite_what_the_filing_stated():
     out = normalize._enrich_holding(h, {}, {}, {"037833100": _stock()})
     assert out["country_code"] == "JP"
     assert out["sector"] == "Technology"  # absent in the filing, so filled in
+
+
+# ---- shadowed records ---------------------------------------------------
+#
+# `build_index` keys `symbols` by symbol and the last writer wins, so a record
+# whose every symbol another record also lists reaches the index by no route at
+# all. Measured against the live source on 2026-09-03: exactly one record is in
+# that state, `SAND`, and it is the gap of one that T4 traced.
+
+
+def _row(symbol: str, *, isin: str | None = None, **kw) -> dict:
+    rec = {
+        "kind": "stock",
+        "primary_symbol": symbol,
+        "listings": [{"symbol": symbol, "exchange_mic": "XNYS"}],
+        "name": f"Record {symbol}",
+    }
+    if isin:
+        rec["isin"] = isin
+    rec.update(kw)
+    return rec
+
+
+def test_an_isin_less_record_whose_only_symbol_is_claimed_is_absorbed():
+    """The `SAND` shape: Sandstorm Gold publishes with an ISIN and without, and
+    the ISIN-bearing record already lists `SAND` among its cross-listings."""
+    bearing = _row("SAND", isin="CA80013R2063")
+    bearing["listings"].append({"symbol": "SSL.TO", "exchange_mic": "XTSE"})
+    out = normalize.group_cross_listings([_row("SAND"), bearing])
+    assert [r.get("isin") for r in out] == ["CA80013R2063"]
+
+
+def test_absorbing_fills_a_field_the_isin_bearing_record_lacks():
+    shadowed = _row("SAND", website="https://www.sandstormgold.com")
+    bearing = _row("SAND", isin="CA80013R2063")
+    out = normalize.group_cross_listings([shadowed, bearing])
+    assert len(out) == 1
+    assert out[0]["isin"] == "CA80013R2063"
+    assert out[0]["website"] == "https://www.sandstormgold.com"
+
+
+def test_an_isin_less_record_with_a_symbol_of_its_own_is_kept():
+    """`BIO/B` and `RAC/WS` have no ISIN-bearing alternate, so dropping every
+    ISIN-less duplicate would lose the only record of those securities."""
+    out = normalize.group_cross_listings([_row("BIO/B"), _row("AAPL", isin="US0378331005")])
+    assert sorted(r["primary_symbol"] for r in out) == ["AAPL", "BIO/B"]
+
+
+def test_a_partially_claimed_record_is_kept():
+    """Absorbing it would lose `SSL.DE`, which nothing else lists."""
+    shadowed = _row("SAND")
+    shadowed["listings"].append({"symbol": "SSL.DE", "exchange_mic": "XETR"})
+    out = normalize.group_cross_listings([shadowed, _row("SAND", isin="CA80013R2063")])
+    assert len(out) == 2
+
+
+def test_two_isin_less_records_sharing_a_symbol_are_both_kept():
+    """The `ECC` shape -- two upstream rows for one security, neither with an
+    ISIN. `build.write_records` reports the second and skips it, so the
+    collision is handled there rather than by silently dropping one here."""
+    out = normalize.group_cross_listings([_row("ECC"), _row("ECC")])
+    assert len(out) == 2
