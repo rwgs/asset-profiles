@@ -323,3 +323,42 @@ def test_two_isin_less_records_sharing_a_symbol_are_both_kept():
     collision is handled there rather than by silently dropping one here."""
     out = normalize.group_cross_listings([_row("ECC"), _row("ECC")])
     assert len(out) == 2
+
+
+# ---- majority-synthetic lists -------------------------------------------
+#
+# Everything a holding lookup cannot resolve is bucketed `Unknown` (or `Other`
+# for asset class) and then renormalized to 1.0, so a list carrying no signal
+# is shaped exactly like one that does. Six of the ten records published before
+# 2026-09-03 had `sector_weights` that were 100% `Unknown` at a valid sum.
+
+
+def test_synthetic_share_reads_the_unknown_bucket():
+    ws = [{"sector": "Unknown", "weight": 0.8}, {"sector": "Technology", "weight": 0.2}]
+    assert normalize.synthetic_share("sector_weights", ws) == 0.8
+
+
+def test_synthetic_share_of_asset_class_reads_other():
+    ws = [{"asset_class": "Other", "weight": 0.6}, {"asset_class": "Equity", "weight": 0.4}]
+    assert normalize.synthetic_share("asset_class_weights", ws) == 0.6
+
+
+def test_a_majority_unknown_list_is_dropped():
+    ws = [{"sector": "Unknown", "weight": 0.8}, {"sector": "Technology", "weight": 0.2}]
+    assert normalize._drop_if_synthetic("sector_weights", ws, "BND") == []
+
+
+def test_a_list_at_the_threshold_is_kept():
+    """Exactly half is not a majority, so it survives. The boundary is where a
+    threshold is worth a test."""
+    ws = [{"sector": "Unknown", "weight": 0.5}, {"sector": "Technology", "weight": 0.5}]
+    assert normalize._drop_if_synthetic("sector_weights", ws, "X") == ws
+
+
+def test_a_mostly_resolved_list_is_kept():
+    ws = [{"sector": "Unknown", "weight": 0.002}, {"sector": "Technology", "weight": 0.998}]
+    assert normalize._drop_if_synthetic("sector_weights", ws, "SCHD") == ws
+
+
+def test_an_already_empty_list_stays_empty():
+    assert normalize._drop_if_synthetic("sector_weights", [], "X") == []

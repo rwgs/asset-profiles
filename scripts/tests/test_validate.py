@@ -271,8 +271,16 @@ def test_an_unassigned_code_in_country_weights_is_an_error(etf_record):
 
 
 def test_an_absent_country_code_is_not_an_error(etf_record):
-    """A weighted country with no code means unplaced, and the schema allows it."""
-    etf_record["country_weights"] = [{"country": "Unknown", "weight": 1.0}]
+    """A weighted country with no code means unplaced, and the schema allows it.
+
+    Named `Taiwan` rather than `Unknown`: the synthetic-share rule below reads
+    `Unknown` as the bucket meaning "not resolved", so a fixture using that
+    label at weight 1.0 would fail for a different reason than the one under
+    test."""
+    etf_record["country_weights"] = [
+        {"country": "Taiwan", "weight": 0.6},
+        {"country": "United States", "country_code": "US", "weight": 0.4},
+    ]
     assert validate.validate_record(etf_record) == []
 
 
@@ -335,3 +343,25 @@ def test_top_holdings_over_one_are_still_rejected_with_a_negative_present(etf_re
     ]
     errors = validate.validate_record(etf_record)
     assert [e for e in errors if "top_holdings" in e]
+
+
+def test_a_majority_synthetic_list_is_an_error(etf_record):
+    """`BND` published sector weights that were 100% `Unknown`, summing to 1.0
+    and passing every check the validator then had."""
+    etf_record["sector_weights"] = [{"sector": "Unknown", "weight": 1.0}]
+    errors = validate.validate_record(etf_record)
+    assert [e for e in errors if e.startswith("synthetic: sector_weights is 100% unresolved")]
+
+
+def test_a_mostly_resolved_list_is_not_a_synthetic_error(etf_record):
+    etf_record["sector_weights"] = [
+        {"sector": "Unknown", "weight": 0.002},
+        {"sector": "Technology", "weight": 0.998},
+    ]
+    assert validate.validate_record(etf_record) == []
+
+
+def test_omitting_the_list_entirely_is_how_a_fund_passes(etf_record):
+    """The rule must be satisfiable by omission, or it just fails bond funds."""
+    del etf_record["sector_weights"]
+    assert validate.validate_record(etf_record) == []

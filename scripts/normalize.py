@@ -397,9 +397,12 @@ def normalize_etf(
         for h in holdings.get("holdings", [])
     ]
 
-    sector_weights = _aggregate_weights(enriched, "sector")
-    country_weights = _aggregate_country_weights(enriched)
-    asset_class_weights = _aggregate_weights(enriched, "asset_class")
+    sector_weights = _drop_if_synthetic(
+        "sector_weights", _aggregate_weights(enriched, "sector"), primary_symbol)
+    country_weights = _drop_if_synthetic(
+        "country_weights", _aggregate_country_weights(enriched), primary_symbol)
+    asset_class_weights = _drop_if_synthetic(
+        "asset_class_weights", _aggregate_weights(enriched, "asset_class"), primary_symbol)
 
     top_holdings = sorted(enriched, key=lambda h: h.get("weight") or 0.0, reverse=True)[:10]
     top_holdings = [_strip_empty({
@@ -493,6 +496,40 @@ def _enrich_holding(
     if not enriched.get("asset_class"):
         enriched["asset_class"] = "Other"
     return enriched
+
+
+# `_enrich_holding` buckets every holding it cannot resolve as `Unknown` (or
+# `Other` for asset class), and `_renormalized` then scales the result to sum
+# to 1.0. So a list that is mostly synthetic is indistinguishable, by shape,
+# from one that is mostly real: `SCHD` published `sector_weights` that were
+# 100% `Unknown` at a perfectly valid sum. Publishing that is worse than
+# publishing nothing, because `SPEC.md` says an absent field means unknown and
+# a present one therefore claims to be known.
+SYNTHETIC_LABELS = {
+    "sector_weights": ("sector", "Unknown"),
+    "country_weights": ("country", "Unknown"),
+    "asset_class_weights": ("asset_class", "Other"),
+}
+
+# Majority, read literally. Measured across the 49 US funds on 2026-09-03, this
+# omits `sector_weights` on 10 of them: six bond funds, where an equity sector
+# is meaningless rather than missing, and four emerging-market funds, where the
+# holdings resolve against the stock dataset too rarely to be representative.
+SYNTHETIC_SHARE_MAX = 0.5
+
+
+def synthetic_share(field: str, weights: list[dict]) -> float:
+    """Fraction of `weights` sitting in the bucket that means "not resolved"."""
+    key, label = SYNTHETIC_LABELS[field]
+    return sum(w.get("weight", 0.0) for w in weights if w.get(key) == label)
+
+
+def _drop_if_synthetic(field: str, weights: list[dict], symbol: str) -> list[dict]:
+    share = synthetic_share(field, weights)
+    if weights and share > SYNTHETIC_SHARE_MAX:
+        log.info("%s: omitting %s, %.0f%% unresolved", symbol, field, share * 100)
+        return []
+    return weights
 
 
 def _aggregate_weights(holdings: list[dict], key: str) -> list[dict]:

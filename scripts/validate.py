@@ -95,6 +95,21 @@ def validate_record(record: dict) -> list[str]:
         if normalize.alpha2_to_country_name(code) is None:
             errors.append(f"country: {label}: {code!r} is not an assigned ISO 3166-1 alpha-2 code")
 
+    # A list renormalized to 1.0 out of mostly-unresolved holdings satisfies
+    # the sum invariant by construction and tells a client nothing. Omitting it
+    # is the contract -- `SPEC.md` reads an absent field as unknown -- so
+    # shipping one is an error rather than a shortfall.
+    for field in normalize.SYNTHETIC_LABELS:
+        ws = record.get(field) or []
+        if not ws:
+            continue
+        share = normalize.synthetic_share(field, ws)
+        if share > normalize.SYNTHETIC_SHARE_MAX:
+            errors.append(
+                f"synthetic: {field} is {share:.0%} unresolved, over the "
+                f"{normalize.SYNTHETIC_SHARE_MAX:.0%} maximum; omit it instead"
+            )
+
     th = record.get("top_holdings") or []
     if th:
         top_total = sum(h.get("weight", 0.0) for h in th)
