@@ -34,6 +34,7 @@ from sources import finance_database  # noqa: E402
 from sources import edgar  # noqa: E402
 from sources import issuer_scraper  # noqa: E402
 
+import http_cache  # noqa: E402
 import normalize  # noqa: E402
 import validate as validate_mod  # noqa: E402
 
@@ -362,6 +363,18 @@ def main(argv: list[str] | None = None) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "stocks").mkdir(exist_ok=True)
     (out_dir / "etfs").mkdir(exist_ok=True)
+
+    # Before the stocks pass rather than after it. The ETF pass needs a SEC
+    # contact address, and `sources.edgar` turns a failed fetch into an empty
+    # ticker mapping, so a missing one would resolve no CIK, write no ETF
+    # record, reap the ones already on disk, and still exit 0 -- publishing a
+    # stocks-only dataset that validates. Five seconds here beats that.
+    if not args.no_etfs:
+        try:
+            http_cache.check_sec_contact()
+        except RuntimeError as e:
+            log.error("%s", e)
+            return 2
 
     fetched_at = utcnow_iso()
     mappings = load_mappings()

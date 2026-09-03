@@ -29,15 +29,38 @@ import requests
 log = logging.getLogger(__name__)
 
 CACHE_DIR = Path(os.environ.get("ASSET_PROFILES_CACHE_DIR", ".http_cache"))
-DEFAULT_UA = (
-    "Wealthfolio asset-profiles bot (opensource@wealthfolio.app) "
-    "https://github.com/wealthfolio/asset-profiles"
-)
+
+# Deliberately carries no email address. SEC requires one, so this default
+# cannot satisfy `_require_sec_contact` and an unset `SEC_USER_AGENT` fails
+# loudly on the first EDGAR request rather than sending someone else's contact
+# details. It used to name `opensource@wealthfolio.app`, which meant a blank
+# secret attributed this fork's traffic to upstream's inbox and the build
+# succeeded anyway.
+DEFAULT_UA = "asset-profiles dataset builder (https://github.com/rwgs/asset-profiles)"
+
+# SEC's fair-access policy asks that traffic be declared with a real name and a
+# working email. It is the only host that requires it, so it is the only host
+# the requirement is enforced for.
+SEC_HOSTS = frozenset(["sec.gov", "www.sec.gov"])
+
 MIN_INTERVAL_SEC = 1.0  # 1 req/sec/host
 
 
 def _user_agent() -> str:
     return os.environ.get("SEC_USER_AGENT") or os.environ.get("USER_AGENT") or DEFAULT_UA
+
+
+def _require_sec_contact(host: str, user_agent: str) -> None:
+    """SEC needs a contact address in the User-Agent. Refuse to ask without one.
+
+    Checked against what the session will actually send, not against the
+    environment, so a default or a blank secret is caught the same way.
+    """
+    if host.lower() in SEC_HOSTS and "@" not in user_agent:
+        raise RuntimeError(
+            f"SEC_USER_AGENT must carry a real name and email before requesting {host}; "
+            f"got {user_agent!r}. In CI this is the repository secret of that name."
+        )
 
 
 class _RateLimiter:
@@ -56,6 +79,17 @@ class _RateLimiter:
             if wait_for > 0:
                 time.sleep(wait_for)
             self._last[host] = time.monotonic()
+
+
+def check_sec_contact() -> None:
+    """Raise unless the configured User-Agent may be used against SEC.
+
+    For a caller that wants to fail before doing any work rather than on the
+    first request. `sources.edgar` degrades a failed fetch to an empty mapping
+    by design, so without this the ETF pass would resolve no CIK, produce no
+    record, and look like a successful stocks-only refresh.
+    """
+    _require_sec_contact("www.sec.gov", _user_agent())
 
 
 class HttpCache:
@@ -89,6 +123,10 @@ class HttpCache:
             return cache_path.read_bytes()
 
         host = urlparse(url).netloc
+        # Ahead of the robots check, which fetches robots.txt and is itself a
+        # request to the host.
+        _require_sec_contact(host, self.session.headers["User-Agent"])
+
         if self._respect_robots and not self._robots_allows(url):
             raise PermissionError(f"robots.txt disallows {url}")
 

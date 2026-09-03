@@ -181,3 +181,35 @@ def test_coverage_names_a_universe_entry_with_no_ticker(caplog):
         covered = build.report_etf_coverage([{"cik": "0000884394"}], [], [], [])
     assert covered == 0
     assert [r for r in caplog.records if "no ticker" in r.getMessage()], caplog.text
+
+
+# ---- the SEC contact guard ----------------------------------------------
+#
+# `sources.edgar` turns a failed fetch into an empty ticker mapping by design,
+# so without an up-front check a missing SEC contact address resolves no CIK,
+# writes no ETF record, reaps the 49 already on disk, and still exits 0 --
+# publishing a stocks-only dataset that validates.
+
+
+def test_the_build_refuses_to_start_without_a_sec_contact(tmp_path, monkeypatch):
+    monkeypatch.delenv("SEC_USER_AGENT", raising=False)
+    monkeypatch.delenv("USER_AGENT", raising=False)
+    assert build.main(["--out", str(tmp_path)]) == 2
+    assert list(tmp_path.rglob("*.json")) == []
+
+
+def test_the_guard_does_not_block_a_stocks_only_build(tmp_path, monkeypatch):
+    """`--no-etfs` needs no SEC contact, so requiring one would be wrong.
+
+    Stops at the fetch rather than the guard, which is the distinction under
+    test: a different failure means the guard let it through.
+    """
+    monkeypatch.delenv("SEC_USER_AGENT", raising=False)
+    monkeypatch.delenv("USER_AGENT", raising=False)
+
+    def no_network(*a, **kw):
+        raise AssertionError("reached the fetch, so the guard did not block")
+
+    monkeypatch.setattr(build.finance_database, "fetch_equities", no_network)
+    with pytest.raises(AssertionError, match="guard did not block"):
+        build.main(["--no-etfs", "--out", str(tmp_path)])

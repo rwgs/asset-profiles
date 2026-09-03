@@ -55,6 +55,12 @@ SEC_USER_AGENT="dev-name dev@example.com" python scripts/build.py
 python scripts/validate.py v1/
 ```
 
+`SEC_USER_AGENT` must carry a real name and a working email: SEC's fair-access
+policy asks that traffic be declared, and the placeholder above is only a shape.
+A build with the ETF pass enabled exits 2 immediately without one rather than
+falling back to a default, so a missing value costs seconds rather than
+producing a stocks-only dataset that looks complete.
+
 Working on `sources/issuer_scraper.py` also needs its optional extra, which is
 kept out of `requirements.txt` so the setup above installs on Python past 3.12:
 

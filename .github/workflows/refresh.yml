@@ -46,9 +46,14 @@ jobs:
         run: uv pip install --system -r scripts/requirements-issuer.txt
 
       # EDGAR answers 403 to a request whose User-Agent carries no real name
-      # and email, so this must be set as a repository secret before the first
-      # scheduled run. Left as a secret rather than committed: it is a contact
+      # and email. Left as a secret rather than committed: it is a contact
       # address in a public repository, and it differs per fork.
+      #
+      # If the secret is missing or blank the build exits 2 in the first few
+      # seconds rather than running. That is deliberate -- `sources.edgar`
+      # degrades a failed fetch to an empty ticker mapping, so without the
+      # check this job would resolve no CIK, reap every ETF shard, pass the
+      # validator on the remains, and push a stocks-only dataset.
       - name: Build dataset
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
