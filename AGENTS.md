@@ -83,16 +83,27 @@ Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
 normalizer and the validator; there is no formatter, linter, or type checker
 configured.
 
-Windows is a supported development host and the pipeline is not safe on it.
-`git clone` fails outright with `invalid path 'v1/stocks/CON.DE.json'` and,
-because it fails while building the index, leaves the working tree empty rather
-than skipping the record -- so a Windows checkout exists only with
-`core.protectNTFS=false` **and** `skip-worktree` set on the two `CON` paths.
-Both are needed: the first lets the clone finish, the second stops git trying
-to materialise names Windows refuses. That is why `git status` reads clean
-while two tracked files are absent from disk -- `git ls-files -v v1/stocks/`
-shows them as `S`. Do not clear those bits expecting a fix; PR #5 is the fix,
-and it is still open.
+**Windows is a supported development host and the repository now clones on it.**
+PR #5's escaping is merged to `main`, so this is fixed rather than worked
+around. Verified 2026-09-02 by cloning `main` with `core.protectNTFS` left at
+its default: the clone completed, `git status` was clean, no path carried
+`skip-worktree`, and all 98,464 stock shards were on disk -- the same count a
+Linux checkout gets. `validate.py v1/` then reported the same 15 errors there as
+on Linux, and the suite the same 61 passed and 5 xfailed.
+
+If you are in an older checkout, `core.protectNTFS=false` and `skip-worktree` on
+`v1/stocks/CON.json` and `v1/stocks/CON.DE.json` were the workaround. Clear them
+and re-clone; they are no longer needed and `git ls-files -v v1/stocks/` should
+now print `H` for every path.
+
+Worth knowing, because it is easy to blame the wrong layer: it was **git** that
+refused these names, not the OS. `core.protectNTFS` rejects a path whose
+component looks like an NTFS device name, which is why the clone died on
+`invalid path 'v1/stocks/CON.DE.json'` while building the index and left the
+tree empty. Measured on this host, Windows 11 itself creates `CON.json` without
+complaint. So the defect was real and the fix is right -- git is what every
+contributor goes through -- but do not expect a bare `open("CON.json")` to fail
+when reasoning about it.
 
 The locale half is fixed: every `read_text()` in `scripts/` names its encoding
 and the validator reports in ASCII, so the gate runs on a cp1252 host with no
@@ -172,14 +183,13 @@ Validate. This is the whole gate, and it takes about a minute over `v1/`.
 python scripts/validate.py v1/
 ```
 
-That command is complete on every host, Windows included, and **it is red on
-`v1/` today by design**: 15 failures on Linux, 17 on Windows. Fourteen are
-shards on disk that `index.json` does not name -- the 13 nested under
-`v1/stocks/` plus `stocks/SAND.json` -- and one reports that the count the index
-claims, the files on disk, and the paths it names are three different numbers.
-That is T4 reporting what T6 repairs and T5 rebuilds; do not read it as a
-regression your change caused. The two extra on Windows are the `CON` shards
-named in the index and absent from the tree, which #5 fixes.
+That command is complete on every host, and since #5 merged it reports the same
+thing on all of them: **15 failures on `v1/`, by design**. Fourteen are shards
+on disk that `index.json` does not name -- the 13 nested under `v1/stocks/` plus
+`stocks/SAND.json` -- and one reports that the count the index claims, the files
+on disk, and the paths it names are three different numbers. That is T4
+reporting what T6 repairs and T5 rebuilds; do not read it as a regression your
+change caused, and do not expect a different number on Windows any more.
 
 To check that no new call has started relying on the host locale, make the
 warning fatal -- it names the offending line:

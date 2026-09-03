@@ -21,7 +21,7 @@ below: four of the tasks in this file are already written and waiting.
 | [#8](https://github.com/wealthfolio/asset-profiles/pull/8) | Read and report text independently of the host locale | rwgs | 2026-09-02 | Open, CI never ran |
 | [#7](https://github.com/wealthfolio/asset-profiles/pull/7) | Add a pytest harness and run it in CI | rwgs | 2026-09-02 | Open, CI never ran |
 | [#6](https://github.com/wealthfolio/asset-profiles/pull/6) | Resolve N-PORT by fund series, not filer CIK | rwgs | 2026-09-01 | Open, CI never ran |
-| [#5](https://github.com/wealthfolio/asset-profiles/pull/5) | Escape DOS device names in shard filenames | rwgs | 2026-09-01 | Open, CI never ran |
+| [#5](https://github.com/wealthfolio/asset-profiles/pull/5) | Escape DOS device names in shard filenames | rwgs | 2026-09-01 | Open upstream, CI never ran; **merged into `main`** |
 | [#3](https://github.com/wealthfolio/asset-profiles/pull/3) | Correct four wrong CIKs in the universe | bjmc | 2026-06-12 | Open, CI never ran |
 | [#2](https://github.com/wealthfolio/asset-profiles/pull/2) | Add funds to the universe | bjmc | 2026-06-12 | Open, CI never ran |
 | [#1](https://github.com/wealthfolio/asset-profiles/pull/1) | Point FinanceDatabase at its moved URLs | bjmc | 2026-06-12 | Open, CI never ran |
@@ -81,16 +81,13 @@ upstream is on standby.
 
 So the phase cannot close as written. Its exit criteria assume merges, a CI run,
 and a refresh, and all three need a maintainer who has said they are not working
-on this. What is actually reachable from here is smaller and worth naming.
-T8's dependency question can be settled locally and blocks nothing. T6 needs #5's
-`shard_key` shape, which lives on `fix/windows-reserved-shard-names` and **is not
-on `main`** -- verified, not assumed -- so unblocking it means merging that branch
-into `origin/main` first. That merge is not free: #5 also renames the two `CON`
-shards and their `index.json` entries, so it touches `v1/`, and on this Windows
-tree those two files are absent from disk with `skip-worktree` set. Ask before
-running it. T5's rebuild still needs sign-off, and now also needs a decision on
-whether this fork publishes at all -- see the questions below. Anything past that
-is a request to someone else.
+on this. What is actually reachable from here is smaller and worth naming. **#5 is now
+merged into `main`**, which unblocked T6 and made the repository clone on
+Windows -- so T6 is the next thing to build and the only code left in the phase.
+T8's dependency question can be settled locally and blocks nothing. T5's rebuild
+still needs sign-off, and now also needs a decision on whether this fork
+publishes at all -- see the questions below. Anything past that is a request to
+someone else.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -162,9 +159,12 @@ is a request to someone else.
   - Dependencies or blockers: none. It was the prerequisite for T3, T4, and T6,
     which are now unblocked whatever upstream does with #7.
 
-- [~] **T2.** Escape DOS device names in shard filenames.
-  **Submitted as [#5](https://github.com/wealthfolio/asset-profiles/pull/5),
-  2026-09-01. Awaiting CI approval (P1) and review.**
+- [x] **T2.** Escape DOS device names in shard filenames.
+  **Merged into `main` at `131deaab0a`, 2026-09-02, with the two debts below
+  paid in the same commit. Still open upstream as
+  [#5](https://github.com/wealthfolio/asset-profiles/pull/5), which is on
+  standby -- so the branch stays as it is and the follow-up work lives on
+  `main`.**
   - Scope as submitted: `shard_key` escapes any path component whose part
     before the first dot is a DOS device name (`CON`, `PRN`, `AUX`, `NUL`,
     `COM0`-`COM9`, `LPT0`-`LPT9`) by appending `_` to that part, so `CON.DE`
@@ -182,17 +182,38 @@ is a request to someone else.
     `no checks reported`. #7 carries two `xfail(strict=True)` cases over `CON`
     and `CON.DE`, so whichever of #5 and #7 merges second reports them as
     unexpected passes and owns turning them into plain assertions. Two lines.
-  - Owed on merge, and larger than that flip: **#5's stated test coverage is
-    not in the tree.** Its description reports 16 `shard_key` cases and a
+  - **Both debts below are paid, in the merge commit.** The two
+    `xfail(strict=True)` cases became unexpected passes the moment the escaping
+    landed, exactly as predicted, and are now plain assertions on the expected
+    key. The missing coverage is written: the escape is asserted per device name
+    and case-insensitively, `CONE`, `COM`, `COM10` and `ICON` are asserted
+    unchanged because escaping them would break a working path for nothing, and
+    `validate_shard_names` is checked on a filename, on a directory component,
+    and through `validate_tree` so it cannot become a function nothing calls.
+    The suite went from 37 passed and 7 xfailed to 61 and 5.
+  - The merge also removed a second walk: `validate_shard_names` arrived with
+    its own `rglob` beside T4's `shard_paths` and auto-merged without conflict,
+    because the two never touch the same line. It now shares the one walk.
+  - Owed on merge, and larger than that flip -- **now paid**: #5's stated test
+    coverage was not in the tree. Its description reports 16 `shard_key` cases and a
     `validate_shard_names` fixture, but its diff adds no test file, so nothing
     re-runs any of it. #7 gives them a home, so committing them alongside the
     xfail flip is what makes the claim in #5's description true. This matters
     more here than elsewhere: 83,764 of 98,489 shards take their filename
     straight from an upstream ticker refreshed weekly, so the next `PRN` or
     `COM1` listing is a data event rather than a code change.
-  - Manual validation owed on merge: `git clone` on Windows with default
-    `core.protectNTFS`, which is the case that cannot be tested on the CI
-    runner.
+  - **Manual validation owed on merge: done, and it passes.** Cloned `main` on
+    Windows 2026-09-02 with `core.protectNTFS` left at its default. The clone
+    completed, `git status` was clean, nothing carried `skip-worktree`, and all
+    98,464 stock shards were on disk -- the Linux count. `validate.py v1/` in
+    that fresh clone reported the same 15 errors as Linux, and the suite the
+    same 61 passed and 5 xfailed. This is the check the CI runner cannot
+    perform, and it is the one that proves the defect is gone.
+  - Also measured, and it corrects the diagnosis rather than the fix: **it was
+    git that refused these names, not Windows.** `core.protectNTFS` rejects the
+    path; Windows 11 on this host creates `CON.json` without complaint. The fix
+    is still right, because git is what every contributor goes through, but
+    `AGENTS.md` no longer claims the OS refuses it.
   - Evidence: **the repository cannot be cloned on Windows at all.** Git
     refuses `invalid path 'v1/stocks/CON.DE.json'` and, because it fails while
     building the index, leaves the working tree empty rather than skipping the
@@ -224,10 +245,11 @@ is a request to someone else.
     the exact expected key and adds the rest.
   - Manual validation: `python scripts/build.py --limit 2000 --out ./probe`,
     then confirm `probe/stocks/` contains no directories.
-  - Dependencies or blockers: #5 -- building this before #5 merges means
-    resolving the same function twice. The escape character and the measurement
-    that rules out the obvious alternative are now the 2026-09-02 `DECISIONS.md`
-    entry, promoted out of `PLAN.md` when T4 took it over.
+  - Dependencies or blockers: **none any more.** #5 is merged into `main`, so
+    `shard_key` already has the shape this builds on and there is no longer a
+    risk of resolving the same function twice. The escape character and the
+    measurement that rules out the obvious alternative are the 2026-09-02
+    `DECISIONS.md` entry, promoted out of `PLAN.md` when T4 took it over.
   - Evidence: 9 directories holding 13 records exist under `v1/stocks/`
     (`AKO`, `BF`, `BIO`, `BRK`, `CRD`, `HEI`, `HVT`, `RAC`, `WSO`). All 13 are
     committed, none is referenced by `index.json`, and none is schema-validated.
