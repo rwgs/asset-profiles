@@ -45,9 +45,13 @@ jobs:
       - name: Install the issuer-holdings fallback
         run: uv pip install --system -r scripts/requirements-issuer.txt
 
+      # EDGAR answers 403 to a request whose User-Agent carries no real name
+      # and email, so this must be set as a repository secret before the first
+      # scheduled run. Left as a secret rather than committed: it is a contact
+      # address in a public repository, and it differs per fork.
       - name: Build dataset
         env:
-          SEC_USER_AGENT: "Wealthfolio asset-profiles bot opensource@wealthfolio.app"
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
           if [ "${{ inputs.no_etfs }}" = "true" ]; then
             python scripts/build.py --no-etfs
@@ -63,5 +67,5 @@ jobs:
         with:
           commit_message: "chore: refresh profiles"
           file_pattern: "v1/**"
-          commit_user_name: "asset-profiles-bot"
-          commit_user_email: "opensource@wealthfolio.app"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"

@@ -8,6 +8,13 @@ Built for the [Wealthfolio](https://github.com/wealthfolio) clients to
 enrich portfolios with allocations, sector breakdowns, and geographic
 exposure without per-user API keys or fragile third-party APIs.
 
+> **This fork is what publishes.** `wealthfolio/asset-profiles`, which this is
+> a fork of, is on standby by its maintainer's own statement, and the URLs
+> above point here instead. See
+> [`DECISIONS.md`](DECISIONS.md) for why, and
+> [`TASKS.md`](TASKS.md) for what the dataset currently does and does not
+> cover.
+
 - **Schema version:** `1.0.0`
 - **Refresh cadence:** weekly (Sunday 06:00 UTC)
 - **License (code):** MIT — see [`LICENSE`](LICENSE)
@@ -21,16 +28,25 @@ The dataset is served free at the edge by
 [jsDelivr](https://www.jsdelivr.com/) directly from the GitHub repo:
 
 ```
-https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@main/v1/index.json
-https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@main/v1/stocks/AAPL.json
-https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@main/v1/etfs/SPY.json
+https://cdn.jsdelivr.net/gh/rwgs/asset-profiles@main/v1/index.json
+https://cdn.jsdelivr.net/gh/rwgs/asset-profiles@main/v1/stocks/US0378331005.json
+https://cdn.jsdelivr.net/gh/rwgs/asset-profiles@main/v1/etfs/US78462F1030.json
 ```
+
+**Resolve a symbol through `index.json`; never build a shard path from a
+ticker.** A record is keyed by its ISIN where it has one and by its symbol
+otherwise, so Apple is `stocks/US0378331005.json` and not `stocks/AAPL.json`.
+A key is also escaped where a filename could not carry it, so `BRK/A` is
+`stocks/BRK_A.json` and `CON.DE` is `stocks/CON_.DE.json`.
 
 For pinned, immutable URLs, use a tag instead of `@main`:
 
 ```
-https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@v1.0.0/v1/index.json
+https://cdn.jsdelivr.net/gh/rwgs/asset-profiles@v1.0.0/v1/index.json
 ```
+
+**No tag exists yet**, on this repository or on upstream, so that URL 404s
+today. It documents the shape a pinned URL takes, not one you can fetch.
 
 jsDelivr caches `@main` for ~12 hours. For a weekly refresh, that's
 fine; for production clients, pin to a tag.
@@ -40,18 +56,20 @@ fine; for production clients, pin to a tag.
 ### curl
 
 ```bash
-curl -s https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@main/v1/index.json \
-  | jq '.symbols.AAPL'
-# → { "kind": "stock", "path": "stocks/AAPL.json", "isin": "US0378331005" }
+BASE=https://cdn.jsdelivr.net/gh/rwgs/asset-profiles@main/v1
 
-curl -s https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@main/v1/stocks/AAPL.json \
+curl -s "$BASE/index.json" | jq '.symbols.AAPL'
+# → { "isin": "US0378331005", "kind": "stock", "path": "stocks/US0378331005.json" }
+
+# Take the path from the index rather than guessing it from the symbol.
+curl -s "$BASE/$(curl -s "$BASE/index.json" | jq -r '.symbols.AAPL.path')" \
   | jq '{ name, sector, country }'
 ```
 
 ### JavaScript / TypeScript
 
 ```ts
-const BASE = "https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@main/v1";
+const BASE = "https://cdn.jsdelivr.net/gh/rwgs/asset-profiles@main/v1";
 
 const index = await fetch(`${BASE}/index.json`).then(r => r.json());
 
@@ -69,7 +87,7 @@ console.log(await profileFor("AAPL"));
 ```python
 import requests
 
-BASE = "https://cdn.jsdelivr.net/gh/wealthfolio/asset-profiles@main/v1"
+BASE = "https://cdn.jsdelivr.net/gh/rwgs/asset-profiles@main/v1"
 
 index = requests.get(f"{BASE}/index.json").json()
 
@@ -86,9 +104,13 @@ print(profile_for("SPY"))
 
 | Set                 | Source                         | Records | License |
 | ------------------- | ------------------------------ | ------- | ------- |
-| Stocks              | [JerBouma/FinanceDatabase][fd] | ~120k   | MIT (upstream) |
-| ETFs (US-domiciled) | [SEC EDGAR N-PORT][edgar]      | ~250    | US public domain |
-| ETFs (non-US)       | Issuer holdings (fallback)     | ~50     | Issuer ToS, attributed |
+| Stocks              | [JerBouma/FinanceDatabase][fd] | 98,463  | MIT (upstream) |
+| ETFs (US-domiciled) | [SEC EDGAR N-PORT][edgar]      | 10      | US public domain |
+| ETFs (non-US)       | Issuer holdings (fallback)     | 0       | Issuer ToS, attributed |
+
+Those are the counts actually published, read from `v1/index.json`, rather
+than targets. The ETF universe names 65 funds and 10 of them have a record;
+no record has ever come from the issuer fallback.
 
 [fd]: https://github.com/JerBouma/FinanceDatabase
 [edgar]: https://www.sec.gov/edgar

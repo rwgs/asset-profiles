@@ -12,6 +12,61 @@ The 2026-05-09 entries below were settled at bootstrap and are reconstructed
 from `README.md`, `CONTRIBUTING.md`, and `docs/asset-profiles-spec.md` sections
 13 and 15. They were load-bearing before they were written down here.
 
+## 2026-09-03 This fork publishes; upstream stays the place changes are offered
+
+Status: Accepted.
+
+### Decision
+
+`README.md` points jsDelivr at `rwgs/asset-profiles@main`, and the weekly
+refresh runs here. `wealthfolio/asset-profiles` remains the upstream a change
+is offered to, and each change keeps its upstream-mergeable branch, but it is
+no longer what a client fetches.
+
+### Why
+
+Upstream is on standby, stated by its maintainer on 2026-09-03: *"this repo is
+not used at all, it was an idea to curate stock and symbol profiles. but it's
+en stand by"*. Its last commit is 2026-05-31, its scheduled refresh has been
+failing since 2026-06-07 and stopped entirely after 2026-08-02, and seven pull
+requests wait on a CI approval that has never been given. A dataset whose
+publisher is not publishing does not serve a client.
+
+Pointing here is a strict improvement even before a refresh runs, which is what
+makes this safe to do now rather than after: the two trees hold the same
+records from 2026-05-31, but this one has no shard nested under a directory, no
+filename a Windows checkout refuses, and `counts` agreeing with both the files
+on disk and the paths the index names. Upstream still has all three defects,
+and its tree cannot be cloned on Windows at all.
+
+### Rejected alternatives
+
+- **Wait for upstream.** The maintainer has said they are not working on it.
+  Waiting is a decision to serve stale, broken data indefinitely, taken by
+  default.
+- **Publish only after Phase 2 closes.** Six of the ten ETF records carry
+  meaningless sector weights, which argues for finishing first. But those six
+  are equally meaningless upstream, and the client is not integrated yet, so
+  delaying changes nothing for a consumer while leaving the defects above
+  served.
+- **A branded domain or an API.** Both were rejected at bootstrap for reasons
+  that have not changed; see the 2026-05-09 jsDelivr entry.
+
+### Consequences
+
+The weekly refresh becomes this repository's obligation, and `next_refresh_at`
+is a commitment made from here. `SEC_USER_AGENT` must be set as a repository
+secret before the first scheduled run or the ETF pass takes 403 from EDGAR;
+it is deliberately not committed, being a contact address in a public
+repository. The first refresh is also the first full rebuild since bootstrap,
+so it will rewrite `v1/**` wholesale -- measured against the live source, from
+98,463 stock records to 90,514, because upstream now publishes 30,378 rows
+carrying an ISIN against 14,716 before and the cross-listing merge absorbs
+them. Roughly 8,000 shard URLs stop resolving, which is why the rebuild is
+sign-off work rather than a consequence of this entry.
+
+Nothing here withdraws a pull request or changes where work is offered.
+
 ## 2026-09-02 `_` is the escape character for a filesystem-unsafe shard key
 
 Status: Accepted.
