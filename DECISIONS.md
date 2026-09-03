@@ -12,6 +12,105 @@ The 2026-05-09 entries below were settled at bootstrap and are reconstructed
 from `README.md`, `CONTRIBUTING.md`, and `docs/asset-profiles-spec.md` sections
 13 and 15. They were load-bearing before they were written down here.
 
+## 2026-09-03 OpenFIGI may correct an instrument's type, and a wrong ISIN is dropped
+
+Status: Accepted. Widens *Adopt OpenFIGI as an identifier-mapping source*
+below, which said no published field may take its value from OpenFIGI. That
+clause is now narrower than it reads: it still holds for every field a client
+classifies on -- sector, industry, country, weights -- and no longer holds for
+`kind`.
+
+### Decision
+
+Three things, decided together because they are one question wearing three
+hats: what does this dataset do when the source hands it something wrong?
+
+1. **A record's `kind` may be set from OpenFIGI's `securityType2`.** `stock` is
+   an equity, and `fund` and `debt` are the two kinds the stocks tree turns out
+   to contain. A retyped record also **loses `sector`, `industry_group` and
+   `industry`**, which it had inherited from something it is not. `stock.schema.json`
+   carries all three kinds; `v1/etfs/` keeps its own schema, because only an
+   ETF record carries holdings.
+2. **An ISIN OpenFIGI attributes to a differently-named company is dropped**,
+   and the record re-keys to its `primary_symbol` through `shard_key`. Two
+   independent signals are required: the name disagrees, *and* the ISIN's
+   country prefix is an assigned ISO country that disagrees with the record's
+   own `country_code`.
+3. **The records stay.** A certificate or a fund share is corrected rather than
+   filtered out of the dataset, so no shard URL disappears.
+
+### Why
+
+Measured 2026-09-03 over the published tree, typing all 9,400 ISINs: **615
+records are not equities** -- 478 notes and structured certificates, 137 fund
+shares -- and **554 of them publish a sector they do not have**.
+`v1/stocks/AT0000A2H326.json` is a leveraged certificate over Daimler, typed
+`stock`, carrying *Consumer Discretionary* borrowed from its underlying. And
+**322 records are keyed by an ISIN belonging to another company**: `Dave &
+Buster's Entertainment` under an iShares ETF's ISIN, `Camden National
+Corporation` under `AMUNDI CAC 40`, AAR Corp. under Clean Air Metals'.
+
+Nothing already in the pipeline can tell any of this. FinanceDatabase carries
+no instrument type, and it is the source of both defects -- so the only way to
+know a record is not a share is to ask something that does. That is why the
+narrower clause had to move: refusing OpenFIGI a value means publishing 554
+wrong sectors to protect a rule whose purpose was to stop exactly that.
+
+Correcting rather than filtering is the owner's call, taken 2026-09-03: a
+published record is worth keeping and worth making honest, while a field known
+to be wrong is not worth keeping at all. Deleting the record would remove a URL
+a client may hold and discard the part that was right.
+
+### Rejected alternatives
+
+- **Filter non-equities out of `v1/stocks/` entirely.** Smallest change and it
+  makes the count zero, but it removes 615 shard URLs and tells a client
+  holding one of them nothing at all.
+- **Keep a wrong ISIN and mark the record.** Publishes a join known to be
+  wrong, and a consumer that ignores the new field is handed a different
+  company in a different country and sector.
+- **A name rule over the `EGB OE` and `RCB OE` prefixes.** Needs no third
+  party and catches 443 of the 478 notes, but nothing generalises it to the
+  fund shares, and it hard-codes two issuers' naming into the pipeline.
+- **Composite FIGI as evidence about an ISIN**, in either direction. It fires
+  on 1,242 records as a detector, and as an *exonerating* signal it agrees for
+  97 of the 152 flagged records that carry one -- including `ARCHER DANIELS
+  MIDLAND` against `ADMIRAL GROUP PLC`. The record's `composite_figi` comes
+  from the same source row as its wrong ISIN, so it is contaminated by the
+  defect it would be vouching against. Do not retry this.
+- **One signal instead of two for a wrong ISIN.** The name check alone fires on
+  888 records, most of them notes and certificates whose name differs from
+  their issuer's legitimately, plus corporate renames -- `Orocobre Limited` is
+  now `ALLKEM LTD`. The country check alone fires on 1,927, of which the
+  offshore incorporations are correct.
+
+### Consequences
+
+The rule is a floor and it is not perfect, measured rather than claimed.
+Precision on the 322 is high but under 100%: spot-checking found corporate
+rebrands whose new name shares no token with the old and whose domicile is
+offshore, so both signals fire -- `Foxconn Interconnect Tech.` is now `FIT HON
+TENG LTD`, `WANdisco plc` is `CIRATA PLC`. Those lose a correct ISIN. Heavy
+abbreviations do too: `Industrial & Commercial Bank of China` against `IND &
+COMM BK OF-UNSPON ADR`. A `difflib` ratio guard at 0.83 removes the
+transliteration class and deliberately does not chase the rest, because each
+further guard costs true positives and tunes on single records.
+
+Recall is a floor for a different reason: it only sees the 8,564 ISINs OpenFIGI
+resolved of 9,400 published, and only the 9,400 of 90,513 records that carry an
+ISIN at all.
+
+The refresh workflow's timeout moved from 45 minutes to 90, and the build now
+reads an optional `OPENFIGI_API_KEY`. Unauthenticated, typing every ISIN is 940
+requests and about 39 minutes on the cold cache CI always has; with a free key
+it is 94 requests and under a minute. The ceiling is sized for the
+unauthenticated case so an unset optional secret cannot kill the job.
+
+**T18 is not closed by any of this.** A depositary receipt is deliberately an
+equity here: the record describes the right company under the wrong security's
+identifier, and OpenFIGI cannot supply the local ISIN that would fix it --
+its mapping response carries no ISIN field at all.
+
 ## 2026-09-03 Adopt OpenFIGI as an identifier-mapping source
 
 Status: Accepted.

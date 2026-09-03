@@ -1,108 +1,88 @@
-# No change in flight
+# In flight: the pipeline half of T19 and T20 has landed; the rebuild has not
 
-Phase 2 closed on 2026-09-03, the day it opened. There is nothing mid-edit, and
-saying so is more useful than leaving a finished plan in place pretending to be
-current.
+Two published data defects now have rules that correct them, and `v1/` has not
+been rewritten to apply either. That split is deliberate -- a pipeline change
+and the 98,000-file diff it causes are separate commits -- and it is the whole
+of what is outstanding.
 
-Everything that must outlive the last change has been promoted: the two
-rebuilds and their measurements to `TASKS.md` under T14 and T16, Phase 2's exit
-criteria to `ROADMAP.md`, the publishing decision to `DECISIONS.md`, and the
-gate's new resting state to `AGENTS.md`.
+## What landed
 
-## Where the project stands
+**T19: a record keyed by another company's ISIN loses the ISIN** and re-keys to
+its `primary_symbol`. AAR Corp. stops being published as Clean Air Metals'
+identifier. Two independent signals are required, because either alone is too
+loose: OpenFIGI names a different company, *and* the ISIN's country prefix is
+an assigned ISO country that disagrees with the record's own `country_code`.
 
-`python scripts/validate.py v1/` **exits 0** against a dataset rebuilt the same
-day, and the suite is **139 passed** (97 and 3 skipped on a bare install). The
-published dataset is 90,513 stock records and 49 ETF records, generated
-2026-09-03, with `next_refresh_at` 2026-09-10 -- a commitment this repository
-now has to keep, since it is what jsDelivr serves.
+**T20: a record that is not an equity is retyped rather than dropped**, and
+loses the sector it inherited from something it is not. `kind` grew from a
+const to `["stock", "fund", "debt"]`, all three validating against
+`stock.schema.json`.
 
-Phase 2 existed for one sentence, and it is true now: **`SCHD` describes
-`SCHD`.** It published 98.0% Fixed Income carrying the whole Schwab trust's
-holdings for three months. It publishes 99.95% Equity, 102 holdings led by
-QUALCOMM, Texas Instruments and UnitedHealth, Health Care 20.6% and Consumer
-Staples 18.5%.
+**Both rules come from one OpenFIGI sweep of all 9,400 published ISINs**, and
+they partition it: **322 records keyed by another company's ISIN**, and **615
+non-equities of which 554 publish a sector they do not have**. Earlier figures
+in `TASKS.md` -- 104, 164, 622 -- were floors from narrower detectors and
+should not be quoted.
 
-## What is worth doing next, in order
+Gate: **214 passed** (111 and 4 skipped on the bare install), and
+`python scripts/validate.py v1/` still **exits 0**. A `--limit 4000 --out`
+probe build exercises both rules and validates clean.
 
-**T15, the identifier bridge**, is the highest-value work and `TASKS.md` has
-it, now with the measurement it was waiting for. Two things are settled since
-this section was last written, and one of them corrects it.
+## What is outstanding, in order
 
-**Settled: the licence clears.** FIGI identifiers carry a Bloomberg
-public-domain dedication with MIT embedded in the OMG standard -- freely
-redistributable, commercial use allowed, no attribution clause, no restriction
-on storing a mapping. It is identifier mapping rather than quotes,
-fundamentals or a proprietary taxonomy, so neither 2026-05-09 decision reaches
-it. Nothing needs re-checking here.
+1. **Set `OPENFIGI_API_KEY` as a repository secret.** One human action, free to
+   obtain, and the only thing that makes the sweep cheap: 94 requests and under
+   a minute against 940 requests and about 39 minutes. The refresh timeout was
+   raised 45 -> 90 minutes so its absence cannot kill the job, but 90 minutes
+   weekly against a free unauthenticated service is not the intended resting
+   state.
+2. **Rebuild `v1/`, with sign-off.** It applies both rules to the published
+   tree and is where the defects actually stop being served. It moves roughly
+   322 shard paths, because a record that loses its ISIN re-keys to its symbol,
+   so it removes URLs as well as changing files. Rehearse into a `--out` tree
+   first, as T14 and T16 both did, and keep it a commit holding nothing but
+   `v1/**`.
+3. **T18 is still open and is not closed by any of this.** A depositary receipt
+   is deliberately an equity here: the record describes the right company under
+   the wrong security's identifier. OpenFIGI cannot fix it -- its mapping
+   response carries no ISIN field -- and GLEIF reaches only 777 of the 2,142,
+   missing Hon Hai and TSMC entirely.
 
-**Corrected: this is not purely a join problem.** The bridge resolves 3,351 of
-7,265 unresolved ISINs across the four funds, which takes VXUS, IEMG and EEM
-under T13's threshold but leaves **VWO at 53.7% and still omitted**, and IEMG
-inside a rounding error of it. The deciding residual is a coverage gap after
-all: TSMC's Taiwan line is the largest unresolved holding in all four funds and
-the dataset holds only the NYSE ADR. Resolve that one ISIN as well and all four
-clear with margin -- VWO 39.6%, VXUS 19.9%, IEMG 37.3%, EEM 33.2%. So T15 and
-Phase 3 overlap where this section said they did not.
+## Two decisions taken, and one still open
 
-**What is actually blocking it is three decisions**, listed under T15 and
-deliberately not taken while measuring: whether to adopt OpenFIGI as a fourth
-source at all, whether TSMC is fixed by a mapping to the ADR record or by
-adding the missing local listings in Phase 3, and what `provenance` says for a
-record whose sector arrived through a third-party mapping. The last is the
-sharpest, because a record that cannot be attributed does not ship.
+**Taken 2026-09-03, and both went against the recommendation put first.** T19
+drops the wrong identifier; T20 keeps the record and corrects it. Read together
+they are one rule: a published record is worth keeping and worth making honest,
+while a field known to be wrong is not worth keeping at all.
 
-Two smaller things the measurement produced, both recorded under T15 so they
-are not rediscovered: never join on the ticker OpenFIGI returns, because
-Roche's ISIN yields bare tickers matching Roper Technologies; and excluding
-cash from the sector denominator is worth 1 to 3 points rather than the 5 to 8
-the cash weights suggest, because the share is renormalized.
+**T15 is on hold by decision.** It waits for a source that carries TSMC's
+Taiwan line rather than aliasing that ISIN to the NYSE ADR's record. The alias
+was one line and cleared all four funds; it was rejected because it asserts an
+equivalence between two distinct securities that OpenFIGI declines. Expect the
+same answer for any future per-holding alias. **No phase owns finding that
+source**, which is now what blocks the task and the thing to raise before it is
+picked up again.
 
-**T18's measurement ran on 2026-09-03 and is the one thing here that moved
-since.** It is recorded under T18 with its date, so both of that task's
-acceptance criteria are met and what remains of it is a decision rather than a
-measurement. Two results change the order above. First, the receipt keying
-cannot be repaired from FinanceDatabase at all: `CH0038863350`,
-`TW0002317005` and `TW0002330008` appear in **zero** source rows, so T15's
-Phase 3 fallback of "add the missing local listings" is not available from this
-source either and the option set is a second identifier source or a schema
-change. Second, the measurement turned up a defect nobody was looking for --
-**164 records keyed by another company's ISIN**, now T19 -- which is worse than
-what T18 was raised for and is decided by the same question.
-
-**So the next decision is a joint one**: T15's three questions, T19's
-publish-or-drop and now T20's are all "what does this dataset do when a source
-hands it something wrong", and answering them separately risks answering them
-inconsistently.
-
-**Since then OpenFIGI was adopted and both follow-on measurements ran.** The
-sweep put all 9,356 published ISINs to it and replaced every name heuristic
-with a typed answer: T18's extent is 445 rather than 2, T19's confirmed count
-is 104 rather than 164, and 622 non-equity instruments turned up in the stocks
-tree as T20. GLEIF answered the question T18 posed -- a receipt's ISIN maps to
-the issuer's LEI, so the join is exact -- but reaches only 777 of the 2,142 and
-misses Hon Hai and TSMC entirely, so it is worth adopting for what it covers
-and is not the close of T18.
-
-**What is still nobody's answer but the maintainer's**: T15's provenance
-question, T19's publish-or-drop, T20's filter-or-keep. All three are the same
-question wearing different clothes, and no code should land on any of them
-until it is answered.
-
-**Then Phase 3.** `ROADMAP.md` has the order; it has not been opened and its
-exit criteria have not been re-read against what the last two days changed.
+**Still open: T15's provenance question**, and it is smaller than it reads.
+`v1/etfs/SCHD.json` already publishes a FinanceDatabase-derived sector axis
+under an EDGAR-only provenance block, so the bridge would add a fourth
+identifier leg to an existing three-leg join rather than a new source of data.
+Per-axis provenance would be cheap -- three blocks across 49 ETF records -- and
+buys a consumer nothing, since provenance exists here for takedown and audit
+and no client-side task reads it. Holding T15 means nothing waits on it.
 
 ## Two things to know before touching the pipeline
 
-- **The first scheduled refresh has never run.** `SEC_USER_AGENT` was set as a
-  repository secret on 2026-09-03 at 08:13Z, so the next Sunday 06:00 UTC run
-  is the first end-to-end test of the workflow on a runner. It will rebuild and
-  push `v1/**` unreviewed if it succeeds, and the gate runs before the commit
-  step, so a red gate stops the push rather than publishing over it.
-- **`build.py --no-stocks` silently omits every `sector_weights` list.** The
-  enrichment index comes from the in-memory stocks pass, so an ETF-only build
-  resolves nothing and T13's rule then drops the axis entirely. It is a trap
-  rather than a defect in the output, and a refresh must never use the flag.
+- **`normalize.py` imports no source module, and must stay that way.** It is
+  importable with `requests` and `pandas` absent, which is what keeps the bare
+  install runnable. `apply_instrument_identity` takes plain dicts for that
+  reason, and `build.figi_identity` computes them.
+- **Never use composite FIGI as evidence about an ISIN, in either direction.**
+  As a detector it fires on 1,242 records; as an *exonerating* signal it agrees
+  for 97 of the 152 flagged records carrying one, including `ARCHER DANIELS
+  MIDLAND` against `ADMIRAL GROUP PLC`. A record's `composite_figi` comes from
+  the same source row as its wrong ISIN, so it is contaminated by the defect it
+  would be vouching against.
 
 ## Two upstream facts that have not changed
 

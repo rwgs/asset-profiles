@@ -192,6 +192,31 @@ So what remains here is not Phase 1 code:
   local ISIN, and Hon Hai and TSMC's Taiwan lines are absent entirely. It
   closes 8.2% of the class and misses the cases it was wanted for.
 
+- **The four open data-defect questions were put to the owner and three were
+  answered, 2026-09-03.** T19 drops a wrong ISIN and re-keys the record by
+  symbol; T20 keeps a non-equity record but corrects its `kind` and strips the
+  sector it inherited; T15 waits for a source carrying TSMC's Taiwan line
+  rather than aliasing it to the ADR. Both implemented rules are on `main`,
+  suite at 214 passed and `validate.py v1/` still exit 0. T15's provenance
+  question is the one still open, and holding T15 means nothing waits on it.
+- **The sweep that answered them typed all 9,400 published ISINs and
+  partitions into two counts**, both measured against the shipped rule rather
+  than an earlier heuristic: **322 records keyed by another company's ISIN**
+  and **615 non-equities, 554 of which publish a sector they do not have**.
+  The earlier figures in T18, T19 and T20 -- 104, 164, 622 -- were floors from
+  narrower detectors and should not be quoted.
+- **`v1/` has not been rebuilt, so every defect above is still published.** The
+  pipeline change and the 98,000-file rewrite it causes are separate commits,
+  and a rebuild needs sign-off. It also moves roughly 322 shard paths, since a
+  record that loses its ISIN re-keys to its symbol. Verified instead against a
+  `--limit 4000 --out` probe tree, where `validate.py` exits 0.
+- **The refresh timeout moved from 45 minutes to 90, and there is one human
+  action outstanding**: set `OPENFIGI_API_KEY` as a repository secret. It is
+  free. Without it the ISIN sweep is 940 requests and about 39 minutes on the
+  cold cache CI always has; with it, 94 requests and under a minute. The
+  ceiling is sized for its absence so the job cannot be killed by an unset
+  optional secret.
+
 ### Found by the coverage report, and not fixed
 
 Both surfaced on 2026-09-03 by the first live ETF probe, and neither is in
@@ -763,7 +788,9 @@ exists on the finding that a wrong MIC is worse than an absent one.
     what this task was for.
 
 - [ ] **T15 (Phase 2 follow-on).** Bridge a holding's ISIN to a record the
-  dataset already has.
+  dataset already has. **On hold by decision, 2026-09-03: it waits for a
+  source that carries TSMC's Taiwan line. Do not implement it with a
+  per-holding alias.**
   - Why, and it is measured rather than assumed: T13 omits `sector_weights` on
     four ex-US equity funds, and the cause is **not missing sector data**. Of
     the unresolved weight across VWO, IEMG, EEM, VXUS, SCHF and VEA, **58.7%
@@ -869,6 +896,42 @@ exists on the finding that a wrong MIC is worse than an absent one.
     FinanceDatabase and **zero times** in GLEIF's 9.2-million-row ISIN-to-LEI
     file. Choosing "add the local listing" therefore means finding a fourth
     source for it, not doing more of what is already here.
+  - **Decision 2 is settled, 2026-09-03, and it is the slower route.** The
+    owner chose to hold this task until a source that actually carries
+    `TW0002330008` is found, rather than alias it to the NYSE ADR's record.
+    Aliasing was one line and cleared all four funds today; it was rejected
+    because it asserts an equivalence between two distinct securities that
+    OpenFIGI deliberately declines, and an omission is documented and visible
+    while an asserted equivalence is invisible to the consumer and quietly
+    wrong. So VWO keeps no `sector_weights` and the reason is a coverage gap
+    on the record, which is the outcome this project prefers. The same answer
+    should be expected for any future per-holding alias or hand-patched
+    identifier equivalence.
+  - **Consequence: no phase owns finding that source.** As recorded above,
+    `ROADMAP.md`'s Phase 3 is fund coverage and says nothing about stock
+    listings, and neither source here carries the line. That gap in the plan
+    is now what blocks this task, and it is the thing to raise before this
+    task is picked up again.
+  - **Decision 3 was re-read and is smaller than it looks, measured
+    2026-09-03.** The question was what `provenance` says for a sector reached
+    through a mapping. It already happens: `v1/etfs/SCHD.json` names only
+    `SEC EDGAR N-PORT`, while its `Health Care` and `Consumer Staples` labels
+    are filled by `normalize._enrich_holding` joining holdings against the
+    stock dataset on ISIN, ticker, then CUSIP -- so a FinanceDatabase-derived
+    axis already publishes under an EDGAR-only provenance block. OpenFIGI
+    would add a fourth identifier leg to that existing three-leg join, not a
+    new source of data.
+  - **So decision 3 is a pre-existing under-attribution rather than something
+    the bridge creates, and it is still open.** Worth knowing before it is
+    settled: per-axis provenance would be cheap, not expensive -- three blocks
+    across 49 ETF records -- and it buys a *consumer* nothing. Provenance
+    exists here for takedown and audit (`docs/asset-profiles-spec.md:101`,
+    `SPEC.md:150`), and none of W1 through W5 reads it; the client's recorded
+    profile model has no provenance field at all. What is real is the audit
+    gap: FinanceDatabase is MIT, which requires attribution, and repo-level
+    attribution in `README.md` probably discharges the licence while the
+    per-record trail stays incomplete. Since this task is held, nothing is
+    blocked on answering it.
 
 - [~] **T18.** Stop a cross-listed record being identified by its depositary
   receipt's ISIN. **Measured 2026-09-03; the count is below and the fix is
@@ -1022,8 +1085,10 @@ exists on the finding that a wrong MIC is worse than an absent one.
     expected: `CA67080A1093` is NVIDIA, `CA64113H1029` Netflix,
     `CA93267X1006` Walmart, each keyed by its *Canadian* depositary receipt.
 
-- [ ] **T19.** Decide what to publish when the source attaches one company's
-  ISIN to another company that shares its ticker.
+- [~] **T19.** Decide what to publish when the source attaches one company's
+  ISIN to another company that shares its ticker. **Decided and implemented
+  2026-09-03; the rule is on `main` and gate-verified. `v1/` still holds the
+  defect until a rebuild, which needs sign-off.**
   - **Found 2026-09-03 by T18's measurement, and it is the sharper half of what
     that measurement turned up.** T18 asks about depositary receipts, where the
     record at least describes the right company under the wrong security's
@@ -1099,9 +1164,66 @@ exists on the finding that a wrong MIC is worse than an absent one.
     question rather than an edit, and it should be settled together with T18's
     since both are answers to "what does this dataset do when the source's
     identifier is wrong".
+  - **Decided 2026-09-03: drop the ISIN.** A record that fails the check keeps
+    its identity and re-keys to its `primary_symbol` through `shard_key`, so
+    AAR Corp. moves from `stocks/CA18452Y1007.json` to `stocks/AIR.json`. The
+    grounds are this project's own: a wrong join is worse than an absent one,
+    which is what the client's P10C package rests on. The real owner is *not*
+    moved to the freed key -- FinanceDatabase gives Clean Air Metals no ISIN
+    either -- so it stays at `stocks/CLRMF.json`, which is the "deliberately
+    still not" branch of the manual validation above.
+  - **Implemented as two required signals**, in `build.figi_identity`: OpenFIGI
+    names a different company, *and* the ISIN's country prefix is an assigned
+    ISO country disagreeing with the record's own `country_code`. Either alone
+    is too loose, measured against the shipped rule: **the name check alone
+    fires on 888 records** -- most of them the notes and certificates, whose
+    name differs from their issuer's legitimately -- and **the country check
+    alone on 1,927**, of which the offshore incorporations are correct. **322
+    fail both.** The 1,927 is lower than T18's 2,142 for a reason worth
+    keeping: that count included prefixes like `XS`, a Eurobond, which name no
+    jurisdiction and so disagree with every `country_code` vacuously.
+  - **The extent is 322, not 104**, measured 2026-09-03 by typing all 9,400
+    published ISINs rather than the 164 a bare-ticker detector had proposed.
+    The detector's 164 and its 104 confirmed were both floors, as recorded. The
+    322 include 87 records wearing a *fund's or a note's* ISIN, a shape neither
+    earlier count could see: `Dave & Buster's Entertainment` under an iShares
+    ETF's ISIN, `Camden National Corporation` under `AMUNDI CAC 40`, `Daimler
+    AG` under an Erste certificate's.
+  - **Ordering matters and cost a bug.** Typing before checking identity
+    republished `LU0950674332` -- SeaChange International, a US software
+    company -- as a `fund`, because the Luxembourg fund ISIN it wrongly carries
+    types as one. Found by the probe build, not by the tests. Identity is
+    checked first now, and the 478 Austrian certificates are still spared
+    because their ISINs are Austrian exactly like the records carrying them.
+  - **Precision is high and under 100%, which is stated rather than glossed.**
+    A corporate rebrand whose new name shares no token with the old, in an
+    offshore domicile, trips both signals: `Foxconn Interconnect Tech.` is now
+    `FIT HON TENG LTD`, `WANdisco plc` is `CIRATA PLC`. Those lose a correct
+    ISIN. So does a heavy abbreviation -- `Industrial & Commercial Bank of
+    China` against `IND & COMM BK OF-UNSPON ADR`. A `difflib` ratio guard at
+    0.83 clears the transliteration class (`ARGENS`/`ARGENX`,
+    `STROER`/`STROEER`, `SURGUTNEFTEGAS`/`SURGUTNEFTEGAZ`,
+    `ESSILORLUXOTTICA`/`ESSILORLUXOT`) and deliberately stops there, because
+    each further guard costs true positives and tunes on single records.
+  - **A route that looks exact and is contaminated, now checked in both
+    directions.** Using composite FIGI to *exonerate* a flagged record fails
+    for the same reason using it to detect one does: it agrees for 97 of the
+    152 flagged records that carry one, including `ARCHER DANIELS MIDLAND`
+    against `ADMIRAL GROUP PLC`. The record's `composite_figi` comes from the
+    same FinanceDatabase row as its wrong ISIN. Do not retry it.
+  - Automated validation, done: 214 passed. `test_build.py` asserts the
+    two-signal rule over the AAR Corp and EVN cases the criteria name, the
+    ordering over `LU0950674332`, and that a `XS` prefix -- a Eurobond, which
+    names no jurisdiction -- can never be the second signal.
+  - Manual validation, outstanding until the rebuild: `v1/stocks/CA18452Y1007.json`
+    still reads AAR Corp. today, because the pipeline change and the 98,000-file
+    rewrite it causes are separate commits. Verified instead against a
+    `--limit 4000 --out` probe, where the drop fires and `validate.py` exits 0.
 
-- [ ] **T20.** Stop publishing instruments that are not equities as stock
-  records.
+- [~] **T20.** Stop publishing instruments that are not equities as stock
+  records. **Decided and implemented 2026-09-03; the rule is on `main` and
+  gate-verified. `v1/` still holds the defect until a rebuild, which needs
+  sign-off.**
   - **Found 2026-09-03 by the OpenFIGI sweep run for T18 and T19**, which typed
     every published ISIN and so answered a question nobody had asked: *is this
     even a share?* For a meaningful number of records it is not.
@@ -1143,6 +1265,51 @@ exists on the finding that a wrong MIC is worse than an absent one.
   - Dependencies or blockers: none factual. It shares T19's open question --
     what this dataset does when a source hands it something it should not
     publish -- and should be decided alongside it rather than separately.
+  - **Decided 2026-09-03: keep the records, correct them.** They are retyped
+    rather than filtered out, so no shard URL disappears and a client holding
+    one learns what it is holding. `kind` grows from a const to
+    `["stock", "fund", "debt"]` in `stock.schema.json`, and a retyped record
+    **drops `sector`, `industry_group` and `industry`** -- the fields it had
+    inherited from something it is not. `validate.py` routes all three kinds to
+    the same schema, because a fund share or a note is the shape of a share
+    with less filled in; only `v1/etfs/` needs a schema of its own, since only
+    an ETF record carries holdings.
+  - **The type comes from `securityType2`, not `securityType`.** Measured
+    2026-09-03 over 8,564 resolved ISINs: **every FIGI row for a given ISIN
+    agrees on `securityType2` -- 0 disagreements** -- while `securityType`
+    splits one instrument across `EURO-ZONE`, `EURO-DOLLAR`, `EURO MTN` and
+    `EURO NON-DOLLAR`. `marketSector` is unanimous too but cannot do the job
+    alone: Bloomberg files fund shares under `Equity`, so the 137 funds need
+    the finer axis. Anything not in the table defaults to `stock`, so a type
+    OpenFIGI adds later leaves records exactly as they publish today.
+  - **The count is 615, and 554 of them publish a sector they do not have.**
+    478 `debt` (notes and structured certificates) and 137 `fund` (ETPs,
+    closed-end, open-end). That is below the 622 this task was raised with,
+    and the reason is T19 rather than a measurement error: 87 records that
+    type as a fund or a note are equities wearing someone else's ISIN, and
+    they are disowned instead of retyped. The two tasks partition the same
+    sweep.
+  - **The funds stay in `v1/stocks/`**, which the chosen option flagged as
+    arguable and is the coherent reading: nothing here has their holdings, so
+    they cannot satisfy `etf.schema.json`, and `v1/etfs/` is the tree for
+    records that carry holdings and weights. An honest `kind` in the tree they
+    are already in beats a move to a tree they cannot be valid in.
+  - **This widened what OpenFIGI is for, and `DECISIONS.md` says so.** The
+    adoption entry had ruled that no published field may take its value from
+    OpenFIGI. `kind` now does. The clause still holds for every field a client
+    classifies on -- sector, industry, country, weights -- and the grounds for
+    moving it are that refusing the value means publishing 554 wrong sectors to
+    protect a rule whose purpose was to prevent exactly that.
+  - Automated validation, done: 214 passed, including
+    `AT0000A2H326` asserted end to end -- retyped to `debt`, sector and both
+    industry fields gone, still reachable at the same shard -- and a case
+    proving an unmapped or absent type restates nothing.
+  - Manual validation, done against a probe rather than `v1/`: a
+    `--limit 4000 --out` build retyped `XS1937306121` (a Lenovo note) to
+    `debt` and `LU1048315243` / `LU1285960032` (UBS and Lyxor ETFs) to `fund`,
+    each with no sector, and `validate.py` on that tree exits 0.
+    `v1/stocks/AT0000A2H326.json` still reports *Consumer Discretionary* today
+    and will until the rebuild.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),

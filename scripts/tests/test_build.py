@@ -9,6 +9,7 @@ full requirements, so these run there.
 
 from __future__ import annotations
 
+import copy
 import json
 import logging
 
@@ -213,3 +214,98 @@ def test_the_guard_does_not_block_a_stocks_only_build(tmp_path, monkeypatch):
     monkeypatch.setattr(build.finance_database, "fetch_equities", no_network)
     with pytest.raises(AssertionError, match="guard did not block"):
         build.main(["--no-etfs", "--out", str(tmp_path)])
+
+
+# ---- the OpenFIGI identity pass -----------------------------------------
+
+
+def _rec(isin, name, country_code, **kw):
+    return {"kind": "stock", "isin": isin, "primary_symbol": kw.pop("sym", "X"),
+            "name": name, "country_code": country_code, **kw}
+
+
+def test_both_signals_are_required_to_disown_an_isin():
+    """A rename trips the name check alone; an offshore domicile trips the
+    country check alone. Neither is a wrong ISIN."""
+    records = [
+        # Name disagrees and the country disagrees: AAR Corp. under Clean Air
+        # Metals' ISIN. Disowned.
+        _rec("CA18452Y1007", "AAR Corp.", "US", sym="AIR"),
+        # Name disagrees, same country: Orocobre was renamed Allkem.
+        _rec("AU0000193666", "Orocobre Limited", "AU"),
+        # Country disagrees, name agrees: incorporated in Bermuda, operating
+        # in the US, which is 1,123 records and every one of them correct.
+        _rec("BMG2178K1009", "Some Bermuda Holdco", "US"),
+    ]
+    figi = {
+        "CA18452Y1007": [{"securityType2": "Common Stock", "name": "CLEAN AIR METALS INC"}],
+        "AU0000193666": [{"securityType2": "Common Stock", "name": "ALLKEM LTD"}],
+        "BMG2178K1009": [{"securityType2": "Common Stock", "name": "SOME BERMUDA HOLDCO LTD"}],
+    }
+    _, wrong = build.figi_identity(records, figi)
+    assert wrong == {"CA18452Y1007"}
+
+
+def test_a_record_with_no_country_code_is_never_disowned():
+    """Half the second signal missing is not the signal firing."""
+    records = [_rec("CA18452Y1007", "AAR Corp.", None)]
+    figi = {"CA18452Y1007": [{"securityType2": "Common Stock", "name": "CLEAN AIR METALS INC"}]}
+    _, wrong = build.figi_identity(records, figi)
+    assert wrong == set()
+
+
+def test_an_unresolved_isin_yields_no_type_and_no_verdict():
+    records = [_rec("US0378331005", "Apple Inc.", "US")]
+    kinds, wrong = build.figi_identity(records, {})
+    assert kinds == {} and wrong == set()
+
+
+def test_the_sweep_failing_leaves_every_record_unchanged(monkeypatch):
+    """OpenFIGI corrects published metadata rather than supplying any, so it
+    being down must not empty or restate the dataset."""
+    records = [_rec("AT0000A2H326", "EGB OE TL.Z./DAIMLER", "AT", sector="Consumer Discretionary")]
+    before = copy.deepcopy(records)
+
+    def boom(isins, **kw):
+        raise RuntimeError("network is down")
+
+    monkeypatch.setattr(build.openfigi, "map_isins", boom)
+    build.apply_figi_identity(records)
+    assert records == before
+
+
+def test_a_wrong_isin_pointing_at_a_fund_is_disowned_not_retyped():
+    """`LU0950674332` is a Luxembourg fund and the record wearing it is
+    SeaChange International, a US software company. Typing before checking
+    identity would republish SeaChange as a fund."""
+    records = [_rec("LU0950674332", "SeaChange International, Inc.", "US", sym="SEAC")]
+    figi = {"LU0950674332": [{"securityType2": "Mutual Fund", "name": "SOME LUX BOND FUND"}]}
+    kinds, wrong = build.figi_identity(records, figi)
+    assert wrong == {"LU0950674332"}
+    assert kinds == {}
+
+
+def test_a_genuine_fund_share_in_its_own_domicile_is_still_typed():
+    records = [_rec("LU1048315243", "UBS ETFBLMBRGBRCLS US LIQCORP1-", "LU")]
+    figi = {"LU1048315243": [{"securityType2": "Mutual Fund", "name": "UBS ETF SICAV"}]}
+    kinds, wrong = build.figi_identity(records, figi)
+    assert kinds == {"LU1048315243": "fund"} and wrong == set()
+
+
+def test_a_prefix_that_names_no_country_cannot_be_the_second_signal():
+    """`XS` is a Eurobond and claims no jurisdiction, so it disagrees with
+    every `country_code` and must never be read as evidence."""
+    records = [_rec("XS1937306121", "Lenovo Group Limited", "HK")]
+    figi = {"XS1937306121": [{"securityType2": "Corp", "name": "SOMETHING ELSE ENTIRELY SA"}]}
+    kinds, wrong = build.figi_identity(records, figi)
+    assert wrong == set()
+    assert kinds == {"XS1937306121": "debt"}
+
+
+def test_the_austrian_certificates_are_typed_rather_than_disowned():
+    """Their name differs from their issuer's legitimately, and their ISIN is
+    Austrian exactly like the record, so the country signal never fires."""
+    records = [_rec("AT0000A2H326", "EGB OE TL.Z./DAIMLER", "AT")]
+    figi = {"AT0000A2H326": [{"securityType2": "Corp", "name": "ERSTE GROUP BANK AG"}]}
+    kinds, wrong = build.figi_identity(records, figi)
+    assert kinds == {"AT0000A2H326": "debt"} and wrong == set()

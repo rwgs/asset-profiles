@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import copy
 import json
 
 import pytest
@@ -362,3 +363,132 @@ def test_a_mostly_resolved_list_is_kept():
 
 def test_an_already_empty_list_stays_empty():
     assert normalize._drop_if_synthetic("sector_weights", [], "X") == []
+
+
+# ---- instrument identity ------------------------------------------------
+
+
+def _certificate() -> dict:
+    """`v1/stocks/AT0000A2H326.json` as it publishes today: a leveraged
+    certificate over Daimler, `kind` stock, wearing Daimler's sector."""
+    return {
+        "schema_version": "1.0.0",
+        "kind": "stock",
+        "isin": "AT0000A2H326",
+        "primary_symbol": "AT0000A2H326.VI",
+        "listings": [{"symbol": "AT0000A2H326.VI", "exchange_mic": "WBAH", "currency": "EUR"}],
+        "name": "EGB OE TL.Z./DAIMLER",
+        "sector": "Consumer Discretionary",
+        "industry_group": "Automobiles & Components",
+        "industry": "Automobile Manufacturers",
+        "country": "Austria",
+        "country_code": "AT",
+        "identifiers": {"isin": "AT0000A2H326"},
+        "provenance": {"source": "FinanceDatabase", "source_url": "u",
+                       "fetched_at": "2026-09-03T00:00:00Z", "license": "MIT"},
+    }
+
+
+def _aar_corp() -> dict:
+    """`v1/stocks/CA18452Y1007.json`: AAR Corp. under Clean Air Metals' ISIN."""
+    return {
+        "schema_version": "1.0.0",
+        "kind": "stock",
+        "isin": "CA18452Y1007",
+        "primary_symbol": "AIR",
+        "listings": [{"symbol": "AIR", "exchange_mic": "XNYS", "currency": "USD"}],
+        "name": "AAR Corp.",
+        "sector": "Industrials",
+        "country": "United States",
+        "country_code": "US",
+        "identifiers": {"isin": "CA18452Y1007", "cusip": "000361105"},
+        "provenance": {"source": "FinanceDatabase", "source_url": "u",
+                       "fetched_at": "2026-09-03T00:00:00Z", "license": "MIT"},
+    }
+
+
+def test_a_non_equity_is_retyped_and_loses_its_inherited_sector():
+    record = _certificate()
+    summary = normalize.apply_instrument_identity(
+        [record], kind_by_isin={"AT0000A2H326": "debt"}, wrong_isins=set()
+    )
+    assert record["kind"] == "debt"
+    assert "sector" not in record
+    assert "industry_group" not in record
+    assert "industry" not in record
+    # It is still the same instrument, reachable at the same shard.
+    assert record["isin"] == "AT0000A2H326"
+    assert normalize.shard_key(record) == "AT0000A2H326"
+    assert summary == {"isin_dropped": 0, "retyped": 1, "sector_dropped": 1}
+
+
+def test_a_fund_share_is_retyped_the_same_way():
+    record = _certificate() | {"isin": "IE00B4L5Y983", "name": "Some Fund Plc"}
+    record["identifiers"] = {"isin": "IE00B4L5Y983"}
+    normalize.apply_instrument_identity(
+        [record], kind_by_isin={"IE00B4L5Y983": "fund"}, wrong_isins=set()
+    )
+    assert record["kind"] == "fund"
+    assert "sector" not in record
+
+
+def test_an_equity_is_left_exactly_as_it_was(stock_record):
+    before = copy.deepcopy(stock_record)
+    summary = normalize.apply_instrument_identity(
+        [stock_record], kind_by_isin={"US0378331005": "stock"}, wrong_isins=set()
+    )
+    assert stock_record == before
+    assert summary == {"isin_dropped": 0, "retyped": 0, "sector_dropped": 0}
+
+
+def test_an_untyped_isin_is_left_exactly_as_it_was(stock_record):
+    """OpenFIGI had no answer for 836 of 9,400 published ISINs. Silence must
+    not restate a record."""
+    before = copy.deepcopy(stock_record)
+    normalize.apply_instrument_identity([stock_record], kind_by_isin={}, wrong_isins=set())
+    assert stock_record == before
+
+
+def test_a_wrong_isin_is_dropped_and_the_record_rekeys_by_symbol():
+    record = _aar_corp()
+    summary = normalize.apply_instrument_identity(
+        [record], kind_by_isin={}, wrong_isins={"CA18452Y1007"}
+    )
+    assert "isin" not in record
+    assert record["identifiers"] == {"cusip": "000361105"}
+    # The company stays reachable, under a key that is its own.
+    assert record["name"] == "AAR Corp."
+    assert normalize.shard_key(record) == "AIR"
+    assert summary == {"isin_dropped": 1, "retyped": 0, "sector_dropped": 0}
+
+
+def test_dropping_the_only_identifier_drops_the_empty_block():
+    record = _aar_corp()
+    record["identifiers"] = {"isin": "CA18452Y1007"}
+    normalize.apply_instrument_identity(
+        [record], kind_by_isin={}, wrong_isins={"CA18452Y1007"}
+    )
+    assert "identifiers" not in record
+
+
+def test_a_dropped_isin_is_never_also_read_for_a_type():
+    """The type describes whatever instrument the wrong ISIN identifies, so it
+    must not be applied to the record that was wearing it."""
+    record = _aar_corp()
+    normalize.apply_instrument_identity(
+        [record],
+        kind_by_isin={"CA18452Y1007": "fund"},
+        wrong_isins={"CA18452Y1007"},
+    )
+    assert record["kind"] == "stock"
+    assert record["sector"] == "Industrials"
+    assert "isin" not in record
+
+
+def test_a_record_with_no_isin_is_untouched():
+    record = {"kind": "stock", "primary_symbol": "CLRMF", "name": "Clean Air Metals Inc."}
+    before = copy.deepcopy(record)
+    normalize.apply_instrument_identity(
+        [record], kind_by_isin={}, wrong_isins={"CA18452Y1007"}
+    )
+    assert record == before

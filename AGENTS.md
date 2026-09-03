@@ -81,24 +81,43 @@ two of them report no conflict with `main` while conflicting with each other.
 - `scripts/sources/` holds one module per upstream: `finance_database.py`
   (stock rows, MIT), `edgar.py` (SEC N-PORT for US funds, public domain),
   `issuer_scraper.py` (issuer holdings via the `etf-scraper` package, fallback
-  for non-US funds only), and `openfigi.py`, which supplies no data of its own
-  -- only an ISIN-to-composite-FIGI join. Join on composite FIGI and never on
-  the ticker it returns; `DECISIONS.md` has the measurement that rules the
-  ticker out.
+  for non-US funds only), and `openfigi.py`, which supplies no
+  data a client classifies on -- only an ISIN-to-composite-FIGI join, plus the
+  instrument type that sets `kind`. Join on composite FIGI and never on the
+  ticker it returns; `DECISIONS.md` has the measurement that rules the ticker
+  out, and a second entry for why `kind` is the one published field it may
+  set. Never use composite FIGI as evidence about an ISIN in either
+  direction: it comes from the same source row as the ISIN, so it is
+  contaminated by the defect it would be vouching against.
 - `scripts/normalize.py` turns source rows into schema-shaped records and owns
-  `shard_key`, cross-listing merge, weight aggregation, and override merge.
+  `shard_key`, cross-listing merge, weight aggregation, and override merge. It
+  imports no source module and must stay that way: it is importable with
+  `requests` and `pandas` absent, which is what keeps the bare install
+  runnable. `apply_instrument_identity` therefore takes plain dicts, and
+  `build.figi_identity` is what computes them from OpenFIGI.
+- **A record's `kind` is `stock`, `fund` or `debt`**, all three validating
+  against `stock.schema.json`. A fund share or a structured note reaches the
+  stocks tree because FinanceDatabase publishes them among equities, and both
+  omit `sector`, which they do not have. Only `etf` has a schema of its own,
+  because only it carries holdings.
 - `scripts/validate.py` is both the CLI gate and the library the build calls
   per record. It enforces JSON Schema plus the weight-sum invariants.
 - `scripts/http_cache.py` is the only HTTP path: disk cache under
   `.http_cache/`, one request per second per host unless
-  `HOST_MIN_INTERVAL_SEC` names a slower one, robots.txt honored, and the
+  `host_min_interval()` names a slower one, robots.txt honored, and the
   SEC-required User-Agent from `SEC_USER_AGENT`. Do not bypass it. `post_json`
   exists for OpenFIGI, whose endpoint is POST-only; it hashes the request body
   into the cache key, so a new POST caller gets caching for free and two
   payloads to one URL can never share an answer. A request to
   `sec.gov` without a contact address in the User-Agent raises rather than
   falling back to a default, and `build.py` makes the same check up front so a
-  missing one costs five seconds instead of a wrong dataset.
+  missing one costs five seconds instead of a wrong dataset. It also reads an
+  optional `OPENFIGI_API_KEY`, which is sent as a header and deliberately kept
+  out of the cache key -- the key identifies the caller, not the question, so
+  configuring one must not discard a warm cache. It is worth having: typing
+  every published ISIN is 940 requests and about 39 minutes without it, and 94
+  requests and under a minute with it, because the tier raises both the pacing
+  and the jobs per request.
 - `schema/` holds the three JSON Schemas. `config/` holds the ETF universe, the
   Yahoo-suffix-to-MIC map, and the sector label map.
 - `manual_overrides/{shard_key}.json` is deep-merged over a generated record
@@ -120,7 +139,11 @@ removing it.
 
 A full rebuild is **about seven minutes** on a developer host -- 5m48s to build
 and 59s to validate, measured 2026-09-03 with a warm `.http_cache`. Cold, the
-ETF pass costs about eleven minutes more at one request per second.
+ETF pass costs about eleven minutes more at one request per second, and the
+stocks pass now costs an OpenFIGI sweep of every published ISIN on top: about
+39 minutes unauthenticated, under a minute with `OPENFIGI_API_KEY`. The
+refresh workflow's timeout is 90 minutes because of it, sized for the
+unauthenticated case so an unset optional secret cannot kill the job.
 
 Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
 `scripts/requirements.txt` and installed with `uv`. The non-US issuer fallback
@@ -282,8 +305,8 @@ Test. Fast, and it needs only `pycountry` and `jsonschema` from the
 requirements, so it runs where a full install does not. `test_build.py`,
 `test_edgar.py`, `test_http_cache.py` and `test_openfigi.py` `importorskip` on
 `pandas` or `requests`, so on that bare install they skip rather than fail:
-measured 2026-09-03, **97 passed and 4 skipped** with only `pytest`,
-`pycountry` and `jsonschema` installed, against **156 passed** with the full
+measured 2026-09-03, **111 passed and 4 skipped** with only `pytest`,
+`pycountry` and `jsonschema` installed, against **214 passed** with the full
 requirements. CI installs everything, so nothing is skipped on the runner.
 
 ```bash

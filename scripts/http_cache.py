@@ -8,7 +8,9 @@ Single shared session per process. Each request is:
   4. Sent with the SEC-required User-Agent (env: SEC_USER_AGENT).
 
 Used by `sources/finance_database.py`, `sources/edgar.py`,
-`sources/issuer_scraper.py`.
+`sources/issuer_scraper.py` and `sources/openfigi.py`. The last is the only
+one that is paced by an env var and the only one that sends an API key; both
+are read at call time, and the key never enters a cache key.
 """
 
 from __future__ import annotations
@@ -45,9 +47,30 @@ SEC_HOSTS = frozenset(["sec.gov", "www.sec.gov"])
 
 MIN_INTERVAL_SEC = 1.0  # 1 req/sec/host
 
-# Hosts that ask for less than that. OpenFIGI allows 25 requests a minute
-# without an API key, which 1/sec would exceed by more than twice over.
-HOST_MIN_INTERVAL_SEC = {"api.openfigi.com": 2.5}
+OPENFIGI_HOST = "api.openfigi.com"
+
+# OpenFIGI publishes two tiers and the difference is why the refresh workflow's
+# timeout is 90 minutes rather than 45: unauthenticated is 25 requests a minute
+# at 10 jobs each, which 1/sec would exceed by more than twice over, while a
+# key raises it to 25 per 6 seconds at 100 jobs. Typing every published ISIN is
+# ~940 requests and 39 minutes without a key, and ~94 requests and under a
+# minute with one.
+OPENFIGI_INTERVAL_SEC = 2.5
+OPENFIGI_KEYED_INTERVAL_SEC = 0.24
+
+
+def openfigi_api_key() -> Optional[str]:
+    """The OpenFIGI key, or None. Absent is supported rather than fatal."""
+    return os.environ.get("OPENFIGI_API_KEY") or None
+
+
+def host_min_interval() -> dict[str, float]:
+    """Per-host pacing, read at call time so a key set later is honored."""
+    return {
+        OPENFIGI_HOST: (
+            OPENFIGI_KEYED_INTERVAL_SEC if openfigi_api_key() else OPENFIGI_INTERVAL_SEC
+        )
+    }
 
 
 def _user_agent() -> str:
@@ -79,7 +102,7 @@ class _RateLimiter:
         with self._lock:
             now = time.monotonic()
             prev = self._last.get(host, 0.0)
-            interval = HOST_MIN_INTERVAL_SEC.get(host, self._min_interval)
+            interval = host_min_interval().get(host, self._min_interval)
             wait_for = interval - (now - prev)
             if wait_for > 0:
                 time.sleep(wait_for)
@@ -164,6 +187,14 @@ class HttpCache:
         log.debug("HTTP %s %s", method, url)
         if body is not None:
             headers["Content-Type"] = "application/json"
+        # Deliberately a header and not part of the cache key: the key
+        # identifies the question, and OpenFIGI returns the same mapping
+        # whether or not the request is authenticated. Including it would
+        # discard every cached answer the moment a key is configured.
+        if host.lower() == OPENFIGI_HOST:
+            api_key = openfigi_api_key()
+            if api_key:
+                headers["X-OPENFIGI-APIKEY"] = api_key
         resp = self.session.request(method, url, headers=headers, data=body, timeout=60)
         resp.raise_for_status()
         content = resp.content

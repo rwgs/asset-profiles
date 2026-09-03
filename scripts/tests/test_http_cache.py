@@ -193,3 +193,63 @@ def test_a_get_still_sends_no_body(tmp_path, monkeypatch):
     assert method == "GET"
     assert kw["data"] is None
     assert "Content-Type" not in kw["headers"]
+
+
+# ---- the OpenFIGI API key -----------------------------------------------
+
+
+def test_the_key_is_sent_as_a_header_when_configured(tmp_path, monkeypatch):
+    monkeypatch.setenv("OPENFIGI_API_KEY", "secret-value")
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    (_, _, kw), = calls
+    assert kw["headers"]["X-OPENFIGI-APIKEY"] == "secret-value"
+
+
+def test_no_key_means_no_header_rather_than_a_blank_one(tmp_path, monkeypatch):
+    monkeypatch.delenv("OPENFIGI_API_KEY", raising=False)
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    (_, _, kw), = calls
+    assert "X-OPENFIGI-APIKEY" not in kw["headers"]
+
+
+def test_a_blank_key_is_treated_as_absent(tmp_path, monkeypatch):
+    """A repository secret that is set but empty must not send an empty key."""
+    monkeypatch.setenv("OPENFIGI_API_KEY", "")
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    (_, _, kw), = calls
+    assert "X-OPENFIGI-APIKEY" not in kw["headers"]
+
+
+def test_the_key_never_goes_to_another_host(tmp_path, monkeypatch):
+    monkeypatch.setenv("OPENFIGI_API_KEY", "secret-value")
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.get("https://www.sec.gov/x.json")
+    (_, _, kw), = calls
+    assert "X-OPENFIGI-APIKEY" not in kw["headers"]
+
+
+def test_the_key_does_not_move_the_cache_key(tmp_path, monkeypatch):
+    """The key identifies the caller, not the question: a warm `.http_cache`
+    must stay valid when a key is configured, and the 940 cached batches of a
+    prior unauthenticated sweep must still replay."""
+    monkeypatch.setenv("OPENFIGI_API_KEY", "secret-value")
+    cache, calls = _offline_cache(tmp_path, monkeypatch)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    monkeypatch.delenv("OPENFIGI_API_KEY", raising=False)
+    cache.post_json("https://api.openfigi.com/v3/mapping", [{"idValue": "X"}])
+    assert len(calls) == 1
+
+
+def test_the_key_raises_the_pacing_and_the_batch_size(monkeypatch):
+    from sources import openfigi
+
+    monkeypatch.delenv("OPENFIGI_API_KEY", raising=False)
+    assert http_cache.host_min_interval()["api.openfigi.com"] == 2.5
+    assert openfigi.max_jobs_per_request() == 10
+
+    monkeypatch.setenv("OPENFIGI_API_KEY", "secret-value")
+    assert http_cache.host_min_interval()["api.openfigi.com"] == 0.24
+    assert openfigi.max_jobs_per_request() == 100

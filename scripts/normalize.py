@@ -337,6 +337,71 @@ def _absorb_shadowed(with_isin: list[dict], no_isin: list[dict]) -> list[dict]:
     return kept
 
 
+# ---- instrument identity ------------------------------------------------
+
+
+def apply_instrument_identity(
+    records: Iterable[dict],
+    *,
+    kind_by_isin: dict[str, str],
+    wrong_isins: set[str],
+) -> dict[str, int]:
+    """Retype a non-equity, and strip an ISIN that names a different company.
+
+    Both arguments are plain data rather than a source module, so this stays
+    importable without `requests` and keeps running on the bare install
+    `AGENTS.md` documents. `build.py` computes them from OpenFIGI.
+
+    The two rules are ordered and not interchangeable. A structured note's name
+    legitimately differs from its issuer's -- `EGB OE TL.Z./ZALANDO` against
+    `ERSTE GROUP BANK AG` -- so a name comparison run over one reports a
+    disagreement that is not a defect. `wrong_isins` must therefore hold only
+    equities, which is `build.py`'s job, and an ISIN this drops is never also
+    read for a type: it describes some other instrument.
+    """
+    summary = {"isin_dropped": 0, "retyped": 0, "sector_dropped": 0}
+
+    for record in records:
+        isin = record.get("isin")
+        if not isin:
+            continue
+
+        if isin in wrong_isins:
+            # Dropping it re-keys the record by `primary_symbol` through
+            # `shard_key`, which is the point of doing it here rather than in
+            # an override: the company the record describes stays reachable
+            # and the identifier that pointed at someone else stops being
+            # published. The real owner is not moved to the freed key -- the
+            # source gives it no ISIN either -- see `TASKS.md` T19.
+            record.pop("isin", None)
+            identifiers = record.get("identifiers") or {}
+            identifiers.pop("isin", None)
+            if not identifiers:
+                record.pop("identifiers", None)
+            summary["isin_dropped"] += 1
+            continue
+
+        kind = kind_by_isin.get(isin, "stock")
+        if kind == "stock":
+            continue
+        record["kind"] = kind
+        summary["retyped"] += 1
+
+        # A leveraged certificate over Daimler inherits Daimler's sector from
+        # the source, and a fund share has no sector of its own to report
+        # either. Publishing one is the defect this drops -- `TASKS.md` T20.
+        # A list comprehension rather than `any`, which would short-circuit
+        # and leave the later fields in place.
+        dropped = [
+            field for field in ("sector", "industry_group", "industry")
+            if record.pop(field, None) is not None
+        ]
+        if dropped:
+            summary["sector_dropped"] += 1
+
+    return summary
+
+
 # ---- ETFs ---------------------------------------------------------------
 
 

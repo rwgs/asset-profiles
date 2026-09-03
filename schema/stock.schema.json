@@ -10,7 +10,10 @@
       "type": "string",
       "pattern": "^\\d+\\.\\d+\\.\\d+$"
     },
-    "kind": { "const": "stock" },
+    "kind": {
+      "enum": ["stock", "fund", "debt"],
+      "description": "stock is an equity, including a depositary receipt and a REIT. fund is a fund share (ETP, closed-end, open-end) and debt a note or structured certificate; both reach this tree because the source publishes them among equities, and both omit sector, which they do not have. See TASKS.md T20."
+    },
     "isin": {
       "type": "string",
       "pattern": "^[A-Z]{2}[A-Z0-9]{9}[0-9]$"

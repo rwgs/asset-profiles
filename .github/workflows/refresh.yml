@@ -20,7 +20,12 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Sized for the slowest supported configuration rather than the expected
+    # one: a cold `.http_cache` and no `OPENFIGI_API_KEY` costs about 39
+    # minutes of ISIN typing on top of a ~17 minute cold ETF pass. With the
+    # key the same run is under 20 minutes. An optional secret being unset
+    # must not kill the job.
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -54,9 +59,19 @@ jobs:
       # degrades a failed fetch to an empty ticker mapping, so without the
       # check this job would resolve no CIK, reap every ETF shard, pass the
       # validator on the remains, and push a stocks-only dataset.
+      # OpenFIGI types every published ISIN so that a structured certificate
+      # stops claiming a sector and a record stops being keyed by another
+      # company's identifier. `.http_cache/` is not persisted here, so every
+      # run pays for the sweep cold, and the tier decides whether it fits the
+      # timeout above: unauthenticated is 10 jobs per request at 25 requests a
+      # minute, about 39 minutes for 9,400 ISINs, and a free key is 100 jobs
+      # at 250 a minute, under one. The secret is optional and the timeout is
+      # sized for its absence, so a missing key costs wall-clock rather than a
+      # killed job or a wrong dataset.
       - name: Build dataset
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          OPENFIGI_API_KEY: ${{ secrets.OPENFIGI_API_KEY }}
         run: |
           if [ "${{ inputs.no_etfs }}" = "true" ]; then
             python scripts/build.py --no-etfs

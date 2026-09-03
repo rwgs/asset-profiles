@@ -155,7 +155,11 @@ for commits, and jsDelivr for delivery.
 
 ## Performance and compatibility
 
-- Refresh completes inside the workflow's 45-minute timeout.
+- Refresh completes inside the workflow's 90-minute timeout. It was 45 until
+  2026-09-03, when typing every published ISIN through OpenFIGI was added: with
+  an `OPENFIGI_API_KEY` the run is under 20 minutes, and without one the sweep
+  alone costs about 39 on a cold cache. The ceiling is sized for the
+  unauthenticated case so that an unset optional secret cannot kill the job.
 - No single published file exceeds 50 MB, jsDelivr's per-file limit.
   `index.json` is 12.4 MB today; past 50 MB it shards by symbol prefix.
 - The repository stays inside GitHub's 100 MB per-file limit and well inside its

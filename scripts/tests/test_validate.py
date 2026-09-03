@@ -365,3 +365,35 @@ def test_omitting_the_list_entirely_is_how_a_fund_passes(etf_record):
     """The rule must be satisfiable by omission, or it just fails bond funds."""
     del etf_record["sector_weights"]
     assert validate.validate_record(etf_record) == []
+
+
+# ---- the stocks tree's other kinds --------------------------------------
+
+
+@pytest.mark.parametrize("kind", ["stock", "fund", "debt"])
+def test_every_stocks_tree_kind_validates_against_the_stock_schema(stock_record, kind):
+    """A fund share and a structured note are the same record shape as a share
+    with less filled in, so they share one schema -- see `TASKS.md` T20."""
+    record = dict(stock_record, kind=kind)
+    if kind != "stock":
+        for field in ("sector", "industry_group", "industry"):
+            record.pop(field, None)
+    assert validate.validate_record(record) == []
+
+
+def test_a_retyped_record_may_still_omit_its_sector(stock_record):
+    record = dict(stock_record, kind="debt")
+    for field in ("sector", "industry_group", "industry"):
+        record.pop(field, None)
+    assert validate.validate_record(record) == []
+
+
+def test_an_unknown_kind_is_still_refused(stock_record):
+    with pytest.raises(validate.ValidationError):
+        validate.validate_record(dict(stock_record, kind="warrant"))
+
+
+def test_a_retyped_record_is_still_refused_a_bad_field(stock_record):
+    """Widening `kind` must not widen anything else."""
+    errors = validate.validate_record(dict(stock_record, kind="debt", country_code="XX"))
+    assert any("XX" in e for e in errors)

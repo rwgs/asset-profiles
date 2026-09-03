@@ -45,11 +45,23 @@ def _validator(name: str) -> Draft202012Validator:
     return _validators[name]
 
 
+# Every kind the stocks tree publishes validates against `stock.schema.json`:
+# a fund share or a structured note is the same record shape as a share with
+# less filled in. Only `etf` has a schema of its own, because only it carries
+# holdings and weights.
+_SCHEMA_BY_KIND = {
+    "stock": "stock",
+    "fund": "stock",
+    "debt": "stock",
+    "etf": "etf",
+}
+
+
 def _schema_name_for(record: dict) -> str:
     kind = record.get("kind")
-    if kind not in {"stock", "etf"}:
+    if kind not in _SCHEMA_BY_KIND:
         raise ValidationError(f"unknown kind: {kind!r}")
-    return kind
+    return _SCHEMA_BY_KIND[kind]
 
 
 # ---- public API ---------------------------------------------------------

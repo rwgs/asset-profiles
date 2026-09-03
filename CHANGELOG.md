@@ -12,6 +12,26 @@ name them by, and `README.md`'s pinned `@v1.0.0` URLs do not resolve.
 
 ## Unreleased
 
+- **`kind` will gain two values on a stock record, and about 322 shard paths
+  will move.** Both land the next time `v1/**` is rebuilt; the rules are in the
+  pipeline now and the published tree does not reflect them yet.
+  - A record under `stocks/` may read `kind: "fund"` or `kind: "debt"` as well
+    as `"stock"`. A consumer that assumes `"stock"` there, or that switches on
+    the value, needs a branch. **615 records are affected** -- 478 notes and
+    structured certificates, 137 fund shares -- and each also **stops
+    publishing `sector`, `industry_group` and `industry`**, which it had
+    inherited from its underlying rather than having of its own. Read an absent
+    field as unknown, which is already this dataset's contract. `kind: "etf"`
+    under `etfs/` is unchanged.
+  - **322 records will drop an ISIN that belongs to a different company** and
+    re-key to their symbol, so `stocks/CA18452Y1007.json` becomes
+    `stocks/AIR.json` -- it reads AAR Corp. today under Clean Air Metals'
+    identifier. Those ISIN paths and their `index.json` entries disappear. If
+    you resolve through `index.json`, as the resolution ladder intends, nothing
+    breaks; if you construct shard URLs from an ISIN you hold, those 322 will
+    404. The freed ISIN is **not** reassigned to the company that owns it,
+    because the source publishes no ISIN for it either.
+
 - **The published dataset is stale and misreports its own freshness.** The last
   refresh committed on 2026-05-31 and `v1/index.json` advertises
   `next_refresh_at: 2026-06-07`. A consumer that trusts `next_refresh_at` to

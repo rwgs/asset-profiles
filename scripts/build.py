@@ -33,6 +33,7 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 from sources import finance_database  # noqa: E402
 from sources import edgar  # noqa: E402
 from sources import issuer_scraper  # noqa: E402
+from sources import openfigi  # noqa: E402
 
 import http_cache  # noqa: E402
 import normalize  # noqa: E402
@@ -146,7 +147,97 @@ def build_stocks(mappings: dict, fetched_at: str, limit: int | None = None) -> l
     log.info("normalized %d stock records (from %d input rows)", len(normalized), seen)
     grouped = normalize.group_cross_listings(normalized)
     log.info("after cross-listing merge: %d records", len(grouped))
+    apply_figi_identity(grouped)
     return grouped
+
+
+def figi_identity(
+    records: list[dict], figi_by_isin: dict[str, list[dict]]
+) -> tuple[dict[str, str], set[str]]:
+    """Split an OpenFIGI sweep into a type per ISIN and the ISINs to disown.
+
+    An ISIN is disowned only on two independent signals: OpenFIGI names a
+    different company, *and* the ISIN's country prefix is an assigned ISO
+    country that disagrees with the record's own `country_code`. One signal
+    alone is not enough. A rename or a transliteration trips the name check
+    while staying in its own country -- `Orocobre Limited` is now
+    `ALLKEM LTD` -- and the offshore-domicile class trips the country check
+    while being perfectly correct. Measured 2026-09-03 over the published
+    tree: the name check alone fires on 888 records, the country check alone
+    on 1,927, and 322 fail both.
+
+    The prefix has to be a real country for the second signal to mean
+    anything. A Eurobond is `XS`, which claims no jurisdiction, so comparing
+    it against a record's `country_code` would fire on every one of them.
+
+    Disowning is checked before typing, and not the other way round. A wrong
+    ISIN can point at a fund as easily as at a share -- `LU0950674332` is a
+    Luxembourg fund and the record wearing it is SeaChange International, a
+    US software company -- and typing first would republish SeaChange as a
+    fund instead of taking the bad identifier off it. Ordering it this way
+    also still spares the 478 notes and structured certificates, whose names
+    differ from their issuer's legitimately (`EGB OE TL.Z./ZALANDO` is issued
+    by `ERSTE GROUP BANK AG`) but whose ISINs are Austrian exactly like the
+    records carrying them, so the country signal never fires.
+    """
+    kind_by_isin: dict[str, str] = {}
+    wrong_isins: set[str] = set()
+
+    for record in records:
+        isin = record.get("isin")
+        data = figi_by_isin.get(isin) if isin else None
+        if not data:
+            continue
+
+        names = openfigi.security_names(data)
+        country_code = record.get("country_code")
+        prefix = isin[:2]
+        prefix_disagrees = (
+            bool(country_code)
+            and prefix != country_code
+            and normalize.alpha2_to_country_name(prefix) is not None
+        )
+        if prefix_disagrees and openfigi.names_disagree(record.get("name") or "", names):
+            wrong_isins.add(isin)
+            log.info(
+                "%s names %r; OpenFIGI names %r -- dropping the ISIN",
+                isin, record.get("name"), names[:3],
+            )
+            continue
+
+        kind_by_isin[isin] = openfigi.security_kind(data)
+
+    return kind_by_isin, wrong_isins
+
+
+def apply_figi_identity(records: list[dict]) -> None:
+    """Type non-equities and disown wrong ISINs, in place.
+
+    A failure here leaves every record exactly as the source reported it and
+    the build continues, because this corrects published metadata rather than
+    supplying any: OpenFIGI being down should not empty the dataset. That is
+    the same posture `issuer_scraper` gets, and the reason the count reaches
+    the log either way.
+    """
+    isins = [r["isin"] for r in records if r.get("isin")]
+    if not isins:
+        return
+    try:
+        figi_by_isin = openfigi.map_isins(isins)
+    except Exception:
+        log.warning("OpenFIGI sweep failed; publishing source types unchanged", exc_info=True)
+        return
+
+    kind_by_isin, wrong_isins = figi_identity(records, figi_by_isin)
+    summary = normalize.apply_instrument_identity(
+        records, kind_by_isin=kind_by_isin, wrong_isins=wrong_isins
+    )
+    log.info(
+        "OpenFIGI: typed %d of %d ISINs; retyped %d record(s) (%d lost an inherited "
+        "sector), dropped %d ISIN(s) naming another company",
+        len(figi_by_isin), len(isins), summary["retyped"],
+        summary["sector_dropped"], summary["isin_dropped"],
+    )
 
 
 # ---- ETFs pass ----------------------------------------------------------

@@ -99,3 +99,81 @@ def test_composite_figis_are_deduplicated_in_order():
 
 def test_composite_figis_ignores_a_record_without_one():
     assert openfigi.composite_figis([{"ticker": "X"}, {"compositeFIGI": "B1"}]) == ["B1"]
+
+
+# ---- instrument type ----------------------------------------------------
+
+
+@pytest.mark.parametrize("security_type2, expected", [
+    ("Common Stock", "stock"),
+    ("Depositary Receipt", "stock"),   # T18's class: right company, wrong security
+    ("REIT", "stock"),
+    ("Preference", "stock"),
+    ("Partnership Shares", "stock"),
+    ("Corp", "debt"),                  # Erste/Raiffeisen structured certificates
+    ("Govt", "debt"),
+    ("Mutual Fund", "fund"),           # ETP, closed-end and open-end alike
+])
+def test_security_kind_types_the_instrument(security_type2, expected):
+    assert openfigi.security_kind([{"securityType2": security_type2}]) == expected
+
+
+def test_security_kind_defaults_to_equity():
+    """An unmapped or missing type must leave a record as it publishes today."""
+    assert openfigi.security_kind([]) == "stock"
+    assert openfigi.security_kind([{"securityType2": "Some New Type"}]) == "stock"
+    assert openfigi.security_kind([{}]) == "stock"
+
+
+def test_security_names_dedupes_and_keeps_order():
+    records = [{"name": "B"}, {"name": "A"}, {"name": "B"}, {"ticker": "X"}]
+    assert openfigi.security_names(records) == ["B", "A"]
+
+
+# ---- identity check -----------------------------------------------------
+
+
+@pytest.mark.parametrize("record_name, figi_names", [
+    # The two cases `TASKS.md` T19 names, both verified in the published tree.
+    ("AAR Corp.", ["CLEAN AIR METALS INC"]),
+    ("Eaton Vance Municipal Income Trust", ["EVN AG"]),
+    # Others measured 2026-09-03 across `v1/`.
+    ("Rayonier Inc.", ["ROYAL BANK OF CANADA"]),
+    ("Loews Corporation", ["LOBLAW COMPANIES LTD"]),
+    ("THYSSENKRUPP SPONS.ADR 1", ["TELEKOM AUSTRIA AG"]),
+    ("Alexander's, Inc.", ["ALEXANDERWERK AG"]),
+    ("African Gold Limited", ["AMERICAN AIRLINES GROUP INC"]),
+    ("Investigator Resources Limited", ["INVESCO MORTGAGE CAPITAL"]),
+])
+def test_names_disagree_on_another_companys_isin(record_name, figi_names):
+    assert openfigi.names_disagree(record_name, figi_names) is True
+
+
+@pytest.mark.parametrize("record_name, figi_names", [
+    ("Alumina Limited", ["ALUMINA LTD"]),
+    # A depositary receipt describes the right company, so it must not be
+    # disowned here -- that is T18, and it needs a second identifier source.
+    ("Nestle S.A.", ["NESTLE SA-SPONS ADR"]),
+    ("Hon Hai Precision Industry Co., Ltd. Sponsored GDR RegS",
+     ["HON HAI PRECISION-GDR REG S"]),
+    # Transliterations and truncations of one name, all measured in `v1/`.
+    ("Surgutneftegas PJSC Reg.Pfd Shs", ["SURGUTNEFTEGAZ-SP ADR PREF"]),
+    ("EssilorLuxottica Societe anonyme", ["ESSILORLUXOT-UNSPON ADR"]),
+    ("ARGENS SE SP.ADR/1  -,10", ["ARGENX SE - ADR"]),
+    ("Stroer SE & Co. KGaA", ["STROEER SE & CO- UNSP ADR"]),
+    # One agreeing name among several clears the ISIN.
+    ("Carclo plc", ["CAR GROUP LTD", "CARCLO PLC"]),
+])
+def test_names_agree_or_cannot_tell(record_name, figi_names):
+    assert openfigi.names_disagree(record_name, figi_names) is False
+
+
+@pytest.mark.parametrize("record_name, figi_names", [
+    ("", ["ANYTHING INC"]),                  # nothing to compare
+    ("Holdings Group Ltd", ["WHATEVER SA"]),  # all noise: no identity either side
+    ("Real Name Inc", ["Ltd"]),               # their name is all noise
+    ("Real Name Inc", []),                    # never asked
+])
+def test_names_disagree_is_silent_when_it_cannot_tell(record_name, figi_names):
+    """Never guess: this drops a canonical key, so absence of evidence is not evidence."""
+    assert openfigi.names_disagree(record_name, figi_names) is False
