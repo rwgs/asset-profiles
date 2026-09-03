@@ -24,9 +24,9 @@ Example: to fix Shopify's industry, create
 ```
 
 The filename **must** match the auto-generated `shard_key` (ISIN if
-present, else primary symbol, with DOS device names escaped -- `CON.DE`
-becomes `CON_.DE.json`). See [`manual_overrides/README.md`](manual_overrides/README.md)
-for details.
+present, else primary symbol, with DOS device names and path separators escaped
+to `_` -- `CON.DE` becomes `CON_.DE.json` and `BRK/A` becomes `BRK_A.json`).
+See [`manual_overrides/README.md`](manual_overrides/README.md) for details.
 
 ### 2. Add an ETF to the universe
 

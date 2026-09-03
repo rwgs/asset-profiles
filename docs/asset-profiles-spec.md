@@ -134,6 +134,12 @@ This is a hard requirement — supports takedowns and audit.
   `PRN`, `AUX`, `NUL`, `COM0`-`COM9`, `LPT0`-`LPT9`) takes a trailing `_` on
   that component, so `CON.DE` is stored as `CON_.DE.json`. Without this,
   Windows cannot check the repository out at all.
+- A key containing a path separator, as share-class symbols do, has it replaced
+  by `_`: `BRK/A` is stored as `BRK_A.json`. Without this the record becomes
+  `stocks/BRK/A.json`, which no index entry names and no client can resolve.
+  The two rules share the character and compose: `CON/A` is `CON__A.json`.
+- **A shard filename is always one path component.** No directory exists under
+  `stocks/` or `etfs/`, and a client never needs to construct one.
 - Both `symbols` and `isins` indexes — clients can resolve from either.
 
 ### 5.2 `stocks/{key}.json`
@@ -287,6 +293,7 @@ asset-profiles/
    `{primary_symbol}` (US listing assumed primary).
 2. **Filename** = `{key}.json`. Multiple symbols → one file via index.
    Keys colliding with a DOS device name are escaped (see 5.1).
+   Keys containing a path separator are escaped the same way (see 5.1).
 3. **Cross-listings of the same share class** share one file (same ISIN).
 4. **Different share classes** = different files (different ISINs).
 5. **ADRs and underlying** = different files (different ISINs), but

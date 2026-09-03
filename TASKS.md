@@ -81,13 +81,15 @@ upstream is on standby.
 
 So the phase cannot close as written. Its exit criteria assume merges, a CI run,
 and a refresh, and all three need a maintainer who has said they are not working
-on this. What is actually reachable from here is smaller and worth naming. **#5 is now
-merged into `main`**, which unblocked T6 and made the repository clone on
-Windows -- so T6 is the next thing to build and the only code left in the phase.
-T8's dependency question can be settled locally and blocks nothing. T5's rebuild
-still needs sign-off, and now also needs a decision on whether this fork
-publishes at all -- see the questions below. Anything past that is a request to
-someone else.
+on this. **Every code item in Phase 1 is now written and on `main`.** #5 was merged,
+which made the repository clone on Windows, and T6 followed it, which was the
+last of them. The suite is 71 passed with no strict markers left, and a probe
+tree built through the repaired pipeline validates clean.
+
+What is left is not code. T5's rebuild needs sign-off, and would take `v1/` from
+15 errors to 0 -- the probe is the evidence it now would. T8's dependency
+question can be settled locally and blocks nothing. Everything else is a request
+to a maintainer who has said the repository is on standby.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -225,7 +227,8 @@ someone else.
     straight from an upstream ticker refreshed weekly, so any future ISIN-less
     `PRN` or `COM1` listing reintroduces it.
 
-- [ ] **T6.** Stop a path separator in a key creating an unreachable shard.
+- [x] **T6.** Stop a path separator in a key creating an unreachable shard.
+  **Done 2026-09-03, committed on `main` at `400678da69`.**
   - Scope: the half #5 deliberately leaves alone. #5 splits a key on `/` and
     escapes each component, which keeps `BRK/A` nested by design -- its
     docstring says so. So `v1/stocks/BRK/A.json` still happens, and a nested
@@ -245,11 +248,43 @@ someone else.
     the exact expected key and adds the rest.
   - Manual validation: `python scripts/build.py --limit 2000 --out ./probe`,
     then confirm `probe/stocks/` contains no directories.
-  - Dependencies or blockers: **none any more.** #5 is merged into `main`, so
-    `shard_key` already has the shape this builds on and there is no longer a
-    risk of resolving the same function twice. The escape character and the
-    measurement that rules out the obvious alternative are the 2026-09-02
-    `DECISIONS.md` entry, promoted out of `PLAN.md` when T4 took it over.
+  - Dependencies or blockers: none, once #5 was merged into `main`. The escape
+    character and the measurement that rules out the obvious alternative are the
+    2026-09-02 `DECISIONS.md` entry, promoted out of `PLAN.md` when T4 took it
+    over.
+  - Delivered: `shard_key` joins its escaped components with `_` instead of
+    `/`, so it always returns one filename component. `BRK/A` becomes `BRK_A`;
+    `CON/A` becomes `CON__A`, because #5's per-component escape runs first and
+    the two rules share a character. `build.py`'s two near-identical write loops
+    became one `write_records`, which is where the collision guard lives: a key
+    already written is reported and the record skipped, rather than the second
+    silently replacing the first.
+  - **Acceptance criteria, met and measured against the real dataset rather
+    than a fixture.** Recomputing `shard_key` for all 98,474 records on disk:
+    98,474 keys unchanged, exactly the 13 nested ones repaired, and **zero flat
+    keys moved.** That is the criterion that matters, because every key is a URL
+    a client may hold.
+  - Automated validation: 71 passed, 0 xfailed, from 61 and 5. **No strict
+    markers remain in the suite.** The five separator cases became unexpected
+    passes the moment the fix landed and are now plain assertions on the exact
+    expected key, and `CON/A` is asserted to compose to `CON__A` -- the
+    regression the merge ordering existed to prevent. `scripts/tests/
+    test_build.py` is new, guarded by `importorskip("pandas")` so the suite
+    still runs on a bare install, and covers the collision, an invalid record
+    never reaching disk, and the reap of a shard the old key nested.
+  - **Manual validation: substituted, and say so.** The `--limit 2000` build
+    cannot run -- FinanceDatabase moved its CSVs and #1, which repoints them, is
+    not merged, so it dies on the same 404 that has failed every scheduled
+    refresh since 2026-06-07. Ran the equivalent without the network: 2,013 real
+    records including all 13 nested ones through `write_records` and
+    `build_index` into a probe tree. No directory under `stocks/` or `etfs/`,
+    `BRK_A.json` flat and named by the index, and `validate.py` on that tree
+    **exits 0** -- the first tree in this project that passes the whole gate.
+    What that does not cover is a real FinanceDatabase pull, so it proves the
+    key repair and not the fetch.
+  - `v1/` is untouched and still reports 15 errors. A code fix does not rewrite
+    committed data; that is T5, and the probe above is the evidence that T5 would
+    now produce a clean tree.
   - Evidence: 9 directories holding 13 records exist under `v1/stocks/`
     (`AKO`, `BF`, `BIO`, `BRK`, `CRD`, `HEI`, `HVT`, `RAC`, `WSO`). All 13 are
     committed, none is referenced by `index.json`, and none is schema-validated.
@@ -481,8 +516,8 @@ someone else.
     the non-US fallback that produces no records at all today.
 
 - [ ] **T5.** Rebuild `v1/` with repaired keys and retire the nested shards.
-  - Scope: one commit containing only regenerated data, after T6, T3, and T4
-    have merged. Delete the 9 nested directories and their 13 records, and
+  - Scope: one commit containing only regenerated data. T3, T4, and T6 are all
+    on `main` now, so nothing is waiting on them. Delete the 9 nested directories and their 13 records, and
     `stocks/SAND.json`, which T4 identified as a fourteenth unreachable record
     and which a rebuild does not remove on its own -- `reap_removed` keeps it,
     because a current row still keys it. #5 already renames the two `CON` shards

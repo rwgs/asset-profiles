@@ -22,6 +22,9 @@ The filename **must** match the record's `shard_key`:
 - If that key's first dot-separated component is a DOS device name (`CON`,
   `PRN`, `AUX`, `NUL`, `COM0`-`COM9`, `LPT0`-`LPT9`) it carries a trailing
   `_`: `CON_.json`, `CON_.DE.json`
+- If the key contains a path separator, as share-class symbols do, the
+  separator becomes `_`: `BRK/A.json` is stored as `BRK_A.json`. Both rules use
+  the same character and compose, so `CON/A` is `CON__A.json`
 
 If you're unsure which key applies, check the path that
 `v1/index.json` resolves to.
