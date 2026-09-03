@@ -227,8 +227,23 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
     QQQM, RSP, SMH, BND, VEA, VWO and VXUS.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
-  **Written and validated locally 2026-09-02. Not committed and not submitted
-  upstream, so nothing outside this working tree has it yet.**
+  **Committed on `origin/main` at `14cc37b1c1`, 2026-09-02, so this working
+  tree has it and T4 can be written on a correct base. Not pushed and no PR
+  opened, so nothing upstream has it.**
+  - Branch: `fix/locale-independent-text-io` at `91f52bff70`, holding the four
+    upstream-relevant files and neither planning document, per the split T1
+    used. **It is based on `test/pytest-harness` (#7), not on `upstream/main`**,
+    because `scripts/tests/` does not exist upstream and a branch cut from
+    there could not carry the two tests. So an eventual PR is stacked on #7:
+    its diff shows #7's six files until #7 merges, after which it shows four.
+    The two source files apply to `upstream/main` unchanged either way.
+  - Not opened as a PR, and the reason is review economics rather than risk:
+    it merges clean against all six open PRs (`git merge-tree`, verified), no
+    open PR reintroduces the defect, and it blocks nothing -- while #1 is why
+    the dataset is stale, #6 fixes six wrong ETF records and #5 makes the
+    repository cloneable at all. A seventh PR spends a review slot on the
+    lowest-impact defect in the queue, and it is a better submission after #7
+    lands and the tests can travel with it.
   - Delivered: `encoding="utf-8"` on the six `read_text()` calls that had none
     -- `validate.py` 42, 120, 133, 146 and `build.py` 335, 339 -- and the
     validator's own messages reduced to ASCII. **Three characters, not the two
