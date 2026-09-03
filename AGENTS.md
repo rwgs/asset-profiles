@@ -21,14 +21,34 @@ the specific gap this dataset exists to close.
 
 This checkout has two remotes: `origin` is `rwgs/asset-profiles` and `upstream`
 is `wealthfolio/asset-profiles`. Upstream is what jsDelivr serves and what
-`README.md`'s URLs point at, so work here reaches clients only as a pull request
-to upstream -- which is how the two open PRs from this fork were sent. A commit
-on `origin/main` alone changes nothing any client can see.
+`README.md`'s URLs point at.
 
-**Check the open pull requests before starting work.** Seven are open upstream
-and they already cover a large part of what `TASKS.md` lists, including the two
-worst defects and the test harness. `gh pr list --repo wealthfolio/asset-profiles`, and see the
-pull-requests section of `TASKS.md` for the merge order, which is not obvious:
+**Upstream is on standby, stated by its maintainer.** On 2026-09-03 `afadil`
+replied on [PR #5](https://github.com/wealthfolio/asset-profiles/pull/5): *"this
+repo is not used at all, it was an idea to curate stock and symbol profiles. but
+it's en stand by"*. So nothing here reaches a client, no maintainer action in
+`TASKS.md` should be expected to happen, and the dataset's staleness is a
+property of the project rather than a bug awaiting a merge. Read that before
+planning around a merge, a CI approval, or a refresh.
+
+What follows from it, and how work is shaped here:
+
+- **Land work on `origin/main`.** It is the only branch anyone is moving, and it
+  is where the harness, the locale fix, and the reachability gate already sit in
+  one tree -- which is the only tree where the whole suite runs.
+- **Keep a per-task branch that is upstream-mergeable**, cut off `upstream/main`
+  or off the branch it genuinely depends on, holding only `scripts/` and the
+  documentation the change is about. That is what the seven open PRs are, and
+  `fix/unreachable-shard-validation` is one waiting without a PR. If upstream
+  ever comes off standby, they are ready; if not, nothing was wasted arranging
+  them.
+- **Do not open more PRs against upstream** without asking. Seven already wait
+  on a maintainer who has said they are not working on this, and an eighth
+  changes nothing.
+
+The open PRs still matter as review artifacts and as the record of what is
+already written: `gh pr list --repo wealthfolio/asset-profiles`, and see the
+pull-requests section of `TASKS.md` for the merge order, which is not obvious --
 two of them report no conflict with `main` while conflicting with each other.
 
 ## Architecture

@@ -26,13 +26,22 @@ below: four of the tasks in this file are already written and waiting.
 | [#2](https://github.com/wealthfolio/asset-profiles/pull/2) | Add funds to the universe | bjmc | 2026-06-12 | Open, CI never ran |
 | [#1](https://github.com/wealthfolio/asset-profiles/pull/1) | Point FinanceDatabase at its moved URLs | bjmc | 2026-06-12 | Open, CI never ran |
 
-**Nothing has been validated by anything but review.** Every one of the six
+**Upstream is on standby and none of this will be merged soon.** Asked about #5
+on 2026-09-03, `afadil` replied: *"this repo is not used at all, it was an idea
+to curate stock and symbol profiles. but it's en stand by"*. That is the answer
+to the CDN question this file has been carrying, and it reframes everything
+below: P1 and P2 are not cheap wins waiting on a button, they are requests to a
+maintainer who has said they are not working on this. Nothing here is withdrawn
+-- the defects are real and the changes are written -- but the plan is now to
+land work on `origin/main` and keep each change on an upstream-mergeable branch
+against the day that changes.
+
+**Nothing has been validated by anything but review.** Every one of the seven
 reports `no checks reported`, and the most recent ones show GitHub run status
 `action_required` at 0s duration: `validate-pr.yml` is gated behind maintainer
 approval for fork pull requests, so the repository's only automated check has
-never executed against any proposed change. Getting that approval is P1 below,
-because it is the cheapest thing on this page and it gates the value of
-everything else.
+never executed against any proposed change. P1 below is what would fix that, and
+it is now known to be unlikely rather than merely unattempted.
 
 **Merge order matters, and GitHub will not warn about it.**
 
@@ -64,11 +73,24 @@ everything else.
 
 ## Current phase
 
-Phase 1, *A dataset that validates everywhere and hides nothing*. Four items are
-submitted, two are maintainer actions, and T4 is written and awaiting a decision
-on whether to send it. **The only code left in this phase is T6**, which waits on
-#5 rather than resolving `shard_key` against it -- so what remains is mostly
-someone with write access pressing buttons, and one sign-off on T5's rebuild.
+Phase 1, *A dataset that validates everywhere and hides nothing*. Every code
+item in it is now written: T1, T2, T3, and T7 are submitted, T4 is committed with
+a branch waiting, and **the only code left is T6** -- which waits on #5 rather
+than resolving `shard_key` against it, and #5 is not going to merge while
+upstream is on standby.
+
+So the phase cannot close as written. Its exit criteria assume merges, a CI run,
+and a refresh, and all three need a maintainer who has said they are not working
+on this. What is actually reachable from here is smaller and worth naming.
+T8's dependency question can be settled locally and blocks nothing. T6 needs #5's
+`shard_key` shape, which lives on `fix/windows-reserved-shard-names` and **is not
+on `main`** -- verified, not assumed -- so unblocking it means merging that branch
+into `origin/main` first. That merge is not free: #5 also renames the two `CON`
+shards and their `index.json` entries, so it touches `v1/`, and on this Windows
+tree those two files are absent from disk with `skip-worktree` set. Ask before
+running it. T5's rebuild still needs sign-off, and now also needs a decision on
+whether this fork publishes at all -- see the questions below. Anything past that
+is a request to someone else.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -78,11 +100,14 @@ someone with write access pressing buttons, and one sign-off on T5's rebuild.
     all seven open PRs.
   - Automated validation: the workflow itself, once it is allowed to start.
   - Manual validation: none.
-  - Dependencies or blockers: needs repository write access on
-    `wealthfolio/asset-profiles`. Cannot be done from a fork.
-  - Why first: five changes are waiting on a check that has never executed. The
-    cost is a button; the cost of not doing it is that every merge decision
-    below is made on review alone.
+  - Dependencies or blockers: **effectively blocked.** It needs repository write
+    access on `wealthfolio/asset-profiles`, cannot be done from a fork, and the
+    maintainer has since said the repository is on standby. Left on the page
+    because it is still the right first action if that changes, not because it
+    is expected.
+  - Why first, if it happens at all: six changes are waiting on a check that has
+    never executed. The cost is a button; the cost of not doing it is that every
+    merge decision below is made on review alone.
 
 - [ ] **P2.** Land the FinanceDatabase URL fix and restart the refresh.
   - Scope: merge #1, then re-enable the schedule. Two separate causes stopped
@@ -92,8 +117,10 @@ someone with write access pressing buttons, and one sign-off on T5's rebuild.
   - Automated validation: the refresh workflow's own run.
   - Manual validation: fetch `index.json` from jsDelivr and confirm the date
     moved.
-  - Dependencies or blockers: merging #1 needs maintainer access; re-enabling a
-    schedule does too.
+  - Dependencies or blockers: **effectively blocked**, same reason as P1. Merging
+    #1 needs maintainer access and re-enabling a schedule does too, and the
+    repository is on standby. The dataset therefore stays stale at 2026-05-31,
+    which is now a known state rather than an open incident.
   - Evidence: nine consecutive scheduled runs failed, 2026-06-07 through
     2026-08-02, every one of them in about 30 seconds on
     `requests.exceptions.HTTPError: 404 Client Error: Not Found for url:
@@ -315,7 +342,11 @@ someone with write access pressing buttons, and one sign-off on T5's rebuild.
     every diagnostic reads. Raised rather than folded in.
 
 - [x] **T4.** Make an unreachable or unvalidated shard a validator failure.
-  **Done 2026-09-02, committed on `main`. Not yet submitted upstream.**
+  **Done 2026-09-02, committed on `main` at `2ba50a5c83`. Branch
+  `fix/unreachable-shard-validation` is cut off T3's branch and pushed to
+  `origin`, holding only `validate.py` and `build.py`. No PR opened: upstream is
+  on standby, so an eighth PR that turns the gate red by design and ships no
+  tests would sit unread. It is ready to send if that changes.**
   - Scope: `validate.validate_tree` and `validate.validate_index`. Walk the
     tree rather than globbing one level, so nothing on disk escapes schema
     validation -- #5 adds a recursive `rglob` walk in `validate_shard_names`,
@@ -464,9 +495,13 @@ someone with write access pressing buttons, and one sign-off on T5's rebuild.
   no alternate form; merging by symbol needs a rule for when two symbols are one
   security. Settles what the dataset publishes, so it is asked rather than
   implemented.
-- Which repository publishes to the CDN. `README.md` documents
-  `wealthfolio/asset-profiles@main`; `origin` here is `rwgs/asset-profiles`.
-  Owner's decision, and every client URL depends on it.
+- ~~Which repository publishes to the CDN.~~ **Answered 2026-09-03**: neither,
+  in any meaningful sense. `README.md` documents
+  `wealthfolio/asset-profiles@main` and jsDelivr will still serve whatever is on
+  it, but its maintainer has said the repository is not used and is on standby,
+  so no client is being served a fresh dataset from anywhere. If this fork is to
+  publish instead, that is a new decision and it needs `README.md`, the refresh
+  workflow, and a `DECISIONS.md` entry -- ask before starting it.
 
 ## Cross-repository work in `wealthfolio-dev`
 
