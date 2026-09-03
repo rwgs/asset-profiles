@@ -202,14 +202,20 @@ So what remains here is not Phase 1 code:
 - **The sweep that answered them typed all 9,400 published ISINs and
   partitions into two counts**, both measured against the shipped rule rather
   than an earlier heuristic: **322 records keyed by another company's ISIN**
-  and **615 non-equities, 554 of which publish a sector they do not have**.
+  and **571 non-equities, 554 of which publish a sector they do not have**.
   The earlier figures in T18, T19 and T20 -- 104, 164, 622 -- were floors from
-  narrower detectors and should not be quoted.
-- **`v1/` has not been rebuilt, so every defect above is still published.** The
-  pipeline change and the 98,000-file rewrite it causes are separate commits,
-  and a rebuild needs sign-off. It also moves roughly 322 shard paths, since a
-  record that loses its ISIN re-keys to its symbol. Verified instead against a
-  `--limit 4000 --out` probe tree, where `validate.py` exits 0.
+  narrower detectors and should not be quoted, and neither should the **615**
+  this bullet carried until 2026-09-03: it swept the index's 9,400 ISINs,
+  which include the 44 belonging to ETF records that are already correctly
+  typed in `v1/etfs/`. See T20.
+- ~~`v1/` has not been rebuilt, so every defect above is still published.~~
+  **Rebuilt 2026-09-03 with sign-off -- see T22.** `diff: +322 / ~90240 /
+  -322`, counts unchanged at 90,513 stocks and 49 ETFs, index ISINs down to
+  9,078, and `validate.py v1/` exit 0. So 322 records no longer wear another
+  company's identifier and 554 no longer publish a sector they do not have, in
+  the data rather than only in the code. **322 published URLs stopped
+  resolving and 322 started**, which is what a re-key costs and what was
+  signed off.
 - **The refresh timeout moved from 45 minutes to 90, and `OPENFIGI_API_KEY` is
   now set** -- 2026-09-03 at 20:59Z, confirmed with `gh secret list`. The ISIN
   sweep is 94 requests and under a minute with it, against 940 requests and
@@ -790,6 +796,48 @@ exists on the finding that a wrong MIC is worse than an absent one.
     exit 0, but that is a behaviour change with a judgement in it and it is not
     what this task was for.
 
+- [x] **T22.** Rebuild `v1/` to apply the identity and type rules.
+  **Done 2026-09-03 with sign-off, committed on `main` at `d7d84ed9f9`, on its
+  own as `AGENTS.md` requires. 90,563 files changed. This is where T19's and
+  T20's corrections stop being served.**
+  - Scope: T19 and T20 landed as pipeline rules and the published tree still
+    held both defects. Apply them. It is the third rebuild in a day and the
+    first that *removes* published URLs.
+  - Rehearsed first into a scratch tree, as T14 and T16 both were, and every
+    number below was taken there before being taken again here. The rehearsal
+    is what found the three items under "what it turned up" below, none of
+    which was visible from the code.
+  - Acceptance criteria, met: `diff: +322 / ~90240 / -322`; 90,513 stock and
+    49 ETF records, unchanged; index 111,584 symbols and **9,078** ISINs, down
+    322. **`python scripts/validate.py v1/` OK, exit 0**, and the suite 221
+    passed either side.
+  - Manual validation, the eight shards T19's and T20's criteria name:
+    `stocks/CA18452Y1007.json` is **gone** and AAR Corp. is at
+    `stocks/AIR.json` with `"isin": null`; Clean Air Metals is still at
+    `stocks/CLRMF.json` and still ISIN-less, which is the deliberate branch;
+    `stocks/AT0000741053.json` is gone and Eaton Vance is at
+    `stocks/EVN.json`; `stocks/AT0000A2H326.json` reads `"kind": "debt"` with
+    no sector and no industry group, against *Consumer Discretionary* before;
+    `CA85207K1075` (Sprott Physical Silver Trust, an ETP) and `CA13780R1091`
+    (Canoe EIT Income Fund, closed-end) read `"kind": "fund"` with no sector,
+    in `v1/stocks/` as decided.
+  - **322 URLs stop resolving and 322 start**, which is the cost signed off:
+    a record that loses a wrong ISIN re-keys to its `primary_symbol`. Every
+    one of the 322 new keys was checked for a collision against the published
+    tree before the rebuild ran -- none, and no two records competing for one
+    new key.
+  - Timing, third measurement and the first with an OpenFIGI sweep in it:
+    **5m13s to build** and 72s to validate with a warm cache, against 44m for
+    the rehearsal whose sweep was cold. `.http_cache` held no OpenFIGI
+    responses at all before today, so the 940-request unauthenticated sweep is
+    what the difference is -- worth knowing for CI, which is always cold and
+    has the key.
+  - What it turned up, none of it caused by the rules and all of it recorded
+    where it belongs: the **615/137** figure is an over-count by 44 (see T20),
+    T19 **reaches ETF output** through the holdings join (see T19), and one
+    record is silently dropped every build on a shard-key collision (see
+    **T21**).
+
 - [ ] **T15 (Phase 2 follow-on).** Bridge a holding's ISIN to a record the
   dataset already has. **On hold by decision, 2026-09-03: it waits for a
   source that carries TSMC's Taiwan line. Do not implement it with a
@@ -1088,10 +1136,10 @@ exists on the finding that a wrong MIC is worse than an absent one.
     expected: `CA67080A1093` is NVIDIA, `CA64113H1029` Netflix,
     `CA93267X1006` Walmart, each keyed by its *Canadian* depositary receipt.
 
-- [~] **T19.** Decide what to publish when the source attaches one company's
-  ISIN to another company that shares its ticker. **Decided and implemented
-  2026-09-03; the rule is on `main` and gate-verified. `v1/` still holds the
-  defect until a rebuild, which needs sign-off.**
+- [x] **T19.** Decide what to publish when the source attaches one company's
+  ISIN to another company that shares its ticker. **Decided, implemented and
+  applied to the published data 2026-09-03; the rule is on `main` and the
+  rebuild that spends it is T22.**
   - **Found 2026-09-03 by T18's measurement, and it is the sharper half of what
     that measurement turned up.** T18 asks about depositary receipts, where the
     record at least describes the right company under the wrong security's
@@ -1214,19 +1262,34 @@ exists on the finding that a wrong MIC is worse than an absent one.
     152 flagged records that carry one, including `ARCHER DANIELS MIDLAND`
     against `ADMIRAL GROUP PLC`. The record's `composite_figi` comes from the
     same FinanceDatabase row as its wrong ISIN. Do not retry it.
+  - **This rule reaches ETF output, which nothing here recorded until the
+    rebuild was rehearsed, 2026-09-03.** `normalize._enrich_holding` joins a
+    fund's holdings against the stock dataset on ISIN, ticker, then CUSIP, so
+    disowning an ISIN also removes a leg of that join. Four ex-US developed
+    equity funds lose sector resolution as a result -- `EFA` 0.335 to 0.3658
+    `Unknown`, `IEFA` 0.3736 to 0.4043, `SCHF` 0.398 to 0.4242, `VEA` 0.4209
+    to 0.4448 -- and no other axis on any of the 49 records moves at all.
+    **This is the axis becoming honest rather than degrading**: the weight was
+    previously booked into whatever sector the mis-keyed record carried, which
+    is the hazard T15 already refused a route over. But all four still publish,
+    since T13 omits at 0.5, and it is worth knowing that `VEA` now sits 5.5
+    points from losing its `sector_weights` for a reason that has nothing to do
+    with `VEA`.
   - Automated validation, done: 221 passed. `test_build.py` asserts the
     two-signal rule over the AAR Corp and EVN cases the criteria name, the
     ordering over `LU0950674332`, and that a `XS` prefix -- a Eurobond, which
     names no jurisdiction -- can never be the second signal.
-  - Manual validation, outstanding until the rebuild: `v1/stocks/CA18452Y1007.json`
-    still reads AAR Corp. today, because the pipeline change and the 98,000-file
-    rewrite it causes are separate commits. Verified instead against a
-    `--limit 4000 --out` probe, where the drop fires and `validate.py` exits 0.
+  - Manual validation, done 2026-09-03 against `v1/` after T22's rebuild:
+    `v1/stocks/CA18452Y1007.json` is gone, AAR Corp. is at `v1/stocks/AIR.json`
+    with `"isin": null`, and `CA18452Y1007` is absent from `index.json`'s ISIN
+    map. Clean Air Metals is still at `v1/stocks/CLRMF.json` and still
+    ISIN-less, which is the "deliberately still not" branch the criteria
+    allowed for. The Eaton Vance pair behaves the same way:
+    `stocks/AT0000741053.json` gone, `stocks/EVN.json` written.
 
-- [~] **T20.** Stop publishing instruments that are not equities as stock
-  records. **Decided and implemented 2026-09-03; the rule is on `main` and
-  gate-verified. `v1/` still holds the defect until a rebuild, which needs
-  sign-off.**
+- [x] **T20.** Stop publishing instruments that are not equities as stock
+  records. **Decided, implemented and applied to the published data
+  2026-09-03; the rule is on `main` and the rebuild that spends it is T22.**
   - **Found 2026-09-03 by the OpenFIGI sweep run for T18 and T19**, which typed
     every published ISIN and so answered a question nobody had asked: *is this
     even a share?* For a meaningful number of records it is not.
@@ -1282,16 +1345,26 @@ exists on the finding that a wrong MIC is worse than an absent one.
     agrees on `securityType2` -- 0 disagreements** -- while `securityType`
     splits one instrument across `EURO-ZONE`, `EURO-DOLLAR`, `EURO MTN` and
     `EURO NON-DOLLAR`. `marketSector` is unanimous too but cannot do the job
-    alone: Bloomberg files fund shares under `Equity`, so the 137 funds need
+    alone: Bloomberg files fund shares under `Equity`, so the 93 funds need
     the finer axis. Anything not in the table defaults to `stock`, so a type
     OpenFIGI adds later leaves records exactly as they publish today.
-  - **The count is 615, and 554 of them publish a sector they do not have.**
-    478 `debt` (notes and structured certificates) and 137 `fund` (ETPs,
+  - **The count is 571, and 554 of them publish a sector they do not have.**
+    478 `debt` (notes and structured certificates) and 93 `fund` (ETPs,
     closed-end, open-end). That is below the 622 this task was raised with,
     and the reason is T19 rather than a measurement error: 87 records that
     type as a fund or a note are equities wearing someone else's ISIN, and
     they are disowned instead of retyped. The two tasks partition the same
     sweep.
+  - **615 was an over-count by exactly 44 and should not be quoted**, found
+    2026-09-03 by rehearsing the rebuild rather than by re-reading the code.
+    The sweep behind it took the *index's* 9,400 ISINs, which are the 9,356
+    stock records carrying one **plus the 44 ETF records that carry one**.
+    Those 44 type as `fund` because they are funds, and they live in
+    `v1/etfs/` where `kind` is already right, so no stock record was ever
+    going to be retyped for them. The `debt` half was unaffected and 478 is
+    exact. The build's own log line is the figure to trust -- it types what
+    the records carry, not what the index lists -- and the arithmetic checks
+    against the rebuilt index: 9,078 = 9,356 - 322 + 44.
   - **The funds stay in `v1/stocks/`**, which the chosen option flagged as
     arguable and is the coherent reading: nothing here has their holdings, so
     they cannot satisfy `etf.schema.json`, and `v1/etfs/` is the tree for
@@ -1307,12 +1380,54 @@ exists on the finding that a wrong MIC is worse than an absent one.
     `AT0000A2H326` asserted end to end -- retyped to `debt`, sector and both
     industry fields gone, still reachable at the same shard -- and a case
     proving an unmapped or absent type restates nothing.
-  - Manual validation, done against a probe rather than `v1/`: a
-    `--limit 4000 --out` build retyped `XS1937306121` (a Lenovo note) to
-    `debt` and `LU1048315243` / `LU1285960032` (UBS and Lyxor ETFs) to `fund`,
-    each with no sector, and `validate.py` on that tree exits 0.
-    `v1/stocks/AT0000A2H326.json` still reports *Consumer Discretionary* today
-    and will until the rebuild.
+  - Manual validation, done 2026-09-03 against `v1/` after T22's rebuild:
+    `v1/stocks/AT0000A2H326.json` reads `"kind": "debt"` with no `sector` and
+    no `industry_group`, against *Consumer Discretionary* / *Automobiles &
+    Components* before. The criteria also asked for an ETP and a closed-end
+    fund, since those need a different answer from the certificates:
+    `CA85207K1075` (Sprott Physical Silver Trust) and `CA13780R1091` (Canoe
+    EIT Income Fund) both read `"kind": "fund"` with no sector, and both stay
+    in `v1/stocks/` as decided. Not one of the 571 retyped records kept a
+    sector -- checked across the whole tree, not sampled.
+
+- [ ] **T21.** Decide what happens when two records claim one shard key.
+  **Found 2026-09-03 while rehearsing T19's and T20's rebuild; it is
+  pre-existing and neither rule causes it.**
+  - Every build logs `stock ECC: shard key 'ECC' is already written; skipping
+    this record` and writes 90,513 records out of the 90,514 the cross-listing
+    merge produced. The published tree has the same counts, so this is
+    happening in what is served today and the rebuild neither introduced nor
+    fixed it.
+  - **The two records are the same company**, measured against the live source:
+    `Eagle Point Credit Company Inc.` and `Eagle Point Credit Company Inc.
+    Common Stock`, both `country_code` `US`, both sector `Financials`, both
+    with a single listing `ECC`, and **neither carrying an ISIN**. They do not
+    merge because `group_cross_listings` groups on ISIN, so two ISIN-less rows
+    for one company stay separate, and then both compute `shard_key` `ECC`.
+    It is exactly one collision in 90,514 records -- counted, not sampled.
+  - **So nothing is mis-served today, and that is the reason this is a task
+    rather than a defect.** The record that survives is a duplicate of the one
+    dropped, and `stocks/ECC.json` reads correctly. What is wrong is the
+    mechanism: the loser is decided by iteration order, the only trace is one
+    log line among 470, and the build counts it as `invalid` when the record
+    validates fine and merely lost a race. Two *different* companies colliding
+    would be silently dropped the same way.
+  - Scope: choose between merging ISIN-less records that share every listing
+    symbol -- which is T12's rule for an ISIN-less duplicate, one step further
+    -- and making a collision a build error. They are not exclusive: merging
+    fixes this instance, erroring stops the next one being invisible.
+  - Acceptance criteria: no build silently drops a record; either the pair
+    merges, or the collision fails the build with both names in the message.
+    Whichever is chosen is asserted in `scripts/tests` over the `ECC` pair.
+  - Automated validation: `python -m pytest scripts/tests` over the new rule,
+    and `python scripts/validate.py v1/`, which cannot see this today -- an
+    unreachable shard is a validator failure since T4, but a record that was
+    never written leaves nothing to be unreachable.
+  - Manual validation: read `v1/stocks/ECC.json` and confirm which of the two
+    names it carries, then rebuild and confirm the count reaches 90,514 or the
+    build stops.
+  - Dependencies or blockers: none. It is small, and it should not be bundled
+    into a data rebuild, since fixing it changes the record count.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),

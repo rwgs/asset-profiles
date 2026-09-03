@@ -150,6 +150,12 @@ stocks pass now costs an OpenFIGI sweep of every published ISIN on top: about
 refresh workflow's timeout is 90 minutes because of it, sized for the
 unauthenticated case so an unset optional secret cannot kill the job.
 
+That sweep figure is now measured rather than projected: **44 minutes** for a
+whole build whose OpenFIGI cache was empty, against **5m13s** for the same
+build once it was warm, both 2026-09-03 with no key set. So a cold sweep is
+the single largest cost in a rebuild, and it is worth rehearsing into a
+`--out` tree *before* touching `v1/` partly because the rehearsal warms it.
+
 Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
 `scripts/requirements.txt` and installed with `uv`. The non-US issuer fallback
 is the one exception, split into `scripts/requirements-issuer.txt` because it
