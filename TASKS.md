@@ -158,8 +158,14 @@ So what remains here is not Phase 1 code:
   negative-weight fix admits the 11 funds the schema had been rejecting. The
   16 with no record are each named with a reason in the build log.
 - **Both open questions are answered**, 2026-09-03. See the questions section.
-- **W6 and W7** are what this repository owes the client, and W6 needs holdings
-  data that must not be committed here.
+- **W6 through W9** are what this repository owes the client. W6 needs holdings
+  data that must not be committed here; W8 and W9 were added 2026-09-03 and are
+  the shape of the published index rather than its contents.
+- **Five listing-metadata and vocabulary defects were found in the published
+  tree**, 2026-09-03, while scoping W4 -- see the client-integration findings
+  below. 17.4% of listings name a venue they are not on. They are the reason
+  W4 should not start on today's `v1/`: the client's own P10C package exists on
+  the finding that a wrong MIC is worse than an absent one.
 - **#6 is now proven against live EDGAR**, not only against fixtures -- see T7,
   which this closes. It still cannot be seen in the published data until a
   refresh runs.
@@ -188,6 +194,59 @@ scope for the change that found them. Raised rather than acted on.
   the flag.
 
 The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
+
+### Found by the client-integration review, and not fixed
+
+Measured 2026-09-03 against the published `v1/` tree while scoping **W4**. All
+six are listing metadata, vocabulary, or an unfilled field rather than
+coverage, and none is in scope for the review that found them. Raised rather than acted on. They matter
+more than their size suggests, because W4 would feed every one of them into the
+client's asset rows, and **P10C** -- the client package they would land in --
+exists on the finding that a wrong MIC is worse than an absent one.
+
+- **`XNAS` is never emitted.** All 44,663 US listings are published as `XNYS`,
+  Apple's own record included, so every Nasdaq-listed company claims the NYSE.
+  `config/exchange_mic.yml` maps `""` to `XNYS` as the bare-symbol default, and
+  the refinement its own third line promises -- "the build pass will override
+  based on the source's listed exchange when known" -- was never written.
+- **`.DU` resolves to Dubai.** `config/exchange_mic.yml:64` maps it to `DIFX`;
+  Yahoo's `.DU` is Duesseldorf, `XDUS`. 3,467 listings are published as Dubai
+  in AED, and `APC.DU` is Apple.
+- **19,401 of 111,535 listings, 17.4%, carry a suffix the map does not have.**
+  `_resolve_mic_for_symbol` falls through to the `""` default and publishes
+  `XNYS`/`USD` for a venue that is neither. 23 distinct suffixes; four German
+  ones are most of the volume -- `.BE` 7,662, `.MU` 6,075, `.HM` 1,276, `.HA`
+  839 -- and the tail includes `.TA` Tel Aviv, `.IL` the LSE international
+  order book, `.TWO` TPEx and `.AQ` Aquis. An unmapped suffix should be a build
+  error rather than a default.
+- **`currency` is inferred from the guessed MIC and never read from the
+  source.** `normalize.py:179-180` derives the MIC from the symbol suffix and
+  the currency from that MIC, so each of the three above is one error told
+  twice. FinanceDatabase ships `currency` and `exchange` columns and
+  `normalize_stock` reads neither, which is also the cheap fix for all three:
+  take the source's answer and infer only where it is absent.
+- **The sector mapping is a partial no-op, and a licence decision rests on
+  it.** `config/sector_taxonomy.yml` renames eleven FinanceDatabase sector
+  strings, and two of the eleven values actually published -- `Information
+  Technology`, 9,266 records, and `Health Care`, 8,963 -- are not producible by
+  that table, so they are unmapped pass-throughs. `industry_groups` is `{}` by
+  design and `industry` is never mapped at all, so all 24 industry groups and
+  every industry string pass through verbatim. The 2026-05-09 decision *Use
+  generic sector labels and never name a proprietary taxonomy* is therefore
+  satisfied in the documentation and only partly in the data. What limits the
+  exposure, and belongs next to it: FinanceDatabase states its own
+  categorisation is "a loose approximation of GICS" built "without collecting
+  any actual data from MSCI's proprietary sources", so what passes through is
+  the naming rather than the content.
+- **`expense_ratio` and `inception_date` are schema fields no record carries.**
+  0 of 49. `normalize.py:426,428` read both from the ETF metadata and the
+  source supplies neither, so the schema advertises coverage the pipeline has
+  no way to produce. They are the two most useful *unpriced* fund figures a
+  tracker wants, and the client has no other source for either -- an expense
+  ratio is not in a quote feed. For a US fund both are in the prospectus and
+  in N-CEN rather than in N-PORT, so this is a new source rather than a new
+  field. Either fill them or drop them from the schema; advertising an empty
+  field costs a consumer a branch that never runs.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -1140,6 +1199,115 @@ a new provider's worth of work in the client, not a switch to flip.
   - Acceptance criteria: the list exists and excludes placeholders. `XX` appears
     in a published record today and must not survive Phase 2.
   - Dependencies or blockers: cleanest after Phase 2 rejects placeholder codes.
+
+- [ ] **W8.** Publish an index a desktop client can actually fetch.
+  - Scope: `v1/index.json` is **11.2 MB** and the tree behind it is 376 MB
+    across 90,513 shards, so today the cheapest possible lookup costs 11 MB
+    over the wire and W4's 1-day index TTL means paying it weekly. Options are
+    a prefix-sharded index, a compact line-oriented form, or a symbol-to-shard
+    map stripped of the ISIN mirror; the choice is the task.
+  - Acceptance criteria: resolving one symbol costs a bounded, small fetch, and
+    the client can tell a cached index is still current without downloading it.
+  - Dependencies or blockers: none. Independent of Phase 3, and it changes a
+    published artifact, so settle it before anything pins to the current shape.
+
+- [ ] **W9.** Make `(ticker, MIC)` a first-class lookup key.
+  - Scope: the client keys an asset by ticker plus MIC -- that is what
+    `instrument_key` is -- while this index offers a Yahoo-suffixed symbol and
+    an ISIN. So W4's resolution ladder has to round-trip a suffix back to a
+    MIC, through exactly the map the findings section above shows is wrong for
+    17.4% of listings. The measurement that scopes it: **9,356 of 90,513 stock
+    records carry an ISIN**, so the identifier route covers 10% and the symbol
+    route carries the rest.
+  - Acceptance criteria: the index answers a `(ticker, MIC)` question directly,
+    without the client re-deriving a venue from a Yahoo suffix.
+  - Dependencies or blockers: the listing-metadata findings above. Fixing the
+    key while the venues are wrong publishes the wrong join.
+
+## Candidate additions, not scoped
+
+Asked and answered on 2026-09-03 while scoping what the client actually needs
+from this dataset. **Nothing here is scoped or committed**; it is recorded so
+the reasoning is not re-derived, and because two entries are refusals whose
+grounds matter more than the ideas themselves.
+
+### Reference data, which both repositories need
+
+- **An ISO 10383 MIC registry with quoting units.** Per MIC: name, operating
+  versus segment, country, status, settlement currency, and the *quoting* unit
+  -- `GBp`, `ILA`, `ZAc` -- which the current `^[A-Z]{3}$` currency pattern
+  cannot express. This repository needs it to fix the listing findings above;
+  the client needs it for **P10C** defects 15 and 16 and issues I8 and I9. One
+  artifact, two consumers, and the smallest thing on this page.
+- **An ISO 3166-1 to region table.** **W7** already owes the client the list of
+  codes this dataset can emit; publishing the table costs little more and gives
+  **W3** something to check against rather than guess.
+- **Trading calendars per MIC**, derivable from `exchange_calendars`
+  (Apache-2.0). Lets a consumer tell a market holiday from a missing quote.
+
+### Coverage
+
+- **Every US-registered fund, rather than 65 hand-picked ETFs.** N-PORT is
+  filed by all registered investment companies, so mutual funds and closed-end
+  funds are in reach of machinery that already exists: `company_tickers_mf.json`
+  is 28,512 share classes and #6's series-level selection already reads them.
+  It would retire `config/etf_universe.yml` as a hand-curated list, and it
+  answers the client's `cef`, `oef` and `ut` broker codes -- its **I15** --
+  with real records. The largest single lever on this page.
+- **The share-class graph.** `VWRL`, `VWRP` and `VWCE` are one fund, and
+  series-to-class gives it free for US funds. **W6** already flags that the
+  client holds the accumulating class and the universe lists the other two.
+- **Fund structure and tax attributes**: domicile, legal form, UCITS status,
+  accumulating versus distributing, and UK **Reporting Fund Status**, which
+  HMRC publishes as a register. Static, unpriced, and supplied by no quote
+  feed, which makes it the most *distinctive* thing this dataset could carry.
+
+### Metrics, and the decision that gates them
+
+- **Shares outstanding, EPS and declared dividends per share**, from SEC XBRL
+  `companyfacts` -- US-government public domain, roughly 8,000 filers,
+  quarterly history to about 2009. The framing that matters: publish the
+  unpriced half and let the client compute market cap, P/E and yield against
+  its own quote, so no record here ever contains a price.
+- **Blocked as written.** The 2026-05-09 decision *Never publish data derived
+  from Yahoo Finance, or anything priced* puts fundamentals out of scope
+  "regardless of source". It was aimed at Yahoo's terms and it catches
+  public-domain SEC filings too. Either amend it to *nothing priced, and
+  nothing whose source forbids redistribution*, or this whole subsection stays
+  closed. The bullet above is the test case for where that line sits.
+
+### Refused, with grounds
+
+- **Risk metrics -- volatility, Sharpe, Sortino, beta.** Each is a function of
+  a price series, so a published figure is a derivative of one, which the same
+  2026-05-09 decision already forecloses -- "the stored derivative is still a
+  derivative". There is also no free redistributable global end-of-day source
+  to compute them from. And it would be the wrong answer even if both held: a
+  published ratio is a fixed window in the fund's own currency, while the
+  holder wants their own holding period and base currency. The client computes
+  these locally from quotes it already stores; see `wealthfolio-dev` **P1A**.
+- **A risk-free rate series per currency.** Genuinely public -- Treasury, ECB,
+  Bank of England -- but the client already owns it as **P1F** and already
+  fetches the US curve in `US_TREASURY_CALC`. Worth doing here only if the
+  client would rather consume one normalised series than maintain three
+  fetchers, which is its call and not this repository's.
+- **Corporate actions.** Splits and ex-dividend dates are the thing the client
+  most needs from a non-Yahoo source and there is no clean free one. XBRL gives
+  declared dividends per share, not ex-dates or reliable split ratios. Better
+  refused explicitly than left on a list looking possible.
+- **Logos.** The client bundles 123 MB across 6,149 PNGs keyed by bare symbol,
+  so a CDN set keyed properly would fix real misses and shrink its installer.
+  They are trademarks, and carrying them would change this repository's licence
+  story from "public-domain and MIT sources" to something needing its own
+  defence.
+
+### A risk already shipped
+
+- **`cusip` appears in 15,808 published records.** CUSIP Global Services
+  asserts rights in bulk redistribution of CUSIP numbers and has litigated
+  them. That is a larger exposure than anything proposed above and it is
+  already live, arriving from FinanceDatabase and from N-PORT. Settle it before
+  **T15** adds identifiers rather than after.
 
 ## Completed
 
