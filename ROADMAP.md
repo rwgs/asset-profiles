@@ -12,14 +12,20 @@ there, not from zero. Phases 1 to 4 land in this repository; Phase 5 lands in
 `wealthfolio-dev` and is tracked here because it is the outcome this dataset
 exists to enable.
 
-Six pull requests are open upstream and they already carry parts of Phases 1,
-2, and 4 -- including Phase 2's headline exit criterion and the test harness. None has been through
-CI, because fork PRs are gated behind approval that has never been given. So
-the first thing on this roadmap is not code: it is letting the checks run and
-merging what is already written. See the pull-requests section of `TASKS.md`
-for the merge order.
+Seven pull requests are open upstream and they already carry parts of Phases 1,
+2, and 4 -- including Phase 2's headline exit criterion and the test harness.
+None has been through CI, because fork PRs are gated behind approval that has
+never been given, and upstream has since said the repository is on standby. So
+work lands on `origin/main` and each change also keeps an upstream-mergeable
+branch. See the pull-requests section of `TASKS.md` for the merge order and
+`AGENTS.md` for why.
 
 ## Phase 1: A dataset that validates everywhere and hides nothing
+
+**Substantively reached on 2026-09-03, on `origin/main`.** `validate.py v1/`
+exits 0, the suite is 71 passed, nothing is nested, and the three counts agree.
+The one criterion outstanding is the CI one, and no fork can supply it -- see
+below.
 
 ### Outcome
 
@@ -61,12 +67,22 @@ over nested records, and the tests.
 
 ### Exit criteria
 
-- The validator exits 0 on all three platforms on a fresh clone.
-- No path under `v1/stocks/` or `v1/etfs/` is nested, and no stem matches a
-  Windows reserved device name.
-- Shard count on disk, `counts`, and distinct index paths all agree.
-- CI runs the tests on every pull request and the tests fail if `BRK/A` or `CON`
-  regresses.
+- [~] The validator exits 0 on all three platforms on a fresh clone. **Met on
+  Windows**, verified 2026-09-03 with no environment overrides and again under
+  `-W error::EncodingWarning`. Linux and macOS are unverified in this checkout;
+  the remaining platform risk is small, since T3 removed the only
+  locale-dependent reads and the paths are now plain ASCII filenames.
+- [x] No path under `v1/stocks/` or `v1/etfs/` is nested, and no stem matches a
+  Windows reserved device name. T6 stopped them being created; T5's minimal
+  route retired the 13 that existed; #5 renamed the two `CON` shards.
+- [x] Shard count on disk, `counts`, and distinct index paths all agree, at
+  98,463 stocks and 10 ETFs.
+- [ ] CI runs the tests on every pull request and the tests fail if `BRK/A` or
+  `CON` regresses. **The step is written and has never executed.** Fork PR runs
+  are gated behind maintainer approval on a repository that is on standby, so
+  this criterion cannot be met from here. The tests themselves are real: both
+  cases are plain assertions in the suite, and both were confirmed red before
+  their fixes landed.
 
 ### Validation
 

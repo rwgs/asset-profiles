@@ -78,30 +78,41 @@ it is now known to be unlikely rather than merely unattempted.
 
 ## Current phase
 
-Phase 1, *A dataset that validates everywhere and hides nothing*. Every code
-item in it is now written: T1, T2, T3, and T7 are submitted, T4 is committed with
-a branch waiting, and **the only code left is T6** -- which waits on #5 rather
-than resolving `shard_key` against it, and #5 is not going to merge while
-upstream is on standby.
+Phase 1, *A dataset that validates everywhere and hides nothing*. **Every task
+in it that can be done from a fork is done**, as of 2026-09-03. T1, T3, and T7
+are written and submitted; T2, T4, T6, T8, and the signed-off half of T5 are on
+`main`; #1 is merged there too.
 
-So the phase cannot close as written. Its exit criteria assume merges, a CI run,
-and a refresh, and all three need a maintainer who has said they are not working
-on this. **Every code item in Phase 1 is now written and on `main`.** #5 was merged,
-which made the repository clone on Windows, and T6 followed it, which was the
-last of them. The suite is 71 passed with no strict markers left, and a probe
-tree built through the repaired pipeline validates clean.
+The headline is that `python scripts/validate.py v1/` **exits 0** -- on Windows,
+under the locale-strict form, with no environment overrides -- and the suite is
+71 passed with no strict markers left. Both numbers were red or absent a week
+ago. What made that true, in order: T1 gave the project a suite, #5 made it
+clone on Windows, T3 made it run on a non-UTF-8 host, T4 made an unreachable
+shard a failure, T6 stopped new ones being created, and T5's minimal route
+retired the 14 that already existed.
 
-What is left is not code, with one exception now closed: #1's URL fix was
-merged into `main` on 2026-09-03, so the pipeline fetches again. That was the
-last thing standing between this checkout and a real build, and it means T5 is
-now blocked on sign-off alone rather than on sign-off *and* a dead source.
+**The phase still cannot close as written**, and that is a property of upstream
+rather than of the work. Its exit criteria assume merges, a CI run, and a
+refresh, and all three need a maintainer who has said the repository is on
+standby. Nothing in this checkout can supply them.
 
-So the open items are three decisions and a measurement. T5's rebuild needs
-sign-off and would take `v1/` from 15 errors to 0 -- the probe is the evidence
-it now would, and P2 records that it would also grow the dataset by about 14%.
-T8's dependency question can be settled locally and blocks nothing. W7's
-country-code list can be produced today. Everything else is a request to a
-maintainer who has said the repository is on standby.
+So what remains here is not Phase 1 code:
+
+- **P1 and the second half of P2** are maintainer actions. Approving CI on the
+  seven open PRs and re-enabling a schedule GitHub disabled for inactivity both
+  need write access on a repository that is on standby.
+- **The published dataset is still stale**, and honestly says so:
+  `next_refresh_at` is 2026-06-07 and was deliberately left there. Every record
+  holds data fetched on 2026-05-31, and upstream has added roughly 14,000 equity
+  rows since. Clearing the gate did not refresh anything, and the full rebuild
+  under T5 stays available and unstarted.
+- **Two open questions are still open**, and both settle what the dataset
+  publishes rather than how it is built: the duplicate-record question below,
+  and whether this fork should publish at all.
+- **W6 and W7** are what this repository owes the client, and W6 needs holdings
+  data that must not be committed here.
+
+Phase 2 is what the next code change belongs to. See `ROADMAP.md`.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -526,7 +537,9 @@ maintainer who has said the repository is on standby.
     way. It was kept out of this change because `AGENTS.md` does not let a fix
     to a check delete the data the check found.
 
-- [ ] **T8.** Decide what to do about the numpy ceiling `etf-scraper` drags in.
+- [x] **T8.** Decide what to do about the numpy ceiling `etf-scraper` drags in.
+  **Done 2026-09-03, committed on `main` at `908c1328d1`. Carried as an
+  optional extra.**
   - Scope: `etf-scraper>=0.1.2` requires `numpy<2.0`, which publishes no wheel
     for Python 3.13, so `uv pip install -r scripts/requirements.txt` tries to
     compile numpy from source and fails on any host without a C toolchain.
@@ -546,8 +559,37 @@ maintainer who has said the repository is on standby.
     why nine failing scheduled runs never reported it. `issuer_scraper.py` is
     the only importer, it imports lazily inside the fetch function, and it is
     the non-US fallback that produces no records at all today.
+  - **Decided: optional extra**, in `scripts/requirements-issuer.txt`. The
+    deciding measurement is what the dependency earns rather than what it costs.
+    All ten published ETF records carry `provenance.source` of `SEC EDGAR
+    N-PORT`; none came from the scraper. So it capped every contributor's
+    interpreter in exchange for a path that has produced nothing. Pinning the
+    project to 3.12 would have been honest but paid that price for the same
+    nothing, and replacing it with direct issuer fetches is Phase 3 work rather
+    than a dependency tidy-up. The fallback is unchanged and still the
+    documented route for non-US funds.
+  - Acceptance criteria, met: `pip install -r scripts/requirements.txt` into a
+    clean venv on **Python 3.14.5** succeeds, resolving numpy 2.5.2. The ceiling
+    is confirmed still real and now isolated -- `pip install --only-binary=:all:
+    -r scripts/requirements-issuer.txt` in that same venv fails on `No matching
+    distribution found for numpy<2.0`.
+  - Automated validation: 71 passed in that clean venv. `import build` succeeds
+    without the package, and `fetch_issuer_holdings` raises a `RuntimeError`
+    naming the optional file, which `build.py` already catches, records as a
+    named ETF failure, and continues past. Nothing about what the dataset
+    produces changes.
+  - **Not verified, and it is the one risk left: the 3.12 install.** This host
+    has only 3.14, so `refresh.yml`'s new second install step is reasoned from
+    numpy 1.26 having a 3.12 wheel rather than run. A red first refresh run is
+    the exposure, and the refresh is disabled anyway.
+  - `validate-pr.yml` needed no change: it runs only the tests and the
+    validator, so it simply stops installing a dependency it never used.
 
-- [ ] **T5.** Rebuild `v1/` with repaired keys and retire the nested shards.
+- [x] **T5.** Rebuild `v1/` with repaired keys and retire the nested shards.
+  **Done 2026-09-03 by its minimal route, committed on `main` at `8122c95fdb`.
+  Signed off as retire-and-reconcile rather than rebuild, so the 14 unreachable
+  records are gone and `validate.py v1/` exits 0, but no record was
+  regenerated and the published data is as stale as it was.**
   - Scope: one commit containing only regenerated data. T3, T4, and T6 are all
     on `main` now, so nothing is waiting on them. Delete the 9 nested directories and their 13 records, and
     `stocks/SAND.json`, which T4 identified as a fourteenth unreachable record
@@ -577,11 +619,35 @@ maintainer who has said the repository is on standby.
     it -- delete the 14 unreachable shards and regenerate `index.json` alone
     with `build.py --no-stocks --no-etfs`, which is a 15-file diff rather than a
     98,000-file one, at the cost of leaving the published records as stale as
-    they are today. Whether that clears all 15 errors is **reasoned, not
-    measured**: the 14 named shards go with the files, and the count should
-    reconcile once the index is rebuilt from disk, but T4's `SAND` finding is
-    the only evidence that no second shadowed symbol is hiding behind it. Price
-    it by measuring before choosing it.
+    they are today. **This is the route that was signed off and taken.** The
+    full rebuild stays available and unstarted.
+  - **Measured before deleting anything.** Simulating the rebuild over the
+    surviving records put counts, files on disk, and distinct paths named all at
+    98,463 stocks and 10 ETFs, with no `shard_key` collision, nothing on disk
+    unnamed, and nothing named-but-missing. So the 15 errors were known to clear
+    before a file was touched, rather than hoped to.
+  - Acceptance criteria, met on the criteria this route can reach:
+    `python scripts/validate.py v1/` **exits 0**, from 15 errors, and so does
+    the locale-strict form with `-W error::EncodingWarning`. No directory
+    remains under `v1/stocks/` or `v1/etfs/`. 71 passed. The fresh-Windows-clone
+    check is unchanged and still passing, since #5 already fixed what broke it.
+  - **`index.json` changed by one line** -- `counts.stocks` 98464 to 98463 --
+    which is T4's diagnosis confirmed rather than merely applied. All 14 were
+    unreachable by every route, so removing them moved no symbol and no ISIN.
+  - **`generated_at` and `next_refresh_at` were deliberately held at
+    2026-05-31 and 2026-06-07.** `build_index` stamps the current time, and
+    `SPEC.md` is explicit that `next_refresh_at` is a commitment and a dataset
+    past it is misreporting its own freshness. These records are still the ones
+    built on 2026-05-31; repairing reachability is not a refresh and must not
+    claim to be one. Restoring the two fields after the rebuild is the only
+    hand-edit in the commit, and P2's acceptance signal -- `generated_at` moving
+    off 2026-05-31 -- is therefore still unspent and still means what it meant.
+  - What this route does **not** do, and it is the reason the full rebuild stays
+    on the page: no record is regenerated, so every shard still holds data
+    fetched on 2026-05-31, and the roughly 14,000 equity rows upstream has added
+    since are still absent. `BIO/B` and `RAC/WS` had no dash-form alternate and
+    are now simply absent rather than repaired, which the open duplicate-record
+    question below covers.
 
 ### Measurements and questions owed this phase
 
