@@ -17,6 +17,8 @@ from pathlib import Path
 import jsonschema
 from jsonschema import Draft202012Validator
 
+import normalize
+
 log = logging.getLogger(__name__)
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
@@ -130,6 +132,27 @@ def validate_index(index: dict, root: Path) -> list[str]:
     return errors
 
 
+def validate_shard_names(root: Path) -> list[str]:
+    """Shard filenames must be creatable on every platform clients clone to.
+
+    Windows resolves `CON.DE.json` to the console device, which fails checkout
+    of the whole repository rather than just that record. Share-class symbols
+    nest (`BRK/A`), so every path component is checked. `normalize.shard_key`
+    escapes these, so a hit here means a record reached disk without it.
+    """
+    errors = []
+    for kind in ("stocks", "etfs"):
+        for path in shard_paths(root / kind):
+            rel = path.relative_to(root / kind)
+            for part in rel.parts:
+                if part.partition(".")[0].upper() in normalize.RESERVED_DEVICE_NAMES:
+                    errors.append(
+                        f"names: {kind}/{rel.as_posix()}: {part!r} is a reserved device name"
+                    )
+                    break
+    return errors
+
+
 def validate_tree(root: Path) -> int:
     """Validate every file in `root`. Returns count of errors."""
     total_errors = 0
@@ -146,6 +169,11 @@ def validate_tree(root: Path) -> int:
             for err in errs:
                 print(f"FAIL {path}: {err}")
             total_errors += len(errs)
+
+    errs = validate_shard_names(root)
+    for err in errs:
+        print(f"FAIL {root}: {err}")
+    total_errors += len(errs)
 
     index_path = root / "index.json"
     if index_path.exists():

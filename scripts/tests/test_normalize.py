@@ -46,11 +46,40 @@ def test_shard_key_is_a_single_path_component(key):
     assert "/" not in normalize.shard_key({"primary_symbol": key})
 
 
-@pytest.mark.xfail(strict=True, reason="PR #5: a DOS device name in a key still reaches the filesystem")
-@pytest.mark.parametrize("key", ["CON", "CON.DE"])
-def test_shard_key_escapes_a_dos_device_name(key):
-    stem = normalize.shard_key({"primary_symbol": key}).split(".")[0]
-    assert stem.upper() not in DOS_DEVICE_NAMES
+@pytest.mark.parametrize(
+    "key,expected",
+    [
+        ("CON", "CON_"),
+        ("CON.DE", "CON_.DE"),
+        ("PRN", "PRN_"),
+        ("NUL.L", "NUL_.L"),
+        ("COM1", "COM1_"),
+        ("LPT9.PA", "LPT9_.PA"),
+        ("con.de", "con_.de"),
+    ],
+)
+def test_shard_key_escapes_a_dos_device_name(key, expected):
+    """Windows resolves any component whose part before the first dot is a
+    device name to that device, so `CON.DE.json` is the console and the whole
+    clone fails there rather than that one record. Escaping is per component
+    and case-insensitive, because the filesystem's rule is."""
+    assert normalize.shard_key({"primary_symbol": key}) == expected
+
+
+@pytest.mark.parametrize("key", ["CONE", "CONS.DE", "ICON", "COM", "COM10", "LPTX"])
+def test_shard_key_leaves_a_name_that_merely_starts_like_a_device(key):
+    """`COM` and `COM10` are not device names and `CONE` is not `CON`, so
+    escaping them would change a working path for nothing. 83,764 shards take
+    their name straight from an upstream ticker, so the rule has to be exact."""
+    assert normalize.shard_key({"primary_symbol": key}) == key
+
+
+def test_every_escaped_device_name_is_actually_escaped():
+    """The list in `normalize` and the list this file checks against are written
+    out separately, so walk the whole set rather than a sample of it."""
+    for name in DOS_DEVICE_NAMES:
+        stem = normalize.shard_key({"primary_symbol": f"{name}.DE"}).partition(".")[0]
+        assert stem.upper() not in DOS_DEVICE_NAMES, name
 
 
 # ---- _aggregate_weights -------------------------------------------------

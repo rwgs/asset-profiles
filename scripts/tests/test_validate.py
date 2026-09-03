@@ -200,3 +200,49 @@ def test_a_tree_whose_three_quantities_agree_passes(tmp_path, stock_record, inde
     )
 
     assert validate.validate_tree(tmp_path) == 0
+
+
+# ---- shard names ---------------------------------------------------------
+#
+# `normalize.shard_key` escapes a DOS device name before it becomes a path, so
+# a hit here means a record reached disk without going through it. That is
+# worth a standing check rather than a one-off: 83,764 of 98,489 shards take
+# their filename straight from an upstream ticker refreshed weekly, so the next
+# `PRN` or `COM1` listing is a data event, not a code change.
+
+
+@pytest.mark.parametrize("name", ["CON.json", "CON.DE.json", "prn.json", "COM3.L.json"])
+def test_a_reserved_device_name_on_disk_is_an_error(tmp_path, stock_record, name):
+    _write(tmp_path / "stocks" / name, stock_record)
+    errors = validate.validate_shard_names(tmp_path)
+    assert [e for e in errors if "reserved device name" in e and name in e], errors
+
+
+def test_a_reserved_name_in_a_directory_component_is_an_error(tmp_path, stock_record):
+    """A key is escaped per component so `CON/A` cannot create a reserved
+    directory. Check the whole path, not just the filename, or the directory
+    that breaks the clone is the one the check walks straight past."""
+    _write(tmp_path / "stocks" / "CON" / "A.json", stock_record)
+    errors = validate.validate_shard_names(tmp_path)
+    assert [e for e in errors if "reserved device name" in e], errors
+
+
+@pytest.mark.parametrize("name", ["CON_.json", "CON_.DE.json", "CONE.json", "AAPL.json"])
+def test_an_escaped_or_unrelated_name_passes(tmp_path, stock_record, name):
+    _write(tmp_path / "stocks" / name, stock_record)
+    assert validate.validate_shard_names(tmp_path) == []
+
+
+def test_a_reserved_name_fails_the_tree_and_not_only_the_name_check(
+    tmp_path, stock_record, index_of
+):
+    """The check has to be wired into `validate_tree`, or it is a function
+    nothing calls. The record itself is valid and the index names it, so the
+    device name is the only thing left to fail on."""
+    _write(tmp_path / "stocks" / "US0378331005.json", stock_record)
+    _write(tmp_path / "stocks" / "CON.json", stock_record)
+    (tmp_path / "index.json").write_text(
+        json.dumps(index_of("US0378331005", stocks=2, also=["stocks/CON.json"])),
+        encoding="utf-8",
+    )
+    assert validate.validate_tree(tmp_path) == 1
