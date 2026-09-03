@@ -4,9 +4,11 @@ The work in flight and the work already validated. A task is one reviewable
 outcome: if it cannot be finished and checked in a single pass, it is a phase
 and belongs in `ROADMAP.md`.
 
-Every measurement below was taken on 2026-09-02 against this working tree at
-`1979d5a8c3`, on Windows with Python 3.13.9. Re-measure rather than trust a
-number here once the pipeline has run again.
+Every measurement below was taken on 2026-09-02 on Windows with Python 3.13.9,
+against this working tree at `1979d5a8c3` or, for T4's, at `2a76205957`. The two
+differ only in `scripts/` and the planning documents, so no figure about `v1/`
+moved between them. Re-measure rather than trust a number here once the pipeline
+has run again.
 
 ## Pull requests
 
@@ -62,10 +64,11 @@ everything else.
 
 ## Current phase
 
-Phase 1, *A dataset that validates everywhere and hides nothing*. Three items
-are already submitted, two are maintainer actions and T3 is written but not yet
-sent, so the code left to write is smaller than it looks: T4, which nothing
-blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
+Phase 1, *A dataset that validates everywhere and hides nothing*. Four items are
+submitted, two are maintainer actions, and T4 is written and awaiting a decision
+on whether to send it. **The only code left in this phase is T6**, which waits on
+#5 rather than resolving `shard_key` against it -- so what remains is mostly
+someone with write access pressing buttons, and one sign-off on T5's rebuild.
 
 - [ ] **P1.** Get `validate-pr.yml` to run on fork pull requests.
   - Scope: a maintainer action, not a code change. Approve the pending workflow
@@ -195,8 +198,9 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
   - Manual validation: `python scripts/build.py --limit 2000 --out ./probe`,
     then confirm `probe/stocks/` contains no directories.
   - Dependencies or blockers: #5 -- building this before #5 merges means
-    resolving the same function twice. `PLAN.md` holds the approach and
-    the measurement that rules out the obvious escape character.
+    resolving the same function twice. The escape character and the measurement
+    that rules out the obvious alternative are now the 2026-09-02 `DECISIONS.md`
+    entry, promoted out of `PLAN.md` when T4 took it over.
   - Evidence: 9 directories holding 13 records exist under `v1/stocks/`
     (`AKO`, `BF`, `BIO`, `BRK`, `CRD`, `HEI`, `HVT`, `RAC`, `WSO`). All 13 are
     committed, none is referenced by `index.json`, and none is schema-validated.
@@ -310,7 +314,8 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
     forcing the stream encoding or mangling the value, both of which change how
     every diagnostic reads. Raised rather than folded in.
 
-- [ ] **T4.** Make an unreachable or unvalidated shard a validator failure.
+- [x] **T4.** Make an unreachable or unvalidated shard a validator failure.
+  **Done 2026-09-02, committed on `main`. Not yet submitted upstream.**
   - Scope: `validate.validate_tree` and `validate.validate_index`. Walk the
     tree rather than globbing one level, so nothing on disk escapes schema
     validation -- #5 adds a recursive `rglob` walk in `validate_shard_names`,
@@ -343,10 +348,63 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
     extend `scripts/tests/test_validate.py`.
   - Evidence: `counts.stocks` is 98,464; `index.json` names 98,463 distinct
     stock paths; 98,462 `.json` files sit directly under `v1/stocks/` and 13
-    more sit one level down. Three numbers, four values, and the current
-    validator reports only the one mismatch it happens to check. The
-    record-to-path gap of one is unexplained and this task is where it gets
-    identified.
+    more sit one level down. Three numbers, four values, and the validator
+    reported only the one mismatch it happened to check.
+  - **The gap of one is `stocks/SAND.json`**, identified as this task promised.
+    It is a Sandstorm Gold record carrying no ISIN whose only listing symbol is
+    `SAND`, and the same security also publishes as `stocks/CA80013R2063.json`,
+    an ISIN-bearing record that merged seven cross-listings and lists `SAND`
+    among them. `build_index` writes that symbol twice and the last writer won,
+    so one record on disk reaches the index by no route at all. The root cause
+    is `group_cross_listings` merging by ISIN only -- the same one that leaves
+    `BRK/A` beside `BRK-A` -- so it is a duplicate-record question, not a
+    counting one. Raised, not fixed: resolving it settles what the dataset
+    publishes.
+  - Delivered: `validate.shard_paths(directory)`, one sorted recursive walk used
+    at four sites. `validate_tree` loops over it per kind, which collapses its
+    two duplicated bodies into one and schema-validates nested records.
+    `validate_index` collects the paths it already reads from `symbols` and
+    `isins`, reports every file on disk that set does not name, and replaces the
+    `counts` check with a three-way one printing all three numbers.
+    `build.reap_removed` walks it and keys on the path below the directory
+    rather than `path.stem` -- `BRK/A.json` is keyed `BRK/A` and stemmed `A`, so
+    a recursive reap on the stem would delete every nested record. The re-read
+    feeding `build_index` uses it too, so a record on disk becomes a record in
+    the index.
+  - Acceptance criteria, met: `python scripts/validate.py v1/` reports 17 errors
+    on Windows and 15 on Linux, where it reported 3 and 0. Fourteen name a shard
+    on disk the index does not name, including all 13 nested; one reports
+    `counts.stocks=98464 but 98475 file(s) on disk and 98463 path(s) named`.
+  - Automated validation: 37 passed and 7 xfailed, up from 32 and 7. Five new
+    tests in `test_validate.py`, red-then-green checked: all five failed before
+    the change. One of them passed at first for the wrong reason -- a one-level
+    glob makes the count wrong by exactly one as well, so asserting on the error
+    *count* accepted the old behavior -- and now asserts on the report naming
+    the nested path. `conftest.py`'s `index_of` gained an `also` argument for
+    indexes naming more than one shard.
+  - Manual validation, both done: `build.py --no-stocks --no-etfs --out <dir>`
+    over a probe tree holding `stocks/BRK/A.json` puts it in `index.json` under
+    the symbol `BRK/A`, leaves the file in place, and the probe then validates
+    clean -- so build and gate agree about a nested record. And `reap_removed`
+    run directly over a fixture with a stale flat shard, a stale nested shard,
+    and a current nested one reaped exactly the two stale ones.
+  - Not covered, and disclosed: `reap_removed` and the re-read have no automated
+    test. One has to `import build`, which pulls in `pandas`, `requests`, and
+    `lxml`, and the suite is deliberately runnable with only `pycountry` and
+    `jsonschema` -- which is what makes it work on a host where the full
+    requirements do not install. See T8. The walk itself is covered at its three
+    validator sites; its two build sites are covered by the probes above.
+  - Also changed, and worth knowing: the re-read is now sorted, so which of two
+    records claiming one symbol wins the index no longer depends on filesystem
+    enumeration order. On the next rebuild that flips `SAND` to the ISIN-less
+    record, because `CA80013R2063.json` sorts first. Deterministic and worse; it
+    is the duplicate above that needs resolving, not the ordering.
+  - **Consequence someone has to accept: this turns CI red on the committed
+    data.** That is the change asking for a decision, not a defect in it. Green
+    returns when T6 repairs the keys and T5 rebuilds, or sooner by deleting the
+    14 orphans -- 14 files rather than T5's 98,000, and sign-off work either
+    way. It was kept out of this change because `AGENTS.md` does not let a fix
+    to a check delete the data the check found.
 
 - [ ] **T8.** Decide what to do about the numpy ceiling `etf-scraper` drags in.
   - Scope: `etf-scraper>=0.1.2` requires `numpy<2.0`, which publishes no wheel
@@ -371,13 +429,17 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
 
 - [ ] **T5.** Rebuild `v1/` with repaired keys and retire the nested shards.
   - Scope: one commit containing only regenerated data, after T6, T3, and T4
-    have merged. Delete the 9 nested directories and their 13 records. #5
-    already renames the two `CON` shards and their index entries, so those are
-    not in scope here.
+    have merged. Delete the 9 nested directories and their 13 records, and
+    `stocks/SAND.json`, which T4 identified as a fourteenth unreachable record
+    and which a rebuild does not remove on its own -- `reap_removed` keeps it,
+    because a current row still keys it. #5 already renames the two `CON` shards
+    and their index entries, so those are not in scope here.
   - Acceptance criteria: `python scripts/validate.py v1/` exits 0 on Linux,
-    macOS, and Windows from a fresh clone with no environment overrides; no
-    directory remains under `v1/stocks/` or `v1/etfs/`; `git status` on a fresh
-    Windows clone reports no missing files.
+    macOS, and Windows from a fresh clone with no environment overrides -- which
+    since T4 means every shard on disk is named by the index and the three
+    quantities agree, not merely that every record parses; no directory remains
+    under `v1/stocks/` or `v1/etfs/`; `git status` on a fresh Windows clone
+    reports no missing files.
   - Automated validation: `validate.py v1/` in CI, and the T1 suite.
   - Manual validation: fresh `git clone` on Windows, then validate; spot-check
     that `BRK-A.json` and the repaired `BRK/A` record are not duplicates of each
@@ -388,11 +450,20 @@ blocks, and T6, which waits on #5 rather than resolving `shard_key` against it.
 
 ### Measurements and questions owed this phase
 
-- Why `counts.stocks` exceeds the number of distinct index paths by one. Falls
-  out of T4.
+- ~~Why `counts.stocks` exceeds the number of distinct index paths by one.~~
+  **Answered 2026-09-02 by T4**: `stocks/SAND.json`, an ISIN-less duplicate of
+  `stocks/CA80013R2063.json` whose only symbol the ISIN-bearing record claims in
+  the index. Recorded under T4, and it opens a new question below.
 - ~~Whether the weekly schedule is disabled.~~ **Answered 2026-09-02**: nine
   scheduled runs failed on a 404, 2026-06-07 to 2026-08-02, then no run at all.
   Both causes are named in P2.
+- What to do about a record duplicated across an ISIN-bearing and an ISIN-less
+  row. `SAND` and the eleven `BRK/A`-style pairs are the same defect:
+  `group_cross_listings` merges by ISIN, so a row without one cannot be
+  absorbed. Dropping the ISIN-less rows loses `BIO/B` and `RAC/WS`, which have
+  no alternate form; merging by symbol needs a rule for when two symbols are one
+  security. Settles what the dataset publishes, so it is asked rather than
+  implemented.
 - Which repository publishes to the CDN. `README.md` documents
   `wealthfolio/asset-profiles@main`; `origin` here is `rwgs/asset-profiles`.
   Owner's decision, and every client URL depends on it.

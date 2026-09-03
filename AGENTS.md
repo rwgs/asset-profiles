@@ -152,9 +152,14 @@ Validate. This is the whole gate, and it takes about a minute over `v1/`.
 python scripts/validate.py v1/
 ```
 
-That command is complete on every host, Windows included. Until #5 merges,
-expect three failures on Windows for the two `CON` shards that are named in the
-index and absent from the tree.
+That command is complete on every host, Windows included, and **it is red on
+`v1/` today by design**: 15 failures on Linux, 17 on Windows. Fourteen are
+shards on disk that `index.json` does not name -- the 13 nested under
+`v1/stocks/` plus `stocks/SAND.json` -- and one reports that the count the index
+claims, the files on disk, and the paths it names are three different numbers.
+That is T4 reporting what T6 repairs and T5 rebuilds; do not read it as a
+regression your change caused. The two extra on Windows are the `CON` shards
+named in the index and absent from the tree, which #5 fixes.
 
 To check that no new call has started relying on the host locale, make the
 warning fatal -- it names the offending line:

@@ -12,6 +12,55 @@ The 2026-05-09 entries below were settled at bootstrap and are reconstructed
 from `README.md`, `CONTRIBUTING.md`, and `docs/asset-profiles-spec.md` sections
 13 and 15. They were load-bearing before they were written down here.
 
+## 2026-09-02 `_` is the escape character for a filesystem-unsafe shard key
+
+Status: Accepted.
+
+### Decision
+
+Where a shard key cannot be used as a filename, the offending part is escaped by
+appending `_` to it rather than by substitution, deletion, or encoding. PR #5
+applies this to a component whose head is a DOS device name (`CON.DE` becomes
+`CON_.DE`) and `TASKS.md` T6 applies the same character to the path separator
+(`BRK/A` becomes `BRK_A`). One convention, applied to both, composing where a
+key needs both (`CON/A` becomes `CON__A`).
+
+### Why
+
+`_` is the only free character available. Measured 2026-09-02 by scanning every
+stem in `v1/stocks/` and `v1/etfs/`: zero of the 98,462 flat stems contain `_`
+and zero end in `_`, so no well-formed key changes and no escaped form can
+collide with an unescaped one. Escaping only what the filesystem refuses is what
+keeps all 98,462 working paths byte-identical, which matters because every one
+of them is a URL a client may have cached.
+
+### Rejected alternatives
+
+- **Map `/` to `-`.** The obvious scheme, and the measurement rules it out:
+  eleven of the thirteen nested keys already have a correct dash-form shard on
+  disk (`BRK-A`, `AKO-A`, `AKO-B`, `BF-A`, `BF-B`, `BRK-B`, `CRD-A`, `CRD-B`,
+  `HEI-A`, `HVT-A`, `WSO-B`), so it manufactures the exact collision the change
+  exists to prevent. Only `BIO/B` and `RAC/WS` have no dash form.
+- **Percent-encode.** Reversible and unambiguous on disk, unreliable as a CDN
+  path segment: `%2F` is normalized back to `/` by enough intermediaries to fail
+  in precisely the case it is meant to fix. `%` is otherwise free.
+- **Drop any record whose key needs escaping.** Smallest possible change, and it
+  silently loses `BIO/B` and `RAC/WS`, which have no alternate form.
+- **Keep `shard_key` purely logical and escape at the write site.** Considered
+  and reversed: `apply_overrides` resolves an override file by shard key, so a
+  key that does not match the file on disk is a trap for a contributor. This is
+  why #5 updates `manual_overrides/README.md` in the same change.
+
+### Consequences
+
+`shard_key` is filesystem-aware by contract, not by accident, and its docstring
+says so. The escaped forms are new paths, so a client holding a cached
+`index.json` keeps asking for the old one until its TTL expires; that URL 404s
+rather than misresolving, which the spec already requires a client to tolerate.
+`BRK_A` and `BRK-A` will both publish as separate records for one security --
+the escape makes the duplicate visible and addressable, and does not resolve it.
+Resolving it settles a data question and is raised separately.
+
 ## 2026-09-02 `SPEC.md` supersedes the original design spec
 
 Status: Accepted.
