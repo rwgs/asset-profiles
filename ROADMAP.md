@@ -128,6 +128,10 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
   runs.
 - Omit a weighted list that is majority-synthetic instead of renormalizing
   `Unknown` to 1.0, and add the validator rule that makes shipping one an error.
+  **Done at `ebf634d73b`, 2026-09-03.** Omits `sector_weights` on 10 of 49
+  funds and `asset_class_weights` on 1; no `country_weights` list is affected.
+  The published tree predates the rule, so the gate names the eleven until a
+  rebuild.
 - Report per-fund coverage from the build: unknown share per axis, and every
   universe entry that produced no record with the reason why. **Done at
   `209ddb2343`, 2026-09-03.**
@@ -160,10 +164,12 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
   are 99% Equity, where the published records say 98% Fixed Income. That also
   proves what the fixtures could not: a real `-index-headers.html` matches the
   regex and a real multi-megabyte N-PORT parses.
-- [ ] No published weighted list is majority-synthetic. **The one item left.**
-- [~] Every published `country_code` resolves in `pycountry`. The rule exists
-  and no new record can carry an unassigned code; the four already published
-  fail it until a rebuild.
+- [~] No published weighted list is majority-synthetic. The rule exists and no
+  new record can carry one; the eleven already published fail it until a
+  rebuild. **This is the only criterion outstanding, and a rebuild is all it
+  needs.**
+- [x] Every published `country_code` resolves in `pycountry`. **Met in the
+  published data** by the rebuild at `383fec4aea`: no record carries `XX`.
 - [x] The build reports each universe entry as a record or a named failure.
 
 ### Validation

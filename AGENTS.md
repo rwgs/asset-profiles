@@ -95,9 +95,16 @@ two of them report no conflict with `main` while conflicting with each other.
   before validation, so a hand fix survives the weekly rebuild.
 
 `v1/**` is generated. Never hand-edit a shard or `index.json`; change the
-source, the normalizer, or an override and rebuild. `v1/` is roughly 400 MB
-across about 98,000 files, so glob it rather than reading it whole, and expect
-`git status` to be slow.
+source, the normalizer, or an override and rebuild. `v1/` is roughly 90,600
+files, so glob it rather than reading it whole, and expect git to be slow: a
+`git add -A v1/` after a rebuild takes about two minutes and the commit
+another thirty seconds. A timed-out `git add` leaves a stale
+`.git/index.lock`; the editor's git integration will then fail against it
+repeatedly, so check that no `git` process holds it before removing it.
+
+A full rebuild is **about seven minutes** on a developer host -- 5m48s to build
+and 59s to validate, measured 2026-09-03 with a warm `.http_cache`. Cold, the
+ETF pass costs about eleven minutes more at one request per second.
 
 Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
 `scripts/requirements.txt` and installed with `uv`. The non-US issuer fallback
@@ -224,10 +231,12 @@ Validate. This is the whole gate, and it takes about a minute over `v1/`.
 python scripts/validate.py v1/
 ```
 
-That command is complete on every host. It **exits 1 with 4 errors** as of
-2026-09-03, and those four are known: SCHD, SCHB, SCHX and SCHF each carry a
-country code ISO 3166-1 never assigned, which T9 made a failure and only a
-rebuild repairs. Expect exactly those four. Treat any other failure, or a
+That command is complete on every host. It **exits 1 with 11 errors** as of
+2026-09-03, and those eleven are known: T13 made a mostly-unresolved weighted
+list a failure, and the rebuild at `383fec4aea` predates that rule, so the tree
+holds exactly what the rule rejects -- ten `sector_weights` and one
+`asset_class_weights`, on six bond funds and four ex-US equity funds. A rebuild
+clears them. Expect exactly those eleven. Treat any other failure, or a
 different count, as something your change caused.
 
 It reported 15 errors for a day and the history is worth knowing, because the
@@ -239,9 +248,10 @@ gate going red was the design working, not a regression.
 
 **A red gate on `v1/` is a real result, so do not rebuild the data to clear
 it.** Deleting or regenerating shards is destructive work that needs sign-off;
-see the working boundaries above. This has now happened three times -- T4's 15,
-then zero, then T9's 4 -- and each time the gate going red was the design
-working rather than a regression.
+see the working boundaries above. This has now happened four times -- T4's 15,
+then zero, then T9's 4, then T13's 11 -- and each time the gate going red was
+the design working rather than a regression. Three of the four were cleared by
+a rebuild or by the fix that caused them, never by editing a shard.
 
 To check that no new call has started relying on the host locale, make the
 warning fatal -- it names the offending line:
@@ -253,9 +263,9 @@ python -X warn_default_encoding -W error::EncodingWarning scripts/validate.py v1
 Test. Fast, and it needs only `pycountry` and `jsonschema` from the
 requirements, so it runs where a full install does not. `test_build.py` and
 `test_edgar.py` `importorskip` on `pandas` and `requests`, so on that bare
-install they skip rather than fail: measured 2026-09-03, **83 passed and 2
+install they skip rather than fail: measured 2026-09-03, **97 passed and 2
 skipped** with only `pytest`, `pycountry` and `jsonschema` installed, against
-**110 passed** with the full requirements. CI installs everything, so nothing
+**124 passed** with the full requirements. CI installs everything, so nothing
 is skipped on the runner.
 
 ```bash

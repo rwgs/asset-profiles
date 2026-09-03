@@ -114,12 +114,17 @@ rather than of the work. Its exit criteria assume merges, a CI run, and a
 refresh, and all three need a maintainer who has said the repository is on
 standby. Nothing in this checkout can supply them.
 
-**Phase 2 is nearly done, and one item is left.** T9 through T12 landed on
-2026-09-03: an unassigned `country_code` is rejected, a holding's sector
-resolves through CUSIP, the build reports per-fund coverage, and an ISIN-less
-record every symbol of which is claimed is absorbed. What remains is omitting a
-majority-synthetic weighted list, which is the only Phase 2 item that changes
-what the dataset publishes rather than how it is built.
+**Phase 2's four items are all done, and one rebuild separates it from
+closing.** T9 through T13 landed on 2026-09-03, and T14 rebuilt `v1/` so five
+of them are visible in the published data. Three of the four exit criteria are
+met. The fourth -- no published weighted list is majority-synthetic -- has its
+rule and fails on eleven records, because T14's rebuild predates T13. One more
+rebuild closes the phase.
+
+**`v1/` was rebuilt, and `SCHD` now reads as its own fund**: 99.95% Equity
+against the 98.0% Fixed Income it published for three months, 102 holdings led
+by QUALCOMM, Texas Instruments and UnitedHealth. 49 ETF records against 10, and
+`generated_at` finally off 2026-05-31. See T14.
 
 **This fork now publishes.** Answered 2026-09-03 and recorded in `DECISIONS.md`:
 `README.md` points jsDelivr at `rwgs/asset-profiles@main` and the weekly
@@ -134,20 +139,19 @@ So what remains here is not Phase 1 code:
   refresh half is no longer blocked** -- the schedule that matters is this
   fork's, and it needs `SEC_USER_AGENT` set as a repository secret plus
   sign-off on the rebuild.
-- **The published dataset is still stale**, and honestly says so:
-  `next_refresh_at` is 2026-06-07 and was deliberately left there. Every record
-  holds data fetched on 2026-05-31.
-- **A rebuild shrinks the dataset, and that is the thing to weigh.** Measured
-  against the live source on 2026-09-03: 112,654 equity rows normalize to
-  111,537 and merge to 90,514 records, against 98,463 published. Upstream now
-  publishes 30,378 rows carrying an ISIN against the 14,716 records that hold
-  one here, so the cross-listing merge absorbs 21,022 rows rather than leaving
-  them as separate shards. Roughly 8,000 shard URLs stop resolving. That is
-  more correct and it is still a breaking change for anything holding a path,
-  which is why it needs sign-off rather than a schedule.
-- **A rebuild also nearly quadruples ETF coverage.** A live ETF-only probe on
-  2026-09-03 produced **38 records from the 65 universe entries**, against the
-  10 published. #6's series resolution is what finds the other 28.
+- ~~The published dataset is still stale.~~ **Refreshed 2026-09-03 by T14.**
+  `generated_at` is 2026-09-03 and `next_refresh_at` 2026-09-10, and that is
+  now a commitment this repository has to keep.
+- **The rebuild shrank the dataset, and the reason was measured, not
+  assumed.** 90,513 stock records against 98,463, and 8,730 index symbols stop
+  resolving -- **every one of them absent from FinanceDatabase upstream too**,
+  checked against the 112,651 symbols it publishes today. None was dropped by
+  this pipeline. Anything holding one of those paths breaks, and that was the
+  cost signed off.
+- **ETF coverage went from 10 records to 49**, of 65 universe entries. #6's
+  series resolution finds the filings a CIK-level lookup could not, and the
+  negative-weight fix admits the 11 funds the schema had been rejecting. The
+  16 with no record are each named with a reason in the build log.
 - **Both open questions are answered**, 2026-09-03. See the questions section.
 - **W6 and W7** are what this repository owes the client, and W6 needs holdings
   data that must not be committed here.
@@ -558,6 +562,88 @@ The next code change belongs to Phase 2 as well. See `ROADMAP.md`.
     the right place for it and loses nothing silently.
   - Automated validation: 105 passed to 110. Both absorption tests confirmed
     red before the change; the three regression tests pass either way.
+
+- [x] **T13 (Phase 2).** Omit a weighted list that is mostly unresolved.
+  **Done 2026-09-03, committed on `main` at `ebf634d73b`.**
+  - Scope: `_enrich_holding` buckets what it cannot resolve as `Unknown`, or
+    `Other` for asset class, and `_renormalized` scales the result to 1.0, so a
+    list carrying no signal passes every check. Drop one whose synthetic share
+    exceeds half, at the source and as a validator rule.
+  - Threshold: **0.5, `majority` read literally rather than tuned.** The
+    alternative measured was 0.25, which would omit 19 of 49 rather than 10 and
+    would discard partial signal on SSO 46%, VEA 42%, SCHF 40%, IEFA 37%,
+    EFA 34% and IWF 31%.
+  - Acceptance criteria, met and measured against the 49 records rebuilt the
+    same day: omits `sector_weights` on 10 and `asset_class_weights` on 1, and
+    no `country_weights` list on any fund. The split is not arbitrary -- six
+    bond funds at 99.9-100%, where an equity sector is meaningless rather than
+    missing, and four ex-US equity funds at 51-82%, which is a real gap.
+  - **Gate: `validate.py v1/` reports 11 errors and exits 1.** The rebuild at
+    `383fec4aea` predates the rule, so the tree holds exactly what the rule
+    rejects. A rebuild clears it and the errors name every record it changes.
+  - Automated validation: 115 passed to 124. Nine new tests including the
+    threshold boundary. One existing test changed rather than added:
+    `test_an_absent_country_code_is_not_an_error` used the label `Unknown` at
+    weight 1.0 to assert something unrelated and began failing for the wrong
+    reason, so it now names a real country. That interaction is the reason a
+    threshold on a magic label needs a test at the boundary.
+
+- [x] **T14.** Rebuild `v1/` from the live sources.
+  **Done 2026-09-03 with sign-off, committed on `main` at `383fec4aea`, on its
+  own as `AGENTS.md` requires. 99,693 files changed.**
+  - Scope: the first full rebuild since bootstrap and the first refresh since
+    2026-05-31, making six pipeline commits visible in the data.
+  - Rehearsed first, into a scratch tree, so nothing about it was a guess:
+    `--out` to a temporary directory, gate run there, and every number below
+    taken twice.
+  - Acceptance criteria, met: `diff: +1219 / ~89343 / -9130`; 90,513 stock and
+    49 ETF records; index 111,584 symbols and 9,400 ISINs;
+    **`python scripts/validate.py v1/` OK, exit 0**, from 4 errors.
+  - Manual validation, which is the check that matters: `SCHD` reads as its own
+    fund. It was 98.0% Fixed Income carrying the whole trust's holdings; it is
+    now **99.95% Equity, 102 holdings, led by QUALCOMM, Texas Instruments and
+    UnitedHealth**, with Health Care 20.6% and Consumer Staples 18.5%. That is
+    Phase 2's headline defect gone from the data rather than only from the code.
+  - **The stock count falls by 7,950 and 8,730 index symbols stop resolving,
+    and this was measured rather than assumed.** Every one of those 8,730 is
+    absent from FinanceDatabase upstream too: checked against the 112,651
+    symbols it publishes today, **zero** were still present, so none was dropped
+    by this pipeline. The ISIN count falls 14,725 to 9,400 for the same reason.
+  - Timing, for the next one: 5m48s to build and 59s to validate with a warm
+    cache; the ETF pass costs about eleven minutes more cold. `git add -A v1/`
+    then takes about two minutes and the commit thirty seconds.
+  - `generated_at` moves to 2026-09-03 and `next_refresh_at` to 2026-09-10,
+    spending P2's acceptance signal as intended. Those fields were deliberately
+    frozen through T5 because repairing reachability is not a refresh; this is
+    one.
+
+- [ ] **T15 (Phase 2 follow-on).** Bridge a holding's ISIN to a record the
+  dataset already has.
+  - Why, and it is measured rather than assumed: T13 omits `sector_weights` on
+    four ex-US equity funds, and the cause is **not missing sector data**. Of
+    the unresolved weight across VWO, IEMG, EEM, VXUS, SCHF and VEA, **58.7%
+    is holdings whose identifiers match no stock record** against **0.2% that
+    match a record carrying no sector**. FinanceDatabase's sector coverage is
+    96% of its ISIN-keyed records.
+  - The companies are already in the dataset. Unmatched holdings by ISIN
+    prefix against stock records held for that market: CN 6,189 against 5,992,
+    IN 1,777 against 5,558, JP 1,137 against 5,110, TW 1,347 against 1,572,
+    KR 754 against 1,784. `TR` is the exception at 441 against 0, a genuine
+    coverage gap a bridge would not close.
+  - The join fails because N-PORT reports ISIN and CUSIP and **never a ticker**
+    -- 1 of 4,857 holdings measured -- while the stock dataset carries 9,400
+    ISINs and 12,798 CUSIPs against **42,817 composite FIGIs**.
+  - Candidate: OpenFIGI maps ISIN to composite FIGI. **Verify the licence
+    before writing anything** -- it is identifier mapping rather than quotes,
+    fundamentals or a proprietary taxonomy, which is why it is a candidate at
+    all, but `DECISIONS.md` constrains this area and the answer is not obvious.
+    GLEIF's ISIN-to-LEI file is CC0 but bridges only to a legal name, needing
+    fuzzy matching.
+  - Acceptance criteria: the four funds publish `sector_weights` again, meaning
+    their synthetic share falls below T13's 0.5, without any record's existing
+    sector changing.
+  - Dependencies or blockers: a licensing decision, and it is a new external
+    source in a project whose HTTP path and provenance rules are strict.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),

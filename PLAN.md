@@ -1,79 +1,74 @@
-# The rebuild, waiting on sign-off
+# One rebuild from closing Phase 2
 
-Nothing is mid-edit. What is in flight is a decision: the first full rebuild of
-`v1/` since bootstrap, which four changes on 2026-09-03 have made both possible
-and necessary, and which needs sign-off because it rewrites 98,000 files and
-retires roughly 8,000 URLs.
+Nothing is mid-edit. Phase 2's four items are all implemented and `v1/` has been
+rebuilt once, at `383fec4aea`. That rebuild predates T13, the last item to land,
+so the published tree holds exactly what T13's rule rejects and
+`python scripts/validate.py v1/` reports **11 errors**. A second rebuild clears
+them and closes the phase.
 
-## Why a rebuild is now the blocking step
+## What the day delivered
 
-Four pipeline changes landed, closing three of Phase 2's four items, and **none
-of them can be seen in the published data**. `v1/` still holds records fetched
-on 2026-05-31.
+Seven pipeline commits and one data commit, in order:
 
-- `790b45e584` rejects a country code ISO 3166-1 never assigned. Four published
-  records carry `XX`, so `validate.py v1/` now **exits 1 with 4 errors**. This
-  is the only thing making the gate red, and only a rebuild clears it.
-- `b8806b695d` resolves a holding's sector through CUSIP. SCHD's `Unknown`
-  sector weight falls 13.0% to 1.5% -- in a rebuild.
-- `209ddb2343` reports per-fund coverage. It showed a live ETF pass producing
-  **38 records from 65 universe entries against the 10 published**.
-- `d9bcbd11fd` absorbs the one record the index cannot reach.
+| Commit | Change |
+| --- | --- |
+| `790b45e584` | Reject a country code ISO 3166-1 never assigned |
+| `b8806b695d` | Resolve a holding's sector through CUSIP |
+| `209ddb2343` | Report per-fund ETF coverage from the build |
+| `d9bcbd11fd` | Absorb an ISIN-less record whose every symbol is claimed |
+| `6e83a572e6` | Publish from this fork; fix URLs that never resolved |
+| `61699480e4` | Let a weight express a short position |
+| `ebf634d73b` | Omit a weighted list that is mostly unresolved |
+| `383fec4aea` | Rebuild `v1/` from the live sources |
 
-Add `52fdc78ce3` from the day before, whose four Schwab records still hold the
-byte-identical holdings a CIK-level lookup produced, and the gap between what
-the pipeline does and what the dataset says is the whole of Phase 2's remaining
-visible defect.
+The visible result is that `SCHD` describes `SCHD`. It published 98.0% Fixed
+Income with the whole Schwab trust's holdings for three months; it now publishes
+99.95% Equity, 102 holdings led by QUALCOMM, Texas Instruments and UnitedHealth,
+with Health Care at 20.6%. Phase 2 exists for that sentence.
 
-## What a rebuild would actually do
+## The next action
 
-Measured against the live source on 2026-09-03, not estimated:
+**Rebuild again.** It is the same operation as T14, now with a measured cost:
+5m48s to build, 59s to validate, about 2m30s to stage and commit. It would omit
+`sector_weights` on ten funds and `asset_class_weights` on one, take the gate to
+exit 0, and close Phase 2's last exit criterion.
 
-| | Published | After a rebuild |
-| --- | --- | --- |
-| Stock records | 98,463 | 90,514 |
-| ETF records | 10 | 38 |
-| Rows read | -- | 112,654, normalizing to 111,537 |
-| Records with an unassigned country code | 4 | 0 |
-| Records the index cannot reach | 0 (T5 retired them) | 0 |
+It is a second `v1/**` rewrite, so it needs sign-off like the first. The diff
+will be far smaller than T14's: only the 49 ETF records change, plus every
+stock record's `provenance.fetched_at`.
 
-**The stock count falls, and that is the part to weigh.** It is not data loss:
-upstream now publishes 30,378 rows carrying an ISIN against the 14,716 records
-that hold one here, so the cross-listing merge absorbs 21,022 rows into 9,356
-canonical records instead of leaving them as separate shards. The dataset gets
-more correct and roughly 8,000 shard URLs stop resolving. Every one of those is
-a URL a client may hold, which is exactly the risk `ROADMAP.md` names for
-Phase 1 and the reason this is sign-off work.
+## What comes after, and why it is worth doing
 
-`generated_at` and `next_refresh_at` would finally move off 2026-05-31 and
-2026-06-07, which is P2's acceptance signal and is still unspent.
+**T15, the identifier bridge.** T13 omits `sector_weights` on four ex-US equity
+funds -- IEMG, EEM, VWO, VXUS -- and the cause is measured and is not missing
+sector data:
 
-## Two things that must be true first
+- 58.7% of unresolved weight is holdings matching no stock record; 0.2% is
+  records carrying no sector.
+- The companies are already here. Unmatched holdings against records held for
+  the same market: CN 6,189 against 5,992, IN 1,777 against 5,558, JP 1,137
+  against 5,110.
+- N-PORT reports ISIN and CUSIP and never a ticker -- 1 in 4,857 holdings. The
+  dataset carries 9,400 ISINs and 12,798 CUSIPs but **42,817 composite FIGIs**.
 
-- **`SEC_USER_AGENT` must be a repository secret on `rwgs/asset-profiles`.**
-  `gh secret list` reports none, and EDGAR answers 403 without it, so the ETF
-  pass would produce nothing and the refresh would publish a stocks-only tree.
-- **The rebuild must not use `--no-stocks`.** The enrichment index comes from
-  the in-memory stocks pass, so an ETF-only build silently gives every record
-  100% `Unknown` sector weights. The 2026-09-03 probe shows exactly that.
+So a bridge from holding ISIN to composite FIGI would republish those lists
+using sector data already in the dataset. OpenFIGI is the candidate and its
+licence must be checked first: `DECISIONS.md` constrains this area, and the fact
+that identifier mapping is not quotes, fundamentals or a proprietary taxonomy is
+an argument rather than an answer.
 
-## What is left in Phase 2 after it
+## Still owed, and not this project's code
 
-One item: omitting a weighted list that is majority-synthetic rather than
-renormalizing `Unknown` to 1.0, plus the validator rule that makes shipping one
-an error. It is the only Phase 2 item that changes what the dataset publishes
-rather than how it is built, and its cost moved: before CUSIP resolution it
-would have removed `sector_weights` from six of ten records, and SCHD now
-resolves to 1.5% `Unknown`. Re-measure against a rebuilt tree before choosing a
-threshold. Read `SPEC.md` on absence meaning unknown, and W5 in `TASKS.md`.
+- **`SEC_USER_AGENT` as a repository secret** on `rwgs/asset-profiles`.
+  `gh secret list` reports none, and the scheduled refresh takes 403 from EDGAR
+  without it. The workflow is committed and correct; the secret is not set.
+- **P1**, approving CI on the seven open upstream PRs, needs write access on a
+  repository that is on standby.
+- **W1 through W7**, the client-side work in `wealthfolio-dev`.
 
-## Two defects raised and not acted on
+## One trap worth keeping in mind
 
-Both found by the coverage report on its first live run, both out of scope for
-the change that found them, both in `TASKS.md` under the current phase.
-
-- A negative weight fails the schema, and 11 of 49 EDGAR-sourced funds hit it.
-  N-PORT reports short positions; `SH`, an inverse fund, carries `-0.239799`.
-  Deciding whether the dataset represents a short position settles what it
-  publishes.
-- `build.py --no-stocks` silently drops the sector axis, as above.
+`build.py --no-stocks` silently produces 100% `Unknown` sector weights, because
+the enrichment index comes from the in-memory stocks pass. Under T13 that now
+means every `sector_weights` list is omitted rather than merely wrong. A refresh
+must never use the flag.
