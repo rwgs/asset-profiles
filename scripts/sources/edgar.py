@@ -259,13 +259,22 @@ def _to_float(s: Optional[str]) -> Optional[float]:
 
 
 def _classify_country(iso: Optional[str], invCountry: Optional[str]) -> tuple[Optional[str], Optional[str]]:
-    """N-PORT records ISO 3166-1 alpha-2 country codes. Map to display name."""
+    """N-PORT records ISO 3166-1 alpha-2 country codes. Map to display name.
+
+    A well-shaped code that ISO 3166-1 does not assign is dropped rather than
+    published: filers write `XX` for a holding they do not place, and taking
+    the code as its own display name put a country called `XX` into four
+    records. Dropping it aggregates the holding as `Unknown`, which is what it
+    is.
+    """
     code = (iso or invCountry or "").strip().upper()
     if not code:
         return None, None
     if not re.fullmatch(r"[A-Z]{2}", code):
         return None, None
-    name = alpha2_to_country_name(code) or code
+    name = alpha2_to_country_name(code)
+    if name is None:
+        return None, None
     return name, code
 
 

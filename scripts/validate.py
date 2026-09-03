@@ -87,6 +87,14 @@ def validate_record(record: dict) -> list[str]:
         if abs(total - 1.0) > WEIGHT_SUM_TOL:
             errors.append(f"weights: {field} sums to {total:.4f}, expected 1.0 +/- {WEIGHT_SUM_TOL}")
 
+    # The schema checks a code's shape, not its existence, so `XX` -- what an
+    # N-PORT filer writes for a holding it does not place -- reaches a record
+    # looking valid. A client resolves the code to a country, and one that ISO
+    # 3166-1 never assigned is worse than an absent one.
+    for label, code in _country_codes(record):
+        if normalize.alpha2_to_country_name(code) is None:
+            errors.append(f"country: {label}: {code!r} is not an assigned ISO 3166-1 alpha-2 code")
+
     th = record.get("top_holdings") or []
     if th:
         top_total = sum(h.get("weight", 0.0) for h in th)
@@ -94,6 +102,19 @@ def validate_record(record: dict) -> list[str]:
             errors.append(f"weights: top_holdings sums to {top_total:.4f}, must be <= 1.0")
 
     return errors
+
+
+def _country_codes(record: dict) -> list[tuple[str, str]]:
+    """Every country code a record publishes, labelled by where it sits."""
+    found = []
+    code = record.get("country_code")
+    if code:
+        found.append(("country_code", code))
+    for i, w in enumerate(record.get("country_weights") or []):
+        code = w.get("country_code")
+        if code:
+            found.append((f"country_weights/{i}/country_code", code))
+    return found
 
 
 def validate_index(index: dict, root: Path) -> list[str]:

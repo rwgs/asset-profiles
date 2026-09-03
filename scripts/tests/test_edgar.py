@@ -261,3 +261,43 @@ def test_an_unreadable_series_index_leaves_the_cik_path_working(http, caplog):
         assert _tickers(edgar.fetch_latest_nport(TRUST_CIK, ticker="XLF")) == ["MSFT"]
 
     assert "company_tickers_mf.json" in caplog.text
+
+
+# ---- country classification ---------------------------------------------
+#
+# N-PORT's `invCountry` is documented as ISO 3166-1 alpha-2, but filers write
+# `XX` for a holding they do not place. Taking the code as its own display name
+# published a country called `XX` in four records.
+
+
+def test_an_assigned_country_code_is_named():
+    assert edgar._classify_country("US", "US") == ("United States", "US")
+
+
+def test_a_lower_case_code_is_normalised():
+    assert edgar._classify_country("de", "de") == ("Germany", "DE")
+
+
+@pytest.mark.parametrize("code", ["XX", "ZZ", "QQ"])
+def test_an_unassigned_code_is_dropped(code):
+    """Well-shaped but never assigned, so the holding is unplaced, not foreign."""
+    assert edgar._classify_country(code, code) == (None, None)
+
+
+def test_a_malformed_code_is_dropped():
+    assert edgar._classify_country("USA", "USA") == (None, None)
+
+
+def test_an_absent_code_is_dropped():
+    assert edgar._classify_country(None, None) == (None, None)
+
+
+def test_a_holding_with_an_unassigned_country_parses_without_one():
+    """The whole holding must survive; only its country is dropped."""
+    xml = _nport_xml("2026-04-30", "Some Bond", "BOND").replace(
+        b"<invCountry>US</invCountry>", b"<invCountry>XX</invCountry>"
+    )
+    parsed = edgar.parse_nport_xml(xml)
+    holding = parsed["holdings"][0]
+    assert holding["name"] == "Some Bond"
+    assert "country" not in holding and "country_code" not in holding

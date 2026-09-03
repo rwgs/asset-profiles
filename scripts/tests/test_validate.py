@@ -246,3 +246,37 @@ def test_a_reserved_name_fails_the_tree_and_not_only_the_name_check(
         encoding="utf-8",
     )
     assert validate.validate_tree(tmp_path) == 1
+
+
+# ---- country codes ------------------------------------------------------
+#
+# The schema constrains a code to two upper-case letters, which `XX` satisfies.
+# N-PORT filers write it for a holding they do not place, and it reached four
+# published records as a country whose display name was also `XX`.
+
+
+def test_an_unassigned_country_code_is_an_error(stock_record):
+    stock_record["country_code"] = "XX"
+    errors = validate.validate_record(stock_record)
+    assert [e for e in errors if e.startswith("country: country_code:")]
+
+
+def test_an_unassigned_code_in_country_weights_is_an_error(etf_record):
+    etf_record["country_weights"] = [
+        {"country": "United States", "country_code": "US", "weight": 0.9},
+        {"country": "XX", "country_code": "XX", "weight": 0.1},
+    ]
+    errors = validate.validate_record(etf_record)
+    assert [e for e in errors if e.startswith("country: country_weights/1/country_code:")]
+
+
+def test_an_absent_country_code_is_not_an_error(etf_record):
+    """A weighted country with no code means unplaced, and the schema allows it."""
+    etf_record["country_weights"] = [{"country": "Unknown", "weight": 1.0}]
+    assert validate.validate_record(etf_record) == []
+
+
+def test_an_assigned_code_that_is_not_us_passes(stock_record):
+    """Guard against a check that only recognises the fixture's own code."""
+    stock_record["country_code"] = "JE"  # Jersey: assigned, and in the dataset
+    assert validate.validate_record(stock_record) == []
