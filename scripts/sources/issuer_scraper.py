@@ -81,7 +81,10 @@ def fetch_issuer_holdings(ticker: str, issuer_hint: Optional[str]) -> dict:
     try:
         from etf_scraper import ETFScraper  # type: ignore[import-untyped]
     except ImportError as e:
-        raise RuntimeError("etf-scraper not installed; pip install etf-scraper") from e
+        raise RuntimeError(
+            "etf-scraper not installed; "
+            "uv pip install -r scripts/requirements-issuer.txt"
+        ) from e
 
     scraper = ETFScraper()
     log.info("issuer scrape: ticker=%s issuer=%s", ticker, canonical)

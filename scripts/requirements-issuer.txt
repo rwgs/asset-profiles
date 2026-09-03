@@ -1,0 +1,10 @@
+# Optional: the non-US issuer-holdings fallback in scripts/sources/issuer_scraper.py.
+#
+# Kept out of requirements.txt because `etf-scraper` pins numpy<2.0, which has no
+# wheel past Python 3.12 -- so installing it on a newer interpreter tries to
+# compile numpy from source and fails without a C toolchain.
+#
+# Nothing else needs it. The import is lazy and the build reports a named failure
+# and continues when it is absent, which is what already happens for every fund
+# that reaches this path today.
+etf-scraper>=0.1.2

@@ -88,7 +88,9 @@ across about 98,000 files, so glob it rather than reading it whole, and expect
 `git status` to be slow.
 
 Toolchain: Python 3.12 in CI, dependencies pinned by lower bound in
-`scripts/requirements.txt` and installed with `uv`. Targets are GitHub Actions
+`scripts/requirements.txt` and installed with `uv`. The non-US issuer fallback
+is the one exception, split into `scripts/requirements-issuer.txt` because it
+pins `numpy<2.0` and would otherwise cap the whole project at 3.12. Targets are GitHub Actions
 `ubuntu-latest` for the build and jsDelivr for delivery. `pytest` covers the
 normalizer and the validator; there is no formatter, linter, or type checker
 configured.
@@ -98,8 +100,8 @@ PR #5's escaping is merged to `main`, so this is fixed rather than worked
 around. Verified 2026-09-02 by cloning `main` with `core.protectNTFS` left at
 its default: the clone completed, `git status` was clean, no path carried
 `skip-worktree`, and all 98,464 stock shards were on disk -- the same count a
-Linux checkout gets. `validate.py v1/` then reported the same 15 errors there as
-on Linux, and the suite the same 61 passed and 5 xfailed.
+Linux checkout gets. `validate.py v1/` then reported the same errors there as on
+Linux -- 15 at the time, and zero since -- and the suite the same count.
 
 If you are in an older checkout, `core.protectNTFS=false` and `skip-worktree` on
 `v1/stocks/CON.json` and `v1/stocks/CON.DE.json` were the workaround. Clear them
@@ -167,16 +169,31 @@ character in a message the validator writes itself puts it back.
 
 ## Commands
 
-Set up. Python 3.12, with `uv` on PATH. `uv pip install` needs either an active
-virtualenv or `--system`; the bare command in `README.md` and `CONTRIBUTING.md`
-fails without one. Not 3.13: `etf-scraper` pins `numpy<2.0`, which has no wheel
-for 3.13, so the install tries to compile numpy from source and fails. The
-tests import neither and run anywhere.
+Set up. Any supported Python, with `uv` on PATH. `uv pip install` needs either
+an active virtualenv or `--system`; the bare command in `README.md` and
+`CONTRIBUTING.md` fails without one.
 
 ```bash
 uv venv
 uv pip install -r scripts/requirements.txt
 ```
+
+**The version ceiling is gone from that command, and only from that command.**
+`etf-scraper` pins `numpy<2.0`, which publishes no wheel past 3.12, so the
+install used to compile numpy from source and fail on any host without a C
+toolchain. It now lives in `scripts/requirements-issuer.txt` and is installed
+separately -- verified 2026-09-03 by installing the rest on Python 3.14.5 and
+running a live build. CI still pins 3.12 and still installs the extra, so what
+the refresh produces has not changed.
+
+```bash
+uv pip install -r scripts/requirements-issuer.txt    # non-US issuer fallback
+```
+
+Skip it unless you are working on `issuer_scraper.py`. The import is lazy and
+the build reports a named failure and continues without it, which is already
+what happens for every fund reaching that path -- all ten published ETF records
+come from EDGAR and none from the scraper.
 
 Build. `SEC_USER_AGENT` must carry a real name and email or EDGAR answers 403.
 
@@ -193,13 +210,19 @@ Validate. This is the whole gate, and it takes about a minute over `v1/`.
 python scripts/validate.py v1/
 ```
 
-That command is complete on every host, and since #5 merged it reports the same
-thing on all of them: **15 failures on `v1/`, by design**. Fourteen are shards
-on disk that `index.json` does not name -- the 13 nested under `v1/stocks/` plus
-`stocks/SAND.json` -- and one reports that the count the index claims, the files
-on disk, and the paths it names are three different numbers. That is T4
-reporting what T6 repairs and T5 rebuilds; do not read it as a regression your
-change caused, and do not expect a different number on Windows any more.
+That command is complete on every host, and since 2026-09-03 it **exits 0** on
+all of them. Treat any failure as something your change caused.
+
+It reported 15 errors for a day and the history is worth knowing, because the
+number appears in `TASKS.md` and in commit messages: T4 made an unreachable
+shard a failure, which surfaced the 13 records the old `shard_key` had nested
+under directories plus `stocks/SAND.json`, and a three-way count mismatch. T6
+stopped new ones being created and the minimal half of T5 retired the 14. The
+gate going red was the design working, not a regression.
+
+**A red gate on `v1/` is now a real result, so do not rebuild the data to clear
+it.** Deleting or regenerating shards is destructive work that needs sign-off;
+see the working boundaries above.
 
 To check that no new call has started relying on the host locale, make the
 warning fatal -- it names the offending line:
