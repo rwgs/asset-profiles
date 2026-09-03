@@ -177,3 +177,52 @@ def test_names_agree_or_cannot_tell(record_name, figi_names):
 def test_names_disagree_is_silent_when_it_cannot_tell(record_name, figi_names):
     """Never guess: this drops a canonical key, so absence of evidence is not evidence."""
     assert openfigi.names_disagree(record_name, figi_names) is False
+
+
+# ---- a rejected API key -------------------------------------------------
+
+
+class _Rejecting:
+    """Answers every POST the way OpenFIGI answers a bad key."""
+
+    def __init__(self, status):
+        self._status = status
+        self.payloads = []
+
+    def post_json(self, url, payload, **kw):
+        self.payloads.append(payload)
+        raise _HttpError(self._status)
+
+
+class _HttpError(Exception):
+    def __init__(self, status):
+        super().__init__(f"HTTP {status}")
+        self.response = type("R", (), {"status_code": status})()
+
+
+@pytest.mark.parametrize("status", [401, 403])
+def test_a_rejected_key_raises_rather_than_returning_nothing(status, monkeypatch):
+    """A bad key fails every batch, so degrading would publish the defects
+    both rules exist to correct and still exit 0."""
+    monkeypatch.setenv("OPENFIGI_API_KEY", "wrong-value")
+    http = _Rejecting(status)
+    with pytest.raises(openfigi.CredentialError) as excinfo:
+        openfigi.map_isins(["US0378331005"], cache=http)
+    assert "OPENFIGI_API_KEY" in str(excinfo.value)
+    # Raised on the first batch rather than after sweeping 9,400 ISINs.
+    assert len(http.payloads) == 1
+
+
+@pytest.mark.parametrize("status", [401, 403])
+def test_the_same_status_without_a_key_configured_still_degrades(status, monkeypatch):
+    """Nothing for the operator to fix, so this keeps the documented posture:
+    leave every record as the source reported it and carry on."""
+    monkeypatch.delenv("OPENFIGI_API_KEY", raising=False)
+    assert openfigi.map_isins(["US0378331005"], cache=_Rejecting(status)) == {}
+
+
+def test_an_outage_still_degrades_even_with_a_key(monkeypatch):
+    """503 is not a credential problem, and OpenFIGI being down must not stop
+    a refresh that has real data to publish."""
+    monkeypatch.setenv("OPENFIGI_API_KEY", "good-value")
+    assert openfigi.map_isins(["US0378331005"], cache=_Rejecting(503)) == {}

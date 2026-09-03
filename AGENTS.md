@@ -117,7 +117,12 @@ two of them report no conflict with `main` while conflicting with each other.
   configuring one must not discard a warm cache. It is worth having: typing
   every published ISIN is 940 requests and about 39 minutes without it, and 94
   requests and under a minute with it, because the tier raises both the pacing
-  and the jobs per request.
+  and the jobs per request. **A key that is set and rejected exits 2**, on the
+  same grounds as the SEC check: it fails every batch, so degrading would
+  publish the defects T19 and T20 exist to correct and still exit 0. A bad key
+  is worse than no key, since unset simply means batches of 10. Any other
+  OpenFIGI failure -- an outage, a 503 -- still degrades and leaves each record
+  as the source reported it.
 - `schema/` holds the three JSON Schemas. `config/` holds the ETF universe, the
   Yahoo-suffix-to-MIC map, and the sector label map.
 - `manual_overrides/{shard_key}.json` is deep-merged over a generated record
@@ -306,7 +311,7 @@ requirements, so it runs where a full install does not. `test_build.py`,
 `test_edgar.py`, `test_http_cache.py` and `test_openfigi.py` `importorskip` on
 `pandas` or `requests`, so on that bare install they skip rather than fail:
 measured 2026-09-03, **111 passed and 4 skipped** with only `pytest`,
-`pycountry` and `jsonschema` installed, against **214 passed** with the full
+`pycountry` and `jsonschema` installed, against **221 passed** with the full
 requirements. CI installs everything, so nothing is skipped on the runner.
 
 ```bash

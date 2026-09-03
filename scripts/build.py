@@ -224,6 +224,11 @@ def apply_figi_identity(records: list[dict]) -> None:
         return
     try:
         figi_by_isin = openfigi.map_isins(isins)
+    except openfigi.CredentialError:
+        # A rejected key is the operator's to fix and fails every batch, so
+        # degrading here would publish the very defects this corrects and
+        # still exit 0. `main` turns it into exit 2.
+        raise
     except Exception:
         log.warning("OpenFIGI sweep failed; publishing source types unchanged", exc_info=True)
         return
@@ -474,7 +479,11 @@ def main(argv: list[str] | None = None) -> int:
     # ---- stocks ----
     stocks: list[dict] = []
     if not args.no_stocks:
-        stocks = build_stocks(mappings, fetched_at, limit=args.limit)
+        try:
+            stocks = build_stocks(mappings, fetched_at, limit=args.limit)
+        except openfigi.CredentialError as e:
+            log.error("%s", e)
+            return 2
 
         stock_keys, stock_errors = write_records(
             stocks, out_dir / "stocks", "stock", summary=summary

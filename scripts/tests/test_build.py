@@ -309,3 +309,28 @@ def test_the_austrian_certificates_are_typed_rather_than_disowned():
     figi = {"AT0000A2H326": [{"securityType2": "Corp", "name": "ERSTE GROUP BANK AG"}]}
     kinds, wrong = build.figi_identity(records, figi)
     assert kinds == {"AT0000A2H326": "debt"} and wrong == set()
+
+
+def test_a_rejected_key_is_not_swallowed_by_the_graceful_path(monkeypatch):
+    """`apply_figi_identity` degrades on any other failure, so the credential
+    error has to pass through it to reach `main`."""
+    def reject(isins, **kw):
+        raise build.openfigi.CredentialError("OPENFIGI_API_KEY was rejected")
+
+    monkeypatch.setattr(build.openfigi, "map_isins", reject)
+    with pytest.raises(build.openfigi.CredentialError):
+        build.apply_figi_identity([_rec("US0378331005", "Apple Inc.", "US")])
+
+
+def test_the_build_exits_2_on_a_rejected_key(monkeypatch, tmp_path, caplog):
+    """Same exit code and posture as a missing SEC contact: a configuration
+    error stops the run rather than publishing a dataset with none of the
+    corrections applied."""
+    def reject(mappings, fetched_at, limit=None):
+        raise build.openfigi.CredentialError("OPENFIGI_API_KEY was rejected")
+
+    monkeypatch.setattr(build, "build_stocks", reject)
+    with caplog.at_level(logging.ERROR):
+        code = build.main(["--no-etfs", "--out", str(tmp_path)])
+    assert code == 2
+    assert "OPENFIGI_API_KEY" in caplog.text

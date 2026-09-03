@@ -197,7 +197,7 @@ So what remains here is not Phase 1 code:
   symbol; T20 keeps a non-equity record but corrects its `kind` and strips the
   sector it inherited; T15 waits for a source carrying TSMC's Taiwan line
   rather than aliasing it to the ADR. Both implemented rules are on `main`,
-  suite at 214 passed and `validate.py v1/` still exit 0. T15's provenance
+  suite at 221 passed and `validate.py v1/` still exit 0. T15's provenance
   question is the one still open, and holding T15 means nothing waits on it.
 - **The sweep that answered them typed all 9,400 published ISINs and
   partitions into two counts**, both measured against the shipped rule rather
@@ -210,12 +210,15 @@ So what remains here is not Phase 1 code:
   and a rebuild needs sign-off. It also moves roughly 322 shard paths, since a
   record that loses its ISIN re-keys to its symbol. Verified instead against a
   `--limit 4000 --out` probe tree, where `validate.py` exits 0.
-- **The refresh timeout moved from 45 minutes to 90, and there is one human
-  action outstanding**: set `OPENFIGI_API_KEY` as a repository secret. It is
-  free. Without it the ISIN sweep is 940 requests and about 39 minutes on the
-  cold cache CI always has; with it, 94 requests and under a minute. The
-  ceiling is sized for its absence so the job cannot be killed by an unset
-  optional secret.
+- **The refresh timeout moved from 45 minutes to 90, and `OPENFIGI_API_KEY` is
+  now set** -- 2026-09-03 at 20:59Z, confirmed with `gh secret list`. The ISIN
+  sweep is 94 requests and under a minute with it, against 940 requests and
+  about 39 minutes on the cold cache CI always has, so the expected run is
+  well inside 45; the ceiling stays at 90 because it is sized for the key
+  being absent or revoked rather than for the happy path. **The key's value
+  has never been exercised anywhere**, so Sunday 06:00 UTC is its first test.
+  A rejected key now exits 2 rather than silently publishing a dataset with
+  none of T19's or T20's corrections applied.
 
 ### Found by the coverage report, and not fixed
 
@@ -1211,7 +1214,7 @@ exists on the finding that a wrong MIC is worse than an absent one.
     152 flagged records that carry one, including `ARCHER DANIELS MIDLAND`
     against `ADMIRAL GROUP PLC`. The record's `composite_figi` comes from the
     same FinanceDatabase row as its wrong ISIN. Do not retry it.
-  - Automated validation, done: 214 passed. `test_build.py` asserts the
+  - Automated validation, done: 221 passed. `test_build.py` asserts the
     two-signal rule over the AAR Corp and EVN cases the criteria name, the
     ordering over `LU0950674332`, and that a `XS` prefix -- a Eurobond, which
     names no jurisdiction -- can never be the second signal.
@@ -1300,7 +1303,7 @@ exists on the finding that a wrong MIC is worse than an absent one.
     classifies on -- sector, industry, country, weights -- and the grounds for
     moving it are that refusing the value means publishing 554 wrong sectors to
     protect a rule whose purpose was to prevent exactly that.
-  - Automated validation, done: 214 passed, including
+  - Automated validation, done: 221 passed, including
     `AT0000A2H326` asserted end to end -- retyped to `debt`, sector and both
     industry fields gone, still reachable at the same shard -- and a case
     proving an unmapped or absent type restates nothing.

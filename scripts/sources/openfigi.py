@@ -50,6 +50,19 @@ def max_jobs_per_request() -> int:
     return MAX_JOBS_PER_REQUEST_KEYED if openfigi_api_key() else MAX_JOBS_PER_REQUEST
 
 
+class CredentialError(RuntimeError):
+    """A configured `OPENFIGI_API_KEY` was rejected.
+
+    Separate from every other failure here because it is the operator's to
+    fix and because it is silent otherwise: a rejected key fails *every*
+    batch, so the sweep returns nothing, no record gets typed, no wrong ISIN
+    gets dropped, and the build still exits 0 having published the defects
+    both rules exist to correct. A bad key is worse than no key -- without one
+    the batch size is 10 and the sweep works -- so this is raised rather than
+    warned. `TASKS.md` T17 is the same lesson for `SEC_USER_AGENT`.
+    """
+
+
 def _batched(items: list[str], size: int) -> Iterable[list[str]]:
     for i in range(0, len(items), size):
         yield items[i:i + size]
@@ -77,6 +90,13 @@ def map_isins(
         try:
             results = http.post_json(MAPPING_URL, payload)
         except Exception as exc:  # noqa: BLE001 - one bad batch must not end the run
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            if status in (401, 403) and openfigi_api_key():
+                raise CredentialError(
+                    f"OpenFIGI rejected OPENFIGI_API_KEY with HTTP {status}. Fix or "
+                    f"unset it: unset, the sweep still runs at 10 jobs per request. "
+                    f"In CI this is the repository secret of that name."
+                ) from exc
             log.warning("OpenFIGI mapping failed for %d ISINs: %s", len(batch), exc)
             continue
         if not isinstance(results, list) or len(results) != len(batch):

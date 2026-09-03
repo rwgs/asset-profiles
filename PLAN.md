@@ -24,22 +24,27 @@ non-equities of which 554 publish a sector they do not have**. Earlier figures
 in `TASKS.md` -- 104, 164, 622 -- were floors from narrower detectors and
 should not be quoted.
 
-Gate: **214 passed** (111 and 4 skipped on the bare install), and
+Gate: **221 passed** (111 and 4 skipped on the bare install), and
 `python scripts/validate.py v1/` still **exits 0**. A `--limit 4000 --out`
 probe build exercises both rules and validates clean.
 
 ## What is outstanding, in order
 
-1. **Set `OPENFIGI_API_KEY` as a repository secret.** One human action, free to
-   obtain, and the only thing that makes the sweep cheap: 94 requests and under
-   a minute against 940 requests and about 39 minutes. The refresh timeout was
-   raised 45 -> 90 minutes so its absence cannot kill the job, but 90 minutes
-   weekly against a free unauthenticated service is not the intended resting
-   state.
-2. **Rebuild `v1/`, with sign-off.** It applies both rules to the published
-   tree and is where the defects actually stop being served. It moves roughly
-   322 shard paths, because a record that loses its ISIN re-keys to its symbol,
-   so it removes URLs as well as changing files. Rehearse into a `--out` tree
+1. ~~Set `OPENFIGI_API_KEY` as a repository secret.~~ **Done 2026-09-03 at
+   20:59Z**, confirmed with `gh secret list`. The sweep is now 94 requests and
+   under a minute in CI rather than 940 and ~39 minutes. **Its value has never
+   been exercised**, here or on a runner, because the secret is not readable
+   and was not set locally -- so Sunday 06:00 UTC is the first test of it. A
+   rejected key exits 2 rather than publishing a dataset with none of the
+   corrections applied, which is what makes that first run safe to leave
+   unattended. To check it sooner, set it locally and run:
+   `python -c "import sys; sys.path[:0]=['scripts','scripts/sources']; import openfigi; print(openfigi.max_jobs_per_request(), len(openfigi.map_isins(['US0378331005'])))"`
+   -- it should print `100 1`, and raise `CredentialError` if the key is wrong.
+2. **Rebuild `v1/`, with sign-off.** Now the next action, and the one that
+   matters: it applies both rules to the published tree, which is where the
+   defects actually stop being served. It moves roughly 322 shard paths,
+   because a record that loses its ISIN re-keys to its symbol, so it removes
+   URLs as well as changing files. Rehearse into a `--out` tree
    first, as T14 and T16 both did, and keep it a commit holding nothing but
    `v1/**`.
 3. **T18 is still open and is not closed by any of this.** A depositary receipt
