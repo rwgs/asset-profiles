@@ -936,6 +936,27 @@ exists on the finding that a wrong MIC is worse than an absent one.
     "add the missing local listings" cannot come from FinanceDatabase either.
     A second identifier source, or a schema that lets one record carry several
     ISINs, is the whole option set.
+  - **Decided 2026-09-03: add a second identifier source.** Recorded here
+    rather than in `DECISIONS.md` because the follow-on measurement narrowed
+    which source can do it, and the narrowing is the useful part.
+  - **OpenFIGI, now adopted, cannot be that source, and this is checked rather
+    than assumed.** Its v3 mapping response carries ten fields --
+    `figi`, `compositeFIGI`, `shareClassFIGI`, `name`, `ticker`, `exchCode`,
+    `marketSector`, `securityType`, `securityType2`, `securityDescription` --
+    and **no ISIN among them**. It is a one-way ISIN-to-FIGI map, so it can say
+    that `US6410694060` is Nestle and it cannot produce `CH0038863350`. It does
+    settle T19, which is a different question, and it is worth being explicit
+    that adopting it does not close this task.
+  - **The candidate that could, and it is unverified**: GLEIF's ISIN-to-LEI
+    file, inverted. T15 rejected GLEIF on the grounds that it "bridges only to
+    a legal name, needing fuzzy matching", and that objection is right about
+    the forward direction and wrong about this one -- ISIN to LEI to *every
+    other ISIN sharing that LEI* is an exact join with no name matching
+    anywhere in it, and the file is CC0. **What decides it is unmeasured**:
+    whether a depositary receipt's ISIN maps to the issuer's LEI or to the
+    depositary bank's. If the issuer's, the Nestle and Hon Hai cases resolve
+    directly; if the bank's, GLEIF is no better than OpenFIGI here. One file
+    and one lookup settles it, and nobody has run it.
 
 - [ ] **T19.** Decide what to publish when the source attaches one company's
   ISIN to another company that shares its ticker.
