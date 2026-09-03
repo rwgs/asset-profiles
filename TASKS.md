@@ -169,6 +169,16 @@ So what remains here is not Phase 1 code:
 - **#6 is now proven against live EDGAR**, not only against fixtures -- see T7,
   which this closes. It still cannot be seen in the published data until a
   refresh runs.
+- **T18's measurement is done, 2026-09-03, and it found a second defect the
+  task was not looking for.** 2,142 records carry an ISIN whose country prefix
+  disagrees with their own `country_code` -- 22.9% of the 9,356 that have an
+  ISIN, and every one of them already wrong in FinanceDatabase rather than
+  introduced here. Inside that count, **164 records are keyed by an ISIN that
+  belongs to a different company**, because the source joined on a bare ticker:
+  AAR Corp. is published as Clean Air Metals' ISIN. That is now T19, and it is
+  a worse defect than the receipt keying T18 was raised for. Also worth
+  carrying forward: only **9,356 of 90,513** stock records have an ISIN at all,
+  against `DECISIONS.md` making ISIN the canonical key.
 
 ### Found by the coverage report, and not fixed
 
@@ -835,8 +845,9 @@ exists on the finding that a wrong MIC is worse than an absent one.
        than a comment.
   - Prerequisite regardless of the above: the POST path in `http_cache`.
 
-- [ ] **T18.** Stop a cross-listed record being identified by its depositary
-  receipt's ISIN.
+- [~] **T18.** Stop a cross-listed record being identified by its depositary
+  receipt's ISIN. **Measured 2026-09-03; the count is below and the fix is
+  still a decision.**
   - Found 2026-09-03 while probing T15's join, and it is a defect in published
     data rather than in the pipeline's logic. Two records read wrong today:
     Nestle is `v1/stocks/US6410694060.json` and Hon Hai Precision is
@@ -881,6 +892,106 @@ exists on the finding that a wrong MIC is worse than an absent one.
   - Dependencies or blockers: none for the measurement. A fix probably needs a
     schema change, since one record legitimately covers several ISINs, and that
     is a decision rather than an edit.
+  - **The count, measured 2026-09-03 against the published tree at
+    `550ab5ed09`: 2,142.** Both criteria above are met, and the answer to the
+    schema-or-source question is *source*, twice over and for two different
+    reasons -- so this task's title now covers only part of what the count
+    holds. See T19 for the other part.
+  - **Most records have no ISIN to disagree with.** 81,157 of the 90,513 stock
+    records carry none, so the mismatch is 2,142 of the **9,356** that do --
+    **22.9%**. Upstream is the reason rather than the pipeline: only 30,429 of
+    FinanceDatabase's 112,654 equity rows, 27.0%, carry an ISIN at all. Worth
+    holding next to `DECISIONS.md` making ISIN the canonical record key: nine
+    records in ten cannot be reached by that key.
+  - **The pipeline introduces none of them.** For all 2,142, the record's
+    `country_code` is one FinanceDatabase itself reports against that ISIN --
+    checked row by row against the live source, 0 exceptions. 292 are ISINs the
+    source labels with more than one country across its own rows, and the merge
+    picks one of the source's own answers. So `group_cross_listings` is
+    exonerated across the whole class, not just on Nestle and Hon Hai.
+  - What the 2,142 is made of, by two independent cuts:
+
+    | cut | count | reading |
+    | --- | --- | --- |
+    | prefix is an offshore incorporation domicile (KY, BM, LU, IE, ...) | 1,123 | legitimate: incorporated there, operating elsewhere |
+    | residual, prefix is a real operating jurisdiction | 1,019 | the class worth looking at |
+    | carries a venue in its own `country_code` | 1,110 | record spans the home market -- the Nestle and Hon Hai shape |
+    | no venue in its own `country_code` | 1,032 | |
+    | name announces a receipt (ADR/GDR/ADS/sponsored) | 101 | confirmed receipt keying, named as such |
+
+    The venue cut uses a MIC-to-country table built for the 47 MICs present. It
+    is a lower bound on home-market presence and not an upper one, because the
+    23 unmapped suffixes and the bare-symbol default both land on `XNYS` -- see
+    the client-integration findings above -- so a real home line can be
+    mislabelled as New York but never the reverse.
+  - **The receipt half cannot be fixed from this source, and that is the answer
+    to the second acceptance criterion.** The local ISINs appear in
+    FinanceDatabase **zero times**: `CH0038863350` (Nestle's Swiss line),
+    `TW0002317005` (Hon Hai's Taiwan line), and -- bearing directly on T15 --
+    `TW0002330008` (TSMC's Taiwan line). The source publishes only the
+    receipt's ISIN, against every listing including the local one: all five Hon
+    Hai rows carry `US4380908057`, `2317.TW` included, and all eight Nestle
+    rows carry `US6410694060`, `NESN.SW` included. So no fix is available
+    inside `normalize.py`, none inside this source, and T15's Phase 3 answer of
+    "add the missing local listings" cannot come from FinanceDatabase either.
+    A second identifier source, or a schema that lets one record carry several
+    ISINs, is the whole option set.
+
+- [ ] **T19.** Decide what to publish when the source attaches one company's
+  ISIN to another company that shares its ticker.
+  - **Found 2026-09-03 by T18's measurement, and it is the sharper half of what
+    that measurement turned up.** T18 asks about depositary receipts, where the
+    record at least describes the right company under the wrong security's
+    identifier. This is the other thing inside the same 2,142: **164 published
+    stock records are keyed by an ISIN that belongs to a different company
+    entirely.**
+  - The case to read first, verified end to end in the published tree:
+    `v1/stocks/CA18452Y1007.json` is **AAR Corp.**, a US industrial, listed
+    `AIR`. `CA18452Y1007` is **Clean Air Metals Inc.**, a Canadian materials
+    company -- which the dataset also holds, at `v1/stocks/CLRMF.json`, keyed
+    by symbol with `"isin": null`. So the ISIN resolves to the wrong company
+    and its real owner is unreachable by it. Same shape: Helmerich & Payne at
+    `CA4234071054` (Hello Pal International), MKS Instruments at
+    `CA24380K3038` (DeepMarkit), Essex Property Trust at `AU0000096943`
+    (Experience Co), Eaton Vance Municipal Income Trust at `AT0000741053`
+    (EVN AG), Putnam Premier Income Trust at `AU000000PPT9` (Perpetual).
+  - **The cause is upstream and it is a bare-ticker join.** FinanceDatabase
+    reports `EVN` / `AT0000741053` / United States / NYQ / `Eaton Vance
+    Municipal Income Trust` in one row, while EVN AG's own eight rows
+    (`EVN.VI`, `EVN.DE`, `EVN.BE`, ...) carry no ISIN at all. The Austrian
+    company's identifier has been attached to the US fund that shares the bare
+    symbol. This is the same failure T15 already rejected a route over --
+    *never join on the ticker*, where Roche's ISIN yielded bare tickers
+    matching Roper Technologies -- except that here it is baked into the source
+    before the pipeline sees it.
+  - Why it outranks T18 in harm even though it is smaller: T18's records
+    describe the right company, so a consumer gets Nestle under a receipt's
+    ISIN. Here a consumer joining on `CA18452Y1007` is handed a different
+    company, in a different country, in a different sector, and the company it
+    asked for is published under a key it has no way to guess.
+  - **164 is a lower bound.** The detector requires the true owner to appear in
+    the source *without* an ISIN and to share the record's bare ticker, so it
+    finds only collisions where both sides survived into the dataset. It found
+    209 such pairs in all; 45 of them are the same company under a wrong
+    `country_code` rather than a wrong ISIN -- CSR Limited published as
+    Morocco, Sayona Mining as Canada -- which is a third, smaller defect in the
+    same measurement and needs no schema question to fix.
+  - Scope, and it is a decision before it is a change: choose between dropping
+    the ISIN from a record that fails a plausibility check and keeping it with
+    the record marked. Dropping it is cheap, reversible, and costs the 164
+    records their canonical key while making their true owners reachable;
+    keeping it publishes a join that is known to be wrong. Either way the check
+    belongs in `validate.py` as a rule rather than in an override file, because
+    83,764 shards take their identity from a weekly upstream refresh.
+  - Acceptance criteria: no published record is keyed by an ISIN the same
+    source attributes to a differently-named company; and whichever rule is
+    chosen is asserted in `scripts/tests` over at least the AAR Corp and EVN
+    cases, so a refresh cannot quietly reintroduce them.
+  - Dependencies or blockers: none factual -- the measurement is done and
+    reproducible. It needs the publish-or-drop decision, which is a product
+    question rather than an edit, and it should be settled together with T18's
+    since both are answers to "what does this dataset do when the source's
+    identifier is wrong".
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),

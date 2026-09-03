@@ -58,6 +58,22 @@ Roche's ISIN yields bare tickers matching Roper Technologies; and excluding
 cash from the sector denominator is worth 1 to 3 points rather than the 5 to 8
 the cash weights suggest, because the share is renormalized.
 
+**T18's measurement ran on 2026-09-03 and is the one thing here that moved
+since.** It is recorded under T18 with its date, so both of that task's
+acceptance criteria are met and what remains of it is a decision rather than a
+measurement. Two results change the order above. First, the receipt keying
+cannot be repaired from FinanceDatabase at all: `CH0038863350`,
+`TW0002317005` and `TW0002330008` appear in **zero** source rows, so T15's
+Phase 3 fallback of "add the missing local listings" is not available from this
+source either and the option set is a second identifier source or a schema
+change. Second, the measurement turned up a defect nobody was looking for --
+**164 records keyed by another company's ISIN**, now T19 -- which is worse than
+what T18 was raised for and is decided by the same question.
+
+**So the next decision is a joint one**: T15's three questions and T19's
+publish-or-drop are all "what does this dataset do when an identifier is
+wrong", and answering them separately risks answering them inconsistently.
+
 **Then Phase 3.** `ROADMAP.md` has the order; it has not been opened and its
 exit criteria have not been re-read against what the last two days changed.
 
