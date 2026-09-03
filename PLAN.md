@@ -12,7 +12,7 @@ gate's new resting state to `AGENTS.md`.
 ## Where the project stands
 
 `python scripts/validate.py v1/` **exits 0** against a dataset rebuilt the same
-day, and the suite is **124 passed** (97 and 2 skipped on a bare install). The
+day, and the suite is **139 passed** (97 and 3 skipped on a bare install). The
 published dataset is 90,513 stock records and 49 ETF records, generated
 2026-09-03, with `next_refresh_at` 2026-09-10 -- a commitment this repository
 now has to keep, since it is what jsDelivr serves.
@@ -26,22 +26,37 @@ Staples 18.5%.
 ## What is worth doing next, in order
 
 **T15, the identifier bridge**, is the highest-value work and `TASKS.md` has
-it. It is the difference between a coverage gap and a correct answer among
-T13's ten omissions: six are bond funds, where omitting an equity sector is
-right, but IEMG, EEM, VWO and VXUS lose a list only because their holdings
-cannot be joined. The measurement that makes this the right fix rather than a
-new data source:
+it, now with the measurement it was waiting for. Two things are settled since
+this section was last written, and one of them corrects it.
 
-- 58.7% of unresolved weight is holdings matching no stock record; 0.2% is
-  records carrying no sector.
-- The companies are already here: CN 6,189 unmatched holdings against 5,992
-  records held, IN 1,777 against 5,558, JP 1,137 against 5,110.
-- N-PORT reports ISIN and CUSIP and never a ticker -- 1 in 4,857 holdings --
-  while the dataset carries 9,400 ISINs and **42,817 composite FIGIs**.
+**Settled: the licence clears.** FIGI identifiers carry a Bloomberg
+public-domain dedication with MIT embedded in the OMG standard -- freely
+redistributable, commercial use allowed, no attribution clause, no restriction
+on storing a mapping. It is identifier mapping rather than quotes,
+fundamentals or a proprietary taxonomy, so neither 2026-05-09 decision reaches
+it. Nothing needs re-checking here.
 
-Check OpenFIGI's licence before writing anything. `DECISIONS.md` constrains
-this area, and identifier mapping not being quotes, fundamentals or a
-proprietary taxonomy is an argument, not an answer.
+**Corrected: this is not purely a join problem.** The bridge resolves 3,351 of
+7,265 unresolved ISINs across the four funds, which takes VXUS, IEMG and EEM
+under T13's threshold but leaves **VWO at 53.7% and still omitted**, and IEMG
+inside a rounding error of it. The deciding residual is a coverage gap after
+all: TSMC's Taiwan line is the largest unresolved holding in all four funds and
+the dataset holds only the NYSE ADR. Resolve that one ISIN as well and all four
+clear with margin -- VWO 39.6%, VXUS 19.9%, IEMG 37.3%, EEM 33.2%. So T15 and
+Phase 3 overlap where this section said they did not.
+
+**What is actually blocking it is three decisions**, listed under T15 and
+deliberately not taken while measuring: whether to adopt OpenFIGI as a fourth
+source at all, whether TSMC is fixed by a mapping to the ADR record or by
+adding the missing local listings in Phase 3, and what `provenance` says for a
+record whose sector arrived through a third-party mapping. The last is the
+sharpest, because a record that cannot be attributed does not ship.
+
+Two smaller things the measurement produced, both recorded under T15 so they
+are not rediscovered: never join on the ticker OpenFIGI returns, because
+Roche's ISIN yields bare tickers matching Roper Technologies; and excluding
+cash from the sector denominator is worth 1 to 3 points rather than the 5 to 8
+the cash weights suggest, because the share is renormalized.
 
 **Then Phase 3.** `ROADMAP.md` has the order; it has not been opened and its
 exit criteria have not been re-read against what the last two days changed.

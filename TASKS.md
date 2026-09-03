@@ -756,17 +756,131 @@ exists on the finding that a wrong MIC is worse than an absent one.
   - The join fails because N-PORT reports ISIN and CUSIP and **never a ticker**
     -- 1 of 4,857 holdings measured -- while the stock dataset carries 9,400
     ISINs and 12,798 CUSIPs against **42,817 composite FIGIs**.
-  - Candidate: OpenFIGI maps ISIN to composite FIGI. **Verify the licence
-    before writing anything** -- it is identifier mapping rather than quotes,
-    fundamentals or a proprietary taxonomy, which is why it is a candidate at
-    all, but `DECISIONS.md` constrains this area and the answer is not obvious.
-    GLEIF's ISIN-to-LEI file is CC0 but bridges only to a legal name, needing
-    fuzzy matching.
+  - **The licence is verified and it clears, 2026-09-03.** OpenFIGI maps ISIN
+    to composite FIGI, and FIGI identifiers carry a Bloomberg public-domain
+    dedication with the MIT licence embedded in the OMG standard: *"FIGI
+    Identifiers may be freely reproduced, distributed, transmitted, used,
+    modified, built upon, or otherwise exploited by anyone for any purpose,
+    commercial or non-commercial"*. No attribution clause, no non-commercial
+    limit, no restriction on storing or republishing a mapping. It is
+    identifier mapping rather than quotes, fundamentals or a proprietary
+    taxonomy, so neither the 2026-05-09 Yahoo decision nor the taxonomy one
+    reaches it. Unauthenticated limits are 25 requests a minute at 10 jobs
+    each; `robots.txt` disallows only `/search`. GLEIF's ISIN-to-LEI file is
+    CC0 but bridges only to a legal name, needing fuzzy matching, so it stays
+    the second choice.
+  - **Measured against full holdings, 2026-09-03, and the bridge alone does not
+    meet the criteria below.** Live N-PORT for the four funds through this
+    repository's own `http_cache`, every unresolved ISIN mapped through
+    OpenFIGI -- 7,265 distinct ISINs in 727 requests -- joined on composite
+    FIGI only. **3,351 of the 7,265, 46.1%, reach a record**, and 3,249 of
+    those carry a sector. Shares are computed with `normalize`'s own
+    `_enrich_holding` and `_aggregate_weights`, so the `now` column reproduces
+    the published omission rather than estimating it. Synthetic sector share,
+    as published then with the bridge:
+
+    | fund | holdings | unresolved ISINs | now | with bridge | publishes? |
+    | --- | --- | --- | --- | --- | --- |
+    | VWO | 6,411 | 4,563 | 76.9% | **53.7%** | no |
+    | VXUS | 8,878 | 6,960 | 50.8% | 23.7% | yes |
+    | IEMG | 2,700 | 2,308 | 82.4% | 49.1% | yes, by 0.9pt |
+    | EEM | 1,251 | 1,041 | 80.8% | 47.1% | yes |
+
+  - **One holding decides it, and it is a coverage gap rather than an
+    identifier one.** TSMC's Taiwan line `TW0002330008` is the largest residual
+    in all four funds -- 14.5% of VWO, 13.8% of EEM, 11.8% of IEMG, 3.9% of
+    VXUS -- and the dataset does not hold it. Only the NYSE ADR, `TSM` /
+    `US8740391003`, which is a separate security with its own FIGI that
+    OpenFIGI correctly declines to equate with the ordinary share. Map that one
+    ISIN to the ADR's record and all four clear with margin instead of three by
+    a hair: **VWO 39.6%, VXUS 19.9%, IEMG 37.3%, EEM 33.2%**. The ADR record
+    carries sector `Information Technology` and `country_code` `TW`, so the
+    substance is right even though the security is not the same one.
+  - Two routes measured and rejected, so they are not tried again:
+    - **Never join on the ticker OpenFIGI returns.** Roche's ISIN yields a
+      ticker set whose bare symbols match `RHHVF` *and* `ROP` -- Roper
+      Technologies. It would have booked Roche's weight into Roper's sector
+      silently. Composite FIGI only.
+    - **Excluding non-equity holdings from the sector denominator is worth 1 to
+      3 points, not the 5 to 8 the cash weights suggest**, because the share is
+      renormalized: VWO 53.7% to 51.6%, still omitted. Cash is 4.3% of VWO and
+      7.9% of IEMG. Worth doing for its own sake, no help here.
+  - Prerequisite in `http_cache`, which is small but real: it has no POST path,
+    and OpenFIGI's mapping endpoint is POST. Its module docstring already
+    claims the key is `sha256(method:url:body)` while `_cache_key` hashes no
+    body, so the body has to enter the key when POST does.
   - Acceptance criteria: the four funds publish `sector_weights` again, meaning
     their synthetic share falls below T13's 0.5, without any record's existing
-    sector changing.
-  - Dependencies or blockers: a licensing decision, and it is a new external
-    source in a project whose HTTP path and provenance rules are strict.
+    sector changing. **On the measurement above this needs the bridge and
+    TSMC's Taiwan line together**; the bridge alone leaves VWO omitted and IEMG
+    inside a rounding error of the threshold.
+  - Dependencies or blockers: the licensing question is answered, so nothing
+    factual is outstanding. **Three decisions are, and none should be settled
+    by whoever implements this:**
+    1. **Adopt OpenFIGI at all?** It would be the fourth source and the first
+       that supplies no data of its own, only a join. `DECISIONS.md` needs an
+       entry either way, since a later reader will otherwise re-run the licence
+       question this task already answered.
+    2. **How is TSMC's Taiwan line fixed?** Mapping `TW0002330008` to the ADR
+       record is one line and clears all four funds today, but it asserts an
+       equivalence between two securities that OpenFIGI deliberately does not,
+       and it is a per-holding patch. Adding the missing local listings is the
+       Phase 3 answer, costs more, and fixes the class rather than the case.
+       The measurement above does not choose between them.
+    3. **What does `provenance` say for a record whose sector arrived through a
+       mapping?** Every record names source, URL, fetch time and licence, and
+       today an ETF record names EDGAR. The sector would now be reached via
+       OpenFIGI via a FinanceDatabase record, and the rule that a record which
+       cannot be attributed does not ship makes this a schema question rather
+       than a comment.
+  - Prerequisite regardless of the above: the POST path in `http_cache`.
+
+- [ ] **T18.** Stop a cross-listed record being identified by its depositary
+  receipt's ISIN.
+  - Found 2026-09-03 while probing T15's join, and it is a defect in published
+    data rather than in the pipeline's logic. Two records read wrong today:
+    Nestle is `v1/stocks/US6410694060.json` and Hon Hai Precision is
+    `v1/stocks/US4380908057.json`. Both are `US` ISINs naming a depositary
+    receipt; both records carry `country_code` `CH` and `TW`, list the local
+    line (`NESN.SW`, `2317.TW`) among their cross-listings, and hold the
+    receipt's CUSIP and composite FIGI rather than the share's. Hon Hai's is
+    the plainer case: its `primary_symbol` is `HHPD.IL`, a London GDR, and its
+    `name` reads *Hon Hai Precision Industry Co., Ltd. Sponsored GDR RegS*. So
+    the record presents as the receipt throughout, not only in its key.
+  - It compounds with the client-integration review's unmapped-suffix finding
+    above. `HHPD.IL` is a London GDR and `.IL` is one of the 23 suffixes
+    `config/exchange_mic.yml` does not carry, so that listing publishes as
+    `XNYS`/`USD`. The record for a Taiwanese company is therefore keyed by a US
+    receipt's ISIN, named as a GDR, and led by a London line presented as New
+    York in dollars -- while the `2317.TW` listing beside it is correct at
+    `XTAI`/`TWD`. Fixing the suffix map does not fix the key, and fixing the key
+    does not fix the suffix map.
+  - The cause is upstream, not in `group_cross_listings`. FinanceDatabase
+    reports the receipt's ISIN against the local symbol, so both rows arrive
+    carrying `US6410694060` and the merge is right to group them. **The local
+    ISIN never enters the pipeline at all**, which is why no fix is available
+    inside `normalize.py` as written.
+  - Why it matters beyond tidiness: `DECISIONS.md` makes ISIN the canonical
+    record key, and a consumer joining on it is handed a different security
+    than the one the record describes -- a US receipt in place of a Swiss
+    share, with a different currency, exchange and holder of record. It is also
+    why N-PORT's ISIN leg finds nothing for these companies: the filing reports
+    `CH0038863350` and the dataset holds `US6410694060`. Nestle survives that
+    only because OpenFIGI's answer for the Swiss ISIN happens to include the
+    receipt's composite FIGI among 180 rows; Hon Hai does not, and is one of
+    T15's misses.
+  - Scope, and the first step is a measurement rather than a change: count the
+    records whose ISIN country prefix disagrees with their own `country_code`.
+    That is machine-detectable across `v1/` and nobody has run it, so the
+    extent is unknown and the two above are the only confirmed cases. Decide
+    what to do only once the number is known -- it bears on whether this is a
+    schema question (a record needs more than one ISIN) or a source question.
+  - Acceptance criteria: the count exists and is recorded here with its date;
+    and either the affected records identify the security they describe, or the
+    reason they cannot is recorded against the source that reports it.
+  - Dependencies or blockers: none for the measurement. A fix probably needs a
+    schema change, since one record legitimately covers several ISINs, and that
+    is a decision rather than an edit.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),
