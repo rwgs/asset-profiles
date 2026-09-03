@@ -1,0 +1,130 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.993343
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.006752
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -9.5e-05
+    }
+  ],
+  "aum_usd": 13728069518.52,
+  "category": "Consumer Staples",
+  "category_group": "Consumer Staples",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.99062
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.00938
+    }
+  ],
+  "holdings_count": 40,
+  "identifiers": {
+    "isin": "US81369Y3080"
+  },
+  "isin": "US81369Y3080",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "XLP"
+    }
+  ],
+  "name": "Consumer Staples Select Sector SPDR Fund",
+  "primary_symbol": "XLP",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.960218
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.023745
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.016037
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "931142103",
+      "isin": "US9311421039",
+      "name": "Walmart Inc",
+      "weight": 0.107413
+    },
+    {
+      "cusip": "22160K105",
+      "isin": "US22160K1051",
+      "name": "Costco Wholesale Corp",
+      "weight": 0.089779
+    },
+    {
+      "cusip": "742718109",
+      "isin": "US7427181091",
+      "name": "Procter & Gamble Co/The",
+      "weight": 0.073867
+    },
+    {
+      "cusip": "191216100",
+      "isin": "US1912161007",
+      "name": "Coca-Cola Co/The",
+      "weight": 0.068076
+    },
+    {
+      "cusip": "718172109",
+      "isin": "US7181721090",
+      "name": "Philip Morris International Inc",
+      "weight": 0.060994
+    },
+    {
+      "cusip": "194162103",
+      "isin": "US1941621039",
+      "name": "Colgate-Palmolive Co",
+      "weight": 0.046701
+    },
+    {
+      "cusip": "02209S103",
+      "isin": "US02209S1033",
+      "name": "Altria Group Inc",
+      "weight": 0.04508
+    },
+    {
+      "cusip": "61174X109",
+      "isin": "US61174X1090",
+      "name": "Monster Beverage Corp",
+      "weight": 0.044285
+    },
+    {
+      "cusip": "713448108",
+      "isin": "US7134481081",
+      "name": "PepsiCo Inc",
+      "weight": 0.042987
+    },
+    {
+      "cusip": "609207105",
+      "isin": "US6092071058",
+      "name": "Mondelez International Inc",
+      "weight": 0.041293
+    }
+  ]
+}

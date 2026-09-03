@@ -5,6 +5,8 @@
     "composite_figi": "BBG001YKKF09",
     "figi": "BBG001YKKF18"
   },
+  "industry": "Automobiles",
+  "industry_group": "Automobiles & Components",
   "kind": "stock",
   "listings": [
     {
@@ -13,13 +15,17 @@
       "symbol": "BMW.TI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "BMW",
   "primary_symbol": "BMW.TI",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Consumer Discretionary",
+  "summary": "Bayerische Motoren Werke AG (BMW AG), a German enterprise established in Munich in 1916, is a global powerhouse specializing in the design, production, and distribution of automobiles and motorcycles under the BMW, MINI, and Rolls-Royce marques, along with financial services.",
+  "website": "https://www.bmwgroup.com"
 }

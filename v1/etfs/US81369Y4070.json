@@ -1,0 +1,148 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.999237
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.000775
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -1.2e-05
+    }
+  ],
+  "aum_usd": 22596644609.27,
+  "category": "Consumer Discretionary",
+  "category_group": "Consumer Discretionary",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.955806
+    },
+    {
+      "country": "Liberia",
+      "country_code": "LR",
+      "weight": 0.019711
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.01156
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.009691
+    },
+    {
+      "country": "Jersey",
+      "country_code": "JE",
+      "weight": 0.003232
+    }
+  ],
+  "holdings_count": 51,
+  "identifiers": {
+    "isin": "US81369Y4070"
+  },
+  "isin": "US81369Y4070",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "XLY"
+    }
+  ],
+  "name": "Consumer Discretionary Select Sector SPDR Fund",
+  "primary_symbol": "XLY",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.938015
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.022834
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.021771
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.01738
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "023135106",
+      "isin": "US0231351067",
+      "name": "Amazon.com Inc",
+      "weight": 0.222183
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "Tesla Inc",
+      "weight": 0.196374
+    },
+    {
+      "cusip": "437076102",
+      "isin": "US4370761029",
+      "name": "Home Depot Inc/The",
+      "weight": 0.058257
+    },
+    {
+      "cusip": "580135101",
+      "isin": "US5801351017",
+      "name": "McDonald's Corp",
+      "weight": 0.041533
+    },
+    {
+      "cusip": "872540109",
+      "isin": "US8725401090",
+      "name": "TJX Cos Inc/The",
+      "weight": 0.039225
+    },
+    {
+      "cusip": "09857L108",
+      "isin": "US09857L1089",
+      "name": "Booking Holdings Inc",
+      "weight": 0.03436
+    },
+    {
+      "cusip": "548661107",
+      "isin": "US5486611073",
+      "name": "Lowe's Cos Inc",
+      "weight": 0.030721
+    },
+    {
+      "cusip": "855244109",
+      "isin": "US8552441094",
+      "name": "Starbucks Corp",
+      "weight": 0.028974
+    },
+    {
+      "cusip": "571903202",
+      "isin": "US5719032022",
+      "name": "Marriott International Inc/MD",
+      "weight": 0.020178
+    },
+    {
+      "isin": "LR0008862868",
+      "name": "Royal Caribbean Cruises Ltd",
+      "weight": 0.019703
+    }
+  ]
+}

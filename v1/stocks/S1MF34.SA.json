@@ -1,6 +1,8 @@
 {
   "country": "Japan",
   "country_code": "JP",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,17 @@
       "symbol": "S1MF34.SA"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "SUMITOMO MITDRN",
   "primary_symbol": "S1MF34.SA",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Sumitomo Mitsui Financial Group, Inc. is a global financial holding company offering commercial banking, leasing, securities, and consumer finance services across Japan, the Americas, Europe, and Asia. Established in 2002, headquartered in Tokyo, Japan. This row represents the company's Brazilian Depositary Receipt (BDR).",
+  "website": "https://www.smfg.co.jp"
 }

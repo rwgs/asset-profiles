@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG0035TGBN7",
     "cusip": "67011P100",
-    "figi": "BBG0035TGBV8",
+    "figi": "BBG0035TGBT1",
     "isin": "US67011P1003"
   },
   "industry": "Energy Equipment & Services",
@@ -15,22 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "4S0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "4S0.MU"
     },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "DNOW"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "4S0.DE"
     },
     {
       "currency": "AED",
@@ -46,18 +36,13 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "DNOW.MX"
-    },
-    {
-      "currency": "CAD",
-      "exchange_mic": "XTSX",
-      "symbol": "MNOW.V"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "NOW Inc.",
-  "primary_symbol": "4S0.BE",
+  "primary_symbol": "4S0.MU",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

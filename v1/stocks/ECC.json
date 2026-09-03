@@ -1,6 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG006XN8K06",
+    "figi": "BBG006XN8K06"
+  },
   "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "kind": "stock",
@@ -11,15 +15,17 @@
       "symbol": "ECC"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Eagle Point Credit Company Inc. Common Stock",
+  "market_cap_band": "Small Cap",
+  "name": "Eagle Point Credit Company Inc.",
   "primary_symbol": "ECC",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials"
+  "sector": "Financials",
+  "summary": "Eagle Point Credit Company Inc. is a specialty finance company focused on investing in CLO equity and related securities. The company aims to generate high current income and long-term capital appreciation for its shareholders. Eagle Point Credit Company is headquartered in Greenwich, Connecticut.",
+  "website": "http://www.eaglepointcreditcompany.com"
 }

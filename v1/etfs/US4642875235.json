@@ -1,0 +1,146 @@
+{
+  "as_of_date": "2027-03-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.987483
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.012499
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 1.8e-05
+    }
+  ],
+  "aum_usd": 48398391208.85,
+  "category": "Technology",
+  "category_group": "Information Technology",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.83883
+    },
+    {
+      "country": "Taiwan, Province of China",
+      "country_code": "TW",
+      "weight": 0.064215
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.061641
+    },
+    {
+      "country": "Cayman Islands",
+      "country_code": "KY",
+      "weight": 0.019881
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "weight": 0.007814
+    },
+    {
+      "country": "Israel",
+      "country_code": "IL",
+      "weight": 0.007618
+    }
+  ],
+  "holdings_count": 33,
+  "identifiers": {
+    "isin": "US4642875235"
+  },
+  "isin": "US4642875235",
+  "issuer": "iShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "SOXX"
+    }
+  ],
+  "name": "iShares Semiconductor ETF",
+  "primary_symbol": "SOXX",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.784211
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.215789
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology, Inc.",
+      "weight": 0.08443
+    },
+    {
+      "cusip": "007903107",
+      "isin": "US0079031078",
+      "name": "Advanced Micro Devices, Inc.",
+      "weight": 0.079942
+    },
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp.",
+      "weight": 0.067306
+    },
+    {
+      "cusip": "458140100",
+      "isin": "US4581401001",
+      "name": "Intel Corp.",
+      "weight": 0.062552
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom, Inc.",
+      "weight": 0.060051
+    },
+    {
+      "cusip": "038222105",
+      "isin": "US0382221051",
+      "name": "Applied Materials, Inc.",
+      "weight": 0.057048
+    },
+    {
+      "cusip": "482480100",
+      "isin": "US4824801009",
+      "name": "KLA Corp.",
+      "weight": 0.055753
+    },
+    {
+      "cusip": "573874104",
+      "isin": "US5738741041",
+      "name": "Marvell Technology, Inc.",
+      "weight": 0.051603
+    },
+    {
+      "cusip": "512807306",
+      "isin": "US5128073062",
+      "name": "Lam Research Corp.",
+      "weight": 0.048363
+    },
+    {
+      "cusip": "874039100",
+      "isin": "US8740391003",
+      "name": "Taiwan Semiconductor Manufacturing Co. Ltd.",
+      "weight": 0.04213
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "country": "Japan",
   "country_code": "JP",
   "industry": "Gas Utilities",
+  "industry_group": "Utilities",
   "kind": "stock",
   "listings": [
     {
@@ -10,13 +11,17 @@
       "symbol": "1663.T"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "K&O Energy Group Inc",
   "primary_symbol": "1663.T",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Utilities",
+  "summary": "K&O Energy Group Inc. focuses on the natural gas industry, engaging in its exploration, extraction, distribution, and sale across Japan and internationally, and also manufactures iodine and supplies city gas and LP gas. Founded in 2014, the company is headquartered in Mobara, Japan.",
+  "website": "https://www.k-and-o-energy.co.jp"
 }

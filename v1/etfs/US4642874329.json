@@ -1,0 +1,113 @@
+{
+  "as_of_date": "2027-02-28",
+  "asset_class_weights": [
+    {
+      "asset_class": "Fixed Income",
+      "weight": 0.989429
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.010571
+    }
+  ],
+  "aum_usd": 42911362094.49,
+  "category": "Treasury Bonds",
+  "category_group": "Fixed Income",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 1.0
+    }
+  ],
+  "holdings_count": 47,
+  "identifiers": {
+    "isin": "US4642874329"
+  },
+  "isin": "US4642874329",
+  "issuer": "iShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "TLT"
+    }
+  ],
+  "name": "iShares 20+ Year Treasury Bond ETF",
+  "primary_symbol": "TLT",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Unknown",
+      "weight": 1.0
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "912810TT5",
+      "isin": "US912810TT51",
+      "name": "United States of America",
+      "weight": 0.045779
+    },
+    {
+      "cusip": "912810TV0",
+      "isin": "US912810TV08",
+      "name": "United States of America",
+      "weight": 0.045
+    },
+    {
+      "cusip": "912810UK2",
+      "isin": "US912810UK24",
+      "name": "United States of America",
+      "weight": 0.044612
+    },
+    {
+      "cusip": "912810UA4",
+      "isin": "US912810UA42",
+      "name": "United States of America",
+      "weight": 0.043997
+    },
+    {
+      "cusip": "912810SZ2",
+      "isin": "US912810SZ21",
+      "name": "United States of America",
+      "weight": 0.041532
+    },
+    {
+      "cusip": "912810TB4",
+      "isin": "US912810TB44",
+      "name": "United States of America",
+      "weight": 0.040349
+    },
+    {
+      "cusip": "912810TX6",
+      "isin": "US912810TX63",
+      "name": "United States of America",
+      "weight": 0.040334
+    },
+    {
+      "cusip": "912810UR7",
+      "isin": "US912810UR76",
+      "name": "United States of America",
+      "weight": 0.039483
+    },
+    {
+      "cusip": "912810UC0",
+      "isin": "US912810UC08",
+      "name": "United States of America",
+      "weight": 0.039422
+    },
+    {
+      "cusip": "912810TR9",
+      "isin": "US912810TR95",
+      "name": "United States of America",
+      "weight": 0.038606
+    }
+  ]
+}

@@ -7,6 +7,7 @@
     "figi": "BBG001D06C18",
     "isin": "CA7063271034"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "CA7063271034",
   "kind": "stock",
@@ -17,20 +18,27 @@
       "symbol": "P5P.BE"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "PBA"
+    },
+    {
       "currency": "AED",
       "exchange_mic": "DIFX",
       "symbol": "P5P.DU"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "PEMBINA PIPELINE CORP.",
   "primary_symbol": "P5P.BE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Pembina Pipeline Corporation is a Canadian company that provides transportation and midstream services for energy producers. Their services include pipelines, gas processing plants, and fractionation facilities. Pembina Pipeline is headquartered in Calgary, Alberta, Canada."
+  "summary": "Pembina Pipeline Corporation is a Canadian company that provides transportation and midstream services for energy producers. Their services include pipelines, gas processing plants, and fractionation facilities. Pembina Pipeline is headquartered in Calgary, Alberta, Canada.",
+  "website": "http://www.pembina.com"
 }

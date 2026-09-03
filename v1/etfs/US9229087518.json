@@ -1,0 +1,163 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.982955
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.017003
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 4.1e-05
+    }
+  ],
+  "aum_usd": 188886421960.87,
+  "category": "Small Cap",
+  "category_group": "Equities",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.999959
+    },
+    {
+      "country": "Unknown",
+      "weight": 4.1e-05
+    }
+  ],
+  "holdings_count": 1317,
+  "identifiers": {
+    "isin": "US9229087518"
+  },
+  "isin": "US9229087518",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VB"
+    }
+  ],
+  "name": "Vanguard Small-Cap ETF",
+  "primary_symbol": "VB",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Industrials",
+      "weight": 0.17789
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.173387
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.117851
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.111433
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.106452
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.070809
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.067533
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.042653
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.042175
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.034205
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.029177
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.026434
+    }
+  ],
+  "top_holdings": [
+    {
+      "name": "Vanguard Cmt Funds-Vanguard Market Liquidity Fund",
+      "weight": 0.01499
+    },
+    {
+      "cusip": "G25457105",
+      "isin": "KYG254571055",
+      "name": "Credo Technology Group Holding Ltd",
+      "weight": 0.005481
+    },
+    {
+      "cusip": "466313103",
+      "isin": "US4663131039",
+      "name": "Jabil Inc",
+      "weight": 0.004938
+    },
+    {
+      "cusip": "76155X100",
+      "isin": "US76155X1000",
+      "name": "REVOLUTION Medicines Inc",
+      "weight": 0.004592
+    },
+    {
+      "cusip": "04626A103",
+      "isin": "US04626A1034",
+      "name": "Astera Labs Inc",
+      "weight": 0.004523
+    },
+    {
+      "cusip": "632307104",
+      "isin": "US6323071042",
+      "name": "Natera Inc",
+      "weight": 0.004483
+    },
+    {
+      "cusip": "29084Q100",
+      "isin": "US29084Q1004",
+      "name": "EMCOR Group Inc",
+      "weight": 0.004477
+    },
+    {
+      "cusip": "90138F102",
+      "isin": "US90138F1021",
+      "name": "Twilio Inc",
+      "weight": 0.003802
+    },
+    {
+      "cusip": "629377508",
+      "isin": "US6293775085",
+      "name": "NRG Energy Inc",
+      "weight": 0.003742
+    },
+    {
+      "cusip": "55306N104",
+      "isin": "US55306N1046",
+      "name": "MKS Instruments Inc",
+      "weight": 0.003647
+    }
+  ]
+}

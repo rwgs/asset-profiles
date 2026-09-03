@@ -1,0 +1,131 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.999965
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 3.5e-05
+    }
+  ],
+  "aum_usd": 77435569643.22,
+  "category": "Technology",
+  "category_group": "Information Technology",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.820888
+    },
+    {
+      "country": "Taiwan, Province of China",
+      "country_code": "TW",
+      "weight": 0.092936
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.074515
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "weight": 0.011661
+    }
+  ],
+  "holdings_count": 26,
+  "identifiers": {
+    "isin": "US92189F6768"
+  },
+  "isin": "US92189F6768",
+  "issuer": "VanEck",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "SMH"
+    }
+  ],
+  "name": "VanEck Semiconductor ETF",
+  "primary_symbol": "SMH",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000868368"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.718408
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.281592
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp",
+      "weight": 0.174948
+    },
+    {
+      "cusip": "874039100",
+      "isin": "US8740391003",
+      "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+      "weight": 0.092606
+    },
+    {
+      "cusip": "038222105",
+      "isin": "US0382221051",
+      "name": "Applied Materials Inc",
+      "weight": 0.05722
+    },
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology Inc",
+      "weight": 0.056564
+    },
+    {
+      "cusip": "007903107",
+      "isin": "US0079031078",
+      "name": "Advanced Micro Devices Inc",
+      "weight": 0.05612
+    },
+    {
+      "cusip": "482480100",
+      "isin": "US4824801009",
+      "name": "KLA Corp",
+      "weight": 0.055569
+    },
+    {
+      "cusip": "512807306",
+      "isin": "US5128073062",
+      "name": "Lam Research Corp",
+      "weight": 0.052967
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc",
+      "weight": 0.052642
+    },
+    {
+      "cusip": "458140100",
+      "isin": "US4581401001",
+      "name": "Intel Corp",
+      "weight": 0.05131
+    },
+    {
+      "isin": "USN070592100",
+      "name": "ASML Holding NV",
+      "weight": 0.050257
+    }
+  ]
+}

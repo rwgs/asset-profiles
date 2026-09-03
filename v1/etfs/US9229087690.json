@@ -1,0 +1,170 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.993061
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.00697
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -3.1e-05
+    }
+  ],
+  "aum_usd": 2299997814240.02,
+  "category": "Blend",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 1.000031
+    },
+    {
+      "country": "Denmark",
+      "country_code": "DK",
+      "weight": 0.0
+    },
+    {
+      "country": "Unknown",
+      "weight": -3.1e-05
+    }
+  ],
+  "holdings_count": 3546,
+  "identifiers": {
+    "isin": "US9229087690"
+  },
+  "isin": "US9229087690",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VTI"
+    }
+  ],
+  "name": "Vanguard Total Stock Market ETF",
+  "primary_symbol": "VTI",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.235963
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.160169
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.111473
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.094297
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.092936
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.09018
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.059491
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.043246
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.039939
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.036029
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.019108
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.017171
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp",
+      "weight": 0.063494
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple Inc",
+      "weight": 0.058661
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp",
+      "weight": 0.038247
+    },
+    {
+      "cusip": "023135106",
+      "isin": "US0231351067",
+      "name": "Amazon.com Inc",
+      "weight": 0.03185
+    },
+    {
+      "cusip": "02079K305",
+      "isin": "US02079K3059",
+      "name": "Alphabet Inc",
+      "weight": 0.028928
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc",
+      "weight": 0.024687
+    },
+    {
+      "cusip": "02079K107",
+      "isin": "US02079K1079",
+      "name": "Alphabet Inc",
+      "weight": 0.022779
+    },
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology Inc",
+      "weight": 0.017968
+    },
+    {
+      "cusip": "30303M102",
+      "isin": "US30303M1027",
+      "name": "Meta Platforms Inc",
+      "weight": 0.017074
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "Tesla Inc",
+      "weight": 0.016353
+    }
+  ]
+}

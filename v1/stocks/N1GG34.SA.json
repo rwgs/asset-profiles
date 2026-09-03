@@ -1,6 +1,8 @@
 {
   "country": "United Kingdom",
   "country_code": "GB",
+  "industry": "Electric Utilities",
+  "industry_group": "Utilities",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,17 @@
       "symbol": "N1GG34.SA"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "NATIONAL GRIDRN ED",
   "primary_symbol": "N1GG34.SA",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Utilities",
+  "summary": "National Grid plc engages in the transmission and distribution of electricity and gas across the United Kingdom and the northeastern United States. Founded in 1990, headquartered in London, United Kingdom. This row represents the company's Brazilian Depositary Receipt (BDR).",
+  "website": "https://www.nationalgrid.com"
 }

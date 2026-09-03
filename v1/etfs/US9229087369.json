@@ -1,0 +1,161 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.99691
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.003073
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 1.7e-05
+    }
+  ],
+  "aum_usd": 379514980856.54,
+  "category": "Growth",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.999983
+    },
+    {
+      "country": "Unknown",
+      "weight": 1.7e-05
+    }
+  ],
+  "holdings_count": 152,
+  "identifiers": {
+    "isin": "US9229087369"
+  },
+  "isin": "US9229087369",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VUG"
+    }
+  ],
+  "name": "Vanguard Growth ETF",
+  "primary_symbol": "VUG",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.327347
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.273545
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.112046
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.085457
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.050194
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.046612
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.041111
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.032862
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.013501
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.012051
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.005274
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp",
+      "weight": 0.126219
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple Inc",
+      "weight": 0.116625
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp",
+      "weight": 0.0761
+    },
+    {
+      "cusip": "02079K305",
+      "isin": "US02079K3059",
+      "name": "Alphabet Inc",
+      "weight": 0.057518
+    },
+    {
+      "cusip": "02079K107",
+      "isin": "US02079K1079",
+      "name": "Alphabet Inc",
+      "weight": 0.045301
+    },
+    {
+      "cusip": "023135106",
+      "isin": "US0231351067",
+      "name": "Amazon.com Inc",
+      "weight": 0.044686
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc",
+      "weight": 0.042811
+    },
+    {
+      "cusip": "30303M102",
+      "isin": "US30303M1027",
+      "name": "Meta Platforms Inc",
+      "weight": 0.03407
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "Tesla Inc",
+      "weight": 0.03265
+    },
+    {
+      "cusip": "532457108",
+      "isin": "US5324571083",
+      "name": "Eli Lilly & Co",
+      "weight": 0.028045
+    }
+  ]
+}

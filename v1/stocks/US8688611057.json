@@ -2,7 +2,9 @@
   "country": "Russian Federation",
   "country_code": "RU",
   "identifiers": {
+    "composite_figi": "BBG00K1GC111",
     "cusip": "868861105",
+    "figi": "BBG00K1GC1J2",
     "isin": "US8688611057"
   },
   "industry_group": "Energy",
@@ -10,30 +12,15 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGNV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGNV.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "SGNV.DU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SGNV.SG"
     }
   ],
-  "name": "SURGUTNEFTEGAS VZ ADR/10",
-  "primary_symbol": "SGNV.BE",
+  "name": "Surgutneftegas PJSC Reg.Pfd Shs",
+  "primary_symbol": "SGNV.SG",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

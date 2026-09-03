@@ -6,6 +6,8 @@
     "cusip": "74435K204",
     "isin": "US74435K2042"
   },
+  "industry": "Insurance",
+  "industry_group": "Insurance",
   "isin": "US74435K2042",
   "kind": "stock",
   "listings": [
@@ -15,13 +17,15 @@
       "symbol": "PRU2.BE"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "PRUDENTIAL ADR/2 LS-,05",
   "primary_symbol": "PRU2.BE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials"
 }

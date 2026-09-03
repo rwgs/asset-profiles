@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BHZ3Q6",
+    "composite_figi": "BBG000BB2KN0",
     "cusip": "515098101",
-    "figi": "BBG000BHZ5C6",
+    "figi": "BBG000BB2YV1",
     "isin": "US5150981018"
   },
-  "industry_group": "Transportation",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "US5150981018",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "LSTR"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LDS.SG"
     }
   ],
-  "name": "Landstar System Inc. Registered",
-  "primary_symbol": "LDS.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Landstar System, Inc.",
+  "primary_symbol": "LSTR",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Landstar System, Inc. is a transportation services company that provides integrated transportation management solutions. It operates through a network of independent sales agents and third-party capacity providers. The company is headquartered in Jacksonville, Florida."
+  "sector": "Information Technology",
+  "summary": "Landstar System, Inc. delivers comprehensive logistics and transportation solutions, operating across North America and globally, through Transportation Logistics and Insurance divisions. Founded in 1968, Landstar System, Inc. is headquartered in Jacksonville, Florida.",
+  "website": "http://www.stem.com"
 }

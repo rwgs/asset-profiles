@@ -2,6 +2,7 @@
   "country": "Switzerland",
   "country_code": "CH",
   "industry": "Construction Materials",
+  "industry_group": "Materials",
   "kind": "stock",
   "listings": [
     {
@@ -10,13 +11,17 @@
       "symbol": "HOLN.SW"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Holcim AG",
   "primary_symbol": "HOLN.SW",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "Holcim Ltd stands as a premier international supplier of construction materials and advanced building solutions, organized into Cement, Aggregates, Ready-mix Concrete, and Solutions & Products divisions. With a history dating back to 1833, Holcim Ltd is headquartered in Zug, Switzerland, and rebranded from LafargeHolcim Ltd in May 2021.",
+  "website": "https://www.holcim.com"
 }

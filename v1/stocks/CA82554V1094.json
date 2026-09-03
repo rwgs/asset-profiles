@@ -2,26 +2,35 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00VTBRHZ0",
     "cusip": "82554V109",
     "isin": "CA82554V1094"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA82554V1094",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SRHIF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA82554V1094.SG"
     }
   ],
-  "name": "SRHI INC",
-  "primary_symbol": "CA82554V1094.SG",
+  "market_cap_band": "Large Cap",
+  "name": "SRHI Inc.",
+  "primary_symbol": "SRHIF",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "SRHI Inc., formerly known as Sprott Resource Holdings Inc., was a Toronto-based company focused on the natural resources sector. Following a 2020 corporate reorganization, SRHI Inc. concentrated on advancing the Minera Tres Valles copper mining operation in Chile while divesting its remaining investment portfolio, and was managed by a team of resource-industry professionals. The company subsequently changed its name to Three Valley Copper Corp., trading under the ticker TVC on the TSX Venture Exchange, before being renamed Winchester Equity Corporation in October 2025."
 }

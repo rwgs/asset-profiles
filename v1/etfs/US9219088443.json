@@ -1,0 +1,161 @@
+{
+  "as_of_date": "2027-01-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.994104
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.005695
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 0.000201
+    }
+  ],
+  "aum_usd": 124655835138.47,
+  "category": "Developed Markets",
+  "category_group": "Alternatives",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.999799
+    },
+    {
+      "country": "Unknown",
+      "weight": 0.000201
+    }
+  ],
+  "holdings_count": 342,
+  "identifiers": {
+    "isin": "US9219088443"
+  },
+  "isin": "US9219088443",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VIG"
+    }
+  ],
+  "name": "Vanguard Dividend Appreciation ETF",
+  "primary_symbol": "VIG",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Financials",
+      "weight": 0.194231
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.161532
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.151447
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.113657
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.102174
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.094071
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.043482
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.042477
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.034518
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.033152
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.029261
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc",
+      "weight": 0.051796
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple Inc",
+      "weight": 0.040725
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp",
+      "weight": 0.039651
+    },
+    {
+      "cusip": "46625H100",
+      "isin": "US46625H1005",
+      "name": "JPMorgan Chase & Co",
+      "weight": 0.035882
+    },
+    {
+      "cusip": "532457108",
+      "isin": "US5324571083",
+      "name": "Eli Lilly & Co",
+      "weight": 0.033354
+    },
+    {
+      "cusip": "30231G102",
+      "isin": "US30231G1022",
+      "name": "Exxon Mobil Corp",
+      "weight": 0.029046
+    },
+    {
+      "cusip": "931142103",
+      "isin": "US9311421039",
+      "name": "Walmart Inc",
+      "weight": 0.026046
+    },
+    {
+      "cusip": "478160104",
+      "isin": "US4781601046",
+      "name": "Johnson & Johnson",
+      "weight": 0.024947
+    },
+    {
+      "cusip": "92826C839",
+      "isin": "US92826C8394",
+      "name": "Visa Inc",
+      "weight": 0.023266
+    },
+    {
+      "cusip": "22160K105",
+      "isin": "US22160K1051",
+      "name": "Costco Wholesale Corp",
+      "weight": 0.020281
+    }
+  ]
+}

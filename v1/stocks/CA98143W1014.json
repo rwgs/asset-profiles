@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00LQ78FF1",
     "cusip": "98143W101",
+    "figi": "BBG00NNW5WD3",
     "isin": "CA98143W1014"
   },
   "industry": "Metals & Mining",
@@ -11,29 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WCEXF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WCF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WCF.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "PUMP.CN"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "WCF.F"
     },
     {
       "currency": "EUR",
@@ -42,10 +24,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "World Class Extractions Inc.",
-  "primary_symbol": "WCEXF",
+  "name": "Stock Trend Capital Inc.",
+  "primary_symbol": "PUMP.CN",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

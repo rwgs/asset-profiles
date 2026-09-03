@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "DE0005190003"
   },
+  "industry": "Automobiles",
   "industry_group": "Automobiles & Components",
   "isin": "DE0005190003",
   "kind": "stock",
@@ -12,6 +13,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "0O0U.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BAMXF"
     },
     {
       "currency": "USD",
@@ -44,15 +50,17 @@
       "symbol": "BMW.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Bayerische Motoren Werke AG",
   "primary_symbol": "0O0U.IL",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "BAYERISCHE MOTOREN WERKE AG (BMW) is a German multinational manufacturer of luxury vehicles and motorcycles. The company's product portfolio includes BMW, MINI, and Rolls-Royce brands. Its headquarters are located in Munich, Germany."
+  "summary": "BAYERISCHE MOTOREN WERKE AG (BMW) is a German multinational manufacturer of luxury vehicles and motorcycles. The company's product portfolio includes BMW, MINI, and Rolls-Royce brands. Its headquarters are located in Munich, Germany.",
+  "website": "http://www.bmwgroup.com"
 }

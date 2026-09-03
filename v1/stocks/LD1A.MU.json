@@ -4,6 +4,8 @@
   "identifiers": {
     "cusip": "505743104"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
+  "industry_group": "Real Estate",
   "kind": "stock",
   "listings": [
     {
@@ -12,13 +14,15 @@
       "symbol": "LD1A.MU"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "LADDER CAP.CORP.A DL-,001",
   "primary_symbol": "LD1A.MU",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Real Estate"
 }

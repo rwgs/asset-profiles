@@ -3,59 +3,39 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.999761
+      "weight": 0.998717
     },
     {
       "asset_class": "Cash",
-      "weight": 0.000239
+      "weight": 0.001283
     }
   ],
-  "aum_usd": 6690613922.29,
+  "aum_usd": 1236561022.3,
   "category": "Health Care",
   "category_group": "Health Care",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.849754
+      "weight": 0.875606
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.054806
+      "weight": 0.089356
     },
     {
-      "country": "Canada",
-      "country_code": "CA",
-      "weight": 0.042449
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "weight": 0.024381
     },
     {
-      "country": "Taiwan, Province of China",
-      "country_code": "TW",
-      "weight": 0.015138
-    },
-    {
-      "country": "Cayman Islands",
-      "country_code": "KY",
-      "weight": 0.014494
-    },
-    {
-      "country": "China",
-      "country_code": "CN",
-      "weight": 0.013096
-    },
-    {
-      "country": "Hong Kong",
-      "country_code": "HK",
-      "weight": 0.008979
-    },
-    {
-      "country": "Ireland",
-      "country_code": "IE",
-      "weight": 0.001286
+      "country": "Germany",
+      "country_code": "DE",
+      "weight": 0.010656
     }
   ],
-  "holdings_count": 47,
+  "holdings_count": 33,
   "identifiers": {
     "isin": "US00214Q3020"
   },
@@ -71,7 +51,7 @@
   "name": "ARK Genomic Revolution ETF",
   "primary_symbol": "ARKG",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579982"
@@ -79,103 +59,95 @@
   "schema_version": "1.0.0",
   "sector_weights": [
     {
-      "sector": "Information Technology",
-      "weight": 0.313034
-    },
-    {
       "sector": "Health Care",
-      "weight": 0.220282
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "weight": 0.148369
+      "weight": 0.864752
     },
     {
       "sector": "Communications",
-      "weight": 0.141878
+      "weight": 0.09448
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.020481
     },
     {
       "sector": "Financials",
-      "weight": 0.108674
-    },
-    {
-      "sector": "Industrials",
-      "weight": 0.060329
+      "weight": 0.019004
     },
     {
       "sector": "Unknown",
-      "weight": 0.007433
+      "weight": 0.001283
     }
   ],
   "top_holdings": [
     {
-      "cusip": "88160R101",
-      "isin": "US88160R1014",
-      "name": "Tesla Inc",
-      "symbol": "TSLA",
-      "weight": 0.108579
+      "cusip": "88023B103",
+      "isin": "US88023B1035",
+      "name": "TEMPUS AI INC",
+      "symbol": "TEM",
+      "weight": 0.09415
+    },
+    {
+      "cusip": "90184D100",
+      "isin": "US90184D1000",
+      "name": "TWIST BIOSCIENCE CORP",
+      "symbol": "TWST",
+      "weight": 0.089835
     },
     {
       "isin": "CH0334081137",
-      "name": "CRISPR Therapeutics AG",
+      "name": "CRISPR THERAPEUTICS AG",
       "symbol": "CRSP",
-      "weight": 0.054694
+      "weight": 0.089044
     },
     {
-      "cusip": "77543R102",
-      "isin": "US77543R1023",
-      "name": "Roku Inc",
-      "symbol": "ROKU",
-      "weight": 0.049911
-    },
-    {
-      "cusip": "88023B103",
-      "isin": "US88023B1035",
-      "name": "Tempus AI Inc",
-      "symbol": "TEM",
-      "weight": 0.048619
-    },
-    {
-      "cusip": "19260Q107",
-      "isin": "US19260Q1076",
-      "name": "Coinbase Global Inc",
-      "symbol": "COIN",
-      "weight": 0.046134
-    },
-    {
-      "cusip": "82509L107",
-      "isin": "CA82509L1076",
-      "name": "Shopify Inc",
-      "symbol": "SHOP",
-      "weight": 0.042362
-    },
-    {
-      "cusip": "770700102",
-      "isin": "US7707001027",
-      "name": "Robinhood Markets Inc",
-      "symbol": "HOOD",
-      "weight": 0.039899
-    },
-    {
-      "cusip": "007903107",
-      "isin": "US0079031078",
-      "name": "Advanced Micro Devices Inc",
-      "symbol": "AMD",
-      "weight": 0.039671
-    },
-    {
-      "cusip": "880770102",
-      "isin": "US8807701029",
-      "name": "Teradyne Inc",
-      "symbol": "TER",
-      "weight": 0.035632
+      "cusip": "88025U109",
+      "isin": "US88025U1097",
+      "name": "10X GENOMICS INC",
+      "symbol": "TXG",
+      "weight": 0.057642
     },
     {
       "cusip": "07373V105",
       "isin": "US07373V1052",
-      "name": "Beam Therapeutics Inc",
+      "name": "BEAM THERAPEUTICS INC",
       "symbol": "BEAM",
-      "weight": 0.035239
+      "weight": 0.054259
+    },
+    {
+      "cusip": "00091E109",
+      "isin": "US00091E1091",
+      "name": "ABSCI CORP",
+      "symbol": "ABSI",
+      "weight": 0.047781
+    },
+    {
+      "cusip": "632307104",
+      "isin": "US6323071042",
+      "name": "NATERA INC",
+      "symbol": "NTRA",
+      "weight": 0.040633
+    },
+    {
+      "cusip": "452327109",
+      "isin": "US4523271090",
+      "name": "ILLUMINA INC",
+      "symbol": "ILMN",
+      "weight": 0.040263
+    },
+    {
+      "cusip": "45826J105",
+      "isin": "US45826J1051",
+      "name": "INTELLIA THERAPEUTICS INC",
+      "symbol": "NTLA",
+      "weight": 0.038137
+    },
+    {
+      "cusip": "71535D106",
+      "isin": "US71535D1063",
+      "name": "PERSONALIS INC",
+      "symbol": "PSNL",
+      "weight": 0.035789
     }
   ]
 }

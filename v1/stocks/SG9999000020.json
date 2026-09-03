@@ -2,6 +2,9 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
+    "composite_figi": "BBG000BP5YT0",
+    "cusip": "Y2573F102",
+    "figi": "BBG000BP6807",
     "isin": "SG9999000020"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -9,11 +12,6 @@
   "isin": "SG9999000020",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ENRFF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -50,11 +48,6 @@
       "symbol": "7EX.SG"
     },
     {
-      "currency": "CAD",
-      "exchange_mic": "XTSE",
-      "symbol": "EFX.TO"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "FLEXN.MX"
@@ -75,11 +68,11 @@
       "symbol": "FXI.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Flex Ltd.",
-  "primary_symbol": "ENRFF",
+  "primary_symbol": "FLEX",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

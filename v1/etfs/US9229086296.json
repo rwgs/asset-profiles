@@ -1,0 +1,165 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.994711
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.005272
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 1.7e-05
+    }
+  ],
+  "aum_usd": 224310026980.58,
+  "category": "Mid Cap",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.999983
+    },
+    {
+      "country": "Unknown",
+      "weight": 1.7e-05
+    }
+  ],
+  "holdings_count": 295,
+  "identifiers": {
+    "isin": "US9229086296"
+  },
+  "isin": "US9229086296",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VO"
+    }
+  ],
+  "name": "Vanguard Mid-Cap ETF",
+  "primary_symbol": "VO",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Industrials",
+      "weight": 0.18983
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.186789
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.123427
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.080489
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.074106
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.068883
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.068379
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.052912
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.048217
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.045016
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.033064
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.028888
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "92537N108",
+      "isin": "US92537N1081",
+      "name": "Vertiv Holdings Co",
+      "weight": 0.012207
+    },
+    {
+      "cusip": "958102105",
+      "isin": "US9581021055",
+      "name": "Western Digital Corp",
+      "weight": 0.010633
+    },
+    {
+      "cusip": "G7997R103",
+      "isin": "IE00BKVD2N49",
+      "name": "Seagate Technology Holdings PLC",
+      "weight": 0.010451
+    },
+    {
+      "cusip": "74762E102",
+      "isin": "US74762E1029",
+      "name": "Quanta Services Inc",
+      "weight": 0.010437
+    },
+    {
+      "cusip": "443201108",
+      "isin": "US4432011082",
+      "name": "Howmet Aerospace Inc",
+      "weight": 0.010391
+    },
+    {
+      "cusip": "231021106",
+      "isin": "US2310211063",
+      "name": "Cummins Inc",
+      "weight": 0.009507
+    },
+    {
+      "cusip": "23804L103",
+      "isin": "US23804L1035",
+      "name": "Datadog Inc",
+      "weight": 0.00832
+    },
+    {
+      "cusip": "093712107",
+      "isin": "US0937121079",
+      "name": "Bloom Energy Corp",
+      "weight": 0.007901
+    },
+    {
+      "cusip": "21037T109",
+      "isin": "US21037T1097",
+      "name": "Constellation Energy Corp",
+      "weight": 0.00778
+    },
+    {
+      "cusip": "770700102",
+      "isin": "US7707001027",
+      "name": "Robinhood Markets Inc",
+      "weight": 0.007664
+    }
+  ]
+}

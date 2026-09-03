@@ -1,0 +1,201 @@
+{
+  "as_of_date": "2026-05-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.657516
+    },
+    {
+      "asset_class": "Other",
+      "weight": 0.155749
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 0.131361
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.040192
+    },
+    {
+      "asset_class": "Repurchase",
+      "weight": 0.015182
+    }
+  ],
+  "aum_usd": 8384502853.96,
+  "category": "Large Cap",
+  "category_group": "Derivatives",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.981619
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.012805
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.00171
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.000996
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.000991
+    },
+    {
+      "country": "Curaçao",
+      "country_code": "CW",
+      "weight": 0.000826
+    },
+    {
+      "country": "Liberia",
+      "country_code": "LR",
+      "weight": 0.000724
+    },
+    {
+      "country": "Jersey",
+      "country_code": "JE",
+      "weight": 0.000328
+    }
+  ],
+  "holdings_count": 525,
+  "identifiers": {
+    "isin": "US74347R1077"
+  },
+  "isin": "US74347R1077",
+  "issuer": "ProShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "SSO"
+    }
+  ],
+  "name": "ProShares Ultra S&P500",
+  "primary_symbol": "SSO",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001174610"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Unknown",
+      "weight": 0.462396
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.155766
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.068207
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.064735
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.054397
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.047484
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.044985
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.030111
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.028838
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.023567
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.012333
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.007182
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "74350P691",
+      "isin": "US74350P6916",
+      "name": "ProShares GENIUS Money Market ETF",
+      "weight": 0.155234
+    },
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp.",
+      "weight": 0.05178
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple, Inc.",
+      "weight": 0.046238
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp.",
+      "weight": 0.033745
+    },
+    {
+      "cusip": "023135106",
+      "isin": "US0231351067",
+      "name": "Amazon.com, Inc.",
+      "weight": 0.026679
+    },
+    {
+      "name": "N/A",
+      "symbol": "SPY",
+      "weight": 0.023417
+    },
+    {
+      "cusip": "02079K305",
+      "isin": "US02079K3059",
+      "name": "Alphabet, Inc.",
+      "weight": 0.022346
+    },
+    {
+      "cusip": "912797SX6",
+      "isin": "US912797SX61",
+      "name": "United States of America",
+      "weight": 0.022058
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom, Inc.",
+      "weight": 0.021374
+    },
+    {
+      "name": "N/A",
+      "weight": 0.018652
+    }
+  ]
+}

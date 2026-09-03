@@ -1,5 +1,6 @@
 {
   "country": "Macau",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG0039FX637",
     "cusip": "80007RAK1",
@@ -20,13 +21,18 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SCHYY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "US80007RAK14.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Sands China Ltd.",
   "primary_symbol": "SCHYF",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

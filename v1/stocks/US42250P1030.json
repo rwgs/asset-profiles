@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000BKYDP9",
     "cusip": "42250P103",
-    "figi": "BBG000BKYGV5",
+    "figi": "BBG000BKYDP9",
     "isin": "US42250P1030"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -12,6 +12,11 @@
   "isin": "US42250P1030",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "DOC"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -33,17 +38,17 @@
       "symbol": "P1EA34.SA"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Healthpeak Properties, Inc.",
-  "primary_symbol": "PEAK",
+  "primary_symbol": "DOC",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Healthpeak Properties, Inc. is a fully integrated real estate investment trust (REIT) and S&P 500 company. Healthpeak owns and develops high-quality real estate in the three private-pay healthcare asset classes of Life Science, Medical Office and Senior Housing, designed to provide stability through the inevitable industry cycles. At Healthpeak, we pair our deep understanding of the healthcare real estate market with a strong vision for long-term growth.",
-  "website": "http://www.healthpeak.com"
+  "summary": "Physicians Realty Trust is a self-managed healthcare real estate company organized to acquire, selectively develop, own and manage healthcare properties that are leased to physicians, hospitals and healthcare delivery systems. The Company invests in real estate that is integral to providing high quality healthcare. The Company conducts its business through an UPREIT structure in which its properties are owned by Physicians Realty L.P., a Delaware limited partnership (the “operating partnership”), directly or through limited partnerships, limited liability companies or other subsidiaries. The Company is the sole general partner of the operating partnership and, as of September 30, 2020, owned approximately 97.4% of OP Units.",
+  "website": "http://www.docreit.com"
 }

@@ -1,0 +1,191 @@
+{
+  "as_of_date": "2027-02-28",
+  "asset_class_weights": [
+    {
+      "asset_class": "Fixed Income",
+      "weight": 0.923032
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.076968
+    }
+  ],
+  "aum_usd": 34163011134.9,
+  "category": "Corporate Bonds",
+  "category_group": "Fixed Income",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.889479
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "weight": 0.030485
+    },
+    {
+      "country": "Canada",
+      "country_code": "CA",
+      "weight": 0.022444
+    },
+    {
+      "country": "Japan",
+      "country_code": "JP",
+      "weight": 0.016746
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.008284
+    },
+    {
+      "country": "Spain",
+      "country_code": "ES",
+      "weight": 0.006148
+    },
+    {
+      "country": "Australia",
+      "country_code": "AU",
+      "weight": 0.006131
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.005188
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.004357
+    },
+    {
+      "country": "France",
+      "country_code": "FR",
+      "weight": 0.003705
+    },
+    {
+      "country": "Germany",
+      "country_code": "DE",
+      "weight": 0.002177
+    },
+    {
+      "country": "Unknown",
+      "weight": 0.001572
+    },
+    {
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "weight": 0.001357
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.000952
+    },
+    {
+      "country": "Norway",
+      "country_code": "NO",
+      "weight": 0.000737
+    },
+    {
+      "country": "Jersey",
+      "country_code": "JE",
+      "weight": 0.000237
+    }
+  ],
+  "holdings_count": 3137,
+  "identifiers": {
+    "isin": "US4642872422"
+  },
+  "isin": "US4642872422",
+  "issuer": "iShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "LQD"
+    }
+  ],
+  "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+  "primary_symbol": "LQD",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Unknown",
+      "weight": 0.999216
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.000784
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "066922519",
+      "isin": "US0669225197",
+      "name": "BlackRock Funds III",
+      "weight": 0.063052
+    },
+    {
+      "cusip": "066922477",
+      "isin": "US0669224778",
+      "name": "BLACKROCK CASH FUNDS TREASURY SL AGENCY SHARES",
+      "weight": 0.008267
+    },
+    {
+      "cusip": "03522AAJ9",
+      "isin": "US03522AAJ97",
+      "name": "ANHEUSER-BUSCH CO/INBEV",
+      "weight": 0.001784
+    },
+    {
+      "cusip": "126650CZ1",
+      "isin": "US126650CZ11",
+      "name": "CVS HEALTH CORP",
+      "weight": 0.001474
+    },
+    {
+      "cusip": "87264ABF1",
+      "isin": "US87264ABF12",
+      "name": "T-MOBILE USA INC",
+      "weight": 0.001408
+    },
+    {
+      "cusip": "30303MAD4",
+      "isin": "US30303MAD48",
+      "name": "META PLATFORMS INC",
+      "weight": 0.001396
+    },
+    {
+      "cusip": "023135DF0",
+      "isin": "US023135DF00",
+      "name": "AMAZON.COM INC",
+      "weight": 0.001346
+    },
+    {
+      "cusip": "716973AG7",
+      "isin": "US716973AG71",
+      "name": "PFIZER INVESTMENT ENTER",
+      "weight": 0.001327
+    },
+    {
+      "cusip": "30303MAE2",
+      "isin": "US30303MAE21",
+      "name": "META PLATFORMS INC",
+      "weight": 0.00131
+    },
+    {
+      "cusip": "38141GFD1",
+      "isin": "US38141GFD16",
+      "name": "GOLDMAN SACHS GROUP INC",
+      "weight": 0.001291
+    }
+  ]
+}

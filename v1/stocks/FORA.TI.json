@@ -1,6 +1,8 @@
 {
   "country": "United States",
   "country_code": "US",
+  "industry": "Insurance",
+  "industry_group": "Insurance",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,17 @@
       "symbol": "FORA.TI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "AGEAS",
   "primary_symbol": "FORA.TI",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Ageas SA/NV operates as an insurance provider across Europe and Asia through its various subsidiary entities, offering property, casualty, and life insurance as well as pension plans and reinsurance services. The company was founded in 1824 and maintains its headquarters in Brussels, Belgium.",
+  "website": "https://www.ageas.com"
 }

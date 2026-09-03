@@ -1,0 +1,282 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.985222
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.014766
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 4.7e-05
+    },
+    {
+      "asset_class": "Derivative-FX",
+      "weight": -3.5e-05
+    }
+  ],
+  "aum_usd": 316502487365.83,
+  "category": "Developed Markets",
+  "category_group": "Equities",
+  "country_weights": [
+    {
+      "country": "Japan",
+      "country_code": "JP",
+      "weight": 0.206649
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "weight": 0.107722
+    },
+    {
+      "country": "Canada",
+      "country_code": "CA",
+      "weight": 0.104027
+    },
+    {
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "weight": 0.070555
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.068465
+    },
+    {
+      "country": "France",
+      "country_code": "FR",
+      "weight": 0.067881
+    },
+    {
+      "country": "Germany",
+      "country_code": "DE",
+      "weight": 0.061676
+    },
+    {
+      "country": "Australia",
+      "country_code": "AU",
+      "weight": 0.054959
+    },
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.044527
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.041627
+    },
+    {
+      "country": "Spain",
+      "country_code": "ES",
+      "weight": 0.028665
+    },
+    {
+      "country": "Italy",
+      "country_code": "IT",
+      "weight": 0.027382
+    },
+    {
+      "country": "Sweden",
+      "country_code": "SE",
+      "weight": 0.025874
+    },
+    {
+      "country": "Hong Kong",
+      "country_code": "HK",
+      "weight": 0.014321
+    },
+    {
+      "country": "Denmark",
+      "country_code": "DK",
+      "weight": 0.013119
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.012443
+    },
+    {
+      "country": "Israel",
+      "country_code": "IL",
+      "weight": 0.011251
+    },
+    {
+      "country": "Belgium",
+      "country_code": "BE",
+      "weight": 0.00937
+    },
+    {
+      "country": "Finland",
+      "country_code": "FI",
+      "weight": 0.009037
+    },
+    {
+      "country": "Norway",
+      "country_code": "NO",
+      "weight": 0.006225
+    },
+    {
+      "country": "Poland",
+      "country_code": "PL",
+      "weight": 0.004654
+    },
+    {
+      "country": "Austria",
+      "country_code": "AT",
+      "weight": 0.003397
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.002683
+    },
+    {
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "weight": 0.001899
+    },
+    {
+      "country": "Portugal",
+      "country_code": "PT",
+      "weight": 0.001571
+    },
+    {
+      "country": "Unknown",
+      "weight": 2.2e-05
+    }
+  ],
+  "holdings_count": 3908,
+  "identifiers": {
+    "isin": "US9219438580"
+  },
+  "isin": "US9219438580",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VEA"
+    }
+  ],
+  "name": "Vanguard FTSE Developed Markets ETF",
+  "primary_symbol": "VEA",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000275"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Unknown",
+      "weight": 0.420884
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.124606
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.105656
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.076242
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.050038
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.048691
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.039173
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.034826
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.029844
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.025705
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.023867
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.020468
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "N07059202",
+      "isin": "NL0010273215",
+      "name": "ASML Holding NV",
+      "weight": 0.023609
+    },
+    {
+      "isin": "KR7000660001",
+      "name": "SK hynix Inc",
+      "weight": 0.016289
+    },
+    {
+      "isin": "KR7005930003",
+      "name": "Samsung Electronics Co Ltd",
+      "weight": 0.016125
+    },
+    {
+      "cusip": "Y74718100",
+      "isin": "KR7005930003",
+      "name": "Samsung Electronics Co Ltd",
+      "weight": 0.015525
+    },
+    {
+      "isin": "KR7000660001",
+      "name": "SK hynix Inc",
+      "weight": 0.013938
+    },
+    {
+      "name": "Vanguard Cmt Funds-Vanguard Market Liquidity Fund",
+      "weight": 0.013172
+    },
+    {
+      "isin": "GB0005405286",
+      "name": "HSBC Holdings PLC",
+      "weight": 0.010025
+    },
+    {
+      "cusip": "H5820Q150",
+      "isin": "CH0012005267",
+      "name": "Novartis AG",
+      "weight": 0.009009
+    },
+    {
+      "cusip": "780087102",
+      "isin": "CA7800871021",
+      "name": "Royal Bank of Canada",
+      "weight": 0.00895
+    },
+    {
+      "isin": "CH1499059983",
+      "name": "Roche Holding AG",
+      "weight": 0.008934
+    }
+  ]
+}

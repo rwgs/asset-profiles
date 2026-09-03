@@ -1,0 +1,109 @@
+{
+  "as_of_date": "2026-05-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Other",
+      "weight": 0.955158
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.282903
+    },
+    {
+      "asset_class": "Repurchase",
+      "weight": 0.001739
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -0.239799
+    }
+  ],
+  "aum_usd": 1197529237.74,
+  "category": "Large Cap",
+  "category_group": "Derivatives",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 1.0
+    }
+  ],
+  "holdings_count": 19,
+  "identifiers": {
+    "isin": "US74349Y7537"
+  },
+  "isin": "US74349Y7537",
+  "issuer": "ProShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "SH"
+    }
+  ],
+  "name": "ProShares Short S&P500",
+  "primary_symbol": "SH",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001174610"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Unknown",
+      "weight": 1.0
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "74350P691",
+      "isin": "US74350P6916",
+      "name": "ProShares GENIUS Money Market ETF",
+      "weight": 0.76081
+    },
+    {
+      "cusip": "912797SX6",
+      "isin": "US912797SX61",
+      "name": "United States of America",
+      "weight": 0.141916
+    },
+    {
+      "cusip": "912797TU1",
+      "isin": "US912797TU14",
+      "name": "U.S. Treasury Bills",
+      "weight": 0.062623
+    },
+    {
+      "cusip": "912797UN5",
+      "isin": "US912797UN51",
+      "name": "U.S. Treasury Bills",
+      "weight": 0.020801
+    },
+    {
+      "name": "Repurchase Agreement",
+      "weight": 0.000566
+    },
+    {
+      "name": "Repurchase Agreement",
+      "weight": 0.000356
+    },
+    {
+      "name": "Repurchase Agreement",
+      "weight": 0.000267
+    },
+    {
+      "name": "Repurchase Agreement",
+      "weight": 0.000196
+    },
+    {
+      "name": "N/A",
+      "weight": -0.000256
+    },
+    {
+      "name": "N/A",
+      "weight": -0.001062
+    }
+  ]
+}

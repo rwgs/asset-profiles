@@ -1,0 +1,129 @@
+{
+  "as_of_date": "2027-03-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.951529
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.048464
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 7e-06
+    }
+  ],
+  "aum_usd": 2733530710.83,
+  "category": "Value",
+  "category_group": "Consumer Discretionary",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 1.0
+    }
+  ],
+  "holdings_count": 48,
+  "identifiers": {
+    "isin": "US4642887529"
+  },
+  "isin": "US4642887529",
+  "issuer": "iShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "ITB"
+    }
+  ],
+  "name": "iShares U.S. Home Construction ETF",
+  "primary_symbol": "ITB",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Industrials",
+      "weight": 0.623042
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.248213
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.072953
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.055792
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "23331A109",
+      "isin": "US23331A1097",
+      "name": "D.R. HORTON, INC.",
+      "weight": 0.149473
+    },
+    {
+      "cusip": "745867101",
+      "isin": "US7458671010",
+      "name": "PULTEGROUP, INC.",
+      "weight": 0.090946
+    },
+    {
+      "cusip": "526057104",
+      "isin": "US5260571048",
+      "name": "LENNAR CORPORATION",
+      "weight": 0.067777
+    },
+    {
+      "cusip": "62944T105",
+      "isin": "US62944T1051",
+      "name": "NVR, Inc.",
+      "weight": 0.063993
+    },
+    {
+      "cusip": "889478103",
+      "isin": "US8894781033",
+      "name": "TOLL BROTHERS, INC.",
+      "weight": 0.047821
+    },
+    {
+      "cusip": "066922519",
+      "isin": "US0669225197",
+      "name": "BlackRock Funds III: BlackRock Cash Funds: Institutional; SL Agency Shares",
+      "weight": 0.047389
+    },
+    {
+      "cusip": "824348106",
+      "isin": "US8243481061",
+      "name": "THE SHERWIN-WILLIAMS COMPANY",
+      "weight": 0.043122
+    },
+    {
+      "cusip": "437076102",
+      "isin": "US4370761029",
+      "name": "THE HOME DEPOT, INC.",
+      "weight": 0.042098
+    },
+    {
+      "cusip": "548661107",
+      "isin": "US5486611073",
+      "name": "LOWE'S COMPANIES, INC.",
+      "weight": 0.038817
+    },
+    {
+      "cusip": "89055F103",
+      "isin": "US89055F1030",
+      "name": "TOPBUILD CORP.",
+      "weight": 0.034301
+    }
+  ]
+}

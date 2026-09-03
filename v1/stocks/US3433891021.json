@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C3TFS4",
-    "cusip": "343389409",
-    "figi": "BBG000C3TJ06",
+    "cusip": "343389102",
     "isin": "US3433891021"
   },
   "industry": "Energy Equipment & Services",
@@ -12,6 +10,11 @@
   "isin": "US3433891021",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "F2I.BE"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -23,11 +26,11 @@
       "symbol": "F2I.F"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Flotek Industries, Inc.",
-  "primary_symbol": "FTK",
+  "primary_symbol": "F2I.BE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

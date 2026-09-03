@@ -1,0 +1,165 @@
+{
+  "as_of_date": "2026-10-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.996526
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.003421
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 5.3e-05
+    }
+  ],
+  "aum_usd": 94631352093.69,
+  "category": "Value",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.999947
+    },
+    {
+      "country": "Unknown",
+      "weight": 5.3e-05
+    }
+  ],
+  "holdings_count": 621,
+  "identifiers": {
+    "isin": "US9219464065"
+  },
+  "isin": "US9219464065",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VYM"
+    }
+  ],
+  "name": "Vanguard High Dividend Yield ETF",
+  "primary_symbol": "VYM",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Financials",
+      "weight": 0.18093
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.123404
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.120776
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.111677
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.097526
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.09517
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.079908
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.070012
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.051353
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.037619
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.028696
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.00293
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc",
+      "weight": 0.08028
+    },
+    {
+      "cusip": "46625H100",
+      "isin": "US46625H1005",
+      "name": "JPMorgan Chase & Co",
+      "weight": 0.033437
+    },
+    {
+      "cusip": "30231G102",
+      "isin": "US30231G1022",
+      "name": "Exxon Mobil Corp",
+      "weight": 0.027152
+    },
+    {
+      "cusip": "478160104",
+      "isin": "US4781601046",
+      "name": "Johnson & Johnson",
+      "weight": 0.023033
+    },
+    {
+      "cusip": "149123101",
+      "isin": "US1491231015",
+      "name": "Caterpillar Inc",
+      "weight": 0.017163
+    },
+    {
+      "cusip": "00287Y109",
+      "isin": "US00287Y1091",
+      "name": "AbbVie Inc",
+      "weight": 0.015589
+    },
+    {
+      "cusip": "17275R102",
+      "isin": "US17275R1023",
+      "name": "Cisco Systems Inc",
+      "weight": 0.015166
+    },
+    {
+      "cusip": "166764100",
+      "isin": "US1667641005",
+      "name": "Chevron Corp",
+      "weight": 0.015082
+    },
+    {
+      "cusip": "060505104",
+      "isin": "US0605051046",
+      "name": "Bank of America Corp",
+      "weight": 0.014399
+    },
+    {
+      "cusip": "742718109",
+      "isin": "US7427181091",
+      "name": "Procter & Gamble Co/The",
+      "weight": 0.014387
+    }
+  ]
+}

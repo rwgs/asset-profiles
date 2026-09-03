@@ -1,0 +1,130 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.997283
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.002634
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 8.3e-05
+    }
+  ],
+  "aum_usd": 40609814997.08,
+  "category": "Health Care",
+  "category_group": "Health Care",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.978919
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.021081
+    }
+  ],
+  "holdings_count": 65,
+  "identifiers": {
+    "isin": "US81369Y2090"
+  },
+  "isin": "US81369Y2090",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "XLV"
+    }
+  ],
+  "name": "Health Care Select Sector SPDR Fund",
+  "primary_symbol": "XLV",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Health Care",
+      "weight": 0.978059
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.012058
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.009883
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "532457108",
+      "isin": "US5324571083",
+      "name": "Eli Lilly & Co",
+      "weight": 0.165062
+    },
+    {
+      "cusip": "478160104",
+      "isin": "US4781601046",
+      "name": "Johnson & Johnson",
+      "weight": 0.106355
+    },
+    {
+      "cusip": "00287Y109",
+      "isin": "US00287Y1091",
+      "name": "AbbVie Inc",
+      "weight": 0.077344
+    },
+    {
+      "cusip": "91324P102",
+      "isin": "US91324P1021",
+      "name": "UnitedHealth Group Inc",
+      "weight": 0.065664
+    },
+    {
+      "cusip": "58933Y105",
+      "isin": "US58933Y1055",
+      "name": "Merck & Co Inc",
+      "weight": 0.055212
+    },
+    {
+      "cusip": "031162100",
+      "isin": "US0311621009",
+      "name": "Amgen Inc",
+      "weight": 0.034
+    },
+    {
+      "cusip": "883556102",
+      "isin": "US8835561023",
+      "name": "Thermo Fisher Scientific Inc",
+      "weight": 0.032413
+    },
+    {
+      "cusip": "002824100",
+      "isin": "US0028241000",
+      "name": "Abbott Laboratories",
+      "weight": 0.027496
+    },
+    {
+      "cusip": "375558103",
+      "isin": "US3755581036",
+      "name": "Gilead Sciences Inc",
+      "weight": 0.027288
+    },
+    {
+      "cusip": "46120E602",
+      "isin": "US46120E6023",
+      "name": "Intuitive Surgical Inc",
+      "weight": 0.024502
+    }
+  ]
+}

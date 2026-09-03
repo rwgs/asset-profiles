@@ -1,0 +1,165 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.99239
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.007707
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -9.7e-05
+    }
+  ],
+  "aum_usd": 255288593868.73,
+  "category": "Value",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 1.000097
+    },
+    {
+      "country": "Unknown",
+      "weight": -9.7e-05
+    }
+  ],
+  "holdings_count": 326,
+  "identifiers": {
+    "isin": "US9229087443"
+  },
+  "isin": "US9229087443",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VTV"
+    }
+  ],
+  "name": "Vanguard Value ETF",
+  "primary_symbol": "VTV",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Financials",
+      "weight": 0.206141
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.150466
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.145906
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.144234
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.087543
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.068247
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.043181
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.042011
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.032377
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.031164
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.02576
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.02297
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology Inc",
+      "weight": 0.048533
+    },
+    {
+      "cusip": "46625H100",
+      "isin": "US46625H1005",
+      "name": "JPMorgan Chase & Co",
+      "weight": 0.030468
+    },
+    {
+      "cusip": "084670702",
+      "isin": "US0846707026",
+      "name": "Berkshire Hathaway Inc",
+      "weight": 0.029374
+    },
+    {
+      "cusip": "478160104",
+      "isin": "US4781601046",
+      "name": "Johnson & Johnson",
+      "weight": 0.022793
+    },
+    {
+      "cusip": "30231G102",
+      "isin": "US30231G1022",
+      "name": "Exxon Mobil Corp",
+      "weight": 0.021126
+    },
+    {
+      "cusip": "931142103",
+      "isin": "US9311421039",
+      "name": "Walmart Inc",
+      "weight": 0.018512
+    },
+    {
+      "cusip": "149123101",
+      "isin": "US1491231015",
+      "name": "Caterpillar Inc",
+      "weight": 0.018288
+    },
+    {
+      "cusip": "00287Y109",
+      "isin": "US00287Y1091",
+      "name": "AbbVie Inc",
+      "weight": 0.016575
+    },
+    {
+      "cusip": "17275R102",
+      "isin": "US17275R1023",
+      "name": "Cisco Systems Inc",
+      "weight": 0.015534
+    },
+    {
+      "cusip": "91324P102",
+      "isin": "US91324P1021",
+      "name": "UnitedHealth Group Inc",
+      "weight": 0.014073
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.996458
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.003525
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 1.7e-05
+    }
+  ],
+  "aum_usd": 492478331786.57,
+  "category": "Large Cap",
+  "category_group": "Information Technology",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.946597
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.019709
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.0157
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "weight": 0.00842
+    },
+    {
+      "country": "Canada",
+      "country_code": "CA",
+      "weight": 0.007358
+    },
+    {
+      "country": "Cayman Islands",
+      "country_code": "KY",
+      "weight": 0.0022
+    },
+    {
+      "country": "Unknown",
+      "weight": 1.7e-05
+    }
+  ],
+  "holdings_count": 105,
+  "issuer": "Invesco",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "QQQ"
+    }
+  ],
+  "name": "Invesco QQQ Trust",
+  "primary_symbol": "QQQ",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067839"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.446859
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.208221
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.102955
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.062106
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.052791
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.04335
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.03417
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.023357
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.011316
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.010363
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.004513
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp.",
+      "weight": 0.075601
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple Inc.",
+      "weight": 0.066354
+    },
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology, Inc.",
+      "weight": 0.056108
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp.",
+      "weight": 0.043263
+    },
+    {
+      "cusip": "007903107",
+      "isin": "US0079031078",
+      "name": "Advanced Micro Devices, Inc.",
+      "weight": 0.040828
+    },
+    {
+      "cusip": "023135106",
+      "isin": "US0231351067",
+      "name": "Amazon.com, Inc.",
+      "weight": 0.04003
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "Tesla, Inc.",
+      "weight": 0.032805
+    },
+    {
+      "cusip": "02079K305",
+      "isin": "US02079K3059",
+      "name": "Alphabet Inc.",
+      "weight": 0.032496
+    },
+    {
+      "cusip": "458140100",
+      "isin": "US4581401001",
+      "name": "Intel Corp.",
+      "weight": 0.030249
+    },
+    {
+      "cusip": "02079K107",
+      "isin": "US02079K1079",
+      "name": "Alphabet Inc.",
+      "weight": 0.030098
+    }
+  ]
+}

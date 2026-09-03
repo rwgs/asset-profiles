@@ -1,216 +1,180 @@
 {
-  "as_of_date": "2026-12-31",
+  "as_of_date": "2026-08-31",
   "asset_class_weights": [
     {
-      "asset_class": "Fixed Income",
-      "weight": 0.980195
+      "asset_class": "Equity",
+      "weight": 0.994669
     },
     {
       "asset_class": "Cash",
-      "weight": 0.019805
+      "weight": 0.005207
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 0.000124
     }
   ],
-  "aum_usd": 10166914336.6,
+  "aum_usd": 66804400377.4,
   "category": "Developed Markets",
-  "category_group": "Fixed Income",
+  "category_group": "Equities",
   "country_weights": [
     {
-      "country": "United States",
-      "country_code": "US",
-      "weight": 0.93677
-    },
-    {
-      "country": "XX",
-      "country_code": "XX",
-      "weight": 0.012998
-    },
-    {
-      "country": "Canada",
-      "country_code": "CA",
-      "weight": 0.01042
+      "country": "Japan",
+      "country_code": "JP",
+      "weight": 0.205782
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
-      "weight": 0.007874
+      "weight": 0.1046
     },
     {
-      "country": "Japan",
-      "country_code": "JP",
-      "weight": 0.005192
-    },
-    {
-      "country": "Mexico",
-      "country_code": "MX",
-      "weight": 0.003261
-    },
-    {
-      "country": "Germany",
-      "country_code": "DE",
-      "weight": 0.002884
-    },
-    {
-      "country": "Australia",
-      "country_code": "AU",
-      "weight": 0.001804
-    },
-    {
-      "country": "Netherlands",
-      "country_code": "NL",
-      "weight": 0.001794
-    },
-    {
-      "country": "Spain",
-      "country_code": "ES",
-      "weight": 0.001397
+      "country": "Canada",
+      "country_code": "CA",
+      "weight": 0.103789
     },
     {
       "country": "Korea, Republic of",
       "country_code": "KR",
-      "weight": 0.001381
-    },
-    {
-      "country": "Ireland",
-      "country_code": "IE",
-      "weight": 0.001366
-    },
-    {
-      "country": "Philippines",
-      "country_code": "PH",
-      "weight": 0.001285
-    },
-    {
-      "country": "Indonesia",
-      "country_code": "ID",
-      "weight": 0.001093
-    },
-    {
-      "country": "Singapore",
-      "country_code": "SG",
-      "weight": 0.000992
-    },
-    {
-      "country": "Cayman Islands",
-      "country_code": "KY",
-      "weight": 0.000984
-    },
-    {
-      "country": "Israel",
-      "country_code": "IL",
-      "weight": 0.000959
-    },
-    {
-      "country": "Panama",
-      "country_code": "PA",
-      "weight": 0.000928
-    },
-    {
-      "country": "Chile",
-      "country_code": "CL",
-      "weight": 0.00085
-    },
-    {
-      "country": "Peru",
-      "country_code": "PE",
-      "weight": 0.000753
-    },
-    {
-      "country": "France",
-      "country_code": "FR",
-      "weight": 0.000721
-    },
-    {
-      "country": "Poland",
-      "country_code": "PL",
-      "weight": 0.000687
-    },
-    {
-      "country": "Uruguay",
-      "country_code": "UY",
-      "weight": 0.00056
-    },
-    {
-      "country": "Austria",
-      "country_code": "AT",
-      "weight": 0.000549
-    },
-    {
-      "country": "Luxembourg",
-      "country_code": "LU",
-      "weight": 0.000479
-    },
-    {
-      "country": "Norway",
-      "country_code": "NO",
-      "weight": 0.000439
-    },
-    {
-      "country": "Sweden",
-      "country_code": "SE",
-      "weight": 0.000316
-    },
-    {
-      "country": "Bermuda",
-      "country_code": "BM",
-      "weight": 0.000267
-    },
-    {
-      "country": "Italy",
-      "country_code": "IT",
-      "weight": 0.000231
+      "weight": 0.102021
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.000191
+      "weight": 0.071263
     },
     {
-      "country": "Jersey",
-      "country_code": "JE",
-      "weight": 0.00015
+      "country": "Germany",
+      "country_code": "DE",
+      "weight": 0.065648
     },
     {
-      "country": "Liberia",
-      "country_code": "LR",
-      "weight": 0.000134
+      "country": "France",
+      "country_code": "FR",
+      "weight": 0.065493
     },
     {
-      "country": "Isle of Man",
-      "country_code": "IM",
-      "weight": 9.2e-05
+      "country": "Australia",
+      "country_code": "AU",
+      "weight": 0.054766
     },
     {
-      "country": "Hungary",
-      "country_code": "HU",
-      "weight": 5.6e-05
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.048626
     },
     {
-      "country": "Guernsey",
-      "country_code": "GG",
-      "weight": 3.7e-05
+      "country": "Spain",
+      "country_code": "ES",
+      "weight": 0.027819
+    },
+    {
+      "country": "Sweden",
+      "country_code": "SE",
+      "weight": 0.025027
+    },
+    {
+      "country": "Italy",
+      "country_code": "IT",
+      "weight": 0.023866
+    },
+    {
+      "country": "Hong Kong",
+      "country_code": "HK",
+      "weight": 0.01241
+    },
+    {
+      "country": "Denmark",
+      "country_code": "DK",
+      "weight": 0.01209
+    },
+    {
+      "country": "Israel",
+      "country_code": "IL",
+      "weight": 0.012002
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.011781
     },
     {
       "country": "Finland",
       "country_code": "FI",
-      "weight": 3.1e-05
+      "weight": 0.009562
     },
     {
-      "country": "Virgin Islands, British",
-      "country_code": "VG",
-      "weight": 3e-05
+      "country": "Belgium",
+      "country_code": "BE",
+      "weight": 0.006879
     },
     {
-      "country": "China",
-      "country_code": "CN",
-      "weight": 2.9e-05
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.006686
     },
     {
-      "country": "Brazil",
-      "country_code": "BR",
-      "weight": 1.5e-05
+      "country": "Norway",
+      "country_code": "NO",
+      "weight": 0.005053
+    },
+    {
+      "country": "Jersey",
+      "country_code": "JE",
+      "weight": 0.004182
+    },
+    {
+      "country": "Poland",
+      "country_code": "PL",
+      "weight": 0.003558
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.003494
+    },
+    {
+      "country": "Cayman Islands",
+      "country_code": "KY",
+      "weight": 0.002984
+    },
+    {
+      "country": "Austria",
+      "country_code": "AT",
+      "weight": 0.002714
+    },
+    {
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "weight": 0.002176
+    },
+    {
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "weight": 0.002099
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.002048
+    },
+    {
+      "country": "Portugal",
+      "country_code": "PT",
+      "weight": 0.001353
+    },
+    {
+      "country": "Isle of Man",
+      "country_code": "IM",
+      "weight": 0.000142
+    },
+    {
+      "country": "Thailand",
+      "country_code": "TH",
+      "weight": 9e-05
     }
   ],
-  "holdings_count": 12083,
+  "holdings_count": 1479,
   "identifiers": {
     "isin": "US8085248057"
   },
@@ -226,7 +190,7 @@
   "name": "Schwab International Equity ETF",
   "primary_symbol": "SCHF",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001454889"
@@ -235,73 +199,104 @@
   "sector_weights": [
     {
       "sector": "Unknown",
-      "weight": 0.999914
+      "weight": 0.398019
     },
     {
       "sector": "Financials",
-      "weight": 8.6e-05
+      "weight": 0.129276
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.111239
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.07245
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.052859
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.051996
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.041187
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.037913
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.031567
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.029577
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.022645
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.021272
     }
   ],
   "top_holdings": [
     {
-      "cusip": "857492706",
-      "isin": "US8574927062",
-      "name": "State Street Institutional US Government Money Market Fund",
-      "weight": 0.018931
+      "isin": "KR7005930003",
+      "name": "Samsung Electronics Co Ltd",
+      "weight": 0.033055
     },
     {
-      "cusip": "91282CPJ4",
-      "isin": "US91282CPJ44",
-      "name": "United States Treasury",
-      "weight": 0.004313
+      "isin": "KR7000660001",
+      "name": "SK hynix Inc",
+      "weight": 0.02793
     },
     {
-      "cusip": "91282CMM0",
-      "isin": "US91282CMM00",
-      "name": "United States Treasury",
-      "weight": 0.00387
+      "isin": "NL0010273215",
+      "name": "ASML Holding NV",
+      "weight": 0.020911
     },
     {
-      "cusip": "91282CJZ5",
-      "isin": "US91282CJZ59",
-      "name": "United States Treasury",
-      "weight": 0.003785
+      "isin": "GB0005405286",
+      "name": "HSBC Holdings PLC",
+      "weight": 0.010767
     },
     {
-      "cusip": "91282CKQ3",
-      "isin": "US91282CKQ32",
-      "name": "United States Treasury",
-      "weight": 0.003777
+      "isin": "CH1499059983",
+      "name": "Roche Holding AG",
+      "weight": 0.009877
     },
     {
-      "cusip": "91282CNC1",
-      "isin": "US91282CNC19",
-      "name": "United States Treasury",
-      "weight": 0.003777
+      "isin": "CH0012005267",
+      "name": "Novartis AG",
+      "weight": 0.00967
     },
     {
-      "cusip": "91282CNT4",
-      "isin": "US91282CNT44",
-      "name": "United States Treasury",
-      "weight": 0.003749
+      "isin": "GB0009895292",
+      "name": "AstraZeneca PLC",
+      "weight": 0.0093
     },
     {
-      "cusip": "91282CLW9",
-      "isin": "US91282CLW90",
-      "name": "United States Treasury",
-      "weight": 0.003747
+      "cusip": "780087102",
+      "isin": "CA7800871021",
+      "name": "Royal Bank of Canada",
+      "weight": 0.008961
     },
     {
-      "cusip": "91282CLF6",
-      "isin": "US91282CLF67",
-      "name": "United States Treasury",
-      "weight": 0.003619
+      "isin": "CH0038863350",
+      "name": "Nestle SA",
+      "weight": 0.008737
     },
     {
-      "cusip": "91282CJJ1",
-      "isin": "US91282CJJ18",
-      "name": "United States Treasury",
-      "weight": 0.003589
+      "isin": "GB00BP6MXD84",
+      "name": "Shell PLC",
+      "weight": 0.007982
     }
   ]
 }

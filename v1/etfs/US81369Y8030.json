@@ -1,0 +1,152 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.998085
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.001921
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -6e-06
+    }
+  ],
+  "aum_usd": 124102423225.59,
+  "category": "Technology",
+  "category_group": "Information Technology",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.973168
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.019568
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.003948
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.003316
+    }
+  ],
+  "holdings_count": 79,
+  "identifiers": {
+    "isin": "US81369Y8030"
+  },
+  "isin": "US81369Y8030",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "XLK"
+    }
+  ],
+  "name": "Technology Select Sector SPDR Fund",
+  "primary_symbol": "XLK",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.646626
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.255329
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.083666
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.011068
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.001901
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.00141
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp",
+      "weight": 0.146279
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple Inc",
+      "weight": 0.128279
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp",
+      "weight": 0.083638
+    },
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology Inc",
+      "weight": 0.054105
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc",
+      "weight": 0.053984
+    },
+    {
+      "cusip": "007903107",
+      "isin": "US0079031078",
+      "name": "Advanced Micro Devices Inc",
+      "weight": 0.052693
+    },
+    {
+      "cusip": "458140100",
+      "isin": "US4581401001",
+      "name": "Intel Corp",
+      "weight": 0.036696
+    },
+    {
+      "cusip": "038222105",
+      "isin": "US0382221051",
+      "name": "Applied Materials Inc",
+      "weight": 0.031918
+    },
+    {
+      "cusip": "512807306",
+      "isin": "US5128073062",
+      "name": "Lam Research Corp",
+      "weight": 0.030145
+    },
+    {
+      "cusip": "17275R102",
+      "isin": "US17275R1023",
+      "name": "Cisco Systems Inc",
+      "weight": 0.025809
+    }
+  ]
+}

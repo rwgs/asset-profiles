@@ -1,0 +1,205 @@
+{
+  "as_of_date": "2027-03-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.997158
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.002825
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 1.6e-05
+    },
+    {
+      "asset_class": "Other",
+      "weight": 0.0
+    }
+  ],
+  "aum_usd": 889637196076.52,
+  "category": "Large Cap",
+  "category_group": "Equities",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.970609
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.01998
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.002729
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.00164
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.001308
+    },
+    {
+      "country": "Liberia",
+      "country_code": "LR",
+      "weight": 0.001226
+    },
+    {
+      "country": "Curaçao",
+      "country_code": "CW",
+      "weight": 0.001076
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.000921
+    },
+    {
+      "country": "Jersey",
+      "country_code": "JE",
+      "weight": 0.000511
+    }
+  ],
+  "holdings_count": 508,
+  "identifiers": {
+    "isin": "US4642872000"
+  },
+  "isin": "US4642872000",
+  "issuer": "iShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "IVV"
+    }
+  ],
+  "name": "iShares Core S&P 500 ETF",
+  "primary_symbol": "IVV",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.242107
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.178002
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.108338
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.093919
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.088263
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.07693
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.05986
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.045954
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.041512
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.034984
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.01946
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.010672
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp.",
+      "weight": 0.074932
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple, Inc.",
+      "weight": 0.065711
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp.",
+      "weight": 0.042844
+    },
+    {
+      "cusip": "023135106",
+      "isin": "US0231351067",
+      "name": "Amazon.com, Inc.",
+      "weight": 0.036074
+    },
+    {
+      "cusip": "02079K305",
+      "isin": "US02079K3059",
+      "name": "Alphabet, Inc.",
+      "weight": 0.0324
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom, Inc.",
+      "weight": 0.027654
+    },
+    {
+      "cusip": "02079K107",
+      "isin": "US02079K1079",
+      "name": "Alphabet, Inc.",
+      "weight": 0.025821
+    },
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology, Inc.",
+      "weight": 0.020129
+    },
+    {
+      "cusip": "30303M102",
+      "isin": "US30303M1027",
+      "name": "Meta Platforms, Inc.",
+      "weight": 0.019127
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "Tesla, Inc.",
+      "weight": 0.018308
+    }
+  ]
+}

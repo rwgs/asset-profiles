@@ -2,28 +2,35 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00GQKR822",
+    "composite_figi": "BBG000R08MN7",
     "isin": "GB00BYWMFT51"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "GB00BYWMFT51",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "EVE.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BYWMFT51.SG"
     }
   ],
-  "name": "EVE SLEEP PLC",
-  "primary_symbol": "GB00BYWMFT51.SG",
+  "name": "eve Sleep plc",
+  "primary_symbol": "EVE.L",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Eve Sleep PLC is an online mattress and sleep products retailer. The company sells mattresses, bedding, and other sleep-related products directly to consumers. Eve Sleep PLC is headquartered in London, UK."
+  "summary": "eve Sleep plc operates as a direct to consumer sleep brand in the United Kingdom and Ireland, France, rest of Europe, and internationally. The company designs, brands, markets, and sells mattresses, bed frames, pillows, bedding products, and sleep accessories, as well as child and baby cot mattress and bedding. It sells its products through retail partnerships and online. The company was founded in 2014 and is based in London, the United Kingdom.",
+  "website": "http://www.evesleep.co.uk"
 }

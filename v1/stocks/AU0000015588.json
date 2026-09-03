@@ -2,8 +2,6 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000CS7CT9",
-    "figi": "BBG000CS7CT9",
     "isin": "AU0000015588"
   },
   "industry": "Household Durables",
@@ -12,41 +10,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KSS"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "0JRL.L"
-    },
-    {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "K1SS34.SA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "KHP.F"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KHP.SG"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "KSS.MX"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Kohl's Corporation",
-  "primary_symbol": "KSS",
+  "primary_symbol": "KHP.SG",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

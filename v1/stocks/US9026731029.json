@@ -4,7 +4,6 @@
   "identifiers": {
     "composite_figi": "BBG000BJBZK3",
     "cusip": "902673102",
-    "figi": "BBG000BJBZK3",
     "isin": "US9026731029"
   },
   "industry": "Distributors",
@@ -15,14 +14,19 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "UFP.BE"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
       "symbol": "UFPT"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "UFP Technologies, Inc.",
-  "primary_symbol": "UFPT",
+  "primary_symbol": "UFP.BE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

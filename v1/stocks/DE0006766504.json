@@ -1,30 +1,43 @@
 {
-  "country": "Germany",
-  "country_code": "DE",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG006TLMNY6",
-    "figi": "BBG006TLMP08",
+    "composite_figi": "BBG000KJ43W9",
+    "figi": "BBG000KJ43W9",
     "isin": "DE0006766504"
   },
-  "industry_group": "Materials",
+  "industry": "Gas Utilities",
+  "industry_group": "Utilities",
   "isin": "DE0006766504",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "AIAGF"
+    },
+    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "DE0006766504.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "NDA.DE"
     }
   ],
-  "name": "AURUBIS AG",
-  "primary_symbol": "DE0006766504.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Aurubis AG",
+  "primary_symbol": "AIAGF",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "Aurubis AG is a leading integrated copper producer and recycler worldwide, processing copper concentrates, scrap, and other recycling materials into a range of copper products, headquartered in Hamburg, Germany. The company's products include copper cathodes, wire rod, shapes, and precious metals. Aurubis focuses on sustainable production and efficient resource management."
+  "sector": "Utilities",
+  "summary": "Aurubis AG, a long-established German corporation headquartered in Hamburg and founded in 1866, specializes in the comprehensive processing and recycling of metals. Previously known as Norddeutsche Affinerie AG until its name change in April 2009, the company handles a broad spectrum of raw materials, including metal concentrates, diverse types of scrap metal, and various industrial residues. Their operations yield an extensive array of metal products, such as wire rods, specialized wires, structural shapes, bars, profiles, and rolled products designed for both industrial and architectural applications. Aurubis also refines and produces precious metals like gold and silver, in addition to lead, tellurium, and their associated alloys and compounds (e.g., lead-bismuth alloy, lead-antimony litharge, tellurium dioxide). A significant focus of the company is on the reclamation of copper, precious metals, and other non-ferrous metals from various recycled streams, including copper and alloy scrap, as well as electronic waste. Furthermore, Aurubis manufactures important by-products such as sulfuric acid, iron-silicate, smelter intermediates, and selenium.",
+  "website": "http://www.rubis.fr"
 }

@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "FR0000121667"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "FR0000121667",
   "kind": "stock",
@@ -12,17 +13,39 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "ESL.TI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "ESLOF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "EL.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "EL.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ESL.F"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "ESSILORLUXOTTICA",
   "primary_symbol": "ESL.TI",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "EssilorLuxottica is a global leader in the design, manufacture, and distribution of ophthalmic lenses, frames, and sunglasses. The company's portfolio includes well-known brands such as Ray-Ban, Oakley, and Essilor lenses. The company is headquartered in Charenton-le-Pont, France."
+  "summary": "EssilorLuxottica is a global leader in the design, manufacture, and distribution of ophthalmic lenses, frames, and sunglasses. The company's portfolio includes well-known brands such as Ray-Ban, Oakley, and Essilor lenses. The company is headquartered in Charenton-le-Pont, France.",
+  "website": "http://www.essilorluxottica.com"
 }

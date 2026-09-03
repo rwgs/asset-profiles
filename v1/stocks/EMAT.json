@@ -6,6 +6,8 @@
     "cusip": "30054B107",
     "figi": "BBG013XM3G08"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "kind": "stock",
   "listings": [
     {
@@ -14,14 +16,15 @@
       "symbol": "EMAT"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Evolution Metals & Technologies Corp. Common Stock",
   "primary_symbol": "EMAT",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials"
 }

@@ -1,0 +1,126 @@
+{
+  "as_of_date": "2026-06-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.982359
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.017641
+    }
+  ],
+  "aum_usd": 4821965766.75,
+  "category": "Mid Cap",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.972704
+    },
+    {
+      "country": "Puerto Rico",
+      "country_code": "PR",
+      "weight": 0.027296
+    }
+  ],
+  "holdings_count": 165,
+  "identifiers": {
+    "isin": "US78464A6982"
+  },
+  "isin": "US78464A6982",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "KRE"
+    }
+  ],
+  "name": "SPDR S&P Regional Banking ETF",
+  "primary_symbol": "KRE",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Financials",
+      "weight": 0.923197
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.045449
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.031353
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "857492706",
+      "isin": "US8574927062",
+      "name": "State Street Global Advisors",
+      "weight": 0.016702
+    },
+    {
+      "cusip": "72348N109",
+      "isin": "US72348N1090",
+      "name": "Pinnacle Financial Partners Inc",
+      "weight": 0.013463
+    },
+    {
+      "cusip": "902788108",
+      "isin": "US9027881088",
+      "name": "UMB Financial Corp",
+      "weight": 0.013443
+    },
+    {
+      "cusip": "04911A107",
+      "isin": "US04911A1079",
+      "name": "Atlantic Union Bankshares Corp",
+      "weight": 0.013438
+    },
+    {
+      "cusip": "174610105",
+      "isin": "US1746101054",
+      "name": "Citizens Financial Group Inc",
+      "weight": 0.013401
+    },
+    {
+      "cusip": "37637Q105",
+      "isin": "US37637Q1058",
+      "name": "Glacier Bancorp Inc",
+      "weight": 0.013382
+    },
+    {
+      "cusip": "045487105",
+      "isin": "US0454871056",
+      "name": "Associated Banc-Corp",
+      "weight": 0.013358
+    },
+    {
+      "cusip": "229899109",
+      "isin": "US2298991090",
+      "name": "Cullen/Frost Bankers Inc",
+      "weight": 0.013285
+    },
+    {
+      "cusip": "360271100",
+      "isin": "US3602711000",
+      "name": "Fulton Financial Corp",
+      "weight": 0.013229
+    },
+    {
+      "cusip": "32055Y201",
+      "isin": "US32055Y2019",
+      "name": "First Interstate BancSystem Inc",
+      "weight": 0.013228
+    }
+  ]
+}

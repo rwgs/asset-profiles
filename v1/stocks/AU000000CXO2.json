@@ -2,8 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00LDN94T9",
-    "figi": "BBG00LDN94T9",
+    "composite_figi": "BBG001968H71",
     "isin": "AU000000CXO2"
   },
   "industry": "Metals & Mining",
@@ -11,6 +10,11 @@
   "isin": "AU000000CXO2",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "CXO"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -24,9 +28,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Core Lithium Ltd",
-  "primary_symbol": "CXOXF",
+  "primary_symbol": "CXO",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

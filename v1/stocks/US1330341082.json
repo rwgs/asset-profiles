@@ -2,30 +2,36 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00VXCZBF9",
-    "cusip": "133034108",
-    "figi": "BBG00VXCZBK3",
+    "composite_figi": "BBG000F4HRQ8",
     "isin": "US1330341082"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US1330341082",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3LR.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US1330341082.SG"
     }
   ],
-  "name": "CAMDEN NATIONAL CORP",
-  "primary_symbol": "US1330341082.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Camden National Corporation",
+  "primary_symbol": "3LR.F",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "CAMDEN NATIONAL CORP is a bank holding company that provides commercial and retail banking services. Headquartered in Camden, Maine, the company operates Camden National Bank, which offers a range of financial products and services. Camden National Corp serves individuals, businesses, and municipalities in Maine."
+  "summary": "Camden National Corporation operates as the bank holding company for Camden National Bank that provides commercial and consumer banking products and services to consumer, institutional, municipal, non-profit, and commercial customers. The company accepts checking, savings, time, and brokered deposits, as well as certificates of deposit. It also originates single and multi-family residential loans, commercial real estate loans, business loans, municipal loans, and various consumer loans, as well as loans for the construction of residential homes, multi-family properties, and commercial real estate properties; and specialized lending to dentists, optometrists, and veterinarians. In addition, the company provides brokerage and insurance services through its financial offerings consisting of college, retirement, estate planning, mutual funds, strategic asset management accounts, and variable and fixed annuities. Further, it offers a range of fiduciary and asset management, wealth management, investment management, financial planning, and trustee services. As of December 31, 2020, the Bank had 57 branches in 13 counties; one branch in Portsmouth, New Hampshire; commercial loan production offices in Manchester, New Hampshire; and a mortgage loan production office in Braintree and Wakefield, Massachusetts, as well as 66 ATMs. The company was founded in 1875 and is headquartered in Camden, Maine.",
+  "website": "http://www.camdennational.com"
 }

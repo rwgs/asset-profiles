@@ -1,6 +1,8 @@
 {
   "country": "Israel",
   "country_code": "IL",
+  "industry": "Pharmaceuticals",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,17 @@
       "symbol": "T1EV34.SA"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "TEVA PHARMACDRN",
   "primary_symbol": "T1EV34.SA",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Health Care",
+  "summary": "Teva Pharmaceutical Industries Limited develops, manufactures, and markets generic, specialty, and biopharmaceutical products worldwide, with key therapeutic areas in central nervous system disorders, respiratory conditions, and oncology. Established in 1901, headquartered in Tel Aviv-Yafo, Israel. This row represents the company's Brazilian Depositary Receipt (BDR).",
+  "website": "https://www.tevapharm.com"
 }

@@ -1,0 +1,126 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.997941
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.002201
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -0.000142
+    }
+  ],
+  "aum_usd": 35757289369.43,
+  "category": "Energy",
+  "category_group": "Energy",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.959088
+    },
+    {
+      "country": "Curaçao",
+      "country_code": "CW",
+      "weight": 0.040912
+    }
+  ],
+  "holdings_count": 25,
+  "identifiers": {
+    "isin": "US81369Y5069"
+  },
+  "isin": "US81369Y5069",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "XLE"
+    }
+  ],
+  "name": "Energy Select Sector SPDR Fund",
+  "primary_symbol": "XLE",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Energy",
+      "weight": 0.997941
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.002059
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "30231G102",
+      "isin": "US30231G1022",
+      "name": "Exxon Mobil Corp",
+      "weight": 0.226488
+    },
+    {
+      "cusip": "166764100",
+      "isin": "US1667641005",
+      "name": "Chevron Corp",
+      "weight": 0.160741
+    },
+    {
+      "cusip": "20825C104",
+      "isin": "US20825C1045",
+      "name": "ConocoPhillips",
+      "weight": 0.065605
+    },
+    {
+      "cusip": "969457100",
+      "isin": "US9694571004",
+      "name": "Williams Cos Inc/The",
+      "weight": 0.050223
+    },
+    {
+      "cusip": "91913Y100",
+      "isin": "US91913Y1001",
+      "name": "Valero Energy Corp",
+      "weight": 0.046363
+    },
+    {
+      "cusip": "56585A102",
+      "isin": "US56585A1025",
+      "name": "Marathon Petroleum Corp",
+      "weight": 0.044748
+    },
+    {
+      "cusip": "26875P101",
+      "isin": "US26875P1012",
+      "name": "EOG Resources Inc",
+      "weight": 0.041425
+    },
+    {
+      "cusip": "806857108",
+      "isin": "AN8068571086",
+      "name": "SLB Ltd",
+      "weight": 0.040885
+    },
+    {
+      "cusip": "718546104",
+      "isin": "US7185461040",
+      "name": "Phillips 66",
+      "weight": 0.040634
+    },
+    {
+      "cusip": "49456B101",
+      "isin": "US49456B1017",
+      "name": "Kinder Morgan Inc",
+      "weight": 0.037525
+    }
+  ]
+}

@@ -1,33 +1,39 @@
 {
-  "country": "New Zealand",
-  "country_code": "NZ",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000H21KT9",
+    "composite_figi": "BBG000M9DBV2",
     "cusip": "00208D408",
+    "figi": "BBG000M9DBV2",
     "isin": "CA00208D4084"
   },
-  "industry": "Health Care Technology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "CA00208D4084",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "AETUF"
+    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "ARX.AX"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Aroa Biosurgery Limited",
-  "primary_symbol": "ARX.AX",
+  "market_cap_band": "Mid Cap",
+  "name": "ARC Resources Ltd.",
+  "primary_symbol": "AETUF",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Aroa Biosurgery Limited, a regenerative medicine company, develops and manufactures medical devices for wound and tissue repair in the United States and internationally. Its products include Endoform Natural and Endoform Antimicrobia for treating acute and chronic wounds; Myriad, an implant and dermal procedures for soft tissue repair, reinforcement, and complex wounds; and Reinforced Bioscaffolds, a biologics and synthetics product used in surgical ventral hernia repair solutions. The company was founded in 2008 and is based in Auckland, New Zealand.",
-  "website": "http://aroabio.com"
+  "sector": "Energy",
+  "summary": "ARC Resources Ltd. is a Canadian firm primarily focused on the exploration, development, and production of hydrocarbons, including crude oil, natural gas, and natural gas liquids, within Canada. The company holds significant operational interests in the Montney formation, located across northeastern British Columbia and northern Alberta, as well as the Pembina Cardium properties in central Alberta. As of December 31, 2020, its estimated proved and probable reserves amounted to 929 million barrels of oil equivalent. Established in 1996, ARC Resources Ltd. is headquartered in Calgary, Canada.",
+  "website": "http://www.arcresources.com"
 }

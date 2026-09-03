@@ -1,61 +1,74 @@
 {
-  "as_of_date": "2026-08-31",
+  "as_of_date": "2026-04-30",
   "asset_class_weights": [
     {
-      "asset_class": "Fixed Income",
-      "weight": 0.818105
+      "asset_class": "Equity",
+      "weight": 0.960473
     },
     {
       "asset_class": "Cash",
-      "weight": 0.181895
+      "weight": 0.03943
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 9.6e-05
     }
   ],
-  "aum_usd": 486695178.44,
+  "aum_usd": 91309871448.48,
   "category": "Large Cap",
   "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.769744
-    },
-    {
-      "country": "Canada",
-      "country_code": "CA",
-      "weight": 0.086924
-    },
-    {
-      "country": "Luxembourg",
-      "country_code": "LU",
-      "weight": 0.034522
-    },
-    {
-      "country": "United Kingdom",
-      "country_code": "GB",
-      "weight": 0.033599
-    },
-    {
-      "country": "Japan",
-      "country_code": "JP",
-      "weight": 0.02764
-    },
-    {
-      "country": "Jersey",
-      "country_code": "JE",
-      "weight": 0.016532
-    },
-    {
-      "country": "Netherlands",
-      "country_code": "NL",
-      "weight": 0.015596
+      "weight": 0.943263
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.015443
+      "weight": 0.029239
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.00758
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.005771
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.004774
+    },
+    {
+      "country": "Jersey",
+      "country_code": "JE",
+      "weight": 0.003492
+    },
+    {
+      "country": "Curaçao",
+      "country_code": "CW",
+      "weight": 0.002188
+    },
+    {
+      "country": "Panama",
+      "country_code": "PA",
+      "weight": 0.001892
+    },
+    {
+      "country": "Liberia",
+      "country_code": "LR",
+      "weight": 0.001705
+    },
+    {
+      "country": "Unknown",
+      "weight": 9.6e-05
     }
   ],
-  "holdings_count": 93,
+  "holdings_count": 508,
   "identifiers": {
     "isin": "US46137V3574"
   },
@@ -71,7 +84,7 @@
   "name": "Invesco S&P 500 Equal Weight ETF",
   "primary_symbol": "RSP",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001378872"
@@ -79,66 +92,110 @@
   "schema_version": "1.0.0",
   "sector_weights": [
     {
+      "sector": "Information Technology",
+      "weight": 0.159594
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.142086
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.130295
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.100684
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.090622
+    },
+    {
       "sector": "Unknown",
-      "weight": 1.0
+      "weight": 0.0863
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.064803
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.05756
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.052679
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.048056
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.038884
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.028437
     }
   ],
   "top_holdings": [
     {
       "name": "Invesco Private Prime Fund",
-      "weight": 0.129271
+      "weight": 0.027387
     },
     {
       "name": "Invesco Private Government Fund",
-      "weight": 0.0496
+      "weight": 0.010196
     },
     {
-      "cusip": "36168QAQ7",
-      "isin": "US36168QAQ73",
-      "name": "GFL Environmental Inc.",
-      "weight": 0.038636
+      "cusip": "458140100",
+      "isin": "US4581401001",
+      "name": "Intel Corp.",
+      "weight": 0.003638
     },
     {
-      "cusip": "695114DF2",
-      "isin": "US695114DF26",
-      "name": "PacifiCorp",
-      "weight": 0.037157
+      "cusip": "G7997R103",
+      "isin": "IE00BKVD2N49",
+      "name": "Seagate Technology Holdings PLC",
+      "weight": 0.003227
     },
     {
-      "cusip": "92857WBQ2",
-      "isin": "US92857WBQ24",
-      "name": "Vodafone Group PLC",
-      "weight": 0.03304
+      "cusip": "007903107",
+      "isin": "US0079031078",
+      "name": "Advanced Micro Devices, Inc.",
+      "weight": 0.0032
     },
     {
-      "cusip": "43990FAA6",
-      "isin": "US43990FAA66",
-      "name": "Horizon Mutual Holdings, Inc.",
-      "weight": 0.027925
+      "cusip": "682189105",
+      "isin": "US6821891057",
+      "name": "ON Semiconductor Corp.",
+      "weight": 0.003146
     },
     {
-      "cusip": "918204BC1",
-      "isin": "US918204BC10",
-      "name": "V.F. Corp.",
-      "weight": 0.02148
+      "cusip": "80004C200",
+      "isin": "US80004C2008",
+      "name": "Sandisk Corp.",
+      "weight": 0.003091
     },
     {
-      "cusip": "44701QBE1",
-      "isin": "US44701QBE17",
-      "name": "Huntsman International LLC",
-      "weight": 0.019647
+      "cusip": "958102105",
+      "isin": "US9581021055",
+      "name": "Western Digital Corp.",
+      "weight": 0.002987
     },
     {
-      "cusip": "78413KAB8",
-      "isin": "US78413KAB89",
-      "name": "SES Americom Inc.",
-      "weight": 0.01914
+      "cusip": "171779309",
+      "isin": "US1717793095",
+      "name": "Ciena Corp.",
+      "weight": 0.002867
     },
     {
-      "cusip": "03837AAD2",
-      "isin": "US03837AAD28",
-      "name": "Aptiv Swiss Holdings Ltd.",
-      "weight": 0.016257
+      "cusip": "609839105",
+      "isin": "US6098391054",
+      "name": "Monolithic Power Systems, Inc.",
+      "weight": 0.002783
     }
   ]
 }

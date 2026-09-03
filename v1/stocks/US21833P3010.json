@@ -1,16 +1,32 @@
 {
-  "country": "Japan",
-  "country_code": "JP",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG0078PJKQ7",
     "cusip": "21833P301",
+    "figi": "BBG0078PJKQ7",
     "isin": "US21833P3010"
   },
-  "industry": "IT Services",
-  "industry_group": "Software & Services",
+  "industry": "Biotechnology",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US21833P3010",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "CRBP"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "0SZI.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "337.F"
+    },
     {
       "currency": "JPY",
       "exchange_mic": "XTKS",
@@ -18,16 +34,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Softcreate Holdings Corp.",
-  "primary_symbol": "3371.T",
+  "name": "Corbus Pharmaceuticals Holdings, Inc.",
+  "primary_symbol": "CRBP",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Softcreate Holdings Corp., through its subsidiaries, provides system integration and other IT related services in Japan. The company offers EC solutions by providing value-added services, such as promotions in addition to selling and customizing the EC site construction package; and hosting services at the data center. It also provides system integration services comprising network construction and cloud services for three software products, including X-point, AgileWorks, and L2Blocker; and sells IT equipment, such as personal computers and servers to corporate customers, as well as provides commercial package software. The company was founded in 1983 and is headquartered in Tokyo, Japan.",
-  "website": "http://www.softcreate-holdings.co.jp"
+  "sector": "Health Care",
+  "summary": "Corbus Pharmaceuticals Holdings, Inc., a clinical-stage pharmaceutical company, focuses on the development and commercialization of novel therapeutics that target the endocannabinoid system in the fields of autoimmunity, fibrosis, and cancer. Its lead product candidate is lenabasum, a cannabinoid receptor type 2 (CB2) that is in Phase III clinical trial for the treatment of dermatomyositis; and in Phase II clinical trial to treat systemic lupus erythematosus. The company is also developing cannabinoid receptor type 1 inverse agonist program for treatment of metabolic disorders, such as obesity, diabetic nephropathy, diabetic retinopathy, and nonalcoholic steatohepatitis; and CB2 agonist program for the treatment of cancer. It has a licensing agreement with Jenrin Discovery, LLC to develop and commercialize the licensed products, which includes the Jenrin library of approximately 600 compounds and multiple issued and pending patent filings; and strategic collaboration with Kaken Pharmaceutical Co., Ltd. for the development and commercialization of lenabasum in Japan. The company was incorporated in 2009 and is based in Norwood, Massachusetts.",
+  "website": "http://www.corbuspharma.com"
 }

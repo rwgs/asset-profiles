@@ -1,6 +1,8 @@
 {
   "country": "Japan",
   "country_code": "JP",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,17 @@
       "symbol": "M1UF34.SA"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "MITSUBISHI UDRN",
   "primary_symbol": "M1UF34.SA",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Mitsubishi UFJ Financial Group, Inc. (MUFG), tracing its origins to 1880 and headquartered in Tokyo, Japan, is the parent of MUFG Bank and provides commercial banking, trust banking, securities, and asset management services globally. This row represents the company's Brazilian Depositary Receipt (BDR).",
+  "website": "https://www.mufg.jp"
 }

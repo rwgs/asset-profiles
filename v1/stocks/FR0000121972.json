@@ -2,29 +2,37 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BKHC34",
-    "figi": "BBG000BKHFC7",
+    "composite_figi": "BBG000BWMW83",
+    "figi": "BBG000BWMW83",
     "isin": "FR0000121972"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "FR0000121972",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SBGSF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SND.SG"
     }
   ],
-  "name": "Schneider Electric SE Actions P",
-  "primary_symbol": "SND.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Schneider Electric S.E.",
+  "primary_symbol": "SBGSF",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Schneider Electric SE Actions P refers to the publicly traded shares of Schneider Electric, a European multinational company. The company specializes in digital automation and energy management solutions, offering products and services for various sectors. Its headquarters are in Rueil-Malmaison, France."
+  "summary": "Schneider Electric S.E. is a global leader specializing in digital transformation solutions for energy management and industrial automation, through Energy Management and Industrial Automation divisions. Established in 1836, Schneider Electric S.E. maintains its corporate headquarters in Rueil-Malmaison, France.",
+  "website": "http://www.se.com/ww/en"
 }

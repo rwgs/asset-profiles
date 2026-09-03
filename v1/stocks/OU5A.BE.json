@@ -6,6 +6,8 @@
     "cusip": "05337L304",
     "figi": "BBG000LJLL13"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "kind": "stock",
   "listings": [
     {
@@ -14,13 +16,15 @@
       "symbol": "OU5A.BE"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "AVALON ADV. MAT. INC.",
   "primary_symbol": "OU5A.BE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials"
 }

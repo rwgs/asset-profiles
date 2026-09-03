@@ -6,6 +6,8 @@
     "cusip": "83404D109",
     "figi": "BBG004TDHDK2"
   },
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Telecommunication Services",
   "kind": "stock",
   "listings": [
     {
@@ -14,13 +16,15 @@
       "symbol": "SFTU.BE"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "SOFTBANK GR.UNS.ADR1/2/ON",
   "primary_symbol": "SFTU.BE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Communications"
 }

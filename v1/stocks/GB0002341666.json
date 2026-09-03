@@ -2,28 +2,35 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BDCQ52",
+    "cusip": "G25340103",
     "isin": "GB0002341666"
   },
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry": "Household Products",
+  "industry_group": "Household & Personal Products",
   "isin": "GB0002341666",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CRL.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0002341666.SG"
     }
   ],
-  "name": "CREIGHTONS PLC",
-  "primary_symbol": "GB0002341666.SG",
+  "name": "Creightons Plc",
+  "primary_symbol": "CRL.L",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Creightons PLC manufactures and markets a wide range of beauty and personal care products, including skincare, haircare, and bath & body products, under various owned and licensed brands. Their products are distributed through retailers and online channels both domestically and internationally. The company is based in Peterborough, United Kingdom."
+  "summary": "Creightons Plc, together with its subsidiaries, develops, manufactures, and markets toiletries and fragrances in the United Kingdom and internationally. It offers haircare, skincare, bath and body, wellbeing, and male grooming products. The company also offers private label products for high street retailers and supermarket chains; and engages in contract manufacturing business on behalf of third-party brand owners. It offers its products under the Argan Smooth, Balance Active Formula, Bambeautiful, Beautiful Brunette, Bronze Ambition, Café de Bain, Creightons, Creightons for Men, Creightons Frizz No More, Creightons H2O Boost, Creightons Pro Keratin, Emma Bridgewater, Feather & Down, Groomed, Humble Natural Beauty, Photo Perfect, Sunshine Blonde, The Curl Company, The Hair Design, and Truefitt & Hill brands. The company also provides its products online. Creightons Plc was founded in 1954 and is based in Peterborough, the United Kingdom.",
+  "website": "http://www.creightons.com"
 }

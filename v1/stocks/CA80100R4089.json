@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00CJZ8JV1",
+    "composite_figi": "BBG000D6YCQ9",
     "cusip": "80100R408",
-    "figi": "BBG00CJZ8JV1",
+    "figi": "BBG000D6YCQ9",
     "isin": "CA80100R4089"
   },
   "industry": "Professional Services",
@@ -15,29 +15,19 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "IRMTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "STC"
     },
     {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "ISV.TO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SIU.F"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Information Services Corporation",
-  "primary_symbol": "IRMTF",
+  "primary_symbol": "STC",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000RNJBT3",
-    "figi": "BBG000RNJDC7",
+    "composite_figi": "BBG00ZZPBH08",
+    "cusip": "92025Y103",
+    "figi": "BBG00ZZPBHK6",
     "isin": "CH0002088976"
   },
   "industry": "Biotechnology",
@@ -14,47 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "AYJ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AYJ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INRLF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "VALN"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "0OB3.L"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "AYJ.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "AYJ.F"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AYJ.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "VLA.PA"
     },
     {
       "currency": "EUR",
@@ -64,9 +30,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Valneva SE",
-  "primary_symbol": "AYJ.BE",
+  "primary_symbol": "VALN",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

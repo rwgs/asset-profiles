@@ -2,14 +2,20 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000PZ3K33",
-    "figi": "BBG000PZ3LV0",
+    "composite_figi": "BBG000Q39RP8",
+    "figi": "BBG000Q39RP8",
     "isin": "CNE1000001Z5"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "CNE1000001Z5",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BACHF"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -31,15 +37,17 @@
       "symbol": "W8V.SG"
     }
   ],
-  "name": "Bank of China Limited Class H",
-  "primary_symbol": "W8V.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Bank of China Limited",
+  "primary_symbol": "BACHF",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Bank of China Limited provides a range of banking and financial services, including corporate banking, personal banking, and investment banking. The bank operates both domestically and internationally. Bank of China is headquartered in Beijing, China."
+  "summary": "Bank of China Limited, along with its associated entities, delivers a comprehensive array of banking and financial offerings. Its operations are structured across six key divisions: Corporate Banking, Personal Banking, Treasury Operations, Investment Banking, Insurance, and Other Operations. As of the close of 2021, the company maintained an extensive global presence with 10,382 branches and points of service. Established in 1912, its central offices are located in Beijing, China.",
+  "website": "http://www.boc.cn"
 }

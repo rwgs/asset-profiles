@@ -1,0 +1,165 @@
+{
+  "as_of_date": "2026-12-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.996559
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.003487
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -4.6e-05
+    }
+  ],
+  "aum_usd": 1673632288919.41,
+  "category": "Large Cap",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 1.000046
+    },
+    {
+      "country": "Unknown",
+      "weight": -4.6e-05
+    }
+  ],
+  "holdings_count": 520,
+  "identifiers": {
+    "isin": "US9229083632"
+  },
+  "isin": "US9229083632",
+  "issuer": "Vanguard",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "VOO"
+    }
+  ],
+  "name": "Vanguard S&P 500 ETF",
+  "primary_symbol": "VOO",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.243965
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.17089
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.108543
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.09425
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.088322
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.077195
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.059909
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.046066
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.041565
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.03503
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.019489
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.014776
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA Corp",
+      "weight": 0.075035
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "Apple Inc",
+      "weight": 0.065805
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "Microsoft Corp",
+      "weight": 0.042905
+    },
+    {
+      "cusip": "023135106",
+      "isin": "US0231351067",
+      "name": "Amazon.com Inc",
+      "weight": 0.036126
+    },
+    {
+      "cusip": "02079K305",
+      "isin": "US02079K3059",
+      "name": "Alphabet Inc",
+      "weight": 0.032446
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc",
+      "weight": 0.027693
+    },
+    {
+      "cusip": "02079K107",
+      "isin": "US02079K1079",
+      "name": "Alphabet Inc",
+      "weight": 0.025857
+    },
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "Micron Technology Inc",
+      "weight": 0.020157
+    },
+    {
+      "cusip": "30303M102",
+      "isin": "US30303M1027",
+      "name": "Meta Platforms Inc",
+      "weight": 0.019155
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "Tesla Inc",
+      "weight": 0.018335
+    }
+  ]
+}

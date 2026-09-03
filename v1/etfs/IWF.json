@@ -1,0 +1,222 @@
+{
+  "as_of_date": "2027-03-31",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.992569
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.007385
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 4.6e-05
+    }
+  ],
+  "aum_usd": 129634020915.8,
+  "category": "Growth",
+  "category_group": "Equities",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.98415
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.004453
+    },
+    {
+      "country": "Cayman Islands",
+      "country_code": "KY",
+      "weight": 0.00417
+    },
+    {
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "weight": 0.002135
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "weight": 0.001393
+    },
+    {
+      "country": "Liberia",
+      "country_code": "LR",
+      "weight": 0.001332
+    },
+    {
+      "country": "Canada",
+      "country_code": "CA",
+      "weight": 0.000987
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.000546
+    },
+    {
+      "country": "Denmark",
+      "country_code": "DK",
+      "weight": 0.00037
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.000236
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 7.7e-05
+    },
+    {
+      "country": "Virgin Islands, British",
+      "country_code": "VG",
+      "weight": 7.6e-05
+    },
+    {
+      "country": "Australia",
+      "country_code": "AU",
+      "weight": 5.2e-05
+    },
+    {
+      "country": "Puerto Rico",
+      "country_code": "PR",
+      "weight": 2.3e-05
+    }
+  ],
+  "holdings_count": 371,
+  "issuer": "iShares",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "IWF"
+    }
+  ],
+  "name": "iShares Russell 1000 Growth ETF",
+  "primary_symbol": "IWF",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.314118
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.304959
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.079455
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.070075
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.057128
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.053484
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.045877
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.042492
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.013906
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.012178
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.00337
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.00296
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "67066G104",
+      "isin": "US67066G1040",
+      "name": "NVIDIA CORPORATION",
+      "weight": 0.137514
+    },
+    {
+      "cusip": "037833100",
+      "isin": "US0378331005",
+      "name": "APPLE INC.",
+      "weight": 0.066774
+    },
+    {
+      "cusip": "02079K305",
+      "isin": "US02079K3059",
+      "name": "ALPHABET INC.",
+      "weight": 0.061348
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "BROADCOM INC.",
+      "weight": 0.051773
+    },
+    {
+      "cusip": "02079K107",
+      "isin": "US02079K1079",
+      "name": "ALPHABET INC.",
+      "weight": 0.049495
+    },
+    {
+      "cusip": "594918104",
+      "isin": "US5949181045",
+      "name": "MICROSOFT CORPORATION",
+      "weight": 0.040823
+    },
+    {
+      "cusip": "595112103",
+      "isin": "US5951121038",
+      "name": "MICRON TECHNOLOGY, INC.",
+      "weight": 0.038334
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "TESLA, INC.",
+      "weight": 0.036199
+    },
+    {
+      "cusip": "30303M102",
+      "isin": "US30303M1027",
+      "name": "META PLATFORMS, INC.",
+      "weight": 0.029845
+    },
+    {
+      "cusip": "532457108",
+      "isin": "US5324571083",
+      "name": "ELI LILLY AND COMPANY",
+      "weight": 0.028212
+    }
+  ]
+}

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BK6MB5",
-    "cusip": "369604301",
-    "figi": "BBG000BK6PH2",
+    "composite_figi": "BBG000C1R7V4",
+    "cusip": "73689L207",
+    "figi": "BBG006M6Y670",
     "isin": "CA73689L2075"
   },
   "industry": "Machinery",
@@ -12,36 +12,6 @@
   "isin": "CA73689L2075",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "POR"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "49P.F"
-    },
-    {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "GE.BA"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "GE.MX"
-    },
-    {
-      "currency": "CLP",
-      "exchange_mic": "XSGO",
-      "symbol": "GE.SN"
-    },
     {
       "currency": "CHF",
       "exchange_mic": "XSWX",
@@ -68,21 +38,16 @@
       "symbol": "GEC.L"
     },
     {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "GEOO34.SA"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "GNE.PA"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Large Cap",
   "name": "General Electric Company",
-  "primary_symbol": "GE",
+  "primary_symbol": "GE.SW",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

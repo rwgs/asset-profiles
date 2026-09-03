@@ -6,6 +6,8 @@
     "cusip": "41165Y100",
     "figi": "BBG00P80QW33"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "kind": "stock",
   "listings": [
     {
@@ -17,10 +19,11 @@
   "name": "HarborOne Bancorp",
   "primary_symbol": "HONE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials"
 }

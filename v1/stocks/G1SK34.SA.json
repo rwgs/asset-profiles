@@ -1,6 +1,8 @@
 {
   "country": "United Kingdom",
   "country_code": "GB",
+  "industry": "Pharmaceuticals",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,17 @@
       "symbol": "G1SK34.SA"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "GLAXOSMITHKLDRN",
   "primary_symbol": "G1SK34.SA",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Health Care",
+  "summary": "GSK plc (formerly GlaxoSmithKline), founded in 1715 and headquartered in Brentford, United Kingdom, researches, develops, and manufactures vaccines and specialty and general medicines, including treatments for HIV, oncology, respiratory, and immunology conditions. This row represents the company's Brazilian Depositary Receipt (BDR).",
+  "website": "https://www.gsk.com"
 }

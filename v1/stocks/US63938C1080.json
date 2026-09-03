@@ -7,6 +7,7 @@
     "figi": "BBG006KCHZQ3",
     "isin": "US63938C1080"
   },
+  "industry": "Chemicals",
   "industry_group": "Diversified Financials",
   "isin": "US63938C1080",
   "kind": "stock",
@@ -17,20 +18,27 @@
       "symbol": "10D.BE"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "NAVI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "10D.SG"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Navient Corp",
   "primary_symbol": "10D.BE",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Navient Corporation is a loan management, servicing, and asset recovery company. It primarily focuses on servicing student loans. Navient is headquartered in Wilmington, Delaware."
+  "summary": "Navient Corporation is a loan management, servicing, and asset recovery company. It primarily focuses on servicing student loans. Navient is headquartered in Wilmington, Delaware.",
+  "website": "http://www.avient.com"
 }

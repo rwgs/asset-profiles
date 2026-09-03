@@ -1,0 +1,141 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.999286
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.00068
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 3.4e-05
+    }
+  ],
+  "aum_usd": 33972247740.11,
+  "category": "Industrials",
+  "category_group": "Industrials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.932725
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.067275
+    }
+  ],
+  "holdings_count": 86,
+  "identifiers": {
+    "isin": "US81369Y7040"
+  },
+  "isin": "US81369Y7040",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "XLI"
+    }
+  ],
+  "name": "Industrial Select Sector SPDR Fund",
+  "primary_symbol": "XLI",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Industrials",
+      "weight": 0.819597
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.056319
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.054799
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.052815
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.01393
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.002539
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "149123101",
+      "isin": "US1491231015",
+      "name": "Caterpillar Inc",
+      "weight": 0.085096
+    },
+    {
+      "cusip": "369604301",
+      "isin": "US3696043013",
+      "name": "General Electric Co",
+      "weight": 0.067649
+    },
+    {
+      "cusip": "36828A101",
+      "isin": "US36828A1016",
+      "name": "GE Vernova Inc",
+      "weight": 0.054774
+    },
+    {
+      "cusip": "75513E101",
+      "isin": "US75513E1010",
+      "name": "RTX Corp",
+      "weight": 0.044328
+    },
+    {
+      "cusip": "097023105",
+      "isin": "US0970231058",
+      "name": "Boeing Co/The",
+      "weight": 0.029605
+    },
+    {
+      "isin": "IE00B8KQN827",
+      "name": "Eaton Corp PLC",
+      "weight": 0.028706
+    },
+    {
+      "cusip": "907818108",
+      "isin": "US9078181081",
+      "name": "Union Pacific Corp",
+      "weight": 0.028017
+    },
+    {
+      "cusip": "244199105",
+      "isin": "US2441991054",
+      "name": "Deere & Co",
+      "weight": 0.027645
+    },
+    {
+      "cusip": "90353T100",
+      "isin": "US90353T1007",
+      "name": "Uber Technologies Inc",
+      "weight": 0.025484
+    },
+    {
+      "cusip": "92537N108",
+      "isin": "US92537N1081",
+      "name": "Vertiv Holdings Co",
+      "weight": 0.022312
+    }
+  ]
+}

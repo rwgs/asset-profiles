@@ -6,6 +6,7 @@
     "cusip": "62473G102",
     "figi": "BBG00LTSBSX0"
   },
+  "industry": "Aerospace & Defense",
   "kind": "stock",
   "listings": [
     {
@@ -14,13 +15,17 @@
       "symbol": "MTX1.F"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "MTU A.E.HDG UNSP.ADR 1/2",
   "primary_symbol": "MTX1.F",
   "provenance": {
-    "fetched_at": "2026-05-31T08:33:31Z",
+    "fetched_at": "2026-09-03T07:19:41Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "MTU Aero Engines AG, along with its various subsidiaries, is a global aerospace company focused on the development, manufacturing, marketing and maintenance of aircraft propulsion systems and industrial gas turbines.",
+  "website": "https://www.mtu.de"
 }

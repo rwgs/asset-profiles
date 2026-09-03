@@ -1,0 +1,152 @@
+{
+  "as_of_date": "2026-09-30",
+  "asset_class_weights": [
+    {
+      "asset_class": "Equity",
+      "weight": 0.997518
+    },
+    {
+      "asset_class": "Cash",
+      "weight": 0.002473
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": 9e-06
+    }
+  ],
+  "aum_usd": 51418773477.99,
+  "category": "Financials",
+  "category_group": "Financials",
+  "country_weights": [
+    {
+      "country": "United States",
+      "country_code": "US",
+      "weight": 0.963406
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "weight": 0.016176
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "weight": 0.012572
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.007846
+    }
+  ],
+  "holdings_count": 81,
+  "identifiers": {
+    "isin": "US81369Y6059"
+  },
+  "isin": "US81369Y6059",
+  "issuer": "SSGA",
+  "kind": "etf",
+  "listings": [
+    {
+      "currency": "USD",
+      "symbol": "XLF"
+    }
+  ],
+  "name": "Financial Select Sector SPDR Fund",
+  "primary_symbol": "XLF",
+  "provenance": {
+    "fetched_at": "2026-09-03T07:19:41Z",
+    "license": "public domain",
+    "source": "SEC EDGAR N-PORT",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
+  },
+  "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Financials",
+      "weight": 0.890783
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.059186
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.019876
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.01643
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.011505
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.00222
+    }
+  ],
+  "top_holdings": [
+    {
+      "cusip": "084670702",
+      "isin": "US0846707026",
+      "name": "Berkshire Hathaway Inc",
+      "weight": 0.120676
+    },
+    {
+      "cusip": "46625H100",
+      "isin": "US46625H1005",
+      "name": "JPMorgan Chase & Co",
+      "weight": 0.115375
+    },
+    {
+      "cusip": "92826C839",
+      "isin": "US92826C8394",
+      "name": "Visa Inc",
+      "weight": 0.074905
+    },
+    {
+      "cusip": "57636Q104",
+      "isin": "US57636Q1040",
+      "name": "Mastercard Inc",
+      "weight": 0.054513
+    },
+    {
+      "cusip": "060505104",
+      "isin": "US0605051046",
+      "name": "Bank of America Corp",
+      "weight": 0.048936
+    },
+    {
+      "cusip": "38141G104",
+      "isin": "US38141G1040",
+      "name": "Goldman Sachs Group Inc/The",
+      "weight": 0.039243
+    },
+    {
+      "cusip": "949746101",
+      "isin": "US9497461015",
+      "name": "Wells Fargo & Co",
+      "weight": 0.033267
+    },
+    {
+      "cusip": "617446448",
+      "isin": "US6174464486",
+      "name": "Morgan Stanley",
+      "weight": 0.032963
+    },
+    {
+      "cusip": "172967424",
+      "isin": "US1729674242",
+      "name": "Citigroup Inc",
+      "weight": 0.031401
+    },
+    {
+      "cusip": "025816109",
+      "isin": "US0258161092",
+      "name": "American Express Co",
+      "weight": 0.02368
+    }
+  ]
+}
