@@ -109,3 +109,94 @@ def test_every_message_the_validator_writes_itself_is_ascii(tmp_path, etf_record
 
     assert messages, "fixture produced no diagnostics to inspect"
     assert [m for m in messages if not m.isascii()] == []
+
+
+# ---- reachability --------------------------------------------------------
+#
+# A shard is reachable only if `index.json` names it: the client contract
+# resolves a symbol or ISIN through the index and never guesses a filename. So a
+# file on disk that the index does not name is invisible to every consumer, and
+# one nested in a directory is invisible to the gate as well, because a key
+# containing a path separator makes `build.py` create the directory. Three
+# quantities have to agree -- the count the index claims, the files on disk, and
+# the distinct paths the index names -- and the validator used to check only
+# that every path it named existed.
+
+
+def _write(path, record):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(record), encoding="utf-8")
+
+
+def _keyed_by_symbol(record, symbol):
+    """A copy keyed by symbol rather than ISIN, which is how every nested record
+    in `v1/` arises: `group_cross_listings` merges by ISIN, so a row carrying
+    none keeps its symbol as the shard key and the separator reaches the path."""
+    out = {k: v for k, v in record.items() if k != "isin"}
+    out["primary_symbol"] = symbol
+    out["listings"] = [{**record["listings"][0], "symbol": symbol}]
+    return out
+
+
+@pytest.mark.parametrize("orphan", ["stocks/ORPHAN.json", "stocks/BRK/A.json"])
+def test_a_shard_the_index_does_not_name_is_an_error(tmp_path, stock_record, index_of, orphan):
+    """Flat or nested, a record no index entry points at cannot be read by a
+    client. `BRK/A` is the real case: nine such directories exist in `v1/`."""
+    _write(tmp_path / "stocks" / "US0378331005.json", stock_record)
+    _write(tmp_path / orphan, _keyed_by_symbol(stock_record, "ORPHAN"))
+
+    errors = validate.validate_index(index_of("US0378331005", stocks=1), tmp_path)
+    assert [e for e in errors if orphan in e and "not named by the index" in e]
+
+
+def test_a_nested_shard_is_validated_against_the_schema(
+    tmp_path, stock_record, index_of, capsys
+):
+    """The 13 nested records in `v1/` happen to be schema-valid, so the defect
+    is a check that never ran rather than an error that was hidden. This tree
+    holds an invalid one, and the index names both shards with a truthful count,
+    so the schema error is the only thing left to report. Assert on the report
+    rather than the count: a one-level glob makes the count wrong by exactly one
+    too, and a test that accepts either passes for the wrong reason."""
+    _write(tmp_path / "stocks" / "US0378331005.json", stock_record)
+    nested = _keyed_by_symbol(stock_record, "BRK/A")
+    del nested["name"]
+    _write(tmp_path / "stocks" / "BRK" / "A.json", nested)
+    (tmp_path / "index.json").write_text(
+        json.dumps(index_of("US0378331005", stocks=2, also=["stocks/BRK/A.json"])),
+        encoding="utf-8",
+    )
+
+    errors = validate.validate_tree(tmp_path)
+    report = capsys.readouterr().out.splitlines()
+    assert [line for line in report if "A.json" in line and "schema:" in line], report
+    assert errors == 1
+
+
+def test_a_count_agreeing_with_neither_disk_nor_index_reports_all_three(
+    tmp_path, stock_record, index_of
+):
+    """Two of the three can agree while the third does not, so a message naming
+    one comparison tells a reader the wrong thing about which is wrong. `v1/`
+    today claims 98,464, holds 98,477, and names 98,463."""
+    _write(tmp_path / "stocks" / "US0378331005.json", stock_record)
+    _write(tmp_path / "stocks" / "ORPHAN.json", _keyed_by_symbol(stock_record, "ORPHAN"))
+
+    errors = validate.validate_index(index_of("US0378331005", stocks=3), tmp_path)
+    counts = [e for e in errors if e.startswith("index: counts.stocks=3")]
+    assert counts, errors
+    assert "2 file" in counts[0] and "1 path" in counts[0]
+
+
+def test_a_tree_whose_three_quantities_agree_passes(tmp_path, stock_record, index_of):
+    """The reconciliation must not fire on a tree that is internally consistent,
+    including one whose shard is nested: nesting is what T6 repairs, and until
+    then a nested record the index names is reachable and has to pass."""
+    _write(tmp_path / "stocks" / "US0378331005.json", stock_record)
+    _write(tmp_path / "stocks" / "BRK" / "A.json", _keyed_by_symbol(stock_record, "BRK/A"))
+    (tmp_path / "index.json").write_text(
+        json.dumps(index_of("US0378331005", stocks=2, also=["stocks/BRK/A.json"])),
+        encoding="utf-8",
+    )
+
+    assert validate.validate_tree(tmp_path) == 0

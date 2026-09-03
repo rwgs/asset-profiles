@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import sys
 from pathlib import Path
+from typing import Iterable
 
 import pytest
 
@@ -79,16 +80,21 @@ def etf_record() -> dict:
 def index_of():
     """Build the smallest index `index.schema.json` accepts, naming one stock
     shard by both its symbol and its ISIN. `stocks` is the count the index
-    claims, which the validator checks against the files actually on disk."""
+    claims, which the validator checks against the files actually on disk.
+    `also` names further shard paths, each keyed in `symbols` by the shard key
+    its path implies -- which is what `build_index` does."""
 
-    def build(isin: str, *, stocks: int) -> dict:
+    def build(isin: str, *, stocks: int, also: Iterable[str] = ()) -> dict:
         path = f"stocks/{isin}.json"
+        symbols = {"AAPL": {"kind": "stock", "path": path, "isin": isin}}
+        for extra in also:
+            symbols[extra[len("stocks/"):-len(".json")]] = {"kind": "stock", "path": extra}
         return {
             "schema_version": "1.0.0",
             "generated_at": "2026-05-31T04:12:00Z",
             "next_refresh_at": "2026-06-07T04:12:00Z",
             "counts": {"stocks": stocks, "etfs": 0},
-            "symbols": {"AAPL": {"kind": "stock", "path": path, "isin": isin}},
+            "symbols": symbols,
             "isins": {isin: path},
         }
 
