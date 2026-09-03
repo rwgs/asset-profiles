@@ -95,6 +95,39 @@ def reap_removed(directory: Path, current_keys: set[str], summary: dict) -> None
             summary["removed"] += 1
 
 
+def write_records(
+    records: Iterable[dict], directory: Path, kind: str, *, summary: dict
+) -> tuple[set[str], int]:
+    """Override, validate, and write each record as one shard, then reap.
+
+    Returns the keys written and the number of records that were not, so the
+    caller can report both. A key already written is a collision: report it and
+    skip, rather than letting the second record silently replace the first.
+    """
+    keys: set[str] = set()
+    invalid = 0
+    for record in records:
+        record = normalize.apply_overrides(record, OVERRIDES_DIR)
+        errs = validate_mod.validate_record(record)
+        if errs:
+            invalid += 1
+            for e in errs[:3]:
+                log.warning("%s %s: %s", kind, normalize.shard_key(record), e)
+            continue
+        key = normalize.shard_key(record)
+        if key in keys:
+            log.error(
+                "%s %s: shard key %r is already written; skipping this record",
+                kind, record.get("primary_symbol"), key,
+            )
+            invalid += 1
+            continue
+        keys.add(key)
+        write_if_changed(directory / f"{key}.json", record, summary=summary)
+    reap_removed(directory, keys, summary)
+    return keys, invalid
+
+
 # ---- stocks pass --------------------------------------------------------
 
 
@@ -275,20 +308,9 @@ def main(argv: list[str] | None = None) -> int:
     if not args.no_stocks:
         stocks = build_stocks(mappings, fetched_at, limit=args.limit)
 
-        stock_errors = 0
-        stock_keys: set[str] = set()
-        for rec in stocks:
-            rec = normalize.apply_overrides(rec, OVERRIDES_DIR)
-            errs = validate_mod.validate_record(rec)
-            if errs:
-                stock_errors += 1
-                for e in errs[:3]:
-                    log.warning("stock %s: %s", normalize.shard_key(rec), e)
-                continue
-            key = normalize.shard_key(rec)
-            stock_keys.add(key)
-            write_if_changed(out_dir / "stocks" / f"{key}.json", rec, summary=summary)
-        reap_removed(out_dir / "stocks", stock_keys, summary)
+        stock_keys, stock_errors = write_records(
+            stocks, out_dir / "stocks", "stock", summary=summary
+        )
         log.info("stocks: %d valid, %d invalid", len(stock_keys), stock_errors)
 
     # ---- ETFs ----
@@ -309,20 +331,9 @@ def main(argv: list[str] | None = None) -> int:
                 universe, fd_etfs_meta, by_isin, by_symbol, fetched_at, mappings
             )
 
-            etf_keys: set[str] = set()
-            invalid = 0
-            for rec in etfs:
-                rec = normalize.apply_overrides(rec, OVERRIDES_DIR)
-                errs = validate_mod.validate_record(rec)
-                if errs:
-                    invalid += 1
-                    for e in errs[:3]:
-                        log.warning("etf %s: %s", normalize.shard_key(rec), e)
-                    continue
-                key = normalize.shard_key(rec)
-                etf_keys.add(key)
-                write_if_changed(out_dir / "etfs" / f"{key}.json", rec, summary=summary)
-            reap_removed(out_dir / "etfs", etf_keys, summary)
+            etf_keys, invalid = write_records(
+                etfs, out_dir / "etfs", "etf", summary=summary
+            )
             etfs = [r for r in etfs if normalize.shard_key(r) in etf_keys]
             log.info("etfs: %d valid, %d invalid, %d errors", len(etf_keys), invalid, len(etf_errors))
         else:

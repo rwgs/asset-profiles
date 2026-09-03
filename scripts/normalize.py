@@ -230,13 +230,15 @@ RESERVED_DEVICE_NAMES = frozenset(
 def shard_key(record: dict) -> str:
     """Filename stem: ISIN if known, else primary symbol.
 
-    Share-class symbols carry a `/` (`BRK/A`) that the build writes as a nested
-    path, so each component is escaped separately. A component colliding with a
-    DOS device name takes a trailing `_` on its first dot-separated part:
-    `CON` -> `CON_`, `CON.DE` -> `CON_.DE`, `CON/A` -> `CON_/A`.
+    The result is always a single filename component. Share-class symbols carry
+    a `/` (`BRK/A`) that the build would otherwise write as a nested path, and a
+    component colliding with a DOS device name takes a trailing `_` on its first
+    dot-separated part. One escape character for both, so they compose:
+    `CON` -> `CON_`, `CON.DE` -> `CON_.DE`, `BRK/A` -> `BRK_A`,
+    `CON/A` -> `CON__A`.
     """
     key = record.get("isin") or record["primary_symbol"]
-    return "/".join(_escape_device_name(part) for part in key.split("/"))
+    return "_".join(_escape_device_name(part) for part in key.split("/"))
 
 
 def _escape_device_name(component: str) -> str:

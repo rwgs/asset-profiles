@@ -28,22 +28,39 @@ def test_shard_key_falls_back_to_the_symbol():
     assert normalize.shard_key({"primary_symbol": "AAPL"}) == "AAPL"
 
 
-@pytest.mark.parametrize("key", ["US0378331005", "AAPL", "BRK-A", "VOD.L", "BMW.DE"])
+@pytest.mark.parametrize(
+    "key", ["US0378331005", "AAPL", "BRK-A", "VOD.L", "BMW.DE", "CON_.DE"]
+)
 def test_shard_key_returns_a_well_formed_key_unchanged(key):
     """Escaping applied more broadly than the filesystem requires would rename
     98,000 shards and break every client-cached path, so pin the identity case."""
     assert normalize.shard_key({"primary_symbol": key}) == key
 
 
-# The two upstream keys the filesystem refuses. Both are known-failing here:
-# `strict` means that the day the fix lands these are reported as unexpected
-# passes, and get turned into plain assertions in the same change.
+@pytest.mark.parametrize(
+    "key,expected",
+    [
+        ("BRK/A", "BRK_A"),
+        ("BF/A", "BF_A"),
+        ("AKO/B", "AKO_B"),
+        ("RAC/WS", "RAC_WS"),
+        ("BIO/B", "BIO_B"),
+    ],
+)
+def test_shard_key_is_a_single_path_component(key, expected):
+    """FinanceDatabase publishes share classes with a separator, and the build
+    interpolates the key straight into a path -- so `BRK/A` wrote
+    `v1/stocks/BRK/A.json`, a record no index named and no check validated.
+    Assert the exact key, not just the absence of a separator: the escape has to
+    be the one the override filenames and cached client paths agree on."""
+    assert normalize.shard_key({"primary_symbol": key}) == expected
 
 
-@pytest.mark.xfail(strict=True, reason="TASKS.md T6: a separator in a key still becomes a directory")
-@pytest.mark.parametrize("key", ["BRK/A", "BF/A", "AKO/B", "RAC/WS", "BIO/B"])
-def test_shard_key_is_a_single_path_component(key):
-    assert "/" not in normalize.shard_key({"primary_symbol": key})
+def test_shard_key_composes_both_escapes():
+    """A component can need both rules. The device escape runs per component and
+    the separator escape joins them, so replacing either rule with the other
+    shows up here rather than in a Windows checkout six months later."""
+    assert normalize.shard_key({"primary_symbol": "CON/A"}) == "CON__A"
 
 
 @pytest.mark.parametrize(
