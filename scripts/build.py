@@ -238,6 +238,63 @@ def build_etfs(
     return records, errors
 
 
+# ---- coverage report ----------------------------------------------------
+
+
+def _unknown_share(record: dict, field: str, key: str, label: str) -> str:
+    ws = record.get(field) or []
+    if not ws:
+        return "absent"
+    return f"{sum(w.get('weight', 0.0) for w in ws if w.get(key) == label):.0%}"
+
+
+def report_etf_coverage(
+    universe: list[dict],
+    normalized: list[dict],
+    written: list[dict],
+    errors: list[tuple[str, str]],
+) -> int:
+    """One line per universe entry: its unknown share, or why it has no record.
+
+    The build reported aggregate counts, under which a universe entry could
+    vanish without ever being named and a record whose weights are entirely
+    `Unknown` looked the same as one that carries signal. Both are failures.
+    Returns the number of entries that produced a record.
+    """
+    failed = dict(errors)
+    normalized_by = {r.get("primary_symbol") for r in normalized}
+    written_by = {r.get("primary_symbol"): r for r in written}
+
+    covered = 0
+    log.info("ETF coverage, one line per universe entry:")
+    for entry in universe:
+        ticker = entry.get("ticker")
+        if not ticker:
+            log.warning("  <no ticker>: universe entry has no ticker key: %r", entry)
+            continue
+        record = written_by.get(ticker)
+        if record is None:
+            if ticker in failed:
+                reason = failed[ticker].splitlines()[0]
+            elif ticker in normalized_by:
+                reason = "record built but did not validate"
+            else:
+                reason = "no holdings found and no error reported"
+            log.warning("  %-6s no record: %s", ticker, reason)
+            continue
+        covered += 1
+        log.info(
+            "  %-6s %4d holdings, unknown: sector %s, country %s, asset class %s",
+            ticker,
+            record.get("holdings_count") or 0,
+            _unknown_share(record, "sector_weights", "sector", "Unknown"),
+            _unknown_share(record, "country_weights", "country", "Unknown"),
+            _unknown_share(record, "asset_class_weights", "asset_class", "Other"),
+        )
+    log.info("ETF coverage: %d of %d universe entries produced a record", covered, len(universe))
+    return covered
+
+
 # ---- index --------------------------------------------------------------
 
 
@@ -341,7 +398,9 @@ def main(argv: list[str] | None = None) -> int:
             etf_keys, invalid = write_records(
                 etfs, out_dir / "etfs", "etf", summary=summary
             )
-            etfs = [r for r in etfs if normalize.shard_key(r) in etf_keys]
+            written = [r for r in etfs if normalize.shard_key(r) in etf_keys]
+            report_etf_coverage(universe, etfs, written, etf_errors)
+            etfs = written
             log.info("etfs: %d valid, %d invalid, %d errors", len(etf_keys), invalid, len(etf_errors))
         else:
             log.info("no etf_universe.yml; skipping ETF pass")
