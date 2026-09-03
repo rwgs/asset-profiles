@@ -279,12 +279,12 @@ python -X warn_default_encoding -W error::EncodingWarning scripts/validate.py v1
 ```
 
 Test. Fast, and it needs only `pycountry` and `jsonschema` from the
-requirements, so it runs where a full install does not. `test_build.py` and
-`test_edgar.py` `importorskip` on `pandas` and `requests`, so on that bare
-install they skip rather than fail: measured 2026-09-03, **97 passed and 3
-skipped** with only `pytest`, `pycountry` and `jsonschema` installed, against
-**139 passed** with the full requirements. CI installs everything, so nothing
-is skipped on the runner.
+requirements, so it runs where a full install does not. `test_build.py`,
+`test_edgar.py`, `test_http_cache.py` and `test_openfigi.py` `importorskip` on
+`pandas` or `requests`, so on that bare install they skip rather than fail:
+measured 2026-09-03, **97 passed and 4 skipped** with only `pytest`,
+`pycountry` and `jsonschema` installed, against **156 passed** with the full
+requirements. CI installs everything, so nothing is skipped on the runner.
 
 ```bash
 python -m pytest scripts/tests
