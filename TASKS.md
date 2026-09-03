@@ -68,13 +68,20 @@ it is now known to be unlikely rather than merely unattempted.
    cases -- all seven are `normalize.shard_key` cases and #8 touches neither
    `normalize.py` nor `test_normalize.py`. Its two tests are owed to #7 and
    are not in it, which its description states.
-6. **#7 conflicts with nothing**, sharing no file with #1, #2, #3, or #6, and
-   touching `CONTRIBUTING.md` in a different section from #5. But it is not
-   order-free, and the interaction with #5 is **symmetric**: #7 carries two
-   `xfail(strict=True)` cases over the `CON` keys, so whichever of the two
-   merges second sees them reported as unexpected passes and needs them turned
-   into plain assertions in its own branch first. Two lines either way, and the
-   marker doing its job. Recorded on both PRs.
+6. **#7 conflicts with nothing among the PRs**, sharing no file with #1, #2,
+   #3, or #6, and touching `CONTRIBUTING.md` in a different section from #5. But
+   it is not order-free, and the interaction with #5 is **symmetric**: #7
+   carries two `xfail(strict=True)` cases over the `CON` keys, so whichever of
+   the two merges second sees them reported as unexpected passes and needs them
+   turned into plain assertions in its own branch first. Two lines either way,
+   and the marker doing its job. Recorded on both PRs.
+7. **T8's branch conflicts with #7**, and it is the only conflict either has.
+   Both edit the last line of `scripts/requirements.txt`: #7 appends a `# tests
+   only` block below `etf-scraper>=0.1.2`, and T8 replaces that same line with
+   the comment explaining where the dependency went. Verified with
+   `merge-tree`, which reports every other pairing clean. The resolution is to
+   keep both blocks, and it is already written -- `main` holds exactly that
+   file. Whichever lands second copies it.
 
 ## Current phase
 
@@ -584,6 +591,21 @@ Phase 2 is what the next code change belongs to. See `ROADMAP.md`.
     the exposure, and the refresh is disabled anyway.
   - `validate-pr.yml` needed no change: it runs only the tests and the
     validator, so it simply stops installing a dependency it never used.
+  - Branch: `chore/optional-issuer-extra` at `90695f5b82`, cut off
+    `upstream/main` and pushed to `origin`. It holds the six files the change is
+    about and nothing else, and its `issuer_scraper.py` and `refresh.yml` blobs
+    are byte-identical to the gate-verified ones on `main`. No PR opened;
+    upstream is on standby and `AGENTS.md` says to ask first.
+  - **Building that branch turned up a live demonstration of why #5 matters.**
+    `git checkout upstream/main` fails on this Windows host --
+    `error: invalid path 'v1/stocks/CON.DE.json'` -- because upstream still
+    carries the two unescaped shards. So the branch could not be made the normal
+    way and was assembled with plumbing instead: `read-tree` of
+    `upstream/main` into a temporary index under
+    `-c core.protectNTFS=false`, six `hash-object` writes, `write-tree`, and
+    `commit-tree`. The working tree was never touched and the repository
+    config was not changed. Anyone cutting a branch from `upstream/main` on
+    Windows will hit this until #5 merges; `main` itself checks out fine.
 
 - [x] **T5.** Rebuild `v1/` with repaired keys and retire the nested shards.
   **Done 2026-09-03 by its minimal route, committed on `main` at `8122c95fdb`.

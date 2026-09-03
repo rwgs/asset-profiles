@@ -39,9 +39,19 @@ What follows from it, and how work is shaped here:
 - **Keep a per-task branch that is upstream-mergeable**, cut off `upstream/main`
   or off the branch it genuinely depends on, holding only `scripts/` and the
   documentation the change is about. That is what the seven open PRs are, and
-  `fix/unreachable-shard-validation` is one waiting without a PR. If upstream
-  ever comes off standby, they are ready; if not, nothing was wasted arranging
-  them.
+  `fix/unreachable-shard-validation` and `chore/optional-issuer-extra` are two
+  waiting without one. If upstream ever comes off standby, they are ready; if
+  not, nothing was wasted arranging them.
+- **`git checkout upstream/main` fails on Windows**, with
+  `error: invalid path 'v1/stocks/CON.DE.json'` -- upstream still carries the
+  two unescaped shards that #5 fixes, and `main` is the only branch here that
+  has the fix. Git aborts cleanly and leaves `main` intact, so this costs a
+  command rather than a checkout. To cut a branch from `upstream/main` anyway,
+  build the commit with plumbing instead of a checkout: `read-tree` into a
+  temporary `GIT_INDEX_FILE` under `-c core.protectNTFS=false`, `hash-object`
+  the files the change touches, then `write-tree` and `commit-tree`. That never
+  writes a reserved name to disk and never edits the repository config. Do not
+  set `core.protectNTFS=false` persistently to get around it.
 - **Do not open more PRs against upstream** without asking. Seven already wait
   on a maintainer who has said they are not working on this, and an eighth
   changes nothing.
