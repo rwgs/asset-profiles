@@ -856,6 +856,19 @@ exists on the finding that a wrong MIC is worse than an absent one.
        cannot be attributed does not ship makes this a schema question rather
        than a comment.
   - Prerequisite regardless of the above: the POST path in `http_cache`.
+    **Done 2026-09-03**, with the body hashed into the cache key, and OpenFIGI
+    is adopted -- see `DECISIONS.md`. Decisions 2 and 3 above are still open,
+    and 3 blocks anything shipping.
+  - **Two corrections to the TSMC option, both measured 2026-09-03.** First,
+    *"adding the missing local listings is the Phase 3 answer"* names work
+    Phase 3 does not own: `ROADMAP.md`'s Phase 3 is fund coverage -- the
+    non-US ETF universe and the issuer fallback -- and says nothing about
+    stock listings. So that route currently belongs to no phase, which is a
+    gap in the plan rather than a scheduled fix. Second, neither source
+    available can supply it: `TW0002330008` appears **zero times** in
+    FinanceDatabase and **zero times** in GLEIF's 9.2-million-row ISIN-to-LEI
+    file. Choosing "add the local listing" therefore means finding a fourth
+    source for it, not doing more of what is already here.
 
 - [~] **T18.** Stop a cross-listed record being identified by its depositary
   receipt's ISIN. **Measured 2026-09-03; the count is below and the fix is
@@ -901,9 +914,16 @@ exists on the finding that a wrong MIC is worse than an absent one.
   - Acceptance criteria: the count exists and is recorded here with its date;
     and either the affected records identify the security they describe, or the
     reason they cannot is recorded against the source that reports it.
-  - Dependencies or blockers: none for the measurement. A fix probably needs a
-    schema change, since one record legitimately covers several ISINs, and that
-    is a decision rather than an edit.
+  - Automated validation: none for the measurement half, which changed no
+    code -- the suite stayed at 139 passed and `validate.py v1/` at exit 0
+    either side of it. A fix needs both, plus a case over `US6410694060`.
+  - Manual validation, done 2026-09-03: read `v1/stocks/US6410694060.json` and
+    `v1/stocks/US4380908057.json` against what FinanceDatabase reports for
+    their symbols, and confirmed the local ISINs appear in neither the source
+    nor GLEIF. A fix must re-check the same two shards.
+  - Dependencies or blockers: none for the measurement, which is done. A fix
+    probably needs a schema change, since one record legitimately covers
+    several ISINs, and that is a decision rather than an edit.
   - **The count, measured 2026-09-03 against the published tree at
     `550ab5ed09`: 2,142.** Both criteria above are met, and the answer to the
     schema-or-source question is *source*, twice over and for two different
@@ -1065,6 +1085,15 @@ exists on the finding that a wrong MIC is worse than an absent one.
     source attributes to a differently-named company; and whichever rule is
     chosen is asserted in `scripts/tests` over at least the AAR Corp and EVN
     cases, so a refresh cannot quietly reintroduce them.
+  - Automated validation: `python -m pytest scripts/tests` over whichever rule
+    is chosen, and `python scripts/validate.py v1/` if it lands in the
+    validator, which is where it belongs. Neither can run until the rule
+    exists.
+  - Manual validation: read `v1/stocks/CA18452Y1007.json` and confirm it no
+    longer claims Clean Air Metals' ISIN, and that `v1/stocks/CLRMF.json` --
+    Clean Air Metals itself, published today with `"isin": null` -- is
+    reachable by that ISIN or is deliberately still not. Repeat for the EVN AG
+    and Eaton Vance pair.
   - Dependencies or blockers: none factual -- the measurement is done and
     reproducible. It needs the publish-or-drop decision, which is a product
     question rather than an edit, and it should be settled together with T18's
@@ -1103,6 +1132,14 @@ exists on the finding that a wrong MIC is worse than an absent one.
   - Acceptance criteria: the number of non-equity instruments published under
     `v1/stocks/` is stated and either zero or justified; whichever rule is
     chosen is asserted in `scripts/tests` over `AT0000A2H326`.
+  - Automated validation: `python -m pytest scripts/tests` over the chosen
+    rule, asserted on `AT0000A2H326` so a refresh cannot reintroduce the class,
+    and `python scripts/validate.py v1/` if the rule becomes a gate.
+  - Manual validation: read `v1/stocks/AT0000A2H326.json` and confirm it is
+    either gone or no longer reports a sector it does not have; check one ETP
+    and one closed-end fund the same way, since they need a different answer
+    from the certificates -- a fund belongs under `v1/etfs/` rather than
+    nowhere.
   - Dependencies or blockers: none factual. It shares T19's open question --
     what this dataset does when a source hands it something it should not
     publish -- and should be decided alongside it rather than separately.
