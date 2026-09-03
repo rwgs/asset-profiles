@@ -46,6 +46,16 @@ What follows from it, and how work is shaped here:
   on a maintainer who has said they are not working on this, and an eighth
   changes nothing.
 
+**Not every change can have such a branch, and that is a finding rather than an
+omission.** T4 has one, `fix/unreachable-shard-validation`, stacked on #8's.
+T6 cannot: cut off #5 it would repair the keys but never reap the shards the old
+keys nested, because `reap_removed` there is still the one-level glob that T4
+replaces. A correct T6 branch needs the stack #5, then #8, then T4, then T6.
+`main` is that stack, integrated and gate-verified. Rebuilding it as four
+chained pull requests is worth doing if upstream comes off standby, and not
+before -- so check `main` for what a change actually depends on before assuming
+a branch can be cut from `upstream/main`.
+
 The open PRs still matter as review artifacts and as the record of what is
 already written: `gh pr list --repo wealthfolio/asset-profiles`, and see the
 pull-requests section of `TASKS.md` for the merge order, which is not obvious --
