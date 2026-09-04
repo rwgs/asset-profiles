@@ -10,7 +10,6 @@ full requirements, so these run there.
 from __future__ import annotations
 
 import copy
-import json
 import logging
 
 import pytest
@@ -31,30 +30,24 @@ def _keyed_by_symbol(record: dict, symbol: str) -> dict:
     return out
 
 
-def test_two_records_escaping_to_one_key_are_reported_and_not_overwritten(
-    tmp_path, stock_record, caplog
-):
+def test_two_records_escaping_to_one_key_fail_the_build(tmp_path, stock_record):
     """`BRK/A` escapes to `BRK_A`, which an upstream ticker of `BRK_A` also
     produces. No key in the current data contains `_`, so this cannot happen
     today -- but 83,764 shards take their name straight from a ticker refreshed
     weekly, so it is a measurement of today's data rather than an invariant.
-    The failure it guards against is silent: the second record's file would
-    replace the first's with no diagnostic anywhere."""
+    These are two different securities, so the normalizer cannot fold them: the
+    build stops and names both, rather than dropping one on iteration order."""
     first = _keyed_by_symbol(stock_record, "BRK/A")
     second = _keyed_by_symbol(stock_record, "BRK_A")
     summary = {"added": 0, "changed": 0, "unchanged": 0, "removed": 0}
 
-    with caplog.at_level(logging.ERROR):
-        keys, invalid = build.write_records(
-            [first, second], tmp_path, "stock", summary=summary
-        )
+    with pytest.raises(build.ShardKeyCollision) as excinfo:
+        build.write_records([first, second], tmp_path, "stock", summary=summary)
 
-    assert keys == {"BRK_A"}
-    assert invalid == 1
-    assert [r for r in caplog.records if "BRK_A" in r.getMessage()], caplog.text
-
-    written = json.loads((tmp_path / "BRK_A.json").read_text(encoding="utf-8"))
-    assert written["name"] == "Record BRK/A", "the second record overwrote the first"
+    message = str(excinfo.value)
+    assert "BRK_A" in message
+    assert "Record BRK/A" in message, message
+    assert "Record BRK_A" in message, message
 
 
 def test_a_record_that_fails_validation_is_not_written(tmp_path, stock_record):

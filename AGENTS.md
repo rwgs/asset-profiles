@@ -77,7 +77,13 @@ two of them report no conflict with `main` while conflicting with each other.
 
 - `scripts/build.py` is the pipeline entrypoint. It runs a stocks pass, then an
   ETF pass, applies overrides, validates each record, writes shards, and
-  rebuilds `v1/index.json` from what survived.
+  rebuilds `v1/index.json` from what survived. **Two records claiming one
+  shard key exits 2**, the third fatal condition beside the `SEC_USER_AGENT`
+  and `OPENFIGI_API_KEY` checks below and for the same reason: skipping one
+  picked the loser by iteration order and left a single log line among 470.
+  `normalize` folds the duplicates it can prove are one security first, so a
+  collision reaching `write_records` is two records the build cannot tell
+  apart -- see T21.
 - `scripts/sources/` holds one module per upstream: `finance_database.py`
   (stock rows, MIT), `edgar.py` (SEC N-PORT for US funds, public domain),
   `issuer_scraper.py` (issuer holdings via the `etf-scraper` package, fallback
@@ -316,11 +322,11 @@ Test. Fast, and it needs only `pycountry` and `jsonschema` from the
 requirements, so it runs where a full install does not. `test_build.py`,
 `test_edgar.py`, `test_http_cache.py` and `test_openfigi.py` `importorskip` on
 `pandas` or `requests`, so on that bare install they skip rather than fail:
-measured 2026-09-03, **124 passed and 4 skipped** with only `pytest`,
-`pycountry` and `jsonschema` installed, against **234 passed** with the full
+measured 2026-09-04, **127 passed and 4 skipped** with only `pytest`,
+`pycountry` and `jsonschema` installed, against **237 passed** with the full
 requirements. CI installs everything, so nothing is skipped on the runner --
 confirmed rather than inferred since 2026-09-04, when the gate first ran on
-`origin` and reported 234 on Python 3.12.14. Re-measure both after adding a
+`origin` and reported 234 on Python 3.12.14, before T21 added three. Re-measure both after adding a
 test: a case in `test_normalize.py` counts in each column, since that module
 imports no source module and needs neither `pandas` nor `requests`.
 

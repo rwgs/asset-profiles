@@ -97,16 +97,33 @@ def reap_removed(directory: Path, current_keys: set[str], summary: dict) -> None
             summary["removed"] += 1
 
 
+class ShardKeyCollision(RuntimeError):
+    """Two records claim one shard file, so writing both is impossible.
+
+    Skipping the second was the old behaviour, and it picked the loser by
+    iteration order with one log line among hundreds as the only trace. A pair
+    the normalizer can prove is one security is folded before reaching here --
+    see `normalize._absorb_isin_less_duplicates` -- so anything still colliding
+    is two records the build cannot tell apart, and dropping one of those
+    silently is the failure this replaces.
+    """
+
+
+def _record_label(record: dict) -> str:
+    return f"{record.get('name') or '<unnamed>'} ({record.get('primary_symbol') or '?'})"
+
+
 def write_records(
     records: Iterable[dict], directory: Path, kind: str, *, summary: dict
 ) -> tuple[set[str], int]:
     """Override, validate, and write each record as one shard, then reap.
 
-    Returns the keys written and the number of records that were not, so the
-    caller can report both. A key already written is a collision: report it and
-    skip, rather than letting the second record silently replace the first.
+    Returns the keys written and the number of records that failed validation,
+    so the caller can report both. A key claimed twice raises instead: the
+    normalizer folds the duplicates it can prove are one security, so a
+    collision reaching here is two records the build cannot tell apart.
     """
-    keys: set[str] = set()
+    claimed: dict[str, dict] = {}
     invalid = 0
     for record in records:
         record = normalize.apply_overrides(record, OVERRIDES_DIR)
@@ -117,15 +134,14 @@ def write_records(
                 log.warning("%s %s: %s", kind, normalize.shard_key(record), e)
             continue
         key = normalize.shard_key(record)
-        if key in keys:
-            log.error(
-                "%s %s: shard key %r is already written; skipping this record",
-                kind, record.get("primary_symbol"), key,
+        if key in claimed:
+            raise ShardKeyCollision(
+                f"{kind} shard key {key!r} is claimed by two records: "
+                f"{_record_label(claimed[key])} and {_record_label(record)}"
             )
-            invalid += 1
-            continue
-        keys.add(key)
+        claimed[key] = record
         write_if_changed(directory / f"{key}.json", record, summary=summary)
+    keys = set(claimed)
     reap_removed(directory, keys, summary)
     return keys, invalid
 
@@ -485,9 +501,13 @@ def main(argv: list[str] | None = None) -> int:
             log.error("%s", e)
             return 2
 
-        stock_keys, stock_errors = write_records(
-            stocks, out_dir / "stocks", "stock", summary=summary
-        )
+        try:
+            stock_keys, stock_errors = write_records(
+                stocks, out_dir / "stocks", "stock", summary=summary
+            )
+        except ShardKeyCollision as e:
+            log.error("%s", e)
+            return 2
         log.info("stocks: %d valid, %d invalid", len(stock_keys), stock_errors)
 
     # ---- ETFs ----
@@ -508,9 +528,13 @@ def main(argv: list[str] | None = None) -> int:
                 universe, fd_etfs_meta, by_isin, by_symbol, by_cusip, fetched_at, mappings
             )
 
-            etf_keys, invalid = write_records(
-                etfs, out_dir / "etfs", "etf", summary=summary
-            )
+            try:
+                etf_keys, invalid = write_records(
+                    etfs, out_dir / "etfs", "etf", summary=summary
+                )
+            except ShardKeyCollision as e:
+                log.error("%s", e)
+                return 2
             written = [r for r in etfs if normalize.shard_key(r) in etf_keys]
             report_etf_coverage(universe, etfs, written, etf_errors)
             etfs = written

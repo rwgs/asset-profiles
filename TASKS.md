@@ -1431,14 +1431,15 @@ one fix, and `v1/` no longer holds any of them.
     in `v1/stocks/` as decided. Not one of the 571 retyped records kept a
     sector -- checked across the whole tree, not sampled.
 
-- [ ] **T21.** Decide what happens when two records claim one shard key.
-  **Found 2026-09-03 while rehearsing T19's and T20's rebuild; it is
-  pre-existing and neither rule causes it.**
-  - Every build logs `stock ECC: shard key 'ECC' is already written; skipping
-    this record` and writes 90,513 records out of the 90,514 the cross-listing
-    merge produced. The published tree has the same counts, so this is
-    happening in what is served today and the rebuild neither introduced nor
-    fixed it.
+- [x] **T21.** Decide what happens when two records claim one shard key.
+  **Done 2026-09-04. Found 2026-09-03 while rehearsing T19's and T20's
+  rebuild; it was pre-existing and neither rule caused it. Both routes were
+  taken, since the scope said they are not exclusive.**
+  - Every build logged `stock ECC: shard key 'ECC' is already written;
+    skipping this record` and wrote 90,513 records out of the 90,514 the
+    cross-listing merge produced. The published tree had the same counts, so
+    it was happening in what is served today and the rebuild neither
+    introduced nor fixed it.
   - **The two records are the same company**, measured against the live source:
     `Eagle Point Credit Company Inc.` and `Eagle Point Credit Company Inc.
     Common Stock`, both `country_code` `US`, both sector `Financials`, both
@@ -1453,22 +1454,58 @@ one fix, and `v1/` no longer holds any of them.
     log line among 470, and the build counts it as `invalid` when the record
     validates fine and merely lost a race. Two *different* companies colliding
     would be silently dropped the same way.
-  - Scope: choose between merging ISIN-less records that share every listing
-    symbol -- which is T12's rule for an ISIN-less duplicate, one step further
-    -- and making a collision a build error. They are not exclusive: merging
-    fixes this instance, erroring stops the next one being invisible.
-  - Acceptance criteria: no build silently drops a record; either the pair
-    merges, or the collision fails the build with both names in the message.
-    Whichever is chosen is asserted in `scripts/tests` over the `ECC` pair.
-  - Automated validation: `python -m pytest scripts/tests` over the new rule,
-    and `python scripts/validate.py v1/`, which cannot see this today -- an
-    unreachable shard is a validator failure since T4, but a record that was
-    never written leaves nothing to be unreachable.
-  - Manual validation: read `v1/stocks/ECC.json` and confirm which of the two
-    names it carries, then rebuild and confirm the count reaches 90,514 or the
-    build stops.
-  - Dependencies or blockers: none. It is small, and it should not be bundled
-    into a data rebuild, since fixing it changes the record count.
+  - Scope, both halves taken: `normalize._absorb_isin_less_duplicates` folds
+    ISIN-less records listing *exactly* the same symbols -- T12's rule with the
+    claimant no longer required to carry an ISIN -- and
+    `build.write_records` now raises `ShardKeyCollision` on anything that still
+    collides, which `main` turns into exit 2 beside the `SEC_USER_AGENT` and
+    `OPENFIGI_API_KEY` checks. Merging fixes this instance; erroring stops the
+    next one being invisible.
+  - **The survivor is stated rather than accidental: the record carrying an
+    identifier wins, ties keeping source order.** An identifier is what makes
+    a record joinable, and the losing `ECC` row carries none. Only an exactly
+    equal symbol set folds -- an unequal one that still collides is two
+    records the build cannot tell apart, and it stops rather than guessing.
+  - **No external source could have resolved it, checked rather than assumed.**
+    The losing row carries no ISIN, no FIGI and no CUSIP -- its keys are a
+    strict subset of the survivor's -- so there is nothing to join on.
+    Grouping on composite FIGI instead of ISIN, the obvious alternative given
+    42,817 FIGIs against 9,400 ISINs, would **not** have fixed `ECC` for that
+    reason. Every remaining candidate resolves it only by ticker or by name:
+    OpenFIGI by ticker is refused by `DECISIONS.md` on the Roche/Roper
+    measurement, `/v3/search` and GLEIF need fuzzy name matching, and SEC
+    `company_tickers.json` joins on the ticker both rows already share. This
+    was a duplicate row, not a missing identifier.
+  - Acceptance criteria, met: no build silently drops a record. The pair
+    merges *and* a collision fails the build with both names in the message,
+    both asserted in `scripts/tests`.
+  - Automated validation, done: **234 passed to 237**. Four new normalizer
+    tests -- the `ECC` fold, the survivor being identifier-bearing in either
+    source order, a field filled from the loser, and an unequal symbol set
+    left alone -- and `test_two_records_escaping_to_one_key_...` rewritten
+    from asserting the skip to asserting the raise names both records.
+    `python scripts/validate.py v1/` exits 0, in the locale-strict form too,
+    and as predicted it cannot see this either way.
+  - Manual validation, done 2026-09-04 against the live source: the stocks
+    pass now yields **90,513 records, 90,513 distinct shard keys, 0
+    collisions**, against 90,514 records and 1 collision before. `ECC.json`
+    as rebuilt is **byte-identical to the published shard** apart from
+    `provenance.fetched_at`, so nothing is owed a data rebuild.
+  - **One prediction in this entry was wrong and is corrected here.** The
+    manual-validation line asked that the count *reach 90,514*. Folding means
+    the merge produces one record where it produced two, so the count stays at
+    90,513 and it is the input that shrinks. A rebuild is not implied at all,
+    which is the opposite of what "fixing it changes the record count" said.
+  - **No upstream-mergeable branch, and that is a finding rather than an
+    omission.** Checked, not assumed: `_absorb_shadowed` does not exist on
+    `upstream/main`, so a branch cut from there would have nothing to extend.
+    T21 needs the stack #5, then #8, then T4, then T6, then T12 -- which is
+    `main`, integrated and gate-verified. Same shape as T6's case in
+    `AGENTS.md`.
+  - Dependencies or blockers: none, and none left. T12 had explicitly deferred
+    `ECC` -- *"`write_records` reports the collision and skips the second,
+    which is the right place for it"* -- so this reopens that judgement on the
+    narrower ground T21 raised, not on the outcome, which was never wrong.
 
 - [x] **T23.** Read a listing's venue and currency from the source.
   **Done 2026-09-03. Pipeline half at `1530f70157` and `4c4eeaa346`; the

@@ -318,11 +318,50 @@ def test_a_partially_claimed_record_is_kept():
     assert len(out) == 2
 
 
-def test_two_isin_less_records_sharing_a_symbol_are_both_kept():
+def test_two_isin_less_records_sharing_every_symbol_are_folded():
     """The `ECC` shape -- two upstream rows for one security, neither with an
-    ISIN. `build.write_records` reports the second and skips it, so the
-    collision is handled there rather than by silently dropping one here."""
+    ISIN, each listing the same single symbol. Measured against the live
+    source on 2026-09-04, it is the only shard-key collision in 90,514
+    records."""
     out = normalize.group_cross_listings([_row("ECC"), _row("ECC")])
+    assert len(out) == 1
+
+
+def test_the_folded_survivor_is_the_record_carrying_an_identifier():
+    """Not the row the source happened to emit first. FinanceDatabase publishes
+    Eagle Point Credit in full once and as a bare `... Common Stock` row once,
+    and only the full row carries a composite FIGI."""
+    figi = {"composite_figi": "BBG006XN8K06"}
+    bare_name = "Eagle Point Credit Company Inc. Common Stock"
+
+    bare_first = normalize.group_cross_listings(
+        [_row("ECC", name=bare_name), _row("ECC", identifiers=figi)]
+    )
+    full_first = normalize.group_cross_listings(
+        [_row("ECC", identifiers=figi), _row("ECC", name=bare_name)]
+    )
+
+    for out in (bare_first, full_first):
+        assert len(out) == 1
+        assert out[0]["identifiers"] == figi
+        assert out[0]["name"] == "Record ECC"
+
+
+def test_folding_fills_a_field_the_survivor_lacks():
+    bare = _row("ECC", website="https://www.eaglepointcreditcompany.com")
+    full = _row("ECC", identifiers={"composite_figi": "BBG006XN8K06"})
+    out = normalize.group_cross_listings([full, bare])
+    assert len(out) == 1
+    assert out[0]["website"] == "https://www.eaglepointcreditcompany.com"
+
+
+def test_isin_less_records_with_unequal_symbol_sets_are_both_kept():
+    """Folding these would discard a listing nothing else carries. They stay
+    two records, and `build.write_records` decides what the collision costs."""
+    one = _row("ECC")
+    two = _row("ECC")
+    two["listings"].append({"symbol": "ECC.PRA", "exchange_mic": "XNYS"})
+    out = normalize.group_cross_listings([one, two])
     assert len(out) == 2
 
 

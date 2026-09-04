@@ -296,7 +296,9 @@ def group_cross_listings(stocks: Iterable[dict]) -> list[dict]:
     Cross-listings keep distinct `listings[]` entries but a single
     canonical record per ISIN. A record without an ISIN passes through keyed
     by symbol, unless every symbol it lists is already claimed by an
-    ISIN-bearing record -- see `_absorb_shadowed`.
+    ISIN-bearing record -- see `_absorb_shadowed` -- or another ISIN-less
+    record lists exactly the same symbols -- see
+    `_absorb_isin_less_duplicates`.
     """
     by_isin: dict[str, list[dict]] = defaultdict(list)
     no_isin: list[dict] = []
@@ -336,9 +338,10 @@ def group_cross_listings(stocks: Iterable[dict]) -> list[dict]:
         merged.append(primary)
 
     # ISIN-less records stay ahead of the merged ones, as they were before
-    # absorption existed: `write_records` keeps the first of two records that
-    # key alike, so the order decides which survives a collision.
-    return _absorb_shadowed(merged, no_isin) + merged
+    # absorption existed. Nothing now resolves a collision by that order --
+    # `write_records` rejects one outright -- but `build._index_stocks` still
+    # resolves a repeated symbol to the last record it sees.
+    return _absorb_isin_less_duplicates(_absorb_shadowed(merged, no_isin)) + merged
 
 
 def _absorb_shadowed(with_isin: list[dict], no_isin: list[dict]) -> list[dict]:
@@ -376,6 +379,57 @@ def _absorb_shadowed(with_isin: list[dict], no_isin: list[dict]) -> list[dict]:
             "absorbed %s into %s: every symbol it lists is already claimed",
             record.get("primary_symbol"), primary.get("isin"),
         )
+    return kept
+
+
+def _absorb_isin_less_duplicates(records: list[dict]) -> list[dict]:
+    """Fold together ISIN-less records that list exactly the same symbols.
+
+    `_absorb_shadowed` needs an ISIN-bearing record to absorb into. `ECC` is
+    that shape with the ISIN missing from both sides: FinanceDatabase publishes
+    Eagle Point Credit twice, once in full and once as a bare row named
+    `... Common Stock`, and neither row carries one. Grouping is by ISIN, so
+    the pair never meets, and both then compute the shard key `ECC`. Measured
+    against the live source on 2026-09-04, it is the only collision in 90,514
+    records.
+
+    Only an exactly equal symbol set is folded. A record keeping a symbol of
+    its own is a security the dataset has no other record of -- the reason
+    `BIO/B` and `RAC/WS` survive `_absorb_shadowed` -- and an unequal set that
+    still collides on `shard_key` is left to `build.write_records`, which
+    fails the build rather than guessing which of two unlike records to drop.
+
+    The survivor is whichever record carries an identifier, because an
+    identifier is what makes a record joinable, and the losing row here has
+    none. Ties keep source order.
+    """
+    by_symbols: dict[frozenset[str], list[dict]] = defaultdict(list)
+    order: list[frozenset[str]] = []
+    for record in records:
+        symbols = frozenset(l["symbol"] for l in record.get("listings", []))
+        if symbols not in by_symbols:
+            order.append(symbols)
+        by_symbols[symbols].append(record)
+
+    kept = []
+    for symbols in order:
+        group = by_symbols[symbols]
+        if not symbols or len(group) == 1:
+            kept.extend(group)
+            continue
+        group_sorted = sorted(group, key=lambda r: not r.get("identifiers"))
+        primary = group_sorted[0]
+        for other in group_sorted[1:]:
+            for k, v in other.items():
+                if k in {"listings", "primary_symbol", "isin"}:
+                    continue
+                if k not in primary or not primary.get(k):
+                    primary[k] = v
+            log.info(
+                "folded %r into %r: both list %s and neither carries an ISIN",
+                other.get("name"), primary.get("name"), sorted(symbols),
+            )
+        kept.append(primary)
     return kept
 
 
