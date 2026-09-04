@@ -316,9 +316,13 @@ Test. Fast, and it needs only `pycountry` and `jsonschema` from the
 requirements, so it runs where a full install does not. `test_build.py`,
 `test_edgar.py`, `test_http_cache.py` and `test_openfigi.py` `importorskip` on
 `pandas` or `requests`, so on that bare install they skip rather than fail:
-measured 2026-09-03, **111 passed and 4 skipped** with only `pytest`,
-`pycountry` and `jsonschema` installed, against **221 passed** with the full
-requirements. CI installs everything, so nothing is skipped on the runner.
+measured 2026-09-03, **124 passed and 4 skipped** with only `pytest`,
+`pycountry` and `jsonschema` installed, against **234 passed** with the full
+requirements. CI installs everything, so nothing is skipped on the runner --
+confirmed rather than inferred since 2026-09-04, when the gate first ran on
+`origin` and reported 234 on Python 3.12.14. Re-measure both after adding a
+test: a case in `test_normalize.py` counts in each column, since that module
+imports no source module and needs neither `pandas` nor `requests`.
 
 ```bash
 python -m pytest scripts/tests

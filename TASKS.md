@@ -350,6 +350,17 @@ one fix, and `v1/` no longer holds any of them.
   - Why first, if it happens at all: six changes are waiting on a check that has
     never executed. The cost is a button; the cost of not doing it is that every
     merge decision below is made on review alone.
+  - **Largely answered another way, 2026-09-04, and P1 was never a merge in
+    this repository.** The same workflow now runs on `origin`, where no
+    approval gate applies -- `rwgs/asset-profiles` had also never executed
+    either workflow until
+    [PR #1](https://github.com/rwgs/asset-profiles/pull/1) added a
+    `workflow_dispatch` trigger and fired it. It reported **234 passed** and
+    `OK: v1` on Python 3.12.14 / `ubuntu-latest` in 54s, against `main` at
+    `ec727260f9`. So the code in the seven upstream PRs is no longer checked
+    by review alone: all of it is on `main`, and `main` is what CI just
+    passed. What P1 would still buy is a result attached to each upstream PR
+    for its maintainers to read, which is worth a button and nothing more.
 
 - [~] **P2.** Land the FinanceDatabase URL fix and restart the refresh.
   **The fix half is done: #1 is merged into `main` at `ccab4c6f78`, 2026-09-03.
