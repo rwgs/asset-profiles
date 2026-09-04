@@ -3,8 +3,9 @@
 The arc that has been running since the OpenFIGI sweep is finished. T19, T20
 and T23 are all on `main` *and* applied to `v1/`, so every defect they correct
 has stopped being served rather than only stopped being produced. **T21 joined
-them on 2026-09-04 and is the cheap one**: it changes what the pipeline does
-without changing a byte of what it publishes, so no rebuild is owed.
+them on 2026-09-04 at `5ae7eae844` and is the cheap one**: it changes what the
+pipeline does without changing a byte of what it publishes, so no rebuild is
+owed.
 
 **T23's rebuild is `66f8afc92e`**, committed on its own as `AGENTS.md`
 requires: `diff: +11 / ~90551 / -11`, 90,570 files changed. A listing's venue
@@ -71,7 +72,8 @@ to make:
 - **T24**, above. Needs the product call before any code, and must not be
   bundled into a data rebuild, since it changes shard keys. Unlike T21, which
   turned out to change none.
-- ~~**T21**, the shard-key collision.~~ **Done 2026-09-04.** The `ECC` pair
+- ~~**T21**, the shard-key collision.~~ **Done 2026-09-04 at `5ae7eae844`.**
+  The `ECC` pair
   now folds in `normalize._absorb_isin_less_duplicates`, and anything that
   still collides raises `ShardKeyCollision` and exits 2 rather than dropping a
   record on iteration order. The stocks pass yields 90,513 records with 0

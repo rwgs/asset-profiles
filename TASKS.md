@@ -1432,9 +1432,10 @@ one fix, and `v1/` no longer holds any of them.
     sector -- checked across the whole tree, not sampled.
 
 - [x] **T21.** Decide what happens when two records claim one shard key.
-  **Done 2026-09-04. Found 2026-09-03 while rehearsing T19's and T20's
-  rebuild; it was pre-existing and neither rule caused it. Both routes were
-  taken, since the scope said they are not exclusive.**
+  **Done 2026-09-04, committed on `main` at `5ae7eae844`. Found 2026-09-03
+  while rehearsing T19's and T20's rebuild; it was pre-existing and neither
+  rule caused it. Both routes were taken, since the scope said they are not
+  exclusive. It owes `v1/` nothing, so it needs no companion data commit.**
   - Every build logged `stock ECC: shard key 'ECC' is already written;
     skipping this record` and wrote 90,513 records out of the 90,514 the
     cross-listing merge produced. The published tree had the same counts, so
