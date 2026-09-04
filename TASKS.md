@@ -161,11 +161,13 @@ So what remains here is not Phase 1 code:
 - **W6 through W9** are what this repository owes the client. W6 needs holdings
   data that must not be committed here; W8 and W9 were added 2026-09-03 and are
   the shape of the published index rather than its contents.
-- **Five listing-metadata and vocabulary defects were found in the published
-  tree**, 2026-09-03, while scoping W4 -- see the client-integration findings
-  below. 17.4% of listings name a venue they are not on. They are the reason
-  W4 should not start on today's `v1/`: the client's own P10C package exists on
-  the finding that a wrong MIC is worse than an absent one.
+- ~~**Five listing-metadata and vocabulary defects were found in the published
+  tree.**~~ **Four of the five are fixed in the data by T23's rebuild,
+  `66f8afc92e`, 2026-09-03**, and **W4 is no longer gated on them**: 42.4% of
+  listings changed MIC, 25,218 changed currency, and `AAPL` reads `XNAS`. The
+  fifth -- the sector taxonomy being a partial no-op -- is unchanged and is
+  documentation rather than a blocker. What T23's rebuild raised in their
+  place is **T24**, the primary-listing rule.
 - **#6 is now proven against live EDGAR**, not only against fixtures -- see T7,
   which this closes. It still cannot be seen in the published data until a
   refresh runs.
@@ -260,9 +262,10 @@ more than their size suggests, because W4 would feed every one of them into the
 client's asset rows, and **P10C** -- the client package they would land in --
 exists on the finding that a wrong MIC is worse than an absent one.
 
-**The first four are fixed in the pipeline by T23, 2026-09-03**, and are kept
-here because their measurements are the before-picture. They are one defect
-with four faces and one fix. `v1/` still holds all four until a rebuild.
+**The first four are fixed by T23, 2026-09-03**, in the pipeline at
+`1530f70157` and in the data at `66f8afc92e`, and are kept here because their
+measurements are the before-picture. They are one defect with four faces and
+one fix, and `v1/` no longer holds any of them.
 
 - ~~**`XNAS` is never emitted.**~~ All 44,663 US listings were published as
   `XNYS`, Apple's own record included, so every Nasdaq-listed company claimed
@@ -1456,9 +1459,10 @@ with four faces and one fix. `v1/` still holds all four until a rebuild.
   - Dependencies or blockers: none. It is small, and it should not be bundled
     into a data rebuild, since fixing it changes the record count.
 
-- [~] **T23.** Read a listing's venue and currency from the source.
-  **Pipeline half done 2026-09-03, committed on `main` at `1530f70157`;
-  `v1/` still holds all four defects until a rebuild, which needs sign-off.**
+- [x] **T23.** Read a listing's venue and currency from the source.
+  **Done 2026-09-03. Pipeline half at `1530f70157` and `4c4eeaa346`; the
+  rebuild that spends it at `66f8afc92e`, on its own as `AGENTS.md` requires.
+  `diff: +11 / ~90551 / -11`, 90,570 files changed.**
   - Scope: the first four findings of the client-integration review above,
     which are one defect with four faces -- the MIC was guessed from the Yahoo
     symbol suffix and the currency then derived from that guess, so each error
@@ -1538,13 +1542,84 @@ with four faces and one fix. `v1/` still holds all four until a rebuild.
   - Automated validation, done: **230 passed**, from 221. Nine cases over the
     source winning, the suffix fallback still running, an unmappable venue
     being absent, `.DU`, `.TI`, and the three currency forms.
-  - Manual validation, outstanding until the rebuild: `v1/stocks/AAPL.json`
-    still reads `XNYS` today. Verified instead against a full `--no-etfs`
-    probe tree, where `validate.py` exits 0 and the record count is unchanged
-    at 90,513.
-  - Dependencies or blockers: none. The rebuild is the outstanding half, and
-    it is much larger than T22's -- 47,285 listings and 1,997 primaries rather
-    than 893 records.
+  - Manual validation, done 2026-09-03 against `v1/` after the rebuild:
+    `v1/stocks/US0378331005.json` reads `AAPL` at **`XNAS`** against `XNYS`
+    before, and `APC.DU` at **`XDUS`** in `EUR` against Dubai's `DIFX` in
+    `AED`. `US4234031049.json` keeps its ISIN as `Hello Group Inc.` with
+    primary `MOMO`. T22's cases still hold: `AIR.json` is AAR Corp. with
+    `"isin": null`, `AT0000A2H326.json` is `"kind": "debt"` with no sector,
+    and `CA18452Y1007.json` is still gone.
+  - Gate after the rebuild: **234 passed** and `python scripts/validate.py
+    v1/` **exits 0**. The full build was rehearsed into a scratch tree first
+    and the rehearsal reconciled to it exactly -- same 8,520 of 9,356 ISINs
+    typed, same 323 dropped, same index.
+  - **Three costs the rehearsal turned up that the entry above did not
+    predict.** None changes the direction of the change, and the third is now
+    **T24**:
+    - **11 published URLs retire and 11 start**, where T22's were 322. Every
+      one is a group the source had already merged across two different
+      companies under a shared ticker, so T23 only decides which of the two
+      names wins: `SE0001174970.json` (Millicom) becomes `MIC.json` named
+      *Macquarie Infrastructure*, and `NL0000009827.json` (Koninklijke DSM)
+      becomes `DSM.json` named *BNY Mellon Strategic Municipal Bond Fund*.
+      Checked rather than assumed: every retired key's listing symbols all
+      resolve in the new index, so no record is dropped.
+    - **29 of 49 ETF records change `sector_weights`**, and every one moves
+      toward *less* `Unknown` -- largest -0.44pp, no axis gained or lost, and
+      nothing brought near T13's 0.5 omit threshold. A better primary means a
+      better holdings join, so this is the opposite of T19's effect on the
+      same axis.
+    - **1,919 records' `figi` changes and 265 lose it outright**, with 121
+      losing a `cusip`, because `identifiers` comes from the primary
+      listing's source row. See **T24**.
+  - Dependencies or blockers: none, and none left. 
+
+- [ ] **T24.** Decide which listing of a cross-listing group is the primary.
+  **Found 2026-09-03 while rehearsing T23's rebuild. T23 exposes it rather
+  than causing it, and the rebuild published it.**
+  - `group_cross_listings` promotes on one test -- `exchange_mic` in
+    `{XNYS, XNAS, ARCX, BATS}` -- and `sorted` is stable, so a group with no
+    US member keeps whatever order the source rows arrived in
+    (`normalize.py:315-322`). While `""` mapped to `XNYS` that test was true
+    for nearly every record and the rule barely discriminated. With real MICs
+    it discriminates, and what it falls back to is now visible.
+  - Measured over the 1,997 records whose `primary_symbol` changed:
+    **781 move to a genuine US venue** (452 `XNAS`, 329 `XNYS`), which is the
+    intended fix and includes Tyson Foods moving off a Berlin line to `TSN`.
+    **161 move to an LSE `0XXX.L` international-board line**, which is not:
+    STRABAG SE now names `0MKP.L` rather than Vienna's `STR.VI`, and Fabasoft
+    AG names `0IWU.L` rather than Xetra's `FAA.DE`. Neither company is
+    British and neither line is its home venue.
+  - **The consequence is not cosmetic.** `identifiers` comes from the primary
+    listing's source row, so **1,919 records' `figi` changed and 265 lost it
+    outright**, with 121 losing a `cusip`. `DECISIONS.md` makes composite FIGI
+    the best-covered identifier here -- 42,817 against 9,400 ISINs -- and it
+    is what T15's holdings bridge would join on, so the coverage matters
+    beyond display. `primary_symbol` is also the `shard_key` fallback, which
+    is where 11 of T23's URL moves came from.
+  - **`OTCM` is the specific lever, and it is a product question rather than a
+    bug.** 11,745 listings moved `XNYS` to `OTCM` in T23, and `is_us` does not
+    count `OTCM`, so **822 records have no US MIC but do have an OTC line**
+    that would win if it did. Whether a US over-the-counter line should
+    outrank a European company's home venue is exactly the call this task
+    exists to make -- for Fabasoft the candidates are `FBSFF` (US OTC),
+    `0IWU.L` (LSE international) and `FAA.DE` (Xetra), and the rule currently
+    has no way to prefer the third.
+  - Scope: replace the single US-or-not test with an ordering that can express
+    a home venue. Do not widen `is_us` to include `OTCM` without deciding the
+    above -- it would move 822 records a second time.
+  - Acceptance criteria: a group with no US listing promotes a listing chosen
+    by a stated rule rather than by source order, asserted in `scripts/tests`
+    over the STRABAG and Fabasoft groups; and no record loses a `figi` it
+    could have kept from another listing in its own group.
+  - Automated validation: `python -m pytest scripts/tests` over the new rule,
+    and `python scripts/validate.py v1/`, which cannot see this -- every
+    affected record validates either way.
+  - Manual validation: read `v1/stocks/AT000000STR1.json` and confirm
+    `primary_symbol` against STRABAG's actual home listing.
+  - Dependencies or blockers: none, but it needs the product call above before
+    any code. It also changes `primary_symbol` and therefore some shard keys,
+    so like T21 it should not be bundled into a data rebuild.
 
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),

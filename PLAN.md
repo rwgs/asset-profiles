@@ -1,109 +1,85 @@
-# In flight: T23's rebuild. T19 and T20 are complete in code and in data
+# Nothing in flight. T23 is closed in code and in data
 
-The arc that has been in flight since the OpenFIGI sweep is finished. Both
-rules are on `main`, and **T22's rebuild applied them to `v1/`**, so the
-defects they correct have stopped being served rather than only stopped being
-produced.
+The arc that has been running since the OpenFIGI sweep is finished. T19, T20
+and T23 are all on `main` *and* applied to `v1/`, so every defect they correct
+has stopped being served rather than only stopped being produced.
 
-**What is in flight is T23**, and it is in exactly the state T19 and T20 were
-in this morning: the pipeline half is on `main` at `1530f70157` and gate-
-verified, and `v1/` still holds the defect. A listing's venue and currency now
-come from the source's own `mic` and `currency` columns rather than from a
-guess at the symbol suffix. The rebuild that spends it is larger than T22's by
-two orders of magnitude in records touched -- **47,285 of 111,535 listings,
-42.4%, change their MIC**, 25,218 change currency, and 1,997 records change
-`primary_symbol` as a knock-on -- so it wants its own sign-off and its own
-rehearsal, both of which are done and recorded under T23.
+**T23's rebuild is `66f8afc92e`**, committed on its own as `AGENTS.md`
+requires: `diff: +11 / ~90551 / -11`, 90,570 files changed. A listing's venue
+and currency now come from the source's own `mic` and `currency` columns
+rather than from a guess at the Yahoo symbol suffix. Apple's record
+(`US0378331005`) reads `AAPL` at `XNAS` against `XNYS` before, and `APC.DU` at
+`XDUS` in `EUR` against Dubai's `DIFX` in `AED`.
 
-**One thing to know before that rebuild runs unattended:** `refresh.yml` fires
-Sunday 06:00 UTC, builds, validates and auto-commits `v1/**` as the bot. T23
-is on `main` now, so if no rebuild happens first, that job is what publishes
-these 47,285 corrections, with nobody reading the diff.
+**The scheduled refresh is no longer carrying an unreviewed publish.**
+`refresh.yml` fires Sunday 06:00 UTC and auto-commits `v1/**` as the bot. Until
+tonight it would have published T23's 47,285 listing corrections with nobody
+reading the diff. It now has almost nothing left to change, which also makes it
+a safe first exercise of `OPENFIGI_API_KEY` -- set 2026-09-03 at 20:59Z and
+never yet used anywhere. A rejected key exits 2, and now that costs a failed
+run rather than a wrong dataset.
 
-## What landed, and where it can be seen
+## What the rebuild cost, and what it turned up
 
-**T19: a record keyed by another company's ISIN loses the ISIN** and re-keys to
-its `primary_symbol`. Two independent signals are required, because either
-alone is too loose: OpenFIGI names a different company, *and* the ISIN's
-country prefix is an assigned ISO country that disagrees with the record's own
-`country_code`. AAR Corp. is now `v1/stocks/AIR.json` with `"isin": null`, and
-`v1/stocks/CA18452Y1007.json` -- Clean Air Metals' identifier -- is gone.
+Rehearsing the whole build into a scratch tree first is what `AGENTS.md` asks
+for, and the rehearsal reconciled to the real build exactly -- same 8,520 of
+9,356 ISINs typed, same 323 dropped, same index. It also found three things the
+task had not predicted, none visible from reading the code:
 
-**T20: a record that is not an equity is retyped rather than dropped**, and
-loses the sector it inherited from something it is not. `kind` grew from a
-const to `["stock", "fund", "debt"]`, all three validating against
-`stock.schema.json`. `v1/stocks/AT0000A2H326.json` reads `"kind": "debt"` with
-no sector, against *Consumer Discretionary* before.
+1. **11 published URLs retire and 11 start**, where T22's were 322. Every one
+   is a group the source had already merged across two different companies
+   under a shared ticker, so T23 only decides which of the two names wins:
+   `SE0001174970.json` (Millicom) becomes `MIC.json` named *Macquarie
+   Infrastructure*. Checked rather than assumed -- every retired key's listing
+   symbols still resolve in the new index, so no record is dropped.
+2. **29 of 49 ETF records change `sector_weights`**, every one toward *less*
+   `Unknown`: largest -0.44pp, no axis gained or lost, nothing brought near
+   T13's 0.5 omit threshold. The opposite of T19's effect on the same axis,
+   and for the same reason -- a better primary means a better holdings join.
+3. **1,919 records' `figi` changes and 265 lose it outright.** That is now
+   **T24**, and it is the one finding worth acting on.
 
-**Both rules come from one OpenFIGI sweep**, and they partition it: **322
-records keyed by another company's ISIN**, and **571 non-equities of which 554
-publish a sector they do not have**. The **615** this document carried until
-2026-09-03 was an over-count by exactly 44 -- it swept the index's 9,400 ISINs,
-which include the 44 belonging to ETF records already correctly typed in
-`v1/etfs/`. Earlier figures in `TASKS.md` -- 104, 164, 622 -- were floors from
-narrower detectors and should not be quoted either.
+## T24 is the open question this raised
 
-Gate, on the rebuilt tree: **221 passed** (111 and 4 skipped on the bare
-install), and `python scripts/validate.py v1/` **exits 0**.
+`group_cross_listings` promotes on a single test -- `exchange_mic` in
+`{XNYS, XNAS, ARCX, BATS}` -- and `sorted` is stable, so a group with no US
+member keeps source order. While `""` mapped to `XNYS` that test was true for
+nearly every record and the rule barely discriminated. With real MICs it does,
+and the fallback is now visible: of 1,997 changed primaries, **781 move to a
+genuine US venue** (the intended fix) and **161 move to an LSE `0XXX.L`
+international-board line** (not). STRABAG SE names `0MKP.L` rather than
+Vienna's `STR.VI`.
 
-## What the rebuild's rehearsal turned up, and what it cost
+It matters beyond display because `identifiers` comes from the primary
+listing's source row, and composite FIGI is the best-covered identifier here --
+42,817 against 9,400 ISINs -- and what T15's holdings bridge would join on.
 
-Rehearsing into a `--out` tree first is what `AGENTS.md` asks for and it earned
-its 44 minutes three times over. None of the following was visible from reading
-the code:
+**`OTCM` is the lever and the reason this is a product question.** 11,745
+listings moved `XNYS` to `OTCM`, `is_us` does not count it, and **822 records
+have no US MIC but do have an OTC line** that would win if it did. Whether a US
+over-the-counter line should outrank a European company's home venue is the
+call T24 exists to make. Do not widen `is_us` without making it -- that moves
+822 records a second time.
 
-1. **The 615 over-count above.** Caught because the build's own log line
-   reports 571 and the arithmetic on the index reconciles: 9,078 = 9,356 - 322
-   + 44.
-2. **T19 reaches ETF output.** `normalize._enrich_holding` joins holdings on
-   ISIN, ticker, then CUSIP, so disowning an ISIN removes a leg of that join.
-   `EFA`, `IEFA`, `SCHF` and `VEA` gain 2.4 to 3.1 points of `Unknown` sector.
-   That is the axis becoming honest -- the weight was previously booked into
-   the mis-keyed record's sector -- but `VEA` now sits 5.5 points from T13's
-   0.5 omit threshold for a reason unrelated to `VEA`.
-3. **One record is silently dropped every build**, on a shard-key collision
-   between two ISIN-less FinanceDatabase rows for Eagle Point Credit. Raised as
-   **T21**. It predates both rules and the rebuild neither caused nor fixed it.
-
-Cost paid, and signed off: **322 published URLs stopped resolving and 322
-started.** A record that loses a wrong ISIN re-keys to its symbol. Every new
-key was checked for a collision against the published tree before the rebuild
-ran -- none.
-
-Timing, worth keeping because it is the first rebuild with an OpenFIGI sweep in
-it: **5m13s to build** and 72s to validate warm, against 44 minutes when the
-sweep was cold. `.http_cache` held no OpenFIGI responses before 2026-09-03, so
-the 940-request unauthenticated sweep is the whole difference. CI is always
-cold and has the key, which is the case the 90-minute timeout is sized for.
-
-## What is open, with nothing in flight
+## What else is open, with nothing in flight
 
 Not a plan -- a list, because choosing the next change is not this document's
 to make:
 
-- **T21**, the shard-key collision. Small, and it must not be bundled into a
-  rebuild, since fixing it changes the record count.
+- **T24**, above. Needs the product call before any code, and like T21 must not
+  be bundled into a data rebuild, since it changes shard keys.
+- **T21**, the shard-key collision. One record is still silently dropped every
+  build on the `ECC` pair, and every build still logs it.
 - **T18** is still open and none of the above closes it. A depositary receipt
   is deliberately an equity here: the record describes the right company under
   the wrong security's identifier. OpenFIGI cannot fix it -- its mapping
   response carries no ISIN field -- and GLEIF reaches only 777 of the 2,142,
   missing Hon Hai and TSMC entirely.
-- **The listing-metadata cluster** from the client-integration review: `XNAS`
-  never emitted, `.DU` resolving to Dubai, 19,401 listings on an unmapped
-  suffix, and `currency` inferred from a guessed MIC rather than read from the
-  source columns that carry it. They are one cheap fix and they gate **W4**.
 - **T15 is on hold by decision** and waits for a source that carries TSMC's
-  Taiwan line rather than aliasing it to the NYSE ADR. Expect the same answer
-  for any future per-holding alias. **No phase owns finding that source**,
-  which is what actually blocks it.
-
-**Still open: T15's provenance question**, and it is smaller than it reads.
-`v1/etfs/SCHD.json` already publishes a FinanceDatabase-derived sector axis
-under an EDGAR-only provenance block, so the bridge would add a fourth
-identifier leg to an existing three-leg join rather than a new source of data.
-Per-axis provenance would be cheap -- three blocks across 49 ETF records -- and
-buys a consumer nothing, since provenance exists here for takedown and audit
-and no client-side task reads it. Holding T15 means nothing waits on it.
+  Taiwan line rather than aliasing it to the NYSE ADR. **No phase owns finding
+  that source**, which is what actually blocks it.
+- **W4 is no longer gated.** Four of the five listing-metadata defects that
+  held it back are fixed in the data.
 
 ## Two things to know before touching the pipeline
 
@@ -112,16 +88,15 @@ and no client-side task reads it. Holding T15 means nothing waits on it.
   install runnable. `apply_instrument_identity` takes plain dicts for that
   reason, and `build.figi_identity` computes them.
 - **Never use composite FIGI as evidence about an ISIN, in either direction.**
-  As a detector it fires on 1,242 records; as an *exonerating* signal it agrees
-  for 97 of the 152 flagged records carrying one, including `ARCHER DANIELS
-  MIDLAND` against `ADMIRAL GROUP PLC`. A record's `composite_figi` comes from
-  the same source row as its wrong ISIN, so it is contaminated by the defect it
-  would be vouching against.
+  A record's `composite_figi` comes from the same source row as its wrong ISIN,
+  so it is contaminated by the defect it would be vouching against.
 
 ## Two upstream facts that have not changed
 
 - Upstream is on standby and the seven open pull requests have still never been
-  through CI. P1 needs write access nobody here has.
+  through CI. P1 needs write access nobody here has, and is not worth waiting
+  on -- the check it names is being run on *this* fork instead, which is what
+  `validate-pr.yml` gaining a `workflow_dispatch` trigger is for.
 - Work still lands on `origin/main` and each change still keeps an
   upstream-mergeable branch. That this fork publishes does not change where
   changes are offered.
