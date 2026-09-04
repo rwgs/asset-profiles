@@ -562,15 +562,26 @@ def test_an_unrecognised_suffix_names_no_venue_rather_than_guessing_one():
 
 
 @pytest.mark.parametrize(
-    ("reported", "published"), [("ILA", "ILS"), ("ZAC", "ZAR"), ("GBP", "GBP")]
+    ("reported", "published"),
+    [
+        ("ILA", "ILS"),   # agorot, 560 rows
+        ("ZAC", "ZAR"),   # cents, 409 rows
+        ("GBX", "GBP"),   # pence: would otherwise satisfy ^[A-Z]{3}$ and ship
+        ("GBp", "GBP"),   # the mixed-case form, if a release ever preserves it
+        ("ZAc", "ZAR"),
+        ("GBP", "GBP"),   # a real ISO code passes through untouched
+        ("usd", "USD"),
+    ],
 )
 def test_a_quoting_unit_is_published_as_its_iso_currency(reported, published):
-    """The source mixes conventions in one column: `ILA` agorot and `ZAC`
-    cents are sub-units, while London -- also quoted in pence -- is reported
-    as `GBP` rather than `GBX`. Normalizing the two sub-units is what makes
-    the field mean one thing. The `GBP` case pins that a real ISO code is
-    passed through untouched."""
+    """This column cannot carry a quoting unit, so it carries the currency.
+
+    Measured 2026-09-03: it holds no mixed-case value anywhere, while `name`
+    in the same rows is mixed case 88% of the time -- so the case that
+    distinguishes `GBp` from `GBP` was flattened upstream, and London's 1,890
+    `GBP` rows are ambiguous. Nobody can read a unit off this field, which is
+    why the sub-units are normalized rather than preserved."""
     listing = _listing(
-        {"symbol": "X.TI", "name": "Some Co.", "mic": "XTAE", "currency": reported}
+        {"symbol": "X.L", "name": "Some Co.", "mic": "XLON", "currency": reported}
     )
     assert listing["currency"] == published

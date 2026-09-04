@@ -1494,14 +1494,28 @@ with four faces and one fix. `v1/` still holds all four until a rebuild.
     absent rather than wrong; and `.TI` deliberately left unmapped -- see the
     correction under the review findings above, which is the near-miss worth
     reading before touching this map again.
-  - **`ILA` and `ZAC` are normalized to `ILS` and `ZAR`**, 969 rows. They are
-    quoting units rather than ISO 4217 codes, and the decision turned on the
-    source contradicting itself: the same column reports `GBP` for London,
-    which is also quoted in pence, rather than `GBX`. Publishing the sub-unit
-    for two venues and the currency for the third would be publishing an
-    inconsistency of the source's rather than a fact about a venue. The
-    quoting unit is a real field this schema does not carry; the MIC-registry
-    candidate below is where it belongs.
+  - **`ILA` and `ZAC` are normalized to `ILS` and `ZAR`**, 969 rows, and
+    `GBX` joins them. They are quoting units rather than ISO 4217 codes, and
+    the grounds are that **this column cannot carry a quoting unit at all**,
+    which is measured rather than argued: the vendor convention for these is
+    mixed case -- `GBp`, `ZAc` -- and the column holds **no mixed-case value
+    anywhere** among its 37, while `name` in the same rows is mixed case 88%
+    of the time. Case was flattened upstream, so London's 1,890 `GBP` rows
+    are ambiguous: a flattened `GBp` cannot be told from a real `GBP`. No
+    consumer can read a unit off this field, so the only meaning it carries
+    reliably is the currency.
+    - An earlier version of this entry said the source "contradicts itself"
+      by normalizing London while leaving the other two. That was too
+      generous: `ZAc` arriving as `ZAC` shows the column was upper-cased, not
+      normalized, so the London value is not a decision of the source's at
+      all. Same fix, different reason, and the difference matters because the
+      first reading implies the source knows London is pence and this one
+      says nobody downstream can.
+    - `GBX` is in the alias map because it would otherwise satisfy the
+      schema's `^[A-Z]{3}$` and publish as though it were a currency. It
+      appears 0 times today, so this is a guard rather than a correction.
+    - The quoting unit is a real field this schema does not carry; the
+      MIC-registry candidate below is where it belongs.
   - **A knock-on nobody predicted, and it is the reason this is not a
     one-line change.** `group_cross_listings` promotes a US-listed member of
     an ISIN group to primary by testing `exchange_mic` against a set of four

@@ -113,15 +113,27 @@ def _resolve_mic_for_symbol(symbol: str, mic_map: dict) -> Optional[str]:
     return None
 
 
-# Two of the 38 currency values the source reports are quoting units rather
+# Two of the 37 currency values the source reports are quoting units rather
 # than ISO 4217 currencies: `ILA` is Israeli agorot and `ZAC` South African
-# cents, 560 and 409 rows. They are normalized because the same source
-# already does exactly this for the largest pence-quoted venue -- it reports
-# `GBP` for London, not `GBX` -- so leaving these two would publish an
-# inconsistency of the source's rather than a fact about the venue. The
-# quoting unit is a separate field this schema does not carry; see the
+# cents, 560 and 409 rows.
+#
+# They are normalized because this column cannot carry a quoting unit anyway,
+# which is measurable rather than assumed. The vendor convention for these is
+# mixed case -- `GBp`, `ZAc` -- and the column holds no mixed-case value at
+# all, while `name` in the same rows is mixed case 88% of the time. So case
+# was flattened upstream, and `GBP` on London's 1,890 rows is therefore
+# ambiguous: a flattened `GBp` is indistinguishable from a real `GBP`. Nobody
+# can read a unit off this field, so the only meaning it can carry reliably
+# is the currency.
+#
+# `GBX` and `GBP` map to the same place for that reason, and because `GBX`
+# would otherwise satisfy the schema's `^[A-Z]{3}$` and publish as though it
+# were a currency. `GBp` and `ZAc` arrive here already upper-cased by
+# `_source_currency`.
+#
+# The quoting unit is a real field this schema does not carry; see the
 # MIC-registry candidate in `TASKS.md`.
-CURRENCY_ALIASES = {"ILA": "ILS", "ZAC": "ZAR"}
+CURRENCY_ALIASES = {"ILA": "ILS", "ZAC": "ZAR", "GBX": "GBP"}
 
 
 def _source_currency(row: dict) -> Optional[str]:
