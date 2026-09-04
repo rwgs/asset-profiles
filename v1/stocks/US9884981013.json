@@ -2,36 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BH7L87",
+    "composite_figi": "BBG000BH3GZ2",
     "cusip": "988498101",
-    "figi": "BBG000BH7QY7",
+    "figi": "BBG000BH3J68",
     "isin": "US9884981013"
   },
   "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Retailing",
+  "industry_group": "Consumer Services",
   "isin": "US9884981013",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TGR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TGR.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TGR.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TGR.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -39,18 +19,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TGR.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "TGR.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TGR.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TGR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TGR.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TGR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TGR.MU"
     },
     {
       "currency": "EUR",
@@ -75,15 +75,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Yum! Brands, Inc.",
-  "primary_symbol": "TGR.BE",
+  "primary_symbol": "YUM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Yum! Brands, Inc. operates quick-service restaurants under the brands KFC, Pizza Hut, Taco Bell, and The Habit Burger Grill. The company franchises or operates restaurants worldwide. Yum! Brands is headquartered in Louisville, Kentucky.",
+  "summary": "YUM! Brands, Inc., together with its subsidiaries, develops, operates, and franchises quick service restaurants worldwide. It operates through four segments: the KFC Division, the Pizza Hut Division, the Taco Bell Division, and the Habit Burger Grill Division. The company operates restaurants under the KFC, Pizza Hut, Taco Bell, and The Habit Burger Grill brands, which specialize in chicken, pizza, made-to-order chargrilled burgers, sandwiches, Mexican-style food categories, and other food products. As of December 31, 2020, it had 25,000 KFC units; 17,639 Pizza Hut units; 7,427 Taco Bell units; and 287 The Habit Burger Grill units in approximately 150 countries and territories. The company was formerly known as TRICON Global Restaurants, Inc. and changed its name to YUM! Brands, Inc. in May 2002. YUM! Brands, Inc. was founded in 1997 and is headquartered in Louisville, Kentucky.",
   "website": "http://www.yum.com"
 }

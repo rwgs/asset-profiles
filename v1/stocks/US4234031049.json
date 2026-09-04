@@ -2,21 +2,25 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "cusip": "423403104"
+    "composite_figi": "BBG007HTCQT0",
+    "cusip": "423403104",
+    "figi": "BBG007HTCRF3",
+    "isin": "US4234031049"
   },
   "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
+  "isin": "US4234031049",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0K2P.IL"
+      "exchange_mic": "XNAS",
+      "symbol": "MOMO"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MOMO"
+      "exchange_mic": "XLON",
+      "symbol": "0K2P.IL"
     },
     {
       "currency": "EUR",
@@ -39,11 +43,11 @@
       "symbol": "MOMON.MX"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "Momo Inc.",
-  "primary_symbol": "0K2P.IL",
+  "market_cap_band": "Small Cap",
+  "name": "Hello Group Inc.",
+  "primary_symbol": "MOMO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

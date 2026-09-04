@@ -13,29 +13,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "1NW.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1NW.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1NW.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NPPTF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1NW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "1NW.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1NW.MU"
     },
     {
       "currency": "EUR",
@@ -46,13 +41,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "NDA.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NPPTF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Neptune Digital Assets Corp",
   "primary_symbol": "1NW.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

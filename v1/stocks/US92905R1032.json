@@ -2,9 +2,7 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BF82S0",
     "cusip": "92905R103",
-    "figi": "BBG000BF85Z5",
     "isin": "US92905R1032"
   },
   "industry": "Road & Rail",
@@ -13,34 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VOS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VOS.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VOS.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VOS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VOSSY"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UWU0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VOS.BE"
     },
     {
       "currency": "EUR",
@@ -48,14 +26,29 @@
       "symbol": "VOS.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "VOS.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VOS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "VOS.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VOS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VOS.MU"
     },
     {
       "currency": "EUR",
@@ -66,13 +59,18 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "VOS.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VOSSY"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Vossloh AG",
-  "primary_symbol": "VOS.BE",
+  "primary_symbol": "UWU0.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

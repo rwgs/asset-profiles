@@ -2,9 +2,7 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00WM28QC1",
     "cusip": "35655L107",
-    "figi": "BBG00WM28QJ4",
     "isin": "US35655L1070"
   },
   "industry": "Biotechnology",
@@ -14,12 +12,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "78F.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "FRLN"
     },
     {
@@ -29,15 +22,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "78F.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US35655L1070.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "FREEL.THERAP.HLD.SP.ADS/1",
-  "primary_symbol": "78F.MU",
+  "name": "Freeline Therapeutics Holdings plc",
+  "primary_symbol": "FRLN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

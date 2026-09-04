@@ -2,6 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG000LYF3S8",
+    "cusip": "66987V109",
+    "figi": "BBG000LYF718",
     "isin": "CH0012005267"
   },
   "industry": "Pharmaceuticals",
@@ -12,17 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0QLR.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "NVS"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NVSEF"
+      "currency": "CHF",
+      "exchange_mic": "XLON",
+      "symbol": "0QLR.IL"
     },
     {
       "currency": "BRL",
@@ -55,9 +53,14 @@
       "symbol": "NVS.BA"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "NVSD.BA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NVSEF"
     },
     {
       "currency": "MXN",
@@ -65,17 +68,17 @@
       "symbol": "NVSN.MX"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Novartis AG",
-  "primary_symbol": "0QLR.IL",
+  "primary_symbol": "NVS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Novartis AG researches, develops, manufactures, and markets healthcare products worldwide. The company operates through two segments, Innovative Medicines and Sandoz. The Innovative Medicines segment offers prescription medicines for patients and healthcare providers. It also provides ophthalmology, neuroscience, immunology, hepatology and dermatology, respiratory, established, and cardiovascular, renal and metabolism medicine products. The Sandoz segment provides active ingredients and finished dosage forms of small molecule pharmaceuticals to third parties across a range of therapeutic areas, as well as finished dosage form anti-infectives. It also provides active pharmaceutical ingredients and intermediates primarily antibiotics; protein- or other biotechnology-based products, including biosimilars; and biotechnology manufacturing services. Novartis AG has a license and collaboration agreement with Alnylam Pharmaceuticals to develop, manufacture, and commercialize inclisiran; an agreement with CureVac to manufacture COVID-19 vaccine candidate CVnCoV; and collaboration with Artios Pharma Limited to create next generation DDR cancer therapies. The company was incorporated in 1996 and is headquartered in Basel, Switzerland.",
+  "summary": "Novartis AG researches, develops, manufactures, and markets innovative healthcare products worldwide, with its portfolio concentrated in oncology, immunology, neuroscience, and cardiovascular, renal, and metabolic diseases, alongside established brands and specialized therapies. The company divested its Sandoz generics and biosimilars business as an independent, separately listed company in October 2023 and now operates as a pure-play innovative medicines business. Novartis AG was incorporated in 1996 and is headquartered in Basel, Switzerland.",
   "website": "http://www.novartis.com"
 }

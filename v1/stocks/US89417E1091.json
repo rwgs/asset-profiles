@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BJ81C1",
     "cusip": "89417E109",
+    "figi": "BBG000BJ82Q4",
     "isin": "US89417E1091"
   },
   "industry": "Insurance",
@@ -13,15 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "PA9.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TRV"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0R03.L"
     },
@@ -39,6 +36,9 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PA9.SG"
+    },
+    {
+      "symbol": "PA9.TI"
     },
     {
       "currency": "MXN",
@@ -63,9 +63,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Travelers Companies, Inc.",
-  "primary_symbol": "PA9.TI",
+  "primary_symbol": "TRV",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

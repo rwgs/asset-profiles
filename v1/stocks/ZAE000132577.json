@@ -12,19 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "5VD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VDMCY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VODAF"
     },
     {
       "currency": "EUR",
@@ -37,16 +27,26 @@
       "symbol": "5VD.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VDMCY"
+    },
+    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "VOD.JO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VODAF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Vodacom Group Limited",
   "primary_symbol": "5VD.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,9 @@
   "country": "Ireland",
   "country_code": "IE",
   "identifiers": {
-    "composite_figi": "BBG00F5DV604",
-    "figi": "BBG00F5DV668",
+    "composite_figi": "BBG009PN0C87",
+    "cusip": "G0084W101",
+    "figi": "BBG00BL29G48",
     "isin": "IE00BD845X29"
   },
   "industry": "Auto Components",
@@ -14,17 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "18I.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "18I.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ADNT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "18I.BE"
     },
     {
       "currency": "EUR",
@@ -32,8 +28,8 @@
       "symbol": "18I.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "18I.DU"
     },
     {
@@ -43,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "18I.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "18I.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Adient plc",
-  "primary_symbol": "18I.BE",
+  "primary_symbol": "ADNT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

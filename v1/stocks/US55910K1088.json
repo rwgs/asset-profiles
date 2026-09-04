@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00L92YRF6",
     "cusip": "55910K108",
-    "figi": "BBG00L92YRM8",
     "isin": "US55910K1088"
   },
   "industry": "Biotechnology",
@@ -14,18 +12,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3MT.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3MT.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MGTA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3MT.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +27,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3MT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3MT.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "MAGENTA THERAP.  DL-,001",
-  "primary_symbol": "3MT.BE",
+  "name": "Magenta Therapeutics, Inc.",
+  "primary_symbol": "MGTA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Magenta Therapeutics, Inc. is a biotechnology company focused on developing new stem cell transplant therapies to reset the immune system to cure patients with autoimmune diseases and blood cancers. Their core focus is on improving the process of stem cell transplantation. Magenta Therapeutics is headquartered in Cambridge, Massachusetts.",
+  "summary": "Magenta Therapeutics, Inc., a clinical-stage biotechnology company, develops novel medicines to bring the curative power of stem cell transplant, gene therapy, genome editing, and cell therapy to patients. The company is developing C100 and C300 targeted antibody-drug conjugates for transplant conditioning; MGTA-145, a stem cell mobilization product candidate to control stem cell mobilization; MGTA-456, an allogeneic stem cell therapy to control stem cell growth; E478, a small molecule aryl hydrocarbon receptor antagonist for the expansion of gene-modified stem cells; and G100, an antibody-drug conjugate program to prevent prophylaxis of graft-versus-host diseases. It has a has a research and clinical collaboration agreement with AVROBIO, Inc.to evaluate potential utility of MGTA-117 for conditioning of patients receiving one or more investigational lentiviral gene therapies; and clinical trial collaboration with bluebird bio, Inc. to evaluate the utility of MGTA-145, in combination with plerixafor, for mobilization and collection of stem cells in adults and adolescents with sickle cell disease. The company was formerly known as HSCTCo Therapeutics, Inc. and changed its name to Magenta Therapeutics, Inc. in February 2016. Magenta Therapeutics, Inc. was incorporated in 2015 and is headquartered in Cambridge, Massachusetts.",
   "website": "http://www.magentatx.com"
 }

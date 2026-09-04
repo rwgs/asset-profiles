@@ -2,9 +2,9 @@
   "country": "Mexico",
   "country_code": "MX",
   "identifiers": {
-    "composite_figi": "BBG000BG80W7",
+    "composite_figi": "BBG000C06X88",
     "cusip": "400491106",
-    "figi": "BBG000BG81R1",
+    "figi": "BBG000C06XG9",
     "isin": "US4004911065"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "US4004911065",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIM"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -33,6 +28,11 @@
       "symbol": "GSM.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "SIM"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "SIMECB.MX"
@@ -40,9 +40,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Grupo Simec, S.A.B. de C.V.",
-  "primary_symbol": "SIM",
+  "primary_symbol": "4FV.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

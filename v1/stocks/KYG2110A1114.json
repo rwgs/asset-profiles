@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000LYB6P8",
-    "figi": "BBG000LYB6P8",
+    "composite_figi": "BBG000KVJHV6",
+    "figi": "BBG000KVJJD2",
     "isin": "KYG2110A1114"
   },
   "industry": "IT Services",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CFTLF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CI4A.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0354.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CFTLF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CI4A.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Chinasoft International Ltd.",
-  "primary_symbol": "CFTLF",
+  "primary_symbol": "0354.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

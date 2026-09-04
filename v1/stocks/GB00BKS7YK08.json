@@ -3,19 +3,14 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00LGDSQ27",
-    "figi": "BBG00LGDSQ72",
+    "figi": "BBG00LGDSQ36",
     "isin": "GB00BKS7YK08"
   },
   "industry": "Chemicals",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Materials",
   "isin": "GB00BKS7YK08",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5TT.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -23,11 +18,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5TT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "5TT.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00BKS7YK08.SW"
     },
@@ -39,15 +39,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Treatt plc",
-  "primary_symbol": "5TT.MU",
+  "primary_symbol": "5TT.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "Treatt PLC is a manufacturer and supplier of a wide range of natural extracts and ingredients for the flavour, fragrance, beverage and consumer product industries. The company focuses on providing innovative and high-quality solutions to its global customer base. Treatt PLC is headquartered in Bury St Edmunds, United Kingdom.",
+  "sector": "Materials",
+  "summary": "Treatt plc manufactures and supplies various natural extracts and ingredients to the flavor, fragrance, beverage, and consumer product industries in the United Kingdom, Germany, Ireland, the United States, China, and internationally. It offers flavor ingredients, such as citrus, coffee, tea, health and wellness, and fruits and vegetables extracts; aroma, natural, and high impact chemicals; and herb, spice, and floral ingredients. The company also provides ingredient applications for beverage and household products; and fragrance ingredients, such as blends and ingredients. The company was founded in 1886 and is headquartered in Bury St. Edmunds, the United Kingdom.",
   "website": "http://www.treatt.com"
 }

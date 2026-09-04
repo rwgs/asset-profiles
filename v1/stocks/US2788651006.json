@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GZT3F0",
+    "composite_figi": "BBG000BHKYH4",
     "cusip": "278865100",
-    "figi": "BBG000GZT6R0",
+    "figi": "BBG000BHL0C2",
     "isin": "US2788651006"
   },
   "industry": "Chemicals",
@@ -15,25 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "ECJ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ECJ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ECJ.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ECL"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0IFA.L"
     },
@@ -44,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ECJ.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "ECJ.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ECJ.DU"
     },
     {
@@ -59,8 +49,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ECJ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ECJ.SG"
+    },
+    {
+      "symbol": "ECJ.TI"
     },
     {
       "currency": "MXN",
@@ -75,9 +73,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Ecolab Inc.",
-  "primary_symbol": "ECJ.BE",
+  "primary_symbol": "ECL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

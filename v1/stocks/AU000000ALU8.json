@@ -2,6 +2,8 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000FS9WB9",
+    "figi": "BBG000FS9WW6",
     "isin": "AU000000ALU8"
   },
   "industry": "Software",
@@ -10,24 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "A5V.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALMFF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "A5V.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "A5V.HM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "A5V.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ALMFF"
     },
     {
       "currency": "AUD",
@@ -36,16 +38,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "ALTIUM LTD.",
-  "primary_symbol": "A5V.HM",
+  "name": "Altium Limited",
+  "primary_symbol": "A5V.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Altium Limited is an Australian multinational software company that provides PC-based electronics design software for engineers designing printed circuit boards. Its flagship product, Altium Designer, is a comprehensive PCB design suite used for schematic capture, PCB layout, and manufacturing documentation. The company is headquartered in Sydney, Australia.",
+  "summary": "Altium Limited develops and sells computer software for the design of electronic products in the United States and internationally. It operates through Board and Systems; Microcontrollers and Embedded Systems; and Electronic Parts, Search and Discovery segments. The company offers printed circuit board (PCB) design software products, including Altium Designer, a PCB design tool; CircuitStudio, a professional PCB design tool; CircuitMaker, a community based PCB design tool for makers, hobbyists, and DIYers communities; and NEXUS, an agile PCB design for teams, as well as embedded products, such as TASKING tools for embedded software development. It also provides cloud platform comprising Altium 365, a connecting PCB design for the manufacturing floor; and Altium Concord Pro, a solution for library management. In addition, the company offers component data product comprising Octopart, a component database, as well as PDN Analyzer, a power distribution network analysis product. Further, it provides Altium DXP Developer and Altium 365 Online Viewer, as well as live and on-demand courses. The company serves the automotive, military/aerospace, communications, contract engineering, education, consumer electronics, industrial systems, entertainment, and bioscience and medical industries. Altium Limited was founded in 1985 and is headquartered in La Jolla, California.",
   "website": "http://www.altium.com"
 }

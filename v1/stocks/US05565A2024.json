@@ -2,9 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000QHJYW3",
+    "composite_figi": "BBG000BK56X7",
     "cusip": "05565A202",
-    "figi": "BBG000QHK0Y3",
+    "figi": "BBG000BK58F3",
     "isin": "US05565A2024"
   },
   "industry": "Banks",
@@ -12,21 +12,6 @@
   "isin": "US05565A2024",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BNPH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BNPQF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BNPQY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -64,6 +49,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BNPH.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BNPH.F"
     },
@@ -73,6 +63,16 @@
       "symbol": "BNPN.MX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BNPQF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BNPQY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "TPB.PA"
@@ -80,9 +80,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "BNP Paribas",
-  "primary_symbol": "BNPH.BE",
+  "primary_symbol": "BNP.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

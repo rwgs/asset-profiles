@@ -1,9 +1,7 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BZJTG8",
-    "figi": "BBG000BZJYG7",
     "isin": "SE0000112252"
   },
   "industry": "Paper & Forest Products",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RBG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RBG.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0H0L.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RBG.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RBG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RBG.MU"
     },
     {
       "currency": "EUR",
@@ -44,15 +42,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Rottneros AB",
-  "primary_symbol": "RBG.BE",
+  "primary_symbol": "0H0L.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Rottneros AB produces and sells market pulp. The company is headquartered in Sweden. Rottneros' products are sold globally for various paper and packaging applications.",
+  "summary": "Rottneros AB (publ) produces and sells pulp worldwide. It produces chemical pulp for use in electrical applications, filters, paper, and boards; mechanical pulp for use in paper, boards, tissue paper, and filters; and fiber trays for food and technical products. The company was founded in 1916 and is based in Vallvik, Sweden. Rottneros AB (publ) is a subsidiary of Arctic Paper S.A.",
   "website": "http://www.rottneros.com"
 }

@@ -3,7 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG005YKF517",
-    "figi": "BBG005YKF571",
+    "figi": "BBG005YKF553",
     "isin": "AU0000071482"
   },
   "industry": "Metals & Mining",
@@ -11,21 +11,6 @@
   "isin": "AU0000071482",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FMK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FMK.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FMK.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -38,15 +23,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FMK.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FMK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FMK.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FMK.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "EcoGraf Ltd.",
-  "primary_symbol": "FMK.BE",
+  "primary_symbol": "AU0000071482.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

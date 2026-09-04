@@ -2,8 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00ZXC0XK4",
-    "figi": "BBG00ZXC0XK4",
+    "composite_figi": "BBG00PBGPM28",
+    "figi": "BBG00PBGPM37",
     "isin": "GB00BJDQQ870"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,11 +11,6 @@
   "isin": "GB00BJDQQ870",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WOSGF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -30,13 +25,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "WOSG.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WOSGF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Watches of Switzerland Group plc",
-  "primary_symbol": "WOSGF",
+  "primary_symbol": "5WS.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

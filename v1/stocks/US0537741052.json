@@ -14,21 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CAR"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CUCA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CUCA.MU"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0HK4.L"
     },
@@ -43,14 +33,24 @@
       "symbol": "CAR.MX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CUCA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CUCA.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CUCA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CUCA.MU"
     },
     {
       "currency": "EUR",
@@ -62,7 +62,7 @@
   "name": "Avis Budget Group, Inc.",
   "primary_symbol": "CAR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

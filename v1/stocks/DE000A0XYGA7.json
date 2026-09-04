@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BRBDY9",
-    "figi": "BBG000BRBKW5",
     "isin": "DE000A0XYGA7"
   },
   "industry": "Machinery",
@@ -12,24 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTR1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTR1.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTR1.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0JMU.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TTR1.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "TTR1.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TTR1.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TTR1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TTR1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TTR1.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "technotrans SE",
-  "primary_symbol": "TTR1.BE",
+  "primary_symbol": "0JMU.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "technotrans SE develops, manufactures and sells system solutions for industrial applications, particularly in the areas of printing, plastics processing, and laser technology. Its core competencies include thermal management, filtration and separation technology, and application technology. technotrans SE is headquartered in Sassenberg, Germany.",
+  "summary": "technotrans SE operates as a technology and service company worldwide. It operates through two segments, Technology and Services. The company develops and sells equipment and systems based on cooling and temperature control, filtering and separating, and pumping and spraying liquids. It offers products for sheet-fed offset, commercial web offset, and newspaper printing; cooling systems for digital printing; temperature systems for flexographic printing; cooling systems for the plastic processing industry; and laser cooling systems. The company also provides solutions for stamping and forming technology; peripheral units in the tooling industry; battery and charging cable cooling solutions for electromobility applications; and cooling solutions for medical and scanner technology. In addition, it offers customer service support, spare part, in-house repair, and on-site project management services. technotrans SE was founded in 1970 and is headquartered in Sassenberg, Germany.",
   "website": "http://www.technotrans.de"
 }

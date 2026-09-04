@@ -2,6 +2,8 @@
   "country": "Jersey",
   "country_code": "JE",
   "identifiers": {
+    "composite_figi": "BBG000JM3G83",
+    "figi": "BBG000JM3GS1",
     "isin": "JE00BF0XVB15"
   },
   "industry": "Metals & Mining",
@@ -10,24 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "9CD1.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "9CD1.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CMCL"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9CD1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "9CD1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "9CD1.HM"
     },
     {
       "currency": "EUR",
@@ -35,22 +32,27 @@
       "symbol": "9CD1.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "CMCL"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "CMCL.L"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Caledonia Mining Corporation PLC",
-  "primary_symbol": "9CD1.HA",
+  "primary_symbol": "9CD1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Caledonia Mining Corporation is a gold producer with operations in Zimbabwe. The company operates the Blanket Mine. It is headquartered in Jersey, Channel Islands.",
+  "summary": "Caledonia Mining Corporation Plc primarily engages in the operation of a gold mine. The company also explores for and develops mineral properties for precious metals. Its primary asset is the Blanket Mine, a gold mine located in Zimbabwe. The company was formerly known as Caledonia Mining Corporation and changed its name to Caledonia Mining Corporation Plc in March 2016. Caledonia Mining Corporation Plc was incorporated in 1992 and is headquartered in Saint Helier, Jersey.",
   "website": "http://www.caledoniamining.com"
 }

@@ -12,19 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "O1F.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "O1F.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OCGPF"
     },
     {
       "currency": "EUR",
@@ -32,16 +22,26 @@
       "symbol": "O1F.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "O1F.MU"
+    },
+    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "OCE.JO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OCGPF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Oceana Group Limited",
   "primary_symbol": "O1F.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

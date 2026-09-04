@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG010J2N132",
+    "composite_figi": "BBG00WXWG2M6",
     "cusip": "69526K105",
-    "figi": "BBG010J2N187",
+    "figi": "BBG00WXWG371",
     "isin": "US69526K1051"
   },
   "industry": "Distributors",
@@ -14,25 +14,25 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEG.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PTVE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PEG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PEG.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Pactiv Evergreen Inc.",
-  "primary_symbol": "PEG.MU",
+  "primary_symbol": "PTVE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

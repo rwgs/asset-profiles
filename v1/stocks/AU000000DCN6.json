@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG003NF9QM3",
+    "figi": "BBG003NF9QN2",
     "isin": "AU000000DCN6"
   },
   "industry": "Metals & Mining",
@@ -9,11 +11,6 @@
   "isin": "AU000000DCN6",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DCCNF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,6 +22,11 @@
       "symbol": "DAG.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DCCNF"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "DCN.AX"
@@ -32,9 +34,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Dacian Gold Limited",
-  "primary_symbol": "DCCNF",
+  "primary_symbol": "DAG.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

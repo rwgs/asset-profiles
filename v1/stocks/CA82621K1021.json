@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000R084J2",
+    "composite_figi": "BBG00CTFYKL3",
     "cusip": "82621K102",
-    "figi": "BBG000R084J2",
+    "figi": "BBG00CTFYKM2",
     "isin": "CA82621K1021"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LWSCF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "636.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LWSCF"
     },
     {
       "currency": "CAD",
@@ -30,9 +30,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Sienna Senior Living Inc.",
-  "primary_symbol": "LWSCF",
+  "primary_symbol": "636.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

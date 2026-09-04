@@ -2,6 +2,9 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
+    "composite_figi": "BBG000K6MRN4",
+    "cusip": "N07059210",
+    "figi": "BBG000K6N6G7",
     "isin": "NL0010273215"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -11,18 +14,8 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASME.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ASML"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASMLF"
     },
     {
       "currency": "EUR",
@@ -38,6 +31,9 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ASME.SG"
+    },
+    {
+      "symbol": "ASME.TI"
     },
     {
       "currency": "EUR",
@@ -65,22 +61,27 @@
       "symbol": "ASML.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASMLF"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "ASMLN.MX"
     }
   ],
   "market_cap_band": "Mega Cap",
-  "name": "ASML",
-  "primary_symbol": "ASME.TI",
+  "name": "ASML Holding N.V.",
+  "primary_symbol": "ASML",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ASML is a Dutch multinational corporation that manufactures photolithography systems used to produce integrated circuits. These systems are used by semiconductor manufacturers to create microchips. ASML is headquartered in Veldhoven, Netherlands.",
+  "summary": "ASML Holding N.V. develops, produces, markets, sells, and services advanced semiconductor equipment systems consisting of lithography, metrology, and inspection related systems for memory and logic chipmakers. The company provides extreme ultraviolet lithography systems; and deep ultraviolet lithography systems comprising immersion and dry lithography solutions to manufacture various range of semiconductor nodes and technologies. It also offers metrology and inspection systems, including YieldStar optical metrology solutions to measure the quality of patterns on the wafers; and HMI e-beam solutions to locate and analyze individual chip defects. In addition, the company provides computational lithography and software solutions to create applications that enhance the setup of the lithography system; and mature products and services that refurbish used lithography equipment and offers associated services. It operates in Japan, South Korea, Singapore, Taiwan, China, the Netherlands, Europe, the Middle East, Africa, the United States, and rest of Asia. The company was formerly known as ASM Lithography Holding N.V. and changed its name to ASML Holding N.V. in 2001. ASML Holding N.V. was founded in 1984 and is headquartered in Veldhoven, the Netherlands.",
   "website": "http://www.asml.com"
 }

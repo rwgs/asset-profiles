@@ -12,28 +12,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "GCTAF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "GCTAY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GTQ1.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GTQB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GTQB.MU"
     },
     {
       "currency": "EUR",
@@ -46,9 +31,22 @@
       "symbol": "GTQ1.F"
     },
     {
+      "symbol": "GTQ1.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GTQB.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GTQB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GTQB.MU"
     },
     {
       "currency": "EUR",
@@ -70,7 +68,7 @@
   "name": "SIEMENS GAMESA RENEWABLE ENERGY SA",
   "primary_symbol": "GCTAF",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

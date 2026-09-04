@@ -12,34 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "CHF",
+      "exchange_mic": "XLON",
       "symbol": "0QWC.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMSSY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AUKUF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DQW1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DQW1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DQW1.TI"
     },
     {
       "currency": "CHF",
@@ -52,13 +27,28 @@
       "symbol": "AMS.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMSSY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AUKUF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DQW1.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DQW1.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DQW1.DU"
     },
     {
@@ -68,8 +58,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DQW1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DQW1.SG"
+    },
+    {
+      "symbol": "DQW1.TI"
     },
     {
       "currency": "EUR",
@@ -86,7 +84,7 @@
   "name": "ams AG",
   "primary_symbol": "0QWC.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BNHF22",
+    "composite_figi": "BBG000BHCYJ1",
     "cusip": "640268108",
-    "figi": "BBG000BNHJ24",
+    "figi": "BBG000BHD8K5",
     "isin": "US6402681083"
   },
   "industry": "Biotechnology",
@@ -14,27 +14,22 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ITH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ITH.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NKTR"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0UNL.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ITH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ITH.DU"
     },
     {
@@ -44,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ITH.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ITH.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Nektar Therapeutics",
-  "primary_symbol": "ITH.BE",
+  "primary_symbol": "NKTR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

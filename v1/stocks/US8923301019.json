@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BY2303",
+    "composite_figi": "BBG000BD9J25",
     "cusip": "892330101",
-    "figi": "BBG000BY2303",
+    "figi": "BBG000BD9JY0",
     "isin": "US8923301019"
   },
   "industry": "Automobiles",
@@ -13,31 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TYIDF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TYIDY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "6201.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TAH.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TYIDF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TYIDY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Toyota Industries Corporation",
-  "primary_symbol": "TYIDF",
+  "primary_symbol": "6201.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

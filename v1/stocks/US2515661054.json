@@ -1,10 +1,10 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000JYZ4V3",
+    "composite_figi": "BBG000HJTKL0",
     "cusip": "251566105",
-    "figi": "BBG000JYZ9X0",
+    "figi": "BBG000HJTMS9",
     "isin": "US2515661054"
   },
   "industry": "Diversified Telecommunication Services",
@@ -12,26 +12,6 @@
   "isin": "US2515661054",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTEA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTEA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTEGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DTEGY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -59,12 +39,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DTEA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DTEA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DTEA.DU"
     },
     {
@@ -74,8 +59,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DTEA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DTEA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DTEGF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DTEGY"
     },
     {
       "currency": "EUR",
@@ -90,15 +90,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Deutsche Telekom AG",
-  "primary_symbol": "DTEA.BE",
+  "primary_symbol": "DTE.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Deutsche Telekom AG, through its American Depositary Receipts (ADRs), allows U.S. investors to invest in the company's shares. Deutsche Telekom is a telecommunications company that provides a range of services, including fixed-network, mobile communications, internet, and television. The company is headquartered in Bonn, Germany.",
+  "summary": "Deutsche Telekom AG, together with its subsidiaries, provides integrated telecommunication services. The company operates through five segments: Germany, United States, Europe, Systems Solutions, and Group Development. It offers fixed-network services, including voice and data communication services based on fixed-network and broadband technology; and sells terminal equipment and other hardware products, as well as services to resellers. The company also provides mobile voice and data services to consumers and business customers; sells mobile devices and other hardware products; and sells mobile services to resellers and to companies that purchases and markets network services to third parties, such as mobile virtual network operators. In addition, it offers internet services; internet-based TV products and services; and information and communication technology systems for multinational corporations and public sector institutions with an infrastructure of data centers and networks under the T-Systems brand, as well as call center services. The company has 242 million mobile customers and 22 million broadband customers, as well as 27 million fixed-network lines. Deutsche Telekom AG has a collaboration with VMware, Inc. on cloud-based open and intelligent virtual RAN platform to bring agility to radio access networks for existing LTE and future 5G networks; and partnership with Microsoft to deliver high-performance cloud computing experiences. The company was founded in 1995 and is headquartered in Bonn, Germany.",
   "website": "http://www.telekom.com"
 }

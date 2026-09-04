@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000KWF964",
     "cusip": "887522100",
-    "figi": "BBG000KWF964",
     "isin": "CA8875221001"
   },
   "industry": "Metals & Mining",
@@ -13,17 +11,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TKRFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TLD.BE"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0VKV.L"
     },
@@ -31,6 +19,16 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "TK.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TKRFF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TLD.BE"
     },
     {
       "currency": "EUR",
@@ -45,9 +43,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Tinka Resources Limited",
-  "primary_symbol": "TKRFF",
+  "primary_symbol": "0VKV.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

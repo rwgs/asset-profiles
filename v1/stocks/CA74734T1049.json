@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00GD4BK95",
     "cusip": "74734T104",
-    "figi": "BBG00GD4BKH6",
     "isin": "CA74734T1049"
   },
   "industry": "Machinery",
@@ -14,28 +12,28 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8PY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8PY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PYR"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "8PY.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "8PY.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "8PY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8PY.MU"
     },
     {
       "currency": "EUR",
@@ -53,11 +51,11 @@
       "symbol": "PYR.TO"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "PyroGenesis Canada Inc.",
-  "primary_symbol": "8PY.BE",
+  "primary_symbol": "PYR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

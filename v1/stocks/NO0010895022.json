@@ -2,8 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00XZNV4Z7",
-    "figi": "BBG00XZNV548",
+    "composite_figi": "BBG00XMLM2X1",
+    "figi": "BBG00XMLM2Y0",
     "isin": "NO0010895022"
   },
   "industry": "Professional Services",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "N0D.MU"
-    },
-    {
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "MNTR.OL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "N0D.MU"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Mintra Holding AS",
-  "primary_symbol": "N0D.MU",
+  "primary_symbol": "MNTR.OL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -13,18 +13,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CBBHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "COH.BE"
     },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "COB.AX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "COH.BE"
     },
     {
       "currency": "EUR",
@@ -41,7 +41,7 @@
   "name": "Cobalt Blue Hldgs.",
   "primary_symbol": "CBBHF",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

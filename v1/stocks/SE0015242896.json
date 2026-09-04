@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "3JE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3JE.MU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3JE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3JE.MU"
     },
     {
       "currency": "SEK",
@@ -36,7 +36,7 @@
   "name": "SC.BIOGAS FUELS INTL.O.N.",
   "primary_symbol": "3JE.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

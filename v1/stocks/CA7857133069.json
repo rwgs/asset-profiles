@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00H2MNDM3",
     "cusip": "785713306",
-    "figi": "BBG00H2MNDS7",
+    "figi": "BBG00H2MNDN2",
     "isin": "CA7857133069"
   },
   "industry": "Metals & Mining",
@@ -13,19 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5XL.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SBLRF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5XL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5XL.MU"
     },
     {
       "currency": "EUR",
@@ -36,19 +31,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "SAE.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SBLRF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Sable Resources Ltd.",
-  "primary_symbol": "5XL.MU",
+  "primary_symbol": "5XL.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "SABLE RESOURCES LTD is a mineral exploration company focused on acquiring and exploring precious and base metal projects in established mining districts, primarily in South America. The company seeks to discover and develop economic mineral deposits. Sable Resources is headquartered in Canada.",
+  "summary": "Sable Resources Ltd. engages in the acquisition, exploration and development of mineral resource properties in Mexico and Argentina. It explores for gold, silver, copper, lead, zinc, and other deposits. The company holds interests in the Don Julio project covering an area of 58,629 hectares (ha), El Fierro project, El Fierrazo project, Los Pumas project, and Laspina project located in San Juan Province, Argentina; and Vinata project, El Escarpe project, and Sain Alto and Caolin mineral application covering an area of 39,414 ha titled located in Mexico. It also holds interest in the La Poncha property that comprises 16 mining claims covering an area of approximately 33,760 ha located in San Juan, Argentina. The company was formerly known as Calico Silver Mines Ltd. and changed its name to Sable Resources Ltd. in 1978. Sable Resources Ltd. was incorporated in 1962 and is based in Vancouver, Canada.",
   "website": "http://www.sableresources.com"
 }

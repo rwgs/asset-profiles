@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000FRMH56",
+    "composite_figi": "BBG000GTDBX3",
     "cusip": "62426E402",
-    "figi": "BBG000FRMH56",
+    "figi": "BBG000GTDCB5",
     "isin": "CA62426E4022"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA62426E4022",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPVDF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -31,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "MPVD.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPVDF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Mountain Province Diamonds Inc.",
-  "primary_symbol": "MPVDF",
+  "primary_symbol": "MPG.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

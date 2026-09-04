@@ -2,8 +2,7 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000FNDBQ5",
-    "figi": "BBG000FNFHV4",
+    "composite_figi": "BBG000BDCZY0",
     "isin": "GB00B0YG1K06"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,29 +11,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "R2K.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "R2K.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RSTGF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B0YG1K06.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "R2K.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "R2K.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "R2K.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RSTGF"
     },
     {
       "currency": "ZAR",
@@ -48,16 +47,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "RESTAURANT GRP  LS-,28125",
-  "primary_symbol": "R2K.BE",
+  "name": "RESTAURANT GROUP PLC",
+  "primary_symbol": "GB00B0YG1K06.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "The Restaurant Group plc operates a portfolio of restaurants and pubs primarily in the UK. The company's brands include Wagamama and Frankie & Benny's, offering a variety of dining experiences. They are headquartered in the United Kingdom.",
+  "summary": "RESTAURANT GROUP PLC operates a portfolio of restaurant brands and pubs. Their business model involves providing dining experiences through their diverse range of establishments, generating revenue through food and beverage sales. The company is headquartered in London, UK.",
   "website": "http://www.trgplc.com"
 }

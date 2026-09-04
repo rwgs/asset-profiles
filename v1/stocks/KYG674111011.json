@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00W1MFTV5",
-    "figi": "BBG00W1MFV04",
+    "composite_figi": "BBG00VSF0NL3",
+    "figi": "BBG00VSF0NM2",
     "isin": "KYG674111011"
   },
   "industry": "Biotechnology",
@@ -11,11 +11,6 @@
   "isin": "KYG674111011",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5DG.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,15 +23,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5DG.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG674111011.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "OCUMENSION THER.DL-,00001",
-  "primary_symbol": "5DG.MU",
+  "name": "Ocumension Therapeutics",
+  "primary_symbol": "1477.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

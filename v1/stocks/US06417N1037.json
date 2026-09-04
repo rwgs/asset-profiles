@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00H1NYZZ7",
+    "composite_figi": "BBG000QFJJW0",
     "cusip": "06417N103",
-    "figi": "BBG00H1NZ056",
+    "figi": "BBG00GFPL160",
     "isin": "US06417N1037"
   },
   "industry": "Banks",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BO8.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BO8.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "OZK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BO8.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BO8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BO8.MU"
     },
     {
       "currency": "EUR",
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Bank OZK",
-  "primary_symbol": "BO8.BE",
+  "primary_symbol": "OZK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

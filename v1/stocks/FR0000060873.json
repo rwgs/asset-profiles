@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000JVJGD0",
+    "figi": "BBG000JVJGS4",
     "isin": "FR0000060873"
   },
   "industry": "Beverages",
@@ -9,11 +11,6 @@
   "isin": "FR0000060873",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BVDRF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,6 +22,11 @@
       "symbol": "BED.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BVDRF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "MBWS.PA"
@@ -32,9 +34,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Marie Brizard Wine & Spirits SA",
-  "primary_symbol": "BVDRF",
+  "primary_symbol": "BED.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

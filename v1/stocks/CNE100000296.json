@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000NZG2R5",
-    "figi": "BBG000NZG2R5",
+    "composite_figi": "BBG000G6RL93",
+    "figi": "BBG000G6RLL9",
     "isin": "CNE100000296"
   },
   "industry": "Automobiles",
@@ -11,16 +11,6 @@
   "isin": "CNE100000296",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BYDDF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BYDDY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -45,13 +35,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BY6A.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BYDDF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BYDDY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "BYD Co., Ltd.",
-  "primary_symbol": "BYDDF",
+  "primary_symbol": "1211.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

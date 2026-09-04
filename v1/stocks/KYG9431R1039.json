@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000RHNHS9",
-    "figi": "BBG000RHNHS9",
+    "composite_figi": "BBG000R58884",
+    "figi": "BBG000R588R3",
     "isin": "KYG9431R1039"
   },
   "industry": "Food & Staples Retailing",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0151.HK"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "WWNTF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "WWNTY"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "0151.HK"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Want Want China Holdings Limited",
-  "primary_symbol": "WWNTF",
+  "primary_symbol": "0151.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

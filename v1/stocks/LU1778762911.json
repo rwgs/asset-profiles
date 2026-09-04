@@ -2,30 +2,16 @@
   "country": "Luxembourg",
   "country_code": "LU",
   "identifiers": {
-    "composite_figi": "BBG00KBGHTV1",
-    "figi": "BBG00KBGHV19",
+    "composite_figi": "BBG003T4VFC2",
+    "cusip": "84921RAB6",
+    "figi": "BBG00K6S0L00",
     "isin": "LU1778762911"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Media & Entertainment",
+  "industry_group": "Telecommunication Services",
   "isin": "LU1778762911",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "639.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "639.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "639.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -33,18 +19,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "639.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "639.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "639.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "639.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "639.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "639.MU"
     },
     {
       "currency": "EUR",
@@ -69,15 +70,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Spotify Technology S.A.",
-  "primary_symbol": "639.BE",
+  "primary_symbol": "SPOT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "SPOTIFY TECH. S.A. EUR 1 is a digital music streaming service that provides access to millions of songs, podcasts, and videos. The company operates globally, offering both free and premium subscription options. Spotify is headquartered in Stockholm, Sweden.",
+  "summary": "Spotify Technology S.A., together with its subsidiaries, provides audio streaming services worldwide. It operates in two segments, Premium and Ad-Supported. The Premium segment offers unlimited online and offline streaming access to its catalog of music and podcasts without commercial breaks to its subscribers. The Ad-Supported segment provides on-demand online access to its catalog of music and unlimited online access to the catalog of podcasts to its subscribers with no subscription fees. The company also offers sales, marketing, contract research and development, and customer support services. As of December 31, 2020, its platform included 345 million monthly active users and 155 million premium subscribers in 93 countries and territories. The company was founded in 2006 and is based in Luxembourg, Luxembourg.",
   "website": "http://www.spotify.com"
 }

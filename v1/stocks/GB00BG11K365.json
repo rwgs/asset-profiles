@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00LV04NW8",
-    "figi": "BBG00LV04P17",
+    "figi": "BBG00LV04NX7",
     "isin": "GB00BG11K365"
   },
   "industry": "Construction & Engineering",
@@ -12,19 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1HO1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RDWWF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1HO1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1HO1.MU"
     },
     {
       "currency": "EUR",
@@ -35,13 +30,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "RDW.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RDWWF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Redrow plc",
-  "primary_symbol": "1HO1.MU",
+  "primary_symbol": "1HO1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

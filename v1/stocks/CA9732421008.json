@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000G7PKH6",
     "cusip": "973242100",
-    "figi": "BBG000G7PPN8",
+    "figi": "BBG000G7PND4",
     "isin": "CA9732421008"
   },
   "industry": "Software",
@@ -13,24 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "L7C2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "L7C2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WINKF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA9732421008.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "L7C2.BE"
     },
     {
       "currency": "EUR",
@@ -38,22 +28,32 @@
       "symbol": "L7C2.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "L7C2.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "WIN.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WINKF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "WINDFALL GEOTEK INC.",
-  "primary_symbol": "L7C2.BE",
+  "primary_symbol": "CA9732421008.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Windfall Geotek Inc. develops platforms for the mining sector. It offers CARDS (computer aided resource detection system), a platform to identify a statistical probability of target identification within known areas of interest to analyze digital data sets of georeferenced historical exploration data including, geological, geochemical, geophysical, and structural, and digital elevation data; and data mining services. The company also explores for, and develops mineral resource properties in Québec. It primarily explores for base metals, precious metals, and Lithium. The company was formerly known as Albert Mining Inc. and changed its name to Windfall Geotek Inc. in October 2019. Windfall Geotek Inc. was incorporated in 1996 and is headquartered in Brossard, Canada.",
+  "summary": "Windfall Geotek Inc. is a technology company that provides artificial intelligence and data analytics services for the mineral exploration industry. The company's AI technology helps to identify and prioritize exploration targets. Windfall Geotek is based in Montreal, Quebec, Canada.",
   "website": "http://windfallgeotek.com"
 }

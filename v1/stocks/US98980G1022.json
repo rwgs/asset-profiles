@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00KBGG9W5",
+    "composite_figi": "BBG003338H34",
     "cusip": "98980G102",
-    "figi": "BBG00KBGGB23",
+    "figi": "BBG00K4MD5L3",
     "isin": "US98980G1022"
   },
   "industry": "Software",
@@ -14,23 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0ZC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0ZC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ZS"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0XVU.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0ZC.BE"
     },
     {
       "currency": "EUR",
@@ -38,14 +33,19 @@
       "symbol": "0ZC.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0ZC.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0ZC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0ZC.MU"
     },
     {
       "currency": "EUR",
@@ -60,15 +60,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Zscaler, Inc.",
-  "primary_symbol": "0ZC.BE",
+  "primary_symbol": "ZS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Zscaler, Inc. is a cloud security company that provides internet security, web security, firewalls, sandboxing, and threat intelligence. The company's flagship service, Zscaler Internet Access, acts as a security stack in the cloud, inspecting all traffic and preventing threats. Zscaler is headquartered in San Jose, California.",
+  "summary": "Zscaler, Inc. operates as a cloud security company worldwide. The company provides Zscaler Internet Access solution that provides users, servers, operational technology, internet of things, and device secure access to externally managed applications, including software-as-a-service (SaaS) applications and internet destinations; and Zscaler Private Access solution, which is designed to provide access to internally managed applications, either hosted internally in data centers, and private or public clouds. It also offers Zscaler Digital Experience that measures end-to-end user experience across key business applications, providing an easy to understand digital experience score for each user, application, and location within an enterprise. In addition, the company provides workload segmentation solutions comprising Zscaler Cloud Security Posture Management that identifies and remediates application misconfigurations in SaaS, infrastructure as a service, and platform as a service to reduce risk and ensure compliance with industry and organizational benchmarks; and Zscaler Cloud Workload Segmentation, which is designed to secure application-to-application communications inside public clouds and data centers to stop lateral threat movement, as well as to prevent application compromise and reduce the risk of data breaches. Its platform includes Zscaler Central Authority, Zscaler Enforcement Node, and Zscaler Nanolog Server modules. Zscaler, Inc. serves customers in various industries, such as airlines and transportation, conglomerates, consumer goods and retail, financial services, healthcare, manufacturing, media and communications, public sector and education, technology, and telecommunications services. The company was formerly known as SafeChannel, Inc., and changed its name to Zscaler, Inc. in August 2008. Zscaler, Inc. was founded in 2007 and is headquartered in San Jose, California.",
   "website": "http://www.zscaler.com"
 }

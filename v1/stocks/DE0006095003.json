@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000FZ5W54",
-    "figi": "BBG000FZ71S5",
+    "composite_figi": "BBG00HMXTJF6",
+    "figi": "BBG00HMXTJG5",
     "isin": "DE0006095003"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -12,29 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ECV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ECV.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ECV.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ECV.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "CAP.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ECV.BE"
     },
     {
       "currency": "EUR",
@@ -42,27 +27,42 @@
       "symbol": "ECV.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ECV.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ECV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ECV.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ECV.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ECV.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "ENCAVIS AG  INH. O.N.",
-  "primary_symbol": "ECV.BE",
+  "name": "Encavis AG",
+  "primary_symbol": "CAP.VI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "ENCAVIS AG is an independent power producer that acquires and operates solar parks and wind farms. The company generates electricity from renewable energy sources and sells it to utilities and other customers. ENCAVIS AG is headquartered in Germany.",
+  "summary": "Encavis AG, an independent power producer, acquires and operates solar and onshore wind parks. It operates through PV Parks, PV Service, Wind Parks, and Asset Management segments. The company operates 190 solar parks and 93 wind parks with an installed capacity of approximately 2.8 gigawatt in Germany, Italy, France, the United Kingdom, Austria, Finland, Sweden, Denmark, the Netherlands, and Spain. It also provides advisory and asset management services to institutional investors in the renewable energy sector; and commercial, technical, and other services. The company is headquartered in Hamburg, Germany.",
   "website": "http://www.encavis.com"
 }

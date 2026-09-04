@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00D20JQ55",
+    "composite_figi": "BBG00D0Y81M1",
     "cusip": "044186104",
-    "figi": "BBG00D20JQB8",
+    "figi": "BBG00D20JBT2",
     "isin": "US0441861046"
   },
   "industry": "Chemicals",
@@ -12,11 +12,6 @@
   "isin": "US0441861046",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AHT.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AHT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AHT.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "ASHLAND GLB.HLDGS DL-,01",
-  "primary_symbol": "AHT.MU",
+  "name": "Ashland Inc.",
+  "primary_symbol": "ASH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Ashland Global Holdings Inc. is a specialty chemical company that provides specialty ingredients to industries such as adhesives, architectural coatings, construction, energy, personal care, and pharmaceuticals. The company operates through various segments, including performance additives, and industrial specialties, and is headquartered in Wilmington, Delaware. Ashland's products are used in a wide range of applications, offering solutions for its customers' challenges.",
+  "summary": "Ashland Global Holdings Inc. provides specialty chemical solutions worldwide. The company's Specialty Ingredients segment offers products, technologies, and resources for solving formulation and product-performance challenges. It provides solutions using natural, synthetic, and semisynthetic polymers derived from cellulose ethers, vinyl pyrrolidones, acrylic polymers, polyester and polyurethane-based adhesives, and plant and seed extracts. This segment offers its solutions for the pharmaceutical companies; makers of personal care products, food, and beverages; makers of nutraceuticals and supplements; manufacturers of paint, coatings, and construction materials; packaging and converting markets; and oilfield service companies. Its Intermediates and Solvents produces 1,4 butanediol and related derivatives, including n-methylpyrrolidone that are used as chemical intermediates in the production of engineering polymers and polyurethanes, as well as specialty process solvents used in electronics, pharmaceuticals, water filtration membranes, and others. The company was formerly known as Ashland Inc. and changed its name to Ashland Global Holdings Inc. in September 2016. Ashland Global Holdings Inc. was founded in 1924 and is headquartered in Covington, Kentucky.",
   "website": "http://www.ashland.com"
 }

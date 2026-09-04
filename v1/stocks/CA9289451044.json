@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000P99KH0",
+    "composite_figi": "BBG000FF3PK8",
     "cusip": "928945104",
-    "figi": "BBG000P99KH0",
+    "figi": "BBG000FF3QK6",
     "isin": "CA9289451044"
   },
   "industry": "Metals & Mining",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VULMF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "VUL.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VULMF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Vulcan Minerals Inc.",
-  "primary_symbol": "VULMF",
+  "primary_symbol": "VUL.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000R75PF7",
-    "figi": "BBG000R75TR6",
+    "composite_figi": "BBG000MK6L34",
+    "figi": "BBG000MK6LL4",
     "isin": "KYG811511131"
   },
   "industry": "Real Estate Management & Development",
@@ -12,29 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OL5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OL5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SOLLF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SOLLY"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0272.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OL5.BE"
     },
     {
       "currency": "EUR",
@@ -43,21 +28,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OL5.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OL5.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SOLLF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SOLLY"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Shui On Land Ltd.",
-  "primary_symbol": "OL5.BE",
+  "primary_symbol": "0272.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Shui On Land Limited is a property developer in China, primarily focused on developing and managing mixed-use properties, including residential, office, retail, and hospitality components. Their flagship project is the Xintiandi development in Shanghai. The company is headquartered in Hong Kong.",
+  "summary": "Shui On Land Limited, an investment holding company, develops and sells properties in the Chinese Mainland. It operates through three segments: Property Development, Property Investment, and Construction. The Property Development segment develops and sells properties, such as residential, office, retail, entertainment, and cultural properties. The Property Investment segment leases offices and commercial/mall properties; provides property management services; and operates hotels. The Construction segment engages in the construction, interior fitting-out, renovation, and maintenance of building premises, as well as the provision of related consultancy services. The company also engages in the development of science and technology; and retail business. In addition, it provides business and hotel management, food and beverage, management, secretarial, education and business information consultancy, cultural diffusion, debt financing, construction, electronic commerce, and decoration services. The company was founded in 2004 and is headquartered in Shanghai, the People's Republic of China.",
   "website": "http://www.shuionland.com"
 }

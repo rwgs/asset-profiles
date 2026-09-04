@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000RRSK32",
+    "composite_figi": "BBG000R0L5J4",
     "cusip": "88076W103",
-    "figi": "BBG000RRSMJ1",
+    "figi": "BBG000R0L737",
     "isin": "US88076W1036"
   },
   "industry": "IT Services",
@@ -15,26 +15,21 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "3T4.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3T4.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TDC"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LEE.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3T4.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "3T4.DU"
     },
     {
@@ -44,21 +39,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3T4.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3T4.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Teradata Corporation",
-  "primary_symbol": "3T4.BE",
+  "primary_symbol": "TDC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Teradata Corporation is a provider of data analytics and cloud data platform services. The company offers a platform that enables businesses to analyze and manage large amounts of data. Teradata is headquartered in San Diego, California.",
+  "summary": "Teradata Corporation, together with its subsidiaries, operates as a hybrid cloud analytics software provider. Its solutions and services comprise software, hardware, and related business consulting and support services to deliver analytics in company's analytical ecosystem. The company offers Teradata Vantage, a data warehouse and analytics platform. Its business consulting services include consulting services for organizations to establish an analytic vision, identify and operationalize analytical opportunities, enable an analytical ecosystem architecture, and ensure their analytical infrastructure delivers value, as well as support and maintenance services. The company serves various industries comprising financial services, government, healthcare, manufacturing, retail, telecommunications, and travel/transportation. It operates in the Americas; Europe, the Middle East and Africa; and the Asia Pacific and Japan. The company primarily sells and markets its solutions and services through a direct sales force. Teradata Corporation was incorporated in 1979 and is headquartered in San Diego, California.",
   "website": "http://www.teradata.com"
 }

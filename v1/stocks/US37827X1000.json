@@ -12,37 +12,12 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8GC.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8GC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8GC.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GLCNF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GLNCY"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0IVW.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "8GC.DU"
     },
     {
@@ -52,13 +27,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "8GC.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8GC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "8GC.SG"
+    },
+    {
+      "symbol": "8GC.TI"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "8GCA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GLCNF"
     },
     {
       "currency": "GBP",
@@ -69,13 +62,18 @@
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "GLN.JO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GLNCY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Glencore plc",
-  "primary_symbol": "8GC.HA",
+  "primary_symbol": "0IVW.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

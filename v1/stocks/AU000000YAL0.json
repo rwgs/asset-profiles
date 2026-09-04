@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG003BVVT31",
-    "figi": "BBG003BVVT31",
+    "composite_figi": "BBG00MNS3M66",
+    "figi": "BBG00MNS3M75",
     "isin": "AU000000YAL0"
   },
   "industry": "Metals & Mining",
@@ -11,11 +11,6 @@
   "isin": "AU000000YAL0",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YACAF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -32,6 +27,11 @@
       "symbol": "YA1.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "YACAF"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "YAL.AX"
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Yancoal Australia Ltd",
-  "primary_symbol": "YACAF",
+  "primary_symbol": "3668.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

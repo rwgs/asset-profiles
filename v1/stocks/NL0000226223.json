@@ -2,8 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000JHD961",
-    "figi": "BBG000JHDFH5",
+    "composite_figi": "BBG000BD4GX2",
+    "cusip": "861012102",
+    "figi": "BBG000BD4KH1",
     "isin": "NL0000226223"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -14,32 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "SGM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGM.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGM.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGM.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "STM"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "STMEF"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SGM.BE"
     },
     {
       "currency": "EUR",
@@ -47,8 +28,8 @@
       "symbol": "SGM.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SGM.DU"
     },
     {
@@ -57,8 +38,23 @@
       "symbol": "SGM.F"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SGM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SGM.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SGM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SGMR.DU"
     },
     {
@@ -82,6 +78,11 @@
       "symbol": "STM.PA"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "STMEF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "STMI.VI"
@@ -93,16 +94,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "STMicroelectronics NV",
-  "primary_symbol": "SGM.BE",
+  "name": "STMicroelectronics N.V.",
+  "primary_symbol": "STM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "STMicroelectronics N.V. is a global semiconductor company that designs, develops, manufactures, and markets a broad range of semiconductor integrated circuits and discrete devices. The company serves customers across a diverse range of applications, including automotive, industrial, personal electronics, and communications infrastructure. STMicroelectronics is headquartered in Geneva, Switzerland.",
+  "summary": "STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and markets semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. It operates through Automotive and Discrete Group; Analog, MEMS and Sensors Group; and Microcontrollers and Digital ICs Group segments. The Automotive and Discrete Group segment offers automotive integrated circuits (ICs); and discrete and power transistor products. The Analog, MEMS and Sensors Group segment provides industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); general purpose analog products; custom analog ICs; wireless charging solutions; galvanic isolated gate drivers; low and high voltage amplifiers, comparators, and current-sense amplifiers; MasterGaN, a solution that integrates a silicon driver and GaN power transistors in a single package; wireline and wireless connectivity ICs; touch screen controllers; micro-electro-mechanical systems (MEMS) products, including sensors or actuators; and optical sensing solutions. The Microcontrollers and Digital ICs Group segment offers general purpose and secure microcontrollers; radio frequency (RF) and electrically erasable programmable read-only memories; and RF, digital, and mixed-signal ASICs. It also provides assembly and other services. The company sells its products through distributors and retailers, as well as through sales representatives. STMicroelectronics N.V. was incorporated in 1987 and is headquartered in Geneva, Switzerland.",
   "website": "http://www.st.com"
 }

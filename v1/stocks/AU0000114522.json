@@ -2,6 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000Q3DTC3",
     "isin": "AU0000114522"
   },
   "industry": "Metals & Mining",
@@ -10,24 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EEYMF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "N9F.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "N9F.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000114522.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EEYMF"
     },
     {
       "currency": "AUD",
@@ -36,21 +27,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "N9F.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "N9F.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "N9F.MU"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Firefinch Limited",
-  "primary_symbol": "EEYMF",
+  "name": "FIREFINCH LTD",
+  "primary_symbol": "AU0000114522.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Firefinch Limited explores for and develops mineral properties in Mali. It primarily explores for lithium and gold deposits. It holds 100% interest in the Goulamina Lithium project that covers an area of 100 square kilometers located in the Bougouni Region of southern Mali. The company also holds interests in the Massigui and Dankassa gold projects located in southern Mali. It also holds 80% interest in the Morila gold mine located in Mali. The company was formerly known as Mali Lithium Limited and changed its name to Firefinch Limited in November 2020. Firefinch Limited is based in West Perth, Australia.",
+  "summary": "Firefinch Ltd is an Australian lithium and gold exploration and development company focused on its Goulamina Lithium Project and Morila Gold Mine in Mali. The company is involved in mining and resource development.",
   "website": "http://www.firefinchltd.com"
 }

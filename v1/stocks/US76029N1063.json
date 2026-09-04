@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00LGLCV25",
+    "composite_figi": "BBG00L8Z22R1",
     "cusip": "76029N106",
-    "figi": "BBG00LGLCV89",
+    "figi": "BBG00L91XLQ0",
     "isin": "US76029N1063"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7R8.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7R8.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "REPL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "7R8.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7R8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7R8.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Replimune Group, Inc.",
-  "primary_symbol": "7R8.BE",
+  "primary_symbol": "REPL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Replimune Group Inc. is a biotechnology company focused on developing oncolytic immunotherapies for the treatment of cancer, headquartered in Woburn, Massachusetts. Their business model revolves around engineering and developing attenuated viruses that selectively replicate in and kill tumor cells, while also stimulating a systemic anti-tumor immune response. The company's lead product candidates are based on its Immulytic platform.",
+  "summary": "Replimune Group, Inc., a biotechnology company, develops oncolytic immune-gene therapies to treat cancer. It uses its proprietary Immulytic platform to design and develop product candidates that are intended to activate the immune system against cancer. The company's lead product candidate is RP1, a selectively replicating version of herpes simplex virus 1, which is in Phase I/II clinical trials for a range of solid tumors; and that is in Phase II clinical trials for patients with cutaneous squamous cell carcinoma. It is also developing RP2, which is in Phase I clinical trials for an anti-CTLA-4 antibody-like protein in order to block the inhibition of the immune response otherwise caused by CTLA-4; and RP3 to express immune-activating proteins that stimulate T cells. Replimune Group, Inc. was founded in 2015 and is headquartered in Woburn, Massachusetts.",
   "website": "http://replimune.com"
 }

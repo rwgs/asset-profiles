@@ -2,9 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG001LRJTK8",
-    "cusip": "495669103",
-    "figi": "BBG001LRJTK8",
+    "composite_figi": "BBG000K4RGM9",
+    "figi": "BBG000K4RHB9",
     "isin": "KYG5257K1076"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -13,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KGBLY"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1888.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KGBLY"
     },
     {
       "currency": "EUR",
@@ -35,9 +34,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Kingboard Laminates Holdings Limited",
-  "primary_symbol": "KGBLY",
+  "primary_symbol": "1888.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

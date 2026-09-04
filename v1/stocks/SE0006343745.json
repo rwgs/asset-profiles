@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00WHNKL92",
-    "figi": "BBG00WHNKLG4",
+    "figi": "BBG00WHNKLB9",
     "isin": "SE0006343745"
   },
   "industry": "Biotechnology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5JA1.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5JA1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5JA1.MU"
     },
     {
       "currency": "EUR",
@@ -32,11 +32,11 @@
       "symbol": "SPRINT.ST"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Sprint Bioscience AB",
-  "primary_symbol": "5JA1.MU",
+  "primary_symbol": "5JA1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

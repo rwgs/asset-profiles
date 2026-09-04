@@ -2,22 +2,21 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BR2M15",
-    "figi": "BBG000BR2M15",
+    "figi": "BBG00XX15B71",
     "isin": "XS2213048965"
   },
   "isin": "XS2213048965",
   "kind": "debt",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CEVIF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0165.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CEVIF"
     },
     {
       "currency": "EUR",
@@ -27,9 +26,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "China Everbright Limited",
-  "primary_symbol": "CEVIF",
+  "primary_symbol": "0165.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

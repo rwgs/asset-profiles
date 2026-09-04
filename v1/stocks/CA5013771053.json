@@ -13,24 +13,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "1QV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1QV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KCCFF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1QV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1QV.MU"
     },
     {
       "currency": "EUR",
@@ -41,13 +36,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "KC.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KCCFF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Kutcho Copper Corp.",
   "primary_symbol": "1QV.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

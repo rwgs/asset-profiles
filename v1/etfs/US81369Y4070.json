@@ -60,7 +60,7 @@
   "name": "Consumer Discretionary Select Sector SPDR Fund",
   "primary_symbol": "XLY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
@@ -69,7 +69,11 @@
   "sector_weights": [
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.938015
+      "weight": 0.92313
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.032265
     },
     {
       "sector": "Unknown",
@@ -78,10 +82,6 @@
     {
       "sector": "Industrials",
       "weight": 0.021771
-    },
-    {
-      "sector": "Communications",
-      "weight": 0.01738
     }
   ],
   "top_holdings": [

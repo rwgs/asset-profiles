@@ -11,24 +11,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XLON",
       "symbol": "0NVL.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UBSFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UBSFY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UEN.TI"
     },
     {
       "currency": "EUR",
@@ -46,9 +31,22 @@
       "symbol": "UBIS.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UBSFF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UBSFY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UEN.F"
+    },
+    {
+      "symbol": "UEN.TI"
     },
     {
       "currency": "EUR",
@@ -60,7 +58,7 @@
   "name": "Ubisoft Entertainment SA",
   "primary_symbol": "0NVL.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

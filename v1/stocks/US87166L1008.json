@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00B538GB7",
+    "composite_figi": "BBG000R33JD4",
     "cusip": "87166L100",
-    "figi": "BBG00B538GK7",
+    "figi": "BBG000R33JD4",
     "isin": "US87166L1008"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MINA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MINA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SYBX"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A8U.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MINA.BE"
     },
     {
       "currency": "EUR",
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MINA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US87166L1008.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "SYNLOGIC INC.  DL-,001",
-  "primary_symbol": "MINA.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Synlogic, Inc.",
+  "primary_symbol": "SYBX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SYNLOGIC INC.  DL-,001 is a biotechnology company focused on developing synthetic biotics medicines for the treatment of metabolic and inflammatory diseases. Synlogic's platform uses engineered microbes to perform specific functions within the body. The company is headquartered in Cambridge, Massachusetts.",
+  "summary": "Synlogic, Inc., a clinical-stage biopharmaceutical company, focuses on the discovery and development of synthetic biotic medicines to treat metabolic, inflammatory, and cancer diseases in the United States. Its therapeutic programs include SYNB1618, an oral therapy that is in Phase II clinical trial to treat phenylketonuria (PKU), as well as pre-clinical stage product SYNB1934 for the treatment of PKU; and SYNB8802 that is in Phase I clinical trial for the treatment of Enteric Hyperoxaluria. The company is also developing SYNB1891, an intratumorally administered synthetic biotic medicine that is in Phase I clinical trial to treat solid tumors and lymphoma. It has a collaboration agreement with Ginkgo Bioworks for the development of synthetic biotic medicines. Synlogic, Inc. is headquartered in Cambridge, Massachusetts.",
   "website": "http://www.synlogictx.com"
 }

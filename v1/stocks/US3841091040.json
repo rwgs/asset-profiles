@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000J7SNK0",
+    "composite_figi": "BBG000BK9W84",
     "cusip": "384109104",
-    "figi": "BBG000J7STW4",
+    "figi": "BBG000BK9XD6",
     "isin": "US3841091040"
   },
   "industry": "Machinery",
@@ -15,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "GA8.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GA8.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "GGG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GA8.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GA8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GA8.MU"
     },
     {
       "currency": "EUR",
@@ -40,9 +40,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Graco Inc.",
-  "primary_symbol": "GA8.BE",
+  "primary_symbol": "GGG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

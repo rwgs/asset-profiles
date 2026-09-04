@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000F2PL59",
+    "composite_figi": "BBG000MTDW24",
     "cusip": "78573L106",
-    "figi": "BBG000F2PP96",
+    "figi": "BBG000MTHFG2",
     "isin": "US78573L1061"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SBC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SBC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SBRA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SBC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SBC.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SBC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SBC.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Sabra Health Care REIT, Inc.",
-  "primary_symbol": "SBC.BE",
+  "primary_symbol": "SBRA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Sabra Health Care REIT, Inc. is a real estate investment trust (REIT) that invests in healthcare properties. Their portfolio primarily includes skilled nursing facilities, senior housing, and hospitals. The REIT aims to provide stable income to its shareholders through property rentals and management.",
+  "summary": "As of September 30, 2020, Sabra's investment portfolio included 425 real estate properties held for investment (consisting of (i) 287 Skilled Nursing/Transitional Care facilities, (ii) 64 Senior Housing communities (“Senior Housing - Leased”), (iii) 47 Senior Housing communities operated by third-party property managers pursuant to property management agreements (“Senior Housing - Managed”) and (iv) 27 Specialty Hospitals and Other facilities), one asset held for sale, one investment in a direct financing lease, 19 investments in loans receivable (consisting of (i) one mortgage loan, (ii) one construction loan and (iii) 17 other loans), six preferred equity investments and one investment in an unconsolidated joint venture that owns 158 Senior Housing - Managed communities. As of September 30, 2020, Sabra's real estate properties held for investment included 42,378 beds/units and its unconsolidated joint venture included 7,056 beds/units, spread across the United States and Canada.",
   "website": "http://www.sabrahealth.com"
 }

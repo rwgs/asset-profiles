@@ -2,39 +2,34 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C30PQ5",
-    "figi": "BBG000C30SC4",
+    "composite_figi": "BBG000BQF869",
+    "figi": "BBG000BQF8C2",
     "isin": "JP3236200006"
   },
   "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Capital Goods",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3236200006",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KEE.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KYCCF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "6861.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "KEE.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KEE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KEE.MU"
     },
     {
       "currency": "EUR",
@@ -50,19 +45,24 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "KEYN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KYCCF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Keyence Corporation",
-  "primary_symbol": "KEE.MU",
+  "primary_symbol": "6861.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "KEYENCE CORP. designs, develops, manufactures, and sells automation sensors, vision systems, laser markers, measuring instruments, and digital microscopes. Their products are used in a variety of industries to automate and improve manufacturing processes. The company is headquartered in Osaka, Japan.",
+  "sector": "Information Technology",
+  "summary": "Keyence Corporation, together with its subsidiaries, develops, manufactures, and sells factory automation solutions worldwide. The company offers photoelectric, fiber optic, laser, positioning, vision, and inductive proximity sensors, as well as network communication units used for presence/absence and part differentiation applications. It also provides measurement sensors, such as laser displacement and profiler, optical/laser micrometer, 3D interference measurement, spectral interference displacement, and contact displacement/LVDT sensors; and measurement systems, including optical comparators, 3D scanners, and CMM/laser trackers. In addition, the company offers safety products comprising safety laser scanners, light curtains, interlock switches, and controllers to protect operators from machine hazards; and pressure, flow, level, and temperature sensors for monitoring equipment processes. Further, it provides static eliminators/ionizers and electrostatic sensors which protect workers, machinery, and products from the damaging effects of electrostatic charge; vision systems and sensors, and barcode scanners to perform automatic inspection and part identification; and programmable logic controllers and other controls that are used for machine control applications. Additionally, the company offers laser marking systems/laser markers and industrial continuous inkjet printers; digital, 3D laser scanning, and fluorescence microscopes, as well as wide-area 3D measuring systems for industrial and life science applications; and handheld mobile computers. It serves customers in automotive/chassis assembly, metals/machining, FPD/glass, semiconductor/ICS, plastic/molding, food/pharmaceutical, steel, and other industries. Keyence Corporation was founded in 1972 and is headquartered in Osaka, Japan.",
   "website": "http://www.keyence.com"
 }

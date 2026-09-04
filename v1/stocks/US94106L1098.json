@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BSJQK5",
+    "composite_figi": "BBG000BWVSR1",
     "cusip": "94106L109",
-    "figi": "BBG000BSJQK5",
+    "figi": "BBG000BWVV12",
     "isin": "US94106L1098"
   },
   "industry": "Transportation Infrastructure",
@@ -15,27 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "WM"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
       "symbol": "CIWT"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "UWS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UWS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UWS.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WM"
     },
     {
       "currency": "EUR",
@@ -43,8 +33,8 @@
       "symbol": "UWS.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "UWS.DU"
     },
     {
@@ -54,8 +44,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UWS.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "UWS.SG"
+    },
+    {
+      "symbol": "UWS.TI"
     },
     {
       "currency": "BRL",
@@ -75,9 +73,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Waste Management, Inc.",
-  "primary_symbol": "CIWT",
+  "primary_symbol": "WM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,23 +2,19 @@
   "country": "Brazil",
   "country_code": "BR",
   "identifiers": {
-    "composite_figi": "BBG00PT2JFF8",
-    "figi": "BBG00PT2JFM0",
+    "composite_figi": "BBG00PK9C4C7",
+    "cusip": "G01125106",
+    "figi": "BBG00PK9C605",
     "isin": "KYG011251066"
   },
   "industry": "Household Products",
-  "industry_group": "Consumer Services",
+  "industry_group": "Household & Personal Products",
   "isin": "KYG011251066",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1AY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "AFYA"
     },
     {
@@ -28,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1AY.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG011251066.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "AFYA LTD. CL.A  DL-,00005",
-  "primary_symbol": "1AY.MU",
+  "name": "Afya Limited Class A",
+  "primary_symbol": "AFYA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Afya Ltd. is a medical education group that operates in Brazil. The company offers undergraduate and graduate programs in medicine and other healthcare fields, as well as continuing medical education courses. Afya is headquartered in Nova Lima, Brazil.",
+  "sector": "Consumer Staples",
+  "summary": "Afya Limited, through its subsidiaries, operates as a medical education group in Brazil. The company provides educational products and services, including medical schools, medical residency preparatory courses, graduate courses, and other programs to lifelong medical learners enrolled across its distribution network, as well as to third-party medical schools. It offers health sciences courses, which comprise medicine, dentistry, nursing, radiology, psychology, pharmacy, physical education, physiotherapy, nutrition, and biomedicine; and degree programs and courses in other subjects and disciplines, including undergraduate and post graduate courses in business administration, accounting, law, civil engineering, industrial engineering, and pedagogy. In addition, the company provides distance learning residency preparatory courses; and develops and sells digital and printed medical content. As of December 31, 2020, it operated a network of 24 undergraduate and graduate medical school campuses consisted of 19 operating units and five approved units. The company was founded in 1999 and is headquartered in Nova Lima, Brazil.",
   "website": "http://www.afya.com.br"
 }

@@ -18,31 +18,6 @@
       "symbol": "ING"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INGVF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INN1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INN1.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INN1.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INN1.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XAMS",
       "symbol": "IGPA.AS"
@@ -83,19 +58,44 @@
       "symbol": "INGN.MX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "INGVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "INN1.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "INN1.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "INN1.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "INN1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "INN1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "INN1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "INN1.MU"
     },
     {
       "currency": "EUR",
@@ -118,7 +118,7 @@
       "symbol": "INNA.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "NL0011821202.SW"
     }
@@ -127,7 +127,7 @@
   "name": "ING Groep N.V.",
   "primary_symbol": "ING",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FR20X4",
+    "composite_figi": "BBG000BMH2Q7",
     "cusip": "426281101",
-    "figi": "BBG000FR25F3",
+    "figi": "BBG000BMHDJ1",
     "isin": "US4262811015"
   },
   "industry": "IT Services",
@@ -14,17 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JHY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JHY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "JKHY"
     },
     {
@@ -33,8 +23,13 @@
       "symbol": "J1KH34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "JHY.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "JHY.DU"
     },
     {
@@ -44,21 +39,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JHY.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JHY.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "JACK HENRY + ASS. DL -,01",
-  "primary_symbol": "JHY.BE",
+  "name": "Jack Henry & Associates, Inc.",
+  "primary_symbol": "JKHY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Jack Henry & Associates, Inc. provides technology solutions and payment processing services primarily for financial institutions in the United States. The company offers a range of software and services for core banking, payment processing, and digital channels. The company is headquartered in Monett, Missouri.",
+  "summary": "Jack Henry & Associates, Inc. provides technology solutions and payment processing services primarily for financial services organizations in the United States. The company offers information and transaction processing solutions for banks ranging from community to multi-billion-dollar asset institutions under the Jack Henry Banking brand; core data processing solutions for various credit unions under the Symitar brand; and specialized financial performance, imaging and payments processing, information security and risk management, retail delivery, and online and mobile solutions to financial institutions and corporate entities under the ProfitStars brand. It also provides a suite of integrated applications required to process deposit, loan, and general ledger transactions, as well as to maintain centralized customer/member information; and complementary products and services that enable core bank and credit union clients to respond to evolving customer/member demands. The company's Jack Henry Banking business brand offers SilverLake, a robust primarily designed for commercial-focused banks; CIF 20/20, a parameter-driven, easy-to-use system for banks; and Core Director, a cost-efficient system with point-and-click operation. Its Symitar business brand provides Episys, a robust designed for credit unions; and CruiseNet, a cost-efficient system designed primarily for credit unions. In addition, the company offers electronic payment solutions; purchases and resells hardware systems, including servers, workstations, scanners, and other devices; and provides implementation, training, and support services. Jack Henry & Associates, Inc. was founded in 1976 and is headquartered in Monett, Missouri.",
   "website": "http://www.jackhenry.com"
 }

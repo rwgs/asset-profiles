@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000G7HRG1",
-    "figi": "BBG000G7HW52",
     "isin": "FR0000066722"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -12,17 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GUL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GUL.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0NB2.L"
     },
@@ -32,27 +20,37 @@
       "symbol": "GUI.PA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GUL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "GUL.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GUL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GUL.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Guillemot Corp. SA",
-  "primary_symbol": "GUL.BE",
+  "name": "Guillemot Corporation S.A.",
+  "primary_symbol": "0NB2.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Guillemot Corporation designs and manufactures interactive entertainment hardware and accessories. The company offers a variety of products including gaming headsets, racing wheels, and game controllers under the Thrustmaster and Hercules brands. Guillemot Corporation is headquartered in France.",
+  "summary": "Guillemot Corporation S.A. designs, manufactures, and sells interactive entertainment hardware and accessories in France, Germany, the United Kingdom, Spain, the United States, Canada, Italy, China, Belgium, and Romania. It offers digital hardware and peripherals under the Hercules brand name; PC and console gaming accessories under the Thrustmaster brand name; and DJ solutions for various connected devices under the DJUCED brand name. The company was founded in 1984 and is based in Chantepie, France.",
   "website": "http://www.guillemot.com"
 }

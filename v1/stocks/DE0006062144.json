@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG009YTYWV7",
-    "figi": "BBG009YTYX27",
+    "composite_figi": "BBG00GFQTHF5",
+    "figi": "BBG00GFQTHG4",
     "isin": "DE0006062144"
   },
   "industry": "Chemicals",
@@ -11,26 +11,6 @@
   "isin": "DE0006062144",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1COV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1COV.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "COVTY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CVVTF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -42,8 +22,8 @@
       "symbol": "1COV.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "1COV.DU"
     },
     {
@@ -53,8 +33,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1COV.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "1COV.SG"
+    },
+    {
+      "symbol": "1COV.TI"
     },
     {
       "currency": "EUR",
@@ -62,16 +50,26 @@
       "symbol": "1COV.VI"
     },
     {
-      "currency": "CHF",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "COVTY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CVVTF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0006062144.SW"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Covestro AG",
-  "primary_symbol": "1COV.MU",
+  "primary_symbol": "1CO1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00NL1C9K8",
     "cusip": "55344L102",
-    "figi": "BBG00NL1C9R1",
     "isin": "CA55344L1022"
   },
   "industry": "Pharmaceuticals",
@@ -13,19 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2J6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPXOF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2J6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2J6.MU"
     },
     {
       "currency": "EUR",
@@ -36,13 +29,18 @@
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "MPXI.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPXOF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "MPX International Corporation",
-  "primary_symbol": "2J6.MU",
+  "primary_symbol": "2J6.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,8 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG002VX96V1",
+    "composite_figi": "BBG000R263Y5",
     "cusip": "98420U703",
-    "figi": "BBG002VX9712",
     "isin": "US98420U7037"
   },
   "industry_group": "Consumer Services",
@@ -12,35 +11,35 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "V9G.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "V9G.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US98420U7037.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "V9G.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "V9G.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "V9G.MU"
     }
   ],
-  "name": "XPRESSPA GROUP  DL-,01",
-  "primary_symbol": "V9G.BE",
+  "name": "XWELL INC",
+  "primary_symbol": "US98420U7037.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "XpresSpa Group, Inc. is a health and wellness holding company. Through its subsidiaries, it offers spa services, retail products and operates airport spas in the United States, Canada and the Netherlands. It's headquartered in New York."
+  "summary": "XWELL INC is a wellness company offering spa and salon services in airports; it provides travelers with treatments such as massages, manicures, and haircuts; the company is headquartered in New York, New York."
 }

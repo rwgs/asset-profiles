@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BVXR75",
-    "figi": "BBG000BVXVQ5",
+    "composite_figi": "BBG000BMHFD2",
+    "figi": "BBG000BMHG22",
     "isin": "JP3352400000"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -12,23 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTZ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTZ.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "7762.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CTZ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CTZ.DU"
     },
     {
@@ -38,21 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CTZ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CTZ.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Citizen Watch Co, Ltd.",
-  "primary_symbol": "CTZ.BE",
+  "primary_symbol": "7762.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "CITIZEN WATCH CO. LTD. designs, manufactures, and sells watches, clocks, and precision equipment. The company's products include watches with Eco-Drive technology, which are powered by light, as well as other watch-related components and healthcare equipment. Citizen Watch Co. Ltd. is headquartered in Tokyo, Japan.",
+  "summary": "Citizen Watch Co., Ltd. manufactures and sells watches and their components worldwide. It operates through five segments: Watches, Machine Tools, Devices and Components, Electronic Products, and Other Products. The company offers watches, movements, and system clocks; CNC automatic lathes; machining cell; automotive components, compact switches, chip LEDs, LED lighting products, crystal devices, and ferroelectric LCDs; and digital photo printers, line thermal printers, calculators, electronic thermometers, and electronic blood pressure monitors. The company was formerly known as Citizen Holdings Co., Ltd., and changed its name to Citizen Watch Co., Ltd. in October 2016. Citizen Watch Co., Ltd. was founded in 1918 and is headquartered in Nishi-Tokyo, Japan.",
   "website": "http://www.citizen.co.jp"
 }

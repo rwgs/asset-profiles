@@ -2,34 +2,22 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000L1KH94",
-    "figi": "BBG000L1KNN5",
     "isin": "DE000A0KEXC7"
   },
   "industry": "Software",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Software & Services",
   "isin": "DE000A0KEXC7",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "V3S.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "V3S.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "V3S.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0W1I.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "V3S.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "V3S.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "V3S.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "V3S.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "V3S.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "V3S.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Vectron Systems AG",
-  "primary_symbol": "V3S.BE",
+  "primary_symbol": "0W1I.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Vectron Systems AG develops and distributes point of sale (POS) systems, software, and services. The company's solutions are used in hospitality, retail, and bakery industries. Vectron Systems AG is headquartered in Münster, Germany.",
+  "summary": "Vectron Systems AG manufactures, sells, and installs intelligent POS systems and communication software for the networking of branch shops worldwide. It offers stationary and mobile POS systems; POS PC, a POS system software; Vectron Commander, a software for networks and centralized data management; Vectron Journal Tool, a tool for evaluating, archiving and analyzing the POS system journal data; Vectron Contacts, a contact and invoice manager software; and Vectron Analytics, a software for analyzing sales data and displaying the key performance indicators in graphic overview. The company also provides hardware connection peripherals, including cash management systems, printers, stands, pagers, scanners, drink dispensers and coffee machines, scales, and payment systems. In addition, it provides trade solutions for hospitality, gastronomy, hotels, bakeries, and cafés; cloud-based myVectron reporting app; and bonVito, an online service with customer retention, loyalty program, bonus cards, and various other functions. The company sells its products through a network of dealers and sales team. Vectron Systems AG was founded in 1990 and is headquartered in Münster, Germany.",
   "website": "http://www.vectron-systems.com"
 }

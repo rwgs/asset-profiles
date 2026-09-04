@@ -2,34 +2,32 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG006BMNJN3",
-    "figi": "BBG006BMNJV4",
     "isin": "FR0011271600"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "FR0011271600",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1F6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1F6.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0QTJ.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1F6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1F6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1F6.MU"
     },
     {
       "currency": "EUR",
@@ -43,16 +41,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "FERMENTALG  EO -,04",
-  "primary_symbol": "1F6.BE",
+  "name": "Fermentalg Societe Anonyme",
+  "primary_symbol": "0QTJ.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "FERMENTALG EO -,04 is a French biotechnology company. It specializes in the production of microalgae for nutritional and pharmaceutical applications. The company's headquarters are located in France.",
+  "sector": "Consumer Staples",
+  "summary": "Fermentalg Société Anonyme develops, produces, and sells active ingredients extracted from microalgae for the food, health, and nutrition sectors in France and internationally. It offers DHA ORIGINS, a plant based DHA oil; PROTEALG, a vegetable protein; BLUE ORIGIN, a natural color substitutes for human health and nutrition; and Carbon sinks to capture CO2 in urban and industrial environments. The company was founded in 2009 and is based in Libourne, France.",
   "website": "http://www.fermentalg.com/fr"
 }

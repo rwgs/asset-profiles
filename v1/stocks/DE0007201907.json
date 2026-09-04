@@ -1,35 +1,23 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BYV2N8",
-    "figi": "BBG000BYV6Q6",
     "isin": "DE0007201907"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Capital Goods",
   "isin": "DE0007201907",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIS.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIS.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0G0X.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SIS.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "SIS.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SIS.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SIS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SIS.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SIS.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "First Sensor AG",
-  "primary_symbol": "SIS.BE",
+  "primary_symbol": "0G0X.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "First Sensor AG develops and manufactures customized sensor solutions for industrial, medical, and mobility applications. The company's products include pressure sensors, optical sensors, and inertial sensors, used in diverse fields. Their headquarters is located in Germany.",
+  "sector": "Industrials",
+  "summary": "First Sensor AG develops, produces, and sells sensor chips, sensor components, sensors, and sensor systems for industrial, medical, and mobility markets worldwide. It offers optical and opto-electronic sensor solutions, including quadrant PIN photodiodes, quadrant avalanche photodiodes (APD), APD arrays, position-sensitive diodes, wavelength-sensitive diodes, InGaAs photodiodes, and silicon photomultipliers (SiPMs); optoelectronic modules; laser diodes; and custom sensors. The company also provides radiation sensors, such as detectors for ionizing radiation and SiPMs; pressure sensor elements and components, pressure sensors and transmitters, and pressure sensors for OEM applications; level sensors comprising hydrostatic liquid level sensors and optical liquid level switches; flow sensors consisting of mass flow sensors for gases and sensors for volumetric flow measurement; inertial sensors; and rugged and compact cameras. In addition, it offers power semiconductors, including power MOSFETs for aerospace applications, as well as radiation-hardened high voltage diodes for space applications; and other products, such as oxygen sensors, miniature solenoid valves, media resistant solenoid valves, electronic pressure controllers, and miniature diaphragm pumps. The company was formerly known as Silicon Sensor International AG and changed its name to First Sensor AG in June 2011. First Sensor AG was founded in 1991 and is headquartered in Berlin, Germany. As of March 12, 2020, First Sensor AG operates as a subsidiary of TE Connectivity Ltd.",
   "website": "http://www.first-sensor.com"
 }

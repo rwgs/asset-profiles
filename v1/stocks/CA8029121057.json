@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000DZXPQ7",
+    "composite_figi": "BBG000BHGZT3",
     "cusip": "802912105",
-    "figi": "BBG000DZXPQ7",
+    "figi": "BBG000BHH153",
     "isin": "CA8029121057"
   },
   "industry": "Food & Staples Retailing",
@@ -13,28 +13,23 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAPIF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SB7.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SB7.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "SAP.TO"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SAPIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SB7.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SB7.DU"
     },
     {
@@ -44,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SB7.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SB7.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Saputo Inc.",
-  "primary_symbol": "SAPIF",
+  "primary_symbol": "SAP.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,25 +1,25 @@
 {
-  "country": "Singapore",
-  "country_code": "SG",
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00YHY3BJ4",
-    "figi": "BBG00YHY3BP7",
+    "figi": "BBG00YHY3BK2",
     "isin": "SE0011281757"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "SE0011281757",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5UX.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5UX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5UX.MU"
     },
     {
       "currency": "SEK",
@@ -29,15 +29,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Midsummer AB",
-  "primary_symbol": "5UX.MU",
+  "primary_symbol": "5UX.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "MIDSUMMER AB is a Swedish investment company focusing on small and medium-sized enterprises. The company provides capital and expertise to help these businesses grow, primarily within the Nordic region. Their business model involves taking active ownership positions in their portfolio companies.",
+  "sector": "Information Technology",
+  "summary": "Midsummer AB (publ) develops and supplies equipment for manufacturing CIGS thin film solar cells in Sweden. It offers Duo, a fully automatic deposition system for CIGS solar cell manufacturing; UNO, a platform for CIGS and CZTS solar cells; and flexible and lightweight modules for PV applications in membrane roofs, portable power plants, marine installations, vehicle usage, landfill covers, or other infrastructure projects. The company is headquartered in Järfälla, Sweden.",
   "website": "http://www.midsummer.se"
 }

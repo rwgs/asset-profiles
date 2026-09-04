@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00WHNKG02",
-    "figi": "BBG00WHNKG57",
+    "figi": "BBG00WHNKG11",
     "isin": "GB0000163088"
   },
   "industry": "Professional Services",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5HN.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5HN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5HN.MU"
     },
     {
       "currency": "EUR",
@@ -27,7 +27,7 @@
       "symbol": "GB0000163088.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0000163088.SW"
     },
@@ -37,11 +37,11 @@
       "symbol": "SDY.L"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Speedy Hire Plc",
-  "primary_symbol": "5HN.MU",
+  "primary_symbol": "5HN.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

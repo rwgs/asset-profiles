@@ -2,9 +2,7 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BWJ5L1",
-    "cusip": "411618200",
-    "figi": "BBG000BWJ5L1",
+    "composite_figi": "BBG000BDXKH9",
     "isin": "GB00BMBVGQ36"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,19 +11,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "HBR.L"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "HBRIY"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "PMOIF"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "HBR.L"
     },
     {
       "currency": "EUR",
@@ -40,9 +38,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Harbour Energy plc",
-  "primary_symbol": "HBRIY",
+  "primary_symbol": "HBR.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

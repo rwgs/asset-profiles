@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000J2XL74",
     "cusip": "718172109",
+    "figi": "BBG000J2XPB0",
     "isin": "US7181721090"
   },
   "industry": "Tobacco",
@@ -13,17 +15,16 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "PHMO-U.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "PM"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "4I1.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "PHMO-U.TI"
     },
     {
       "currency": "BRL",
@@ -46,11 +47,11 @@
       "symbol": "PMOR.VI"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Philip Morris International Inc.",
-  "primary_symbol": "PHMO-U.TI",
+  "primary_symbol": "PM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

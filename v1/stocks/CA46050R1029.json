@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000KJ1450",
+    "composite_figi": "BBG000C7YJS1",
     "cusip": "46050R102",
-    "figi": "BBG000KJ14S5",
+    "figi": "BBG000C7YKY1",
     "isin": "CA46050R1029"
   },
   "industry": "Metals & Mining",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "THM"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "ITH.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "THM"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "International Tower Hill Mines Ltd.",
-  "primary_symbol": "THM",
+  "primary_symbol": "ITH.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

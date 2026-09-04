@@ -2,21 +2,15 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00ST7KR90",
+    "composite_figi": "BBG00465P8F2",
     "cusip": "15234A103",
-    "figi": "BBG00ST7KR90",
     "isin": "CA15234A1030"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "CA15234A1030",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CNTRF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -26,19 +20,24 @@
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "CNTR.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CNTRF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "CENTR Brands Corp.",
-  "primary_symbol": "CNTRF",
+  "name": "CENTR BRANDS CORP",
+  "primary_symbol": "CA15234A1030.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "CENTR Brands Corp. engages in the development and marketing of beverages infused with hemp-derived extracts and derivatives. The company primarily offers cannabidiol beverages. It offers CENTR, a CBD beverage product. CENTR Brands Corp. was founded in 2012 and is based in Vancouver, Canada.",
+  "sector": "Consumer Staples",
+  "summary": "CENTR BRANDS CORP is a functional beverage company that develops and markets CBD-infused beverages. The company's flagship product is CENTR, a CBD-infused sparkling water. Centr Brands Corp. is headquartered in Venice, California.",
   "website": "http://findyourcentr.com"
 }

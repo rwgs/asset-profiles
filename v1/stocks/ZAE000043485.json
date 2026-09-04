@@ -2,8 +2,9 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000C4MGG0",
-    "figi": "BBG000C4MKL5",
+    "composite_figi": "BBG000BCMDR8",
+    "cusip": "G0378L100",
+    "figi": "BBG000BCMH17",
     "isin": "ZAE000043485"
   },
   "industry": "Metals & Mining",
@@ -14,22 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "AOD1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AOD1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "AU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AULGF"
     },
     {
       "currency": "BRL",
@@ -52,14 +38,24 @@
       "symbol": "AOD.F"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AOD1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AOD1.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AOD1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AOD1.MU"
     },
     {
       "currency": "EUR",
@@ -70,19 +66,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AODC.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AULGF"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "ANGLOGOLD ASHANTI  RC-,25",
-  "primary_symbol": "AOD1.BE",
+  "name": "AngloGold Ashanti Limited",
+  "primary_symbol": "AU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Anglogold Ashanti represents ordinary shares of AngloGold Ashanti Limited. AngloGold Ashanti Limited is a global gold mining company. It explores for, mines, and processes gold ore.",
+  "summary": "AngloGold Ashanti Limited operates as a gold mining company. It also produces gold, silver, uranium, and sulphuric acid; and dóre bars. The company operates ten operations and three projects in eight countries in South Africa, Continental Africa, the Americas, and Australia. AngloGold Ashanti Limited was incorporated in 1944 and is headquartered in Johannesburg, South Africa.",
   "website": "http://www.anglogoldashanti.com"
 }

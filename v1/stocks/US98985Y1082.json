@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG019XSYC89",
     "cusip": "98985Y108",
+    "figi": "BBG019XSZ770",
     "isin": "US98985Y1082"
   },
   "industry": "Biotechnology",
@@ -13,34 +15,34 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0OX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0OX.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ZYME"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0OX.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0OX.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0OX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0OX.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Zymeworks Inc.",
-  "primary_symbol": "0OX.BE",
+  "primary_symbol": "ZYME",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

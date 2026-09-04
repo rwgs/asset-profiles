@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG009T2PZ81",
     "cusip": "36734X104",
-    "figi": "BBG009T2PZF3",
+    "figi": "BBG009T2PZ90",
     "isin": "CA36734X1042"
   },
   "industry": "Professional Services",
@@ -13,24 +13,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1GK.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GKPRF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1GK.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1GK.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "1GK.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GKPRF"
     },
     {
       "currency": "CAD",
@@ -40,9 +40,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Gatekeeper Systems Inc.",
-  "primary_symbol": "1GK.MU",
+  "primary_symbol": "1GK.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

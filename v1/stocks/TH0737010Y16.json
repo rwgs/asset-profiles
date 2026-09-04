@@ -2,8 +2,8 @@
   "country": "Thailand",
   "country_code": "TH",
   "identifiers": {
-    "composite_figi": "BBG0038K6Y09",
-    "figi": "BBG0038K6Y09",
+    "composite_figi": "BBG000BS0YS0",
+    "figi": "BBG000BS0YZ2",
     "isin": "TH0737010Y16"
   },
   "industry": "Food & Staples Retailing",
@@ -11,16 +11,6 @@
   "isin": "TH0737010Y16",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CPPCY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CVPBF"
-    },
     {
       "currency": "THB",
       "exchange_mic": "XBKK",
@@ -32,6 +22,16 @@
       "symbol": "CPALL.BK"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CPPCY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CVPBF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LVN.SG"
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "CP ALL Public Company Limited",
-  "primary_symbol": "CPPCY",
+  "primary_symbol": "CPALL-R.BK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

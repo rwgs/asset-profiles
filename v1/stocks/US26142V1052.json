@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG0134WCM78",
     "cusip": "26142V105",
+    "figi": "BBG0140DYV50",
     "isin": "US26142V1052"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,23 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8DEA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8DEA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "DKNG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A40.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "8DEA.BE"
     },
     {
       "currency": "EUR",
@@ -36,14 +33,19 @@
       "symbol": "8DEA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "8DEA.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "8DEA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8DEA.MU"
     },
     {
       "currency": "BRL",
@@ -58,9 +60,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "DraftKings Inc.",
-  "primary_symbol": "8DEA.BE",
+  "primary_symbol": "DKNG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

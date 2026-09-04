@@ -3,7 +3,6 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BFQQQ9",
-    "figi": "BBG000BFQTF5",
     "isin": "DE000A2YN702"
   },
   "industry": "Software",
@@ -12,24 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UMDK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UMDK.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UMDK.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A2YN702.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UMDK.BE"
     },
     {
       "currency": "EUR",
@@ -37,21 +26,31 @@
       "symbol": "UMDK.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "UMDK.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UMDK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "UMDK.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UMDK.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "UMT UTD MOB.TECHN. O.N.",
-  "primary_symbol": "UMDK.BE",
+  "name": "UMT UNITED MOBILITY TECHNOLO",
+  "primary_symbol": "DE000A2YN702.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

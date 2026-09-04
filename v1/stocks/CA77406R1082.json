@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00NBDH4B9",
+    "composite_figi": "BBG00G9BQ9M8",
     "cusip": "77406R108",
-    "figi": "BBG00NBDH4J1",
     "isin": "CA77406R1082"
   },
   "industry": "Metals & Mining",
@@ -12,21 +11,6 @@
   "isin": "CA77406R1082",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RR0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RR0.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RRRLF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -44,21 +28,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RR0.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RR0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RR0.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RRRLF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "ROCKRIDGE RESOURCES LTD",
-  "primary_symbol": "RR0.BE",
+  "primary_symbol": "CA77406R1082.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Rockridge Resources Ltd. is a Canadian-based mineral exploration company focused on the acquisition, exploration and development of mineral resource properties in Canada. The company's primary focus is on exploring for base metals, particularly copper and zinc, in the provinces of Saskatchewan and Manitoba. Rockridge Resources aims to create value for its shareholders through successful exploration and discovery of economically viable mineral deposits.",
-  "website": "http://www.rockridgeresourcesltd.com"
+  "summary": "Rockridge Resources Ltd. is a mineral exploration company focused on exploring and developing resource projects in Canada. The company is focused on base and precious metals projects. The company is headquartered in Vancouver, Canada.",
+  "website": "http://www.rockfireresources.com"
 }

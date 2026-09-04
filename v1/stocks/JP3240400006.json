@@ -2,38 +2,28 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BXVJR9",
-    "figi": "BBG000BXVLX7",
+    "composite_figi": "BBG000BJ89N2",
+    "figi": "BBG000BJ8B93",
     "isin": "JP3240400006"
   },
   "industry": "Food & Staples Retailing",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food & Staples Retailing",
   "isin": "JP3240400006",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KIK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KIK.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KIKOF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "2801.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KIK.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "KIK.DU"
     },
     {
@@ -43,21 +33,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KIK.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KIK.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KIKOF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Kikkoman Corp.",
-  "primary_symbol": "KIK.BE",
+  "primary_symbol": "2801.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Kikkoman Corporation is a Japanese food manufacturer best known for its soy sauce. The company produces and sells a variety of food products, including soy sauce, seasonings, sauces, and Asian food products. Kikkoman is headquartered in Tokyo, Japan.",
+  "summary": "Kikkoman Corporation, through its subsidiaries, manufactures and sells food products in Japan, North America, and internationally. The company offers soy sauces, soy sauce soup bases, dipping and marinade sauces, handy seasoning mixes, and Del Monte seasonings; soy milk and Del Monte beverages; sweet sake for cooking; and wines. It also manufactures and sells canned fruits, canned corn, and tomato ketchup, as well as health foods; and purchases and sells oriental food products. In addition, the company produces and sells clinical diagnostic reagents, hygiene inspection agents, and processing enzymes, as well as chemical products, including hyaluronic acid; and offers real estate rental, logistics, and back-office support services. It serves home, and industrial and food service sectors. The company was formerly known as Kikkoman Shoyu Co., Ltd. and changed its name to Kikkoman Corporation in 1980. Kikkoman Corporation was founded in 1917 and is headquartered in Noda, Japan.",
   "website": "http://www.kikkoman.com"
 }

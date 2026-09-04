@@ -1,30 +1,23 @@
 {
-  "country": "New Zealand",
-  "country_code": "NZ",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000H6CHP9",
-    "figi": "BBG000H6DPB5",
     "isin": "DE000FPH9000"
   },
   "industry": "Professional Services",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Software & Services",
   "isin": "DE000FPH9000",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPH.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0NAC.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FPH.BE"
     },
     {
       "currency": "EUR",
@@ -32,8 +25,8 @@
       "symbol": "FPH.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FPH.DU"
     },
     {
@@ -43,21 +36,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FPH.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FPH.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Francotyp-Postalia Holding AG",
-  "primary_symbol": "FPH.BE",
+  "primary_symbol": "0NAC.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Francotyp-Postalia Holding AG is a German provider of mailroom solutions, digital solutions, and document management services. The company offers franking machines, mailing software, and hybrid mail solutions. Francotyp-Postalia is headquartered in Birkenwerder, Germany.",
+  "sector": "Information Technology",
+  "summary": "Francotyp-Postalia Holding AG provides multi-channel for mail communication. The company in operates through four segments: Production, Sales Germany, International Sales, and Central Functions. The company develops and manufactures franking systems; and sells and rents franking and inserting systems. It also sells consumables, such as tapes or ink cartridges; and provides software solutions for cost centre management, as well as teleporto services. In addition, the company engages in collecting post and sorting them by postcode, and delivering them in batches to a regional office of Deutsche Post or an alternative postal distributor. Further, it provides hybrid mail services and solutions for digital communication; solutions for incoming mail processing; and digital communication services comprising products for long-term storage and protection of electronic documents using encryption and signature software, such as FP Sign, a cloud-based electronic solution for the legally binding digital signing and exchange of contracts and documents. Francotyp-Postalia Holding AG has a strategic partnership with Heinz Lackmann GmbH & Co. KG to offer energy supply companies with the remote monitoring of energy systems. The company was founded in 1923 and is headquartered in Berlin, Germany.",
   "website": "http://www.fp-francotyp.com"
 }

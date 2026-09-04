@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00H2TW3S4",
+    "composite_figi": "BBG001CPSVF3",
     "cusip": "59045L106",
-    "figi": "BBG00H2TW3Z6",
+    "figi": "BBG00GVM7PV4",
     "isin": "US59045L1061"
   },
   "industry": "Biotechnology",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0M4.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0M4.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MRSN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0M4.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0M4.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "0M4.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "MERSANA THERAP. DL-,0001",
-  "primary_symbol": "0M4.BE",
+  "name": "Mersana Therapeutics, Inc.",
+  "primary_symbol": "MRSN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Mersana Therapeutics, Inc. is a clinical-stage biopharmaceutical company discovering and developing antibody-drug conjugates (ADCs) for cancer. The company is using its Dolaflexin platform to develop targeted therapies with improved efficacy and safety profiles. Mersana Therapeutics is headquartered in Cambridge, Massachusetts",
+  "summary": "Mersana Therapeutics, Inc., a clinical stage biopharmaceutical company, focuses on the development of antibody drug conjugates (ADC) for cancer patients with unmet need. The company develops XMT-1536, a Dolaflexin ADC targeting NaPi2b that is in Phase I clinical trial for the treatment of patients with ovarian cancer and non-small cell lung cancer (NSCLC) adenocarcinoma; and XMT-1592, a Dolasynthen ADC targeting NaPi2b-expressing tumors, which is in phase I clinical trial for the treatment of ovarian cancer and NSCLC adenocarcinoma. It also develops XMT-1660, a B7-H4-targeted Dolasynthen ADC candidate; and XMT-2056, an immunosynthen development candidate. The company has a strategic research and development partnerships with Merck KGaA and Asana BioSciences, LLC for the development of ADC product candidates utilizing Fleximer. The company was formerly known as Nanopharma Corp. and changed its name to Mersana Therapeutics, Inc. in November 2005. Mersana Therapeutics, Inc. was incorporated in 2001 and is headquartered in Cambridge, Massachusetts.",
   "website": "http://www.mersana.com"
 }

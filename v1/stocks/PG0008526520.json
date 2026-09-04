@@ -2,8 +2,8 @@
   "country": "Papua New Guinea",
   "country_code": "PG",
   "identifiers": {
-    "composite_figi": "BBG000DKZSB8",
-    "figi": "BBG000DKZSB8",
+    "composite_figi": "BBG000BB3PR4",
+    "figi": "BBG000BB3Q83",
     "isin": "PG0008526520"
   },
   "industry": "Metals & Mining",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BOCOF"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "BOC.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BOCOF"
     },
     {
       "currency": "EUR",
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Bougainville Copper Limited",
-  "primary_symbol": "BOCOF",
+  "primary_symbol": "BOC.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

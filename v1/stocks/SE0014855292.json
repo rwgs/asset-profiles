@@ -2,39 +2,37 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00XJ90F21",
-    "figi": "BBG00XJ90F85",
     "isin": "SE0014855292"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Media & Entertainment",
   "isin": "SE0014855292",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5GS1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5GS1.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0A7Q.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "5GS1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5GS1.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5GS1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5GS1.MU"
     },
     {
       "currency": "SEK",
@@ -49,15 +47,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Readly International AB (publ)",
-  "primary_symbol": "5GS1.BE",
+  "primary_symbol": "0A7Q.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Readly International AB is a Swedish digital subscription service that provides unlimited access to thousands of magazines and newspapers. The company offers a platform where users can read publications on their smartphones, tablets, and computers for a fixed monthly fee. Readly is headquartered in Sweden.",
+  "sector": "Communications",
+  "summary": "Readly International AB (publ) operates an application that offers digital subscription services for magazines with content from third-party publishers. It offers titles from 900 publishers in 17 languages in 50 countries. The company provides customers have unlimited access to about 5,000 national and international magazines divided into 36 different categories. It distributes approximately 140,000 issues of magazines that have been read 99 million times. It serves subscribers primarily in Austria, Australia, Germany, Ireland, Italy, the Netherlands, New Zealand, Sweden, Switzerland, the United Kingdom, and the United States. The company was incorporated in 2012 and is headquartered in Stockholm, Sweden.",
   "website": "http://se.readly.com"
 }

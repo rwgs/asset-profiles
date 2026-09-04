@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00KX6C0W6",
     "cusip": "730020104",
+    "figi": "BBG00KX6C109",
     "isin": "CA7300201042"
   },
   "industry": "Professional Services",
@@ -11,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PLRTF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "4XA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PLRTF"
     },
     {
       "currency": "AUD",
@@ -33,9 +35,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Plymouth Rock Technologies Inc.",
-  "primary_symbol": "PLRTF",
+  "primary_symbol": "4XA.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

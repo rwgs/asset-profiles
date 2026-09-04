@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C0JLK6",
-    "figi": "BBG000C0JQC4",
+    "composite_figi": "BBG000BG1X98",
+    "figi": "BBG000BG1XQ9",
     "isin": "JP3148800000"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -12,24 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IBI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IBI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IBIDF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "4062.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IBI.BE"
     },
     {
       "currency": "EUR",
@@ -38,21 +28,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IBI.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "IBI.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IBIDF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Ibiden Co. Ltd.",
-  "primary_symbol": "IBI.BE",
+  "primary_symbol": "4062.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Ibiden Co., Ltd. is a Japanese company that manufactures electronics-related products and ceramics. It is involved in the manufacturing of printed circuit boards, ceramic products, and graphite-based products. The company is based in Ogaki, Japan.",
+  "summary": "Ibiden Co.,Ltd. provides electronic and ceramics products in Japan, Asia, North America, Europe, and internationally. It operates through Electronics, Ceramics, and Construction segments. The company offers IC package substrate for use in data centers, personal computers, automotive electronics, and entertainment; printed circuit board for smart phones, data centers, and automotive electronics applications; diesel particulate filters; and automobile exhaust system parts for use in automobiles, buses, trucks, construction vehicles, and agricultural machines. It also provides SCR Catalyst Substrates for diesel vehicles, power stations, marine engines, diesel locomotive, glasswork, and cement works applications; ceramic honeycomb substrates for heat storage media and casting filter applications; high temperature insulating wool; and graphite specialty products. In addition, the company engages in the manufacturing and selling of the decorative interior laminates; design and construction of facilities; environmental engineering technology business; medical software package development; sale of information and communication terminals; and sale of welfare vehicles. The company was formerly known as Ibigawa Electric Power Co., Ltd. and changed its name to Ibiden Co., Ltd. in November 1982. Ibiden Co., Ltd. was founded in 1912 and is headquartered in Ogaki, Japan.",
   "website": "http://www.ibiden.co.jp"
 }

@@ -2,8 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000F0TH85",
-    "figi": "BBG000F0TH85",
+    "composite_figi": "BBG000GNZS74",
+    "figi": "BBG000GNZSQ3",
     "isin": "GB0000904986"
   },
   "industry": "Construction & Engineering",
@@ -11,11 +11,6 @@
   "isin": "GB0000904986",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BLWYF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -27,6 +22,11 @@
       "symbol": "41B.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BLWYF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "BWY.L"
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Bellway p.l.c.",
-  "primary_symbol": "BLWYF",
+  "primary_symbol": "41B.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

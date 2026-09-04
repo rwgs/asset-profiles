@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00DF0D9B8",
-    "figi": "BBG00DF0D9K8",
+    "figi": "BBG00DF0D9F4",
     "isin": "DE000A13SUL5"
   },
   "industry": "Real Estate Management & Development",
@@ -11,11 +11,6 @@
   "isin": "DE000A13SUL5",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DEF.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -25,19 +20,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DEF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DEF.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "DEFAMA Deutsche Fachmarkt AG",
-  "primary_symbol": "DEF.MU",
+  "primary_symbol": "DEF.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "DEFAMA Deutsche Fachmarkt AG is a German company specializing in retail properties. They acquire, manage, and develop local shopping centers and retail parks in Germany. The company is headquartered in Berlin, Germany.",
+  "summary": "DEFAMA Deutsche Fachmarkt AG, a real estate company, engages in the purchase and long-term rental of retail parks and shopping centers. The company focuses in small commercial properties in small and medium-sized cities primarily in northern and eastern Germany. DEFAMA Deutsche Fachmarkt AG was founded in 2014 and is based in Berlin, Germany.",
   "website": "http://www.defama.de"
 }

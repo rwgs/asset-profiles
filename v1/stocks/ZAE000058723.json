@@ -18,24 +18,14 @@
       "symbol": "DRD"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DRDGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DUB1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DUB1.MU"
-    },
-    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "DRD.JO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DRDGF"
     },
     {
       "currency": "MXN",
@@ -44,8 +34,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DUB1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DUB1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DUB1.MU"
     },
     {
       "currency": "EUR",
@@ -62,7 +62,7 @@
   "name": "DRDGOLD Ltd.",
   "primary_symbol": "DRD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

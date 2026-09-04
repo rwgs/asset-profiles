@@ -2,40 +2,40 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG006VZ80F9",
+    "composite_figi": "BBG002BC7WC5",
     "cusip": "898202106",
-    "figi": "BBG006VZ80M1",
+    "figi": "BBG002BC7WC5",
     "isin": "US8982021060"
   },
   "industry": "Insurance",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Insurance",
   "isin": "US8982021060",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TPW.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TPW.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TRUP"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LH0.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TPW.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TPW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TPW.MU"
     },
     {
       "currency": "EUR",
@@ -45,15 +45,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Trupanion, Inc.",
-  "primary_symbol": "TPW.BE",
+  "primary_symbol": "TRUP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Trupanion, Inc. provides medical insurance for cats and dogs in the United States, Canada, and Australia. The company offers a single, comprehensive plan that covers a wide range of veterinary treatments, illnesses, and injuries. Trupanion is headquartered in Seattle, Washington.",
+  "sector": "Financials",
+  "summary": "Trupanion, Inc., together with its subsidiaries, provides medical insurance for cats and dogs on monthly subscription basis in the United States, Canada, Puerto Rico, and Australia. The company operates through Subscription Business and Other Business segments. It serves pet owners and veterinarians. The company was formerly known as Vetinsurance International, Inc. changed its name to Trupanion, Inc. in 2013. Trupanion, Inc. was founded in 2000 and is headquartered in Seattle, Washington.",
   "website": "http://www.trupanion.com"
 }

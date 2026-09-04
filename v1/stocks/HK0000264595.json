@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00NNDZNW1",
-    "figi": "BBG00NNDZNW1",
+    "composite_figi": "BBG000V8SHJ9",
+    "figi": "BBG000V8SHX3",
     "isin": "HK0000264595"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -11,11 +11,6 @@
   "isin": "HK0000264595",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EVGRF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4NM1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EVGRF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "China Evergrande New Energy Vehicle Group Limited",
-  "primary_symbol": "EVGRF",
+  "primary_symbol": "0708.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

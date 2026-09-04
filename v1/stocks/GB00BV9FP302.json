@@ -2,8 +2,6 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BJ8676",
-    "figi": "BBG000BJ89Z9",
     "isin": "GB00BV9FP302"
   },
   "industry": "IT Services",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "COUD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "COUD.MU"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "CCC.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "COUD.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "COUD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "COUD.MU"
     },
     {
       "currency": "EUR",
@@ -39,15 +37,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Computacenter Plc",
-  "primary_symbol": "COUD.BE",
+  "primary_symbol": "CCC.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Computacenter plc is an IT service provider offering services such as consulting, cloud services, and infrastructure support. The company works with clients in both the private and public sectors. Computacenter is headquartered in Hatfield, UK.",
+  "summary": "Computacenter plc provides information technology (IT) infrastructure services in the United Kingdom, Germany, France, the United America, and internationally. The company offers endpoint, infrastructure, cyber security, information security management, and identity and access management solutions; network solutions, including local area and datacentre network, smart infrastructure, and audio-visual solutions; and datacentre solutions, such as enterprise computing, hybrid cloud, data and storage management, and analytics and big data. It also provides workplace solutions comprising client computing, virtual desktop, enterprise mobility, and print; office and online, video and voice communication, messaging, and collaboration solutions; global and next generation service desk solutions; smart supply, supply chain, lifecycle management, and e-business services; change and consulting services; and managed, and support and maintenance services. In addition, the company offers property investment, international call centre, and employee share scheme trustee services. It provides its solutions for customers in the financial services, public, retail, utility, pharmaceutical, professional services, oil and gas, and e-gaming sectors. Computacenter plc was founded in 1981 and is headquartered in Hatfield, the United Kingdom.",
   "website": "http://www.computacenter.com"
 }

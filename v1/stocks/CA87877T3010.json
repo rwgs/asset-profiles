@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00T5K2HJ6",
+    "composite_figi": "BBG00M170218",
     "cusip": "87877T301",
-    "figi": "BBG00T5K2HJ6",
     "isin": "CA87877T3010"
   },
   "industry": "Metals & Mining",
@@ -12,11 +11,6 @@
   "isin": "CA87877T3010",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TETOF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -31,19 +25,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "TECT.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TETOF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Tectonic Metals Inc.",
-  "primary_symbol": "TETOF",
+  "name": "TECTONIC METALS INC",
+  "primary_symbol": "CA87877T3010.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Tectonic Metals Inc. engages in the identification, acquisition, and exploration of mineral properties in the United States and Canada. The company primarily explores for gold deposits. It holds interests in the Tibbs Property, the Seventymile Property, and the Northway Property located in Alaska. It also has an interest in the Maple Leaf Property in the Goodpaster Mining District, Alaska. The company was incorporated in 2017 and is headquartered in Vancouver, Canada.",
+  "summary": "Tectonic Metals Inc. is a mineral exploration company focused on gold projects in Alaska. The company explores for district-scale gold systems. Tectonic Metals is based in Vancouver, British Columbia, Canada.",
   "website": "http://www.tectonicmetals.com"
 }

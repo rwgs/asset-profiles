@@ -2,8 +2,7 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000Q44D27",
-    "figi": "BBG000Q44HH2",
+    "composite_figi": "BBG000BD0R71",
     "isin": "GB00B29H4253"
   },
   "industry": "Building Products",
@@ -12,14 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUO1.BE"
-    },
-    {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B29H4253.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LUO1.BE"
     },
     {
       "currency": "EUR",
@@ -37,16 +36,16 @@
       "symbol": "TYMN.L"
     }
   ],
-  "name": "TYMAN PLC LS -,05",
-  "primary_symbol": "LUO1.BE",
+  "name": "TYMAN PLC",
+  "primary_symbol": "GB00B29H4253.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Tyman PLC is a supplier of engineered components to the door and window industry. The company designs and manufactures products that enhance the performance, security, and aesthetics of doors and windows. Tyman PLC is headquartered in London, United Kingdom.",
+  "summary": "TYMAN PLC designs and manufactures engineered products for niche markets. Their business model involves creating and selling bespoke engineering solutions to industries such as aerospace and healthcare, generating revenue through product sales. The company is headquartered in Fareham, UK.",
   "website": "http://www.tymanplc.com"
 }

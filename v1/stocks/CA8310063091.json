@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00NG2KS58",
     "cusip": "831006309",
-    "figi": "BBG00NG2KSL0",
     "isin": "CA8310063091"
   },
   "industry": "Pharmaceuticals",
@@ -12,11 +10,6 @@
   "isin": "CA8310063091",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SLGWF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -28,6 +21,11 @@
       "symbol": "84S.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SLGWF"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "SLNG.CN"
@@ -35,9 +33,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "SLANG Worldwide Inc.",
-  "primary_symbol": "SLGWF",
+  "primary_symbol": "84S.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

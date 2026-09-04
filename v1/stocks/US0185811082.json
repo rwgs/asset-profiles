@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000C97Q65",
     "cusip": "018581108",
-    "figi": "BBG000C98TG7",
+    "figi": "BBG000C98SH8",
     "isin": "US0185811082"
   },
   "industry_group": "Software & Services",
@@ -12,20 +12,20 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LID.MU"
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "LID.DU"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "LID.DU"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LID.MU"
     }
   ],
   "name": "ALLIANCE DATA SYS. DL-,01",
-  "primary_symbol": "LID.MU",
+  "primary_symbol": "LID.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

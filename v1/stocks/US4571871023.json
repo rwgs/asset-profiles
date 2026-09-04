@@ -2,26 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000CV58H6",
+    "composite_figi": "BBG000BXPZB7",
     "cusip": "457187102",
-    "figi": "BBG000CV5CF9",
+    "figi": "BBG000BXQ1T2",
     "isin": "US4571871023"
   },
   "industry": "Food & Staples Retailing",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food & Staples Retailing",
   "isin": "US4571871023",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CNP.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CNP.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CNP.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CNP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CNP.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Ingredion Incorporated",
-  "primary_symbol": "CNP.BE",
+  "primary_symbol": "INGR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "INGREDION INC. DL-,01 is Ingredion Incorporated with a denomination of DL-,01 traded on the Berne exchange. Ingredion Incorporated is a global ingredient solutions provider. The company manufactures and sells starches, sweeteners, and other ingredients to the food, beverage, and industrial sectors.",
+  "summary": "Ingredion Incorporated, together with its subsidiaries, produces and sells starches and sweeteners for various industries. It operates through four segments: North America; South America; Asia Pacific; and Europe, Middle East, and Africa. The company offers sweetener products comprising glucose syrups, high maltose syrups, high fructose corn syrups, caramel colors, dextrose, polyols, maltodextrins, and glucose syrup solids, as well as food-grade and industrial starches, biomaterials, and nutrition ingredients. It also provides edible corn oil; refined corn oil to packers of cooking oil and to producers of margarine, salad dressings, shortening, mayonnaise, and other foods; and corn gluten feed used as protein feed for chickens, pet food, and aquaculture, as well as fruit and vegetable products, such as concentrates, purees and essences, pulse proteins, and hydrocolloids systems and blends. The company's products are derived primarily from processing corn and other starch-based materials, such as tapioca, potato, and rice. It serves food, beverage, paper and corrugating products, brewing, pharmaceutical, textile, and personal care industries, as well as animal feed markets. The company was formerly known as Corn Products International, Inc. and changed its name to Ingredion Incorporated in June 2012. Ingredion Incorporated was founded in 1906 and is headquartered in Westchester, Illinois.",
   "website": "http://www.ingredion.com"
 }

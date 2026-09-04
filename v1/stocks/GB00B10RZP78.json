@@ -23,42 +23,17 @@
       "symbol": "UN"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNLYF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNVB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNVB.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNVB.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNVB.MU"
-    },
-    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "UL.BA"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "ULC.BA"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "ULD.BA"
     },
@@ -98,6 +73,11 @@
       "symbol": "UNA.AS"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UNLYF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UNVA.F"
@@ -109,18 +89,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UNVB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "UNVB.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "UNVB.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UNVB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "UNVB.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "UNVB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UNVB.MU"
     },
     {
       "currency": "EUR",
@@ -132,7 +132,7 @@
   "name": "Unilever PLC",
   "primary_symbol": "UL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

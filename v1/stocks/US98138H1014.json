@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG003GH4CQ9",
+    "composite_figi": "BBG000VC0T95",
     "cusip": "98138H101",
-    "figi": "BBG003GH4CX1",
+    "figi": "BBG003BW0FC3",
     "isin": "US98138H1014"
   },
   "industry": "Software",
@@ -14,26 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W7D.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W7D.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W7D.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "WDAY"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0M18.L"
     },
@@ -43,8 +28,13 @@
       "symbol": "W1DA34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "W7D.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "W7D.DU"
     },
     {
@@ -54,8 +44,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "W7D.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "W7D.SG"
+    },
+    {
+      "symbol": "W7D.TI"
     },
     {
       "currency": "MXN",
@@ -64,16 +62,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "WORKDAY INC.CL.A  DL-,001",
-  "primary_symbol": "W7D.BE",
+  "name": "Workday, Inc. Class A",
+  "primary_symbol": "WDAY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Workday, Inc. is a cloud-based provider of enterprise resource planning (ERP) software, specializing in human capital management (HCM), finance, and planning applications. The company's software is used by businesses to manage their workforce, finances, and operations. Workday is headquartered in Pleasanton, California, USA.",
+  "summary": "Workday, Inc. provides enterprise cloud applications worldwide. Its applications help its customers to manage critical business functions and optimize their financial and human resources. The company offers a suite of financial management applications, which enable chief financial officers to maintain accounting information in the general ledger; manage financial processes; identify real-time financial, operational, and management insights; enhance financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides cloud spend management solutions; a suite of human capital management applications that allows organizations to manage the entire employee lifecycle from recruitment to retirement; Workday applications for planning; and applications for analytics and reporting, including augmented analytics to surface insights to the line of business in simple-to-understand stories, machine learning to drive efficiency and automation, and benchmarks to compare performance against other companies. In addition, the company offers Workday applications serving industries, such as healthcare, higher education, and professional services. It serves technology, financial services, business and professional services, healthcare and life sciences, manufacturing, retail, and hospitality industries; and educational institutions, government agencies, and nonprofit organizations. The company was formerly known as North Tahoe Power Tools, Inc. and changed its name to Workday, Inc. in July 2005. Workday, Inc. was founded in 2005 and is headquartered in Pleasanton, California.",
   "website": "http://www.workday.com"
 }

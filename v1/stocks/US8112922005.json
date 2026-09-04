@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG006G0SZR1",
+    "composite_figi": "BBG002133YW4",
     "cusip": "811292200",
-    "figi": "BBG006G0SZY3",
+    "figi": "BBG002133YW4",
     "isin": "US8112922005"
   },
   "industry": "Pharmaceuticals",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "135A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "135A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SCYX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "135A.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "135A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "135A.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "SCYNEXIS, Inc.",
-  "primary_symbol": "135A.BE",
+  "primary_symbol": "SCYX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Scynexis, Inc. is a biotechnology company focused on developing and commercializing novel anti-infectives to address significant unmet needs. The company's lead product is Ibrexafungerp, a novel oral and IV antifungal agent initially approved for the treatment of vulvovaginal candidiasis (VVC). Scynexis is headquartered in Jersey City, New Jersey.",
+  "summary": "SCYNEXIS, Inc., a biotechnology company, delivers therapies for the treatment fungal infections in the United States. It is developing its lead product candidate, ibrexafungerp, as a novel oral and intravenous drug for the treatment of various fungal infections, including vulvovaginal candidiasis, invasive aspergillosis, invasive candidiasis, and refractory invasive fungal infections. The company develops ibrexafungerp, which has completed Phase II clinical trials for the treatment of vulvovaginal candidiasis. It has research collaborations with Merck Sharp & Dohme Corp., Hansoh (Shanghai) Health Technology Co., Ltd., Jiangsu Hansoh Pharmaceutical Group Company Limited, and R-Pharm, CJSC to develop and commercialize rights for ibrexafungerp. The company was formerly known as SCYNEXIS Chemistry & Automation, Inc. and changed its name to SCYNEXIS, Inc. in June 2002. SCYNEXIS, Inc. was incorporated in 1999 and is headquartered in Jersey City, New Jersey.",
   "website": "http://www.scynexis.com"
 }

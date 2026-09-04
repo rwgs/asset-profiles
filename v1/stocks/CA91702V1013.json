@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00RC86FX3",
     "cusip": "91702V101",
+    "figi": "BBG00RC86FX3",
     "isin": "CA91702V1013"
   },
   "industry": "Metals & Mining",
@@ -12,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "URCCF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "UROY"
     },
     {
@@ -29,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "URC.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "URCCF"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Uranium Royalty Corp",
-  "primary_symbol": "URCCF",
+  "primary_symbol": "UROY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

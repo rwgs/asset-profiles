@@ -2,44 +2,22 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00LDNPL68",
     "cusip": "88688T100",
-    "figi": "BBG00LDNPLD0",
     "isin": "US88688T1007"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US88688T1007",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2HQ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2HQ.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2HQ.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2HQ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "APHA"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TLRY"
     },
     {
@@ -49,12 +27,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2HQ.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "2HQ.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "2HQ.DU"
     },
     {
@@ -64,21 +47,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "2HQ.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "2HQ.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2HQ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "2HQ.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "TILRAY INC. CL.2 DL-,0001",
-  "primary_symbol": "2HQ.BE",
+  "name": "Tilray, Inc.",
+  "primary_symbol": "APHA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "Tilray, Inc. is a global cannabis-lifestyle consumer packaged goods company. The company produces and distributes cannabis products and alcoholic beverages in various markets worldwide. Tilray is headquartered in New York, New York.",
+  "sector": "Health Care",
+  "summary": "Tilray Inc. engages in the research, cultivation, production, and distribution of medical cannabis and cannabinoids. The company offers cannabis-lifestyle and consumer packaged goods; and hemp-based foods and alcoholic beverages. It offers medical cannabis in extracts and dried flower forms; and cannabis extracts, including purified oil drops and capsules. The company supplies cannabis extract products to patients, physicians, pharmacies, hospitals, governments, and researchers. It has operations in Canada, the United States, Europe, Australia, New Zealand, and Latin America. The company was formerly known as Aphria Inc. and changed its name to Tilray, Inc. Tilray Inc. is based in Leamington, Canada.",
   "website": "http://www.tilray.com"
 }

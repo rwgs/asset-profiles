@@ -3,7 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000BGGHF0",
-    "figi": "BBG000BGGKW4",
+    "figi": "BBG000BGGJ93",
     "isin": "AU000000SDV5"
   },
   "industry": "Chemicals",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INFA.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "INFA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "INFA.MU"
     },
     {
       "currency": "EUR",
@@ -32,11 +32,11 @@
       "symbol": "SDV.AX"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "SCIDEV LTD. O.N.",
-  "primary_symbol": "INFA.MU",
+  "market_cap_band": "Micro Cap",
+  "name": "SciDev Ltd",
+  "primary_symbol": "INFA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

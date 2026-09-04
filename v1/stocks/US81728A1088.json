@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00Z3X03F3",
+    "composite_figi": "BBG00V3M3TP5",
     "cusip": "81728A108",
-    "figi": "BBG00Z3X03M5",
+    "figi": "BBG00V3M3TP5",
     "isin": "US81728A1088"
   },
   "industry": "Biotechnology",
@@ -14,27 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "407.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "407.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "407.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SNSE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "407.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "407.DU"
     },
     {
@@ -44,21 +34,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "407.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "407.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US81728A1088.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "SENSEI BIOTHER. DL -,0001",
-  "primary_symbol": "407.BE",
+  "name": "Sensei Biotherapeutics, Inc.",
+  "primary_symbol": "SNSE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SENSEI BIOTHERAPEUTICS, INC. is a biotechnology company focused on the discovery and development of immunotherapies to treat cancer. The company is developing vaccines and other immune-modulating therapies. Its headquarters are located in Boston, Massachusetts.",
+  "summary": "Sensei Biotherapeutics, Inc., a clinical-stage immunotherapy company, engages in the discovery and development of therapies with an initial focus on treatments for cancer. The company develops proprietary ImmunoPhage platform, an immunotherapy approach that is designed to utilize bacteriophage to induce a focused and coordinated innate and adaptive immune response. It is engineering ImmunoPhage product candidates to directly target antigen presenting cells and modulate the tumor microenvironment through the targeted use of nanobodies which further enhances therapeutic activity. Sensei Biotherapeutics, Inc. was formerly known as Panacea Pharmaceuticals, Inc. The company was founded in 1999 and is headquartered in Rockville, Maryland.",
   "website": "http://www.senseibio.com"
 }

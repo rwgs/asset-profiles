@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000MHXBV2",
+    "figi": "BBG00D6ZW6S8",
     "isin": "FR0011191287"
   },
   "industry": "Biotechnology",
@@ -10,28 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P0X.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P0X.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PNEXF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALPHA.PA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "P0X.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "P0X.DU"
     },
     {
@@ -41,21 +33,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "P0X.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "P0X.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PNEXF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "PHARNEXT",
-  "primary_symbol": "P0X.BE",
+  "primary_symbol": "ALPHA.PA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Pharnext SA is a biopharmaceutical company focused on developing therapeutics for neurodegenerative diseases. The company's lead product candidate, PXT3003, is being developed for the treatment of Charcot-Marie-Tooth disease type 1A (CMT1A). Pharnext is headquartered in Issy-les-Moulineaux, France.",
+  "summary": "Pharnext SA, a clinical-stage biopharmaceutical company, develops therapies for orphan and common neurodegenerative diseases in France. The company's products include SYNGILITY that has completed Phase III trial for the treatment of Charcot-Marie-Tooth disease type 1A; and PXT864, which has completed Phase II clinical trial to treat Alzheimer's disease, as well as Parkinson's disease and amyotrophic lateral sclerosis. It also develops PLEOTHERAPY, a big genetic data and artificial intelligence platform. Pharnext SA has an agreement with the University Hospital Institute Mediterranee Infection to evaluate repurposed drugs for potential use against the COVID-19 virus. The company was founded in 2007 and is headquartered in Issy-Les-Moulineaux, France.",
   "website": "http://www.pharnext.com"
 }

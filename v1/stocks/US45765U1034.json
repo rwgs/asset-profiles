@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C01W85",
+    "composite_figi": "BBG000DY3K39",
     "cusip": "45765U103",
-    "figi": "BBG000C01YG2",
+    "figi": "BBG000DY3VG1",
     "isin": "US45765U1034"
   },
   "industry": "IT Services",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IEI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IEI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NSIT"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IEI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "IEI.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IEI.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "IEI.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "INSIGHT ENTERPR.  DL-,01",
-  "primary_symbol": "IEI.BE",
+  "name": "Insight Enterprises, Inc.",
+  "primary_symbol": "NSIT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Insight Enterprises Inc. is a global IT provider headquartered in Tempe, Arizona, offering a range of hardware, software, and cloud solutions. The company provides services including IT consulting, implementation, and managed services to businesses of all sizes. Insight partners with leading technology vendors to deliver solutions.",
+  "summary": "Insight Enterprises, Inc. provides information technology hardware, software, and services solutions in the United States, Canada, Europe, the Middle East, Africa, and the Asia-Pacific. It provides solutions to gain insights to network enabled devices, and spots patterns and trends through mass analysis; custom applications to help clients create disruption; custom-developed mobile, cloud, and IoT applications; and custom-developed solutions to help clients review actionable insights within their data, including artificial intelligence for prediction, optimization, cognitive, and vision services. The company also offers various services, such as hybrid cloud, migration and consolidation, workload-platform alignment, converged/hyper converged solutions, and software-defined data center; data platform modernization services; integrated network and security solutions; and consulting, professional, managed, and support services. In addition, it sources, procures, stages, configures, integrates, tests, refurbishes, and redeploys IT products spanning endpoints to infrastructure; and offers software life cycle, and hardware warranty and software maintenance services. Further, the company provides desktop, notebook, tablet, and mobile devices coupled with cloud-based productivity solutions; workplace services, including virtual technical support, remote service desk and automated self-service solutions; and procures, stages, provides, manages, and disposes hardware assets. Additionally, it sells hardware and software products. The company was founded in 1988 and is headquartered in Tempe, Arizona.",
   "website": "http://www.insight.com"
 }

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000KQ8YW1",
+    "composite_figi": "BBG000GJS7C1",
     "cusip": "64125C109",
-    "figi": "BBG000KQ92H7",
+    "figi": "BBG000GJTN99",
     "isin": "US64125C1099"
   },
   "industry": "Biotechnology",
@@ -14,21 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NB3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NB3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NBIX"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0K6R.L"
     },
@@ -38,8 +28,13 @@
       "symbol": "N1BI34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NB3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NB3.DU"
     },
     {
@@ -49,21 +44,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NB3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NB3.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "NEUROCRINE BIOSCI. DL-001",
-  "primary_symbol": "NB3.BE",
+  "name": "Neurocrine Biosciences, Inc.",
+  "primary_symbol": "NBIX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Neurocrine Biosciences, Inc. is a biopharmaceutical company focused on developing and commercializing treatments for neurological, endocrine, and psychiatric disorders. Their key product is Ingrezza, used for tardive dyskinesia, and they have other therapies in development. The company is headquartered in San Diego, California.",
+  "summary": "Neurocrine Biosciences, Inc., a biopharmaceutical company, discovers, develops, and markets pharmaceutical products for the treatment of neurological, endocrine, and psychiatric-based diseases and disorders in the United States. The company offers INGREZZA, a VMAT2 inhibitor for the treatment of tardive dyskinesia; ONGENTYS, a catechol-O-methyltransferase inhibitor used as an adjunct therapy to levodopa/DOPA decarboxylase inhibitors for adult patients with Parkinson's disease; ORILISSA, a gonadotropin-releasing hormone (GnRH) antagonist for the treatment of endometriosis pain; and ORIAHNN, a GnRH antagonist for the management of heavy menstrual bleeding associated with uterine fibroids. Its product candidates in clinical development include valbenazine, which is in Phase III clinical trial for the treatment of chorea in Huntington's disease; NBI-921352, a Nav1.6 sodium channel inhibitor for the treatment of pediatric patients, as well as other indications, such as adult focal epilepsy; NBI-827104, an orally active and brain penetrating T-type calcium channel blocker for treating rare pediatric epilepsy and other indications; and NBI-74788, which is in Phase III clinical trial for the treatment of congenital adrenal hyperplasia. The company's products under development include NBI-1065844, a D-amino acid oxidase inhibitor for the treatment of negative symptoms of schizophrenia; NBI-1065845, an alpha-amino-3-hydroxy-5-methyl-4-isoxazole propionic acid potentiator for the treatment of resistant depression; and NBI-1065846, a G protein-coupled receptor 139 agonist for treating anhedonia in depression. It has collaborations and agreements with Takeda Pharmaceutical Company Limited; Idorsia Pharmaceuticals Ltd; Xenon Pharmaceuticals Inc.; Voyager Therapeutics, Inc.; BIAL – Portela & Ca, S.A.; Mitsubishi Tanabe Pharma Corporation; AbbVie Inc.; and Sentia Medical Sciences Inc. Neurocrine Biosciences, Inc. was founded in 1992 and is headquartered in San Diego, California.",
   "website": "http://www.neurocrine.com"
 }

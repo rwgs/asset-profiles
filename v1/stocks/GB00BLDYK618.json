@@ -1,34 +1,32 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Israel",
+  "country_code": "IL",
   "identifiers": {
-    "composite_figi": "BBG000NY3B01",
-    "figi": "BBG000NY3B01",
     "isin": "GB00BLDYK618"
   },
   "isin": "GB00BLDYK618",
   "kind": "fund",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "STMZF"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "SMT.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "STMZF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Scottish Mortgage Investment Trust PLC",
-  "primary_symbol": "STMZF",
+  "primary_symbol": "SMT.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Scottish Mortgage Investment Trust PLC is a publicly owned investment manager. It primarily invests in public equity markets globally, aiming for long-term capital growth by investing in a concentrated portfolio of high-growth businesses. The company is based in Edinburgh, Scotland."
+  "summary": "Scottish Mortgage Investment Trust PLC is an investment trust that invests globally in a portfolio of listed and unlisted companies. The trust aims to achieve maximum total return by investing in businesses with above-average growth potential. It is managed by Baillie Gifford."
 }

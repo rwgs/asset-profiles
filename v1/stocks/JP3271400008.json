@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C55RK7",
-    "figi": "BBG000C55V64",
+    "composite_figi": "BBG000BGVW33",
+    "figi": "BBG000BGVWB4",
     "isin": "JP3271400008"
   },
   "industry": "Consumer Finance",
@@ -12,31 +12,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "QC9.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8253.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "QC9.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "QC9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "QC9.MU"
     }
   ],
-  "market_cap_band": "Mega Cap",
-  "name": "CRED. SAISON CO.LTD",
-  "primary_symbol": "QC9.MU",
+  "market_cap_band": "Small Cap",
+  "name": "Credit Saison Co., Ltd.",
+  "primary_symbol": "8253.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

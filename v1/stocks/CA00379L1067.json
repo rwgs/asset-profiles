@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00GBV2HN8",
+    "composite_figi": "BBG00GXFPX59",
     "cusip": "00379L106",
-    "figi": "BBG00GBV2HN8",
+    "figi": "BBG00GXFPX68",
     "isin": "CA00379L1067"
   },
   "industry": "Metals & Mining",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ABBRF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1AH0.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ABBRF"
     },
     {
       "currency": "CAD",
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "AbraSilver Resource Corp.",
-  "primary_symbol": "ABBRF",
+  "primary_symbol": "1AH0.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

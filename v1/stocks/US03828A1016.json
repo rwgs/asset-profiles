@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00P5FXDV6",
     "cusip": "03828A101",
-    "figi": "BBG00P5FXF14",
     "isin": "US03828A1016"
   },
   "industry": "Biotechnology",
@@ -14,18 +12,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
+      "symbol": "APLT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "2UV.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "2UV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "APLT"
     },
     {
       "currency": "EUR",
@@ -34,16 +32,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "APPLIED THERAPEUTDL-,0001",
-  "primary_symbol": "2UV.BE",
+  "name": "APPLIED THERAPEUTICS, INC.",
+  "primary_symbol": "APLT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Applied Therapeutics, Inc. is a clinical-stage biopharmaceutical company developing a pipeline of novel drug candidates for unmet medical needs in rare and orphan diseases. The company is focused on diseases of the central nervous system. Applied Therapeutics is headquartered in New York, New York.",
+  "summary": "Applied Therapeutics, Inc., a clinical-stage biopharmaceutical company, develops novel products to target cardiovascular disease, galactosemia, and diabetic complications. Its lead product candidate is AT-007 that has completed phase I/II for the treatment of galactosemia in healthy volunteers and adults, as well as is in pediatric clinical study for the treatment of galactosemia in kids; for treating sorbitol dehydrogenase deficiency; and for the treatment of phosphomannomutase enzyme-CDG. The company also develops AT-001 that is in phase III clinical trials for treating diabetic cardiomyopathy, as well as for the treatment of diabetic peripheral neuropathy. Its preclinical stage products include AT-003 for the treatment diabetic retinopathy; AT-104, a PI3K inhibitor for treating orphan hematological oncology T Cell Acute Lymphoblastic Leukemia. Applied Therapeutics, Inc. was incorporated in 2016 and is headquartered in New York, New York.",
   "website": "http://www.appliedtherapeutics.com"
 }

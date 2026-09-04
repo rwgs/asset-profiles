@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00QGPZT89",
+    "composite_figi": "BBG00MMDJG84",
     "cusip": "156727109",
-    "figi": "BBG00QGPZTG0",
+    "figi": "BBG00Q38SPY8",
     "isin": "US1567271093"
   },
   "industry": "Software",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0S6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0S6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CRNC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0S6.BE"
     },
     {
       "currency": "EUR",
@@ -33,14 +28,19 @@
       "symbol": "0S6.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0S6.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0S6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0S6.MU"
     },
     {
       "currency": "MXN",
@@ -53,11 +53,11 @@
       "symbol": "US1567271093.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Cerence Inc.",
-  "primary_symbol": "0S6.BE",
+  "primary_symbol": "CRNC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

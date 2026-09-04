@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000QCNR27",
-    "figi": "BBG000QCNV19",
+    "composite_figi": "BBG000P1KHL6",
+    "figi": "BBG000P1KJ14",
     "isin": "JP3127700007"
   },
   "industry": "Biotechnology",
@@ -12,23 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AJW.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AJW.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "4563.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AJW.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AJW.DU"
     },
     {
@@ -38,21 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AJW.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AJW.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "AnGes. Inc.",
-  "primary_symbol": "AJW.BE",
+  "primary_symbol": "4563.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ANGES, INC. is a Japanese biopharmaceutical company. It focuses on developing and commercializing gene therapies and DNA vaccines. The company is headquartered in Osaka, Japan.",
+  "summary": "AnGes, Inc., a biopharmaceutical company, engages in the research and development of gene-based medical products. Its lead product is Hepatocyte Growth Factor (HGF) Plasmid, a gene therapy for the treatment of critical limb ischemia, a serious impairment of blood circulation in the leg. The company is also developing NF-kB Decoy Oligonucleotide, a nucleic acid medicine that suppresses inflammation for diseases, including low back pain; drugs for treating atopic dermatitis and disc degeneration; medical devices for the prevention of vascular restenosis; cervical intraepithelial neoplasia therapeutic vaccines for cervical cancer; and DNA vaccines for high blood pressure through collaborative research agreement with Osaka University. AnGes, Inc. has alliances with BioMarin Pharmaceutical Inc. to market Naglazyme, a drug for the treatment of mucopolysaccharidosis VI in Japan; and Mitsubishi Tanabe Pharma Corporation for marketing HGF Plasmid for the treatment of peripheral arterial disease in the United States and Japan. It also has alliances with SHIONOGI & CO., LTD. for the marketing of drugs for external use containing NF-kB decoy oligonucleotide for skin diseases; Vical, Inc. for the development and marketing of Allovectin for cancer treatment; and Osaka University to develop a coronavirus vaccine. In addition, the company has a collaboration agreement with Brickell Biotech, Inc. to develop investigational plasmid DNA vaccine intended to prevent coronavirus in the United States, South America, and other markets. The company was formerly known as AnGes MG, Inc. and changed its name to AnGes, Inc. in July 2017. AnGes, Inc. was founded in 1999 and is headquartered in Ibaraki, Japan.",
   "website": "http://www.anges.co.jp"
 }

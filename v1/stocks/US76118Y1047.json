@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00MDV2QC5",
+    "composite_figi": "BBG00HY28K89",
     "cusip": "76118Y104",
-    "figi": "BBG00MDV2QJ8",
+    "figi": "BBG00HY28KC4",
     "isin": "US76118Y1047"
   },
   "industry": "Professional Services",
@@ -12,11 +12,6 @@
   "isin": "US76118Y1047",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3RT.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -34,6 +29,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3RT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3RT.SG"
     },
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Resideo Technologies, Inc.",
-  "primary_symbol": "3RT.MU",
+  "primary_symbol": "REZI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

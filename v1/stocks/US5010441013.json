@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00PG1KC96",
+    "composite_figi": "BBG000BMY992",
     "cusip": "501044101",
-    "figi": "BBG00PG1KCB3",
+    "figi": "BBG000BMYBX0",
     "isin": "US5010441013"
   },
   "industry": "Food & Staples Retailing",
@@ -15,15 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "KOG.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "KR"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0JS2.L"
     },
@@ -43,6 +38,9 @@
       "symbol": "KOG.F"
     },
     {
+      "symbol": "KOG.TI"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "KR.MX"
@@ -50,9 +48,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "The Kroger Co.",
-  "primary_symbol": "KOG.TI",
+  "primary_symbol": "KR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

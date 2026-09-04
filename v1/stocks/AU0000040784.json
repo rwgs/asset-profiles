@@ -2,8 +2,6 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000CRHWR8",
-    "figi": "BBG000CRHZ55",
     "isin": "AU0000040784"
   },
   "industry": "Metals & Mining",
@@ -11,11 +9,6 @@
   "isin": "AU0000040784",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TJ3.MU"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -25,19 +18,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TJ3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TJ3.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ORA GOLD LTD",
-  "primary_symbol": "TJ3.MU",
+  "name": "Ora Gold Limited",
+  "primary_symbol": "OAU.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "ORA GOLD LTD is an Australian-based gold exploration and development company with projects primarily located in Indonesia. The company focuses on acquiring and developing gold and other mineral resources. Ora Gold is headquartered in West Perth, Australia.",
+  "summary": "Ora Gold Limited engages in the mineral exploration activities in Australia. The company primarily explores for copper, gold, and uranium; and base metals, such as nickel, silver, and graphite. Its flagship project is the Garden Gully property comprising the Crown Prince and Lydia mining lease applications, 2 granted mining leases, 21 granted prospecting licenses, and 8 granted exploration licenses covering an area of 309 square kilometers located in Meekatharra, Western Australia. The company was formerly known as Thundelarra Limited and changed its name to Ora Gold Limited in March 2019. Ora Gold Limited was incorporated in 2003 and is based in Nedlands, Australia.",
   "website": "http://www.ora.gold"
 }

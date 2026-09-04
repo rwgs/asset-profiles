@@ -2,8 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00ZN6JLP9",
-    "figi": "BBG00ZN6JLV2",
+    "composite_figi": "BBG005JYTDQ5",
+    "cusip": "05278C107",
+    "figi": "BBG005JYTDQ5",
     "isin": "KYG066341028"
   },
   "industry": "Diversified Telecommunication Services",
@@ -11,11 +12,6 @@
   "isin": "KYG066341028",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8AHA.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -27,14 +23,19 @@
       "symbol": "2518.HK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "8AHA.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "8AHA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8AHA.MU"
     },
     {
       "currency": "EUR",
@@ -62,11 +63,11 @@
       "symbol": "KYG066341028.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Autohome Inc. Class A",
-  "primary_symbol": "8AHA.MU",
+  "primary_symbol": "ATHM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

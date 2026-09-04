@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000F1ZSQ2",
     "cusip": "57636Q104",
+    "figi": "BBG000F20WW2",
     "isin": "US57636Q1040"
   },
   "industry": "Consumer Finance",
@@ -13,37 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "MA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
       "symbol": "0R2Z.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "M4I.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M4I.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M4I.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M4I.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M4I.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MA"
     },
     {
       "currency": "EUR",
@@ -51,14 +33,32 @@
       "symbol": "M4I.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "M4I.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "M4I.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "M4I.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "M4I.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M4I.MU"
+    },
+    {
+      "symbol": "M4I.TI"
     },
     {
       "currency": "ARS",
@@ -83,15 +83,15 @@
   ],
   "market_cap_band": "Mega Cap",
   "name": "Mastercard Incorporated Class A",
-  "primary_symbol": "0R2Z.IL",
+  "primary_symbol": "MA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Mastercard Incorporated is a global technology company in the payments industry that connects consumers, financial institutions, merchants, and governments around the world. The company operates a payment network that enables electronic transactions and provides a range of related services. Mastercard is headquartered in Purchase, New York, USA.",
+  "summary": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and internationally. It facilitates the processing of payment transactions, including authorization, clearing, and settlement, as well as delivers related products and services. The company offers integrated products and services for account holders, merchants, financial institutions, businesses, governments, and other organizations, such as programs that enable issuers to provide consumers with credits to defer payments; payment products and solutions that allow its customers to access funds in deposit and other accounts; prepaid payment programs and management services; and commercial credit and debit payment products and solutions. It also provides value-added products and services comprising cyber and intelligence products, information and analytics services, consulting services, loyalty and reward programs, processing and open banking services, and issuer and acquirer processing services. The company offers payment solutions and services under the MasterCard, Maestro, and Cirrus brands. Mastercard Incorporated was founded in 1966 and is headquartered in Purchase, New York.",
   "website": "http://www.mastercard.com"
 }

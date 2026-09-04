@@ -1,9 +1,9 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BZPWW6",
-    "figi": "BBG000BZQ0F4",
+    "figi": "BBG000BZPZ31",
     "isin": "DE000A2YN777"
   },
   "industry": "Diversified Consumer Services",
@@ -12,24 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EMH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EMH.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EMH.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A2YN777.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EMH.BE"
     },
     {
       "currency": "EUR",
@@ -37,27 +27,37 @@
       "symbol": "EMH.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "EMH.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EMH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "EMH.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EMH.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "pferdewetten.de AG",
-  "primary_symbol": "EMH.BE",
+  "primary_symbol": "DE000A2YN777.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "PFERDEWETTEN.DE AG NA ON: Pferdewetten.de AG operates as an online horse betting provider in Germany. The company offers a platform for users to place bets on horse races, providing a variety of betting options and race information. Its headquarters are in Düsseldorf, Germany.",
+  "summary": "PFERDEWETTEN.DE AG is a German company that operates an online platform for horse racing betting. The company provides a platform for users to place bets on horse races and offers related information and statistics. PFERDEWETTEN.DE AG aims to provide a user-friendly and secure online betting experience for horse racing enthusiasts.",
   "website": "http://www.pferdewetten.ag"
 }

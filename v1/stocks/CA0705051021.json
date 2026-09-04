@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00175ZSX2",
     "cusip": "070505102",
-    "figi": "BBG00175ZT24",
+    "figi": "BBG00175ZSY1",
     "isin": "CA0705051021"
   },
   "industry": "Metals & Mining",
@@ -13,19 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "68B.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BELDF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "68B.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "68B.MU"
     },
     {
       "currency": "EUR",
@@ -36,13 +31,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "BAT.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BELDF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Batero Gold Corp.",
-  "primary_symbol": "68B.MU",
+  "primary_symbol": "68B.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

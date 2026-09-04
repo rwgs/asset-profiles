@@ -1,8 +1,8 @@
 {
   "country": "Netherlands Antilles",
   "identifiers": {
-    "composite_figi": "BBG000LHZW09",
-    "figi": "BBG000LHZW09",
+    "composite_figi": "BBG00RD15ZN5",
+    "figi": "BBG00RD15ZP3",
     "isin": "BMG455841020"
   },
   "industry": "Capital Markets",
@@ -10,11 +10,6 @@
   "isin": "BMG455841020",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HALFF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -24,13 +19,18 @@
       "currency": "EUR",
       "exchange_mic": "XAMS",
       "symbol": "HAL.AS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HALFF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "HAL Trust",
-  "primary_symbol": "HALFF",
+  "primary_symbol": "HA4.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

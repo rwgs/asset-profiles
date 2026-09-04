@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000DH7JK6",
     "cusip": "713448108",
+    "figi": "BBG000DH7TN1",
     "isin": "US7134481081"
   },
   "industry": "Beverages",
@@ -12,33 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0QOS.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PEP"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEP.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEP.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEP.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEP.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0QOS.IL"
     },
     {
       "currency": "ARS",
@@ -47,18 +29,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PEP.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PEP.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PEP.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PEP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PEP.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PEP.MU"
     },
     {
       "currency": "MXN",
@@ -71,7 +68,7 @@
       "symbol": "PEP.SG"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "PEP.SN"
     },
@@ -81,12 +78,15 @@
       "symbol": "PEP.SW"
     },
     {
+      "symbol": "PEP.TI"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "PEPB34.SA"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "PEPD.BA"
     },
@@ -98,15 +98,15 @@
   ],
   "market_cap_band": "Mega Cap",
   "name": "PepsiCo, Inc.",
-  "primary_symbol": "0QOS.IL",
+  "primary_symbol": "PEP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "PepsiCo, Inc. is a global food and beverage company that manufactures, markets, and distributes a wide range of products, including snacks, beverages, and other convenient foods. The company's portfolio includes brands such as Pepsi, Lay's, Doritos, Gatorade, and Tropicana, operating through various business segments worldwide. PepsiCo is headquartered in Purchase, New York, USA.",
+  "summary": "PepsiCo, Inc. operates as a food and beverage company worldwide. The company operates through seven segments: Frito-Lay North America; Quaker Foods North America; PepsiCo Beverages North America; Latin America; Europe; Africa, Middle East and South Asia; and Asia Pacific, Australia and New Zealand and China Region. It offers branded dips, cheese-flavored snacks, and tortillas, as well as corn, potato, and tortilla chips; cereals, rice, pasta, mixes and syrups, granola bars, grits, oatmeal, rice cakes, simply granola, and side dishes; beverage concentrates, fountain syrups, and finished goods; ready-to-drink tea, coffee, and juices; and dairy products. The company provides its products primarily under the Cheetos, Doritos, Fritos, Lay's, Ruffles, Tostitos, Aunt Jemima, Cap'n crunch, Life, Pasta Roni, Quaker Chewy, Quaker, Rice-A-Roni, Aquafina, Diet Mountain Dew, Diet Pepsi, Gatorade, Mountain Dew, Pepsi, Propel, Sierra Mist, Tropicana, Emperador, Marias Gamesa, Rosquinhas Mabel, Sabritas, Saladitas, 7UP, Gatorade, H2oh!, Manzanita Sol, Mirinda, Pepsi, Pepsi Black, San Carlos, Toddy, Agusha, Chudo, and Domik v Derevne brands. It serves wholesale and other distributors, foodservice customers, grocery stores, drug stores, convenience stores, discount/dollar stores, mass merchandisers, membership stores, hard discounters, e-commerce retailers and authorized independent bottlers, and others through a network of direct-store-delivery, customer warehouse, and distributor networks, as well as directly to consumers through e-commerce platforms and retailers. The company was founded in 1898 and is headquartered in Purchase, New York.",
   "website": "http://www.pepsico.com"
 }

@@ -2,8 +2,6 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00N8TXML9",
-    "figi": "BBG00N8TXMR3",
     "isin": "NO0010791353"
   },
   "industry": "Marine",
@@ -12,29 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MP2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPZZF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "NOK",
       "exchange_mic": "XLON",
       "symbol": "0A27.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MP2.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MP2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MP2.MU"
     },
     {
       "currency": "EUR",
@@ -50,19 +43,24 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "MPCCO.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPZZF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "MPC Container Ships ASA",
-  "primary_symbol": "MP2.MU",
+  "primary_symbol": "0A27.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "MPC Container Ships ASA is a container shipping company owning and operating a fleet of container vessels. The company is headquartered in Hamburg, Germany.",
+  "summary": "MPC Container Ships ASA owns and operates a portfolio of container ships. It focuses on the feeder vessels between 1,000 and 3,000 TEU. The company charters out its vessels to liner shipping companies and regional carriers. MPC Container Ships ASA was incorporated in 2017 and is based in Oslo, Norway.",
   "website": "http://www.mpc-container.com"
 }

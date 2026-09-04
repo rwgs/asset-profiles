@@ -2,34 +2,22 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00JVDW4Z3",
-    "figi": "BBG00JVF25N1",
     "isin": "DE000A2G9MZ9"
   },
   "industry": "Machinery",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Capital Goods",
   "isin": "DE000A2G9MZ9",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S9I.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S9I.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S9I.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0OC9.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S9I.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "S9I.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "S9I.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "S9I.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S9I.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "S9I.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "STEMMER IMAGING AG",
-  "primary_symbol": "S9I.BE",
+  "primary_symbol": "0OC9.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "STEMMER IMAGING AG INH ON is a European machine vision technology provider, offering a range of products and services including cameras, frame grabbers, illumination, optics, software and engineering support. The company serves various industries such as industrial manufacturing, medical technology, and logistics automation. Stemmer Imaging is headquartered in Puchheim, Germany.",
+  "sector": "Industrials",
+  "summary": "Stemmer Imaging AG provides machine vision technology for industry and non-industry applications worldwide. The company offers machine vision systems, such as 2D and 3D smart vision, application specific, hyperspectral, surface inspection, open architecture vision, and sequence recording systems; illumination products, including LED illumination products, diode lasers, cold light sources and high-frequency illumination products, and accessories for illumination; and optics consisting of zoom, fixed focus, telecentric measuring, macro and modular, motorized, line scan camera, infrared, UV, 3D, 360 degree, and multimagnification lenses, as well as accessories for lenses. It also provides area and line scan, 3D, smart, high speed recording, and spectral cameras, as well as contact image sensors and ID readers, and accessories for cameras; and CameraLink, GigE, CoaXPress, USB, FireWire, fibre optic, and analogue cables. In addition, the company offers CameraLink, CameraLink HS-Link, CoaXPress, GigE, DVI, LVDS, analogue, and FireWire input products, as well as accessories for image acquisition; IP streaming and video decoders/encoders; computers, such as industrial, compact, and embedded PC systems; and various machine vision software products. Further, it provides feasibility testing, training, sale or returns and loans, repairs, and custom cables services. The company serves the automotive, defense, security and aerospace, electronics, semiconductor and solar, factory automation, food and beverage, medical imaging, pharmaceutical, print and packaging, scientific research, sports, entertainment and broadcast, test and measurement, traffic, and rail and transport markets. Stemmer Imaging AG was founded in 1987 and is headquartered in Puchheim, Germany. Stemmer Imaging AG operates as a subsidiary of Primepulse SE.",
   "website": "http://www.stemmer-imaging.com/de-de"
 }

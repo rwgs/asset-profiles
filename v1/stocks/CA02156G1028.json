@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00ZL5JMJ8",
     "cusip": "02156G102",
+    "figi": "BBG00ZL5JMM4",
     "isin": "CA02156G1028"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -11,13 +13,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ATRWF"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "7VZ.DU"
     },
     {
@@ -44,13 +41,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "ARR.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ATRWF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Altius Renewable Royalties Corp.",
-  "primary_symbol": "ATRWF",
+  "name": "ALTIUS RENEWABLE ROYALT.",
+  "primary_symbol": "7VZ.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

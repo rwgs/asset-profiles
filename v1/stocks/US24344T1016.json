@@ -1,10 +1,10 @@
 {
-  "country": "Singapore",
-  "country_code": "SG",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00J2CPYM3",
+    "composite_figi": "BBG00HMJ9H54",
     "cusip": "24344T101",
-    "figi": "BBG00J2CPYS7",
+    "figi": "BBG00HTBSLG2",
     "isin": "US24344T1016"
   },
   "industry": "Biotechnology",
@@ -14,17 +14,12 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "D05.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "DCPH"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "D05.DU"
     },
     {
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D05.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US24344T1016.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "DECIPHERA PHARMAC. DL-,01",
-  "primary_symbol": "D05.MU",
+  "name": "DECIPHERA PHARMACEUTICALS, INC.",
+  "primary_symbol": "DCPH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Deciphera Pharmaceuticals, Inc. is a biopharmaceutical company focused on discovering, developing, and commercializing important new medicines to improve the lives of people with cancer. The company is headquartered in Waltham, Massachusetts. Their primary focus is kinase inhibitor therapies.",
+  "summary": "Deciphera Pharmaceuticals, Inc., a biopharmaceutical company, develops drugs to enhance the lives of cancer patients by addressing key mechanisms of drug resistance that limit the rate and durability of response to existing cancer therapies. Its lead drug candidate is QINLOCK used for the treatment of gastrointestinal stromal tumors (GIST), as well as in INTRIGUE Phase 3 study to treat second-line GIST. The company is also developing immunokinase inhibitors comprising vimseltinib (DCC-3014) that is in Phase 1b/2 clinical trial for the treatment of tenosynovial giant cell tumors; and Rebastinib, which is in Phase 1b/2 clinical trial to treat metastatic solid tumors, as well as to investigate in combination with chemotherapy for the treatment of multiple solid tumors. In addition, it is developing DCC-3116 to treat RAS/RAF mutant cancers that is in the preclinical-stage. The company serves in the United States and Europe. Deciphera Pharmaceuticals, Inc. was founded in 2003 and is headquartered in Waltham, Massachusetts.",
   "website": "http://www.deciphera.com"
 }

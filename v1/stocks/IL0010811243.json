@@ -2,8 +2,9 @@
   "country": "Israel",
   "country_code": "IL",
   "identifiers": {
-    "composite_figi": "BBG000C3Q5D5",
-    "figi": "BBG000C3Q885",
+    "composite_figi": "BBG000CRN4P5",
+    "cusip": "M3760D101",
+    "figi": "BBG000CRPKD0",
     "isin": "IL0010811243"
   },
   "industry": "Aerospace & Defense",
@@ -13,23 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EB2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EB2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ESLT"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ESLT.TA"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EB2.BE"
     },
     {
       "currency": "EUR",
@@ -38,21 +29,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EB2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EB2.SG"
+    },
+    {
+      "currency": "ILS",
+      "exchange_mic": "XTAE",
+      "symbol": "ESLT.TA"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "ELBIT SYS LTD",
-  "primary_symbol": "EB2.BE",
+  "name": "Elbit Systems Ltd",
+  "primary_symbol": "ESLT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Elbit Systems Ltd. is an Israeli defense electronics company engaged in a wide range of programs throughout the world. The company develops and supplies airborne, land and naval systems, command, control, communications, computers, intelligence, surveillance and reconnaissance (C4ISR), unmanned aircraft systems (UAS), advanced electro-optics, electro-optic space systems, electronic warfare suites, signal intelligence (SIGINT) systems, data links and communications systems and radios.",
+  "summary": "Elbit Systems Ltd. develops and supplies a portfolio of airborne, land, and naval systems and products for defense, homeland security, and commercial aviation applications primarily in Israel. The company offers military aircraft and helicopter, commercial aviation, unmanned aircraft, electro-optic, night vision, countermeasures, naval, land vehicle, electronic warfare and signal intelligence, commercial cyber training, and medical instrumentation systems, as well as command, control, communications, computer, intelligence, surveillance, and reconnaissance and cyber systems; and munitions. The company markets its systems and products as a prime contractor or subcontractor to various governments and companies. It also has operations in the United States, Europe, Latin America, the Asia-Pacific, and internationally. Elbit Systems Ltd. was incorporated in 1966 and is based in Haifa, Israel.",
   "website": "http://elbitsystems.com"
 }

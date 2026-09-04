@@ -3,7 +3,6 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG000BMVYC6",
-    "figi": "BBG000BMW1W5",
     "isin": "SE0000667891"
   },
   "industry_group": "Capital Goods",
@@ -11,35 +10,35 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SVKB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SVKB.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000667891.SW"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SVKB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SVKB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SVKB.MU"
     }
   ],
   "name": "SANDVIK AB",
-  "primary_symbol": "SVKB.BE",
+  "primary_symbol": "SE0000667891.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Sandvik AB is a high-tech engineering group providing tools and tooling systems for metal cutting, equipment and tools for the mining and construction industries, stainless steel and special alloys, and industrial heating. The company operates globally and is headquartered in Stockholm, Sweden. Their offerings span from components to complete solutions."
+  "summary": "SANDVIK AB is a high-tech engineering group that develops and manufactures tools and tooling systems for metal cutting, equipment and tools for the mining and construction industries, and materials technology. They serve a variety of industries, including aerospace, automotive, and energy. The company is headquartered in Sandviken, Sweden."
 }

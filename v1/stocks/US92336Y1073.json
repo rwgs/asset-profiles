@@ -2,9 +2,9 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000BFNHD6",
+    "composite_figi": "BBG00ZSLY4Q1",
     "cusip": "92336Y107",
-    "figi": "BBG000BFNLN6",
+    "figi": "BBG00ZSLY4R0",
     "isin": "US92336Y1073"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -13,44 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OEWA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OEWA.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OEWA.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OEWA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OEWA.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OEZVF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OEZVY"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "OEW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OEWA.BE"
     },
     {
       "currency": "EUR",
@@ -58,8 +28,8 @@
       "symbol": "OEWA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "OEWA.DU"
     },
     {
@@ -69,8 +39,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "OEWA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "OEWA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OEWA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OEWA.SG"
+    },
+    {
+      "symbol": "OEWA.TI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OEZVF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OEZVY"
     },
     {
       "currency": "CZK",
@@ -85,9 +83,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "VERBUND AG",
-  "primary_symbol": "OEWA.BE",
+  "primary_symbol": "OEW.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

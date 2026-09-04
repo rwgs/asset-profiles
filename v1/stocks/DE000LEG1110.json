@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG003T0P9C1",
-    "figi": "BBG003T0P9L1",
+    "composite_figi": "BBG007FJN2T5",
+    "figi": "BBG007FJN2W1",
     "isin": "DE000LEG1110"
   },
   "industry": "Real Estate Management & Development",
@@ -12,39 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LEG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LEG.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LEG.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LEG.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LEG.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LEGIF"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000LEG1110.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LEG.BE"
     },
     {
       "currency": "EUR",
@@ -52,8 +27,8 @@
       "symbol": "LEG.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "LEG.DU"
     },
     {
@@ -63,21 +38,44 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "LEG.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "LEG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LEG.MU"
+    },
+    {
+      "symbol": "LEG.TI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "LEG.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LEGIF"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "LEG Immobilien SE",
-  "primary_symbol": "LEG.BE",
+  "name": "LEG IMMOBILIEN SE",
+  "primary_symbol": "DE000LEG1110.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "LEG Immobilien AG operates as an integrated property company in Germany. It rents apartments, commercial units, and garages and parking spaces; and purchases and sells property portfolios. The company also offers property management and location development services; and housing industry services, as well as IT services for third parties. In addition, it generates electricity and heat. As of December 31, 2020, the company's portfolio consisted of 144,530 residential units; 1,346 commercial units; and 39,205 garages and parking spaces in North Rhine-Westphalia. LEG Immobilien AG was founded in 1970 and is headquartered in Dusseldorf, Germany.",
+  "summary": "LEG IMMOBILIEN SE is a German residential real estate company. They own and manage a large portfolio of residential properties, primarily in North Rhine-Westphalia, Germany. The company is headquartered in Düsseldorf, Germany.",
   "website": "http://www.leg-wohnen.de/unternehmen"
 }

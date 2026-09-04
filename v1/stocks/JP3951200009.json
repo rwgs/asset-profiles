@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000S1KP80",
-    "figi": "BBG000S1KRJ4",
+    "composite_figi": "BBG000BCKJ60",
+    "figi": "BBG000BCKK76",
     "isin": "JP3951200009"
   },
   "industry": "Chemicals",
@@ -12,13 +12,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UTN.BE"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "3103.T"
     },
     {
@@ -27,8 +22,13 @@
       "symbol": "JP3951200009.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UTN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "UTN.DU"
     },
     {
@@ -37,11 +37,11 @@
       "symbol": "UTN.F"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Unitika Ltd",
-  "primary_symbol": "UTN.BE",
+  "primary_symbol": "3103.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

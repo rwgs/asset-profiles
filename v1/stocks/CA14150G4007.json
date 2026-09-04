@@ -13,14 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "C0Y.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CRLFF"
     },
     {
       "currency": "EUR",
@@ -31,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "CJ.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRLFF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Cardinal Energy Ltd.",
   "primary_symbol": "C0Y.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

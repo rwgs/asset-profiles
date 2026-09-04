@@ -2,43 +2,23 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000NWTZR5",
+    "composite_figi": "BBG000QTF8K1",
     "cusip": "252131107",
-    "figi": "BBG000NWV3V8",
+    "figi": "BBG000QTFGV1",
     "isin": "US2521311074"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US2521311074",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DC4.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DC4.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DC4.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DC4.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "DXCM"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A4M.L"
     },
@@ -49,18 +29,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DC4.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DC4.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DC4.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DC4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "DC4.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DC4.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DC4.MU"
     },
     {
       "currency": "EUR",
@@ -75,15 +75,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "DexCom, Inc.",
-  "primary_symbol": "DC4.BE",
+  "primary_symbol": "DXCM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "DexCom, Inc. develops, manufactures, and distributes continuous glucose monitoring (CGM) systems for people with diabetes. The company's CGM systems provide real-time glucose readings, helping patients and healthcare providers better manage diabetes. DexCom, Inc. is headquartered in San Diego, California.",
+  "summary": "DexCom, Inc., a medical device company, focuses on the design, development, and commercialization of continuous glucose monitoring (CGM) systems in the United States and internationally. The company offers its systems for use by people with diabetes, as well as for use by healthcare providers. Its products include DexCom G6, an integrated CGM system for diabetes management; Dexcom G7, a next generation G7 CGM system; and Dexcom Share, a remote monitoring system. DexCom, Inc. has a collaboration and license agreement with Verily Life Sciences LLC and Verily Ireland Limited to develop next-generation CGM products. The company markets its products directly to endocrinologists, physicians, and diabetes educators. DexCom, Inc. was founded in 1999 and is headquartered in San Diego, California.",
   "website": "http://www.dexcom.com"
 }

@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00LV4D5Q6",
+    "composite_figi": "BBG00PWN1ZR0",
     "cusip": "37149B109",
-    "figi": "BBG00LV4D5Q6",
+    "figi": "BBG00PWN1ZW4",
     "isin": "CA37149B1094"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA37149B1094",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GENMF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -26,19 +21,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "GENM.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GENMF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Generation Mining Limited",
-  "primary_symbol": "GENMF",
+  "primary_symbol": "CA37149B1094.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Generation Mining Limited, a mineral exploration and development stage company, focuses on base and precious metal deposits in Canada. The company explores for zinc, lead, silver, molybdenum, copper, gold, diamond, tungsten, platinum, and palladium deposits. It primarily holds 80.7% interest in the Marathon Palladium and Copper project covering an area of 22,000 hectares located in north-western Ontario. The company was incorporated in 2018 and is based in Toronto, Canada.",
+  "summary": "GENERATION MINING LTD is a base metal exploration and development company focused on its Marathon Palladium-Copper project in Ontario, Canada. The company is focused on becoming a palladium and copper producer. Generation Mining is based in Toronto, Ontario, Canada.",
   "website": "http://www.genmining.com"
 }

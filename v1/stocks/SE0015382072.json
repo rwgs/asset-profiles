@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00ZHCXYQ8",
-    "figi": "BBG00ZHCXYX0",
+    "figi": "BBG00ZHCXYR7",
     "isin": "SE0015382072"
   },
   "industry": "Biotechnology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "9RP.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9RP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "9RP.MU"
     },
     {
       "currency": "SEK",
@@ -34,15 +34,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Lipigon Pharmaceuticals AB",
-  "primary_symbol": "9RP.MU",
+  "primary_symbol": "9RP.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Lipigon Pharmaceuticals AB is a Swedish pharmaceutical company focused on developing therapies for lipid-related diseases. Their business model involves research and development of novel drug candidates, primarily targeting metabolic disorders and related conditions. Lipigon Pharma is based in Umeå, Sweden.",
+  "summary": "Lipigon Pharmaceuticals AB (publ) develops drugs for lipid related diseases in Sweden. The company's product pipeline consists of Lipisense project for the treatment of severe hypertriglyceridemia disease and familial chylomicronemia syndrome; a gene therapy project for the lipodystrophy, a rare disease of altered fat distribution in the body; therapeutics for dyslipidemia, a general lipid disorder; and RNA drug project for acute respiratory distress syndrome. Lipigon Pharmaceuticals AB (publ) was founded in 2010 and is based in Umeå, Sweden.",
   "website": "http://www.lipigon.se"
 }

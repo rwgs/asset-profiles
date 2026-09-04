@@ -2,6 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG008HNS333",
+    "cusip": "06684L103",
+    "figi": "BBG008HNS333",
     "isin": "KYG0891M1069"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -11,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
+      "symbol": "BZUN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
       "symbol": "0HLU.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "2BZ.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "2BZ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BZUN"
     },
     {
       "currency": "EUR",
@@ -50,11 +53,11 @@
       "symbol": "KYG0891M1069.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Baozun, Inc. Class A",
-  "primary_symbol": "0HLU.IL",
+  "primary_symbol": "BZUN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

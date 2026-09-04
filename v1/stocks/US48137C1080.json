@@ -2,9 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000PMYKK9",
+    "composite_figi": "BBG000PJ8DQ5",
     "cusip": "48137C108",
-    "figi": "BBG000PMYKK9",
+    "figi": "BBG00874XK69",
     "isin": "US48137C1080"
   },
   "industry": "Capital Markets",
@@ -12,16 +12,6 @@
   "isin": "US48137C1080",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JBARF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JBAXY"
-    },
     {
       "currency": "CHF",
       "exchange_mic": "XSWX",
@@ -38,6 +28,16 @@
       "symbol": "BAERN.MX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JBARF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JBAXY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "JGE1.F"
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Julius Bar Gruppe AG",
-  "primary_symbol": "JBARF",
+  "primary_symbol": "BAER.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

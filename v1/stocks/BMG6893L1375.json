@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG005LBNTD7",
-    "figi": "BBG005LBNTD7",
+    "composite_figi": "BBG000BNBWZ5",
+    "figi": "BBG000BNBXG4",
     "isin": "BMG6893L1375"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,11 +11,6 @@
   "isin": "BMG6893L1375",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PDSSF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LIL3.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PDSSF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Paradise Entertainment Limited",
-  "primary_symbol": "PDSSF",
+  "primary_symbol": "1180.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

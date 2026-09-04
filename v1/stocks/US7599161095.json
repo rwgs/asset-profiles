@@ -14,18 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "RGEN"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RGN.MU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RGN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RGN.MU"
     },
     {
       "currency": "EUR",
@@ -37,7 +37,7 @@
   "name": "Repligen Corporation",
   "primary_symbol": "RGEN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

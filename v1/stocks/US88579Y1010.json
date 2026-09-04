@@ -18,34 +18,14 @@
       "symbol": "MMM"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MMM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MMM.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MMM.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MMM.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MMM.TI"
-    },
-    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "MMM.BA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MMM.BE"
     },
     {
       "currency": "EUR",
@@ -53,8 +33,8 @@
       "symbol": "MMM.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MMM.DU"
     },
     {
@@ -63,12 +43,27 @@
       "symbol": "MMM.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "MMM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MMM.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MMM.MU"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "MMM.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "MMM.SN"
     },
@@ -76,6 +71,9 @@
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "MMM.SW"
+    },
+    {
+      "symbol": "MMM.TI"
     },
     {
       "currency": "EUR",
@@ -88,7 +86,7 @@
       "symbol": "MMMC34.SA"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "MMMD.BA"
     }
@@ -97,7 +95,7 @@
   "name": "3M Company",
   "primary_symbol": "MMM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -13,24 +13,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "4UY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4UY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FUNFF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4UY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4UY.MU"
     },
     {
       "currency": "EUR",
@@ -41,13 +36,18 @@
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "FANS.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FUNFF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "FANSUNITE ENTERT.",
   "primary_symbol": "4UY.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

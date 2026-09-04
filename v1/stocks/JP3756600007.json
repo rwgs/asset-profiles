@@ -2,8 +2,6 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BV7ZM9",
-    "figi": "BBG000BV8330",
     "isin": "JP3756600007"
   },
   "industry_group": "Consumer Durables & Apparel",
@@ -11,24 +9,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTO.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "JPY",
       "exchange_mic": "XLON",
       "symbol": "0R1E.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NTO.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NTO.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NTO.MU"
     },
     {
       "currency": "EUR",
@@ -37,14 +35,14 @@
     }
   ],
   "name": "Nintendo Co., Ltd.",
-  "primary_symbol": "NTO.BE",
+  "primary_symbol": "0R1E.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "NINTENDO CO. LTD is a Japanese multinational consumer electronics and video game company. Nintendo develops, manufactures, and sells video game consoles and software, including popular franchises like Mario, Zelda, and Pokémon."
+  "summary": "Nintendo Co., Ltd. is a Japanese multinational consumer electronics and video game company. It develops, manufactures, and sells video game consoles and software, including popular franchises like Mario, Zelda, and Pokémon. Nintendo is headquartered in Kyoto, Japan."
 }

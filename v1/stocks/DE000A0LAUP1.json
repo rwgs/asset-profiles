@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000NG4X83",
-    "figi": "BBG000NG50Y5",
     "isin": "DE000A0LAUP1"
   },
   "industry": "Chemicals",
@@ -12,29 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CE2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CE2.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CE2.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CE2.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0DXG.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CE2.BE"
     },
     {
       "currency": "EUR",
@@ -42,8 +25,8 @@
       "symbol": "CE2.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CE2.DU"
     },
     {
@@ -53,21 +36,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "CE2.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CE2.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CE2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CE2.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "CropEnergies AG",
-  "primary_symbol": "CE2.BE",
+  "primary_symbol": "0DXG.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "CropEnergies AG is a German company that produces renewable ethanol for fuel and other applications. They use sustainable raw materials to produce ethanol for the fuel sector as well as for use in the food, beverage, and cosmetics industries. CropEnergies is headquartered in Mannheim, Germany.",
+  "summary": "CropEnergies AG manufactures and distributes bioethanol, and other biofuels and related products produced from grain or other agricultural raw materials in Germany and internationally. The company also produces and sells protein food and animal feed products, including ProtiGrain, a protein animal feed for various types of livestock and pets; wheat gluten for food and animal feed; animal feed from the stillage; and ProtiWanze, a liquid animal feed for cattle and pigs. In addition, it offers liquefied carbon dioxide; and produces neutral alcohol for beverage, food, cosmetics, and pharmaceutical industries, as well as for industrial applications. The company was founded in 2006 and is headquartered in Mannheim, Germany. CropEnergies AG is a subsidiary of Südzucker AG.",
   "website": "http://www.cropenergies.com"
 }

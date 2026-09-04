@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FP08G2",
     "cusip": "641255807",
-    "figi": "BBG000FP0DJ8",
     "isin": "US6412558073"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -14,18 +12,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NLZ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NLZ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NURO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NLZ.BE"
     },
     {
       "currency": "EUR",
@@ -34,15 +27,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NLZ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US6412558073.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "NEUROMETRIX INC.  DL-0001",
-  "primary_symbol": "NLZ.BE",
+  "name": "NeuroMetrix, Inc.",
+  "primary_symbol": "NURO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

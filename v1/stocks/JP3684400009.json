@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1KLH6",
-    "figi": "BBG000C1KPS5",
+    "composite_figi": "BBG000BFXM71",
+    "figi": "BBG000BFXMT7",
     "isin": "JP3684400009"
   },
   "industry": "Building Products",
@@ -12,23 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NB5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NB5.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "3110.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NB5.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NB5.DU"
     },
     {
@@ -38,21 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NB5.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NB5.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Nitto Boseki Co., Ltd.",
-  "primary_symbol": "NB5.BE",
+  "primary_symbol": "3110.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Nitto Boseki Co., Ltd. is a Japanese company with diversified business segments including textiles, glass fiber, medical, and environmental fields. The company produces textiles, glass fiber products for various industries, diagnostic reagents and instruments, and environmental solutions. It has its headquarters in Japan.",
+  "summary": "Nitto Boseki Co., Ltd. engages in the manufacture, processing, and sale of textile products and textile-related industrial goods, rock wool and building materials, glass fiber products, and specialty chemicals and medical products in Japan. The company offers a range of apparel and other products, including interlinings for women's apparel, stretch fabrics, and functional textiles. It also provides glass fiber products for use in automobiles; composites for smartphone casings; high performance electronic substrates; resin-coated film materials; and house insulation materials. In addition, the company develops reagents for in vitro diagnostics in the biochemistry, hematology, and immunology fields; develops specialty chemicals, such as functional polymers for various applications; and produces and sells PET bottles and soft drinks. Further, it engages in the planning, supervision, and contracting for construction; and design, manufacture, and sale of machinery and equipment. The company was formerly known as Fukusima Seiren Seishi K.K. and changed its name to Nitto Boseki Co., Ltd. in April 1923. Nitto Boseki Co., Ltd. was founded in 1918 and is headquartered in Tokyo, Japan.",
   "website": "http://www.nittobo.co.jp"
 }

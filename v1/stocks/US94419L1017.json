@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0077ZCD43",
+    "composite_figi": "BBG001B17MV2",
     "cusip": "94419L101",
-    "figi": "BBG0077ZCDB5",
+    "figi": "BBG006Z593Q2",
     "isin": "US94419L1017"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -15,32 +15,32 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "1WF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1WF.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "W"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A4A.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1WF.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "1WF.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1WF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1WF.MU"
     },
     {
       "currency": "EUR",
@@ -53,11 +53,11 @@
       "symbol": "W.MX"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Wayfair Inc.",
-  "primary_symbol": "1WF.BE",
+  "primary_symbol": "W",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

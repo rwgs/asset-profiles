@@ -3,7 +3,6 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000GDJ4V0",
-    "figi": "BBG000GDJ8D1",
     "isin": "DE0005754402"
   },
   "industry": "Diversified Telecommunication Services",
@@ -12,24 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LSX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LSX.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LSX.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0005754402.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LSX.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +26,8 @@
       "symbol": "LSX.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "LSX.DU"
     },
     {
@@ -48,21 +37,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "LSX.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LSX.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LSX.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "LS telcom AG",
-  "primary_symbol": "LSX.BE",
+  "primary_symbol": "DE0005754402.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "LS telcom AG provides solutions for spectrum management, radio monitoring, and test and measurement to government regulators, mobile network operators, and other industry stakeholders. The company's products and services help customers optimize their use of radio frequency spectrum and ensure regulatory compliance. LS telcom AG is headquartered in Lichtenau, Germany.",
+  "summary": "LS telcom AG provides software and hardware solutions for spectrum management, radio monitoring, and electromagnetic compatibility analysis, enabling efficient use of radio frequencies worldwide with headquarters in Lichtenau, Germany. The company's products and services help regulators, mobile network operators, and other organizations plan and optimize their radio networks, avoid interference, and ensure compliance with regulations. This ensures optimal frequency usage for its customers.",
   "website": "http://www.lstelcom.com"
 }

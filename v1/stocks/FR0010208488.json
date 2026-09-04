@@ -2,9 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000RGBVW8",
-    "cusip": "29286D105",
-    "figi": "BBG000RGBVW8",
+    "composite_figi": "BBG000RFWKX0",
+    "figi": "BBG000RFWLH6",
     "isin": "FR0010208488"
   },
   "industry": "Multi-Utilities",
@@ -12,16 +11,6 @@
   "isin": "FR0010208488",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ENGIY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ENGQF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -36,6 +25,16 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "ENGI.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ENGIY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ENGQF"
     },
     {
       "currency": "EUR",
@@ -55,9 +54,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "ENGIE SA",
-  "primary_symbol": "ENGIY",
+  "primary_symbol": "ENGI.MI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

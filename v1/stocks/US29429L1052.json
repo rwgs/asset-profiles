@@ -11,11 +11,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EPOKY"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3AD.F"
@@ -29,13 +24,18 @@
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "EPI-B.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EPOKY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Epiroc AB (publ)",
-  "primary_symbol": "EPOKY",
+  "primary_symbol": "3AD.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

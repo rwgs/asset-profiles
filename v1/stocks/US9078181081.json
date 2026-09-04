@@ -18,11 +18,6 @@
       "symbol": "UNP"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNP.TI"
-    },
-    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "UNP.BA"
@@ -48,9 +43,12 @@
       "symbol": "UNP.SG"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "UNP.SN"
+    },
+    {
+      "symbol": "UNP.TI"
     },
     {
       "currency": "EUR",
@@ -58,7 +56,7 @@
       "symbol": "UNPC.VI"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "UNPD.BA"
     },
@@ -72,7 +70,7 @@
   "name": "Union Pacific Corporation",
   "primary_symbol": "UNP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00PZCLM07",
+    "composite_figi": "BBG00PGK50M2",
     "cusip": "75382E109",
-    "figi": "BBG00PZCLM61",
+    "figi": "BBG00PNNF083",
     "isin": "US75382E1091"
   },
   "industry": "Biotechnology",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0RA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0RA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "RAPT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0RA.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0RA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US75382E1091.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "RAPT THERAP. INC.DL-,0001",
-  "primary_symbol": "0RA.BE",
+  "name": "RAPT Therapeutics, Inc.",
+  "primary_symbol": "RAPT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "RAPT Therapeutics, Inc. is a clinical-stage immunology-based biopharmaceutical company focused on discovering, developing, and commercializing oral small molecule therapies for inflammatory diseases and oncology. The company's lead drug candidates target chemokine receptors CCR4 and CCR10. RAPT Therapeutics is headquartered in South San Francisco, California.",
+  "summary": "RAPT Therapeutics, Inc., a clinical-stage immunology-based biopharmaceutical company, focuses on discovering, developing, and commercializing oral small molecule therapies for patients with unmet needs in oncology and inflammatory diseases. Its lead oncology drug candidate is FLX475, an oral small molecule C-C motif chemokine receptor 4 antagonist that is in the Phase 1/2 clinical trial to investigate as a monotherapy and in combination with pembrolizumab in patients with advanced cancer. The company's lead inflammation drug candidate is RPT193 to selectively inhibit the migration of type 2 T helper cells into inflamed tissues. It is also pursuing a range of targets, including general control nonderepressible 2 and hematopoietic progenitor kinase 1 that are in the discovery stage of development. The company was formerly known as FLX Bio, Inc. and changed its name to RAPT Therapeutics, Inc. in May 2019. RAPT Therapeutics, Inc. was incorporated in 2015 and is headquartered in South San Francisco, California.",
   "website": "http://www.rapt.com"
 }

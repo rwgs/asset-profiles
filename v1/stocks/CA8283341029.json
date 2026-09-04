@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00JCW6Q28",
+    "composite_figi": "BBG00G415K89",
     "cusip": "828334102",
-    "figi": "BBG00JCW6Q73",
     "isin": "CA8283341029"
   },
   "industry": "Metals & Mining",
@@ -12,16 +11,6 @@
   "isin": "CA8283341029",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S06.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIPRF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -33,22 +22,32 @@
       "symbol": "S06.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S06.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "VIPR.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VIPRF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "SILVER VIPER MINER. CORP.",
-  "primary_symbol": "S06.MU",
+  "name": "SILVER VIPER MINERALS CORP",
+  "primary_symbol": "CA8283341029.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Silver Viper Minerals Corp. engages in the acquisition and exploration of mineral properties in Mexico. The company holds a 100% interest in the La Virginia Gold-Silver project that comprises six mineral concessions covering an area of 35,598 hectares located in Sonora, Mexico. Silver Viper Minerals Corp. was incorporated in 2016 and is headquartered in Vancouver, Canada.",
+  "summary": "Silver Viper Minerals Corp. is a Canadian mineral exploration company focused on silver and gold projects in Mexico. The company is exploring the La Cobriza & Rubi-Esperanza properties in Sonora, Mexico. The company is based in Vancouver, Canada.",
   "website": "http://www.silverviperminerals.com"
 }

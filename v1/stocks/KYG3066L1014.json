@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000J0Z4R2",
-    "figi": "BBG000J0Z704",
+    "composite_figi": "BBG000N6X2B7",
+    "figi": "BBG000N6X3L4",
     "isin": "KYG3066L1014"
   },
   "industry": "Gas Utilities",
@@ -11,21 +11,6 @@
   "isin": "KYG3066L1014",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XGH.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XNGSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XNGSY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -35,13 +20,28 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "XGH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "XGH.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XNGSF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XNGSY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "ENN Energy Holdings Limited",
-  "primary_symbol": "XGH.MU",
+  "primary_symbol": "2688.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

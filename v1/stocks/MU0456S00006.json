@@ -12,24 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "21L.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "21L.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFMJF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "21L.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "21L.MU"
     },
     {
       "currency": "EUR",
@@ -42,6 +37,11 @@
       "symbol": "AFM.V"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AFMJF"
+    },
+    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "APH.JO"
@@ -51,7 +51,7 @@
   "name": "ALPHAMIN RES CORP.",
   "primary_symbol": "21L.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

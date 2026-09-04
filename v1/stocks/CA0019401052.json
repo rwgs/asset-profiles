@@ -1,6 +1,6 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG00JS9C8V3",
     "cusip": "001940105",
@@ -11,16 +11,6 @@
   "isin": "CA0019401052",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ATO.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ATSAF"
-    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSE",
@@ -33,21 +23,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ATO.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ATO.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ATSAF"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "ATS AUTOMAT. TOOL.SYS INC",
-  "primary_symbol": "ATO.MU",
+  "name": "ATS Automation Tooling Systems Inc.",
+  "primary_symbol": "ATA.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "ATS Automation Tooling Systems Inc. designs, manufactures, and services custom automation and tooling systems. The company provides solutions for a variety of industries including life sciences, transportation, and consumer products. ATS Automation is headquartered in Cambridge, Ontario, Canada.",
+  "summary": "ATS Automation Tooling Systems Inc. provides factory automation solutions worldwide. The company is also involved in the planning, designing, building, commissioning, and servicing automated manufacturing and assembly systems, including automation products and test solutions. Its products include ATS SUPERTRAK, a modular conveyor solution; ATS SUPERTRAK micro transport platform; ATS OmniTrak optimal solution; LogiTrack automated electrified monorail for transporting heavy workloads through assembly operations; sortimat Clearliner, a tray handler for clean room requirement; sortimat Workliner tray handling technology solution; ATS Cortex system, a vision device that reduces integration time with standardized hardware and software; ATS SmartVision software, a PC-based vision system; and Illuminate, a factory floor management system. In addition, the company offers contract manufacturing services; and pre and post automation solutions. Further, it provides engineering design, prototyping, process verification, specification writing, software and manufacturing process controls development, standard automation products/platform, equipment design and build, third-party equipment qualification, procurement and integration, automation system installation, product line commissioning, validation, and documentation services. The company serves life sciences, chemicals, transportation, consumer products, electronics, food and beverage, energy, and oil and gas markets. ATS Automation Tooling Systems Inc. was founded in 1978 and is headquartered in Cambridge, Canada.",
   "website": "http://www.atsautomation.com"
 }

@@ -1,7 +1,9 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Hong Kong",
+  "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000QRNR15",
+    "figi": "BBG000QRNR88",
     "isin": "CNE100000254"
   },
   "industry": "Chemicals",
@@ -10,27 +12,27 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BME.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BME.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BME.MU"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "BEIJING MEDIA CORP.H YC 1",
-  "primary_symbol": "BME.MU",
+  "market_cap_band": "Nano Cap",
+  "name": "Beijing Media Corporation Limited",
+  "primary_symbol": "BME.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
+  "sector": "Materials",
   "summary": "Beijing Media Corporation Limited, together with its subsidiaries, provides newspaper, magazine, and outdoor advertising services in the People's Republic of China. The company operates through Advertising, Printing, Trading of Print-Related Material, and Distribution segments. The Advertising segment sells advertising spaces and outdoor advertising of media. The Printing segment provides printing services. The Trading of Print-Related Material segment sells papers, inks, lubricants, films, pre-coating photosensitive liquid plates, and rubber plates used for printing and other print-related materials. The Distribution segment engages in the distribution of newspapers that are primarily published by Chongqing Youth Daily. In addition, it is involved in the provision of logistics and warehousing services; investment management, travel rental and services, and game development businesses; and the provision of commerce related services. The company was incorporated in 2001 and is based in Central, Hong Kong. Beijing Media Corporation Limited is a subsidiary of Beijing Youth Daily Agency.",
   "website": "http://www.bjmedia.com.cn"
 }

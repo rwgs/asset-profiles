@@ -2,49 +2,50 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG003P9Y6F9",
-    "figi": "BBG003P9Y6M1",
+    "composite_figi": "BBG002S5ZRF9",
+    "cusip": "M85548101",
+    "figi": "BBG002S5ZS03",
     "isin": "IL0011267213"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Transportation",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "IL0011267213",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCY.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCY.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SSYS"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SCY.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SCY.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SCY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SCY.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SCY.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SCY.MU"
     },
     {
       "currency": "EUR",
@@ -59,15 +60,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Stratasys Ltd.",
-  "primary_symbol": "SCY.BE",
+  "primary_symbol": "SSYS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Stratasys Ltd. is a manufacturer of 3D printing systems and materials. The company's technology is used to create prototypes, manufacturing tools, and end parts. The company is headquartered in Rehovot, Israel and Eden Prairie, Minnesota.",
+  "sector": "Information Technology",
+  "summary": "Stratasys Ltd. provides connected and polymer-based 3D printing solutions. It offers 3D printing systems, such as polyjet printers, FDM printers, stereolithography printing systems, and programmable photo polymerization printers for rapid prototyping, such as design validation, visualization, and communication. The company also provides 3D printing materials, including approximately FDM spool-based filament materials, polyjet cartridge-based resin materials, non-color digital materials, and color variations for use in 3D printers and production systems. In addition, it offers GrabCAD Print Platform that offers job programming, scheduling, monitoring, order management, and analytics across various 3D printing technologies. Further, the company operates Thingiverse.com, an online community for sharing downloadable and digital 3D designs; and GrabCAD Community for mechanical engineers, designers, manufacturers, and students. Its products and services are primarily used in the automotive, aerospace, medical, dental, education, and consumer goods markets. The company sells its products through a network of resellers and independent sales agents worldwide. Stratasys Ltd. was incorporated in 1989 and is headquartered in Eden Prairie, Minnesota.",
   "website": "http://www.stratasys.com"
 }

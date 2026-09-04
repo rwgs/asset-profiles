@@ -2,26 +2,16 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000D1RL60",
+    "composite_figi": "BBG00JZ6HYB1",
     "cusip": "820439107",
-    "figi": "BBG000D1RNT1",
+    "figi": "BBG00JZ6HYT2",
     "isin": "CA8204391079"
   },
   "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry_group": "Materials",
   "isin": "CA8204391079",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S9W.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAWLF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -29,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S9W.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "S9W.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SAWLF"
     },
     {
       "currency": "CAD",
@@ -39,16 +39,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Shawcor Ltd.",
-  "primary_symbol": "S9W.BE",
+  "name": "SHAWCOR LTD",
+  "primary_symbol": "CA8204391079.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Shawcor Ltd., an energy services company, provides products and services for the infrastructure, energy, and transportation markets in Canada, the United States, Latin America, Europe, the Middle East, Africa, Russia, and the Asia Pacific. The company operates through three segments: Pipeline and Pipe Services, Composite Systems, and Automotive and Industrial. It provides pipe, insulation, and weight coating systems, as well as custom coating and field joint application services for onshore and offshore pipelines; ultrasonic and radiographic pipeline girth weld inspection services for pipeline operators and construction contractors; non-destructive testing services for oil and gas gathering pipelines and oilfield infrastructure integrity management services; and pipeline engineering and integrity management services to pipeline operators. The company also offers spoolable and stick composite pipe systems; high density polyethylene pipes for use in oil and gas gathering, water disposal, carbon dioxide injection pipelines, and other applications; reinforced plastic underground storage tanks for the retail fuel, water and wastewater, and oil and gas markets; tubular management services, including inventory management systems, mobile and in-plant inspection, and refurbishment and rethreading of drill pipe, and production tubing and casing. In addition, it provides heat-shrinkable products, including tubings, sleeve and molded products, and heat-shrink accessories and equipment; and wires and cables for the control, instrumentation, thermocouple, power, marine, and robotics applications. The company was formerly known as Shaw Industries Ltd. and changed its name to Shawcor Ltd. in 2001. Shawcor Ltd. is headquartered in Toronto, Canada.",
+  "sector": "Materials",
+  "summary": "Shawcor Ltd., operating as Mattr, is a global materials technology company serving critical infrastructure markets. They provide engineered solutions for energy, industrial, and infrastructure projects worldwide, including pipeline management, connection systems, and composite solutions. The company is headquartered in Toronto, Canada.",
   "website": "http://www.shawcor.com"
 }

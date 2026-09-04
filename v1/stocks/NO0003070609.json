@@ -2,44 +2,37 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00LPDRMN4",
-    "figi": "BBG00LPDRMV5",
     "isin": "NO0003070609"
   },
   "industry": "Software",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry_group": "Software & Services",
   "isin": "NO0003070609",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I8X.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I8X.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "IDBA"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IDXAF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "NOK",
       "exchange_mic": "XLON",
       "symbol": "0MTP.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "I8X.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "I8X.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "I8X.MU"
     },
     {
       "currency": "NOK",
@@ -52,22 +45,27 @@
       "symbol": "IDEXO.OL"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IDXAF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0003070609.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "IDEX BIOMETRICS  NK 0,15",
-  "primary_symbol": "I8X.BE",
+  "name": "IDEX BIOMETRICS ASA",
+  "primary_symbol": "IDBA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "IDEX Biometrics ASA develops and sells fingerprint authentication solutions, headquartered in Lysaker, Norway. The company provides fingerprint sensors and biometric solutions for use in various applications, including payment cards, access control devices, and other security devices. Its technology aims to provide secure and convenient authentication.",
+  "summary": "IDEX Biometrics ASA engages in the design, development, and sale of fingerprint identification and authentication solutions in Europe, the Middle East, Africa, the Americas, and Asia. The company offers IDEX Biometrics for the biometrics smart card market, including biometric fingerprint sensors for use in dual interface, contactless only, and contact only smart cards; biometric fingerprint modules for contact based smart cards; and on-card enrollment solutions for remote in-person enrollment. It primarily serves biometric payment card market, as well as offers its products and solutions for other markets, including access control, identification, healthcare, and the Internet of Things. The company was formerly known as Idex ASA and changed its name to IDEX Biometrics ASA in May 2019. IDEX Biometrics ASA was incorporated in 1996 and is headquartered in Oslo, Norway.",
   "website": "http://www.idexbiometrics.com"
 }

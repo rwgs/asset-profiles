@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00YHXXRT7",
-    "figi": "BBG00YHXXRZ0",
+    "figi": "BBG00YHXXRV4",
     "isin": "SE0006510335"
   },
   "industry": "Chemicals",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0CF.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0CF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0CF.MU"
     },
     {
       "currency": "SEK",
@@ -32,11 +32,11 @@
       "symbol": "SE0006510335.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "OrganoClick AB",
-  "primary_symbol": "0CF.MU",
+  "primary_symbol": "0CF.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

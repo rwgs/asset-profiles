@@ -2,8 +2,6 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000RCJ636",
-    "figi": "BBG000RCJ912",
     "isin": "ES0114820113"
   },
   "industry": "Entertainment",
@@ -12,17 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VON.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VON.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0KDD.L"
     },
@@ -33,21 +21,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VON.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VON.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VON.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "VOCENTO",
-  "primary_symbol": "VON.BE",
+  "name": "Vocento, S.A.",
+  "primary_symbol": "0KDD.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "VOCENTO is a Spanish media company engaged in publishing newspapers, magazines, and digital content. They operate various media outlets and provide information and entertainment services. The company is headquartered in Madrid, Spain.",
+  "summary": "Vocento, S.A., together with its subsidiaries, operates as a multimedia communications company in Spain. The company operates through ABC, Regional, Supplements and Magazines, Audiovisual, Classifieds, Gastronomy, and Agency segments. It conducts various activities in the newspapers, supplements, magazines, television, audiovisual production, film distribution, and Internet in the areas of information and entertainment. The company publishes regional newspapers under the El Correo, La Verdad, El Diario Vasco, El Norte de Castilla, El Diario Montañés, Ideal, Sur, Las Prov incias, El Comercio, Hoy, La Rioja, Imprentas locales, Distribución local (Beralán), Agencia de noticias (Colpisa), Comercializadoras locales, and Otras participadas titles; ABC, a national daily newspaper; and supplements comprising XL Semanal and Mujer Hoy, as well as operates Women Now, a women's event and Mujerhoy.com, a website for women. It also operates NET TV channels that broadcasts under the name of Disney Channel and Paramount Channel; operates radio stations; produces and distributes television, radio, and content; offers GELT, an app that offers online coupons and cashback for purchases made in supermarkets; and provides financing services to recently created companies and those in growth with a proven model. In addition, the company operates a network of national classified advertising under the autocasion.com, autoscout24.es, and pisos.com brands. Further, it engages in the press printing and distribution activities; sale of printed and digital advertising and contents; and design of campaigns and organization of food fairs and events. The company was formerly known as Grupo Correo Prensa Española, S.A. and changed its name to Vocento, S.A. in May 2003. Vocento, S.A. was founded in 1854 and is headquartered in Bilbao, Spain.",
   "website": "http://www.vocento.com"
 }

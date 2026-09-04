@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BWYQX5",
-    "figi": "BBG000BWYTN0",
     "isin": "DE0007448508"
   },
   "industry": "Software",
@@ -12,29 +10,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IVU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IVU.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IVU.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0NCA.L"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0007448508.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IVU.BE"
     },
     {
       "currency": "EUR",
@@ -42,8 +30,8 @@
       "symbol": "IVU.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "IVU.DU"
     },
     {
@@ -53,21 +41,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IVU.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IVU.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "IVU.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "IVU TRAFFIC TECHN.AG O.N.",
-  "primary_symbol": "IVU.BE",
+  "name": "IVU Traffic Technologies AG",
+  "primary_symbol": "0NCA.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "IVU Traffic Technologies AG develops, integrates, and operates IT solutions for public transport. Their solutions cover areas such as planning, dispatch, ticketing, and passenger information. The company is headquartered in Berlin, Germany.",
+  "summary": "IVU Traffic Technologies AG develops, installs, maintains, and operates integrated IT solutions for buses and trains worldwide. The company offers IVU.suite and IVU.rail software and hardware systems that create timetables, plan and optimize the deployment of buses and trains, dispatch drivers and vehicles, control and monitor the operation of vehicle fleets, sell tickets, inform passengers, cash up takings, and prepare statistics. It also provides integration, implementation, support, and cloud hosting and maintenance services. The company was founded in 1976 and is headquartered in Berlin, Germany.",
   "website": "http://www.ivu.com"
 }

@@ -2,8 +2,8 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000CF1607",
-    "figi": "BBG000CF2BR6",
+    "composite_figi": "BBG000NMBFT8",
+    "figi": "BBG000NMBGB5",
     "isin": "GB00B17BBQ50"
   },
   "industry": "Capital Markets",
@@ -11,21 +11,6 @@
   "isin": "GB00B17BBQ50",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IVKA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IVKA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IVTJF"
-    },
     {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
@@ -52,8 +37,13 @@
       "symbol": "INVP.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IVKA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "IVKA.DU"
     },
     {
@@ -63,8 +53,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IVKA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "IVKA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IVTJF"
     },
     {
       "currency": "EUR",
@@ -74,15 +74,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Investec plc",
-  "primary_symbol": "IVKA.BE",
+  "primary_symbol": "IBLUSD.JO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Investec PLC is an international financial services group offering investment banking, wealth and investment management and specialist banking services. The company operates primarily in the UK and South Africa. Investec has headquarters in both London and Johannesburg.",
+  "summary": "Investec Group provides various financial products and services in the United Kingdom South Africa, and internationally. The company offers wealth and investment products and services, including portfolio management, discretionary wealth management, financial planning, stockbroking/execution, pensions and retirement, and investment advisory services for private clients, charities, pension funds and trusts. It also provides specialist banking products and services comprising private banking products, such as lending, savings, foreign exchange, private capital, and transactional banking services; corporate and investment banking products, including lending, advisory, hedging, cash deposits and savings, and equity placement services to government, institutions, corporates, and intermediaries. Investec Group was founded in 1974 and is based in Sandton, South Africa.",
   "website": "http://www.investec.com"
 }

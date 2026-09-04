@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BG47K9",
+    "composite_figi": "BBG000BHYT80",
     "cusip": "800677106",
-    "figi": "BBG000BG4CV6",
+    "figi": "BBG000BHZ4D8",
     "isin": "US8006771062"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GBY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GBY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SGMO"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0R1D.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GBY.BE"
     },
     {
       "currency": "EUR",
@@ -38,8 +33,8 @@
       "symbol": "GBY.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "GBY.DU"
     },
     {
@@ -49,15 +44,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GBY.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GBY.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "SANGAMO THERAP.INC.DL-,01",
-  "primary_symbol": "GBY.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Sangamo Therapeutics, Inc.",
+  "primary_symbol": "SGMO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,7 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000NJSGG9",
-    "figi": "BBG000NJSKR8",
+    "figi": "BBG000NJSHT3",
     "isin": "AU000000BOQ8"
   },
   "industry_group": "Banks",
@@ -11,14 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BXZ.MU"
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BXZ.DU"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "BXZ.DU"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BXZ.MU"
     },
     {
       "currency": "EUR",
@@ -27,9 +27,9 @@
     }
   ],
   "name": "Bank of Queensland Limited",
-  "primary_symbol": "BXZ.MU",
+  "primary_symbol": "BXZ.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

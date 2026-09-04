@@ -2,9 +2,8 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG005NTYGV2",
-    "cusip": "82510E209",
-    "figi": "BBG005NTYGV2",
+    "composite_figi": "BBG000FYZNC6",
+    "figi": "BBG000FYZPD0",
     "isin": "ZAE000012084"
   },
   "industry": "Household Durables",
@@ -12,16 +11,6 @@
   "isin": "ZAE000012084",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRGHY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRHGF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -41,13 +30,23 @@
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "SHP.JO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SRGHY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SRHGF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Shoprite Holdings Limited",
-  "primary_symbol": "SRGHY",
+  "primary_symbol": "HY7.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

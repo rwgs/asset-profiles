@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000TT7BJ2",
     "cusip": "11777Q209",
-    "figi": "BBG000TT7DD4",
     "isin": "CA11777Q2099"
   },
   "industry": "Metals & Mining",
@@ -13,28 +11,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5BG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5BG.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BTG"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0QYN.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "5BG.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5BG.DU"
     },
     {
@@ -44,8 +32,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5BG.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "5BG.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "BTG"
     },
     {
       "currency": "MXN",
@@ -60,9 +58,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "B2Gold Corp.",
-  "primary_symbol": "5BG.BE",
+  "primary_symbol": "0QYN.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

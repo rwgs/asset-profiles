@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00RDT2XF1",
+    "composite_figi": "BBG00QDCCSV2",
     "cusip": "46072A202",
-    "figi": "BBG00RDT2XF1",
+    "figi": "BBG00QDCCT13",
     "isin": "CA46072A2020"
   },
   "industry": "Metals & Mining",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IMIMF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "IMCX.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IMIMF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Interra Copper Corp.",
-  "primary_symbol": "IMIMF",
+  "primary_symbol": "IMCX.CN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

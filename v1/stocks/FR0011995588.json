@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00SW913K3",
-    "figi": "BBG00SW913K3",
     "isin": "FR0011995588"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -12,12 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VLTAF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0QW7.L"
     },
@@ -27,6 +20,11 @@
       "symbol": "VLA.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VLTAF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "VLTSA.PA"
@@ -34,9 +32,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Voltalia SA",
-  "primary_symbol": "VLTAF",
+  "primary_symbol": "0QW7.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

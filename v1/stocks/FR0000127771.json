@@ -1,9 +1,8 @@
 {
-  "country": "Brazil",
-  "country_code": "BR",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000R8KKR6",
-    "figi": "BBG000R8KL76",
+    "composite_figi": "BBG000BC0QR3",
     "isin": "FR0000127771"
   },
   "industry_group": "Media & Entertainment",
@@ -11,25 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIV.TI"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000127771.SW"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "VIV.TI"
     }
   ],
   "name": "Vivendi SE",
-  "primary_symbol": "VIV.TI",
+  "primary_symbol": "FR0000127771.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "VIVENDI is a global media, content and communications group. The company operates in several divisions including Canal+ Group, Havas, and Lagardère, producing and distributing audiovisual content, providing communication services and operating publishing activities. Vivendi is headquartered in Paris, France."
+  "summary": "VIVENDI SE is a French media and content group with interests in music, television, publishing, and advertising. The company owns Universal Music Group, Canal+ Group, Havas, and Editis; headquarters are located in Paris, France. Vivendi operates globally in the media and entertainment sectors."
 }

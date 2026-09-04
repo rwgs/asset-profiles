@@ -2,20 +2,15 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG003LXJD17",
-    "figi": "BBG003LXJD62",
+    "composite_figi": "BBG000R1KB82",
+    "figi": "BBG000R1KBN5",
     "isin": "KYG204791043"
   },
   "industry": "Auto Components",
-  "industry_group": "Transportation",
+  "industry_group": "Automobiles & Components",
   "isin": "KYG204791043",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EWC.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,21 +23,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EWC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EWC.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Chaowei Power Holdings Ltd.",
-  "primary_symbol": "EWC.MU",
+  "primary_symbol": "0951.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "CHAOWEI POWER H.RGS HD-01 is a Chinese manufacturer of lead-acid batteries for electric bikes and other applications. The company's products are used in transportation and energy storage. Chaowei Power is based in China.",
+  "sector": "Consumer Discretionary",
+  "summary": "Chaowei Power Holdings Limited, together with its subsidiaries, manufactures and sells lead-acid motive batteries, lithium-ion batteries, and other related products for use in electric bikes, electric tricycles, and special-purpose electric vehicles in the People's Republic of China. The company also manufactures and sells storage batteries; and electrode plate dividing papers and plastic battery cases. In addition, it is involved in the research and development of solar energy generating systems, and durathon batteries, as well as property investment activities. As of December 31, 2020, the company sold its products under the CHILWEE brand through a network of 1,978 independent distributors. Chaowei Power Holdings Limited was founded in 1998 and is headquartered in Changxing, the People's Republic of China.",
   "website": "http://www.chaowei.com.hk"
 }

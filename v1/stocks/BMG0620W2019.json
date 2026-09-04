@@ -2,8 +2,7 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000VMBLG0",
-    "figi": "BBG000VMBLG0",
+    "composite_figi": "BBG000PLZ765",
     "isin": "BMG0620W2019"
   },
   "industry": "Household Products",
@@ -11,11 +10,6 @@
   "isin": "BMG0620W2019",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ACITF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -25,13 +19,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "A2S1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ACITF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Asian Citrus Holdings Limited",
-  "primary_symbol": "ACITF",
+  "primary_symbol": "0073.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

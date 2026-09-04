@@ -2,8 +2,6 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00FGPLWC6",
-    "figi": "BBG00FGPLWK7",
     "isin": "SE0004840718"
   },
   "industry": "Health Care Technology",
@@ -12,19 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3XV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XVIPF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0RKL.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3XV.BE"
     },
     {
       "currency": "EUR",
@@ -37,6 +30,11 @@
       "symbol": "SE0004840718.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XVIPF"
+    },
+    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "XVIVO.ST"
@@ -44,15 +42,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Xvivo Perfusion AB",
-  "primary_symbol": "3XV.BE",
+  "primary_symbol": "0RKL.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "XVIVO PERFUSION AB is a medical technology company specializing in solutions for organ preservation and perfusion. The company develops and markets products used in transplantation to improve the viability and quality of organs. Its headquarters are located in Gothenburg, Sweden.",
+  "summary": "Xvivo Perfusion AB (publ), a medical technology company, develops solutions for organ, tissue, and cell preservation and perfusion in connection with transplantation. The company offers XVIVO Perfusion System (XPS), an integrated off-the-shelf cardiac bypass system that includes various components needed to safely run normothermic ex-vivo lung perfusion (EVLP); XPS Disposable Lung Kit that contains disposables and pre-packed products to suit requirement for sterility; and STEEN Solution, a buffered extracellular solution optimally designed to perfuse the isolated donor lung during EVLP. It also provides Perfadex, a buffered extracellular colloid-based electrolyte preservation solution; Perfadex Plus, an extracellular, low potassium, dextran-based electrolyte preservation solution; XVIVO Silicone Tubing Set for rapid flushing of donor lungs during procurement; and XVIVO LS and XVIVO Disposable Lung Set, a device for EVLP. In addition, the company offers XVIVO Organ Chamber, a single-use sterile disposable container intended to be used as a temporary receptacle for isolated lungs in preparation for eventual transplantation into a recipient; and XVIVO Lung Cannula Set, a single-use, sterile disposable product. Xvivo Perfusion AB (publ) was founded in 1998 and is headquartered in Gothenburg, Sweden.",
   "website": "http://www.xvivoperfusion.com"
 }

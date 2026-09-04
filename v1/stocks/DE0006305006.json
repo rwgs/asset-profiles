@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00HLJ8C39",
-    "figi": "BBG00HLJ8C48",
+    "composite_figi": "BBG000BN8Y58",
+    "figi": "BBG000BN90P9",
     "isin": "DE0006305006"
   },
   "industry": "Machinery",
@@ -11,11 +11,6 @@
   "isin": "DE0006305006",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DEZ.TI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -27,6 +22,9 @@
       "symbol": "DEZ.F"
     },
     {
+      "symbol": "DEZ.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "DEZ.VI"
@@ -34,9 +32,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "DEUTZ Aktiengesellschaft",
-  "primary_symbol": "DEZ.TI",
+  "primary_symbol": "DEZ.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

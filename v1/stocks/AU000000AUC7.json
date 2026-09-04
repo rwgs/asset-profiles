@@ -3,7 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000Q239H5",
-    "figi": "BBG000Q23D40",
+    "figi": "BBG000Q23CR7",
     "isin": "AU000000AUC7"
   },
   "industry": "Metals & Mining",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AU4.BE"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000AUC7.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AU4.BE"
     },
     {
       "currency": "EUR",
@@ -34,15 +34,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Ausgold Limited",
-  "primary_symbol": "AU4.BE",
+  "primary_symbol": "AU000000AUC7.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Ausgold Limited is an Australian exploration and resource development company focused on gold projects. The company is primarily focused on the Katanning Gold Project in Western Australia. Ausgold's headquarter is in Australia.",
+  "summary": "Ausgold Limited is an Australian gold exploration and development company. The company's flagship project is the Katanning Gold Project in Western Australia.",
   "website": "http://www.ausgoldlimited.com"
 }

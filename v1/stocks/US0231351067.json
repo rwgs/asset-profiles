@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BVPV84",
     "cusip": "023135106",
+    "figi": "BBG000BVQ4Z3",
     "isin": "US0231351067"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -12,33 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
+      "symbol": "AMZN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
       "symbol": "0R1O.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "AMZ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMZ.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMZ.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMZ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMZN"
     },
     {
       "currency": "EUR",
@@ -46,14 +33,29 @@
       "symbol": "AMZ.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AMZ.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AMZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AMZ.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AMZ.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AMZ.MU"
     },
     {
       "currency": "EUR",
@@ -76,7 +78,7 @@
       "symbol": "AMZN.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "AMZN.SN"
     },
@@ -86,7 +88,7 @@
       "symbol": "AMZN.VI"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "AMZNC.BA"
     },
@@ -96,7 +98,7 @@
       "symbol": "AMZNCL.SN"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "AMZND.BA"
     },
@@ -108,15 +110,15 @@
   ],
   "market_cap_band": "Mega Cap",
   "name": "Amazon.com, Inc.",
-  "primary_symbol": "0R1O.IL",
+  "primary_symbol": "AMZN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Amazon.com, Inc. is a global e-commerce and cloud computing company that operates a vast online marketplace for retail products and services. The company also provides cloud computing services through Amazon Web Services (AWS), as well as digital content and other offerings. Amazon is headquartered in Seattle, Washington, USA.",
+  "summary": "Amazon.com, Inc. engages in the retail sale of consumer products and subscriptions in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It sells merchandise and content purchased for resale from third-party sellers through physical and online stores. The company also manufactures and sells electronic devices, including Kindle, Fire tablets, Fire TVs, Rings, and Echo and other devices; provides Kindle Direct Publishing, an online service that allows independent authors and publishers to make their books available in the Kindle Store; and develops and produces media content. In addition, it offers programs that enable sellers to sell their products on its websites, as well as its stores; and programs that allow authors, musicians, filmmakers, skill and app developers, and others to publish and sell content. Further, the company provides compute, storage, database, analytics, machine learning, and other services, as well as fulfillment, advertising, publishing, and digital content subscriptions. Additionally, it offers Amazon Prime, a membership program, which provides free shipping of various items; access to streaming of movies and TV episodes; and other services. The company serves consumers, sellers, developers, enterprises, and content creators. Amazon.com, Inc. was founded in 1994 and is headquartered in Seattle, Washington.",
   "website": "http://www.amazon.com"
 }

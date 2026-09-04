@@ -19,11 +19,6 @@
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MTO.MU"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0K10.L"
     },
@@ -49,6 +44,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MTO.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MTO.SG"
     }
@@ -57,7 +57,7 @@
   "name": "Mettler-Toledo International, Inc.",
   "primary_symbol": "MTD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

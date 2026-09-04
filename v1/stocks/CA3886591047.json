@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BSZNT5",
+    "composite_figi": "BBG00MJ3YFX7",
     "cusip": "388659104",
-    "figi": "BBG000BSZNT5",
+    "figi": "BBG00MJ3YG38",
     "isin": "CA3886591047"
   },
   "industry": "Diversified Financial Services",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REGRF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "GBLC.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "REGRF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "New World Solutions Inc.",
-  "primary_symbol": "REGRF",
+  "name": "Graph Blockchain Inc.",
+  "primary_symbol": "GBLC.CN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

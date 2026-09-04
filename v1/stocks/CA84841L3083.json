@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG008F566B2",
+    "composite_figi": "BBG004Z3JRW1",
     "cusip": "84841L308",
-    "figi": "BBG008F566J4",
+    "figi": "BBG004Z3JS86",
     "isin": "CA84841L3083"
   },
   "industry": "Software",
@@ -14,23 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8S3B.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8S3B.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ANY"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ANY.BD"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "8S3B.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +29,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8S3B.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "8S3B.SG"
+    },
+    {
+      "currency": "HUF",
+      "exchange_mic": "XBUD",
+      "symbol": "ANY.BD"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Sphere 3D Corp.",
-  "primary_symbol": "8S3B.BE",
+  "primary_symbol": "ANY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

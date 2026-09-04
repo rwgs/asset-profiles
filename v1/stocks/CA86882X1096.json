@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000D74692",
+    "composite_figi": "BBG000FRD8M7",
     "cusip": "86882X109",
-    "figi": "BBG000D74692",
+    "figi": "BBG000FRFDQ0",
     "isin": "CA86882X1096"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA86882X1096",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NILIF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -31,19 +26,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "NILI.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NILIF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Surge Battery Metals Inc",
-  "primary_symbol": "NILIF",
+  "primary_symbol": "CA86882X1096.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Surge Battery Metals Inc., an exploration stage company, engages in the acquisition, exploration, and development of mineral properties in North America. The company focuses on gold, copper, cobalt, precious metals, and energy metals. It has an option to acquire 60% interests in two principal cobalt properties, including the Teledyne Cobalt property and the Glencore Bucke Cobalt property located in Ontario, Canada. The company also has an option to acquire 100% interest in the Quatse Lake property consist of four mineral claims comprising 1,786 hectares located in British Columbia. in addition, it holds interest in Trapper Lake property consists of 14 mineral claims located in the northern British Columbia. The company was formerly known as Copper Creek Gold Corp. and changed its name to Surge Exploration Inc. in April 2018. Surge Battery Metals Inc. was incorporated in 1987 and is headquartered in Vancouver, Canada.",
+  "summary": "Surge Battery Metals Inc, formerly Western Exploration Inc, explores and develops battery metal projects. It focuses on lithium, nickel, cobalt, and manganese properties. The company is headquartered in Vancouver, British Columbia.",
   "website": "http://surgebatterymetals.com"
 }

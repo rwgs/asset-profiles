@@ -3,7 +3,7 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG00W6W11M4",
-    "figi": "BBG00W6W11S8",
+    "figi": "BBG00W6W11P1",
     "isin": "JP3429300001"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,13 +12,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5F7.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5F7.DU"
     },
     {
@@ -27,16 +22,21 @@
       "symbol": "5F7.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5F7.MU"
+    },
+    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "7550.T"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Zensho Holdings Co., Ltd.",
-  "primary_symbol": "5F7.MU",
+  "primary_symbol": "5F7.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

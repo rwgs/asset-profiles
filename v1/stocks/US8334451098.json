@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG007DHGNJ4",
     "cusip": "833445109",
+    "figi": "BBG00WXXS1W2",
     "isin": "US8334451098"
   },
   "industry": "Software",
@@ -13,27 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "SNOW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
       "symbol": "0A93.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "5Q5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5Q5.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5Q5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNOW"
     },
     {
       "currency": "EUR",
@@ -41,14 +33,24 @@
       "symbol": "5Q5.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5Q5.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5Q5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "5Q5.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5Q5.MU"
     },
     {
       "currency": "BRL",
@@ -78,9 +80,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Snowflake, Inc.",
-  "primary_symbol": "0A93.IL",
+  "primary_symbol": "SNOW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

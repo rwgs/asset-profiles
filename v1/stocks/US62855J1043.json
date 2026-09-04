@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000KNHCY4",
+    "composite_figi": "BBG000D9H9F1",
     "cusip": "62855J104",
-    "figi": "BBG000KNHHW5",
+    "figi": "BBG000D9HMX2",
     "isin": "US62855J1043"
   },
   "industry": "Biotechnology",
@@ -14,28 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MYD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MYD.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MYD.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MYD.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MYGN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MYD.BE"
     },
     {
       "currency": "EUR",
@@ -43,8 +28,8 @@
       "symbol": "MYD.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MYD.DU"
     },
     {
@@ -54,21 +39,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "MYD.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MYD.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MYD.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MYD.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Myriad Genetics, Inc.",
-  "primary_symbol": "MYD.BE",
+  "primary_symbol": "MYGN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Myriad Genetics, Inc. is a molecular diagnostic company offering genetic testing services. The company focuses on providing tests for assessing a person's risk of developing diseases and guiding treatment decisions. Myriad Genetics is headquartered in Salt Lake City, Utah.",
+  "summary": "Myriad Genetics, Inc., a molecular diagnostic company, develops and markets predictive, personalized, and prognostic medicine tests in the United States and internationally. The company offers myRisk Hereditary Cancer, a DNA sequencing test for hereditary cancers; BRACAnalysis, a DNA sequencing test to assess the risk of developing breast and ovarian cancer; and riskScore, a personalized medicine tool. It also provides BRACAnalysis CDx, a DNA sequencing test for use in identifying ovarian and HER2 negative metastatic breast cancer patients with deleterious or suspected deleterious germline; GeneSight, a DNA genotyping test to aid psychotropic drug selection for depressed patients; and Vectra, a protein quantification test for assessing the disease activity of rheumatoid arthritis. In addition, the company offers Foresight, a prenatal test for future parents to assess their risk of passing on a recessive genetic condition to their offspring; Prequel, a non-invasive prenatal screening test to screen for severe chromosomal disorders in a fetus; and Prolaris, a RNA expression test for assessing the aggressiveness of prostate cancer. Further, it provides EndoPredict, a RNA expression test for assessing the aggressiveness of breast cancer; myPath Melanoma, a RNA expression test for diagnosing melanoma; and myChoice CDx, a companion diagnostic to measure three modes of homologous recombination deficiency comprising loss of heterozygosity, telomeric allelic imbalance, and large-scale state transitions in cancer cells. Additionally, the company offers biomarker discovery, and pharmaceutical and clinical services to the pharmaceutical, biotechnology, and medical research industries; and operates an internal medicine emergency hospital primarily for internal medicine and hemodialysis. It has a a strategic collaboration with Illumina, Inc. Myriad Genetics, Inc. was founded in 1991 and is headquartered in Salt Lake City, Utah.",
   "website": "http://myriad.com"
 }

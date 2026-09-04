@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00XNQDD47",
+    "composite_figi": "BBG000LZVJC9",
     "cusip": "745848101",
-    "figi": "BBG00XNQDDB9",
+    "figi": "BBG00S2KZ4Y7",
     "isin": "US7458481014"
   },
   "industry": "Health Care Technology",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4NI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4NI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "LUNG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4NI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "4NI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4NI.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Pulmonx Corp.",
-  "primary_symbol": "4NI.BE",
+  "primary_symbol": "LUNG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Pulmonx Corporation is a medical technology company that provides devices for the treatment of severe emphysema. The company's Zephyr Valve is a minimally invasive device used to improve breathing in patients with severe COPD. Pulmonx is headquartered in Redwood City, California.",
+  "summary": "Pulmonx Corporation, a medical technology company, designs, develops, manufactures, and markets minimally invasive medical devices for the diagnosis and treatment of chronic obstructive pulmonary diseases. It offers Zephyr Endobronchial Valve, a solution for the treatment of bronchoscopic in adult patients with hyperinflation associated with severe emphysema; and Chartis Pulmonary Assessment System, a balloon catheter and console with flow and pressure sensors that are used to assess the presence of collateral ventilation. The company also provides StratX Lung Analysis Platform, a cloud-based quantitative computed tomography analysis service that offers information on emphysema destruction, fissure completeness, and lobar volume to help identify target lobes for the treatment with Zephyr Valves. It serves emphysema patients in the United States, Europe, the Middle East, Africa, the Asia-Pacific, and internationally. The company was formerly known as Pulmonx and changed its name to Pulmonx Corporation in December 2013. Pulmonx Corporation was incorporated in 1995 and is headquartered in Redwood City, California.",
   "website": "http://pulmonx.com"
 }

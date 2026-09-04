@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00JRXLMY7",
-    "figi": "BBG00JRXLMY7",
+    "composite_figi": "BBG007PQF8G8",
+    "figi": "BBG007PQF8H7",
     "isin": "CNE100001TJ4"
   },
   "industry": "Automobiles",
@@ -11,11 +11,6 @@
   "isin": "CNE100001TJ4",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BMCLF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -30,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "2B5.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BMCLF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "BAIC Motor Corporation Limited",
-  "primary_symbol": "BMCLF",
+  "primary_symbol": "1958.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

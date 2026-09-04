@@ -19,16 +19,6 @@
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DG3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DG3.MU"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0HUR.L"
     },
@@ -39,15 +29,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DG3.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DG3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DG3.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Celanese Corporation",
   "primary_symbol": "CE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00LK92F41",
+    "composite_figi": "BBG00L0YTFN8",
     "cusip": "34417P100",
-    "figi": "BBG00LK92FB3",
+    "figi": "BBG00L0Z53S3",
     "isin": "US34417P1003"
   },
   "industry": "Capital Markets",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2JE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2JE.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "FOCS"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2JE.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "2JE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2JE.MU"
     },
     {
       "currency": "EUR",
@@ -39,16 +39,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "FOCUS FIN. PART.A DL-,01",
-  "primary_symbol": "2JE.BE",
+  "name": "FOCUS FINANCIAL PARTNERS INC.",
+  "primary_symbol": "FOCS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Focus Financial Partners Inc. is a partnership of independent, fiduciary wealth management firms. The company provides access to best practices, resources, and continuity planning to its partner firms, which in turn provide wealth management services to their clients. Focus Financial Partners is headquartered in New York, New York.",
+  "summary": "Focus Financial Partners Inc. provides wealth management services to primarily ultra-high and high net worth individuals, families, and business entities. Its wealth management services include investment advice, financial and tax planning, consulting, tax return preparation, family office services, and other services. The company also offers recordkeeping and administration services; recommends financial products through commissions and distribution fees; and sells investment or insurance products. The company was founded in 2006 and is headquartered in New York, New York.",
   "website": "http://focusfinancialpartners.com"
 }

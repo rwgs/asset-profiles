@@ -2,8 +2,6 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000P87BH4",
-    "figi": "BBG000P87BH4",
     "isin": "CNE1000004L9"
   },
   "industry": "Machinery",
@@ -11,36 +9,6 @@
   "isin": "CNE1000004L9",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WEICF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WEICY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WI4.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WI4.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WI4.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WI4.MU"
-    },
     {
       "currency": "CNY",
       "exchange_mic": "XSHE",
@@ -52,14 +20,44 @@
       "symbol": "2338.HK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WEICF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WEICY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "WI4.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "WI4.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "WI4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "WI4.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "WI4.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WI4.MU"
     },
     {
       "currency": "EUR",
@@ -79,9 +77,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Weichai Power Company Ltd.",
-  "primary_symbol": "WEICF",
+  "primary_symbol": "000338.SZ",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

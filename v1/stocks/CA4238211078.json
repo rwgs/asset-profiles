@@ -13,19 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "8OO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8OO.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CBDHF"
     },
     {
       "currency": "EUR",
@@ -34,30 +24,40 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8OO.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA4238211078.SG"
     },
     {
-      "currency": "CAD",
+      "currency": "USD",
       "exchange_mic": "XTSE",
       "symbol": "CBD-U.TO"
     },
     {
-      "currency": "CAD",
+      "currency": "USD",
       "exchange_mic": "XTSE",
       "symbol": "CBD-WTU.TO"
     },
     {
-      "currency": "CAD",
+      "currency": "USD",
       "exchange_mic": "XTSE",
       "symbol": "CBD-WTV.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CBDHF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "HEMPFUSION WELLNES INC.",
   "primary_symbol": "8OO.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

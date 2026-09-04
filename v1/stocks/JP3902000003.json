@@ -3,7 +3,7 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000CZQHF6",
-    "figi": "BBG000CZQKW0",
+    "figi": "BBG000CZQJ71",
     "isin": "JP3902000003"
   },
   "industry": "Air Freight & Logistics",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MIB.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MIB.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MIB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MIB.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Mitsubishi Logistics Corporation",
-  "primary_symbol": "MIB.MU",
+  "primary_symbol": "MIB.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

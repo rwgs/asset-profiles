@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CLVLF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CLVLY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UR9.MU"
     },
     {
       "currency": "AUD",
@@ -36,6 +31,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UR9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UR9.MU"
     },
     {
       "currency": "EUR",
@@ -52,7 +52,7 @@
   "name": "Clinuvel Pharmaceuticals Limited",
   "primary_symbol": "CLVLF",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

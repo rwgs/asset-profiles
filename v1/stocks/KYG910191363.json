@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BYGLX2",
-    "figi": "BBG000BYGLX2",
+    "composite_figi": "BBG000BFMLX6",
+    "figi": "BBG000BFMM91",
     "isin": "KYG910191363"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0732.HK"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "TRUHF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "TRUHY"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "0732.HK"
     },
     {
       "currency": "EUR",
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Truly International Holdings Limited",
-  "primary_symbol": "TRUHF",
+  "primary_symbol": "0732.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

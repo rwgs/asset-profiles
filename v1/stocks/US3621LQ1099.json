@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00GSKV5D9",
+    "composite_figi": "BBG005F1DK91",
     "cusip": "3621LQ109",
-    "figi": "BBG00GSKV5L0",
+    "figi": "BBG00GGMWRZ5",
     "isin": "US3621LQ1099"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G1H.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G1H.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "GTHX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "G1H.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "G1H.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "G1H.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "G1 Therapeutics Inc.",
-  "primary_symbol": "G1H.BE",
+  "primary_symbol": "GTHX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "G1 Therapeutics, Inc. is a biopharmaceutical company focused on the discovery, development, and commercialization of small molecule therapeutics to address unmet needs in oncology; their lead product is trilaciclib, a CDK4/6 inhibitor; the company is headquartered in Research Triangle Park, North Carolina.",
+  "summary": "G1 Therapeutics, Inc., a clinical-stage biopharmaceutical company, engages in the discovery, development, and commercialization of small molecule therapeutics for the treatment of patients with cancer. The company offers COSELA, which helps to decrease chemotherapy-induced myelosuppression in adult patients when administered prior to a platinum/etoposide-containing regimen or topotecan-containing regimen for extensive stage small cell lung cancer. It is also developing trilaciclib, an intravenous cyclin-dependent kinases (CDK) 4/6 inhibitor that is in Phase III clinical trials for patients with first line colorectal cancer, as well as Phase II clinical trials for the treatment of neoadjuvant breast cancer; lerociclib, an oral CDK4/6 inhibitor for multiple oncology indications; and rintodestrant, an oral selective estrogen receptor degrader, which is in Phase IIa clinical trials for the treatment of estrogen receptor-positive and HER2-negative breast cancer. The company has a collaboration with Quantum Leap Healthcare Collaborative to evaluate trilaciclib for neoadjuvant treatment of locally advanced breast cancer; and license agreement with EQRx, Inc. and Genor Biopharma Co. Inc. for the development and commercialization of lerociclib using an oral dosage form to treat any indication in humans, as well as Nanjing Simcere Dongyuan Pharmaceutical Co., LTD. for the development and commercialization of trilaciclib for any indication in humans through parenteral delivery, and ARC Therapeutics for the development and commercialization of a CDK2 inhibitor for all human and veterinary uses. G1 Therapeutics, Inc. was founded in 2008 and is headquartered in Research Triangle Park, North Carolina.",
   "website": "http://www.g1therapeutics.com"
 }

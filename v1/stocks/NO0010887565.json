@@ -3,19 +3,14 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG00XZXKQG9",
-    "figi": "BBG00XZXKQM2",
+    "figi": "BBG00XZXKQL3",
     "isin": "NO0010887565"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
-  "industry_group": "Utilities",
+  "industry_group": "Energy",
   "isin": "NO0010887565",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OW7.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -25,19 +20,24 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "OSUN.OL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OW7.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Ocean Sun AS",
-  "primary_symbol": "OW7.MU",
+  "name": "OCEAN SUN AS",
+  "primary_symbol": "NO0010887565.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Utilities",
-  "summary": "Ocean Sun AS develops floating power system with solar panels. Its system consists of one or multiple floaters anchored side-by-side to build larger power plants, as well as takes local water depth, wave, current, and wind conditions into consideration. The company has a strategic partnership with GCL System Integration. Ocean Sun AS was founded in 2016 and is headquartered Fornebu, Norway with locations in Singapore; Shanghai, China.",
+  "sector": "Energy",
+  "summary": "OCEAN SUN AS is a company that develops and installs floating solar power plants. Their technology allows for the generation of solar energy on water surfaces, such as lakes and fjords. OCEAN SUN AS is headquartered in Oslo, Norway.",
   "website": "http://oceansun.no"
 }

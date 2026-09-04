@@ -3,7 +3,6 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BLQMV9",
-    "figi": "BBG000BLQQJ4",
     "isin": "DE0007276503"
   },
   "industry_group": "Software & Services",
@@ -11,40 +10,40 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YSN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YSN.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YSN.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0007276503.SW"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "YSN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "YSN.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "YSN.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "YSN.MU"
     }
   ],
   "name": "secunet Security Networks AG",
-  "primary_symbol": "YSN.BE",
+  "primary_symbol": "DE0007276503.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Secunet Security AG provides IT security solutions and services. The company specializes in encryption, border security, and e-government applications. The company is headquartered in Essen, Germany."
+  "summary": "secunet Security Networks AG is a leading German provider of high-security IT solutions, developing and implementing solutions for government agencies, businesses, and critical infrastructure operators, headquartered in Essen, Germany. Their offerings include cybersecurity products and services, secure communication solutions, and border control systems. Secunet focuses on protecting sensitive data and ensuring secure IT operations."
 }

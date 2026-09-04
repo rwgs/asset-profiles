@@ -2,9 +2,9 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000BR3MX9",
+    "composite_figi": "BBG000BQ49H7",
     "cusip": "196850101",
-    "figi": "BBG000BR3MX9",
+    "figi": "BBG000BQ4B64",
     "isin": "US1968501015"
   },
   "industry": "Food & Staples Retailing",
@@ -12,16 +12,6 @@
   "isin": "US1968501015",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CUYTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CUYTY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XBRU",
@@ -33,6 +23,16 @@
       "symbol": "COLR.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CUYTF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CUYTY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EFC1.F"
@@ -40,9 +40,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Etn. Fr. Colruyt NV",
-  "primary_symbol": "CUYTF",
+  "primary_symbol": "COLR.BR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

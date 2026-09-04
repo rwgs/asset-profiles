@@ -18,26 +18,6 @@
       "symbol": "TOT"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOTB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOTB.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOTB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTFNF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "FP.PA"
@@ -48,7 +28,7 @@
       "symbol": "FP.VI"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000120271.SW"
     },
@@ -59,12 +39,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TOTB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "TOTB.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TOTB.DU"
     },
     {
@@ -73,16 +58,31 @@
       "symbol": "TOTB.F"
     },
     {
-      "currency": "GBP",
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TOTB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TOTB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "TTA.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TTFNF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "TOTAL SE",
   "primary_symbol": "TOT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

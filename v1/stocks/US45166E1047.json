@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000K68647",
+    "composite_figi": "BBG000BD7F98",
     "cusip": "45166E104",
-    "figi": "BBG000K68647",
+    "figi": "BBG000BD7FW2",
     "isin": "US45166E1047"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,31 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IDKOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IDKOY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "5019.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "I7B.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IDKOF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IDKOY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Idemitsu Kosan Co.,Ltd.",
-  "primary_symbol": "IDKOF",
+  "primary_symbol": "5019.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

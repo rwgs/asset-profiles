@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000JJH794",
+    "composite_figi": "BBG00JVRMXG0",
     "cusip": "95083R100",
-    "figi": "BBG000JJHB95",
+    "figi": "BBG00JVRMXH9",
     "isin": "CA95083R1001"
   },
   "industry": "Metals & Mining",
@@ -13,23 +13,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RKVA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WDOFF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0VOA.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RKVA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "RKVA.DU"
     },
     {
@@ -46,13 +41,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "WDO.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WDOFF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Wesdome Gold Mines Ltd.",
-  "primary_symbol": "RKVA.BE",
+  "primary_symbol": "0VOA.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

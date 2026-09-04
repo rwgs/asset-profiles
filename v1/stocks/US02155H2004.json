@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00D6Q7H84",
+    "composite_figi": "BBG000FXML90",
     "cusip": "02155H200",
-    "figi": "BBG00D6Q7HG5",
+    "figi": "BBG000FXML90",
     "isin": "US02155H2004"
   },
   "industry": "Biotechnology",
@@ -14,33 +14,33 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3G0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3G0.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ALT"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A4C.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3G0.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "3G0.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3G0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3G0.MU"
     },
     {
       "currency": "EUR",
@@ -55,15 +55,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Altimmune, Inc.",
-  "primary_symbol": "3G0.BE",
+  "primary_symbol": "ALT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Altimmune, Inc. is a clinical-stage biopharmaceutical company focused on developing novel peptide-based therapeutics for the treatment of liver disease, obesity and immune modulating therapies. Their pipeline includes product candidates in various stages of development. Altimmune is headquartered in Gaithersburg, Maryland.",
+  "summary": "Altimmune, Inc., a clinical stage biopharmaceutical company, focuses on developing intranasal vaccines, immune modulating therapies, and treatments for liver disease. The company develops AdCOVID, a single-dose intranasal vaccine that is in Phase I clinical trial to protect against COVID-19; T-COVID, an intranasal immune modulating therapeutic candidate, which is in Phase I/II clinical trial to evaluate the potential of T-COVID to prevent clinical worsening in patients with early COVID-19; NasoShield, an anthrax vaccine product candidate that is in a Phase 1b trial; and NasoVAX, a recombinant intranasal vaccine product candidate, which completed Phase IIa clinical trial for the treatment of seasonal and pandemic use. It also focuses on developing ALT-801, a novel peptide-based dual GLP-1/glucagon receptor agonist for the treatment of non-alcoholic steatohepatitis that is in Phase I clinical trial; and HepTcell, an immunotherapeutic product candidate, which is in Phase II clinical trial for patients chronically infected with the hepatitis B virus. Altimmune, Inc. has a collaboration with the University of Alabama at Birmingham for the development of AdCOVID. The company is headquartered in Gaithersburg, Maryland.",
   "website": "http://altimmune.com"
 }

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG001YCX6X7",
-    "figi": "BBG001YCX6X7",
+    "composite_figi": "BBG000P2MVN9",
+    "figi": "BBG000P2MWC9",
     "isin": "KYG781631059"
   },
   "industry": "Machinery",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNYYF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0631.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SNYYF"
     },
     {
       "currency": "EUR",
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Sany Heavy Equipment International Holdings Co.",
-  "primary_symbol": "SNYYF",
+  "primary_symbol": "0631.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

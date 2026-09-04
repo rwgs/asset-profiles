@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000KBRKP1",
+    "composite_figi": "BBG000BT7ZK6",
     "cusip": "835699307",
-    "figi": "BBG000KBRKP1",
+    "figi": "BBG000BT81N7",
     "isin": "US8356993076"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -15,17 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "SNEJF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "SONY"
     },
     {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "6758.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SNEJF"
     },
     {
       "currency": "MXN",
@@ -65,9 +65,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Sony Group Corporation",
-  "primary_symbol": "SNEJF",
+  "primary_symbol": "SONY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

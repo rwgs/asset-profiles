@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009H3K422",
+    "composite_figi": "BBG002Q7J5Z1",
     "cusip": "89400J107",
-    "figi": "BBG009H3K486",
+    "figi": "BBG008FCB177",
     "isin": "US89400J1079"
   },
   "industry": "Professional Services",
@@ -15,17 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "1TU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1TU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TRU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1TU.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +34,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1TU.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "1TU.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "TransUnion",
-  "primary_symbol": "1TU.BE",
+  "primary_symbol": "TRU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

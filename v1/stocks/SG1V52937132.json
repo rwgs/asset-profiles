@@ -2,8 +2,8 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000VKGG25",
-    "figi": "BBG000VKGG25",
+    "composite_figi": "BBG000RQQX92",
+    "figi": "BBG000RQQXQ3",
     "isin": "SG1V52937132"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PRKWF"
-    },
-    {
       "currency": "SGD",
       "exchange_mic": "XSES",
       "symbol": "C2PU.SI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PRKWF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Parkway Life Real Estate Investment Trust",
-  "primary_symbol": "PRKWF",
+  "primary_symbol": "C2PU.SI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

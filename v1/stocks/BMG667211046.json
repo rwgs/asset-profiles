@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG003TQNXF0",
+    "composite_figi": "BBG000BSRN78",
+    "cusip": "G66721104",
+    "figi": "BBG001WVB2M2",
     "isin": "BMG667211046"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -13,20 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "1NC.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1NC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "NCLH"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0UC3.L"
     },
@@ -34,6 +26,16 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1NC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "1NC.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1NC.MU"
     },
     {
       "currency": "EUR",
@@ -58,15 +60,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Norwegian Cruise Line Holdings Ltd.",
-  "primary_symbol": "1NC.HM",
+  "primary_symbol": "NCLH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Norwegian Cruise Line Holdings Ltd. is a global cruise company that operates the Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises brands. The company offers cruise vacations to destinations worldwide. Norwegian Cruise Line Holdings is headquartered in Miami, Florida.",
+  "summary": "Norwegian Cruise Line Holdings Ltd., together with its subsidiaries, operates as a cruise company in the North America, Europe, the Asia-Pacific, and internationally. The company operates the Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises brands. It offers itineraries ranging from three days to a 180-days calling on various locations, including destinations in Scandinavia, Russia, the Mediterranean, the Greek Isles, Alaska, Canada and New England, India and the rest of Asia, Tahiti and the South Pacific, Australia and New Zealand, Africa, South America, the Panama Canal, and the Caribbean. As of December 31, 2020, the company had 28 ships with approximately 59,150 berths. It distributes its products through retail/travel advisor and onboard cruise sales channels, as well as meetings, incentives, and charters. The company was founded in 1966 and is based in Miami, Florida.",
   "website": "http://www.nclhltd.com"
 }

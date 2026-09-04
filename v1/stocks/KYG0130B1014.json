@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG0084H05B6",
-    "figi": "BBG0084H05B6",
+    "composite_figi": "BBG001CDR9M2",
+    "figi": "BBG006Q6WSP0",
     "isin": "KYG0130B1014"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MNNGF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1466.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MNNGF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Baijin Life Science Holdings Limited",
-  "primary_symbol": "MNNGF",
+  "primary_symbol": "1466.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

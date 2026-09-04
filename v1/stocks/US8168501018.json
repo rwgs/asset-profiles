@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GCF712",
+    "composite_figi": "BBG000DBKR53",
     "cusip": "816850101",
-    "figi": "BBG000GCFCS2",
+    "figi": "BBG000DBN4F0",
     "isin": "US8168501018"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SM2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SMTC"
     },
     {
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SM2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SM2.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Semtech Corporation",
-  "primary_symbol": "SM2.MU",
+  "primary_symbol": "SMTC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Semtech Corporation designs, develops, manufactures and markets analog and mixed-signal semiconductor products and advanced algorithms. The company's products are used in a variety of applications including communications, computing, and industrial equipment. Semtech is headquartered in Camarillo, California.",
+  "summary": "Semtech Corporation designs, develops, manufactures, and markets analog and mixed-signal semiconductor products and advanced algorithms. The company provides signal integrity products, including a portfolio of optical data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base station optical transceivers, and high-speed interface applications; and video products for broadcast applications, as well as video-over-IP technology for professional audio video applications. It also offers protection products, such as filter and termination devices that are integrated with the transient voltage suppressor devices, which protect electronic systems from voltage spikes; and wireless and sensing products comprising a portfolio of specialized radio frequency products used in various industrial, medical, and communications applications, as well as specialized sensing products used in industrial and consumer applications. In addition, the company provides power products consisting of switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wireless charging that control, alter, regulate, and condition the power within electronic systems. It serves original equipment manufacturers and their suppliers in the enterprise computing, communications, and consumer and industrial end-markets. The company sells its products directly, as well as through independent sales representative firms and independent distributors in the United States, Europe, and Asia. Semtech Corporation was incorporated in 1960 and is headquartered in Camarillo, California.",
   "website": "http://www.semtech.com"
 }

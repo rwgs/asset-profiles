@@ -2,9 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000C1JG89",
+    "composite_figi": "BBG000BNT8L4",
     "cusip": "739197200",
-    "figi": "BBG000C1JG89",
+    "figi": "BBG000BNT9C2",
     "isin": "US7391972004"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -13,26 +13,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HEH.F"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "HGKGF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "HGKGY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "HEH.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Power Assets Holdings Limited",
-  "primary_symbol": "HGKGF",
+  "primary_symbol": "HEH.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

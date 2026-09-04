@@ -1,32 +1,31 @@
 {
-  "country": "France",
-  "country_code": "FR",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BVVWX7",
-    "figi": "BBG000BVVZ51",
-    "isin": "FR0004050250"
+    "composite_figi": "BBG000Q01295",
+    "cusip": "64190A103",
+    "figi": "BBG000Q01295"
   },
   "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
-  "isin": "FR0004050250",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "NE9.BE"
+      "symbol": "NRO"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NRO"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NE9.BE"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Neurones SA",
-  "primary_symbol": "NE9.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Neuberger Berman Real Estate Securities Income Fund Inc.",
+  "primary_symbol": "NRO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

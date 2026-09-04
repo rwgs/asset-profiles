@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00R02H8D5",
     "cusip": "428103105",
+    "figi": "BBG00R02JCB6",
     "isin": "US4281031058"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,19 +15,19 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "5HMA.MU"
+      "symbol": "HESM"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HESM"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5HMA.MU"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Hess Midstream LP",
-  "primary_symbol": "5HMA.MU",
+  "primary_symbol": "HESM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,7 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000DMD9M8",
     "cusip": "829334200",
-    "figi": "BBG000DMD9M8",
     "isin": "US8293342007"
   },
   "industry": "Machinery",
@@ -13,14 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGTSY"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RH3.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SGTSY"
     },
     {
       "currency": "EUR",
@@ -50,9 +48,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Singulus Technologies AG",
-  "primary_symbol": "SGTSY",
+  "primary_symbol": "0RH3.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

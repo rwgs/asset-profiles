@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JBMVH3",
+    "composite_figi": "BBG000BQX2N3",
     "cusip": "737630103",
-    "figi": "BBG000JBN0B6",
+    "figi": "BBG000BQXCV2",
     "isin": "US7376301039"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P4C.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P4C.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PCH"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "P4C.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "P4C.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US7376301039.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "POTLATCHDELTIC CORP. DL 1",
-  "primary_symbol": "P4C.BE",
+  "name": "POTLATCHDELTIC CORPORATION",
+  "primary_symbol": "PCH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "PotlatchDeltic Corporation is a real estate investment trust (REIT) that owns timberlands and operates wood products manufacturing facilities. The company manages its timberlands sustainably and produces lumber and wood panels. PotlatchDeltic is headquartered in Spokane, Washington.",
+  "summary": "PotlatchDeltic (NASDAQ:PCH) is a leading Real Estate Investment Trust (REIT) that owns 1.8 million acres of timberlands in Alabama, Arkansas, Idaho, Louisiana, Minnesota and Mississippi. Through its taxable REIT subsidiary, the company also operates six sawmills, an industrial-grade plywood mill, a residential and commercial real estate development business and a rural timberland sales program. PotlatchDeltic, a leader in sustainable forest management, is committed to environmental and social responsibility and to responsible governance.",
   "website": "http://www.potlatchdeltic.com"
 }

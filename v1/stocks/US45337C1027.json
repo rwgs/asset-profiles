@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BP5V34",
+    "composite_figi": "BBG000BNPSQ9",
     "cusip": "45337C102",
-    "figi": "BBG000BP5YC8",
+    "figi": "BBG000BNQ132",
     "isin": "US45337C1027"
   },
   "industry": "Biotechnology",
@@ -14,21 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ICY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ICY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "INCY"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0J9P.L"
     },
@@ -38,14 +28,24 @@
       "symbol": "I1NC34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ICY.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ICY.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ICY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ICY.MU"
     },
     {
       "currency": "EUR",
@@ -65,15 +65,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Incyte Corporation",
-  "primary_symbol": "ICY.BE",
+  "primary_symbol": "INCY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Incyte Corporation is a biopharmaceutical company focused on the discovery, development, and commercialization of novel therapeutics, with headquarters in Wilmington, Delaware. The company's lead product, Jakafi (ruxolitinib), is a JAK inhibitor approved for myelofibrosis, polycythemia vera, and acute graft-versus-host disease. Incyte's research and development efforts are focused on hematology/oncology, inflammation, and autoimmunity.",
+  "summary": "Incyte Corporation, a biopharmaceutical company, focuses on the discovery, development, and commercialization of proprietary therapeutics in the United States and internationally. The company offers JAKAFI, a drug for the treatment of myelofibrosis and polycythemia vera cancers; PEMAZYRE, a fibroblast growth factor receptor kinase inhibitor for the treatment of adults; and ICLUSIG, a kinase inhibitor to treat chronic myeloid leukemia and philadelphia-chromosome positive acute lymphoblastic leukemia. Its clinical stage products include ruxolitinib, a drug that is in Phase III clinical trial for steroid-refractory chronic graft-versus-host-diseases (GVHD); itacitinib, which is in Phase III clinical trial to treat naïve chronic GVHD; and pemigatinib that is in Phase II clinical trial for treating bladder cancer, cholangiocarcinoma, 8p11 myeloproliferative syndrome, and Tumor agnostic. In addition, the company engages in developing Parsaclisib, which is in Phase II clinical trial for follicular lymphoma, marginal zone lymphoma, and mantel cell lymphoma. Additionally, the company develops Retifanlimab that is in Phase II clinical trials for MSI-high endometrial cancer, merkel cell carcinoma, and anal cancer, as well as in Phase II clinical trials for patients with non-small cell lung cancer. It has collaboration agreements with Novartis International Pharmaceutical Ltd.; Eli Lilly and Company; Agenus Inc.; Calithera Biosciences, Inc; MacroGenics, Inc.; Merus N.V.; Syros Pharmaceuticals, Inc.; Innovent Biologics, Inc.; Zai Lab Limited; and Cellenkos, Inc., as well as clinical collaborations with MorphoSys AG and Xencor, Inc. to investigate the combination of tafasitamab, plamotamab, and lenalidomide in patients with relapsed or refractory diffuse large B-cell lymphoma, and relapsed or refractory follicular lymphoma. The company was incorporated in 1991 and is headquartered in Wilmington, Delaware.",
   "website": "http://www.incyte.com"
 }

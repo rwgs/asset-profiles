@@ -2,8 +2,9 @@
   "country": "Ireland",
   "country_code": "IE",
   "identifiers": {
-    "composite_figi": "BBG000F51MB9",
-    "figi": "BBG000F51QG5",
+    "composite_figi": "BBG000BJ3PD2",
+    "cusip": "G29183103",
+    "figi": "BBG000BJ3QG7",
     "isin": "IE00B8KQN827"
   },
   "industry": "Machinery",
@@ -14,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "3EC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3EC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ETN"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3EC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "3EC.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3EC.MU"
     },
     {
       "currency": "BRL",
@@ -43,16 +44,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "EATON CORP.PLC  DL -,01",
-  "primary_symbol": "3EC.BE",
+  "name": "Eaton Corp. Plc",
+  "primary_symbol": "ETN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Eaton Corporation plc is a power management company providing energy-efficient solutions. Its electrical products and services are delivered through electrical, aerospace, hydraulics, and vehicle businesses. Eaton Corporation is headquartered in Dublin, Ireland.",
+  "summary": "Eaton Corporation plc operates as a power management company. Its Electrical Americas and Electrical Global segment provides electrical components, industrial components, power distribution and assemblies, residential products, single and three phase power quality products, wiring devices, circuit protection products, utility power distribution products, power reliability equipment, and services in North and South America, as well as hazardous duty electrical, emergency lighting, fire detection, explosion-proof instrumentation, and structural support systems internationally. The company's Hydraulics segment provides pumps, motors, and hydraulic power units; valves, cylinders, and electronic controls; industrial and hydraulic hoses, fittings, assemblies, thermoplastic hose and tubing products, couplings, connectors, and assembly equipment; and industrial drums and disc brakes. Its Aerospace segment offers pumps, motors, hydraulic power units, hoses and fittings, and electro-hydraulic pumps; valves, cylinders, electronic controls, electromechanical actuators, sensors, aircraft flap and slat systems, and nose wheel steering systems; thermoplastic tubing products, fittings, adapters, couplings, and sealing and ducting products; fuel pumps, sensors, valves, and adapters and regulators; and wiring connectors and cables, as well as hydraulic and bag filters, strainers and cartridges, and golf grips. The company's Vehicle segment offers transmissions, clutches, hybrid power systems, superchargers, engine valves and valve actuation systems, cylinder heads, locking and limited slip differentials, transmission controls, and fuel vapor components for the vehicle industry. Its eMobility segment provides voltage inverters, converters, fuses, onboard chargers, circuit protection units, vehicle controls, power distribution systems, fuel tank isolation valves, and commercial vehicle hybrid systems. The company was founded in 1916 and is based in Dublin, Ireland.",
   "website": "http://www.eaton.com"
 }

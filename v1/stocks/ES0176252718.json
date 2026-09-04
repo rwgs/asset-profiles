@@ -2,8 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000PMF462",
-    "figi": "BBG000PMF462",
+    "composite_figi": "BBG000J85HF2",
+    "figi": "BBG000J85J22",
     "isin": "ES0176252718"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,11 +11,6 @@
   "isin": "ES0176252718",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMIZF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -30,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "MEL.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMIZF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Melia Hotels International, S.A.",
-  "primary_symbol": "SMIZF",
+  "primary_symbol": "MEL.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

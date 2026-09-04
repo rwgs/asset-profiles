@@ -2,21 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JC19F5",
+    "composite_figi": "BBG000BSBBP1",
     "cusip": "775711104",
-    "figi": "BBG000JC1D11",
+    "figi": "BBG000BSBD13",
     "isin": "US7757111049"
   },
   "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Consumer Services",
   "isin": "US7757111049",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RLS.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RLS.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RLS.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "ROLLINS INC.  DL 1",
-  "primary_symbol": "RLS.MU",
+  "name": "Rollins, Inc.",
+  "primary_symbol": "ROL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Rollins, Inc. provides pest and termite control services to residential and commercial customers. The company operates through its subsidiaries, including Orkin, PCO, and HomeTeam Pest Defense. Rollins aims to protect homes and businesses from pests and provide exceptional customer service.",
+  "sector": "Consumer Discretionary",
+  "summary": "Rollins, Inc., through its subsidiaries, provides pest and termite control services to residential and commercial customers. It offers protection against termite damage, rodents, and insects to homes and businesses, including hotels, food service establishments, food manufacturers, retailers, and transportation companies. The company also provides pest management and sanitation services and products to the food and commodity industries; consulting services on border protection related to Australia's biosecurity program; and bird control and specialist services, as well as offers specialized services to mining, and oil and gas sectors. In addition, it offers mosquito control, wildlife, lawn care, insulation, and HVAC services. The company serves clients directly, as well as through franchisee operations in the United States, Canada, Australia, Europe, Asia, Central and South America, the Caribbean, the Middle East, and Africa. Rollins, Inc. was incorporated in 1948 and is headquartered in Atlanta, Georgia.",
   "website": "http://www.rollins.com"
 }

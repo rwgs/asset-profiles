@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00GNRK1D0",
+    "composite_figi": "BBG00GCTWDJ3",
     "cusip": "146869102",
-    "figi": "BBG00GNRK1L1",
+    "figi": "BBG00GCTWDM9",
     "isin": "US1468691027"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -15,26 +15,21 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "CV0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CV0.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "CVNA"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A79.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CV0.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CV0.DU"
     },
     {
@@ -44,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CV0.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CV0.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Carvana Co.",
-  "primary_symbol": "CV0.BE",
+  "primary_symbol": "CVNA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

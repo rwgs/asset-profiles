@@ -12,29 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "AUB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AUB.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AUB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LPDNF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AUB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AUB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AUB.MU"
     },
     {
       "currency": "EUR",
@@ -50,13 +45,18 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "LPD.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LPDNF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "LEPIDICO LTD",
   "primary_symbol": "AUB.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -64,5 +64,5 @@
   "schema_version": "1.0.0",
   "sector": "Materials",
   "summary": "Lepidico Ltd is a mineral exploration and development company focused on lithium projects. The company aims to develop a vertically integrated lithium chemical business. Lepidico is headquartered in Perth, Australia.",
-  "website": "http://www.clime.com.au"
+  "website": "http://www.lepidico.com"
 }

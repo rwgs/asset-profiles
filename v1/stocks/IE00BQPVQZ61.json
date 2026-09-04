@@ -1,9 +1,9 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Ireland",
+  "country_code": "IE",
   "identifiers": {
-    "composite_figi": "BBG00369RTV0",
-    "figi": "BBG00369RV09",
+    "composite_figi": "BBG0014FFY08",
+    "figi": "BBG0014FFYM4",
     "isin": "IE00BQPVQZ61"
   },
   "industry": "Pharmaceuticals",
@@ -13,12 +13,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HPR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "HZNP"
     },
     {
@@ -38,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HPR.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HPR.SG"
     },
@@ -48,10 +48,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "HORIZON THERAP.PLC DL-,01",
-  "primary_symbol": "HPR.MU",
+  "name": "Horizon Therapeutics Public Limited Company",
+  "primary_symbol": "HZNP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00HW3DBG4",
+    "composite_figi": "BBG00GTY47G1",
     "cusip": "98260N108",
-    "figi": "BBG00HW3DBG4",
+    "figi": "BBG00GTY47H0",
     "isin": "US98260N1081"
   },
   "industry": "Biotechnology",
@@ -13,26 +13,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2269.HK"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "WXIBF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "WXXWY"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "2269.HK"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "WuXi Biologics (Cayman) Inc.",
-  "primary_symbol": "WXIBF",
+  "primary_symbol": "2269.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

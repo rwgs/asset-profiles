@@ -2,8 +2,8 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000BTPMG0",
-    "figi": "BBG000BTPPH2",
+    "composite_figi": "BBG000BRPP68",
+    "figi": "BBG000BRPPL1",
     "isin": "BE0974259880"
   },
   "industry": "Automobiles",
@@ -12,28 +12,13 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DJDA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIETY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SIEVF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XBRU",
       "symbol": "DIE.BR"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DJDA.DU"
     },
     {
@@ -43,21 +28,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DJDA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DJDA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SIETY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SIEVF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "D'Ieteren Group SA/NV",
-  "primary_symbol": "DJDA.MU",
+  "primary_symbol": "DIE.BR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "D'Ieteren Group is a Belgian group that operates in three businesses: automotive distribution (D'Ieteren Automotive), automotive glass replacement (Belron), and real estate and investment activities (D'Ieteren Immo). The company's headquarter is located in Brussels, Belgium.",
+  "summary": "D'Ieteren SA, operates as an investment company worldwide. The company distributes Volkswagen, Audi, SEAT, ŠKODA, Cupra, Bentley, Lamborghini, Bugatti, and Porsche brand vehicles, as well as its spare parts and accessories; sells used vehicles; and offers maintenance, financing, and leasing services. It also provides vehicle glass repair, replacement, and recalibration services under the Carglass, Safelite, and Autoglass brand names; and manages vehicle glass and other insurance claims on behalf of insurance customers. In addition, the company offers notebooks, planners, writing instruments, bags, and reading accessories, as well as smart writing system and mobile apps. Further, it manages real estate assets, including offices, workshops, concessions, logistics centers, residential units, parking lots, and landbanks; reconverts and redevelops sites; and real estate advice. The company operates through D'Ieteren Automotive, Belron, Moleskine, and D'Ieteren Immo brands. D'Ieteren SA was founded in 1805 and is headquartered in Brussels, Belgium.",
   "website": "http://www.dieterengroup.com"
 }

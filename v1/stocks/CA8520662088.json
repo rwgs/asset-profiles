@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000VJK420",
+    "composite_figi": "BBG000VX8S02",
     "cusip": "852066208",
-    "figi": "BBG000VJK554",
+    "figi": "BBG000VX8SY5",
     "isin": "CA8520662088"
   },
   "industry": "Capital Markets",
@@ -15,12 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "A781.BE"
+      "symbol": "SII"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SII"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "A781.BE"
     },
     {
       "currency": "EUR",
@@ -38,11 +38,11 @@
       "symbol": "SII.TO"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Sprott Inc.",
-  "primary_symbol": "A781.BE",
+  "primary_symbol": "SII",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

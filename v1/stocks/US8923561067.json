@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BS9531",
+    "composite_figi": "BBG000BLXZN1",
     "cusip": "892356106",
-    "figi": "BBG000BS97M6",
+    "figi": "BBG000BLY8F9",
     "isin": "US8923561067"
   },
   "industry": "Specialty Retail",
@@ -14,27 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TR4.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TR4.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TR4.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TR4.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TSCO"
     },
     {
@@ -44,18 +24,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TR4.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "TR4.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TR4.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TR4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TR4.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TR4.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TR4.MU"
     },
     {
       "currency": "EUR",
@@ -70,15 +70,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Tractor Supply Company",
-  "primary_symbol": "TR4.BE",
+  "primary_symbol": "TSCO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Tractor Supply Company operates as a rural lifestyle retailer in the United States. The company offers a wide range of products for farm, ranch, home, and pet needs, including livestock and pet supplies, hardware, tools, clothing, and seasonal items. Tractor Supply Company is headquartered in Brentwood, Tennessee.",
+  "summary": "Tractor Supply Company operates as a rural lifestyle retailer in the United States. The company offers a selection of merchandise, including equine, livestock, pet, and small animal products necessary for their health, care, growth, and containment; hardware, truck, towing, and tool products; seasonal products, such as heating products, lawn and garden items, power equipment, gifts, and toys; work/recreational clothing and footwear; and maintenance products for agricultural and rural use. It provides its products under the 4health, Producer's Pride, American Farmworks, Red Shed, Bit & Bridle, Redstone, Blue Mountain, Retriever, C.E. Schmidt, Ridgecut, Countyline, Royal Wing, Dumor, Strive, Groundwork, Traveller, Huskee, Treeline, JobSmart, TSC Tractor Supply Co, Paws & Claws, and Untamed brands. As of December 26, 2020, it operated 1,923 Tractor Supply and Del's retail stores in 49 states, as well as 182 Petsense stores in 25 states. The company operates its retail stores under the Tractor Supply Company, Del's Feed & Farm Supply, and Petsense names. It also operates websites under the TractorSupply.com and Petsense.com names. The company sells its products to recreational farmers, ranchers, and others, as well as tradesmen and small businesses. The company was founded in 1938 and is based in Brentwood, Tennessee.",
   "website": "http://www.tractorsupply.com"
 }

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000VF8BG1",
-    "figi": "BBG000VF8BG1",
+    "composite_figi": "BBG000PJKK58",
+    "figi": "BBG000PJKKM9",
     "isin": "KYG982771092"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,16 +11,6 @@
   "isin": "KYG982771092",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XTEPY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XTPEF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -30,13 +20,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4QI.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XTEPY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XTPEF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Xtep International Holdings Limited",
-  "primary_symbol": "XTEPY",
+  "primary_symbol": "1368.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000BVCVW1",
-    "figi": "BBG000BVCVW1",
+    "composite_figi": "BBG000BDGJ90",
+    "figi": "BBG000BDGJT8",
     "isin": "SG1T58930911"
   },
   "industry": "Food & Staples Retailing",
@@ -12,34 +12,34 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FNEVF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FNV2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FNV2.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FNV2.HM"
-    },
-    {
       "currency": "SGD",
       "exchange_mic": "XSES",
       "symbol": "F99.SI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FNEVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FNV2.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FNV2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "FNV2.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FNV2.HM"
     },
     {
       "currency": "EUR",
@@ -49,9 +49,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Fraser & Neave Ltd.",
-  "primary_symbol": "FNEVF",
+  "primary_symbol": "F99.SI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005M4Z8Z1",
+    "composite_figi": "BBG0019V9M65",
     "cusip": "875372203",
-    "figi": "BBG005M4Z952",
+    "figi": "BBG0019V9M65",
     "isin": "US8753722037"
   },
   "industry": "Health Care Technology",
@@ -14,27 +14,22 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TD5A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TD5A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TNDM"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0M0F.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TD5A.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TD5A.DU"
     },
     {
@@ -44,21 +39,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TD5A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TD5A.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Tandem Diabetes Care, Inc.",
-  "primary_symbol": "TD5A.BE",
+  "primary_symbol": "TNDM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Tandem Diabetes Care, Inc. is a medical device company that designs, develops, and commercializes insulin pumps and related products for people with diabetes. The company's flagship product is the t:slim X2 insulin pump, which features advanced technology and connectivity. Tandem Diabetes Care is headquartered in San Diego, California.",
+  "summary": "Tandem Diabetes Care, Inc., a medical device company, designs, develops, and commercializes various products for people with insulin-dependent diabetes in the United States. The company's flagship product is the t:slim X2 insulin delivery system, a pump platform that comprises t:slim X2 pump, its 300-unit disposable insulin cartridge, and an infusion set. It also provides t:slim X2 insulin with Basal-IQ and control IQ technology; t:slim X2 with G5 Integration; and Tandem Device Updater, a tool that allows users to update their pump's software. In addition, the company offers t:connect, a web-based data management application, which provides a visual way to display diabetes therapy management data from the pump, continuous glucose monitoring, and supported blood glucose meters for users, their caregivers, and their healthcare providers; and Sugarmate, a mobile app for people with diabetes who use insulin. Its products in development include t:sport insulin delivery system; and connected (mobile) health offerings. Tandem Diabetes Care, Inc. has a development and commercialization agreement with Dexcom, Inc. The company was formerly known as Phluid Inc. and changed its name to Tandem Diabetes Care, Inc. in January 2008. Tandem Diabetes Care, Inc. was incorporated in 2006 and is headquartered in San Diego, California.",
   "website": "http://www.tandemdiabetes.com"
 }

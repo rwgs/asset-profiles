@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00SZVTLJ3",
+    "composite_figi": "BBG00RP60KV0",
     "cusip": "68902V107",
-    "figi": "BBG00SZVTLS3",
+    "figi": "BBG00RP60KZ6",
     "isin": "US68902V1070"
   },
   "industry": "Machinery",
@@ -15,27 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "4PG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4PG.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4PG.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4PG.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "OTIS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4PG.BE"
     },
     {
       "currency": "EUR",
@@ -43,14 +28,29 @@
       "symbol": "4PG.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "4PG.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4PG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "4PG.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "4PG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4PG.MU"
     },
     {
       "currency": "BRL",
@@ -69,16 +69,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "OTIS WORLDWID.CORP DL-,01",
-  "primary_symbol": "4PG.BE",
+  "name": "Otis Worldwide Corporation",
+  "primary_symbol": "OTIS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Otis Worldwide Corporation designs, manufactures, and services elevators, escalators, and moving walkways. The company's products are used in commercial, residential, and industrial buildings worldwide. Otis Worldwide is headquartered in Farmington, Connecticut.",
+  "summary": "Otis Worldwide Corporation manufactures, installs, and services elevators and escalators in the United States, China, and internationally. The company operates through two segments, New Equipment and Service. The New Equipment segment designs, manufactures, sells, and installs a range of passenger and freight elevators, as well as escalators and moving walkways for residential and commercial buildings, and infrastructure projects. The Service segment performs maintenance and repair services, as well as modernization services to upgrade elevators and escalators. The company was founded in 1853 and is headquartered in Farmington, Connecticut.",
   "website": "http://www.otis.com"
 }

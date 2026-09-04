@@ -19,16 +19,6 @@
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GCY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GCY.MU"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0HA5.L"
     },
@@ -39,8 +29,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GCY.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GCY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GCY.MU"
     },
     {
       "currency": "EUR",
@@ -52,7 +52,7 @@
   "name": "Aerojet Rocketdyne Holdings, Inc.",
   "primary_symbol": "AJRD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

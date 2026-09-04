@@ -2,9 +2,9 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000Q3F454",
+    "composite_figi": "BBG000PWNFB0",
     "cusip": "844375105",
-    "figi": "BBG000Q3F454",
+    "figi": "BBG000PWNFX6",
     "isin": "CA8443751059"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA8443751059",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SGQRF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -36,13 +31,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "SGQ.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SGQRF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "SouthGobi Resources Ltd.",
-  "primary_symbol": "SGQRF",
+  "primary_symbol": "1878.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

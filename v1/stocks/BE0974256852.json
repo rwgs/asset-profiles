@@ -2,8 +2,7 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000BPTTL3",
-    "figi": "BBG000BPTZD8",
+    "composite_figi": "BBG000BKZ8W1",
     "isin": "BE0974256852"
   },
   "industry_group": "Food & Staples Retailing",
@@ -11,30 +10,30 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EFC1.BE"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "BE0974256852.SW"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EFC1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "EFC1.DU"
     }
   ],
-  "name": "COLRUYT",
-  "primary_symbol": "EFC1.BE",
+  "name": "COLRUYT SA",
+  "primary_symbol": "BE0974256852.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Colruyt SA is a Belgian retail group engaged in the distribution of food and non-food products. The company operates various store formats, including supermarkets, hypermarkets, and convenience stores. Colruyt is headquartered in Halle, Belgium."
+  "summary": "COLRUYT SA is a Belgian retail corporation engaged in the distribution of food and non-food products in Belgium, France, and Luxembourg, with headquarters in Halle, Belgium. The company operates various store formats, including supermarkets, hypermarkets, and convenience stores, under brands like Colruyt, Okay, and Bio-Planet. Their business model centers on offering competitive prices and a wide assortment of products to consumers."
 }

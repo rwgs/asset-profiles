@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00QDHMYT0",
+    "composite_figi": "BBG00178FZY1",
     "cusip": "30068X103",
-    "figi": "BBG00QDHMYZ3",
+    "figi": "BBG00178FZY1",
     "isin": "US30068X1037"
   },
   "industry": "Biotechnology",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "E08A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "XGN"
     },
     {
@@ -29,15 +24,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "E08A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US30068X1037.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Exagen, Inc.",
-  "primary_symbol": "E08A.MU",
+  "primary_symbol": "XGN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

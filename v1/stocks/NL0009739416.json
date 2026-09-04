@@ -2,9 +2,8 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG00JM7GXZ0",
-    "cusip": "73753A202",
-    "figi": "BBG00JM7GXZ0",
+    "composite_figi": "BBG000BH6SN6",
+    "figi": "BBG000BH6T27",
     "isin": "NL0009739416"
   },
   "industry": "Air Freight & Logistics",
@@ -13,39 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PSTNY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TNTC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TNTC.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TNTC.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TNTC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TNTFF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XAMS",
       "symbol": "PNL.AS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PSTNY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TNTC.BE"
     },
     {
       "currency": "EUR",
@@ -53,8 +32,8 @@
       "symbol": "TNTC.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TNTC.DU"
     },
     {
@@ -64,15 +43,35 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TNTC.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TNTC.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TNTC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TNTC.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TNTFF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "PostNL N.V.",
-  "primary_symbol": "PSTNY",
+  "primary_symbol": "PNL.AS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

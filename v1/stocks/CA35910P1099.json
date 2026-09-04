@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000PXGNT0",
+    "composite_figi": "BBG000C3M022",
     "cusip": "35910P109",
-    "figi": "BBG000PXGR66",
+    "figi": "BBG000C3M1L9",
     "isin": "CA35910P1099"
   },
   "industry": "Metals & Mining",
@@ -12,16 +12,6 @@
   "isin": "CA35910P1099",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HL2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LITOF"
-    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -34,15 +24,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HL2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HL2.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LITOF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Frontier Lithium Inc.",
-  "primary_symbol": "HL2.MU",
+  "primary_symbol": "FL.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

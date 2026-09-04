@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005ZSJX05",
     "cusip": "372427401",
-    "figi": "BBG005ZSJX69",
     "isin": "US3724274010"
   },
   "industry": "Biotechnology",
@@ -14,23 +12,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GBI1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GBI1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "GNCA"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A51.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GBI1.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +32,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GBI1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GBI1.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "GENOCEA BIOSCIENC.DL-,001",
-  "primary_symbol": "GBI1.BE",
+  "name": "GENOCEA BIOSCIENCES INC",
+  "primary_symbol": "GNCA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

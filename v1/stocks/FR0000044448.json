@@ -2,8 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DGZH67",
-    "figi": "BBG000DGZH67",
+    "composite_figi": "BBG000BVCK82",
+    "figi": "BBG000BVCKZ2",
     "isin": "FR0000044448"
   },
   "industry": "Electrical Equipment",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NXPRF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "NEX.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NXPRF"
     },
     {
       "currency": "EUR",
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Nexans S.A.",
-  "primary_symbol": "NXPRF",
+  "primary_symbol": "NEX.PA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

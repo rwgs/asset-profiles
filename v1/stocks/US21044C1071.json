@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00L2NJPT3",
+    "composite_figi": "BBG00KK0CFX9",
     "cusip": "21044C107",
-    "figi": "BBG00L2NJPZ6",
+    "figi": "BBG00KK0CT96",
     "isin": "US21044C1071"
   },
   "industry": "Construction & Engineering",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CQY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ROAD"
     },
     {
@@ -29,15 +24,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CQY.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US21044C1071.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "CONSTRUCTION PART DL-,001",
-  "primary_symbol": "CQY.MU",
+  "name": "Construction Partners, Inc. Class A",
+  "primary_symbol": "ROAD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,9 +1,7 @@
 {
-  "country": "Poland",
-  "country_code": "PL",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000QY2SV8",
-    "figi": "BBG000QY2VK3",
     "isin": "GB0031030819"
   },
   "industry": "Pharmaceuticals",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DVL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DVL.MU"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "APH.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DVL.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DVL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DVL.MU"
     },
     {
       "currency": "EUR",
@@ -39,15 +37,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "ALLIANCE PHARMA PLC",
-  "primary_symbol": "DVL.BE",
+  "primary_symbol": "APH.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Alliance Pharma PLC is a pharmaceutical company that acquires, markets, and distributes established pharmaceutical products and consumer healthcare brands. The company focuses on products with strong brand recognition and growth potential. Alliance Pharma PLC is headquartered in Chippenham, United Kingdom.",
+  "summary": "Alliance Pharma plc operates as a pharmaceutical company in the United Kingdom, Republic of Ireland, Mainland Europe, the United States, and internationally. The company acquires, markets, and distributes consumer healthcare and prescription medicine products. It owns or licenses the rights to approximately 80 pharmaceutical and consumer healthcare products. The company also offers medical devices, food supplements, and cosmetics. In addition, the company provides its products under the Kelo-Cote, Nizoral, MacuShield, Vamousse, Flamma Franchise, Aloclair, Hydromol, Forceval, Optiflo, Oxyplastine, Ashton & Parsons, and Ametop brand names. Alliance Pharma plc was founded in 1996 and is headquartered in Chippenham, the United Kingdom.",
   "website": "http://www.alliancepharmaceuticals.com"
 }

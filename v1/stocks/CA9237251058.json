@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG001CWM909",
+    "composite_figi": "BBG000PL3C78",
     "cusip": "923725105",
-    "figi": "BBG001CWM963",
+    "figi": "BBG000PL3FN3",
     "isin": "CA9237251058"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,27 +15,27 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "CVZ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CVZ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "VET"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CVZ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CVZ.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CVZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CVZ.MU"
     },
     {
       "currency": "EUR",
@@ -50,9 +50,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Vermilion Energy Inc.",
-  "primary_symbol": "CVZ.BE",
+  "primary_symbol": "VET",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

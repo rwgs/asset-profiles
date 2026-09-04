@@ -2,8 +2,9 @@
   "country": "Luxembourg",
   "country_code": "LU",
   "identifiers": {
-    "composite_figi": "BBG00K66GFZ6",
-    "figi": "BBG00K66GG57",
+    "composite_figi": "BBG00HT47FH3",
+    "cusip": "L67359106",
+    "figi": "BBG00HT8NTZ6",
     "isin": "LU1701428291"
   },
   "industry": "Metals & Mining",
@@ -14,12 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "NE0.BE"
+      "symbol": "NEXA"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NEXA"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NE0.BE"
     },
     {
       "currency": "EUR",
@@ -34,9 +35,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Nexa Resources S.A.",
-  "primary_symbol": "NE0.BE",
+  "primary_symbol": "NEXA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

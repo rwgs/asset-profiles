@@ -2,19 +2,16 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG000Q72QF9",
     "cusip": "47759T100",
+    "figi": "BBG000Q72RX7",
     "isin": "US47759T1007"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US47759T1007",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0JOX.IL"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -22,23 +19,8 @@
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZJS1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZJS1.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZJS1.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZJS1.MU"
+      "exchange_mic": "XLON",
+      "symbol": "0JOX.IL"
     },
     {
       "currency": "EUR",
@@ -51,8 +33,13 @@
       "symbol": "JKSN.MX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ZJS1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ZJS1.DU"
     },
     {
@@ -62,21 +49,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ZJS1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ZJS1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ZJS1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ZJS1.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "JINKOSOLAR HOLDING CO LTD JINKO",
-  "primary_symbol": "0JOX.IL",
+  "name": "JinkoSolar Holding Co., Ltd. Sponsored ADR",
+  "primary_symbol": "JKS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "JinkoSolar Holding Co., Ltd. is a global leader in the solar industry, manufacturing and distributing solar products and providing solar solutions and services. Their offerings include silicon wafers, solar cells, solar modules, and complete solar power systems, sold under its own brand. The company is headquartered in Shanghai, China",
+  "summary": "JinkoSolar Holding Co., Ltd., together with its subsidiaries, engages in the design, development, production, and marketing of photovoltaic products. The company offers solar modules, silicon wafers, solar cells, recovered silicon materials, and silicon ingots. It also provides solar system integration services; and develops commercial solar power projects. The company sells its products to distributors, project developers, and system integrators; and utility, commercial, and residential customers under the JinkoSolar brand, as well as on an original equipment manufacturer basis. As of December 31, 2020, it had an integrated annual capacity of 22 gigawatt (GW) for mono wafers; 11 GW for solar cells; and 31 GW for solar modules. The company has operations in the People's Republic of China, the United States, Japan, Germany, the United Kingdom, Chile, South Africa, India, Mexico, Brazil, the United Arab Emirates, Italy, Spain, France, Belgium, and internationally. JinkoSolar Holding Co., Ltd. was founded in 2006 and is based in Shangrao, the People's Republic of China.",
   "website": "http://www.jinkosolar.com"
 }

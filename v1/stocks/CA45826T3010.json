@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00J79MJV1",
+    "composite_figi": "BBG000CFSSL7",
     "cusip": "45826T301",
-    "figi": "BBG00J79MK66",
     "isin": "CA45826T3010"
   },
   "industry": "Metals & Mining",
@@ -13,24 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IRVA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IRVA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ITRG"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA45826T3010.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IRVA.BE"
     },
     {
       "currency": "EUR",
@@ -38,22 +27,32 @@
       "symbol": "IRVA.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IRVA.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "ITR.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "ITRG"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "INTEGRA RES CORP.",
-  "primary_symbol": "IRVA.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "INTEGRA RESOURCES CORP",
+  "primary_symbol": "CA45826T3010.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Integra Resources Corp., a mineral resources company, engages in the acquisition, exploration, and development of mineral properties in the Americas. The company primarily focuses on the development of DeLamar project that consists of DeLamar and Florida Mountain gold and silver deposits comprising 748 unpatented lode, placer, and millsite claims, as well as 16 tax parcels covering an area of approximately 8,100 hectares located in the Owyhee County, south western Idaho. The company was formerly known as Mag Copper Limited and changed its name to Integra Resources Corp. in August 2017. Integra Resources Corp. was incorporated in 1997 and is headquartered in Vancouver, Canada.",
+  "summary": "INTEGRA RESOURCES CORP is a development-stage mining company focused on advancing the DeLamar Project in Idaho, USA, which hosts significant gold and silver resources. The company aims to become a mid-tier precious metals producer. Integra Resources Corp is headquartered in Vancouver, British Columbia.",
   "website": "http://www.integraresources.com"
 }

@@ -2,9 +2,9 @@
   "country": "Korea, Republic of",
   "country_code": "KR",
   "identifiers": {
-    "composite_figi": "BBG000QCSGQ0",
+    "composite_figi": "BBG000QSHJR0",
     "cusip": "38911N206",
-    "figi": "BBG000QCSK72",
+    "figi": "BBG000QSHJR0",
     "isin": "US38911N2062"
   },
   "industry": "Interactive Media & Services",
@@ -14,30 +14,30 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GD8A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GD8A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "GRVY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GD8A.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GD8A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GD8A.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "GRAVITY Co., Ltd.",
-  "primary_symbol": "GD8A.BE",
+  "primary_symbol": "GRVY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

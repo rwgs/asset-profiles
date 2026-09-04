@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00DDQR768",
+    "composite_figi": "BBG000BYPS58",
     "cusip": "50067K100",
-    "figi": "BBG00DDQR7D0",
     "isin": "CA50067K1003"
   },
   "industry": "Metals & Mining",
@@ -13,34 +12,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EUS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EUS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KOREF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA50067K1003.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EUS.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "EUS.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EUS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EUS.MU"
     },
     {
       "currency": "INR",
@@ -51,19 +45,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "KORE.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KOREF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "KORE Mining Ltd.",
-  "primary_symbol": "EUS.BE",
+  "name": "KORE MINING LTD",
+  "primary_symbol": "CA50067K1003.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "KORE Mining Ltd. engages in the exploration, development, and evaluation of mineral resource properties. It primary focuses on two 100% owned gold projects, including the Imperial project that consists of 654 claims covering an area of approximately 5,721 acres located in Imperial County, southeastern California; and the Long Valley gold development project, which comprises 95 mining claims that cover an area of approximately 1,800 acres located in Mono County, east-central California. The company is headquartered in Vancouver, Canada.",
+  "summary": "KORE MINING LTD is a gold exploration and development company focused on advancing its projects in California, USA, and British Columbia, Canada. The company aims to discover and develop significant gold resources. KORE Mining Ltd is headquartered in Vancouver, British Columbia.",
   "website": "http://www.koremining.com"
 }

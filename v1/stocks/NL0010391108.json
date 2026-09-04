@@ -2,8 +2,7 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG00WBMPP23",
-    "figi": "BBG00WBMPP87",
+    "composite_figi": "BBG004HKJY94",
     "isin": "NL0010391108"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -12,24 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P7V.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P7V.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NL0010391108.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "P7V.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "P7V.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "P7V.MU"
     },
     {
       "currency": "CZK",
@@ -39,15 +38,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Photon Energy NV",
-  "primary_symbol": "P7V.BE",
+  "primary_symbol": "NL0010391108.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "PHOTON ENERGY N.V. is a solar power solutions and services company based in the Netherlands. They develop, build, and operate solar power plants and provide related services.",
+  "summary": "Photon Energy N.V. is a global solar energy solutions and services company. The company develops, builds, and operates solar power plants and provides operations and maintenance services. Photon Energy is headquartered in Amsterdam, Netherlands.",
   "website": "http://www.photonenergy.com"
 }

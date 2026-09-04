@@ -2,8 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00R715LP1",
-    "figi": "BBG00R715LP1",
+    "composite_figi": "BBG00FQSRM71",
     "isin": "AU000000BAT1"
   },
   "industry": "Metals & Mining",
@@ -12,21 +11,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BTRYF"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "BAT.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BTRYF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Battery Minerals Limited",
-  "primary_symbol": "BTRYF",
+  "primary_symbol": "BAT.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

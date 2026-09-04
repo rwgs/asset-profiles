@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000D8Y3R4",
+    "composite_figi": "BBG000BMX289",
     "cusip": "191216100",
-    "figi": "BBG000D8Y6N1",
+    "figi": "BBG000BMX4N8",
     "isin": "US1912161007"
   },
   "industry": "Beverages",
@@ -15,32 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "CCC3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCC3.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCC3.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCC3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "COK-U.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "KO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CCC3.BE"
     },
     {
       "currency": "EUR",
@@ -48,14 +28,29 @@
       "symbol": "CCC3.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CCC3.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CCC3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "CCC3.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CCC3.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CCC3.MU"
     },
     {
       "currency": "EUR",
@@ -68,6 +63,10 @@
       "symbol": "COCA34.SA"
     },
     {
+      "currency": "EUR",
+      "symbol": "COK-U.TI"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "KO.BA"
@@ -78,7 +77,7 @@
       "symbol": "KO.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "KO.SN"
     },
@@ -88,7 +87,7 @@
       "symbol": "KO.VI"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "KOC.BA"
     },
@@ -98,22 +97,22 @@
       "symbol": "KOCL.SN"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "KOD.BA"
     }
   ],
   "market_cap_band": "Mega Cap",
   "name": "Coca-Cola Company",
-  "primary_symbol": "CCC3.BE",
+  "primary_symbol": "KO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "The Coca-Cola Company is a beverage company which manufactures, markets, and sells nonalcoholic beverages. Their portfolio includes sparkling soft drinks, flavored and enhanced water, sports drinks, juice, dairy, plant-based beverages, tea and coffee. The company is headquartered in Atlanta, Georgia.",
+  "summary": "The Coca-Cola Company, a beverage company, manufactures, markets, and sells various nonalcoholic beverages worldwide. The company provides sparkling soft drinks; water, enhanced water, and sports drinks; juice, dairy, and plant–based beverages; tea and coffee; and energy drinks. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers, such as restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, Fanta, Fresca, Schweppes, Sprite, Thums Up, Aquarius, Ciel, Dasani, glacéau smartwater, glacéau vitaminwater, Ice Dew, I LOHAS, Powerade, Topo Chico, AdeS, Del Valle, fairlife, innocent, Minute Maid, Minute Maid Pulpy, Simply, Ayataka, Costa, dogadan, FUZE TEA, Georgia, Gold Peak, HONEST TEA, and Kochakaden brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The company was founded in 1886 and is headquartered in Atlanta, Georgia.",
   "website": "http://www.coca-colacompany.com"
 }

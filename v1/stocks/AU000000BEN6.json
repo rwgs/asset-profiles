@@ -3,7 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000NJNHR0",
-    "figi": "BBG000NJPP45",
+    "figi": "BBG000NJPLB6",
     "isin": "AU000000BEN6"
   },
   "industry": "Banks",
@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BDJ.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "BDJ.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BDJ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BDJ.MU"
     },
     {
       "currency": "EUR",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Bendigo & Adelaide Bank Ltd.",
-  "primary_symbol": "BDJ.MU",
+  "primary_symbol": "BDJ.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

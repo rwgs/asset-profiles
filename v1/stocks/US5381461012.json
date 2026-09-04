@@ -14,18 +14,8 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "LPSN"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LPSN.TA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LVO.BE"
     },
     {
       "currency": "MXN",
@@ -33,8 +23,18 @@
       "symbol": "LPSN.MX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "ILS",
+      "exchange_mic": "XTAE",
+      "symbol": "LPSN.TA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LVO.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "LVO.DU"
     },
     {
@@ -52,7 +52,7 @@
   "name": "LivePerson, Inc.",
   "primary_symbol": "LPSN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

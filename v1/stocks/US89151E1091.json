@@ -12,30 +12,30 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XLON",
       "symbol": "0A30.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOTA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTEN"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TOTA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TOTA.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TTEN"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Large Cap",
   "name": "TotalEnergies SE",
   "primary_symbol": "0A30.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -43,5 +43,5 @@
   "schema_version": "1.0.0",
   "sector": "Energy",
   "summary": "TOTALENERGIES SE TOTAL ADR REPS is a broad energy company that produces and markets fuels, natural gas and electricity. It has operations in more than 130 countries and its headquarters is in Courbevoie, France.",
-  "website": "http://www.titanenergyllc.com"
+  "website": "http://www.total.com"
 }

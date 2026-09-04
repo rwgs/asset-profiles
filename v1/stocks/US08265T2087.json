@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00XK3WK71",
+    "composite_figi": "BBG000BMSRR9",
     "cusip": "08265T208",
-    "figi": "BBG00XK3WKF2",
+    "figi": "BBG009ZHB8K2",
     "isin": "US08265T2087"
   },
   "industry": "Software",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BS81.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BS81.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "BSY"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BS81.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "BS81.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BS81.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US08265T2087.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Bentley Systems, Incorporated Class B",
-  "primary_symbol": "BS81.BE",
+  "primary_symbol": "BSY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "BENTLEY SYSTEMS B DL-,01 refers to Bentley Systems, Incorporated, a software development company that supports the infrastructure lifecycle. The company provides software solutions for the design, construction, and operation of infrastructure assets worldwide. Bentley Systems is headquartered in Exton, Pennsylvania.",
+  "summary": "Bentley Systems, Incorporated, together with its subsidiaries, provides infrastructure engineering software solutions in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company offers open modeling and open simulation applications for infrastructure design integration, which include MicroStation, OpenRoads, OpenRail, OpenPlant, OpenBuildings, OpenBridge, OpenSite, OpenWindPower, OpenTower, STAAD and RAM, LEAP and RM, SACS, MOSES, PLAXIS, SITEOPS, AutoPIPE, and LumenRT. It also provides project delivery systems that support collaboration, work-sharing, and 4D construction modeling for infrastructure project delivery enterprises, such as ProjectWise, SYNCHRO, and SYNCHRO ConstructSim, as well as ComplyPro, ProcureWare, Control, and Field. In addition, it offers asset and network performance systems, such as AssetWise ALIM, AssetWise Asset Reliability, AssetWise Enterprise Interoperability, Superload, AssetWise 4D Analytics, AssetWise Linear Analytics, and OpenUtilities. Further, it provides digital cities applications for surveying, reality modeling, planning, and managing the geospatial infrastructure of cities and regions comprising ContextCapture, ContextCapture Insights, OpenCities Planner, OpenCities Map, OpenFlows, OpenGround, LEGION, and CUBE. Additionally, the company provides iTwins design review services, immersive asset services, OpenUtilities digital twin cloud services, and PlantSight. The company serves civil, structural, geotechnical, process engineers, architects, geospatial professionals, city and regional planners, contractors, fabricators, and operations and maintenance engineers. Bentley Systems, Incorporated was incorporated in 1984 and is headquartered in Exton, Pennsylvania.",
   "website": "http://www.bentley.com"
 }

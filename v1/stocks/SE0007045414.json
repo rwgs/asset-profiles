@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00WHNJWL6",
-    "figi": "BBG00WHNJWR0",
+    "figi": "BBG00WHNJWM5",
     "isin": "SE0007045414"
   },
   "industry": "Health Care Technology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5J3.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5J3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5J3.MU"
     },
     {
       "currency": "SEK",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "SciBase Holding AB",
-  "primary_symbol": "5J3.MU",
+  "primary_symbol": "5J3.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

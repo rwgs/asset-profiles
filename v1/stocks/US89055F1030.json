@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009JDMKW7",
+    "composite_figi": "BBG0077VS2C0",
     "cusip": "89055F103",
-    "figi": "BBG009JDML28",
+    "figi": "BBG0077VS2J3",
     "isin": "US89055F1030"
   },
   "industry": "Construction & Engineering",
@@ -15,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "28T.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "28T.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "BLD"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "28T.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "28T.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "28T.MU"
     },
     {
       "currency": "EUR",
@@ -43,11 +43,11 @@
       "symbol": "BLD.MX"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "TopBuild Corp.",
-  "primary_symbol": "28T.BE",
+  "primary_symbol": "BLD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

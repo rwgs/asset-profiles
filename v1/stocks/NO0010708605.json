@@ -2,8 +2,6 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00YVVKKL2",
-    "figi": "BBG00YVVKKS5",
     "isin": "NO0010708605"
   },
   "industry": "Aerospace & Defense",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1H2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1H2.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "NOK",
       "exchange_mic": "XLON",
       "symbol": "0QWR.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1H2.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1H2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1H2.MU"
     },
     {
       "currency": "NOK",
@@ -43,16 +41,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "HAVYARD GROUP ASA",
-  "primary_symbol": "1H2.BE",
+  "name": "Havyard Group ASA",
+  "primary_symbol": "0QWR.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "HAVYARD GROUP ASA is a Norwegian shipbuilding and technology company that designs and builds advanced vessels. They specialize in offshore vessels, ferries, and other specialized ships, also providing related services and technology solutions. TICKER: HAVYARD GROUP ASA is a Norwegian shipbuilding and technology company that designs and builds advanced vessels, specializing in offshore vessels, ferries, and provides related services and technology solutions.",
+  "summary": "Havyard Group ASA primarily engages in shipbuilding, engineering, ship design, and ship equipment businesses worldwide. It operates in five segments: Ship Technology, Design & Solutions, Power & Systems, Fish Handling, and Havyard Production. The Ship Technology segment constructs and repairs offshore vessels, windmill service vessels, live-fish carriers, fishing vessels, and other specialty vessels. The Design & Solutions segment develops, sells, and delivers ship design and engineering, and system packages to yards and shipping companies. The Power & Systems segment manufactures and supplies diesel- and hybrid-electric propulsion systems, including boards, electromechanical products, and automation and safety systems; designs, engineers, and installs electrical systems; and develops and delivers control and automation systems for ships. The Fish Handling segment delivers solutions for handling and cooling of seafood onboard fishing vessels and live fish carriers, and in on-shore plants; and produces, rents, and sells waste machines. The Havyard Production segment hires out personnel; and pre-fabricates steel products, including piping, switchboards, and starters. The company was founded in 1999 and is headquartered in Fosnavåg, Norway.",
   "website": "http://www.havyard.com"
 }

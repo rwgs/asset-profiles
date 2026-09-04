@@ -2,9 +2,9 @@
   "country": "Brazil",
   "country_code": "BR",
   "identifiers": {
-    "composite_figi": "BBG000BLRN46",
+    "composite_figi": "BBG001QQ0RG4",
     "cusip": "29286U107",
-    "figi": "BBG000BLRN46",
+    "figi": "BBG001QQ0RL8",
     "isin": "US29286U1079"
   },
   "industry": "Electric Utilities",
@@ -12,11 +12,6 @@
   "isin": "US29286U1079",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EGIEY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -26,13 +21,18 @@
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "EGIE3.SA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EGIEY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Engie Brasil Energia S.A.",
-  "primary_symbol": "EGIEY",
+  "primary_symbol": "7TE1.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

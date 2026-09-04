@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00T1NLQK1",
+    "composite_figi": "BBG00R712L56",
     "cusip": "08205P100",
-    "figi": "BBG00T1NLQR4",
+    "figi": "BBG00RZSWZ16",
     "isin": "US08205P1003"
   },
   "industry": "Biotechnology",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BJ93.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BJ93.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "BNTC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BJ93.BE"
     },
     {
       "currency": "EUR",
@@ -34,15 +29,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BJ93.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US08205P1003.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Small Cap",
   "name": "Benitec Biopharma Inc.",
-  "primary_symbol": "BJ93.BE",
+  "primary_symbol": "BNTC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000LD0Z09",
     "cusip": "888314606",
-    "figi": "BBG000LD1292",
     "isin": "US8883146065"
   },
   "industry": "Biotechnology",
@@ -14,18 +12,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TN7.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TN7.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TTNP"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TN7.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +27,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TN7.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US8883146065.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "TITAN PHARM.(DEL) DL-,001",
-  "primary_symbol": "TN7.BE",
+  "name": "Titan Pharmaceuticals, Inc.",
+  "primary_symbol": "TTNP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Titan Pharmaceuticals, Inc. is a biopharmaceutical company that develops therapeutics utilizing its ProNeura long-term, continuous drug delivery system. The company is focused on developing products for the treatment of chronic diseases. Titan Pharmaceuticals is based in South San Francisco, California.",
+  "summary": "Titan Pharmaceuticals, Inc., a pharmaceutical company, develops therapeutics for the treatment of chronic diseases. It develops products based on ProNeura, a proprietary long-term drug delivery platform that focuses primarily on the treatment for chronic diseases. The company offers Probuphine implant for the maintenance treatment of opioid use disorder in clinically stable patients in Canada and the European Union. It is also developing kappa opioid agonist peptide program, TP-2021 for use in combination with ProNeura technology for treatment of chronic pruritus; nalmefene implant program for the prevention of opioid relapse following detoxification of patients suffering opioid use disorder; and other programs, including non-clinical evaluation of the ProNeura platform in malaria prophylaxis. Titan Pharmaceuticals, Inc. was incorporated in 1992 and is based in South San Francisco, California.",
   "website": "http://www.titanpharm.com"
 }

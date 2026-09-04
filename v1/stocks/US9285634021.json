@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GNV649",
+    "composite_figi": "BBG000BC9938",
     "cusip": "928563402",
-    "figi": "BBG000GNV9K5",
+    "figi": "BBG000BC9BV2",
     "isin": "US9285634021"
   },
   "industry": "Software",
@@ -15,22 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "BZF1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BZF1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "VMW"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LQO.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BZF1.BE"
     },
     {
       "currency": "EUR",
@@ -38,14 +33,19 @@
       "symbol": "BZF1.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "BZF1.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BZF1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BZF1.MU"
     },
     {
       "currency": "EUR",
@@ -65,15 +65,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "VMWARE LLC",
-  "primary_symbol": "BZF1.BE",
+  "primary_symbol": "VMW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "VMware, Inc. provides cloud computing and virtualization technology and services. Headquartered in Palo Alto, California, VMware's software is used by businesses to virtualize their IT infrastructure, enabling greater efficiency. VMware was acquired by Broadcom Inc. in 2023.",
+  "summary": "VMware, Inc. provides software in the areas of hybrid and multi-cloud, modern applications, networking, security, and digital workspaces in the United States and internationally. It offers VMware multi-cloud solutions, including VMware vSphere, a data center infrastructure that provides the fundamental compute layer and utilizes its hypervisor software, a layer of software that resides between the operating system and system hardware to enable compute virtualization; vSAN and VxRail, which offers holistic data storage and protection options to all applications running on vSphere; and vRealize Cloud Management solutions that manages hybrid and multi-cloud environments running in virtual machines and containers, as well as VMware Cloud Foundation, a hybrid cloud platform that combines its vSphere, vSAN, and NSX with vRealize Cloud Management into an integrated stack and delivers enterprise-ready cloud infrastructure for private and public clouds. The company also provides networking solutions, such as VMware NSX, VMware Service-defined Firewall, VMware SD-WAN, VMware SASE, VMware vRealize Network Insight, and VMware NSX Advanced Load Balancer; digital workspace solutions that comprise Workspace ONE Unified Endpoint Management, Access, and Horizon; and application modernization solutions, such as Tanzu Basic, standard, and advanced edition, Tanzu Application Service, and Tanzu Labs. In addition, it offers intrinsic security solutions consisting of VMware Carbon Black Cloud Endpoint and Workload. The company sells its products through distributors, resellers, system vendors, and systems integrators. VMware, Inc. has strategic alliances with Amazon Web Services to build and deliver an integrated hybrid solution. The company was incorporated in 1998 and is headquartered in Palo Alto, California. VMware, Inc. is a subsidiary of Dell Technologies Inc.",
   "website": "http://www.vmware.com"
 }

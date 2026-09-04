@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG0068KYT57",
-    "figi": "BBG0068KYT57",
+    "composite_figi": "BBG005SDDWT3",
+    "figi": "BBG005SDDWV0",
     "isin": "VGG3375A1194"
   },
   "industry": "Metals & Mining",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FSHRF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1738.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FSHRF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Feishang Anthracite Resources Limited",
-  "primary_symbol": "FSHRF",
+  "primary_symbol": "1738.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

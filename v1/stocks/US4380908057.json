@@ -2,9 +2,7 @@
   "country": "Taiwan, Province of China",
   "country_code": "TW",
   "identifiers": {
-    "composite_figi": "BBG0018Q8BX2",
     "cusip": "438090805",
-    "figi": "BBG0018Q8C60",
     "isin": "US4380908057"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -12,16 +10,6 @@
   "isin": "US4380908057",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HHPD.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HNHPF"
-    },
     {
       "currency": "TWD",
       "exchange_mic": "XTAI",
@@ -36,13 +24,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HHP2.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "HHPD.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HNHPF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Hon Hai Precision Industry Co., Ltd. Sponsored GDR RegS",
-  "primary_symbol": "HHPD.IL",
+  "primary_symbol": "2317.TW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

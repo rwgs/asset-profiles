@@ -1,37 +1,39 @@
 {
-  "country": "Netherlands",
-  "country_code": "NL",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG01CCBKDF7",
+    "composite_figi": "BBG01H7RNK95",
+    "cusip": "37960A578",
+    "figi": "BBG01H7RNK95",
     "isin": "BMG3602E1084"
   },
   "industry": "Machinery",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Capital Goods",
   "isin": "BMG3602E1084",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0R96.IL"
+      "symbol": "FLOW"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FLOW"
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0R96.IL"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Flow Traders Ltd",
-  "primary_symbol": "0R96.IL",
+  "name": "SPX FLOW, Inc.",
+  "primary_symbol": "FLOW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "FLOW TRADERS NV is a global technology-enabled liquidity provider specializing in exchange-traded products (ETPs). The company uses proprietary technology and algorithms to provide liquidity on over 150 trading venues in over 50 countries. Flow Traders NV is headquartered in Amsterdam, Netherlands.",
+  "sector": "Industrials",
+  "summary": "SPX FLOW, Inc., together with its subsidiaries, designs, delivers, and services process technology solutions that perform mixing, blending, fluid handling, separation, thermal heat transfer, and other activities. It operates in two segments, Food and Beverage; and Industrial. The Food and Beverage segment offers homogenizers, pumps, valves, separators, and heat exchangers primarily under the APV, Gerstenberg Schroeder, Seital, and Waukesha Cherry-Burrell brands. The Industrial segment offers air dryers, filtration equipment, mixers, pumps, hydraulic technologies, and heat exchangers primarily under the Airpel, APV, Bolting Systems, Bran+Luebbe, Deltech, Hankison, Jemaco, Johnson Pump, LIGHTNIN, POSI LOCK, Power Team, and Stone brands. This segment primarily serves customers in the chemical, air treatment, mining, pharmaceutical, marine, infrastructure construction, general industrial, and water treatment industries. It serves customers through distributors and independent representatives in the United States, China, Germany, Denmark, France, and internationally. The company was incorporated in 2015 and is headquartered in Charlotte, North Carolina.",
   "website": "http://www.spxflow.com"
 }

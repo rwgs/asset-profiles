@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000D7S0J8",
-    "figi": "BBG000D7T4S9",
+    "composite_figi": "BBG000C6HT37",
+    "figi": "BBG000C6HTJ0",
     "isin": "JP3500610005"
   },
   "industry": "Banks",
@@ -12,28 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DW1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DW1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RSNHF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8308.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DW1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DW1.DU"
     },
     {
@@ -43,21 +33,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DW1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DW1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RSNHF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Resona Holdings, Inc.",
-  "primary_symbol": "DW1.BE",
+  "primary_symbol": "8308.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "RESONA HOLDINGS INC. is a Japanese banking group offering a range of financial services including banking, trust, and real estate services. The company operates primarily in the Kinki region of Japan, providing services to both retail and corporate clients. Resona Holdings is headquartered in Tokyo, Japan.",
+  "summary": "Resona Holdings, Inc., through its subsidiaries, provides banking products and services in Japan and internationally. It operates through Consumer Banking, Corporate Banking, and Market Trading segments. The company engages in the short term lending, borrowing, bond purchase and sale, and derivatives trading activities; and provides various services related to corporate loan, trust asset management, real estate business, corporate pension, and asset succession. It also offers banking and trust banking, credit guarantee, collection of bills and receivables, factoring, and credit card administration and guarantee facilities. In addition, the company is involved in the private equity and financing businesses; and provision of business consulting and investment management, business process outsourcing and placement, general leasing, and system development services. It serves individuals and corporate customers. As of March 31, 2020, the company operated 833 branches. Resona Holdings, Inc. was founded in 1918 and is headquartered in Tokyo, Japan.",
   "website": "http://www.resona-gr.co.jp"
 }

@@ -3,7 +3,7 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG00W6VZXQ5",
-    "figi": "BBG00W6VZXW8",
+    "figi": "BBG00W6VZXS3",
     "isin": "JP3673600007"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,13 +12,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5FA.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5FA.DU"
     },
     {
@@ -27,16 +22,21 @@
       "symbol": "5FA.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5FA.MU"
+    },
+    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8086.T"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "NIPRO Corporation",
-  "primary_symbol": "5FA.MU",
+  "primary_symbol": "5FA.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

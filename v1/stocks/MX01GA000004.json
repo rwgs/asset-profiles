@@ -2,8 +2,6 @@
   "country": "Mexico",
   "country_code": "MX",
   "identifiers": {
-    "composite_figi": "BBG000R8FY47",
-    "figi": "BBG000R8FY47",
     "isin": "MX01GA000004"
   },
   "industry": "Air Freight & Logistics",
@@ -12,21 +10,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GPAEF"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "GAPB.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GPAEF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Grupo Aeroportuario del Pacifico, S.A.B. de C.V.",
-  "primary_symbol": "GPAEF",
+  "primary_symbol": "GAPB.MX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

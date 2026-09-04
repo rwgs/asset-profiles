@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00GQ6M668",
-    "figi": "BBG00X2T59M2",
     "isin": "DE000HAG0005"
   },
   "industry": "Aerospace & Defense",
@@ -12,27 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HAG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HAG.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HAG.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HAG.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0A5S.L"
     },
@@ -43,31 +21,51 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HAG.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "HAG.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HAG.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HAG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HAG.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HAG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HAG.MU"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "HENSOLDT AG INH O.N.",
-  "primary_symbol": "HAG.BE",
+  "name": "HENSOLDT AG",
+  "primary_symbol": "0A5S.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Hensoldt AG is a German sensor solutions provider for defense, security, and aerospace applications. The company develops and manufactures radar systems, electronic warfare systems, and optronics. Hensoldt AG is headquartered in Taufkirchen, Germany.",
+  "summary": "HENSOLDT AG, together with its subsidiaries, provides defense and security electronic sensor solutions worldwide. It offers air surveillance, airborne, ground based, security, naval and coastal, and space radars; identification friend or foe and secure data links; and commercial shipping solutions. The company also provides airborne, vehicle, surveillance, and maritime optronics; space optics; optronic sensor devices; and sights, scopes, and night-vision attachments. In addition, it offers electronic support/SIGINT products, receivers, direction finders, electronic attackers/jammers, self-protection EW software suites and ground support stations, and electronic warfare systems. Further, the company provides avionics, including airborne computing, flight and mission data record management, connectivity mission management/pilot assistance, video management, unmanned, mission planning support, data analysis and evaluation, cloud, and active sensing products and solutions, as well as integrated solutions; and counter UAV solutions, and command and control software products. Additionally, it offers products and system support, simulation, and training services; and antenna, cabling, shelter, and tester solutions. The company is headquartered in Taufkirchen, Germany",
   "website": "http://www.hensoldt.net"
 }

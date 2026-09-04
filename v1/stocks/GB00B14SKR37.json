@@ -2,8 +2,6 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00C0FMF83",
-    "figi": "BBG00C0FMFG4",
     "isin": "GB00B14SKR37"
   },
   "industry": "Capital Markets",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T8Q.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T8Q.MU"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "CMCX.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "T8Q.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "T8Q.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "T8Q.MU"
     },
     {
       "currency": "EUR",
@@ -39,15 +37,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "CMC Markets Plc",
-  "primary_symbol": "T8Q.BE",
+  "primary_symbol": "CMCX.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "CMC MARKETS PLC LS -,25 is a UK-based financial services company providing online trading platforms for spread betting and contracts for difference (CFDs) across various asset classes. The company enables retail and institutional clients to trade currencies, indices, commodities, and shares, and offers educational resources and tools for traders. CMC Markets is headquartered in London, UK.",
+  "summary": "CMC Markets plc, together with its subsidiaries, provides online retail financial services to retail, professional, stockbroking, and institutional clients in Australia, the United Kingdom, and internationally. The company provides its clients with the ability to trade contracts for difference and financial spread betting on a range of underlying shares, indices, foreign currencies, commodities, and treasuries through its trading platform. It also offers Australian clients the opportunity to trade Australian and selected international instruments, including shares, options, managed funds, warrants, and exchange traded funds. In addition, the company provides its clients a range of education opportunities through weekly and monthly webinars and seminars, as well as Trader Development programme, which provides a range of in-platform, on-demand education, and tailored market commentary. CMC Markets plc was founded in 1989 and is headquartered in London, the United Kingdom.",
   "website": "http://www.cmcmarkets.com"
 }

@@ -2,9 +2,9 @@
   "country": "Korea, Republic of",
   "country_code": "KR",
   "identifiers": {
-    "composite_figi": "BBG000BH84Q4",
+    "composite_figi": "BBG000BCBSD2",
     "cusip": "693483109",
-    "figi": "BBG000BH8732",
+    "figi": "BBG000BCBV45",
     "isin": "US6934831099"
   },
   "industry": "Metals & Mining",
@@ -15,22 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "HTU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "PKX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PKX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PKX.MU"
     },
     {
       "currency": "KRW",
@@ -213,6 +198,11 @@
       "symbol": "HTU.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HTU.MU"
+    },
+    {
       "currency": "THB",
       "exchange_mic": "XBKK",
       "symbol": "INOX-R.BK"
@@ -234,8 +224,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PKX.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PKX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PKX.MU"
     },
     {
       "currency": "EUR",
@@ -250,9 +250,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "POSCO",
-  "primary_symbol": "HTU.MU",
+  "primary_symbol": "PKX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

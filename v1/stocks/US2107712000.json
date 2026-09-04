@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000C140W3",
+    "composite_figi": "BBG000BMYXZ0",
     "cusip": "210771200",
-    "figi": "BBG000C140W3",
+    "figi": "BBG002535873",
     "isin": "US2107712000"
   },
   "industry": "Auto Components",
@@ -13,26 +13,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CONA.SG"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CTTAF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CTTAY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CONA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Continental Aktiengesellschaft",
-  "primary_symbol": "CTTAF",
+  "primary_symbol": "CONA.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00V77XJ82",
+    "composite_figi": "BBG00TM0DVY1",
     "cusip": "56086L102",
-    "figi": "BBG00V77XJ82",
     "isin": "CA56086L1022"
   },
   "industry": "Metals & Mining",
@@ -12,16 +11,6 @@
   "isin": "CA56086L1022",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MAKAF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MK0.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -33,21 +22,31 @@
       "symbol": "MAKA.CN"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MAKAF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MK0.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MK0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MK0.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Hardcore Discoveries Ltd.",
-  "primary_symbol": "MAKAF",
+  "name": "MAKARA MINING CORP",
+  "primary_symbol": "CA56086L1022.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

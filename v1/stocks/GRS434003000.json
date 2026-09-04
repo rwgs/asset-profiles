@@ -2,8 +2,8 @@
   "country": "Greece",
   "country_code": "GR",
   "identifiers": {
-    "composite_figi": "BBG000P7JCP2",
-    "figi": "BBG000P7JCP2",
+    "composite_figi": "BBG000QQD1N1",
+    "figi": "BBG000QQD8G4",
     "isin": "GRS434003000"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -12,13 +12,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PUPOF"
-    },
-    {
       "currency": "EUR",
-      "exchange_mic": "XATH",
+      "exchange_mic": "ASEX",
       "symbol": "PPC.AT"
     },
     {
@@ -30,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PU8.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PUPOF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Public Power Corporation S.A.",
-  "primary_symbol": "PUPOF",
+  "primary_symbol": "PPC.AT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

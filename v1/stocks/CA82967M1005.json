@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000W1GCL4",
+    "composite_figi": "BBG000BRHJY0",
     "cusip": "82967M100",
-    "figi": "BBG000W1GCL4",
+    "figi": "BBG000BRHLK0",
     "isin": "CA82967M1005"
   },
   "industry": "Biotechnology",
@@ -13,28 +13,23 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRBCF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZSB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZSB.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "SBM.V"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SRBCF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ZSB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ZSB.DU"
     },
     {
@@ -44,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ZSB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ZSB.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Sirona Biochem Corp.",
-  "primary_symbol": "SRBCF",
+  "primary_symbol": "SBM.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

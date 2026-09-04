@@ -13,24 +13,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "M6J.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M6J.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MGAFF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "M6J.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M6J.MU"
     },
     {
       "currency": "EUR",
@@ -41,13 +36,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "MGA.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MGAFF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Mega Uranium Ltd.",
   "primary_symbol": "M6J.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

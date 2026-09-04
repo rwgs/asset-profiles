@@ -2,8 +2,6 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000D6B1C3",
-    "figi": "BBG000D6B1C3",
     "isin": "CNE1000001V4"
   },
   "industry": "Metals & Mining",
@@ -11,21 +9,6 @@
   "isin": "CNE1000001V4",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ANGGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GNV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GNV.MU"
-    },
     {
       "currency": "CNY",
       "exchange_mic": "XSHE",
@@ -37,9 +20,24 @@
       "symbol": "0347.HK"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ANGGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GNV.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GNV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GNV.MU"
     },
     {
       "currency": "EUR",
@@ -49,9 +47,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Angang Steel Co., Ltd. Class H",
-  "primary_symbol": "ANGGF",
+  "primary_symbol": "000898.SZ",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

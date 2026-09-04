@@ -2,8 +2,6 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG007VDW210",
-    "figi": "BBG007VDW210",
     "isin": "GB00BRJ9BJ26"
   },
   "industry": "Beverages",
@@ -12,14 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FQVTF"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "FEVR.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FQVTF"
     },
     {
       "currency": "EUR",
@@ -34,9 +32,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Fevertree Drinks Plc",
-  "primary_symbol": "FQVTF",
+  "primary_symbol": "FEVR.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

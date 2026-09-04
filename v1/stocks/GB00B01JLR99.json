@@ -3,21 +3,15 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000DFGCF1",
-    "figi": "BBG000DFGCF1",
     "isin": "GB00B01JLR99"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry_group": "Materials",
   "isin": "GB00B01JLR99",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNOCF"
-    },
-    {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B01JLR99.SW"
     },
@@ -35,19 +29,24 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "NANO.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NNOCF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Nanoco Group plc",
-  "primary_symbol": "NNOCF",
+  "name": "NANOCO GROUP PLC",
+  "primary_symbol": "GB00B01JLR99.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Nanoco Group plc, together with its subsidiaries, engages in the research, development, manufacture, and licensing of cadmium and heavy-metal-free quantum dots (CFQD) and semiconductor nanomaterials for use in various commercial applications. The company offers CFQD quantum dots, which are fluorescent semiconductor nanoparticles for OLED and µLED colour conversion, QD-EL, and security tagging applications; CFQD fine color film, an optical film for use in colour conversion applications; HEATWAVE quantum dots for use in the sensor industry applications; copper indium gallium diselenide/sulfide and copper indium diselenide/sulfide nanoparticles for solar spectrum applications; and VIVODOTS nanoparticles for medical and veterinary applications. It has operations in the United Kingdom, rest of Europe, Asia, and the United States. The company was founded in 2001 and is headquartered in Manchester, the United Kingdom.",
+  "sector": "Materials",
+  "summary": "NANOCO GROUP PLC is a materials science company that develops and manufactures quantum dots and other nanomaterials. Their business model involves licensing and supplying their materials to manufacturers of displays, lighting, and other applications, headquartered in Runcorn, UK. The company focuses on improving energy efficiency and color quality.",
   "website": "http://www.nanocotechnologies.com"
 }

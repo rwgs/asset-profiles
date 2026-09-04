@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG012VKB6C6",
+    "composite_figi": "BBG012V1MG52",
     "cusip": "98422E103",
-    "figi": "BBG012VKB6J9",
+    "figi": "BBG012V1P358",
     "isin": "US98422E1038"
   },
   "industry": "Biotechnology",
@@ -14,16 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2B3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "XERS"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A8E.L"
     },
@@ -31,13 +26,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2B3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2B3.MU"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Xeris Pharmaceuticals, Inc.",
-  "primary_symbol": "2B3.MU",
+  "primary_symbol": "XERS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG005806P61",
     "cusip": "05478T207",
-    "figi": "BBG005806P61",
     "isin": "CA05478T2074"
   },
   "industry": "Metals & Mining",
@@ -12,11 +10,6 @@
   "isin": "CA05478T2074",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AZURF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -31,13 +24,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "AAZ.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AZURF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Azincourt Energy Corp.",
-  "primary_symbol": "AZURF",
+  "primary_symbol": "A0U2.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

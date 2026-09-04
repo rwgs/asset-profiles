@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00ZL575X2",
+    "composite_figi": "BBG00W0L8GW3",
     "cusip": "67181A107",
-    "figi": "BBG00ZL57624",
+    "figi": "BBG00W0L8H06",
     "isin": "US67181A1079"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -15,16 +15,11 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "HE6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "OSH"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HE6.DU"
     },
     {
@@ -34,15 +29,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HE6.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US67181A1079.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "OAK STREET HEALTH, INC.",
-  "primary_symbol": "HE6.MU",
+  "primary_symbol": "OSH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

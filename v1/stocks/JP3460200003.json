@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000RHK3J3",
-    "figi": "BBG000RHK624",
+    "composite_figi": "BBG000QDCZ47",
+    "figi": "BBG000QDCZK9",
     "isin": "JP3460200003"
   },
   "industry": "Biotechnology",
@@ -12,13 +12,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TF2.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "4974.T"
     },
     {
@@ -30,19 +25,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TF2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TF2.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Takara Bio Inc.",
-  "primary_symbol": "TF2.MU",
+  "primary_symbol": "4974.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "TAKARA BIO INC. develops, manufactures, and distributes biomedical reagents and instruments, including PCR-related products, gene transfer technologies, and cell culture media. The company also provides custom services for gene synthesis, protein expression, and cell line development. TAKARA BIO INC. is headquartered in Japan.",
+  "summary": "Takara Bio Inc., together with its subsidiaries, operates as a biotechnology company in Japan, the United States, China, other Asia, Europe, and internationally. The company operates through Bioindustry and Gene Therapy segments. It develops research reagents and scientific instruments; and provides contract development and manufacturing organization (CDMO) services for academic and corporate life sciences research and development. The company's CDMO services include contract service for developing regenerative medicine products; related services, such as quality and safety testing, and cell banking; and contract services for supporting genetic analysis and testing comprising human genome sequence analysis, analysis of cancerrelated genes, and intestinal flora analysis, as well as support services for genetic engineering research, such as genome editing using the latest technologies and equipment. It also engages in the development and commercialization of various gene therapies, including oncolytic virus utilizing Canerpaturev, which is an attenuated strain of the herpes simplex virus type 1 that exhibits antitumor activity upon local injection into a tumor due to tumor lysis; siTCR gene therapy, which is in Phase I/II clinical trials for the treatment of synovial sarcoma; and CD19 chimeric antigen receptors that is in Phase I/II clinical trial for the treatment of adult acute lymphoblastic leukemia. Additionally, the company offers RetroNectin for gene therapy. The company was founded in 2002 and is headquartered in Kusatsu, Japan. Takara Bio Inc. is a subsidiary of Takara Holdings Inc.",
   "website": "http://www.takara-bio.com"
 }

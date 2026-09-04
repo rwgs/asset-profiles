@@ -2,8 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BZHCX8",
-    "figi": "BBG000BZHGT4",
+    "composite_figi": "BBG000BBVP39",
+    "cusip": "92937A102",
+    "figi": "BBG000BBVP39",
     "isin": "JE00B8KF9B49"
   },
   "industry": "Diversified Telecommunication Services",
@@ -14,31 +15,16 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0WP.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0WP.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0WPA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "WPP"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WPPGF"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0WP.BE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0WP.DU"
     },
     {
@@ -48,8 +34,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0WP.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "0WP.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0WPA.MU"
     },
     {
       "currency": "BRL",
@@ -60,13 +56,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "WPP.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WPPGF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "WPP plc",
-  "primary_symbol": "0WP.BE",
+  "primary_symbol": "WPP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

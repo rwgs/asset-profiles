@@ -2,8 +2,6 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000D80SW0",
-    "figi": "BBG000D80W60",
     "isin": "GB0006601479"
   },
   "industry": "Software",
@@ -11,11 +9,6 @@
   "isin": "GB0006601479",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RCQ.MU"
-    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -28,15 +21,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RCQ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RCQ.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ONLINE BLOCKCH.PLC LS-,05",
-  "primary_symbol": "RCQ.MU",
+  "name": "ONLINE BLOCKCHAIN PLC",
+  "primary_symbol": "OBC.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

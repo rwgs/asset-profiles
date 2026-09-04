@@ -2,9 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG005Q7GXZ6",
-    "cusip": "23405X209",
-    "figi": "BBG005Q7GXZ6",
+    "composite_figi": "BBG000BNKQL3",
+    "figi": "BBG000BNKQW1",
     "isin": "JP3486800000"
   },
   "industry": "Real Estate Management & Development",
@@ -13,31 +12,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DIFTY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DITTF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "1878.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4D7.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DIFTY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DITTF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Daito Trust Construction Co.,Ltd.",
-  "primary_symbol": "DIFTY",
+  "primary_symbol": "1878.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

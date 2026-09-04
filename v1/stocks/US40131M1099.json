@@ -2,30 +2,25 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00Y79H2R6",
+    "composite_figi": "BBG006D97VY9",
     "cusip": "40131M109",
-    "figi": "BBG00Y79H2Y8",
+    "figi": "BBG00LXPDX04",
     "isin": "US40131M1099"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US40131M1099",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5GH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5GH.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "GH"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "5GH.BE"
     },
     {
       "currency": "EUR",
@@ -33,14 +28,19 @@
       "symbol": "5GH.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5GH.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5GH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5GH.MU"
     },
     {
       "currency": "MXN",
@@ -55,15 +55,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Guardant Health, Inc.",
-  "primary_symbol": "5GH.BE",
+  "primary_symbol": "GH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Guardant Health, Inc. is a precision oncology company focused on developing blood tests for cancer detection and management. Based in Redwood City, California, Guardant Health offers liquid biopsy tests that analyze circulating tumor DNA to identify cancer biomarkers and guide treatment decisions. The company's products support personalized cancer care for patients and healthcare providers.",
+  "summary": "Guardant Health, Inc., a precision oncology company, provides blood tests, data sets, and analytics in the United States and internationally. The company offers Guardant360, Guardant360 CDx, and GuardantOMNI liquid biopsy-based tests for advanced stage cancer; and GuardantINFORM, an in-silico research platform that comprise a clinical-genomic liquid biopsy dataset of advanced cancer patients. It is also developing tests from its LUNAR program for neoadjuvant and adjuvant treatment selection in early-stage cancer patients; LUNAR-2 test for the early detection of cancer in asymptomatic individuals eligible for cancer screening; and GuardantConnect, an integrated software-based solution for clinical and biopharmaceutical customers seeking to connect patients tested with the Guardant360 assay with actionable alterations with potentially relevant clinical trials. In addition, the company offers Guardant Reveal Test for residual disease and recurrence monitoring; Guardant360 tissue genotyping product; and Guardant-19 for use in the detection of the novel coronavirus. Further, it offers development services, including companion diagnostic development and regulatory approval, clinical trial referral, and liquid biopsy testing development and support services to biopharmaceutical companies and medical institutions. Daiichi Sankyo has collaboration with Guardant Health to develop Guardant360 CDx as a companion diagnostic for Enhertu in advanced metastatic non-small cell lung cancer. Guardant Health, Inc. was incorporated in 2011 and is headquartered in Redwood City, California.",
   "website": "http://guardanthealth.com"
 }

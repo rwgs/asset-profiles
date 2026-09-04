@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000PM2N64",
+    "composite_figi": "BBG000PM1PP9",
     "cusip": "898530100",
-    "figi": "BBG000PM2N64",
+    "figi": "BBG000PM1R84",
     "isin": "CA8985301008"
   },
   "industry": "Metals & Mining",
@@ -13,29 +13,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TSDRF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TZO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TZO.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "TSD.V"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TSDRF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TZO.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TZO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TZO.MU"
     },
     {
       "currency": "EUR",
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Tsodilo Resources Limited",
-  "primary_symbol": "TSDRF",
+  "primary_symbol": "TSD.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

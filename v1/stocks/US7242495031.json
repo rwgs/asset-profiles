@@ -2,7 +2,9 @@
   "country": "Greece",
   "country_code": "GR",
   "identifiers": {
+    "composite_figi": "BBG000FM2R93",
     "cusip": "724249503",
+    "figi": "BBG000FM2S19",
     "isin": "US7242495031"
   },
   "industry": "Banks",
@@ -10,16 +12,6 @@
   "isin": "US7242495031",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BPIRF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BPIRY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -36,16 +28,26 @@
       "symbol": "BKPE.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BPIRF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BPIRY"
+    },
+    {
       "currency": "EUR",
-      "exchange_mic": "XATH",
+      "exchange_mic": "ASEX",
       "symbol": "TPEIR.AT"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Piraeus Financial Holdings S.A.",
-  "primary_symbol": "BPIRF",
+  "primary_symbol": "BKP.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

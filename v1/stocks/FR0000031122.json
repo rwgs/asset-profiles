@@ -2,9 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000PMHX66",
-    "cusip": "009119108",
-    "figi": "BBG000PMHX66",
+    "composite_figi": "BBG00M6MSXX7",
+    "figi": "BBG00M6MSXY6",
     "isin": "FR0000031122"
   },
   "industry": "Airlines",
@@ -12,36 +11,6 @@
   "isin": "FR0000031122",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFLYY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFR.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFR.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFRAF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -53,8 +22,18 @@
       "symbol": "AF.PA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AFLYY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AFR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AFR.DU"
     },
     {
@@ -64,8 +43,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AFR.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AFR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AFR.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AFR.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AFRAF"
     },
     {
       "currency": "EUR",
@@ -80,9 +79,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "AIR FRANCE - KLM",
-  "primary_symbol": "AFLYY",
+  "primary_symbol": "AF.MI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

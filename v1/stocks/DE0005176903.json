@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BK7VP9",
-    "figi": "BBG000BK7XX6",
     "isin": "DE0005176903"
   },
   "industry": "Paper & Forest Products",
@@ -12,29 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUR.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUR.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUR.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0HHI.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SUR.BE"
     },
     {
       "currency": "EUR",
@@ -42,8 +25,8 @@
       "symbol": "SUR.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SUR.DU"
     },
     {
@@ -53,21 +36,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SUR.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SUR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SUR.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SUR.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "SURTECO GROUP SE",
-  "primary_symbol": "SUR.BE",
+  "primary_symbol": "0HHI.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "SURTECO GROUP SE manufactures and markets decorative surfaces and technical profiles. The company's products are used in furniture, construction, and automotive industries. SURTECO GROUP SE is headquartered in Buttenwiesen, Germany.",
+  "summary": "Surteco Group SE develops, produces, and sells coated surface materials based on paper and plastic in Germany, rest of Europe, and North and South America. The company operates through Decoratives, Profiles, and Technicals segments. The Decoratives segment offers decor papers, finish foils, and edgebandings. The Profiles segment provides floor strips, skirtings, wall edging systems, and technical extrusions for a range of industrial applications. The Technicals segment offers impregnated products, surface coatings, multi-layer hybrid foils, finish foils based on plastic, and technical plastic foils for other industrial sectors and for further processing to form carpets. It serves the wood-based, flooring, door and furniture, interior design, construction, trade floorlayers, and caravan industries, as well as carpenters and artisan businesses. The company was formerly known as Surteco SE and changed its name to Surteco Group SE in July 2018. Surteco Group SE is based in Buttenwiesen, Germany.",
   "website": "http://www.surteco-group.com"
 }

@@ -14,16 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CAKE"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CF2.MU"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0A5B.L"
     },
@@ -33,14 +28,19 @@
       "symbol": "CAKE.MX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CF2.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CF2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CF2.MU"
     },
     {
       "currency": "EUR",
@@ -52,7 +52,7 @@
   "name": "Cheesecake Factory Incorporated",
   "primary_symbol": "CAKE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

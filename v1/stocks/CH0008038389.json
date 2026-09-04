@@ -2,8 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000CPYTT8",
-    "figi": "BBG000CPYTT8",
+    "composite_figi": "BBG000CGWPH1",
+    "figi": "BBG0075ZQ985",
     "isin": "CH0008038389"
   },
   "industry": "Real Estate Management & Development",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWPRF"
-    },
-    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "SPSN.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SWPRF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Swiss Prime Site AG",
-  "primary_symbol": "SWPRF",
+  "primary_symbol": "SPSN.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

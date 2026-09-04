@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG007QLJCX6",
+    "composite_figi": "BBG001NFKJ68",
     "cusip": "64829B100",
-    "figi": "BBG007QLJD37",
+    "figi": "BBG007HY5FJ2",
     "isin": "US64829B1008"
   },
   "industry": "Software",
@@ -15,32 +15,32 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "2NR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2NR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "NEWR"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0K79.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2NR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "2NR.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2NR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2NR.MU"
     },
     {
       "currency": "EUR",
@@ -55,15 +55,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "NEW RELIC, INC.",
-  "primary_symbol": "2NR.BE",
+  "primary_symbol": "NEWR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "New Relic, Inc. is a software analytics company that provides a cloud-based platform for monitoring the performance of web and mobile applications. The company's platform enables developers and operations teams to identify and resolve performance issues in real-time. New Relic is headquartered in San Francisco, California.",
+  "summary": "New Relic, Inc., a software-as-a-service company, provides platform that companies use to build, develop, and operate their digital businesses worldwide. It offers a suite of products on its open and extensible cloud-based platform, New Relic One Platform, which enables users to collect, store, and analyze telemetry data flowing through and about their software. It provides prebuilt dashboards and visualizations, as well as the ability to search across data types, create customized dashboards, and build applications that can be shared and customized by other users. The company offers customers with software code to add to their applications and infrastructure; open data application performance interfaces, and software development kits, as well as open source connectors and technologies for customers, partners, and third-party developers to extend its platform into their products; cloud-based architecture and big data database; and New Relic Application Performance Monitoring, Mobile, Browser, Synthetics, Infrastructure, and Insights products for analyzing data. It also provides New Relic chart builder, dashboards, and programmability features that allow customers to use connected data to build visuals; New Relic Applied Intelligence to spot abnormal behavior across billions of pieces of data; and New Relic Alerts, which provides a centralized notification system. It sells its products through direct sales organizations, and online and offline sales. The company was founded in 2007 and is headquartered in San Francisco, California.",
   "website": "http://www.newrelic.com"
 }

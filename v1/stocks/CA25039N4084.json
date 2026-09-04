@@ -4,7 +4,6 @@
   "identifiers": {
     "composite_figi": "BBG000C2Q0T1",
     "cusip": "25039N408",
-    "figi": "BBG000C2Q0T1",
     "isin": "CA25039N4084"
   },
   "industry": "Metals & Mining",
@@ -12,21 +11,6 @@
   "isin": "CA25039N4084",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DAUGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "QXR2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "QXR2.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -38,22 +22,37 @@
       "symbol": "DAU.V"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DAUGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "QXR2.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "QXR2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "QXR2.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Desert Gold Ventures Inc.",
-  "primary_symbol": "DAUGF",
+  "primary_symbol": "CA25039N4084.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Desert Gold Ventures Inc., an exploration stage company, engages in the acquisition, exploration, and development of mineral resource properties. It explores for gold ores. The company's flagship project is the Senegal Mali Shear Zone project covering an area of 410 square kilometers in Western Mali. It holds interest in the Byumba exploration permit located to the north of the capital city of Kigali, Rwanda; holds interest in the Djimbala project; and the Farabantourou and Segala Ouest projects located in Mali. The company has option agreements to acquire interests in the Sebessounkoto Sud and Djelimangara gold project located in Western Mali. Desert Gold Ventures Inc. is headquartered in Delta, Canada.",
+  "summary": "DESERT GOLD VENTURES INC is a gold exploration company focused on projects in West Africa. The company seeks to discover and develop gold deposits in prospective regions. Desert Gold Ventures is based in Vancouver, British Columbia, Canada.",
   "website": "http://www.desertgold.ca"
 }

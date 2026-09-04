@@ -3,7 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG00XP6SDL4",
-    "figi": "BBG00XP6SDS7",
+    "figi": "BBG00XP6SDN2",
     "isin": "KYG4783B1032"
   },
   "industry": "Biotechnology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "33C.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "33C.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "33C.MU"
     },
     {
       "currency": "HKD",
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "InnoCare Pharma Ltd.",
-  "primary_symbol": "33C.MU",
+  "primary_symbol": "33C.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

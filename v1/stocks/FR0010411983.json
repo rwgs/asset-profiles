@@ -2,9 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BLCNG9",
-    "cusip": "80917Q106",
-    "figi": "BBG000BLCNG9",
+    "composite_figi": "BBG000DZ5L87",
+    "figi": "BBG000DZ5LK3",
     "isin": "FR0010411983"
   },
   "industry": "Insurance",
@@ -13,29 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCRYY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SDRC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SDRC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SZCRF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "SCR.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SCRYY"
     },
     {
       "currency": "EUR",
@@ -43,8 +27,13 @@
       "symbol": "SDRB.F"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SDRC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SDRC.DU"
     },
     {
@@ -54,15 +43,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SDRC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SDRC.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SZCRF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "SCOR SE",
-  "primary_symbol": "SCRYY",
+  "primary_symbol": "SCR.PA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -17,19 +17,14 @@
       "symbol": "IX"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OIX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ORXCF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8591.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OIX.BE"
     },
     {
       "currency": "EUR",
@@ -45,13 +40,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "OIXA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ORXCF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "ORIX Corp.",
   "primary_symbol": "IX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

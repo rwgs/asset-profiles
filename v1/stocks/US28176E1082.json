@@ -18,21 +18,6 @@
       "symbol": "EW"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EWL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EWL.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EWL.TI"
-    },
-    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "E1WL34.SA"
@@ -44,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EWL.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "EWL.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "EWL.DU"
     },
     {
@@ -59,8 +49,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EWL.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EWL.SG"
+    },
+    {
+      "symbol": "EWL.TI"
     },
     {
       "currency": "EUR",
@@ -72,7 +70,7 @@
   "name": "Edwards Lifesciences Corporation",
   "primary_symbol": "EW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

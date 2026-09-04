@@ -2,35 +2,33 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009HT3M24",
     "cusip": "02083G100",
-    "figi": "BBG009HT3M88",
     "isin": "US02083G1004"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry": "Biotechnology",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US02083G1004",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "34LA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "34LA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ALPN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "34LA.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "34LA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "34LA.MU"
     },
     {
       "currency": "EUR",
@@ -44,16 +42,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "ALPINE IMMUNE SCI.DL-,001",
-  "primary_symbol": "34LA.BE",
+  "name": "Alpine Immune Sciences, Inc.",
+  "primary_symbol": "ALPN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "ALPINE IMMUNE SCI.DL-,001",
+  "sector": "Health Care",
+  "summary": "Alpine Immune Sciences, Inc., a clinical-stage biopharmaceutical company, focuses on the discovery and development of protein-based immunotherapies for the treatment of cancer, autoimmune/inflammatory disorders, and other diseases. Its product pipeline include ALPN-101, an inducible T cell costimulator (ICOS)/cluster of differentiation 28 (CD28) antagonist program for the treatment of autoimmune and inflammatory diseases; ALPN-202, a conditional CD28 costimulator and dual checkpoint inhibitor for the treatment of cancer; and ALPN-303, a dual B cell cytokine antagonist for B cell-mediated autoimmune/inflammatory diseases. The company has a collaboration agreement with AbbVie Ireland Unlimited Company for the research, development, and commercialization of ALPN-101; and Adaptimmune Therapeutics plc to develop next-generation SPEAR T cell products. Alpine Immune Sciences, Inc. was incorporated in 2007 and is headquartered in Seattle, Washington.",
   "website": "http://www.alpineimmunesciences.com"
 }

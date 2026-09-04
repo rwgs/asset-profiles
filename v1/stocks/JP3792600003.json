@@ -2,33 +2,31 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BXR2W5",
-    "figi": "BBG000BXR5T2",
     "isin": "JP3792600003"
   },
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "JP3792600003",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMO.MU"
-    },
     {
       "currency": "MYR",
       "exchange_mic": "XKLS",
       "symbol": "7205.KL"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HMO.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HMO.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HMO.MU"
     },
     {
       "currency": "EUR",
@@ -37,15 +35,15 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "HINO MOTORS LTD",
-  "primary_symbol": "HMO.BE",
+  "name": "Cocoaland Holdings Bhd",
+  "primary_symbol": "7205.KL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Hino Motors, Ltd. manufactures and sells commercial vehicles, including trucks and buses, as well as industrial engines and automotive parts. The company also provides related services, such as maintenance and repair. Hino Motors, Ltd. is headquartered in Hino, Tokyo, Japan."
+  "sector": "Consumer Staples",
+  "summary": "Cocoaland Holdings Bhd is a Malaysia-based company involved in the manufacturing and marketing of confectionery products, including chocolates, candies, and biscuits. Their popular brands include Lot100 and Cocopie. The company is headquartered in Malaysia."
 }

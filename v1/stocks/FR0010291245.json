@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00LGML3H9",
-    "figi": "BBG00LGML3N2",
     "isin": "FR0010291245"
   },
   "industry": "Software",
@@ -12,22 +10,12 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I3Q.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ISDCF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0QAU.L"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0010291245.SW"
     },
@@ -38,21 +26,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "I3Q.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ISDCF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "VMX.PA"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "VERIMATRIX SA  EO -,40",
-  "primary_symbol": "I3Q.MU",
+  "name": "Verimatrix Societe anonyme",
+  "primary_symbol": "0QAU.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Verimatrix SA provides security and business intelligence solutions that protect content, applications, and devices across multiple markets. Headquartered in France, the company offers software and services to manage and monetize digital content across various platforms. Their solutions include anti-piracy, revenue security, and data analytics.",
+  "summary": "Verimatrix Société anonyme provides security solutions that protect digital content, applications, and devices worldwide. The company offers security solutions for various markets, including automotive, sports, financial services, healthcare, internet of things, live sports, media and entertainment, and TV, as well as for content owners. The company was formerly known as Inside Secure S.A. and changed its name to Verimatrix Société anonyme in July 2017. Verimatrix Société anonyme was founded in 1995 and is based in Meyreuil, France.",
   "website": "http://www.verimatrix.com"
 }

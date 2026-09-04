@@ -2,26 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00G6WBCF2",
+    "composite_figi": "BBG00FZBYDS7",
     "cusip": "46620W201",
-    "figi": "BBG00G6WBCM4",
+    "figi": "BBG00FZBYN87",
     "isin": "US46620W2017"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Retailing",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "US46620W2017",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1MJ1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1MJ1.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1MJ1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1MJ1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1MJ1.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "J.Jill, Inc.",
-  "primary_symbol": "1MJ1.BE",
+  "primary_symbol": "JILL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "J. Jill, Inc. is a specialty retailer of women’s apparel, accessories, and footwear, catering to the 45+ customer. The company operates stores throughout the United States and also sells through its website and catalogs. J. Jill is headquartered in Quincy, Massachusetts and focuses on providing relaxed, easy-to-wear styles.",
+  "summary": "J.Jill, Inc. operates as an omnichannel retailer for women's apparel under the J.Jill brand in the United States. The company offers knit and woven tops, bottoms, and dresses, as well as sweaters and outerwear; footwear; and accessories, including scarves, jewelry, and hosiery. The company markets its products through retail stores, Website, and catalogs. As of March 16, 2021, it operated 267 stores. The company was founded in 1959 and is headquartered in Quincy, Massachusetts.",
   "website": "http://www.jjill.com"
 }

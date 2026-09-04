@@ -2,8 +2,8 @@
   "country": "Mongolia",
   "country_code": "MN",
   "identifiers": {
-    "composite_figi": "BBG001B23R16",
-    "figi": "BBG001B23R16",
+    "composite_figi": "BBG0015J3GY4",
+    "figi": "BBG0015J3GZ3",
     "isin": "KYG6264V1361"
   },
   "industry": "Metals & Mining",
@@ -11,11 +11,6 @@
   "isin": "KYG6264V1361",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MOGLF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -30,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG6264V1361.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MOGLF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Mongolian Mining Corp.",
-  "primary_symbol": "MOGLF",
+  "primary_symbol": "0975.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

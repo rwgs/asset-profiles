@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG0021RGX86",
-    "figi": "BBG0021RGX86",
+    "composite_figi": "BBG0015NVM71",
+    "figi": "BBG0015NVM80",
     "isin": "KYG608371046"
   },
   "industry": "Health Care Technology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MCRPF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0853.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MCRPF"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "MicroPort Scientific Corporation",
-  "primary_symbol": "MCRPF",
+  "primary_symbol": "0853.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

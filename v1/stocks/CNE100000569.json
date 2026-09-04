@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000BFYMM3",
-    "figi": "BBG000BFYQ71",
+    "composite_figi": "BBG000H80RY6",
+    "figi": "BBG000H80SY4",
     "isin": "CNE100000569"
   },
   "industry": "Real Estate Management & Development",
@@ -12,23 +12,13 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G5HA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GZUHY"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "2777.HK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "G5HA.DU"
     },
     {
@@ -38,15 +28,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "G5HA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "G5HA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GZUHY"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Guangzhou R&F Properties Co., Ltd. Class H",
-  "primary_symbol": "G5HA.MU",
+  "primary_symbol": "2777.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

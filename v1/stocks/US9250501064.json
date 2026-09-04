@@ -2,9 +2,7 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00LTQFN34",
     "cusip": "925050106",
-    "figi": "BBG00LTQFN98",
     "isin": "US9250501064"
   },
   "industry": "Biotechnology",
@@ -14,28 +12,28 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I9SA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I9SA.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I9SA.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "VRNA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "I9SA.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "I9SA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "I9SA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "I9SA.HM"
     },
     {
       "currency": "IDR",
@@ -45,15 +43,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "VERONA PHARMA PLC.",
-  "primary_symbol": "I9SA.BE",
+  "primary_symbol": "VRNA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Verona Pharma plc is a biopharmaceutical company focused on developing and commercializing therapies for respiratory diseases, headquartered in London, UK. The company's lead product candidate, ensifentrine, is a first-in-class, inhaled dual inhibitor of phosphodiesterase 3 and 4 (PDE3 and PDE4) being developed for the treatment of chronic obstructive pulmonary disease (COPD) and other respiratory diseases. Verona Pharma aims to improve the lives of patients with respiratory conditions.",
+  "summary": "Verona Pharma plc, a clinical stage biopharmaceutical company, focuses on development and commercialization of therapies for the treatment of respiratory diseases with unmet medical needs. Its product candidate is ensifentrine, an inhaled and dual inhibitor of the phosphodiesterase (PDE) 3 and PDE4 enzymes that acts as both a bronchodilator and an anti-inflammatory agent in a single compound, which is in Phase 2 clinical trials for the treatment of chronic obstructive pulmonary disease, asthma, and cystic fibrosis. The company is developing ensifentrine in three formulations, including nebulizer, dry powder inhaler, and pressurized metered-dose inhaler. It also focuses on developing ensifentrine for the treatment of COVID-19. Verona Pharma plc was founded in 2005 and is headquartered in London, the United Kingdom.",
   "website": "http://www.veronapharma.com"
 }

@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00JQ5KW32",
+    "composite_figi": "BBG00JLXDQQ2",
     "cusip": "64046G106",
-    "figi": "BBG00JQ5KW32",
+    "figi": "BBG00JLXDQR1",
     "isin": "CA64046G1063"
   },
   "industry": "Chemicals",
@@ -12,11 +12,6 @@
   "isin": "CA64046G1063",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NOPMF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,13 +21,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "NEO.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NOPMF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Neo Performance Materials Inc.",
-  "primary_symbol": "NOPMF",
+  "primary_symbol": "N14.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

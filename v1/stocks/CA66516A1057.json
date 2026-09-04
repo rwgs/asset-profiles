@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG001QL84J5",
+    "composite_figi": "BBG0015XXG98",
     "cusip": "66516A105",
-    "figi": "BBG001QL84J5",
+    "figi": "BBG0015XXGD3",
     "isin": "CA66516A1057"
   },
   "industry": "Metals & Mining",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NGPHF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "NGC.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NGPHF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Northern Graphite Corporation",
-  "primary_symbol": "NGPHF",
+  "primary_symbol": "NGC.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

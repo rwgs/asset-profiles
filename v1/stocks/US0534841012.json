@@ -19,16 +19,6 @@
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WV8.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WV8.MU"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0HJO.L"
     },
@@ -43,14 +33,24 @@
       "symbol": "AVBC.VI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "WV8.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "WV8.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "WV8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WV8.MU"
     },
     {
       "currency": "EUR",
@@ -62,7 +62,7 @@
   "name": "AvalonBay Communities, Inc.",
   "primary_symbol": "AVB",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

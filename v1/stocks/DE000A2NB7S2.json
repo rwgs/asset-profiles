@@ -1,28 +1,23 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00LNM1TP7",
-    "figi": "BBG00LNM1TV0",
+    "figi": "BBG00LNM1TT3",
     "isin": "DE000A2NB7S2"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Real Estate",
+  "industry_group": "Capital Goods",
   "isin": "DE000A2NB7S2",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TRU.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A2NB7S2.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000A2NB7S2.SW"
     },
@@ -32,27 +27,32 @@
       "symbol": "TRU.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TRU.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TRU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TRU.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "TRAUMHAUS AG  INH O.N.",
-  "primary_symbol": "TRU.MU",
+  "name": "Traumhaus AG",
+  "primary_symbol": "DE000A2NB7S2.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "TRAUMHAUS AG is a real estate company focused on residential properties. It likely buys, sells, and manages real estate assets. The company is based in Germany.",
+  "sector": "Industrials",
+  "summary": "Traumhaus AG develops and builds prefabricated houses, offering customizable and energy-efficient homes for families, headquartered in Limburg an der Lahn, Germany. They provide various house models, from single-family homes to multi-story buildings, with a focus on sustainable construction methods. Traumhaus aims to make homeownership affordable and accessible.",
   "website": "http://www.traumhaus-familie.de"
 }

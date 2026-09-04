@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00H0LV2D2",
+    "composite_figi": "BBG00H1TMC51",
     "cusip": "89679A209",
-    "figi": "BBG00H0LV2D2",
+    "figi": "BBG00H1TMC60",
     "isin": "CA89679A2092"
   },
   "industry": "Insurance",
@@ -12,11 +12,6 @@
   "isin": "CA89679A2092",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TRRSF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -28,6 +23,11 @@
       "symbol": "QPA1.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TRRSF"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "TSU.TO"
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Trisura Group Ltd.",
-  "primary_symbol": "TRRSF",
+  "primary_symbol": "QPA1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

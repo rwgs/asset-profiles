@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000BTVG21",
-    "figi": "BBG000BTVJN2",
+    "composite_figi": "BBG000BT56H6",
+    "figi": "BBG000BT5702",
     "isin": "KYG4100M1050"
   },
   "industry": "Real Estate Management & Development",
@@ -11,11 +11,6 @@
   "isin": "KYG4100M1050",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G7C.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,15 +23,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "G7C.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "G7C.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Greentown China Holdings Ltd.",
-  "primary_symbol": "G7C.MU",
+  "primary_symbol": "3900.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

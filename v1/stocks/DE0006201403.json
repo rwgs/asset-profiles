@@ -3,7 +3,6 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000CHGNW5",
-    "figi": "BBG000CHGRT0",
     "isin": "DE0006201403"
   },
   "industry": "Capital Markets",
@@ -12,36 +11,36 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEH.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0006201403.SW"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PEH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PEH.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PEH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PEH.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "PEH WERTPAPIER AG",
-  "primary_symbol": "PEH.BE",
+  "primary_symbol": "DE0006201403.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

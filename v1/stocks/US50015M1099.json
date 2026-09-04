@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00XC9CCD0",
+    "composite_figi": "BBG00BVR0D02",
     "cusip": "50015M109",
-    "figi": "BBG00XC9CCL1",
+    "figi": "BBG00BVR0D02",
     "isin": "US50015M1099"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "K27.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "K27.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "KOD"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "K27.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "K27.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "K27.MU"
     },
     {
       "currency": "MXN",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Kodiak Sciences, Inc.",
-  "primary_symbol": "K27.BE",
+  "primary_symbol": "KOD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Kodiak Sciences Inc. is a biopharmaceutical company focused on discovering, developing, and commercializing novel therapeutics to treat high prevalence retinal diseases. Their Antibody Biopolymer Conjugate (ABC) platform is designed to maintain durable drug levels in ocular tissues, potentially leading to less frequent treatments. The company is headquartered in Palo Alto, California.",
+  "summary": "Kodiak Sciences Inc., a clinical stage biopharmaceutical company, engages in researching, developing, and commercializing therapeutics to treat retinal diseases in the United States and international markets. Its lead product candidate is KSI-301, a vascular endothelial growth factor (VEGF)-biological agent that is in Phase 1b clinical study to treat wet age-related macular degeneration (AMD) and diabetic retinopathy, including diabetic macular edema, as well as for macular edema due to retinal vein occlusion. The company's preclinical stage product candidate includes KSI-501, a bispecific anti-interleukin 6/VEGF bioconjugate conjugate to treat neovascular retinal diseases with an inflammatory component. Its early research pipeline includes KSI-601, a triplet inhibitor for the treatment of multifactorial retinal diseases, such as dry AMD and the neurodegenerative aspects of glaucoma. The company was formerly known as Oligasis, LLC and changed its name to Kodiak Sciences Inc. in September 2015. Kodiak Sciences Inc. was founded in 2009 and is based in Palo Alto, California.",
   "website": "http://kodiak.com"
 }

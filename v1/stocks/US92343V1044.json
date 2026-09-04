@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C4T7T9",
+    "composite_figi": "BBG000HS77T5",
     "cusip": "92343V104",
-    "figi": "BBG000C4TDL4",
+    "figi": "BBG000HS79Q4",
     "isin": "US92343V1044"
   },
   "industry": "Diversified Telecommunication Services",
@@ -15,32 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "BAC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BAC.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BAC.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BAC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "VZ"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VZ.TI"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BAC.BE"
     },
     {
       "currency": "EUR",
@@ -48,14 +28,29 @@
       "symbol": "BAC.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "BAC.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BAC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "BAC.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BAC.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BAC.MU"
     },
     {
       "currency": "EUR",
@@ -78,9 +73,12 @@
       "symbol": "VZ.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "VZ.SN"
+    },
+    {
+      "symbol": "VZ.TI"
     },
     {
       "currency": "EUR",
@@ -89,16 +87,16 @@
     }
   ],
   "market_cap_band": "Mega Cap",
-  "name": "VERIZON COMM. INC. DL-,10",
-  "primary_symbol": "BAC.BE",
+  "name": "Verizon Communications Inc.",
+  "primary_symbol": "VZ",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "VERIZON COMMUNICATIONS INC. is a global broadband and telecommunications company. The company delivers voice, data and video services and solutions to consumers, businesses and governmental agencies, and is headquartered in New York City.",
+  "summary": "Verizon Communications Inc. offers communications, technology, information, and entertainment products and services to consumers, businesses, and governmental entities worldwide. Its Consumer segment provides postpaid and prepaid service plans; internet access on notebook computers and tablets; wireless equipment, including smartphones and other handsets; and wireless-enabled internet devices, such as tablets, and other wireless-enabled connected devices, such as smart watches. It also provides residential fixed connectivity solutions, including internet, video, and voice services; and sells network access to mobile virtual network operators. As of December 31, 2020, it had approximately 94 million wireless retail connections, 7 million broadband connections, and 4 million Fios video connections. The company's Business segment provides network connectivity products, including private networking, private cloud connectivity, virtual and software defined networking, and internet access services; and internet protocol-based voice and video services, unified communications and collaboration tools, and customer contact center solutions. This segment also offers a suite of management and data security services; domestic and global voice and data solutions, including voice calling, messaging services, conferencing, contact center solutions, and private line and data access networks; customer premises equipment; installation, maintenance, and site services; and Internet of Things products and services. As of December 31, 2020, it had approximately 27 million wireless retail postpaid connections and 482 thousand broadband connections. The company was formerly known as Bell Atlantic Corporation and changed its name to Verizon Communications Inc. in June 2000. Verizon Communications Inc. was incorporated in 1983 and is headquartered in New York, New York.",
   "website": "http://www.verizon.com"
 }

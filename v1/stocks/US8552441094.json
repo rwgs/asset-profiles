@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000CTQBF3",
     "cusip": "855244109",
+    "figi": "BBG000CTRNT1",
     "isin": "US8552441094"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,38 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0QZH.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SBUX"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRB.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRB.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRB.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0QZH.IL"
     },
     {
       "currency": "BRL",
@@ -66,7 +43,7 @@
       "symbol": "SBUX.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "SBUX.SN"
     },
@@ -81,9 +58,14 @@
       "symbol": "SBUXCL.SN"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "SBUXD.BA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SRB.BE"
     },
     {
       "currency": "EUR",
@@ -91,8 +73,8 @@
       "symbol": "SRB.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SRB.DU"
     },
     {
@@ -102,21 +84,39 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SRB.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SRB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SRB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SRB.SG"
+    },
+    {
+      "symbol": "SRB.TI"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Starbucks Corporation",
-  "primary_symbol": "0QZH.IL",
+  "primary_symbol": "SBUX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Starbucks Corporation is a global coffeehouse company that roasts, markets, and retails specialty coffee. The company also sells tea, pastries, and other food items, operating through company-operated stores and licensed stores. Starbucks is headquartered in Seattle, Washington, USA.",
+  "summary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of specialty coffee worldwide. The company operates through three segments: Americas, International, and Channel Development. Its stores offer coffee and tea beverages, roasted whole bean and ground coffees, single-serve and ready-to-drink beverages, and iced tea; and various food products, such as pastries, breakfast sandwiches, and lunch items. The company also licenses its trademarks through licensed stores, and grocery and foodservice accounts. The company offers its products under the Starbucks, Teavana, Seattle's Best Coffee, Evolution Fresh, Ethos, Starbucks Reserve, and Princi brand names. As of October 29, 2020, it operated approximately 32,000 stores. Starbucks Corporation was founded in 1971 and is based in Seattle, Washington.",
   "website": "http://www.starbucks.com"
 }

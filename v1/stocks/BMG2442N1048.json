@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000MW22J7",
-    "figi": "BBG000MW22J7",
+    "composite_figi": "BBG000DX9HD1",
+    "figi": "BBG000DX9J10",
     "isin": "BMG2442N1048"
   },
   "industry": "Marine",
@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1199.HK"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CSPKF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CSPKY"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "1199.HK"
     },
     {
       "currency": "EUR",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "COSCO SHIPPING Ports Limited",
-  "primary_symbol": "CSPKF",
+  "primary_symbol": "1199.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

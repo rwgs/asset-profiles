@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C309G2",
+    "composite_figi": "BBG000BCTQ65",
     "cusip": "98389B100",
-    "figi": "BBG000C30GV9",
+    "figi": "BBG000BCV381",
     "isin": "US98389B1008"
   },
   "industry": "Electric Utilities",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NRN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NRN.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "XEL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NRN.BE"
     },
     {
       "currency": "EUR",
@@ -33,14 +28,19 @@
       "symbol": "NRN.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NRN.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NRN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NRN.MU"
     },
     {
       "currency": "EUR",
@@ -65,15 +65,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Xcel Energy Inc.",
-  "primary_symbol": "NRN.BE",
+  "primary_symbol": "XEL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "XCEL ENERGY DL 2,50 is a public utility holding company that provides electricity and natural gas services. The company serves millions of customers in the Midwest and Western United States. Xcel Energy is headquartered in Minneapolis, Minnesota.",
+  "summary": "Xcel Energy Inc., through its subsidiaries, generates, purchases, transmits, distributes, and sells electricity. It operates through Regulated Electric Utility, Regulated Natural Gas Utility, and All Other segments. The company generates electricity through coal, nuclear, natural gas, hydroelectric, solar, biomass, oil, wood/refuse, and wind energy sources. It also purchases, transports, distributes, and sells natural gas to retail customers, as well as transports customer-owned natural gas. In addition, the company develops and leases natural gas pipelines, and storage and compression facilities; and invests in rental housing projects, as well as procures equipment for the construction of renewable generation facilities. It serves residential, commercial, and industrial customers in the portions of Colorado, Michigan, Minnesota, New Mexico, North Dakota, South Dakota, Texas, and Wisconsin. The company sells electricity to approximately 3.7 million customers; and natural gas to approximately 2.1 million customers. Xcel Energy Inc. was incorporated in 1909 and is headquartered in Minneapolis, Minnesota.",
   "website": "http://www.xcelenergy.com"
 }

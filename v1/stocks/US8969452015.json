@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG002CN9JK8",
+    "composite_figi": "BBG001M8HHB7",
     "cusip": "896945201",
-    "figi": "BBG002CN9JR1",
+    "figi": "BBG0024CH3W4",
     "isin": "US8969452015"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -14,32 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T6A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T6A.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T6A.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T6A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T6A.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TRIP"
     },
     {
@@ -49,12 +24,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "T6A.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "T6A.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "T6A.DU"
     },
     {
@@ -64,8 +44,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "T6A.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "T6A.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "T6A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "T6A.SG"
+    },
+    {
+      "symbol": "T6A.TI"
     },
     {
       "currency": "ARS",
@@ -89,16 +87,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "TRIPADVISOR INC. DL -,001",
-  "primary_symbol": "T6A.BE",
+  "name": "TripAdvisor, Inc.",
+  "primary_symbol": "TRIP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "TRIPADVISOR INC. DL -,001 is an online travel platform that provides reviews of travel-related content, including hotels, restaurants, experiences, and airlines. The company operates a website and mobile app where users can access information, compare prices, and book travel arrangements. TripAdvisor is headquartered in Needham, Massachusetts.",
+  "summary": "TripAdvisor, Inc. operates as an online travel company. It operates in two segments, Hotels, Media & Platform; and Experiences & Dining. The company operates TripAdvisor-branded websites, including tripadvisor.com in the United States; and localized versions of the website in 48 markets and 28 languages. It also manages and operates other travel media brands that provide users the comprehensive travel-planning and trip-taking resources in the travel industry, such as bokun.io, cruisecritic.com, flipkey.com, thefork.com, helloreco.com, holidaylettings.co.uk, holidaywatchdog.com, housetrip.com, jetsetter.com, niumba.com, seatguru.com, singleplatform.com, vacationhomerentals.com, and viator.com. In addition, the company provides information and services for consumers to research and book restaurants in travel destinations; and vacation and short-term rental properties, including full home, condominiums, villas, beach properties, cabins, and cottages. As of December 31, 2020, it featured 884 million reviews and opinions on 7.9 million hotels and other accommodations, restaurants, experiences, airlines, and cruises. TripAdvisor, Inc. was founded in 2000 and is headquartered in Needham, Massachusetts.",
   "website": "http://www.tripadvisor.com"
 }

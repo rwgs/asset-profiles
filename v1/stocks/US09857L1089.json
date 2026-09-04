@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BLBVN4",
     "cusip": "09857L108",
+    "figi": "BBG000BLC4L5",
     "isin": "US09857L1089"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,38 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0W2Y.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "BKNG"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCE1-U.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCE1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCE1.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCE1.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCE1.MU"
+      "exchange_mic": "XLON",
+      "symbol": "0W2Y.IL"
     },
     {
       "currency": "MXN",
@@ -61,13 +38,21 @@
       "symbol": "BOOK.VI"
     },
     {
+      "symbol": "PCE1-U.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PCE1.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PCE1.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PCE1.DU"
     },
     {
@@ -77,15 +62,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PCE1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PCE1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PCE1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PCE1.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Booking Holdings Inc.",
-  "primary_symbol": "0W2Y.IL",
+  "primary_symbol": "BKNG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

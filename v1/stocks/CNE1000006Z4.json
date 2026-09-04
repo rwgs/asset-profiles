@@ -15,11 +15,6 @@
       "symbol": "HNP"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HUNGF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0902.HK"
@@ -28,6 +23,11 @@
       "currency": "CNY",
       "exchange_mic": "XSHG",
       "symbol": "600011.SS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HUNGF"
     },
     {
       "currency": "EUR",
@@ -49,7 +49,7 @@
   "name": "Huaneng Power International, Inc. Class H",
   "primary_symbol": "HNP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

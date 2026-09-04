@@ -1,9 +1,7 @@
 {
   "country": "Turkey",
   "identifiers": {
-    "composite_figi": "BBG000RM5620",
     "cusip": "90010R109",
-    "figi": "BBG000RM5620",
     "isin": "US90010R1095"
   },
   "industry": "Airlines",
@@ -12,14 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TKHVY"
-    },
-    {
       "currency": "TRY",
       "exchange_mic": "XIST",
       "symbol": "THYAO.IS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TKHVY"
     },
     {
       "currency": "EUR",
@@ -29,9 +27,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Turk Hava Yollari Anonim Ortakligi",
-  "primary_symbol": "TKHVY",
+  "primary_symbol": "THYAO.IS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

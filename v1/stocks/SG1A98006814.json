@@ -2,8 +2,8 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000CVPX07",
-    "figi": "BBG000CVPX07",
+    "composite_figi": "BBG000BQR1K5",
+    "figi": "BBG000BQR1V3",
     "isin": "SG1A98006814"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -12,24 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CREAF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTL.MU"
-    },
-    {
       "currency": "SGD",
       "exchange_mic": "XSES",
       "symbol": "C76.SI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CREAF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CTL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CTL.MU"
     },
     {
       "currency": "EUR",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Creative Technology Ltd.",
-  "primary_symbol": "CREAF",
+  "primary_symbol": "C76.SI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

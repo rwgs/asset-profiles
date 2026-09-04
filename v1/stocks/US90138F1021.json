@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00D60ZWG8",
+    "composite_figi": "BBG0029ZX840",
     "cusip": "90138F102",
-    "figi": "BBG00D60ZWN0",
+    "figi": "BBG00D0HCDS1",
     "isin": "US90138F1021"
   },
   "industry": "Diversified Telecommunication Services",
@@ -15,20 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "TWH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TWH.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TWLO"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LHL.L"
     },
@@ -38,14 +28,24 @@
       "symbol": "T1WL34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TWH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TWH.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TWH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TWH.MU"
     },
     {
       "currency": "EUR",
@@ -65,9 +65,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Twilio Inc.",
-  "primary_symbol": "TWH.BE",
+  "primary_symbol": "TWLO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,10 +1,10 @@
 {
-  "country": "Switzerland",
-  "country_code": "CH",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000D7DJL0",
+    "composite_figi": "BBG000BNFLM9",
     "cusip": "512807108",
-    "figi": "BBG000D7DMM2",
+    "figi": "BBG000BNFW27",
     "isin": "US5128071082"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -14,32 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LAR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LAR.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LAR.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LAR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LAR.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "LRCX"
     },
     {
@@ -49,12 +24,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LAR.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "LAR.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "LAR.DU"
     },
     {
@@ -64,8 +44,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "LAR.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "LAR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LAR.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LAR.SG"
+    },
+    {
+      "symbol": "LAR.TI"
     },
     {
       "currency": "MXN",
@@ -78,17 +76,17 @@
       "symbol": "LRCX.VI"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "LAM RESEARCH CORP. DL-001",
-  "primary_symbol": "LAR.BE",
+  "market_cap_band": "Mega Cap",
+  "name": "Lam Research Corporation",
+  "primary_symbol": "LRCX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Lam Research Corporation is a global supplier of innovative wafer fabrication equipment and services to the semiconductor industry. The company's equipment is used in the manufacturing of integrated circuits. Lam Research is headquartered in Fremont, California, USA.",
+  "summary": "Lam Research Corporation designs, manufactures, markets, refurbishes, and services semiconductor processing equipment used in the fabrication of integrated circuits worldwide. The company offers ALTUS systems to deposit conformal films for tungsten metallization applications; SABRE electrochemical deposition products for copper damascene manufacturing; SOLA ultraviolet thermal processing products for film treatments; and VECTOR plasma-enhanced CVD ALD products. It also provides SPEED gapfill high-density plasma chemical vapor deposition (HDP-CVD) products; and Striker single-wafer atomic layer deposition (ALD) products that provide multiple dielectric film solutions. In addition, the company offers Flex for dielectric etch applications; Kiyo for conductor etch applications; Syndion for through-silicon via etch applications; and Versys metal products for metal etch processes. Further, it provides Coronus bevel clean products to enhance die yield; Da Vinci, DV-Prime, EOS, and SP to address a range of wafer cleaning applications; and Metryx mass metrology systems for high precision in-line mass measurement in semiconductor wafer manufacturing. Lam Research Corporation was founded in 1980 and is headquartered in Fremont, California.",
   "website": "http://www.lamresearch.com"
 }

@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00KGFV759",
+    "composite_figi": "BBG00VSZQ9V1",
     "cusip": "41135Q104",
-    "figi": "BBG00KGFV777",
+    "figi": "BBG00VSZQ9W0",
     "isin": "US41135Q1040"
   },
   "industry": "Marine",
@@ -12,21 +12,6 @@
   "isin": "US41135Q1040",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HLAG.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HLAGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HPGLY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -43,9 +28,22 @@
       "symbol": "HLAG.F"
     },
     {
+      "symbol": "HLAG.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "HLAG.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HLAGF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HPGLY"
     },
     {
       "currency": "EUR",
@@ -55,9 +53,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Hapag-Lloyd Aktiengesellschaft",
-  "primary_symbol": "HLAG.TI",
+  "primary_symbol": "HLAA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

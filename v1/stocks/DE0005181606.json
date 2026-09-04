@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG002BLV5W5",
-    "figi": "BBG002CY4645",
+    "figi": "BBG002CY4627",
     "isin": "DE0005181606"
   },
   "industry": "Specialty Retail",
@@ -12,30 +12,30 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WFA.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "WFA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "WFA.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "WFA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WFA.MU"
     }
   ],
   "name": "Weng Fine Art AG",
-  "primary_symbol": "WFA.MU",
+  "primary_symbol": "WFA.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

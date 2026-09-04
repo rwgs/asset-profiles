@@ -18,24 +18,24 @@
       "symbol": "PII"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PL6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PL6.MU"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "PII.MX"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PL6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PL6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PL6.MU"
     },
     {
       "currency": "EUR",
@@ -47,7 +47,7 @@
   "name": "Polaris Inc.",
   "primary_symbol": "PII",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

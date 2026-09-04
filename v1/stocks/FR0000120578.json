@@ -2,6 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000BBD5N1",
+    "cusip": "80105N105",
+    "figi": "BBG000BBD5N1",
     "isin": "FR0000120578"
   },
   "industry": "Pharmaceuticals",
@@ -11,58 +14,16 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0A2V.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "C17415.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SANF.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNW.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNW.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNW.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNW.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNW2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNW2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SNY"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNYNF"
+      "exchange_mic": "XLON",
+      "symbol": "0A2V.IL"
+    },
+    {
+      "symbol": "C17415.TI"
     },
     {
       "currency": "EUR",
@@ -78,6 +39,10 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "SANF.MI"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "SANF.TI"
     },
     {
       "currency": "EUR",
@@ -101,12 +66,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SNW.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SNW.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SNW.DU"
     },
     {
@@ -116,13 +86,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SNW.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SNW.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SNW.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SNW.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SNW2.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SNW2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SNW2.MU"
     },
     {
       "currency": "EUR",
@@ -133,13 +128,18 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "SNYN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SNYNF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Sanofi",
-  "primary_symbol": "0A2V.IL",
+  "primary_symbol": "SNY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

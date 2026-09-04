@@ -2,25 +2,15 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000TXLYJ7",
-    "figi": "BBG000TXM0K8",
+    "composite_figi": "BBG000PT89F4",
+    "figi": "BBG000PT8B32",
     "isin": "HK3808041546"
   },
   "industry": "Machinery",
-  "industry_group": "Transportation",
+  "industry_group": "Capital Goods",
   "isin": "HK3808041546",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4SK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4SK.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4SK.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4SK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4SK.MU"
     },
     {
       "currency": "EUR",
@@ -39,15 +39,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Sinotruk Hong Kong Ltd.",
-  "primary_symbol": "4SK.BE",
+  "primary_symbol": "3808.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Sinotruk (Hong Kong) Limited manufactures and sells heavy-duty trucks and related components. Its products include a wide range of trucks for various applications, engines, and other automotive parts. The company is headquartered in Hong Kong.",
+  "summary": "Sinotruk (Hong Kong) Limited, an investment holding company, engages in the research, development, manufacture, and sale of heavy duty trucks (HDTs), medium-heavy duty trucks, light duty trucks (LDTs), buses, and related parts and components in Mainland China and internationally. The company operates through four segments: Heavy Duty Trucks, Light Duty Trucks, Engines, and Finance. It offers specialty vehicles; pure electric power, hybrid power, hydrogen fuel, dual-source trolley, diesel, and natural gas buses; industrial and construction machinery engines; HDT and LDT engines; and HDT key parts and components, such as gearboxes and various types of casting and forging, as well as cabins, axles, and steel frames. The company also provides axle and transmission parts and truck refitting services; deposit taking, borrowings, commercial notes and bank bills discounting, auto and supply chain financing, and entrusted investment and customer credit services; and consultation and strategic planning services. In addition, it imports and exports trucks and spare parts; manufactures and reproduces engines; and researches, develops, manufactures, and sells commercial vehicles. Sinotruk (Hong Kong) Limited serves infrastructure, construction, container transportation, logistic, mining, steel, chemical, and other industries. The company was incorporated in 2007 and is headquartered in Jinan, China. Sinotruk (Hong Kong) Limited is a subsidiary of China National Heavy Duty Truck Group Company Limited.",
   "website": "http://www.sinotruk.com"
 }

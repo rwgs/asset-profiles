@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00HZQTKZ2",
-    "figi": "BBG00HZQTKZ2",
+    "composite_figi": "BBG000BWC9M9",
+    "figi": "BBG000BWCB26",
     "isin": "AU000000DCC9"
   },
   "industry": "Software",
@@ -12,34 +12,34 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DGGXF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VSL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VSL.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VSL.MU"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "DCC.AX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DGGXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VSL.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VSL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VSL.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VSL.MU"
     },
     {
       "currency": "EUR",
@@ -49,9 +49,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "DigitalX Limited",
-  "primary_symbol": "DGGXF",
+  "primary_symbol": "DCC.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

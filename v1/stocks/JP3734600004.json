@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00WH3ZZ53",
-    "figi": "BBG00WH3ZZB6",
+    "composite_figi": "BBG000BGDSD1",
+    "figi": "BBG000BGDSV1",
     "isin": "JP3734600004"
   },
   "industry": "Metals & Mining",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NJ5.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "5563.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NJ5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NJ5.MU"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Small Cap",
   "name": "Nippon Denko Co., Ltd.",
-  "primary_symbol": "NJ5.MU",
+  "primary_symbol": "5563.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

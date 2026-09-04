@@ -2,40 +2,25 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000QCY266",
+    "composite_figi": "BBG000BFL116",
     "cusip": "336433107",
-    "figi": "BBG000QCY523",
+    "figi": "BBG000BFLCG6",
     "isin": "US3364331070"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Energy",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US3364331070",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "F3A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "F3A.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "F3A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "F3A.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "FSLR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "F3A.BE"
     },
     {
       "currency": "EUR",
@@ -43,8 +28,8 @@
       "symbol": "F3A.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "F3A.DU"
     },
     {
@@ -54,8 +39,21 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "F3A.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "F3A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "F3A.SG"
+    },
+    {
+      "symbol": "F3A.TI"
     },
     {
       "currency": "ARS",
@@ -78,17 +76,17 @@
       "symbol": "FSLR34.SA"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "First Solar, Inc.",
-  "primary_symbol": "F3A.BE",
+  "primary_symbol": "FSLR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "First Solar, Inc. is a leading provider of photovoltaic (PV) solar energy solutions. The company designs, manufactures, and sells PV solar modules with advanced thin-film semiconductor technology, and also develops, constructs, and operates some of the world's largest grid-connected PV power plants. First Solar is headquartered in Tempe, Arizona, USA.",
+  "sector": "Information Technology",
+  "summary": "First Solar, Inc. provides photovoltaic (PV) solar energy solutions in the United State, Japan, France, Canada, India, Australia, and internationally. It operates in two segments, Modules and Systems. The Modules segment designs, manufactures, and sells cadmium telluride solar modules that convert sunlight into electricity to integrators and operators of PV solar power systems. The Systems segment provides power plant solutions, such as project development; engineering, procurement, and construction; and operating and maintenance services to utilities, independent power producers, commercial and industrial companies, and other system owners. The company was formerly known as First Solar Holdings, Inc. and changed its name to First Solar, Inc. in 2006. First Solar, Inc. was founded in 1999 and is headquartered in Tempe, Arizona.",
   "website": "http://www.firstsolar.com"
 }

@@ -2,34 +2,27 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00VXCVN58",
     "cusip": "12122L101",
-    "figi": "BBG00VXCVNC0",
     "isin": "US12122L1017"
   },
   "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Retailing",
+  "industry_group": "Consumer Services",
   "isin": "US12122L1017",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0LS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0LS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "BFI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0LS.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0LS.DU"
     },
     {
@@ -39,21 +32,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0LS.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US12122L1017.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "BURGERFI INTERNATIONAL",
-  "primary_symbol": "0LS.BE",
+  "name": "BurgerFi International, Inc.",
+  "primary_symbol": "BFI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "BurgerFi International Inc. owns and franchises fast-casual restaurants. The company focuses on providing a better burger experience with fresh, natural ingredients. BurgerFi is headquartered in Palm Beach, Florida",
+  "summary": "BurgerFi International, Inc., together with its subsidiaries, operates as a franchisor of quick service restaurants. Its products include burgers, hot dogs, crispy chicken, frozen custard, hand-cut fries, shakes, beer, wine, and others. As of December 31, 2020, it operated approximately 119 BurgerFi franchised and corporate-owned restaurants in the United States and internationally. The company was formerly known as Opes Acquisition Corp. and changed its name to BurgerFi International, Inc. in December 2020. BurgerFi International, Inc. was founded in 2011 and is based in North Palm Beach, Florida.",
   "website": "http://www.burgerfi.com"
 }

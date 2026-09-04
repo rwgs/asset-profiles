@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG001HZV3F4",
+    "composite_figi": "BBG0019JZ882",
     "cusip": "49456B101",
-    "figi": "BBG001HZV3M6",
+    "figi": "BBG0019JZ8D6",
     "isin": "US49456B1017"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,22 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "2KD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2KD.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "KMI"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0JR2.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2KD.BE"
     },
     {
       "currency": "EUR",
@@ -41,6 +36,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2KD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2KD.MU"
     },
     {
       "currency": "EUR",
@@ -60,15 +60,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Kinder Morgan Inc Class P",
-  "primary_symbol": "2KD.BE",
+  "primary_symbol": "KMI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Kinder Morgan, Inc. operates as an energy infrastructure company in North America. It owns an interest in or operates pipelines and terminals that transport natural gas, gasoline, crude oil, carbon dioxide and other products. The company is headquartered in Houston, Texas.",
+  "summary": "Kinder Morgan, Inc. operates as an energy infrastructure company in North America. The company operates through Natural Gas Pipelines, Products Pipelines, Terminals, and CO2 segments. The Natural Gas Pipelines segment owns and operates interstate and intrastate natural gas pipeline, and underground storage systems; natural gas gathering systems and natural gas processing and treating facilities; natural gas liquids fractionation facilities and transportation systems; and liquefied natural gas liquefaction and storage facilities. The Products Pipelines segment owns and operates refined petroleum products, and crude oil and condensate pipelines; and associated product terminals and petroleum pipeline transmix facilities. The Terminals segment owns and/or operates liquids and bulk terminals that stores and handles various commodities, including gasoline, diesel fuel, chemicals, ethanol, metals, and petroleum coke; and owns tankers. The CO2 segment produces, transports, and markets CO2 to recovery and production crude oil from mature oil fields; and owns interests in/or operates oil fields and gasoline processing plants, as well as operates a crude oil pipeline system in West Texas. It owns and operates approximately 83,000 miles of pipelines and 144 terminals. The company was formerly known as Kinder Morgan Holdco LLC and changed its name to Kinder Morgan, Inc. in February 2011. Kinder Morgan, Inc. was founded in 1936 and is headquartered in Houston, Texas.",
   "website": "http://www.kindermorgan.com"
 }

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00JXHZ8P1",
+    "composite_figi": "BBG00JCXSJP3",
     "cusip": "007002108",
-    "figi": "BBG00JXHZ8W3",
+    "figi": "BBG00JCXSJP3",
     "isin": "US0070021086"
   },
   "industry": "Biotechnology",
@@ -14,27 +14,22 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1IJA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1IJA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ACET"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HX7.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1IJA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "1IJA.DU"
     },
     {
@@ -44,21 +39,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1IJA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US0070021086.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "ADICET BIO INC. DL -,0001",
-  "primary_symbol": "1IJA.BE",
+  "name": "Adicet Bio, Inc.",
+  "primary_symbol": "ACET",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Adicet Bio, Inc. is a biotechnology company focused on developing allogeneic gamma delta T cell therapies for cancer. The company's therapies are designed to target and eliminate tumors using engineered immune cells. TICKER: Adicet Bio, Inc. is a biotechnology company focused on developing allogeneic gamma delta T cell therapies for cancer using engineered immune cells.",
+  "summary": "Adicet Bio, Inc., a biotechnology company, discovers and develops allogeneic gamma delta T cell therapies for cancer and other diseases. The company offers gamma delta T cells engineered with chimeric antigen receptors and T cell receptor-like antibodies to enhance selective tumor targeting, facilitate innate and adaptive anti-tumor immune response, and enhance persistence for durable activity in patients. Its lead product in pipeline includes ADI-001, which is in Phase 1 clinical study for the treatment of non-Hodgkin's lymphoma. The company also engages in the development of ADI-002, which is undergoing preclinical studies for the treatment of various solid tumors, including hepatocellular carcinoma, gastric cancer, and squamous cell carcinoma of the lung. The company is based in Boston, Massachusetts.",
   "website": "http://www.adicetbio.com"
 }

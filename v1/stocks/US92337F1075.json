@@ -2,35 +2,35 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005HNXG25",
+    "composite_figi": "BBG001J2M542",
     "cusip": "92337F107",
-    "figi": "BBG005HNXG89",
+    "figi": "BBG001J2M542",
     "isin": "US92337F1075"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US92337F1075",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "12V.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "12V.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "VCYT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "12V.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "12V.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "12V.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Veracyte, Inc.",
-  "primary_symbol": "12V.BE",
+  "primary_symbol": "VCYT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Veracyte, Inc. is a genomic diagnostics company that provides genomic information to patients and physicians. The company focuses on improving patient outcomes by resolving diagnostic uncertainty with meaningful insights that inform treatment decisions. Veracyte is headquartered in South San Francisco, California.",
+  "summary": "Veracyte, Inc. operates as a genomic diagnostics company in the United States and internationally. The company offers Afirma Genomic Sequencing Classifier and Xpression Atlas, which are used to identify patients with benign thyroid nodules among those with indeterminate cytopathology results in order to rule out unnecessary thyroid surgery; Percepta Genomic Sequencing Classifier for lung cancer diagnosis; Envisia Genomic Classifier that help physicians to differentiate idiopathic pulmonary fibrosis from other interstitial lung diseases without the need for surgery; and Prosigna Breast Cancer Prognostic Gene Signature Assay test that informs next steps for patients with early-stage breast cancer, as well as provides cancer subtype classification information. It is also developing nasal swab test for early lung cancer detection; Percepta Genomic Atlas for genomic profiling information on small samples of the tumor biopsy; Envisia Classifier, the nCounter analysis system; and LymphMark for lymphoma subtyping test. Veracyte, Inc. has biopharmaceutical collaborations with Johnson & Johnson; Acerta Pharma; Loxo Oncology, Inc.; and Bayer AG. The company was formerly known as Calderome, Inc. and changed its name to Veracyte, Inc. in March 2008. Veracyte, Inc. was incorporated in 2006 and is headquartered in South San Francisco, California.",
   "website": "http://www.veracyte.com"
 }

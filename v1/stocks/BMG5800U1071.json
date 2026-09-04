@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000Q9C8X4",
-    "figi": "BBG000Q9C8X4",
+    "composite_figi": "BBG000WBTZ64",
+    "figi": "BBG000WBTZG3",
     "isin": "BMG5800U1071"
   },
   "industry": "Household Durables",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AAM.F"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MAWHF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MAWHY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "AAM.F"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Man Wah Holdings Limited",
-  "primary_symbol": "MAWHF",
+  "primary_symbol": "AAM.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

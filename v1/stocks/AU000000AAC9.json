@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000Q4K599",
-    "figi": "BBG000Q4K599",
+    "composite_figi": "BBG000JWXFW3",
+    "figi": "BBG000JWXGV2",
     "isin": "AU000000AAC9"
   },
   "industry": "Household Products",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASAGF"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "AAC.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASAGF"
     },
     {
       "currency": "EUR",
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Australian Agricultural Co Ltd.",
-  "primary_symbol": "ASAGF",
+  "primary_symbol": "AAC.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

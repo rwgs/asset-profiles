@@ -12,29 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "7CT.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7CT.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CELTF"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "7CT.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7CT.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7CT.MU"
     },
     {
       "currency": "EUR",
@@ -47,6 +42,11 @@
       "symbol": "CEE.TO"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CELTF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "CEY.L"
@@ -56,7 +56,7 @@
   "name": "Centamin plc",
   "primary_symbol": "7CT.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

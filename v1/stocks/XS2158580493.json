@@ -2,18 +2,13 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000W4RPF4",
-    "figi": "BBG000W4RPF4",
+    "composite_figi": "BBG000TF4XD3",
+    "figi": "BBG000TF4XZ9",
     "isin": "XS2158580493"
   },
   "isin": "XS2158580493",
   "kind": "debt",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KSFTF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -23,13 +18,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3K1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KSFTF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Kingsoft Corporation Limited",
-  "primary_symbol": "KSFTF",
+  "primary_symbol": "3888.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

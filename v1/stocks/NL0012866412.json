@@ -2,9 +2,8 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG000KB2KY8",
-    "cusip": "073320103",
-    "figi": "BBG000KB2KY8",
+    "composite_figi": "BBG000FT9S80",
+    "figi": "BBG000FT9SV4",
     "isin": "NL0012866412"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -12,16 +11,6 @@
   "isin": "NL0012866412",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BESIY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BESVF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XAMS",
@@ -31,6 +20,16 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "BESIN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BESIY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BESVF"
     },
     {
       "currency": "EUR",
@@ -45,9 +44,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "BE Semiconductor Industries N.V.",
-  "primary_symbol": "BESIY",
+  "primary_symbol": "BESI.AS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

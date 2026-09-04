@@ -2,9 +2,8 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000G4R8Y9",
+    "composite_figi": "BBG00NLF63R0",
     "cusip": "78516J101",
-    "figi": "BBG000G4R8Y9",
     "isin": "US78516J1016"
   },
   "industry": "Aerospace & Defense",
@@ -12,16 +11,6 @@
   "isin": "US78516J1016",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAABF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAABY"
-    },
     {
       "currency": "SEK",
       "exchange_mic": "XSTO",
@@ -33,6 +22,16 @@
       "symbol": "SAABBN.MX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SAABF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SAABY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SDV.F"
@@ -40,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Saab AB (publ)",
-  "primary_symbol": "SAABF",
+  "primary_symbol": "SAAB-B.ST",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

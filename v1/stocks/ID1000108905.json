@@ -12,19 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "LK4B.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "LK4B.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PTLKF"
     },
     {
       "currency": "EUR",
@@ -35,13 +30,18 @@
       "currency": "IDR",
       "exchange_mic": "XIDX",
       "symbol": "LPKR.JK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PTLKF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "PT Lippo Karawaci Tbk",
   "primary_symbol": "LK4B.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

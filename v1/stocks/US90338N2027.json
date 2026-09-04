@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00L999V88",
+    "composite_figi": "BBG004RK8W80",
     "cusip": "90338N202",
-    "figi": "BBG00L999VF0",
+    "figi": "BBG00KVSWB18",
     "isin": "US90338N2027"
   },
   "industry": "Transportation Infrastructure",
@@ -12,11 +12,6 @@
   "isin": "US90338N2027",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7S3.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7S3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US90338N2027.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "U.S. Xpress Enterprises, Inc.",
-  "primary_symbol": "7S3.MU",
+  "primary_symbol": "USX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "U.S. Xpress Enterprises, Inc. is a truckload carrier providing transportation services throughout North America. They offer a variety of services, including expedited, dedicated, and brokerage options. The company is headquartered in Chattanooga, Tennessee, USA.",
+  "summary": "U.S. Xpress Enterprises, Inc. operates as an asset-based truckload carrier providing services primarily in the United States. It operates through two segments, Truckload and Brokerage. The Truckload segment offers over-the-road and contract services. The Brokerage segment provides non-asset-based freight brokerage services. The company offers customers a portfolio of services using its asset-based truckload fleet and third-party carriers through its non-asset-based truck brokerage network. As of December 31, 2020, its fleet consisted of approximately 6,500 tractors and 13,000 trailers, including 1,800 tractors provided by independent contractors. U.S. Xpress Enterprises, Inc. was founded in 1985 and is headquartered in Chattanooga, Tennessee.",
   "website": "http://www.usxpress.com"
 }

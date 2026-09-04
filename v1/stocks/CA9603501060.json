@@ -13,24 +13,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "1W5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1W5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WTHVF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1W5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1W5.MU"
     },
     {
       "currency": "EUR",
@@ -46,13 +41,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "WHN.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WTHVF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Westhaven Gold Corp.",
   "primary_symbol": "1W5.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

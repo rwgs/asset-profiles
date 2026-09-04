@@ -1,9 +1,8 @@
 {
-  "country": "Ireland",
-  "country_code": "IE",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00NGCG1S5",
-    "figi": "BBG00NGCG1S5",
+    "composite_figi": "BBG00B9BYWX7",
     "isin": "GB00BYYN4225"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,11 +10,6 @@
   "isin": "GB00BYYN4225",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HSWLF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -35,19 +29,24 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "HSW.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HSWLF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Hostelworld Group plc",
-  "primary_symbol": "HSWLF",
+  "name": "HOSTELWORLD GROUP PLC",
+  "primary_symbol": "GB00BYYN4225.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Hostelworld Group plc operates an online hostel booking platform worldwide. The company offers software and data processing services that facilitate hostel, B&B, hotel, and other accommodation bookings. It operates through its Hostelworld brand. The company also provides business information consulting and marketing planning services; and marketing, and research and development services. Hostelworld Group plc was founded in 1999 and is headquartered in Dublin, Ireland.",
+  "summary": "Hostelworld Group PLC operates an online platform for booking hostels and budget accommodation. The company connects travelers with hostels around the world. Hostelworld Group PLC is headquartered in Dublin, Ireland.",
   "website": "http://www.hostelworldgroup.com"
 }

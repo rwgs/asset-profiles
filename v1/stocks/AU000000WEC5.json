@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000D4Z6F8",
-    "figi": "BBG000D4Z6F8",
+    "composite_figi": "BBG000BYPBN5",
+    "figi": "BBG000BYPCC5",
     "isin": "AU000000WEC5"
   },
   "industry": "Metals & Mining",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WECFF"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "WEC.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WECFF"
     },
     {
       "currency": "EUR",
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "White Energy Company Ltd.",
-  "primary_symbol": "WECFF",
+  "primary_symbol": "WEC.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

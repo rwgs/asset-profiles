@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BS09X9",
-    "figi": "BBG000BS0GR0",
     "isin": "DE000A0EQ578"
   },
   "industry": "Construction & Engineering",
@@ -12,29 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H5E.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H5E.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H5E.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H5E.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0W0T.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "H5E.BE"
     },
     {
       "currency": "EUR",
@@ -42,8 +25,8 @@
       "symbol": "H5E.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "H5E.DU"
     },
     {
@@ -53,21 +36,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "H5E.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "H5E.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "H5E.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "H5E.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "HELMA Eigenheimbau Aktiengesellschaft",
-  "primary_symbol": "H5E.BE",
+  "primary_symbol": "0W0T.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "HELMA Eigenheimbau AG is a German company that develops and builds residential properties. The company focuses on single-family homes, semi-detached houses, and apartment buildings. HELMA Eigenheimbau is headquartered in Lehrte, Germany.",
+  "summary": "HELMA Eigenheimbau Aktiengesellschaft provides a range of building services in Germany. The company operates through Building Services Business, Property Development Business, and Other segments. The Building Services Business segment engages in the development, planning, sale, and construction management of turnkey detached and semi-detached houses. The Property Development Business segment is involved in the development, planning, and sale of holiday homes and apartments. This segment also builds detached, semi-detached, and terraced houses; and constructs multi-storey residential buildings. The Other segment is involved in the broking business for building-related financing and insurance. HELMA Eigenheimbau Aktiengesellschaft was founded in 1980 and is based in Lehrte, Germany.",
   "website": "http://www.helma.de"
 }

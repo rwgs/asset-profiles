@@ -2,9 +2,9 @@
   "country": "Argentina",
   "country_code": "AR",
   "identifiers": {
-    "composite_figi": "BBG000Q49S74",
+    "composite_figi": "BBG000Q44W43",
     "cusip": "05961W105",
-    "figi": "BBG000Q49V59",
+    "figi": "BBG000Q44X69",
     "isin": "US05961W1053"
   },
   "industry": "Banks",
@@ -15,16 +15,16 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "B4W.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "BMA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "B4W.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "B4W.DU"
     },
     {
@@ -43,11 +43,11 @@
       "symbol": "BMA.BA"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Banco Macro S.A.",
-  "primary_symbol": "B4W.BE",
+  "primary_symbol": "BMA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

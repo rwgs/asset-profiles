@@ -2,9 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000F0G4Q8",
+    "composite_figi": "BBG00Z3JYV74",
     "cusip": "50046R200",
-    "figi": "BBG000F0G4Q8",
     "isin": "US50046R2004"
   },
   "industry": "Interactive Media & Services",
@@ -13,22 +12,17 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KNAMF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KONMY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "9766.T"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KNAMF"
+    },
+    {
+      "currency": "JPY",
       "exchange_mic": "XLON",
       "symbol": "KNM.L"
     },
@@ -36,13 +30,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KOA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KONMY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Konami Holdings Corporation",
-  "primary_symbol": "KNAMF",
+  "primary_symbol": "9766.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

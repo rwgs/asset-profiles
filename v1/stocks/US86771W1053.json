@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009R0DYR2",
+    "composite_figi": "BBG0025XVR85",
     "cusip": "86771W105",
-    "figi": "BBG009R0DYY4",
+    "figi": "BBG009HT4X01",
     "isin": "US86771W1053"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -14,23 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3S9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3S9.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "RUN"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A4S.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3S9.BE"
     },
     {
       "currency": "EUR",
@@ -38,14 +33,19 @@
       "symbol": "3S9.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "3S9.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3S9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3S9.MU"
     },
     {
       "currency": "EUR",
@@ -60,9 +60,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Sunrun Inc.",
-  "primary_symbol": "3S9.BE",
+  "primary_symbol": "RUN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005WX2XG8",
+    "composite_figi": "BBG00G7CD7H2",
     "cusip": "576810105",
-    "figi": "BBG005WX2XJ5",
+    "figi": "BBG00G7CD7K8",
     "isin": "US5768101058"
   },
   "industry": "Biotechnology",
@@ -12,11 +12,6 @@
   "isin": "US5768101058",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MTNB"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,13 +21,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "6LJ.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "MTNB"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "MATINAS BIOPHARMA HOLDINGS, INC.",
-  "primary_symbol": "MTNB",
+  "primary_symbol": "6LJ.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

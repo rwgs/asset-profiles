@@ -10,29 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "CHF",
+      "exchange_mic": "XLON",
       "symbol": "0QKI.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCMWY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWJA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWZCF"
     },
     {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "SCMN.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SCMWY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SWJA.BE"
     },
     {
       "currency": "EUR",
@@ -43,13 +38,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SWJA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SWZCF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Swisscom AG",
   "primary_symbol": "0QKI.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -10,19 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0M0A.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RKWBF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "DKK",
       "exchange_mic": "XLON",
       "symbol": "0M09.L"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XLON",
+      "symbol": "0M0A.IL"
     },
     {
       "currency": "EUR",
@@ -33,6 +28,11 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "R90.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RKWBF"
     },
     {
       "currency": "DKK",
@@ -47,9 +47,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "ROCKWOOL International A/S",
-  "primary_symbol": "0M0A.IL",
+  "primary_symbol": "0M09.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00YZD22R2",
+    "composite_figi": "BBG00BP6QHP1",
     "cusip": "18453C107",
-    "figi": "BBG00YZD22R2",
+    "figi": "BBG00LG7P6R0",
     "isin": "CA18453C1077"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CBUTF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "CBLU.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CBUTF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Clear Blue Technologies International Inc.",
-  "primary_symbol": "CBUTF",
+  "primary_symbol": "CBLU.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

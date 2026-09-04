@@ -2,9 +2,7 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00KY6K4L0",
     "cusip": "82622J104",
-    "figi": "BBG00KY6K4L0",
     "isin": "US82622J1043"
   },
   "industry": "Biotechnology",
@@ -13,24 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SEMHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SHL.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMMNY"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0PMJ.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SEMHF"
     },
     {
       "currency": "EUR",
@@ -46,6 +34,9 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SHL.SG"
+    },
+    {
+      "symbol": "SHL.TI"
     },
     {
       "currency": "EUR",
@@ -66,13 +57,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SHL1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMMNY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Siemens Healthineers AG",
-  "primary_symbol": "SEMHF",
+  "primary_symbol": "0PMJ.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

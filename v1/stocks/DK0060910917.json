@@ -2,8 +2,6 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG00JRNDDC2",
-    "figi": "BBG00JRNDDK3",
     "isin": "DK0060910917"
   },
   "industry": "Biotechnology",
@@ -13,33 +11,28 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1TB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1TB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ORPH"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OZYMF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "DKK",
       "exchange_mic": "XLON",
       "symbol": "0CUM.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1TB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1TB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1TB.MU"
     },
     {
       "currency": "EUR",
@@ -55,13 +48,18 @@
       "currency": "DKK",
       "exchange_mic": "XCSE",
       "symbol": "ORPHA.CO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OZYMF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Orphazyme A/S",
-  "primary_symbol": "1TB.BE",
+  "primary_symbol": "ORPH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

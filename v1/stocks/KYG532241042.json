@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000RR0G68",
-    "figi": "BBG000RR0G68",
+    "composite_figi": "BBG000Q71X01",
+    "figi": "BBG000Q71X74",
     "isin": "KYG532241042"
   },
   "industry": "Real Estate Management & Development",
@@ -11,11 +11,6 @@
   "isin": "KYG532241042",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KWGPF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KOU.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KWGPF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "KWG Group Holdings Limited",
-  "primary_symbol": "KWGPF",
+  "primary_symbol": "1813.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

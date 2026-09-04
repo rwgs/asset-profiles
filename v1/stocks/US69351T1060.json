@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JBLHJ3",
+    "composite_figi": "BBG000BRJL00",
     "cusip": "69351T106",
-    "figi": "BBG000JBLNK8",
+    "figi": "BBG000BRJP74",
     "isin": "US69351T1060"
   },
   "industry": "Electric Utilities",
@@ -12,21 +12,6 @@
   "isin": "US69351T1060",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PP9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PP9.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PP9.TI"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -39,12 +24,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PP9.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PP9.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PP9.DU"
     },
     {
@@ -54,21 +44,29 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PP9.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PP9.SG"
+    },
+    {
+      "symbol": "PP9.TI"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "PPL Corporation",
-  "primary_symbol": "PP9.BE",
+  "primary_symbol": "PPL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "PPL Corporation is an energy holding company that provides electricity and natural gas delivery services. They deliver electricity to customers in Pennsylvania and Kentucky and natural gas to customers in Kentucky. The company is headquartered in Allentown, Pennsylvania.",
+  "summary": "PPL Corporation, a utility holding company, delivers electricity and natural gas in the United States and the United Kingdom. The company operates through three segments: U.K. Regulated, Kentucky Regulated, and Pennsylvania Regulated. It serves approximately 425,000 electric and 332,000 natural gas customers in Louisville and adjacent areas in Kentucky; 536,000 electric customers in central, southeastern, and western Kentucky; and 28,000 electric customers in five counties in southwestern Virginia. The company also provides electric delivery services to approximately 1.4 million customers in Pennsylvania; operates electricity distribution networks in the United Kingdom; generates electricity from coal, gas, hydro, and solar sources in Kentucky; and sells wholesale electricity to two municipalities in Kentucky. PPL Corporation was founded in 1920 and is headquartered in Allentown, Pennsylvania.",
   "website": "http://www.pplweb.com"
 }

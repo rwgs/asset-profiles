@@ -1,9 +1,8 @@
 {
-  "country": "Switzerland",
-  "country_code": "CH",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BDX715",
-    "figi": "BBG000BDX9Y5",
     "isin": "DE0006595101"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,24 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MED.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MED.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MED.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0006595101.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MED.BE"
     },
     {
       "currency": "EUR",
@@ -37,27 +26,37 @@
       "symbol": "MED.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MED.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MED.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MED.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MED.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "MEDICLIN Aktiengesellschaft",
-  "primary_symbol": "MED.BE",
+  "primary_symbol": "DE0006595101.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MEDICLIN AG is a German hospital group providing inpatient and outpatient services, rehabilitation, and long-term care. The company operates a network of hospitals and clinics across Germany, focusing on various medical specialties. MEDICLIN is headquartered in Offenburg, Germany.",
+  "summary": "MEDICLIN AG operates a network of hospitals, rehabilitation clinics, and nursing homes across Germany, providing a range of medical and rehabilitation services, headquartered in Offenburg, Germany. The company offers specialized treatments for various conditions, including neurological, orthopedic, and cardiovascular diseases, as well as geriatric care. MEDICLIN focuses on delivering high-quality medical care and rehabilitation services.",
   "website": "http://www.mediclin.de"
 }

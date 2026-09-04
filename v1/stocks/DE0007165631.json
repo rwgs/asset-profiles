@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BT3ZB0",
-    "figi": "BBG000BT3ZB0",
     "isin": "DE0007165631"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,34 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SARTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRT.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SRT3.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SSSGY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUVPF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0NIQ.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SARTF"
     },
     {
       "currency": "EUR",
@@ -52,6 +30,9 @@
       "symbol": "SRT.F"
     },
     {
+      "symbol": "SRT.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SRT3.DE"
@@ -60,6 +41,9 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SRT3.F"
+    },
+    {
+      "symbol": "SRT3.TI"
     },
     {
       "currency": "EUR",
@@ -75,13 +59,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SRT4.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SSSGY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SUVPF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Sartorius Aktiengesellschaft",
-  "primary_symbol": "SARTF",
+  "primary_symbol": "0NIQ.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

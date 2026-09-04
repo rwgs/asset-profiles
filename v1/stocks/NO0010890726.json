@@ -10,24 +10,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "6H5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6H5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PMGMF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6H5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6H5.MU"
     },
     {
       "currency": "EUR",
@@ -38,13 +33,18 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "PMG.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PMGMF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Play Magnus AS",
   "primary_symbol": "6H5.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

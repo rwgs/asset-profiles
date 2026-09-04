@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00ZGX0L41",
     "cusip": "91380M100",
+    "figi": "BBG00ZGX0L50",
     "isin": "CA91380M1005"
   },
   "industry": "Building Products",
@@ -10,11 +12,6 @@
   "isin": "CA91380M1005",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UPIPF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -29,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "UPI.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UPIPF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Universal PropTech Inc.",
-  "primary_symbol": "UPIPF",
+  "primary_symbol": "8LH.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

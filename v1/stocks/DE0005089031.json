@@ -2,29 +2,24 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000FGX0T9",
-    "figi": "BBG000FGX0T9",
+    "composite_figi": "BBG006TLX056",
+    "figi": "BBG006TLX074",
     "isin": "DE0005089031"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry_group": "Software & Services",
   "isin": "DE0005089031",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UDIRF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UTDI.TI"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0005089031.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UDIRF"
     },
     {
       "currency": "EUR",
@@ -42,6 +37,9 @@
       "symbol": "UTDI.SG"
     },
     {
+      "symbol": "UTDI.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "UTDI.VI"
@@ -49,15 +47,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "United Internet AG",
-  "primary_symbol": "UDIRF",
+  "primary_symbol": "DE0005089031.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "United Internet AG, through its subsidiaries, operates as an Internet service provider (ISP). It operates through Consumer Access, Business Access, Consumer Applications, and Business Applications segments. The company offers landline-based broadband and mobile internet products, including home networks, online storage, telephony, and IPTV; and telecommunication products ranging from fiber-optic direct connections to tailored ICT solutions, which include voice, data, and network solutions, as well as infrastructure services to national and international carriers and ISPs. It also provides ad-financed and fee-based application products for consumer and business customers, including domains, Websites, Web hosting, servers, cloud solutions, and e-shops; personal information management applications, such as email, to-do lists, appointments, and addresses; and group works, online storage, and office software. The company offers its access products through the yourfone, smartmobile.de, 1&1, winSIM, maxim, simplytel, DeutschlandSIM, PremiumSIM, and 1&1 versatel brands; and applications through GMX, mail.com, WEB.DE, home.pl, Arsys, Strato, 1&1 IONOS, Fasthosts, InterNetX, united-domains, and World4You brand names. In addition, it offers customers professional services in the fields of active domain management under the Sedo brand; and online advertising services under the United Internet Media brand name. The company has operations in Germany, the United States, the United Kingdom, Spain, France, Poland, Italy, Austria, the Netherlands, Switzerland, Canada, and Mexico. United Internet AG was founded in 1988 and is headquartered in Montabaur, Germany.",
+  "sector": "Information Technology",
+  "summary": "United Internet AG is a German internet service provider and web hosting company. The company offers a wide range of internet-related services including web hosting, domain registration, and online marketing tools. United Internet is headquartered in Montabaur, Germany.",
   "website": "http://www.united-internet.de"
 }

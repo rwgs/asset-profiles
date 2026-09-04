@@ -2,9 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000BS1Q24",
+    "composite_figi": "BBG006XQNXH6",
     "cusip": "191223205",
-    "figi": "BBG000BS1Q24",
+    "figi": "BBG006XQNXJ4",
     "isin": "US1912232055"
   },
   "industry": "Beverages",
@@ -12,21 +12,6 @@
   "isin": "US1912232055",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCHBF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCHGY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCKC.BE"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -43,21 +28,36 @@
       "symbol": "CCH.L"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CCHBF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CCHGY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CCKC.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CCKC.F"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XATH",
+      "exchange_mic": "ASEX",
       "symbol": "EEE.AT"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Coca-Cola HBC AG",
-  "primary_symbol": "CCHBF",
+  "primary_symbol": "C0Q.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

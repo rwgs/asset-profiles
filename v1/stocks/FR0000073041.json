@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BS0VS6",
-    "figi": "BBG000BS0Z98",
     "isin": "FR0000073041"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PV6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PV6.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0OQ0.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PV6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PV6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PV6.MU"
     },
     {
       "currency": "EUR",
@@ -44,15 +42,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Pierre et Vacances SA",
-  "primary_symbol": "PV6.BE",
+  "primary_symbol": "0OQ0.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Pierre & Vacances SA is a French tourism company that manages and markets holiday resorts, apartments, and hotels. The company operates under brands like Pierre & Vacances, Center Parcs, and Maeva, with headquarters in Paris, France. Pierre & Vacances offers a range of leisure and hospitality services.",
+  "summary": "Pierre et Vacances SA, through its subsidiaries, engages in the holiday accommodation and holiday property investment business. It operates through two segments, Property Development and Tourism. The Property Development engages in the land prospection, site design, construction, and marketing of holiday residences for individual buyers or institutional buyers primarily in France and internationally. The Tourism segment operates residences and villages marketed under the Pierre & Vacances, Center Parcs, Sunparks, Villages, Nature Paris, Maeva.com, and Adagio brands primarily in France, the Netherlands, Germany, Belgium, and Spain. As of September 30, 2020, it operated approximately 282 sites in Europe; 4 destinations across seaside, mountain, countryside, and city; and 45,801 apartments. The company was founded in 1967 and is headquartered in Paris, France. Pierre et Vacances SA is a subsidiary of Société d'Investissement Touristique et Immobilier.",
   "website": "http://www.groupepvcp.com"
 }

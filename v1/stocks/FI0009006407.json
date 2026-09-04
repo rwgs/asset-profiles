@@ -2,24 +2,22 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
-    "composite_figi": "BBG000DXVJV2",
-    "figi": "BBG000DXWPQ3",
     "isin": "FI0009006407"
   },
   "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Capital Goods",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "FI0009006407",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I8J.BE"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0ERY.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "I8J.BE"
     },
     {
       "currency": "EUR",
@@ -33,16 +31,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "INCAP OYJ",
-  "primary_symbol": "I8J.BE",
+  "name": "Incap Oyj",
+  "primary_symbol": "0ERY.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "INCAP OYJ is an international contract manufacturer of electronics. The company provides full-service electronics manufacturing services (EMS) throughout the product lifecycle, from design and prototyping to mass production, supply chain management, and repair services. Incap is headquartered in Helsinki, Finland.",
+  "sector": "Information Technology",
+  "summary": "Incap Oyj, together with its subsidiaries, provides electronics manufacturing services in Europe, North-America, South-America, Asia, Africa, and Australia. The company offers PCB assembly and manufacturing, box-build assembly, and prototyping and engineering services, as well as cable, wire harness, and magnetic assemblies. It also offers prototypes and pre-series; and tester development products. The company serves aerospace, automotive, consumer electronics, data storage and media, defense, environment/green energy, food and vending, industrial controls and automation, medical, oil and gas mining, power, security, scientific/ instrumentation, telecom, and transport and infrastructure sectors. Incap Oyj was incorporated in 1985 and is headquartered in Helsinki, Finland.",
   "website": "http://incapcorp.com"
 }

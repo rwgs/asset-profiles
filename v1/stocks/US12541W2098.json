@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000D6RZT3",
+    "composite_figi": "BBG000BTCH57",
     "cusip": "12541W209",
-    "figi": "BBG000D6S439",
+    "figi": "BBG000BTCSJ8",
     "isin": "US12541W2098"
   },
   "industry": "Air Freight & Logistics",
@@ -14,31 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CH1A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CH1A.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CH1A.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CH1A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CHRW"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HQW.L"
     },
@@ -49,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CH1A.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "CH1A.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CH1A.DU"
     },
     {
@@ -64,21 +49,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "CH1A.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CH1A.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CH1A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CH1A.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "C.H. Robinson Worldwide, Inc.",
-  "primary_symbol": "CH1A.BE",
+  "primary_symbol": "CHRW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "C.H. Robinson Worldwide, Inc. is a third-party logistics (3PL) company that provides freight transportation and logistics solutions to companies across various industries. The company offers a broad portfolio of logistics services, including truckload, less-than-truckload, intermodal, air freight, ocean freight, customs brokerage, and warehousing. C.H. Robinson is headquartered in Eden Prairie, Minnesota.",
+  "summary": "C.H. Robinson Worldwide, Inc., together with its subsidiaries, provides freight transportation services and logistics solutions to companies in various industries worldwide. The company operates through two segments, North American Surface Transportation and Global Forwarding. It offers transportation and logistics services, such as truckload; less than truckload transportation, which include the shipment of single or multiple pallets of freight; intermodal transportation that include the shipment service of freight in trailers or containers by a combination of truck and rail; and non-vessel ocean common carrier and freight forwarding services, as well as organizes air shipments and offers door-to-door services. The company also provides customs broker services; and other logistics services, including fee-based managed, warehousing, small parcel, and other services. It has contractual relationships with approximately 73,000 transportation companies, including motor carriers, railroads, and air and ocean carriers. In addition, the company is involved in buying, selling, and marketing of fresh produce, including fresh fruits, vegetables, and other perishable items under the Robinson Fresh name. Further, it provides transportation management services or managed TMS; and other surface transportation services. The company offers its fresh produce to grocery retailers, restaurants, produce wholesalers, and foodservice distributors through a network of independent produce growers and suppliers. C.H. Robinson Worldwide, Inc. was founded in 1905 and is headquartered in Eden Prairie, Minnesota.",
   "website": "http://www.chrobinson.com"
 }

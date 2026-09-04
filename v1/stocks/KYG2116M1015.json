@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG000LRDK07",
+    "figi": "BBG000LRDKN2",
     "isin": "KYG2116M1015"
   },
   "industry": "Construction Materials",
@@ -10,11 +11,6 @@
   "isin": "KYG2116M1015",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCGLF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -24,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "C95.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CCGLF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "China Shanshui Cement Group Limited",
-  "primary_symbol": "CCGLF",
+  "primary_symbol": "0691.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

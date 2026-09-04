@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BKC0L5",
+    "composite_figi": "BBG000BB65D0",
     "cusip": "366651107",
-    "figi": "BBG000BKC2X8",
+    "figi": "BBG000BB6764",
     "isin": "US3666511072"
   },
   "industry": "IT Services",
@@ -15,20 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "GGRA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GGRA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "IT"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0ITV.L"
     },
@@ -39,15 +29,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GGRA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GGRA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GGRA.MU"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "GARTNER INC. DL -,0005",
-  "primary_symbol": "GGRA.BE",
+  "name": "Gartner, Inc.",
+  "primary_symbol": "IT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

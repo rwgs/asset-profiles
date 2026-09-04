@@ -2,8 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00Y6S30H5",
-    "figi": "BBG00Y6S30N8",
+    "composite_figi": "BBG00XKM57C2",
+    "cusip": "66981J102",
+    "figi": "BBG00XKM57H7",
     "isin": "KYG6180F1081"
   },
   "industry": "Specialty Retail",
@@ -14,12 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "MIF.MU"
+      "symbol": "MNSO"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MNSO"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MIF.MU"
     },
     {
       "currency": "MXN",
@@ -29,9 +30,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "MINISO Group Holding Limited",
-  "primary_symbol": "MIF.MU",
+  "primary_symbol": "MNSO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

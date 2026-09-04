@@ -2,8 +2,6 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG005P8VM00",
-    "figi": "BBG005P8VM00",
     "isin": "CH0126673539"
   },
   "industry": "Professional Services",
@@ -12,12 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DKSHF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CHF",
       "exchange_mic": "XLON",
       "symbol": "0QQE.L"
     },
@@ -25,13 +18,18 @@
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "DKSH.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DKSHF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "DKSH Holding AG",
-  "primary_symbol": "DKSHF",
+  "primary_symbol": "0QQE.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

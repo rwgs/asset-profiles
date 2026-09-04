@@ -2,6 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG009ZCBVG7",
+    "cusip": "45781K204",
+    "figi": "BBG009ZCBW39",
     "isin": "FR0010331421"
   },
   "industry": "Biotechnology",
@@ -11,28 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0EVI.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IDD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IDDA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "IPHA"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IPHYF"
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0EVI.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IDD.BE"
     },
     {
       "currency": "EUR",
@@ -46,21 +39,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IDDA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "IPH.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IPHYF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Innate Pharma",
-  "primary_symbol": "0EVI.IL",
+  "primary_symbol": "IPHA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Innate Pharma SA is a French biotechnology company dedicated to discovering, developing and commercializing first-in-class immunotherapies for cancer. The company's focus is on exploiting the innate immune system to fight cancer. Innate Pharma is headquartered in Marseille, France.",
+  "summary": "Innate Pharma S.A., a biotechnology company, discovers and develops therapeutic antibodies for the treatment of oncology indications in France and internationally. The company's products include Monalizumab, an immune checkpoint inhibitor that is in Phase II clinical trial to treat advanced solid tumors comprising colorectal cancer, as well as head and neck cancer; Anti-Siglec-9, checkpoint inhibitor program, which is in preclinical stage for immuno-oncology; Lumoxiti (moxetumomab pasudotox-tdfk), a tumor antigen targeting solution for the treatment of hairy cell leukemia; and Lacutamab (IPH4102), an anti-KIR3DL2 humanized cytotoxicity-inducing antibody, which is in Phase II clinical trial for the treatment of cutaneous T-cell lymphoma. Its products also include IPH61, a bispecific NK cell engager, a preclinical solution for the generation and evaluation of up to two bispecific NK cell engagers; IPH43, a program that is in preclinical trial to develop anti-MICA/B therapeutic antibody in oncology; Avdoralimab/IPH5401, a therapeutic antibody, which is in Phase II clinical trial that binds and blocks C5a receptors expressed on subsets of myeloid-derived suppressor cells and neutrophils; IPH5201, a blocking antibody that is in Phase I clinical trial targeting the CD39 immunosuppressive pathway; and IPH5301, a CD-73-blocking antibody that is in preclinical trial for restoring a pro-inflammatory microenvironment. Innate Pharma S.A. has licensing and collaboration agreements with AstraZeneca, Novo Nordisk A/S, and Sanofi; and co-development and license agreement with MedImmune. The company was founded in 1999 and is headquartered in Marseille, France.",
   "website": "http://www.innate-pharma.com"
 }

@@ -2,35 +2,35 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG007HW5FG9",
+    "composite_figi": "BBG001D0HB36",
     "cusip": "358039105",
-    "figi": "BBG007HW5FN1",
+    "figi": "BBG001D0HB36",
     "isin": "US3580391056"
   },
   "industry": "Food & Staples Retailing",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food & Staples Retailing",
   "isin": "US3580391056",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7FP.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7FP.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "FRPT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "7FP.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7FP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7FP.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Freshpet Inc",
-  "primary_symbol": "7FP.BE",
+  "primary_symbol": "FRPT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Freshpet Inc. is a pet food company focused on manufacturing and marketing fresh, refrigerated food and treats for dogs and cats. Their products are made with natural ingredients and sold in refrigerators located in pet stores, grocery stores, and other retailers. The company is headquartered in Secaucus, New Jersey.",
+  "summary": "Freshpet, Inc. manufactures and markets natural fresh meals and treats for dogs and cats in the United States, Canada, and the United Kingdom. The company sells its products under the Freshpet brand; and Dognation and Dog Joy labels through various classes of retail, including grocery, mass, club, pet specialty, and natural, as well as online. Freshpet, Inc. was incorporated in 2004 and is headquartered in Secaucus, New Jersey.",
   "website": "http://www.freshpet.com"
 }

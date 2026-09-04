@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000MPW5S2",
-    "figi": "BBG000MPW5S2",
+    "composite_figi": "BBG000BXX043",
+    "figi": "BBG000BXX0G0",
     "isin": "BMG8165U1009"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -11,11 +11,6 @@
   "isin": "BMG8165U1009",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SPKOY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SAK.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SPKOY"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Sinopec Kantons Holdings Limited",
-  "primary_symbol": "SPKOY",
+  "primary_symbol": "0934.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

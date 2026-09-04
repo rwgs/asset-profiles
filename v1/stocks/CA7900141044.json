@@ -13,14 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "BVU3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LRDJF"
     },
     {
       "currency": "EUR",
@@ -36,13 +31,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "LORD.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LRDJF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "ST JAMES GOLD CORP.",
   "primary_symbol": "BVU3.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

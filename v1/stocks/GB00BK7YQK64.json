@@ -1,30 +1,21 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FBNVF8",
-    "figi": "BBG000FBR204",
+    "composite_figi": "BBG000BL7VL1",
+    "cusip": "440327104",
+    "figi": "BBG000BL7VL1",
     "isin": "GB00BK7YQK64"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Insurance",
+  "industry_group": "Insurance",
   "isin": "GB00BK7YQK64",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "H2V2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "HMN"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMSNF"
     },
     {
       "currency": "EUR",
@@ -32,8 +23,13 @@
       "symbol": "GB00BK7YQK64.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "H2V2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "H2V2.DU"
     },
     {
@@ -57,7 +53,12 @@
       "symbol": "HMN.SI"
     },
     {
-      "currency": "EUR",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HMSNF"
+    },
+    {
+      "currency": "GBP",
       "exchange_mic": "XDUB",
       "symbol": "HMSO.IR"
     },
@@ -67,17 +68,17 @@
       "symbol": "HMSO.L"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "Hammerson plc",
-  "primary_symbol": "H2V2.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Horace Mann Educators Corporation",
+  "primary_symbol": "HMN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "At Hammerson, we create vibrant, continually evolving spaces, in and around major cities, where people and brands want to be. We seek to deliver value for all our stakeholders and to create a positive and sustainable impact for generations to come. We own and operate high-quality flagship destinations and have investments in premium outlets in selected European countries and have a City Quarters strategy to evolve our portfolio beyond retail.",
-  "website": "http://www.hammerson.com"
+  "sector": "Financials",
+  "summary": "Horace Mann Educators Corporation, together with its subsidiaries, operates as a multiline insurance company in the United States. The Company operates through five segments: Property and Casualty, Supplemental, Retirement, Life, and Corporate and Other. It underwrites and markets personal lines of property and casualty insurance, including personal lines automobile and property insurance products; supplemental insurance products, which includes cancer, heart, hospital, supplemental disability, and accident coverages; retirement products, such as tax-qualified fixed and variable annuities; and life insurance products comprising whole life and term and indexed universal life insurance. The company also offers student loan solutions, including online student loan management accounts for educators. It markets its products through its sales force of full-time exclusive agents to K-12 teachers, administrators, and other employees of public schools and their families. Horace Mann Educators Corporation was founded in 1945 and is headquartered in Springfield, Illinois.",
+  "website": "http://www.horacemann.com"
 }

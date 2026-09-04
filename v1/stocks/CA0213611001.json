@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000F5HVC1",
+    "composite_figi": "BBG000D5BDF6",
     "cusip": "021361100",
-    "figi": "BBG000F5L6G7",
+    "figi": "BBG000D5BFJ7",
     "isin": "CA0213611001"
   },
   "industry": "Gas Utilities",
@@ -12,21 +12,6 @@
   "isin": "CA0213611001",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALTGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AQ3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ATGFF"
-    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSE",
@@ -48,7 +33,7 @@
       "symbol": "ALA-PG.TO"
     },
     {
-      "currency": "CAD",
+      "currency": "USD",
       "exchange_mic": "XTSE",
       "symbol": "ALA-PU.TO"
     },
@@ -58,8 +43,18 @@
       "symbol": "ALA.TO"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ALTGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AQ3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AQ3.DU"
     },
     {
@@ -71,13 +66,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AQ3.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ATGFF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "AltaGas Ltd.",
-  "primary_symbol": "ALTGF",
+  "primary_symbol": "ALA-PA.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

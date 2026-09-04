@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GMNNP0",
+    "composite_figi": "BBG000HPJ656",
     "cusip": "59503A204",
-    "figi": "BBG000GMNSV2",
+    "figi": "BBG000HPJ656",
     "isin": "US59503A2042"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CY9D.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CY9D.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MBOT"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CY9D.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CY9D.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CY9D.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CY9D.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Microbot Medical Inc.",
-  "primary_symbol": "CY9D.BE",
+  "primary_symbol": "MBOT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Microbot Medical Inc. is a medical device company specializing in the design, development, and commercialization of micro-robotic endoluminal surgery devices. The company's technologies aim to improve outcomes for patients undergoing vascular and neurovascular procedures. Microbot Medical is based in Hingham, Massachusetts.",
+  "summary": "Microbot Medical Inc., a pre-clinical medical device company, researches, designs, and develops micro-robotics assisted medical technologies targeting the minimally invasive surgery space. The company, through its ViRob, TipCAT, and Liberty micro-robotic technologies, developing Self Cleaning Shunt for the treatment of hydrocephalus and normal pressure hydrocephalus; a disposable self-propelled locomotive device to treat capabilities within tubular lumens, such as the blood vessels, respiratory, and the urinary and GI tracts; a combination of a guidewire and microcatheter technologies that are used for endoluminal surgery; and maneuver guidewire, microcatheters, and over-the-wire devices within the body's vasculature. It has 42 issued/allowed patents and 23 patent applications pending worldwide. Microbot Medical Inc. was founded in 2010 and is based in Hingham, Massachusetts.",
   "website": "http://www.microbotmedical.com"
 }

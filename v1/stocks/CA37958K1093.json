@@ -1,10 +1,10 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00JGMK642",
+    "composite_figi": "BBG000PST0X2",
     "cusip": "37958K109",
-    "figi": "BBG00JGMK6B4",
+    "figi": "BBG000PST482",
     "isin": "CA37958K1093"
   },
   "industry": "Metals & Mining",
@@ -13,24 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REZ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REZ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REZZF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "GBML.V"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "REZ.BE"
     },
     {
       "currency": "EUR",
@@ -39,21 +29,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "REZ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "REZ.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "REZZF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "GLOBAL BATTERY METALS LTD",
-  "primary_symbol": "REZ.BE",
+  "name": "Global Battery Metals Ltd.",
+  "primary_symbol": "GBML.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Global Battery Metals Ltd is a mineral exploration company. The company is focused on sourcing, exploring and developing battery metals projects. The company's projects are located in North America and include Lithium, Cobalt, Copper, Nickel and Manganese mineral projects.",
+  "summary": "Global Battery Metals Ltd. engages in the acquisition, exploration, and development of mineral properties. The company holds a 55% interest in the Lara Socos porphyry copper molybdenum property consisting of three mineral concessions covering an area of 1,800 hectares located in Peru; and an option to acquire up to 90% interest in the North West Leinster Lithium Property situated in the Republic of Ireland. It also holds interest in the Lithium King property covering an area of approximately 7,900 acres located on the west side of the Great Salt Lake Basin in western Utah. The company was formerly known as Redzone Resources Ltd. and changed its name to Global Battery Metals Ltd. in March 2019. Global Battery Metals Ltd. was incorporated in 2005 and is headquartered in Vancouver, Canada.",
   "website": "http://www.gbml.ca"
 }

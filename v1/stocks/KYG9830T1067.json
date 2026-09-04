@@ -2,8 +2,7 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00LSL9WL3",
-    "figi": "BBG00LSL9WL3",
+    "composite_figi": "BBG00KVBNBT5",
     "isin": "KYG9830T1067"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -11,11 +10,6 @@
   "isin": "KYG9830T1067",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XIACF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -35,13 +29,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3CPA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XIACF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Xiaomi Corporation",
-  "primary_symbol": "XIACF",
+  "primary_symbol": "1810.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

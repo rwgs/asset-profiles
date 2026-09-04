@@ -2,8 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000R57439",
-    "figi": "BBG000R57714",
+    "composite_figi": "BBG000MFD989",
+    "cusip": "G7415M132",
+    "figi": "BBG000MFD989",
     "isin": "KYG7415M1244"
   },
   "industry": "Energy Equipment & Services",
@@ -13,13 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HRC1.BE"
+      "exchange_mic": "XNAS",
+      "symbol": "RCON"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RCON"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HRC1.BE"
     },
     {
       "currency": "EUR",
@@ -33,10 +34,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "RECON TECHNOLOGY  DL -,01",
-  "primary_symbol": "HRC1.BE",
+  "name": "Recon Technology, Ltd.",
+  "primary_symbol": "RCON",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

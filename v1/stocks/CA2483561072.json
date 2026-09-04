@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000CX6DQ0",
     "cusip": "248356107",
-    "figi": "BBG000CX6F94",
     "isin": "CA2483561072"
   },
   "industry": "Metals & Mining",
@@ -13,22 +11,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DNN"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IUQ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IUQ.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0URY.L"
     },
@@ -38,9 +21,24 @@
       "symbol": "DML.TO"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "DNN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IUQ.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IUQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IUQ.MU"
     },
     {
       "currency": "EUR",
@@ -48,11 +46,11 @@
       "symbol": "IUQ.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Denison Mines Corp.",
-  "primary_symbol": "DNN",
+  "primary_symbol": "0URY.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

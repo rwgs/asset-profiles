@@ -2,25 +2,20 @@
   "country": "Guernsey",
   "country_code": "GG",
   "identifiers": {
-    "composite_figi": "BBG00836J4R7",
-    "figi": "BBG00836J4R7",
+    "composite_figi": "BBG0079TJLB2",
+    "figi": "BBG0079TJLC1",
     "isin": "GG00BPFJTF46"
   },
   "isin": "GG00BPFJTF46",
   "kind": "fund",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PSHZF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7P2.F"
     },
     {
-      "currency": "EUR",
+      "currency": "USD",
       "exchange_mic": "XAMS",
       "symbol": "PSH.AS"
     },
@@ -30,20 +25,25 @@
       "symbol": "PSH.L"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "PSHD.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PSHZF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "PERSHING SQUARE HOLDINGS, LTD.",
-  "primary_symbol": "PSHZF",
+  "primary_symbol": "7P2.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Pershing Square Holdings, Ltd. is a closed-end investment fund managed by Pershing Square Capital Management. The fund invests primarily in North American companies. The company is based in St. Helier, Jersey."
+  "summary": "Pershing Square Holdings, Ltd. is a closed-end investment fund that invests in a concentrated portfolio of North American companies. The fund is managed by Pershing Square Capital Management, L.P., a hedge fund manager founded by Bill Ackman. Pershing Square Holdings is headquartered in St Helier, Jersey."
 }

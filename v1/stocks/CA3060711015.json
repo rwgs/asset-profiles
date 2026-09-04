@@ -13,24 +13,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "FAC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FAC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FOLGF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FAC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FAC.MU"
     },
     {
       "currency": "EUR",
@@ -46,13 +41,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "FOG.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FOLGF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Falcon Oil & Gas Ltd.",
   "primary_symbol": "FAC.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

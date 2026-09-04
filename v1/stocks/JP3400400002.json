@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C2DS96",
-    "figi": "BBG000C2DVT7",
+    "composite_figi": "BBG000BQ2JK3",
+    "figi": "BBG000BQ2K20",
     "isin": "JP3400400002"
   },
   "industry": "IT Services",
@@ -12,18 +12,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "QSU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCSKF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "9719.T"
     },
     {
@@ -33,21 +23,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "QSU.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "QSU.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SCSKF"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "SCSK CORP.",
-  "primary_symbol": "QSU.MU",
+  "name": "SCSK Corporation",
+  "primary_symbol": "9719.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SCSK CORP. is an information technology services company. It provides system integration, outsourcing, and consulting services. The company is headquartered in Japan with a listing in Germany.",
+  "summary": "SCSK Corporation provides information technology (IT) services in Japan and internationally. The company's Manufacturing & Telecommunication Systems Business segment offers IT solutions for core systems, manufacturing and information management systems, supply chain management (SCM), and customer relationship management (CRM) systems for manufacturing, telecommunication, and energy industries. Its Distribution & Media Systems Business segment offers IT solutions, such as core and information systems, SCM, CRM, and e-commerce systems for distribution, service, and media industries. The company's Financial Systems Business segment develops, maintains, and operates systems for banks and trust banks, as well as insurance, securities, lease, and credit companies. Its Global System Solutions & Innovation Business segment provides IT solutions for trading companies. The company's Business Solutions segment provides contact center services; and application management outsourcing services that covers development, installation, maintenance, and operation of enterprise resource planning and CRM products, such as ProActive, SAP, Oracle, and Salesforce, as well as business process outsourcing services. Its IT Platform Solutions segment provides services and products in the fields of IT infrastructure and manufacturing, including computer-aided design and engineering. The company's IT Management segment develops solutions-oriented netXDC data centers to provide outsourcing services; and provides cloud infrastructure, on-site management, and SE support services. Its Mobility System segment offers software solutions for the electronic vehicle unit that controls vehicle's onboard electronics. The company was formerly known as Sumisho Computer Systems Corporation and changed its name to SCSK Corporation in October 2011. The company was founded in 1969 and is headquartered in Tokyo, Japan. SCSK Corporation is a subsidiary of Sumitomo Corporation.",
   "website": "http://www.scsk.jp"
 }

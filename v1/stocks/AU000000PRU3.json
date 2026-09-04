@@ -2,8 +2,6 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000BJ67K1",
-    "figi": "BBG000BJ69J9",
     "isin": "AU000000PRU3"
   },
   "industry": "Metals & Mining",
@@ -12,33 +10,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P4Q.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P4Q.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P4Q.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PMNXF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "AUD",
       "exchange_mic": "XLON",
       "symbol": "0TXW.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "P4Q.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "P4Q.DU"
     },
     {
@@ -48,8 +31,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "P4Q.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "P4Q.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "P4Q.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PMNXF"
     },
     {
       "currency": "AUD",
@@ -64,15 +62,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Perseus Mining Limited",
-  "primary_symbol": "P4Q.BE",
+  "primary_symbol": "0TXW.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Perseus Mining Limited is a gold producer, developer, and explorer focused on projects in West Africa. The company operates multiple gold mines and is actively exploring for new resources in the region. Perseus Mining is headquartered in Australia.",
+  "summary": "Perseus Mining Limited explores, evaluates, develops, and mines for gold properties in West Africa. It holds interests in the Edikan gold mine project located in Ghana; and Sissingué and Yaoure gold projects located in Côte d'Ivoire, as well as Mahalé, Mbengué, and Napié licenses in Côte d'Ivoire. The company was incorporated in 2003 and is based in Subiaco, Australia.",
   "website": "http://www.perseusmining.com"
 }

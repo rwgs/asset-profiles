@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00WM24DS7",
-    "figi": "BBG00WM24DY0",
+    "figi": "BBG00WM24DT6",
     "isin": "SE0009664303"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5J7.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5J7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5J7.MU"
     },
     {
       "currency": "SEK",
@@ -28,10 +28,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "TANGIAMO TOUCH TECHN. AB",
-  "primary_symbol": "5J7.MU",
+  "name": "Tangiamo Touch Technology AB (publ)",
+  "primary_symbol": "5J7.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

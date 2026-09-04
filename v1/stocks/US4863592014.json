@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BZ5YN4",
+    "composite_figi": "BBG000BM72Q8",
     "cusip": "486359201",
-    "figi": "BBG000BZ5YN4",
+    "figi": "BBG000BM73C1",
     "isin": "US4863592014"
   },
   "industry": "Machinery",
@@ -13,26 +13,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KWHIY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "7012.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KHE.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KWHIY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Kawasaki Heavy Industries, Ltd.",
-  "primary_symbol": "KWHIY",
+  "primary_symbol": "7012.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

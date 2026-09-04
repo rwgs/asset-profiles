@@ -2,6 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000HD8058",
+    "figi": "BBG000HD8156",
     "isin": "BMG3939X1002"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -10,24 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GLSEF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GLV.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0393.HK"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GLSEF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GLV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GLV.MU"
     },
     {
       "currency": "EUR",
@@ -37,9 +39,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Glorious Sun Enterprises Limited",
-  "primary_symbol": "GLSEF",
+  "primary_symbol": "0393.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

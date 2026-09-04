@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000L0G5W1",
+    "composite_figi": "BBG000C4NJF4",
     "cusip": "89854H102",
-    "figi": "BBG000L0GBK1",
+    "figi": "BBG000C4NW01",
     "isin": "US89854H1023"
   },
   "industry": "IT Services",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TH1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TH1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TTEC"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TH1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TH1.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TH1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TH1.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "TTEC Holdings, Inc.",
-  "primary_symbol": "TH1.BE",
+  "primary_symbol": "TTEC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "TTEC Holdings, Inc. is a global customer experience technology and services company. They provide digital customer engagement, technology, and consulting solutions to businesses across various industries. The company is headquartered in Englewood, Colorado.",
+  "summary": "TTEC Holdings, Inc., a customer experience technology and services company, focuses on the design, implementation, and delivery of transformative customer experience for various brands. It operates through TTEC Digital and TTEC Engage segments. The TTEC Digital segments designs, builds, and delivers tech-enabled customer experience solutions through its professional services and suite of technology offerings to enabling and accelerating digital transformation for clients. The TTEC Engage segment provides essential technologies, human resources, infrastructure, and processes to operate customer care, acquisition, and fraud detection and prevention services. TTEC Holdings, Inc. serves clients in the automotive, communication, financial services, government, healthcare, logistics, media and entertainment, retail, technology, transportation, and travel industries with operations in the United States, Australia, Belgium, Brazil, Bulgaria, Canada, Costa Rica, Germany, Greece, Hong Kong, India, Ireland, Mexico, the Netherlands, New Zealand, the Philippines, Poland, Singapore, South Africa, Thailand, the United Arab Emirates, and the United Kingdom. The company was formerly known as TeleTech Holdings, Inc. and changed its name to TTEC Holdings, Inc. in January 2018. TTEC Holdings, Inc. was founded in 1982 and is headquartered in Englewood, Colorado.",
   "website": "http://www.ttec.com"
 }

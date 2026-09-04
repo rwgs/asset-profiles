@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000BX7WP9",
+    "composite_figi": "BBG000BMW3R7",
     "cusip": "00089H106",
-    "figi": "BBG000BX7WP9",
+    "figi": "BBG000BMW592",
     "isin": "US00089H1068"
   },
   "industry": "Construction & Engineering",
@@ -12,21 +12,6 @@
   "isin": "US00089H1068",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ACSAF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ACSAY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OCI1.TI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XMAD",
@@ -38,16 +23,29 @@
       "symbol": "ACS.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ACSAF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ACSAY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "OCI1.F"
+    },
+    {
+      "symbol": "OCI1.TI"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "ACS, Actividades de Construccion y Servicios, S.A.",
-  "primary_symbol": "ACSAF",
+  "primary_symbol": "ACS.MC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

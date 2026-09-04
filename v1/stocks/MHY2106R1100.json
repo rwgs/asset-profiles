@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG006H4DH34",
-    "figi": "BBG006H4DHB5",
+    "composite_figi": "BBG006476H39",
+    "cusip": "Y2106R110",
+    "figi": "BBG006476H75",
     "isin": "MHY2106R1100"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -14,26 +15,21 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0DA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0DA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "LPG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A8W.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0DA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0DA.DU"
     },
     {
@@ -43,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0DA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MHY2106R1100.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Dorian LPG Ltd.",
-  "primary_symbol": "0DA.BE",
+  "primary_symbol": "LPG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

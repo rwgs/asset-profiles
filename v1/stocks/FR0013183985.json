@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00J6GYGP6",
-    "figi": "BBG00J6GYGP6",
     "isin": "FR0013183985"
   },
   "industry": "Biotechnology",
@@ -12,12 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GSGTF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RIM.L"
     },
@@ -32,6 +25,11 @@
       "symbol": "G49N.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GSGTF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "SIGHT.PA"
@@ -39,9 +37,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "GenSight Biologics S.A.",
-  "primary_symbol": "GSGTF",
+  "primary_symbol": "0RIM.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

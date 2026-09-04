@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000CVWGS6",
     "cusip": "00507V109",
+    "figi": "BBG000CVWRL9",
     "isin": "US00507V1098"
   },
   "industry": "Interactive Media & Services",
@@ -12,38 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
+      "symbol": "ATVI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
       "symbol": "0H8X.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "AIY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AIY.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AIY.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AIY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AIY.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ATVI"
     },
     {
       "currency": "EUR",
@@ -51,14 +33,29 @@
       "symbol": "AIY.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AIY.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AIY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AIY.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AIY.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AIY.MU"
     },
     {
       "currency": "EUR",
@@ -69,6 +66,9 @@
       "currency": "SGD",
       "exchange_mic": "XSES",
       "symbol": "AIY.SI"
+    },
+    {
+      "symbol": "AIY.TI"
     },
     {
       "currency": "MXN",
@@ -88,15 +88,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "ACTIVISION BLIZZARD, INC.",
-  "primary_symbol": "0H8X.IL",
+  "primary_symbol": "ATVI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Activision Blizzard, Inc. is an American video game holding company. The company develops and publishes video games across various platforms, including consoles, PCs, and mobile devices. Activision Blizzard is headquartered in Santa Monica, California.",
+  "summary": "Activision Blizzard, Inc., together with its subsidiaries, develops and publishes interactive entertainment content and services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company operates through three segments: Activision Publishing, Inc.; Blizzard Entertainment, Inc.; and King Digital Entertainment. It develops and distributes content and services on video game consoles, personal computers, and mobile devices, including subscription, full-game, and in-game sales, as well as by licensing software to third-party or related-party companies that distribute Activision and Blizzard products. The company also maintains a proprietary online gaming service, Battle.net that facilitates digital distribution of content, online social connectivity, and the creation of user-generated content. In addition, it operates esports leagues and offer digital advertising content; and provides warehousing, logistics, and sales distribution services to third-party publishers of interactive entertainment software, as well as manufacturers of interactive entertainment hardware products. The company's key product franchises include Call of Duty, World of Warcraft, Diablo, Hearthstone, Overwatch, and Candy Crush. It serves retailers and distributors, including mass-market retailers, consumer electronics stores, discount warehouses, and game specialty stores through third-party distribution and licensing arrangements. Activision Blizzard, Inc. is headquartered in Santa Monica, California.",
   "website": "http://www.activisionblizzard.com"
 }

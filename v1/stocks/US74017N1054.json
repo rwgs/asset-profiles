@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005KBPQ97",
+    "composite_figi": "BBG000QL8VH9",
     "cusip": "74017N105",
-    "figi": "BBG005KBPQH8",
+    "figi": "BBG004TDDJ32",
     "isin": "US74017N1054"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I5X.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I5X.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PGEN"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "I5X.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "I5X.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "I5X.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US74017N1054.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Precigen Inc",
-  "primary_symbol": "I5X.BE",
+  "primary_symbol": "PGEN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "PRECIGEN INC. is a biopharmaceutical company pioneering a new class of therapeutics known as AdenoVerse gene therapy. They develop precision gene and cell therapies using their proprietary technology platforms. PreCigen Inc. is headquartered in Germantown, Maryland.",
+  "summary": "Precigen, Inc. discovers and develops the next generation of gene and cellular therapies in the United States. It also provides disease-modifying therapeutics; genetically engineered swine for regenerative medicine applications; proprietary methane bioconversion platform that turns natural gas into energy and chemical products; and reproductive and embryo transfer technologies. In addition, the company offers UltraVector platform that incorporates advanced DNA construction technologies and computational models to design and assemble genetic components into complex gene expression programs; mbIL15, a gene that enhances functional characteristics of immune cells; Sleeping Beauty, a non-viral transposon/transposase system; AttSite recombinases, which breaks and rejoins DNA at specific sequences; AdenoVerse technology platform, a library of engineered adenovector serotypes; and L. lactis is a food-grade bacterium. Additionally, it provides RheoSwitch inducible gene switch that provides quantitative dose-proportionate regulation of the amount and timing of target protein expression; kill switches to selectively eliminate cell therapies in vivo; UltraCAR-T platform for the treatment of cancer; AdenoVerse Immunotherapy, a library of proprietary adenovectors for the gene delivery; and ActoBiotics platform, genetically modified bacteria that deliver proteins and peptides at mucosal sites. Precigen, Inc. has collaboration and license agreements with ZIOPHARM Oncology, Inc.; Ares Trading S.A.; Oragenics, Inc.; Intrexon T1D Partners, LLC; Intrexon Energy Partners, LLC; Intrexon Energy Partners II, LLC; Fibrocell Science, Inc.; OvaXon, LLC; S & I Ophthalmic, LLC; Harvest start-up entities; and Surterra Holdings, Inc. The company was formerly known as Intrexon Corporation and changed its name to Precigen, Inc. in January 2020. Precigen, Inc. was founded in 1998 and is based in Germantown, Maryland.",
   "website": "http://www.precigen.com"
 }

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GMV5Q9",
+    "composite_figi": "BBG000C4QB95",
     "cusip": "852312305",
-    "figi": "BBG000GMV865",
+    "figi": "BBG000C4QB95",
     "isin": "US8523123052"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SR3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SR3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "STAA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SR3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SR3.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SR3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SR3.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "STAAR Surgical Company",
-  "primary_symbol": "SR3.BE",
+  "primary_symbol": "STAA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "STAAR Surgical Company designs, develops, manufactures, and markets implantable lenses for the eye. The company's primary product is the Visian ICL (Implantable Collamer Lens) for correcting myopia, hyperopia, and astigmatism. STAAR Surgical is headquartered in Monrovia, California.",
+  "summary": "STAAR Surgical Company, together with its subsidiaries, designs, develops, manufactures, markets, and sells implantable lenses for the eye, and companion delivery systems to deliver the lenses into the eye. The company provides Visian implantable Collamer lens product family (ICLs) to treat visual disorders, such as myopia, hyperopia, astigmatism, and presbyopia; and Hyperopic ICL, which treats far-sightedness. It also offers preloaded silicone intraocular lenses, as well as preloaded injectors for use in cataract surgery. In addition, the company sells injector parts, and other related instruments and devices. STAAR Surgical Company markets its products to health care providers, including ophthalmic surgeons, vision and surgical centers, hospitals, government facilities, and distributors. The company sells its products directly through its sales representatives in the United States, Japan, Germany, Spain, Canada, the United Kingdom, and Singapore, as well as through own representatives and independent distributors in China, Korea, India, France, Benelux, and Italy. STAAR Surgical Company was incorporated in 1982 and is headquartered in Lake Forest, California.",
   "website": "http://www.staar.com"
 }

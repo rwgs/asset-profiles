@@ -2,6 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000BWGX88",
+    "figi": "BBG000BWGY77",
     "isin": "JP3300600008"
   },
   "industry_group": "Technology Hardware & Equipment",
@@ -9,24 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "KPI1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
       "symbol": "KPI1.HA"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
       "symbol": "KPI1.HM"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "KPI1.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "KPI1.DU"
     },
     {
       "currency": "EUR",
@@ -35,9 +37,9 @@
     }
   ],
   "name": "Konica Minolta, Inc.",
-  "primary_symbol": "KPI1.HA",
+  "primary_symbol": "KPI1.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

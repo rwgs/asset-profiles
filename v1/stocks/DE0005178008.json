@@ -2,34 +2,22 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BHW496",
-    "figi": "BBG000BHW806",
     "isin": "DE0005178008"
   },
   "industry": "IT Services",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Software & Services",
   "isin": "DE0005178008",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SYT.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SYT.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SYT.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0G73.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SYT.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "SYT.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SYT.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SYT.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SYT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SYT.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "SOFTING AG O.N.",
-  "primary_symbol": "SYT.BE",
+  "name": "Softing AG",
+  "primary_symbol": "0G73.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SOFTING AG O.N. develops and markets products and solutions for industrial automation, primarily focusing on communication technology. The company offers hardware and software solutions for data exchange, diagnostics, and monitoring of industrial equipment and systems. SOFTING AG is headquartered in Haar, Germany.",
+  "summary": "Softing AG develops software, hardware, and system solutions worldwide. The company operates through three segments: Industrial, Automotive, and IT Networks. It offers industrial communications solutions and products for the manufacturing and process industry. The company also provides products and services for integrated communication functions in automation systems and devices, such as PROFIBUS, PROFINET, EthernetIP, EtherCAT, Powerlink, Modbus, CAN, CANopen, DeviceNet, FOUNDATION Fieldbus, and HART; interface cards; integration modules; chip solutions and communications software for implementing bus links; gateways for linking fieldbuses; and groupwide planning and administration systems. In addition, it offers tools for configuring networks; toolkits to integrate configuration functions; tools and devices for signal and protocol analysis of industrial communication networks; and OPC servers, OPC middleware, and development tools. Further, the company provides vehicle adapters and data bus interfaces comprising interfaces, various PC connections, programming interfaces, and customized adaptations; and on-site consulting and engineering services, as well as special solutions for development/testing, production, and service. Additionally, it offers diagnostic solutions and servers, and customized and proprietary analytic tools; test automation software interfaces, editing and run time systems, and customized test stations, as well as solutions for the flash programming of control units; and devices for simulating electronic control units and rest bus systems. The company also provides customer-specific software and hardware developments for data communication/diagnosis/test systems; on-site customer support, as well as measurement technology and automation systems; and testing, qualifying, and certifying services for cabling in IT systems. Softing AG was founded in 1979 and is headquartered in Haar, Germany.",
   "website": "http://company.softing.com/de"
 }

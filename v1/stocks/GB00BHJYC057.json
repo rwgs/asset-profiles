@@ -2,8 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000F1ZKZ9",
-    "figi": "BBG000F1ZKZ9",
+    "composite_figi": "BBG000DX15P2",
+    "cusip": "45857P806",
+    "figi": "BBG000DX15P2",
     "isin": "GB00BHJYC057"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,11 +12,6 @@
   "isin": "GB00BHJYC057",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ICHGF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -42,6 +38,11 @@
       "symbol": "IC1H.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ICHGF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "IHG.L"
@@ -49,9 +50,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "InterContinental Hotels Group PLC",
-  "primary_symbol": "ICHGF",
+  "primary_symbol": "IHG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

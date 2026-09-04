@@ -2,8 +2,9 @@
   "country": "Costa Rica",
   "country_code": "CR",
   "identifiers": {
-    "composite_figi": "BBG00LJX2KV9",
-    "figi": "BBG00LJX2L01",
+    "composite_figi": "BBG00L8R3CR6",
+    "cusip": "G31249108",
+    "figi": "BBG00L8R3CR6",
     "isin": "VGG312491084"
   },
   "industry": "Health Care Technology",
@@ -13,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3E0.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ESTA"
     },
     {
@@ -28,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3E0.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "VGG312491084.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Establishment Labs Holdings, Inc.",
-  "primary_symbol": "3E0.MU",
+  "primary_symbol": "ESTA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Establishment Labs Holdings Inc. is a medical technology company focused on breast aesthetics and reconstruction. The company designs, develops, manufactures, and markets a portfolio of silicone gel-filled breast implants. Establishment Labs is headquartered in Alajuela, Costa Rica.",
+  "summary": "Establishment Labs Holdings Inc., a medical technology company, manufactures and markets medical devices for aesthetic and reconstructive plastic surgery. The company primarily offers silicone gel-filled breast implants under Motiva Implants brand. It also provides Divina 3D surgical simulation systems to plastic surgeons for use in pre-surgical patient consultations and planning; and Motiva Flora Tissue Expander, a breast tissue expander, as well as distributes Puregraft line of products for autologous adipose tissue harvesting and redistribution. The company sells its products through exclusive distributors and direct sales force in Europe, Latin America, the Asia-Pacific, and internationally. Establishment Labs Holdings Inc. was incorporated in 2004 and is headquartered in Alajuela, Costa Rica.",
   "website": "http://www.establishmentlabs.com"
 }

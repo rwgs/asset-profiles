@@ -11,16 +11,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NCMGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NCMGY"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "NCM.AX"
@@ -29,6 +19,16 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "NCM.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NCMGF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NCMGY"
     },
     {
       "currency": "EUR",
@@ -48,9 +48,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "NEWCREST MINING LIMITED",
-  "primary_symbol": "NCMGF",
+  "primary_symbol": "NCM.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

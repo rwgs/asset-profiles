@@ -2,8 +2,6 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG00WH3Y8V5",
-    "figi": "BBG00WH3Y934",
     "isin": "IT0005241192"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -12,12 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6W7.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0ROH.L"
     },
@@ -25,6 +18,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6W7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6W7.MU"
     },
     {
       "currency": "EUR",
@@ -39,15 +37,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Aquafil SpA",
-  "primary_symbol": "6W7.MU",
+  "primary_symbol": "0ROH.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Aquafil S.p.A. is an Italian company engaged in the production of polyamide 6 (PA6), a synthetic polymer used in the production of textile floorings and technical applications, including automotive and apparel. The company is known for its ECONYL regeneration system, which transforms nylon waste into new products. Aquafil is headquartered in Arco, Italy.",
+  "summary": "Aquafil S.p.A., together with its subsidiaries, produces and sells polyamide 6 fibers and polymers in Europe, the United States, and Asia. It offers bulk continuous filament or synthetic yarns for the textile flooring sector, as well as used in hotels, airports, offices, etc., as well as residential buildings, and the automotive market; nylon textile filaments for sportswear, classic, and technical or specialist apparels; and polymers products or plastic raw materials primarily for engineering plastics sector for use in molding industry. The company also designs and constructs chemical plants. It markets its products under the Dryarn and ECONYL brands. The company was founded in 1969 and is headquartered in Arco, Italy. Aquafil S.p.A. is a subsidiary of Aquafin Holding S.p.A.",
   "website": "http://www.aquafil.com"
 }

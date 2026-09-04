@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00Z0Y6J09",
     "cusip": "14161Y200",
-    "figi": "BBG00Z0Y6J63",
+    "figi": "BBG00Z0Y6J45",
     "isin": "CA14161Y2006"
   },
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
@@ -12,30 +12,30 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CT9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CT9.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA14161Y2006.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CT9.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CT9.MU"
     }
   ],
   "name": "Cardiol Therapeutics Inc. Class A",
-  "primary_symbol": "CT9.BE",
+  "primary_symbol": "CA14161Y2006.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "CARDIOL THERAPEUTICS CL.A is a biotechnology company focused on the research and development of pharmaceutical cannabidiol (CBD) formulations for the treatment of heart diseases. The company's lead drug candidate is designed to address inflammation and fibrosis associated with heart failure. The company is based in Canada."
+  "summary": "CARDIOL THERAPEUTICS INC-A is a biotechnology company focused on developing pharmaceutical cannabidiol (CBD) formulations for the treatment of heart disease. The company's lead drug candidate is CardiolRx. Cardiol Therapeutics Inc. is headquartered in Oakville, Ontario, Canada."
 }

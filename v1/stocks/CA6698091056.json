@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00XP8G914",
     "cusip": "669809105",
+    "figi": "BBG00XP8G941",
     "isin": "CA6698091056"
   },
   "industry": "Metals & Mining",
@@ -11,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NOVRF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "NOVR.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NOVRF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Nova Royalty Corp.",
-  "primary_symbol": "NOVRF",
+  "primary_symbol": "NOVR.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

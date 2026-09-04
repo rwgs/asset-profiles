@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00X8R7Z40",
+    "composite_figi": "BBG002GKBNW5",
     "cusip": "86646P103",
-    "figi": "BBG00X8R7ZB2",
+    "figi": "BBG00WXWDXX9",
     "isin": "US86646P1030"
   },
   "industry": "Software",
@@ -14,28 +14,28 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SU5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SU5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SUMO"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SU5.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SU5.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SU5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SU5.MU"
     },
     {
       "currency": "GBP",
@@ -50,15 +50,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "SUMO LOGIC, INC.",
-  "primary_symbol": "SU5.BE",
+  "primary_symbol": "SUMO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SUMO LOGIC INC. is a cloud-based machine data analytics company that provides real-time insights from log and metric data. The company's platform helps organizations monitor, troubleshoot, and secure their applications and infrastructure. Sumo Logic is headquartered in Redwood City, California.",
+  "summary": "Sumo Logic, Inc. provides cloud-native software-as-a-service platform that enables organizations to address the challenges and opportunities presented by digital transformation, modern applications, and cloud computing worldwide. Its platform enables organizations to automate the collection, ingestion, and analysis of application, infrastructure, security, and IoT data to derive actionable insights. The company offers a suite of solutions to address areas, such as operational intelligence, security intelligence, business intelligence, and global intelligence. Sumo Logic, Inc. was incorporated in 2010 and is headquartered in Redwood City, California.",
   "website": "http://www.sumologic.com"
 }

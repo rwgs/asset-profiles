@@ -1,10 +1,10 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000KZ4JF7",
+    "composite_figi": "BBG000HDPFY4",
     "cusip": "84763A108",
-    "figi": "BBG000KZ5NT2",
+    "figi": "BBG000HDQWY6",
     "isin": "US84763A1088"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SPPI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NTR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NTR.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NTR.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NTR.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "SPECTRUM PHARMACEUT. NEW",
-  "primary_symbol": "NTR.BE",
+  "name": "SPECTRUM PHARMACEUTICALS, INC.",
+  "primary_symbol": "SPPI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SPECTRUM PHARMACEUT. NEW",
+  "summary": "Spectrum Pharmaceuticals, Inc., a biopharmaceutical company, develops and commercializes oncology and hematology drug products. The company's products under development include ROLONTIS, a novel long-acting granulocyte colony-stimulating factor for chemotherapy-induced neutropenia; Poziotinib, a novel irreversible tyrosine kinase inhibitor for non-small cell lung cancer tumors with various mutations; and Anti-CD20-IFNa, an antibody-interferon fusion molecule directed against CD20 that is in Phase I development for the treatment of patients with relapsed or refractory non-Hodgkin's lymphoma, including diffuse large B-cell lymphoma. It has co-development, commercialization, and in-license agreements with Hanmi Pharmaceutical Co. Ltd.; a patent and technology license agreement with The University of Texas M.D. Anderson Cancer Center; and in-license agreement with ImmunGene, Inc. The company was formerly known as NeoTherapeutics, Inc. and changed its name to Spectrum Pharmaceuticals, Inc. in December 2002. Spectrum Pharmaceuticals, Inc. was incorporated in 1987 and is headquartered in Henderson, Nevada.",
   "website": "http://www.sppirx.com"
 }

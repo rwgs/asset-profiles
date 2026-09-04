@@ -2,33 +2,23 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GQ3GN0",
+    "composite_figi": "BBG000DCGRL8",
     "cusip": "44980X109",
-    "figi": "BBG000GQ3M20",
+    "figi": "BBG000DCK5D0",
     "isin": "US44980X1090"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "US44980X1090",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IPF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IPF.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "IPGP"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0J86.L"
     },
@@ -39,8 +29,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IPF.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IPF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IPF.MU"
     },
     {
       "currency": "EUR",
@@ -55,15 +55,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "IPG Photonics Corporation",
-  "primary_symbol": "IPF.BE",
+  "primary_symbol": "IPGP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "IPG Photonics Corporation is a global leader in high-power fiber lasers and amplifiers. The company designs, develops, and manufactures a wide range of fiber lasers for diverse applications including materials processing, medical, and telecommunications. IPG Photonics is headquartered in Oxford, Massachusetts.",
+  "summary": "IPG Photonics Corporation develops and manufactures a range of high-performance fiber lasers, fiber amplifiers, and diode lasers used in various applications primarily in materials processing worldwide. The company's laser products include high power lasers; fiber pigtailed packaged diodes and fiber coupled direct diode laser systems; high-energy pulsed lasers, multi-wavelength and tunable lasers, and single-polarization and single-frequency lasers; and high power optical fiber delivery cables, fiber couplers, beam switches, chillers, scanners, and other accessories. It also provides erbium-doped fiber and Raman amplifiers, and integrated communications systems, which are deployed in broadband networks; and ytterbium and thulium specialty fiber amplifiers and broadband light sources. In addition, the company offers integrated laser systems; 2D compact flat sheet cutter systems and multi-axis systems; welding seam stepper and picker, a fiber laser welding tool; and specialized fiber laser systems for material processing applications; and optical transceiver and transponder modules for interconnecting electronic equipment, including Ethernet switches, IP routers and SONET/SDH optical transport modules within telecommunications, cable multi-system operator, and data center networking applications. Its lasers and amplifiers are also used in materials processing, communications, and medical and advanced applications. The company markets its products to original equipment manufacturers, system integrators, and end users through direct sales force, as well as through agreements with independent sales representatives and distributors. IPG Photonics Corporation was founded in 1990 and is headquartered in Oxford, Massachusetts.",
   "website": "http://www.ipgphotonics.com"
 }

@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00KW5J141",
+    "composite_figi": "BBG00KDS4TF5",
     "cusip": "38171A209",
-    "figi": "BBG00KW5J141",
+    "figi": "BBG00KDS4TG4",
     "isin": "CA38171A2092"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA38171A2092",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GOTRF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,13 +21,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "GOT.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GOTRF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Goliath Resources Limited",
-  "primary_symbol": "GOTRF",
+  "primary_symbol": "B4IF.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

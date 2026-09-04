@@ -2,8 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000Q8N8X4",
-    "figi": "BBG000Q8NBL0",
+    "composite_figi": "BBG000BNGFJ5",
     "isin": "AU0000074221"
   },
   "industry": "Health Care Providers & Services",
@@ -11,11 +10,6 @@
   "isin": "AU0000074221",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UV7.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -30,13 +24,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UV7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UV7.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Tali Digital Ltd",
-  "primary_symbol": "UV7.MU",
+  "primary_symbol": "AU0000074221.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00QDJRS23",
+    "composite_figi": "BBG00GX2L928",
     "cusip": "759419104",
-    "figi": "BBG00QDJRS78",
+    "figi": "BBG00GX2L928",
     "isin": "US7594191048"
   },
   "industry": "Software",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "38E.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "REKR"
     },
     {
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "38E.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US7594191048.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Rekor Systems, Inc.",
-  "primary_symbol": "38E.MU",
+  "primary_symbol": "REKR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Rekor Systems, Inc. provides real-time roadway intelligence solutions. They use artificial intelligence to convert raw video into actionable insights, enabling transportation agencies, law enforcement, and commercial businesses to improve safety, efficiency, and asset utilization. The company is headquartered in Columbia, Maryland.",
+  "summary": "Rekor Systems, Inc., through its subsidiaries, provides vehicle identification and management systems based on artificial intelligence in the United States, Canada, and internationally. It offers OpenALPR software, a vehicle recognition software. The company provides vehicle recognition and data management products and services; traffic safety systems, including hardware that identifies red light and school safety zone traffic violations, as well as software, which captures and offers forensic quality images and data, and supports citation management services; and enterprise parking enforcement solutions. Its customers include federal, state, and local government entities; retailers; private security companies; parking management companies; fast-food restaurant chains; and logistics companies. Rekor Systems, Inc. was founded in 2017 and is headquartered in Columbia, Maryland.",
   "website": "http://www.rekor.ai"
 }

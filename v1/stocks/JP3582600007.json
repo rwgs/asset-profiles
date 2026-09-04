@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000CCGGD2",
-    "figi": "BBG000CCGJW5",
+    "composite_figi": "BBG000BCPJ38",
+    "figi": "BBG000BCPJB9",
     "isin": "JP3582600007"
   },
   "industry": "Real Estate Management & Development",
@@ -12,24 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T6R.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T6R.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TYTMF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8804.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "T6R.BE"
     },
     {
       "currency": "EUR",
@@ -38,15 +28,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "T6R.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "T6R.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TYTMF"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Tokyo Tatemono Co., Ltd.",
-  "primary_symbol": "T6R.BE",
+  "primary_symbol": "8804.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

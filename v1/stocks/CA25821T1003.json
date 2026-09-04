@@ -2,6 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00LT3NLH5",
     "cusip": "25821T100",
     "isin": "CA25821T1003"
   },
@@ -10,11 +11,6 @@
   "isin": "CA25821T1003",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DRCMF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -39,19 +35,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "DCMC.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DRCMF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Dore Copper Mining Corp.",
-  "primary_symbol": "DRCMF",
+  "name": "DORE COPPER MINING CORP",
+  "primary_symbol": "CA25821T1003.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Doré Copper Mining Corp. operates as a copper–gold explorer and developer in Canada. The company holds a 100% interest in the exploration-stage Corner Bay and Cedar Bay projects located in the vicinity of Chibougamau, Québec. It also has an option agreement to acquire a 100% interest in the Joe Mann property located in Québec. The company was formerly known as ChaiNode Opportunities Corp. and changed its name to Doré Copper Mining Corp. Doré Copper Mining Corp. was incorporated in 2017 and is based in Toronto, Canada.",
+  "summary": "DORE COPPER MINING CORP is a copper and gold exploration and development company. The company focuses on its flagship Corner Bay project in Quebec, Canada. Dore Copper Mining aims to become a copper producer.",
   "website": "http://www.dorecopper.com"
 }

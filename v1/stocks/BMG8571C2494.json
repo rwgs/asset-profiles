@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BQJYJ4",
-    "figi": "BBG000BQJYJ4",
+    "composite_figi": "BBG000BKNWN1",
+    "figi": "BBG000BKNWZ8",
     "isin": "BMG8571C2494"
   },
   "industry": "Industrial Conglomerates",
@@ -11,11 +11,6 @@
   "isin": "BMG8571C2494",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUNTF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -27,6 +22,11 @@
       "symbol": "BMG8571C2494.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SUNTF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "XSH4.F"
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "SUNCORP TECHNOLOGIES LIMITED",
-  "primary_symbol": "SUNTF",
+  "primary_symbol": "1063.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

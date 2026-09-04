@@ -2,8 +2,8 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG006QVKYJ2",
-    "figi": "BBG006QVKYP5",
+    "composite_figi": "BBG000HJ1YM9",
+    "figi": "BBG002J9NNP2",
     "isin": "NL0010801007"
   },
   "industry": "Chemicals",
@@ -11,11 +11,6 @@
   "isin": "NL0010801007",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "INX.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XAMS",
@@ -28,21 +23,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "INX.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "INX.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "IMCD N.V.",
-  "primary_symbol": "INX.MU",
+  "primary_symbol": "IMCD.AS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "IMCD N.V. is a leading distributor of specialty chemicals and ingredients. The company provides solutions for various markets, including coatings, food, and pharmaceuticals. IMCD N.V. is headquartered in Rotterdam, Netherlands.",
+  "summary": "IMCD N.V. distributes, markets, and sells specialty chemicals and ingredients in the Netherlands, rest of Europe, the Middle East, Africa, North America, South America, and the Asia-Pacific. The company offers surfactants and biocides; active pharmaceutical and nutraceutical ingredients, and excipients and specialty solvents; actives, emollients, rheology modifiers, emulsifiers, and decorative powders; and resins and binders, additives, pigments, and specialty solvents. It also provides texturants, proteins, flavors and colors, enzymes and cultures, natural fibers, and nutrition ingredients; synthetic base oils, specialty additive packages and components, purification media and catalysts, and process liquids; catalysts, and building blocks; adhesives solution, and polymers and specialty compounds; functional additives, fillers, and reinforcements; and resins and advanced composites, and pigments. The company was founded in 1995 and is headquartered in Rotterdam, the Netherlands.",
   "website": "http://www.imcdgroup.com"
 }

@@ -2,34 +2,29 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00HBHJPN1",
+    "composite_figi": "BBG006JS5785",
     "cusip": "14167L103",
-    "figi": "BBG00HBHJPV2",
+    "figi": "BBG006JS5785",
     "isin": "US14167L1035"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US14167L1035",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1K9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1K9.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CDNA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1K9.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "1K9.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1K9.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "1K9.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "CareDx, Inc.",
-  "primary_symbol": "1K9.BE",
+  "primary_symbol": "CDNA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "CareDx, Inc. is a molecular diagnostics company focused on transplant patient care, providing solutions for organ transplant recipients. Their products include AlloSure and AlloMap, which monitor organ health and detect potential rejection episodes. TICKER: CareDx, Inc. is a molecular diagnostics company focused on transplant patient care, providing solutions like AlloSure and AlloMap to monitor organ health and detect rejection episodes.",
+  "summary": "CareDx, Inc. discovers, develops, and commercializes diagnostic solutions for transplant patients and caregivers worldwide. It offers AlloSure Kidney, a donor-derived cell-free DNA (dd-cfDNA) solution for kidney transplant patients; AlloMap Heart, a gene expression solution for heart transplant patients; and AlloSure Heart, a dd-cfDNA test to identify underlying cell injury leading to organ rejection. The company offers Olerup SSP, which is used to type human leukocyte antigen (HLA) alleles based on sequence specific primer technology; Olerup SBT, a product range for sequence-based typing of HLA alleles; QTYPE that enables precision in HLA typing at a low to intermediate resolution for samples that uses real-time polymerase chain reaction methodology; and TruSight HLA, a next generation sequencing (NGS) based high resolution typing solution. In addition, it provides AlloSeq Tx, a high-resolution HLA typing solution; AlloSeq cfDNA, a surveillance solution to measure dd-cfDNA in blood; AlloSeq HCT, a solution for chimerism testing for stem cell transplant recipients; Ottr, a transplant patient tracking software; and XynQAPI transplant quality tracking and waitlist management solutions, as well as AlloCare, a mobile app that offers a patient-centric resource for transplant recipients. The company offers its products directly to customers, as well as through third-party distributors. CareDx, Inc. has a license agreement with Illumina, Inc. for the distribution, development and commercialization rights to NGS products and technologies; and Cibiltech SAS to commercialize KidneyCare iBox, a software for the predictive analysis of post-transplantation kidney allograft loss. The company was formerly known as XDx, Inc. and changed its name to CareDx, Inc. in March 2014. CareDx, Inc. was incorporated in 1998 and is headquartered in South San Francisco, California.",
   "website": "http://www.caredx.com"
 }

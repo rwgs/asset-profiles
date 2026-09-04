@@ -12,16 +12,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTX.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CTXS"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HYR.L"
     },
@@ -41,6 +36,9 @@
       "symbol": "CTX.F"
     },
     {
+      "symbol": "CTX.TI"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "CTXS.MX"
@@ -53,9 +51,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Citrix Systems, Inc.",
-  "primary_symbol": "CTX.TI",
+  "primary_symbol": "CTXS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,7 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000D4PV55",
     "cusip": "654445303",
-    "figi": "BBG000D4PV55",
     "isin": "US6544453037"
   },
   "industry": "Interactive Media & Services",
@@ -14,23 +12,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTDOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTDOY"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0K85.L"
     },
     {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "7974.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NTDOF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NTDOY"
     },
     {
       "currency": "MXN",
@@ -55,9 +53,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Nintendo Co., Ltd.",
-  "primary_symbol": "NTDOF",
+  "primary_symbol": "0K85.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

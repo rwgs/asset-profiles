@@ -2,26 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GTH090",
+    "composite_figi": "BBG000BPRN29",
     "cusip": "683344105",
-    "figi": "BBG000GTH5F2",
+    "figi": "BBG000BPRQ59",
     "isin": "US6833441057"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "US6833441057",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNM.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NNM.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NNM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NNM.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Onto Innovation, Inc.",
-  "primary_symbol": "NNM.BE",
+  "primary_symbol": "ONTO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Onto Innovation is a leader in process control, combining global scale service and support with pioneering technology. The company's portfolio of products include: automated metrology, inspection, process control software and services. Onto Innovation is headquartered in Wilmington, Massachusetts.",
+  "summary": "Onto Innovation Inc. engages in the design, development, manufacture, and support of process control tools that performs macro defect inspection and metrology, lithography systems, and process control analytical software worldwide. It offers process and yield management solutions, and device packaging and test facilities through standalone systems for macro-defect inspection, packaging lithography, probe card test and analysis, and transparent and opaque thin film measurements; and process control software portfolio that includes solutions for standalone tools, groups of tools, or factory-wide suites. The company also provides spare parts and software licensing services. Its products are used by semiconductor wafer and advanced packaging device manufacturers; silicon wafer; light emitting diode; vertical-cavity surface-emitting laser; micro-electromechanical system; CMOS image sensor; power device; RF filter; data storage; and various industrial and scientific applications. The company was formerly known as Rudolph Technologies, Inc. Onto Innovation Inc. was founded in 1940 and is headquartered in Wilmington, Massachusetts.",
   "website": "http://www.ontoinnovation.com"
 }

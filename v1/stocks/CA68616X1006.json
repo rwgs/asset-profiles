@@ -14,18 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "ORMNF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ORS.MU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ORS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ORS.MU"
     },
     {
       "currency": "EUR",
@@ -42,7 +42,7 @@
   "name": "Orex Minerals Inc.",
   "primary_symbol": "ORMNF",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

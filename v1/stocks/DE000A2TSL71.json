@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00ZXRLR30",
-    "figi": "BBG00ZXRLR94",
+    "composite_figi": "BBG010L9JDT5",
+    "figi": "BBG010L9JDV2",
     "isin": "DE000A2TSL71"
   },
   "industry": "Biotechnology",
@@ -12,27 +12,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SYAB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SYAB.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SYAB.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SYAB.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0A9B.L"
     },
@@ -43,12 +23,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SYAB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SYAB.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "SYAB.DU"
     },
     {
@@ -58,20 +43,35 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SYAB.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SYAB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SYAB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "SYAB.VI"
     }
   ],
-  "name": "SYNLAB AG  INH O.N.",
-  "primary_symbol": "SYAB.BE",
+  "name": "SYNLAB AG",
+  "primary_symbol": "0A9B.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SYNLAB AG INH O.N. is a leading provider of laboratory diagnostic services, offering a comprehensive range of medical testing for patients, physicians, and pharmaceutical companies. The company's services support clinical decisions and improve patient outcomes through accurate and timely diagnostic information. SYNLAB AG is headquartered in Munich, Germany.",
+  "summary": "SYNLAB AG provides clinical laboratory and medical diagnostic services for practicing doctors, clinics, patients, and the pharmaceutical industry primarily in Europe. The company offers Coronavirus tests, and medical and veterinary diagnostics services. It operates through approximately 450 laboratories and 1,600 blood collection points in 36 countries in four continents. The company was founded in 1998 and is headquartered in Munich, Germany.",
   "website": "http://www.synlab.com"
 }

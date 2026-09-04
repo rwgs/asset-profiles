@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000LHCXQ4",
+    "composite_figi": "BBG001LPWKN3",
     "cusip": "45868C109",
-    "figi": "BBG000LHCXQ4",
+    "figi": "BBG001LPWKP1",
     "isin": "CA45868C1095"
   },
   "industry": "Paper & Forest Products",
@@ -12,11 +12,6 @@
   "isin": "CA45868C1095",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IFSPF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -31,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "IFP.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IFSPF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Interfor Corporation",
-  "primary_symbol": "IFSPF",
+  "primary_symbol": "8IF1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

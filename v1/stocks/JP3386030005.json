@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000P628K6",
-    "figi": "BBG000P628K6",
+    "composite_figi": "BBG000BQWB27",
+    "figi": "BBG000BQWBG2",
     "isin": "JP3386030005"
   },
   "industry": "Metals & Mining",
@@ -12,18 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JFEEF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "5411.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JFEEF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "JFR.DU"
     },
     {
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "JFE Holdings, Inc.",
-  "primary_symbol": "JFEEF",
+  "primary_symbol": "5411.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

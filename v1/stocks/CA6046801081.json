@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000P9CWH0",
     "cusip": "604680108",
-    "figi": "BBG000P9D141",
     "isin": "CA6046801081"
   },
   "industry": "Metals & Mining",
@@ -13,29 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M8R.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M8R.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRZLF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0V7B.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M8R.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "M8R.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M8R.MU"
     },
     {
       "currency": "EUR",
@@ -46,19 +39,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "MRZ.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MRZLF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Mirasol Resources Ltd.",
-  "primary_symbol": "M8R.BE",
+  "primary_symbol": "0V7B.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Mirasol Resources Ltd. is a Canadian mineral exploration company focused on the discovery of precious metals deposits in Chile and Argentina. Their business model involves identifying, acquiring, and exploring prospective mineral properties, with the goal of forming joint ventures or selling the properties to larger mining companies. The company is headquartered in Vancouver, Canada",
+  "summary": "Mirasol Resources Ltd. engages in the acquisition and exploration of mineral properties primarily in Chile and Argentina. It explores for gold, silver, and copper deposits. The company holds 100% interests in the Gorbea gold project, the Los Amarillos gold-silver project, the Altazor gold project, and the Zeus gold project located in Northern Chile. It also owns 100% interests in the Claudia, Virginia, La Curva, Santa Rita, Sascha, and other projects located in the Santa Cruz province of Argentina. In addition, the company holds an option to acquire the Inca gold project in Northern Chile. Mirasol Resources Ltd. was founded in 2003 and is headquartered in Vancouver, Canada.",
   "website": "http://www.mirasolresources.com"
 }

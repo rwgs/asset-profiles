@@ -2,30 +2,25 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00D6TB2G7",
+    "composite_figi": "BBG0026ZG5B0",
     "cusip": "483497103",
-    "figi": "BBG00D6TB2N9",
+    "figi": "BBG0026ZG5B0",
     "isin": "US4834971032"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US4834971032",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4XC1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4XC1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "KALV"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4XC1.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4XC1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "4XC1.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "KALVISTA PHARMA.  DL-,001",
-  "primary_symbol": "4XC1.BE",
+  "name": "KalVista Pharmaceuticals, Inc.",
+  "primary_symbol": "KALV",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "KALVISTA PHARMA. DL-,001 is a pharmaceutical company focused on discovering, developing, and commercializing small molecule protease inhibitors for diseases with significant unmet needs. The company's lead product candidate is likely aimed at treating hereditary angioedema (HAE) and diabetic macular edema (DME).",
+  "summary": "KalVista Pharmaceuticals, Inc., a clinical stage pharmaceutical company, discovers, develops, and commercializes small molecule protease inhibitors for diseases with unmet needs. The company's product portfolio comprises small molecule plasma kallikrein inhibitors targeting hereditary angioedema (HAE) and diabetic macular edema (DME); and oral plasma kallikrein inhibitors. Its products include KVD001, a plasma kallikrein inhibitor that completed a Phase II clinical trial for the treatment of DME; KVD900, which is in Phase II clinical trial for treating HAE attacks; and KVD824, an oral plasma kallikrein inhibitor that completed a Phase I clinical trial for treating DME or HAE. The company is headquartered in Cambridge, Massachusetts.",
   "website": "http://www.kalvista.com"
 }

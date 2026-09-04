@@ -2,8 +2,6 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BWLBH0",
-    "figi": "BBG000BWLG07",
     "isin": "GB00B39J2M42"
   },
   "industry": "Water Utilities",
@@ -11,31 +9,6 @@
   "isin": "GB00B39J2M42",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UUEC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UUEC.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UUEC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UUGRY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UUGWF"
-    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -47,8 +20,13 @@
       "symbol": "UUEA.F"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UUEC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "UUEC.DU"
     },
     {
@@ -58,8 +36,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "UUEC.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UUEC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "UUEC.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UUGRY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UUGWF"
     },
     {
       "currency": "AUD",
@@ -69,15 +67,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "United Utilities Group PLC",
-  "primary_symbol": "UUEC.BE",
+  "primary_symbol": "UU.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "United Utilities Group PLC provides water and wastewater services in the North West of England. The company manages and maintains the water and wastewater network, serving households and businesses. It is headquartered in Warrington, United Kingdom.",
+  "summary": "United Utilities Group PLC provides water and wastewater services in the United Kingdom. It is also involved in renewable energy generation, corporate trustee, financing, and property management activities; and the provision of waste treatment, consulting, and project management services. The company operates 42,000 kilometers (km) of water pipes; 78,000 km of wastewater pipes; 566 wastewater treatment works; and 86 water treatment works. It serves 3 million households and 200,000 business customers. United Utilities Group PLC was incorporated in 2008 is based in Warrington, the United Kingdom.",
   "website": "http://www.unitedutilities.com"
 }

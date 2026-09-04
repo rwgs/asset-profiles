@@ -3,7 +3,6 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000M8P2G8",
-    "figi": "BBG000M8P6B4",
     "isin": "DE000A289VV1"
   },
   "industry": "Pharmaceuticals",
@@ -12,24 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HAEK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HAEK.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HAEK.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A289VV1.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HAEK.BE"
     },
     {
       "currency": "EUR",
@@ -37,27 +26,37 @@
       "symbol": "HAEK.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HAEK.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HAEK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HAEK.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HAEK.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "HAEMATO AG  INH O.N.",
-  "primary_symbol": "HAEK.BE",
+  "name": "HAEMATO AG",
+  "primary_symbol": "DE000A289VV1.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Haemato AG is a pharmaceutical company focused on trading and distributing pharmaceuticals, particularly specialty pharmaceuticals and biosimilars. The company operates in the German pharmaceutical market. Haemato AG is headquartered in Berlin, Germany.",
+  "summary": "HAEMATO AG, based in Berlin, Germany, is a pharmaceutical company specializing in the trading and distribution of pharmaceuticals, particularly those related to oncology and rare diseases. They operate as a wholesaler, sourcing and supplying pharmaceuticals to pharmacies, hospitals, and other healthcare providers. The company also provides related services such as logistics and regulatory support.",
   "website": "http://www.haemato.ag"
 }

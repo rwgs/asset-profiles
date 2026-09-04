@@ -3,27 +3,22 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000QH6PT0",
-    "figi": "BBG000QH6RD3",
+    "figi": "BBG000QH6QV5",
     "isin": "DE000A0KFRJ1"
   },
   "industry": "Capital Markets",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Diversified Financials",
   "isin": "DE000A0KFRJ1",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T5O.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "T5O.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "T5O.DU"
     },
     {
@@ -33,21 +28,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "T5O.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "T5O.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "CYTOTOOLS  O.N.",
-  "primary_symbol": "T5O.MU",
+  "name": "CytoTools AG",
+  "primary_symbol": "T5O.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "CYTOTOOLS O.N. is a German biotechnology company focused on developing and commercializing products for dermatological and ophthalmological conditions. The company's lead product is DermaPro, a treatment for diabetic foot ulcers. CytoTools AG is based in Germany.",
+  "sector": "Financials",
+  "summary": "CytoTools AG, a biotechnology company, develops a pipeline of disease modifying therapies. The company's therapies include proprietary small molecules and biologics to provide treatment options in dermatology, cardiology and angiology, urology, and oncology. Its lead clinical product is DermaPro that has completed Phase III clinical trials for the treatment of diabetic foot ulcers in India; is in Phase III clinical trials for diabetic foot ulcer treatment in Europe; and is in Phase II/III clinical studies for the treatment of venous leg ulcers in Germany, as well as is used as an anti-infective. The company also develops Utisept, an urological medical device for flushing the bladder in urinary tract infections; Derma MP for the treatment of venous leg ulcers in Europe; CardioClean that is in preclinical stage for the treatment of restenosis, diabetis, and carotis-stenosis; and Cancer T17-n for cancer treatment in Europe. CytoTools has collaboration agreement with Activoris Medizintechnik GmbH to develop inhalation therapy for viral infections, such as COVID-19 and influenza. CytoTools AG was founded in 2000 and is based in Darmstadt, Germany.",
   "website": "http://cytotools.de"
 }

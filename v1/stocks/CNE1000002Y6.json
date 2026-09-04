@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000R5D539",
-    "figi": "BBG000R5D6M6",
+    "composite_figi": "BBG000R2VDF6",
+    "figi": "BBG000R2VDT1",
     "isin": "CNE1000002Y6"
   },
   "industry": "Marine",
@@ -11,16 +11,6 @@
   "isin": "CNE1000002Y6",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "D7P.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DLPTF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -38,15 +28,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D7P.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "D7P.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DLPTF"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "LIAONING PORT  H  YC 1",
-  "primary_symbol": "D7P.MU",
+  "market_cap_band": "Mid Cap",
+  "name": "Liaoning Port Company Limited Class H",
+  "primary_symbol": "2880.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000DQQB86",
+    "composite_figi": "BBG0016504R1",
     "cusip": "80287P100",
-    "figi": "BBG000DQQB86",
     "isin": "US80287P1003"
   },
   "industry": "Pharmaceuticals",
@@ -13,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4536.T"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "SNPHF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "SNPHY"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "4536.T"
     },
     {
       "currency": "EUR",
@@ -35,9 +34,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Santen Pharmaceutical Co., Ltd.",
-  "primary_symbol": "SNPHF",
+  "primary_symbol": "4536.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000P272L2",
     "cusip": "42727B109",
+    "figi": "BBG000P27615",
     "isin": "CA42727B1094"
   },
   "industry": "Pharmaceuticals",
@@ -11,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HERTF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "CANN.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HERTF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Heritage Cannabis Holdings Corp.",
-  "primary_symbol": "HERTF",
+  "primary_symbol": "CANN.CN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

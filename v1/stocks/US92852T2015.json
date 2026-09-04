@@ -2,9 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG001D74422",
+    "composite_figi": "BBG000DN2JN5",
     "cusip": "92852T201",
-    "figi": "BBG001D744H6",
+    "figi": "BBG000DN2KG0",
     "isin": "US92852T2015"
   },
   "industry": "Media",
@@ -12,16 +12,6 @@
   "isin": "US92852T2015",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIVEF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIVHY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -38,9 +28,19 @@
       "symbol": "VIV.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VIVEF"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "VIVENN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VIVHY"
     },
     {
       "currency": "EUR",
@@ -60,9 +60,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Vivendi SE",
-  "primary_symbol": "VIVEF",
+  "primary_symbol": "VIV.MI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

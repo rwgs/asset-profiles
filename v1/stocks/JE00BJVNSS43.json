@@ -2,8 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00P43KVV8",
-    "figi": "BBG00P43KW19",
+    "composite_figi": "BBG00P5M4V07",
+    "cusip": "31488V107",
+    "figi": "BBG00P5M4V43",
     "isin": "JE00BJVNSS43"
   },
   "industry": "Trading Companies & Distributors",
@@ -14,27 +15,27 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "24W5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "24W5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "FERG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "24W5.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "24W5.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "24W5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "24W5.MU"
     },
     {
       "currency": "EUR",
@@ -49,9 +50,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Ferguson plc",
-  "primary_symbol": "24W5.BE",
+  "primary_symbol": "FERG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

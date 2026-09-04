@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000CWH7Z3",
+    "composite_figi": "BBG00VNK3267",
     "cusip": "356777300",
-    "figi": "BBG000CWH7Z3",
+    "figi": "BBG00VNK32B1",
     "isin": "CA3567773005"
   },
   "industry": "Metals & Mining",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FEERF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA3567773005.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FEERF"
     },
     {
       "currency": "CAD",
@@ -30,9 +30,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Freeport Resources Inc.",
-  "primary_symbol": "FEERF",
+  "primary_symbol": "CA3567773005.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

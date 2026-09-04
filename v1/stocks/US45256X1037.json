@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009QT9H83",
+    "composite_figi": "BBG007T9DYW9",
     "cusip": "45256X103",
-    "figi": "BBG009QT9HG4",
+    "figi": "BBG009FBSBC1",
     "isin": "US45256X1037"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "26CA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "26CA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "IBRX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "26CA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "26CA.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "26CA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US45256X1037.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "ImmunityBio Inc",
-  "primary_symbol": "26CA.BE",
+  "primary_symbol": "IBRX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ImmunityBio, Inc. is a clinical-stage immunotherapy company developing next-generation therapies that drive long-term immune activation. They focus on therapies for cancers and infectious diseases. The company is headquartered in Culver City, California.",
+  "summary": "ImmunityBio, Inc., an immunotherapy company, develops a memory T-cell cancer vaccine to combat multiple tumor types without the use of high-dose chemotherapy. It develops an albumin-linked chemotherapeutic therapy (Aldoxorubicin), a novel IL-15 cytokine superagonist (N-803), checkpoint inhibitors, macrophage polarizing peptides, bi-specific fusion proteins targeting TGFb and IL-12, adenovirus, and yeast vaccine therapies targeting tumor-associated antigens and neoepitopes. ImmunityBio, Inc. was formerly known as NantCell, Inc. and changed its name to ImmunityBio, Inc. in June 2019. The company was incorporated in 2014 and is based in El Segundo, California. ImmunityBio, Inc. operates as a subsidiary of NantWorks, LLC.",
   "website": "http://immunitybio.com"
 }

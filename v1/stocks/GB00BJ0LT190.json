@@ -3,21 +3,21 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00PH2MTG6",
-    "figi": "BBG00PH2MTM9",
+    "figi": "BBG00PH2MTH5",
     "isin": "GB00BJ0LT190"
   },
   "isin": "GB00BJ0LT190",
   "kind": "fund",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5AC.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5AC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5AC.MU"
     },
     {
       "currency": "GBP",
@@ -27,9 +27,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "HgCapital Trust plc",
-  "primary_symbol": "5AC.MU",
+  "primary_symbol": "5AC.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

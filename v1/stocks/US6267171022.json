@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000K3SSW3",
+    "composite_figi": "BBG000BPMH90",
     "cusip": "626717102",
-    "figi": "BBG000K3SXM3",
+    "figi": "BBG000BPMLC7",
     "isin": "US6267171022"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,21 +15,16 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "MUQ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MUQ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "MUR"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MUQ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MUQ.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MUQ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MUQ.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Murphy Oil Corporation",
-  "primary_symbol": "MUQ.BE",
+  "primary_symbol": "MUR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Murphy Oil Corporation is an independent exploration and production company with a global portfolio of crude oil, natural gas, and natural gas liquids. The company explores for and produces oil and gas in the United States, Canada, and other international locations, with headquarters in El Dorado, Arkansas. Murphy Oil focuses on both onshore and offshore operations.",
+  "summary": "Murphy Oil Corporation operates as an oil and natural gas exploration and production company in the United States, Canada, and internationally. It explores for and produces crude oil, natural gas, and natural gas liquids. The company was formerly known as Murphy Corporation and changed its name to Murphy Oil Corporation in 1964. Murphy Oil Corporation was incorporated in 1950 and is headquartered in Houston, Texas.",
   "website": "http://www.murphyoilcorp.com"
 }

@@ -2,8 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG0071GPN54",
-    "figi": "BBG0071GPN54",
+    "composite_figi": "BBG006QW1FJ2",
+    "figi": "BBG006QW1FK0",
     "isin": "ES0105025003"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -11,11 +11,6 @@
   "isin": "ES0105025003",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRPRF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -40,13 +35,18 @@
       "currency": "EUR",
       "exchange_mic": "XMAD",
       "symbol": "MRL.MC"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MRPRF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Merlin Properties Socimi SA",
-  "primary_symbol": "MRPRF",
+  "primary_symbol": "MEQA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

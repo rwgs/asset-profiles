@@ -2,9 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000C08499",
+    "composite_figi": "BBG00HVY2M02",
     "cusip": "297284200",
-    "figi": "BBG000C08499",
+    "figi": "BBG00HVY2M11",
     "isin": "US2972842007"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,11 +12,6 @@
   "isin": "US2972842007",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ESLOY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XWBO",
@@ -26,13 +21,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ESLC.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ESLOY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "EssilorLuxottica Societe anonyme",
-  "primary_symbol": "ESLOY",
+  "primary_symbol": "EI.VI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

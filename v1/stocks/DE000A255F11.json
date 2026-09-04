@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00ZKTLM31",
-    "figi": "BBG00ZKTLM95",
+    "figi": "BBG00ZKTLM77",
     "isin": "DE000A255F11"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,29 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VH2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VH2.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VH2.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VH2.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A255F11.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VH2.BE"
     },
     {
       "currency": "EUR",
@@ -42,26 +27,41 @@
       "symbol": "VH2.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "VH2.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VH2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "VH2.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VH2.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VH2.MU"
     }
   ],
-  "name": "FR.VORWERK GRP SE INH ON",
-  "primary_symbol": "VH2.BE",
+  "name": "Friedrich Vorwerk Group SE",
+  "primary_symbol": "DE000A255F11.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Friedrich Vorwerk Group SE is a German company specializing in energy infrastructure solutions, primarily focused on the construction, modernization, and maintenance of pipelines and associated facilities for gas, oil, and water. The company provides services to energy suppliers, industrial companies, and public utilities. Friedrich Vorwerk Group SE is headquartered in Tostedt, Germany.",
+  "summary": "Friedrich Vorwerk Group SE provides energy infrastructure solutions, including pipeline construction, plant engineering, and related services, headquartered in Tostedt, Germany. The company serves customers in the oil, gas, and energy industries. Friedrich Vorwerk Group focuses on sustainable and efficient energy infrastructure.",
   "website": "http://www.friedrich-vorwerk.de"
 }

@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG008F939P6",
-    "figi": "BBG008F939W8",
     "isin": "FR0012616852"
   },
   "industry": "Biotechnology",
@@ -12,14 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "609.BE"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RAG.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "609.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +37,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "ABIONYX Pharma SA",
-  "primary_symbol": "609.BE",
+  "primary_symbol": "0RAG.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ABIONYX PHARMA SA EO-,05 is a pharmaceutical company focused on the research and development of therapies for the treatment of renal and metabolic diseases. The company is based in Europe. Their primary focus is on developing HDL-based therapies.",
+  "summary": "ABIONYX Pharma SA, a biopharmaceutical company, discovers and develops high density lipoprotein (HDL) therapies for the treatment of cardiovascular and metabolic diseases. The company is developing a portfolio of HDL therapies, which include HDL mimetics for the rapid regression of atherosclerotic plaque in high-risk patients. It is developing CER-001, an engineered complex of recombinant human apoA-I, the structural protein of HDL, and phospholipids that is in Phase II clinical trials designed to mimicks the structural and functional biological properties of pre-beta HDL for the treatment of post-acute coronary syndrome patients and familial primary hypoalphalipoproteinemia patients; and CER-209, a drug candidate that is in Phase I clinical trial for the treatment of metabolic diseases in the liver, as well as atherosclerois and non-alcoholic steato-hepatitis. The company was formerly known as Cerenis Therapeutics Holding SA and changed its name to ABIONYX Pharma SA in August 2019. ABIONYX Pharma SA was founded in 2005 and is based in Labege, France.",
   "website": "http://abionyx.com"
 }

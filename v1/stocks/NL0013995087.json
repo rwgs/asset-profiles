@@ -2,8 +2,6 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000BPT063",
-    "figi": "BBG000BPT358",
     "isin": "NL0013995087"
   },
   "industry": "Construction Materials",
@@ -12,14 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3PC.BE"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0HY2.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3PC.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +37,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Cementir Holding N.V.",
-  "primary_symbol": "3PC.BE",
+  "primary_symbol": "0HY2.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Cementir Holding N.V. is a global cement producer and supplier of building materials. The company produces cement, ready-mix concrete, and aggregates. Cementir Holding is headquartered in Rome, Italy.",
+  "summary": "Cementir Holding N.V., through its subsidiaries, provides cement and ready-mixed concrete in the Nordic and Baltic, Belgium, North America, Turkey, Egypt, Asia Pacific, Italy and internationally. The company offers white cement for architectural, aesthetic, and structural applications; grey cement for the construction industry; ready-mix concrete for use in infrastructure, landscaping, industry and agriculture, energy and environment, buildings, and pre-stressed and prefabricated concrete products; and aggregates, such as natural sand, gravel, and crushed stones. It also provides Aalborg Extreme, a premixed concrete for thin concrete products production; Aalborg Excel, a ready-to-use mortar for sophisticated aesthetics used for glass fiber concrete; Aalborg Explore, a ready-to-use mortar; and FUTURECEM cement. In addition, the company purchases and sells clinker, replacement parts, pet-coke and coal fuels, and other products; and offers shipping and logistics services, procurement management services, assistance and technical support, goods forwarding, and digital solutions. Cementir Holding N.V. was incorporated in 1947 and is headquartered in Rome, Italy.",
   "website": "http://www.cementirholding.com"
 }

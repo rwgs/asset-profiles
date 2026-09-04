@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000VFTFK4",
-    "figi": "BBG000VFTFK4",
+    "composite_figi": "BBG000PNWCS9",
+    "figi": "BBG000PNWDQ9",
     "isin": "AU0000250250"
   },
   "industry": "Metals & Mining",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GDLNF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "G7P.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GDLNF"
     },
     {
       "currency": "AUD",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Greenland Minerals Limited",
-  "primary_symbol": "GDLNF",
+  "primary_symbol": "G7P.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C05Z11",
+    "composite_figi": "BBG000BGR1H1",
     "cusip": "86428V104",
-    "figi": "BBG000C05Z11",
+    "figi": "BBG000BGR1X3",
     "isin": "US86428V1044"
   },
   "industry": "Automobiles",
@@ -13,31 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FUJHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FUJHY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "7270.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FUH.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FUJHF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FUJHY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Subaru Corporation",
-  "primary_symbol": "FUJHF",
+  "primary_symbol": "7270.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,23 +2,12 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000C3S2Q6",
-    "figi": "BBG000C3S2Q6",
+    "figi": "BBG0116T1XB0",
     "isin": "XS2341038656"
   },
   "isin": "XS2341038656",
   "kind": "debt",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AACAF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AACAY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -28,13 +17,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "A2XN.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AACAF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AACAY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "AAC Technologies Holdings Inc.",
-  "primary_symbol": "AACAF",
+  "primary_symbol": "A2XN.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

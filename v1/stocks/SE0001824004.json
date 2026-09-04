@@ -2,8 +2,8 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00PVNKBH4",
-    "figi": "BBG00PVNKBH4",
+    "composite_figi": "BBG000BMQJ17",
+    "figi": "BBG000BMQJ99",
     "isin": "SE0001824004"
   },
   "industry": "Interactive Media & Services",
@@ -12,28 +12,23 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GENTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "U3I.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "U3I.MU"
-    },
-    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "G5EN.ST"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GENTF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "U3I.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "U3I.DU"
     },
     {
@@ -43,15 +38,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "U3I.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "U3I.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "G5 Entertainment AB",
-  "primary_symbol": "GENTF",
+  "primary_symbol": "G5EN.ST",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

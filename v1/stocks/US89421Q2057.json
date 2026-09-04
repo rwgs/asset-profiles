@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000CZHTL3",
+    "composite_figi": "BBG000F7RHK8",
     "cusip": "89421Q205",
-    "figi": "BBG000CZJYZ5",
+    "figi": "BBG000F7RVW4",
     "isin": "US89421Q2057"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TXM1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TXM1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TZOO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TXM1.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TXM1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TXM1.MU"
     },
     {
       "currency": "EUR",
@@ -40,9 +40,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Travelzoo",
-  "primary_symbol": "TXM1.BE",
+  "primary_symbol": "TZOO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

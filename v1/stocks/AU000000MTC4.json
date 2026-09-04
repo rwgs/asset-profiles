@@ -2,8 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00GCTJZL6",
-    "figi": "BBG00GCTJZT8",
+    "composite_figi": "BBG00FF74LL0",
     "isin": "AU000000MTC4"
   },
   "industry": "Metals & Mining",
@@ -12,24 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MT1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MT1.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000MTC4.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MT1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MT1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MT1.MU"
     },
     {
       "currency": "AUD",
@@ -39,9 +38,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "MetalsTech Ltd",
-  "primary_symbol": "MT1.BE",
+  "primary_symbol": "AU000000MTC4.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

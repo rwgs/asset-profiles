@@ -3,7 +3,7 @@
   "country_code": "FI",
   "identifiers": {
     "composite_figi": "BBG00MQF71V5",
-    "figi": "BBG00MQF7207",
+    "figi": "BBG00MQF71W4",
     "isin": "FI4000306733"
   },
   "industry": "Banks",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OM0.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "OM0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OM0.MU"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Oma Saastopankki Oyj",
-  "primary_symbol": "OM0.MU",
+  "primary_symbol": "OM0.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -10,14 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XLON",
       "symbol": "0ROM.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GMPUF"
     },
     {
       "currency": "EUR",
@@ -38,13 +33,18 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "GESTN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GMPUF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Gestamp Automocion S.A.",
   "primary_symbol": "0ROM.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

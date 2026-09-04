@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG0085XP7H3",
+    "figi": "BBG0085XP7J1",
     "isin": "IT0003188064"
   },
   "industry": "Banks",
@@ -9,11 +11,6 @@
   "isin": "IT0003188064",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0NBX.IL"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,21 +23,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NBX.IL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "IF.MI"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Banca IFIS S.p.A.",
-  "primary_symbol": "0NBX.IL",
+  "primary_symbol": "0I6.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Banca IFIS SpA is an Italian bank that specializes in financial services for small and medium-sized enterprises (SMEs). It offers factoring, leasing, and other financial solutions. The company is headquartered in Venice, Italy.",
+  "summary": "Banca IFIS S.p.A. provides credit services and solutions for enterprises. It engages in the purchase/management of non-performing loan portfolios. The company offers factoring, advisory and equity investment, structured finance, leasing, and long-term financing for industrial investments. It operates through 26 commercial offices in Poland, and Romania. The company was founded in 1983 and is based in Mestre, Italy. Banca IFIS S.p.A. is a subsidiary of La Scogliera S.p.A.",
   "website": "http://www.bancaifis.it"
 }

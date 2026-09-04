@@ -12,14 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "21T.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BYPLF"
     },
     {
       "currency": "EUR",
@@ -30,13 +25,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "BOY.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BYPLF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Bodycote plc",
   "primary_symbol": "21T.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

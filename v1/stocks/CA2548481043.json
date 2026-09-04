@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00VZQNSZ0",
     "cusip": "254848104",
-    "figi": "BBG00VZQNT51",
+    "figi": "BBG00VZQNT33",
     "isin": "CA2548481043"
   },
   "industry": "Metals & Mining",
@@ -13,29 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DFPP.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DFPP.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DFPP.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MKVNF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA2548481043.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DFPP.BE"
     },
     {
       "currency": "EUR",
@@ -43,22 +28,37 @@
       "symbol": "DFPP.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DFPP.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DFPP.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "DMX.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MKVNF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "District Metals Corp.",
-  "primary_symbol": "DFPP.BE",
+  "primary_symbol": "CA2548481043.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "District Metals is a Swedish mineral exploration company focused on discovering and developing polymetallic projects in Sweden. They primarily target volcanogenic massive sulfide (VMS) deposits containing base and precious metals. The company is headquartered in Vancouver, British Columbia, Canada with exploration activities in Sweden.",
+  "summary": "DISTRICT METALS CORP is a mineral exploration company focused on exploring for polymetallic deposits in politically stable jurisdictions. The company focuses on the exploration of mineral properties in Canada and Scandinavia. District Metals is based in Vancouver, British Columbia, Canada.",
   "website": "http://www.districtmetals.com"
 }

@@ -2,9 +2,8 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BB38R2",
-    "cusip": "448103101",
-    "figi": "BBG000BB38R2",
+    "composite_figi": "BBG000BB4KM9",
+    "figi": "BBG000BB4L83",
     "isin": "SE0001662230"
   },
   "industry": "Building Products",
@@ -12,16 +11,6 @@
   "isin": "SE0001662230",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HSQVY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HUSQF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -31,6 +20,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HRZA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HSQVY"
     },
     {
       "currency": "SEK",
@@ -43,16 +37,21 @@
       "symbol": "HUSQ-B.ST"
     },
     {
-      "currency": "CHF",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HUSQF"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0001662230.SW"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Husqvarna AB Class B",
-  "primary_symbol": "HSQVY",
+  "primary_symbol": "HRZ.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,30 +1,29 @@
 {
-  "country": "Guernsey",
-  "country_code": "GG",
+  "country": "Viet Nam",
+  "country_code": "VN",
   "identifiers": {
-    "composite_figi": "BBG000M428X0",
-    "figi": "BBG000M428X0",
+    "composite_figi": "BBG000FJHGQ9",
     "isin": "GG00BJQZ9H10"
   },
   "isin": "GG00BJQZ9H10",
   "kind": "fund",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VNMHF"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "VNH.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VNMHF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "VietNam Holding Limited",
-  "primary_symbol": "VNMHF",
+  "primary_symbol": "VNH.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

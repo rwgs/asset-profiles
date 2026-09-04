@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000PQ4JV4",
+    "composite_figi": "BBG000BTJS47",
     "cusip": "05964H105",
-    "figi": "BBG000PQ4NM5",
+    "figi": "BBG000BTJTB7",
     "isin": "US05964H1059"
   },
   "industry": "Banks",
@@ -12,11 +12,6 @@
   "isin": "US05964H1059",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BSDK.BE"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BSDK.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BSDK.F"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "BCO SANTANDER SP.ADR1",
-  "primary_symbol": "BSDK.BE",
+  "name": "Banco Santander, S.A.",
+  "primary_symbol": "SAN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "BCO SANTANDER SP.ADR1 refers to Banco Santander, a global banking group offering a wide range of financial products and services to individuals, SMEs, and large corporations through its ADR. The bank's services include retail banking, corporate and investment banking, wealth management, and insurance. Banco Santander is headquartered in Spain.",
+  "summary": "Banco Santander, S.A., together with its subsidiaries, provides various retail and commercial banking products and services to individuals, small and medium-sized enterprises, and large companies worldwide. It offers demand and time deposits, and current and savings accounts; mortgages, consumer finance, syndicated corporate loans, structured financing, cash management, export and agency finance, trade and working capital solutions, and corporate finance; and insurance products. The company also provides cash, asset, and wealth management; and private banking services. In addition, it is involved in the corporate banking; treasury, risk hedging, foreign trade, confirming, custody, and investment banking activities. The company operates through a network of 11,236 branches. The company was formerly known as Banco Santander Central Hispano S.A. and changed its name to Banco Santander, S.A. in June 2007. Banco Santander, S.A. was founded in 1856 and is headquartered in Madrid, Spain.",
   "website": "http://www.santander.com"
 }

@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00XVBCPT8",
-    "figi": "BBG00XVBCPT8",
+    "composite_figi": "BBG00D305Y25",
+    "figi": "BBG00D305Y34",
     "isin": "AU000000EMH5"
   },
   "industry": "Metals & Mining",
@@ -11,16 +11,6 @@
   "isin": "AU000000EMH5",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EMHLF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ERPNF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -50,13 +40,23 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "EMH.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EMHLF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ERPNF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "European Metals Holdings Ltd",
-  "primary_symbol": "EMHLF",
+  "primary_symbol": "E86.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

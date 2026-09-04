@@ -2,8 +2,8 @@
   "country": "Greece",
   "country_code": "GR",
   "identifiers": {
-    "composite_figi": "BBG000BWNVX6",
-    "figi": "BBG000BWNVX6",
+    "composite_figi": "BBG000DJGBB9",
+    "figi": "BBG000DJHRW0",
     "isin": "GRS003003035"
   },
   "industry": "Banks",
@@ -12,13 +12,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NBGIF"
-    },
-    {
       "currency": "EUR",
-      "exchange_mic": "XATH",
+      "exchange_mic": "ASEX",
       "symbol": "ETE.AT"
     },
     {
@@ -35,13 +30,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NAGG.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NBGIF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "National Bank of Greece S.A.",
-  "primary_symbol": "NBGIF",
+  "primary_symbol": "ETE.AT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

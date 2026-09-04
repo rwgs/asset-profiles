@@ -2,26 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FDC901",
+    "composite_figi": "BBG000BPXVJ6",
     "cusip": "760759100",
-    "figi": "BBG000FDDGR5",
+    "figi": "BBG000BPXYW5",
     "isin": "US7607591002"
   },
   "industry": "Transportation Infrastructure",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Transportation",
   "isin": "US7607591002",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RPU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RPU.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -33,14 +23,24 @@
       "symbol": "R1SG34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RPU.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "RPU.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RPU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RPU.MU"
     },
     {
       "currency": "EUR",
@@ -54,16 +54,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "REPUBLIC SERVIC. DL-,01",
-  "primary_symbol": "RPU.BE",
+  "name": "Republic Services, Inc.",
+  "primary_symbol": "RSG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Republic Services Inc. provides non-hazardous solid waste collection, transfer, disposal, recycling, and energy services. The company serves commercial, industrial, municipal, and residential customers. Republic Services is headquartered in Phoenix, Arizona.",
+  "summary": "Republic Services, Inc., together with its subsidiaries, provides non-hazardous solid waste collection, transfer, disposal, recycling, and environmental services in the United States. The company serves small-container, large-container, and municipal and residential customers. The company's collection services include curbside collection of material for transport to transfer stations, landfills, or recycling processing centers; supply of recycling and waste containers; and renting of compactors. It is also involved in the processing and sale of old corrugated containers, old newsprint, aluminum, glass, and other materials; and provision of landfill and transfer services. In addition, the company offers disposal of non-hazardous solid and liquid material and in-plant services, such as transportation and logistics. As of December 31, 2020, the company operated through 345 collection operations, 220 transfer stations, 186 active landfills, 76 recycling processing centers, 9 salt water disposal wells, and 7 deep injection wells, as well as 6 treatment, recovery, and disposal facilities in 41 states. It also operated 75 landfill gas-to-energy and renewable energy projects and had 128 closed landfills. The company was incorporated in 1996 and is based in Phoenix, Arizona.",
   "website": "http://www.republicservices.com"
 }

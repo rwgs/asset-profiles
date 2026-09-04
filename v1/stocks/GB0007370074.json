@@ -1,9 +1,8 @@
 {
-  "country": "India",
-  "country_code": "IN",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000C4XK79",
-    "figi": "BBG000C4XMT1",
+    "composite_figi": "BBG000BDYQS3",
     "isin": "GB0007370074"
   },
   "industry": "Professional Services",
@@ -12,17 +11,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RIR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RIR.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0007370074.SW"
     },
@@ -32,8 +21,13 @@
       "symbol": "RCDO.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RIR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "RIR.DU"
     },
     {
@@ -43,21 +37,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RIR.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RIR.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "RICARDO PLC  LS-,25",
-  "primary_symbol": "RIR.BE",
+  "name": "RICARDO PLC",
+  "primary_symbol": "GB0007370074.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Ricardo PLC is a global engineering, environmental and strategic consulting company. The company provides technical expertise and services to a range of industries. Ricardo is headquartered in Shoreham-by-Sea, UK.",
+  "summary": "Ricardo PLC is a global engineering, technical, and environmental consultancy, providing services to the automotive, transport, energy, and defense sectors. The company offers a range of services, including product development, testing, and certification. Ricardo is headquartered in Shoreham-by-Sea, United Kingdom.",
   "website": "http://www.ricardo.com"
 }

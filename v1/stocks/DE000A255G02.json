@@ -3,33 +3,23 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BDQ1X1",
-    "figi": "BBG000BDQ4D7",
+    "figi": "BBG000BDQ3H5",
     "isin": "DE000A255G02"
   },
   "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry_group": "Energy",
   "isin": "DE000A255G02",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H2O.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H2O.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H2O.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A255G02.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "H2O.BE"
     },
     {
       "currency": "EUR",
@@ -40,19 +30,29 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "H2O.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "H2O.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "H2O.MU"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "ENAPTER AG  INH O.N.",
-  "primary_symbol": "H2O.BE",
+  "name": "Enapter AG",
+  "primary_symbol": "DE000A255G02.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Enapter AG is a German company that manufactures and sells highly efficient AEM (Anion Exchange Membrane) electrolyzers for producing green hydrogen. Their modular systems are used for on-site hydrogen production from renewable energy sources. Enapter AG is headquartered in Saerbeck, Germany.",
+  "sector": "Energy",
+  "summary": "Enapter AG manufactures and sells highly efficient modular hydrogen generators based on anion exchange membrane (AEM) electrolysis, headquartered in Pisa, Italy and Saerbeck, Germany. Their core product is a standardized, scalable AEM Electrolyser, which is used in a variety of applications. Enapter promotes decentralized hydrogen production.",
   "website": "http://www.enapterag.de"
 }

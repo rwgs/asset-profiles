@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000HFZ6X9",
+    "composite_figi": "BBG00K4YT2L7",
     "cusip": "37957M106",
-    "figi": "BBG000HFZ6X9",
+    "figi": "BBG00K4YT2M6",
     "isin": "CA37957M1068"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA37957M1068",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GLATF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -28,6 +23,11 @@
       "symbol": "G12.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GLATF"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "GLO.TO"
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Global Atomic Corporation",
-  "primary_symbol": "GLATF",
+  "primary_symbol": "G12.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

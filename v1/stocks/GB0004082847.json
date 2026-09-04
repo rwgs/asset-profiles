@@ -2,8 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BTS0N7",
-    "figi": "BBG000BTS0N7",
+    "composite_figi": "BBG000CZGCY7",
+    "figi": "BBG000CZGDQ4",
     "isin": "GB0004082847"
   },
   "industry": "Banks",
@@ -12,24 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCBFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SCBFY"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "2888.HK"
     },
     {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0004082847.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SCBFF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SCBFY"
     },
     {
       "currency": "GBP",
@@ -54,9 +54,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Standard Chartered PLC",
-  "primary_symbol": "SCBFF",
+  "primary_symbol": "2888.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

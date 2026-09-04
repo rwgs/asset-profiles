@@ -12,29 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "GFG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GFG.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GFG.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GFG.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GLFGF"
     },
     {
       "currency": "EUR",
@@ -42,8 +22,8 @@
       "symbol": "GFG.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "GFG.DU"
     },
     {
@@ -53,8 +33,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "GFG.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "GFG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GFG.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "GFGT.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GLFGF"
     },
     {
       "currency": "EUR",
@@ -66,13 +66,13 @@
   "name": "Global Fashion Group S.A.",
   "primary_symbol": "GFG.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Global Fashion Group S.A. (GFG) operates a collection of online retail platforms specializing in fashion and lifestyle merchandise across Latin America, the CIS, Southeast Asia, Australia, and New Zealand, through its Dafiti, Lamoda, ZALORA, and THE ICONIC e-commerce brands. Established in 2011, GFG is headquartered in Senningerberg, Luxembourg.",
-  "website": "https://www.global-fashion-group.com"
+  "summary": "Global Fashion Group S.A. operates e-commerce platforms for fashion and lifestyle markets in Latin America, the Commonwealth of Independent States, South East Asia, Australia, and New Zealand. The company covers various fashion and lifestyle categories, such as apparel, footwear, accessories, and kids and sportswear. It also provides associated ancillary services, such as marketing, technology, payment, warehousing, and logistics services; trustee, consultancy, and IT services; and wholesale, online retail, and call center services, as well as operates as a general partner and financial holding company. The company operates through four e-commerce platforms, which include Dafiti, Lamoda, ZALORA, and THE ICONIC. Global Fashion Group S.A. was founded in 2011 and is based in Senningerberg, Luxembourg.",
+  "website": "http://global-fashion-group.com"
 }

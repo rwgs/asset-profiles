@@ -10,14 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "SEK",
+      "exchange_mic": "XLON",
       "symbol": "0YAY.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTFN.MU"
     },
     {
       "currency": "SEK",
@@ -28,13 +23,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VTFN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VTFN.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Vitrolife AB",
   "primary_symbol": "0YAY.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

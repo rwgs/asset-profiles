@@ -2,8 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000QJC3L6",
-    "figi": "BBG000QJC602",
+    "composite_figi": "BBG000QCLVY5",
     "isin": "AU000000MXC6"
   },
   "industry": "Pharmaceuticals",
@@ -12,29 +11,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H5O.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H5O.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MGCLF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000MXC6.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "H5O.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "H5O.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "H5O.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MGCLF"
     },
     {
       "currency": "AUD",
@@ -49,15 +48,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "MGC PHARMACEUTICALS LTD",
-  "primary_symbol": "H5O.BE",
+  "primary_symbol": "AU000000MXC6.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MGC Pharmaceuticals Ltd is a biopharma company focused on developing and supplying phytocannabinoid-derived medicines. The company operates through cultivation, production, and distribution of pharmaceutical-grade cannabis-based products. MGC Pharmaceuticals is headquartered in Perth, Australia.",
+  "summary": "MGC Pharmaceuticals Ltd is a biopharmaceutical company focused on developing and supplying phytocannabinoid-derived medicines. The company's products target conditions like epilepsy, dementia and cancer.",
   "website": "http://www.mgcpharma.com.au"
 }

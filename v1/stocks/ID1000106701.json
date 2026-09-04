@@ -2,22 +2,24 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
+    "composite_figi": "BBG000BVJB03",
+    "figi": "BBG000BVJBC0",
     "isin": "ID1000106701"
   },
   "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Transportation",
+  "industry_group": "Energy",
   "isin": "ID1000106701",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RK6A.BE"
-    },
-    {
       "currency": "IDR",
       "exchange_mic": "XIDX",
       "symbol": "AKRA.JK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RK6A.BE"
     },
     {
       "currency": "EUR",
@@ -27,15 +29,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "PT AKR Corporindo Tbk",
-  "primary_symbol": "RK6A.BE",
+  "primary_symbol": "AKRA.JK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "PT AKR Corporindo Tbk is an Indonesian company involved in logistics and supply chain solutions, particularly in the distribution of petroleum and basic chemicals. The company also provides warehousing and transportation services. AKR Corporindo aims to be a leading integrated supply chain provider in Indonesia.",
+  "sector": "Energy",
+  "summary": "PT AKR Corporindo Tbk, a logistics and supply chain company, distributes and trades in petroleum and basic chemical products primarily in Indonesia. The company operates in four segments: Trading and Distribution, Logistics Services, Manufacturing, and Industrial Estate. The Trading and Distribution segment distributes petroleum products and various basic chemicals, such as caustic soda, sodium sulphate, PVC resins, and soda ash. The Logistics Services segment provides various logistics services, including rental of storage tanks and warehouses, bagging, port handling, and transportation services primarily for liquid and solid chemical, and petroleum products. The Manufacturing segment produces and sells adhesive materials. The Industrial Estate segment develops, leases, and sells industrial and port estates. The company was formerly known as PT Aneka Kimia Raya Tbk and changed its name to PT AKR Corporindo Tbk in September 2004. The company was incorporated in 1977 and is headquartered in Jakarta, Indonesia. PT AKR Corporindo Tbk is a subsidiary of PT Arthakencana Rayatama.",
   "website": "http://www.akr.co.id"
 }

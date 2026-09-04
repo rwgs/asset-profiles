@@ -2,22 +2,15 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG006Q7ZCZ9",
-    "figi": "BBG006Q7ZD41",
     "isin": "FR0011950682"
   },
   "industry": "Building Products",
-  "industry_group": "Capital Goods",
+  "industry_group": "Materials",
   "isin": "FR0011950682",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SFK.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0QVG.L"
     },
@@ -33,21 +26,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SFK.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SFK.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "SergeFerrari Group SA",
-  "primary_symbol": "SFK.MU",
+  "primary_symbol": "0QVG.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "SERGEFERRARI GROUP designs, develops, and manufactures flexible composite materials. These materials are used in architecture, industry, and visual communication. The company is based in France.",
+  "sector": "Materials",
+  "summary": "SergeFerrari Group SA designs, manufactures, and distributes flexible composite materials in France and internationally. The company offers solutions for indoor and outdoor blind, and terrace blind and awning; tensile roof, shading structure, and big top; indoor and outdoor acoustic treatment; bioclimatic façade; building construction and renovation; and waterproof breathable membrane applications. It also provides products and solutions for modular structure, visual communication for printed advertisement, protection and environment, furniture, and yachting applications. The company was founded in 1973 and is headquartered in Saint-Jean-de-Soudain, France.",
   "website": "http://www.sergeferrari.com"
 }

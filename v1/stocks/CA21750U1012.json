@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000RQ4PM8",
     "cusip": "21750U101",
-    "figi": "BBG000RQ4RX2",
     "isin": "CA21750U1012"
   },
   "industry": "Metals & Mining",
@@ -12,16 +10,6 @@
   "isin": "CA21750U1012",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "COQ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "COQ.MU"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -33,14 +21,24 @@
       "symbol": "CMMC.TO"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "COQ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "COQ.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "COQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "COQ.MU"
     },
     {
       "currency": "EUR",
@@ -54,16 +52,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "COPPER MOUNTAIN MINING",
-  "primary_symbol": "COQ.BE",
+  "name": "Copper Mountain Mining Corporation",
+  "primary_symbol": "C6C.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Copper Mountain Mining Corporation is a copper mining company focused on operating the Copper Mountain mine in British Columbia, Canada. The company engages in the exploration, development, and operation of copper mines. They produce copper concentrates and are headquartered in Vancouver, Canada.",
+  "summary": "Copper Mountain Mining Corporation operates as a mining company in Canada. The company explores for copper, gold, and silver deposits. Its flagship asset is the Copper Mountain mine that comprise 138 crown granted mineral claims, 149 located mineral claims, 14 mining leases, and 12 fee simple properties covering an area of 6,702 hectares located to the south of Princeton, British Columbia. The company was founded in 2006 and is headquartered in Vancouver, Canada.",
   "website": "http://www.cumtn.com"
 }

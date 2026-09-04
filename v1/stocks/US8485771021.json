@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG001QHWWT4",
+    "composite_figi": "BBG000BF6RQ9",
     "cusip": "848577102",
-    "figi": "BBG001QHWX03",
+    "figi": "BBG001660QB7",
     "isin": "US8485771021"
   },
   "industry": "Airlines",
@@ -15,17 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "S64.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S64.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "SAVE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S64.BE"
     },
     {
       "currency": "EUR",
@@ -33,8 +28,8 @@
       "symbol": "S64.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "S64.DU"
     },
     {
@@ -44,21 +39,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S64.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "S64.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "SPIRIT AIRLINES, INC.",
-  "primary_symbol": "S64.BE",
+  "primary_symbol": "SAVE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Spirit Airlines, Inc. is an ultra-low-cost carrier that provides air transportation for passengers throughout the United States, Latin America, and the Caribbean. The airline focuses on offering unbundled fares and optional services for a budget-conscious customer base. Spirit Airlines is headquartered in Miramar, Florida.",
+  "summary": "Spirit Airlines, Inc. provides airline services. It serves 78 destinations in 16 countries in the United States, Latin America, and the Caribbean. As of December 31, 2020, the company had a fleet of 157 Airbus single-aisle aircraft comprising 31 A319ceos, 64 A320ceos, 32 A320neos, and 30 A321ceos. It offers tickets through its call centers and airport ticket counters, as well as online through spirit.com; and through various third parties, including online, traditional travel agents, and electronic global distribution systems. The company was formerly known as Clippert Trucking Company and changed its name to Spirit Airlines, Inc. in 1992. Spirit Airlines, Inc. was founded in 1964 and is headquartered in Miramar, Florida.",
   "website": "http://www.spirit.com"
 }

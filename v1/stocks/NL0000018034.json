@@ -2,8 +2,6 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG000BB4ML6",
-    "figi": "BBG000BB4R71",
     "isin": "NL0000018034"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,17 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AJXA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AJXA.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0DI7.L"
     },
@@ -32,8 +20,13 @@
       "symbol": "AJAX.AS"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AJXA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AJXA.DU"
     },
     {
@@ -42,22 +35,27 @@
       "symbol": "AJXA.F"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AJXA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "NL0000018034.SW"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "AFC Ajax N.V.",
-  "primary_symbol": "AJXA.BE",
+  "primary_symbol": "0DI7.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "AFC Ajax N.V. is a Dutch professional football club based in Amsterdam, Netherlands. The club is known for its successful football team, youth academy, and participation in major European football competitions. AFC Ajax also generates revenue through ticket sales, sponsorships, merchandise, and broadcasting rights.",
+  "summary": "AFC Ajax NV operates a football club primarily in the Netherlands. The company also operates a stadium and an youth academy. In addition, it sells tickets online. The company was founded in 1900 and is based in Amsterdam, the Netherlands.",
   "website": "http://www.ajax.nl"
 }

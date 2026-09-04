@@ -13,24 +13,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "GPB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GPB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GPTRF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GPB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GPB.MU"
     },
     {
       "currency": "EUR",
@@ -41,13 +36,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "GPG.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GPTRF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Grande Portage Resources Ltd.",
   "primary_symbol": "GPB.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

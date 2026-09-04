@@ -2,31 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00P95ZQV3",
+    "composite_figi": "BBG00BN969C1",
     "cusip": "22052L104",
-    "figi": "BBG00P95ZR14",
+    "figi": "BBG00MV4Q7P7",
     "isin": "US22052L1044"
   },
   "industry": "Construction Materials",
-  "industry_group": "Household & Personal Products",
+  "industry_group": "Materials",
   "isin": "US22052L1044",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2X0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2X0.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2X0.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -34,18 +19,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2X0.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "2X0.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "2X0.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2X0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "2X0.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2X0.MU"
     },
     {
       "currency": "EUR",
@@ -69,16 +69,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "CORTEVA INC.  DL -,01",
-  "primary_symbol": "2X0.BE",
+  "name": "Corteva Inc",
+  "primary_symbol": "CTVA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "Corteva, Inc. is an agricultural chemical and seed company that develops and supplies products to improve crop yields and productivity. The company provides seeds, crop protection products, and digital solutions to farmers worldwide. Corteva is headquartered in Wilmington, Delaware.",
+  "sector": "Materials",
+  "summary": "Corteva, Inc. operates in the agriculture business. It operates through two segments, Seed and Crop Protection. The Seed segment develops and supplies advanced germplasm and traits that produce optimum yield for farms. It offers trait technologies that enhance resistance to weather, disease, insects, and herbicides used to control weeds, as well as food and nutritional characteristics. This segment also provides digital solutions that assist farmer decision-making with a view to optimize product selection, and maximize yield and profitability. The Crop Protection segment offers products that protect against weeds, insects and other pests, and diseases, as well as enhances crop health above and below ground through nitrogen management and seed-applied technologies. This segment provides herbicides, insecticides, nitrogen stabilizers, and pasture and range management herbicides. It serves agricultural input industry. The company operates in the United States, Canada, Latin America, the Asia Pacific, Europe, the Middle East, and Africa. Corteva, Inc. is headquartered in Wilmington, Delaware.",
   "website": "http://www.corteva.com"
 }

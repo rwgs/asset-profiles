@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG007HLSVZ2",
+    "composite_figi": "BBG000PV7F57",
     "cusip": "008911877",
-    "figi": "BBG007HLSVZ2",
+    "figi": "BBG000PV7FL9",
     "isin": "CA0089118776"
   },
   "industry": "Airlines",
@@ -13,23 +13,23 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ACDVF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ADH2.BE"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "AC.TO"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ACDVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ADH2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ADH2.DU"
     },
     {
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Air Canada",
-  "primary_symbol": "ACDVF",
+  "primary_symbol": "AC.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

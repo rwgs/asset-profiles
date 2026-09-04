@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C4Q8F5",
+    "composite_figi": "BBG000BJY392",
     "cusip": "682736103",
-    "figi": "BBG000C4QB31",
+    "figi": "BBG000BJY3L8",
     "isin": "US6827361030"
   },
   "industry": "Pharmaceuticals",
@@ -13,31 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4528.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "ON4.MU"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "OPHLF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "OPHLY"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "4528.T"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Ono Pharmaceutical Co., Ltd.",
-  "primary_symbol": "ON4.MU",
+  "primary_symbol": "4528.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

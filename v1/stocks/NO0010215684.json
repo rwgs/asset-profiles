@@ -2,8 +2,6 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000QQLFL3",
-    "figi": "BBG000QQLFL3",
     "isin": "NO0010215684"
   },
   "industry": "Energy Equipment & Services",
@@ -12,17 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AKKVF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KY7.BE"
-    },
-    {
-      "currency": "GBP",
+      "currency": "NOK",
       "exchange_mic": "XLON",
       "symbol": "0IPT.L"
     },
@@ -32,8 +20,18 @@
       "symbol": "AKAST.OL"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AKKVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KY7.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "KY7.DU"
     },
     {
@@ -49,9 +47,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Akastor ASA",
-  "primary_symbol": "AKKVF",
+  "primary_symbol": "0IPT.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

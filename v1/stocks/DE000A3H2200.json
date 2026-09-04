@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00WPN9VQ5",
-    "figi": "BBG00YGKFXY7",
+    "figi": "BBG00YGKFXT3",
     "isin": "DE000A3H2200"
   },
   "industry": "IT Services",
@@ -12,29 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NA9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NA9.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NA9.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NGRRF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A3H2200.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NA9.BE"
     },
     {
       "currency": "EUR",
@@ -42,27 +27,42 @@
       "symbol": "NA9.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NA9.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NA9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "NA9.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NA9.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NGRRF"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Nagarro SE",
-  "primary_symbol": "NA9.BE",
+  "name": "NAGARRO SE",
+  "primary_symbol": "DE000A3H2200.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Nagarro SE, a digital engineering company, provides digital engineering and technology solutions in North America, Central Europe, rest of Europe, and internationally. The company offers digital product engineering services, including product architecture design, agile development, software development and IT operations, cloud migration, product management, user experience, and rapid prototyping; digital commerce and customer experience services comprising e-commerce solutions that enable clients to build multi-channel e-commerce businesses with a particular focus on next-generation customer experience; managed services; new generation enterprise resource planning consulting services; and third-party testing services. It serves customers in automotive, banking and financial services, energy and utilities, industry and automation, insurance, ISV, life sciences and healthcare, media and publishing, nonprofits and education, public sector, retail and CPG, telecom, and travel and logistics industries. The company was incorporated in 2020 and is based in Munich, Germany.",
+  "summary": "NAGARRO SE is a global IT service provider specializing in digital engineering and customer experience. They offer consulting, technology, and outsourcing services to businesses across various industries. The company is headquartered in Munich, Germany.",
   "website": "http://www.nagarro.com"
 }

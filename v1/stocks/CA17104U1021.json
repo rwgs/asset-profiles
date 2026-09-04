@@ -1,40 +1,30 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG00Y0C4FH2",
     "cusip": "17104U102",
-    "figi": "BBG00Y0C4FP3",
+    "figi": "BBG00Y0C4FM6",
     "isin": "CA17104U1021"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food & Staples Retailing",
   "isin": "CA17104U1021",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CLB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CLB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CLCFF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA17104U1021.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CLB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CLB.DU"
     },
     {
@@ -43,22 +33,32 @@
       "symbol": "CLB.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CLB.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "CLC.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CLCFF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Christina Lake Cannabis Corp.",
-  "primary_symbol": "CLB.BE",
+  "primary_symbol": "CA17104U1021.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Christina Lake Cannabis Corp. cultivates, produces, and sells cannabis products. They focus on outdoor-grown cannabis to minimize production costs. The company is based in Christina Lake, British Columbia, Canada.",
+  "summary": "CHRISTINA LAKE CANNABIS CORP is a cannabis company focused on cultivation, extraction, and production of cannabis and hemp-derived products. The company operates an outdoor cultivation facility in Christina Lake, British Columbia. Christina Lake Cannabis Corp is headquartered in Christina Lake, British Columbia, Canada.",
   "website": "http://www.christinalakecannabis.com"
 }

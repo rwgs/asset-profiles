@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000NY7J91",
-    "figi": "BBG000NY7N38",
     "isin": "DE000A0LR936"
   },
   "industry": "Paper & Forest Products",
@@ -12,24 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ST5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ST5.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ST5.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0W1V.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ST5.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "ST5.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ST5.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ST5.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ST5.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ST5.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Steico SE",
-  "primary_symbol": "ST5.BE",
+  "primary_symbol": "0W1V.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "STEICO SE is a German company that manufactures and sells ecological construction products made from renewable raw materials, primarily wood. Their product range includes wood fiber insulation materials, laminated veneer lumber, and wood components for timber construction. The company is headquartered in Feldkirchen, Germany.",
+  "summary": "STEICO SE develops, produces, and markets ecological construction products made of renewable raw materials worldwide. The company offers flexible and stable wood fiber insulation panels, composite thermal insulation systems, and insulation panels, as well as cavity wall insulation made of wood fibers and cellulose. Its wood fiber insulation products include expansion joint fillers, wood fiber insulation wedges for window sills, flexible wood thermal insulation products, floor insulation systems, hardboards for general purposes, multi-purpose rigid insulation boards and bituminous rigid insulation boards, insulation boards for renovations, insulation products for attic floors, and sarking and sheathing boards, as well as underlays for parquet and laminate flooring, and modern vinyl and design floors. The company also provides construction products, such as I-joists and laminated veneer lumber products; and sealing systems, such as tapes, airtight membranes, sarking membranes, roofing underlayment products, vapour barriers, ETICS joint adhesives, primers, adhesive sealants, and vapour control layers; and air injected insulation products. In addition, it is involved in the timber wholesale business; and provision of seminar services to train craftsmen, architects, and trade representatives, as well as people building their own homes. The company was founded in 1986 and is based in Feldkirchen, Germany. STEICO SE is a subsidiary of Schramek GmbH.",
   "website": "http://www.steico.com"
 }

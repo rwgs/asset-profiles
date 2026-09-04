@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00BR3NQC3",
+    "composite_figi": "BBG00B8NWRF5",
     "cusip": "05351W103",
-    "figi": "BBG00BR3NQL3",
+    "figi": "BBG00B8NWRT0",
     "isin": "US05351W1036"
   },
   "industry": "Electric Utilities",
@@ -12,11 +12,6 @@
   "isin": "US05351W1036",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "12A.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "12A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "12A.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "AVANGRID, INC.",
-  "primary_symbol": "12A.MU",
+  "primary_symbol": "AGR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Avangrid, Inc. is a diversified energy company with operations in the United States. The company is primarily involved in the generation and distribution of electricity and natural gas, serving customers in the Northeast region of the country. Avangrid is headquartered in Orange, Connecticut.",
+  "summary": "Avangrid, Inc. operates as an energy services holding company in the United States. It operates through two segments, Networks and Renewables. The company engages in the generation, transmission, and distribution of electricity, as well as distribution, transportation, and sale of natural gas. It also develops, constructs, and operates renewable energy generation facilities primarily using onshore wind power, as well as solar, biomass, and thermal power. The company delivers natural gas and electricity to residential, commercial, and institutional customers through its regulated utilities in New York, Maine, Connecticut, and Massachusetts; and sells its output to investor-owned utilities, public utilities, and other credit-worthy entities. In addition, it generates and provides power and other services to federal and state agencies, as well as institutional retail and joint action agencies; and delivers thermal output to wholesale customers in the Western United States. Avangrid, Inc. owns eight electric and natural gas utilities, serving 3.3 million customers in New York and New England, as well as owns and operates 8.5 gigawatts of electricity capacity primarily through wind power in 22 states. The company was founded in 1852 and is headquartered in Orange, Connecticut. Avangrid, Inc. is a subsidiary of Iberdrola, S.A.",
   "website": "http://www.avangrid.com"
 }

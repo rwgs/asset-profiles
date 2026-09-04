@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG002N74PX8",
+    "composite_figi": "BBG001MPG0Z1",
     "cusip": "550435309",
-    "figi": "BBG002N74PX8",
+    "figi": "BBG001MPG125",
     "isin": "CA5504353098"
   },
   "industry": "Metals & Mining",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LPKGF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "LPK.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LPKGF"
     },
     {
       "currency": "EUR",
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Lupaka Gold Corp.",
-  "primary_symbol": "LPKGF",
+  "primary_symbol": "LPK.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

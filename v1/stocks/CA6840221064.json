@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00ZJ05V25",
     "cusip": "684022106",
-    "figi": "BBG00ZJ05V25",
     "isin": "CA6840221064"
   },
   "industry": "Food & Staples Retailing",
@@ -12,11 +10,6 @@
   "isin": "CA6840221064",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OGGFF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -26,13 +19,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "OG.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OGGFF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Oragin Foods Inc.",
-  "primary_symbol": "OGGFF",
+  "name": "Organic Garage Ltd.",
+  "primary_symbol": "9CW1.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

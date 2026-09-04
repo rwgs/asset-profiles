@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00G7CR3M0",
+    "composite_figi": "BBG001YK2LH8",
     "cusip": "28103Q109",
-    "figi": "BBG00G7CR3M0",
+    "figi": "BBG001YK2LL3",
     "isin": "CA28103Q1090"
   },
   "industry": "Metals & Mining",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EDDYF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "EDDY.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EDDYF"
     },
     {
       "currency": "EUR",
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Edison Cobalt Corp.",
-  "primary_symbol": "EDDYF",
+  "primary_symbol": "EDDY.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

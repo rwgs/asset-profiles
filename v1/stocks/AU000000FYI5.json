@@ -2,8 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00ZLHQKY1",
-    "figi": "BBG00ZLHQKY1",
+    "composite_figi": "BBG000BX0X10",
     "isin": "AU000000FYI5"
   },
   "industry": "Metals & Mining",
@@ -11,21 +10,6 @@
   "isin": "AU000000FYI5",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FYIRF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SDL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SDL.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -37,22 +21,37 @@
       "symbol": "FYI.AX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FYIRF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SDL.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SDL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SDL.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Cadoux Limited",
-  "primary_symbol": "FYIRF",
+  "name": "FYI RESOURCES LTD",
+  "primary_symbol": "AU000000FYI5.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "FYI Resources Limited explores for and develops mineral properties in Australia and the Southeast Asia. The company holds interest in the Cadoux kaolin deposit, a high purity alumina project in Western Australia. It also owns potash concessions in Laos and Thailand. The company was formerly known as Freedom Eye Limited and changed its name to FYI Resources Limited. FYI Resources Limited was incorporated in 1993 and is based in Cottesloe, Australia.",
+  "summary": "FYI Resources Ltd is an Australian company focused on developing its High Purity Alumina (HPA) project. The company aims to produce HPA for the battery and LED markets.",
   "website": "http://www.fyiresources.com.au"
 }

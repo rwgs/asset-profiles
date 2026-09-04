@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00G7CFX01",
     "cusip": "92672L107",
-    "figi": "BBG00G7CFX56",
     "isin": "US92672L1070"
   },
   "industry": "Health Care Technology",
@@ -14,12 +12,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6L9.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "VRAY"
     },
     {
@@ -29,21 +22,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6L9.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "6L9.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "ViewRay, Inc.",
-  "primary_symbol": "6L9.MU",
+  "primary_symbol": "VRAY",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ViewRay, Inc. designs, manufactures, and markets radiation therapy systems that integrate MRI technology to provide clinicians with real-time imaging during cancer treatment, with headquarters in Oakwood Village, Ohio.",
+  "summary": "ViewRay, Inc. designs, manufactures, and markets radiation therapy systems. The company offers MRIdian, a magnetic resonance image guided radiation therapy system to image and treat cancer patients. Its MRIdian integrates MRI technology, radiation delivery, and proprietary software to see the soft tissues, shape the dose to accommodate for changes in anatomy, and strike the target using real-time targeting throughout the treatment. The company serves university research and teaching hospitals, community hospitals, private practices, government institutions, and freestanding cancer centers. ViewRay, Inc. markets its MRIdian through a direct sales force and distribution network. It has operations in the United States, France, Germany, Taiwan, the United Kingdom, and internationally. The company was founded in 2004 and is headquartered in Oakwood, Ohio.",
   "website": "http://www.viewray.com"
 }

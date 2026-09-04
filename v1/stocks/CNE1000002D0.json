@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000M9NN81",
-    "figi": "BBG000M9NN81",
+    "composite_figi": "BBG000PTRP58",
+    "figi": "BBG000PTRPT2",
     "isin": "CNE1000002D0"
   },
   "industry": "Construction Materials",
@@ -12,31 +12,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CBLUF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H1Q.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "3983.HK"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CBLUF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "H1Q.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "H1Q.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "China Bluechemical Ltd.",
-  "primary_symbol": "CBLUF",
+  "primary_symbol": "3983.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

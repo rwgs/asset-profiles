@@ -2,6 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG00H2YTV23",
+    "figi": "BBG00H2YTV69",
     "isin": "GB00BF2P1260"
   },
   "industry": "Metals & Mining",
@@ -9,11 +11,6 @@
   "isin": "GB00BF2P1260",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SVBRF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -23,19 +20,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "SBR.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SVBRF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Silver Bear Resources Plc",
-  "primary_symbol": "SVBRF",
+  "name": "SILVER BEAR RESOURCES PLC",
+  "primary_symbol": "GB00BF2P1260.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Silver Bear Resources Plc engages in the acquisition, exploration, evaluation, and development of precious metal properties in Russia. The company explores for gold, silver, copper, lead, zinc, tin, and other deposits. Its principal asset is the Mangazeisky silver project covering a license area of approximately 570 square kilometers located to the north of Yakutsk in the Republic of Sakha. The company was incorporated in 2004 and is headquartered in London, the United Kingdom.",
+  "summary": "Silver Bear Resources PLC is a silver mining and exploration company focused on developing its Vertikalny silver project in the Russian Federation. The company aims to become a mid-tier silver producer through the development and expansion of its existing resources. Silver Bear Resources is headquartered in London, UK.",
   "website": "http://www.silverbearresources.com"
 }

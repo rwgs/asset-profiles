@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00CF15GW8",
+    "composite_figi": "BBG000R33JY1",
     "cusip": "87164F105",
-    "figi": "BBG00CF15H29",
+    "figi": "BBG0068BPVQ9",
     "isin": "US87164F1057"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1T3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1T3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SNDX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1T3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "1T3.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1T3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "1T3.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "SYNDAX PHARMACEU.DL-,0001",
-  "primary_symbol": "1T3.BE",
+  "name": "Syndax Pharmaceuticals Inc",
+  "primary_symbol": "SNDX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Syndax Pharmaceuticals, Inc. is a clinical-stage biopharmaceutical company focused on developing therapies for the treatment of cancer. The company's pipeline includes product candidates targeting hematologic and solid tumors, and it is headquartered in Waltham, Massachusetts.",
+  "summary": "Syndax Pharmaceuticals, Inc., a clinical-stage biopharmaceutical company, develops therapies for the treatment of cancer. Its lead product candidates are SNDX-5613, which is in phase 1/2 clinical trial targeting the binding interaction of Menin with the mixed lineage leukemia 1 protein for the treatment of MLL-rearranged (MLLr) and nucleophosmin 1 mutant acute myeloid leukemia (NPM1c AML); and SNDX-6352 or axatilimab, a monoclonal antibody that blocks the colony stimulating factor 1, or CSF-1 receptor for the treatment of patients with chronic graft versus host disease (cGVHD). The company is also developing Entinostat. It also has collaborative research and development agreement with National Cancer Institute; a clinical trial agreement with Eastern Cooperative Oncology Group; and a license agreement with Kyowa Hakko Kirin Co., Ltd. The company was incorporated in 2005 and is headquartered in Waltham, Massachusetts.",
   "website": "http://www.syndax.com"
 }

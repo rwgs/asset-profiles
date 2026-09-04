@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG0084L0QS3",
     "cusip": "020398103",
-    "figi": "BBG0084L0QZ5",
     "isin": "CA0203981034"
   },
   "industry": "Metals & Mining",
@@ -12,21 +10,6 @@
   "isin": "CA0203981034",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALMTF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -39,6 +22,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ALI.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "ALI.DE"
     },
@@ -46,13 +34,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ALI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ALI.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ALMTF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Almonty Industries Inc.",
-  "primary_symbol": "ALI.BE",
+  "primary_symbol": "1MR.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

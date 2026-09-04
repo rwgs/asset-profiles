@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG008KNDLQ0",
+    "composite_figi": "BBG00YCNXH89",
     "cusip": "00774W103",
-    "figi": "BBG008KNDLQ0",
+    "figi": "BBG00YCNXH98",
     "isin": "US00774W1036"
   },
   "industry": "Air Freight & Logistics",
@@ -12,16 +12,6 @@
   "isin": "US00774W1036",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ANNSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ANYYY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -41,13 +31,23 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "AENA.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ANNSF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ANYYY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Aena S.M.E., S.A.",
-  "primary_symbol": "ANNSF",
+  "primary_symbol": "A44.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

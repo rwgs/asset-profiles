@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00YHL60M9",
-    "figi": "BBG00YHL60S3",
+    "figi": "BBG00YHL60P6",
     "isin": "SE0010520106"
   },
   "industry": "Interactive Media & Services",
@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0SG.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0SG.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0SG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0SG.MU"
     },
     {
       "currency": "SEK",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Enad Global 7 AB",
-  "primary_symbol": "0SG.MU",
+  "primary_symbol": "0SG.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

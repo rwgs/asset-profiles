@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00DJ1M6J0",
+    "composite_figi": "BBG000Q5S534",
     "cusip": "847381100",
-    "figi": "BBG00DJ1M6J0",
     "isin": "CA8473811005"
   },
   "industry": "Metals & Mining",
@@ -12,26 +11,6 @@
   "isin": "CA8473811005",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SPMTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SQH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SQH.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SQH.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -43,22 +22,42 @@
       "symbol": "SPMT.CN"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SPMTF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SQH.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SQH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SQH.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SQH.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Adelayde Exploration Inc.",
-  "primary_symbol": "SPMTF",
+  "name": "SPEARMINT RESOURCES INC",
+  "primary_symbol": "CA8473811005.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Spearmint Resources Inc., an exploration stage company, acquires, explores, and evaluates mineral properties in Canada and the United States. The company explores for gold, platinum, palladium, copper, nickel, vanadium, and cesium. Its flagship property is the Clayton Valley Lithium Clay project comprising 2 claim blocks totaling 1,160 acres in Nevada. The company was formerly known as Indefinitely Capital Corp. and changed its name to Spearmint Resources Inc. in February 2012. Spearmint Resources Inc. was incorporated in 2009 and is headquartered in Vancouver, Canada.",
+  "summary": "Spearmint Resources Inc. is a junior resource company engaged in the acquisition, exploration, and development of mineral resource properties. They have projects focused on lithium, gold, and base metals. The company is based in Vancouver, British Columbia, Canada.",
   "website": "http://www.spearmintresources.ca"
 }

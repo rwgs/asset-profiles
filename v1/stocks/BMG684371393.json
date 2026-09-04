@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000QTY2V1",
-    "figi": "BBG000QTY4W6",
+    "composite_figi": "BBG000BYXFH4",
+    "figi": "BBG000BYXFS2",
     "isin": "BMG684371393"
   },
   "industry": "Marine",
@@ -12,39 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OYD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OYD.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OYD.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OYD.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCFBF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCFBY"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "2343.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OYD.BE"
     },
     {
       "currency": "EUR",
@@ -53,21 +28,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "OYD.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "OYD.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OYD.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OYD.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PCFBF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PCFBY"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Pacific Basin Shipping Limited",
-  "primary_symbol": "OYD.BE",
+  "primary_symbol": "2343.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Pacific Basin Shipping Limited is a Hong Kong-based dry bulk shipping company. The company operates a fleet of dry bulk vessels, providing seaborne transportation services for a range of commodities including coal, iron ore, and grains. Pacific Basin Shipping is headquartered in Hong Kong.",
+  "summary": "Pacific Basin Shipping Limited, an investment holding company, provides dry bulk shipping services worldwide. As of February 29, 2020, the company had a fleet of 235 ships, including 133 Handysize vessels, 117 Supramax vessels, and 2 Post-Panamax vessels. It also offers shipping consulting, ocean shipping, crewing, secretarial, and agency and ship management services; and engages in the vessel owning and chartering, and convertible bonds issuing activities. Pacific Basin Shipping Limited was founded in 1987 and is headquartered in Wong Chuk Hang, Hong Kong.",
   "website": "http://www.pacificbasin.com"
 }

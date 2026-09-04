@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000GP7QK9",
-    "figi": "BBG000GP9006",
+    "figi": "BBG000GP8S79",
     "isin": "GB00B63QSB39"
   },
   "industry": "Food & Staples Retailing",
@@ -12,24 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "41G1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GGGSF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "41G1.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "41G1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "41G1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GGGSF"
     },
     {
       "currency": "GBP",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Greggs plc",
-  "primary_symbol": "41G1.MU",
+  "primary_symbol": "41G1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

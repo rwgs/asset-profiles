@@ -1,30 +1,16 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00QQ0YQM4",
     "cusip": "12482U105",
     "isin": "CA12482U1057"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Food & Staples Retailing",
   "isin": "CA12482U1057",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CBDNF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GS3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GS3.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -36,22 +22,37 @@
       "symbol": "CBDN.CN"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CBDNF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GS3.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GS3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GS3.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "CBD Global Sciences Inc.",
-  "primary_symbol": "CBDNF",
+  "name": "CBD GLOBAL SCIENCES INC",
+  "primary_symbol": "CA12482U1057.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "CBD Global Sciences Inc. engages in cannabidiol (CBD) farming, processing, and product manufacturing business. It offers provides biomass, CBD oil, and CBD oil products under the Aethics, CannaOil, and Strasburg Pharms brand names. The company was incorporated in 2018 and is headquartered in Lakewood, Colorado.",
+  "sector": "Consumer Staples",
+  "summary": "CBD GLOBAL SCIENCES INC is a cannabis company focused on the production and distribution of CBD products. The company's product portfolio includes CBD oils, capsules, and topicals. CBD Global Sciences Inc. is headquartered in Denver, Colorado.",
   "website": "http://www.cbdglobalsciences.com"
 }

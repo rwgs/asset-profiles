@@ -2,33 +2,30 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BTNS79",
     "cusip": "868168105",
+    "figi": "BBG000BTNTG7",
     "isin": "US8681681057"
   },
   "industry": "Auto Components",
-  "industry_group": "Real Estate",
+  "industry_group": "Automobiles & Components",
   "isin": "US8681681057",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "SUP"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "AQXE",
       "symbol": "SPD.AQ"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "SPD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SPD.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUP"
     },
     {
       "currency": "EUR",
@@ -37,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SPD.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SPD.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "SECURED PROP DEVEL",
-  "primary_symbol": "SPD.AQ",
+  "name": "SUPERIOR INDUSTRIES INTERNATIONAL, INC.",
+  "primary_symbol": "SUP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "Secured Property Developments focuses on secured real estate development projects. The company provides various property development services, with a focus on secure and stable investments. The company is likely based in the United Kingdom.",
+  "sector": "Consumer Discretionary",
+  "summary": "Superior Industries International, Inc. designs, manufactures, and sells aluminum wheels to the original equipment manufacturers and aftermarket distributors in North America and Europe. The company supplies aluminum wheels to the automobile and light truck manufacturers. It offers its products under the ATS, RIAL, ALUTEC, and ANZIO brand names. The company was founded in 1957 and is headquartered in Southfield, Michigan.",
   "website": "http://www.supind.com"
 }

@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00FBHGCH4",
+    "composite_figi": "BBG00F47BQX0",
     "cusip": "04045U102",
-    "figi": "BBG00FBHGCH4",
+    "figi": "BBG00F47BQY9",
     "isin": "CA04045U1021"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -12,11 +12,6 @@
   "isin": "CA04045U1021",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ATZAF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,13 +21,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "ATZ.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ATZAF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Aritzia Inc.",
-  "primary_symbol": "ATZAF",
+  "primary_symbol": "280.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

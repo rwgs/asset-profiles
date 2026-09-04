@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG006W7VV66",
-    "figi": "BBG006W7VV66",
+    "composite_figi": "BBG006XPL3B2",
+    "figi": "BBG006XPL3G7",
     "isin": "AU000000SCG8"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -11,11 +11,6 @@
   "isin": "AU000000SCG8",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "STGPF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -25,13 +20,18 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "SCG.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "STGPF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Scentre Group",
-  "primary_symbol": "STGPF",
+  "primary_symbol": "59S.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

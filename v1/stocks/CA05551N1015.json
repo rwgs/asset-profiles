@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00XT2DQ72",
     "cusip": "05551N101",
+    "figi": "BBG00XT2DQ90",
     "isin": "CA05551N1015"
   },
   "industry": "Diversified Telecommunication Services",
@@ -11,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BBTVF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "BBTV.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BBTVF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "BBTV Holdings Inc.",
-  "primary_symbol": "BBTVF",
+  "primary_symbol": "BBTV.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

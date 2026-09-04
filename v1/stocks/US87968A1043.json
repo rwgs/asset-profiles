@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JFCC69",
     "cusip": "87968A104",
-    "figi": "BBG000JFCGT5",
     "isin": "US87968A1043"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -14,22 +12,22 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPLN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TELL"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LE3.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MPLN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MPLN.DU"
     },
     {
@@ -45,9 +43,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Tellurian Inc.",
-  "primary_symbol": "MPLN.BE",
+  "primary_symbol": "TELL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

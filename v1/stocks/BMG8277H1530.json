@@ -3,6 +3,7 @@
   "country_code": "HK",
   "identifiers": {
     "composite_figi": "BBG000BRG0L6",
+    "figi": "BBG000BRG107",
     "isin": "BMG8277H1530"
   },
   "industry": "Real Estate Management & Development",
@@ -11,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S1H1.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0878.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S1H1.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Soundwill Holdings Limited",
-  "primary_symbol": "S1H1.MU",
+  "primary_symbol": "0878.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

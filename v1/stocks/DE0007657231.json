@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BFNP02",
-    "figi": "BBG000BFNS79",
     "isin": "DE0007657231"
   },
   "industry": "Household Durables",
@@ -12,29 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIB3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIB3.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIB3.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIB3.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0OPA.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VIB3.BE"
     },
     {
       "currency": "EUR",
@@ -42,8 +25,8 @@
       "symbol": "VIB3.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "VIB3.DU"
     },
     {
@@ -53,21 +36,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "VIB3.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VIB3.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VIB3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "VIB3.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Villeroy & Boch AG Pref",
-  "primary_symbol": "VIB3.BE",
+  "primary_symbol": "0OPA.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "VILLEROY + BOCH AG VZ manufactures and sells ceramic products for bathrooms and kitchens, as well as tableware and lifestyle products. The company operates through two divisions: Bathroom and Wellness, and Tableware. Villeroy & Boch is headquartered in Mettlach, Germany.",
+  "summary": "Villeroy & Boch AG, together with its subsidiaries, manufactures and sells ceramic products primarily under the Villeroy & Boch brand in Germany, rest of Europe, and internationally. It operates through Bathroom and Wellness, and Tableware divisions. The Bathroom and Wellness division manufactures ceramic sanitary ware, ceramic kitchen sinks, bathroom furniture, bathtubs and shower tubs, whirlpools, bath and kitchen fittings, and accessories. It also provides shower toilets, installation systems, outdoor system pools and accessories, and others. The Tableware division offers tableware, crystal/glass and cutlery, and accessories, as well as kitchen and tableware textiles, and gift articles. The company also provides lighting, flooring, and furniture products for living, dining, and sleeping areas; and kitchen furniture products. It sells its products through a network of approximately 90 Villeroy & Boch stores and 500 points of sale facilities at department stores, as well as through its online shops. The company serves dealers, craftsmen, architects, interior designers, planners, porcelain retailers, department store chains, e-commerce providers, investors, office buildings, hotels, and residential complexes, as well as operators of hotels and restaurants. Villeroy & Boch AG was founded in 1748 and is headquartered in Mettlach, Germany.",
   "website": "http://www.villeroyboch-group.com"
 }

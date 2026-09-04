@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00MF2JBX9",
+    "composite_figi": "BBG006KDCHJ4",
     "cusip": "90184D100",
-    "figi": "BBG00MF2JC21",
+    "figi": "BBG00M595HD9",
     "isin": "US90184D1000"
   },
   "industry": "Biotechnology",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0ME.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TWST"
     },
     {
@@ -29,15 +24,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0ME.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "0ME.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Twist Bioscience Corp.",
-  "primary_symbol": "0ME.MU",
+  "primary_symbol": "TWST",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

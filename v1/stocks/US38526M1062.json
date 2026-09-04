@@ -2,34 +2,29 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000CJPJS5",
+    "composite_figi": "BBG000FV28W9",
     "cusip": "38526M106",
-    "figi": "BBG000CJPNB4",
+    "figi": "BBG000FV4Q48",
     "isin": "US38526M1062"
   },
   "industry": "Household Products",
-  "industry_group": "Retailing",
+  "industry_group": "Household & Personal Products",
   "isin": "US38526M1062",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GKD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GKD.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "LOPE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GKD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "GKD.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GKD.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GKD.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Grand Canyon Education, Inc.",
-  "primary_symbol": "GKD.BE",
+  "primary_symbol": "LOPE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "GRAND CANYON EDUCAT. INC. is a for-profit education company providing online and campus-based postsecondary education services. It primarily focuses on degree programs and other educational offerings through Grand Canyon University. The company is headquartered in Phoenix, Arizona.",
+  "sector": "Consumer Staples",
+  "summary": "Grand Canyon Education, Inc. provides education services to colleges and universities in the United States. The company's technology services include learning management system, internal administration, infrastructure, and support services; academic services comprises program and curriculum, faculty and related training and development, class scheduling, and skills and simulation lab sites; and counseling services and support include admission, financial aid, and field experience counseling services. It also offers marketing and communication services, such as lead acquisition, digital communications strategy, brand identity, media planning and strategy, video, and data science and analysis services; and back office services comprising finance and accounting, human resources, audit, procurement services. The company, through its subsidiary, Orbis Education Services, LLC, supports healthcare education programs for 22 universities. Grand Canyon Education, Inc. was founded in 1949 and is based in Phoenix, Arizona.",
   "website": "http://www.gce.com"
 }

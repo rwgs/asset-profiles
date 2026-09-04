@@ -2,8 +2,6 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000LZ3QQ9",
-    "figi": "BBG000LZ3VK4",
     "isin": "AT000000STR1"
   },
   "industry": "Construction & Engineering",
@@ -12,32 +10,12 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XD4.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XD4.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XD4.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XD4.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0MKP.L"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "AT000000STR1.SW"
     },
@@ -47,8 +25,13 @@
       "symbol": "STR.VI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "XD4.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "XD4.DU"
     },
     {
@@ -58,21 +41,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "XD4.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "XD4.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "XD4.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "XD4.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "STRABAG SE",
-  "primary_symbol": "XD4.BE",
+  "primary_symbol": "0MKP.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "STRABAG SE is a European-based construction technology group. Its services span all areas of the construction industry and cover the entire construction value chain. The company is headquartered in Vienna, Austria.",
+  "summary": "Strabag SE, together with its subsidiaries, operates as a construction company in Austria and internationally. The company engages in the construction of road, rail, and canal bridges; commercial and industrial facilities; hydroelectric power plants, storage power plants, hydraulic power plants, concrete gravity dams, earth-filled and rock-filled embankment dams, reservoirs, external asphalt sealing, asphalt core sealing, thermal power plants, wind farms, and electrical substations; and administration buildings, events and cultural centers, museums, hospitals, rehabilitation centers, retirement and nursing homes, universities, schools, kindergartens, fire and rescue centers, and churches. It also constructs prefabricated elements, civil engineering projects, metal constructions, water environmental technologies, and housing projects. In addition, the company undertakes transportation infrastructure projects, including railway construction, construction material, sewer engineering, pipe and sewer construction, town planning and landscape architecture, paving, large surfaces, rock engineering and protective structures, ground engineering, sports and recreational facilities, road construction, earthworks, traffic engineering, and waterway construction projects. Further, it undertakes infrastructure development; engages in the operation, maintenance, and marketing of public-private partnerships projects; and provision of real estate development and tunneling services, as well as property and facility services, such as property management and corporate real estate solutions, area management, renting and letting, technical facility management and building management, infrastructural facility management, and industrial services. The company offers its services primarily in Europe, the Arabian Peninsula, Africa, Asia, and the Americas. Strabag SE was founded in 1835 and is headquartered in Villach, Austria.",
   "website": "http://www.strabag.com"
 }

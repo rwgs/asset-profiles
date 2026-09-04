@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00JPR2BR5",
     "cusip": "90184L102",
-    "figi": "BBG00JPR2BS4",
     "isin": "US90184L1026"
   },
   "industry": "Diversified Telecommunication Services",
@@ -15,17 +13,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0QZB.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TWTR"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TWTR-U.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0QZB.IL"
     },
     {
       "currency": "EUR",
@@ -36,6 +29,9 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TWR.F"
+    },
+    {
+      "symbol": "TWTR-U.TI"
     },
     {
       "currency": "ARS",
@@ -60,15 +56,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "TWITTER, INC.",
-  "primary_symbol": "0QZB.IL",
+  "primary_symbol": "TWTR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Twitter, Inc. operates a global platform for public self-expression and conversation in real time. The company provides a network that connects users with information, ideas, opinions, and people. Twitter is headquartered in San Francisco, California, USA.",
+  "summary": "Twitter, Inc. operates as a platform for public self-expression and conversation in real time United States, Japan, and internationally. The company offers Twitter, a platform that allows users to consume, create, distribute, and discover content. It also provides promoted products and services, such as promoted tweets, promoted accounts, and promoted trends, which enable its advertisers to promote their brands, products, and services. In addition, the company offers MoPub, a mobile-focused advertising exchange that combines ad serving, ad network mediation, and a real-time bidding exchange into one monetization platform; Twitter Audience platform, an advertising offering that enables advertisers to extend advertising campaigns; Developer and Enterprise solutions, a software-as-a-service platform that enables developers to build products on Twitter; and paid enterprise access for its public data streams. Twitter, Inc. was founded in 2006 and is headquartered in San Francisco, California.",
   "website": "http://www.twitter.com"
 }

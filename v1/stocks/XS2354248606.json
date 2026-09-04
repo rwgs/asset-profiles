@@ -2,22 +2,21 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000D1BMW6",
-    "figi": "BBG000D1BMW6",
+    "figi": "BBG011PV8PG9",
     "isin": "XS2354248606"
   },
   "isin": "XS2354248606",
   "kind": "debt",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZHEXF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0576.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ZHEXF"
     },
     {
       "currency": "EUR",
@@ -27,9 +26,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Zhejiang Expressway Co., Ltd.",
-  "primary_symbol": "ZHEXF",
+  "primary_symbol": "0576.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

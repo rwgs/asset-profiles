@@ -2,9 +2,9 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG000BM9ZH3",
+    "composite_figi": "BBG008G866Y0",
     "cusip": "19624Y200",
-    "figi": "BBG000BM9ZH3",
+    "figi": "BBG008G866Y0",
     "isin": "US19624Y2000"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,16 +12,6 @@
   "isin": "US19624Y2000",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CLPBF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CLPBY"
-    },
     {
       "currency": "MXN",
       "exchange_mic": "XMEX",
@@ -38,6 +28,16 @@
       "symbol": "CBHD.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CLPBF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CLPBY"
+    },
+    {
       "currency": "DKK",
       "exchange_mic": "XCSE",
       "symbol": "COLO-B.CO"
@@ -50,9 +50,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Coloplast A/S",
-  "primary_symbol": "CLPBF",
+  "primary_symbol": "0QBON.MX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

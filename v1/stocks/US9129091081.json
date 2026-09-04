@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000DVQZ19",
+    "composite_figi": "BBG000BX3TD3",
     "cusip": "912909108",
-    "figi": "BBG000DVS4D3",
+    "figi": "BBG000BX3W91",
     "isin": "US9129091081"
   },
   "industry": "Metals & Mining",
@@ -12,26 +12,6 @@
   "isin": "US9129091081",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "USX1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "USX1.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "USX1.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "USX1.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -44,18 +24,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "USX1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "USX1.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "USX1.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "USX1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "USX1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "USX1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "USX1.MU"
     },
     {
       "currency": "EUR",
@@ -73,22 +73,22 @@
       "symbol": "X.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "X.SN"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "UNITED STATES STEEL CORPORATION",
-  "primary_symbol": "USX1.BE",
+  "primary_symbol": "X",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "United States Steel Corporation is an integrated steel producer with major production operations in North America and Europe. The company manufactures a wide range of steel sheet and tubular products for various industries, including the automotive, appliance, container, and construction markets. U.S. Steel is headquartered in Pittsburgh, Pennsylvania.",
+  "summary": "United States Steel Corporation produces and sells flat-rolled and tubular steel products primarily in North America and Europe. It operates through three segments: North American Flat-Rolled (Flat-Rolled), U. S. Steel Europe (USSE), and Tubular Products (Tubular). The Flat-Rolled segment offers slabs, strip mill plates, sheets and tin mill products, as well as all iron ore and coke. This segment serves customers in the service center, conversion, automotive, construction, container, and appliance and electrical markets. The USSE segment provides slabs, strip mill plate, sheet, tin mill products, and spiral welded pipes, as well as refractory ceramic materials. This segment serves customers in the construction, container, appliance and electrical, service center, conversion, oil, gas, and petrochemical markets. The Tubular segment offers seamless and electric resistance welded steel casing and tubing products, as well as standard and line pipe and mechanical tubing products primarily to customers in the oil, gas, and petrochemical markets. The company also provides railroad services and real estate operations. United States Steel Corporation was founded in 1901 and is headquartered in Pittsburgh, Pennsylvania.",
   "website": "http://www.ussteel.com"
 }

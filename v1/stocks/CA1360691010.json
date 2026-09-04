@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000FKTHQ1",
     "cusip": "136069101",
+    "figi": "BBG000FKTLD6",
     "isin": "CA1360691010"
   },
   "industry": "Banks",
@@ -10,11 +12,6 @@
   "isin": "CA1360691010",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCIXF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -31,6 +28,11 @@
       "symbol": "CAI.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CCIXF"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "CM.TO"
@@ -38,9 +40,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Canadian Imperial Bank of Commerce",
-  "primary_symbol": "CCIXF",
+  "primary_symbol": "CM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

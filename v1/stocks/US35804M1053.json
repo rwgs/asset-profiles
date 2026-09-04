@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG005Z1RLK9",
+    "composite_figi": "BBG000BS3BJ7",
     "cusip": "35804M105",
-    "figi": "BBG005Z1RLQ3",
+    "figi": "BBG000BS3CD1",
     "isin": "US35804M1053"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,21 +12,6 @@
   "isin": "US35804M1053",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FREN.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FSNUF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FSNUY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -63,16 +48,31 @@
       "symbol": "FREA.SG"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FREN.MU"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "FREN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FSNUF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FSNUY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Fresenius SE & Co. KGaA",
-  "primary_symbol": "FREN.MU",
+  "primary_symbol": "FRE.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00R47JY96",
-    "figi": "BBG00R47JY96",
+    "composite_figi": "BBG00QPY79Z5",
+    "figi": "BBG00QPY7B08",
     "isin": "KYG2121Q1055"
   },
   "industry": "Food & Staples Retailing",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CFEIY"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "6186.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CFEIY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "China Feihe Limited",
-  "primary_symbol": "CFEIY",
+  "primary_symbol": "6186.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,35 +2,33 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0077WWRD7",
     "cusip": "86803X204",
-    "figi": "BBG0077WWRL8",
     "isin": "US86803X2045"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Energy",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US86803X2045",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7SL2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7SL2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SUNW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "7SL2.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7SL2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7SL2.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +38,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Sunworks, Inc.",
-  "primary_symbol": "7SL2.BE",
+  "primary_symbol": "SUNW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Sunworks, Inc. is a provider of solar power solutions for agriculture, commercial, industrial, and residential markets, headquartered in Roseville, California. They engineer, design, permit, install, monitor, and maintain solar power systems for customers across the U.S. Sunworks focuses on delivering turnkey solar solutions and creating long-term customer relationships.",
+  "sector": "Information Technology",
+  "summary": "Sunworks, Inc., through its subsidiaries, provides photovoltaic based power systems for the agricultural, commercial, industrial, public works, and residential markets in California, Massachusetts, Nevada, Oregon, New Jersey, and Hawaii. The company also designs, finances, integrates, installs, and manages systems ranging in size from 2 kilowatt for residential loads to multi megawatt systems for larger projects. In addition, it offers a range of installation services, including design, system engineering, procurement, permitting, construction, grid connection, warranty, system monitoring, and maintenance services to its solar energy customers. The company was formerly known as Solar3D, Inc. and changed its name to Sunworks, Inc. in March 2016. Sunworks, Inc. was incorporated in 2002 and is headquartered in Roseville, California.",
   "website": "http://sunworksusa.com"
 }

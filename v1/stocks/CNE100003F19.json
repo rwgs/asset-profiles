@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00P35SJN2",
-    "figi": "BBG00P35SJN2",
+    "composite_figi": "BBG00MP10H85",
+    "figi": "BBG00MP10H94",
     "isin": "CNE100003F19"
   },
   "industry": "Biotechnology",
@@ -11,21 +11,6 @@
   "isin": "CNE100003F19",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WUXAY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WUXIF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WX8.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -37,9 +22,24 @@
       "symbol": "603259.SS"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WUXAY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WUXIF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "WX8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WX8.MU"
     },
     {
       "currency": "EUR",
@@ -49,9 +49,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "WuXi AppTec Co., Ltd. Class H",
-  "primary_symbol": "WUXAY",
+  "primary_symbol": "2359.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

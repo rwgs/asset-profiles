@@ -2,8 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000Q553Q9",
-    "figi": "BBG000Q553Q9",
+    "composite_figi": "BBG000BMX6S8",
+    "figi": "BBG000BMX7W1",
     "isin": "FR0013280286"
   },
   "industry": "Biotechnology",
@@ -11,11 +11,6 @@
   "isin": "FR0013280286",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BMXMF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -27,6 +22,11 @@
       "symbol": "BIM.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BMXMF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EYWN.F"
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "bioMerieux S.A.",
-  "primary_symbol": "BMXMF",
+  "primary_symbol": "BIM.PA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

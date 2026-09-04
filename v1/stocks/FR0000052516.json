@@ -2,34 +2,32 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000C536Y0",
-    "figi": "BBG000C53BN1",
     "isin": "FR0000052516"
   },
   "industry": "Household Products",
-  "industry_group": "Food & Staples Retailing",
+  "industry_group": "Materials",
   "isin": "FR0000052516",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4HL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4HL.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0HJC.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4HL.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4HL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4HL.MU"
     },
     {
       "currency": "EUR",
@@ -44,15 +42,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "VILMORIN & CIE",
-  "primary_symbol": "4HL.BE",
+  "primary_symbol": "0HJC.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "Vilmorin & Cie SA is a global seed company specializing in the development, production, and marketing of vegetable and field seeds. The company provides seeds for professional growers and home gardeners. Vilmorin & Cie is headquartered in Paris, France.",
+  "sector": "Materials",
+  "summary": "Vilmorin & Cie SA creates, produces, and sells vegetable and field seeds. It offers vegetable seeds, such as tomato, sweet and hot pepper, onion, watermelon, carrot, cucumber, melon, lettuce, cabbage, cauliflower, sweet corn, bean, summer squash, etc.; and field seeds for farmers, including corn, wheat, sunflower, rapeseed, barley, rice, soybean, millet, and pulses. The company also provides garden products comprising vegetable, flower, and lawn seeds, as well as related products, such as flower bulbs, potting soil, and garden equipment to gardeners. It operates in Europe, the Americas, Africa, the Middle East, Asia, and Oceania. The company was founded in 1742 and is headquartered in Paris, France. Vilmorin & Cie SA is a subsidiary of Groupe Limagrain Holding SA.",
   "website": "http://www.vilmorincie.com"
 }

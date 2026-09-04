@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000VLR5J7",
+    "composite_figi": "BBG00RTWH7F8",
     "cusip": "29267M108",
-    "figi": "BBG000VLR5J7",
+    "figi": "BBG00RTWH7K2",
     "isin": "CA29267M1086"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA29267M1086",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ENDGF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -26,19 +21,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "EDG.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ENDGF"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Endurance Gold Corp.",
-  "primary_symbol": "ENDGF",
+  "market_cap_band": "Mid Cap",
+  "name": "Gold Fields Ltd.",
+  "primary_symbol": "EDG.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Endurance Gold Corporation explores for and develops mineral properties in North America. The company explores for gold, niobium, nickel, and rare earth metals. It primarily has an option to acquire 100% interest in the Reliance Gold Property located near Gold Bridge, British Columbia. The company was incorporated in 2003 and is headquartered in Vancouver, Canada.",
+  "summary": "Gold Fields Limited is a global gold mining company, engaged in the exploration, development, and production of gold. It operates mines in several countries, including South Africa, Ghana, Australia, and Peru. The company aims to maximize shareholder value through responsible and sustainable gold mining practices.",
   "website": "http://www.endurancegold.com"
 }

@@ -2,8 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BVSHR1",
-    "figi": "BBG000BVSMD5",
+    "composite_figi": "BBG000C58NY8",
+    "cusip": "74435K204",
+    "figi": "BBG000C58R51",
     "isin": "GB0007099541"
   },
   "industry": "Insurance",
@@ -11,26 +12,6 @@
   "isin": "GB0007099541",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PRU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PRU.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PRU.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PRU.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -48,11 +29,6 @@
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PUKPF"
-    },
-    {
-      "currency": "SGD",
       "exchange_mic": "XSES",
       "symbol": "K6S.SI"
     },
@@ -63,12 +39,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PRU.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PRU.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PRU.DU"
     },
     {
@@ -77,9 +58,24 @@
       "symbol": "PRU.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PRU.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PRU.HM"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "PRU.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PRU.MU"
     },
     {
       "currency": "EUR",
@@ -95,13 +91,18 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "PUKN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PUKPF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Prudential plc",
-  "primary_symbol": "PRU.BE",
+  "primary_symbol": "PUK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

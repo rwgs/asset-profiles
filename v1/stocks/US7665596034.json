@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BKZNC0",
+    "composite_figi": "BBG000BPWTW7",
     "cusip": "766559603",
-    "figi": "BBG000BKZQX0",
+    "figi": "BBG000BPX2D6",
     "isin": "US7665596034"
   },
   "industry": "Biotechnology",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RI2A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RI2A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "RIGL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RI2A.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RI2A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RI2A.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "RIGEL PHARMACEUT. DL-,001",
-  "primary_symbol": "RI2A.BE",
+  "name": "Rigel Pharmaceuticals, Inc.",
+  "primary_symbol": "RIGL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Rigel Pharmaceuticals, Inc. is a biotechnology company focused on discovering and developing novel, targeted therapies that improve the lives of patients with hematologic disorders, cancer, and rare immune diseases. The company's pipeline includes product candidates in clinical development for immune thrombocytopenia, warm autoimmune hemolytic anemia, and COVID-19. Rigel Pharmaceuticals is headquartered in South San Francisco, California, USA.",
+  "summary": "Rigel Pharmaceuticals, Inc., a biotechnology company, discovers and develops small molecule drugs to treat hematologic disorders, cancer, and rare immune diseases. The company offers Tavalisse, an oral spleen tyrosine kinase inhibitor for the treatment of adult patients with chronic immune thrombocytopenia. It also develops Fostamatinib that is in phase III clinical trial for the treatment of warm autoimmune hemolytic anemia; phase II clinical trial for the treatment of hospitalized COVID-19 patients; and phase II clinical trial for the treatment of COVID-19. In addition, the company is developing R835, an oral interleukin receptor associated kinase 1/4 inhibitor, which is in phase I clinical trial for autoimmune, inflammatory, and hematology-oncology diseases; and R552, a receptor-interacting serine/threonine-protein kinase 1 inhibitor that has completed phase I clinical trial for autoimmune and inflammatory diseases. It has research and license agreements with Aclaris Therapeutics International Limited for the development and commercialization of janus kinase (JAK) inhibitors for the treatment of alopecia areata and other dermatological conditions; AstraZeneca AB for the development and commercialization of R256, an inhaled JAK inhibitor; BerGenBio AS for the development and commercialization of AXL inhibitors in oncology; and Daiichi Sankyo to develop murine double minute 2 inhibitors for solid and hematological malignancies, as well as license and supply agreement with Kissei Pharmaceutical Co., Ltd. to develop and commercialize Fostamatinib. The company also has a license agreement and strategic collaboration with Eli Lilly and Company to co-develop and commercialize R552 for various indications, including autoimmune and inflammatory diseases, as well as other non-central nervous system (non-CNS) disease development candidates. Rigel Pharmaceuticals, Inc. was incorporated in 1996 and is headquartered in South San Francisco, California.",
   "website": "http://www.rigel.com"
 }

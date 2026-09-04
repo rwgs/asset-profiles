@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C5GKP5",
+    "composite_figi": "BBG000C4GBR6",
     "cusip": "64111Q104",
-    "figi": "BBG000C5GMT7",
+    "figi": "BBG000C4GMD7",
     "isin": "US64111Q1040"
   },
   "industry": "Communications Equipment",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NGJ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NTGR"
     },
     {
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NGJ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NGJ.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "NETGEAR, Inc.",
-  "primary_symbol": "NGJ.MU",
+  "primary_symbol": "NTGR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "NETGEAR, Inc. is a global networking company that delivers innovative products to consumers, businesses and service providers. The company's products include wireless routers, cable modems, switches, and network attached storage devices. NETGEAR is headquartered in San Jose, California.",
+  "summary": "NETGEAR, Inc. designs, develops, and markets networking and Internet connected products for consumers, businesses, and service providers. It operates in two segments, Connected Home, and Small and Medium Business. The company offers smart home/connected home/broadband access products, such as broadband modems, WiFi gateways, WiFi hotspots, WiFi routers and home WiFi systems, WiFi range extenders, Powerline adapters and bridges, WiFi network adapters, and digital canvasses; and value added service offerings, including technical support, parental controls, and cybersecurity protection. It also provides Ethernet switches, wireless controllers and access points, unified storage products, and Internet security appliances for small and medium-sized businesses. The company markets and sells its products through traditional retailers, online retailers, wholesale distributors, direct market resellers, value-added resellers, and broadband service providers in the Americas, Europe, the Middle-East, Africa, and the Asia Pacific. NETGEAR, Inc. was founded in 1996 and is headquartered in San Jose, California.",
   "website": "http://www.netgear.com"
 }

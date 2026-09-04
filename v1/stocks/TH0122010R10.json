@@ -3,7 +3,7 @@
   "country_code": "TH",
   "identifiers": {
     "composite_figi": "BBG000BX3ZS3",
-    "figi": "BBG000BX4278",
+    "figi": "BBG000BX4027",
     "isin": "TH0122010R10"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NVPA.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NVPA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NVPA.MU"
     },
     {
       "currency": "EUR",
@@ -27,11 +27,11 @@
       "symbol": "NVPA.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "KCE Electronics Public Co., Ltd. NVDR",
-  "primary_symbol": "NVPA.MU",
+  "primary_symbol": "NVPA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

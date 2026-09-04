@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000QWJGB2",
-    "figi": "BBG000QWJJ44",
+    "composite_figi": "BBG000CZX831",
+    "figi": "BBG000CZX8J4",
     "isin": "KYG368441195"
   },
   "industry": "Chemicals",
@@ -11,11 +11,6 @@
   "isin": "KYG368441195",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FFO1.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FFO1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FFO1.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Fufeng Group Limited",
-  "primary_symbol": "FFO1.MU",
+  "primary_symbol": "0546.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

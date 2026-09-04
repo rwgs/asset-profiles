@@ -2,9 +2,6 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG001LRL180",
-    "cusip": "23585T101",
-    "figi": "BBG001LRL1P1",
     "isin": "AU000000DNK9"
   },
   "industry": "Construction Materials",
@@ -12,31 +9,6 @@
   "isin": "AU000000DNK9",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DNKLY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SBMSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SO3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SO3.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SO3.MU"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -48,9 +20,34 @@
       "symbol": "DNK.L"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DNKLY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SBMSF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SO3.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SO3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SO3.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SO3.MU"
     },
     {
       "currency": "EUR",
@@ -60,9 +57,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Danakali Ltd.",
-  "primary_symbol": "DNKLY",
+  "primary_symbol": "DNK.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

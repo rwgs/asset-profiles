@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000KKFLB7",
-    "figi": "BBG000KKGRT4",
+    "composite_figi": "BBG000BKSYS7",
+    "figi": "BBG000BKSZ59",
     "isin": "KYG5636C1078"
   },
   "industry": "Machinery",
@@ -11,16 +11,6 @@
   "isin": "KYG5636C1078",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "C9IB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LKHLY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -33,21 +23,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C9IB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "C9IB.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LKHLY"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Lonking Holdings Limited",
-  "primary_symbol": "C9IB.MU",
+  "primary_symbol": "3339.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "LONKING HOLDINGS LTD. NEW is a Chinese manufacturer of construction machinery, including wheel loaders, excavators, and forklifts. The company is headquartered in Longyan, China.",
+  "summary": "Lonking Holdings Limited, an investment holding company, manufactures and distributes wheel loaders, road rollers, excavators, forklifts, and other construction machinery in Mainland China. The company also provides hydraulic excavators and skid steer loaders; and diesel, electric, and LPG forklifts. In addition, it offers components, such as axles, gear boxes, cylinders, gears, castings, and high-end hydraulic pumps and valves; and main valves, parts, pilot oil valves, radial plunger motors, swing motors and reducer assemblies, and variable plunger pumps. Further, the company provides finance leasing for wheel loaders and other machinery. It also sells its products to approximately 40 countries in Mid and South America, Russia, Asia and Pacific area, Mid-East countries and Africa, etc. The company was founded in 1993 and is headquartered in Shanghai, the People's Republic of China.",
   "website": "http://www.lonking.cn"
 }

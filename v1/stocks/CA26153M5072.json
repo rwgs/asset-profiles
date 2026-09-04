@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG004PZTSC0",
+    "composite_figi": "BBG004MB7Q16",
     "cusip": "26153M507",
-    "figi": "BBG004PZTSC0",
+    "figi": "BBG004MB7Q34",
     "isin": "CA26153M5072"
   },
   "industry": "Real Estate Management & Development",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DRUNF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "DRM.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DRUNF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Dream Unlimited Corp.",
-  "primary_symbol": "DRUNF",
+  "primary_symbol": "DRM.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

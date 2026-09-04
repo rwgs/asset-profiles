@@ -2,8 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG00PG35ZL4",
-    "figi": "BBG00PG35ZS7",
+    "composite_figi": "BBG00LNJRQ09",
+    "cusip": "G0250X107",
+    "figi": "BBG00LNJRTX7",
     "isin": "JE00BJ1F3079"
   },
   "industry": "Distributors",
@@ -14,27 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "485.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "485B.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMCCF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "AMCR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "485.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "485.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "485B.MU"
     },
     {
       "currency": "BRL",
@@ -45,6 +41,11 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "AMC.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMCCF"
     },
     {
       "currency": "EUR",
@@ -59,9 +60,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Amcor plc",
-  "primary_symbol": "485.BE",
+  "primary_symbol": "AMCR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

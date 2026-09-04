@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00JHTZYK1",
-    "figi": "BBG00JHTZYK1",
+    "composite_figi": "BBG005798M31",
+    "figi": "BBG005798M59",
     "isin": "JP3569200003"
   },
   "industry": "Real Estate Management & Development",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTUUF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "3289.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "T8F.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TTUUF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Tokyu Fudosan Holdings Corporation",
-  "primary_symbol": "TTUUF",
+  "primary_symbol": "3289.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

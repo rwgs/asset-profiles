@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00Q897462",
     "cusip": "80405P107",
-    "figi": "BBG00Q8974D4",
     "isin": "US80405P1075"
   },
   "industry": "Biotechnology",
@@ -14,18 +12,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1LV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1LV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "STSA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1LV.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +27,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1LV.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US80405P1075.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "SATSUMA PHARMACEUTICALS, INC.",
-  "primary_symbol": "1LV.BE",
+  "primary_symbol": "STSA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Satsuma Pharmaceuticals, Inc. is a biopharmaceutical company focused on developing STS101 (dihydroergotamine (DHE) nasal powder) for the acute treatment of migraine. It is located in South San Francisco, California. TICKER: Satsuma Pharmaceuticals, Inc. (now defunct) focused on developing STS101, a DHE nasal powder for acute migraine treatment.",
+  "summary": "Satsuma Pharmaceuticals, Inc., a clinical-stage biopharmaceutical company, developing novel therapeutic products for the acute treatment of migraines. Its lead product candidate is STS101, a drug-device combination of a proprietary dry-powder formulation of dihydroergotamine mesylate, which is in ASCEND Phase III clinical trials and can be self-administered with proprietary pre-filled, single-use, and nasal delivery device. The company was incorporated in 2016 and is headquartered in South San Francisco, California.",
   "website": "http://www.satsumarx.com"
 }

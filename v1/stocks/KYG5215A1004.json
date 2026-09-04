@@ -3,7 +3,7 @@
   "country_code": "KY",
   "identifiers": {
     "composite_figi": "BBG00WCN3VD9",
-    "figi": "BBG00WCN3VK1",
+    "figi": "BBG00WCN3VG6",
     "isin": "KYG5215A1004"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "50J.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "50J.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "50J.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "50J.MU"
     },
     {
       "currency": "HKD",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "KANGJI MED.HLDS DL-,00001",
-  "primary_symbol": "50J.MU",
+  "primary_symbol": "50J.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

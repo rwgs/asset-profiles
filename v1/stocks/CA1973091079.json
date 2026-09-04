@@ -1,20 +1,16 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00P0QCNS2",
     "cusip": "197309107",
     "isin": "CA1973091079"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "CA1973091079",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CCHWF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -29,19 +25,24 @@
       "currency": "CAD",
       "exchange_mic": "NEOE",
       "symbol": "CCHW.NE"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CCHWF"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Columbia Care Inc.",
-  "primary_symbol": "CCHWF",
+  "name": "COLUMBIA CARE INC",
+  "primary_symbol": "CA1973091079.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Columbia Care Inc. cultivates, manufactures, and provides cannabis-based health and wellness solutions, and derivative products. The company holds licenses in 19 jurisdictions in the United States and the European Union. It operates cultivation facilities, manufacturing facilities, and retail dispensaries. The company was founded in 2012 and is headquartered in New York, New York.",
+  "summary": "COLUMBIA CARE INC is a cannabis company focused on cultivation, manufacturing, and retail operations. The company operates cannabis dispensaries and cultivation facilities across the United States. Columbia Care Inc. is headquartered in New York, NY.",
   "website": "http://www.col-care.com"
 }

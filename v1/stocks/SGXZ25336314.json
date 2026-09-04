@@ -2,28 +2,24 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG00X02ZQ97",
-    "figi": "BBG00X02ZQG9",
+    "composite_figi": "BBG00QTW1ZN6",
+    "cusip": "Y58473128",
+    "figi": "BBG00QX82G82",
     "isin": "SGXZ25336314"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Capital Goods",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "SGXZ25336314",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5QJ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MAXN"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5QJ.DU"
     },
     {
@@ -33,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5QJ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SGXZ25336314.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "MAXEON SOLAR TECHS",
-  "primary_symbol": "5QJ.MU",
+  "name": "Maxeon Solar Technologies, Ltd.",
+  "primary_symbol": "MAXN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Maxeon Solar Technologies designs, manufactures, and sells solar panels worldwide. They offer high-efficiency interdigitated back contact (IBC) panels under the Maxeon brand and shingled heterojunction (HJT) panels under the SunPower brand. Maxeon Solar Technologies is headquartered in Singapore.",
+  "sector": "Information Technology",
+  "summary": "Maxeon Solar Technologies, Ltd. designs, manufactures, markets, and sells solar panels and related solar system components worldwide. The company provides interdigitated back contact and shingled solar cells and panels under the SunPower brand. It offers its products to dealers, project developers, system integrators, distributors, resellers, and residential and small-scale commercial customers. The company is headquartered in Singapore.",
   "website": "http://www.maxeon.com"
 }

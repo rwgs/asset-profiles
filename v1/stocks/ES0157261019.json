@@ -2,8 +2,6 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG00YD8S1B8",
-    "figi": "BBG00YD8S1B8",
     "isin": "ES0157261019"
   },
   "industry": "Biotechnology",
@@ -12,12 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LABFF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0ILL.L"
     },
@@ -32,6 +25,11 @@
       "symbol": "41L.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LABFF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XMAD",
       "symbol": "ROVI.MC"
@@ -44,9 +42,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Laboratorios Farmaceuticos Rovi, S.A.",
-  "primary_symbol": "LABFF",
+  "primary_symbol": "0ILL.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00T41C3H1",
+    "composite_figi": "BBG00PLPTZ51",
     "cusip": "97264L100",
-    "figi": "BBG00T41C3P2",
+    "figi": "BBG00PLPTZ51",
     "isin": "US97264L1008"
   },
   "industry": "Diversified Telecommunication Services",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0BF1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0BF1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "WIMI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0BF1.BE"
     },
     {
       "currency": "EUR",
@@ -34,15 +29,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0BF1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US97264L1008.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "WIMI HOLOGR.CLD B ADR/2",
-  "primary_symbol": "0BF1.BE",
+  "name": "WiMi Hologram Cloud Inc.",
+  "primary_symbol": "WIMI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

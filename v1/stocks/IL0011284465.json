@@ -12,14 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "P55.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PLSQF"
     },
     {
       "currency": "EUR",
@@ -32,6 +27,11 @@
       "symbol": "P55.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PLSQF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "PLUS.L"
@@ -41,7 +41,7 @@
   "name": "Plus500 Ltd.",
   "primary_symbol": "P55.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

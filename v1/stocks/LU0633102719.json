@@ -2,8 +2,8 @@
   "country": "Luxembourg",
   "country_code": "LU",
   "identifiers": {
-    "composite_figi": "BBG002YG7031",
-    "figi": "BBG002YG70J4",
+    "composite_figi": "BBG001QJL245",
+    "figi": "BBG001QJL254",
     "isin": "LU0633102719"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,16 +11,6 @@
   "isin": "LU0633102719",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMSEY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SMSOF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -30,13 +20,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1SO.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMSEY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMSOF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Samsonite International S.A.",
-  "primary_symbol": "SMSEY",
+  "primary_symbol": "1910.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

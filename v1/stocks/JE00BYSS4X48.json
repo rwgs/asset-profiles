@@ -2,33 +2,29 @@
   "country": "Jersey",
   "country_code": "JE",
   "identifiers": {
-    "composite_figi": "BBG00B5YGRL5",
-    "figi": "BBG00B5YGRS8",
+    "composite_figi": "BBG009XW8PY2",
+    "cusip": "67011XAB9",
+    "figi": "BBG009XW8QJ7",
     "isin": "JE00BYSS4X48"
   },
   "industry": "Health Care Equipment & Supplies",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "JE00BYSS4X48",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "038.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "038.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NVCR"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "038.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "038.DU"
     },
     {
@@ -38,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "038.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "038.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "NovoCure Ltd.",
-  "primary_symbol": "038.BE",
+  "primary_symbol": "NVCR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Novocure Ltd. is a global oncology company pioneering a novel therapy called Tumor Treating Fields (TTFields) for solid tumors. TTFields therapy uses electric fields to disrupt cancer cell division. The company is headquartered in St. Helier, Jersey.",
+  "summary": "NovoCure Limited, an oncology company, engages in the development, manufacture, and commercialization of Optune for the treatment of a variety of solid tumors. The company markets Optune and Optune Lua, a Tumor Treating Fields delivery system for use as a monotherapy treatment for adult patients with glioblastoma. It is also developing products for brain metastases, non-small cell lung cancer, pancreatic cancer, gastric cancer, ovarian cancer, liver cancer, and mesothelioma. The company markets its products in the European Union, Japan, and internationally. It has a clinical trial collaboration agreement with MSD to evaluate tumor treating fields together with KEYTRUDA, an anti-PD-1 therapy; and a strategic alliance with the NYU Grossman School of Medicine's Department of Radiation Oncology that provides a framework for preclinical and clinical development projects studying Tumor Treating Fields. NovoCure Limited was founded in 2000 and is based in Saint Helier, Jersey.",
   "website": "http://www.novocure.com"
 }

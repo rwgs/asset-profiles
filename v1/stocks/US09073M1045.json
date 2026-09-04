@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GN3C74",
+    "composite_figi": "BBG000C15114",
     "cusip": "09073M104",
-    "figi": "BBG000GN3GY5",
+    "figi": "BBG000C159P1",
     "isin": "US09073M1045"
   },
   "industry": "Biotechnology",
@@ -14,17 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TE1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TE1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TECH"
     },
     {
@@ -34,8 +24,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TE1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TE1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TE1.MU"
     },
     {
       "currency": "EUR",
@@ -45,15 +45,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Bio-Techne Corporation",
-  "primary_symbol": "TE1.BE",
+  "primary_symbol": "TECH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Bio-Techne Corporation is a biotechnology company that develops, manufactures, and sells life science reagents, instruments, and services. The company's products are used in academic research, drug discovery, and clinical diagnostics. Bio-Techne is headquartered in Minneapolis, Minnesota.",
+  "summary": "Bio-Techne Corporation, together with its subsidiaries, develops, manufactures, and sells life science reagents, instruments, and services for the research and clinical diagnostic markets worldwide. The company operates in two segments, Protein Sciences, and Diagnostics and Genomics. The Protein Sciences segment offers proteins and reagent solutions, including cytokines and growth factors, antibodies, immunoassays, biologically active small molecule compounds, tissue culture reagents, and T-Cell activation technologies. This segment also provides manual and automated protein analysis instruments and immunoassays for use in quantifying proteins in various biological fluids. The Diagnostics and Genomics segment develops and manufactures diagnostic products, including Food and Drug Administration -regulated controls, calibrators, blood gas and clinical chemistry controls, and other reagents for original equipment manufacturers and clinical customers, as well as a portfolio of clinical molecular diagnostic oncology assays comprising the ExoDx Prostate test for prostate cancer diagnosis. This segment also manufactures and sells tissue-based in-situ hybridization assays for research and clinical use. The company was formerly known as Techne Corporation and changed its name to Bio-Techne Corporation in November 2014. Bio-Techne Corporation was founded in 1976 and is headquartered in Minneapolis, Minnesota.",
   "website": "http://www.bio-techne.com"
 }

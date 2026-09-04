@@ -1,8 +1,8 @@
 {
   "country": "Macau",
   "identifiers": {
-    "composite_figi": "BBG000PTX528",
-    "figi": "BBG000PTX528",
+    "composite_figi": "BBG000PF24J7",
+    "figi": "BBG000PF3781",
     "isin": "KYG981491007"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,26 +11,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1128.HK"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "WYNMF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "WYNMY"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "1128.HK"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Wynn Macau, Limited",
-  "primary_symbol": "WYNMF",
+  "primary_symbol": "1128.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000C0K681",
-    "figi": "BBG000C0K9V9",
+    "composite_figi": "BBG000BBKSR9",
+    "cusip": "705015105",
+    "figi": "BBG000BBKSR9",
     "isin": "GB0006776081"
   },
   "industry": "Diversified Telecommunication Services",
@@ -14,32 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "PES.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PES.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PES.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "PSO"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PSORF"
-    },
-    {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0006776081.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PES.BE"
     },
     {
       "currency": "EUR",
@@ -47,14 +33,24 @@
       "symbol": "PES.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PES.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PES.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PES.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PES.MU"
     },
     {
       "currency": "EUR",
@@ -70,13 +66,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "PSON.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PSORF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Pearson plc",
-  "primary_symbol": "PES.BE",
+  "primary_symbol": "PSO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

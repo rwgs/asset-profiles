@@ -2,8 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000QWN8C4",
-    "figi": "BBG000QWNBD6",
+    "composite_figi": "BBG00GSNPM07",
+    "cusip": "G4474Y214",
+    "figi": "BBG00GSNPM07",
     "isin": "AU000000JHG6"
   },
   "industry": "Capital Markets",
@@ -14,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "HDJ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "JHG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HDJ.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HDJ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HDJ.MU"
     },
     {
       "currency": "EUR",
@@ -53,10 +54,10 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "JANUS HENDERSON GRP CDIS",
-  "primary_symbol": "HDJ.MU",
+  "name": "Janus Henderson Group plc",
+  "primary_symbol": "JHG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

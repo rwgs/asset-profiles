@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00LG78XW4",
-    "figi": "BBG00LG78Y16",
+    "figi": "BBG00LG78XX3",
     "isin": "GB00BDHXPJ60"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "I32.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "I32.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "I32.MU"
     },
     {
       "currency": "GBP",
@@ -38,16 +38,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "I3 ENERGY PLC  LS-,0001",
-  "primary_symbol": "I32.MU",
+  "name": "i3 Energy Plc",
+  "primary_symbol": "I32.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "I3 ENERGY PLC LS-,0001 is an oil and gas company focused on production and development in the Western Canadian Sedimentary Basin. The company aims to deliver low cost, profitable conventional production. The company is headquartered in the UK.",
+  "summary": "i3 Energy Plc, a holding company, engages in the development and production of oil and gas assets in the United Kingdom. It owns 100% interest in the 13/23c and 13/23d blocks of Liberator oil field; and 13/23c-10 well in the Serenity oil field. The company was founded in 2014 and is headquartered in Westhill, the United Kingdom.",
   "website": "http://www.i3.energy"
 }

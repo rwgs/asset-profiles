@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BXBYZ9",
-    "figi": "BBG000BXC117",
+    "composite_figi": "BBG000BL4RF0",
+    "figi": "BBG000BL4S40",
     "isin": "JP3695200000"
   },
   "industry": "Machinery",
@@ -12,28 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NGI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NGI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NGKIF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "5333.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NGI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NGI.DU"
     },
     {
@@ -43,21 +33,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NGI.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NGI.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NGKIF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "NGK CORP.",
-  "primary_symbol": "NGI.BE",
+  "primary_symbol": "5333.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "NGK Insulators, Ltd. is a Japanese ceramics company that manufactures and sells insulators, surge arresters, fine ceramics, and other products. Their products are used in a variety of industries, including electric power, automotive, and electronics. The company is headquartered in Nagoya, Japan.",
+  "summary": "NGK Insulators, Ltd., together with its subsidiaries, manufactures and sells electric power related equipment in Japan and internationally. It operates through Energy Infrastructure Business, Ceramic Products Business, Electronics Business, and Process Technology Business segments. The company offers insulators, NAS, and zinc rechargeable batteries; HONEYCERAM, a ceramic substrate for automotive catalytic converters; energy-efficient products, including diesel particulate filters and gasoline particulate filters; and NOx sensors, which measures nitrogen oxide concentration in automobile exhaust. It also provides metal-related products, such as beryllium copper products and copper-nickel-tin alloy products; and electronic components, including HDD piezoelectric micro-actuators, bonded wafers for electronic devices, and other products, as well as EnerCera, a chip-type ceramic rechargeable battery. In addition, the company offers ceramics for semiconductor manufacturing equipment; and industrial process products, such as heating devices, kilns, refractories, ceramic membranes, separators, corrosion-resistant equipment, and radioactive waste treatment systems, as well as provides smart solutions for environmental protection and energy conservation. NGK Insulators, Ltd. was founded in 1919 and is headquartered in Nagoya, Japan.",
   "website": "http://www.ngk.co.jp"
 }

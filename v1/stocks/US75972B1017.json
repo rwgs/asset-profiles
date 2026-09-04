@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000Q2GR09",
+    "composite_figi": "BBG000MHQMB8",
     "cusip": "75972B101",
-    "figi": "BBG000Q2GR09",
+    "figi": "BBG000MHQMZ2",
     "isin": "US75972B1017"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -13,18 +13,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RNECF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RNECY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "6723.T"
     },
     {
@@ -33,16 +23,26 @@
       "symbol": "NEN.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RNECF"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "RNECN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RNECY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Renesas Electronics Corporation",
-  "primary_symbol": "RNECF",
+  "primary_symbol": "6723.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

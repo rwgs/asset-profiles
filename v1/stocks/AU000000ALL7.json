@@ -3,28 +3,23 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000NFBHV6",
-    "figi": "BBG000NFBLQ3",
+    "figi": "BBG000NFBJ97",
     "isin": "AU000000ALL7"
   },
   "industry": "Interactive Media & Services",
-  "industry_group": "Consumer Services",
+  "industry_group": "Media & Entertainment",
   "isin": "AU000000ALL7",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AC8.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ARLUF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AC8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AC8.MU"
     },
     {
       "currency": "EUR",
@@ -35,19 +30,24 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "ALL.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ARLUF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Aristocrat Leisure Ltd.",
-  "primary_symbol": "AC8.MU",
+  "primary_symbol": "AC8.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Aristocrat Leisure Limited is a global gaming company that designs, develops, and manufactures gaming content, platforms, and systems. The company provides a range of products, including electronic gaming machines, casino management systems, and online social games. Aristocrat Leisure is headquartered in Sydney, Australia.",
+  "sector": "Communications",
+  "summary": "Aristocrat Leisure Limited, together with its subsidiaries, engages in the development, assembly, sale, distribution, and servicing of games and systems in the Americas, Australia, New Zealand, and internationally. The company offers gaming content; and platforms and systems, including electronic gaming machines, digital social games, and casino management systems, as well as social web and mobile gaming services. It also provides cabinets and gaming products. Aristocrat Leisure Limited was incorporated in 1984 and is based in North Ryde, Australia.",
   "website": "http://www.aristocrat.com"
 }

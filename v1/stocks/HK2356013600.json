@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000Q2XSH0",
-    "figi": "BBG000Q2XW18",
+    "composite_figi": "BBG000C84067",
+    "figi": "BBG000C840L0",
     "isin": "HK2356013600"
   },
   "industry": "Banks",
@@ -11,11 +11,6 @@
   "isin": "HK2356013600",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RY2.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,15 +23,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RY2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RY2.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Small Cap",
   "name": "Dah Sing Banking Group Limited",
-  "primary_symbol": "RY2.MU",
+  "primary_symbol": "2356.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

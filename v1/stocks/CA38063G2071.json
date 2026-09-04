@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000H0QD30",
     "cusip": "38063G207",
+    "figi": "BBG000H0QFL5",
     "isin": "CA38063G2071"
   },
   "industry": "Metals & Mining",
@@ -11,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TLLZF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "GLDL.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TLLZF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Gold Line Resources Ltd.",
-  "primary_symbol": "TLLZF",
+  "primary_symbol": "GLDL.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

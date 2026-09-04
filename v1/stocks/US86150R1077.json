@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00JPCBPG9",
     "cusip": "86150R107",
+    "figi": "BBG00P8TXZN3",
     "isin": "US86150R1077"
   },
   "industry": "Biotechnology",
@@ -12,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0GT.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "STOK"
     },
     {
@@ -27,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0GT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US86150R1077.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "STOKE THERAPEUT.DL-,001",
-  "primary_symbol": "0GT.MU",
+  "name": "Stoke Therapeutics, Inc.",
+  "primary_symbol": "STOK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "STOKE THERAPEUT.DL-,001 is a biotechnology company dedicated to addressing the underlying cause of severe genetic diseases by upregulating protein expression. Their approach, TANGO (Targeted Augmentation of Nuclear Gene Output), leverages the body's natural mechanisms to increase protein production. Stoke Therapeutics is based in Bedford, Massachusetts.",
+  "summary": "Stoke Therapeutics, Inc., an early-stage biopharmaceutical company, develops novel antisense oligonucleotide (ASO) medicines to treat the underlying causes of severe genetic diseases in the United States. The company utilizes its proprietary ribonucleic acid therapeutics platform, Targeted Augmentation of Nuclear Gene Output (TANGO), to design ASOs to upregulate the expression of protein by individual genes in a patient. Its lead product candidate is STK-001 that is used to treat Dravet syndrome, a severe and progressive genetic epilepsy. The company was formerly known as ASOthera Pharmaceuticals, Inc. and changed its name to Stoke Therapeutics, Inc. in May 2016. Stoke Therapeutics, Inc. was incorporated in 2014 and is headquartered in Bedford, Massachusetts.",
   "website": "http://www.stoketherapeutics.com"
 }

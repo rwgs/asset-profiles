@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00HY6RZ59",
+    "composite_figi": "BBG0026ZDHR0",
     "cusip": "032724106",
-    "figi": "BBG00HY6RZB2",
+    "figi": "BBG009ZHBP97",
     "isin": "US0327241065"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AN6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ANAB"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HFQ.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AN6.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AN6.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AN6.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "AnaptysBio, Inc.",
-  "primary_symbol": "AN6.MU",
+  "primary_symbol": "ANAB",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "AnaptysBio, Inc., headquartered in San Diego, California, is a clinical-stage biotechnology company focused on developing innovative antibody therapeutics for inflammatory diseases. The company is leveraging its proprietary antibody discovery platform to create novel therapies.",
+  "summary": "AnaptysBio, Inc., a clinical stage biotechnology company, engages in developing therapeutic product candidates for inflammation and immuno-oncology indications. The company's products include Imsidolimab, an IL-36R antibody that inhibits the interleukin-36 receptor for the treatment of various dermatological inflammatory diseases; ANB030, an anti-PD-1 agonist antibody program designed to augment PD-1 signaling through ANB030 treatment to suppress T-cell driven human inflammatory diseases; and ANB032, an anti-BTLA modulator antibody applicable to human inflammatory diseases associated with lymphoid and myeloid immune cell dysregulation. It also focuses on developing various antibody programs that are advanced to preclinical and clinical milestones under its collaborations. AnaptysBio, Inc. has a collaboration and license agreement with TESARO, Inc. and Celgene Corporation; and license agreements with United Kingdom Research and Innovation, as well as Millipore Corporation. The company was formerly known as Anaptys Biosciences, Inc. and changed its name to AnaptysBio, Inc. in July 2006. AnaptysBio, Inc. was incorporated in 2005 and is headquartered in San Diego, California.",
   "website": "http://www.anaptysbio.com"
 }

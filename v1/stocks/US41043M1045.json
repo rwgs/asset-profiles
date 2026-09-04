@@ -2,9 +2,7 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BXY3B8",
     "cusip": "41043M104",
-    "figi": "BBG000BXY3B8",
     "isin": "US41043M1045"
   },
   "industry": "Real Estate Management & Development",
@@ -12,16 +10,6 @@
   "isin": "US41043M1045",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HLPPF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HLPPY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -31,13 +19,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AOP.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HLPPF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HLPPY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Hang Lung Properties Limited",
-  "primary_symbol": "HLPPF",
+  "primary_symbol": "0101.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

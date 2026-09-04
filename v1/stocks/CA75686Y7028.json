@@ -2,6 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000BV9N99",
     "cusip": "75686Y702",
     "isin": "CA75686Y7028"
   },
@@ -11,37 +12,37 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VG3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VG3.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA75686Y7028.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VG3.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VG3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VG3.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "RED PINE EXPLORATION",
-  "primary_symbol": "VG3.BE",
+  "name": "RED PINE EXPLORATION INC",
+  "primary_symbol": "CA75686Y7028.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Red Pine Exploration Inc. is a Canadian mineral exploration company focused on exploring and developing the Wawa Gold Project in Ontario, Canada. The company aims to discover and develop high-grade gold resources through exploration and drilling activities. Red Pine Exploration is based in Toronto, Canada.",
+  "summary": "Red Pine Exploration Inc. is a gold exploration company focused on its Wawa Gold Project located in Ontario, Canada. The company is exploring and developing the Surluga and Minto Mine South deposits. They are aiming to increase resources and develop a sustainable gold mining operation.",
   "website": "http://www.redpineexp.com"
 }

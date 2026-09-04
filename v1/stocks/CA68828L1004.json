@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000V9SZR8",
     "cusip": "68828L100",
+    "figi": "BBG000V9T0T2",
     "isin": "CA68828L1004"
   },
   "industry": "Metals & Mining",
@@ -11,29 +13,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OSIIF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RSR1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RSR1.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "OSI.V"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OSIIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RSR1.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RSR1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RSR1.MU"
     },
     {
       "currency": "EUR",
@@ -43,9 +45,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Osino Resources Corp.",
-  "primary_symbol": "OSIIF",
+  "primary_symbol": "OSI.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

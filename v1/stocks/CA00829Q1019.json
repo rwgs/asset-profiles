@@ -13,24 +13,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "AFZ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AFZ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AOIFF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AFZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AFZ.MU"
     },
     {
       "currency": "EUR",
@@ -46,13 +41,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "AOI.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AOIFF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Africa Oil Corp.",
   "primary_symbol": "AFZ.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BNB913",
+    "composite_figi": "BBG000C4PMK9",
     "cusip": "48667L106",
-    "figi": "BBG000BNB913",
     "isin": "US48667L1061"
   },
   "industry": "Diversified Telecommunication Services",
@@ -13,31 +12,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KDDIF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KDDIY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "9433.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DIP.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KDDIF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KDDIY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "KDDI Corporation",
-  "primary_symbol": "KDDIF",
+  "primary_symbol": "9433.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

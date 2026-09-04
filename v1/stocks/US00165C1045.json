@@ -2,31 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005QR91R9",
+    "composite_figi": "BBG000TDCVT6",
     "cusip": "00165C104",
-    "figi": "BBG005QR91Y1",
+    "figi": "BBG000TDCWW0",
     "isin": "US00165C1045"
   },
   "industry": "Entertainment",
-  "industry_group": "Consumer Services",
+  "industry_group": "Media & Entertainment",
   "isin": "US00165C1045",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AH9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AH9.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AH9.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -34,18 +19,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AH9.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "AH9.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AH9.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AH9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AH9.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AH9.MU"
     },
     {
       "currency": "EUR",
@@ -59,16 +59,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "AMC ENTERTAINMENT HLDGS A",
-  "primary_symbol": "AH9.BE",
+  "name": "AMC Entertainment Holdings, Inc.",
+  "primary_symbol": "AMC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "AMC Entertainment Holdings, Inc. owns, operates, and programs motion picture theaters. Headquartered in Leawood, Kansas, it offers amenities such as food and beverage services and premium formats like IMAX and Dolby Cinema. AMC is one of the largest movie theater chains in the world.",
+  "sector": "Communications",
+  "summary": "AMC Entertainment Holdings, Inc., through its subsidiaries, involved in the theatrical exhibition business. The company owns, operates, or has interests in theatres. As of March 12, 2021, it operated approximately 1000 theatres and 10,700 screens in the United States and internationally. The company was founded in 1920 and is headquartered in Leawood, Kansas.",
   "website": "http://www.amctheatres.com"
 }

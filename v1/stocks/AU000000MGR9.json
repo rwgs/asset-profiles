@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000DS0379",
-    "figi": "BBG000DS0379",
+    "composite_figi": "BBG000BK3JL4",
+    "figi": "BBG000BK3JX1",
     "isin": "AU000000MGR9"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -11,11 +11,6 @@
   "isin": "AU000000MGR9",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRVGF"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MJB.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MRVGF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Mirvac Group",
-  "primary_symbol": "MRVGF",
+  "primary_symbol": "MGR.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

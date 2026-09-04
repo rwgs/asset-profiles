@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BHX0F6",
-    "figi": "BBG000BHX0F6",
+    "composite_figi": "BBG000BF0Y35",
+    "figi": "BBG000BF0YW3",
     "isin": "BMG6260K1595"
   },
   "industry": "Metals & Mining",
@@ -11,11 +11,6 @@
   "isin": "BMG6260K1595",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MOAEF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -27,6 +22,11 @@
       "symbol": "BMG6260K1595.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MOAEF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NWW.F"
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Mongolia Energy Corporation Limited",
-  "primary_symbol": "MOAEF",
+  "primary_symbol": "0276.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

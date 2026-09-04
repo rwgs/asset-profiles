@@ -14,33 +14,8 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "HELKF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HEN.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HEN1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HENKY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HENOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HENOY"
     },
     {
       "currency": "EUR",
@@ -58,6 +33,9 @@
       "symbol": "HEN.SG"
     },
     {
+      "symbol": "HEN.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "HEN.VI"
@@ -66,6 +44,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HEN1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HEN1.MU"
     },
     {
       "currency": "EUR",
@@ -96,13 +79,28 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HENE.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HENKY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HENOF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HENOY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Henkel AG & Co. KGAA",
   "primary_symbol": "HELKF",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

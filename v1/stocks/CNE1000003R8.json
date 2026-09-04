@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000BTD384",
-    "figi": "BBG000BTD384",
+    "composite_figi": "BBG000BFJDG7",
+    "figi": "BBG000BFJDZ6",
     "isin": "CNE1000003R8"
   },
   "industry": "Metals & Mining",
@@ -11,21 +11,6 @@
   "isin": "CNE1000003R8",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MAANF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YM9A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YM9A.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -37,9 +22,24 @@
       "symbol": "600808.SS"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MAANF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "YM9A.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "YM9A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "YM9A.MU"
     },
     {
       "currency": "EUR",
@@ -49,9 +49,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Maanshan Iron & Steel Co. Ltd. Class H",
-  "primary_symbol": "MAANF",
+  "primary_symbol": "0323.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

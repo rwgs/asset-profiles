@@ -14,13 +14,8 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NVDA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NVDA-U.TI"
     },
     {
       "currency": "EUR",
@@ -31,6 +26,10 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NVD.F"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "NVDA-U.TI"
     },
     {
       "currency": "ARS",
@@ -53,7 +52,7 @@
       "symbol": "NVDA.VI"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "NVDAD.BA"
     },
@@ -67,7 +66,7 @@
   "name": "NVIDIA Corporation",
   "primary_symbol": "NVDA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

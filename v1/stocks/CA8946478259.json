@@ -2,31 +2,15 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000HW33G3",
+    "composite_figi": "BBG000FMC4L9",
     "cusip": "894647825",
-    "figi": "BBG000HW5DL3",
     "isin": "CA8946478259"
   },
-  "industry": "Metals & Mining",
+  "industry": "Independent Power and Renewable Electricity Producers",
   "industry_group": "Materials",
   "isin": "CA8946478259",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TRC1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TRC1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TSRMF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -44,21 +28,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TRC1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TRC1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TRC1.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TSRMF"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Treasury Metals Inc.",
-  "primary_symbol": "TRC1.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "TREASURY METALS INC",
+  "primary_symbol": "CA8946478259.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Treasury Metals Inc. engages in the exploration and evaluation of mineral resources in Canada. The company explores for gold, silver, copper, lead, and zinc deposits. Its flagship asset is the Goliath gold project comprising 126 contiguous unpatented mining claims and 23 patented land parcels, as well as 3 mining leases that cover approximately 5,049 hectares located near the city of Dryden in northwestern Ontario. The company was formerly known as Divine Lake Exploration Inc. and changed its name to Treasury Metals Inc. in November 2007. Treasury Metals Inc. was incorporated in 1997 and is headquartered in Toronto, Canada.",
-  "website": "http://www.treasurymetals.com"
+  "summary": "Treasury Metals Inc. is a gold exploration and development company focused on the Goliath Gold Complex in Northwestern Ontario, Canada. The Goliath Gold Complex is their flagship project. Treasury Metals is based in Toronto, Ontario, Canada.",
+  "website": "http://www.timahresources.com.au"
 }

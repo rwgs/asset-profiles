@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG009R1R9X3",
+    "composite_figi": "BBG00297CCN5",
     "cusip": "22289X202",
-    "figi": "BBG009R1R9X3",
+    "figi": "BBG0029L4FN6",
     "isin": "CA22289X2023"
   },
   "industry": "Metals & Mining",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MGPRF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "COVE.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MGPRF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Plascred Circular Innovations Inc.",
-  "primary_symbol": "MGPRF",
+  "name": "Cover Technologies Inc.",
+  "primary_symbol": "COVE.CN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

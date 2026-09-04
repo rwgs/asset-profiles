@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00ZGX00S1",
-    "figi": "BBG00ZGX00Y4",
+    "figi": "BBG00ZGX00T0",
     "isin": "SE0012729937"
   },
   "industry": "Building Products",
@@ -12,27 +12,27 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5V0.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5V0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5V0.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Ecoclime Group AB Class B",
-  "primary_symbol": "5V0.MU",
+  "primary_symbol": "5V0.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "ECOCLIME GRP AB B is a Swedish cleantech company that develops and sells energy-efficient climate systems. Their technology focuses on using waste heat and renewable energy sources to provide cooling and heating solutions for buildings and industries. The company is headquartered in Sweden.",
+  "summary": "Ecoclime Group AB (publ) provides real estate technology for recycling, charging, storage, extraction, and distribution of recycled and renewable thermal energy. The company is involved in the design, manufacture, construction, installation, and service of system products in circular energy systems; and sale of renewable recycled energy. It also offers indoor comfort and ventilation systems with control and optimization of temperature comfort and energy efficiency in properties. Ecoclime Group AB (publ) is headquartered in Umeå, Sweden.",
   "website": "http://www.ecoclime.se"
 }

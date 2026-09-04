@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GB4HW0",
+    "composite_figi": "BBG000KLB4Q1",
     "cusip": "83088M102",
-    "figi": "BBG000GB4N75",
+    "figi": "BBG000KLDQZ0",
     "isin": "US83088M1027"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -14,38 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWM.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWM.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWM.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWM.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SWKS"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0L77.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AWM.BE"
     },
     {
       "currency": "EUR",
@@ -53,8 +33,8 @@
       "symbol": "AWM.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AWM.DU"
     },
     {
@@ -64,8 +44,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AWM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AWM.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AWM.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AWM.SG"
+    },
+    {
+      "symbol": "AWM.TI"
     },
     {
       "currency": "BRL",
@@ -83,17 +81,17 @@
       "symbol": "SWKS.VI"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "SKYWORKS SOL.  DL-,25",
-  "primary_symbol": "AWM.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Skyworks Solutions, Inc.",
+  "primary_symbol": "SWKS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Skyworks Solutions, Inc. designs, manufactures, and markets high-performance analog and mixed-signal semiconductors. Their products are used in mobile communications, automotive, industrial, and other applications. Skyworks Solutions is headquartered in Irvine, California.",
+  "summary": "Skyworks Solutions, Inc., together with its subsidiaries, designs, develops, manufactures, and markets proprietary semiconductor products, including intellectual property in the United States, China, South Korea, Taiwan, Europe, the Middle East, Africa, and rest of Asia-Pacific. Its product portfolio includes amplifiers, antenna tuners, attenuators, circulators/isolators, DC/DC converters, demodulators, detectors, diodes, wireless analog system on chip products, directional couplers, diversity receive modules, filters, front-end modules, hybrids, light emitting diode drivers, low noise amplifiers, mixers, modulators, optocouplers/optoisolators, phase locked loops, phase shifters, power dividers/combiners, receivers, switches, synthesizers, technical ceramics, voltage controlled oscillators/synthesizers, and voltage regulators. The company provides its products for use in the aerospace, automotive, broadband, cellular infrastructure, connected home, entertainment and gaming, industrial, medical, military, smartphone, tablet, and wearable markets. It sells its products through direct sales force, electronic component distributors, and independent sales representatives. The company was founded in 1962 and is headquartered in Irvine, California.",
   "website": "http://www.skyworksinc.com"
 }

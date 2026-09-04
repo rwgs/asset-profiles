@@ -2,8 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000PYHN35",
-    "figi": "BBG000PYHN35",
+    "composite_figi": "BBG0019VWW30",
+    "figi": "BBG0019VWW49",
     "isin": "NO0003055501"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -11,11 +11,6 @@
   "isin": "NO0003055501",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NDCVF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,6 +20,11 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "N0S.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NDCVF"
     },
     {
       "currency": "NOK",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Nordic Semiconductor ASA",
-  "primary_symbol": "NDCVF",
+  "primary_symbol": "N0S.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

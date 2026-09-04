@@ -2,9 +2,7 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BT5DW4",
-    "cusip": "266888106",
-    "figi": "BBG000BT5DW4",
+    "cusip": "D23279108",
     "isin": "DE0005565204"
   },
   "industry": "Machinery",
@@ -12,11 +10,6 @@
   "isin": "DE0005565204",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DUERF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -26,13 +19,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DUE.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DUERF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Durr Aktiengesellschaft",
-  "primary_symbol": "DUERF",
+  "primary_symbol": "DUE.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00YGC69Y8",
     "cusip": "09076J108",
+    "figi": "BBG00YGC69Z7",
     "isin": "CA09076J1084"
   },
   "industry": "Pharmaceuticals",
@@ -10,11 +12,6 @@
   "isin": "CA09076J1084",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CNVCF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -29,13 +26,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA09076J1084.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CNVCF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "BioHarvest Sciences Inc.",
-  "primary_symbol": "CNVCF",
+  "primary_symbol": "8MV.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

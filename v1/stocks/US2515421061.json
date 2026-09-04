@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000GNH0N7",
+    "composite_figi": "BBG000D54HT0",
     "cusip": "251542106",
-    "figi": "BBG000GNH0N7",
+    "figi": "BBG000D54KD0",
     "isin": "US2515421061"
   },
   "industry": "Capital Markets",
@@ -12,16 +12,6 @@
   "isin": "US2515421061",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DBOEF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DBOEY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -46,13 +36,23 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "DBO.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DBOEF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DBOEY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Deutsche Borse AG",
-  "primary_symbol": "DBOEF",
+  "primary_symbol": "DB1.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

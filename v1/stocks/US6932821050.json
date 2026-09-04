@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000DR5QX6",
+    "composite_figi": "BBG000CYCKR4",
     "cusip": "693282105",
-    "figi": "BBG000DR5TC3",
+    "figi": "BBG000CYCVF3",
     "isin": "US6932821050"
   },
   "industry": "Software",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PD9.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PDFS"
     },
     {
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PD9.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PD9.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "PDF Solutions, Inc.",
-  "primary_symbol": "PD9.MU",
+  "primary_symbol": "PDFS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "PDF Solutions, Inc. provides process control solutions for the semiconductor manufacturing industry. The company's software and services help semiconductor manufacturers improve yield and reduce costs. The company is headquartered in San Jose, California.",
+  "summary": "PDF Solutions, Inc. provides proprietary software and physical intellectual property products for integrated circuit designs, electrical measurement equipment, proven methodologies, and professional services in the United States, China, Taiwan, and internationally. It offers Exensio software products, such as Manufacturing Analytics that stores collected data in a common environment with a consistent view for enabling product engineers to identify and analyze production yield, performance, reliability, and other issues; Process Control that provides failure detection and classification capabilities for monitoring, alarming, and controlling manufacturing tool sets; Test Operations that offers data collection and analysis capabilities; and Assembly Operations that provides device manufacturers with the capability to link assembly and packaging data, including fabrication and characterization data over the product life cycle. The company also provides design-for-inspection (DFI) Systems, such as DFI on-chip instruments, and eProbe non-contactless E-beam tool; and Characterization Vehicle (CV) infrastructure, which includes CV test chips and pdFasTest electrical testers, as well as Exensio characterization software, designed to analyze the measurements collected from DFI on-chip instruments using the eProbe tool. In addition, it offers Cimetrix software products that enables equipment manufacturers to provide industry standard interfaces on their products; and Software-as-a-Service, software related services, and IYR services. The company sells its technologies and services through direct sales force, service teams, and strategic alliances to integrated device manufacturers, fabless semiconductor companies, foundries, equipment manufacturers, electronics manufacturing suppliers, original device manufacturers, out-sourced semiconductor assembly and test, and system houses. PDF Solutions, Inc. was founded in 1991 and is headquartered in Santa Clara, California.",
   "website": "http://www.pdf.com"
 }

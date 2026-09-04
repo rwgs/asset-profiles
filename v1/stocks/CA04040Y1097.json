@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000CXNF22",
     "cusip": "04040Y109",
+    "figi": "BBG000CXPGZ2",
     "isin": "CA04040Y1097"
   },
   "industry": "Metals & Mining",
@@ -12,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TPRFF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "GCM.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TPRFF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Aris Mining Corporation",
-  "primary_symbol": "TPRFF",
+  "name": "GCM Mining Corp.",
+  "primary_symbol": "GCM.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

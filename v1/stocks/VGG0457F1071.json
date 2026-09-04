@@ -2,25 +2,16 @@
   "country": "Uruguay",
   "country_code": "UY",
   "identifiers": {
-    "composite_figi": "BBG001N9Q343",
-    "figi": "BBG001N9Q3B5",
+    "composite_figi": "BBG001LR99L2",
+    "cusip": "G0457F107",
+    "figi": "BBG001LR99Q7",
     "isin": "VGG0457F1071"
   },
   "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Retailing",
+  "industry_group": "Consumer Services",
   "isin": "VGG0457F1071",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AD8.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AD8.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -28,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AD8.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AD8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AD8.MU"
     },
     {
       "currency": "EUR",
@@ -49,15 +50,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Arcos Dorados Holdings, Inc. Class A",
-  "primary_symbol": "AD8.BE",
+  "primary_symbol": "ARCO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Arcos Dorados Holdings Inc. is the world's largest McDonald's franchisee, operating and franchising McDonald's restaurants in Latin America and the Caribbean, headquartered in Montevideo, Uruguay",
+  "summary": "Arcos Dorados Holdings Inc. operates as a franchisee of McDonald's restaurants. It has the exclusive right to own, operate, and grant franchises of McDonald's restaurants in 20 countries and territories in Latin America and the Caribbean, including Argentina, Aruba, Brazil, Chile, Colombia, Costa Rica, Curaçao, Ecuador, French Guiana, Guadeloupe, Martinique, Mexico, Panama, Peru, Puerto Rico, Trinidad and Tobago, Uruguay, the U.S. Virgin Islands of St. Croix and St. Thomas, and Venezuela. As of December 31, 2019, it operated or franchised 2,293 restaurants. Arcos Dorados Holdings Inc. was founded in 2007 and is based in Montevideo, Uruguay.",
   "website": "http://www.arcosdorados.com"
 }

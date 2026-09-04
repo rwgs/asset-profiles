@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000N3K1P5",
+    "composite_figi": "BBG000CKS6S7",
     "cusip": "76026T205",
-    "figi": "BBG000N3L7V4",
+    "figi": "BBG000CKS8G6",
     "isin": "US76026T2050"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,26 +12,6 @@
   "isin": "US76026T2050",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REPA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REPA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REPYF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "REPYY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -59,6 +39,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "REPA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "REPA.DE"
     },
@@ -69,6 +54,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "REPA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "REPA.SG"
     },
@@ -76,19 +66,29 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "REPSN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "REPYF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "REPYY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Repsol S.A.",
-  "primary_symbol": "REPA.BE",
+  "primary_symbol": "REP.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Repsol S.A. is an integrated global energy company with operations across the entire oil and gas value chain. The company engages in exploration, production, refining, marketing, and renewable energy. Repsol is headquartered in Madrid, Spain.",
+  "summary": "Repsol, S.A. operates as an integrated energy company worldwide. Its Exploration and Production segment engages in the exploration, development, and production of crude oil and natural gas reserves. The company's Industrial segment is involved in refining and petrochemicals; trading and transportation of crude oil and oil products; and the sale, transportation, and regasification of natural gas and liquefied natural gas (LNG). Its Commercial and Renewables segment engages in the low carbon power generation and renewable sources; sale of gas and power; mobility and sale of oil products; and liquified petroleum gas activities. The company also offers asphalt products; installs, operates, and manages service stations; provides maritime services; constructs and operates oil refineries; refines and markets hydrocarbons; provides human resource services; distributes and supplies electricity; and develops new energy source, solar, and wind projects, as well as produces and markets chemical products, lubricants, and biofuels. Further, it is involved in fuel and special products marketing, research, trading and transport, insurance and reinsurance, technology development, and financing activities; develops nanoparticles and nanofibers for material, energy, and biomedicine applications; provides blockchain technology for retail, energy, and automotive sectors; produces synthetic oil cloths; invests in liquefaction plant project; and offers water treatment technology management services. The company was formerly known as Repsol YPF, S.A. and changed its name to Repsol, S.A. in May 2012. Repsol, S.A. was founded in 1927 and is headquartered in Madrid, Spain.",
   "website": "http://www.repsol.com"
 }

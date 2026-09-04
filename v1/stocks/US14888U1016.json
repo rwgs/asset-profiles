@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000H5MY19",
+    "composite_figi": "BBG000GZDC67",
     "cusip": "14888U101",
-    "figi": "BBG000H5N2L6",
+    "figi": "BBG000GZFNV3",
     "isin": "US14888U1016"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CN2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CN2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CPRX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CN2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CN2.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CN2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CN2.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "CATALYST PHARM.INC.DL-001",
-  "primary_symbol": "CN2.BE",
+  "name": "Catalyst Pharmaceuticals, Inc.",
+  "primary_symbol": "CPRX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Catalyst Pharmaceuticals, Inc. is a biopharmaceutical company focused on developing and commercializing therapies for rare neurological diseases and disorders. Its primary product is Firdapse, a treatment for Lambert-Eaton myasthenic syndrome (LEMS). Catalyst Pharmaceuticals is headquartered in Coral Gables, Florida.",
+  "summary": "Catalyst Pharmaceuticals, Inc., a commercial-stage biopharmaceutical company, focuses on developing and commercializing therapies for people with rare debilitating, chronic neuromuscular, and neurological diseases in the United States. It offers Firdapse, a proprietary form of amifampridine phosphate for the treatment of patients with lambert-eaton myasthenic syndrome (LEMS) and myasthenia gravis; and Ruzurgi for the treatment of pediatric LEMS patients. The company also develops Firdapse for the treatment of anti-MuSK antibody positive myasthenia gravis, and spinal muscular atrophy type 3. It has license agreements with BioMarin Pharmaceutical Inc.; and collaboration and license agreement with Endo Ventures Limited for the development and commercialization of generic Sabril tablets. The company was formerly known as Catalyst Pharmaceutical Partners, Inc. and changed its name to Catalyst Pharmaceuticals, Inc. in May 2015. Catalyst Pharmaceuticals, Inc. was founded in 2002 and is based in Coral Gables, Florida.",
   "website": "http://www.catalystpharma.com"
 }

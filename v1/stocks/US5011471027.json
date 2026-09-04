@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00MDVCTS1",
+    "composite_figi": "BBG00HDGRHH7",
     "cusip": "501147102",
-    "figi": "BBG00MDVCTZ3",
+    "figi": "BBG00HDGRHH7",
     "isin": "US5011471027"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4KB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4KB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "KRYS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4KB.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "4KB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4KB.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Krystal Biotech, Inc.",
-  "primary_symbol": "4KB.BE",
+  "primary_symbol": "KRYS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Krystal Biotech, Inc. is a gene therapy company focused on developing and commercializing treatments for rare diseases. The company's technology platform is based on gene delivery using modified herpes simplex virus type 1 (HSV-1) vectors. Krystal Biotech is headquartered in Pittsburgh, Pennsylvania.",
+  "summary": "Krystal Biotech, Inc., a clinical stage biotechnology company, engages in the field of redosable gene therapy to treat serious rare diseases in the United States. Its lead product candidate is beremagene geperpavec (B-VEC), which is in Phase III clinical study to treat dystrophic epidermolysis bullosa. The company is also involved in developing KB105 that is in Phase I/II clinical study for treating patients with deficient autosomal recessive congenital ichthyosis; KB301, which is in Phase I/II clinical stage for treating wrinkles and acne scars; KB407 that is in preclinical stage for cystic fibrosis; and KB104, which is in preclinical stage for netherton syndrome. Its discovery stage product candidates include KB5xx for treating chronic skin diseases, KB3xx to treat aesthetic skin conditions, and KB3xx for other rare lung disease. Krystal Biotech, Inc. was founded in 2015 and is headquartered in Pittsburgh, Pennsylvania.",
   "website": "http://www.krystalbio.com"
 }

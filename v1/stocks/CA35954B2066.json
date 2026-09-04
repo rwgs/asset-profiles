@@ -1,10 +1,8 @@
 {
-  "country": "Belgium",
-  "country_code": "BE",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00LPDYRH2",
     "cusip": "35954B206",
-    "figi": "BBG00LPDYRP3",
     "isin": "CA35954B2066"
   },
   "industry": "Pharmaceuticals",
@@ -14,23 +12,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0K9A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0K9A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "HUGE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0K9A.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0K9A.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0K9A.MU"
     },
     {
       "currency": "EUR",
@@ -44,16 +42,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "FSD PHARMA B SUB. VTG",
-  "primary_symbol": "0K9A.BE",
+  "name": "FSD Pharma Inc.",
+  "primary_symbol": "HUGE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "FSD Pharma Inc. is a biopharmaceutical company focused on developing cannabinoid-based treatments for medical conditions. The company is focused on researching, developing and commercializing treatments for opioid sparing pain and related mental health conditions. FSD Pharma is headquartered in Toronto, Canada",
+  "summary": "FSD Pharma Inc., through its subsidiaries, operates as a pharmaceutical research and development company. Its lead candidate includes FSD 201 that is in the Phase II clinical trial to treat COVID-19 disease. The company also develops drugs for the treatment of pain, inflammation, and neurological disorders. It has license agreements with Epitech Group SpA.; and with Innovet Italia S.R.L. to develop veterinary drugs for the treatment of gastro-intestinal diseases in dogs and cats. The company was founded in 1998 and is headquartered in Toronto, Canada.",
   "website": "http://www.fsdpharma.com"
 }

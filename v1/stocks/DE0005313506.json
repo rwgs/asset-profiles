@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BTQF92",
-    "figi": "BBG000BTQKC7",
     "isin": "DE0005313506"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -12,24 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EKT.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EKT.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EKT.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0E9V.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EKT.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "EKT.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "EKT.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "EKT.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EKT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EKT.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "ENERGIEKONTOR O.N.",
-  "primary_symbol": "EKT.BE",
+  "name": "EnergieKontor AG",
+  "primary_symbol": "0E9V.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Energiekontor AG is a German company that develops and operates wind and solar parks. Their business model involves project development, construction, and operation of renewable energy facilities. The company is headquartered in Bremen, Germany.",
+  "summary": "Energiekontor AG, a project developer, engages in the planning, construction, and operation of wind and solar parks in Germany, Portugal, and Great Britain. As of December 31, 2019, it owned and operated 34 wind farms and 1 solar park with a total rated power of approximately 287 megawatts. The company was founded in 1990 and is headquartered in Bremen, Germany.",
   "website": "http://www.energiekontor.de"
 }

@@ -2,35 +2,15 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BZ1FX8",
-    "figi": "BBG000BZ1K58",
+    "composite_figi": "BBG000BRWVJ3",
+    "figi": "BBG000BRWW29",
     "isin": "BMG9400S1329"
   },
   "industry": "Communications Equipment",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "BMG9400S1329",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTCB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTCB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTKLF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTKLY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -38,21 +18,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VTCB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VTCB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VTCB.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VTKLF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VTKLY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "VTech Holdings, Ltd.",
-  "primary_symbol": "VTCB.BE",
+  "primary_symbol": "0303.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "VTech Holdings Limited is a global supplier of electronic learning products from infancy to preschool and the world's largest manufacturer of cordless phones. The company designs, develops, and manufactures innovative and high-quality products. VTech is headquartered in Hong Kong.",
+  "sector": "Information Technology",
+  "summary": "Vtech Holdings Limited designs, manufactures, and distributes consumer electronic products in North America, Europe, the Asia Pacific, and internationally. The company offers electronic learning toys for infancy, toddler, and preschool under the Vtech and Leap Frog brands; platform products; and learning programs. It also provides telecommunication products, such as residential and commercial phones; and other telecommunication products, including integrated access devices, baby monitors, handsets, wireless monitoring systems, and baby soothers. In addition, the company offers contract manufacturing services for customers in the areas of professional audio equipment, hearables, medical and health, and Internet of Things products. Further, it is involved in the property holding activities; development of broadband connectivity software; sale of electronic and telecommunication products; and manufacture of plastic products, as well as group financing and procurement activities. The company was founded in 1976 and is headquartered in Tai Po, Hong Kong.",
   "website": "http://www.vtech.com/index.html"
 }

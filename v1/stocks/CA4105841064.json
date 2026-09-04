@@ -13,19 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "C8MQ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "C8MQ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HANNF"
     },
     {
       "currency": "EUR",
@@ -33,16 +23,26 @@
       "symbol": "C8MQ.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C8MQ.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "HAN.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HANNF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Hannan Metals Ltd.",
   "primary_symbol": "C8MQ.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

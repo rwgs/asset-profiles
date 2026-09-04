@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000QP1T37",
+    "composite_figi": "BBG000JWD753",
     "cusip": "517834107",
-    "figi": "BBG000QP1VP8",
+    "figi": "BBG000JWDCN2",
     "isin": "US5178341070"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -15,20 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "LCR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LCR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "LVS"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0QY4.L"
     },
@@ -39,18 +29,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LCR.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "LCR.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "LCR.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LCR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LCR.MU"
     },
     {
       "currency": "EUR",
@@ -75,15 +75,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Las Vegas Sands Corp.",
-  "primary_symbol": "LCR.BE",
+  "primary_symbol": "LVS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Las Vegas Sands Corp. is a global developer of destination properties that feature accommodations, gaming, entertainment, retail, and convention and exhibition facilities. The company owns and operates integrated resorts in Asia and the United States. Las Vegas Sands is headquartered in Las Vegas, Nevada, USA.",
+  "summary": "Las Vegas Sands Corp., together with its subsidiaries, develops, owns, and operates integrated resorts in Asia and the United States. It owns and operates The Venetian Macao Resort Hotel, the Londoner Macao, The Parisian Macao, The Plaza Macao and Four Seasons Hotel Macao, Cotai Strip, and the Sands Macao in Macao, the People's Republic of China; and Marina Bay Sands in Singapore. The company also owns and operates The Venetian Resort Hotel Casino on the Las Vegas Strip; and the Sands Expo and Convention Center in Las Vegas, Nevada. Its integrated resorts feature accommodations, gaming, entertainment and retail malls, convention and exhibition facilities, celebrity chef restaurants, and other amenities. Las Vegas Sands Corp. was founded in 1988 and is based in Las Vegas, Nevada.",
   "website": "http://www.sands.com"
 }

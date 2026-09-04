@@ -2,8 +2,8 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
-    "composite_figi": "BBG000T6QQL5",
-    "figi": "BBG000T6QQL5",
+    "composite_figi": "BBG000BMY910",
+    "figi": "BBG000BMY9L8",
     "isin": "BMG864081044"
   },
   "industry": "Metals & Mining",
@@ -11,11 +11,6 @@
   "isin": "BMG864081044",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAPLF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -27,6 +22,11 @@
       "symbol": "31L.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SAPLF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "SLP.L"
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Sylvania Platinum Limited",
-  "primary_symbol": "SAPLF",
+  "primary_symbol": "31L.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

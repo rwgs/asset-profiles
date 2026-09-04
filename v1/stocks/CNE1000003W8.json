@@ -2,8 +2,6 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000BJX0B6",
-    "figi": "BBG000BJX0B6",
     "isin": "CNE1000003W8"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -11,11 +9,6 @@
   "isin": "CNE1000003W8",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PCCYF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -32,7 +25,7 @@
       "symbol": "601857.SS"
     },
     {
-      "currency": "SGD",
+      "currency": "USD",
       "exchange_mic": "XSES",
       "symbol": "K3OD.SI"
     },
@@ -52,6 +45,11 @@
       "symbol": "PC6A.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PCCYF"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "PTR.BA"
@@ -64,9 +62,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "PetroChina Co., Ltd.",
-  "primary_symbol": "PCCYF",
+  "primary_symbol": "PTR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

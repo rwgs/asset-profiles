@@ -2,9 +2,9 @@
   "country": "Mexico",
   "country_code": "MX",
   "identifiers": {
-    "composite_figi": "BBG000TR2V61",
+    "composite_figi": "BBG000QCR193",
     "cusip": "400501102",
-    "figi": "BBG000TR2V61",
+    "figi": "BBG000QCR9B3",
     "isin": "US4005011022"
   },
   "industry": "Air Freight & Logistics",
@@ -14,18 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GAERF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "OMAB"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "G7A.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GAERF"
     },
     {
       "currency": "MXN",
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.",
-  "primary_symbol": "GAERF",
+  "primary_symbol": "OMAB",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,6 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000KPQNR3",
-    "figi": "BBG000KPQS83",
     "isin": "NO0010014632"
   },
   "industry": "Biotechnology",
@@ -12,17 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "B4V.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "B4V.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "NOK",
       "exchange_mic": "XLON",
       "symbol": "0DRV.L"
     },
@@ -38,21 +26,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "B4V.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "B4V.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "B4V.MU"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "ARCTICZYMES TECH ASA NK 1",
-  "primary_symbol": "B4V.BE",
+  "name": "ArcticZymes Technologies ASA",
+  "primary_symbol": "0DRV.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ArcticZymes Technologies ASA is a Norwegian biotechnology company focused on the development, production and commercialization of novel enzymes. These enzymes are used in molecular research, diagnostics and biomanufacturing. ArcticZymes Technologies ASA is headquartered in Tromsø, Norway.",
+  "summary": "ArcticZymes Technologies ASA, a life sciences company, develops, manufactures, and markets recombinant enzymes derived from cold-water marine species and organisms from other relevant environments for use in molecular research, in vitro diagnostics (IVD), and therapeutics in Norway, Europe, Asia, Australia, Africa, and the Americas. It offers shrimp alkaline phosphatase and derived kits for cleanup prior to Sanger sequencing and next generation sequencing (NGS) processes; cod UNG for use in viral and other molecular diagnostic assays; double-strand specific DNases and derived kits for the removal of double stranded DNA; polymerases for technology development for life science, molecular diagnostics, NGS, and synthetic biology; proteinase for microbiological diagnostics and liquid biopsies; salt active nuclease for the removal of nucleic acids during manufacturing of vaccines, viruses, recombinant proteins, and other reagents; and ligases for joining DNA fragments. The company was formerly known as Biotec Pharmacon ASA and changed its name to ArcticZymes Technologies ASA in June 2020. ArcticZymes Technologies ASA was incorporated in 1990 and is headquartered in Tromsø, Norway.",
   "website": "http://arcticzymes.com"
 }

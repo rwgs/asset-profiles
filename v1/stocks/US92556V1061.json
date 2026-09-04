@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00Y4RQNH4",
     "cusip": "92556V106",
+    "figi": "BBG00Y4RQP16",
     "isin": "US92556V1061"
   },
   "industry": "Pharmaceuticals",
@@ -12,33 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0A5V.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIA.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VIA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "VTRS"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTRS.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0A5V.IL"
     },
     {
       "currency": "EUR",
@@ -47,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VIA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "VIA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "VIA.DU"
     },
     {
@@ -61,9 +48,22 @@
       "symbol": "VIA.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VIA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VIA.MU"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "VTRS.MX"
+    },
+    {
+      "symbol": "VTRS.TI"
     },
     {
       "currency": "EUR",
@@ -73,9 +73,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Viatris, Inc.",
-  "primary_symbol": "0A5V.IL",
+  "primary_symbol": "VTRS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

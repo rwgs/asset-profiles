@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FN5355",
+    "composite_figi": "BBG000BX6PW7",
     "cusip": "985510106",
-    "figi": "BBG000FN56G6",
+    "figi": "BBG000BX71F8",
     "isin": "US9855101062"
   },
   "industry": "Transportation Infrastructure",
@@ -14,17 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YEL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YEL.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "YELL"
     },
     {
@@ -33,21 +23,31 @@
       "symbol": "US9855101062.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "YEL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "YEL.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "YEL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "YEL.MU"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "YELLOW CORP.  DL ,-01",
-  "primary_symbol": "YEL.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Yellow Corporation",
+  "primary_symbol": "YELL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,43 +2,30 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000MM2P62",
     "cusip": "30303M102",
+    "figi": "BBG002GPKKZ7",
     "isin": "US30303M1027"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Telecommunication Services",
   "isin": "US30303M1027",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
+      "symbol": "META"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
       "symbol": "0QZI.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "FB2A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FB2A.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FB2A.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FB2A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "META"
     },
     {
       "currency": "EUR",
@@ -46,14 +33,29 @@
       "symbol": "FB2A.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FB2A.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FB2A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "FB2A.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FB2A.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FB2A.MU"
     },
     {
       "currency": "EUR",
@@ -81,7 +83,7 @@
       "symbol": "META.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "META.SN"
     },
@@ -93,15 +95,15 @@
   ],
   "market_cap_band": "Mega Cap",
   "name": "Meta Platforms Inc Class A",
-  "primary_symbol": "0QZI.IL",
+  "primary_symbol": "META",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Meta Platforms, Inc., formerly known as Facebook, Inc., develops and operates social media platforms, including Facebook, Instagram, and WhatsApp. The company also invests in virtual and augmented reality technologies. Meta is headquartered in Menlo Park, California, USA.",
+  "sector": "Communications",
+  "summary": "Meta, Inc. develops products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality headsets, and in-home devices worldwide. The company's products include Facebook that enables people to connect, share, discover, and communicate with each other on mobile devices and personal computers; Instagram, a community for sharing photos, videos, and private messages; Messenger, a messaging application for people to connect with friends, family, groups, and businesses across platforms and devices; and WhatsApp, a messaging application that is used by people and businesses to communicate in a private way. It also provides Facebook Reality Labs, an augmented and virtual reality product that help people feel connected, anytime, and anywhere. Meta, Inc. was founded in 2004 and is headquartered in Menlo Park, California.",
   "website": "https://www.meta.com/"
 }

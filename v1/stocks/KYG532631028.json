@@ -2,8 +2,6 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00Z1SK9J7",
-    "figi": "BBG00Z1SK9Q9",
     "isin": "KYG532631028"
   },
   "industry": "Media",
@@ -12,27 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5Y0.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5Y0.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5Y0.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KUASF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "HKD",
       "exchange_mic": "XLON",
       "symbol": "0A74.L"
     },
@@ -42,8 +20,13 @@
       "symbol": "1024.HK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "5Y0.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5Y0.DU"
     },
     {
@@ -53,15 +36,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "5Y0.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5Y0.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KUASF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG532631028.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Kuaishou Technology",
-  "primary_symbol": "5Y0.BE",
+  "primary_symbol": "0A74.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

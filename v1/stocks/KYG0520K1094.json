@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00LLMWKY4",
-    "figi": "BBG00LLMWL54",
+    "composite_figi": "BBG00LG50P44",
+    "figi": "BBG00LG50P53",
     "isin": "KYG0520K1094"
   },
   "industry": "Biotechnology",
@@ -12,23 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2VJ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASCLF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1672.HK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2VJ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "2VJ.DU"
     },
     {
@@ -40,19 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "2VJ.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASCLF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Ascletis Pharma, Inc.",
-  "primary_symbol": "2VJ.BE",
+  "primary_symbol": "1672.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Ascletis Pharma Inc. is a biotechnology company focused on the research and development of innovative therapies for viral diseases, including hepatitis B and HIV. The company aims to develop and commercialize novel therapeutics to improve patient outcomes. Ascletis Pharma is headquartered in Hangzhou, China.",
+  "summary": "Ascletis Pharma Inc., a biotechnology company, engages in the research and development, manufacture, marketing, and sale of pharmaceutical products in Mainland China and internationally. It offers Ganovo, a direct-acting anti-viral agent for the treatment of hepatitis C virus (HCV); Pegasys, a pegylated interferon for Hepatitis B and C virus; and Ravidasvir, a pan-genotypic NS5A inhibitor for the treatment of HCV. Its products pipeline includes ASC22, a PD-L1 single domain antibody fragment crystallizable fusion, which is in Phase II trial for the treatment of chronic Hepatitis B infection; ASC40, a Phase II-ready fatty acid synthase inhibitor for the treatment of non-alcoholic steatohepatitis (NASH); and ASC41, an oral THR-ß agonist for the treatment of NASH. The company's products also comprise ASC09, a protease inhibitor that has completed Phase IIA clinical trial to treat human immunodeficiency virus type-1 infections; ASC06, which has completed Phase I clinical trial for treating liver cancer; and ASC21, a HCV NS5B polymerase inhibitor. In addition, it is developing therapies that are in pre-clinical trials for the treatment of hepatitis B virus and NASH. The company was incorporated in 2014 and is headquartered in Hangzhou, the People's Republic of China.",
   "website": "http://www.ascletis.com"
 }

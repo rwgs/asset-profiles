@@ -11,24 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "TGT.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TGT.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
       "symbol": "TGT.HM"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "TGT.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "TGT.DU"
     },
     {
       "currency": "EUR",
@@ -39,7 +39,7 @@
   "name": "11 88 0 Solutions AG",
   "primary_symbol": "TGT.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,7 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00MTY1NY6",
-    "figi": "BBG00MTY1NY6",
+    "composite_figi": "BBG0067TKTN4",
     "isin": "NO0010708068"
   },
   "industry": "Construction & Engineering",
@@ -12,19 +11,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SSHPF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010708068.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010708068.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SSHPF"
     },
     {
       "currency": "NOK",
@@ -39,9 +38,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "VOW ASA",
-  "primary_symbol": "SSHPF",
+  "primary_symbol": "NO0010708068.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

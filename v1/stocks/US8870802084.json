@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG001QL85J2",
     "cusip": "887080208",
-    "figi": "BBG001QL85K0",
     "isin": "US8870802084"
   },
   "industry": "Biotechnology",
@@ -13,21 +11,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TMBR"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BPC2.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "TMBR"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Timber Pharmaceuticals, Inc.",
-  "primary_symbol": "TMBR",
+  "primary_symbol": "BPC2.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

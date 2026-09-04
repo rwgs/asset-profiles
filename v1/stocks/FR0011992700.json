@@ -2,22 +2,15 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00HK0BVQ0",
-    "figi": "BBG00HK0BVW3",
     "isin": "FR0011992700"
   },
   "industry": "Communications Equipment",
-  "industry_group": "Software & Services",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "FR0011992700",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AYD.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0QVW.L"
     },
@@ -33,21 +26,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AYD.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AYD.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Ateme SA",
-  "primary_symbol": "AYD.MU",
+  "primary_symbol": "0QVW.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ATEME EO-,14 is a provider of video compression and delivery solutions. The company offers software-based video processing technologies for broadcast, cable, satellite, IPTV, and OTT applications. ATEME is headquartered in France.",
+  "summary": "ATEME SA, together with its subsidiaries, provides video delivery infrastructure solutions worldwide. The company offers various solutions, such as TITAN Live, a software-based live video compression for distribution applications; TITAN Mux, a multi-function software stream processing solution; Titan Origin, a software-based origin server, recorder, and just-in-time packager; TITAN File, a file transcoder; and AMS, a unified network management system. It also provides KYRION CM5000, an ultra-low latency encoder; and KYRION DR5000, an ultra-low latency integrated receiver decoder. The company offers its products for cable, DTH, IPTV, terrestrial, OTT, teleport, and contribution markets. ATEME SA was founded in 1991 and is headquartered in Vélizy-Villacoublay, France.",
   "website": "http://www.ateme.com"
 }

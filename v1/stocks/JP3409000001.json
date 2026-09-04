@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000CD2MC3",
-    "figi": "BBG000CD2MC3",
+    "composite_figi": "BBG000CB48P2",
+    "figi": "BBG000CB49F1",
     "isin": "JP3409000001"
   },
   "industry": "Real Estate Management & Development",
@@ -11,11 +11,6 @@
   "isin": "JP3409000001",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SURDF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RL2.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SURDF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Sumitomo Realty & Development Co., Ltd.",
-  "primary_symbol": "SURDF",
+  "primary_symbol": "RL2.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

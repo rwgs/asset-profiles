@@ -2,9 +2,8 @@
   "country": "Thailand",
   "country_code": "TH",
   "identifiers": {
-    "composite_figi": "BBG000BW0C18",
-    "cusip": "69364V106",
-    "figi": "BBG000BW0C18",
+    "composite_figi": "BBG000C1NJJ6",
+    "figi": "BBG000C1NK58",
     "isin": "TH0355A10Z12"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,29 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PEXNY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PTTG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PTTG.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PTXLF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NVAL.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PEXNY"
     },
     {
       "currency": "THB",
@@ -49,20 +33,35 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PTTG.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PTTG.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PTTG.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PTTG.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PTXLF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "PTT Exploration and Production Public Company Limited",
-  "primary_symbol": "PEXNY",
+  "primary_symbol": "NVAL.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

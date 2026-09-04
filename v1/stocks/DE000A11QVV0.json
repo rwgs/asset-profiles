@@ -3,7 +3,6 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000C1B288",
-    "figi": "BBG000C1B5N4",
     "isin": "DE000A11QVV0"
   },
   "industry": "Biotechnology",
@@ -12,24 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HPHA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HPHA.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HPHA.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000A11QVV0.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HPHA.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +26,8 @@
       "symbol": "HPHA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HPHA.DU"
     },
     {
@@ -48,21 +37,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HPHA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HPHA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "WL6.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Heidelberg Pharma AG",
-  "primary_symbol": "HPHA.BE",
+  "primary_symbol": "DE000A11QVV0.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "HEIDELBERG PHARMA AG O.N. is a biopharmaceutical company based in Ladenburg, Germany, focused on the development of innovative cancer therapies. They specialize in antibody-drug conjugates (ADCs) using their proprietary amanitin-based technology. The company aims to provide targeted treatments for various cancer types.",
+  "summary": "Heidelberg Pharma AG is a biopharmaceutical company focused on developing antibody-drug conjugates (ADCs) for cancer treatment, headquartered in Ladenburg, Germany. The company's proprietary technology platform enables the development of highly targeted and effective cancer therapies. Heidelberg Pharma aims to improve the lives of cancer patients.",
   "website": "http://heidelberg-pharma.com"
 }

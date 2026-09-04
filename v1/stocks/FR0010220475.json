@@ -10,24 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XLON",
       "symbol": "0J2R.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALSMY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALSO.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AOMFF"
     },
     {
       "currency": "EUR",
@@ -38,6 +23,15 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALONV.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ALSMY"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "ALSO.TI"
     },
     {
       "currency": "EUR",
@@ -55,6 +49,11 @@
       "symbol": "AOMD.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AOMFF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AOMU.F"
@@ -64,7 +63,7 @@
   "name": "Alstom SA",
   "primary_symbol": "0J2R.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

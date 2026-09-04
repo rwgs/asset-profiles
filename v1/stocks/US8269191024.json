@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BSHD08",
+    "composite_figi": "BBG000BB99S3",
     "cusip": "826919102",
-    "figi": "BBG000BSHHN4",
+    "figi": "BBG000BB9N93",
     "isin": "US8269191024"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LA5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LA5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SLAB"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LA5.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LA5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LA5.MU"
     },
     {
       "currency": "EUR",
@@ -44,16 +44,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "SILICON LABS INC.DL-,0001",
-  "primary_symbol": "LA5.BE",
+  "name": "Silicon Laboratories Inc.",
+  "primary_symbol": "SLAB",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SILICON LABS INC.DL-,0001 is a fabless semiconductor company that designs and manufactures silicon, software and system solutions for the Internet of Things (IoT), internet infrastructure, industrial automation, consumer and automotive markets. The company's product portfolio includes microcontrollers, wireless transceivers, sensors, and power management ICs. Silicon Labs is headquartered in Austin, Texas.",
+  "summary": "Silicon Laboratories Inc., a fabless semiconductor company, provides mixed-signal integrated circuits (ICs) in the United States, China, and internationally. The company offers microcontrollers and wireless products, including 8-bit mixed-signal and ultra-low-power 32-bit microcontrollers (MCU); wireless MCU connectivity solutions; single and multi-protocol system-on-chip (SoC) devices and modules; wireless protocols, MCUs, and SoCs; in-house protocol stacks; Micrium, a real-time operating system that helps simplify software development for IoT developers.It also provides sensor products comprising optical, relative humidity/temperature, and hall effect magnetic sensors; timing devices; multi-channel isolators, isolated drivers, isolated power converters, and mixed-signal devices; broadcast products, which include single-chip hybrid TV tuners and digital video demodulators, as well as AM/FM, HD radio, and DAB/DAB+ receivers; and hybrid software defined radio tuners, data receivers, and digital radio coprocessors. In addition, the company offers ProSLIC, a subscriber line interface circuits for voice over IP; ISOmodem embedded modems; and Power over Ethernet power source equipment and powered device ICs. It primarily markets its products to Internet of Things, Internet infrastructure, industrial automation, consumer, and automotive markets through direct sales force, as well as through a network of independent sales representatives and distributors. Silicon Laboratories Inc. was founded in 1996 and is headquartered in Austin, Texas.",
   "website": "http://www.silabs.com"
 }

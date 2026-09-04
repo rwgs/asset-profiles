@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000L9YN08",
     "cusip": "51669T101",
-    "figi": "BBG000L9YRG2",
     "isin": "CA51669T1012"
   },
   "industry": "Metals & Mining",
@@ -13,29 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "L4R.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "L4R.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LMRXF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0V3P.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "L4R.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "L4R.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "L4R.MU"
     },
     {
       "currency": "EUR",
@@ -51,19 +44,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "LAM.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LMRXF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Laramide Resources Ltd.",
-  "primary_symbol": "L4R.BE",
+  "primary_symbol": "0V3P.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "LARAMIDE RESOURCES LTD is a uranium exploration and development company. The company is focused on developing its Churchrock and Crownpoint properties, located in the Grants Mineral Belt of New Mexico, USA. Laramide Resources Ltd. is headquartered in Toronto, Canada.",
+  "summary": "Laramide Resources Ltd. engages in the mining, exploration, and development of uranium assets in Australia, Canada, and the United States. It holds 100% interest in the Churchrock Uranium project, the Crownpoint Uranium project, the La Jara Mesa Uranium project, and the La Sal Uranium project located in the United States; and the Westmoreland Uranium project and the Murphy Uranium project located in Australia. The company was incorporated in 1980 and is headquartered in Toronto, Canada.",
   "website": "http://laramide.com"
 }

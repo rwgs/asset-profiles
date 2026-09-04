@@ -2,8 +2,7 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00YFCRDK2",
-    "figi": "BBG00YFCRDR5",
+    "composite_figi": "BBG00XJDX430",
     "isin": "NO0010887516"
   },
   "industry": "Machinery",
@@ -12,24 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NO0010887516.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "TE9.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "TE9.MU"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "TECFF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "NO0010887516.SG"
     },
     {
       "currency": "NOK",
@@ -39,9 +38,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "TECO 2030 ASA",
-  "primary_symbol": "TE9.BE",
+  "primary_symbol": "NO0010887516.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

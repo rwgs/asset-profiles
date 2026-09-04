@@ -2,21 +2,16 @@
   "country": "Argentina",
   "country_code": "AR",
   "identifiers": {
-    "composite_figi": "BBG00BM2M4R4",
+    "composite_figi": "BBG000S7QCQ0",
     "cusip": "697660207",
-    "figi": "BBG00BM2M4X7",
+    "figi": "BBG000S7QG36",
     "isin": "US6976602077"
   },
   "industry": "Electric Utilities",
-  "industry_group": "Energy",
+  "industry_group": "Utilities",
   "isin": "US6976602077",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "9PAA.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -26,6 +21,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9PAA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "9PAA.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Pampa Energia SA Sponsored ADR",
-  "primary_symbol": "9PAA.MU",
+  "primary_symbol": "PAM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Pampa Energía S.A. is an integrated Argentine energy company involved in the generation, transmission, and distribution of electricity, as well as the exploration and production of oil and gas. The company is a major player in Argentina's energy sector, operating power plants, oil and gas fields, and distribution networks. Pampa Energía S.A. is headquartered in Buenos Aires, Argentina.",
+  "sector": "Utilities",
+  "summary": "Pampa Energía S.A., an integrated power company, engages in the generation and transmission of electricity in Argentina. It operates through Electricity Generation, Oil and Gas, Petrochemicals, and Holding and Other Business segments. The company generates electricity through combined thermal generation plants, open-cycle gas turbines, and hydroelectric power generation systems, as well as through a wind farm. It has an installed electricity generation capacity of approximately 4,955 megawatts; and 21,090 kilometers of high voltage electricity transmission network in Argentina. The company is also involved in the exploration and production of oil and gas. In addition, it offers petrochemicals, such as styrene, synthetic rubber, and polystyrene. As of December 31, 2020, the company had approximately 13.526 thousands of barrels of oil and LNG, as well as 21.790 millions of cubic meters of natural gas; owned a refinery with an installed capacity of approximately 25.8 thousand barrels per day; and operated a network of 91 gas stations. The company was formerly known as Pampa Holding S.A. and changed its name to Pampa Energía S.A. in September 2008. Pampa Energía S.A. was incorporated in 1945 and is based in Buenos Aires, Argentina.",
   "website": "http://www.pampaenergia.com"
 }

@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000DP2Q27",
-    "figi": "BBG000DP2Q27",
+    "composite_figi": "BBG000DDR2K0",
+    "figi": "BBG000DDR319",
     "isin": "BMG210901242"
   },
   "industry": "Water Utilities",
@@ -11,11 +11,6 @@
   "isin": "BMG210901242",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CWAFF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -30,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CUBB.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CWAFF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "China Water Affairs Group Limited",
-  "primary_symbol": "CWAFF",
+  "primary_symbol": "0855.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

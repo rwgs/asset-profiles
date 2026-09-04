@@ -3,19 +3,14 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00LWQ4VR8",
-    "figi": "BBG00LWQ4VX1",
+    "figi": "BBG00LWQ4VW2",
     "isin": "DE000A1MME74"
   },
   "industry": "Capital Markets",
-  "industry_group": "Banks",
+  "industry_group": "Diversified Financials",
   "isin": "DE000A1MME74",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NF4.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -25,19 +20,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NF4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NF4.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Netfonds AG",
-  "primary_symbol": "NF4.MU",
+  "name": "NETFONDS AG",
+  "primary_symbol": "DE000A1MME74.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Netfonds AG is a German financial services company offering brokerage, investment advisory, and asset management services. They provide financial products and services to private and institutional clients. The company is headquartered in Hamburg, Germany.",
+  "summary": "Netfonds AG provides advisory services. It offers legal and regulatory services in investment fund, insurance, pension, and financing product categories. The company is based in Hamburg, Germany.",
   "website": "http://www.netfonds.de"
 }

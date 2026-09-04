@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000CLP0L8",
+    "composite_figi": "BBG000B9XG87",
     "cusip": "031100100",
-    "figi": "BBG000CLQ554",
+    "figi": "BBG000B9XKF0",
     "isin": "US0311001004"
   },
   "industry": "Machinery",
@@ -15,22 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "AK1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AK1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "AME"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HF7.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AK1.BE"
     },
     {
       "currency": "EUR",
@@ -38,14 +33,19 @@
       "symbol": "AK1.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AK1.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AK1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AK1.MU"
     },
     {
       "currency": "EUR",
@@ -60,15 +60,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "AMETEK, Inc.",
-  "primary_symbol": "AK1.BE",
+  "primary_symbol": "AME",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "AMETEK Inc. is a global manufacturer of electronic instruments and electromechanical devices. The company operates in two segments: Electronic Instruments Group (EIG) and Electromechanical Group (EMG), providing solutions for a diverse range of industries, including aerospace, medical, and energy. AMETEK is headquartered in Berwyn, Pennsylvania.",
+  "summary": "AMETEK, Inc. manufactures and sells electronic instruments and electromechanical devices worldwide. It operates in two segments, Electronic Instruments (EIG) and Electromechanical (EMG). The company's EIG segment offers advanced instruments for the process, aerospace, power, and industrial markets; process and analytical instruments for the oil and gas, petrochemical, pharmaceutical, semiconductor, automation, and food and beverage industries; and instruments to the laboratory equipment, ultra-precision manufacturing, medical, and test and measurement markets. This segment also provides power quality monitoring and metering devices, uninterruptible power supplies, programmable power equipment, electromagnetic compatibility test equipment, sensors for gas turbines, dashboard instruments for heavy trucks and other vehicles, and instrumentation and controls for the food and beverage industries; and aircraft and engine sensors, monitoring systems, power supplies, fuel and fluid measurement systems, and data acquisition units for the aerospace industry. Its EMG segment offers engineered electrical connectors and electronics packaging for protecting sensitive electronic devices; precision motion control products for data storage, medical devices, business equipment, automation and other applications; high-purity powdered metals, strip and foil, specialty clad metals, and metal matrix composites; motor-blower systems and heat exchangers for use in thermal management, military, commercial aircraft, and military ground vehicles; and motors for use in commercial appliances, fitness equipment, food and beverage machines, hydraulic pumps, and industrial blowers. This segment also operates a network of aviation maintenance, repair, and overhaul facilities. In addition, the company offers clinical and education communication solutions for healthcare facilities and educational institutions. AMETEK, Inc. was incorporated in 1930 and is headquartered in Berwyn, Pennsylvania.",
   "website": "http://www.ametek.com"
 }

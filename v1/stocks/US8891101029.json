@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000D674L2",
+    "composite_figi": "BBG000BB59S7",
     "cusip": "889110102",
-    "figi": "BBG000D674L2",
+    "figi": "BBG000BB5BS2",
     "isin": "US8891101029"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -13,31 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOELF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOELY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8035.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TKY.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TOELF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TOELY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Tokyo Electron Limited",
-  "primary_symbol": "TOELF",
+  "primary_symbol": "8035.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

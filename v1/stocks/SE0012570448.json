@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00WHNJDJ1",
-    "figi": "BBG00WHNJDP4",
+    "figi": "BBG00WHNJDK9",
     "isin": "SE0012570448"
   },
   "industry": "Health Care Technology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5J6.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5J6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5J6.MU"
     },
     {
       "currency": "SEK",
@@ -32,11 +32,11 @@
       "symbol": "SE0012570448.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "OssDsign AB",
-  "primary_symbol": "5J6.MU",
+  "primary_symbol": "5J6.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

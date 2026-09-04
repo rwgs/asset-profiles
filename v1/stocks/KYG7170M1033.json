@@ -3,7 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG00YHXDJN3",
-    "figi": "BBG00YHXDJT7",
+    "figi": "BBG00YHXDJQ0",
     "isin": "KYG7170M1033"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "735.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "735.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "735.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "735.MU"
     },
     {
       "currency": "HKD",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Pop Mart International Group Limited",
-  "primary_symbol": "735.MU",
+  "primary_symbol": "735.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

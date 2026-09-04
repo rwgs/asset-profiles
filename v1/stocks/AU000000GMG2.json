@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000QQ8L71",
-    "figi": "BBG000QQ8L71",
+    "composite_figi": "BBG000QT5K61",
+    "figi": "BBG000QT5KB5",
     "isin": "AU000000GMG2"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GMGSF"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "GMG.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GMGSF"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Goodman Group",
-  "primary_symbol": "GMGSF",
+  "primary_symbol": "GMG.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

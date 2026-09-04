@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00874SN96",
+    "composite_figi": "BBG000RRRD66",
     "cusip": "09072V501",
-    "figi": "BBG00874SNJ5",
+    "figi": "BBG005BJF686",
     "isin": "US09072V5012"
   },
   "industry": "Biotechnology",
@@ -14,17 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "B003.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "BIOC"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "B003.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "B003.DU"
     },
     {
@@ -39,16 +39,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "BIOCEPT INC.  DL -,0001",
-  "primary_symbol": "B003.BE",
+  "name": "Biocept, Inc.",
+  "primary_symbol": "BIOC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "BIOCEPT INC. DL -,0001 is a biotechnology company focused on the development and commercialization of molecular assays for cancer diagnostics. The company develops and markets assays for various types of cancer. Biocept is headquartered in the United States.",
+  "summary": "Biocept, Inc., an early stage molecular oncology diagnostics company, develops and commercializes proprietary circulating tumor cell and circulating tumor nucleic acid assays utilizing a standard blood sample. Its cancer assays provide information to healthcare providers to identify oncogenic alterations that qualify a subset of cancer patients for targeted therapy at diagnosis, progression, and monitoring in order to identify resistance mechanisms. The company offers assays for solid tumor indications, such as breast cancer, non-small cell lung cancer, gastric cancer, colorectal cancer, prostate cancer, melanoma, pancreaticobiliary cancer, and ovarian cancer. Its Target-Selector molecular technology enables detection of mutations and genome alterations with enhanced sensitivity and specificity, as well as is applicable to nucleic acid from circulating tumor DNA; and Target-Selector CTC and molecular platforms provide biomarker detection and monitoring capabilities. In addition, it offers laboratory services to medical oncologists, neuro-oncologists, surgical oncologists, urologists, pulmonologists, pathologists, and other physicians. Further, it is developing PCR-based assays for detecting the COVID-19 virus. The company sells its cancer diagnostic assays directly to oncologists and other physicians at private and group practices, hospitals, laboratories, and cancer centers in the United States, as well as markets its clinical trial and research services to pharmaceutical and biopharmaceutical companies, and clinical research organizations. Biocept, Inc. was founded in 1997 and is headquartered in San Diego, California.",
   "website": "http://biocept.com"
 }

@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG001D9BVR3",
     "cusip": "54928Q108",
-    "figi": "BBG001D9BVY5",
     "isin": "CA54928Q1081"
   },
   "industry": "Metals & Mining",
@@ -13,19 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LKT.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUCRF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0QUI.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LKT.BE"
     },
     {
       "currency": "EUR",
@@ -46,13 +39,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "LUC.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LUCRF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Lucara Diamond Corp.",
-  "primary_symbol": "LKT.BE",
+  "primary_symbol": "0QUI.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

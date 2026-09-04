@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FP8X51",
+    "composite_figi": "BBG000BJ8YN7",
     "cusip": "311900104",
-    "figi": "BBG000FPB157",
+    "figi": "BBG000BJ96W7",
     "isin": "US3119001044"
   },
   "industry": "Trading Companies & Distributors",
@@ -14,33 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FAS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FAS.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FAS.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FAS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "FAST"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0IKW.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FAS.BE"
     },
     {
       "currency": "EUR",
@@ -48,14 +33,29 @@
       "symbol": "FAS.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FAS.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FAS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "FAS.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FAS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FAS.MU"
     },
     {
       "currency": "EUR",
@@ -75,15 +75,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Fastenal Company",
-  "primary_symbol": "FAS.BE",
+  "primary_symbol": "FAST",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "FASTENAL CO. DL-,01 is Fastenal Company, a distributor of industrial and construction supplies. They operate through a network of branch locations and provide fastener, tool, and supply chain solutions to businesses. The company is headquartered in Winona, Minnesota, USA.",
+  "summary": "Fastenal Company, together with its subsidiaries, engages in the wholesale distribution of industrial and construction supplies in the United States, Canada, Mexico, North America, and internationally. It offers fasteners, and related industrial and construction supplies under the Fastenal name. The company's fastener products include threaded fasteners, bolts, nuts, screws, studs, and related washers, which are used in manufactured products and construction projects, as well as in the maintenance and repair of machines. It also offers miscellaneous supplies and hardware, including pins, machinery keys, concrete anchors, metal framing systems, wire ropes, strut products, rivets, and related accessories. The company serves the manufacturing market comprising original equipment manufacturers; maintenance, repair, and operations; and non-residential construction market, which includes general, electrical, plumbing, sheet metal, and road contractors. It also serves farmers, truckers, railroads, mining companies, schools, and retail trades; and oil exploration, production, and refinement companies, as well as federal, state, and local governmental entities. The company distributes its products through a network of 3,268 in-market locations and 16 distribution centers. Fastenal Company was founded in 1967 and is headquartered in Winona, Minnesota.",
   "website": "http://www.fastenal.com"
 }

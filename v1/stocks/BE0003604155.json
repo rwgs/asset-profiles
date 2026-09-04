@@ -2,8 +2,6 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG00NRW16B2",
-    "figi": "BBG00NRW16J4",
     "isin": "BE0003604155"
   },
   "industry": "Food & Staples Retailing",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7LB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7LB.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0F4O.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "7LB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7LB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7LB.MU"
     },
     {
       "currency": "EUR",
@@ -43,16 +41,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "LOTUS BAKER.",
-  "primary_symbol": "7LB.BE",
+  "name": "Lotus Bakeries NV",
+  "primary_symbol": "0F4O.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Lotus Bakeries NV is a Belgian company that produces and sells various types of biscuits and snack foods. Their flagship product is the Lotus Biscoff caramelised biscuit, but they also offer other products like waffles, cakes, and gingerbread. The company is headquartered in Lembeke, Belgium.",
+  "summary": "Lotus Bakeries NV provides various snack products in Belgium and internationally. The company offers biscuits and cakes, including caramelized cookies, gingerbreads, cake specialties, waffles, and pepparkakor biscuits. It also provides energy bars, protein flapjacks, protein nut bars, healthy snacks, butter specialties, ice creams, and caramelized cookies spreads. The company sells its products under the Lotus, Biscoff, Dinosaurus, Suzy, Peijnenburg, Snelle Jelle, Annas, Nakd, Trek, BEAR, Kiddylicious, and Urban Fruit brands. Lotus Bakeries NV was founded in 1932 and is headquartered in Lembeke, Belgium. Lotus Bakeries NV is a subsidiary of Stichting Administratiekantoor van Aandelen Lotus Bakeries.",
   "website": "http://www.lotusbakeries.com"
 }

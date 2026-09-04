@@ -2,9 +2,9 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG000R8KMP4",
+    "composite_figi": "BBG000BBBXV3",
     "cusip": "010199503",
-    "figi": "BBG000R8KN81",
+    "figi": "BBG000BBBY87",
     "isin": "US0101995035"
   },
   "industry": "Chemicals",
@@ -12,21 +12,6 @@
   "isin": "US0101995035",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AKU1.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AKZOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AKZOY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -36,6 +21,9 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AKU1.SG"
+    },
+    {
+      "symbol": "AKU1.TI"
     },
     {
       "currency": "EUR",
@@ -56,13 +44,23 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "AKZO.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AKZOF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AKZOY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Akzo Nobel N.V.",
-  "primary_symbol": "AKU1.TI",
+  "primary_symbol": "AKU1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,9 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
+    "composite_figi": "BBG000RYC984",
+    "cusip": "03524A108",
+    "figi": "BBG000RYCBX1",
     "isin": "BE0974293251"
   },
   "industry": "Beverages",
@@ -12,22 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0RJI.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ABI.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "BUD"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BUDFF"
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RJI.IL"
     },
     {
       "currency": "EUR",
@@ -43,6 +36,9 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "ABI.MI"
+    },
+    {
+      "symbol": "ABI.TI"
     },
     {
       "currency": "EUR",
@@ -65,6 +61,11 @@
       "symbol": "ANH.JO"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BUDFF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ITKA.F"
@@ -72,15 +73,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Anheuser Busch Inbev SA NV",
-  "primary_symbol": "0RJI.IL",
+  "primary_symbol": "BUD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "ANHEUSER BUSCH INBEV NV is a multinational brewing company. The company produces and sells a wide range of beer brands, including Budweiser, Corona, and Stella Artois. ANHEUSER BUSCH INBEV NV is headquartered in Leuven, Belgium.",
+  "summary": "Anheuser-Busch InBev SA/NV engages in the production, distribution, and sale of beer, alcoholic beverages, and soft drinks worldwide. It offers a portfolio of approximately 500 beer brands, which primarily include Budweiser, Corona, and Stella Artois; Beck's, Hoegaarden, Leffe, and Michelob Ultra; and Aguila, Antarctica, Bud Light, Brahma, Cass, Castle, Castle Lite, Cristal, Harbin, Jupiler, Modelo Especial, Quilmes, Victoria, Sedrin, and Skol brands. The company was founded in 1366 and is headquartered in Leuven, Belgium. Anheuser-Busch InBev SA/NV is a subsidiary of AB InBev NV/SA.",
   "website": "http://www.ab-inbev.com"
 }

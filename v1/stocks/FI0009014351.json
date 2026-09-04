@@ -2,8 +2,6 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
-    "composite_figi": "BBG000Q1RC93",
-    "figi": "BBG000Q1RF78",
     "isin": "FI0009014351"
   },
   "industry": "Pharmaceuticals",
@@ -12,24 +10,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "O5O.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "O5O.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0NES.L"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FI0009014351.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "O5O.BE"
     },
     {
       "currency": "EUR",
@@ -38,21 +31,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "O5O.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHEL",
       "symbol": "OKDBV.HE"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "ORIOLA OYJ B",
-  "primary_symbol": "O5O.BE",
+  "name": "Oriola Corp Class B",
+  "primary_symbol": "0NES.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Oriola Oyj is a Finnish company that distributes pharmaceuticals and healthcare products. The company operates pharmacies in Finland and Sweden and provides services to pharmaceutical companies. Oriola Oyj is headquartered in Espoo, Finland.",
+  "summary": "Oriola Oyj provides healthcare and wellbeing products in Sweden, Finland, and internationally.The company offers various range of OTC and traded good, vitamins, dietary supplements, pharmaceutical cosmetics, skincare products, tests, sports drinks, and wound care products. It also provides logistics, advisory, sales and marketing, and expert services for pharmaceutical companies, pharmacies, hospital pharmacies, veterinaries, as well as the grocery trade shops. In addition, the company offers pharmaceutical staffing and dose dispensing services for public and private healthcare operators, pharmacies, groceries, veterinarians, and retailers. As of December 31, 2020, it operated 325 pharmacies in Sweden, as well as operates online pharmacies. The company was formerly known as Oriola-KD Oyj and changed its name to Oriola Oyj in April 2017. Oriola Oyj is headquartered in Espoo, Finland.",
   "website": "http://www.oriola.com"
 }

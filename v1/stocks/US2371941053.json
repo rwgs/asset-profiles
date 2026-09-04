@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000MT0K88",
+    "composite_figi": "BBG000BBNYF6",
     "cusip": "237194105",
-    "figi": "BBG000MT0QH5",
+    "figi": "BBG000BBP059",
     "isin": "US2371941053"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -15,20 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "DDN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DDN.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "DRI"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0I77.L"
     },
@@ -39,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DDN.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DDN.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DDN.DU"
     },
     {
@@ -54,21 +49,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DDN.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DDN.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "DARDEN REST. INC.",
-  "primary_symbol": "DDN.BE",
+  "name": "Darden Restaurants, Inc.",
+  "primary_symbol": "DRI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Darden Restaurants, Inc. is a full-service restaurant company that owns and operates brands such as Olive Garden, LongHorn Steakhouse, and Cheddar's Scratch Kitchen. The company has a portfolio of differentiated brands focused on providing exceptional dining experiences. Darden Restaurants is headquartered in Orlando, Florida.",
+  "summary": "Darden Restaurants, Inc., through its subsidiaries, owns and operates full-service restaurants in the United States and Canada. As of May 31, 2020, it owned and operated approximately 1,804 restaurants, which included 868 under the Olive Garden, 522 under the LongHorn Steakhouse, 165 under the Cheddar's Scratch Kitchen, 81 under the Yard House, 60 under The Capital Grille, 44 under the Seasons 52, 41 under the Bahama Breeze, and 23 under the Eddie V's Prime Seafood brands. The company was founded in 1968 and is based in Orlando, Florida.",
   "website": "http://www.darden.com"
 }

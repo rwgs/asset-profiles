@@ -2,35 +2,35 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00699M9H5",
+    "composite_figi": "BBG000PBDRC0",
     "cusip": "55955D100",
-    "figi": "BBG00699M9P6",
+    "figi": "BBG005YZ3NW4",
     "isin": "US55955D1000"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Telecommunication Services",
   "isin": "US55955D1000",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "15R.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "15R.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MGNI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "15R.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "15R.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "15R.MU"
     },
     {
       "currency": "MXN",
@@ -45,15 +45,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Magnite, Inc.",
-  "primary_symbol": "15R.BE",
+  "primary_symbol": "MGNI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "MAGNITE INC. DL-,00001 is an advertising technology company. It operates an independent sell-side advertising platform that connects publishers with programmatic advertising buyers. The company's headquarters is located in New York, USA.",
+  "sector": "Communications",
+  "summary": "Magnite, Inc. operates an independent sell-side advertising platform in the United States and internationally. The company's advertising platform enables publishers to monetize various screens and formats, including CTV, desktop display, video, audio, and mobile, as well as allows agencies and brands to access brand-safe ad inventory and execute advertising transactions. It markets its technology solutions to buyers and sellers through a sales teams that operate from various locations. The company was formerly known as The Rubicon Project, Inc. and changed name to Magnite, Inc. in July 2020. Magnite, Inc. was incorporated in 2007 and is headquartered in Los Angeles, California.",
   "website": "http://www.magnite.com"
 }

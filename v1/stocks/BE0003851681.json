@@ -2,8 +2,8 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG00KW629R5",
-    "figi": "BBG00KW629R5",
+    "composite_figi": "BBG000M799X4",
+    "figi": "BBG000M79BB3",
     "isin": "BE0003851681"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AEDFF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XBRU",
       "symbol": "AED.BR"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AEDFF"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Aedifica SA",
-  "primary_symbol": "AEDFF",
+  "primary_symbol": "AED.BR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

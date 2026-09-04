@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00P80MTL4",
+    "composite_figi": "BBG00CTZ4D83",
     "cusip": "45166A102",
-    "figi": "BBG00P80MTT6",
+    "figi": "BBG00P162X86",
     "isin": "US45166A1025"
   },
   "industry": "Biotechnology",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "30J.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "30J.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "IDYA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "30J.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "30J.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "30J.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "IDEAYA BIOSCIENCE  DL-,01",
-  "primary_symbol": "30J.BE",
+  "name": "IDEAYA Biosciences, Inc.",
+  "primary_symbol": "IDYA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "IDEAYA Biosciences, Inc. is a precision medicine oncology company committed to the discovery and development of targeted therapeutics for patient populations selected using molecular diagnostics. The company focuses on genetically defined patient populations. IDEAYA Biosciences is headquartered in South San Francisco, California.",
+  "summary": "IDEAYA Biosciences, Inc., a synthetic lethality-focused precision medicine oncology company, focuses on the discovery and development of targeted therapeutics for patient populations selected using molecular diagnostics. The company's product candidate is IDE196, a protein kinase C inhibitor that is in Phase I/II clinical trial for genetically defined cancers having GNAQ or GNA11 gene mutations. Its preclinical pipeline includes various synthetic lethality programs targeting IDE397, a methionine adenosyltransferase 2a inhibitor for patients with solid tumors having MTAP deletions; PARG inhibitor in tumors for patients having tumors with a defined biomarker based on genetic mutations and/or molecular signatures; Pol Theta inhibitors in tumors with BRCA or other homologous recombination deficiency mutations; and WRN inhibitors in high microsatellite instability tumors. The company has a research collaboration agreement with Cancer Research UK and the University of Manchester to develop small molecule inhibitors of Poly (ADP-ribose) glycohydrolase; and a clinical trial collaboration and supply agreement with Pfizer Inc. for Phase I/II study in metastatic uveal melanoma, skin melanoma, and other solid tumors, as well as a strategic partnership with GlaxoSmithKline plc. IDEAYA Biosciences, Inc. was incorporated in 2015 and is headquartered in South San Francisco, California.",
   "website": "http://www.ideayabio.com"
 }

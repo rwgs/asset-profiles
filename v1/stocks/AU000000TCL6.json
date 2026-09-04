@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000P24V40",
-    "figi": "BBG000P24V40",
+    "composite_figi": "BBG000BW7HG4",
+    "figi": "BBG000BW7HV7",
     "isin": "AU000000TCL6"
   },
   "industry": "Transportation Infrastructure",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TRAUF"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "TCL.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TRAUF"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Transurban Group",
-  "primary_symbol": "TRAUF",
+  "primary_symbol": "TCL.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000PW7MP8",
-    "figi": "BBG000PW7MP8",
+    "composite_figi": "BBG000BNWGQ7",
+    "figi": "BBG000BNWH49",
     "isin": "CNE1000003K3"
   },
   "industry": "Metals & Mining",
@@ -11,26 +11,6 @@
   "isin": "CNE1000003K3",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JIAXF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JIX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JIX.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JIXAY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -42,21 +22,41 @@
       "symbol": "600362.SS"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JIAXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "JIX.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "JIX.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JIX.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JIX.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JIXAY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Jiangxi Copper Company Limited Class H",
-  "primary_symbol": "JIAXF",
+  "primary_symbol": "0358.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

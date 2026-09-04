@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00XV9DJS7",
+    "composite_figi": "BBG00QX7QH68",
     "cusip": "01626L105",
-    "figi": "BBG00XV9DJY0",
+    "figi": "BBG00XMLX3H5",
     "isin": "US01626L1052"
   },
   "industry": "Biotechnology",
@@ -14,18 +14,8 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5WK.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ALGS"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALGS.TA"
     },
     {
       "currency": "EUR",
@@ -34,21 +24,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5WK.MU"
+    },
+    {
+      "currency": "ILS",
+      "exchange_mic": "XTAE",
+      "symbol": "ALGS.TA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US01626L1052.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ALIGOS THERAPEUT.  DL-,01",
-  "primary_symbol": "5WK.MU",
+  "name": "Aligos Therapeutics, Inc.",
+  "primary_symbol": "ALGS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ALIGOS THERAPEUT. DL-,01 is a biotechnology company focused on developing treatments for liver diseases. The company's therapeutic candidates are designed to target specific pathways involved in liver disease progression. ALIGOS THERAPEUT is likely headquartered in the US.",
+  "summary": "Aligos Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses to develop novel therapeutics to address unmet medical needs in viral and liver diseases. Its lead drug candidate is ALG-010133, a synthetic oligonucleotide that is in Phase I clinical trial for the treatment of chronic hepatitis B (CHB); and ALG-000184, a capsid assembly modulator, which is in Phase I clinical trials to treat CHB. The company is also developing ALG-020572, an antisense oligonucleotide to decrease HBsAg levels; and ALG-055009, a small molecule THR-ß agonist for the treatment of non-alcoholic steatohepatitis. In addition, it is developing siRNA drug candidate, ALG-125755, as well as ALG-125097 and ALG-125819, demonstrated potent inhibition of HBsAg release from HBV-infected cells. The company has entered into license and collaboration agreements with Luxna Biotech Co., Ltd. to develop and commercialize products containing oligonucleotides targeting SARS-CoV-2; and research, licensing, and commercialization agreement with Katholieke Universiteit Leuven to develop coronavirus protease inhibitors. Aligos Therapeutics, Inc. was incorporated in 2018 and is headquartered in South San Francisco, California.",
   "website": "http://www.aligos.com"
 }

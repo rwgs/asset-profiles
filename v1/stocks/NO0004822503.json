@@ -1,26 +1,16 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Norway",
+  "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000BRJYW7",
-    "figi": "BBG000BRK219",
+    "composite_figi": "BBG000BDCGJ9",
+    "figi": "BBG000BDCGZ1",
     "isin": "NO0004822503"
   },
   "industry": "IT Services",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Software & Services",
   "isin": "NO0004822503",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MKL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MKL.MU"
-    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -33,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MKL.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MKL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MKL.MU"
     },
     {
       "currency": "EUR",
@@ -44,15 +44,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Atea ASA",
-  "primary_symbol": "MKL.BE",
+  "primary_symbol": "ATEA.OL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ATEA ASA is a Norwegian IT infrastructure company. They provide a range of IT products and services, including hardware, software, and consulting, to businesses and public sector organizations. Atea ASA is headquartered in Oslo, Norway.",
+  "summary": "Atea ASA provides IT infrastructure and related solutions for businesses and public sector organizations in the Nordic countries and Baltic regions. The company offers hardware and software solutions for storing and managing information, as well as tools for virtualization, automation, and security for operating the data center environment; client hardware, software, and services to the requirements of users, applications, security, networks, and computing environments. It also provides hardware and software solutions for running networks, and services to help customers manage their communications; and a range of products to enable collaboration through conferencing, information sharing, and digital productivity solutions. In addition, it offers Device as a Service to various concepts, such as videoconferencing, digital signage, and networks. Atea ASA was founded in 1968 and is headquartered in Oslo, Norway.",
   "website": "http://www.atea.com"
 }

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG008LMMSN9",
+    "composite_figi": "BBG002B67HB2",
     "cusip": "91325V108",
-    "figi": "BBG008LMMST3",
+    "figi": "BBG007Z9Y5W2",
     "isin": "US91325V1089"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -14,25 +14,25 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8XC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "UNIT"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8XC.MU"
+    },
+    {
+      "currency": "ILS",
+      "exchange_mic": "XTAE",
       "symbol": "UNIT.TA"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "UNITI GROUP INC.",
-  "primary_symbol": "8XC.MU",
+  "primary_symbol": "UNIT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

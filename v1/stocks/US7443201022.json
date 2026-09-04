@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000HTXWS0",
+    "composite_figi": "BBG000HCJMF9",
     "cusip": "744320102",
-    "figi": "BBG000HTY296",
+    "figi": "BBG000HCJQY9",
     "isin": "US7443201022"
   },
   "industry": "Insurance",
@@ -12,21 +12,6 @@
   "isin": "US7443201022",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PLL.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PLL.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PLL.TI"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -39,12 +24,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PLL.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PLL.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PLL.DU"
     },
     {
@@ -54,8 +44,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PLL.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLL.SG"
+    },
+    {
+      "symbol": "PLL.TI"
     },
     {
       "currency": "MXN",
@@ -64,16 +62,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "PRUDENTIAL FINL  DL-,01",
-  "primary_symbol": "PLL.BE",
+  "name": "Prudential Financial, Inc.",
+  "primary_symbol": "PRU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Prudential Financial, Inc. is a financial services leader with operations in the United States, Asia, Europe, and Latin America. Headquartered in Newark, New Jersey, Prudential provides a variety of products and services, including life insurance, annuities, retirement-related services, mutual funds, and investment management. The company serves individual and institutional clients.",
+  "summary": "Prudential Financial, Inc., together with its subsidiaries, provides insurance, investment management, and other financial products and services in the United States and internationally. It operates through eight segments: PGIM, Retirement, Group Insurance, Individual Annuities, Individual Life, Assurance IQ, International Businesses, and Closed Block. The company offers investment management services and solutions related to public fixed income, public equity, real estate debt and equity, private credit and other alternatives, and multi-asset class strategies to institutional and retail clients, as well as its general account. It provides a range of retirement investment, and income products and services to retirement plan sponsors in the public, private, and not-for-profit sectors; and group life, long-term and short-term group disability, and group corporate-, bank-, and trust-owned life insurance in the United States, primarily to institutional clients for use in connection with employee and membership benefits plans, as well as sells accidental death and dismemberment and other supplemental health solutions, and provides plan administration services in connection with its insurance coverages. The company develops and distributes individual variable and fixed annuity products, principally to the mass affluent and affluent markets; and individual variable, term, and universal life insurance products to the mass middle, mass affluent, and affluent markets in the United States. In addition, it provides third-party life, health, Medicare, property and casualty, and personal finance products to retail shoppers through its digital and independent agent channels. The company offers its products and services to individual and institutional customers through its proprietary and third-party distribution networks. Prudential Financial, Inc. was founded in 1875 and is headquartered in Newark, New Jersey.",
   "website": "http://www.prudential.com"
 }

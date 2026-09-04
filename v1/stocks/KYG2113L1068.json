@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000TY5GH4",
-    "figi": "BBG000TY5GH4",
+    "composite_figi": "BBG000T5K6H2",
+    "figi": "BBG000T5K735",
     "isin": "KYG2113L1068"
   },
   "industry": "Construction Materials",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C44.F"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CARCY"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "CJRCF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "C44.F"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "China Resources Cement Holdings Limited",
-  "primary_symbol": "CARCY",
+  "primary_symbol": "C44.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

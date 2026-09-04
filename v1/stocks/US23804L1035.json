@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00V5LV9T4",
+    "composite_figi": "BBG003NJHZT9",
     "cusip": "23804L103",
-    "figi": "BBG00V5LVB00",
+    "figi": "BBG00Q3HXSK1",
     "isin": "US23804L1035"
   },
   "industry": "Software",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3QD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3QD.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "DDOG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3QD.BE"
     },
     {
       "currency": "EUR",
@@ -33,14 +28,19 @@
       "symbol": "3QD.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "3QD.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3QD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3QD.MU"
     },
     {
       "currency": "BRL",
@@ -60,15 +60,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Datadog, Inc. Class A",
-  "primary_symbol": "3QD.BE",
+  "primary_symbol": "DDOG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Datadog is a monitoring and security platform for cloud applications, bringing together end-to-end traces, metrics, and logs to make applications, infrastructure, and third-party services entirely observable. Datadog's headquarters are in New York, NY. The company's platform can be used by development, operations and business teams.",
+  "summary": "Datadog, Inc. provides monitoring and analytics platform for developers, information technology operations teams, and business users in the cloud in North America and internationally. The company's SaaS platform integrates and automates infrastructure monitoring, application performance monitoring, log management, and security monitoring to provide real-time observability of customers technology stack. Its platform also provides user experience and network performance monitoring, incident management, and various shared features, such as sophisticated dashboards, advanced analytics, collaboration tools, and alerting capabilities. The company was incorporated in 2010 and is headquartered in New York, New York.",
   "website": "http://www.datadoghq.com"
 }

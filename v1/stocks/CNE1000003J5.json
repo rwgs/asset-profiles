@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000CZ5SX5",
-    "figi": "BBG000CZ5SX5",
+    "composite_figi": "BBG000BX5KC1",
+    "figi": "BBG000BX5KN9",
     "isin": "CNE1000003J5"
   },
   "industry": "Transportation Infrastructure",
@@ -11,16 +11,6 @@
   "isin": "CNE1000003J5",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JEXYF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JEXYY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -30,13 +20,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "JE2.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JEXYF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JEXYY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Jiangsu Expressway Company Limited",
-  "primary_symbol": "JEXYF",
+  "primary_symbol": "0177.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

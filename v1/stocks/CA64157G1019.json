@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BDSFY7",
+    "composite_figi": "BBG000BWCY71",
     "cusip": "64157G101",
-    "figi": "BBG000BDSFY7",
+    "figi": "BBG000BWCZM1",
     "isin": "CA64157G1019"
   },
   "industry": "Metals & Mining",
@@ -13,29 +13,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NMTLF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P7J2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P7J2.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "NAM.V"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NMTLF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "P7J2.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "P7J2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "P7J2.MU"
     },
     {
       "currency": "EUR",
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "New Age Metals Inc.",
-  "primary_symbol": "NMTLF",
+  "primary_symbol": "NAM.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

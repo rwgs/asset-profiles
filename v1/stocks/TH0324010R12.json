@@ -2,8 +2,8 @@
   "country": "Thailand",
   "country_code": "TH",
   "identifiers": {
-    "composite_figi": "BBG000BZNGB6",
-    "figi": "BBG000BZNGB6",
+    "composite_figi": "BBG000BRVXG3",
+    "figi": "BBG000BRVY53",
     "isin": "TH0324010R12"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -11,11 +11,6 @@
   "isin": "TH0324010R12",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HNMUF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -27,6 +22,11 @@
       "symbol": "HANA.BK"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HNMUF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NVAX.F"
@@ -34,9 +34,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Hana Microelectronics Public Company Limited",
-  "primary_symbol": "HNMUF",
+  "primary_symbol": "HAA1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

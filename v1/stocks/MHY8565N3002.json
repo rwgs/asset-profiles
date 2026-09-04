@@ -2,29 +2,25 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000V0XR71",
-    "figi": "BBG000V0XSB4",
+    "composite_figi": "BBG000QRMZH1",
+    "cusip": "G8726X106",
+    "figi": "BBG000QRN112",
     "isin": "MHY8565N3002"
   },
   "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Transportation",
+  "industry_group": "Energy",
   "isin": "MHY8565N3002",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "3TKA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3TKA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TNK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3TKA.BE"
     },
     {
       "currency": "EUR",
@@ -33,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3TKA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MHY8565N3002.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "TEEKAY TANKERS P.R.S.-,01",
-  "primary_symbol": "3TKA.BE",
+  "name": "TEEKAY TANKERS LTD.",
+  "primary_symbol": "TNK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Teekay Tankers Ltd. is an international provider of marine transportation services to the oil industry. The company owns and operates a fleet of crude oil and product tankers. Teekay Tankers is headquartered in Vancouver, Canada.",
+  "sector": "Energy",
+  "summary": "Teekay Tankers Ltd. provides marine transportation services to oil industries in Bermuda and internationally. The company offers voyage and time charter services; and offshore Ship-to-ship transfer services of commodities primarily crude oil and refined oil products, as well as liquid gases and various other products. It also provides tanker commercial and technical management, liquefied natural gas terminal management, consultancy, procurement, equipment rental, and other related services; and lightering support services, including, full-service lightering and other lightering support services. As of December 31, 2020, the company owned and leased 52 double-hull oil tankers, and 9 time chartered-in tankers. Its vessels are employed through long-term, fixed-rate time-charter contracts and spot tanker market. The company was founded in 2007 and is based in Hamilton, Canada.",
   "website": "http://www.teekay.com/business/tankers"
 }

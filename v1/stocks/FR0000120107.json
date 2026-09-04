@@ -2,8 +2,6 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BW3MC1",
-    "figi": "BBG000BW3MC1",
     "isin": "FR0000120107"
   },
   "industry": "Food & Staples Retailing",
@@ -12,12 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BNGRF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0DTK.L"
     },
@@ -27,6 +20,11 @@
       "symbol": "BGJ.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BNGRF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "SAVE.PA"
@@ -34,9 +32,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Savencia SA",
-  "primary_symbol": "BNGRF",
+  "primary_symbol": "0DTK.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

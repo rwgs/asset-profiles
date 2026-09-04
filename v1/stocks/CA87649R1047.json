@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00GF7SXM5",
     "cusip": "87649R104",
-    "figi": "BBG00GF7SXS9",
+    "figi": "BBG00GF7SXN4",
     "isin": "CA87649R1047"
   },
   "industry": "Metals & Mining",
@@ -13,19 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8TA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TTSRF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "8TA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8TA.MU"
     },
     {
       "currency": "EUR",
@@ -36,13 +31,18 @@
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "TN.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TTSRF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Tartisan Nickel Corp.",
-  "primary_symbol": "8TA.MU",
+  "primary_symbol": "8TA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,7 +3,7 @@
   "country_code": "FR",
   "identifiers": {
     "composite_figi": "BBG00YYC1SP1",
-    "figi": "BBG00YYC1SV4",
+    "figi": "BBG00YYC1SQ0",
     "isin": "FR0011005933"
   },
   "industry": "Biotechnology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0DL.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0DL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0DL.MU"
     },
     {
       "currency": "EUR",
@@ -32,11 +32,11 @@
       "symbol": "FR0011005933.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Biosynex SA",
-  "primary_symbol": "0DL.MU",
+  "primary_symbol": "0DL.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG00NKV5FY2",
+    "composite_figi": "BBG000BR7S80",
     "cusip": "565100104",
-    "figi": "BBG00NKV5FZ1",
+    "figi": "BBG000BR7SP1",
     "isin": "US5651001043"
   },
   "industry": "Insurance",
@@ -13,24 +13,12 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CMAB.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPFRF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPFRY"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CMAB.F"
+    },
+    {
+      "symbol": "CMAB.TI"
     },
     {
       "currency": "EUR",
@@ -41,13 +29,23 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "MAP.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPFRF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPFRY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Mapfre, S.A.",
-  "primary_symbol": "CMAB.TI",
+  "primary_symbol": "CMAB.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

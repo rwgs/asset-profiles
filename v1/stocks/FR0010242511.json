@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000Q1S5V2",
+    "figi": "BBG000Q1S7S2",
     "isin": "FR0010242511"
   },
   "industry_group": "Utilities",
@@ -9,19 +11,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "E2F.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
       "symbol": "E2F.HA"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "E2F.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "E2F.DU"
     },
     {
       "currency": "EUR",
@@ -30,9 +32,9 @@
     }
   ],
   "name": "ELECTRICI.D.FRANCE E0-,50",
-  "primary_symbol": "E2F.HA",
+  "primary_symbol": "E2F.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG003GQL4M2",
+    "composite_figi": "BBG000HT5G06",
     "cusip": "74758T303",
-    "figi": "BBG003GQL4T5",
+    "figi": "BBG0033BHTJ3",
     "isin": "US74758T3032"
   },
   "industry": "Software",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3L7A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3L7A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "QLYS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3L7A.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3L7A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3L7A.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "QUALYS INC.  DL -,001",
-  "primary_symbol": "3L7A.BE",
+  "name": "Qualys, Inc.",
+  "primary_symbol": "QLYS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Qualys, Inc. provides cloud-based security and compliance solutions that enable organizations to identify security risks to their IT infrastructure. The Qualys Cloud Platform provides visibility and automates a wide range of security operations. The company is headquartered in Foster City, California.",
+  "summary": "Qualys, Inc. provides cloud-based information technology (IT), security, and compliance solutions in the United States and internationally. The company offers Qualys Cloud Apps, which includes Vulnerability Management, Vulnerability Management, Detection and Response, Threat Protection, Continuous Monitoring, Patch Management, Multi-Vector Endpoint Detection and Response, Indication of Compromise, Certificate Assessment, Policy Compliance, Security Configuration Assessment, PCI Compliance, File Integrity Monitoring, Security Assessment Questionnaire, Out of-Band Configuration Assessment, Web Application Scanning, Web Application Firewall, Global IT Asset Inventory, CMDB Sync, Certificate Inventory, Cloud Inventory, Cloud Security Assessment, and Container Security. Its integrated suite of IT, security, and compliance solutions delivered on its Qualys Cloud Platform enables customers to identify and manage IT assets, collect and analyze IT security data, discover and prioritize vulnerabilities, recommend and implement remediation actions, and verify the implementation of such actions. The company also provides asset tagging and management, reporting and dashboards, questionnaires and collaboration, remediation and workflow, big data correlation and analytics engine, and alerts and notifications, which enable integrated workflows, management and real-time analysis, and reporting across IT, security, and compliance solutions. The company offers its solutions through its sales teams, as well as through its network of channel partners, such as security consulting organizations, managed service providers and resellers, and consulting firms. It serves enterprises, government entities, and small and medium-sized businesses in various industries, including education, financial services, government, healthcare, insurance, manufacturing, media, retail, technology, and utilities. The company was founded in 1999 and is headquartered in Foster City, California.",
   "website": "http://www.qualys.com"
 }

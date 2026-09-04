@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG003NJPZB9",
+    "composite_figi": "BBG003HC2032",
     "cusip": "410499107",
-    "figi": "BBG003NJPZR2",
+    "figi": "BBG003HC2041",
     "isin": "CA4104991076"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA4104991076",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NITMF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -31,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "HCC.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NITMF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Hanna Capital Corp.",
-  "primary_symbol": "NITMF",
+  "primary_symbol": "04U1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

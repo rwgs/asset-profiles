@@ -2,8 +2,8 @@
   "country": "New Zealand",
   "country_code": "NZ",
   "identifiers": {
-    "composite_figi": "BBG000CPR0R1",
-    "figi": "BBG000CPR3V0",
+    "composite_figi": "BBG000CLWTV6",
+    "figi": "BBG000CLWVG8",
     "isin": "NZFAPE0001S2"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -11,21 +11,6 @@
   "isin": "NZFAPE0001S2",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPLB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPLB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FSPKF"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -38,26 +23,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FPLB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FPLB.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FPLB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FPLB.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FSPKF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Fisher & Paykel Healthcare Corp. Ltd.",
-  "primary_symbol": "FPLB.BE",
+  "primary_symbol": "FPH.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Fisher & Paykel Healthcare Corporation Limited designs, manufactures, and markets medical device products and systems for use in respiratory care, acute care, and the treatment of obstructive sleep apnea. The company's products are used in hospitals, homes, and other healthcare facilities. Fisher & Paykel Healthcare is headquartered in Auckland, New Zealand.",
+  "summary": "Fisher & Paykel Healthcare Corporation Limited, together with its subsidiaries, designs, manufactures, markets, and sells medical device products and systems worldwide. It provides its products for use in respiratory care, acute care, and surgery, as well as the treatment of obstructive sleep apnea (OSA) in the home and hospital. The company offers myAIRVO 2, a humidifier with integrated flow source; Optiflow, a nasal high flow therapy; and noninvasive and invasive ventilation systems. It also provides infant respiratory products, such as resuscitation, continuous positive airway pressure (CPAP) therapy, and nasal high flow therapy products. In addition, the company offers hospital products, including humidification products, breathing circuits, chambers, masks, nasal cannulas, surgical, accessories, and interfaces; and homecare products that include masks, CPAP devices, data management products, humidifiers, and accessories. Fisher & Paykel Healthcare Corporation Limited was founded in 1934 and is headquartered in Auckland, New Zealand.",
   "website": "http://www.fphcare.com"
 }

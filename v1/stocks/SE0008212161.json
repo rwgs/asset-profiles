@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00WJTPH55",
-    "figi": "BBG00WJTPHB8",
+    "figi": "BBG00WJTPH64",
     "isin": "SE0008212161"
   },
   "industry": "Chemicals",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5L8.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5L8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5L8.MU"
     },
     {
       "currency": "SEK",
@@ -28,10 +28,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "SVENSKA AEROGEL HOLDING",
-  "primary_symbol": "5L8.MU",
+  "name": "Svenska Aerogel Holding AB (publ)",
+  "primary_symbol": "5L8.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

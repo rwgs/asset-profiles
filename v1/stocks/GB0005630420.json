@@ -2,20 +2,14 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000PYSRS7",
-    "figi": "BBG000PYSV80",
+    "composite_figi": "BBG000HHP4W2",
     "isin": "GB0005630420"
   },
   "industry": "Professional Services",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Capital Goods",
   "isin": "GB0005630420",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MM7.BE"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -28,21 +22,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MM7.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MM7.F"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Mears Group PLC",
-  "primary_symbol": "MM7.BE",
+  "primary_symbol": "GB0005630420.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Mears Group PLC is a United Kingdom-based provider of social housing and care services. The company delivers a range of services, including repairs, maintenance, and housing management, to local authorities and registered social landlords throughout the UK.",
+  "summary": "Mears Group PLC is a social housing and care provider, delivering repairs, maintenance, and support services to local authorities and housing associations. The company also provides care services to vulnerable individuals. Mears Group is headquartered in Gloucester, United Kingdom.",
   "website": "http://www.mearsgroup.co.uk"
 }

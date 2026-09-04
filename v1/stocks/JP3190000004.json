@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C2V5X9",
-    "figi": "BBG000C2V8T8",
+    "composite_figi": "BBG000BFRCY0",
+    "figi": "BBG000BFRGV4",
     "isin": "JP3190000004"
   },
   "industry": "Construction & Engineering",
@@ -12,33 +12,23 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OBA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OBA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OBYCF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
+      "currency": "JPY",
+      "exchange_mic": "XFKA",
       "symbol": "1802.F"
     },
     {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "1802.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OBA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "OBA.DU"
     },
     {
@@ -48,21 +38,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OBA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OBA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OBYCF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Obayashi Corp.",
-  "primary_symbol": "OBA.BE",
+  "primary_symbol": "1802.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Obayashi Corporation is a Japanese construction company. The company provides a wide range of construction and engineering services, including building construction, civil engineering, and real estate development. The company is headquartered in Tokyo, Japan.",
+  "summary": "Obayashi Corporation engages in the construction business in Japan, North America, Asia, the Middle East, Europe, and Oceania. The company constructs buildings, including offices, condominiums, commercial facilities, factories, hospitals, and schools; and civil engineering projects, such as tunnels, bridges, dams, riverbanks, railroads, and expressways. It is also involved in the development and leasing of real estate properties in various locations, primarily in metropolitan areas, as well as property management activities; solar, biomass, hydropower, geothermal, and wind power generation business; and PPP and agriculture business. In addition, the company sells materials and equipment for construction; develops and sells computer software; sells and leases electronic equipment; offers finance-related services; and operates golf clubs. Further, it engages in the provision of urban development, contracted engineering, management, consultancy services, etc.; and is involved in the M&E design and construction activities. The company was founded in 1892 and is headquartered in Tokyo, Japan.",
   "website": "http://www.obayashi.co.jp"
 }

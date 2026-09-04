@@ -2,34 +2,29 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005KM08B7",
+    "composite_figi": "BBG0056655S1",
     "cusip": "50187T106",
-    "figi": "BBG005KM08J9",
+    "figi": "BBG0056656D5",
     "isin": "US50187T1060"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Consumer Services",
+  "industry_group": "Capital Goods",
   "isin": "US50187T1060",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LG1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LG1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "LGIH"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LG1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "LG1.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LG1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LG1.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "LGI Homes, Inc.",
-  "primary_symbol": "LG1.BE",
+  "primary_symbol": "LGIH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "LGI Homes, Inc. is a homebuilder engaged in the design and construction of entry-level homes in growing markets across the United States. Their business model focuses on providing affordable, quality homes to first-time homebuyers. The company is headquartered in The Woodlands, Texas.",
+  "sector": "Industrials",
+  "summary": "LGI Homes, Inc. designs, constructs, and sells homes in the United States. It offers entry-level homes, such as detached and attached homes, and move-up homes under the LGI Homes brand name; and luxury series homes under the Terrata Homes brand name. As of December 31, 2020, it owned 113 communities. The company serves in Texas, Arizona, Florida, Georgia, New Mexico, Colorado, North Carolina, South Carolina, Washington, Tennessee, Minnesota, Oklahoma, Alabama, California, Oregon, Nevada, West Virginia, Virginia, and Pennsylvania. LGI Homes, Inc. was founded in 2003 and is headquartered in The Woodlands, Texas.",
   "website": "http://www.lgihomes.com"
 }

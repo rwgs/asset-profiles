@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GL93L6",
+    "composite_figi": "BBG000BQY289",
     "cusip": "703395103",
-    "figi": "BBG000GL9906",
+    "figi": "BBG000BQYC69",
     "isin": "US7033951036"
   },
   "industry": "Health Care Providers & Services",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PD2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PD2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PDCO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PD2.BE"
     },
     {
       "currency": "EUR",
@@ -33,8 +28,8 @@
       "symbol": "PD2.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PD2.DU"
     },
     {
@@ -44,21 +39,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PD2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PD2.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "PATTERSON COS INC. DL-,01",
-  "primary_symbol": "PD2.BE",
+  "name": "Patterson Companies, Inc.",
+  "primary_symbol": "PDCO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Patterson Companies, Inc. is a distributor serving the dental and animal health markets. The company provides a comprehensive range of products, equipment, and services to dental and veterinary practices. The company is headquartered in St. Paul, Minnesota.",
+  "summary": "Patterson Companies, Inc. distributes and sells dental and animal health products in the United States, the United Kingdom, and Canada. It operates through three segments; Dental, Animal Health, and Corporate segments. The Dental segment offers consumable products, including infection control, restorative materials, hand instruments, and sterilization products; basic and advanced technology dental equipment; technology solutions, such as practice management software and e-commerce solutions; patient education systems; and office forms and stationery. It also provides a range of related services comprising software and design services, maintenance and repair, and equipment financing. The Animal Health segment distributes pharmaceuticals, vaccines, parasiticides, diagnostics, prescription and non-prescription diets, nutritionals, consumable supplies, equipment, and software, as well as value-added services. This segment also provides private label portfolio of products to veterinarians, producers, and retailers under the Aspen, First Companion, and Patterson Veterinary brands. The Corporate segment offers customer financing services; and sells other miscellaneous products. It serves dentists, laboratories, institutions, other healthcare professionals, veterinarians, other animal health professionals, production animal operators, and animal health product retailers. The company was formerly known as Patterson Dental Company and changed its name to Patterson Companies, Inc. in June 2004. Patterson Companies, Inc. was founded in 1877 and is headquartered in Saint Paul, Minnesota.",
   "website": "http://www.pattersoncompanies.com"
 }

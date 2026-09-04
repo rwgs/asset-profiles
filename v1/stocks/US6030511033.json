@@ -2,9 +2,9 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000RFK7C5",
+    "composite_figi": "BBG000C3G6C5",
     "cusip": "603051103",
-    "figi": "BBG000RFK7C5",
+    "figi": "BBG000C3G6L5",
     "isin": "US6030511033"
   },
   "industry": "Metals & Mining",
@@ -13,19 +13,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "F5J.F"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MALRF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MALRY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "F5J.F"
     },
     {
       "currency": "AUD",
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Mineral Resources Limited",
-  "primary_symbol": "MALRF",
+  "primary_symbol": "F5J.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

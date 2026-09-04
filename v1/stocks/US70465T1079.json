@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00B4W7CD2",
+    "composite_figi": "BBG004NCDK82",
     "cusip": "70465T107",
-    "figi": "BBG00B4W7CL3",
+    "figi": "BBG004NCDK82",
     "isin": "US70465T1079"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EU6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EU6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "PDSB"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EU6.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EU6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EU6.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "PDS Biotechnology Corp.",
-  "primary_symbol": "EU6.BE",
+  "primary_symbol": "PDSB",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "PDS Biotechnology Corp. is a clinical-stage immunotherapy company focused on developing novel cancer immunotherapies and infectious disease vaccines based on its proprietary VERSATOPE® platform technology. The company's lead product candidates are PDS0101, a VERSATOPE®-based immunotherapy targeting HPV16-associated cancers, and PDS0301, an investigational cancer vaccine. PDS Biotechnology is headquartered in Florham Park, New Jersey.",
+  "summary": "PDS Biotechnology Corporation, a clinical-stage biopharmaceutical company, focuses on developing multifunctional cancer immunotherapies. Its lead product candidate is PDS0101 (HPV16), which is in Phase II clinical trial provides a first line treatment for the recurrent/metastatic head and neck cancer, human papillomavirus associated malignancies, and cervical cancer. The company is also developing various product candidates, which are in preclinical trials, including PDS0102 T-cell receptor gamma alternate reading frame protein (TARP) for treating prostate and breast cancers; PDS0103 (MUC-1) for ovarian, colorectal, lung, and breast cancers; and PDS0104, which include Tyrosinase-related protein 2 for the treatment of melanoma. In addition, it is developing PDS0201 for treating tuberculosis; PDS0202, an influenza vaccine candidate; and PDS0203, a vaccine for the prevention of COVID-19. The company has a license and collaboration agreements with National Institutes of Health, Merck Eprova AG, The U.S. Department of Health and Human Services, and MSD International GmbH. PDS Biotechnology Corporation was founded in 2005 and is based in Florham Park, New Jersey.",
   "website": "http://www.pdsbiotech.com"
 }

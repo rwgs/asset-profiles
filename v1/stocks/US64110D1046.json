@@ -2,43 +2,23 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000K1Q7K8",
+    "composite_figi": "BBG000FP1N32",
     "cusip": "64110D104",
-    "figi": "BBG000K1QFD8",
+    "figi": "BBG000FP3343",
     "isin": "US64110D1046"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Software & Services",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US64110D1046",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTA.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTA.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NTA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NTAP"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0K6F.L"
     },
@@ -49,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NTA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "NTA.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NTA.DU"
     },
     {
@@ -64,21 +49,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "NTA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "NTA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NTA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NTA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "NetApp, Inc.",
-  "primary_symbol": "NTA.BE",
+  "primary_symbol": "NTAP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "NetApp Inc. is a cloud-led, data-centric software company that empowers organizations to lead with data in the age of accelerated digital transformation. The company provides cloud data services, storage systems, and software.",
+  "summary": "NetApp, Inc. provides software, systems, and services to manage and share data on-premises, and private and public clouds worldwide. The company offers cloud data services, including NetApp Cloud Volumes Service for AWS, NetApp Cloud Sync, NetApp Cloud Tiering, NetApp Global File Cache, NetApp SaaS Backup, NetApp Cloud Manager, NetApp Fabric Orchestrator, and NetApp Cloud Insights. It also provides hybrid cloud solutions, such as NetApp ONTAP Storage Operating System, NetApp AFF A-series, NetApp AFF C190, NetApp FAS Series, FlexPod, NetApp ONTAP Select, NetApp MAX Data, NetApp Data Availability Services, NetApp SnapCenter Backup Management Software, NetApp SnapMirror Data Replication Software, NetApp SnapLock Data Compliance Software, NetApp StorageGRID Object Storage Software, NetApp Element Operating System, NetApp SolidFire, NetApp HCI, NetApp SANtricity Storage Operating System, NetApp EF-Series, NetApp E-Series, NetApp Active IQ Predictive Analytics and Support, NetApp OnCommand Insight, and NetApp OnCommand Workflow Automation. Further, it provides software maintenance, hardware maintenance, and other services, including professional services, global support solutions, and customer education and training. It serves the energy, financial services, government, high technology, internet, life sciences, healthcare services, manufacturing, media, entertainment, animation, video postproduction, and telecommunications through a direct sales force and an ecosystem of partners. NetApp has strategic partnership with Fujitsu for data management infrastructure. NetApp, Inc. was founded in 1992 and is headquartered in Sunnyvale, California.",
   "website": "http://www.netapp.com"
 }

@@ -2,6 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000RC23L1",
     "cusip": "58440B101",
     "isin": "CA58440B1013"
   },
@@ -11,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FBOP"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA58440B1013.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FBOP"
     },
     {
       "currency": "CAD",
@@ -27,10 +28,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Media Central Corporation Inc.",
-  "primary_symbol": "FBOP",
+  "name": "MEDIA CENTRAL INC",
+  "primary_symbol": "CA58440B1013.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

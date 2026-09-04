@@ -2,6 +2,8 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
+    "composite_figi": "BBG00KDZ1SQ2",
+    "figi": "BBG00KDZ1SR1",
     "isin": "DK0060634707"
   },
   "industry": "Beverages",
@@ -10,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0R6Z.IL"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0R1.F"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XLON",
+      "symbol": "0R6Z.IL"
     },
     {
       "currency": "EUR",
@@ -37,15 +39,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Royal Unibrew A S",
-  "primary_symbol": "0R6Z.IL",
+  "primary_symbol": "0R1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "ROYAL UNIBREW A/S is a brewing and beverage company that produces, markets, and sells beer, soft drinks, malt beverages, and mineral water. The company operates primarily in Northern Europe, Italy, and internationally. Royal Unibrew is headquartered in Faxe, Denmark.",
+  "summary": "Royal Unibrew A/S produces, markets, sells, and distributes beer, malt, soft drinks, ciders, and ready-to-drink products. The company also provides spring water, natural mineral water, energy drinks, fruit juices, nectar drinks, long drinks, and cocktail products. It offers its products under the Royal Beer, Schiøtz, Lottrup, Kissmeyer, Anarkist, Albani, Ceres, Thor, Faxe Kondi, Nikoline, Egekilde, Faxe Kondi Booster, Tempt, Norden, Polar Monkey, Lorina, CULT Energy, SHAKER, MOKAÏ, PureThé, InFreshhh, LemonSoda, OranSoda, PelmoSoda, TonicSoda, Crodo Lisiel, Crodo Chinotto, Karjala, Lapin Kulta, Aura, Lahden Erikois, Original Long Drink, Upcider, Happy Joe, Jaffa, ED, Novelle, Kalnapilis, Taurus, the Vilkmerges, Cido, Mangali, Fruts, Lacplesa Alus, Livu Alus, the Lielvardes, Meistriti Gildi, Terme di Crodo, Vitamalt, Supermalt, Powermalt, LACPLESIS, and Nohrlund brands. The company also provides license-based international brands, such as Heineken and PepsiCo; and a range of international spirits and wine brands, including Johnny Walker, Captain Morgan, Lanson, Baileys, and JP. Chenet on an agency basis. It serves customers in Denmark, Germany, Italy, France, Finland, Lithuania, Latvia, Estonia, and internationally. The company was formerly known as Bryggerigruppen A/S and changes its name to Royal Unibrew A/S in 2005. Royal Unibrew A/S is headquartered in Faxe, Denmark.",
   "website": "http://www.royalunibrew.com"
 }

@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00RRWJZH4",
     "cusip": "589339209",
-    "figi": "BBG00RRWJZN7",
+    "figi": "BBG00RRWJZJ2",
     "isin": "US5893392093"
   },
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
@@ -12,20 +12,20 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRKC.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MRKC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MRKC.MU"
     }
   ],
   "name": "MERCK KGAA NAM.SP.ADR 1/5",
-  "primary_symbol": "MRKC.MU",
+  "primary_symbol": "MRKC.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

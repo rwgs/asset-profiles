@@ -2,9 +2,9 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000RCDYJ4",
+    "composite_figi": "BBG000QD6LZ1",
     "cusip": "590717104",
-    "figi": "BBG000RCDYJ4",
+    "figi": "BBG000QD6X30",
     "isin": "US5907171046"
   },
   "industry": "Biotechnology",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MEOBF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MESO"
     },
     {
@@ -33,16 +28,21 @@
       "symbol": "LWBA.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MEOBF"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "MSB.AX"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Mesoblast Limited",
-  "primary_symbol": "MEOBF",
+  "primary_symbol": "MESO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

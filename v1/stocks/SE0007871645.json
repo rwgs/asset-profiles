@@ -10,29 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "SEK",
+      "exchange_mic": "XLON",
       "symbol": "0RDS.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KNDGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNBA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNIB"
     },
     {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "KIND-SDB.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KNDGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UNBA.BE"
     },
     {
       "currency": "EUR",
@@ -43,13 +38,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "UNBA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UNIB"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Kindred Group plc",
   "primary_symbol": "0RDS.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

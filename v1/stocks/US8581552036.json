@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000KLHXJ9",
+    "composite_figi": "BBG000BLBGS2",
     "cusip": "858155203",
-    "figi": "BBG000KLK212",
+    "figi": "BBG000BLBJ88",
     "isin": "US8581552036"
   },
   "industry": "Commercial Services & Supplies",
@@ -15,27 +15,27 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "GJB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GJB.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GJB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "SCS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GJB.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GJB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "GJB.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GJB.MU"
     },
     {
       "currency": "EUR",
@@ -50,9 +50,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Steelcase Inc.",
-  "primary_symbol": "GJB.BE",
+  "primary_symbol": "SCS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

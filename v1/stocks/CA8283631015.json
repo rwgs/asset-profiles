@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00CXK1MV8",
     "cusip": "828363101",
-    "figi": "BBG00CXK1N19",
     "isin": "CA8283631015"
   },
   "industry": "Metals & Mining",
@@ -13,34 +11,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S0C.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S0C.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SILV"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0VHI.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S0C.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "S0C.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "S0C.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S0C.MU"
     },
     {
       "currency": "EUR",
@@ -51,19 +44,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "SIL.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "SILV"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "SILVERCREST MTLS",
-  "primary_symbol": "S0C.BE",
+  "name": "SilverCrest Metals Inc.",
+  "primary_symbol": "0VHI.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "SilverCrest Metals Inc. is a Canadian precious metals exploration company focused on acquiring, exploring, and developing high-grade silver and gold deposits, primarily in Mexico. The company's main asset is the Las Chispas Project located in Sonora, Mexico. SilverCrest aims to create value through successful exploration and development of its properties.",
+  "summary": "SilverCrest Metals Inc. acquires, explores for, and develops precious metal properties in Mexico. It primarily explores for silver and gold properties. The company's principal property is the Las Chispas project that consists of 28 concessions totaling of 1400.96 hectares located in Sonora, Mexico. SilverCrest Metals Inc. was incorporated in 2015 and is headquartered in Vancouver, Canada.",
   "website": "http://www.silvercrestmetals.com"
 }

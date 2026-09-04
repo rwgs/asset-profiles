@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BTT3X9",
-    "figi": "BBG000BTT6V4",
+    "composite_figi": "BBG000BG7174",
+    "figi": "BBG000BG71R2",
     "isin": "KYG7082H1276"
   },
   "industry": "Professional Services",
@@ -11,11 +11,6 @@
   "isin": "KYG7082H1276",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PJFB.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,15 +23,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PJFB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PJFB.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Pico Far East Holdings Limited",
-  "primary_symbol": "PJFB.MU",
+  "primary_symbol": "0752.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

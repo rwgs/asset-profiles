@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00KN62012",
     "cusip": "00848K101",
-    "figi": "BBG00KN62076",
     "isin": "US00848K1016"
   },
   "industry": "Aerospace & Defense",
@@ -14,23 +12,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "29ZA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "29ZA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UAVS"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0A4B.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "29ZA.BE"
     },
     {
       "currency": "EUR",
@@ -39,21 +27,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "29ZA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "29ZA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "UAVS"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "AGEAGLE AERIAL SYS DL-001",
-  "primary_symbol": "29ZA.BE",
+  "market_cap_band": "Small Cap",
+  "name": "AgEagle Aerial Systems, Inc.",
+  "primary_symbol": "0A4B.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "AgEagle Aerial Systems Inc. is a drone solutions provider. The company designs, engineers, and manufactures drones, sensors, and software for the agriculture industry and other commercial applications. AgEagle Aerial Systems is headquartered in Wichita, Kansas.",
+  "summary": "AgEagle Aerial Systems, Inc. designs, develops, produces, distributes, and supports unmanned aerial vehicles for the precision agriculture industry in the United States and internationally. It offers FarmLens, a subscription based cloud analytics service that processes data collected with a drone for use by farmers and agronomists; and HempOverview, a software-as-a-solution web- and map-based technology platform to support the operations of domestic industrial hemp programs for state and tribal nation departments of agriculture, growers, and processors. The company also offers fixed-wing drones, such as AgEagle Classic, RAPID System, RX-60, and RX-48; drone subcomponents; and ancillary drone support equipment. In addition, it provides technology solutions to the agriculture industry through delivery of best-in-class drones, sensors, and data analytics for hemp and other commercial crops. Further, the company provides turnkey, end-to-end, and tailored drone solutions to international clients. AgEagle Aerial Systems, Inc. was founded in 2010 and is headquartered in Wichita, Kansas.",
   "website": "http://www.ageagle.com"
 }

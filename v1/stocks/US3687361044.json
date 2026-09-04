@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000QBKG35",
+    "composite_figi": "BBG000PQ4W72",
     "cusip": "368736104",
-    "figi": "BBG000QBKK27",
+    "figi": "BBG000PQ4Z11",
     "isin": "US3687361044"
   },
   "industry": "Machinery",
@@ -15,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "G84.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G84.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "GNRC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "G84.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "G84.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "G84.MU"
     },
     {
       "currency": "EUR",
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Generac Holdings Inc.",
-  "primary_symbol": "G84.BE",
+  "primary_symbol": "GNRC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,7 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG006W3Z9D2",
-    "figi": "BBG006W3Z9K4",
+    "composite_figi": "BBG006S543P6",
     "isin": "GB00BNLPYF73"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,12 +11,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S00.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00BNLPYF73.SW"
     },
@@ -27,6 +21,11 @@
       "symbol": "S00.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S00.MU"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "SPI.L"
@@ -34,9 +33,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Spire Healthcare Group PLC",
-  "primary_symbol": "S00.MU",
+  "primary_symbol": "GB00BNLPYF73.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

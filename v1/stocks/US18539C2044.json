@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG008P19Y17",
     "cusip": "18539C204",
-    "figi": "BBG008P19Y62",
+    "figi": "BBG008P19Y35",
     "isin": "US18539C2044"
   },
   "industry_group": "Energy",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NY41.MU"
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "NY41.DU"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "NY41.DU"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NY41.MU"
     },
     {
       "currency": "EUR",
@@ -28,9 +28,9 @@
     }
   ],
   "name": "Clearway Energy, Inc. Class C",
-  "primary_symbol": "NY41.MU",
+  "primary_symbol": "NY41.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

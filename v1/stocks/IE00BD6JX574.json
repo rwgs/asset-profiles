@@ -2,8 +2,8 @@
   "country": "Ireland",
   "country_code": "IE",
   "identifiers": {
-    "composite_figi": "BBG00LYKTB41",
-    "figi": "BBG00LYKTB96",
+    "composite_figi": "BBG00HVTK7Y9",
+    "figi": "BBG00HVTK7Z8",
     "isin": "IE00BD6JX574"
   },
   "industry": "Construction & Engineering",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GVR.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XDUB",
       "symbol": "GVR.IR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GVR.MU"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Glenveagh Properties PLC",
-  "primary_symbol": "GVR.MU",
+  "primary_symbol": "GVR.IR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

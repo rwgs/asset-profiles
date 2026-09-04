@@ -1,9 +1,9 @@
 {
-  "country": "Austria",
-  "country_code": "AT",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BCB2L0",
-    "figi": "BBG000BCB5F0",
+    "figi": "BBG000BCB310",
     "isin": "DE0005019004"
   },
   "industry": "Real Estate Management & Development",
@@ -12,19 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AGR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AGR3.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AGR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AGR.MU"
     },
     {
       "currency": "EUR",
@@ -38,15 +33,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AGR3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AGR3.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "AGROB Immobilien AG",
-  "primary_symbol": "AGR.MU",
+  "primary_symbol": "AGR.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

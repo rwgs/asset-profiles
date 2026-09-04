@@ -2,9 +2,9 @@
   "country": "Chile",
   "country_code": "CL",
   "identifiers": {
-    "composite_figi": "BBG00CSNCJR8",
+    "composite_figi": "BBG00CMP4ZT0",
     "cusip": "29278D105",
-    "figi": "BBG00CSNCJZ9",
+    "figi": "BBG00CMP4ZY4",
     "isin": "US29278D1054"
   },
   "industry": "Electric Utilities",
@@ -15,17 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "ENIC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "355.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "355.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ENIC"
     },
     {
       "currency": "CLP",
@@ -35,15 +35,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Enel Chile S.A.",
-  "primary_symbol": "355.BE",
+  "primary_symbol": "ENIC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Enel Chile S.A. is a Chilean electricity generation and distribution company, part of the Enel Group, with operations in Chile, headquartered in Santiago, Chile. The company generates electricity from various sources, including hydroelectric, thermal, and renewable energy sources and distributes energy. Enel Chile focuses on providing reliable and sustainable energy solutions.",
+  "summary": "Enel Chile S.A., an electricity utility company, engages in the generation, transmission, and distribution of electricity in Chile. It operates through Generation Business and Distribution Business segments. As of December 31, 2020, the company had 7,200 megawatts of installed capacity with 109 generation units, as well as distributed electricity to approximately 2.0 million customers with 2,105 square kilometers of transmission lines in 33 municipalities of the Santiago metropolitan region. It generates electricity through various sources, such as hydroelectric, thermal, wind, solar, and geothermal power plants. The company also engages in the sale and transportation of natural gas; and provision of construction works, engineering, and consulting services. It serves residential, commercial, industrial, governmental, and other customers. The company was formerly known as Enersis Chile S.A. and changed its name to Enel Chile S.A. in October 2016. The company was incorporated in 2016 and is headquartered in Santiago, Chile. Enel Chile S.A. is a subsidiary of Enel S.p.A.",
   "website": "http://www.enel.cl"
 }

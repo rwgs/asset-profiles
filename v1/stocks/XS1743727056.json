@@ -2,23 +2,13 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BBBGB2",
-    "figi": "BBG000BBBGB2",
+    "composite_figi": "BBG000BPRTV4",
+    "figi": "BBG000BPRV76",
     "isin": "XS1743727056"
   },
   "isin": "XS1743727056",
   "kind": "debt",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTPCF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTPCY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -28,13 +18,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CPF0.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CTPCF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CTPCY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "CITIC Limited",
-  "primary_symbol": "CTPCF",
+  "primary_symbol": "CPF.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

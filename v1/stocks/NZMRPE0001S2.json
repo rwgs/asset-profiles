@@ -2,8 +2,8 @@
   "country": "New Zealand",
   "country_code": "NZ",
   "identifiers": {
-    "composite_figi": "BBG004LV1G02",
-    "figi": "BBG004LV1G66",
+    "composite_figi": "BBG004J7QBJ2",
+    "figi": "BBG004J7QBK0",
     "isin": "NZMRPE0001S2"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -11,11 +11,6 @@
   "isin": "NZMRPE0001S2",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRY.BE"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -25,6 +20,11 @@
       "currency": "NZD",
       "exchange_mic": "XNZE",
       "symbol": "MCY.NZ"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MRY.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +39,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Mercury NZ Ltd",
-  "primary_symbol": "MRY.BE",
+  "primary_symbol": "MCY.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Mercury NZ Limited is a New Zealand electricity generation and retail company. They generate electricity from renewable sources, including hydro and geothermal, and sell electricity, gas, and telecommunications services to homes and businesses. The company is headquartered in Auckland, New Zealand.",
+  "summary": "Mercury NZ Limited, together with its subsidiaries, engages in the production, trading, and sale of electricity and related activities in New Zealand. The company operates through Generation/Wholesale, Retail, and Others segments. It operates nine hydro generation stations on the Waikato River; and five geothermal generation stations in the central North Island. The company sells electricity to residential, commercial, industrial, and spot market customers through the GLOBUG, Bosco, and Mercury brands. It also provides piped natural gas; and sells solar equipment. The company was formerly known as Mighty River Power Limited and changed its name to Mercury NZ Limited in July 2016. Mercury NZ Limited was founded in 1998 and is based in Auckland, New Zealand.",
   "website": "http://www.mercury.co.nz"
 }

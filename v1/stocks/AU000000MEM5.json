@@ -3,24 +3,14 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000F31VM2",
-    "figi": "BBG000F31ZP0",
+    "figi": "BBG000F31XX6",
     "isin": "AU000000MEM5"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "AU000000MEM5",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IG7.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IG7.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -28,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IG7.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IG7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IG7.MU"
     },
     {
       "currency": "AUD",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Memphasys Ltd",
-  "primary_symbol": "IG7.BE",
+  "primary_symbol": "AU000000MEM5.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG0055FPBW2",
-    "figi": "BBG0055FPBW2",
+    "composite_figi": "BBG001S48KJ5",
+    "figi": "BBG001S48KK3",
     "isin": "KYG8116S1057"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -11,11 +11,6 @@
   "isin": "KYG8116S1057",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SHUNF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -30,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3SH.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SHUNF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Shunfeng International Clean Energy Limited",
-  "primary_symbol": "SHUNF",
+  "primary_symbol": "1165.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000F0TV39",
     "cusip": "03152W109",
-    "figi": "BBG000F0VZK8",
     "isin": "US03152W1099"
   },
   "industry": "Biotechnology",
@@ -14,28 +12,28 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AM6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AM6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "FOLD"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HF9.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AM6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AM6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AM6.MU"
     },
     {
       "currency": "EUR",
@@ -50,15 +48,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Amicus Therapeutics, Inc.",
-  "primary_symbol": "AM6.BE",
+  "primary_symbol": "FOLD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Amicus Therapeutics, Inc. is a biotechnology company focused on developing and delivering novel medicines for rare metabolic diseases. The company's commercial and research programs are designed to address diseases with significant unmet medical needs. Amicus Therapeutics is headquartered in Philadelphia, Pennsylvania.",
+  "summary": "Amicus Therapeutics, Inc., a biotechnology company, focuses on discovering, developing, and delivering medicines for people living with rare metabolic diseases. Its commercial product and product candidates include Galafold, an oral precision medicine for the treatment of adults with a confirmed diagnosis of Fabry disease and an amenable galactosidase alpha gene variant based on in vitro assay data; gene therapies for Fabry and Pompe diseases, as well as for various types of Batten diseases; enzyme replacement therapies for Pompe diseases; and CDKL5 deficiency disorder product candidates. The company also has additional gene therapies in active preclinical development, including gene therapies for mucopolysaccharidosis type IIIB, as well as a next generation program in mucopolysaccharidosis type IIIA. The company has collaboration and license agreements with Nationwide Children's Hospital; University of Pennsylvania; and GlaxoSmithKline. Amicus Therapeutics, Inc. was incorporated in 2002 and is headquartered in Philadelphia, Pennsylvania.",
   "website": "http://amicusrx.com"
 }

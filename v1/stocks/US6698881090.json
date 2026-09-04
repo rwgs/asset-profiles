@@ -11,24 +11,24 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "N1O.F"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "NOVKY"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XLON",
       "symbol": "NVTK.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "RUB",
+      "exchange_mic": "MISX",
       "symbol": "NVTK.ME"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "N1O.F"
     },
     {
       "currency": "EUR",
@@ -38,9 +38,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "PAO NOVATEK",
-  "primary_symbol": "NOVKY",
+  "primary_symbol": "N1O.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

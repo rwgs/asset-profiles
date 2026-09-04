@@ -2,26 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00PT8N786",
+    "composite_figi": "BBG00PLQ1JR1",
     "cusip": "86745K104",
-    "figi": "BBG00PT8N7G7",
+    "figi": "BBG00PLQ1JW5",
     "isin": "US86745K1043"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Energy",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US86745K1043",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7SE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7SE.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "7SE.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7SE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7SE.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "SUNNOVA ENERGY INTERNATIONAL INC.",
-  "primary_symbol": "7SE.BE",
+  "primary_symbol": "NOVA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Sunnova Energy International Inc. is a residential solar and energy storage service provider. The company offers solar, battery storage, and related services to homeowners in the United States and its territories. Sunnova's business model involves selling or leasing solar systems and providing ongoing monitoring and maintenance.",
+  "sector": "Information Technology",
+  "summary": "Sunnova Energy International Inc., together with its subsidiaries, provides residential solar and energy storage services in the United States. The company offers operations and maintenance, monitoring, repairs and replacements, equipment upgrades, on-site power optimization, and diagnostics services. It operates a fleet of residential solar energy systems with a generation capacity of approximately 790 megawatts serving approximately 107,000 customers. Sunnova Energy International Inc. was founded in 2012 and is headquartered in Houston, Texas.",
   "website": "http://www.sunnova.com"
 }

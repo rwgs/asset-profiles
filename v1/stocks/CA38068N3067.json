@@ -1,10 +1,9 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000BKDV09",
     "cusip": "38068N306",
-    "figi": "BBG000BKDV09",
     "isin": "CA38068N3067"
   },
   "industry": "Metals & Mining",
@@ -13,29 +12,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GDRZF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GODA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GODA.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA38068N3067.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GDRZF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GODA.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GODA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GODA.MU"
     },
     {
       "currency": "CAD",
@@ -44,16 +43,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Gold Reserve Inc.",
-  "primary_symbol": "GDRZF",
+  "name": "GOLD RESERVE INC",
+  "primary_symbol": "CA38068N3067.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Gold Reserve Inc., an exploration stage company, acquires, explores, and develops mining properties. It primarily focuses on the Siembra Minera project that holds gold, copper, silver, and other strategic mineral rights comprising an area of approximately 18,950 hectares located in Bolivar, Venezuela. The company was incorporated in 1956 and is based in Spokane, Washington.",
+  "summary": "GOLD RESERVE INC is a gold development company focused on the Siembra Minera project in Venezuela. The company is working towards developing a large-scale gold mining operation. Gold Reserve is headquartered in Spokane, Washington, USA.",
   "website": "http://www.goldreserveinc.com"
 }

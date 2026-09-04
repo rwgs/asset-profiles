@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000PD0R76",
-    "figi": "BBG000PD0V31",
+    "composite_figi": "BBG000BHSQT0",
+    "figi": "BBG000BHSS16",
     "isin": "AU000000KCN1"
   },
   "industry": "Metals & Mining",
@@ -12,33 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KCN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KCN.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KCN.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KSKGF"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "KCN.AX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KCN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "KCN.DU"
     },
     {
@@ -48,21 +33,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "KCN.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KCN.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KCN.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KSKGF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Kingsgate Consolidated Limited",
-  "primary_symbol": "KCN.BE",
+  "primary_symbol": "KCN.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "KINGSGATE CONSOLIDATED is an Australian gold mining and exploration company. The company's primary asset is the Chatree Gold Mine in Thailand (though operations have been suspended). The company is based in Brisbane, Australia.",
+  "summary": "Kingsgate Consolidated Limited engages in the exploration, development, and mining of gold and silver mineral properties. It holds a 100% interest in the Nueva Esperanza gold/silver project located in the Atacama region of northern Chile; and Chatree gold mine located in central Thailand. The company was incorporated in 1970 and is based in Sydney, Australia.",
   "website": "http://www.kingsgate.com.au"
 }

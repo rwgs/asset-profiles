@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C0RWW0",
+    "composite_figi": "BBG000BQLTW7",
     "cusip": "68389X105",
-    "figi": "BBG000C0RYL8",
+    "figi": "BBG000BQLY10",
     "isin": "US68389X1054"
   },
   "industry": "Software",
@@ -15,31 +15,11 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "ORC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ORC.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ORC.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ORC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "ORCL"
     },
     {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "4716.T"
     },
     {
@@ -49,18 +29,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ORC.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "ORC.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ORC.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ORC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ORC.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ORC.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ORC.MU"
     },
     {
       "currency": "EUR",
@@ -90,15 +90,15 @@
   ],
   "market_cap_band": "Mega Cap",
   "name": "Oracle Corporation",
-  "primary_symbol": "ORC.BE",
+  "primary_symbol": "ORCL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Oracle Corporation is a multinational computer technology corporation that provides a wide range of software and hardware products and services. Its offerings include database management systems, cloud infrastructure, enterprise resource planning (ERP) software, and customer relationship management (CRM) software. Oracle is headquartered in Austin, Texas.",
+  "summary": "Oracle Corporation provides products and services that address enterprise information technology environments worldwide. Its Oracle cloud software as a service offering include various cloud software applications, including Oracle enterprise resource planning (ERP) cloud, Oracle enterprise and performance management cloud, Oracle supply chain management cloud, Oracle human capital management cloud, Oracle customer experience cloud, and NetSuite application suite. The company also offers cloud-based industry solutions for various industries; Oracle application licenses; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database, an enterprise database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities through its Oracle cloud infrastructure as a service offerings. Further, it offers infrastructure offerings comprising Oracle autonomous data warehouse cloud service, Oracle autonomous transaction processing cloud service, Internet-of-Things, digital assistant, and Blockchain. Additionally, the company provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware services. The company markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation was founded in 1977 and is headquartered in Austin, Texas.",
   "website": "http://www.oracle.com"
 }

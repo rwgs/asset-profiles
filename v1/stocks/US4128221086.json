@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BKZTP3",
     "cusip": "412822108",
+    "figi": "BBG000BKZWW8",
     "isin": "US4128221086"
   },
   "industry": "Automobiles",
@@ -13,15 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "HAR.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "HOG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0QYY.L"
     },
@@ -46,6 +43,9 @@
       "symbol": "HAR.SG"
     },
     {
+      "symbol": "HAR.TI"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "HOG.BA"
@@ -63,9 +63,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Harley-Davidson, Inc.",
-  "primary_symbol": "HAR.TI",
+  "primary_symbol": "HOG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

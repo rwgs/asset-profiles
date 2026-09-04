@@ -2,8 +2,8 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
-    "composite_figi": "BBG00NTJTKC7",
-    "figi": "BBG00NTJTKD6",
+    "composite_figi": "BBG000CWDH03",
+    "figi": "BBG000CWDH85",
     "isin": "PTEDP0AM0009"
   },
   "industry": "Multi-Utilities",
@@ -11,21 +11,6 @@
   "isin": "PTEDP0AM0009",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EDP.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EDPFY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ELCPF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -42,16 +27,29 @@
       "symbol": "EDP.SG"
     },
     {
+      "symbol": "EDP.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EDPA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EDPFY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ELCPF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "EDP S.A.",
-  "primary_symbol": "EDP.TI",
+  "primary_symbol": "EDP.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

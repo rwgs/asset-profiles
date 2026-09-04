@@ -2,34 +2,24 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00FJV8BP7",
-    "figi": "BBG00FJV8BW9",
+    "composite_figi": "BBG006RC9W64",
+    "figi": "BBG00FD8ZKB9",
     "isin": "KYG5966D1051"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Telecommunication Services",
   "isin": "KYG5966D1051",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M5U.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M5U.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MEIUF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1357.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M5U.BE"
     },
     {
       "currency": "EUR",
@@ -38,21 +28,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M5U.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "M5U.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MEIUF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Meitu Inc.",
-  "primary_symbol": "M5U.BE",
+  "primary_symbol": "1357.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Meitu Inc. is a China-based technology company primarily known for its photo editing and social media applications. The company's business model focuses on providing users with tools and platforms for creating and sharing visually appealing content, generating revenue through advertising, in-app purchases, and other value-added services. Meitu is headquartered in Xiamen, China",
+  "sector": "Communications",
+  "summary": "Meitu, Inc., an investment holding company, operates as a mobile Internet company in the People's Republic of China. It offers a portfolio of photo and community apps, including Meitu, BeautyCam, BeautyPlus, Meipai, MeituEve, Airbrush, and others. The company also provides online advertising, premium subscription and in-app purchases, Internet value-added, and other services. In addition, it offers information technology and online recruitment services; and develops and operates apps, as well as develops, manufactures, and sells smartphones. Meitu, Inc. was founded in 2008 and is headquartered in Xiamen, China.",
   "website": "http://www.meitu.com"
 }

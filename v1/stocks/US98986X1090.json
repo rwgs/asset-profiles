@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009RRR6X2",
     "cusip": "98986X109",
-    "figi": "BBG009RRR733",
     "isin": "US98986X1090"
   },
   "industry": "Pharmaceuticals",
@@ -14,23 +12,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6ZY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6ZY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ZYNE"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0M40.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6ZY.BE"
     },
     {
       "currency": "EUR",
@@ -39,21 +32,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6ZY.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "6ZY.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "ZYNERBA PHARMACEUTIC.INC.",
-  "primary_symbol": "6ZY.BE",
+  "name": "ZYNERBA PHARMACEUTICALS, INC.",
+  "primary_symbol": "ZYNE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Zynerba Pharmaceuticals, Inc. is a clinical-stage specialty pharmaceutical company focused on developing and commercializing pharmaceutically-produced cannabinoid therapeutics for rare and near-rare neuropsychiatric disorders. The company's lead product candidate is Zygel, a cannabidiol (CBD) formulated as a permeation-enhanced gel for transdermal delivery. Zynerba Pharmaceuticals is headquartered in Devon, Pennsylvania.",
+  "summary": "Zynerba Pharmaceuticals, Inc. operates as a clinical stage specialty pharmaceutical company. It focuses on developing pharmaceutically-produced transdermal cannabinoid therapies for rare and near-rare neuropsychiatric disorders. It improves the lives of patients and their families living with severe, chronic health conditions, including Fragile X syndrome, autism spectrum disorder, 22q11.2 deletion syndrome, and a heterogeneous group of rare and ultra-rare epilepsies known as developmental and epileptic encephalopathies. The company was formerly known as AllTranz, Inc. and changed its name to Zynerba Pharmaceuticals, Inc. in August 2014. Zynerba Pharmaceuticals, Inc. was incorporated in 2007 and is headquartered in Devon, Pennsylvania.",
   "website": "http://zynerba.com"
 }

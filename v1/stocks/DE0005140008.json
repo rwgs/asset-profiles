@@ -17,34 +17,14 @@
       "symbol": "DB"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DBK.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DBK.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DBK.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DBK.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DBK.TI"
-    },
-    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "DBAG34.SA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DBK.BE"
     },
     {
       "currency": "EUR",
@@ -52,8 +32,8 @@
       "symbol": "DBK.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DBK.DU"
     },
     {
@@ -63,8 +43,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "DBK.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DBK.HM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "DBK.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DBK.MU"
     },
     {
       "currency": "CZK",
@@ -75,6 +70,10 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DBK.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "DBK.TI"
     },
     {
       "currency": "EUR",
@@ -91,7 +90,7 @@
   "name": "Deutsche Bank Aktiengesellschaft",
   "primary_symbol": "DB",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

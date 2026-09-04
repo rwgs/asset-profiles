@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00ZTGGVQ1",
+    "composite_figi": "BBG00ZGF6SS3",
     "cusip": "25402D102",
-    "figi": "BBG00ZTGGVX3",
+    "figi": "BBG00ZGF6SX7",
     "isin": "US25402D1028"
   },
   "industry": "Software",
@@ -15,21 +15,16 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0SU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0SU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "DOCN"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0SU.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0SU.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0SU.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US25402D1028.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "DIGITALOCEAN HLD.-,000025",
-  "primary_symbol": "0SU.BE",
+  "name": "DigitalOcean Holdings, Inc.",
+  "primary_symbol": "DOCN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "DigitalOcean Holdings, Inc. is a cloud infrastructure provider that offers compute, storage, and networking services to developers and small to medium-sized businesses (SMBs). Their platform simplifies cloud computing to allow businesses to build, deploy, and scale applications easily. DigitalOcean is headquartered in New York, NY.",
+  "summary": "DigitalOcean Holdings, Inc. operates a cloud computing platform that offers infrastructure and platform tools for developers, start-ups, and small and medium-sized businesses in North America, Europe, Asia, and internationally. It offers infrastructure solutions across compute, storage, and networking fields, as well as managed application, container, and database offerings to developers. The company's users include software engineers, researchers, data scientists, system administrators, students, and hobbyists. Its customers use its platform in various industry verticals and for a range of use cases, such as web and mobile applications, website hosting, e-commerce, media and gaming, personal web projects, managed services, and others. The company was incorporated in 2012 and is headquartered in New York, New York.",
   "website": "http://www.digitalocean.com"
 }

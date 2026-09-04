@@ -3,7 +3,7 @@
   "country_code": "FR",
   "identifiers": {
     "composite_figi": "BBG00Z6QQ3Q5",
-    "figi": "BBG00Z6QQ3W8",
+    "figi": "BBG00Z6QQ3R4",
     "isin": "FR0011464452"
   },
   "industry": "Health Care Technology",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6W5.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6W5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6W5.MU"
     },
     {
       "currency": "EUR",
@@ -33,16 +33,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "SPINEGUARD  EO -,05",
-  "primary_symbol": "6W5.MU",
+  "name": "SpineGuard",
+  "primary_symbol": "6W5.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SpineGuard SA is a French medical technology company that designs, develops, and markets devices used to enhance the safety and efficiency of spinal surgeries. The company's PediGuard technology provides real-time feedback to surgeons during pedicle screw placement, reducing the risk of complications. SpineGuard is headquartered in Paris, France.",
+  "summary": "SpineGuard SA provides designs, develops, and markets medical devices used in surgical procedures worldwide. The company provides PediGuard Straight probe for screw placement; PediGuard Curved probe that includes a tapered tip to enhance the ease of penetrating through pedicle; PediGuard Cannulated probe primarily for helping surgeons reduce radiation exposure during minimally-invasive procedures; and PediGuard Threaded Device, a drilling instrument. It also offers DSG (Dynamic Surgical Guidance) Connect app, which allows collection and visualization of the signal measured at the tip of DSG connect devices during pedicle drilling; and DSG smart screw allows for one step screw placement treatment. The company serves patients, surgeons, operating room staff, and health care providers. SpineGuard SA was founded in 2009 and is headquartered in Vincennes, France.",
   "website": "http://www.spineguard.com"
 }

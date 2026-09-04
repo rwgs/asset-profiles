@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG002Q5CTC5",
+    "composite_figi": "BBG000Q2HM09",
     "cusip": "985817105",
-    "figi": "BBG002Q5CTK6",
+    "figi": "BBG0028BGPW4",
     "isin": "US9858171054"
   },
   "industry": "Diversified Telecommunication Services",
@@ -15,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "Y9L.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "Y9L.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "YELP"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "Y9L.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "Y9L.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "Y9L.MU"
     },
     {
       "currency": "EUR",
@@ -48,11 +48,11 @@
       "symbol": "YELP.VI"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Yelp Inc.",
-  "primary_symbol": "Y9L.BE",
+  "primary_symbol": "YELP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

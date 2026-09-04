@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG0018YXGD8",
     "cusip": "573459104",
-    "figi": "BBG0018YXGK0",
+    "figi": "BBG0018YXGF6",
     "isin": "CA5734591046"
   },
   "industry": "Auto Components",
@@ -13,19 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "03M.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRETF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "03M.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "03M.MU"
     },
     {
       "currency": "EUR",
@@ -36,19 +31,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "MRE.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MRETF"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "MARTINREA INTL INC.",
-  "primary_symbol": "03M.MU",
+  "name": "Martinrea International Inc.",
+  "primary_symbol": "03M.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Martinrea International Inc. is a global automotive supplier engaged in the design, engineering, and manufacturing of metal parts, assemblies and modules, fluid management systems, and aluminum products. They supply products to automotive manufacturers primarily for light vehicles. The company is headquartered in Vaughan, Ontario, Canada.",
+  "summary": "Martinrea International Inc. designs, develops, manufactures, and sells metal parts, assemblies and modules, fluid management systems, and aluminum products primarily to the automotive industry in North America, Europe, and internationally. It offers engine blocks, transmissions, cases, housings, ladder frames, oil coolers, hoses, tube assemblies, oil fillers, tubes, indicators, oil pick-up screens and pipes, heater hose inlets and outlets, and electric motor housings; and front horizontal, rear suspension, and front vertical modules. It also provides mufflers, DPS lines, EGR tubes, air-injection tubes, and exhaust manifold tubes; fuel filler necks, capless refueling systems, fuel tank/sender assemblies, vapor assemblies and canister hoses, fuel line feed/return assembly systems, and fuel lines and hoses; and air-conditioning lines, and heater core inlet and outlet assemblies. In addition, it offers frame rail assemblies, surface stampings, structural BIW components, suspension arms and links, engine cradles, centre and rear crossmembers, suspension twist axles, roof assemblies, door intrusion beams, bumpers, radiator support assemblies, trailer hitches, dash and plenum assemblies, wheelhouse assemblies, roll-formed rockers and headers, appliqués, battery trays and housings, aluminum and steel shock towers, control arms, and knuckles, as well as belt, upper reveal, roof ditch, D-line, and other exterior decorative moldings. Further, it provides brake lines and assemblies, power steering lines and assemblies, power steering oil fillers, and tubes and indicators; and graphene brake lines products. The company was formerly known as Royal Laser Tech Corporation and changed its name to Martinrea International Inc. in June 2002. Martinrea International Inc. was incorporated in 1987 and is headquartered in Vaughan, Canada.",
   "website": "http://www.martinrea.com"
 }

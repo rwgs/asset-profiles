@@ -2,8 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000BKR020",
-    "figi": "BBG000BKR397",
+    "composite_figi": "BBG000BC9144",
+    "figi": "BBG000BC91H0",
     "isin": "IT0003497168"
   },
   "industry": "Diversified Telecommunication Services",
@@ -11,26 +11,6 @@
   "isin": "IT0003497168",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TQI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TQI.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TQI.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TQI.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -42,22 +22,42 @@
       "symbol": "TITR.MI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TQI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TQI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TQI.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TQI.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TQI.MU"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Telecom Italia S.p.A.",
-  "primary_symbol": "TQI.BE",
+  "primary_symbol": "TIT.MI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Telecom Italia S.p.A. is an Italian telecommunications company that provides fixed and mobile telephony, internet, and digital services. The company operates in Italy and Brazil under the TIM brand, offering a range of communication and entertainment services to consumers and businesses. Telecom Italia is headquartered in Rome, Italy.",
+  "summary": "Telecom Italia S.p.A., together with its subsidiaries, provides fixed and mobile telecommunications services in Italy and internationally. The company operates through Domestic, Brazil, and Other Operations segments. It offers fixed and mobile voice and Internet, and public telephony services, as well as products managed and developed for individuals and families; and voice, data, and Internet services and products, and information and communications technology solutions for small and medium-size enterprises, small offices/home offices, the public sector, large accounts, and enterprises in the fixed and mobile telecommunications markets. The company also manages and develops a portfolio of regulated and unregulated wholesale services for fixed-line and mobile telecommunications operators; provision of infrastructure for housing radio transmission equipment of mobile telephone networks; and development, engineering, construction, and operation of network infrastructures, information technology (IT), real estate properties, and plant engineering. In addition, it is involved in customer care, operating credit support, loyalty, and retention activities; and staff functions and other support activities. Further, the company offers products and services for communication, industrial, IT, and other sectors. It has a strategic partnership with Google Cloud. The company was incorporated in 1908 and is headquartered in Rome, Italy.",
   "website": "http://www.gruppotim.it/en.html"
 }

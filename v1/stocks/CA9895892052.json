@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000PNQGT6",
+    "composite_figi": "BBG000MSV2C1",
     "cusip": "989589205",
-    "figi": "BBG000PNQJV7",
+    "figi": "BBG000MSV375",
     "isin": "CA9895892052"
   },
   "industry": "Capital Markets",
@@ -13,24 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZCT1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZCT1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ZTMUF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "ZC.V"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ZCT1.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +29,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ZCT1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ZCT1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ZTMUF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Zimtu Capital Corp.",
-  "primary_symbol": "ZCT1.BE",
+  "primary_symbol": "ZC.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

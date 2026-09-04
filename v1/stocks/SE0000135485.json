@@ -10,14 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "SEK",
+      "exchange_mic": "XLON",
       "symbol": "0GRZ.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RSLBF"
     },
     {
       "currency": "EUR",
@@ -30,12 +25,17 @@
       "symbol": "RAY-B.ST"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RSLBF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0000135485.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000135485.SW"
     }
@@ -44,7 +44,7 @@
   "name": "RaySearch Laboratories AB Class B",
   "primary_symbol": "0GRZ.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

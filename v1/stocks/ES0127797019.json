@@ -2,8 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000VLMK81",
-    "figi": "BBG000VLMK81",
+    "composite_figi": "BBG000PRGVZ8",
+    "figi": "BBG000PRGX02",
     "isin": "ES0127797019"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EDRVF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XLIS",
       "symbol": "EDPR.LS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EDRVF"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "EDP Renovaveis, S.A.",
-  "primary_symbol": "EDRVF",
+  "primary_symbol": "EDPR.LS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

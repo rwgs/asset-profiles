@@ -1,9 +1,7 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Spain",
+  "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG00D8RX738",
-    "figi": "BBG00D8RX783",
     "isin": "ES0167733015"
   },
   "industry": "Biotechnology",
@@ -12,17 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ORN.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ORYZF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RDB.L"
     },
@@ -30,6 +18,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ORN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ORN.MU"
     },
     {
       "currency": "EUR",
@@ -45,19 +38,24 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "ORYN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ORYZF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Oryzon Genomics SA",
-  "primary_symbol": "ORN.MU",
+  "primary_symbol": "0RDB.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Oryzon Genomics SA is a public biopharmaceutical company dedicated to the discovery and development of personalized medicines for oncology and neurodegenerative diseases. The company leverages its expertise in epigenetics and genomics to develop novel therapies. Oryzon Genomics is headquartered in Barcelona, Spain.",
+  "summary": "Oryzon Genomics S.A., a clinical phase biopharmaceutical company, engages in the discovery and development of epigenetics-based therapeutics for the treatment of oncological and CNS disorders. Its clinical phase compounds include iadademstat (ORY-1001), a selective LSD1 inhibitor that is in Phase II trials for oncology; and vafidemstat (ORY-2001), a CNS-optimized LSD1 inhibitor, which is in Phase II trials for the treatment of CNS and psychiatric diseases. Its product candidates also comprise ORY-3001, a LSD1 inhibitor that is in preclinical development for the treatment of non-oncological diseases, as well as other programs at various stages of development. The company was founded in 2000 and is based in Cornellà de Llobregat, Spain.",
   "website": "http://www.oryzon.com"
 }

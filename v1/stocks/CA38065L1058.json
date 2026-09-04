@@ -2,6 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00PSSMHN5",
     "cusip": "38065L105",
     "isin": "CA38065L1058"
   },
@@ -11,11 +12,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GMTNF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA38065L1058.SG"
@@ -24,19 +20,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "GMTN.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GMTNF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Gold Mountain Mining Corp.",
-  "primary_symbol": "GMTNF",
+  "name": "GOLD MOUNTAIN MINING CORP",
+  "primary_symbol": "CA38065L1058.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Gold Mountain Mining Corp. engages in the exploration and development of mineral properties in Canada. It explores for gold and silver deposits. The company holds 100% interest in the Elk Gold project covering an area of 16,716 hectares located in the South Central, British Columbia. The company was formerly known as Freeform Capital Partners Inc. and changed its name to Gold Mountain Mining Corp. in December 2020. The company was founded in 2018 and is headquartered in Vancouver, Canada.",
+  "summary": "GOLD MOUNTAIN MINING CORP is a gold exploration and development company focused on its Elk Gold Project in British Columbia, Canada. The company aims to become a gold producer. Gold Mountain Mining is based in Surrey, British Columbia, Canada.",
   "website": "http://www.gmtn.gold"
 }

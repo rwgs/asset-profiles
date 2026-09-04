@@ -2,8 +2,7 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00DVWRPV7",
-    "figi": "BBG00DVWRPV7",
+    "composite_figi": "BBG006KY4KD6",
     "isin": "CNE100001SR9"
   },
   "industry": "Real Estate Management & Development",
@@ -11,11 +10,6 @@
   "isin": "CNE100001SR9",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CHVKF"
-    },
     {
       "currency": "CNY",
       "exchange_mic": "XSHE",
@@ -30,13 +24,18 @@
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "2202.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CHVKF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "China Vanke Co., Ltd.",
-  "primary_symbol": "CHVKF",
+  "primary_symbol": "000002.SZ",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00PVCH987",
     "cusip": "77683B107",
-    "figi": "BBG00PVCH9F9",
+    "figi": "BBG00PVCH996",
     "isin": "CA77683B1076"
   },
   "industry": "Metals & Mining",
@@ -13,24 +13,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2OJ.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RCGCF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2OJ.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2OJ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA77683B1076.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RCGCF"
     },
     {
       "currency": "CAD",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "RosCan Gold Corporation",
-  "primary_symbol": "2OJ.MU",
+  "primary_symbol": "2OJ.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Roscan Gold Corporation is a Canadian mineral exploration company focused on exploring and developing gold properties in West Africa. They are primarily focused on their flagship Kandiole Project in Mali. The company is headquartered in Toronto, Canada.",
+  "summary": "Roscan Gold Corporation, an exploration stage mineral resource company, engages in the acquisition, exploration, and development of gold properties in West Africa. Its principal project is Kandiole project that hosts 10 gold prospective targets located in the Kenieba area of Southwest Mali. The company was formerly known as Roscan Minerals Corporation and changed its name to RosCan Gold Corporation in September 2018. Roscan Gold Corporation was incorporated in 1987 and is headquartered in Toronto, Canada.",
   "website": "http://www.roscan.ca"
 }

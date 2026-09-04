@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000C29QY7",
-    "figi": "BBG000C29SV6",
+    "composite_figi": "BBG000BL1QQ3",
+    "figi": "BBG000BL1RH1",
     "isin": "AU0000049033"
   },
   "industry": "Metals & Mining",
@@ -11,21 +11,6 @@
   "isin": "AU0000049033",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HLS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HLS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IAUFF"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -38,21 +23,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HLS.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HLS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HLS.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IAUFF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "AIC Mines Limited",
-  "primary_symbol": "HLS.BE",
+  "primary_symbol": "A1M.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "AIC Resources Limited is an Australian resources company focused on the exploration and development of mineral projects, primarily base and precious metals. The company's projects are located in Australia. It aims to create value through resource discovery and project development.",
+  "summary": "AIC Mines Limited explores for and develops gold and copper deposits in Australia. It holds a 100% interest in the Marymia project comprising an area of approximately 3,600 square kilometers located in the eastern Gascoyne region of Western Australia. AIC Mines Limited is based in Subiaco, Australia.",
   "website": "http://www.aicmines.com.au"
 }

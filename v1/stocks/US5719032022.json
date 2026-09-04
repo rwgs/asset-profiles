@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BGD7W6",
     "cusip": "571903202",
+    "figi": "BBG000BGDJN0",
     "isin": "US5719032022"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MAQ.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MAR"
     },
     {
@@ -41,6 +38,9 @@
       "symbol": "MAQ.SG"
     },
     {
+      "symbol": "MAQ.TI"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "MAR.MX"
@@ -53,9 +53,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Marriott International, Inc. Class A",
-  "primary_symbol": "MAQ.TI",
+  "primary_symbol": "MAR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

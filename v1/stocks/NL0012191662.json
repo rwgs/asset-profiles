@@ -2,8 +2,8 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG00Q6DDNC9",
-    "figi": "BBG00Q6DDNJ2",
+    "composite_figi": "BBG00MFDCZF9",
+    "figi": "BBG00Q5L58D3",
     "isin": "NL0012191662"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,11 +11,6 @@
   "isin": "NL0012191662",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LPF.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LPF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LPF.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "La Perla Fashion Holding N.V.",
-  "primary_symbol": "LPF.MU",
+  "primary_symbol": "ALPER.PA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

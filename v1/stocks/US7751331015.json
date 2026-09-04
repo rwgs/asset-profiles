@@ -2,21 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BQF8S5",
+    "composite_figi": "BBG000BS9HN3",
     "cusip": "775133101",
-    "figi": "BBG000BQFC06",
+    "figi": "BBG000BS9KW6",
     "isin": "US7751331015"
   },
   "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Capital Goods",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US7751331015",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RG6.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RG6.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RG6.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "ROGERS CORP.  DL 1",
-  "primary_symbol": "RG6.MU",
+  "name": "Rogers Corporation",
+  "primary_symbol": "ROG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Rogers Corporation designs, develops, manufactures, and sells engineered materials and components. The company provides solutions for high-performance applications in various markets, including wireless communications, automotive, and aerospace. Rogers Corporation operates globally, serving a diverse customer base with its advanced materials technologies.",
+  "sector": "Information Technology",
+  "summary": "Rogers Corporation designs, develops, manufactures, and sells engineered materials and components worldwide. It operates in Advanced Connectivity Solutions (ACS), Elastomeric Material Solutions (EMS), Power Electronics Solutions (PES), and Other segments. The ACS segment offers circuit materials and solutions for connectivity applications in wireless infrastructure, automotive, aerospace and defense, connected devices, and wired infrastructure under the RO4000, RO3000, RT/duroid, TMM, AD Series, CuClad, Kappa, DiClad, IsoClad, COOLSPAN, MAGTREX, TC Series, IM Series, 92ML, and CLTE Series names. The EMS segment provides engineered material solutions, including polyurethane and silicone materials used in cushioning, gasketing, sealing, and vibration management applications for general industrial, portable electronics, automotive, mass transit, aerospace and defense, footwear and impact mitigation, and printing markets; customized silicones used in flex heater and semiconductor thermal applications; and polytetrafluoroethylene and ultra-high molecular weight polyethylene materials used in wire and cable, electrical insulation, and automotive applications under the PORON, BISCO, DeWAL, ARLON, Griswold, eSORBA, XRD, HeatSORB, and R/bak names. The PES segment offers ceramic substrate materials, busbars, and cooling solutions under the curamik and ROLINX names. The Other segment provides elastomer components; and elastomer floats for level sensing in fuel tanks, motors, and storage tanks for applications in the general industrial and automotive markets under the ENDUR and NITROPHYL names. Rogers Corporation was founded in 1832 and is headquartered in Chandler, Arizona.",
   "website": "http://www.rogerscorp.com"
 }

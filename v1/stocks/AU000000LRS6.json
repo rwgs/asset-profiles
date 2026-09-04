@@ -2,8 +2,6 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00D854GG4",
-    "figi": "BBG00D854GM7",
     "isin": "AU000000LRS6"
   },
   "industry": "Metals & Mining",
@@ -11,11 +9,6 @@
   "isin": "AU000000LRS6",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "XL5.MU"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -28,21 +21,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "XL5.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "XL5.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "LATIN RESOURCES LTD",
-  "primary_symbol": "XL5.MU",
+  "name": "Latin Resources Limited",
+  "primary_symbol": "LRS.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Latin Resources Ltd is an Australian-based mineral exploration company. It focuses on the exploration and development of lithium, kaolin, and halloysite projects. The company primarily operates in Australia and South America.",
+  "summary": "Latin Resources Limited engages in the exploration and evaluation of mining projects in Australia, Brazil, Peru, and Argentina. The company primarily explores for lithium, silver, lead, copper, and gold deposits. Its flagship project is the Soft Rock Halloysite Project covering an area of 54 square kilometers located near Merredin, Western Australia. The company also holds interests in properties situated in Catamarca and San Luis Provinces, Argentina; in the Paterson region, Western Australia; and 70 km east of Albury, New South Wales. Latin Resources Limited was incorporated in 2008 and is headquartered in West Leederville, Australia.",
   "website": "http://www.latinresources.com.au"
 }

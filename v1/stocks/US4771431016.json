@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GM3D47",
+    "composite_figi": "BBG000BRQ6L2",
     "cusip": "477143101",
-    "figi": "BBG000GM3J35",
+    "figi": "BBG000BRQHD7",
     "isin": "US4771431016"
   },
   "industry": "Airlines",
@@ -14,16 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JAW.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "JBLU"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0JOT.L"
     },
@@ -33,14 +28,19 @@
       "symbol": "JAW.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "JAW.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "JAW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JAW.MU"
     },
     {
       "currency": "EUR",
@@ -54,16 +54,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "JETBLUE AWYS CORP. DL-,01",
-  "primary_symbol": "JAW.MU",
+  "name": "JetBlue Airways Corporation",
+  "primary_symbol": "JBLU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "JetBlue Airways Corporation is a low-cost airline that provides passenger air transportation services. The company operates primarily in the United States, Latin America, and the Caribbean. JetBlue is headquartered in Long Island City, New York.",
+  "summary": "JetBlue Airways Corporation provides air passenger transportation services. As of December 31, 2020, the company operated a fleet of 63 Airbus A321 aircraft, 1 Airbus A220 aircraft, 13 Airbus A321 neo aircraft, 130 Airbus A320 aircraft, and 60 Embraer E190 aircraft. It also served 98 destinations in the 30 states in the United States, the District of Columbia, the Commonwealth of Puerto Rico, the U.S. Virgin Islands, and 23 countries in the Caribbean and Latin America. JetBlue Airways Corporation has a strategic partnership with American Airlines Group Inc. to create connectivity for travelers in the Northeast. The company was incorporated in 1998 and is based in Long Island City, New York.",
   "website": "http://www.jetblue.com"
 }

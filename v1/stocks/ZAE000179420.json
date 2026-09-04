@@ -2,8 +2,8 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG0081J7Q04",
-    "figi": "BBG0081J7Q04",
+    "composite_figi": "BBG000DL15Y8",
+    "figi": "BBG000DL1765",
     "isin": "ZAE000179420"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -11,11 +11,6 @@
   "isin": "ZAE000179420",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GWWTF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -25,19 +20,24 @@
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "GRT.JO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GWWTF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Growthpoint Properties Limited",
-  "primary_symbol": "GWWTF",
+  "primary_symbol": "G5JA.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Growthpoint is the largest South African primary JSE-listed REIT with a quality portfolio of 440 directly owned properties in South Africa (RSA) valued at R73.4bn, including four hospitals and one medical chambers valued at R2.6bn owned by Growthpoint Healthcare Property Holdings (RF) Limited (GHPH). Growthpoint has a 61.8% shareholding in GHPH. We have a 62.2% interest in ASX-listed Growthpoint Properties Australia Limited (GOZ), which owns 58 properties in Australia valued at R51.8bn and a 52.1% interest in LSE-listed Capital & Regional Plc (C&R), which owns seven properties in the United Kingdom valued at R14.8bn.",
+  "summary": "Growthpoint Properties Limited is a South African real estate investment trust (REIT). The company invests in a diversified portfolio of office, retail, and industrial properties in South Africa and internationally. Growthpoint Properties is headquartered in Johannesburg, South Africa.",
   "website": "http://www.growthpoint.co.za"
 }

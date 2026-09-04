@@ -2,26 +2,23 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG005XZHR97",
     "cusip": "923454102",
+    "figi": "BBG005XZHRG9",
     "isin": "US9234541020"
   },
   "industry": "Industrial Conglomerates",
-  "industry_group": "Materials",
+  "industry_group": "Capital Goods",
   "isin": "US9234541020",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "288.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "VRTV"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LP2.L"
     },
@@ -29,6 +26,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "288.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "288.MU"
     },
     {
       "currency": "EUR",
@@ -43,15 +45,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "VERITIV CORPORATION",
-  "primary_symbol": "288.MU",
+  "primary_symbol": "VRTV",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "Veritiv Corporation is a business-to-business distributor of printing papers, packaging, facility solutions, and publishing supplies. The company provides a range of products and services to customers in various industries. Veritiv is headquartered in Atlanta, Georgia.",
+  "sector": "Industrials",
+  "summary": "Veritiv Corporation operates as a business-to-business provider of value-added packaging products and services, as well as facility solutions, print, and publishing products and services in the United States, Canada, Mexico, and internationally. The Packaging segment provides custom and standard packaging solutions. The Facility Solutions segment sources and sells cleaning, break-room, and other supplies, such as towels, tissues, commercial cleaning chemicals, personal protective equipment and safety supplies, wipers, can liners, soaps and sanitizers, dispensers, sanitary maintenance supplies and equipment, hazard supplies, and shampoos and amenities. The Print segment sells and distributes commercial printing, writing, copying, digital, and specialty products; and graphics consumables and equipment. It also provides customized paper conversion services of commercial printing paper for distribution to document centers and form printers. The Publishing segment sells and distributes coated and uncoated commercial printing papers to publishers, retailers, converters, printers, and specialty businesses for use in magazines, catalogs, books, directories, gaming, couponing, retail inserts, and direct mail. This segment also provides print management, procurement, and supply chain management solutions. The company also offers logistics solutions. Veritiv Corporation offers its products under the Endurance, nordic+, Comet, Starbrite Opaque Select, TUFflex, Reliable, and Spring Grove brands, as well as other brands to customers in manufacturing, food processing and service, fulfillment and internet retail, property management, higher education, healthcare, entertainment and hospitality, commercial printing and publishing sectors. As of December 31, 2020 the Company operated approximately 125 distribution centers. Veritiv Corporation was incorporated in 2013 and is headquartered in Atlanta, Georgia.",
   "website": "http://www.veritivcorp.com"
 }

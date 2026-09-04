@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG008LFPWG0",
     "cusip": "171757107",
-    "figi": "BBG008LFPWP0",
     "isin": "US1717571079"
   },
   "industry": "Biotechnology",
@@ -14,22 +12,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "20D.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "20D.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CDTX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "20D.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "20D.DU"
     },
     {
@@ -39,21 +32,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "20D.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "20D.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "CIDARA THERAPEUT.DL-,0001",
-  "primary_symbol": "20D.BE",
+  "name": "Cidara Therapeutics, Inc.",
+  "primary_symbol": "CDTX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Cidara Therapeutics, Inc. is a biotechnology company focused on developing novel anti-infectives to treat fungal and other serious infections. Their lead product candidate is rezafungin, an antifungal agent for the treatment and prevention of serious fungal infections. The company is headquartered in San Diego, California.",
+  "summary": "Cidara Therapeutics, Inc., a biotechnology company, focuses on the discovery, development, and commercialization of novel long-acting anti-infectives for the treatment and prevention of diseases in the United States. The company's lead product candidate is rezafungin acetate, a novel molecule in the echinocandin class of antifungals for the treatment and prevention of serious invasive fungal infections, including candidemia and invasive candidiasis, which are fungal infections associated with high mortality rates. It also advances its Cloudbreak platform to develop antiviral conjugates for the prevention and treatment of influenza and other viral infections, such as RSV, HIV, and the SARS-CoV-2 strains causing COVID-19. The company was formerly known as K2 Therapeutics, Inc. and changed its name to Cidara Therapeutics, Inc. in July 2014. Cidara Therapeutics, Inc. was incorporated in 2012 and is headquartered in San Diego, California.",
   "website": "http://www.cidara.com"
 }

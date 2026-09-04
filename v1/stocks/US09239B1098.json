@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00F5DX7L7",
+    "composite_figi": "BBG0029KJVB0",
     "cusip": "09239B109",
-    "figi": "BBG00F5DX7S0",
+    "figi": "BBG00DYBZQ30",
     "isin": "US09239B1098"
   },
   "industry": "Software",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "02B.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "02B.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "BL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "02B.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "02B.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "02B.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "BlackLine, Inc.",
-  "primary_symbol": "02B.BE",
+  "primary_symbol": "BL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "BLACKLINE INC. DL-,01 provides cloud-based accounting automation software solutions that streamline financial close processes. The software platform offers features such as account reconciliation, task management, and variance analysis. BlackLine, Inc. is headquartered in Woodland Hills, California.",
+  "summary": "BlackLine, Inc. provides cloud-based solutions to automate and streamline accounting and finance operations in the United States and internationally. It offers financial close management solutions that include account reconciliations providing a centralized workspace from which users can collaborate to complete account reconciliations; transaction matching that analyzes and reconciles high volumes of individual transactions from different sources of data based upon user-configured logic; task management, which enables users to create and manage processes and task lists; journal entry that allows users to manually or automatically generate, review, and post manual journal entries; variance analysis that monitors and identifies anomalous fluctuations in balance sheet and income statement account balances; consolidation integrity manager that manages the automated system-to-system tie-out process that occurs during the consolidation phase of the financial close; and compliance that facilitates compliance-related initiatives, consolidates project management, and provides visibility over control self-assessments and testing. The company also provides cash application that drives end-to-end process from an invoice to cash in the bank. In addition, it offers intercompany workflow that stores permissions by entity and transaction type, ensuring that both the initiator and the approver of the intercompany transaction are authorized to conduct business; intercompany processing, which records an organization's intercompany transactions; and netting and settlement that generates a real-time, aggregated settlement matrix, which shows the balance of transactions across an entire organization. The company sells its solutions primarily through direct sales force to multinational corporations, large domestic enterprises, and mid-market companies across various industries. BlackLine, Inc. was founded in 2001 and is headquartered in Woodland Hills, California.",
   "website": "http://www.blackline.com"
 }

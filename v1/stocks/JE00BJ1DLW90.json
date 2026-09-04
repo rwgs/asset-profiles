@@ -2,8 +2,6 @@
   "country": "Jersey",
   "country_code": "JE",
   "identifiers": {
-    "composite_figi": "BBG00P97J4N5",
-    "figi": "BBG00P97J4V6",
     "isin": "JE00BJ1DLW90"
   },
   "industry": "Capital Markets",
@@ -12,42 +10,42 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M3N.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M3N.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MNGPF"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "EMG.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M3N.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "M3N.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M3N.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MNGPF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Man Group PLC",
-  "primary_symbol": "M3N.BE",
+  "primary_symbol": "EMG.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Man Group plc is a global active investment management business. The company provides a range of investment products and services across various asset classes to institutional and private clients. Man Group is headquartered in London, United Kingdom.",
+  "summary": "Man Group plc is a publicly owned investment manager. The firm provides long-only and alternative investment management services worldwide. It offers a range of liquid investment products and solutions, which include quantitative, multi-manager and discretionary investment styles, and span across various asset classes, like equity, real estate, currency, credit, volatility, and commodities. The firm distributes its products and solutions directly to institutions and to private investors through a global network of intermediaries. Man Group plc was founded in 1783 and is based in St. Helier, Jersey with an additional office in London, United Kingdom.",
   "website": "http://www.man.com"
 }

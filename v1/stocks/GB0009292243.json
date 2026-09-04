@@ -2,8 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000PC0NG7",
-    "figi": "BBG000PC0NG7",
+    "composite_figi": "BBG00GCR1S71",
+    "figi": "BBG00GCR1S80",
     "isin": "GB0009292243"
   },
   "industry": "Chemicals",
@@ -11,11 +11,6 @@
   "isin": "GB0009292243",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTXPF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -30,13 +25,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "VCT.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VTXPF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Victrex plc",
-  "primary_symbol": "VTXPF",
+  "primary_symbol": "1OY.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

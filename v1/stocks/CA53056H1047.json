@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG001MHGV54",
+    "composite_figi": "BBG001HR24Y1",
     "cusip": "53056H104",
-    "figi": "BBG001MHGV54",
+    "figi": "BBG001M8HGJ1",
     "isin": "CA53056H1047"
   },
   "industry": "Metals & Mining",
@@ -13,39 +13,39 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LGDTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PGW.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PGW.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PGW.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PGW.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "LGD.TO"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LGDTF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PGW.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PGW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PGW.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PGW.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PGW.MU"
     },
     {
       "currency": "EUR",
@@ -55,9 +55,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Liberty Gold Corp",
-  "primary_symbol": "LGDTF",
+  "primary_symbol": "LGD.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

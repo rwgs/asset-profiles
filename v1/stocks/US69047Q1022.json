@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00RKBFNV2",
+    "composite_figi": "BBG00R2NHQ65",
     "cusip": "69047Q102",
-    "figi": "BBG00RKBFP10",
+    "figi": "BBG00R2NHQH3",
     "isin": "US69047Q1022"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,27 +15,27 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "47Q.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "47Q.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "OVV"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "47Q.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "47Q.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "47Q.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "47Q.MU"
     },
     {
       "currency": "MXN",
@@ -53,11 +53,11 @@
       "symbol": "US69047Q1022.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Ovintiv Inc. (DE)",
-  "primary_symbol": "47Q.BE",
+  "primary_symbol": "OVV",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,34 +3,13 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000H9N719",
-    "figi": "BBG000H9PDP8",
     "isin": "DE000NWRK013"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Telecommunication Services",
   "isin": "DE000NWRK013",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NWO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NWO.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NWO.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NWO.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -38,31 +17,51 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NWO.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "NWO.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NWO.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NWO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "NWO.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "NWO.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NWO.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "New Work SE",
-  "primary_symbol": "NWO.BE",
+  "primary_symbol": "DE000NWRK013.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "NEW WORK SE operates a social network for professionals, offering networking, recruiting, and employer branding solutions. Headquartered in Hamburg, Germany, the company primarily generates revenue through premium memberships, advertising, and e-recruiting services. It connects professionals and companies to facilitate career opportunities and knowledge sharing.",
+  "sector": "Communications",
+  "summary": "NEW WORK SE is a German company operating the XING social network for professionals. They offer a platform for networking, career development, and recruiting, primarily in German-speaking countries. The company is headquartered in Hamburg, Germany.",
   "website": "http://www.xing.com"
 }

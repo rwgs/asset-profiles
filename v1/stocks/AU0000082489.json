@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00KGFWPQ5",
-    "figi": "BBG00KGFWPQ5",
+    "composite_figi": "BBG000BYP1Z4",
+    "figi": "BBG000BYP371",
     "isin": "AU0000082489"
   },
   "industry": "Consumer Finance",
@@ -12,29 +12,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IMMFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MXG1.HM"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000082489.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IMMFF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MXG1.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MXG1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MXG1.HM"
     },
     {
       "currency": "AUD",
@@ -44,15 +44,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Omni Bridgeway Ltd",
-  "primary_symbol": "IMMFF",
+  "primary_symbol": "AU0000082489.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Omni Bridgeway Limited engages in investing in litigation and dispute resolution matters in Australia, the United States, Canada, Asia, Europe, the Middle East, and Africa. It offers litigation financing solutions, including bankruptcy, commercial, intellectual property, investor recoveries, class/group actions, appeals, and whistleblower. The company also provides arbitration financing; funding for companies; judgment enforcement; law firm financing; and distressed asset recovery solutions. It serves individual claimants, law firms, corporations, sovereigns, and multilateral institutions. The company was formerly known as IMF Bentham Limited and changed its name to Omni Bridgeway Limited in March 2020. Omni Bridgeway Limited was founded in 1986 and is based in Sydney, Australia.",
+  "summary": "Omni Bridgeway Ltd is a global litigation funder providing finance to parties involved in legal disputes. The company invests in commercial litigation and arbitration cases.",
   "website": "http://www.omnibridgeway.com"
 }

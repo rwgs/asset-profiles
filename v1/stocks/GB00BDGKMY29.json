@@ -3,22 +3,12 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00GD9JC67",
-    "figi": "BBG00GD9JCC0",
+    "figi": "BBG00GD9JC76",
     "isin": "GB00BDGKMY29"
   },
   "isin": "GB00BDGKMY29",
   "kind": "fund",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "B3P.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BOPCF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,20 +16,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "B3P.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "B3P.SG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BOPCF"
+    },
+    {
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "BPCR.L"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "BIOPHARMA CREDIT PLC",
-  "primary_symbol": "B3P.MU",
+  "primary_symbol": "B3P.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

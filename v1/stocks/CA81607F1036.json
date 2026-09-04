@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00QDJSX94",
+    "composite_figi": "BBG00YVVTD66",
     "cusip": "81607F103",
-    "figi": "BBG00QDJSX94",
+    "figi": "BBG00YVVTD75",
     "isin": "CA81607F1036"
   },
   "industry": "Software",
@@ -12,11 +12,6 @@
   "isin": "CA81607F1036",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SWISF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,13 +21,18 @@
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "SWIS.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SWISF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "GlobeX Data Ltd.",
-  "primary_symbol": "SWISF",
+  "primary_symbol": "GDT.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

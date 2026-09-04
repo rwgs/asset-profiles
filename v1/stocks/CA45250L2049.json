@@ -2,31 +2,15 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000G9LWR9",
+    "composite_figi": "BBG000C27HF0",
     "cusip": "45250L204",
-    "figi": "BBG000G9P3Q0",
     "isin": "CA45250L2049"
   },
   "industry": "Health Care Technology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "CA45250L2049",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DPD3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DPD3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IMEXF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -34,26 +18,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DPD3.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DPD3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DPD3.MU"
     },
     {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "IME.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IMEXF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Imagin Medical Inc.",
-  "primary_symbol": "DPD3.BE",
+  "name": "IMAGIN MEDICAL INC",
+  "primary_symbol": "CA45250L2049.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Imagin Medical Inc. focuses on the research, development, and commercialization of medical devices in the bio-chemistry industry. It offers i/Blue Imaging System, which is based on advanced optics and light sensors improve surgeons' ability to visualize cancerous cells for more accurate resection. The company's focus is on bladder cancer. Imagin Medical Inc. is headquartered in Vancouver, Canada.",
+  "summary": "IMAGIN MEDICAL INC is a surgical imaging company focused on developing and commercializing minimally invasive imaging technologies for cancer detection and treatment. Their technology is designed to improve the accuracy and efficiency of surgical procedures. Imagin Medical is headquartered in Vancouver, British Columbia.",
   "website": "http://imaginmedical.com"
 }

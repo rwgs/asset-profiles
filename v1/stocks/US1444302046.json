@@ -11,19 +11,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XLON",
       "symbol": "0NPH.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CRERF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CRRFY"
     },
     {
       "currency": "EUR",
@@ -61,6 +51,11 @@
       "symbol": "CARR.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRERF"
+    },
+    {
       "currency": "TRY",
       "exchange_mic": "XIST",
       "symbol": "CRFSA.IS"
@@ -69,13 +64,18 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "CRR.MI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRRFY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Carrefour SA",
   "primary_symbol": "0NPH.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

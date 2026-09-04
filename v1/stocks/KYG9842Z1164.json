@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BTVRY2",
-    "figi": "BBG000BTVRY2",
+    "composite_figi": "BBG000BFSZ23",
+    "figi": "BBG000BFSZR6",
     "isin": "KYG9842Z1164"
   },
   "industry": "Chemicals",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YIPCF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0408.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "YIPCF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Yip's Chemical Holdings Limited",
-  "primary_symbol": "YIPCF",
+  "primary_symbol": "0408.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

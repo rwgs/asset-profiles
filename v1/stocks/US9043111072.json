@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000KWCHY8",
+    "composite_figi": "BBG009DTD8H2",
     "cusip": "904311107",
-    "figi": "BBG000KWCP70",
+    "figi": "BBG00CGP0928",
     "isin": "US9043111072"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -12,21 +12,6 @@
   "isin": "US9043111072",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "U9R.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "U9R.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "U9R.TI"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -44,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "U9R.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "U9R.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "U9R.DU"
     },
     {
@@ -59,8 +49,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "U9R.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "U9R.SG"
+    },
+    {
+      "symbol": "U9R.TI"
     },
     {
       "currency": "EUR",
@@ -95,15 +93,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Under Armour, Inc. Class A",
-  "primary_symbol": "U9R.BE",
+  "primary_symbol": "UA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Under Armour, Inc. is a global leader in athletic performance apparel, footwear, and accessories. The company's products are designed to enhance performance and are sold worldwide to athletes and active consumers. Under Armour is headquartered in Baltimore, Maryland.",
+  "summary": "Under Armour, Inc., together with its subsidiaries, develops, markets, and distributes branded performance apparel, footwear, and accessories for men, women, and youth primarily in North America, Europe, the Middle East, Africa, the Asia-Pacific, and Latin America. The company offers its apparel in compression, fitted, and loose types to be worn in hot and cold. It also provides various footwear products for running, basketball, cleated sports, slides, training, and outdoor. In addition, the company offers accessories, which include gloves, bags, headwear, and sports masks; and digital fitness subscriptions, as well as digital advertising through MapMyFitness platform. It primarily offers its products under the HEATGEAR, COLDGEAR, RUSH or RECOVER, UA HOVR, UA Logo, UNDER ARMOUR, UA, ARMOUR, PROTECT THIS HOUSE, I WILL, ARMOUR BRA, and ARMOUR FLEECE brands. The company sells its products through wholesale channels, including national and regional sporting goods chains, independent and specialty retailers, department store chains, mono-branded Under Armour retail stores, institutional athletic departments, and leagues and teams, as well as independent distributors; and directly to consumers through a network of 439 brand and factory house stores, as well as through e-commerce websites. Under Armour, Inc. was founded in 1996 and is headquartered in Baltimore, Maryland.",
   "website": "http://www.underarmour.com"
 }

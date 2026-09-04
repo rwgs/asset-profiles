@@ -2,9 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00MT8NH63",
+    "composite_figi": "BBG00SJ475V6",
     "cusip": "04626D206",
-    "figi": "BBG00MT8NH63",
+    "figi": "BBG00SJ475W5",
     "isin": "US04626D2062"
   },
   "industry": "Automobiles",
@@ -12,16 +12,6 @@
   "isin": "US04626D2062",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMGDF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ARGGY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -33,16 +23,26 @@
       "symbol": "A5SA.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMGDF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "AML.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ARGGY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Aston Martin Lagonda Global Holdings plc",
-  "primary_symbol": "AMGDF",
+  "primary_symbol": "A5S0.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

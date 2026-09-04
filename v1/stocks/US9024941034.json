@@ -2,35 +2,30 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GMDQZ3",
+    "composite_figi": "BBG000DKCC19",
     "cusip": "902494103",
-    "figi": "BBG000GMDVS0",
+    "figi": "BBG000DKCFD9",
     "isin": "US9024941034"
   },
   "industry": "Household Products",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Household & Personal Products",
   "isin": "US9024941034",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "TF7A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TF7A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TSN"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LHR.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TF7A.BE"
     },
     {
       "currency": "EUR",
@@ -38,14 +33,19 @@
       "symbol": "TF7A.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TF7A.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TF7A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TF7A.MU"
     },
     {
       "currency": "EUR",
@@ -65,15 +65,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Tyson Foods, Inc. Class A",
-  "primary_symbol": "TF7A.BE",
+  "primary_symbol": "TSN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Tyson Foods, Inc. is a food company, operating in segments including Beef, Pork, Chicken, and Prepared Foods. The company processes livestock and poultry and manufactures prepared foods, marketing these products to retailers, foodservice distributors, and other food processors. Tyson Foods is headquartered in Springdale, Arkansas, USA.",
+  "summary": "Tyson Foods, Inc., together with its subsidiaries, operates as a food company worldwide. It operates through four segments: Beef, Pork, Chicken, and Prepared Foods. The company processes live fed cattle and live market hogs; fabricates dressed beef and pork carcasses into primal and sub-primal meat cuts, as well as case ready beef and pork, and fully-cooked meats; raises and processes chickens into fresh, frozen, and value-added chicken products; and supplies poultry breeding stock; sells specialty products , such as hides and meats. It also manufactures and markets frozen and refrigerated food products, including ready-to-eat sandwiches, flame-grilled hamburgers, Philly steaks, pepperoni, bacon, breakfast sausage, turkey, lunchmeat, hot dogs, flour and corn tortilla products, appetizers, snacks, prepared meals, ethnic foods, side dishes, meat dishes, breadsticks, and processed meats under the Jimmy Dean, Hillshire Farm, Ball Park, Wright, State Fair, Aidells, and Gallo Salame brands. The company also offers its products under Tyson and ibp brands. It sells its products through its sales staff to grocery retailers, grocery wholesalers, meat distributors, warehouse club stores, military commissaries, industrial food processing companies, chain restaurants or their distributors, live markets, international export companies, and domestic distributors who serve restaurants and foodservice operations, such as plant and school cafeterias, convenience stores, hospitals, and other vendors, as well as through independent brokers and trading companies. The company was founded in 1935 and is headquartered in Springdale, Arkansas.",
   "website": "http://www.tysonfoods.com"
 }

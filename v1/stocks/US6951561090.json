@@ -2,21 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C8JL01",
+    "composite_figi": "BBG000BB8SW7",
     "cusip": "695156109",
-    "figi": "BBG000C8KQ53",
+    "figi": "BBG000BB8WD9",
     "isin": "US6951561090"
   },
   "industry": "Distributors",
-  "industry_group": "Materials",
+  "industry_group": "Retailing",
   "isin": "US6951561090",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PKA.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PKA.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PKA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Packaging Corporation of America",
-  "primary_symbol": "PKA.MU",
+  "primary_symbol": "PKG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "Packaging Corporation of America (PCA) is a manufacturer of containerboard and corrugated packaging products. Headquartered in Lake Forest, Illinois, PCA operates mills and plants across the United States. They supply corrugated packaging solutions for various industries, including food, beverage, and e-commerce.",
+  "sector": "Consumer Discretionary",
+  "summary": "Packaging Corporation of America manufactures and sells containerboard and corrugated packaging products in the United States. The company operates through Packaging and Paper segments. The Packaging segment offers various containerboard and corrugated packaging products, such as conventional shipping containers used to protect and transport manufactured goods; multi-color boxes and displays that help to merchandise the packaged product in retail locations; and honeycomb protective packaging products, as well as packaging for meat, fresh fruit and vegetables, processed food, beverages, and other industrial and consumer products. This segment sells its corrugated products through a direct sales and marketing organization, independent brokers, and distribution partners. The Paper segment manufactures and sells commodity and specialty papers, as well as communication-based papers, including cut-size office papers, and printing and converting papers. This segment sells white papers through its sales and marketing organization. Packaging Corporation of America was founded in 1867 and is headquartered in Lake Forest, Illinois.",
   "website": "http://www.packagingcorp.com"
 }

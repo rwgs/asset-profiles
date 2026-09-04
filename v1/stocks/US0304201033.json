@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JKVRH2",
+    "composite_figi": "BBG000TRJ294",
     "cusip": "030420103",
-    "figi": "BBG000JKVVL8",
+    "figi": "BBG000TRJ3B9",
     "isin": "US0304201033"
   },
   "industry": "Water Utilities",
@@ -12,21 +12,6 @@
   "isin": "US0304201033",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AWC.TI"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -39,12 +24,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AWC.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "AWC.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AWC.DU"
     },
     {
@@ -54,8 +44,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AWC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AWC.SG"
+    },
+    {
+      "symbol": "AWC.TI"
     },
     {
       "currency": "EUR",
@@ -65,15 +63,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "American Water Works Company, Inc.",
-  "primary_symbol": "AWC.BE",
+  "primary_symbol": "AWK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "American Water Works Company, Inc. is a water and wastewater utility company. It provides water and wastewater services to residential, commercial, and industrial customers in the United States. The company is headquartered in Camden, New Jersey.",
+  "summary": "American Water Works Company, Inc., through its subsidiaries, provides water and wastewater services in the United States. It offers water and wastewater services to approximately 1,700 communities in 16 states serving approximately 3.5 million active customers. The company serves residential customers; commercial customers, such as food and beverage providers, commercial property developers and proprietors, and energy suppliers; fire service and private fire customers; industrial customers, such as large-scale manufacturers, mining, and production operations; public authorities comprising government buildings and other public sector facilities, such as schools and universities; and other utilities and community water and wastewater systems. It also provides various warranty protection programs to residential customers; and water and wastewater services on various military installations. In addition, the company undertakes contracts with municipal customers, primarily to operate and manage water and wastewater facilities, as well as offers other related services. It operates approximately 79 surface water treatment plants; 530 groundwater treatment plants; 150 wastewater treatment plants; 53,200 miles of transmission, distribution, and collection mains and pipes; 1,100 groundwater wells; 1,600 water and wastewater pumping stations; 1,300 treated water storage facilities; and 75 dams. The company serves approximately 15 million people with drinking water, wastewater, and other water-related services in 46 states. The company was founded in 1886 and is headquartered in Camden, New Jersey.",
   "website": "http://www.amwater.com"
 }

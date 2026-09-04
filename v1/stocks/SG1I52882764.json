@@ -2,8 +2,8 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000CQK390",
-    "figi": "BBG000CQK390",
+    "composite_figi": "BBG000C8FPX0",
+    "figi": "BBG000C8FR39",
     "isin": "SG1I52882764"
   },
   "industry": "Air Freight & Logistics",
@@ -12,19 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SPASF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W1J.BE"
-    },
-    {
       "currency": "SGD",
       "exchange_mic": "XSES",
       "symbol": "S58.SI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SPASF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "W1J.BE"
     },
     {
       "currency": "EUR",
@@ -39,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "SATS Ltd.",
-  "primary_symbol": "SPASF",
+  "primary_symbol": "S58.SI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

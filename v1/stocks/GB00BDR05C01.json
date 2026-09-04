@@ -18,21 +18,6 @@
       "symbol": "NGG"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NGGTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNGF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNGF.MU"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "NG.L"
@@ -43,9 +28,19 @@
       "symbol": "NGG.BA"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NGGTF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NNGD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NNGF.BE"
     },
     {
       "currency": "EUR",
@@ -53,14 +48,19 @@
       "symbol": "NNGF.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NNGF.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NNGF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NNGF.MU"
     },
     {
       "currency": "EUR",
@@ -72,7 +72,7 @@
   "name": "National Grid plc",
   "primary_symbol": "NGG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

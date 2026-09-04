@@ -2,8 +2,6 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00B5YJBN5",
-    "figi": "BBG00B5YJBN5",
     "isin": "GB00BNR5MZ78"
   },
   "industry": "Machinery",
@@ -11,11 +9,6 @@
   "isin": "GB00BNR5MZ78",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MLSPF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -27,6 +20,11 @@
       "symbol": "27MA.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MLSPF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "MRO.L"
@@ -34,9 +32,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Melrose Industries PLC",
-  "primary_symbol": "MLSPF",
+  "primary_symbol": "27MA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

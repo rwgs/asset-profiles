@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000MD35T0",
+    "composite_figi": "BBG000BJX8C8",
     "cusip": "62955J103",
-    "figi": "BBG000MD5CH6",
+    "figi": "BBG000BJXC48",
     "isin": "US62955J1034"
   },
   "industry": "Energy Equipment & Services",
@@ -12,16 +12,6 @@
   "isin": "US62955J1034",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NO8.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NO8.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -33,14 +23,24 @@
       "symbol": "N1OV34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NO8.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NO8.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NO8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NO8.MU"
     },
     {
       "currency": "MXN",
@@ -55,9 +55,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "NOV Inc.",
-  "primary_symbol": "NO8.BE",
+  "primary_symbol": "NOV",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

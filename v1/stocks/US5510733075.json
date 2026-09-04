@@ -2,9 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG0018J9W16",
     "cusip": "551073307",
-    "figi": "BBG0018J9W70",
     "isin": "US5510733075"
   },
   "industry": "Metals & Mining",
@@ -13,27 +11,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LYIC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LYIC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LYSCF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LYSDY"
-    },
-    {
-      "currency": "GBP",
+      "currency": "AUD",
       "exchange_mic": "XLON",
       "symbol": "0A2N.L"
     },
@@ -49,21 +27,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LYIC.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LYIC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LYIC.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LYSCF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LYSDY"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "LYNAS RARE EAR. SP. ADR 1",
-  "primary_symbol": "LYIC.BE",
+  "name": "Lynas Rare Earths Limited",
+  "primary_symbol": "0A2N.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Lynas Rare Earths Limited is a rare earths mining and processing company. It focuses on the extraction and processing of rare earth minerals, particularly neodymium and praseodymium. The company's operations are based in Australia and Malaysia.",
+  "summary": "Lynas Rare Earths Limited, together with its subsidiaries, engages in the exploration, development, mining, extraction, and processing of rare earth minerals primarily in Australia and Malaysia. The company holds an interest in the Mount Weld project in Western Australia. Its products include neodymium and praseodymium, lanthanum, cerium, and mixed heavy rare earth materials. The company also develops and operates advanced material processing and concentration plants; and offers corporate services. The company was formerly known as Lynas Corporation Limited and changed its name to Lynas Corporation Limited in December 2020. Lynas Rare Earths Limited was incorporated in 1983 and is based in East Perth, Australia.",
   "website": "http://www.lynascorp.com"
 }

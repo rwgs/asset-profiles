@@ -3,6 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000BQ08Q3",
+    "figi": "BBG000BQ0BY7",
     "isin": "AU000000CSL8"
   },
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
@@ -10,25 +11,25 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CSJ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
       "symbol": "CSJ.HM"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "CSJ.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "CSJ.DU"
     }
   ],
   "name": "CSL LTD",
-  "primary_symbol": "CSJ.HM",
+  "primary_symbol": "CSJ.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

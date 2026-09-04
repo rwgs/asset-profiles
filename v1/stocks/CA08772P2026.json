@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000PN1DC8",
+    "composite_figi": "BBG00JKT0MC0",
     "cusip": "08772P202",
-    "figi": "BBG000PN1DC8",
+    "figi": "BBG00JKT0MM9",
     "isin": "CA08772P2026"
   },
   "industry": "Biotechnology",
@@ -13,24 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BETRF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NPAU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NPAU.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "BETR.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BETRF"
     },
     {
       "currency": "EUR",
@@ -39,15 +29,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NPAU.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NPAU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NPAU.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "BETTERLIFE PHARMA INC.",
-  "primary_symbol": "BETRF",
+  "primary_symbol": "BETR.CN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

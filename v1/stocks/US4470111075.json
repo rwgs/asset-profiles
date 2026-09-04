@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000QTVLZ8",
+    "composite_figi": "BBG000NS26Q8",
     "cusip": "447011107",
-    "figi": "BBG000QTVP52",
+    "figi": "BBG000NS28G5",
     "isin": "US4470111075"
   },
   "industry": "Chemicals",
@@ -15,21 +15,16 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "HTR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HTR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "HUN"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HTR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HTR.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HTR.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HTR.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Huntsman Corporation",
-  "primary_symbol": "HTR.BE",
+  "primary_symbol": "HUN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Huntsman Corporation is a global manufacturer of differentiated chemical products. The company's products are used in a variety of applications, including adhesives, aerospace, construction, personal care, and textiles. Huntsman Corporation is headquartered in The Woodlands, Texas.",
+  "summary": "Huntsman Corporation manufactures and sells differentiated organic chemical products worldwide. The company operates in four segments: Polyurethanes, Performance Products, Advanced Materials, and Textile Effects. The Performance Products segment manufactures amines and maleic anhydrides, including ethylene oxide, propylene oxide, glycols, ethylene dichloride, caustic soda, ammonia, hydrogen, methylamines, and acrylonitrile. The Advanced Materials segment offers epoxy, acrylic, polyurethane, and acrylonitrile-butadiene-based polymer formulations; high performance thermoset resins, curing agents and toughening agents, and carbon nanotubes additives; and base liquid and solid resins. The Textile Effects segment provides textile chemicals and dyes. The company's products are used in a range of applications, including adhesives, aerospace, automotive, construction products, durable and non-durable consumer products, electronics, insulation, medical, packaging, coatings and construction, power generation, refining, synthetic fiber, textile chemicals, and dye industries. Huntsman Corporation was founded in 1970 and is headquartered in The Woodlands, Texas.",
   "website": "http://www.huntsman.com"
 }

@@ -1,9 +1,10 @@
 {
-  "country": "Italy",
-  "country_code": "IT",
+  "country": "Israel",
+  "country_code": "IL",
   "identifiers": {
-    "composite_figi": "BBG0077K55N0",
-    "figi": "BBG0077K55T4",
+    "composite_figi": "BBG006Q52QV2",
+    "cusip": "M2682V108",
+    "figi": "BBG006Q52SY5",
     "isin": "IL0011334468"
   },
   "industry": "Software",
@@ -13,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CYB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CYBR"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CYB.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CYB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CYB.MU"
     },
     {
       "currency": "EUR",
@@ -43,16 +44,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "CYBERARK SOFTWARE  IS-,01",
-  "primary_symbol": "CYB.MU",
+  "name": "CyberArk Software Ltd.",
+  "primary_symbol": "CYBR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CyberArk Software Ltd. is an information security company offering identity access management solutions. The company's software is used to protect privileged accounts and critical assets in organizations. CyberArk is headquartered in Petach Tikva, Israel.",
+  "summary": "CyberArk Software Ltd., together with its subsidiaries, develops, markets, and sales software-based security solutions and services in the United States, Europe, the Middle East, Africa, and internationally. Its solutions include Privileged Access Manager that offers risk-based credential security and session management to protect against attacks involving privileged access; Vendor Privileged Access Manager, which combines Privileged Access Manager and Remote Access to provide fast, easy, and secure privileged access to third-party vendors; Endpoint Privilege Manager, a SaaS service that secures privileges on the endpoint; and Cloud Entitlements Manager, a SaaS solution, which reduces risk that arises from excessive privileges by implementing least privilege across cloud environments. The company also offers robust Identity and Access Management as a Service that provides artificial intelligence based and security-first approach to manage identities, such as workforce identity, which offers adaptive multi-factor authentication (MFA), single sign-on, application gateway, identity lifecycle management, and directory services; and customer identity services that provides authentication and authorization services, MFA, directory, and user management to enable organizations to provide their customers with easy and secure access to websites and applications. In addition, it offers Secrets Manager Credential Providers to provide and manage the credentials used by third-party solutions; and Secrets Manager Conjur for cloud-native applications. The company offers its products to financial services, manufacturing, insurance, healthcare, energy and utilities, transportation, retail, technology, and telecommunications industries; and government agencies through direct sales force, as well as distributors, systems integrators, value-added resellers, and managed security service providers. CyberArk Software Ltd. was founded in 1999 and is headquartered in Petah Tikva, Israel.",
   "website": "http://www.cyberark.com"
 }

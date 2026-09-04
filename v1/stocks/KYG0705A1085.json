@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00ZVK1715",
-    "figi": "BBG00ZVK1760",
+    "composite_figi": "BBG00ZNW3N66",
+    "figi": "BBG00ZNW3N75",
     "isin": "KYG0705A1085"
   },
   "industry": "Software",
@@ -11,11 +11,6 @@
   "isin": "KYG0705A1085",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6B5.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,15 +23,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6B5.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG0705A1085.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Bairong, Inc. Class B",
-  "primary_symbol": "6B5.MU",
+  "primary_symbol": "6608.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

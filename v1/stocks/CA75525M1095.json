@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00LDM7CW1",
     "cusip": "75525M109",
-    "figi": "BBG00LDM7D13",
+    "figi": "BBG00LDM7CX0",
     "isin": "CA75525M1095"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,19 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "R9N.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RZREF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "R9N.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "R9N.MU"
     },
     {
       "currency": "EUR",
@@ -36,19 +31,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "RZE.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RZREF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "RAZOR ENERGY CORP",
-  "primary_symbol": "R9N.MU",
+  "name": "Razor Energy Corp.",
+  "primary_symbol": "R9N.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "RAZOR ENERGY CORP is a Canadian oil and gas company focused on acquiring, developing, and producing oil and gas resources in Western Canada. The company utilizes enhanced oil recovery techniques to maximize production from existing assets. Razor Energy is headquartered in Calgary, Alberta.",
+  "summary": "Razor Energy Corp. engages in the acquisition, exploration, development, and production of oil and natural gas properties in Alberta. As of December 31, 2020, it operated assets in the Swan Hills area covering 166,240 gross acres of total land and the Kaybob area covering 84,320 gross acres of total land located in the west central Alberta, as well as the District South area covering 78,190 gross acres of total land located in the southern Alberta. The company was founded in 2016 and is headquartered in Calgary, Canada.",
   "website": "http://www.razor-energy.com"
 }

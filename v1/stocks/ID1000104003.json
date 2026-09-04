@@ -3,7 +3,7 @@
   "country_code": "ID",
   "identifiers": {
     "composite_figi": "BBG000KR6VW7",
-    "figi": "BBG000KR6YY9",
+    "figi": "BBG000KR6W28",
     "isin": "ID1000104003"
   },
   "industry": "Construction & Engineering",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T9Q.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "T9Q.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "T9Q.MU"
     },
     {
       "currency": "EUR",
@@ -32,11 +32,11 @@
       "symbol": "TOTL.JK"
     }
   ],
-  "market_cap_band": "Mega Cap",
-  "name": "TOTAL BANGUN PER.  RP100",
-  "primary_symbol": "T9Q.MU",
+  "market_cap_band": "Micro Cap",
+  "name": "PT Total Bangun Persada Tbk",
+  "primary_symbol": "T9Q.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

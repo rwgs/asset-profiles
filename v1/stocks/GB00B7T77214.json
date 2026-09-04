@@ -1,19 +1,24 @@
 {
-  "country": "India",
-  "country_code": "IN",
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "identifiers": {
+    "composite_figi": "BBG000H6K987",
+    "isin": "GB00B7T77214"
+  },
   "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
+  "isin": "GB00B7T77214",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RBS.BE"
-    },
-    {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B7T77214.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RBS.BE"
     },
     {
       "currency": "EUR",
@@ -27,10 +32,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "REALIA BUSIN. INH. EO-,24",
-  "primary_symbol": "RBS.BE",
+  "name": "ROYAL BANK OF SCOTLAND GROUP",
+  "primary_symbol": "GB00B7T77214.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

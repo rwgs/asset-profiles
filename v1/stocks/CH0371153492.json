@@ -2,8 +2,6 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG00KDJ3MF1",
-    "figi": "BBG00KDJ3MF1",
     "isin": "CH0371153492"
   },
   "industry": "Electrical Equipment",
@@ -12,17 +10,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LDGYY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LGYRF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CHF",
       "exchange_mic": "XLON",
       "symbol": "0RTL.L"
     },
@@ -30,13 +18,23 @@
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "LAND.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LDGYY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LGYRF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Landis+Gyr Group AG",
-  "primary_symbol": "LDGYY",
+  "primary_symbol": "0RTL.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

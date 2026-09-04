@@ -11,24 +11,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "MRG1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRG1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OCGSF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MRG1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MRG1.MU"
     },
     {
       "currency": "EUR",
@@ -39,13 +34,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "OCG.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OCGSF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Outcrop Gold Corp.",
   "primary_symbol": "MRG1.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

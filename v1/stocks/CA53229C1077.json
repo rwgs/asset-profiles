@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00PZ78ZM0",
     "cusip": "53229C107",
+    "figi": "BBG00PZ78ZR5",
     "isin": "CA53229C1077"
   },
   "industry": "Software",
@@ -13,26 +15,21 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "3L5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3L5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "LSPD"
     },
     {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0A8V.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3L5.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "3L5.DU"
     },
     {
@@ -41,16 +38,21 @@
       "symbol": "3L5.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3L5.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "LSPD.TO"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Lightspeed POS Inc.",
-  "primary_symbol": "3L5.BE",
+  "primary_symbol": "LSPD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

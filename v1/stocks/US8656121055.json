@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000F573G0",
+    "composite_figi": "BBG000BX1LD2",
     "cusip": "865612105",
-    "figi": "BBG000F573G0",
+    "figi": "BBG000BX1M59",
     "isin": "US8656121055"
   },
   "industry": "Chemicals",
@@ -13,26 +13,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SMM.F"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "SOMMF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "SOMMY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SMM.F"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Sumitomo Chemical Company, Limited",
-  "primary_symbol": "SOMMF",
+  "primary_symbol": "SMM.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

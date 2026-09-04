@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00GNWYWB8",
+    "composite_figi": "BBG00GTTKYZ4",
     "cusip": "29408D108",
-    "figi": "BBG00GNWYWB8",
+    "figi": "BBG00GTTKZ09",
     "isin": "CA29408D1087"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA29408D1087",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EVLLF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -31,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "ETI.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EVLLF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "EnviroLeach Technologies Inc.",
-  "primary_symbol": "EVLLF",
+  "primary_symbol": "7N2.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

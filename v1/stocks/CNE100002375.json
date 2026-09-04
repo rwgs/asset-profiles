@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00NHX6R93",
-    "figi": "BBG00NHX6R93",
+    "composite_figi": "BBG00B8MPGL2",
+    "figi": "BBG00BGJYS07",
     "isin": "CNE100002375"
   },
   "industry": "Building Products",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FGSGF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "6865.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FGSGF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Flat Glass Group Co., Ltd.",
-  "primary_symbol": "FGSGF",
+  "primary_symbol": "6865.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

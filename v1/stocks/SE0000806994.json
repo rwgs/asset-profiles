@@ -2,8 +2,8 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BZKM71",
-    "figi": "BBG000BZKQ72",
+    "composite_figi": "BBG000BTT6G1",
+    "figi": "BBG000BTT7H8",
     "isin": "SE0000806994"
   },
   "industry": "Construction & Engineering",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JMM.BE"
-    },
-    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "JM.ST"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "JMM.BE"
     },
     {
       "currency": "EUR",
@@ -29,9 +29,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "JM AB",
-  "primary_symbol": "JMM.BE",
+  "primary_symbol": "JM.ST",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

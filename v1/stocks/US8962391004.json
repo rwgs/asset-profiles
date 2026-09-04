@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GNJ5J9",
+    "composite_figi": "BBG000BNPS52",
     "cusip": "896239100",
-    "figi": "BBG000GNJ9M7",
+    "figi": "BBG000BNQ4W4",
     "isin": "US8962391004"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TB5.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TB5.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TRMB"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TB5.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TB5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TB5.MU"
     },
     {
       "currency": "EUR",
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Trimble Inc.",
-  "primary_symbol": "TB5.BE",
+  "primary_symbol": "TRMB",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

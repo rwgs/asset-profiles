@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG007LX8LL0",
-    "figi": "BBG007LX8LV9",
+    "composite_figi": "BBG000BL8MW8",
+    "figi": "BBG000BL8N65",
     "isin": "AU000000MPL3"
   },
   "industry": "Insurance",
@@ -12,31 +12,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPV.MU"
-    },
-    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "MPL.AX"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MPV.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MPV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MPV.MU"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "MEDIBANK PRIVATE LTD",
-  "primary_symbol": "MPV.BE",
+  "primary_symbol": "MPL.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00G7C9SQ1",
     "cusip": "078771300",
-    "figi": "BBG00G7C9SX3",
     "isin": "US0787713009"
   },
   "industry": "Biotechnology",
@@ -14,27 +12,22 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6L7A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6L7A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "BLPH"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HMP.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6L7A.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "6L7A.DU"
     },
     {
@@ -44,21 +37,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6L7A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US0787713009.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "BELLEROPHON THERAP.DL-,01",
-  "primary_symbol": "6L7A.BE",
+  "name": "Bellerophon Therapeutics, Inc.",
+  "primary_symbol": "BLPH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Bellerophon Therapeutics, Inc. is a clinical-stage biotherapeutics company focused on developing innovative therapies for cardiopulmonary diseases, headquartered in Hampton, New Jersey.",
+  "summary": "Bellerophon Therapeutics, Inc., a clinical-stage therapeutics company, focuses on the development of products for the treatment of cardiopulmonary diseases in the United States. Its products include INOpulse, a proprietary pulsatile nitric oxide delivery platform for the treatment of pulmonary hypertension. The company engages in the development of INOpulse that is in Phase 2 clinical trial for the treatment of pulmonary hypertension associated with fibrotic interstitial lung disease; that has completed Phase 2a clinical trial for pulmonary hypertension associated with chronic obstructive pulmonary disease; and that is in Phase 2 dose escalation stage for pulmonary hypertension associated with sarcoidosis, as well as for chronic thromboembolic pulmonary hypertension, pulmonary hypertension associated with pulmonary edema from high altitude sickness, and COVID-19 patients. The company was formerly known as Ikaria Development LLC and changed its name to Bellerophon Therapeutics, Inc. in January 2014. Bellerophon Therapeutics, Inc. was founded in 2009 and is headquartered in Warren, New Jersey.",
   "website": "http://www.bellerophon.com"
 }

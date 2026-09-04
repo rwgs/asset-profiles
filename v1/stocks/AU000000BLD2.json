@@ -2,6 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000F86865",
+    "figi": "BBG000F86954",
     "isin": "AU000000BLD2"
   },
   "industry_group": "Materials",
@@ -9,19 +11,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HQK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
       "symbol": "HQK.HM"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "HQK.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "HQK.DU"
     },
     {
       "currency": "EUR",
@@ -30,9 +32,9 @@
     }
   ],
   "name": "BORAL LTD",
-  "primary_symbol": "HQK.HM",
+  "primary_symbol": "HQK.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

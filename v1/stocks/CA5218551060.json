@@ -2,31 +2,16 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00BMCNVJ0",
+    "composite_figi": "BBG00BN6XK78",
     "cusip": "521855106",
-    "figi": "BBG00BMCNVQ2",
+    "figi": "BBG00BN6XKQ7",
     "isin": "CA5218551060"
   },
   "industry": "Food & Staples Retailing",
-  "industry_group": "Food & Staples Retailing",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "CA5218551060",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LL1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LL1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LNLHF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -34,26 +19,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LL1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LL1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LL1.MU"
     },
     {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "LLP.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LNLHF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "LeanLife Health Inc.",
-  "primary_symbol": "LL1.BE",
+  "name": "LEANLIFE HEALTH INC",
+  "primary_symbol": "CA5218551060.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "LeanLife Health Inc. produces and sells omega-3 fatty acid products worldwide. It offers its products in liquid, emulsion, or powder forms for use in baked goods, processed meats, noodles, beverages, milk products, and chocolates. The company was formerly known as LeenLife Pharma International Inc. and changed its name to LeanLife Health Inc. in January 2018. LeanLife Health Inc. was incorporated in 2014 and is headquartered in Vancouver, Canada.",
+  "summary": "LEANLIFE HEALTH INC is a health and wellness company focused on developing and marketing plant-based nutritional products. The company offers a range of functional foods and beverages. LeanLife Health Inc is headquartered in Vancouver, British Columbia.",
   "website": "http://www.leanlifehealth.com"
 }

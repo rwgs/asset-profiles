@@ -2,9 +2,9 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000BSZG56",
+    "composite_figi": "BBG000BFN695",
     "cusip": "904678406",
-    "figi": "BBG000BSZG56",
+    "figi": "BBG000BFN748",
     "isin": "US9046784065"
   },
   "industry": "Banks",
@@ -12,16 +12,6 @@
   "isin": "US9046784065",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNCFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNCRY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -46,13 +36,23 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "UCG.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UNCFF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UNCRY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "UniCredit S.p.A.",
-  "primary_symbol": "UNCFF",
+  "primary_symbol": "CRIN.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

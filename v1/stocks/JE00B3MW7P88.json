@@ -3,7 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG0014YBMG0",
-    "figi": "BBG0014YBMS7",
+    "figi": "BBG0014YBMJ7",
     "isin": "JE00B3MW7P88"
   },
   "industry": "Construction Materials",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WFG1.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "WFG1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WFG1.MU"
     },
     {
       "currency": "EUR",
@@ -27,11 +27,11 @@
       "symbol": "WFG1.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "West China Cement Ltd.",
-  "primary_symbol": "WFG1.MU",
+  "primary_symbol": "WFG1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

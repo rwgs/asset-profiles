@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0078X8HW2",
+    "composite_figi": "BBG000N7MZ06",
     "cusip": "443573100",
-    "figi": "BBG0078X8J49",
+    "figi": "BBG0071GP394",
     "isin": "US4435731009"
   },
   "industry": "Software",
@@ -15,17 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "096.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "096.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "HUBS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "096.BE"
     },
     {
       "currency": "EUR",
@@ -33,8 +28,8 @@
       "symbol": "096.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "096.DU"
     },
     {
@@ -44,11 +39,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "096.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "096.SG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0TZZ.L"
     },
@@ -60,15 +60,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "HubSpot, Inc.",
-  "primary_symbol": "096.BE",
+  "primary_symbol": "HUBS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "HubSpot, Inc. provides a cloud-based marketing and sales software platform. Its platform provides tools and integrations for attracting website visitors, converting leads, closing customers, and managing customer relationships. The company is headquartered in Cambridge, Massachusetts.",
+  "summary": "HubSpot, Inc. provides a cloud-based customer relationship management (CRM) platform for businesses in the Americas, Europe, and the Asia Pacific. The company's CRM platform includes marketing, sales, service, and content management systems, as well as integrated applications, such as search engine optimization, blogging, website content management, messaging, chatbots, social media, marketing automation, email, predictive lead scoring, sales productivity, ticketing and helpdesk tools, customer NPS surveys, analytics, and reporting. It also offers professional, as well as phone and/or email and chat based support services. It serves mid-market business-to-business companies. HubSpot, Inc. was incorporated in 2005 and is headquartered in Cambridge, Massachusetts.",
   "website": "http://www.hubspot.com"
 }

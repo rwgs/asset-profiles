@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG007GFHPQ1",
+    "composite_figi": "BBG005Q3MQY4",
     "cusip": "046513107",
-    "figi": "BBG007GFHPX3",
+    "figi": "BBG006NXNHY8",
     "isin": "US0465131078"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AT2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AT2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ATRA"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HIY.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AT2.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +34,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AT2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AT2.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ATARA BIOTHERAP. DL-,0001",
-  "primary_symbol": "AT2.BE",
+  "name": "Atara Biotherapeutics, Inc.",
+  "primary_symbol": "ATRA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

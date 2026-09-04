@@ -2,8 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00G25Q7T5",
-    "figi": "BBG00G25Q804",
+    "composite_figi": "BBG00VM4C335",
+    "cusip": "46124U107",
+    "figi": "BBG00VM4C335",
     "isin": "FR0013233012"
   },
   "industry": "Biotechnology",
@@ -13,33 +14,33 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6IV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6IV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "IVA"
     },
     {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RNK.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6IV.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "6IV.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6IV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6IV.MU"
     },
     {
       "currency": "EUR",
@@ -59,9 +60,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Inventiva S.A.",
-  "primary_symbol": "6IV.BE",
+  "primary_symbol": "IVA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

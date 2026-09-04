@@ -2,8 +2,9 @@
   "country": "Ireland",
   "country_code": "IE",
   "identifiers": {
-    "composite_figi": "BBG000DK8M85",
-    "figi": "BBG000DK8M85",
+    "composite_figi": "BBG000C1HL99",
+    "cusip": "47030M106",
+    "figi": "BBG000C1HP90",
     "isin": "AU000000JHX1"
   },
   "industry": "Construction Materials",
@@ -11,11 +12,6 @@
   "isin": "AU000000JHX1",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JHIUF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -37,6 +33,11 @@
       "symbol": "JHA0.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JHIUF"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "JHX.AX"
@@ -44,9 +45,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "James Hardie Industries plc",
-  "primary_symbol": "JHIUF",
+  "primary_symbol": "JHX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

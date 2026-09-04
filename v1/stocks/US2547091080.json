@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000RQB7M0",
+    "composite_figi": "BBG000QBR5J5",
     "cusip": "254709108",
-    "figi": "BBG000RQB973",
+    "figi": "BBG000QBR6K1",
     "isin": "US2547091080"
   },
   "industry": "Consumer Finance",
@@ -12,16 +12,6 @@
   "isin": "US2547091080",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DC7.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DC7.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -34,18 +24,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DC7.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DC7.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "DC7.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DC7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DC7.MU"
     },
     {
       "currency": "EUR",
@@ -64,16 +64,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "DISCOVER FINL SRVCS DL-01",
-  "primary_symbol": "DC7.BE",
+  "name": "Discover Financial Services",
+  "primary_symbol": "DFS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Discover Financial Services is a digital banking and payment services company in the United States. The company offers credit cards, personal loans, student loans, and deposit accounts. Discover is headquartered in Riverwoods, Illinois.",
+  "summary": "Discover Financial Services, through its subsidiaries, operates as a digital banking and payment services company in the United States. It operates in two segments, Digital Banking and Payment Services. The Digital Banking segment offers Discover-branded credit cards to individuals; and other consumer products and services, including private student loans, personal loans, home loans, and other consumer lending, as well as deposit products, such as certificates of deposit, money market accounts, IRA certificates of deposit, IRA savings accounts, checking accounts, and sweep accounts. The Payment Services segment operates the PULSE network, an automated teller machine, debit, and electronic funds transfer network; Diners Club International, a payments network that issues Diners Club branded charge cards and/or provides card acceptance services; and Discover Network that processes transactions for Discover-branded credit and debit cards, as well as provides payment transaction processing and settlement services. The company was incorporated in 1960 and is based in Riverwoods, Illinois.",
   "website": "http://www.discover.com"
 }

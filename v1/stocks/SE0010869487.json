@@ -3,7 +3,7 @@
   "country_code": "IE",
   "identifiers": {
     "composite_figi": "BBG00YHXYVD4",
-    "figi": "BBG00YHXYVK6",
+    "figi": "BBG00YHXYVF2",
     "isin": "SE0010869487"
   },
   "industry": "Software",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "979.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "979.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "979.MU"
     },
     {
       "currency": "EUR",
@@ -28,16 +28,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ZUTEC HOLDING AB",
-  "primary_symbol": "979.MU",
+  "name": "Zutec Holding AB (publ)",
+  "primary_symbol": "979.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ZUTEC HOLDING AB provides cloud-based software solutions for the construction industry. Their platform helps manage project information, documentation, and workflows. The company is based in Sweden.",
+  "summary": "Zutec Holding AB (publ), a cloud-based construction management software company, provides cloud-based software solutions for the construction, healthcare, infrastructure, and government sectors. The company provides Zutec Cloud, an integrated platform that offers asset register, digital operations and maintenance manuals, digital health and safety files, document management, workflow management, smart data and content search, submittals and transmittals, RFI management, and reports modules for data, handover, and team collaboration. It also provides Zutec Field, a mobile app, which offers snagging and defect management, site diaries, QA/QC inspections, construction activity progress tracking, 2D/3D drawings, safety inspections, and firewall penetrations modules to capture and manage site based data and photos. In addition, the company provides Zutec BIM that offers field BIM, 4D progress tracking, and 6D asset information tracking modules for the storage and management all of project 3D models; and Zutec Analytics, a real-time construction analytics functionality for informed decision making and project tracking that allows either to use standard reports or to create own customized reports based on the specific requirements of a construction project. It operates in Ireland, the United Kingdom, Australia, the Middle East, and Hong Kong. Zutec Holding AB (publ) was founded in 1999 and is headquartered in Dun Laoghaire, Ireland.",
   "website": "http://www.zutec.com"
 }

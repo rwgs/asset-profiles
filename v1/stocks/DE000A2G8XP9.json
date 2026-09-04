@@ -3,19 +3,14 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00LPZK1F7",
-    "figi": "BBG00MTKNPR5",
+    "figi": "BBG00MTKNPP7",
     "isin": "DE000A2G8XP9"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Banks",
   "isin": "DE000A2G8XP9",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EBE.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -25,19 +20,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EBE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EBE.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "aifinyo AG",
-  "primary_symbol": "EBE.MU",
+  "primary_symbol": "EBE.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "aifinyo AG operates as a technology-oriented financial service provider in Germany. The company offers financing solutions for startups, freelancers, and medium-sized companies. It offers factoring solutions, including individual factoring, factoring for freelancers and the self-employed, and full service factoring; finetrading solutions consisting of purchase, warehouse, and project financing; leasing solutions comprising hire purchase, sale and lease back, and full amortization leasing; and debt collection. The company was formerly known as Elbe Finanzgruppe AG and changed its name to aifinyo AG in July 2019. The company is headquartered in Dresden, Germany.",
+  "summary": "aifinyo AG is a German FinTech company offering financial solutions for small and medium-sized enterprises (SMEs). It provides services such as factoring, invoice financing, and online payments to improve liquidity and optimize working capital management for its clients.",
   "website": "http://www.aifinyo.de"
 }

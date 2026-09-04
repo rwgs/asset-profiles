@@ -2,34 +2,34 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG00FZHC480",
-    "figi": "BBG00FZHC480",
+    "composite_figi": "BBG000MQ4VF8",
+    "figi": "BBG000MQ4WF6",
     "isin": "XS2213668085"
   },
   "isin": "XS2213668085",
   "kind": "debt",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MRI.F"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MTCPY"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MTRJF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "MRI.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "MTR Corporation Limited",
-  "primary_symbol": "MTCPY",
+  "primary_symbol": "MRI.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00DLDCCP2",
+    "composite_figi": "BBG0065B7K59",
     "cusip": "58506Q109",
-    "figi": "BBG00DLDCCW4",
+    "figi": "BBG00D6TMHS9",
     "isin": "US58506Q1094"
   },
   "industry": "Biotechnology",
@@ -14,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "01P.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "01P.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "MEDP"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "01P.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "01P.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "01P.MU"
     },
     {
       "currency": "EUR",
@@ -45,15 +45,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Medpace Holdings, Inc.",
-  "primary_symbol": "01P.BE",
+  "primary_symbol": "MEDP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MEDPACE HOLDINGS  DL-,01 is a clinical contract research organization (CRO) that provides clinical development services to the pharmaceutical, biotechnology, and medical device industries. They offer a range of services including clinical trial management, data management, and regulatory affairs. Medpace Holdings, Inc. is headquartered in Cincinnati, Ohio.",
+  "summary": "Medpace Holdings, Inc. provides clinical research-based drug and medical device development services in North America, Europe, and Asia. The company offers a suite of services supporting the clinical development process from Phase I to Phase IV in various therapeutic areas. It also provides clinical development services to the biotechnology, pharmaceutical, and medical device industries; and development plan design, coordinated central laboratory, project management, regulatory affairs, clinical monitoring, data management and analysis, pharmacovigilance new drug application submissions, and post-marketing clinical support services. The company also provides bio-analytical laboratory services, clinical human pharmacology, imaging services, and electrocardiography reading support for clinical trials. Medpace Holdings, Inc. was founded in 1992 and is based in Cincinnati, Ohio.",
   "website": "http://www.medpace.com"
 }

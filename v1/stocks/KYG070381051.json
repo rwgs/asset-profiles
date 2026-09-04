@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG0067SLN76",
+    "figi": "BBG0067SLN94",
     "isin": "KYG070381051"
   },
   "industry": "Interactive Media & Services",
@@ -10,11 +11,6 @@
   "isin": "KYG070381051",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2B6.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -24,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2B6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2B6.MU"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "BAIOO FAMILY INTERACTIVE",
-  "primary_symbol": "2B6.MU",
+  "name": "BAIOO Family Interactive Limited",
+  "primary_symbol": "2100.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

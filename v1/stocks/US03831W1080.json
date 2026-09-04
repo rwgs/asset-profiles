@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0101N5Q67",
+    "composite_figi": "BBG006HFPX77",
     "cusip": "03831W108",
-    "figi": "BBG0101N5QC0",
+    "figi": "BBG00ZHSSNP4",
     "isin": "US03831W1080"
   },
   "industry": "Software",
@@ -14,18 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6RV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "APP"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "6RV.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6RV.MU"
     },
     {
       "currency": "EUR",
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "AppLovin Corp. Class A",
-  "primary_symbol": "6RV.MU",
+  "primary_symbol": "APP",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

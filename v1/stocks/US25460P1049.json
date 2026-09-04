@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00T286X07",
+    "composite_figi": "BBG003QGS9Y2",
     "cusip": "25460P104",
-    "figi": "BBG00T286X07",
+    "figi": "BBG00QKF2LZ9",
     "isin": "US25460P1049"
   },
   "industry": "IT Services",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DCSX"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "DCSI.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DCSX"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Direct Communication Solutions, Inc.",
-  "primary_symbol": "DCSX",
+  "primary_symbol": "DCSI.CN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

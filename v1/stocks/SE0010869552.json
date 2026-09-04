@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00WM24QR9",
-    "figi": "BBG00WM24R15",
+    "figi": "BBG00WM24QS8",
     "isin": "SE0010869552"
   },
   "industry": "Pharmaceuticals",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5J2.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5J2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5J2.MU"
     },
     {
       "currency": "SEK",
@@ -27,16 +27,16 @@
       "symbol": "GABA.ST"
     },
     {
-      "currency": "CHF",
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0010869552.SW"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Gabather AB",
-  "primary_symbol": "5J2.MU",
+  "primary_symbol": "5J2.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

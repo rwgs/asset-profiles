@@ -3,7 +3,7 @@
   "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000C8SW61",
-    "figi": "BBG000C8V012",
+    "figi": "BBG000C8SXF9",
     "isin": "US55262C1009"
   },
   "industry": "Insurance",
@@ -12,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MBJ.MU"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MBJ.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MBJ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MBJ.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "MBIA Inc.",
-  "primary_symbol": "MBJ.MU",
+  "primary_symbol": "MBJ.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

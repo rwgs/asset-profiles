@@ -2,48 +2,46 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00ZTZ8JX7",
     "cusip": "680710100",
-    "figi": "BBG00ZTZ8K28",
     "isin": "US6807101000"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US6807101000",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "6XA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "OLK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "6XA.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6XA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6XA.MU"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "OLINK HOLDING AB SP.ADS/1",
-  "primary_symbol": "6XA.MU",
+  "name": "Olink Holding AB (publ)",
+  "primary_symbol": "OLK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Olink Holding AB develops, manufactures, and sells a range of products and services for human protein biomarker discovery. The company offers solutions to help researchers and clinicians gain insights into real-time human biology by providing comprehensive protein biomarker data. Olink Holding AB is headquartered in Uppsala, Sweden.",
+  "summary": "Olink Holding AB (publ) provides various products and services for academic, government, biopharmaceutical, biotechnology, and other institutions focused on life science research. Its products include Olink Explore for cardiovascular and metabolic diseases, oncology, neurology, or inflammation; Olink Target product line; and Olink Focus product line consists of custom developed solutions for customers that have identified a small number of proteins of interest to focus on. The company's products also comprise Olink NPX Manager, a purpose-built software that enable users to import data, validate data quality, and normalize for subsequent statistical analysis; and Olink Insight, a cloud platform for data visualization and statistical analysis of normalized protein expression (NPX) data. In addition, it provides Olink Analysis services comprising study design and consultation, sample preparation and assay execution, and data processing and QC; and bioinformatics services. The company sells its products and services through its own direct sales force in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company was formerly known as Knilo HoldCo AB and changed its name to Olink Holding AB (publ) in January 2021. Olink Holding AB (publ) was founded in 2016 and is headquartered in Uppsala, Sweden.",
   "website": "http://www.olink.com"
 }

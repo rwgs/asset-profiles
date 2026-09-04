@@ -3,7 +3,7 @@
   "country_code": "LU",
   "identifiers": {
     "composite_figi": "BBG000BZCVJ7",
-    "figi": "BBG000BZCXB1",
+    "figi": "BBG000BZCW05",
     "isin": "JP3126400005"
   },
   "industry_group": "Semiconductors & Semiconductor Equipment",
@@ -11,14 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALE.MU"
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ALE.DU"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
-      "symbol": "ALE.DU"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ALE.MU"
     },
     {
       "currency": "EUR",
@@ -27,9 +27,9 @@
     }
   ],
   "name": "ALPS ALPLINE CO. LTD.",
-  "primary_symbol": "ALE.MU",
+  "primary_symbol": "ALE.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

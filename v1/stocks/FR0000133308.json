@@ -2,8 +2,7 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DX1H03",
-    "figi": "BBG000DX2LJ3",
+    "composite_figi": "BBG000DQSH27",
     "isin": "FR0000133308"
   },
   "industry_group": "Telecommunication Services",
@@ -11,50 +10,49 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FTE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FTE.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FTE.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FTE.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FTE.TI"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000133308.SW"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FTE.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FTE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "FTE.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FTE.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FTE.MU"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "FTE.TI"
     }
   ],
-  "name": "ORANGE INH.  EO 4",
-  "primary_symbol": "FTE.BE",
+  "name": "Orange SA",
+  "primary_symbol": "FR0000133308.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Orange S.A. is a French multinational telecommunications corporation. It provides mobile, fixed-line, internet, and television services to consumers and businesses. The company is headquartered in Paris, France."
+  "summary": "ORANGE is a French multinational telecommunications operator providing mobile, fixed-line, internet, and television services. The company operates in numerous countries across Europe, Africa, and the Middle East; headquarters are located in Paris, France. Orange aims to provide connectivity and digital services to consumers and businesses."
 }

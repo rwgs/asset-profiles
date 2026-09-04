@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG001MB80W4",
     "cusip": "03464C106",
+    "figi": "BBG001MB80Z1",
     "isin": "CA03464C1068"
   },
   "industry": "Metals & Mining",
@@ -11,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ANLDF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "AEC.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ANLDF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Anfield Energy Inc.",
-  "primary_symbol": "ANLDF",
+  "primary_symbol": "AEC.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

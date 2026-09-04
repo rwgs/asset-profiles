@@ -2,25 +2,24 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00ZVWX8F7",
+    "composite_figi": "BBG00ZF25693",
     "cusip": "68405H100",
-    "figi": "BBG00ZVWX8F7",
     "isin": "CA68405H1001"
   },
   "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "CA68405H1001",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "OPTHF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA68405H1001.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OPTHF"
     },
     {
       "currency": "CAD",
@@ -34,15 +33,15 @@
     }
   ],
   "name": "Optimi Health Corp.",
-  "primary_symbol": "OPTHF",
+  "primary_symbol": "CA68405H1001.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "Optimi Health Corp. develops an integrated functional mushroom brand that focuses on the health and wellness food markets in Canada. It also focuses on the cultivation, extraction, processing, and distribution of strains of fungi products. The company's range of fungi varieties include Lions Mane, Reishi, Chaga, Cordyceps, and Turkey Tail. The company was incorporated in 2020 and is headquartered in Vancouver, Canada.",
+  "sector": "Health Care",
+  "summary": "Optimi Health Corp. is a Canadian company licensed by Health Canada to produce and supply natural, GMP-certified psilocybin and psychedelic substances, including MDMA. The company operates from a purpose-built, state-of-the-art facility in Princeton, British Columbia. They aim to support research and development of psychedelic therapies.",
   "website": "http://optimihealth.ca"
 }

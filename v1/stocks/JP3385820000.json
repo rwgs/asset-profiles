@@ -2,38 +2,28 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000SDZZL1",
-    "figi": "BBG000SF01F6",
+    "composite_figi": "BBG000H1TDW3",
+    "figi": "BBG000H1VHQ8",
     "isin": "JP3385820000"
   },
   "industry": "Electrical Equipment",
-  "industry_group": "Transportation",
+  "industry_group": "Capital Goods",
   "isin": "JP3385820000",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G9Y.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G9Y.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GYUAF"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "6674.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "G9Y.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "G9Y.DU"
     },
     {
@@ -43,21 +33,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "G9Y.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "G9Y.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GYUAF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "GS Yuasa Corporation",
-  "primary_symbol": "G9Y.BE",
+  "primary_symbol": "6674.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "GS Yuasa Corporation is a Japanese manufacturer of batteries, power supply systems, and lighting equipment. They produce batteries for automotive, industrial, and motorcycle applications. The company is headquartered in Kyoto, Japan.",
+  "summary": "GS Yuasa Corporation manufactures and sells batteries, power supply systems, lighting equipment, and membrane systems in Japan, the rest of Asia, North America, Europe, and internationally. The company operates through Automotive Batteries (Japan), Automotive Batteries (Overseas), Industrial Batteries and Power Supplies, and Automotive Lithium-ion Batteries segments. It offers automotive and motorcycle lead-acid batteries; automotive lithium-ion batteries for electric vehicles, hybrid electric vehicles, and plug-in hybrid electric vehicles; batteries for industrial use; power supply systems; and lithium-ion batteries for manned research submersibles, satellites, rockets, and industrial use. The company was founded in 2004 and is headquartered in Kyoto, Japan.",
   "website": "http://www.gs-yuasa.com"
 }

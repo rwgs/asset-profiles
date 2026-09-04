@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00186X810",
-    "figi": "BBG001BW8W32",
     "isin": "DE000A1EWVY8"
   },
   "industry": "Biotechnology",
@@ -12,24 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FYB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FYB.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FYB.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0W4N.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FYB.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "FYB.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FYB.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FYB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FYB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FYB.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Formycon AG",
-  "primary_symbol": "FYB.BE",
+  "primary_symbol": "0W4N.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Formycon AG develops biosimilars, which are follow-on versions of biopharmaceutical drugs, with a focus on treatments for autoimmune diseases, ophthalmology, and other specialty areas; the company's headquarters are located in Planegg, Germany.",
+  "summary": "Formycon AG develops and markets biosimilar products. The company's product pipeline includes FYB201, a biosimilar candidate for Lucentis 1, an ophthalmic drug used in the treatment of neovascular age-related macular degeneration and other serious eye diseases that has completed Phase III clinical trials; FYB202, a biosimilar candidate for Stelara, a biopharmaceutical used in the treatment of inflammatory diseases, such as moderate to severe psoriasis, as well as for the treatment of Crohn's disease and ulcerative colitis, which is in the Phase I clinical trial; and FYB203, a biosimilar candidate for Eylea 3, like Lucentis, Eylea, used to treat neovascular age-related macular degeneration and other eye diseases. It has a collaboration agreement with Leukocare AG to develop stable formulations for various candidates in its product pipeline. The company was formerly known as Nanohale AG and changed its name to Formycon AG in 2012. Formycon AG was founded in 1999 and is headquartered in Planegg, Germany.",
   "website": "http://www.formycon.com"
 }

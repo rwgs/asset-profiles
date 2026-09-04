@@ -1,31 +1,14 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "India",
+  "country_code": "IN",
   "identifiers": {
-    "composite_figi": "BBG009H8PSJ5",
-    "figi": "BBG009H8PSJ5",
     "isin": "GB00B01QGK86"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Capital Goods",
   "isin": "GB00B01QGK86",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NCCGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NZB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NZB.MU"
-    },
     {
       "currency": "INR",
       "exchange_mic": "XBOM",
@@ -42,9 +25,24 @@
       "symbol": "NCC.NS"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NCCGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NZB.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NZB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NZB.MU"
     },
     {
       "currency": "EUR",
@@ -54,15 +52,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "NCC Group plc",
-  "primary_symbol": "NCCGF",
+  "primary_symbol": "NCC.BO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "NCC Group plc provides cyber security and risk mitigation services in the United Kingdom, North America, rest of Europe, and internationally. It operates through two segments, Assurance and Software Resilience. The company provides cyber security services, such as penetration testing and security assessments, managed detection and response, vulnerability scanning, compliance and accreditations, risk management, products and cloud services, technology solutions, threat intelligence, specialist practices, and training. It also offers software resilience services that include escrow agreements, software escrow verification, secure verification, software as a service access and replicate, and software risk assessment solutions, as well as operates online cyber store. The company serves customers in transport industries that includes automotive, maritime, aerospace, and rail; and oil and gas, Internet of Thing, finance, small business, and retail sectors. NCC Group plc was founded in 1999 and is headquartered in Manchester, the United Kingdom.",
+  "sector": "Industrials",
+  "summary": "NCC Limited is an Indian construction and infrastructure development company. It undertakes projects such as highways, bridges, power plants, and buildings. NCC Limited is headquartered in Hyderabad, India.",
   "website": "http://www.nccgroup.com/uk"
 }

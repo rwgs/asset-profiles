@@ -2,8 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00VTXH4T9",
-    "figi": "BBG00VTXH507",
+    "composite_figi": "BBG00VTL2H76",
+    "cusip": "N44445109",
+    "figi": "BBG00VTL2H76",
     "isin": "NL0015285941"
   },
   "industry": "Biotechnology",
@@ -13,23 +14,23 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4A3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4A3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "IMTX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4A3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "4A3.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4A3.MU"
     },
     {
       "currency": "EUR",
@@ -39,9 +40,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Immatics N.V.",
-  "primary_symbol": "4A3.BE",
+  "primary_symbol": "IMTX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

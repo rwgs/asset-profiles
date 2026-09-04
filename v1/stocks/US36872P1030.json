@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00RJVC784",
+    "composite_figi": "BBG000CV6M39",
     "cusip": "36872P103",
-    "figi": "BBG00RJVC7F6",
+    "figi": "BBG000CV6M39",
     "isin": "US36872P1030"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -14,25 +14,25 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G66.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "GNSS"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "G66.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "G66.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Genasys Inc.",
-  "primary_symbol": "G66.MU",
+  "primary_symbol": "GNSS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

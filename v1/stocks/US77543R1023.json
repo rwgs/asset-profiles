@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00HTWPKQ0",
+    "composite_figi": "BBG001ZZPQJ6",
     "cusip": "77543R102",
-    "figi": "BBG00HTWPKX2",
+    "figi": "BBG00HMJFMQ3",
     "isin": "US77543R1023"
   },
   "industry": "Entertainment",
@@ -14,21 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "R35.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "R35.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ROKU"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0KXI.L"
     },
@@ -39,12 +29,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "R35.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "R35.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "R35.DU"
     },
     {
@@ -53,22 +48,27 @@
       "symbol": "R35.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "R35.MU"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "ROKU.MX"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "ROKU INC  CL. A DL-,0001",
-  "primary_symbol": "R35.BE",
+  "name": "Roku, Inc. Class A",
+  "primary_symbol": "ROKU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Roku, Inc. operates a television streaming platform. The company provides devices that allow users to access various streaming services and content. Roku also generates revenue through advertising and content distribution.",
+  "summary": "Roku, Inc., together with its subsidiaries, operates a TV streaming platform. The company operates in two segments, Platform and Player. The company operates in two segment, Platform and Player. Its platform allows users to discover and access various movies and TV episodes, as well as live sports, music, news, and others. As of December 31, 2020, the company had 51.2 million active accounts. It also provides digital and video advertising, content distribution, subscription, and billing services, as well as other commerce transactions, brand sponsorship and promotions, and audience development campaigns; and manufactures, sells, and licenses smart TVs under the Roku TV name. In addition, the company offers streaming players, and audio products and accessories under the Roku brand name; and sells branded channel buttons on remote controls. It provides its products and services through retailers and distributors, as well as directly to customers through its website in the United States, Canada, the United Kingdom, France, the Republic of Ireland, Mexico, Brazil, and other Latin American countries. Roku, Inc. was founded in 2002 and is headquartered in San Jose, California.",
   "website": "http://www.roku.com"
 }

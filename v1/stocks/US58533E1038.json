@@ -2,9 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00M54NXV5",
+    "composite_figi": "BBG00LLV9WV7",
     "cusip": "58533E103",
-    "figi": "BBG00M54NY16",
+    "figi": "BBG00LLV9WW6",
     "isin": "US58533E1038"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -12,26 +12,6 @@
   "isin": "US58533E1038",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "9MD.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "9MD.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPNGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MPNGY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -43,14 +23,24 @@
       "symbol": "3690N.MX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "9MD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "9MD.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9MD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "9MD.MU"
     },
     {
       "currency": "EUR",
@@ -61,13 +51,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9MDA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPNGF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPNGY"
     }
   ],
   "market_cap_band": "Mega Cap",
   "name": "Meituan",
-  "primary_symbol": "9MD.BE",
+  "primary_symbol": "3690.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

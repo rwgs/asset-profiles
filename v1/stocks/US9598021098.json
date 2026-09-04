@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BB4VQ1",
+    "composite_figi": "BBG000BB5373",
     "cusip": "959802109",
-    "figi": "BBG000BB4Z64",
+    "figi": "BBG000BB55B3",
     "isin": "US9598021098"
   },
   "industry": "Consumer Finance",
@@ -15,17 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "W3U.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W3U.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "WU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "W3U.BE"
     },
     {
       "currency": "EUR",
@@ -33,14 +28,19 @@
       "symbol": "W3U.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "W3U.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "W3U.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "W3U.MU"
     },
     {
       "currency": "EUR",
@@ -55,15 +55,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Western Union Company",
-  "primary_symbol": "W3U.BE",
+  "primary_symbol": "WU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "The Western Union Company provides money transfer and payment services worldwide. The company enables individuals and businesses to send and receive money quickly and reliably. Western Union is headquartered in Denver, Colorado, USA.",
+  "summary": "The Western Union Company provides money movement and payment services worldwide. It operates in two segments, Consumer-to-Consumer and Business Solutions. The Consumer-to-Consumer segment facilitates money transfers between two consumers, primarily through a network of third-party agents and sub-agents. This segment offers international cross-border transfers and intra-country transfers, as well as money transfer transactions through websites and mobile devices. The Business Solutions segment provides payment and foreign exchange solutions, primarily cross-border and cross-currency transactions for small and medium size enterprises, other organizations, and individuals; and foreign currency forward and option contracts. The company also offers bill payment services that facilitates payments from consumers to businesses and other organizations, as well as offers money order and other services. It serves primarily through a network of agents. The Western Union Company was founded in 1851 and is headquartered in Denver, Colorado.",
   "website": "http://www.westernunion.com"
 }

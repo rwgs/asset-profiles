@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GPLX91",
+    "composite_figi": "BBG000BMZXV3",
     "cusip": "493144109",
-    "figi": "BBG000GPM225",
+    "figi": "BBG000BMZXV3",
     "isin": "US4931441095"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -14,36 +14,36 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KT1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KT1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "KTCC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KT1.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KT1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KT1.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Key Tronic Corporation",
-  "primary_symbol": "KT1.BE",
+  "primary_symbol": "KTCC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Key Tronic Corporation is an electronics manufacturing services (EMS) provider, offering a range of services including design, engineering, manufacturing, and testing of electronic assemblies and products. Their products include keyboards, mice, and other input devices, as well as more complex electronic assemblies. Key Tronic is headquartered in Spokane, Washington, USA.",
+  "summary": "Key Tronic Corporation, doing business as KeyTronicEMS Co., provides electronic manufacturing services (EMS) and solutions to original equipment manufacturers in the United States and internationally. The company offers integrated electronic and mechanical engineering, assembly, sourcing and procurement, logistics, and new product testing services. Its services include product design; surface mount technologies and pin through hole capability for printed circuit board assembly; tool making; precision plastic molding; sheet metal fabrication and painting; liquid injection molding; complex assembly; automated tape winding; prototype design; and full product assembly services. The company also manufactures and sells keyboards and other input devices. It markets its products and services primarily through field sales people and distributors. Key Tronic Corporation was founded in 1969 and is headquartered in Spokane Valley, Washington.",
   "website": "http://www.keytronic.com"
 }

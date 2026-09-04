@@ -2,8 +2,6 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000MXTL40",
-    "figi": "BBG000MXTL40",
     "isin": "CNE1000002J7"
   },
   "industry": "Marine",
@@ -11,16 +9,6 @@
   "isin": "CNE1000002J7",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CICOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CICOY"
-    },
     {
       "currency": "CNY",
       "exchange_mic": "XSHG",
@@ -35,13 +23,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "C6G.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CICOF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CICOY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "COSCO SHIPPING Holdings Co Ltd.",
-  "primary_symbol": "CICOF",
+  "primary_symbol": "601919.SS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

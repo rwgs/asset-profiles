@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG001KTLVL6",
-    "figi": "BBG001KTLVL6",
+    "composite_figi": "BBG001C93L86",
+    "figi": "BBG001C93LC1",
     "isin": "BMG6955J1036"
   },
   "industry": "Commercial Services & Supplies",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PXGYF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "P8X.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PXGYF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "PAX Global Technology Limited",
-  "primary_symbol": "PXGYF",
+  "primary_symbol": "P8X.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

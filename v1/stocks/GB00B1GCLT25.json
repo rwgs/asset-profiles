@@ -1,26 +1,25 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG001XQTYX1",
-    "cusip": "73101T101",
-    "figi": "BBG001XQTYX1",
+    "composite_figi": "BBG000CM5BS7",
+    "figi": "BBG000CM6FV3",
     "isin": "GB00B1GCLT25"
   },
   "industry": "Capital Markets",
-  "industry_group": "Energy",
+  "industry_group": "Diversified Financials",
   "isin": "GB00B1GCLT25",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "POLR"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B1GCLT25.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "POLR"
     },
     {
       "currency": "GBP",
@@ -34,16 +33,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Polar Petroleum Corp.",
-  "primary_symbol": "POLR",
+  "name": "Polar Capital Holdings Plc",
+  "primary_symbol": "GB00B1GCLT25.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Polar Petroleum Corp., an exploration stage company, focuses on the exploration, development, and production of oil and natural gas in the United States. It owns interests in 29 oil and gas land leases covering approximately 66,061 acres located in the North Slope region of the State of Alaska. The company was formerly known as Post Data, Inc. and changed its name to Polar Petroleum Corp. in November 2012. Polar Petroleum Corp. was founded in 2011 and is based in Anchorage, Alaska.",
+  "sector": "Financials",
+  "summary": "POLAR CAPITAL HOLDINGS PLC is an asset management firm specializing in investment management. Their business model involves managing investments for institutional and retail clients, generating revenue through management fees and performance fees based on assets under management. The company is headquartered in London, UK.",
   "website": "http://www.polarpetro.com"
 }

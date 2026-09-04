@@ -2,9 +2,7 @@
   "country": "Brazil",
   "country_code": "BR",
   "identifiers": {
-    "composite_figi": "BBG000SN4NJ3",
     "cusip": "059578104",
-    "figi": "BBG000SN4NJ3",
     "isin": "US0595781040"
   },
   "industry": "Banks",
@@ -13,24 +11,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BDORY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BZLA.MU"
-    },
-    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "BBAS3.SA"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BDORY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BZLA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BZLA.MU"
     },
     {
       "currency": "EUR",
@@ -40,9 +38,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Banco Do Brasil SA",
-  "primary_symbol": "BDORY",
+  "primary_symbol": "BBAS3.SA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

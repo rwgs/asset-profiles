@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00J2K83H8",
     "cusip": "63010G100",
-    "figi": "BBG00J2K83P9",
     "isin": "CA63010G1000"
   },
   "industry": "Chemicals",
@@ -13,37 +11,37 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "N13.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NNXPF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "GRA.V"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "N13.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "N13.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NNXPF"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "NANOXPLORE, INC. O.N.",
-  "primary_symbol": "N13.BE",
+  "name": "Nanoxplore Inc.",
+  "primary_symbol": "GRA.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "NanoXplore Inc. is a graphene company, a manufacturer and supplier of graphene and graphene-enhanced products. It provides graphene powder to several industries, including transportation, packaging, electronics, and energy storage. NanoXplore is headquartered in Montreal, Canada.",
+  "summary": "NanoXplore Inc., a graphene company, manufactures and supplies graphene powder for use in industrial markets. It offers graphene-based solutions, including GrapheneBlack powder and graphene-enhanced masterbatch pellets. The company also provides standard and custom graphene-enhanced plastic and composite products to customers in transportation, packaging, electronics, and other industrial sectors. It operates in the United States, Canada, France, Switzerland, and internationally. The company was founded in 2011 and is headquartered in Montréal, Canada.",
   "website": "http://www.nanoxplore.ca"
 }

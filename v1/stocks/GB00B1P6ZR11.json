@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000C98WY0",
-    "figi": "BBG000C98Z73",
+    "figi": "BBG000C98XG8",
     "isin": "GB00B1P6ZR11"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BGUA.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BGUA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BGUA.MU"
     },
     {
       "currency": "GBP",
@@ -32,16 +32,16 @@
       "symbol": "GB00B1P6ZR11.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B1P6ZR11.SW"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "BROWN GRP PLC CONS.",
-  "primary_symbol": "BGUA.MU",
+  "market_cap_band": "Small Cap",
+  "name": "N Brown Group plc",
+  "primary_symbol": "BGUA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

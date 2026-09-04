@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG002QBDW07",
     "cusip": "00830W105",
-    "figi": "BBG002QBDW52",
     "isin": "CA00830W1059"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,16 +10,6 @@
   "isin": "CA00830W1059",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "H73.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HPMCF"
-    },
     {
       "currency": "SEK",
       "exchange_mic": "XSTO",
@@ -39,21 +27,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "H73.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "H73.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HPMCF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "AFRICA ENERGY",
-  "primary_symbol": "H73.MU",
+  "name": "Africa Energy Corp.",
+  "primary_symbol": "AEC.ST",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Africa Energy Corp. is an oil and gas exploration company with assets offshore South Africa. The company is focused on participating in high-impact exploration wells and appraising existing discoveries. Africa Energy is headquartered in Vancouver, Canada.",
+  "summary": "Africa Energy Corp. operates as an oil and gas exploration and production company in South Africa and Namibia. It holds a 90% interest in the Exploration Right for Block 2B offshore that covers an area of 3,062 square kilometers located in the west coast of South Africa; 43.85% interest in the Petroleum Exploration License 37 covering an area of 17,295 square kilometers located in the northern Namibian offshore region; and 49% interest in the Exploration Right for Block 11B/12B covering an area of approximately 19,000 square kilometers located in the Outeniqua Basin off the southern coast of South Africa. The company was formerly known as Horn Petroleum Corporation and changed its name to Africa Energy Corp. in March 2015. Africa Energy Corp. was incorporated in 2010 and is headquartered in Vancouver, Canada.",
   "website": "http://www.africaenergycorp.com"
 }

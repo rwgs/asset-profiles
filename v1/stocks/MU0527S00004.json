@@ -2,20 +2,15 @@
   "country": "India",
   "country_code": "IN",
   "identifiers": {
-    "composite_figi": "BBG00F47CHF9",
-    "figi": "BBG00F47CHP8",
+    "composite_figi": "BBG00BNY1LB5",
+    "figi": "BBG00BNY1LH9",
     "isin": "MU0527S00004"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
-  "industry_group": "Energy",
+  "industry_group": "Utilities",
   "isin": "MU0527S00004",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "256.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -25,19 +20,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "256.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "256.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Azure Power Global Limited",
-  "primary_symbol": "256.MU",
+  "primary_symbol": "AZRE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Azure Power Global Limited, headquartered in New Delhi, India, is an independent solar power producer. They develop, construct and operate solar power plants, selling electricity to government utilities and independent industrial customers. The company aims to provide clean and affordable energy solutions.",
+  "sector": "Utilities",
+  "summary": "Azure Power Global Limited, together with its subsidiaries, engages in the development, construction, ownership, operation, maintenance, and management of solar power plants in India. It generates solar energy based on long-term contracts with Indian government energy distribution companies, as well as other non-governmental energy distribution companies and commercial customers. As of March 31, 2020, the company operated 43 utility scale projects and various commercial rooftop projects with a combined rated capacity of 1,808 MW. Azure Power Global Limited was founded in 2008 and is based in New Delhi, India.",
   "website": "http://www.azurepower.com"
 }

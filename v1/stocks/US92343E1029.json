@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BZ0MF4",
+    "composite_figi": "BBG000BGKHZ3",
     "cusip": "92343E102",
-    "figi": "BBG000BZ0PM9",
+    "figi": "BBG000BGKTY8",
     "isin": "US92343E1029"
   },
   "industry": "Software",
@@ -14,33 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VRS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VRS.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VRS.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VRS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "VRSN"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LOZ.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VRS.BE"
     },
     {
       "currency": "EUR",
@@ -48,14 +33,29 @@
       "symbol": "VRS.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "VRS.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VRS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "VRS.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VRS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VRS.MU"
     },
     {
       "currency": "EUR",
@@ -80,15 +80,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "VeriSign, Inc.",
-  "primary_symbol": "VRS.BE",
+  "primary_symbol": "VRSN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "VeriSign, Inc. provides domain name registry services and internet infrastructure. They are the registry for .com, .net, .tv, .cc, .name, and .jobs top-level domains. The company is headquartered in Reston, Virginia.",
+  "summary": "VeriSign, Inc., together with its subsidiaries, provides domain name registry services and internet infrastructure that enables internet navigation for various recognized domain names worldwide. It enables the security, stability, and resiliency of internet infrastructure and services, including providing root zone maintainer services, operating two of the 13 internet root servers; and offering registration services and authoritative resolution for the .com and .net domains, which support global e-commerce. VeriSign, Inc. was incorporated in 1995 and is headquartered in Reston, Virginia.",
   "website": "http://www.verisign.com"
 }

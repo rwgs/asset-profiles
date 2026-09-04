@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000J6PP20",
-    "figi": "BBG000J6PP20",
+    "composite_figi": "BBG000BJSV33",
+    "figi": "BBG000BJSVL3",
     "isin": "CNE1000004F1"
   },
   "industry": "Air Freight & Logistics",
@@ -11,11 +11,6 @@
   "isin": "CNE1000004F1",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SNOTF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -35,13 +30,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SIY.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SNOTF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Sinotrans Ltd. Class H",
-  "primary_symbol": "SNOTF",
+  "primary_symbol": "0598.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

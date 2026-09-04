@@ -2,34 +2,29 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GWF7K7",
+    "composite_figi": "BBG000BYZ0Q5",
     "cusip": "88162G103",
-    "figi": "BBG000GWGFK8",
+    "figi": "BBG000BYZCW2",
     "isin": "US88162G1031"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Capital Goods",
   "isin": "US88162G1031",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TT6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TT6.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TTEK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TT6.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TT6.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TT6.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TT6.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Tetra Tech, Inc.",
-  "primary_symbol": "TT6.BE",
+  "primary_symbol": "TTEK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Tetra Tech, Inc. provides consulting and engineering services worldwide. The company offers services in water, environment, infrastructure, resource management, energy, and international development, with headquarters in Pasadena, California. Tetra Tech serves government and commercial clients.",
+  "summary": "Tetra Tech, Inc. provides consulting and engineering services worldwide. The company operates through Government Services Group (GSG) and Commercial/International Services Group (CIG) segments. The GSG segment offers early data collection and monitoring, data analysis and information technology, science and engineering applied research, engineering design, construction management, and operations and maintenance services; and climate change and energy management consulting, as well as greenhouse gas inventory assessment, certification, reduction, and management services. This segment serves federal, state, and local governments, and development agencies in water resources analysis and water management, environmental monitoring, data analytics, government consulting, waste management, and a range of civil infrastructure master planning and engineering design markets. The CIG segment provides early data collection and monitoring, data analysis and information management, feasibility studies and assessments, science and engineering applied research, engineering design, construction management, and operations and maintenance services. This segment serves natural resources, energy, and utilities markets, as well as civil infrastructure master planning and engineering design markets. Tetra Tech, Inc. was founded in 1966 and is headquartered in Pasadena, California.",
   "website": "http://www.tetratech.com"
 }

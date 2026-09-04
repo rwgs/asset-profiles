@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BFK0K8",
+    "composite_figi": "BBG000B9XYV2",
     "cusip": "03027X100",
-    "figi": "BBG000BFK4T1",
+    "figi": "BBG000B9Y214",
     "isin": "US03027X1000"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -15,26 +15,16 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "A0T.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "A0T.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "A0T.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "AMT"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "A0T.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "A0T.DU"
     },
     {
@@ -44,8 +34,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "A0T.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "A0T.SG"
+    },
+    {
+      "symbol": "A0T.TI"
     },
     {
       "currency": "MXN",
@@ -65,15 +63,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "American Tower Corporation",
-  "primary_symbol": "A0T.BE",
+  "primary_symbol": "AMT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "American Tower Corporation is a real estate investment trust (REIT) that owns, operates, and develops multitenant communications real estate, including towers and other wireless infrastructure. The company leases space on its infrastructure to wireless service providers, government entities, and broadcasters. American Tower Corporation is headquartered in Boston, Massachusetts.",
+  "summary": "American Tower, one of the largest global REITs, is a leading independent owner, operator and developer of multitenant communications real estate with a portfolio of approximately 181,000 communications sites.",
   "website": "http://www.americantower.com"
 }

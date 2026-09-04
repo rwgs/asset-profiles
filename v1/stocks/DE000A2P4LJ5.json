@@ -1,9 +1,8 @@
 {
-  "country": "Spain",
-  "country_code": "ES",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00V7RKVH5",
-    "figi": "BBG00V7RKVP6",
     "isin": "DE000A2P4LJ5"
   },
   "industry": "Pharmaceuticals",
@@ -12,19 +11,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PSG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PSG.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A2P4LJ5.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PSG.BE"
     },
     {
       "currency": "EUR",
@@ -32,27 +26,32 @@
       "symbol": "PSG.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "PSG.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PSG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PSG.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "PharmaSGP Holding SE",
-  "primary_symbol": "PSG.BE",
+  "primary_symbol": "DE000A2P4LJ5.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "PharmaSGP Holding SE is a German company that develops, produces, and markets over-the-counter (OTC) pharmaceuticals and other healthcare products. Their products are sold in pharmacies and drugstores across Europe. The company is headquartered in Gräfelfing, Germany.",
+  "summary": "Pharmasgp Holding SE is a leading consumer health company with a portfolio of established OTC brands, headquartered in Gräfelfing, Germany. The company markets and sells non-prescription medicines and healthcare products in various therapeutic areas. Pharmasgp focuses on expanding its brand portfolio and international presence.",
   "website": "http://pharmasgp.com"
 }

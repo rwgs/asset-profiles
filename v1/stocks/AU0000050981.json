@@ -2,6 +2,8 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00Q9M5133",
+    "figi": "BBG00Q9M5142",
     "isin": "AU0000050981"
   },
   "industry": "Consumer Finance",
@@ -10,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SEZNL"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0SEA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SEZNL"
     },
     {
       "currency": "AUD",
@@ -27,9 +29,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Sezzle Inc.",
-  "primary_symbol": "SEZNL",
+  "primary_symbol": "0SEA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

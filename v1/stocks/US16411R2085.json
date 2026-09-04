@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000MTZ1T9",
+    "composite_figi": "BBG000C3HSR0",
     "cusip": "16411R208",
-    "figi": "BBG000MV0871",
+    "figi": "BBG000C3HT52",
     "isin": "US16411R2085"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,27 +15,27 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "CHQ1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CHQ1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "LNG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HWH.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CHQ1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CHQ1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CHQ1.MU"
     },
     {
       "currency": "EUR",
@@ -50,15 +50,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Cheniere Energy, Inc.",
-  "primary_symbol": "CHQ1.BE",
+  "primary_symbol": "LNG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Cheniere Energy, Inc. is an energy company primarily engaged in liquefied natural gas (LNG)-related businesses. They own and operate LNG terminals and pipelines. The company is headquartered in Houston, Texas.",
+  "summary": "Cheniere Energy, Inc., an energy infrastructure company, engages in the liquefied natural gas (LNG) related businesses in the United States. It owns and operates the Sabine Pass LNG terminal in Cameron Parish, Louisiana; and the Corpus Christi LNG terminal near Corpus Christi, Texas. The company also owns Creole Trail pipeline, a 94-mile pipeline interconnecting the Sabine Pass LNG terminal with various interstate pipelines; and operates Corpus Christi pipeline, a 23-mile natural gas supply pipeline that interconnects the Corpus Christi LNG terminal with various interstate and intrastate natural gas pipelines. It is also involved in the LNG and natural gas marketing business. The company was incorporated in 1983 and is headquartered in Houston, Texas.",
   "website": "http://www.cheniere.com"
 }

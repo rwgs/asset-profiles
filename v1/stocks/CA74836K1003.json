@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000PD4M28",
     "cusip": "74836K100",
-    "figi": "BBG000PD4PM9",
     "isin": "CA74836K1003"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,17 +11,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "QE1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "QTEYF"
-    },
-    {
-      "currency": "GBP",
+      "currency": "CAD",
       "exchange_mic": "XLON",
       "symbol": "0KF1.L"
     },
@@ -31,6 +19,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "QE1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "QE1.MU"
     },
     {
       "currency": "EUR",
@@ -51,19 +44,24 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "QECO.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "QTEYF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Questerre Energy Corp.",
-  "primary_symbol": "QE1.MU",
+  "primary_symbol": "0KF1.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Questerre Energy Corporation is an energy company focused on shale gas exploration and development in the province of Quebec, Canada. They use innovative technologies to produce natural gas. Their headquarters are likely in Calgary, Alberta.",
+  "summary": "Questerre Energy Corporation acquires, explores, and develops non-conventional oil and gas projects in Canada. It produces tight oil, oil shale, shale oil, and shale gas. The company primarily holds 40,800 acres located in Kakwa, west central Alberta, including a 25% working interest in 10,080 acres in Kakwa Central; 50% working interest in 4,480 acres in Kakwa North; 50% interest in 22,400 acres in Kakwa West; and 50% interest in 3,840 acres in Kakwa South. It also holds 100% working interest in 11,952 acres located in Antler, Saskatchewan; and oil shale assets in Jordan. The company was formerly known as Westpro Equipment Ltd. and changed its name to Questerre Energy Corporation in December 2000. Questerre Energy Corporation was incorporated in 1971 and is headquartered in Calgary, Canada.",
   "website": "http://www.questerre.com"
 }

@@ -2,8 +2,6 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
-    "composite_figi": "BBG000DQ5JC7",
-    "figi": "BBG000DQ5N29",
     "isin": "FI0009009377"
   },
   "industry": "Capital Markets",
@@ -12,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AP6.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AP6.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0E1L.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AP6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AP6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AP6.MU"
     },
     {
       "currency": "EUR",
@@ -42,22 +40,22 @@
       "symbol": "CAPMAN.HE"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FI0009009377.SW"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "CapMan Oyj Class B",
-  "primary_symbol": "AP6.BE",
+  "primary_symbol": "0E1L.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "CapMan Oyj is a Finnish private equity firm that invests in a variety of sectors. They manage private equity funds and invest in real estate and infrastructure. The company is headquartered in Finland.",
+  "summary": "CapMan Oyj is a private equity firm specializing in growth capital investments, industry consolidation, middle market buyouts, credit and mezzanine financing in unquoted companies. The firm focuses on mature companies in the non-strategic sectors serving Russia's large middle class. It targets companies in the technology, manufacturing, consumer goods and services, financial services, media, energy, transportation, service, retail, information technology, telecommunications, medical technology, healthcare, life sciences, e-commerce, home improvement, business services, infrastructure, real estate and private healthcare sectors. It can invest in both private as well as listed companies. The firm typically invests in companies based in the Nordic countries and Russia and also targets Central and Eastern Europe. In Russia, it focuses on investments in small and mid-sized companies with a particular focus on rural areas. With respect to middle market buyouts, the firm invests between €15 million ($16.63 million) and €75 million ($83.15 million) in equity capital in companies with Net sales between €50 million ($55.43 million) and €300 million ($332.59 million) and/or €10 million ($12.78 million) to €30 million ($38.35 million) in mezzanine capital in companies with net sales ranging from €50 million ($63.92 million) to €500 million ($639.27 million) and enterprise values between €5 million ($6.47 million) to €500 million ($673.24 million). Its technology investments range from €3 million ($3.83 million) to €15 million ($19.17 million) in companies with sales more than €2 million ($2.55 million). The firm invests between €2 million ($2.55 million) and €7 million ($8.94million) in the life sciences sector in companies with sales between €2 million ($2.55 million) to €20 million ($25.57 million). In Russia, it seeks to invest between €5 million ($6.39 million) to €15 million ($19.17 million) equity per transaction in companies having enterprise value between €5 million ($6.39 million) to €50 million ($63.92 million), sales ranging from €5 million ($6.39 million) to €100 million ($127.85 million). Within infrastructure, it seeks to invest between €20 million ($22.57 million) and €50 million ($56.41 million). The firm also targets Nordic publicly listed companies with a market capitalization ranging between €100 million ($131.93 million) and €700 million ($923.48 million), and a particular focus on undervalued companies. The firm seeks to hold significant minority shareholdings in listed small and mid-cap companies and also prefers to take majority stake in companies. For Russian companies, the firm typically takes equity stake between 10 percent and 49 percent. It typically exits its investments in three to six years through trade sales and IPOs. The firm exits growth companies between four to seven years. CapMan Oyj was founded in 1989 and is based in Helsinki, Finland with additional offices in Stockholm, Sweden; Luxembourg; St. Petersburg, Russia; Copenhagen, Denmark; London, United Kingdom; and Guernsey, Channel Islands.",
   "website": "http://www.capman.com"
 }

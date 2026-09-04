@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00N9XW289",
+    "composite_figi": "BBG00N0PL198",
     "cusip": "014442107",
-    "figi": "BBG00N9XW2G0",
+    "figi": "BBG00N0PL1V3",
     "isin": "US0144421072"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0Z2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0Z2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ALEC"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0Z2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0Z2.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0Z2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "0Z2.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Alector, Inc.",
-  "primary_symbol": "0Z2.BE",
+  "primary_symbol": "ALEC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Alector, Inc. is a clinical-stage biotechnology company pioneering immuno-neurology, a novel therapeutic approach for the treatment of neurodegenerative diseases. The company is developing a pipeline of products designed to restore healthy brain function by harnessing the body's own immune system to fight these diseases. Alector is headquartered in South San Francisco, California.",
+  "summary": "Alector, Inc., a clinical stage biopharmaceutical company, develops therapies for the treatment of neurodegeneration diseases. Its products include AL001, a humanized recombinant monoclonal antibody, which is in Phase III clinical trial for the treatment of frontotemporal dementia, Alzheimer's, Parkinson's, and amyotrophic lateral sclerosis diseases; and AL101 that is in Phase I clinical trial for the treatment of neurodegenerative diseases, including Alzheimer's and Parkinson's diseases. The company also offers AL002, a product candidate that is in Phase II clinical trial for the treatment of Alzheimer's disease; and AL003, which is in Phase Ib clinical trial for the treatment of Alzheimer's disease. In addition, its products in development stage include AL044 that targets MS4A4A, a risk gene for Alzheimer's disease; and 8 candidates in immuno-neurology/immuno-oncology field comprise ADP012, ADP016, ADP017, ADP023, ADP026, ADP122, ADP009, and ADP022. Alector, Inc. has a collaboration agreement with Adimab, LLC for the research and development of antibodies. The company was founded in 2013 and is headquartered in South San Francisco, California.",
   "website": "http://www.alector.com"
 }

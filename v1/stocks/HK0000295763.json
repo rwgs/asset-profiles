@@ -3,7 +3,7 @@
   "country_code": "HK",
   "identifiers": {
     "composite_figi": "BBG000P6Z704",
-    "figi": "BBG000P6Z8N7",
+    "figi": "BBG000P6Z7S4",
     "isin": "HK0000295763"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MRU3.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MRU3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MRU3.MU"
     },
     {
       "currency": "EUR",
@@ -27,11 +27,11 @@
       "symbol": "MRU3.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Rich Goldman Holdings Limited",
-  "primary_symbol": "MRU3.MU",
+  "primary_symbol": "MRU3.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

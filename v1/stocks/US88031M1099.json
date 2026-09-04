@@ -2,9 +2,9 @@
   "country": "Luxembourg",
   "country_code": "LU",
   "identifiers": {
-    "composite_figi": "BBG000LQNBV4",
+    "composite_figi": "BBG000PLD4R3",
     "cusip": "88031M109",
-    "figi": "BBG000LQNBV4",
+    "figi": "BBG000PLD732",
     "isin": "US88031M1099"
   },
   "industry": "Energy Equipment & Services",
@@ -15,27 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "TNRSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "TS"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TW1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TW11.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TW11.MU"
     },
     {
       "currency": "BRL",
@@ -58,14 +38,19 @@
       "symbol": "TEN.VI"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "TENC.BA"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "TEND.BA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TNRSF"
     },
     {
       "currency": "EUR",
@@ -74,12 +59,22 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TW1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TW1.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TW11.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TW11.DU"
     },
     {
@@ -89,15 +84,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TW11.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TW11.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Tenaris S.A.",
-  "primary_symbol": "TNRSF",
+  "primary_symbol": "TS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

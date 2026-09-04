@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG007DGM2V1",
+    "composite_figi": "BBG001YKDND6",
     "cusip": "52603A208",
-    "figi": "BBG007DGM312",
+    "figi": "BBG0074JGF52",
     "isin": "US52603A2087"
   },
   "industry": "Consumer Finance",
@@ -15,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "8LCA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "8LCA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "LC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "8LCA.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "8LCA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8LCA.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "LendingClub Corp",
-  "primary_symbol": "8LCA.BE",
+  "primary_symbol": "LC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "LENDINGCLUB CORP.  DL-,01: LendingClub Corporation is a financial technology company operating an online marketplace that connects borrowers and investors. The company provides personal loans, business loans, and auto refinancing. LendingClub is headquartered in San Francisco, California.",
+  "summary": "LendingClub Corporation, operates as a bank holding company for LendingClub Bank, National Association that provides range of financial products and services through a technology-driven platform in the United States. The company provides commercial and industrial, commercial real estate, small business, and equipment loans, as well as leases equipment; and unsecured personal and auto, patient finance, and education finance loans. It also operates an online lending marketplace platform that connects borrowers and investors. The company was incorporated in 2006 and is headquartered in San Francisco, California.",
   "website": "http://www.lendingclub.com"
 }

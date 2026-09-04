@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000J5D4Q6",
+    "composite_figi": "BBG000C75N77",
     "cusip": "200340107",
-    "figi": "BBG000J5D7B5",
+    "figi": "BBG000C75Q34",
     "isin": "US2003401070"
   },
   "industry": "Banks",
@@ -15,15 +15,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "CA3.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "CMA"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0I1P.L"
     },
@@ -33,8 +28,8 @@
       "symbol": "C1MA34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CA3.DU"
     },
     {
@@ -44,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CA3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA3.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "COMERICA INC.  DL 5",
-  "primary_symbol": "CA3.MU",
+  "name": "COMERICA INCORPORATED",
+  "primary_symbol": "CMA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

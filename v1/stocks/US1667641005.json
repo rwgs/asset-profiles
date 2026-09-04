@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000K4ND22",
     "cusip": "166764100",
+    "figi": "BBG000K4NHJ5",
     "isin": "US1667641005"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,42 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0R2Q.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CHV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CHV.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CHV.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CHV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "CVX"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CVX-U.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0R2Q.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XBRU",
+      "symbol": "CHTEX.BR"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XBRU",
-      "symbol": "CHTEX.BR"
+      "exchange_mic": "XBER",
+      "symbol": "CHV.BE"
     },
     {
       "currency": "EUR",
@@ -56,14 +38,29 @@
       "symbol": "CHV.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CHV.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CHV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "CHV.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CHV.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CHV.MU"
     },
     {
       "currency": "EUR",
@@ -76,6 +73,10 @@
       "symbol": "CHVX34.SA"
     },
     {
+      "currency": "EUR",
+      "symbol": "CVX-U.TI"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "CVX.BA"
@@ -86,7 +87,7 @@
       "symbol": "CVX.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "CVX.SN"
     },
@@ -98,15 +99,15 @@
   ],
   "market_cap_band": "Mega Cap",
   "name": "Chevron Corporation",
-  "primary_symbol": "0R2Q.IL",
+  "primary_symbol": "CVX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Chevron Corporation is an integrated energy company that explores for, produces, and transports crude oil and natural gas. The company also refines, markets, and distributes gasoline and other petroleum products, operating through various business segments worldwide. Chevron is headquartered in San Ramon, California, USA.",
+  "summary": "Chevron Corporation, through its subsidiaries, engages in integrated energy, chemicals, and petroleum operations worldwide. The company operates in two segments, Upstream and Downstream. The Upstream segment is involved in the exploration, development, and production of crude oil and natural gas; processing, liquefaction, transportation, and regasification associated with liquefied natural gas; transportation of crude oil through pipelines; and transportation, storage, and marketing of natural gas, as well as operates a gas-to-liquids plant. The Downstream segment engages in refining crude oil into petroleum products; marketing crude oil, refined products, and lubricants; transporting crude oil and refined products through pipeline, marine vessel, motor equipment, and rail car; and manufacturing and marketing commodity petrochemicals, and fuel and lubricant additives, as well as plastics for industrial uses. Chevron Corporation is also involved in the cash management and debt financing activities; insurance operations; real estate activities; and technology businesses. The company was formerly known as ChevronTexaco Corporation and changed its name to Chevron Corporation in 2005. Chevron Corporation was founded in 1879 and is headquartered in San Ramon, California.",
   "website": "http://www.chevron.com"
 }

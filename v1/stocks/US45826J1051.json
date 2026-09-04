@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00CW7Q726",
+    "composite_figi": "BBG007KC7PB0",
     "cusip": "45826J105",
-    "figi": "BBG00CW7Q780",
+    "figi": "BBG007KC7PB0",
     "isin": "US45826J1051"
   },
   "industry": "Biotechnology",
@@ -14,27 +14,22 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "38I.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "38I.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NTLA"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0JBU.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "38I.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "38I.DU"
     },
     {
@@ -44,21 +39,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "38I.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "38I.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "INTELLIA THERAPEU  DL-,01",
-  "primary_symbol": "38I.BE",
+  "name": "Intellia Therapeutics, Inc.",
+  "primary_symbol": "NTLA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Intellia Therapeutics, Inc. is a biotechnology company focused on developing curative therapeutics using CRISPR/Cas9 gene editing technology. They are developing therapies for genetic diseases. The company is headquartered in Cambridge, Massachusetts.",
+  "summary": "Intellia Therapeutics, Inc., a genome editing company, focuses on the development of therapeutics. It utilizes a biological tool known as the Clustered, Regularly Interspaced Short Palindromic Repeats/CRISPR associated 9 (CRISPR/Cas9) system. The company's in vivo programs include NTLA-2001, which is in Phase 1 clinical trial for the treatment of transthyretin amyloidosis; and NTLA-2002 for the treatment of hereditary angioedema, as well as other liver-focused programs comprising hemophilia A and hemophilia B, hyperoxaluria Type 1, and alpha-1 antitrypsin deficiency. Its ex vivo pipeline includes NTLA-5001 for the treatment of acute myeloid leukemia; and proprietary programs focused on developing engineered cell therapies to treat various oncological and autoimmune disorders. Intellia Therapeutics, Inc. has license and collaboration agreements with Novartis Institutes for BioMedical Research, Inc. to engineer hematopoietic stem cells for the treatment of sickle cell disease; Regeneron Pharmaceuticals, Inc. to co-develop potential products for the treatment of hemophilia A and hemophilia B; and Ospedale San Raffaele. The company was formerly known as AZRN, Inc. and changed its name to Intellia Therapeutics, Inc. in July 2014. Intellia Therapeutics, Inc. was incorporated in 2014 and is headquartered in Cambridge, Massachusetts.",
   "website": "http://www.intelliatx.com"
 }

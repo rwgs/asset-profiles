@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000LPBVR0",
+    "composite_figi": "BBG000LD74H3",
     "cusip": "10778T105",
-    "figi": "BBG000LPBVR0",
+    "figi": "BBG000LD87R4",
     "isin": "CA10778T1057"
   },
   "industry": "Energy Equipment & Services",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BRYFF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "BRY.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BRYFF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Bri-Chem Corp.",
-  "primary_symbol": "BRYFF",
+  "primary_symbol": "BRY.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

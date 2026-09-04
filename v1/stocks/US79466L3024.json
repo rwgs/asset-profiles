@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BN2DC2",
     "cusip": "79466L302",
+    "figi": "BBG000BN2GH0",
     "isin": "US79466L3024"
   },
   "industry": "Software",
@@ -13,27 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0QYJ.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "CRM"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FOO.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FOO.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FOO.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0QYJ.IL"
     },
     {
       "currency": "ARS",
@@ -52,12 +39,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FOO.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "FOO.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FOO.DU"
     },
     {
@@ -66,22 +58,30 @@
       "symbol": "FOO.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FOO.MU"
+    },
+    {
+      "symbol": "FOO.TI"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "SSFO34.SA"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "SALESFORCE.COM INC SALESFORCE.C",
-  "primary_symbol": "0QYJ.IL",
+  "name": "Salesforce, Inc.",
+  "primary_symbol": "CRM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Salesforce, Inc. is a global provider of cloud-based software solutions for customer relationship management (CRM). The company offers a suite of applications for sales, service, marketing, commerce, and other business functions, helping companies manage their customer interactions and improve their business performance. Salesforce is headquartered in San Francisco, California, USA.",
+  "summary": "salesforce.com, inc. develops enterprise cloud computing solutions with a focus on customer relationship management worldwide. The company offers Sales Cloud to store data, monitor leads and progress, forecast opportunities, and gain insights through analytics and relationship intelligence, as well as deliver quotes, contracts, and invoices. It also provides Service Cloud, which enables companies to deliver personalized customer service and support, as well as a field service solution that enables companies to connect agents, dispatchers, and mobile employees through a centralized platform, which helps to schedule and dispatch work, and track and manage jobs in real-time. In addition, the company offers Marketing Cloud to plan, personalize, and optimize one-to-one customer marketing interactions; and Commerce Cloud, which enables companies to enhance engagement, conversion, revenue, and loyalty from their customers. Further, it provides Customer 360 Platform that offers no-code to pro-code Platform-as-a-Service tools for building, securing, integrating, and managing the business apps; MuleSoft Anypoint Platform enables customers to connect any system, application, data, or device; Quip collaboration platform, which combines documents, spreadsheets, apps, and chat with live CRM data; and Tableau and Einstein Analytics, provides analytical technology to customers. Additionally, the company offers various solutions for financial services, healthcare and life sciences, manufacturing, consumer goods, government, and philanthropy. The company also provides professional services and education services, including instructor-led and online courses; and support and adoption programs. It provides its services through direct sales; and consulting firms, systems integrators, and other partners. Salesforce and Siemens has a strategic partnership. The company was founded in 1999 and is headquartered in San Francisco, California.",
   "website": "http://www.salesforce.com"
 }

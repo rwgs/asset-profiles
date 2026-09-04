@@ -2,34 +2,32 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00KJY2GN7",
-    "figi": "BBG00KJY2GV8",
     "isin": "SE0006091997"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "SE0006091997",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1YR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1YR.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0G8X.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1YR.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1YR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1YR.MU"
     },
     {
       "currency": "SEK",
@@ -39,15 +37,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Immunovia AB",
-  "primary_symbol": "1YR.BE",
+  "primary_symbol": "0G8X.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "IMMUNOVIA AB is a Swedish biotechnology company focused on developing and commercializing innovative diagnostics for autoimmune diseases. Their main focus is on rheumatoid arthritis (RA), with products aimed at improving disease management and treatment decisions. The company is headquartered in Uppsala, Sweden.",
+  "summary": "Immunovia AB (publ), a diagnostic company, engages in developing and commercializing blood tests for the early detection of cancer and autoimmune diseases based on its proprietary test platform IMMray in Sweden and internationally. Its pipeline comprises early-phase research projects in collaboration with academic centers; and diagnostic tests in pancreatic cancer and rheumatoid arthritis diagnostics. Immunovia AB (publ) was founded in 2007 and is headquartered in Lund, Sweden.",
   "website": "http://www.immunovia.com"
 }

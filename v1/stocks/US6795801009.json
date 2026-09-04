@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GTZ6Y9",
+    "composite_figi": "BBG000CHSS88",
     "cusip": "679580100",
-    "figi": "BBG000GTZC21",
+    "figi": "BBG000CHV281",
     "isin": "US6795801009"
   },
   "industry": "Transportation Infrastructure",
@@ -14,17 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ODF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ODF.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ODFL"
     },
     {
@@ -34,8 +24,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ODF.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ODF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ODF.MU"
     },
     {
       "currency": "EUR",
@@ -49,16 +49,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "OLD DOMIN.FR.LINE  DL-,10",
-  "primary_symbol": "ODF.BE",
+  "name": "Old Dominion Freight Line, Inc.",
+  "primary_symbol": "ODFL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Old Dominion Freight Line, Inc. is a leading less-than-truckload (LTL) carrier providing regional, inter-regional and national LTL services. The company also offers ground and air expedited transportation, supply chain consulting, and truckload brokerage services. It is headquartered in Thomasville, North Carolina.",
+  "summary": "Old Dominion Freight Line, Inc. operates as a less-than-truckload (LTL) motor carrier in the United States and North America. It provides regional, inter-regional, and national LTL services, including expedited transportation. The company also offers various value-added services, such as container drayage, truckload brokerage, and supply chain consulting. As of December 31, 2020, it owned 9,288 tractors, as well as operated 244 service and 42 maintenance centers. Old Dominion Freight Line, Inc. was founded in 1934 and is based in Thomasville, North Carolina.",
   "website": "http://www.odfl.com"
 }

@@ -10,29 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "NOK",
+      "exchange_mic": "XLON",
       "symbol": "0JXF.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "PR4.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PR4.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PSKRF"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PR4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PR4.MU"
     },
     {
       "currency": "NOK",
@@ -43,13 +38,18 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "PROTO.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PSKRF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Protector Forsikring ASA",
   "primary_symbol": "0JXF.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

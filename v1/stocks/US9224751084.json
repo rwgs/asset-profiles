@@ -2,33 +2,30 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG001CGB489",
     "cusip": "922475108",
+    "figi": "BBG005845P91",
     "isin": "US9224751084"
   },
   "industry": "Health Care Providers & Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "US9224751084",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "VEE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VEE.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "VEEV"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LO3.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VEE.BE"
     },
     {
       "currency": "EUR",
@@ -36,14 +33,19 @@
       "symbol": "VEE.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "VEE.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VEE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VEE.MU"
     },
     {
       "currency": "MXN",
@@ -53,15 +55,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Veeva Systems Inc Class A",
-  "primary_symbol": "VEE.BE",
+  "primary_symbol": "VEEV",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Veeva Systems Inc. provides cloud-based software solutions for the life sciences industry. Their products and services include Veeva CRM, Veeva Vault, and Veeva Network, designed to help pharmaceutical and biotechnology companies manage their commercial, medical, and regulatory processes. Veeva Systems is headquartered in Pleasanton, California.",
+  "sector": "Health Care",
+  "summary": "Veeva Systems Inc. provides cloud-based software for the life sciences industry in North America, Europe, the Asia Pacific, the Middle East, Africa, and Latin America. The company offers Veeva Commercial Cloud, a suite of software, data, and analytics solutions, which include Veeva customer relationship management (CRM) and Veeva Medical CRM, Veeva CLM, Veeva CRM Approved Email, Veeva CRM Engage, Veeva Align, Veeva CRM Events Management, Veeva Nitro, Veeva Andi, Veeva OpenData, Veeva Link, Veeva Network Customer Master, Veeva Crossix, Veeva Data Cloud, and MyVeeva for Doctors; and Veeva Vault, a cloud-based enterprise content and data management applications for managing commercial functions, including sales and marketing, and medical content and communications, as well as research and development functions, such as clinical, regulatory, quality, and safety. It also provides professional and support services in the areas of implementation and deployment planning and project management; requirements analysis, solution design, and configuration; systems environment management and deployment services; services focused on advancing or transforming business and operating processes related to Veeva solutions; technical consulting services related to data migration and systems integrations; training on its solutions; and ongoing managed services that include outsourced systems administration. The company was formerly known as Verticals onDemand, Inc. and changed its name to Veeva Systems Inc. in April 2009. Veeva Systems Inc. was incorporated in 2007 and is headquartered in Pleasanton, California.",
   "website": "http://www.veeva.com"
 }

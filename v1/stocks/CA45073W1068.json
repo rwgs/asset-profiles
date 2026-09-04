@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG002V3D7W9",
+    "composite_figi": "BBG00VT0HLB2",
     "cusip": "45073W106",
-    "figi": "BBG002V3D7W9",
+    "figi": "BBG00VT0HLJ4",
     "isin": "CA45073W1068"
   },
   "industry": "Interactive Media & Services",
@@ -13,31 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BLITF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "F0O3.BE"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "BETS.CN"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BLITF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "F0O3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "F0O3.DU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "i3 Interactive Inc.",
-  "primary_symbol": "BLITF",
+  "primary_symbol": "BETS.CN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

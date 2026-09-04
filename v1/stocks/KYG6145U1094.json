@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000D380J9",
-    "figi": "BBG000D383Q5",
+    "composite_figi": "BBG000GYFXX2",
+    "figi": "BBG000GYFYN1",
     "isin": "KYG6145U1094"
   },
   "industry": "Auto Components",
@@ -12,24 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M3I.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MNTHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MNTHY"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0425.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M3I.BE"
     },
     {
       "currency": "EUR",
@@ -40,19 +30,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "M3I.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MNTHF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MNTHY"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Minth Group Limited",
-  "primary_symbol": "M3I.BE",
+  "primary_symbol": "0425.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Minth Group Limited is a Chinese manufacturer of automotive body parts and components. The company produces decorative parts, structural body parts, and aluminum products for the automotive industry. Minth Group is headquartered in Jiaxing, China.",
+  "summary": "Minth Group Limited, an investment holding company, designs, develops, manufactures, processes, and sells automobile body parts and molds of passenger cars in the People's Republic of China, the United States, Japan, Thailand, Germany, and Mexico. The company also manufactures, develops, and sells batteries and motor systems for electric vehicles, as well as optical parts, metal molds, automation machines, software, and production lines; manufactures buses, modified cars, and electric vehicles; develops and manages real estate properties; and offers bookkeeping services. In addition, it engages in the import and export trading, packaging materials wholesale, logistics, and technology import activities; trade and manufacture of metal products; manufacture and sale of electrical and electronic equipment; and design, development, import, and export of robots. Further, the company provides automobile glass, light metals casting, customer service and market development, agriculture, and management consulting services. The company was founded in 1992 and is headquartered in Jiaxing, the People's Republic of China.",
   "website": "http://www.minthgroup.com"
 }

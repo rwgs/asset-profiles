@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000FRVKS4",
+    "composite_figi": "BBG001DCQ524",
     "cusip": "87505Y409",
-    "figi": "BBG000FRVKS4",
+    "figi": "BBG001DCQ533",
     "isin": "CA87505Y4094"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TNEYF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9TA1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TNEYF"
     },
     {
       "currency": "CAD",
@@ -30,9 +30,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Tamarack Valley Energy Ltd.",
-  "primary_symbol": "TNEYF",
+  "primary_symbol": "9TA1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

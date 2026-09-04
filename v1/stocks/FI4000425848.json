@@ -3,7 +3,7 @@
   "country_code": "FI",
   "identifiers": {
     "composite_figi": "BBG00WHNJS17",
-    "figi": "BBG00WHNJS62",
+    "figi": "BBG00WHNJS26",
     "isin": "FI4000425848"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5J4.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5J4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5J4.MU"
     },
     {
       "currency": "EUR",
@@ -27,11 +27,11 @@
       "symbol": "SAVOH.HE"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "SAVOSOLAR PLC A",
-  "primary_symbol": "5J4.MU",
+  "market_cap_band": "Nano Cap",
+  "name": "Savosolar Oyj",
+  "primary_symbol": "5J4.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

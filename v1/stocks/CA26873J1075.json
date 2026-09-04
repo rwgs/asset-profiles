@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000DJMYQ6",
+    "composite_figi": "BBG000KSQRJ7",
     "cusip": "26873J107",
-    "figi": "BBG000DJMZ65",
+    "figi": "BBG000KSQS78",
     "isin": "CA26873J1075"
   },
   "industry": "Metals & Mining",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EMX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6E9.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "EMX"
     },
     {
       "currency": "CAD",
@@ -28,11 +28,11 @@
       "symbol": "EMX.V"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "EMX Royalty Corporation",
-  "primary_symbol": "EMX",
+  "primary_symbol": "6E9.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

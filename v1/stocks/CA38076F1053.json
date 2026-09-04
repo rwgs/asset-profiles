@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG005T0HL47",
+    "composite_figi": "BBG000WCRDL6",
     "cusip": "38076F105",
-    "figi": "BBG005T0HL47",
+    "figi": "BBG000WCRFJ4",
     "isin": "CA38076F1053"
   },
   "industry": "Metals & Mining",
@@ -13,18 +13,13 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YGTFF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA38076F1053.SG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TX0.DU"
     },
     {
@@ -36,13 +31,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "YGT.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "YGTFF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Gold Terra Resource Corp.",
-  "primary_symbol": "YGTFF",
+  "primary_symbol": "CA38076F1053.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

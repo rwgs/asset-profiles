@@ -2,9 +2,8 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG000G30T74",
-    "cusip": "N07045102",
-    "figi": "BBG000G30T74",
+    "composite_figi": "BBG000F5L3Q3",
+    "figi": "BBG000F5L454",
     "isin": "NL0000334118"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -12,21 +11,6 @@
   "isin": "NL0000334118",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASMIY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ASMXF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AVS.TI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XAMS",
@@ -38,6 +22,16 @@
       "symbol": "ASM1N.MX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASMIY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASMXF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AVS.F"
@@ -46,6 +40,9 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AVS.SG"
+    },
+    {
+      "symbol": "AVS.TI"
     },
     {
       "currency": "EUR",
@@ -60,9 +57,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "ASM International N.V.",
-  "primary_symbol": "ASMIY",
+  "primary_symbol": "ASM.AS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

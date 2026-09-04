@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000W4PCJ1",
     "cusip": "88830X819",
-    "figi": "BBG000W4PDM5",
     "isin": "CA88830X8199"
   },
   "industry": "Health Care Technology",
@@ -14,17 +12,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "QTNA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TMDI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "QTNA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "QTNA.DU"
     },
     {
@@ -50,9 +48,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Titan Medical Inc.",
-  "primary_symbol": "QTNA.BE",
+  "primary_symbol": "TMDI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,21 +1,10 @@
 {
-  "country": "Italy",
-  "country_code": "IT",
-  "identifiers": {
-    "composite_figi": "BBG000KXHP55",
-    "figi": "BBG000KXHT75",
-    "isin": "TH0823010010"
-  },
-  "industry": "Auto Components",
-  "industry_group": "Automobiles & Components",
-  "isin": "TH0823010010",
+  "country": "Australia",
+  "country_code": "AU",
+  "industry": "Health Care Equipment & Supplies",
+  "industry_group": "Health Care Equipment & Services",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PSQ.MU"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -28,21 +17,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PSQ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PSQ.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "SOMBOON ADV.TEC.-FGN- BA1",
-  "primary_symbol": "PSQ.MU",
+  "market_cap_band": "Small Cap",
+  "name": "Pacific Smiles Group Limited",
+  "primary_symbol": "PSQ.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
+  "sector": "Health Care",
   "summary": "Pacific Smiles Group Limited, together with its subsidiaries, owns and operates dental centers under the Pacific Smiles Dental and nib Dental Care brand names in Eastern Australia. The company provides general dentistry services, including check-ups, teeth cleaning, fillings, and extractions; dental treatments, such as crowns, bridges, fillings, and extractions; advanced dentistry comprising dental implants; and specialist dentistry, such as orthodontics, prosthodontics, endodontics, and periodontics, as well as other treatments under general anaesthetic and intravenous sedation. As of June 30, 2020, it operated 94 centers. The company was incorporated in 2002 and is headquartered in East Maitland, Australia.",
   "website": "http://www.pacificsmilesgroup.com.au"
 }

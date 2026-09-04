@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG0069LB695",
-    "figi": "BBG0069LB6H6",
+    "composite_figi": "BBG005MDCCH7",
+    "figi": "BBG005MDCCJ5",
     "isin": "KYG211921021"
   },
   "industry": "Automobiles",
@@ -12,14 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "55M.BE"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1268.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "55M.BE"
     },
     {
       "currency": "EUR",
@@ -32,11 +32,11 @@
       "symbol": "55M.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "China MeiDong Auto Holdings Ltd.",
-  "primary_symbol": "55M.BE",
+  "primary_symbol": "1268.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

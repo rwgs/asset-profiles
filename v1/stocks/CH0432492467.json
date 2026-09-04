@@ -2,22 +2,24 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG00NPWH832",
+    "figi": "BBG00NPWH878",
     "isin": "CH0432492467"
   },
   "industry": "Health Care Equipment & Supplies",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "CH0432492467",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0A0D.IL"
+      "symbol": "ALC"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALC"
+      "currency": "CHF",
+      "exchange_mic": "XLON",
+      "symbol": "0A0D.IL"
     },
     {
       "currency": "CHF",
@@ -32,15 +34,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Alcon AG",
-  "primary_symbol": "0A0D.IL",
+  "primary_symbol": "ALC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Alcon AG is a global medical device company specializing in eye care products. They offer a wide range of products for surgical and vision care, including intraocular lenses, surgical equipment, contact lenses, and over-the-counter eye care products. Alcon is headquartered in Geneva, Switzerland.",
+  "summary": "Alcon, Inc., an eye care company, researches, develops, manufactures, distributes, and sells eye care products for eye care professionals and their patients worldwide. The company's Surgical segment offers equipment, instrumentation and diagnostics, intraocular lenses (IOLs), and other implantables; and consumables, including viscoelastics, surgical solutions, incisional instruments, surgical custom packs, and other products for use in surgical procedures. Its cataract products include centurion vision system, LenSx femtosecond laser, LuxOR surgical ophthalmic microscope, NGENUITY 3D visualization system, and ORA system for intra-operative measurements; custom pak surgical procedure packs; vitreoretinal products comprising constellation vision systems, procedure packs, lasers and hand-held microsurgical instruments, and grieshaber and MIVS instruments, as well as scissors, forceps and micro-instruments, medical grade vitreous tamponades, and Hypervit vitrectomy probes; refractive surgery products, including WaveLight lasers and Contoura Vision used for LASIK treatment; and EX-PRESS glaucoma filtration device; and implantables products, including AcrySof IQ IOLs products include monofocal IOLs and advanced technology IOLs under PanOptix and ReSTOR brands for the correction of presbyopia and astigmatism at the time of cataract surgery. Its Vision Care segment provides daily disposable, reusable, and color-enhancing contact lenses; ocular health products, including devices and over-the-counter products for dry eye, over-the-counter products for contact lens care, and ocular allergies; and ocular vitamins and redness relievers under the TOTAL, PRECISION, DAILIES AquaComfort PLUS, Air Optix, Opti-Free, Clear Care, Tears Naturale, Genteal, ICAPS, and Vitalux brands. The company was formerly known as Alcon Universal S.A. and changed the name to Alcon, Inc. in December 2001. Alcon, Inc. was founded in 1945 and is headquartered in Geneva, Switzerland.",
   "website": "http://www.alcon.com"
 }

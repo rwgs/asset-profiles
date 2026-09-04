@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C0J8Z9",
+    "composite_figi": "BBG000PRJ2Z9",
     "cusip": "848574109",
-    "figi": "BBG000C0JCM4",
+    "figi": "BBG000PRJ591",
     "isin": "US8485741099"
   },
   "industry": "Aerospace & Defense",
@@ -15,17 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "S9Q.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S9Q.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "SPR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S9Q.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S9Q.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "S9Q.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "SPIRIT AERO.HLDGS A DL-01",
-  "primary_symbol": "S9Q.BE",
+  "name": "Spirit AeroSystems Holdings, Inc.",
+  "primary_symbol": "SPR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "SPIRIT AERO.HLDGS A DL-01 is one of the world's largest tier-one manufacturers of aerostructures for commercial airplanes, defense platforms, and business/regional jets. They design and build fuselages, pylons, nacelles, and wing components. Spirit AeroSystems is headquartered in Wichita, Kansas.",
+  "summary": "Spirit AeroSystems Holdings, Inc. designs and manufactures commercial aerostructures worldwide. It operates through three segments: Fuselage Systems, Propulsion Systems, and Wing Systems. The Fuselage Systems segment develops, produces, and markets forward, mid, and rear fuselage sections and systems primarily to aircraft original equipment manufacturers (OEMs); and other structure components of the fuselage, such as floor beams. The Propulsion Systems segment offers nacelles, including thrust reversers; struts/pylons; and related engine structural components primarily to aircraft or engine OEMs; and related spares, as well as maintenance, repair, and overhaul services. The Wing Systems provides wings and wing components, such as flight control surfaces; and other miscellaneous structural parts primarily to aircraft OEMs. The company was formerly known as Mid-Western Aircraft Systems Holdings, Inc. Spirit AeroSystems Holdings, Inc. was founded in 1927 and is headquartered in Wichita, Kansas.",
   "website": "http://www.spiritaero.com"
 }

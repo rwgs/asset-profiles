@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FJTPR5",
+    "composite_figi": "BBG000G2GJT7",
     "cusip": "427746102",
-    "figi": "BBG000FJTTS6",
+    "figi": "BBG000G2GS08",
     "isin": "US4277461020"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AXD2.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AXD2.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "HRTX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AXD2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AXD2.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AXD2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AXD2.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Heron Therapeutics, Inc.",
-  "primary_symbol": "AXD2.BE",
+  "primary_symbol": "HRTX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Heron Therapeutics, Inc. is a commercial-stage biotechnology company focused on developing and commercializing novel pharmaceutical products for patients suffering from cancer or pain. The company's products include therapies for chemotherapy-induced nausea and vomiting (CINV) and post-operative pain. Heron Therapeutics is headquartered in San Diego, California.",
+  "summary": "Heron Therapeutics, Inc., a biotechnology company, engages in developing treatments to address unmet medical needs. The company's product candidates utilize its proprietary Biochronomer, a drug delivery technology, which delivers therapeutic levels of a range of short-acting pharmacological agents over a period from days to weeks with a single administration. It offers SUSTOL (granisetron), an extended-release injection for the prevention of acute and delayed nausea and vomiting associated with moderately emetogenic chemotherapy, or anthracycline and cyclophosphamide combination chemotherapy regimens; and CINVANTI, an intravenous formulation of aprepitant, a substance P/neurokinin-1 receptor antagonist for the prevention of acute and delayed nausea and vomiting associated with highly emetogenic cancer chemotherapy, as well as nausea and vomiting associated with moderately emetogenic cancer chemotherapy. The company is also developing HTX-011, an investigational, dual-acting, and fixed-dose combination of the local anesthetic bupivacaine with a low dose of the nonsteroidal anti-inflammatory drug meloxicam, which is in Phase III clinical trials for pain management; and HTX-034, which is in Phase Ib/II clinical trials for postoperative pain management. The company was formerly known as A.P. Pharma, Inc. and changed its name to Heron Therapeutics, Inc. in January 2014. Heron Therapeutics, Inc. was founded in 1983 and is headquartered in San Diego, California.",
   "website": "http://www.herontx.com"
 }

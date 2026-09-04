@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000D3CF56",
+    "composite_figi": "BBG000BGN014",
     "cusip": "00762U200",
-    "figi": "BBG000D3CF56",
+    "figi": "BBG000BGN078",
     "isin": "US00762U2006"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -13,19 +13,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6857.T"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "ADTTF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "ATEYY"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "6857.T"
     },
     {
       "currency": "EUR",
@@ -40,9 +40,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Advantest Corporation",
-  "primary_symbol": "ADTTF",
+  "primary_symbol": "6857.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

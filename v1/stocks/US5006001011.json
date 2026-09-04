@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GSQSB8",
+    "composite_figi": "BBG000C2SBZ8",
     "cusip": "500600101",
-    "figi": "BBG000GSQY16",
+    "figi": "BBG000C2SBZ8",
     "isin": "US5006001011"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -14,28 +14,28 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KOC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KOC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "KOPN"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0JRR.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KOC.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KOC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KOC.MU"
     },
     {
       "currency": "EUR",
@@ -45,15 +45,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Kopin Corporation",
-  "primary_symbol": "KOC.BE",
+  "primary_symbol": "KOPN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Kopin Corporation is a developer and provider of innovative wearable technologies and solutions for military, enterprise, industrial, and consumer markets. They produce microdisplays, optics, and headsets that enable immersive experiences and enhance human performance. The company is headquartered in Westborough, Massachusetts.",
+  "summary": "Kopin Corporation, together with its subsidiaries, invents, develops, manufactures, and sells components, subassemblies, and head-worn and hand-held systems in the United States, the Asia-Pacific, Europe, and internationally. It offers miniature active-matrix liquid crystal displays, liquid crystal on silicon displays/spatial light modulators, organic light emitting diode displays, application specific integrated circuits, backlights, and optical lenses; and headset systems. The company's products are used in soldier, avionic, armored vehicle and training, and simulation defense applications; industrial, public safety, and medical headsets; 3D optical inspection systems; and consumer augmented reality and virtual reality wearable headsets systems. Kopin Corporation was incorporated in 1984 and is headquartered in Westborough, Massachusetts.",
   "website": "http://www.kopin.com"
 }

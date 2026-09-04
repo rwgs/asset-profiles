@@ -3,28 +3,28 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG00M9B15S4",
-    "figi": "BBG00M9B15Y7",
+    "figi": "BBG00M9B15T3",
     "isin": "AU000000EXL4"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "AU000000EXL4",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "E8M.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "E8M.MU"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "ELLXF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "E8M.F"
     },
     {
       "currency": "AUD",
@@ -34,15 +34,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Elixinol Wellness Ltd.",
-  "primary_symbol": "E8M.MU",
+  "primary_symbol": "E8M.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "Elixinol Wellness Ltd. is a global hemp-derived CBD company. The company develops, manufactures, and distributes CBD products across various channels. Elixinol Wellness is headquartered in Sydney, Australia.",
+  "sector": "Health Care",
+  "summary": "Elixinol Global Limited, through its subsidiaries, manufactures and distributes industrial hemp-based nutraceutical, dietary supplements, and skincare products in the Americas, Europe, and Australia. It distributes hemp-derived cannabidiol products under the Elixinol brand. The company was incorporated in 2017 and is headquartered in Sydney, Australia.",
   "website": "http://www.elixinolglobal.com"
 }

@@ -2,8 +2,9 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG001QCG264",
-    "figi": "BBG001QCG2D6",
+    "composite_figi": "BBG001NVJ6W4",
+    "cusip": "74261Q614",
+    "figi": "BBG001NVJ7H9",
     "isin": "NL0009805522"
   },
   "industry": "Diversified Telecommunication Services",
@@ -13,27 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YDX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YDX.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "YNDX"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "YNDX.ME"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "YDX.BE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "YDX.DU"
     },
     {
@@ -43,15 +34,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "YDX.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "YDX.SG"
+    },
+    {
+      "currency": "RUB",
+      "exchange_mic": "MISX",
+      "symbol": "YNDX.ME"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Yandex N.V.",
-  "primary_symbol": "YDX.BE",
+  "primary_symbol": "YNDX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

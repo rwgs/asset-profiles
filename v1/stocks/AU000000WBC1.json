@@ -2,8 +2,7 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000F01QL0",
-    "figi": "BBG000F02WC6",
+    "cusip": "961214301",
     "isin": "AU000000WBC1"
   },
   "industry": "Banks",
@@ -14,30 +13,10 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "WBC.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WBC.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WBC.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "WBK"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "WEBNF"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0LVV.L"
     },
@@ -52,14 +31,29 @@
       "symbol": "WBC.AX"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "WBC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "WBC.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "WBC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "WBC.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WBC.MU"
     },
     {
       "currency": "NZD",
@@ -110,19 +104,24 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "WBCPJ.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WEBNF"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "WESTPAC BKG",
-  "primary_symbol": "WBC.BE",
+  "name": "Westpac Banking Corporation",
+  "primary_symbol": "WBK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Westpac Banking Corporation is a financial services provider offering a range of banking, wealth management, and insurance products. The company serves retail, business, and institutional customers. Westpac is headquartered in Sydney, Australia.",
+  "summary": "Westpac Banking Corporation provides various banking and financial services in Australia, New Zealand, and internationally. The company operates through four divisions: Consumer, Business, Westpac Institutional Bank, Westpac New Zealand, Specialist Businesses, and Group Businesses. It offers everyday banking, savings, term deposit, business transaction, foreign currency, and specialized accounts; home, personal, and business loans; credit cards; international and travel services; share trading services; investment; and home, car, travel, life, and business insurance products. The company also provides merchant and payment, corporate and institutional, transaction banking, financial market, corporate and structured finance, trade and supply chain financing, and industry specific banking and treasury services, as well as online banking services. It serves individuals; micro, small, and medium enterprises; commercial business and private wealth clients; and commercial, corporate, institutional, and government customers. The company was formerly known as Bank of New South Wales and changed its name to Westpac Banking Corporation in October 1982. The company was founded in 1817 and is headquartered in Sydney, Australia.",
   "website": "http://www.westpac.com.au"
 }

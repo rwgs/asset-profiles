@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00DY6DRZ8",
+    "composite_figi": "BBG001NDW1Z7",
     "cusip": "67059N108",
-    "figi": "BBG00DY6DS59",
+    "figi": "BBG00BRBPMV1",
     "isin": "US67059N1081"
   },
   "industry": "Software",
@@ -14,46 +14,46 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0NU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0NU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "NTNX"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0K9O.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0NU.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "0NU.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0NU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0NU.MU"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Nutanix, Inc. Class A",
-  "primary_symbol": "0NU.BE",
+  "primary_symbol": "NTNX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Nutanix Inc. is a cloud computing company that provides hyperconverged infrastructure (HCI) solutions. Its Enterprise Cloud OS software integrates compute, virtualization, storage, networking, and security to deliver a unified infrastructure stack. Nutanix is headquartered in San Jose, California.",
+  "summary": "Nutanix, Inc. develops and provides an enterprise cloud platform in North America, Europe, the Asia Pacific, the Middle East, Latin America, and Africa. The company offers Acropolis, an enterprise cloud platform that converges virtualization, enterprise storage services, and networking services; Nutanix Prism, a consumer-grade control plane, which provides management and analytics; and Acropolis Hypervisor, an enterprise-grade virtualization solution. It also offers Nutanix Calm, an application marketplace, which provides automation services that streamline application lifecycle management and deliver powerful hybrid cloud orchestration; Nutanix Files, a software-defined file storage solution; Nutanix Flow, an application-centric firewall services; and Prism, a solution to manage multiple clusters within a single datacenter. In addition, the company provides Nutanix Objects, a software-defined S3-compatible object services; Nutanix Karbon, offers deployment and management of Kubernetes clusters to simplify the provisioning, operations, and lifecycle management of cloud-native environments; Nutanix Era, an automated database management solutions; Nutanix Xi Leap, a cloud-based disaster recovery service to maintain IT operations in the event of a datacenter outage; and Xi Frame, a desktop-as-a-service platform to deliver virtual apps or desktops to users from multiple public cloud environments and/or an enterprises private cloud datacenter, as well as developing Nutanix Clusters solution, which allows deployment of on-premises running on a various qualified hardware platforms in public cloud environments, such as Amazon Web services. It serves customers in a range of industries, including automotive, consumer goods, education, energy, financial services, healthcare, manufacturing, media, public sector, retail, technology, and telecommunications, as well as service providers. The company was founded in 2009 and is headquartered in San Jose, California.",
   "website": "http://www.nutanix.com"
 }

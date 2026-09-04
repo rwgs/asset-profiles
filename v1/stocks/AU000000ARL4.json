@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00FZBPYZ3",
-    "figi": "BBG00FZBPYZ3",
+    "composite_figi": "BBG00FZM8RW6",
+    "figi": "BBG00FZM8RX5",
     "isin": "AU000000ARL4"
   },
   "industry": "Metals & Mining",
@@ -11,11 +11,6 @@
   "isin": "AU000000ARL4",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ARRRF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,13 +20,18 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "ARL.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ARRRF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Ardea Resources Limited",
-  "primary_symbol": "ARRRF",
+  "primary_symbol": "A91.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

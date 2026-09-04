@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0069JDFK5",
+    "composite_figi": "BBG005XNV9D3",
     "cusip": "29272C103",
-    "figi": "BBG0069JDFR8",
+    "figi": "BBG005XNV9D3",
     "isin": "US29272C1036"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -14,23 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "116.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "116.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "WATT"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0IH3.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "116.BE"
     },
     {
       "currency": "EUR",
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "116.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "116.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ENERGOUS CORP.  DL-,00001",
-  "primary_symbol": "116.BE",
+  "name": "Energous Corporation",
+  "primary_symbol": "WATT",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Energous Corporation develops wireless power transfer technology. The company develops WattUp, a wire-free charging technology. Energous is headquartered in San Jose, California.",
+  "summary": "Energous Corporation develops wire-free charging solutions. The company develops WattUp wireless power technology that consists of semiconductor chipsets, software controls, hardware designs, and antennas that enables radio frequency based wire-free charging for electronic devices. It has a strategic partnership with Xentris Wireless to develop ruggedized products for military applications using the company's radio frequency based charging technology. The company's products are used in home, medical, automotive, industrial, military and office. Energous Corporation was formerly known as DvineWave Inc. and changed its name to Energous Corporation in January 2014. The company was founded in 2012 and is headquartered in San Jose, California.",
   "website": "http://www.energous.com"
 }

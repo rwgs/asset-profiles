@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BTWV45",
+    "composite_figi": "BBG006DB5Y43",
     "cusip": "497252106",
-    "figi": "BBG000BTWV45",
+    "figi": "BBG006DB5Y52",
     "isin": "CA4972521062"
   },
   "industry": "Metals & Mining",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ALDVF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "17G1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ALDVF"
     },
     {
       "currency": "EUR",
@@ -35,9 +35,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Kiplin Metals Inc.",
-  "primary_symbol": "ALDVF",
+  "primary_symbol": "17G1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

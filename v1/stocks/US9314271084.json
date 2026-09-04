@@ -2,50 +2,30 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FQ3ZD0",
+    "composite_figi": "BBG000BWLMJ4",
     "cusip": "931427108",
-    "figi": "BBG000FQ54Q3",
+    "figi": "BBG000BWLX00",
     "isin": "US9314271084"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Food & Staples Retailing",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US9314271084",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W8A.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W8A.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W8A.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W8A.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W8A.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "WBA"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0LSZ.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "W8A.BE"
     },
     {
       "currency": "EUR",
@@ -53,8 +33,8 @@
       "symbol": "W8A.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "W8A.DU"
     },
     {
@@ -64,8 +44,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "W8A.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "W8A.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "W8A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "W8A.SG"
+    },
+    {
+      "symbol": "W8A.TI"
     },
     {
       "currency": "ARS",
@@ -89,16 +87,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "WALGREENS BOOTS AL.DL-,01",
-  "primary_symbol": "W8A.BE",
+  "name": "Walgreens Boots Alliance, Inc.",
+  "primary_symbol": "WBA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "Walgreens Boots Alliance, Inc. is a global pharmacy-led, health and well-being company. The company operates retail pharmacies, provides pharmaceutical wholesale and distribution services, and offers health and beauty products. Walgreens Boots Alliance is headquartered in Deerfield, Illinois, USA.",
+  "sector": "Health Care",
+  "summary": "Walgreens Boots Alliance, Inc. operates as a pharmacy-led health and beauty retail company. It operates through three segments: Retail Pharmacy USA, Retail Pharmacy International, and Pharmaceutical Wholesale. The Retail Pharmacy USA segment sells prescription drugs and an assortment of retail products, including health, wellness, beauty, personal care, consumable, and general merchandise products through its retail drugstores. It also provides specialty pharmacy services and mail services. As of August 31, 2020, this segment operated 9,021 retail stores under the Walgreens and Duane Reade brands in the United States; and six specialty pharmacies. The Retail Pharmacy International segment sells prescription drugs; and health and wellness, beauty, personal care, and other consumer products through its pharmacy-led health and beauty stores and optical practices, as well as through boots.com and an integrated mobile application. This segment operated 4,428 retail stores under the Boots, Benavides, and Ahumada in the United Kingdom, Thailand, Norway, the Republic of Ireland, the Netherlands, Mexico, and Chile; and 550 optical practices, including 165 on a franchise basis. The Pharmaceutical Wholesale segment engages in the wholesale and distribution of specialty and generic pharmaceuticals, health and beauty products, and home healthcare supplies and equipment, as well as provides related services to pharmacies and other healthcare providers. This segment operates in the United Kingdom, Germany, France, Turkey, Spain, the Netherlands, Egypt, Norway, Romania, the Czech Republic, and Lithuania. Walgreens Boots Alliance, Inc. was founded in 1901 and is based in Deerfield, Illinois.",
   "website": "http://www.walgreensbootsalliance.com"
 }

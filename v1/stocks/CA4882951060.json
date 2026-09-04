@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG0046RKZN0",
+    "composite_figi": "BBG0046YSH84",
     "cusip": "488295106",
-    "figi": "BBG0046RKZN0",
+    "figi": "BBG0046YSH93",
     "isin": "CA4882951060"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,11 +12,6 @@
   "isin": "CA4882951060",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KELTF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -31,13 +26,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "KEL.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KELTF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Kelt Exploration Ltd.",
-  "primary_symbol": "KELTF",
+  "primary_symbol": "2KE.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,9 @@
   "country": "Israel",
   "country_code": "IL",
   "identifiers": {
-    "composite_figi": "BBG005JZSYH7",
-    "figi": "BBG005JZSYP8",
+    "composite_figi": "BBG005CM7J89",
+    "cusip": "M98068105",
+    "figi": "BBG005CM7JW2",
     "isin": "IL0011301780"
   },
   "industry": "Software",
@@ -13,17 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W1X.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "W1X.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "WIX"
     },
     {
@@ -32,14 +23,24 @@
       "symbol": "W1IX34.SA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "W1X.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "W1X.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "W1X.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "W1X.MU"
     },
     {
       "currency": "EUR",
@@ -52,11 +53,11 @@
       "symbol": "WIXN.MX"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Wix.com Ltd.",
-  "primary_symbol": "W1X.BE",
+  "primary_symbol": "WIX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

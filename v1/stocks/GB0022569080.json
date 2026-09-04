@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000CR61Y0",
-    "figi": "BBG000CR6456",
+    "composite_figi": "BBG000C3MXG5",
+    "cusip": "G02602103",
+    "figi": "BBG000C3N682",
     "isin": "GB0022569080"
   },
   "industry": "Software",
@@ -13,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AOS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "DOX"
     },
     {
@@ -28,21 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AOS.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AOS.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Amdocs Limited",
-  "primary_symbol": "AOS.MU",
+  "primary_symbol": "DOX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Amdocs Limited provides software and services to the communications, media, and entertainment industry. The company offers solutions for customer management, billing, and operational support systems. The company is headquartered in Jersey, Channel Islands.",
+  "summary": "Amdocs Limited, through its subsidiaries, provides software and services to the communications, cable and satellite, entertainment, and media industry service providers worldwide. The company offers a line of services designed for various stages of a service provider's lifecycle, including planning, delivery, implementation, and ongoing support and operations, such as end-to-end systems integration, managed, testing, cloud, digital business operations, and consulting services that addresses service providers business imperatives, including consumer experience and monetization, media and digital services, enterprise and connected society, open cloud networks, new domains and disruptions, and services and hybrid operations. It also provides revenue guard services designed to detect and resolve revenue leakage, fraud, and cyber fraud; and the BriteBill, a multi-channel bill presentment platform. In addition, the company offers advertising and media services for media publishers, TV networks, video streaming providers, advertising agencies, and service providers. Amdocs Limited was founded in 1988 and is headquartered in Chesterfield, Missouri.",
   "website": "http://www.amdocs.com"
 }

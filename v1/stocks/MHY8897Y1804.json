@@ -1,38 +1,39 @@
 {
-  "country": "Greece",
-  "country_code": "GR",
+  "country": "Marshall Islands",
+  "country_code": "MH",
   "identifiers": {
+    "composite_figi": "BBG000QBDW83",
     "isin": "MHY8897Y1804"
   },
-  "industry_group": "Transportation",
+  "industry_group": "Energy",
   "isin": "MHY8897Y1804",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UERX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UERX.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MHY8897Y1804.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UERX.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UERX.MU"
     }
   ],
-  "name": "TOP SHIPS  DL-,01",
-  "primary_symbol": "UERX.BE",
+  "name": "TOP SHIPS INC",
+  "primary_symbol": "MHY8897Y1804.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "TOP SHIPS  DL-,01"
+  "sector": "Energy",
+  "summary": "TOP SHIPS INC is an international owner and operator of tanker vessels focusing on the transportation of crude oil and petroleum products. Based in Athens, Greece, the company charters its vessels to various charterers under spot and time charter agreements. Top Ships Inc aims to provide safe and efficient transportation services in the global energy market."
 }

@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BWYZF5",
-    "figi": "BBG000BWZ597",
     "isin": "DE000A2GS633"
   },
   "industry": "IT Services",
@@ -12,24 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AEIN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AEIN.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AEIN.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RUM.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AEIN.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "AEIN.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AEIN.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AEIN.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AEIN.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AEIN.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Allgeier SE",
-  "primary_symbol": "AEIN.BE",
+  "primary_symbol": "0RUM.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Allgeier SE is a Germany-based IT solutions and services company that provides services such as software development, IT consulting, and managed services. It operates through various segments, serving a wide range of industries. The company's headquarters are located in Munich, Germany.",
+  "summary": "Allgeier SE provides information technology (IT) solutions and services in Germany. It offers personnel services; and software lifecycle services, including business analysis, application development, software product engineering, enterprise application integration, business intelligence and data warehouse, testing and QA, verification and validation, application management, helpdesk, support, and software training services, as well as implementation of packaged solutions. The company also provides near shore/offshore delivery services; big data/business intelligence services; industry solutions and cloud services; managed and application management services; mobile enterprise/application services; and process and IT consulting services, such as operational assessment, identification of optimization and cost-savings potentials in organizational and process structures, business process redesign, investigating and strategizing IT integration and implementation, business process implementation, strategic IT management, strategy and change, risk management, and project/program management and PMO. In addition, it offers IT security services; enterprise content management and collaboration services comprising support and control of business processes, integration in existing IT environments, process consultation, image and data management system, integration of interactive enterprise 2.0 and Web 2.0 elements, and customizing and individual development; ERP solutions; and IT infrastructure services consisting of consultancy, enterprise networking, enterprise security setup and management, enterprise data security, data loss prevention, virtualization and data center, and cloud services. The company serves banking and insurance, telecommunications, energy supply, automobile, other manufacturing, IT, services, media, healthcare, trade, and logistics industries, as well as public sectors. Allgeier SE was founded in 1977 and is headquartered in Munich, Germany.",
   "website": "http://www.allgeier.com"
 }

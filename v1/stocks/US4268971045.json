@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0088F4719",
+    "composite_figi": "BBG005Y0S0J9",
     "cusip": "426897104",
-    "figi": "BBG0088F4773",
+    "figi": "BBG005Y0S0J9",
     "isin": "US4268971045"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "336P.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "336P.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "HEPA"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "336P.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "336P.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "336P.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US4268971045.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "HEPION PHARMACEUT. DL-,01",
-  "primary_symbol": "336P.BE",
+  "name": "Hepion Pharmaceuticals, Inc.",
+  "primary_symbol": "HEPA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Hepion Pharmaceuticals, Inc. is a biopharmaceutical company focused on developing targeted therapies for liver disease. The company's lead drug candidate, CRV431, is in clinical development for non-alcoholic steatohepatitis (NASH) and other liver disorders. Hepion Pharmaceuticals is headquartered in Edison, New Jersey.",
+  "summary": "Hepion Pharmaceuticals, Inc., a biopharmaceutical company, focuses on the development of drug therapy treatment for chronic liver diseases in the United States. It is involved in developing CRV431, a cyclophilin inhibitor that is in Phase 2a clinical trials to target multiple pathologic pathways involved in the progression of liver disease. The company was formerly known as ContraVir Pharmaceuticals, Inc. and changed its name to Hepion Pharmaceuticals, Inc. in July 2019. Hepion Pharmaceuticals, Inc. was incorporated in 2013 and is headquartered in Edison, New Jersey.",
   "website": "http://www.hepionpharma.com"
 }

@@ -2,9 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000VKK8W5",
+    "composite_figi": "BBG004WFYQV3",
     "cusip": "124312109",
-    "figi": "BBG000VKK8W5",
     "isin": "US1243121092"
   },
   "industry": "Communications Equipment",
@@ -13,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0285.HK"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "BYDIF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "BYDIY"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "0285.HK"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "BYD Electronic (International) Company Limited",
-  "primary_symbol": "BYDIF",
+  "primary_symbol": "0285.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

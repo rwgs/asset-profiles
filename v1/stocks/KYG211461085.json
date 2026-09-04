@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG0029NL4H5",
-    "figi": "BBG0029NL4N8",
+    "composite_figi": "BBG001CNBWN5",
+    "figi": "BBG00299NPM1",
     "isin": "KYG211461085"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,21 +11,6 @@
   "isin": "KYG211461085",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1CT.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CJEWF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CJEWY"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -35,13 +20,28 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1CT.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1CT.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CJEWF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CJEWY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Chow Tai Fook Jewellery Group Limited",
-  "primary_symbol": "1CT.MU",
+  "primary_symbol": "1929.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

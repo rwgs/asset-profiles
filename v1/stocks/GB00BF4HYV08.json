@@ -2,8 +2,7 @@
   "country": "Georgia",
   "country_code": "GE",
   "identifiers": {
-    "composite_figi": "BBG00NZLLMN7",
-    "figi": "BBG00NZLLMN7",
+    "composite_figi": "BBG00KG3D9M3",
     "isin": "GB00BF4HYV08"
   },
   "industry": "Industrial Conglomerates",
@@ -12,21 +11,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GRGCF"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "CGEO.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GRGCF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Georgia Capital PLC",
-  "primary_symbol": "GRGCF",
+  "primary_symbol": "CGEO.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

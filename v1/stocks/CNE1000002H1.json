@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000Q3QGH2",
-    "figi": "BBG000Q3QGH2",
+    "composite_figi": "BBG000Q0ZWQ3",
+    "figi": "BBG000Q0ZWZ3",
     "isin": "CNE1000002H1"
   },
   "industry": "Banks",
@@ -11,16 +11,6 @@
   "isin": "CNE1000002H1",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CICHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CICHY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -35,13 +25,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "C6TB.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CICHF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CICHY"
     }
   ],
   "market_cap_band": "Mega Cap",
   "name": "China Construction Bank Corporation Class H",
-  "primary_symbol": "CICHF",
+  "primary_symbol": "C6T.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

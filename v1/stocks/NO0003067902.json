@@ -2,8 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000DMSMJ7",
-    "figi": "BBG000DMSMJ7",
+    "composite_figi": "BBG0064LWTW1",
+    "figi": "BBG0064LWTX0",
     "isin": "NO0003067902"
   },
   "industry": "Energy Equipment & Services",
@@ -11,11 +11,6 @@
   "isin": "NO0003067902",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HXGCF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -30,13 +25,18 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "HEXO.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HXGCF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Hexagon Composites ASA",
-  "primary_symbol": "HXGCF",
+  "primary_symbol": "2HX.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000GP5GW0",
-    "figi": "BBG000GP5GW0",
+    "composite_figi": "BBG000DYF655",
+    "figi": "BBG00GNNDKK7",
     "isin": "CH0024608827"
   },
   "industry": "Capital Markets",
@@ -11,11 +11,6 @@
   "isin": "CH0024608827",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PGPHF"
-    },
     {
       "currency": "CHF",
       "exchange_mic": "XSWX",
@@ -25,13 +20,18 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "PGHNN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PGPHF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Partners Group Holding AG",
-  "primary_symbol": "PGPHF",
+  "primary_symbol": "PGHN.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

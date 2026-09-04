@@ -13,19 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "5LB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "5LB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BVAXF"
     },
     {
       "currency": "EUR",
@@ -33,9 +23,19 @@
       "symbol": "5LB.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5LB.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "BIOV.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BVAXF"
     },
     {
       "currency": "EUR",
@@ -47,7 +47,7 @@
   "name": "BioVaxys Technology Corp.",
   "primary_symbol": "5LB.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

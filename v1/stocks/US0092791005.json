@@ -2,9 +2,9 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG0018J9VD5",
+    "composite_figi": "BBG000CS9WH6",
     "cusip": "009279100",
-    "figi": "BBG0018J9VL6",
+    "figi": "BBG000CS9YL7",
     "isin": "US0092791005"
   },
   "industry": "Aerospace & Defense",
@@ -12,26 +12,6 @@
   "isin": "US0092791005",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AIRA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AIRA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EADSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EADSY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -69,8 +49,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AIRA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AIRA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AIRA.MU"
     },
     {
       "currency": "EUR",
@@ -81,13 +71,23 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "AIRN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EADSF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EADSY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Airbus SE",
-  "primary_symbol": "AIRA.BE",
+  "primary_symbol": "AIR.DE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

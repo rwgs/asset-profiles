@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000QS5TM6",
-    "figi": "BBG000QS5VQ7",
+    "composite_figi": "BBG000R59RS9",
+    "figi": "BBG000R59S43",
     "isin": "KYG888311134"
   },
   "industry": "Metals & Mining",
@@ -11,11 +11,6 @@
   "isin": "KYG888311134",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "34T1.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "34T1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "34T1.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Tiangong International Company Limited",
-  "primary_symbol": "34T1.MU",
+  "primary_symbol": "0826.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

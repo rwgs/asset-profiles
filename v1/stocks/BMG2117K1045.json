@@ -2,8 +2,6 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BQMFZ3",
-    "figi": "BBG000BQMHY0",
     "isin": "BMG2117K1045"
   },
   "industry": "Real Estate Management & Development",
@@ -11,11 +9,6 @@
   "isin": "BMG2117K1045",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HRH.MU"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -28,15 +21,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HRH.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HRH.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "CHINA OCEANWIDE HLDGS",
-  "primary_symbol": "HRH.MU",
+  "name": "China Oceanwide Holdings Limited",
+  "primary_symbol": "0715.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

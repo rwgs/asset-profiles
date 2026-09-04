@@ -2,6 +2,9 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
+    "composite_figi": "BBG000BTQNQ6",
+    "cusip": "M46528101",
+    "figi": "BBG000BTQR05",
     "isin": "CY0200352116"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,42 +15,42 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0REH.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FRLN.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FRLN.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FRLN.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FRLN.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "FRO"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0REH.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FRLN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FRLN.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FRLN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "FRLN.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FRLN.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FRLN.MU"
     },
     {
       "currency": "EUR",
@@ -65,11 +68,11 @@
       "symbol": "FROO.OL"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Frontline Plc",
-  "primary_symbol": "0REH.IL",
+  "primary_symbol": "FRO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

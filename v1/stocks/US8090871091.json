@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00P1DDYR6",
+    "composite_figi": "BBG00NTKBYY9",
     "cusip": "809087109",
-    "figi": "BBG00P1DDYY8",
+    "figi": "BBG00NTKBZH5",
     "isin": "US8090871091"
   },
   "industry": "Interactive Media & Services",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2XY.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2XY.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "SCPL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2XY.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2XY.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "2XY.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "SCIPLAY CORP. CL.ADL-,001",
-  "primary_symbol": "2XY.BE",
+  "name": "SCIPLAY CORPORATION",
+  "primary_symbol": "SCPL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "SciPlay Corporation develops and publishes digital games on mobile and web platforms. The company's portfolio includes social casino games and casual games. SciPlay is headquartered in Las Vegas, Nevada.",
+  "summary": "SciPlay Corporation develops, markets, and operates a portfolio of social games for mobile and web platforms worldwide. It offers seven games, which include social casino games, such as Jackpot Party Casino, Gold Fish Casino, Hot Shot Casino, and Quick Hit Slots, as well as casual games comprising MONOPOLY Slots, Bingo Showdown, and 88 Fortunes Slots. The company's social casino games include slots-style game play, as well as table games-style game play; and casual games blend slots-style or bingo game play with adventure game features. It also offers titles and content from third-party licensed brands. The company was formerly known as SG Social Games Corporation and changed its name to SciPlay Corporation in March 2019. SciPlay Corporation was founded in 1997 and is based in Las Vegas, Nevada. SciPlay Corporation is a subsidiary of Scientific Games Corporation.",
   "website": "http://www.sciplay.com"
 }

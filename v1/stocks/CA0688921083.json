@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00B3PT6T0",
     "cusip": "068892108",
+    "figi": "BBG00B3PT6X5",
     "isin": "CA0688921083"
   },
   "industry": "Metals & Mining",
@@ -11,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BRSLF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "BME.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BRSLF"
     },
     {
       "currency": "EUR",
@@ -33,9 +35,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Barsele Minerals Corp.",
-  "primary_symbol": "BRSLF",
+  "primary_symbol": "BME.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

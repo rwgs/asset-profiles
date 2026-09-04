@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000N0SMK2",
+    "composite_figi": "BBG00D6Q7HQ4",
     "cusip": "75025X100",
-    "figi": "BBG000N0SMY7",
+    "figi": "BBG00D6Q7HR3",
     "isin": "US75025X1000"
   },
   "industry": "Air Freight & Logistics",
@@ -13,14 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RLGT"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3GT.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "RLGT"
     },
     {
       "currency": "EUR",
@@ -30,9 +30,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Radiant Logistics, Inc.",
-  "primary_symbol": "RLGT",
+  "primary_symbol": "3GT.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,25 +2,15 @@
   "country": "Monaco",
   "country_code": "MC",
   "identifiers": {
-    "composite_figi": "BBG000QMMSP9",
-    "figi": "BBG000QMMVB7",
+    "composite_figi": "BBG000Q1TVZ0",
+    "figi": "BBG000Q1TYC9",
     "isin": "MHY7542C1306"
   },
   "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Transportation",
+  "industry_group": "Energy",
   "isin": "MHY7542C1306",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S0QA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "S0QA.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -32,14 +22,24 @@
       "symbol": "STNG"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S0QA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "S0QA.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "S0QA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S0QA.MU"
     },
     {
       "currency": "EUR",
@@ -54,15 +54,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Scorpio Tankers Inc.",
-  "primary_symbol": "S0QA.BE",
+  "primary_symbol": "SBBA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Scorpio Tankers Inc. is a provider of marine transportation of petroleum products in worldwide markets. The company operates through the transportation of refined petroleum products segment and is based in Monaco. Scorpio Tankers owns, finances and charters tankers.",
+  "sector": "Energy",
+  "summary": "Scorpio Tankers Inc., together with its subsidiaries, engages in the seaborne transportation of refined petroleum products in the shipping markets worldwide. As of March 30, 2021, it owned, finance leased, or bareboat chartered 131 product tankers, which included 42 LR2, 12 LR1, 63 MR, and 14 Handymax tankers with a weighted average age of approximately 5.2 years. The company was incorporated in 2009 and is based in Monaco.",
   "website": "http://www.scorpiotankers.com"
 }

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000D8RXT4",
+    "composite_figi": "BBG000C2BXK4",
     "cusip": "552953101",
-    "figi": "BBG000D8S0Q8",
+    "figi": "BBG000C2C1W0",
     "isin": "US5529531015"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,16 +12,6 @@
   "isin": "US5529531015",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MGG.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MGG.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -34,18 +24,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MGG.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "MGG.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MGG.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MGG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MGG.MU"
     },
     {
       "currency": "EUR",
@@ -59,16 +59,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "MGM RESORTS INTL  DL -,01",
-  "primary_symbol": "MGG.BE",
+  "name": "MGM Resorts International",
+  "primary_symbol": "MGM",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "MGM Resorts International is a global entertainment company that owns and operates casino resorts. Their resorts offer gaming, lodging, dining, entertainment, and retail experiences. The company is headquartered in Las Vegas, Nevada.",
+  "summary": "MGM Resorts International, through its subsidiaries, owns and operates casino, hotel, and entertainment resorts in the United States and Macau. The company operates through three segments: Las Vegas Strip Resorts, Regional Operations, and MGM China. Its casino resorts offer gaming, hotel, convention, dining, entertainment, retail, and other resort amenities. The company's casino operations include slots and table games, as well as online sports betting and iGaming through BetMGM. As of February 17, 2021, its portfolio consisted of 29 hotel and destination gaming offerings. The company also owns and operates Las Vegas Strip Resorts and Fallen Oak golf course. Its customers include premium gaming customers; leisure and wholesale travel customers; business travelers; and group customers, including conventions, trade associations, and small meetings. The company was formerly known as MGM MIRAGE and changed its name to MGM Resorts International in June 2010. MGM Resorts International was incorporated in 1986 and is based in Las Vegas, Nevada.",
   "website": "http://www.mgmresorts.com"
 }

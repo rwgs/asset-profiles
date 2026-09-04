@@ -1,6 +1,6 @@
 {
-  "country": "Italy",
-  "country_code": "IT",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "isin": "IT0001233417"
   },
@@ -9,16 +9,6 @@
   "isin": "IT0001233417",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EAM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EAM.MU"
-    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -35,8 +25,13 @@
       "symbol": "A2A.VI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EAM.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "EAM.DU"
     },
     {
@@ -46,26 +41,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EAM.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EAM.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "IT0001233417.SW"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "A2A S.P.A.  EO 0,52",
-  "primary_symbol": "EAM.BE",
+  "name": "A2a Gn Ltd",
+  "primary_symbol": "A2A.AX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "A2A S.p.A. is an Italian multi-utility company that operates in the energy, water, and waste management sectors. The company generates, distributes, and sells electricity and gas, manages water resources, and provides waste treatment services. A2A S.p.A. is headquartered in Brescia, Italy.",
+  "summary": "A2A S.p.A. engages in the production, sale, and distribution of gas and electricity, and district heating in Italy. The company generates electricity through hydroelectric, thermoelectric, and photovoltaic plants with an installed power of approximately 7.2 GW; and purchases and sells electricity, gas and non-gas fuels, as well as manages environmental certificates. It also engages in the production and sale of heat produced through district heating networks. In addition, the company is involved in waste management activities, including collection and street sweeping, treatment, and disposal, and recovery of energy; and the construction and management of integrated waste disposal plants and systems. Further, it offers integrated water cycle management services; and technical consultancy services relating to energy efficiency certificates. Additionally, the company is involved in the management of public lighting systems and street lights, management of water purification and sewer, and video surveillance activities. A2A S.p.A. is headquartered in Brescia, Italy.",
   "website": "http://www.a2a.eu"
 }

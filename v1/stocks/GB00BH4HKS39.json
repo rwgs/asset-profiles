@@ -2,8 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000DT2N99",
-    "figi": "BBG000DT2TH7",
+    "composite_figi": "BBG007FL7X10",
+    "figi": "BBG007FL7X38",
     "isin": "GB00BH4HKS39"
   },
   "industry_group": "Telecommunication Services",
@@ -11,21 +11,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VODI.BE"
-    },
-    {
-      "currency": "CHF",
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00BH4HKS39.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VODI.BE"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Vodafone Group Public Limited Company",
-  "primary_symbol": "VODI.BE",
+  "name": "VODAFONE GROUP PLC",
+  "primary_symbol": "GB00BH4HKS39.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

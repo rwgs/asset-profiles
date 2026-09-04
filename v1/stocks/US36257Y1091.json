@@ -2,9 +2,7 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00PG365H4",
     "cusip": "36257Y109",
-    "figi": "BBG00PG365N7",
     "isin": "US36257Y1091"
   },
   "industry_group": "Consumer Services",
@@ -13,25 +11,25 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "18WA.MU"
-    },
-    {
-      "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "0A7G.L"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "18WA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "18WA.MU"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "GAOTU TECHEDU S.ADR2/3",
-  "primary_symbol": "18WA.MU",
+  "name": "Gaotu Techedu, Inc. Sponsored ADR Class A",
+  "primary_symbol": "0A7G.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

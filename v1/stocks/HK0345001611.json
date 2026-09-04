@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000C2L1L2",
-    "figi": "BBG000C2L1L2",
+    "composite_figi": "BBG000BBMQW5",
+    "figi": "BBG000BBMR62",
     "isin": "HK0345001611"
   },
   "industry": "Food & Staples Retailing",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "VTSYF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0345.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VTSYF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Vitasoy International Holdings Limited",
-  "primary_symbol": "VTSYF",
+  "primary_symbol": "0345.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

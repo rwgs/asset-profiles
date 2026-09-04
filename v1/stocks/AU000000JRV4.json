@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000FB0BW8",
-    "figi": "BBG000FB0F86",
+    "composite_figi": "BBG00HZRJ9F8",
+    "figi": "BBG00HZRJ9X8",
     "isin": "AU000000JRV4"
   },
   "industry": "Metals & Mining",
@@ -12,29 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IHS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "IHS.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JRVMF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000JRV4.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IHS.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IHS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IHS.MU"
     },
     {
       "currency": "AUD",
@@ -45,19 +40,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "JRV.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JRVMF"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "JERVOIS MINING LTD.",
-  "primary_symbol": "IHS.BE",
+  "name": "JERVOIS GLOBAL LTD",
+  "primary_symbol": "AU000000JRV4.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Jervois Mining Ltd is a cobalt and nickel company focused on advancing mineral resource projects. The company's primary focus is the Idaho Cobalt Operations (ICO) project in the United States and the São Miguel Paulista refinery in Brazil. Jervois aims to become a leading supplier of ethically sourced cobalt and nickel.",
+  "summary": "Jervois Global Ltd is an Australian company focused on the development and operation of cobalt and nickel projects. The company's key asset is the Idaho Cobalt Operations in the United States.",
   "website": "http://www.jervoismining.com.au"
 }

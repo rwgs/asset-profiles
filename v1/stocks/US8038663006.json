@@ -2,9 +2,9 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000D7DLZ0",
+    "composite_figi": "BBG000BBNC37",
     "cusip": "803866300",
-    "figi": "BBG000D7DLZ0",
+    "figi": "BBG000BBNDB6",
     "isin": "US8038663006"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,11 +12,6 @@
   "isin": "US8038663006",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SASOF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -33,6 +28,11 @@
       "symbol": "SAOA.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SASOF"
+    },
+    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "SOL.JO"
@@ -43,11 +43,11 @@
       "symbol": "SOLBE1.JO"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Sasol Limited",
-  "primary_symbol": "SASOF",
+  "primary_symbol": "SSL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

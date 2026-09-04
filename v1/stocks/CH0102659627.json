@@ -2,8 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000BQWPD4",
-    "figi": "BBG000BQWPD4",
+    "composite_figi": "BBG000BFTB16",
+    "figi": "BBG000BFTBK5",
     "isin": "CH0102659627"
   },
   "industry": "Capital Markets",
@@ -11,11 +11,6 @@
   "isin": "CH0102659627",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GMHLF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,13 +20,18 @@
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "GAM.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GMHLF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "GAM Holding AG",
-  "primary_symbol": "GMHLF",
+  "primary_symbol": "BHZA.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

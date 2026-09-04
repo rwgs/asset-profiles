@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009JDN5L1",
+    "composite_figi": "BBG005H82GB2",
     "cusip": "163851108",
-    "figi": "BBG009JDN5S4",
+    "figi": "BBG009CL69X8",
     "isin": "US1638511089"
   },
   "industry": "Chemicals",
@@ -15,22 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "2CU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2CU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "CC"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HWG.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2CU.BE"
     },
     {
       "currency": "EUR",
@@ -38,14 +33,19 @@
       "symbol": "2CU.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "2CU.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2CU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2CU.MU"
     },
     {
       "currency": "EUR",
@@ -59,16 +59,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Chemours Co.",
-  "primary_symbol": "2CU.BE",
+  "name": "The Chemours Company",
+  "primary_symbol": "CC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "The Chemours Company is a global chemistry company. They provide performance chemicals in markets such as titanium technologies, fluoroproducts, and chemical solutions. The Chemours Company is headquartered in Wilmington, Delaware.",
+  "summary": "The Chemours Company provides performance chemicals in North America, the Asia Pacific, Europe, the Middle East, Africa, and Latin America. It operates through four segments: Titanium Technologies, Thermal & Specialized Solutions, Advanced Performance Materials, and Chemical Solutions. The Titanium Technologies segment provides TiO2 pigment under the Ti-Pure and BaiMax brands for delivering whiteness, brightness, opacity, and protection in various of applications. The Thermal & Specialized Solutions segment offers of refrigerants, propellants, blowing agents, and specialty solvents. The Advanced Performance Materials segment provides polymers and advanced materials. Its Chemical Solutions segment offers industrial chemicals used in gold production, industrial, and consumer applications. The company sells its products through direct channels, as well as through a network of resellers and distributors. The Chemours Company was founded in 2014 and is headquartered in Wilmington, Delaware.",
   "website": "http://www.chemours.com"
 }

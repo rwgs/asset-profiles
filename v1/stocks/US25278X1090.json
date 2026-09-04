@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG003L93QD5",
+    "composite_figi": "BBG002PHSYX9",
     "cusip": "25278X109",
-    "figi": "BBG003L93QL6",
+    "figi": "BBG002PHSZH4",
     "isin": "US25278X1090"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -14,18 +14,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7DB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "7DB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "FANG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "7DB.BE"
     },
     {
       "currency": "EUR",
@@ -33,14 +28,19 @@
       "symbol": "7DB.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "7DB.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7DB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7DB.MU"
     },
     {
       "currency": "EUR",
@@ -60,15 +60,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Diamondback Energy, Inc.",
-  "primary_symbol": "7DB.BE",
+  "primary_symbol": "FANG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Diamondback Energy, Inc. is an independent oil and natural gas company focused on the acquisition, development, exploration, and exploitation of unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas. They operate as an exploration and production company. The company's headquarters are located in Midland, Texas.",
+  "summary": "Diamondback Energy, Inc., an independent oil and natural gas company, focuses on the acquisition, development, exploration, and exploitation of unconventional and onshore oil and natural gas reserves in the Permian Basin in West Texas. It primarily focuses on the development of the Spraberry and Wolfcamp formations of the Midland basin; and the Wolfcamp and Bone Spring formations of the Delaware basin, which are part of the Permian Basin in West Texas and New Mexico. As of December 31, 2020, the company's total acreage position was approximately 449,642 gross acres in the Permian Basin; and estimated proved oil and natural gas reserves were 1,316,441 thousand barrels of crude oil equivalent. It also held working interests in 4,326 gross producing wells, as well as royalty interests in 4,553 additional wells. In addition, the company owns mineral interests approximately 787,264 gross acres and 24,350 net royalty acres in the Permian Basin and Eagle Ford Shale; and owns, operates, develops, and acquires midstream infrastructure assets, including 927 miles of crude oil gathering pipelines, natural gas gathering pipelines, and an integrated water system in the Midland and Delaware Basins of the Permian Basin. Diamondback Energy, Inc. was founded in 2007 and is headquartered in Midland, Texas.",
   "website": "http://www.diamondbackenergy.com"
 }

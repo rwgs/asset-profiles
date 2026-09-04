@@ -2,34 +2,22 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BL6KM5",
-    "figi": "BBG000BL6NS3",
     "isin": "DE0005220909"
   },
   "industry": "Health Care Providers & Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "DE0005220909",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NXU.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NXU.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NXU.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0FGL.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NXU.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "NXU.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "NXU.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "NXU.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NXU.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NXU.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "NEXUS AG O.N.",
-  "primary_symbol": "NXU.BE",
+  "name": "Nexus AG",
+  "primary_symbol": "0FGL.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Nexus AG is a German software company that develops and distributes IT solutions for the healthcare sector. Headquartered in Villingen-Schwenningen, Germany, the company provides software applications for hospitals, rehabilitation facilities, and social care organizations. Nexus AG focuses on delivering integrated and efficient IT solutions to support healthcare providers in their daily operations.",
+  "sector": "Health Care",
+  "summary": "Nexus AG develops and sells software and hardware solutions, and provides IT services, primarily for customers in the health care system worldwide. It operates in two divisions, Healthcare Software and Healthcare Services. The company offers information systems, such as NEXUS/HIS and TESIS for somatic hospitals; NEXUS/PSYCHIATRY for psychiatric institutions; NEXUS/ESKULAP and NEXUS/EPD for somatic and psychiatric institutions; NEXUS/VITA and TESIS VITA for in-vitro clinics; NEXUS/HOME for senior citizen and nursing homes; Emed, a Web-based hospital information system; NEXUS/REHA for rehabilitation facilities; NEXUS/PAT(CH), an administration system for hospitals; NEXUS/GYNECOLOGY for obstetric institutes and gynecology; NEXUS/PATHOLOGY and NEXUS/CYTOLOGY for pathology and cytology institutes; NEXUS/RADIOLOGY, an information and image system for radiology wards and offices; NEXUS/INFORMATION STORE, a management information system for hospitals; NEXUS/QM for quality management in the healthcare system; and NEXUS/CSSD, NEXUS/SPM, and EuroSDS for product sterilization processes in hospitals. Its information systems also comprise NEXUS/INTEGRATIONSERVER for interface management; NEXUS/SPECIAL DIAGNOSTICS and Clinic WinData for medical diagnostics and device integration; NEXUS/OUTPATIENT CARE and Asebis, a homecare solution; NEXUS/ARCHIVE and PEGASOS, an archiving and process management system; NEXUS/SWITSPOT software solutions; ASS.TEC for process and HR consulting in SAP environment; highsystemNET life cycle client management; CREATIVE OM, CRM solution; and NEXUS/Cloud IT, outsourcing solutions in healthcare. In addition, the company offers NEXUS/MOBILE for device management, app monitoring, communication, and HIS integration, as well as NEXUS/ECM, NEXUS/E&L, NEXUS/CHILI, NEXUS/PDMS, NEXUS/RIS/PACS, and NEXUS/FOODCARE. NEXUS AG is headquartered in Donaueschingen, Germany.",
   "website": "http://de-de.nexus-ag.de"
 }

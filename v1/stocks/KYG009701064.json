@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00Y9CJSV3",
-    "figi": "BBG00Y9CJT14",
+    "composite_figi": "BBG00VSF8641",
+    "figi": "BBG00VSF8650",
     "isin": "KYG009701064"
   },
   "industry": "Diversified Telecommunication Services",
@@ -12,31 +12,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "55U.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "55U.MU"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1163.HK"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "55U.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "55U.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "55U.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Adtiger Corporations Limited",
-  "primary_symbol": "55U.BE",
+  "primary_symbol": "1163.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

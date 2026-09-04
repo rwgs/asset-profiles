@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000CQ1QK7",
+    "composite_figi": "BBG000BQ97R5",
     "cusip": "445737208",
-    "figi": "BBG000CQ1QK7",
+    "figi": "BBG000BQ98Q4",
     "isin": "CA4457372080"
   },
   "industry": "Software",
@@ -13,36 +13,36 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HOILF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RWPM.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "RWPM.MU"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "HOC.V"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HOILF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RWPM.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RWPM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RWPM.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Hunter Technology Corp.",
-  "primary_symbol": "HOILF",
+  "primary_symbol": "HOC.V",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

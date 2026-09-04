@@ -6,24 +6,19 @@
     "isin": "DE000LS1LUS9"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Banks",
   "isin": "DE000LS1LUS9",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LUS.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RS1.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LUS.BE"
     },
     {
       "currency": "EUR",
@@ -31,8 +26,8 @@
       "symbol": "LUS.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "LUS.DU"
     },
     {
@@ -42,21 +37,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LUS.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LUS.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Lang & Schwarz AG",
-  "primary_symbol": "LUS.BE",
+  "primary_symbol": "0RS1.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Lang & Schwarz AG is a German financial services provider, specializing in securities trading and market making. The company offers trading services for a variety of asset classes, including stocks, bonds, and derivatives. Lang & Schwarz is based in Dusseldorf, Germany.",
+  "summary": "Lang & Schwarz Aktiengesellschaft, through its subsidiaries, engages in the development and issuance of derivative financial instruments in Germany. The company operates a platform for OTC trading that trades in stocks, funds, bonds, and ETPs; LS Exchange, an electronic trading system; and IT hardware and software services. Lang & Schwarz Aktiengesellschaft was founded in 1996 and is headquartered in Düsseldorf, Germany.",
   "website": "http://www.ls-d.de"
 }

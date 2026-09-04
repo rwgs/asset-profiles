@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000LTK5V4",
-    "figi": "BBG000LTLDQ2",
     "isin": "DE000A0JQ5U3"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -12,39 +10,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M5Z.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M5Z.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M5Z.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M5Z.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "M5Z.TI"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0J9O.L"
     },
     {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000A0JQ5U3.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M5Z.BE"
     },
     {
       "currency": "EUR",
@@ -52,8 +30,8 @@
       "symbol": "M5Z.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "M5Z.DU"
     },
     {
@@ -63,21 +41,39 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "M5Z.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "M5Z.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M5Z.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "M5Z.SG"
+    },
+    {
+      "symbol": "M5Z.TI"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Manz AG",
-  "primary_symbol": "M5Z.BE",
+  "primary_symbol": "0J9O.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Manz AG is a global high-tech equipment manufacturer based in Reutlingen, Germany. The company focuses on automation, laser processing, wet chemistry, vacuum coating, testing, and software solutions for various industries including electronics, solar, and energy storage. Manz AG's business model includes developing and manufacturing customized and standardized machines and equipment, as well as providing services for its products",
+  "summary": "Manz AG engages in the manufacture and sale of high-tech equipment in Germany, the United States, Taiwan, rest of Europe, China, and internationally. The company operates in five segments: Solar, Electronics, Energy Storage, Contract Manufacturing, and Service. The Solar segment provides system solutions for thin-film solar modules and CIGS thin-film technology. The Electronics segment offers production, assembly, and handling systems for the manufacture of flat screen displays, touch sensors, printed circuit boards, chip carriers, smartphones, tablet computers, laptops, wearables, and other consumer electronics; and automated assembly solutions for the automotive industry. The Energy Storage segment offers production, assembly, and handling equipment for lithium-ion battery cells, modules, and packs, as well as for capacitors, which are used in the areas of electronic end devices comprising tablet PCs, mobile phones, laptops, battery-powered power tools and gardening equipment, stationary energy storage, and e-mobility. The Contract Manufacturing segment provides contract manufacturing services for equipment manufacturing, parts production, and assembly works for range of industries. The Service segment offers after-sales services, such as repair and maintenance, or conversion and upgrade services for machines and assemblies. Manz AG also provides simulation and factory planning, process and prototype development, and customer training services. The company was formerly known as Manz Automation AG and changed its name to Manz AG in June 2011. Manz AG was founded in 1987 and is headquartered in Reutlingen, Germany.",
   "website": "http://www.manz.com"
 }

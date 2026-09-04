@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000L52GX0",
-    "figi": "BBG000L52ML0",
+    "composite_figi": "BBG000BKZX29",
+    "figi": "BBG000BKZXD7",
     "isin": "JP3389900006"
   },
   "industry": "Capital Markets",
@@ -12,33 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JAF.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JAF.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JAF.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "JAF.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8595.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "JAF.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "JAF.DU"
     },
     {
@@ -48,21 +33,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "JAF.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "JAF.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JAF.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JAF.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "JAFCO Group Co., Ltd.",
-  "primary_symbol": "JAF.BE",
+  "primary_symbol": "8595.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "JAFCO Group Co., Ltd. is a venture capital firm that invests in startups and growth-stage companies. It provides investment, management support, and consulting services to its portfolio companies. The company is headquartered in Tokyo, Japan.",
+  "summary": "JAFCO Group Co., Ltd. formerly known as JAFCO Co., Ltd. is a private equity and venture capital firm specializing in direct and fund of fund investments. Within direct investments, it invests in incubation, seed, startup, early stage, middle stage, late stage, buyout, business succession, and spin-out related investments. It seeks to invests in many fields such as life science, new drug development, regenerative medicine, medical equipment and healthcare, robotics, electronics, software, IT services, manufacturing, logistics, retail, restaurants, housing, and finance among others. The firm invests in the United States of America, Japan, and Europe. JAFCO Group Co., Ltd. was founded on April 5, 1973 and is based in Tokyo, Japan with additional offices in Nagoya, Japan; Osaka, Japan; and Fukuoka, Japan.",
   "website": "http://www.jafco.co.jp"
 }

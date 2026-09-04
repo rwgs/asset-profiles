@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00NDHK3J8",
+    "composite_figi": "BBG00FH3FM15",
     "cusip": "87808K106",
-    "figi": "BBG00NDHK3Q0",
+    "figi": "BBG00MYXWGH2",
     "isin": "US87808K1060"
   },
   "industry": "Biotechnology",
@@ -14,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2K7.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2K7.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TCRR"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2K7.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "2K7.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2K7.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "2K7.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "TCR2 THERAPEUTICS INC.",
-  "primary_symbol": "2K7.BE",
+  "primary_symbol": "TCRR",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "TCR2 Therapeutics is a clinical-stage immunotherapy company focused on developing novel T-cell therapies for patients suffering from solid tumors. The company's lead product candidates are engineered T cells that recognize and kill cancer cells by leveraging the entire T-cell receptor signaling pathway. Headquartered in Cambridge, Massachusetts, TCR2 Therapeutics is advancing a pipeline of innovative immunotherapies.",
+  "summary": "TCR2 Therapeutics Inc., a clinical-stage immunotherapy company, develops novel T cell receptor therapies for patients suffering from cancer. The company's lead product candidates include gavo-cel, a mono TCR Fusion Construct T cells (TRuC-T cells) targeting mesothelin positive solid tumors, which is in phase I/II clinical trial for the treatment of non-small cell lung cancer (NSCLC), ovarian cancer, malignant pleural/peritoneal mesothelioma, and cholangiocarcinoma; and TC-110 a TRuC-T cell targeting CD19-positive B-Cell hematological malignancies, including adult acute lymphoblastic leukemia, DLBCL, follicular lymphoma, and other non-hodgkin lymphomas that is in phase I/II clinical trial. It is also developing TC-510 for, GPC3, IL-15, and Allogenic for solid tumors, as well as DC70 for solid tumors and hematological malignancies. The company was formerly known as TCR2, Inc. and changed its name to TCR2 Therapeutics Inc. in November 2016. TCR2 Therapeutics Inc. was incorporated in 2015 and is headquartered in Cambridge, Massachusetts.",
   "website": "http://www.tcr2.com"
 }

@@ -2,9 +2,7 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00MP3Z0R9",
     "cusip": "499180107",
-    "figi": "BBG00MP3Z0R9",
     "isin": "US4991801071"
   },
   "industry": "Auto Components",
@@ -13,12 +11,7 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KNRRY"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0KBI.L"
     },
@@ -41,13 +34,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KBXA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KNRRY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Knorr-Bremse Aktiengesellschaft",
-  "primary_symbol": "KNRRY",
+  "primary_symbol": "0KBI.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000PQK7T5",
-    "figi": "BBG000PQK7T5",
+    "composite_figi": "BBG000DLJ8L7",
+    "figi": "BBG000DLJ8S0",
     "isin": "BMG5256W1029"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -12,21 +12,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KMSWF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1170.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KMSWF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Kingmaker Footwear Holdings Limited",
-  "primary_symbol": "KMSWF",
+  "primary_symbol": "1170.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

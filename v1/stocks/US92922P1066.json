@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FZ9XV9",
+    "composite_figi": "BBG000FFFQR6",
     "cusip": "92922P106",
-    "figi": "BBG000FZB2Y1",
+    "figi": "BBG000FFFTV5",
     "isin": "US92922P1066"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,22 +15,22 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "UWV.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UWV.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "WTI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UWV.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UWV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UWV.MU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "W&T Offshore, Inc.",
-  "primary_symbol": "UWV.BE",
+  "primary_symbol": "WTI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "W&T Offshore, Inc. is an independent oil and natural gas company focused on exploration, development, and acquisition of oil and natural gas properties in the Gulf of Mexico. The company's business model centers around finding and producing oil and gas from offshore fields. W&T Offshore is headquartered in Houston, Texas.",
+  "summary": "W&T Offshore, Inc., an independent oil and natural gas producer, engages in the acquisition, exploration, and development of oil and natural gas properties in the Gulf of Mexico. The company sells crude oil, natural gas liquids, and natural gas. It holds working interest in approximately 43 offshore fields in federal and state waters. The company also owns interest in approximately 146 offshore structures. It has interests in offshore leases covering approximately 506,000 net acres spanning across the Outer Continental Shelf off the coasts of Louisiana, Texas, Mississippi, and Alabama. As of December 31, 2020, its total proved reserves were 144.4 million barrels of oil equivalent. The company was founded in 1983 and is headquartered in Houston, Texas.",
   "website": "http://www.wtoffshore.com"
 }

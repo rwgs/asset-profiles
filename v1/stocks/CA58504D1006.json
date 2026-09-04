@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00M61H3N2",
+    "composite_figi": "BBG00HZZLFW4",
     "cusip": "58504D100",
-    "figi": "BBG00M61H3N2",
+    "figi": "BBG00K17KRQ8",
     "isin": "CA58504D1006"
   },
   "industry": "Pharmaceuticals",
@@ -12,21 +12,6 @@
   "isin": "CA58504D1006",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MEDIF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MLZ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MLZ.MU"
-    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSE",
@@ -38,8 +23,18 @@
       "symbol": "LABS.TO"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MEDIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MLZ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "MLZ.DU"
     },
     {
@@ -49,15 +44,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MLZ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MLZ.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "MediPharm Labs Corp.",
-  "primary_symbol": "MEDIF",
+  "primary_symbol": "LABS-WT.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

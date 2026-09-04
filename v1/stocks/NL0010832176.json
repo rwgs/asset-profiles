@@ -2,6 +2,9 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
+    "composite_figi": "BBG00GHB88X9",
+    "cusip": "04016X101",
+    "figi": "BBG00GK2ZQ92",
     "isin": "NL0010832176"
   },
   "industry": "Biotechnology",
@@ -11,33 +14,28 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
+      "symbol": "ARGX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
       "symbol": "0QW0.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "1AE.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "1AE.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ARGNF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ARGX"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1AE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1AE.MU"
     },
     {
       "currency": "EUR",
@@ -60,6 +58,11 @@
       "symbol": "A1RG34.SA"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ARGNF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBRU",
       "symbol": "ARGX.BR"
@@ -71,16 +74,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "ARGENX NV ARGENX ORD SHS",
-  "primary_symbol": "0QW0.IL",
+  "name": "argenx SE",
+  "primary_symbol": "ARGX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "argenx NV is a global immunology company committed to improving the lives of people suffering from severe autoimmune diseases. The company translates advanced protein engineering into differentiated antibody-based medicines with the potential to address unmet medical needs. Argenx is headquartered in Breda, Netherlands.",
+  "summary": "argenx SE, a clinical-stage biotechnology company, focuses on developing antibody-based therapies for the treatment of autoimmune diseases, hematology, and cancer. It is developing its lead product candidate, efgartigimod, for the treatment of patients with myasthenia gravis; immune thrombocytopenia in Phase III; pemphigus vulgaris in Phase III; chronic inflammatory demyelinating polyneuropathy in Phase III; and ENHANZE SC in pre-clinical stages. The company is also developing cusatuzumab in Phase II clinical stage in hematological cancer indications; ARGX-117 in phase I clinical trial with therapeutic potential in both orphan and large autoimmune inflammatory diseases; and preclinical products, including ARGX-118 for airway inflammation. Its partnered product candidates include ARGX-112 for treating skin inflammation, ARGX-116 for the treatment of dyslipidemia, and ARGX-115 for cancer immunotherapy, which are in Phase I clinical stages; and ARGX-114 for treating fibrosisand ARGX-119 for treating neuromuscular indications, which are in preclinical stage. The company has strategic partnership with AbbVie S.À.R.L. and LEO Pharma A/S; and collaboration agreement with Cilag GmbH International, Staten Biotechnology B.V., and Shire International GmbH. argenx SE was incorporated in 2008 and is based in Breda, the Netherlands.",
   "website": "http://www.argenx.com"
 }

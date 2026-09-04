@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000KR75S8",
+    "composite_figi": "BBG000GXZ4W7",
     "cusip": "03662Q105",
-    "figi": "BBG000KR8BW9",
+    "figi": "BBG000GXZJ63",
     "isin": "US03662Q1058"
   },
   "industry": "Software",
@@ -14,21 +14,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AKX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AKX.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ANSS"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HG3.L"
     },
@@ -39,18 +29,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AKX.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "AKX.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "AKX.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AKX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AKX.MU"
     },
     {
       "currency": "EUR",
@@ -64,16 +64,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "ANSYS INC.  DL-,01",
-  "primary_symbol": "AKX.BE",
+  "name": "ANSYS, Inc.",
+  "primary_symbol": "ANSS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ANSYS, Inc. develops and markets engineering simulation software and services used by engineers, designers, researchers, and students across a broad spectrum of industries. The company's software enables users to simulate product designs and predict how products will behave in real-world environments. ANSYS is headquartered in Canonsburg, Pennsylvania.",
+  "summary": "ANSYS, Inc. develops and markets engineering simulation software and services worldwide. The company offers ANSYS Workbench, a framework upon which its engineering simulation technologies are built; multiphysics software to simulate the interactions between structures, heat transfer, fluids, and electronics in a unified engineering simulation environment; high-performance computing product suite; and structural analysis product suite that provides simulation tools for product design and optimization. It also provides fluids product suite that enables modeling of fluid flow and other related physical phenomena; and electronics product suite that offers field simulation software for designing electronic and electromechanical products. In addition, the company offers power analysis and optimization software suite that manages the power budget, power delivery integrity, and power-induced noise in an electronic design; SCADE product suite, a solution for embedded software simulation, code production, and automated certification; system simulation capability for the design of automated products; and optical sensor and closed-loop, and real-time simulation, as well as safety-certified embedded software solutions. Further, it provides Discovery product family for use in the simulation of product design; Ansys Granta products to give access to material intelligence; and academic product suite with a portfolio of academic products based on associate, research, and teaching, as well as develops photonic design and simulation tools. The company serves engineers, designers, researchers, and students in the aerospace and defense, automotive, electronics, semiconductors, energy, materials and chemical processing, turbomachinery, consumer products, healthcare, and sports industries. It has a collaboration with Velodyne to develop software models of next-generation automotive lidar sensors. ANSYS, Inc. was founded in 1970 and is headquartered in Canonsburg, Pennsylvania.",
   "website": "http://www.ansys.com"
 }

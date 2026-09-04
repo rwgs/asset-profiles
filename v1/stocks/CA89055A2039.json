@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00ZCMGXY3",
+    "composite_figi": "BBG00Y28PQG3",
     "cusip": "89055A203",
-    "figi": "BBG00ZCMGXY3",
+    "figi": "BBG00Y28PQJ0",
     "isin": "CA89055A2039"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,13 +13,8 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TPZEF"
-    },
-    {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "5XU.DU"
     },
     {
@@ -36,19 +31,24 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "TPZ.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TPZEF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "TOPAZ ENERGY CORP.",
-  "primary_symbol": "TPZEF",
+  "primary_symbol": "5XU.DU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Topaz Energy Corp. operates as a royalty and energy infrastructure company. It operates through the segments, Royalty Assets and Infrastructure Assets. The company holds gross overriding royalty interests on approximately 3.0 million gross acres of developed and undeveloped lands. It is also involved in natural gas processing activities. The company was formerly known as Exshaw Oil Corp. and changed its name to Topaz Energy Corp. in November 2019. Topaz Energy Corp. was incorporated in 2006 and is headquartered in Calgary, Canada.",
+  "summary": "TOPAZ ENERGY CORP is a Canada-based company focused on natural gas and oil. The company's business model involves acquiring and managing royalty and working interests in producing properties to generate revenue. They are headquartered in Calgary, Alberta.",
   "website": "http://topazenergy.ca"
 }

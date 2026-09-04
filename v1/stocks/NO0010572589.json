@@ -1,9 +1,9 @@
 {
-  "country": "Thailand",
-  "country_code": "TH",
+  "country": "Norway",
+  "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG00N9LJC88",
-    "figi": "BBG00N9LJCG9",
+    "figi": "BBG00N9LJCD2",
     "isin": "NO0010572589"
   },
   "industry": "Insurance",
@@ -12,22 +12,12 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAT.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SAT.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010572589.SG"
     },
     {
-      "currency": "CHF",
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010572589.SW"
     },
@@ -43,15 +33,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SAT.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SAT.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SAT.MU"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Saga Pure ASA",
-  "primary_symbol": "SAT.BE",
+  "primary_symbol": "NO0010572589.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

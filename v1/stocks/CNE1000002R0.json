@@ -2,9 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000VNMR82",
-    "cusip": "16942A302",
-    "figi": "BBG000VNMR82",
+    "composite_figi": "BBG000BX4M38",
+    "figi": "BBG000BX4MS1",
     "isin": "CNE1000002R0"
   },
   "industry": "Metals & Mining",
@@ -12,16 +11,6 @@
   "isin": "CNE1000002R0",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CSUAY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CUAEF"
-    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -31,6 +20,16 @@
       "currency": "CNY",
       "exchange_mic": "XSHG",
       "symbol": "601088.SS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CSUAY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CUAEF"
     },
     {
       "currency": "EUR",
@@ -50,9 +49,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "China Shenhua Energy Co. Ltd. Class H",
-  "primary_symbol": "CSUAY",
+  "primary_symbol": "1088.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

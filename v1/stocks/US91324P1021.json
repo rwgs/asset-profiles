@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000CH5208",
     "cusip": "91324P102",
+    "figi": "BBG000CH53T5",
     "isin": "US91324P1021"
   },
   "industry": "Health Care Providers & Services",
@@ -13,37 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0R0O.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "UNH"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNH.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNH.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNH.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNH.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UNH.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0R0O.IL"
     },
     {
       "currency": "ARS",
@@ -52,18 +29,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UNH.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "UNH.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "UNH.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UNH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "UNH.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "UNH.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UNH.MU"
     },
     {
       "currency": "MXN",
@@ -76,12 +73,15 @@
       "symbol": "UNH.SG"
     },
     {
+      "symbol": "UNH.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "UNH.VI"
     },
     {
-      "currency": "ARS",
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "UNHD.BA"
     },
@@ -92,16 +92,16 @@
     }
   ],
   "market_cap_band": "Mega Cap",
-  "name": "UNITEDHEALTH GROUP INC UNITEDHE",
-  "primary_symbol": "0R0O.IL",
+  "name": "UnitedHealth Group Incorporated",
+  "primary_symbol": "UNH",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "UnitedHealth Group Incorporated is a diversified healthcare company that provides health insurance and healthcare services. The company operates through two segments: UnitedHealthcare and Optum, offering a range of health benefits plans and healthcare services to individuals and employers. UnitedHealth Group is headquartered in Minnetonka, Minnesota, USA.",
+  "summary": "UnitedHealth Group Incorporated operates as a diversified health care company in the United States. It operates through four segments: UnitedHealthcare, OptumHealth, OptumInsight, and OptumRx. The UnitedHealthcare segment offers consumer-oriented health benefit plans and services for national employers, public sector employers, mid-sized employers, small businesses, and individuals; health and well-being services to individuals age 50 and older, addressing their needs for preventive and acute health care services, as well as services dealing with chronic disease and other specialized issues for older individuals; Medicaid plans, children's health insurance program, and health care programs; medical and dental benefits; and hospital and clinical services. The OptumHealth segment provides access to networks of care provider specialists, health management services, care delivery, consumer engagement, and financial services. This segment serves individuals directly through care delivery systems, employers, payers, and government entities. The OptumInsight segment offers software and information products, advisory consulting arrangements, and managed services outsourcing contracts to hospital systems, physicians, health plans, governments, life sciences companies, and other organizations. The OptumRx segment provides pharmacy care services and programs, including retail network contracting, home delivery, specialty and compounding pharmacy, and purchasing and clinical, as well as develops programs in areas, such as step therapy, formulary management, drug adherence, and disease/drug therapy management. UnitedHealth Group Incorporated has partnership with the University of California, San Francisco to expand the mental health workforce in California. UnitedHealth Group Incorporated was incorporated in 1977 and is based in Minnetonka, Minnesota.",
   "website": "http://www.unitedhealthgroup.com"
 }

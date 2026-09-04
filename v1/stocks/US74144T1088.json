@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00P1DMMY4",
+    "composite_figi": "BBG000BVMPN3",
     "cusip": "74144T108",
-    "figi": "BBG00P1DMMZ3",
+    "figi": "BBG000BVMYQ1",
     "isin": "US74144T1088"
   },
   "industry": "Capital Markets",
@@ -14,12 +14,7 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TR1.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TROW"
     },
     {
@@ -43,6 +38,9 @@
       "symbol": "TR1.SG"
     },
     {
+      "symbol": "TR1.TI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "TROW.VI"
@@ -50,9 +48,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "T. Rowe Price Group, Inc.",
-  "primary_symbol": "TR1.TI",
+  "primary_symbol": "TROW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

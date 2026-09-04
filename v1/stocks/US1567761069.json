@@ -2,9 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000Q3FJ88",
+    "composite_figi": "BBG00ZWWBFT9",
     "cusip": "156776106",
-    "figi": "BBG000Q3FJ88",
+    "figi": "BBG00ZWWBFV6",
     "isin": "US1567761069"
   },
   "industry": "Electrical Equipment",
@@ -12,16 +12,6 @@
   "isin": "US1567761069",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CPWHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CRPHY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -38,6 +28,16 @@
       "symbol": "CFJA.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CPWHF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRPHY"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "CWR.L"
@@ -45,9 +45,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Ceres Power Holdings plc",
-  "primary_symbol": "CPWHF",
+  "primary_symbol": "CFJ.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

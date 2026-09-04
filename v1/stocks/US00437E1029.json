@@ -2,29 +2,24 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00ZSK4ZQ7",
+    "composite_figi": "BBG00S2L1Z00",
     "cusip": "00437E102",
-    "figi": "BBG00ZSK4ZW0",
+    "figi": "BBG00S2L1ZK8",
     "isin": "US00437E1029"
   },
   "industry": "Health Care Providers & Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "US00437E1029",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "4NE1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ACCD"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "4NE1.DU"
     },
     {
@@ -34,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4NE1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US00437E1029.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "ACCOLADE, INC.",
-  "primary_symbol": "4NE1.MU",
+  "primary_symbol": "ACCD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Accolade, Inc. provides personalized healthcare solutions that help individuals navigate the healthcare system. The company's platform combines technology and human interaction to guide members through their healthcare journey. Accolade is headquartered in Plymouth Meeting, Pennsylvania.",
+  "sector": "Health Care",
+  "summary": "Accolade, Inc. develops and provides technology-enabled solutions that help people understand, navigate, and utilize the healthcare system and their workplace benefits in the United States. The company offers a platform with cloud-based technology and with multimodal support from a team of health assistants and clinicians, including nurses, physician medical directors, and behavioral health specialists. Its customers are primarily employers who provide their employees and their employees' families a single place to turn for their health, healthcare, and benefits needs. Accolade, Inc. was founded in 2007 and is headquartered in Plymouth Meeting, Pennsylvania.",
   "website": "http://accolade.com"
 }

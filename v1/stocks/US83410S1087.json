@@ -2,30 +2,30 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00L2R13X7",
+    "composite_figi": "BBG00L2DB535",
     "cusip": "83410S108",
-    "figi": "BBG00L2R1438",
+    "figi": "BBG00L2DB5N3",
     "isin": "US83410S1087"
   },
   "industry": "Diversified Telecommunication Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Telecommunication Services",
   "isin": "US83410S1087",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
+      "symbol": "SOHU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "2SU.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
       "symbol": "2SU.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SOHU"
     },
     {
       "currency": "EUR",
@@ -40,15 +40,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Sohu.com Limited",
-  "primary_symbol": "2SU.BE",
+  "primary_symbol": "SOHU",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Sohu.com Limited is an internet company in China, providing online media, search, gaming, and advertising services. The company operates a diverse range of platforms including Sohu News, Sogou search engine, and Changyou gaming. Sohu.com is headquartered in Beijing, China.",
+  "sector": "Communications",
+  "summary": "Sohu.com Limited provides online media, game, and search products and services on PCs and mobile devices in China. The company provides online news and information through the mobile phone application Sohu News APP, mobile portal m.sohu.com, and www.sohu.com for PCs; and online video contents and services through mobile phone application Sohu Video APP and tv.sohu.com, and ifox, a PC video application. The company is also involved in the development, operation, and licensing of online games for PCs and mobile devices, which include massive multiplayer online role-playing games; and casual games, strategy games, and collectible card games. In addition, it operates focus.cn, which provides online real estate information and services; and 17173.com website, which provides news, electronic forums, online videos, and other online game information services to game players, as well as offers mobile game distribution services. Further, the company provides paid subscription services, interactive broadcasting services, and sub-licensing of purchased video content to third parties. Sohu.com Limited was founded in 1996 and is headquartered in Beijing, China.",
   "website": "http://www.sohu.com"
 }

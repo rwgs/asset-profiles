@@ -10,14 +10,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XLON",
       "symbol": "0NQT.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TVFCF"
     },
     {
       "currency": "EUR",
@@ -28,13 +23,18 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "TFI.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TVFCF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Television Francaise 1 SA",
   "primary_symbol": "0NQT.IL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

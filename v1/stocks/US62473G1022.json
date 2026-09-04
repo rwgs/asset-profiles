@@ -13,18 +13,13 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MTUAF"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MTUAY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "MTX.TI"
     },
     {
       "currency": "EUR",
@@ -35,6 +30,9 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MTX.SG"
+    },
+    {
+      "symbol": "MTX.TI"
     },
     {
       "currency": "EUR",
@@ -61,7 +59,7 @@
   "name": "MTU Aero Engines AG",
   "primary_symbol": "MTUAF",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

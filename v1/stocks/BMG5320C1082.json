@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BM70X4",
-    "figi": "BBG000BM7322",
+    "composite_figi": "BBG000BDW468",
+    "figi": "BBG000BDW4H6",
     "isin": "BMG5320C1082"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,33 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTJ1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTJ1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KLYCY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KUNUF"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0135.HK"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CTJ1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CTJ1.DU"
     },
     {
@@ -48,21 +33,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CTJ1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CTJ1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KLYCY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KUNUF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "KunLun Energy Co. Ltd.",
-  "primary_symbol": "CTJ1.BE",
+  "primary_symbol": "0135.HK",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "KUNLUN ENERGY CO. HD-,01 is engaged in the exploration, development, production, and sale of natural gas and other energy products. The company operates primarily in China and focuses on the natural gas value chain. The company is based in Hong Kong.",
+  "summary": "Kunlun Energy Company Limited, an investment holding company, engages in the exploration, development, production, and sale of crude oil and natural gas. It operates through four segments: Natural Gas Sales; Sales of Liquefied Petroleum Gas (LPG); Liquefied Natural Gas (LNG) Processing and Terminal; and Exploration and Production. The company is also involved in the processing, unloading, storing, gasification, and entrucking of LNG; trading, distribution, and retail sale of various natural gas products; and wholesale and retail of various LPG products. It operates in the People's Republic of China, the Republic of Kazakhstan, the Sultanate of Oman, the Republic of Peru, the Kingdom of Thailand, and the Republic of Azerbaijan. The company was formerly known as CNPC (Hong Kong) Limited and changed its name to Kunlun Energy Company Limited in March 2010. The company is based in Hong Kong, Hong Kong. Kunlun Energy Company Limited is a subsidiary of PetroChina Hong Kong Limited.",
   "website": "http://www.kunlun.com.hk"
 }

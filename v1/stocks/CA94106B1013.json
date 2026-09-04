@@ -2,26 +2,16 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000NP5QK3",
+    "composite_figi": "BBG000FLHZZ2",
     "cusip": "94106B101",
-    "figi": "BBG000NP5V77",
+    "figi": "BBG000FLJ2N6",
     "isin": "CA94106B1013"
   },
   "industry": "Transportation Infrastructure",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Transportation",
   "isin": "CA94106B1013",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UI51.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UI51.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UI51.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UI51.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UI51.MU"
     },
     {
       "currency": "EUR",
@@ -45,15 +45,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Waste Connections, Inc.",
-  "primary_symbol": "UI51.BE",
+  "primary_symbol": "WCN",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Waste Connections, Inc. provides non-hazardous solid waste collection, transfer, disposal and recycling services. They serve residential, commercial, industrial and exploration and production customers. The company is headquartered in The Woodlands, Texas.",
+  "summary": "Waste Connections, Inc. provides waste collection, transfer, disposal, and recycling services in the United States and Canada. The company operates through five segments: Southern, Western, Eastern, Canada, Central, and Corporate. It offers collection services to residential, commercial, municipal, industrial, and E&P customers; landfill disposal services; and recycling services for various recyclable materials, including compost, cardboard, mixed paper, plastic containers, glass bottles, and ferrous and aluminum metals. The company also owns and operates transfer stations that receive compact and/or load waste to be transported to landfills or treatment facilities through truck, rail, or barge; and intermodal services for the rail haul movement of cargo and solid waste containers in the Pacific Northwest through a network of intermodal facilities. In addition, it provides E&P waste treatment, recovery, and disposal services for waste resulting from oil and natural gas exploration and production activity, such as drilling fluids, drill cuttings, completion fluids, and flowback water; production wastes and produced water during a well's operating life; contaminated soils that require treatment during site reclamation; and substances, which require clean-up after a spill, reserve pit clean-up, or pipeline rupture. Further, the company offers leasing services to its customers. As of December 31, 2020, it owned 311 solid waste collection operations; 132 transfer stations; 57 municipal solid waste (MSW) landfills; 12 E&P waste landfills; 13 non-MSW landfills; 68 recycling operations; 4 intermodal operations; 23 E&P liquid waste injection wells; and 19 E&P waste treatment and oil recovery facilities. It also operated an additional 53 transfer stations, 9 MSW landfills, and 2 intermodal operations. Waste Connections, Inc. was founded in 1997 and is headquartered in Vaughan, Canada.",
   "website": "http://www.wasteconnections.com"
 }

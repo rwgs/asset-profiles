@@ -2,22 +2,15 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000DY3KH4",
-    "figi": "BBG000DY3PJ1",
     "isin": "NO0003079709"
   },
   "industry": "Electrical Equipment",
-  "industry_group": "Capital Goods",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "NO0003079709",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "KP5.BE"
-    },
-    {
-      "currency": "GBP",
+      "currency": "NOK",
       "exchange_mic": "XLON",
       "symbol": "0F0J.L"
     },
@@ -33,21 +26,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KP5.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KP5.F"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Kitron ASA",
-  "primary_symbol": "KP5.BE",
+  "primary_symbol": "0F0J.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Kitron ASA is an electronics manufacturing services (EMS) company. They offer services throughout the entire value chain, from design and development to manufacturing, supply chain management, and aftermarket services. The company is headquartered in Norway.",
+  "sector": "Information Technology",
+  "summary": "Kitron ASA, an electronics manufacturing services company, together with its subsidiaries, develops, industrializes, and produces electronics for the energy/telecoms, defense/aerospace, offshore/marine, medical device, and industry sectors. It manufactures electronics that are embedded in the customers' products; and box-built electronic products. The company's services include development services, such as product development, product management, re-engineering, and value analysis/value engineering; and industrialization services, including prototype manufacturing, evaluation of new products, component engineering and database, test development, design and build of high level assembly lines, and environmental durability testing. Its services also comprise sourcing and procurement services; manufacturing, assembling, and testing of electronic products for the professional market; redesign, repair, and maintenance; logistics and distribution; and augmented reality manufacturing services. The company provides its products and services in Norway, Sweden, Lithuania, Germany, Poland, China, the United States, and internationally. Kitron ASA is headquartered in Billingstad, Norway.",
   "website": "http://www.kitron.com"
 }

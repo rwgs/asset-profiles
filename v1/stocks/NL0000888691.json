@@ -2,8 +2,8 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG000VPCM89",
-    "figi": "BBG000VPCM89",
+    "composite_figi": "BBG000FVRSP6",
+    "figi": "BBG000FVRTC8",
     "isin": "NL0000888691"
   },
   "industry": "Metals & Mining",
@@ -11,11 +11,6 @@
   "isin": "NL0000888691",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AMVMF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XAMS",
       "symbol": "AMG.AS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMVMF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "AMG Advanced Metallurgical Group N.V.",
-  "primary_symbol": "AMVMF",
+  "primary_symbol": "ADG.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,34 +2,29 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0016VVS15",
+    "composite_figi": "BBG000DW5XK4",
     "cusip": "03236M200",
-    "figi": "BBG0016VVS79",
+    "figi": "BBG000DW78B7",
     "isin": "US03236M2008"
   },
   "industry": "Chemicals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Materials",
   "isin": "US03236M2008",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3A01.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "3A01.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "AMRS"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3A01.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "3A01.DU"
     },
     {
@@ -39,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3A01.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3A01.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "AMYRIS, INC.",
-  "primary_symbol": "3A01.BE",
+  "primary_symbol": "AMRS",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Amyris, Inc. is a synthetic biotechnology company. It uses its technology platform to engineer microbes to produce a variety of molecules used in flavors, fragrances, cosmetics ingredients, and other specialty chemical products. The company is headquartered in Emeryville, California.",
+  "sector": "Materials",
+  "summary": "Amyris, Inc., a synthetic biotechnology company, operates in the clean health and beauty markets through its consumer brands and as a supplier of sustainable and natural ingredients in Europe, the United States, Asia, Brazil, and internationally. It manufactures and sells products for the health and wellness, clean beauty, and flavor and fragrance markets. The company operates under the Amyris, Biofene, Biossance, Pipette, Purecane, and No Compromise trademarks. Amyris, Inc. has a collaboration agreement with the Infectious Disease Research Institute to advance a novel ribonucleic acid vaccine platform, including accelerating the development of a COVID-19 vaccine. The company was formerly known as Amyris Biotechnologies, Inc. and changed its name to Amyris, Inc. in June 2010. Amyris, Inc. was incorporated in 2003 and is headquartered in Emeryville, California.",
   "website": "http://www.amyris.com"
 }

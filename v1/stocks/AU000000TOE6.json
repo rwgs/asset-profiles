@@ -3,7 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000NFZ1Y2",
-    "figi": "BBG000NFZ6D4",
+    "figi": "BBG000NFZ2C4",
     "isin": "AU000000TOE6"
   },
   "industry": "Metals & Mining",
@@ -12,24 +12,19 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T4W.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "T4W.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TOEYF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "T4W.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "T4W.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "T4W.MU"
     },
     {
       "currency": "EUR",
@@ -40,19 +35,24 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "TOE.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TOEYF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Toro Energy Ltd.",
-  "primary_symbol": "T4W.HM",
+  "primary_symbol": "T4W.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "TORO ENERGY LTD. is an Australian uranium exploration and development company. The company is focused on developing its uranium projects in Western Australia. Toro Energy's headquarters are located in Perth, Australia.",
+  "summary": "Toro Energy Limited engages in the exploration, evaluation, and development of uranium properties in Australia. Its flagship project is the Wiluna uranium project located in the north-eastern goldfields region of Western Australia. The company is headquartered in West Perth, Australia.",
   "website": "http://www.toroenergy.com.au"
 }

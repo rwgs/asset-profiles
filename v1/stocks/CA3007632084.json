@@ -13,14 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "3XS.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EXMGF"
     },
     {
       "currency": "EUR",
@@ -31,6 +26,11 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3XS.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EXMGF"
     },
     {
       "currency": "CAD",
@@ -52,7 +52,7 @@
   "name": "Excelsior Mining Corp.",
   "primary_symbol": "3XS.BE",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

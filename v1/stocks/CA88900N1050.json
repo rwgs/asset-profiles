@@ -4,24 +4,14 @@
   "identifiers": {
     "composite_figi": "BBG00R0MHJ56",
     "cusip": "88900N105",
-    "figi": "BBG00R0MHJC8",
+    "figi": "BBG00R0MHJ92",
     "isin": "CA88900N1050"
   },
   "industry": "Metals & Mining",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Materials",
   "isin": "CA88900N1050",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TV3.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TV3.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -34,21 +24,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TV3.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TV3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TV3.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Tocvan Ventures Corp.",
-  "primary_symbol": "TV3.BE",
+  "primary_symbol": "CA88900N1050.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "TOCVAN VENTURES C is likely a venture capital or investment company. It probably invests in or provides funding to other companies. Specific details are unavailable.",
+  "sector": "Materials",
+  "summary": "Tocvan Ventures Corp. is a mineral exploration company focused on gold and silver projects in Mexico. The company is exploring the Pilar gold-silver project in Sonora, Mexico. Tocvan Ventures is based in Vancouver, British Columbia, Canada.",
   "website": "http://www.tocvan.com"
 }

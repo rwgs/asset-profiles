@@ -2,8 +2,7 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BTZWZ6",
-    "figi": "BBG000BTZZ16",
+    "composite_figi": "BBG000BDYXR9",
     "isin": "FR0000052292"
   },
   "industry_group": "Consumer Durables & Apparel",
@@ -11,45 +10,45 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMI.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMI.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HMI.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000052292.SW"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HMI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HMI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HMI.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HMI.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HMI.MU"
     }
   ],
   "name": "Hermes International SCA",
-  "primary_symbol": "HMI.BE",
+  "primary_symbol": "FR0000052292.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Hermès International S.A. designs, manufactures, and sells luxury goods, including leather goods, fashion apparel, perfumes, watches, and home furnishings. The company is known for its high-quality craftsmanship and iconic designs. Hermès International is headquartered in Paris, France."
+  "summary": "Hermès International S.A. is a French luxury goods manufacturer specializing in leather, lifestyle accessories, home furnishings, perfume, jewellery, watches and ready-to-wear. The company is known for its high-quality craftsmanship and iconic designs. Hermès is headquartered in Paris, France."
 }

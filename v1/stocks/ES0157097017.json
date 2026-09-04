@@ -2,8 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000VPWWT2",
-    "figi": "BBG000VPWWT2",
+    "composite_figi": "BBG000BKD1G8",
+    "figi": "BBG000BKD4V5",
     "isin": "ES0157097017"
   },
   "industry": "Pharmaceuticals",
@@ -11,11 +11,6 @@
   "isin": "ES0157097017",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LBTSF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XMAD",
@@ -25,13 +20,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "E2Z.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LBTSF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Almirall, S.A.",
-  "primary_symbol": "LBTSF",
+  "primary_symbol": "ALM.MC",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

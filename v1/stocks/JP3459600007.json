@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C3RL21",
-    "figi": "BBG000C3RP40",
+    "composite_figi": "BBG000BHP0V7",
+    "figi": "BBG000BHP1K7",
     "isin": "JP3459600007"
   },
   "industry": "Beverages",
@@ -12,18 +12,13 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "TAX.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "2531.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "TAX.DU"
     },
     {
@@ -33,21 +28,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TAX.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TAX.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "TAKARA HOLDINGS INC.",
-  "primary_symbol": "TAX.MU",
+  "primary_symbol": "2531.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "TAKARA HOLDINGS INC. is a Japanese company involved in biotechnology, alcohol beverages, and real estate businesses. They produce sake, shochu, and other alcoholic beverages, as well as providing gene therapy and bio-related products. The company is headquartered in Kyoto, Japan.",
+  "summary": "Takara Holdings Inc., together with its subsidiaries, primarily manufactures and sells alcoholic beverages, seasonings, and raw alcohol worldwide. The company offers shochu, sake, light-alcohol refreshers, seasonings, Japanese alcoholic beverages, and whisky; research reagents and scientific instruments; contract research services; and gene therapy commercialization services. It is involved in the import, export, and wholesale of alcoholic beverages, food products, seasonings, etc.; and printing, real estate leasing, marketing research, sales promotion planning, temporary staffing, transportation, warehousing, automobile service, non-life insurance agency, travel agent, etc. activities. In addition, the company engages in the wholesale of glass bottles; and sale of feed. Takara Holdings Inc. was founded in 1842 and is headquartered in Kyoto, Japan.",
   "website": "http://www.takara.co.jp"
 }

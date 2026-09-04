@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000BB07P9",
     "cusip": "067901108",
+    "figi": "BBG000BB0BD3",
     "isin": "CA0679011084"
   },
   "industry": "Metals & Mining",
@@ -13,32 +15,17 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "GOLD"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
       "symbol": "0R22.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
       "symbol": "ABR.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ABR.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ABR.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ABR.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GOLD"
     },
     {
       "currency": "EUR",
@@ -46,14 +33,29 @@
       "symbol": "ABR.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "ABR.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ABR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ABR.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ABR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ABR.MU"
     },
     {
       "currency": "CAD",
@@ -67,16 +69,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "BARRICK GOLD CORP BARRICK GOLD",
-  "primary_symbol": "0R22.IL",
+  "name": "Barrick Gold Corporation",
+  "primary_symbol": "GOLD",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Barrick Gold Corporation is a gold and copper mining company with operations and projects in several countries. The company explores for, develops, and produces gold and copper, as well as other metals. Barrick Gold is headquartered in Toronto, Ontario, Canada.",
+  "summary": "Barrick Gold Corporation engages in the exploration, mine development, production, and sale of gold and copper properties. It has ownership interests in producing gold mines that are located in Argentina, Canada, Côte d'Ivoire, the Democratic Republic of Congo, Dominican Republic, Mali, Tanzania, and the United States. The company also has ownership interests in producing copper mines located in Chile, Saudi Arabia, and Zambia; and various other projects located throughout the Americas and Africa. Barrick Gold Corporation was founded in 1983 and is headquartered in Toronto, Canada.",
   "website": "http://www.barrick.com"
 }

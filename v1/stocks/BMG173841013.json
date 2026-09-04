@@ -1,9 +1,8 @@
 {
-  "country": "Singapore",
-  "country_code": "SG",
+  "country": "Bermuda",
+  "country_code": "BM",
   "identifiers": {
-    "composite_figi": "BBG005NB9650",
-    "figi": "BBG005NB96C2",
+    "composite_figi": "BBG005KMVVS4",
     "isin": "BMG173841013"
   },
   "industry_group": "Energy",
@@ -11,24 +10,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BW9.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "BW9.MU"
-    },
-    {
-      "currency": "CHF",
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "BMG173841013.SW"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BW9.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "BW9.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BW9.MU"
     },
     {
       "currency": "EUR",
@@ -36,15 +35,15 @@
       "symbol": "BW9.SG"
     }
   ],
-  "name": "BW LPG LTD  DL-,01",
-  "primary_symbol": "BW9.BE",
+  "name": "BW LPG LTD",
+  "primary_symbol": "BMG173841013.SW",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "BW LPG Ltd. owns and operates a fleet of Very Large Gas Carriers (VLGCs) that transport liquefied petroleum gas (LPG) worldwide. The company provides seaborne transportation of LPG to energy companies and industrial users. BW LPG is headquartered in Singapore."
+  "summary": "BW LPG Ltd is a shipping company that owns and operates a fleet of Very Large Gas Carriers (VLGCs), transporting liquefied petroleum gas (LPG) across the globe. The company focuses on safe and efficient transportation solutions. BW LPG Ltd is headquartered in Oslo, Norway."
 }

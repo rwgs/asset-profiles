@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FG1YS1",
+    "composite_figi": "BBG000C34WJ4",
     "cusip": "395259104",
-    "figi": "BBG000FG2237",
+    "figi": "BBG000C34YS0",
     "isin": "US3952591044"
   },
   "industry": "Capital Markets",
@@ -12,11 +12,6 @@
   "isin": "US3952591044",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GH3.MU"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -29,15 +24,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GH3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GH3.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "GREENHILL & CO., INC.",
-  "primary_symbol": "GH3.MU",
+  "primary_symbol": "GHL",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

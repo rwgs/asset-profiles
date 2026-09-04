@@ -2,9 +2,9 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00DP9CQB1",
+    "composite_figi": "BBG00BKYC7L6",
     "cusip": "30051E104",
-    "figi": "BBG00DP9CQB1",
+    "figi": "BBG00BKYC7M5",
     "isin": "US30051E1047"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,11 +12,6 @@
   "isin": "US30051E1047",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "EVVTY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,13 +21,18 @@
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "EVO.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EVVTY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Evolution Gaming Group AB (publ)",
-  "primary_symbol": "EVVTY",
+  "primary_symbol": "E3G1.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

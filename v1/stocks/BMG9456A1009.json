@@ -2,8 +2,9 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
-    "composite_figi": "BBG000HP91W8",
-    "figi": "BBG000HP96J2",
+    "composite_figi": "BBG000K14TT5",
+    "cusip": "G9456A100",
+    "figi": "BBG000K169V4",
     "isin": "BMG9456A1009"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,18 +14,18 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "G2O.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "GLNG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HDY.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "G2O.BE"
     },
     {
       "currency": "EUR",
@@ -44,15 +45,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Golar LNG Limited",
-  "primary_symbol": "G2O.BE",
+  "primary_symbol": "GLNG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Golar LNG Limited is a midstream liquefied natural gas (LNG) company focused on owning and operating floating LNG infrastructure. Headquartered in Hamilton, Bermuda, Golar operates through its segments Floating LNG (FLNG), LNG carriers, and Power. The company provides services such as liquefaction, transportation, regasification, and power generation.",
+  "summary": "Golar LNG Limited provides infrastructure for the liquefaction, transportation, and regasification of LNG. It operates through Shipping, FLNG, and Power segments. The company engages in the acquisition, ownership, operation, and chartering of LNG carriers, Floating Liquefaction Natural Gas Vessel (FLNG), and floating storage regasification units (FSRUs), as well as operates external vessels. As of April 16, 2021, it operated ten LNG carriers, one FSRU, and two FLNGs. The company was founded in 1946 and is headquartered in Hamilton, Bermuda.",
   "website": "http://www.golarlng.com"
 }

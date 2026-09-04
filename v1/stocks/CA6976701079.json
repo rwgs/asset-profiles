@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG001PKSVT5",
+    "composite_figi": "BBG000HT3ZM2",
     "cusip": "697670107",
-    "figi": "BBG001PKSW04",
     "isin": "CA6976701079"
   },
   "industry": "Metals & Mining",
@@ -13,24 +12,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FIRA.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FIRA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PMMCF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA6976701079.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FIRA.BE"
     },
     {
       "currency": "EUR",
@@ -38,22 +27,32 @@
       "symbol": "FIRA.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FIRA.MU"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XCNQ",
       "symbol": "PM.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PMMCF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "PAMPA METALS CORP.",
-  "primary_symbol": "FIRA.BE",
+  "name": "PAMPA METALS CORP",
+  "primary_symbol": "CA6976701079.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "PAMPA METALS CORP. is a Canadian mineral exploration company focused on acquiring and exploring district-scale copper-gold projects. The company's main exploration projects are located in Argentina. Pampa Metals aims to discover significant mineral deposits.",
+  "summary": "Pampa Metals Corp. is a Canadian mineral exploration company focused on copper and gold exploration in Chile. They are exploring for porphyry copper and high-grade gold deposits in the prolific mineral belts of Chile. The company is headquartered in Vancouver, Canada.",
   "website": "http://pampametals.com"
 }

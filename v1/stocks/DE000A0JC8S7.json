@@ -2,8 +2,6 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000DWB4H5",
-    "figi": "BBG000DWB7Y9",
     "isin": "DE000A0JC8S7"
   },
   "industry": "IT Services",
@@ -12,24 +10,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "D6H.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "D6H.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "D6H.MU"
-    },
-    {
-      "currency": "GBP",
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0W19.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "D6H.BE"
     },
     {
       "currency": "EUR",
@@ -37,8 +25,8 @@
       "symbol": "D6H.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "D6H.DU"
     },
     {
@@ -48,21 +36,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "D6H.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D6H.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "D6H.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "DATAGROUP SE",
-  "primary_symbol": "D6H.BE",
+  "primary_symbol": "0W19.L",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "DATAGROUP SE is a German IT service provider that offers a range of services, including IT consulting, infrastructure management, and software development. The company focuses on providing comprehensive IT solutions to medium-sized and large enterprises. DATAGROUP SE is headquartered in Pliezhausen, Germany.",
+  "summary": "DATAGROUP SE provides information technology (IT) infrastructure, technology consulting, and IT development solutions primarily in Germany. The company operates in two segments Services, and Solutions and Consulting. It provides IT workplace services, including selection and procurement, on-site implementation, and exchange and disposal of old equipment, as well as data center services. The company also offers managed and private cloud, public cloud, application management, SAP, communication and collaboration, network, security, and end user services, as well as service desk services. In addition, it provides IT consulting, robotic process automation and AI, mobile and app, and industry solutions, as well as cloud, platform, application, and SAP transformation solutions. The company was formerly known as Datagroup AG and changed its name to DATAGROUP SE in November 2016. The company was founded in 2005 and is headquartered in Pliezhausen, Germany. DATAGROUP SE is a subsidiary of HHS Beteiligungsgesellschaft mbH.",
   "website": "http://www.datagroup.de"
 }

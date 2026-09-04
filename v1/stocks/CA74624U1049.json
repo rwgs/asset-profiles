@@ -2,33 +2,25 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00Y60CNW9",
     "cusip": "74624U104",
+    "figi": "BBG00Y60CP09",
     "isin": "CA74624U1049"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Capital Goods",
   "isin": "CA74624U1049",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PRXTF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PUX.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PUX.MU"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA74624U1049.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PRXTF"
     },
     {
       "currency": "CAD",
@@ -37,21 +29,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PUX.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PUX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PUX.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Pure Extracts Technologies Corp.",
-  "primary_symbol": "PRXTF",
+  "name": "PURE EXTRACTS TECHNOLOGIES C",
+  "primary_symbol": "CA74624U1049.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Pure Extracts Technologies Corp. operates as a cannabis and hemp extraction company in British Columbia. It is involved in the production of cannabis, cannabidiol (CBD) oil, hemp, and functional mushrooms extracts. The company also offers various derivative cannabis products, including edible products, such as delta-9-tetrahydrocannabinol infused gummies. It has a collaboration with Dr. Alexander MacGregor to develop CBD infused mushroom wellness products, as well as to research optimum extraction methodologies for psilocybin. The company was formerly known as Big Sky Petroleum Corporation and change its name to Pure Extracts Technologies Corp. in October 2020. Pure Extracts Technologies Corp. was incorporated in 2006 and is headquartered in Pemberton, Canada.",
+  "sector": "Industrials",
+  "summary": "PURE EXTRACTS TECHNOLOGIES C is an extraction technology company that provides equipment and services for the cannabis and hemp industries. They design, manufacture, and sell extraction systems used for processing cannabis and hemp biomass into various products. The company provides solutions for extraction, refinement, and purification of cannabinoids.",
   "website": "http://www.pureextractscorp.com"
 }

@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00DW3D282",
     "cusip": "29978A104",
-    "figi": "BBG00DW3D2F4",
     "isin": "US29978A1043"
   },
   "industry": "Software",
@@ -14,16 +12,11 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "2E7.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "EVBG"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A6C.L"
     },
@@ -31,6 +24,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2E7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2E7.MU"
     },
     {
       "currency": "EUR",
@@ -44,16 +42,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "EVERBRIDGE INC  DL-,001",
-  "primary_symbol": "2E7.MU",
+  "name": "Everbridge, Inc.",
+  "primary_symbol": "EVBG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Everbridge, Inc. provides enterprise software applications that automate and accelerate an organization’s operational response to critical events. Their platform enables organizations to manage critical events such as natural disasters, terrorist attacks, and IT outages. Everbridge is headquartered in Burlington, Massachusetts.",
+  "summary": "Everbridge, Inc. operates as a software company in the United States and internationally. Its Critical Event Management, a software as a service based platform with various software applications that address tasks an organization has to perform to manage a critical event, including Mass Notification that enables enterprises and governmental entities to send notifications to individuals or groups to keep them informed before, during, and after natural or man-made disasters, and other emergencies; Safety Connection that enables organizations to send notifications based on last known location of an individual; Incident Management for organizations to automate workflows and make their communications relevant; and IT Alerting that enables IT professionals to alert and communicate during an IT incident or outage. Its software applications also include Visual Command Center that enables customers to monitor and integrate threat data, and information on internal incidents; Public Warning to reach international mobile populations; Community Engagement that integrates emergency management and community outreach; Risk Center solution that aggregates data to assess incidents and provide incident information and analysis; Crisis Management that provides mobile access to crisis, recovery, and brand protection plans; Secure Collaboration solution to exchange messages, voice, images, and video chats; and Control Center application used for mission-critical control. It also provides customer support services. It serves enterprises, small businesses, non-profit organizations, educational institutions, and government agencies in technology, energy, financial services, healthcare and life sciences, manufacturing, media and entertainment, retail, higher education, and professional services industries. The company was formerly known as 3n Global, Inc. and changed its name to Everbridge, Inc. in April 2009. The company was founded in 2002 and is headquartered in Burlington, Massachusetts.",
   "website": "http://www.everbridge.com"
 }

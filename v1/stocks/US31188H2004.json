@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000PRLLR3",
+    "composite_figi": "BBG000NPS935",
     "cusip": "31188H200",
-    "figi": "BBG000PRLLR3",
+    "figi": "BBG000NPS9X2",
     "isin": "US31188H2004"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -12,16 +12,6 @@
   "isin": "US31188H2004",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FRCOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FRCOY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -36,13 +26,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FR7H.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FRCOF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FRCOY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Fast Retailing Co., Ltd.",
-  "primary_symbol": "FRCOF",
+  "primary_symbol": "FR7.F",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

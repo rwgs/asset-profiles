@@ -2,48 +2,29 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BFT2L4",
     "cusip": "20030N101",
+    "figi": "BBG000BFTG15",
     "isin": "US20030N1019"
   },
   "industry": "Entertainment",
-  "industry_group": "Telecommunication Services",
+  "industry_group": "Media & Entertainment",
   "isin": "US20030N1019",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "0QYF.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CMCS-U.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "CMCSA"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTP2.BE"
+      "exchange_mic": "XLON",
+      "symbol": "0QYF.IL"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTP2.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTP2.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "CTP2.MU"
+      "currency": "EUR",
+      "symbol": "CMCS-U.TI"
     },
     {
       "currency": "EUR",
@@ -61,9 +42,14 @@
       "symbol": "CMCSA.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "CMCSA.SN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CTP2.BE"
     },
     {
       "currency": "EUR",
@@ -71,8 +57,8 @@
       "symbol": "CTP2.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "CTP2.DU"
     },
     {
@@ -82,21 +68,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "CTP2.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CTP2.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CTP2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CTP2.SG"
     }
   ],
-  "market_cap_band": "Mega Cap",
-  "name": "COMCAST CORP COMCAST A ORD (CDI",
-  "primary_symbol": "0QYF.IL",
+  "market_cap_band": "Large Cap",
+  "name": "Comcast Corporation",
+  "primary_symbol": "CMCSA",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Comcast Corporation is a global media and technology company with two primary businesses: Comcast Cable and NBCUniversal. Comcast Cable is one of the United States’ largest video, high-speed internet, and phone providers to residential customers under the Xfinity brand, and also provides these services to businesses. Comcast is headquartered in Philadelphia, Pennsylvania, USA.",
+  "summary": "Comcast Corporation operates as a media and technology company worldwide. It operates through Cable Communications, Cable Networks, Broadcast Television, Filmed Entertainment, Theme Parks, and Sky segments. The Cable Communications segment offers cable services, including high-speed Internet, video, voice, wireless, and security and automation services to residential and business customers under the Xfinity brand, as well as sells advertising. The Cable Networks segment operates national cable networks that provide various entertainment, news and information, and sports content; regional sports and news networks; international cable networks; and various digital properties, including brand-aligned Websites, as well as engages in the cable television studio production operations. The Broadcast Television segment operates NBC and Telemundo broadcast networks, NBC and Telemundo local broadcast television stations, broadcast television studio production operations, and various digital properties. The Filmed Entertainment segment produces, acquires, markets, and distributes filmed entertainment under the Universal Pictures, Illumination, DreamWorks Animation, and Focus Features names. It also develops, produces, and licenses stage plays; and distributes filmed entertainment produced by third parties. The Theme Parks segment operates Universal theme parks in Orlando, Florida; Hollywood, California; and Osaka, Japan. The Sky segment offers direct-to-consumer services, such as video, high-speed Internet, voice, and wireless phone services; and content services comprising operating entertainment networks, the Sky News broadcast network, and Sky Sports networks. The company also owns the Philadelphia Flyers, as well as the Wells Fargo Center arena in Philadelphia, Pennsylvania; and provides streaming service, such as Peacock. Comcast Corporation was founded in 1963 and is headquartered in Philadelphia, Pennsylvania.",
   "website": "http://corporate.comcast.com"
 }

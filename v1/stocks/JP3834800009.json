@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C3S2B2",
-    "figi": "BBG000C3S525",
+    "composite_figi": "BBG000BN2MM1",
+    "figi": "BBG000BN2N76",
     "isin": "JP3834800009"
   },
   "industry": "Real Estate Management & Development",
@@ -12,23 +12,18 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HZJ.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "HZJ.MU"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "8803.T"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HZJ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "HZJ.DU"
     },
     {
@@ -38,21 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HZJ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HZJ.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Heiwa Real Estate Co., Ltd.",
-  "primary_symbol": "HZJ.BE",
+  "primary_symbol": "8803.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Heiwa Real Estate Co., Ltd. is a Japanese real estate company that primarily focuses on the leasing and management of office buildings and commercial facilities, particularly in the Tokyo metropolitan area. The company is also involved in the development of new properties and the renovation of existing buildings. Heiwa Real Estate is headquartered in Tokyo, Japan.",
+  "summary": "Heiwa Real Estate Co., Ltd. operates as a real estate company in Japan. The company develops, leases, administrates, and manages stock exchange buildings, office buildings, commercial facilities, and residential buildings; develops and sells residential buildings; and provides real estate agency services. It is also involved in the building facility maintenance and management, repair work contracting, civil engineering and construction contracting, property management, investment management, real estate brokerage, and insurance agency businesses. In addition, the company engages in the operation of halls and conference rooms, and parking lots; and management of restaurants. Heiwa Real Estate Co., Ltd. was founded in 1947 and is headquartered in Tokyo, Japan.",
   "website": "http://www.heiwa-net.co.jp"
 }

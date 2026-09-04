@@ -2,9 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00LYN0R69",
-    "cusip": "587573106",
-    "figi": "BBG00LYN0R69",
+    "composite_figi": "BBG007R3DR04",
+    "figi": "BBG00KXBVT24",
     "isin": "JP3921290007"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -13,26 +12,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4385.T"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MCARY"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "OTCM",
       "symbol": "MRCIF"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XTKS",
-      "symbol": "4385.T"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Mercari, Inc.",
-  "primary_symbol": "MCARY",
+  "primary_symbol": "4385.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

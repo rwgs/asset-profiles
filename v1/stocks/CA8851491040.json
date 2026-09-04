@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00Z0Z3NZ2",
+    "composite_figi": "BBG00JHMX0T3",
     "cusip": "885149104",
-    "figi": "BBG00Z0Z3NZ2",
+    "figi": "BBG00JHMX0Y7",
     "isin": "CA8851491040"
   },
   "industry": "Metals & Mining",
@@ -12,11 +12,6 @@
   "isin": "CA8851491040",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "THXPF"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -26,13 +21,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSX",
       "symbol": "THX.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "THXPF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Thor Explorations Ltd.",
-  "primary_symbol": "THXPF",
+  "primary_symbol": "T2X.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

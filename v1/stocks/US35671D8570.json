@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BJDB15",
     "cusip": "35671D857",
+    "figi": "BBG000BJDCQ6",
     "isin": "US35671D8570"
   },
   "industry": "Metals & Mining",
@@ -13,27 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "0R2O.IL"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
       "symbol": "FCX"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPMB.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPMB.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "FPMB.TI"
+      "exchange_mic": "XLON",
+      "symbol": "0R2O.IL"
     },
     {
       "currency": "ARS",
@@ -46,7 +33,7 @@
       "symbol": "FCX.MX"
     },
     {
-      "currency": "CLP",
+      "currency": "USD",
       "exchange_mic": "XSGO",
       "symbol": "FCX.SN"
     },
@@ -67,12 +54,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FPMB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "FPMB.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "FPMB.DU"
     },
     {
@@ -82,15 +74,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FPMB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FPMB.SG"
+    },
+    {
+      "symbol": "FPMB.TI"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Freeport-McMoRan, Inc.",
-  "primary_symbol": "0R2O.IL",
+  "primary_symbol": "FCX",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

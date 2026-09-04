@@ -2,9 +2,8 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000HXQG68",
+    "composite_figi": "BBG000BBZ3X1",
     "cusip": "727053209",
-    "figi": "BBG000HXQKH7",
     "isin": "CA7270532095"
   },
   "industry": "Capital Markets",
@@ -13,29 +12,29 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P6U1.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "P6U1.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PNXPF"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA7270532095.SG"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "P6U1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "P6U1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "P6U1.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PNXPF"
     },
     {
       "currency": "CAD",
@@ -44,10 +43,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "PLANET VENTURES",
-  "primary_symbol": "P6U1.BE",
+  "name": "PLANET VENTURES INC",
+  "primary_symbol": "CA7270532095.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

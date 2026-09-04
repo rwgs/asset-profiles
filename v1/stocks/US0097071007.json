@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C059W5",
+    "composite_figi": "BBG000BJ8LL7",
     "cusip": "009707100",
-    "figi": "BBG000C059W5",
+    "figi": "BBG000BJ8MJ8",
     "isin": "US0097071007"
   },
   "industry": "Food & Staples Retailing",
@@ -13,31 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AJINF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AJINY"
-    },
-    {
       "currency": "JPY",
-      "exchange_mic": "XTKS",
+      "exchange_mic": "XJPX",
       "symbol": "2802.T"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AJI.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AJINF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AJINY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Ajinomoto Co., Inc.",
-  "primary_symbol": "AJINF",
+  "primary_symbol": "2802.T",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

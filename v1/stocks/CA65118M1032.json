@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00GHB0JP2",
+    "composite_figi": "BBG00VXD0FN7",
     "cusip": "65118M103",
-    "figi": "BBG00GHB0JP2",
+    "figi": "BBG00VXD0FS2",
     "isin": "CA65118M1032"
   },
   "industry": "Metals & Mining",
@@ -12,21 +12,6 @@
   "isin": "CA65118M1032",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NCAUF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PI8.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PI8.MU"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -38,22 +23,37 @@
       "symbol": "NCAU.V"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NCAUF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PI8.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PI8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PI8.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Newcore Gold Ltd.",
-  "primary_symbol": "NCAUF",
+  "primary_symbol": "CA65118M1032.SG",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Newcore Gold Ltd., a mineral exploration and mine development company, engages in the acquisition, advancement, and development of precious mineral properties in Ghana. It holds 100% interest in the Enchi gold project located in southwest Ghana. The company was formerly known as Pinecrest Resources Ltd. and changed its name to Newcore Gold Ltd. in August 2020. Newcore Gold Ltd. was incorporated in 2010 and is headquartered in Vancouver, Canada.",
+  "summary": "Newcore Gold Ltd. is a Canadian gold exploration and development company. They are focused on advancing their wholly-owned Equity Silver Mine Project located in British Columbia, Canada. The company is working towards expanding resources and potential development of the site.",
   "website": "http://www.newcoregold.com"
 }

@@ -18,36 +18,6 @@
       "symbol": "DEO"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "DGEAF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GUI.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GUI.HA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GUI.HM"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GUI.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "GUIA.BE"
-    },
-    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "DEON.MX"
@@ -63,7 +33,12 @@
       "symbol": "DGE.PA"
     },
     {
-      "currency": "GBP",
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DGEAF"
+    },
+    {
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "DGED.L"
     },
@@ -74,12 +49,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GUI.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "GUI.DE"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "GUI.DU"
     },
     {
@@ -89,8 +69,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "GUI.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "GUI.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GUI.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GUI.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GUIA.BE"
     },
     {
       "currency": "EUR",
@@ -107,7 +107,7 @@
   "name": "Diageo plc",
   "primary_symbol": "DEO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

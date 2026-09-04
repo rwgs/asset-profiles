@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000NZXVP4",
+    "composite_figi": "BBG000HJ82S6",
     "cusip": "86828P103",
-    "figi": "BBG000NZXVP4",
+    "figi": "BBG000HJ84F6",
     "isin": "CA86828P1036"
   },
   "industry": "Gas Utilities",
@@ -13,21 +13,21 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SUUIF"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "SPB.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SUUIF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Superior Plus Corp.",
-  "primary_symbol": "SUUIF",
+  "primary_symbol": "SPB.TO",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

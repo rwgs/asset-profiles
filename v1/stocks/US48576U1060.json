@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG001J272L7",
     "cusip": "48576U106",
+    "figi": "BBG005CZBQW2",
     "isin": "US48576U1060"
   },
   "industry": "Biotechnology",
@@ -12,22 +14,17 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "25K.BE"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "25K.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "KPTI"
     },
     {
-      "currency": "AED",
-      "exchange_mic": "DIFX",
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "25K.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
       "symbol": "25K.DU"
     },
     {
@@ -37,21 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "25K.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "25K.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "KARYOPHARM THERAP.DL-0001",
-  "primary_symbol": "25K.BE",
+  "name": "Karyopharm Therapeutics Inc.",
+  "primary_symbol": "KPTI",
   "provenance": {
-    "fetched_at": "2026-09-03T23:02:10Z",
+    "fetched_at": "2026-09-04T01:44:33Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Karyopharm Therapeutics Inc. is a pharmaceutical company focused on the discovery, development, and commercialization of novel therapies for cancer and other diseases. The company's lead drug, XPOVIO, is approved for the treatment of multiple myeloma and diffuse large B-cell lymphoma. Karyopharm is headquartered in Newton, Massachusetts.",
+  "summary": "Karyopharm Therapeutics Inc., a pharmaceutical company, engages in the discovery, development, and commercialization of various drugs directed against nuclear export and related targets for the treatment of cancer and other diseases. The company is developing small molecule selective inhibitor of nuclear export (SINE) compounds that inhibit the nuclear export protein exportin 1. Its lead compound is XPOVIO (selinexor) tablets for the treatment of patients with heavily pretreated multiple myeloma and diffuse large B-cell lymphoma (DLBCL). The company develops BOSTON, which is in Phase 3 clinical trial for the treatment of patients with multiple myeloma; STORM, which is in Phase 2b single-arm clinical trial for evaluating oral selinexor in combination with standard, low-dose dexamethasone in heavily pretreated patients, relapsed or refractory myeloma; STOMP, which is in Phase 1b/2 multi-arm clinical trial for the treatment of low-dose dexamethasone plus standard therapies, including Velcade, Kyprolis, Revlimid, and Pomalyst or Darzalex; and SADAL, which is in Phase 2b clinical trial for the treatment of patients with relapsed or refractory DLBCL. It also develops SEAL, which is in Phase 3 clinical trial for the treartment of liposarcoma; SIENDO, which is in Phase 3 clinical trial for treatment of endometrial cancer; and KING, which is in Phase 2 for the treatment of glioblastoma multiforme brain tumor. In addition, the company has various investigational programs in clinical or preclinical development, such as Eltanexor (KPT-8602), KPT-9274, and Verdinexor (KPT-335). The company has collaboration agreement with Curadev Pharma Pvt Ltd to identify and co-develop novel small molecules against various biological targets for the treatment of cancer; and a cooperative research and development agreement with the National Cancer Institute for cancer therapy evaluation program. Karyopharm Therapeutics Inc. was incorporated in 2008 and is headquartered in Newton, Massachusetts.",
   "website": "http://www.karyopharm.com"
 }
