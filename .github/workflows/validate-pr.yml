@@ -1,6 +1,12 @@
 name: Validate PR
 
 on:
+  # This is the only automated check the repository has, and it had never run
+  # on this fork: it fires on `pull_request` alone, while work here lands on
+  # `main` directly. `workflow_dispatch` makes the gate runnable against a
+  # branch without inventing a pull request to carry it.
+  workflow_dispatch:
+
   pull_request:
     paths:
       - 'v1/**'
