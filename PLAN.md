@@ -90,8 +90,22 @@ to make:
 - **T15 is on hold by decision** and waits for a source that carries TSMC's
   Taiwan line rather than aliasing it to the NYSE ADR. **No phase owns finding
   that source**, which is what actually blocks it.
-- **W4 is no longer gated.** Four of the five listing-metadata defects that
-  held it back are fixed in the data.
+- **W4 is no longer gated on listing metadata. It is gated on coverage, and
+  that is now measured rather than expected.** Four of the five defects that
+  held it back are fixed in the data, and then **W6 measured what W4 would
+  consume**: of the client's 86 equity assets, 5 of 5 equities resolve and **1 of
+  81 funds**, at **0.0% of the value it holds a live snapshot for**. Wiring the
+  client against that ships a feature that changes nothing for the portfolio it
+  was for, so Phase 3 is what W4 waits on. W6 also found the phase is aimed at
+  the wrong market -- eight UCITS universe entries against five TSX, for a
+  portfolio that is 74 of 86 assets in CAD -- so **whether to re-shape the
+  universe by holding value is a scope call this list cannot take**.
+- **W8 and W9 are what W4 needs from this repository besides coverage**, and
+  neither waits on Phase 3. The index is 11.2 MB over a 387 MB tree behind the
+  spec's 1-day index TTL, and the `(ticker, MIC)` key the client actually holds
+  is one the ETF tree cannot answer at all: **49 of 49 ETF records publish
+  listings with no `exchange_mic`**. Both change a published artifact, so they
+  are cheaper settled before anything pins to the current shape.
 
 ## Two things to know before touching the pipeline
 

@@ -158,9 +158,11 @@ So what remains here is not Phase 1 code:
   negative-weight fix admits the 11 funds the schema had been rejecting. The
   16 with no record are each named with a reason in the build log.
 - **Both open questions are answered**, 2026-09-03. See the questions section.
-- **W6 through W9** are what this repository owes the client. W6 needs holdings
-  data that must not be committed here; W8 and W9 were added 2026-09-03 and are
-  the shape of the published index rather than its contents.
+- **W6 through W9** are what this repository owes the client. **W6 is measured
+  and closed, 2026-09-05: one fund of 81, which is the "probably zero" it
+  predicted, and the premise it predicted it from was wrong about the portfolio**
+  -- see Completed; W8 and W9 were added 2026-09-03 and are the shape of the
+  published index rather than its contents.
 - ~~**Five listing-metadata and vocabulary defects were found in the published
   tree.**~~ **Four of the five are fixed in the data by T23's rebuild,
   `66f8afc92e`, 2026-09-03**, and **W4 is no longer gated on them**: 42.4% of
@@ -2077,24 +2079,6 @@ a new provider's worth of work in the client, not a switch to flip.
 
 ### What this repository owes the client before W4 is worth starting
 
-- [ ] **W6.** Measure this dataset's hit rate against the client's real
-  holdings, and record the number with its date and sample size.
-  - Scope: take the symbol list from a real portfolio and resolve each through
-    `v1/index.json`. The client's measured portfolio is 65 ETFs, mostly
-    LSE-listed UCITS.
-  - Acceptance criteria: a recorded hit rate, per instrument type, with the
-    count of holdings that resolve to a record carrying `country_weights`.
-  - Dependencies or blockers: needs the holdings list, which is user data and
-    must not be committed here. Report the aggregate, not the list.
-  - Expected result, and why it matters: **probably zero.** 10 of 65 universe
-    entries produce a record and all 10 are US-listed; all 8 UCITS and all 5
-    TSX-listed entries produce nothing. The client's own note says coverage is
-    "a measurement owed" before ranking this dataset first -- this is the
-    measurement, and on today's data it does not support the ranking. The fix is
-    Phase 3, not a client integration.
-  - Also settle: the client holds `VWRP`, the accumulating share class. The
-    universe lists `VWRL` and `VWCE`. `VWRP` is not in it.
-
 - [ ] **W7.** Publish the list of `country_code` values that appear across
   `v1/`, so W3 can be checked rather than guessed.
   - Scope: a build-time report, not a new published artifact.
@@ -2240,3 +2224,40 @@ that leaves, rather than marking incomplete work done.
   - Validation: every claim in `AGENTS.md`, `SPEC.md`, `ROADMAP.md`, and this
     file was measured against the working tree rather than read off the design
     spec. `PLAN.md` covers T2 as the next change.
+
+- [x] **W6.** Hit rate measured against the client's real holdings, 2026-09-05.
+  Run against the consuming machine's live database, 86 equity assets, resolved
+  through `v1/index.json` at `generated_at` 2026-09-04. Reported as aggregates;
+  no holdings list is recorded here.
+  - **6 of 86 assets resolve at all, and only one of them is a fund.** By the
+    client's own `quoteType`: **5 of 5 equities** resolve, and **1 of 81 funds**
+    -- 73 typed `ETF`, 5 typed nothing at all, 2 `ECNQUOTE`, 1 `MUTUALFUND`. The
+    one fund that resolves does carry `country_weights`, which was the count the
+    acceptance criteria asked for. Weighted by cost basis over the 37 positions
+    the client holds a live snapshot for, coverage is **0.0%**.
+  - **The premise in the task was wrong, and it mattered.** The portfolio is not
+    "65 ETFs, mostly LSE-listed UCITS" -- it is **74 of 86 assets in CAD**, 59 on
+    `XTSE` and 15 on Cboe Canada, against 10 USD and 2 GBP lines of a single
+    fund. The same premise is in `ROADMAP.md` Phase 5 and was in the client's own
+    `TASKS.md`, where it is now corrected. Phase 3's universe is shaped for the
+    wrong market: it lists eight UCITS against five TSX entries, of which the
+    client holds three, all TSX. **Delivering all thirteen non-US entries reaches
+    4 of 81 funds and 6.8% of snapshot value.** Growing the universe by holding
+    value -- the Canadian issuers behind those 74 assets -- is what Phase 3 has
+    to mean here, and N-PORT reaches none of them, so it is the issuer scraper's
+    weight either way.
+  - **Two of the eight ticker matches were the wrong instrument**, which is
+    evidence for **W9** rather than for this task: a TSX-listed covered-call ETF
+    matched a same-ticker US operating company at `XNYS`, and a CAD-hedged
+    depositary receipt matched a US record of the company it references. Both
+    silent. Only three of the six confirmed matches carry an ISIN at all, and
+    one of those three is keyed by an ISIN whose country prefix disagrees with
+    its own `country_code`, which is T18.
+  - **The ETF tree cannot be joined on the client's key at all**: 49 of 49 ETF
+    records publish listings with no `exchange_mic`, and the client keys an asset
+    by symbol plus MIC. That is W9's problem statement measured on the half of
+    the tree the client actually wants.
+  - Also settled, as the task asked: the accumulating share class is the one
+    held, and the universe still lists only the other two. The share-class graph
+    under *Candidate additions* is what would answer it for US funds; it does
+    nothing for this one, which is Irish.
