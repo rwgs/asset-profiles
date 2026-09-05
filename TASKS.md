@@ -1672,6 +1672,85 @@ one fix, and `v1/` no longer holds any of them.
     any code. It also changes `primary_symbol` and therefore some shard keys,
     so like T21 it should not be bundled into a data rebuild.
 
+- [ ] **T25.** Own the question of where non-US fund geography comes from.
+  **Raised 2026-09-05 by W6's measurement. It is a gap in ownership rather
+  than in code: `ROADMAP.md` Phase 3 owns making the issuer fallback work, and
+  nothing owns whether that fallback can reach the funds the client holds at
+  all.**
+  - The two ETF sources are `edgar.fetch_latest_nport`, which is US registered
+    investment companies by definition, and `issuer_scraper`, whose
+    `_ISSUER_KEYS` map knows four issuers -- iShares, Vanguard, SSGA/SPDR and
+    Invesco. The client's holdings are **74 of 86 assets in CAD**, and by
+    issuer **37 of those 74 are Vanguard or iShares and 37 are issuers the map
+    does not contain**: BMO 15, Global X 7, Hamilton 4, Mackenzie 2, and one
+    each of Brompton, Harvest, Evolve, Fidelity, CIBC/Avantis and a depositary
+    receipt. So even a working fallback reaches at most half of them, and
+    `etf-scraper`'s iShares and Vanguard scrapers being able to resolve a
+    *Canadian* product line is itself unverified.
+  - **N-PORT does not reach any of the 74.** The Canadian analogue is SEDAR+,
+    which publishes no clean machine interface, so the realistic sources are
+    issuer holdings files per issuer, or index-level weights.
+  - **The alternative the client already ranked is cheaper here and needs no
+    scraper.** Curated index-level country weights: one FTSE All-World row
+    serves every fund tracking it, and seven of the client's largest CAD
+    positions track four FTSE indices. It is `wealthfolio-dev` **P12B**'s
+    option 1, it survives an issuer moving a page, and it is the option this
+    repository has never costed.
+  - Scope: decide which source answers non-US fund geography and record the
+    decision in `DECISIONS.md`; then either widen `_ISSUER_KEYS` against a
+    verified Canadian product line, or add an index-weights source with its own
+    provenance and licence. Do not start both.
+  - Acceptance criteria: a stated owner and source for non-US fund geography,
+    and either one Canadian fund publishing `country_weights` from that source
+    or a recorded reason it cannot.
+  - Automated validation: tests over a captured holdings or index file, so the
+    parser is tested without a live fetch, as Phase 3 already requires.
+  - Manual validation: compare the published weights for one Canadian fund
+    against the issuer's own factsheet.
+  - Dependencies or blockers: the scope call above, and it decides what Phase 3
+    means rather than following from it. **Never from Yahoo** -- see
+    `DECISIONS.md`; an issuer file or an index factsheet is the only admissible
+    route.
+
+- [ ] **T26.** Adopt an ISO 10383 MIC registry, with the quoting unit.
+  **Raised 2026-09-05. It is listed under *Candidate additions, not scoped*
+  as reference data both repositories need, and it is the only item there that
+  closes defects already shipped in the client, so it is promoted to a task
+  rather than left as a candidate.**
+  - This repository needs it for the venues it cannot name. `.TI` stays
+    unmapped by decision, with `config/exchange_mic.yml` saying in as many
+    words that it waits until "an ISO 10383 registry can name the venue", and
+    406 published listings carry no `exchange_mic` at all for the same reason.
+  - The client needs it for **P10C defects 15 and 16 and issues I8 and I9**:
+    five of its registry keys are not MICs, `.AE` is claimed by two so it drops
+    the suffix entirely, and its `currency_priority` omits fourteen currencies
+    that have a venue. Measured 2026-09-05, this dataset already contradicts
+    two of those keys -- `.AQ` is `AQXE` on 284 GBP listings, ruling out its
+    `XAQE` without settling `AQSE`, and `.IL` is `XLON` on 783 listings whose
+    currency differs per listing, which is the argument that its `XLON_IL` is a
+    currency rather than a MIC.
+  - **The quoting unit is the part no schema here can express today.** Both
+    `stock.schema.json` and `etf.schema.json` constrain `currency` to
+    `^[A-Z]{3}$`, which cannot hold `GBp`, `ILA` or `ZAc`, and the client
+    carries all three in its own `currency_priority`. A registry that names the
+    quoting unit per MIC is what lets either side stop guessing it from the
+    venue.
+  - Scope: the registry as reference data -- MIC, operating versus segment,
+    name, country, status, settlement currency, quoting unit -- and the
+    decision of whether it ships as `config/` input, a published `v1/`
+    artifact, or both. **Settle its licence terms before publishing anything
+    derived from it**; a record that cannot be attributed does not ship.
+  - Acceptance criteria: every `exchange_mic` this dataset publishes resolves
+    in the registry; `.TI` is either named or recorded as unnameable against
+    it; and the client can answer defects 15 and 16 from it rather than from a
+    hand-maintained table.
+  - Automated validation: a check that the set of MICs across `v1/` is a subset
+    of the registry, run in the same gate as `validate.py`.
+  - Manual validation: read the entry for `AQXE`, `AQSE`, `NEOE` and `XLON` and
+    confirm each against the client's registry key for the same venue.
+  - Dependencies or blockers: none in code. The licence question is the only
+    thing that can stop it, and it is answerable before any work.
+
 - [~] **T3.** Make text I/O and diagnostics platform-independent.
   **Submitted as [#8](https://github.com/wealthfolio/asset-profiles/pull/8),
   2026-09-02. Awaiting CI approval (P1) and review. Committed on `origin/main`
@@ -2124,7 +2203,9 @@ grounds matter more than the ideas themselves.
   -- `GBp`, `ILA`, `ZAc` -- which the current `^[A-Z]{3}$` currency pattern
   cannot express. This repository needs it to fix the listing findings above;
   the client needs it for **P10C** defects 15 and 16 and issues I8 and I9. One
-  artifact, two consumers, and the smallest thing on this page.
+  artifact, two consumers, and the smallest thing on this page. **Promoted out
+  of this section 2026-09-05 and scoped as T26**, on the grounds that it is the
+  only candidate here that closes defects already shipped in the client.
 - **An ISO 3166-1 to region table.** **W7** already owes the client the list of
   codes this dataset can emit; publishing the table costs little more and gives
   **W3** something to check against rather than guess.

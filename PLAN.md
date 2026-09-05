@@ -82,6 +82,12 @@ to make:
   predicted the count would *rise* to 90,514, and folding means it does not
   move at all -- the input shrinks instead, which is why nothing is owed a
   rebuild.
+- **T25 and T26 were raised 2026-09-05 out of W6's measurement**, and both are
+  gaps in ownership rather than in code. T25: nothing owns where non-US fund
+  geography comes from, and the issuer map knows four issuers while 37 of the
+  client's 74 CAD assets are issued by firms it does not contain. T26: the ISO
+  10383 registry sat under *Candidate additions* while being the only item there
+  that closes defects already shipped in the client. Neither needs a rebuild.
 - **T18** is still open and none of the above closes it. A depositary receipt
   is deliberately an equity here: the record describes the right company under
   the wrong security's identifier. OpenFIGI cannot fix it -- its mapping

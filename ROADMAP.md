@@ -194,10 +194,18 @@ at a valid-looking sum of 1.0, and `SPY`'s are 30% `Unknown`.
 ### Outcome
 
 The dataset covers the funds real portfolios hold, measured rather than assumed,
-and the non-US path produces records. Today 10 of 65 universe entries produce a
-record and all 10 are US-listed; all 13 non-US entries -- 8 UCITS and 5
+and the non-US path produces records. Today **49 of 65** universe entries produce
+a record and all 49 are US-listed; all 13 non-US entries -- 8 UCITS and 5
 TSX-listed -- produce nothing, which is the half the consuming client actually
 needs.
+
+**W6 measured that half against the real portfolio, 2026-09-05, and it found the
+phase aimed at the wrong market.** The client is **74 of 86 assets in CAD**, not
+LSE-listed UCITS: 5 of its 5 equities resolve and **1 of its 81 funds**, at 0.0%
+of the value it holds a live snapshot for. Delivering all thirteen non-US entries
+reaches 4 of 81 funds and 6.8% of that value. So the phase's shape -- eight UCITS
+entries against five TSX -- is itself in question, and **T25 owns that call**
+along with which source can answer a Canadian fund at all.
 
 ### Included work
 
@@ -331,5 +339,6 @@ are blocked on nothing this repository does and can start immediately.
 
 - Automated: the client's own tests, against fixtures captured from this
   dataset.
-- Manual: a real portfolio of LSE-listed UCITS funds rendering a geographic
-  breakdown, with a screenshot.
+- Manual: a real portfolio rendering a geographic breakdown, with a screenshot.
+  Measured 2026-09-05, that portfolio is CAD-denominated and TSX and Cboe Canada
+  listed, not the LSE-listed UCITS this phase assumed -- see W6.
