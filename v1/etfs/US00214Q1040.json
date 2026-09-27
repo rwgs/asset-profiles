@@ -3,49 +3,49 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.999623
+      "weight": 0.998379
     },
     {
       "asset_class": "Cash",
-      "weight": 0.000377
+      "weight": 0.001621
     }
   ],
-  "aum_usd": 6521307106.71,
+  "aum_usd": 5588678123.61,
   "category": "Factors",
   "category_group": "Information Technology",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.8488
+      "weight": 0.881403
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.04977
+      "weight": 0.047274
     },
     {
       "country": "Canada",
       "country_code": "CA",
-      "weight": 0.043714
+      "weight": 0.043496
     },
     {
       "country": "Cayman Islands",
       "country_code": "KY",
-      "weight": 0.042734
+      "weight": 0.016346
     },
     {
       "country": "Taiwan, Province of China",
       "country_code": "TW",
-      "weight": 0.014486
+      "weight": 0.011252
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.000496
+      "weight": 0.000229
     }
   ],
-  "holdings_count": 46,
+  "holdings_count": 47,
   "identifiers": {
     "isin": "US00214Q1040"
   },
@@ -61,7 +61,7 @@
   "name": "ARK Innovation ETF",
   "primary_symbol": "ARKK",
   "provenance": {
-    "fetched_at": "2026-09-20T10:54:59Z",
+    "fetched_at": "2026-09-27T11:41:05Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579982"
@@ -70,31 +70,31 @@
   "sector_weights": [
     {
       "sector": "Information Technology",
-      "weight": 0.292513
+      "weight": 0.288268
     },
     {
       "sector": "Health Care",
-      "weight": 0.205363
-    },
-    {
-      "sector": "Communications",
-      "weight": 0.158632
-    },
-    {
-      "sector": "Financials",
-      "weight": 0.130759
+      "weight": 0.218916
     },
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.124035
+      "weight": 0.126692
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.11505
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.114396
     },
     {
       "sector": "Industrials",
-      "weight": 0.06103
+      "weight": 0.103932
     },
     {
       "sector": "Unknown",
-      "weight": 0.027667
+      "weight": 0.032746
     }
   ],
   "top_holdings": [
@@ -103,69 +103,69 @@
       "isin": "US88160R1014",
       "name": "TESLA INC",
       "symbol": "TSLA",
-      "weight": 0.096773
+      "weight": 0.096914
     },
     {
       "cusip": "88023B103",
       "isin": "US88023B1035",
       "name": "TEMPUS AI INC",
       "symbol": "TEM",
-      "weight": 0.053236
+      "weight": 0.048647
     },
     {
-      "cusip": "007903107",
-      "isin": "US0079031078",
-      "name": "ADVANCED MICRO DEVICES INC",
-      "symbol": "AMD",
-      "weight": 0.05153
+      "cusip": "84615Q103",
+      "isin": "US84615Q1031",
+      "name": "SPACE EXPLORATION TECHNOLOGIES CORP",
+      "symbol": "SPCX",
+      "weight": 0.048509
     },
     {
       "isin": "CH0334081137",
       "name": "CRISPR THERAPEUTICS AG",
       "symbol": "CRSP",
-      "weight": 0.049506
+      "weight": 0.047117
     },
     {
       "cusip": "82509L107",
       "isin": "CA82509L1076",
       "name": "SHOPIFY INC",
       "symbol": "SHOP",
-      "weight": 0.043483
-    },
-    {
-      "cusip": "77543R102",
-      "isin": "US77543R1023",
-      "name": "ROKU INC",
-      "symbol": "ROKU",
-      "weight": 0.04304
-    },
-    {
-      "cusip": "770700102",
-      "isin": "US7707001027",
-      "name": "ROBINHOOD MARKETS INC",
-      "symbol": "HOOD",
-      "weight": 0.042762
+      "weight": 0.043351
     },
     {
       "cusip": "19260Q107",
       "isin": "US19260Q1076",
       "name": "COINBASE GLOBAL INC",
       "symbol": "COIN",
-      "weight": 0.042066
+      "weight": 0.041478
+    },
+    {
+      "cusip": "007903107",
+      "isin": "US0079031078",
+      "name": "ADVANCED MICRO DEVICES INC",
+      "symbol": "AMD",
+      "weight": 0.039649
     },
     {
       "cusip": "172573107",
       "isin": "US1725731079",
       "name": "CIRCLE INTERNET GROUP INC",
       "symbol": "CRCL",
-      "weight": 0.038195
+      "weight": 0.038846
     },
     {
-      "cusip": "69608A108",
-      "isin": "US69608A1088",
-      "name": "PALANTIR TECHNOLOGIES INC",
-      "symbol": "PLTR",
-      "weight": 0.031142
+      "cusip": "770700102",
+      "isin": "US7707001027",
+      "name": "ROBINHOOD MARKETS INC",
+      "symbol": "HOOD",
+      "weight": 0.036184
+    },
+    {
+      "cusip": "90184D100",
+      "isin": "US90184D1000",
+      "name": "TWIST BIOSCIENCE CORP",
+      "symbol": "TWST",
+      "weight": 0.032937
     }
   ]
 }

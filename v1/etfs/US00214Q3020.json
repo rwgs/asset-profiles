@@ -3,36 +3,31 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.998717
+      "weight": 0.99819
     },
     {
       "asset_class": "Cash",
-      "weight": 0.001283
+      "weight": 0.00181
     }
   ],
-  "aum_usd": 1236561022.3,
+  "aum_usd": 1558357006.37,
   "category": "Health Care",
   "category_group": "Health Care",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.875606
+      "weight": 0.904428
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.089356
+      "weight": 0.062974
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
-      "weight": 0.024381
-    },
-    {
-      "country": "Germany",
-      "country_code": "DE",
-      "weight": 0.010656
+      "weight": 0.032598
     }
   ],
   "holdings_count": 33,
@@ -51,7 +46,7 @@
   "name": "ARK Genomic Revolution ETF",
   "primary_symbol": "ARKG",
   "provenance": {
-    "fetched_at": "2026-09-20T10:54:59Z",
+    "fetched_at": "2026-09-27T11:41:05Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579982"
@@ -60,94 +55,94 @@
   "sector_weights": [
     {
       "sector": "Health Care",
-      "weight": 0.864752
+      "weight": 0.8919
     },
     {
       "sector": "Communications",
-      "weight": 0.09448
-    },
-    {
-      "sector": "Information Technology",
-      "weight": 0.020481
+      "weight": 0.065741
     },
     {
       "sector": "Financials",
-      "weight": 0.019004
+      "weight": 0.021824
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.018724
     },
     {
       "sector": "Unknown",
-      "weight": 0.001283
+      "weight": 0.00181
     }
   ],
   "top_holdings": [
     {
-      "cusip": "88023B103",
-      "isin": "US88023B1035",
-      "name": "TEMPUS AI INC",
-      "symbol": "TEM",
-      "weight": 0.09415
+      "cusip": "88025U109",
+      "isin": "US88025U1097",
+      "name": "10X GENOMICS INC",
+      "symbol": "TXG",
+      "weight": 0.093879
     },
     {
       "cusip": "90184D100",
       "isin": "US90184D1000",
       "name": "TWIST BIOSCIENCE CORP",
       "symbol": "TWST",
-      "weight": 0.089835
+      "weight": 0.077238
+    },
+    {
+      "cusip": "88023B103",
+      "isin": "US88023B1035",
+      "name": "TEMPUS AI INC",
+      "symbol": "TEM",
+      "weight": 0.065568
     },
     {
       "isin": "CH0334081137",
       "name": "CRISPR THERAPEUTICS AG",
       "symbol": "CRSP",
-      "weight": 0.089044
-    },
-    {
-      "cusip": "88025U109",
-      "isin": "US88025U1097",
-      "name": "10X GENOMICS INC",
-      "symbol": "TXG",
-      "weight": 0.057642
-    },
-    {
-      "cusip": "07373V105",
-      "isin": "US07373V1052",
-      "name": "BEAM THERAPEUTICS INC",
-      "symbol": "BEAM",
-      "weight": 0.054259
-    },
-    {
-      "cusip": "00091E109",
-      "isin": "US00091E1091",
-      "name": "ABSCI CORP",
-      "symbol": "ABSI",
-      "weight": 0.047781
-    },
-    {
-      "cusip": "632307104",
-      "isin": "US6323071042",
-      "name": "NATERA INC",
-      "symbol": "NTRA",
-      "weight": 0.040633
-    },
-    {
-      "cusip": "452327109",
-      "isin": "US4523271090",
-      "name": "ILLUMINA INC",
-      "symbol": "ILMN",
-      "weight": 0.040263
-    },
-    {
-      "cusip": "45826J105",
-      "isin": "US45826J1051",
-      "name": "INTELLIA THERAPEUTICS INC",
-      "symbol": "NTLA",
-      "weight": 0.038137
+      "weight": 0.062808
     },
     {
       "cusip": "71535D106",
       "isin": "US71535D1063",
       "name": "PERSONALIS INC",
       "symbol": "PSNL",
-      "weight": 0.035789
+      "weight": 0.054705
+    },
+    {
+      "cusip": "00091E109",
+      "isin": "US00091E1091",
+      "name": "ABSCI CORP",
+      "symbol": "ABSI",
+      "weight": 0.051362
+    },
+    {
+      "cusip": "40131M109",
+      "isin": "US40131M1099",
+      "name": "GUARDANT HEALTH INC",
+      "symbol": "GH",
+      "weight": 0.047389
+    },
+    {
+      "cusip": "452327109",
+      "isin": "US4523271090",
+      "name": "ILLUMINA INC",
+      "symbol": "ILMN",
+      "weight": 0.047354
+    },
+    {
+      "cusip": "532457108",
+      "isin": "US5324571083",
+      "name": "ELI LILLY & COMPANY",
+      "symbol": "LLY",
+      "weight": 0.046814
+    },
+    {
+      "cusip": "14167L103",
+      "isin": "US14167L1035",
+      "name": "CAREDX INC",
+      "symbol": "CDNA",
+      "weight": 0.042959
     }
   ]
 }
