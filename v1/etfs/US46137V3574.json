@@ -1,71 +1,71 @@
 {
-  "as_of_date": "2026-04-30",
+  "as_of_date": "2027-04-30",
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.960473
+      "weight": 0.957772
     },
     {
       "asset_class": "Cash",
-      "weight": 0.03943
+      "weight": 0.042185
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 9.6e-05
+      "weight": 4.3e-05
     }
   ],
-  "aum_usd": 91309871448.48,
+  "aum_usd": 100568047407.35,
   "category": "Large Cap",
   "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.943263
+      "weight": 0.942441
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.029239
+      "weight": 0.029386
     },
     {
       "country": "Bermuda",
       "country_code": "BM",
-      "weight": 0.00758
+      "weight": 0.009957
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.005771
-    },
-    {
-      "country": "Netherlands",
-      "country_code": "NL",
-      "weight": 0.004774
+      "weight": 0.005827
     },
     {
       "country": "Jersey",
       "country_code": "JE",
-      "weight": 0.003492
+      "weight": 0.003767
     },
     {
-      "country": "Curaçao",
-      "country_code": "CW",
-      "weight": 0.002188
-    },
-    {
-      "country": "Panama",
-      "country_code": "PA",
-      "weight": 0.001892
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.003239
     },
     {
       "country": "Liberia",
       "country_code": "LR",
-      "weight": 0.001705
+      "weight": 0.002188
+    },
+    {
+      "country": "Curaçao",
+      "country_code": "CW",
+      "weight": 0.001648
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.001505
     },
     {
       "country": "Unknown",
-      "weight": 9.6e-05
+      "weight": 4.3e-05
     }
   ],
   "holdings_count": 508,
@@ -84,7 +84,7 @@
   "name": "Invesco S&P 500 Equal Weight ETF",
   "primary_symbol": "RSP",
   "provenance": {
-    "fetched_at": "2026-09-27T11:41:05Z",
+    "fetched_at": "2026-10-04T11:58:09Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001378872"
@@ -92,110 +92,110 @@
   "schema_version": "1.0.0",
   "sector_weights": [
     {
-      "sector": "Information Technology",
-      "weight": 0.159732
+      "sector": "Industrials",
+      "weight": 0.14379
     },
     {
-      "sector": "Industrials",
-      "weight": 0.140245
+      "sector": "Information Technology",
+      "weight": 0.143098
     },
     {
       "sector": "Financials",
-      "weight": 0.130295
+      "weight": 0.132112
     },
     {
       "sector": "Health Care",
-      "weight": 0.100684
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "weight": 0.092291
+      "weight": 0.113372
     },
     {
       "sector": "Unknown",
-      "weight": 0.0863
+      "weight": 0.095513
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.094475
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.062894
+      "weight": 0.06193
     },
     {
       "sector": "Real Estate",
-      "weight": 0.05756
+      "weight": 0.055131
     },
     {
       "sector": "Utilities",
-      "weight": 0.052679
+      "weight": 0.052113
     },
     {
       "sector": "Energy",
-      "weight": 0.046186
+      "weight": 0.03989
     },
     {
       "sector": "Materials",
-      "weight": 0.039015
+      "weight": 0.035752
     },
     {
       "sector": "Communications",
-      "weight": 0.032119
+      "weight": 0.032825
     }
   ],
   "top_holdings": [
     {
       "name": "Invesco Private Prime Fund",
-      "weight": 0.027387
+      "weight": 0.029592
     },
     {
       "name": "Invesco Private Government Fund",
-      "weight": 0.010196
+      "weight": 0.011009
     },
     {
-      "cusip": "458140100",
-      "isin": "US4581401001",
-      "name": "Intel Corp.",
-      "weight": 0.003638
+      "cusip": "70450Y103",
+      "isin": "US70450Y1038",
+      "name": "PayPal Holdings, Inc.",
+      "weight": 0.002607
     },
     {
-      "cusip": "G7997R103",
-      "isin": "IE00BKVD2N49",
-      "name": "Seagate Technology Holdings PLC",
-      "weight": 0.003227
+      "cusip": "09073M104",
+      "isin": "US09073M1045",
+      "name": "Bio-Techne Corp.",
+      "weight": 0.002545
     },
     {
-      "cusip": "007903107",
-      "isin": "US0079031078",
-      "name": "Advanced Micro Devices, Inc.",
-      "weight": 0.0032
+      "cusip": "989207105",
+      "isin": "US9892071054",
+      "name": "Zebra Technologies Corp.",
+      "weight": 0.002511
     },
     {
-      "cusip": "682189105",
-      "isin": "US6821891057",
-      "name": "ON Semiconductor Corp.",
-      "weight": 0.003146
+      "cusip": "37940X102",
+      "isin": "US37940X1028",
+      "name": "Global Payments Inc.",
+      "weight": 0.002496
     },
     {
-      "cusip": "80004C200",
-      "isin": "US80004C2008",
-      "name": "Sandisk Corp.",
-      "weight": 0.003091
+      "cusip": "30212P303",
+      "isin": "US30212P3038",
+      "name": "Expedia Group, Inc.",
+      "weight": 0.002494
     },
     {
-      "cusip": "958102105",
-      "isin": "US9581021055",
-      "name": "Western Digital Corp.",
-      "weight": 0.002987
+      "cusip": "25809K105",
+      "isin": "US25809K1051",
+      "name": "DoorDash, Inc.",
+      "weight": 0.002409
     },
     {
-      "cusip": "171779309",
-      "isin": "US1717793095",
-      "name": "Ciena Corp.",
-      "weight": 0.002867
+      "cusip": "46266C105",
+      "isin": "US46266C1053",
+      "name": "IQVIA Holdings Inc.",
+      "weight": 0.002392
     },
     {
-      "cusip": "609839105",
-      "isin": "US6098391054",
-      "name": "Monolithic Power Systems, Inc.",
-      "weight": 0.002783
+      "cusip": "071813109",
+      "isin": "US0718131099",
+      "name": "Baxter International Inc.",
+      "weight": 0.002386
     }
   ]
 }

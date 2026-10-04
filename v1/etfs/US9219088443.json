@@ -3,32 +3,32 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.994104
+      "weight": 0.997197
     },
     {
       "asset_class": "Cash",
-      "weight": 0.005695
+      "weight": 0.002797
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 0.000201
+      "weight": 6e-06
     }
   ],
-  "aum_usd": 124655835138.47,
+  "aum_usd": 130905337639.9,
   "category": "Developed Markets",
   "category_group": "Alternatives",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.999799
+      "weight": 0.999994
     },
     {
       "country": "Unknown",
-      "weight": 0.000201
+      "weight": 6e-06
     }
   ],
-  "holdings_count": 342,
+  "holdings_count": 341,
   "identifiers": {
     "isin": "US9219088443"
   },
@@ -44,7 +44,7 @@
   "name": "Vanguard Dividend Appreciation ETF",
   "primary_symbol": "VIG",
   "provenance": {
-    "fetched_at": "2026-09-27T11:41:05Z",
+    "fetched_at": "2026-10-04T11:58:09Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
@@ -53,47 +53,47 @@
   "sector_weights": [
     {
       "sector": "Financials",
-      "weight": 0.194314
+      "weight": 0.20736
     },
     {
       "sector": "Health Care",
-      "weight": 0.161532
+      "weight": 0.176212
     },
     {
       "sector": "Information Technology",
-      "weight": 0.151447
-    },
-    {
-      "sector": "Industrials",
-      "weight": 0.113422
-    },
-    {
-      "sector": "Consumer Staples",
-      "weight": 0.102174
+      "weight": 0.148537
     },
     {
       "sector": "Unknown",
-      "weight": 0.093988
+      "weight": 0.115574
     },
     {
-      "sector": "Consumer Discretionary",
-      "weight": 0.043482
+      "sector": "Industrials",
+      "weight": 0.109521
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.093241
     },
     {
       "sector": "Real Estate",
-      "weight": 0.042477
+      "weight": 0.04593
     },
     {
-      "sector": "Energy",
-      "weight": 0.034518
+      "sector": "Consumer Discretionary",
+      "weight": 0.040328
     },
     {
       "sector": "Materials",
-      "weight": 0.033387
+      "weight": 0.031316
     },
     {
       "sector": "Utilities",
-      "weight": 0.029261
+      "weight": 0.026353
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.005628
     }
   ],
   "top_holdings": [
@@ -101,61 +101,61 @@
       "cusip": "11135F101",
       "isin": "US11135F1012",
       "name": "Broadcom Inc",
-      "weight": 0.051796
+      "weight": 0.046291
     },
     {
       "cusip": "037833100",
       "isin": "US0378331005",
       "name": "Apple Inc",
-      "weight": 0.040725
+      "weight": 0.044512
     },
     {
       "cusip": "594918104",
       "isin": "US5949181045",
       "name": "Microsoft Corp",
-      "weight": 0.039651
+      "weight": 0.043382
     },
     {
       "cusip": "46625H100",
       "isin": "US46625H1005",
       "name": "JPMorgan Chase & Co",
-      "weight": 0.035882
+      "weight": 0.040742
     },
     {
       "cusip": "532457108",
       "isin": "US5324571083",
       "name": "Eli Lilly & Co",
-      "weight": 0.033354
+      "weight": 0.03928
     },
     {
-      "cusip": "30231G102",
-      "isin": "US30231G1022",
-      "name": "Exxon Mobil Corp",
-      "weight": 0.029046
-    },
-    {
-      "cusip": "931142103",
-      "isin": "US9311421039",
-      "name": "Walmart Inc",
-      "weight": 0.026046
+      "cusip": "30233Q108",
+      "isin": "US30233Q1085",
+      "name": "ExxonMobil Holdings Corp",
+      "weight": 0.027847
     },
     {
       "cusip": "478160104",
       "isin": "US4781601046",
       "name": "Johnson & Johnson",
-      "weight": 0.024947
+      "weight": 0.026672
     },
     {
       "cusip": "92826C839",
       "isin": "US92826C8394",
       "name": "Visa Inc",
-      "weight": 0.023266
+      "weight": 0.02446
     },
     {
-      "cusip": "22160K105",
-      "isin": "US22160K1051",
-      "name": "Costco Wholesale Corp",
-      "weight": 0.020281
+      "cusip": "931142103",
+      "isin": "US9311421039",
+      "name": "Walmart Inc",
+      "weight": 0.021071
+    },
+    {
+      "cusip": "57636Q104",
+      "isin": "US57636Q1040",
+      "name": "Mastercard Inc",
+      "weight": 0.019987
     }
   ]
 }

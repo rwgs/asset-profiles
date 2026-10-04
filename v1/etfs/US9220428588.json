@@ -3,176 +3,181 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.95837
+      "weight": 0.96033
     },
     {
       "asset_class": "Cash",
-      "weight": 0.041339
-    },
-    {
-      "asset_class": "Derivative-equity",
-      "weight": 0.000548
+      "weight": 0.040129
     },
     {
       "asset_class": "Derivative-FX",
-      "weight": -0.000257
+      "weight": 5e-05
+    },
+    {
+      "asset_class": "Derivative-equity",
+      "weight": -0.00051
     }
   ],
-  "aum_usd": 161497934812.36,
+  "aum_usd": 163696122659.37,
   "category": "Emerging Markets",
   "category_group": "Financials",
   "country_weights": [
     {
       "country": "Taiwan, Province of China",
       "country_code": "TW",
-      "weight": 0.28134
+      "weight": 0.295072
     },
     {
       "country": "Hong Kong",
       "country_code": "HK",
-      "weight": 0.199345
+      "weight": 0.193116
     },
     {
       "country": "India",
       "country_code": "IN",
-      "weight": 0.157264
+      "weight": 0.16339
     },
     {
       "country": "China",
       "country_code": "CN",
-      "weight": 0.066338
+      "weight": 0.061567
     },
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.054715
+      "weight": 0.053144
     },
     {
       "country": "Brazil",
       "country_code": "BR",
-      "weight": 0.044816
+      "weight": 0.041158
     },
     {
       "country": "South Africa",
       "country_code": "ZA",
-      "weight": 0.036668
+      "weight": 0.035331
     },
     {
       "country": "Saudi Arabia",
       "country_code": "SA",
-      "weight": 0.031045
+      "weight": 0.02946
     },
     {
       "country": "Mexico",
       "country_code": "MX",
-      "weight": 0.020916
+      "weight": 0.020904
     },
     {
       "country": "Malaysia",
       "country_code": "MY",
-      "weight": 0.017491
+      "weight": 0.01721
     },
     {
       "country": "Thailand",
       "country_code": "TH",
-      "weight": 0.015811
+      "weight": 0.016537
     },
     {
       "country": "United Arab Emirates",
       "country_code": "AE",
-      "weight": 0.014474
+      "weight": 0.014733
     },
     {
       "country": "Türkiye",
       "country_code": "TR",
-      "weight": 0.010161
-    },
-    {
-      "country": "Indonesia",
-      "country_code": "ID",
-      "weight": 0.009226
-    },
-    {
-      "country": "Kuwait",
-      "country_code": "KW",
-      "weight": 0.007233
+      "weight": 0.009313
     },
     {
       "country": "Greece",
       "country_code": "GR",
-      "weight": 0.006459
+      "weight": 0.007852
+    },
+    {
+      "country": "Indonesia",
+      "country_code": "ID",
+      "weight": 0.007268
+    },
+    {
+      "country": "Kuwait",
+      "country_code": "KW",
+      "weight": 0.007085
     },
     {
       "country": "Chile",
       "country_code": "CL",
-      "weight": 0.006172
+      "weight": 0.006233
     },
     {
       "country": "Qatar",
       "country_code": "QA",
-      "weight": 0.00606
+      "weight": 0.005758
     },
     {
       "country": "Philippines",
       "country_code": "PH",
-      "weight": 0.003923
+      "weight": 0.004324
     },
     {
       "country": "Hungary",
       "country_code": "HU",
-      "weight": 0.003812
+      "weight": 0.004034
     },
     {
       "country": "Colombia",
       "country_code": "CO",
-      "weight": 0.001309
-    },
-    {
-      "country": "Czechia",
-      "country_code": "CZ",
-      "weight": 0.001276
+      "weight": 0.001668
     },
     {
       "country": "Romania",
       "country_code": "RO",
-      "weight": 0.001241
+      "weight": 0.001353
+    },
+    {
+      "country": "Czechia",
+      "country_code": "CZ",
+      "weight": 0.001336
     },
     {
       "country": "Egypt",
       "country_code": "EG",
-      "weight": 0.000818
-    },
-    {
-      "country": "Singapore",
-      "country_code": "SG",
-      "weight": 0.000772
+      "weight": 0.000922
     },
     {
       "country": "Iceland",
       "country_code": "IS",
-      "weight": 0.00076
+      "weight": 0.000744
     },
     {
-      "country": "Unknown",
-      "weight": 0.000528
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.000701
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
-      "weight": 2.4e-05
+      "weight": 0.000296
     },
     {
       "country": "France",
       "country_code": "FR",
-      "weight": 2e-06
+      "weight": 3e-06
     },
     {
       "country": "Russian Federation",
       "country_code": "RU",
       "weight": 0.0
+    },
+    {
+      "country": "Viet Nam",
+      "country_code": "VN",
+      "weight": 0.0
+    },
+    {
+      "country": "Unknown",
+      "weight": -0.000512
     }
   ],
-  "holdings_count": 6411,
+  "holdings_count": 6393,
   "identifiers": {
     "isin": "US9220428588"
   },
@@ -188,7 +193,7 @@
   "name": "Vanguard FTSE Emerging Markets ETF",
   "primary_symbol": "VWO",
   "provenance": {
-    "fetched_at": "2026-09-27T11:41:05Z",
+    "fetched_at": "2026-10-04T11:58:09Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000275"
@@ -198,52 +203,52 @@
     {
       "isin": "TW0002330008",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "weight": 0.144657
+      "weight": 0.154073
     },
     {
       "cusip": "G87572163",
       "isin": "KYG875721634",
       "name": "Tencent Holdings Ltd",
-      "weight": 0.032246
+      "weight": 0.032777
     },
     {
       "name": "Vanguard Cmt Funds-Vanguard Market Liquidity Fund",
-      "weight": 0.028056
+      "weight": 0.028399
     },
     {
       "isin": "KYG017191142",
       "name": "Alibaba Group Holding Ltd",
-      "weight": 0.025281
-    },
-    {
-      "name": "Vanguard Cmt Funds-Vanguard Market Liquidity Fund",
-      "weight": 0.014282
-    },
-    {
-      "isin": "TW0002308004",
-      "name": "Delta Electronics Inc",
-      "weight": 0.011575
+      "weight": 0.023904
     },
     {
       "isin": "TW0002454006",
       "name": "MediaTek Inc",
-      "weight": 0.01049
+      "weight": 0.01343
+    },
+    {
+      "name": "Vanguard Cmt Funds-Vanguard Market Liquidity Fund",
+      "weight": 0.012585
+    },
+    {
+      "isin": "CNE1000002H1",
+      "name": "China Construction Bank Corp",
+      "weight": 0.008864
+    },
+    {
+      "isin": "TW0002308004",
+      "name": "Delta Electronics Inc",
+      "weight": 0.008128
+    },
+    {
+      "isin": "TW0002317005",
+      "name": "Hon Hai Precision Industry Co Ltd",
+      "weight": 0.007995
     },
     {
       "cusip": "Y72596102",
       "isin": "INE002A01018",
       "name": "Reliance Industries Ltd",
-      "weight": 0.008865
-    },
-    {
-      "isin": "CNE1000002H1",
-      "name": "China Construction Bank Corp",
-      "weight": 0.008457
-    },
-    {
-      "isin": "INE040A01034",
-      "name": "HDFC Bank Ltd",
-      "weight": 0.007949
+      "weight": 0.007902
     }
   ]
 }

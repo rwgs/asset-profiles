@@ -3,32 +3,32 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.995715
+      "weight": 0.994375
     },
     {
       "asset_class": "Cash",
-      "weight": 0.004221
+      "weight": 0.005705
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 6.4e-05
+      "weight": -8e-05
     }
   ],
-  "aum_usd": 69952100426.49,
+  "aum_usd": 73110660402.51,
   "category": "REITs",
   "category_group": "Real Estate",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.999936
+      "weight": 1.00008
     },
     {
       "country": "Unknown",
-      "weight": 6.4e-05
+      "weight": -8e-05
     }
   ],
-  "holdings_count": 158,
+  "holdings_count": 153,
   "identifiers": {
     "isin": "US9229085538"
   },
@@ -44,7 +44,7 @@
   "name": "Vanguard Real Estate ETF",
   "primary_symbol": "VNQ",
   "provenance": {
-    "fetched_at": "2026-09-27T11:41:05Z",
+    "fetched_at": "2026-10-04T11:58:09Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000862084"
@@ -53,39 +53,39 @@
   "sector_weights": [
     {
       "sector": "Real Estate",
-      "weight": 0.748184
+      "weight": 0.741801
     },
     {
       "sector": "Unknown",
-      "weight": 0.157777
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "weight": 0.036023
+      "weight": 0.15724
     },
     {
       "sector": "Materials",
-      "weight": 0.035855
+      "weight": 0.03915
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.039119
     },
     {
       "sector": "Financials",
-      "weight": 0.013586
+      "weight": 0.014146
     },
     {
       "sector": "Information Technology",
-      "weight": 0.006523
-    },
-    {
-      "sector": "Communications",
-      "weight": 0.001116
+      "weight": 0.00674
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.000677
+      "weight": 0.000923
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.000703
     },
     {
       "sector": "Industrials",
-      "weight": 0.00026
+      "weight": 0.000178
     }
   ],
   "top_holdings": [
@@ -93,61 +93,61 @@
       "cusip": "922031695",
       "isin": "US9220316957",
       "name": "Vanguard Real Estate II Index Fund",
-      "weight": 0.14627
+      "weight": 0.144993
     },
     {
       "cusip": "95040Q104",
       "isin": "US95040Q1040",
       "name": "Welltower Inc",
-      "weight": 0.078354
+      "weight": 0.0851
     },
     {
       "cusip": "74340W103",
       "isin": "US74340W1036",
       "name": "Prologis Inc",
-      "weight": 0.070014
+      "weight": 0.070144
     },
     {
       "cusip": "29444U700",
       "isin": "US29444U7000",
       "name": "Equinix Inc",
-      "weight": 0.056428
+      "weight": 0.052305
     },
     {
       "cusip": "03027X100",
       "isin": "US03027X1000",
       "name": "American Tower Corp",
-      "weight": 0.045397
-    },
-    {
-      "cusip": "253868103",
-      "isin": "US2538681030",
-      "name": "Digital Realty Trust Inc",
-      "weight": 0.036633
+      "weight": 0.042042
     },
     {
       "cusip": "828806109",
       "isin": "US8288061091",
       "name": "Simon Property Group Inc",
-      "weight": 0.035296
+      "weight": 0.038768
+    },
+    {
+      "cusip": "253868103",
+      "isin": "US2538681030",
+      "name": "Digital Realty Trust Inc",
+      "weight": 0.033705
     },
     {
       "cusip": "756109104",
       "isin": "US7561091049",
       "name": "Realty Income Corp",
-      "weight": 0.031116
+      "weight": 0.030752
     },
     {
       "cusip": "74460D109",
       "isin": "US74460D1090",
       "name": "Public Storage",
-      "weight": 0.025349
+      "weight": 0.028287
     },
     {
-      "cusip": "12504L109",
-      "isin": "US12504L1098",
-      "name": "CBRE Group Inc",
-      "weight": 0.022543
+      "cusip": "92276F100",
+      "isin": "US92276F1003",
+      "name": "Ventas Inc",
+      "weight": 0.023133
     }
   ]
 }

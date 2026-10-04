@@ -3,32 +3,32 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.996526
+      "weight": 0.99845
     },
     {
       "asset_class": "Cash",
-      "weight": 0.003421
+      "weight": 0.00156
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 5.3e-05
+      "weight": -1e-05
     }
   ],
-  "aum_usd": 94631352093.69,
+  "aum_usd": 99196193338.95,
   "category": "Value",
   "category_group": "Financials",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.999947
+      "weight": 1.00001
     },
     {
       "country": "Unknown",
-      "weight": 5.3e-05
+      "weight": -1e-05
     }
   ],
-  "holdings_count": 621,
+  "holdings_count": 616,
   "identifiers": {
     "isin": "US9219464065"
   },
@@ -44,7 +44,7 @@
   "name": "Vanguard High Dividend Yield ETF",
   "primary_symbol": "VYM",
   "provenance": {
-    "fetched_at": "2026-09-27T11:41:05Z",
+    "fetched_at": "2026-10-04T11:58:09Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
@@ -53,51 +53,51 @@
   "sector_weights": [
     {
       "sector": "Financials",
-      "weight": 0.181244
+      "weight": 0.193752
     },
     {
       "sector": "Health Care",
-      "weight": 0.123404
-    },
-    {
-      "sector": "Industrials",
-      "weight": 0.121904
+      "weight": 0.134202
     },
     {
       "sector": "Unknown",
-      "weight": 0.108472
+      "weight": 0.128081
     },
     {
-      "sector": "Energy",
-      "weight": 0.097677
+      "sector": "Industrials",
+      "weight": 0.120558
     },
     {
       "sector": "Information Technology",
-      "weight": 0.094746
+      "weight": 0.093861
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.079982
+      "weight": 0.080066
     },
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.072151
+      "weight": 0.070564
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.068339
     },
     {
       "sector": "Utilities",
-      "weight": 0.051353
+      "weight": 0.048095
     },
     {
       "sector": "Communications",
-      "weight": 0.037986
+      "weight": 0.034115
     },
     {
       "sector": "Materials",
-      "weight": 0.028151
+      "weight": 0.025706
     },
     {
       "sector": "Real Estate",
-      "weight": 0.00293
+      "weight": 0.00266
     }
   ],
   "top_holdings": [
@@ -105,61 +105,61 @@
       "cusip": "11135F101",
       "isin": "US11135F1012",
       "name": "Broadcom Inc",
-      "weight": 0.08028
+      "weight": 0.073507
     },
     {
       "cusip": "46625H100",
       "isin": "US46625H1005",
       "name": "JPMorgan Chase & Co",
-      "weight": 0.033437
+      "weight": 0.038181
     },
     {
-      "cusip": "30231G102",
-      "isin": "US30231G1022",
-      "name": "Exxon Mobil Corp",
-      "weight": 0.027152
+      "cusip": "30233Q108",
+      "isin": "US30233Q1085",
+      "name": "ExxonMobil Holdings Corp",
+      "weight": 0.026257
     },
     {
       "cusip": "478160104",
       "isin": "US4781601046",
       "name": "Johnson & Johnson",
-      "weight": 0.023033
-    },
-    {
-      "cusip": "149123101",
-      "isin": "US1491231015",
-      "name": "Caterpillar Inc",
-      "weight": 0.017163
-    },
-    {
-      "cusip": "00287Y109",
-      "isin": "US00287Y1091",
-      "name": "AbbVie Inc",
-      "weight": 0.015589
+      "weight": 0.025073
     },
     {
       "cusip": "17275R102",
       "isin": "US17275R1023",
       "name": "Cisco Systems Inc",
-      "weight": 0.015166
+      "weight": 0.018601
     },
     {
-      "cusip": "166764100",
-      "isin": "US1667641005",
-      "name": "Chevron Corp",
-      "weight": 0.015082
+      "cusip": "00287Y109",
+      "isin": "US00287Y1091",
+      "name": "AbbVie Inc",
+      "weight": 0.018034
     },
     {
       "cusip": "060505104",
       "isin": "US0605051046",
       "name": "Bank of America Corp",
-      "weight": 0.014399
+      "weight": 0.016632
     },
     {
-      "cusip": "742718109",
-      "isin": "US7427181091",
-      "name": "Procter & Gamble Co/The",
-      "weight": 0.014387
+      "cusip": "91324P102",
+      "isin": "US91324P1021",
+      "name": "UnitedHealth Group Inc",
+      "weight": 0.015188
+    },
+    {
+      "cusip": "149123101",
+      "isin": "US1491231015",
+      "name": "Caterpillar Inc",
+      "weight": 0.015024
+    },
+    {
+      "cusip": "166764100",
+      "isin": "US1667641005",
+      "name": "Chevron Corp",
+      "weight": 0.014823
     }
   ]
 }
