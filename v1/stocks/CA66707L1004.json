@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00S5K2434",
+    "composite_figi": "BBG00NRZYNK2",
     "cusip": "66707L100",
-    "figi": "BBG00S5K2434",
+    "figi": "BBG00NRZYNR5",
     "isin": "CA66707L1004"
   },
   "industry": "Metals & Mining",
@@ -13,22 +13,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "NSG.CN"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "NSGCF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Northstar Gold Corp.",
-  "primary_symbol": "NSGCF",
+  "name": "Star Gold Corp.",
+  "primary_symbol": "NSG.CN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Northstar Gold Corp. is a Canadian entity primarily engaged in the identification, assessment, and exploration of mineral assets across the country, with its flagship endeavor being the Miller Gold property near Kirkland Lake, Ontario. Established in 2008, Northstar Gold Corp. operates from its base in New Liskeard, Canada.",
+  "summary": "Star Gold Corp., an exploration stage company, acquires, evaluates, and explores for precious and base metal properties in Canada. It primarily explores for gold, silver, and other base metal-bearing properties. The company's flagship property is the Longstreet Property, which includes 125 mineral claims covering an area of approximately 2,500 acres located in Nye County, Nevada. The company was formerly known as Elan Development, Inc. and changed its name to Star Gold Corp. in April 2008. Star Gold Corp. was founded in 2006 and is headquartered in Coeur d'Alene, Idaho.",
   "website": "http://www.stargoldcorp.com"
 }

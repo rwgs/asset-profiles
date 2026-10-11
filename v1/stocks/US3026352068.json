@@ -2,19 +2,30 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG006DY9FS4",
+    "composite_figi": "BBG001YCZP63",
     "cusip": "302635206",
-    "figi": "BBG006DY9FZ6",
+    "figi": "BBG001YCZPB7",
     "isin": "US3026352068"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "US3026352068",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "FSK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "FS5A.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FS5A.F"
     },
     {
       "currency": "EUR",
@@ -27,15 +38,17 @@
       "symbol": "US3026352068.SG"
     }
   ],
-  "name": "FS KKR CAP CORP. DL -,001",
-  "primary_symbol": "FS5A.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "FS KKR Capital Corp.",
+  "primary_symbol": "FSK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "FS KKR CAP CORP. DL -,001 is a business development company (BDC) that invests in middle-market companies. They provide financing solutions to support acquisitions, growth, and recapitalizations. FS KKR CAP CORP. aims to generate income and capital appreciation."
+  "summary": "FS KKR Capital Corp. is a business development company specializing in investments in debt securities. It seeks to purchase interests in loans through secondary market transactions or directly from the target companies as primary market investments. It also seeks to invest in first lien senior secured loans, second lien secured loans and, to a lesser extent, subordinated loans, or mezzanine loans. In connection with the debt investments, the firm also receives equity interests such as warrants or options as additional consideration. It also seek to purchase minority interests in the form of common or preferred equity in our target companies, either in conjunction with one of the debt investments or through a co-investment with a financial sponsor. Additionally, on an opportunistic basis, the fund may also invest in corporate bonds and similar debt securities. The fund does not seek to invest in start-up companies, turnaround situations, or companies with speculative business plans. It seeks to invest in small and middle-market companies based in United States. The fund seeks to invest in firms with annual revenue between $10 million to $2.5 billion. It seeks to exit from securities by selling them in a privately negotiated over- the- counter market. For any investments that are not able to be sold within the secondary market, the firm seeks to exit such investments through repayment, an initial public offering of equity securities, merger, sale or recapitalization.",
+  "website": "http://www.fsinvestmentcorp.com"
 }

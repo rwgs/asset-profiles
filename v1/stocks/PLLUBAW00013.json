@@ -3,27 +3,41 @@
   "country_code": "PL",
   "identifiers": {
     "composite_figi": "BBG000CHZ9M6",
+    "figi": "BBG000CHZBK3",
     "isin": "PLLUBAW00013"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Aerospace & Defense",
+  "industry_group": "Capital Goods",
   "isin": "PLLUBAW00013",
   "kind": "stock",
   "listings": [
     {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "LBW.WA"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLLUBAW00013.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WQ2.F"
     }
   ],
-  "name": "LUBAWA SA",
-  "primary_symbol": "PLLUBAW00013.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Lubawa",
+  "primary_symbol": "LBW.WA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "LUBAWA SA is a Polish manufacturer specializing in technical textiles, including fabrics, knitted fabrics, and nonwovens for various industries like automotive, defense, and construction. Their products include specialist clothing, tarpaulins, and filtration materials. The company is headquartered in Lubawa, Poland."
+  "summary": "Lubawa S.A., established in 1951 and based in Ostrów Wielkopolski, Poland, specializes in manufacturing and supplying a wide array of products and services for various security and emergency sectors within Poland, including the army, police, border patrol, fire brigades, and special forces. The company's extensive portfolio encompasses personal protection gear like helmets, bulletproof vests, specialized clothing, camouflage, and rescue equipment. It also provides comprehensive vehicle enhancements, such as ballistic and optronics protection, various types of armor, and fuel tanks. Lubawa offers diverse shelter solutions, including frame and pneumatic tents, alongside advanced signature management systems like decoys and mobile camouflages. Furthermore, it produces EHS equipment, flood protection items, and a dedicated range of COVID-19 products, including masks, decontamination cabins, and mobile medical units. The company's textile division supplies a broad spectrum of specialized woven and knitted fabrics for industrial uses, protective clothing, and inflatable structures. Complementing its manufacturing capabilities, Lubawa provides various services, including vulcanization, cutting, PVC welding, water jet cutting, and sewing.",
+  "website": "https://www.lubawa.com.pl"
 }

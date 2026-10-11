@@ -4,14 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG00CTFYKL3",
     "cusip": "82621K102",
-    "figi": "BBG00CTFYKM2",
+    "figi": "BBG00CTFYKS6",
     "isin": "CA82621K1021"
   },
-  "industry": "Health Care Equipment & Supplies",
+  "industry": "Health Care Providers & Services",
   "industry_group": "Health Care Equipment & Services",
   "isin": "CA82621K1021",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "636.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -30,9 +35,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Sienna Senior Living Inc.",
-  "primary_symbol": "636.F",
+  "primary_symbol": "636.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00Z5YN5G8",
-    "figi": "BBG00Z5YN5M1",
+    "figi": "BBG00Z5YN5J5",
     "isin": "DE000A2AA1Q5"
   },
   "isin": "DE000A2AA1Q5",
@@ -11,14 +11,24 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "9JK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9JK.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "9JK.MU"
     }
   ],
   "name": "International School Augsburg -ISA- gemeinnutzige AG",
-  "primary_symbol": "9JK.MU",
+  "primary_symbol": "9JK.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

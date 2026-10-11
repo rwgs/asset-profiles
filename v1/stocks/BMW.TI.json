@@ -1,15 +1,12 @@
 {
   "country": "Germany",
   "country_code": "DE",
-  "identifiers": {
-    "composite_figi": "BBG001YKKF09",
-    "figi": "BBG001YKKF18"
-  },
   "industry": "Automobiles",
   "industry_group": "Automobiles & Components",
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
       "symbol": "BMW.TI"
     }
   ],
@@ -17,7 +14,7 @@
   "name": "BMW",
   "primary_symbol": "BMW.TI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

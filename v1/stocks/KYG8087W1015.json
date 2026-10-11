@@ -23,13 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S6L.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "S6L.F"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SHZHY"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S6L.MU"
     },
     {
       "currency": "USD",
@@ -37,11 +42,11 @@
       "symbol": "SZHIF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Shenzhou International Group Holdings Limited",
   "primary_symbol": "2313.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

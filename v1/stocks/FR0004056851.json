@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00GVJW1X4",
+    "figi": "BBG00NRVXRS5",
     "isin": "FR0004056851"
   },
   "industry": "Biotechnology",
@@ -13,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0OB3.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AYJ.BE"
     },
     {
       "currency": "EUR",
@@ -30,6 +37,11 @@
       "symbol": "AYJ.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AYJ.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "INRLF"
@@ -38,13 +50,18 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "VLA.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "VLA.VI"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Valneva SE",
   "primary_symbol": "0OB3.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

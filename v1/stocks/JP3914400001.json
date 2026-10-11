@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1LLX7",
-    "figi": "BBG000C1LQ93",
+    "composite_figi": "BBG000BM4K18",
+    "figi": "BBG000BM4LB5",
     "isin": "JP3914400001"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3914400001",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6981.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MRAAF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MUR1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MUR1.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "MUR1.SG"
     }
   ],
-  "name": "MURATA MFG",
-  "primary_symbol": "MUR1.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Murata Manufacturing Co., Ltd.",
+  "primary_symbol": "6981.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Murata Manufacturing Co., Ltd. is a Japanese manufacturer of electronic components, primarily ceramic passive components. The company’s products include capacitors, resistors, inductors, and sensors used in a variety of applications. Murata is headquartered in Kyoto, Japan."
+  "summary": "Murata Manufacturing Co., Ltd. designs, manufactures, and sells electronic components and related products in Japan and internationally. It operates through Components, Modules, and Others segments. The company offers capacitors, inductors, noise suppression products/EMI suppression filters/ESD protection devices, resistors, thermistors, sensors, timing devices, quartz devices, sound components, power products, batteries, micro mechatronics, RFID devices, matching devices, baluns, couplers, filters, phase shifters, RF switches, front-end modules, SAW components, connectors, antennas, connectivity modules, wireless connectivity platforms, ionizers/active oxygen modules, and digital panel meters. It provides its products for use in medical and healthcare equipment, mobile communications, industrial equipment, white goods, business machines, personal computers, and AV equipment, as well as smart home, automotive, network, data center, lighting, security and safety, and AI speaker and hearable applications. The company was founded in 1944 and is headquartered in Nagaokakyo, Japan.",
+  "website": "http://www.murata.com"
 }

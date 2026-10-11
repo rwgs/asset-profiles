@@ -6,6 +6,7 @@
     "figi": "BBG000BLHDX7",
     "isin": "FR0000051807"
   },
+  "industry": "Professional Services",
   "industry_group": "Commercial & Professional Services",
   "isin": "FR0000051807",
   "kind": "stock",
@@ -24,17 +25,29 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "RCF.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "TEP.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TLPFF"
     }
   ],
-  "name": "TELEPERFORMANCE INH.EO2,5",
+  "market_cap_band": "Mid Cap",
+  "name": "Teleperformance SE",
   "primary_symbol": "RCF.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Teleperformance SE is an omnichannel company connecting the biggest brands around the world with their customers by delivering solutions and technology innovation for simplified, efficient and high-value interactions; the company is headquartered in Paris, France."
+  "summary": "Teleperformance SE is an omnichannel company connecting the biggest brands around the world with their customers by delivering solutions and technology innovation for simplified, efficient and high-value interactions; the company is headquartered in Paris, France.",
+  "website": "http://www.teleperformance.com"
 }

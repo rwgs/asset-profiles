@@ -19,6 +19,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RV6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "RV6.DE"
     },
@@ -26,13 +31,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RV6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RV6.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RV6.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Charles River Laboratories International, Inc.",
   "primary_symbol": "CRL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

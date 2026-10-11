@@ -1,10 +1,7 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG003PMV495",
-    "cusip": "00972G108",
-    "figi": "BBG003PMV495",
     "isin": "US00972G1085"
   },
   "industry": "Biotechnology",
@@ -13,27 +10,20 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "AKTX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US00972G1085.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Akari Therapeutics, Plc",
-  "primary_symbol": "AKTX",
+  "name": "Akari Therapeutics PLC Reg. Shs",
+  "primary_symbol": "US00972G1085.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Akari Therapeutics, Plc, a clinical-stage biopharmaceutical company, focuses on the development and commercialization of treatments for autoinflammatory diseases that involve complement and leukotriene pathways. Its lead product candidate is nomacopan, a second-generation complement inhibitor that is in Phase II clinical trial for the treatment of autoimmune and inflammatory diseases, including paroxysmal nocturnal hemoglobinuria, guillain barré syndrome, hematopoietic stem cell transplant-associated thrombotic microangiopathy, and bullous pemphigoid. Akari Therapeutics, Plc is based in London, the United Kingdom.",
-  "website": "http://www.akaritx.com"
+  "sector": "Health Care"
 }

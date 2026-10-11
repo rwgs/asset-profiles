@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG005LZHGK1",
-    "figi": "BBG005LZHGL0",
+    "composite_figi": "BBG005P37M71",
+    "figi": "BBG005P37MD4",
     "isin": "CNE100001QS1"
   },
   "industry": "Capital Markets",
@@ -12,16 +12,31 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0CI.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "0CI.SG"
+    },
+    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1359.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CCGDF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "China Cinda Asset Management Co., Ltd.",
-  "primary_symbol": "1359.HK",
+  "primary_symbol": "0CI.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

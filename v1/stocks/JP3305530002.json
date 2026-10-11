@@ -2,28 +2,47 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000N2H9Q3",
+    "composite_figi": "BBG000Q04L81",
+    "figi": "BBG000Q04LR0",
     "isin": "JP3305530002"
   },
+  "industry": "Construction & Engineering",
   "industry_group": "Capital Goods",
   "isin": "JP3305530002",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "1721.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CS7.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CS7.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JP3305530002.SG"
     }
   ],
-  "name": "COMSYS HOLDINGS CORP",
-  "primary_symbol": "JP3305530002.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "COMSYS Holdings Corporation",
+  "primary_symbol": "1721.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "COMSYS HOLDINGS CORP. is an engineering company specializing in telecommunications infrastructure construction and maintenance. The company provides services for mobile phone base stations, optical fiber networks, and other communication systems. COMSYS HOLDINGS CORP is headquartered in Tokyo, Japan."
+  "summary": "COMSYS Holdings Corporation, together with its subsidiaries, engages in the telecommunications construction, electrical facilities construction, and information processing related businesses in Japan. It constructs wired and wireless networks, cable TV and related facilities, access networks, mobile facilities, and electric power facilities; installs, replaces, and removes metal and optical fiber communication cables; installs and replaces utility poles; installs, relocates, and removes communication and information processing equipment in communication stations and data centers; and installs mobile phone base stations and wirings, as well as handles configuration settings and troubleshooting of communication equipment. The company also provides IT solutions and develops software for government agencies; constructions physical environments, such as LAN and Wi-Fi systems, including servers, storage facilities, and networks. In addition, it is involved in the construction of underground tunnels for telecommunication facilities, and towers and buildings; biomass and wind power generation; sale of solar power generation facilities for detached homes and electricity from solar power plants; undergrounding of utility poles and civil engineering construction related to water supply and sewerage for regional municipalities; and construction of the gas facility. The company was founded in 2003 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.comsys-hd.co.jp"
 }

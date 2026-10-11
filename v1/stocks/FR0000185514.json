@@ -3,24 +3,36 @@
   "country_code": "FR",
   "identifiers": {
     "composite_figi": "BBG000NTBB21",
+    "figi": "BBG000NTBBR4",
     "isin": "FR0000185514"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "FR0000185514",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "CNDF.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000185514.SW"
     }
   ],
-  "name": "CA NORD DE FRANCE-CCI",
-  "primary_symbol": "FR0000185514.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Caisse Regionale de Credit Agricole Mutuel Nord de France Cert.Coop.d'Inv.",
+  "primary_symbol": "CNDF.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Caisse Régionale de Crédit Agricole Mutuel Nord de France Société cooperative provides banking products and financial services in France. The company offers savings support products, including monetary, bonds, and securities; and loans primarily for housing and consumption. It also provides life insurance, as well as insurance products for banking risk, financial losses, and multi-risk, as well as coverage for civil liabilities insurance products. In addition, it offers asset management and brokerage services. It serves individuals, farmers, professionals, businesses, and local authorities. The company was founded in 1894 and is headquartered in Lille, France. Caisse Régionale de Crédit Agricole Mutuel Nord de France Société coopérative operates as a subsidiary of Crédit Agricole S.A.",
+  "website": "https://communication.ca-norddefrance.fr"
 }

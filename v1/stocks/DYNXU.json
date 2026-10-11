@@ -1,6 +1,12 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG020D765Z1",
+    "figi": "BBG020D765Z1"
+  },
+  "industry": "Diversified Financial Services",
+  "industry_group": "Diversified Financials",
   "kind": "stock",
   "listings": [
     {
@@ -13,10 +19,11 @@
   "name": "Dynamix Corporation Unit",
   "primary_symbol": "DYNXU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials"
 }

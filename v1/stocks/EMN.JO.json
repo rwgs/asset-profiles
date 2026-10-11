@@ -2,7 +2,9 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "cusip": "277432100"
+    "composite_figi": "BBG000BLFQN1",
+    "cusip": "277432100",
+    "figi": "BBG000BLFR13"
   },
   "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
@@ -14,10 +16,11 @@
       "symbol": "EMN.JO"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "eMedia Holdings Limited",
   "primary_symbol": "EMN.JO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

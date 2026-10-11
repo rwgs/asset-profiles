@@ -7,8 +7,8 @@
     "figi": "BBG000BWVV12",
     "isin": "US94106L1098"
   },
-  "industry": "Transportation Infrastructure",
-  "industry_group": "Transportation",
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "isin": "US94106L1098",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "WM"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LTG.L"
     },
     {
       "currency": "USD",
@@ -53,6 +58,7 @@
       "symbol": "UWS.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "UWS.TI"
     },
     {
@@ -75,7 +81,7 @@
   "name": "Waste Management, Inc.",
   "primary_symbol": "WM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

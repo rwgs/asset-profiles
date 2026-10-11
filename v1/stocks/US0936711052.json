@@ -7,7 +7,7 @@
     "figi": "BBG000BLDXM9",
     "isin": "US0936711052"
   },
-  "industry": "Hotels, Restaurants & Leisure",
+  "industry": "Diversified Consumer Services",
   "industry_group": "Consumer Services",
   "isin": "US0936711052",
   "kind": "stock",
@@ -18,14 +18,34 @@
       "symbol": "HRB"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0HOB.L"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "H1RB34.SA"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HRB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HRB.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HRB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HRB.MU"
     },
     {
       "currency": "EUR",
@@ -37,7 +57,7 @@
   "name": "H&R Block, Inc.",
   "primary_symbol": "HRB",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

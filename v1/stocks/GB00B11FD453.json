@@ -6,6 +6,7 @@
     "figi": "BBG000PD0VY7",
     "isin": "GB00B11FD453"
   },
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "GB00B11FD453",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B11FD453.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "M7K.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TMG.L"
     }
   ],
-  "name": "MISSION GROUP PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "The Mission Group plc",
   "primary_symbol": "GB00B11FD453.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "MISSION GROUP PLC is a marketing and advertising agency group. Their business model involves providing a range of marketing services to clients across various sectors, generating revenue through project fees, retainers, and commissions. The company is headquartered in London, UK."
+  "summary": "MISSION GROUP PLC is a marketing and advertising agency group. Their business model involves providing a range of marketing services to clients across various sectors, generating revenue through project fees, retainers, and commissions. The company is headquartered in London, UK.",
+  "website": "http://www.themission.co.uk"
 }

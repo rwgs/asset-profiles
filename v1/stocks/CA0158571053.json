@@ -2,15 +2,21 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG0064RR1S0",
+    "composite_figi": "BBG000G28WZ0",
     "cusip": "015857105",
-    "figi": "BBG0064RR1Z2",
+    "figi": "BBG000G2B0V0",
     "isin": "CA0158571053"
   },
+  "industry": "Independent Power and Renewable Electricity Producers",
   "industry_group": "Utilities",
   "isin": "CA0158571053",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "AQN"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +24,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "751.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "751.MU"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "AQN.TO"
     }
   ],
-  "name": "ALGONQUIN POWER + UTILIT.",
-  "primary_symbol": "751.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Algonquin Power & Utilities Corp.",
+  "primary_symbol": "AQN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Algonquin Power & Utilities Corp. is a diversified generation, transmission, and distribution utility with approximately $17 billion of total assets. Through its two business groups, the Regulated Services Group and the Renewable Energy Group, Algonquin Power delivers clean, renewable energy and regulated natural gas, water, and electricity utility services to over one million customer connections. The company is headquartered in Oakville, Ontario, Canada."
+  "summary": "Algonquin Power & Utilities Corp., through its subsidiaries, owns and operates a portfolio of regulated and non-regulated generation, distribution, and transmission utility assets in Canada, the United States, Chile, and Bermuda. It generates and sells electrical energy through non-regulated renewable and clean energy power generation facilities. The company also owns and operates hydroelectric, wind, solar, and thermal facilities with generating capacity of approximately 2.1 gigawatt; and regulated electric, natural gas, water distribution, and wastewater collection utility systems. It serves approximately 306,000 electric connections; 371,000 natural gas connections; and 409,000 regulated water distribution and wastewater collection utility systems in the states of California, New Hampshire, Missouri, Kansas, Oklahoma, Arkansas, Georgia, Illinois, Iowa, Massachusetts, New York, Arizona, Texas, and the Province of New Brunswick. The company was incorporated in 1988 and is headquartered in Oakville, Canada.",
+  "website": "http://algonquinpower.com"
 }

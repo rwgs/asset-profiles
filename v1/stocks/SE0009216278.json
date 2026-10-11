@@ -2,28 +2,57 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG006K508L1",
+    "composite_figi": "BBG00JHW7XH1",
+    "figi": "BBG00SYG66L2",
     "isin": "SE0009216278"
   },
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Hotels, Restaurants & Leisure",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "SE0009216278",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0RNQ.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7M1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7M1.MU"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "MIPS.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPZAF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0009216278.SG"
     }
   ],
-  "name": "MIPS AB",
-  "primary_symbol": "SE0009216278.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Mips AB",
+  "primary_symbol": "0RNQ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "MIPS AB develops and markets brain protection systems for helmets. Their technology is designed to reduce rotational forces transmitted to the brain during impact. The company is headquartered in Stockholm, Sweden."
+  "sector": "Information Technology",
+  "summary": "MIPS AB is a Swedish company that develops RISC-V processor architectures and cores. The company licenses its technology to semiconductor companies and system developers. MIPS AB is headquartered in Stockholm, Sweden.",
+  "website": "http://mipscorp.com"
 }

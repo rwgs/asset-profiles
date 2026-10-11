@@ -2,18 +2,29 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000BQ08Q3",
-    "figi": "BBG000BQ0BY7",
+    "composite_figi": "BBG000BP1571",
+    "figi": "BBG000BP1571",
     "isin": "AU000000CSL8"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "AU000000CSL8",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CMXHF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "CSJ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CSJ.F"
     },
     {
       "currency": "EUR",
@@ -24,17 +35,34 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "CSJ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CSJ.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "CSL.AX"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "CSLN.MX"
     }
   ],
-  "name": "CSL LTD",
-  "primary_symbol": "CSJ.DU",
+  "market_cap_band": "Large Cap",
+  "name": "CSL Limited",
+  "primary_symbol": "CMXHF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "CSL Limited is a global biotechnology company that develops and manufactures plasma-derived therapies and influenza vaccines. The company's products are used to treat a range of serious and life-threatening conditions, including immunodeficiency, bleeding disorders, and respiratory diseases. CSL is headquartered in Melbourne, Australia."
+  "summary": "CSL Limited researches, develops, manufactures, markets, and distributes biopharmaceutical and allied products in Australia, the United States, Germany, the United Kingdom, Switzerland, China, and internationally. The company operates through two segments, CSL Behring and Seqirus. The CSL Behring segment offers plasma therapies for the treatment of immunodeficiency, bleeding disorders, hereditary angioedema, Alpha-1 antitrypsin deficiency, and neurological disorders. This segment also conducts research on plasma and non-plasma therapies; and receives license and royalty from the commercialization of intellectual property. The Seqirus segment manufactures and distributes non-plasma biotherapeutic products; and develops influenza vaccines. CSL Limited was founded in 1916 and is headquartered in Parkville, Australia.",
+  "website": "http://www.csl.com.au"
 }

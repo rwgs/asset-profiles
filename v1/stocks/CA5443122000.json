@@ -7,6 +7,7 @@
     "figi": "BBG000GM1626",
     "isin": "CA5443122000"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA5443122000",
   "kind": "stock",
@@ -15,17 +16,39 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA5443122000.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "L41A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "L41A.MU"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "LA.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LSANF"
     }
   ],
-  "name": "LOS ANDES COPPER LTD",
+  "market_cap_band": "Micro Cap",
+  "name": "Los Andes Copper Ltd.",
   "primary_symbol": "CA5443122000.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "LOS ANDES COPPER LTD is a copper exploration and development company focused on advancing its Vizcachitas copper project in Chile. The company aims to develop the project into a significant copper producer. Los Andes Copper Ltd is headquartered in Vancouver, British Columbia."
+  "summary": "LOS ANDES COPPER LTD is a copper exploration and development company focused on advancing its Vizcachitas copper project in Chile. The company aims to develop the project into a significant copper producer. Los Andes Copper Ltd is headquartered in Vancouver, British Columbia.",
+  "website": "http://www.losandescopper.com"
 }

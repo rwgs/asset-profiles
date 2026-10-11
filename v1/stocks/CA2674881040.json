@@ -1,34 +1,39 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00X5FPL95",
+    "composite_figi": "BBG00VSHRSH4",
     "cusip": "267488104",
-    "figi": "BBG00X5FPL95",
+    "figi": "BBG00VSHRSK0",
     "isin": "CA2674881040"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "CA2674881040",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "DND.TO"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "DYNDF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Dye & Durham Limited",
-  "primary_symbol": "DYNDF",
+  "primary_symbol": "DND.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Dye & Durham Limited, operating primarily through its subsidiary Dye & Durham Corporation, specializes in delivering advanced cloud-native software and technology platforms to legal professionals, financial institutions, and governmental organizations across Canada, Australia, Ireland, and the United Kingdom. Founded in 1874, Dye & Durham Limited is headquartered in Toronto, Canada.",
-  "website": "http://www.rh.com"
+  "sector": "Information Technology",
+  "summary": "Dye & Durham Limited provides cloud-based software and technology solutions for legal and business professionals, offering integrated platforms for real estate transactions, litigation support, and practice management, with operations in Canada, the United Kingdom, Ireland, and Australia.",
+  "website": "https://www.dyedurham.com"
 }

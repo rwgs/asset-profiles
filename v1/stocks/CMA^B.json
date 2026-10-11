@@ -1,6 +1,8 @@
 {
   "country": "United States",
   "country_code": "US",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,17 @@
       "symbol": "CMA^B"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Comerica Incorporated",
   "primary_symbol": "CMA^B",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Comerica Incorporated is a financial services company headquartered in Dallas, Texas. The company offers a variety of banking and wealth management products and services to businesses and individuals. Comerica operates primarily in Texas, Michigan, California, Arizona, and Florida.",
+  "website": "http://www.comerica.com"
 }

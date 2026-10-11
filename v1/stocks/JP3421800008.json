@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C224M6",
-    "figi": "BBG000C22847",
+    "composite_figi": "BBG000BNHG57",
+    "figi": "BBG000BNHGG5",
     "isin": "JP3421800008"
   },
+  "industry": "Commercial Services & Supplies",
   "industry_group": "Commercial & Professional Services",
   "isin": "JP3421800008",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9735.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SOMLF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XSC.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "XSC.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "XSC.SG"
     }
   ],
-  "name": "Secom Co., Ltd.",
-  "primary_symbol": "XSC.BE",
+  "market_cap_band": "Large Cap",
+  "name": "SECOM Co., Ltd.",
+  "primary_symbol": "9735.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "SECOM Co., Ltd. provides security services, including online security, security systems, and fire protection, as well as medical and insurance services. The company also engages in real estate development and information and communication technology services. SECOM is headquartered in Tokyo, Japan."
+  "summary": "SECOM CO., LTD. provides security services in Japan and internationally. The company's Security Services segment provides online security systems, static guard services, armored car services. Its Fire Protection Services segment provides automatic fire alarm systems, fire extinguishing systems, other fire protection systems, and related maintenance services to office buildings, plants, tunnels, cultural properties, ships and residences. This segment also provides maintenance services. The company's Medical Services segment offers home medical services; operates general hospital, pharmacies, and residences for seniors; provides electronic medical report systems; health and preventative care services; and sells medical equipment and pharmaceuticals. Its Insurance Services Segment provides fire insurance, automobile insurance, and cancer treatment insurance services. The company's Geospatial Information Services segment provides geospatial information services to public-sector entities, including national and local governments; private sector customers; and to overseas government agencies. Its BPO and ICT Services segment offers data center services, disaster preparedness services, BCP support services, information security services, cloud-based services, and BPO services. The Real Estate and Other Services segment engages in development and sale of condominiums equipped with distinctive security and disaster preparedness features, as well as real estate leasing, construction, installation, and other services. The company also offers electrical engineering, general office, credit, clerical, and software development services; sells security and water-treatment equipment; operates PFI correctional facilities, restaurants and shops at medical facilities; and provides lifestyle support and car maintains services, as well as sells and maintains freight elevators. The company was founded in 1962 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.secom.co.jp"
 }

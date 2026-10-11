@@ -6,6 +6,7 @@
     "figi": "BBG00GNDLVQ0",
     "isin": "AU0000137598"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "AU0000137598",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000137598.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "EPN.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HDRPF"
     }
   ],
-  "name": "EPSILON HEALTHCARE LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Epsilon Healthcare Limited",
   "primary_symbol": "AU0000137598.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "EPSILON HEALTHCARE LTD is an Australian medicinal cannabis company. They are involved in the cultivation, processing, and distribution of medicinal cannabis products to patients. Epsilon Healthcare Ltd is headquartered in Melbourne, Australia."
+  "summary": "EPSILON HEALTHCARE LTD is an Australian medicinal cannabis company. They are involved in the cultivation, processing, and distribution of medicinal cannabis products to patients. Epsilon Healthcare Ltd is headquartered in Melbourne, Australia.",
+  "website": "http://www.epsilonhealthcare.com.au"
 }

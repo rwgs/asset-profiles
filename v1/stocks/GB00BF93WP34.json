@@ -3,28 +3,41 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000CLH1N3",
-    "figi": "BBG000CLH359",
+    "figi": "BBG000CLH251",
     "isin": "GB00BF93WP34"
   },
+  "industry": "Communications Equipment",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "GB00BF93WP34",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CUAN.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CYAN.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BF93WP34.SG"
     }
   ],
-  "name": "CYANCONNODE HOLDINGS PLC",
-  "primary_symbol": "GB00BF93WP34.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "CyanConnode Holdings plc",
+  "primary_symbol": "CUAN.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CyanConnode Holdings PLC develops and deploys narrowband radio frequency (RF) mesh networks for smart metering and smart city applications. The company provides communication infrastructure for utilities and municipalities to improve energy efficiency and manage infrastructure. CyanConnode is headquartered in Cambridge, UK."
+  "summary": "CyanConnode Holdings plc engages in the design, development, and sale of Narrowband radio frequency (RF) mesh networks that enable Omni Internet of Things (IoT) communications in the United Kingdom, India, Finland, Sweden, rest of Europe, and internationally. It offers wireless communication technology for smart metering, lighting, and IoT. The company provides Narrowband RF mesh technology that supports multi-application networks, enabling communication with any device, including gas, water, and electricity meters, as well as street lighting and traffic lights. In addition, it offers Narrowband RF modules and gateways; Omnimesh, a standard-based smart metering solution; and Omni IoT platform that allows customers to mix and match multiple communication systems under a single network management systems. The company was formerly known as Cyan Holdings plc and changed its name to CyanConnode Holdings plc in November 2016. CyanConnode Holdings plc was founded in 2002 and is headquartered in Cambridge, the United Kingdom.",
+  "website": "http://cyanconnode.com"
 }

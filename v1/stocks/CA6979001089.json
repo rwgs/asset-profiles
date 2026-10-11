@@ -2,15 +2,26 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000CHSVD5",
+    "composite_figi": "BBG000C0RGY3",
     "cusip": "697900108",
-    "figi": "BBG000CHTZS9",
+    "figi": "BBG000C0RS95",
     "isin": "CA6979001089"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA6979001089",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "PAAS"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XLON",
+      "symbol": "0R07.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,6 +34,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PA2.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "PA2.HM"
     },
@@ -30,17 +46,34 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "PA2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PA2.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "PAAS.TO"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "PAASN.MX"
     }
   ],
-  "name": "PAN AMER. SILVER CORP.",
-  "primary_symbol": "PA2.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Pan American Silver Corp.",
+  "primary_symbol": "PAAS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "PAN AMERICAN SILVER CORP. is a silver mining company that engages in silver exploration, mine development, extraction, processing, refining, and reclamation. The company owns and operates silver mines located in Mexico, Peru, Bolivia, Argentina, and Chile. Pan American Silver is headquartered in Vancouver, British Columbia, Canada."
+  "summary": "Pan American Silver Corp., together with its subsidiaries, engages in the exploration, development, extraction, processing, refining, and reclamation of silver, gold, zinc, lead, and copper mines in Canada, Mexico, Peru, Argentina, and Bolivia. It holds interests in the La Colorada, Dolores, Huaron, Morococha, Shahuindo, La Arena, Timmins West, Bell Creek, Manantial Espejo, San Vicente, Pas Corp, and Navidad mines. The company was formerly known as Pan American Minerals Corp. and changed its name to Pan American Silver Corp. in April 1995. Pan American Silver Corp. was incorporated in 1979 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.panamericansilver.com"
 }

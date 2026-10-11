@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000J8V8R0",
+    "composite_figi": "BBG000BJSBJ0",
     "cusip": "65339F101",
-    "figi": "BBG000J8WFV8",
+    "figi": "BBG000BJSF01",
     "isin": "US65339F1012"
   },
+  "industry": "Electric Utilities",
   "industry_group": "Utilities",
   "isin": "US65339F1012",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "NEE"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0K80.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,6 +34,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FP3.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "FP3.MU"
     },
@@ -30,17 +46,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FP3.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "NEE.VI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "NextEra Energy, Inc.",
-  "primary_symbol": "FP3.BE",
+  "primary_symbol": "NEE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "NextEra Energy, Inc. is a clean energy company with a focus on electricity generation and transmission. The company operates through its subsidiaries, Florida Power & Light Company and NextEra Energy Resources. NextEra Energy is headquartered in Juno Beach, Florida."
+  "summary": "NextEra Energy, Inc., through its subsidiaries, generates, transmits, distributes, and sells electric power to retail and wholesale customers in North America. The company generates electricity through wind, solar, nuclear, and fossil fuel, such as coal and natural gas facilities. It also develops, constructs, and operates long-term contracted assets with a focus on renewable generation facilities, electric transmission facilities, and battery storage projects; and owns, develops, constructs, manages and operates electric generation facilities in wholesale energy markets. As of December 31, 2020, the company operated approximately 28,400 megawatts of net generating capacity. It serves approximately 11 million people through approximately 5.6 million customer accounts in the east and lower west coasts of Florida with approximately 76,200 circuit miles of transmission and distribution lines and 673 substations. The company was formerly known as FPL Group, Inc. and changed its name to NextEra Energy, Inc. in 2010. NextEra Energy, Inc. was founded in 1925 and is headquartered in Juno Beach, Florida.",
+  "website": "http://www.nexteraenergy.com"
 }

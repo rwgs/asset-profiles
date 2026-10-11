@@ -3,27 +3,36 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00HL0VNN8",
+    "figi": "BBG00HL0VNP6",
     "isin": "GB00BF2F1X78"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "GB00BF2F1X78",
   "kind": "stock",
   "listings": [
     {
       "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CHF.L"
+    },
+    {
+      "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00BF2F1X78.SW"
     }
   ],
-  "name": "CHESTERFIELD RESOURCES PLC",
-  "primary_symbol": "GB00BF2F1X78.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "Chesterfield Resources plc",
+  "primary_symbol": "CHF.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "CHESTERFIELD RESOURCES PLC is a mineral exploration company focused on identifying and developing copper and gold projects. They primarily operate in North America and aim to create value through exploration success. The company is based in London, UK."
+  "summary": "Chesterfield Resources plc, together with its subsidiaries, engages in the exploration and development of precious and base metals in Cyprus. It primarily explores for copper and gold. The company has a 100% interest in twelve permits covering an area of 50 square kilometers, as well as applications covering an area of 186 square kilometers with total covering area of 236 square kilometers in Cyprus. Chesterfield Resources plc was incorporated in 2017 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.chesterfieldresourcesplc.com"
 }

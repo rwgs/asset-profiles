@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00H4F4036",
+    "composite_figi": "BBG002B0JJV6",
     "cusip": "62857J201",
-    "figi": "BBG00H4F4072",
+    "figi": "BBG002B0JJV6",
     "isin": "US62857J2015"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US62857J2015",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "MYO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US62857J2015.SG"
     }
   ],
-  "name": "MYOMO INC",
-  "primary_symbol": "US62857J2015.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Myomo, Inc.",
+  "primary_symbol": "MYO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MYOMO INC is a medical robotics company that develops and commercializes myoelectric orthotics for individuals with neuromuscular conditions. Their MyoPro device is a powered arm brace that can help restore function to paralyzed or weakened arms and hands. Myomo Inc. is headquartered in Cambridge, Massachusetts."
+  "summary": "Myomo, Inc., a wearable medical robotics company, designs, develops, and produces myoelectric orthotics for people with neuromuscular disorders in the United States. The company offers MyoPro, a myoelectric-controlled upper limb brace or orthosis product used for supporting a patient's weak or paralyzed arm to enable and improve functional activities of daily living. Its products are designed to restore function in adults and adolescents with neuromuscular conditions due to brachial plexus injury, stroke, traumatic brain injury, spinal cord injury, and other neurological disorders. The company sells its products to orthotics and prosthetics providers, the Veterans Health Administration, and rehabilitation hospitals, as well as through distributors. Myomo, Inc. was incorporated in 2004 and is headquartered in Boston, Massachusetts.",
+  "website": "http://www.myomo.com"
 }

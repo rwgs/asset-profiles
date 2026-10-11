@@ -6,6 +6,7 @@
     "figi": "BBG000BYFQ99",
     "isin": "AU000000ORI1"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "AU000000ORI1",
   "kind": "stock",
@@ -22,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ICA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "ICA.HM"
     },
@@ -34,17 +40,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ICA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OCLDF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "ORI.AX"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Orica Limited",
   "primary_symbol": "ICA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Orica Limited is an Australian-based company that provides mining and infrastructure solutions. It is one of the world’s largest suppliers of commercial explosives and blasting systems to the mining and infrastructure industries. The company's headquarters are in Melbourne, Australia."
+  "summary": "Orica Limited is an Australian-based company that provides mining and infrastructure solutions. It is one of the world’s largest suppliers of commercial explosives and blasting systems to the mining and infrastructure industries. The company's headquarters are in Melbourne, Australia.",
+  "website": "http://www.orica.com"
 }

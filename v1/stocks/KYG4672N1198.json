@@ -2,15 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000PLPFJ4",
-    "figi": "BBG000PLPJ97",
+    "composite_figi": "BBG011J3CPQ2",
+    "figi": "BBG011J3CPR1",
     "isin": "KYG4672N1198"
   },
-  "industry": "Biotechnology",
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "KYG4672N1198",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0013.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -20,19 +25,34 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "H7T2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "H7T2.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "HCM.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HMDCF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "HUTCHMED (China) Limited",
-  "primary_symbol": "H7T2.BE",
+  "primary_symbol": "0013.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Hutchmed (China) Limited is a biopharmaceutical company focused on discovering, developing, and commercializing innovative therapeutics in oncology and immunology. The company develops and markets innovative medicines. Hutchmed is headquartered in Hong Kong.",
-  "website": "http://www.hutch-med.com"
+  "summary": "HUTCHMED (China) Limited is a biopharmaceutical company, dating from 2000 and headquartered in Central, Hong Kong, that discovers, develops and commercializes targeted therapies and immunotherapies, mainly for cancer and immunological disorders, for patients worldwide. It reports Oncology/Immunology and Other Ventures segments. Savolitinib, a lung cancer inhibitor, is among its key assets.",
+  "website": "https://www.hutch-med.com"
 }

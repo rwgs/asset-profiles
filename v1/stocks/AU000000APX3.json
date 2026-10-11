@@ -6,6 +6,7 @@
     "figi": "BBG00L7XHWQ6",
     "isin": "AU000000APX3"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "AU000000APX3",
   "kind": "stock",
@@ -22,19 +23,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "433.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "APPEF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "APX.AX"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000APX3.SG"
     }
   ],
-  "name": "APPEN LTD",
+  "market_cap_band": "Micro Cap",
+  "name": "Appen Limited",
   "primary_symbol": "433.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "APPEN LTD is an Australia-based company that provides data solutions and services for machine learning and artificial intelligence. The company collects and labels data to improve the accuracy of AI models used in search engines, social media platforms, and e-commerce. Its headquarters are located in Sydney, Australia."
+  "summary": "APPEN LTD is an Australia-based company that provides data solutions and services for machine learning and artificial intelligence. The company collects and labels data to improve the accuracy of AI models used in search engines, social media platforms, and e-commerce. Its headquarters are located in Sydney, Australia.",
+  "website": "http://www.appen.com"
 }

@@ -2,29 +2,42 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000P46S50",
-    "figi": "BBG000P46VP1",
+    "composite_figi": "BBG00JVXH6R0",
+    "figi": "BBG00JVXH6S9",
     "isin": "DE000A289V03"
   },
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "DE000A289V03",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0W1Q.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "93M1.DE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A289V03.SG"
     }
   ],
-  "name": "MPH HEALTH CARE AG KONV",
-  "primary_symbol": "DE000A289V03.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "MPH Health Care AG",
+  "primary_symbol": "0W1Q.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "MPH HEALTH CARE AG KONV is a Germany-based investment company focused on acquiring and developing companies in the healthcare sector. Their business model involves strategic investments in undervalued or growth-oriented healthcare businesses, with a focus on realizing synergies and increasing shareholder value. MPH HEALTH CARE AG is headquartered in Berlin, Germany."
+  "sector": "Financials",
+  "summary": "MPH HEALTH CARE AG KONV is a Germany-based investment company focused on acquiring and developing companies in the healthcare sector. Their business model involves strategic investments in undervalued or growth-oriented healthcare businesses, with a focus on realizing synergies and increasing shareholder value. MPH HEALTH CARE AG is headquartered in Berlin, Germany.",
+  "website": "https://www.mph-ag.de"
 }

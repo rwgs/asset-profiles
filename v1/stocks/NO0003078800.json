@@ -2,8 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000DN7S05",
-    "figi": "BBG000DN7WT5",
+    "composite_figi": "BBG007R9HDJ8",
+    "figi": "BBG007R9HDL5",
     "isin": "NO0003078800"
   },
   "industry": "Energy Equipment & Services",
@@ -11,6 +11,11 @@
   "isin": "NO0003078800",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0MSJ.IL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -42,17 +47,17 @@
       "symbol": "TGSNF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "TGS ASA",
-  "primary_symbol": "TGC.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "TGS NOPEC GEOPHYSICAL COMPANY A",
+  "primary_symbol": "0MSJ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "TGS-NOPEC Geophysical Company ASA provides geoscience data products and services to the oil and gas industry worldwide. The company offers geophysical multi-client data, including seismic data; and geophysical library, such as gravity, magnetic, seep, geothermal, controlled source electromagnetic, and multibeam data. It also provides geological services comprising digital well logs; and interpretation products and data integration solutions. In addition, the company offers imaging services, which include depth and time imaging; marine, land, and ocean bottom cables and nodes; anisotropic imaging; transition zone processing; multi component processing; shear wave; and 4D time-lapse, as well as wide azimuth data processing. Further, it provides data and analytics solutions; and PRIMA, a multi-function exploration software suite. TGS-NOPEC Geophysical Company ASA has a strategic collaboration with Schlumberger Limited for Ocean Bottom Node Projects in North Sea; and CGG, and PGS ASA to offer a shared ecosystem providing direct access to subsurface multi-client data libraries. The company was founded in 1981 and is headquartered in Oslo, Norway.",
+  "summary": "TGS-NOPEC Geophysical Company ASA provides geophysical data and services to the oil and gas industry. It acquires, processes, and analyzes seismic data. The company is headquartered in Asker, Norway.",
   "website": "http://www.tgs.com"
 }

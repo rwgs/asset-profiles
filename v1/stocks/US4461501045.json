@@ -2,30 +2,68 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GCLX45",
+    "composite_figi": "BBG000BKWSR6",
     "cusip": "446150104",
-    "figi": "BBG000GCLZQ6",
+    "figi": "BBG000BKX3B7",
     "isin": "US4461501045"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US4461501045",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "HBAN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0J72.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HU3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "HU3.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HU3.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HU3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HU3.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HU3.SG"
     }
   ],
-  "name": "HUNTINGTON BANCSHARES INC. Regi",
-  "primary_symbol": "HU3.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Huntington Bancshares Incorporated",
+  "primary_symbol": "HBAN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Huntington Bancshares Incorporated is a regional bank holding company providing a range of banking products and services. Headquartered in Columbus, Ohio, the company operates through a network of branches."
+  "summary": "Huntington Bancshares Incorporated is a regional bank holding company headquartered in Columbus, Ohio, with $123 billion of assets and a network of 839 branches, including 11 Private Client Group offices, and 1,322 ATMs across seven Midwestern states. Founded in 1866, The Huntington National Bank and its affiliates provide consumer, small business, commercial, treasury management, wealth management, brokerage, trust, and insurance services. Huntington also provides vehicle finance, equipment finance, national settlement, and capital market services that extend beyond its core states. Visit huntington.com for more information.",
+  "website": "http://www.huntington.com"
 }

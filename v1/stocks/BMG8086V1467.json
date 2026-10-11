@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BM8JT7",
-    "figi": "BBG000BM8L12",
+    "composite_figi": "BBG000BDXD30",
+    "figi": "BBG000BDXDH5",
     "isin": "BMG8086V1467"
   },
   "industry": "Transportation Infrastructure",
@@ -12,16 +12,36 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0152.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SXYA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SXYA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SXYA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SZIHF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Shenzhen International Holdings Limited",
-  "primary_symbol": "SXYA.F",
+  "primary_symbol": "0152.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

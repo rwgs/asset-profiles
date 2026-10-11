@@ -2,14 +2,20 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000BP8RX7",
-    "figi": "BBG000BP8TX3",
+    "composite_figi": "BBG000BFDQ38",
+    "figi": "BBG000BFDQY4",
     "isin": "SG1V61937297"
   },
+  "industry": "Airlines",
   "industry_group": "Transportation",
   "isin": "SG1V61937297",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "C6L.SI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +25,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SIA1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SIA1.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +50,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SIA1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SINGF"
     }
   ],
-  "name": "Singapore Airlines Ltd.",
-  "primary_symbol": "SIA1.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Singapore Airlines Limited",
+  "primary_symbol": "C6L.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Singapore Airlines Limited is the flag carrier airline of Singapore. It operates passenger flights and cargo services to many destinations around the world and is known for its high-quality service and modern fleet. The company is headquartered at Changi Airport in Singapore."
+  "summary": "Singapore Airlines Limited, together with subsidiaries, provides passenger and cargo air transportation services under the Singapore Airlines, SilkAir, and Scoot brands in East Asia, the Americas, Europe, South West Pacific, West Asia, and Africa. It operates through Singapore Airlines, SilkAir, Budget Aviation, and SIAEC segments. The company also offers engineering services, air charters, and tour wholesaling and related services, as well as trains pilots and refurbishes aircraft galleys. In addition, it provides aircraft maintenance services, including technical and non-technical handling at the airport; maintenance, repair, and overhaul of aircraft and cabin components/systems; repair and overhaul of hydromechanical equipment; line maintenance and ground handling; aviation insurance; and airframe maintenance and component overhaul services, as well as manufactures aircraft cabin parts and tooling for the aerospace industry. Further, the company offers marketing cargo community systems; marketing and supporting portal services for the air cargo industry; and reservation service systems, as well as travel-related retail services. Additionally, it provides travel booking and related services through an online portal. As of March 31, 2020, it operated a fleet of 203 aircraft, which include 196 passenger aircrafts and 7 freighters. The company was founded in 1947 and is headquartered in Singapore. Singapore Airlines Limited is a subsidiary of Temasek Holdings (Private) Limited.",
+  "website": "http://www.singaporeair.com"
 }

@@ -2,28 +2,42 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00F91L1T7",
+    "composite_figi": "BBG00Z847XG8",
+    "figi": "BBG00Z847XH7",
     "isin": "SE0009242654"
   },
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Biotechnology",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "SE0009242654",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8V6.F"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "NEEMS-B.ST"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0009242654.SG"
     }
   ],
-  "name": "SCANDINAVIAN CHEMOTECH AB",
-  "primary_symbol": "SE0009242654.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Neem's Hill AB",
+  "primary_symbol": "8V6.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SCANDINAVIAN CHEMOTECH AB develops and sells innovative products for improved cancer treatment with reduced side effects. The company focuses on optimizing drug delivery to tumors. The company is based in Lund, Sweden."
+  "summary": "Neem's Hill AB, a medical technology company, engages in the development of patented treatment alternatives for humans and animals with cancer in Sweden and internationally. It offers IQwave, an electroporation that generates tumor-specific electrical stimulation for the treatment of solid superficial tumors of various sizes and locations. Neem's Hill AB was formerly known as Scandinavian ChemoTech AB (publ) and changed its name to Neem's Hill AB in July 2026. The company was incorporated in 2013 and is headquartered in Lund, Sweden.",
+  "website": "http://chemotech.se"
 }

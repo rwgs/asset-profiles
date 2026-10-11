@@ -29,8 +29,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ADP.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "ADP.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ADP.DU"
     },
     {
       "currency": "EUR",
@@ -39,10 +49,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ADP.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ADP.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "ADP.TI"
     },
     {
@@ -60,7 +76,7 @@
   "name": "Automatic Data Processing, Inc.",
   "primary_symbol": "ADP",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

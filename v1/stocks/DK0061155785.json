@@ -2,8 +2,6 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG00R3KC9T8",
-    "figi": "BBG00R3KCB04",
     "isin": "DK0061155785"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,21 +10,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "3NU.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "3NU.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "3NU.MU"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ASGRF"
@@ -34,24 +17,14 @@
     {
       "currency": "DKK",
       "exchange_mic": "XCSE",
-      "symbol": "ASTGRP.CO"
-    },
-    {
-      "currency": "DKK",
-      "exchange_mic": "XCSE",
       "symbol": "ASTRLS.CO"
-    },
-    {
-      "currency": "DKK",
-      "exchange_mic": "XSTO",
-      "symbol": "ASTRLS.ST"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Astralis A/S",
-  "primary_symbol": "3NU.BE",
+  "primary_symbol": "ASGRF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

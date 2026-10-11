@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BJY392",
+    "composite_figi": "BBG000G1Q9J1",
     "cusip": "682736103",
-    "figi": "BBG000BJY3L8",
+    "figi": "BBG000G1Q9J1",
     "isin": "US6827361030"
   },
   "industry": "Pharmaceuticals",
@@ -13,31 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "4528.T"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "ON4.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "OPHLF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "OPHLY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Ono Pharmaceutical Co., Ltd.",
-  "primary_symbol": "4528.T",
+  "primary_symbol": "OPHLY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

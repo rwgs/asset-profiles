@@ -2,29 +2,47 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000QY2N03",
-    "figi": "BBG000QY2NR4",
+    "composite_figi": "BBG000F796Y7",
+    "figi": "BBG000F797G5",
     "isin": "GB00B02LCQ05"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "GB00B02LCQ05",
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "AGY.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AGYTF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B02LCQ05.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HHU.F"
     }
   ],
-  "name": "ALLERGY THERAPEUTICS PLC",
-  "primary_symbol": "GB00B02LCQ05.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Allergy Therapeutics plc",
+  "primary_symbol": "AGY.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ALLERGY THERAPEUTICS PLC is a pharmaceutical company specializing in allergy immunotherapy products. Their business model revolves around developing, manufacturing, and marketing treatments for allergies, including subcutaneous and sublingual immunotherapy products. The company is based in Worthing, UK."
+  "summary": "Allergy Therapeutics plc engages in the research and development of allergy treatments. The company sells injectable and sublingual allergen-specific immunotherapies; and offers prescription for the treatment of pollen-related allergies, particularly to grasses, weeds, and trees, as well as diagnostics. Its products include Pollinex, Pollinex Quattro, Oralvac, Acarovac Plus, Acarovac MPL, Venomil, Synbiotics, Penicillin Diagnostics, and Peanut. The company also develops allergy vaccines for grass, tree, and house dust mite, as well as peanut allergy vaccines. It operates in Central Europe, Southern Europe, the United Kingdom, and internationally. Allergy Therapeutics plc was incorporated in 2004 and is headquartered in Worthing, the United Kingdom.",
+  "website": "http://www.allergytherapeutics.com"
 }

@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BPMNZ8",
-    "figi": "BBG000BPMRX1",
+    "composite_figi": "BBG000BBN738",
+    "figi": "BBG000BBN7R2",
     "isin": "JP3910660004"
   },
+  "industry": "Insurance",
   "industry_group": "Insurance",
   "isin": "JP3910660004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8766.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +28,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MH6.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MH6.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TKOMF"
     }
   ],
-  "name": "TOKIO MARINE HOLDINGS INC",
-  "primary_symbol": "MH6.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Tokio Marine Holdings, Inc.",
+  "primary_symbol": "8766.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Tokio Marine Holdings, Inc. is a holding company for Tokio Marine Group, a global insurance group. The group provides a wide range of insurance products and services, including property and casualty insurance, life insurance, and reinsurance. The company is headquartered in Tokyo, Japan."
+  "summary": "Tokio Marine Holdings, Inc. engages in non-life and life insurance, and financial and general businesses worldwide. The company operates through four segments: Domestic Non-Life Insurance, Domestic Life Insurance, Overseas Insurance, and Financial and Other. It offers fire and allied lines, hull and cargo, personal accident, automobile, and other insurance products, as well as asset management services. The company was formerly known as Millea Holdings, Inc. and changed its name to Tokio Marine Holdings, Inc. in 2008. Tokio Marine Holdings, Inc. was founded in 2002 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.tokiomarinehd.com"
 }

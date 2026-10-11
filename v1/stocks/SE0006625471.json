@@ -2,28 +2,57 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG001B7BK48",
+    "composite_figi": "BBG00JHW6LM2",
+    "figi": "BBG00NRVWMQ9",
     "isin": "SE0006625471"
   },
-  "industry_group": "Retailing",
+  "industry": "IT Services",
+  "industry_group": "Software & Services",
   "isin": "SE0006625471",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0R5W.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9DG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "9DG.SG"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "DUST.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DUSXF"
+    },
     {
       "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0006625471.SW"
     }
   ],
-  "name": "DUSTIN GROUP AB",
-  "primary_symbol": "SE0006625471.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "Dustin Group AB (publ)",
+  "primary_symbol": "0R5W.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "DUSTIN GROUP AB is an online retailer and IT solutions provider in the Nordics and Benelux. They offer a wide range of IT products, services, and solutions to businesses and consumers. The company is headquartered in Nacka Strand, Sweden."
+  "sector": "Information Technology",
+  "summary": "Dustin Group AB is a Swedish online IT partner with operations in the Nordics and Benelux. The company provides IT products and services to businesses, the public sector and consumers. Dustin Group is headquartered in Nacka Strand, Sweden.",
+  "website": "http://www.dustingroup.com"
 }

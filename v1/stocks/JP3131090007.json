@@ -6,8 +6,8 @@
     "figi": "BBG005CJZ9G8",
     "isin": "JP3131090007"
   },
-  "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry": "Household Durables",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "JP3131090007",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,11 @@
       "currency": "JPY",
       "exchange_mic": "XJPX",
       "symbol": "3291.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ANTOF"
     },
     {
       "currency": "EUR",
@@ -31,13 +36,13 @@
   "name": "Iida Group Holdings Co., Ltd.",
   "primary_symbol": "3291.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
+  "sector": "Consumer Discretionary",
   "summary": "Iida Group Holdings Co., Ltd. constructs and sells detached houses, and detached house condominiums in Japan. The company was founded in 1967 and is headquartered in Tokyo, Japan.",
   "website": "http://www.ighd.co.jp"
 }

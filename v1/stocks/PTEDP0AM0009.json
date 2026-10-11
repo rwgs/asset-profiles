@@ -2,8 +2,8 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
-    "composite_figi": "BBG000CWDH03",
-    "figi": "BBG000CWDH85",
+    "composite_figi": "BBG000J1JQV4",
+    "figi": "BBG000J1JVL4",
     "isin": "PTEDP0AM0009"
   },
   "industry": "Multi-Utilities",
@@ -11,6 +11,21 @@
   "isin": "PTEDP0AM0009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0OF7.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EDP.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EDP.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -23,21 +38,17 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "EDP.SG"
-    },
-    {
-      "symbol": "EDP.TI"
+      "exchange_mic": "XMUN",
+      "symbol": "EDP.MU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
-      "symbol": "EDPA.SG"
+      "symbol": "EDP.SG"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "EDPFY"
+      "currency": "EUR",
+      "symbol": "EDP.TI"
     },
     {
       "currency": "USD",
@@ -46,16 +57,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "EDP S.A.",
-  "primary_symbol": "EDP.F",
+  "name": "EDP - Energias de Portugal, S.A.",
+  "primary_symbol": "0OF7.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "EDP - Energias de Portugal, S.A. engages in the generation, transportation, distribution, and supply of electricity in Portugal, Spain, France, Brazil, the United States, and internationally. The company operates through Renewables, Networks, and Client Solutions & Energy Management segments. It primarily generates electricity through hydro, CCGT, coal, wind, solar, nuclear, and cogeneration sources. The company also distributes and supplies natural gas. It has an installed capacity of 24 GW; and serves 8,615,444 electricity customers and 691,370 gas customers. The company also operates 312,433 kilometers of distribution overhead lines; and 62,258 kilometers of distribution underground lines. In addition, it offers engineering, laboratory tests, professional training, energy, and property management services. The company was incorporated in 1976 and is headquartered in Lisbon, Portugal.",
+  "summary": "EDP ENERGIAS DE PORTUGAL SA is a Portuguese electric utility company involved in the generation, distribution, and supply of electricity and gas. The company operates renewable energy plants, including hydro, wind, and solar. Its headquarters are located in Lisbon, Portugal.",
   "website": "http://www.edp.com"
 }

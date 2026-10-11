@@ -2,10 +2,12 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BM4B81",
+    "composite_figi": "BBG00WGGMXD5",
+    "figi": "BBG00WGGMXJ9",
     "isin": "GB00BDR6W943"
   },
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Biotechnology",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "GB00BDR6W943",
   "kind": "stock",
   "listings": [
@@ -13,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BDR6W943.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "PYC.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RVW1.F"
     }
   ],
-  "name": "PHYSIOMICS PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "Physiomics Plc",
   "primary_symbol": "GB00BDR6W943.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Physiomics PLC provides systems biology and computational modeling services to the pharmaceutical and biotechnology industries. The company uses mathematical models to simulate drug behavior and predict clinical outcomes, helping clients to optimize drug development programs. Physiomics is headquartered in Oxford, UK."
+  "summary": "Physiomics PLC provides systems biology and computational modeling services to the pharmaceutical and biotechnology industries. The company uses mathematical models to simulate drug behavior and predict clinical outcomes, helping clients to optimize drug development programs. Physiomics is headquartered in Oxford, UK.",
+  "website": "http://www.physiomics-plc.com"
 }

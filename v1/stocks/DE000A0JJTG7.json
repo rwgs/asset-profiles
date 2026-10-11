@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BQNVL2",
-    "figi": "BBG000BQNXC8",
+    "figi": "BBG000BQNYM5",
     "isin": "DE000A0JJTG7"
   },
   "industry": "Real Estate Management & Development",
@@ -13,8 +13,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GTY.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "GTY.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "GTY.DU"
     },
     {
       "currency": "EUR",
@@ -23,21 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GTY.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GTY.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Gateway Real Estate AG",
-  "primary_symbol": "GTY.DE",
+  "primary_symbol": "GTY.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Gateway Real Estate AG acquires, develops, rents, and sells commercial and residential properties in Germany. It also offers urban and building land development, conversion, and revitalization services. The company was founded in 2006 and is headquartered in Frankfurt am Main, Germany.",
+  "summary": "Gateway Real Estate AG is a real estate company that invests in and manages commercial properties. They focus on properties in German metropolitan regions. The company is based in Germany.",
   "website": "http://www.gateway-re.de"
 }

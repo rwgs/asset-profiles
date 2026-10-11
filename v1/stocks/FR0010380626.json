@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHVTPL1",
+    "figi": "BBG00JHVTPM0",
     "isin": "FR0010380626"
   },
   "industry": "Software",
@@ -16,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "69P.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "69P.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "69P.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALPRG.PA"
     },
     {
       "currency": "EUR",
@@ -29,7 +46,7 @@
   "name": "Prologue S.A.",
   "primary_symbol": "0FPJ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

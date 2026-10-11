@@ -4,6 +4,8 @@
   "identifiers": {
     "cusip": "13646R103"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "kind": "stock",
   "listings": [
     {
@@ -12,13 +14,14 @@
       "symbol": "DCR1.MU"
     }
   ],
-  "name": "CANADIAN PALLADIUM RES",
+  "name": "Canadian Palladium Res",
   "primary_symbol": "DCR1.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials"
 }

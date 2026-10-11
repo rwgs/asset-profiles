@@ -2,29 +2,37 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000BCQZ31",
-    "figi": "BBG000BCQZM0",
+    "composite_figi": "BBG000BQ1ZW5",
+    "figi": "BBG000BQ1ZW5",
     "isin": "NO0012470089"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "isin": "NO0012470089",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TMRAF"
+    },
+    {
       "currency": "NOK",
       "exchange_mic": "XOSL",
-      "symbol": "TOMO.OL"
+      "symbol": "TOM.OL"
     }
   ],
-  "name": "Tomra Systems",
-  "primary_symbol": "TOMO.OL",
+  "market_cap_band": "Mid Cap",
+  "name": "Tomra Systems ASA",
+  "primary_symbol": "TMRAF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Tomra Systems ASA develops, manufactures, and sells sensor-based solutions for optimal resource productivity. The company operates through collection solutions (reverse vending machines) and sorting solutions (recycling, mining and food). Tomra is headquartered in Asker, Norway."
+  "summary": "Tomra Systems ASA provides sensor-based solutions for optimal resource productivity worldwide. It operates through three divisions: Collection Solutions, Recycling Mining, and Food Solutions. The Collection Solutions division engages in the development, production, rental, sale, and service of reverse vending machines and related data management systems. This segment is also involved in picking up, transporting, and processing empty beverage containers on behalf of beverage producers/fillers. The Recycling Mining division offers sorting systems for waste and metal material streams; and ore sorting systems for the mining industry. The Food Solutions division provides sorting and processing technology for the fresh and processed food industries. The company was founded in 1972 and is headquartered in Asker, Norway.",
+  "website": "http://www.tomra.com"
 }

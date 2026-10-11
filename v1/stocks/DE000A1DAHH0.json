@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "DE000A1DAHH0"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "DE000A1DAHH0",
   "kind": "stock",
@@ -12,17 +13,74 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0MPT.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BNR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "BNR.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BNR.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BNR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "BNR.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BNR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BNR.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BNR.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BNR.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "BNRN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BNTGF"
     }
   ],
-  "name": "BRENNTAG AG BRENNTAG ORD SHS",
+  "market_cap_band": "Mid Cap",
+  "name": "Brenntag SE",
   "primary_symbol": "0MPT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Brenntag AG is a global chemical distributor. The company distributes industrial and specialty chemicals and provides value-added services to various industries. The company is headquartered in Essen, Germany."
+  "summary": "Brenntag AG is a global chemical distributor. The company distributes industrial and specialty chemicals and provides value-added services to various industries. The company is headquartered in Essen, Germany.",
+  "website": "http://www.brenntag.com"
 }

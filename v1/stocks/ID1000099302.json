@@ -2,13 +2,20 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
-    "composite_figi": "BBG000BNN6D3",
-    "figi": "BBG000BNN8S3",
+    "composite_figi": "BBG000BFRPZ0",
+    "figi": "BBG000BFRQH8",
     "isin": "ID1000099302"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "ID1000099302",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "BNII.JK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -21,18 +28,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BOZA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BOZA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BOZA.SG"
     }
   ],
-  "market_cap_band": "Mega Cap",
-  "name": "PT BANK MAYB. A RP 900",
-  "primary_symbol": "BOZA.BE",
+  "market_cap_band": "Small Cap",
+  "name": "PT Bank Maybank Indonesia Tbk",
+  "primary_symbol": "BNII.JK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "PT Bank Maybank Indonesia Tbk provides various banking products and services in Indonesia and internationally. It operates through three segments: Global Banking, Business Banking, and Retail. The company provides current accounts; savings, demand, and time deposits; business deposit accounts; credit cards; mortgage, multifunction, car, working capital, SME, and motorcycle loans; and property financing. It also offers wealth management; cash management and trade financing; investment; depository and settlement; fund administration; business banking, investment, corporate, and commercial financing; liquidity management; payment; custody and clearing, agency, and e-statement; bancassurance; collection services. In addition, the company provides bank guarantees; mutual funds and bonds; insurance products; electronic trade finance and ATM services; and mobile and internet banking services. The company was formerly known as PT Bank Internasional Indonesia Tbk and changed its name to PT Bank Maybank Indonesia Tbk in 2015. The company was founded in 1959 and is headquartered in Jakarta, Indonesia. PT Bank Maybank Indonesia Tbk operates as a subsidiary of Malayan Banking Berhad.",
+  "website": "https://www.maybank.co.id"
 }

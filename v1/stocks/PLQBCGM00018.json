@@ -2,7 +2,8 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG00DWY5LW4",
+    "composite_figi": "BBG00QGRXPT2",
+    "figi": "BBG00QGRXPY6",
     "isin": "PLQBCGM00018"
   },
   "industry_group": "Software & Services",
@@ -13,12 +14,17 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLQBCGM00018.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "QA7.MU"
     }
   ],
   "name": "QUBICGAMES SA",
   "primary_symbol": "PLQBCGM00018.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -4,27 +4,41 @@
   "identifiers": {
     "composite_figi": "BBG000BHDXR3",
     "cusip": "268211109",
+    "figi": "BBG000BHDXR3",
     "isin": "US2682111099"
   },
+  "industry": "Communications Equipment",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "US2682111099",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "DZSI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DZSIQ"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US2682111099.SG"
     }
   ],
-  "name": "DZS INC",
-  "primary_symbol": "US2682111099.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "DZS Inc.",
+  "primary_symbol": "DZSI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "DZS INC provides network access solutions and communication platforms to service providers and enterprises. Their products include optical transport, broadband access, and network edge equipment. The company is headquartered in Plano, Texas."
+  "summary": "DZS Inc. provides network access solutions and communications platforms for service provider and enterprise networks in the Americas, Europe, the Middle East, Africa, and Asia. It offers mobile transport products, including standard Ethernet/IP or multiprotocol label switching interfaces and interoperate to mobile operators that enables them to upgrade their mobile fronthaul/backhaul systems and migrate to 5G and beyond; broadband access products, which consists of switching and routing products to carriers and service providers to connect residential and business customers; and connected premises products, comprising of indoor/outdoor optical network terminal gateways. The company also provides software and services, which consists of software defined networking orchestration solutions, network function virtualization, and professional and technical support services. The company was formerly known as DASAN Zhone Solutions, Inc. and changed its name to DZS Inc. in August 2020. The company was founded in 1996 and is based in Plano, Texas.",
+  "website": "http://www.dzsi.com"
 }

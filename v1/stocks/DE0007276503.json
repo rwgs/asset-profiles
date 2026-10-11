@@ -2,13 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BLQMV9",
+    "composite_figi": "BBG00Z9FGSZ2",
+    "figi": "BBG00Z9FGT08",
     "isin": "DE0007276503"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "DE0007276503",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NWC.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -18,6 +25,11 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "YSN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "YSN.DE"
     },
     {
       "currency": "EUR",
@@ -33,17 +45,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "YSN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "YSN.SG"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "secunet Security Networks AG",
-  "primary_symbol": "DE0007276503.SW",
+  "primary_symbol": "0NWC.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "secunet Security Networks AG is a leading German provider of high-security IT solutions, developing and implementing solutions for government agencies, businesses, and critical infrastructure operators, headquartered in Essen, Germany. Their offerings include cybersecurity products and services, secure communication solutions, and border control systems. Secunet focuses on protecting sensitive data and ensuring secure IT operations."
+  "summary": "Secunet Security AG provides IT security solutions and services. The company specializes in encryption, border security, and e-government applications. The company is headquartered in Essen, Germany.",
+  "website": "https://www.secunet.com"
 }

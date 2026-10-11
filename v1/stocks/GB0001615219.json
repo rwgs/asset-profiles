@@ -3,27 +3,36 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000BD9X79",
+    "figi": "BBG000BD9XL3",
     "isin": "GB0001615219"
   },
-  "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "GB0001615219",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CFYN.L"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0001615219.SW"
     }
   ],
-  "name": "CAFFYNS PLC",
-  "primary_symbol": "GB0001615219.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "Caffyns plc",
+  "primary_symbol": "CFYN.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary"
+  "sector": "Consumer Discretionary",
+  "summary": "Caffyns plc operates as a motor vehicle retailer in the Southeast of England. The company offers a range of new and used cars; and sells tyres, oil, parts, and accessories, as well as provides aftersales, maintenance, and other services. It provides products of various brands, such as Audi, SEAT, Skoda, Vauxhall, Volkswagen, and Volvo. Caffyns plc was founded in 1865 and is headquartered in Eastbourne, the United Kingdom.",
+  "website": "http://www.caffyns.co.uk"
 }

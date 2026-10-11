@@ -2,29 +2,36 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000D79DL8",
     "cusip": "92552R406",
     "isin": "US92552R4065"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "US92552R4065",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "VVI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US92552R4065.SG"
     }
   ],
-  "name": "VIAD CORP",
-  "primary_symbol": "US92552R4065.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Viad Corp.",
+  "primary_symbol": "VVI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "VIAD CORP provides infrastructure access, protective and promotional services, and hospitality and recreation services, operating primarily in the United States and Canada; the company focuses on offering convention, trade show, and event services; designing, installing, and maintaining sophisticated audio-visual systems; and providing hospitality and recreational experiences, mainly in iconic U.S. destinations; its headquarters is in Phoenix, Arizona."
+  "sector": "Industrials",
+  "summary": "Viad Corp operates as an experiential services company in the United States, Canada, the United Kingdom, continental Europe, the United Arab Emirates, and Iceland. It operates through three segments: GES North America, GES EMEA, and Pursuit. The company offers event accommodation solutions, including researching and selection of local hotels, negotiating and contracting, room block management, group reservation management, rate integrity and monitoring, marketing, on-site, and post-event reporting; and registration and data analytics comprising registration and ticketing, lead management, reporting and analytics, web-based enterprise-wide application, and software-as-a-service model or partial and fully managed options. It also provides event management tools, such as online ordering capabilities, sponsorship management solutions, content management systems, and live event tracking; and audio-visual, including video production, lighting design, digital studio, entertainment and talent coordination, projection mapping, and computer rental and support services. In addition, the company offers a collection of experiences in recreational attractions, unique hotels and lodges, food and beverage, retail, sightseeing, and ground transportation services. It serves event organizers and corporate brand marketers. Viad Corp was founded in 1926 and is headquartered in Phoenix, Arizona.",
+  "website": "http://www.viad.com"
 }

@@ -2,14 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000Q9TVP4",
-    "figi": "BBG000Q9TYX9",
+    "composite_figi": "BBG000QTSD26",
+    "figi": "BBG000QTSD26",
     "isin": "DE0005470405"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "DE0005470405",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LNXSF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "LXS.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "LXS.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LXS.F"
     },
     {
       "currency": "EUR",
@@ -34,17 +50,33 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "LXS.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LXS.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "LXS.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "LXS.VI"
     }
   ],
-  "name": "LANXESS AG",
-  "primary_symbol": "LXS.BE",
+  "market_cap_band": "Small Cap",
+  "name": "LANXESS Aktiengesellschaft",
+  "primary_symbol": "LNXSF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "LANXESS AG is a German specialty chemicals company that develops, manufactures, and markets chemical intermediates, additives, specialty chemicals, and plastics. Its products are used in a wide range of industries, including automotive, construction, and agriculture. The company is headquartered in Cologne, Germany."
+  "summary": "LANXESS Aktiengesellschaft, a specialty chemicals company, develops, manufactures, and markets chemical intermediates, additives, specialty chemicals, and plastics worldwide. It operates through four segments: Advanced Intermediates, Specialty Additives, Consumer Protection, and Engineering Materials. The Advanced Intermediates segment provides advanced industrial intermediates, basic and fine chemicals, organometallics, rubber chemicals, and inorganic pigments for the agrochemical, automotive, construction, aromas and flavors, paints and coatings, rubber chemicals, semiconductors and photovoltaic, and color pigments industries. The Specialty Additives segment offers additives, including lubricants, flame retardants, plasticizers, and bromine derivatives for various applications of rubber, plastic, paint, construction, and electrical industries. The Consumer Protection segment provides material protection products; disinfectant, hygiene, and preservative solutions; and precursors and intermediates for the agrochemicals, pharmaceuticals, and specialty chemicals industries. The Engineering Materials segment produces technical plastics, glass fibers, fiber composites, and elastomers on a urethane basis for application in the automotive and electrical/electronics, construction, and medicine industries, as well as sports and leisure sectors. The company was founded in 1863 and is headquartered in Cologne, Germany.",
+  "website": "http://lanxess.com"
 }

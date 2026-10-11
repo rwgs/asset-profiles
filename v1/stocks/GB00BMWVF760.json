@@ -2,29 +2,47 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00XTVP7B2",
-    "figi": "BBG00XTVP7G7",
+    "composite_figi": "BBG00XS6LYM1",
+    "figi": "BBG00XS6LYM1",
     "isin": "GB00BMWVF760"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Aerospace & Defense",
+  "industry_group": "Capital Goods",
   "isin": "GB00BMWVF760",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ALRDF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "ALRT.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BMWVF760.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GU0.F"
     }
   ],
-  "name": "GUILD ESPORTS PLC",
-  "primary_symbol": "GB00BMWVF760.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Defence Holdings PLC",
+  "primary_symbol": "ALRDF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Guild Esports PLC is an esports company focused on developing and operating esports teams and academies. The company aims to create a leading global esports brand. Guild Esports PLC is headquartered in London, UK."
+  "sector": "Industrials",
+  "summary": "Defence Holdings PLC specializes in the innovation and procurement of advanced defence technologies. Its core focus areas include state-of-the-art AI-driven systems, robust cyber-security solutions, secure communication platforms, autonomous drone operations, and the safeguarding of critical national infrastructure. The company employs a unique platform-based model, facilitating the rapid creation and deployment of its solutions across a wide array of defence applications. These encompass AI agents designed for various military operations, capabilities for information and influence warfare, drone fleet aggregation and management, and the protection of essential infrastructure. Currently, Defence Holdings PLC is engaged in a strategic partnership with Gloucestershire Police. This collaboration is centered on a Proof-of-Value (PoV1) initiative, which aims to automate the reporting processes for Record of Video Interview (ROVI) and Record of Taped Interview (ROTI) documentation using AI technology. The company was established in 2019 and is based in London, United Kingdom. It was formerly known as Cassell Capital Plc, officially adopting the name Defence Holdings PLC in May 2025.",
+  "website": "https://www.defenceplc.com"
 }

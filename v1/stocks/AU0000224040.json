@@ -2,29 +2,37 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00ZR7RZF4",
-    "figi": "BBG00ZR7RZH2",
+    "composite_figi": "BBG000B9XBS6",
+    "figi": "BBG000B9XC77",
     "isin": "AU0000224040"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "AU0000224040",
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "WOPA.DU"
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "WDS.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WOPEF"
     }
   ],
-  "name": "WOODSIDE PET.",
-  "primary_symbol": "WOPA.DU",
+  "market_cap_band": "Large Cap",
+  "name": "Woodside Energy Group Ltd",
+  "primary_symbol": "WDS.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Woodside Energy Group Ltd. is an Australian oil and gas company engaged in exploration, development, production, and marketing of hydrocarbons. The company has operations in Australia and internationally, producing natural gas, oil, and condensate. Woodside Energy Group is headquartered in Perth, Australia."
+  "summary": "Woodside Energy Group Ltd, headquartered in Perth, is an integrated global energy company covering the hydrocarbon value chain from exploration and appraisal through development, production, marketing and sale. It operates across Oceania, Asia, Canada and Africa, and its products include liquefied natural gas, pipeline natural gas, condensate and liquefied petroleum gas.",
+  "website": "https://www.woodside.com"
 }

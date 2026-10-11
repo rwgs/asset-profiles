@@ -2,30 +2,37 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "cusip": "G8374P108",
+    "composite_figi": "BBG00ZJZ79B5",
+    "figi": "BBG00ZJZ79C4",
     "isin": "GB00BF1QPG26"
   },
-  "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry": "Household Durables",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "GB00BF1QPG26",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9MZ.F"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "SPR.L"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "Springfield Properties Plc",
-  "primary_symbol": "SPR.L",
+  "primary_symbol": "9MZ.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
+  "sector": "Consumer Discretionary",
   "summary": "Springfield Properties Plc, together with its subsidiary, engages in the house building business in the United Kingdom. The company operates through two markets, Private Housing and Affordable. It is also involved in hiring plants and machineries, property development, buys and sells real estate and residential property, and management services. The company was founded in 1956 and is based in Elgin, the United Kingdom.",
   "website": "http://www.springfield.co.uk"
 }

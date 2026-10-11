@@ -1,30 +1,78 @@
 {
-  "country": "France",
-  "country_code": "FR",
+  "country": "Luxembourg",
+  "country_code": "LU",
   "identifiers": {
-    "composite_figi": "BBG000BMF3F9",
-    "figi": "BBG000BMF4S3",
+    "composite_figi": "BBG000BH79M8",
+    "figi": "BBG000BH7B07",
     "isin": "FR0014000MR3"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "FR0014000MR3",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ERF.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ERFSF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ESF.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ESF0.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ESF0.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ESF0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ESF0.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ESF0.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ESF0.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FR0014000MR3.SG"
     }
   ],
-  "name": "EUROFINS SCIENTIFIC",
-  "primary_symbol": "FR0014000MR3.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Eurofins Scientific SE",
+  "primary_symbol": "ERF.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "EUROFINS SCIENTIFIC is a global laboratory testing company providing a range of analytical and clinical diagnostic services to industries including food, pharmaceuticals, environment, and consumer products. They offer testing and support services to ensure the safety and quality of products and processes across various sectors. EUROFINS SCIENTIFIC is headquartered in Luxembourg."
+  "summary": "Eurofins Scientific SE, together with its subsidiaries, provides various analytical testing and laboratory services worldwide. The company offers a portfolio of approximately 200,000 analytical methods for evaluating the safety, identity, composition, authenticity, origin, traceability, and purity of biological substances and products, as well as for clinical diagnostic. It provides agroscience, agro testing, assurance, biopharma, clinical diagnostics, consumer product testing, cosmetics and personal care, environment testing, food and feed testing, forensic, genomic, maritime, materials and engineering, technologies, and REACH services. The company serves clients from a range of industries, including the pharmaceutical, food, environmental, and clinical diagnostics sectors. It operates approximately 800 laboratories in 50 countries. The company was founded in 1987 and is headquartered in Luxembourg City, Luxembourg.",
+  "website": "http://www.eurofins.com"
 }

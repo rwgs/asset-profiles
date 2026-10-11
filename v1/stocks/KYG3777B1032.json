@@ -2,6 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000BZ3PG3",
+    "figi": "BBG000BZ3PX4",
     "isin": "KYG3777B1032"
   },
   "industry": "Automobiles",
@@ -25,14 +27,34 @@
       "symbol": "GELYF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "GELYY"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GRU.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "GRU.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GRU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "GRU.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "GRU.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GRU.MU"
     },
     {
       "currency": "EUR",
@@ -43,18 +65,13 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "GRU.VI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "GRUA.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Geely Automobile Holdings Ltd.",
   "primary_symbol": "0175.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

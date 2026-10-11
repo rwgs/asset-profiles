@@ -6,6 +6,7 @@
     "figi": "BBG00WGGNM75",
     "isin": "GB00B07RVT99"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "GB00B07RVT99",
   "kind": "stock",
@@ -14,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B07RVT99.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "R1V.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TSNLF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TSTL.L"
     }
   ],
-  "name": "TRISTEL PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Tristel plc",
   "primary_symbol": "GB00B07RVT99.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "TRISTEL PLC manufactures and markets infection prevention and contamination control products. Their business model revolves around developing and selling disinfectants and related products to hospitals, laboratories, and other healthcare facilities, generating revenue through product sales and distribution agreements. The company is headquartered in Snailwell, UK."
+  "summary": "TRISTEL PLC manufactures and markets infection prevention and contamination control products. Their business model revolves around developing and selling disinfectants and related products to hospitals, laboratories, and other healthcare facilities, generating revenue through product sales and distribution agreements. The company is headquartered in Snailwell, UK.",
+  "website": "http://www.tristel.com"
 }

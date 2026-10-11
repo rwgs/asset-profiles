@@ -2,14 +2,20 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000BR82H6",
-    "figi": "BBG000BR85T6",
+    "composite_figi": "BBG000BWYYC1",
+    "figi": "BBG000BWYYC1",
     "isin": "AT0000831706"
   },
+  "industry": "Construction Materials",
   "industry_group": "Materials",
   "isin": "AT0000831706",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WBRBF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "WIB.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "WIB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WIB.F"
     },
     {
       "currency": "EUR",
@@ -34,17 +50,29 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "WIB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "WIB.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "WIE.VI"
     }
   ],
-  "name": "WIENERBERGER",
-  "primary_symbol": "WIB.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Wienerberger AG",
+  "primary_symbol": "WBRBF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Wienerberger AG is a global producer of bricks, roof tiles, concrete pavers, and pipe systems. The company's products are used in residential, commercial, and infrastructure construction projects. Wienerberger is headquartered in Vienna, Austria."
+  "summary": "Wienerberger AG is a global producer of bricks, roof tiles, concrete pavers, and pipe systems. The company's products are used in residential, commercial, and infrastructure construction projects. Wienerberger is headquartered in Vienna, Austria.",
+  "website": "https://www.wienerberger.com"
 }

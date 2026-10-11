@@ -1,6 +1,10 @@
 {
   "country": "Nigeria",
   "country_code": "NG",
+  "identifiers": {
+    "composite_figi": "BBG004LV1D81",
+    "figi": "BBG004LV1D90"
+  },
   "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "kind": "stock",
@@ -9,13 +13,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "L5K.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "LEK.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LEKOF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Lekoil Limited",
   "primary_symbol": "L5K.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -29,8 +29,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HI91.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "HI91.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HI91.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HI91.MU"
     },
     {
       "currency": "EUR",
@@ -38,6 +53,7 @@
       "symbol": "HI91.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "HI91.TI"
     },
     {
@@ -55,7 +71,7 @@
   "name": "Hilton Worldwide Holdings Inc.",
   "primary_symbol": "HLT",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

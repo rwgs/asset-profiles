@@ -2,6 +2,8 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG00JHW6GB5",
+    "figi": "BBG00JHW6GC4",
     "isin": "SE0005878741"
   },
   "industry": "Health Care Technology",
@@ -21,6 +23,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5JE.MU"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "BACTI-B.ST"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0005878741.SG"
     },
@@ -30,11 +42,11 @@
       "symbol": "SE0005878741.SW"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Bactiguard Holding AB",
   "primary_symbol": "0QV2.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

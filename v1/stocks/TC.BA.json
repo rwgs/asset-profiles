@@ -1,6 +1,11 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG000HDZBF3",
+    "figi": "BBG000HDZBF3"
+  },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "kind": "stock",
   "listings": [
@@ -10,15 +15,17 @@
       "symbol": "TC.BA"
     }
   ],
-  "name": "AT&T INC",
+  "market_cap_band": "Large Cap",
+  "name": "AT&T Inc.",
   "primary_symbol": "TC.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "AT&T INC is a telecommunications, media, and technology company. It provides services such as mobile, broadband, video, and other communications services to consumers in the U.S. and internationally. AT&T is headquartered in Dallas, Texas."
+  "summary": "AT&T INC is a telecommunications, media, and technology company. It provides services such as mobile, broadband, video, and other communications services to consumers in the U.S. and internationally. AT&T is headquartered in Dallas, Texas.",
+  "website": "http://www.att.com"
 }

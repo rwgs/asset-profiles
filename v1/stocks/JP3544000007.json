@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C2YLJ7",
-    "figi": "BBG000C2YPW3",
+    "composite_figi": "BBG000BFXX22",
+    "figi": "BBG000BFXXH6",
     "isin": "JP3544000007"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "JP3544000007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "3401.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TIJ.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "TIJ.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TIJ.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TINLF"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Teijin Limited",
-  "primary_symbol": "TIJ.BE",
+  "primary_symbol": "3401.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Teijin Limited is a Japanese technology-driven global group offering advanced solutions in the fields of environmental value; safety, security and disaster mitigation; and demographic change and increased health consciousness. Its main fields of operation are high-performance fibers, films, resin & plastic processing, healthcare, and IT. Teijin is headquartered in Tokyo, Japan."
+  "summary": "Teijin Limited engages in the fibers, films and sheets, composites, healthcare, and IT businesses worldwide. It offers para-aramid and meta-aramid fibers for friction materials, tire and rubber reinforcements, optical fiber reinforcements, ballistics protection, protective clothing, firefighting uniforms, and heat-resistant filters. The company also provides polycarbonate, PEN, and PPS resins, as well as flame retardants for use in electrical and electronic components, audiovisual and office automation equipment, personal computer casings, automotive components, and smartphone camera lenses; and polycarbonate films and sheets for organic electroluminescent display anti-reflective films and automotive instrument panels. In addition, it offers carbon fibers and intermediate materials, and oxidized PAN fibers for aircraft structural and interior components, pressure vessels, compounds, and sports and leisure goods; glass fiber composites and carbon fiber composites for use in automotive filed. Further, the company provides pharmaceuticals for bone and joint, respiratory, cardiovascular and metabolic, and other diseases; home oxygen therapy, non-invasive positive pressure ventilation, rehabilitation, and sleep disordered breathing related devices, as well as sonic accelerated fracture healing system and community-based integrated care system; and orthopedic implantable devices, functional food ingredients, digital healthcare products, and other medical devices. Additionally, it offers fiber materials and apparel for threads, textiles, sports clothing, heavy clothing, fashion apparel, and uniforms; industrial textiles and materials; and wearable sensors. The company also provides GRANDIT, a web-based enterprise resource planning software package; IT services for the healthcare and other enterprises; and e-comics distribution services. Teijin Limited was founded in 1918 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.teijin.com"
 }

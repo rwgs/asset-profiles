@@ -2,28 +2,52 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BQW307",
+    "composite_figi": "BBG00JHVVJ78",
+    "figi": "BBG00JHVVJ87",
     "isin": "SE0000323305"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "SE0000323305",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0GU8.L"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000323305.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SF7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SF7.SG"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "SOF-B.ST"
     }
   ],
-  "name": "SOFTRONIC AB-B SHS",
-  "primary_symbol": "SE0000323305.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "Softronic AB",
+  "primary_symbol": "0GU8.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SOFTRONIC AB-B SHS is a technology company that develops and markets software solutions for the manufacturing industry. They provide solutions for process automation, quality control, and production optimization. The company is headquartered in Linkoping, Sweden."
+  "summary": "Softronic AB provides IT and management services in primarily in Sweden. The company offers scanning, application hosting, secure communication, digital sales platform, cyber defense as a service, compliance manager, business system, office support, travel and event, issue management system, e-commerce, e-health, insurance system, and digitization solutions. It also provides artificial intelligence, member system, premium solution partner, digital market communication, IT and business management, customer care system, and outsourcing solutions, as well as solutions for administration and communication between students, teachers, and parents. Softronic AB was founded in 1984 and is headquartered in Stockholm, Sweden.",
+  "website": "http://www.softronic.se"
 }

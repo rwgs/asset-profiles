@@ -3,12 +3,24 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000BF33F7",
+    "figi": "BBG000BF33Y6",
     "isin": "GB00BP92CJ43"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "GB00BP92CJ43",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TATE.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TATYF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -25,15 +37,17 @@
       "symbol": "TLY.MU"
     }
   ],
-  "name": "TATE + LYLE  LS-,25",
-  "primary_symbol": "TLY.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Tate & Lyle plc",
+  "primary_symbol": "TATE.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Tate & Lyle is a global provider of food and beverage ingredients and solutions. The company operates through two divisions: Food & Beverage Solutions and Primary Products, providing ingredients such as sweeteners, starches, and fibers to enhance taste, texture, and nutrition in food and beverages. Tate & Lyle is headquartered in London, United Kingdom."
+  "summary": "Tate & Lyle PLC, together with its subsidiaries, provides ingredients and solutions to the food, beverage, and other industries in the United States, the United Kingdom, other European countries, and internationally. It operates through three segments: Food & Beverage Solutions, Sucralose, and Primary Products. The company offers texturants; nutritive sweeteners, such as high fructose corn syrup and dextrose; health and wellness ingredients; and stabilizers. It also provides industrial starches for paper, packaging, and industrial adhesives; acidulants, such as citric acid; and commodities comprising corn gluten feed and meal for animal nutrition, as well as corn oil and ethanol. In addition, the company is involved in the treasury and insurance businesses; and provision of research and development services. Tate & Lyle PLC was incorporated in 1903 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.tateandlyle.com"
 }

@@ -1,7 +1,9 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000BD8PZ6",
+    "figi": "BBG000BD8RR1",
     "isin": "DE0005545503"
   },
   "industry": "Diversified Telecommunication Services",
@@ -9,6 +11,11 @@
   "isin": "DE0005545503",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "1U1.DE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -56,16 +63,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "1+1 DRILLISCH AG O.N.",
-  "primary_symbol": "DRI.BE",
+  "name": "1&1 AG",
+  "primary_symbol": "1U1.DE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "1&1 Drillisch AG is a German telecommunications provider offering a range of services including broadband, mobile communications, and internet services. The company operates through various brands and provides its services to both residential and business customers. 1&1 Drillisch is headquartered in Montabaur, Germany.",
-  "website": "http://www.1und1-drillisch.de"
+  "summary": "1&1 AG, together with its subsidiaries, operates as a telecommunications provider in Germany. It operates through three segments: Access; 1&1 Mobile Network; and 1&1 Versatel. The company offers mobile internet, broadband products, and related applications, such as home networks, online storage, telephony, and smart home or international protocol television for residential customers and small and medium sized enterprises. It also owns and operates mobile network based on OPEN RAN technology; and the sale of telecommunication devices and accessories. In addition, the company provides fibre-optic networks comprising direct fibre connection to bespoke; and individual ICT solutions, such as voice, data, and network solutions. The company provides its products and services under the 1&1, WinSIM, Sim.de, yourfone, smartmobil.de, simply, PremiumSIM, and DeutschlandSIM brands. The company was founded in 1988 and is headquartered in Montabaur, Germany. 1&1 AG is a subsidiary of United Internet AG.",
+  "website": "https://www.1und1.ag"
 }

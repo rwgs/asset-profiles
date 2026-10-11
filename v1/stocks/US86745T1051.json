@@ -2,7 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG0064SSWJ9",
     "cusip": "86745T105",
+    "figi": "BBG0064SSWJ9",
     "isin": "US86745T1051"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -11,41 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "HKD",
-      "exchange_mic": "XLON",
-      "symbol": "0Z4I.L"
-    },
-    {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "2382.HK"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SNPTF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SOTGY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SXC.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SXC.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Sunny Optical Technology (Group) Company Limited",
-  "primary_symbol": "0Z4I.L",
+  "primary_symbol": "SOTGY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,7 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "cusip": "92707Y108"
+    "composite_figi": "BBG000BPRH40",
+    "cusip": "92707Y108",
+    "figi": "BBG000BPRJT9"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
@@ -14,10 +16,11 @@
       "symbol": "VFF.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Vereinigte Filzfabriken AG",
   "primary_symbol": "VFF.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

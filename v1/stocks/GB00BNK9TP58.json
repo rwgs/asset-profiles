@@ -1,30 +1,58 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Denmark",
+  "country_code": "DK",
   "identifiers": {
     "composite_figi": "BBG00ZSFCWJ4",
-    "figi": "BBG00ZSFCWN9",
+    "figi": "BBG00ZSFCWL1",
     "isin": "GB00BNK9TP58"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB00BNK9TP58",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "6VZ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6VZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "6VZ.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6VZ.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BNK9TP58.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TRST.L"
     }
   ],
-  "name": "TRUSTPILOT GROUP PLC",
-  "primary_symbol": "GB00BNK9TP58.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Trustpilot Group plc",
+  "primary_symbol": "6VZ.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Trustpilot Group PLC operates an online review platform that allows consumers to review businesses. The company provides a platform for businesses to collect and respond to customer feedback. Trustpilot Group PLC is headquartered in Copenhagen, Denmark."
+  "summary": "Trustpilot Group PLC operates an online review platform connecting businesses and consumers to foster trust and transparency. The platform allows consumers to write reviews about their experiences with businesses, which are then publicly available for other consumers to read. The company is headquartered in Copenhagen, Denmark.",
+  "website": "http://www.trustpilot.com"
 }

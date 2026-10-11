@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C28262",
-    "figi": "BBG000C284Y7",
+    "composite_figi": "BBG000BN0FD8",
+    "figi": "BBG000BN0FT1",
     "isin": "JP3388200002"
   },
-  "industry_group": "Food & Staples Retailing",
+  "industry": "Multiline Retail",
+  "industry_group": "Retailing",
   "isin": "JP3388200002",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8267.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AONNF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JUS1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "JUS1.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "JUS1.SG"
     }
   ],
-  "name": "Aeon Co. Ltd.",
-  "primary_symbol": "JUS1.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Aeon Co., Ltd.",
+  "primary_symbol": "8267.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "AEON CO., LTD. is a Japan-based retail company operating a network of shopping centers and supermarkets. It provides a wide range of products and services including clothing, food, household goods, and financial services. The company is headquartered in Chiba, Japan."
+  "sector": "Consumer Discretionary",
+  "summary": "Aeon Co., Ltd. operates in the retail industry in Japan and internationally. It operates through General Merchandise Store (GMS) Business, Supermarket (SM) Business, Health & Wellness Business, Financial Services Business, Shopping Center Development Business, Services & Specialty Store Business, and International Business segments. The GMS Business segment operates general merchandise stores. The SM Business segment operates supermarkets, discount stores, convenience stores, and small-scale stores. The Health & Wellness Business segment operates drugstores and dispensing pharmacies. The Financial Services Business segment provides integrated financial services, including credit, banking, insurance, and e-money card services, as well as credit cards. The Shopping Center Development Business segment develops and operates shopping centers. The Services & Specialty Store Business segment offers various services, as well as operates specialty stores. The International Business segment operates general merchandise and discount stores, and supermarkets in China and the ASEAN countries. Aeon Co., Ltd. was founded in 1758 and is headquartered in Chiba, Japan.",
+  "website": "http://www.aeon.info"
 }

@@ -2,7 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000JNDVG8",
+    "composite_figi": "BBG00GVK7RH0",
+    "figi": "BBG00NRVX567",
     "isin": "DE0005759807"
   },
   "industry": "IT Services",
@@ -12,8 +13,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0EWR.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0005759807.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IXX.BE"
     },
     {
       "currency": "EUR",
@@ -22,8 +33,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IXX.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IXX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IXX.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IXX.MU"
     },
     {
       "currency": "EUR",
@@ -33,15 +59,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "init innovation in traffic systems SE",
-  "primary_symbol": "DE0005759807.SW",
+  "primary_symbol": "0EWR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "init innovation in traffic systems SE provides intelligent transportation systems solutions for public transportation worldwide. The company develops, produces, integrates, installs, and maintains software and hardware products for transport companies. It offers research and development, planning and dispatching, analyzing and optimizing, ticketing and fare management, operations control and real-time passenger information, and service and maintenance solutions. The company was founded in 1983 and is based in Karlsruhe, Germany.",
-  "website": "http://www.initse.com"
+  "summary": "INIT Innovation in Traffic Systems SE is a German company that provides intelligent transportation systems (ITS) for public transport. The company offers integrated solutions for planning, dispatching, ticketing, and passenger information. INIT is headquartered in Karlsruhe, Germany.",
+  "website": "https://www.initse.com"
 }

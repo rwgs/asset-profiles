@@ -7,6 +7,7 @@
     "figi": "BBG000QJ8QG6",
     "isin": "CA66744H1047"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA66744H1047",
   "kind": "stock",
@@ -15,17 +16,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA66744H1047.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NWCCF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "NWST.V"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "NORTHWEST COPPER CORP",
   "primary_symbol": "CA66744H1047.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Northwest Copper Corp. is a mineral exploration company focused on advancing copper-gold porphyry deposits in British Columbia, Canada. The company is exploring and developing projects in the Skeena Arch region of British Columbia. They are focused on developing copper and gold resources."
+  "summary": "Northwest Copper Corp. is a mineral exploration company focused on advancing copper-gold porphyry deposits in British Columbia, Canada. The company is exploring and developing projects in the Skeena Arch region of British Columbia. They are focused on developing copper and gold resources.",
+  "website": "http://www.northwestcopper.ca"
 }

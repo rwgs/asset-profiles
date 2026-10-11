@@ -18,9 +18,19 @@
       "symbol": "ARW"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0HI1.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "ARW.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ARW.DU"
     },
     {
       "currency": "EUR",
@@ -29,15 +39,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ARW.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ARW.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Arrow Electronics, Inc.",
   "primary_symbol": "ARW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

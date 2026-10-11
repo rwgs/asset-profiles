@@ -2,9 +2,11 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000F6DFY4",
+    "composite_figi": "BBG000QWK3Q3",
+    "figi": "BBG000QWK5D2",
     "isin": "GB0003287249"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB0003287249",
   "kind": "stock",
@@ -13,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0003287249.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "IGP.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LYD.F"
     }
   ],
-  "name": "INTERCEDE GROUP PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Intercede Group plc",
   "primary_symbol": "GB0003287249.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Intercede Group PLC is a software company specializing in digital identity, credential management, and secure mobility solutions. The company provides software and services that enable organizations to securely manage identities and access to sensitive information. Intercede Group is headquartered in Lutterworth, United Kingdom."
+  "summary": "Intercede Group PLC is a software company specializing in digital identity, credential management, and secure mobility solutions. The company provides software and services that enable organizations to securely manage identities and access to sensitive information. Intercede Group is headquartered in Lutterworth, United Kingdom.",
+  "website": "http://www.intercede.com"
 }

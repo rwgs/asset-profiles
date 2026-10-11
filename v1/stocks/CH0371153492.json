@@ -2,6 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG00JRVHTZ0",
+    "figi": "BBG00NRVYC34",
     "isin": "CH0371153492"
   },
   "industry": "Electrical Equipment",
@@ -22,19 +24,14 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "LDGYY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "LGYRF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Landis+Gyr Group AG",
   "primary_symbol": "0RTL.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

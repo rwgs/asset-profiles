@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BWG5Z9",
-    "figi": "BBG000BWG7R4",
+    "composite_figi": "BBG000BGR1H1",
+    "figi": "BBG000BGR1X3",
     "isin": "JP3814800003"
   },
+  "industry": "Automobiles",
   "industry_group": "Automobiles & Components",
   "isin": "JP3814800003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7270.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FUH.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "FUH.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FUH.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FUJHF"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Subaru Corporation",
-  "primary_symbol": "FUH.BE",
+  "primary_symbol": "7270.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Subaru Corporation is a Japanese automotive manufacturer known for its Subaru brand of automobiles and its involvement in the aerospace industry. The company produces a range of passenger vehicles, including sedans, SUVs, and sports cars, all featuring its signature horizontally opposed \"boxer\" engines and symmetrical all-wheel-drive systems. Subaru's headquarters are located in Tokyo, Japan."
+  "summary": "Subaru Corporation manufactures and sells automobiles and aerospace products. It operates through three segments: Automotive Business Unit, Aerospace Company, and Other Businesses. The company manufactures, sells, and repairs passenger cars and their components; airplanes, aerospace-related machinery, and components; industrial product parts and agricultural transmissions; forging parts of automobile and industrial machinery; and engines, sheet metal repair parts, and remanufactured transmissions. It also manages motor sports activities; sells motor sports parts and merchandise; and provides technical development, licensing, support, and maintenance services of automobile accessories, parts, and materials. In addition, the company offers shipping, land freight, warehousing, and insurance for automobiles and components; leases and rents automobiles, as well as finances and sells auto insurance; is involved in the design, examination, and compilation of technical material for automobiles, aircraft, general-purpose engines, and environmental tools; and develops technical service documents. Further, it processes and assembles aircraft parts; and engages in the contract design, drafting, translation, calculation, analytical testing, and software development for aircraft. Additionally, Subaru Corporation deals/rents real estate; administers/operates rental halls, conference rooms, parking grounds, and travel agencies; develops, maintains, and operates information systems and related consulting services; sells and leases information equipment; sells office supplies and daily commodities; and offers personal import services. The company was formerly known as Fuji Heavy Industries Ltd. and changed its name to Subaru Corporation in April 2017. Subaru Corporation was founded in 1917 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.subaru.co.jp"
 }

@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000K3Q5M6",
     "cusip": "82901A105",
+    "figi": "BBG000K3Q5M6",
     "isin": "US82901A1051"
   },
   "industry": "Specialty Retail",
@@ -12,19 +13,32 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SIMP"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SIMPQ"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US82901A1051.SG"
     }
   ],
-  "name": "SIMPLY INC",
-  "primary_symbol": "US82901A1051.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Simply, Inc.",
+  "primary_symbol": "SIMP",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary"
+  "sector": "Consumer Discretionary",
+  "summary": "Simply, Inc. markets and distributes various mobility, computing, audio/video, and other technology products. The company operates in two segments, Simply Mac Retail Stores and Cooltech Distribution Business. As of May 03, 2021, the company had 46 retail stores in 16 states. The company offers laptops, tablets, cell phones, drones, smart watches, gaming consoles, accessories, and audio devices. It distributes various consumer electronics to resellers, retailers, and small and medium-sized businesses in Latin America and the United States. The company was formerly known as Cool Holdings, Inc. and changed its name to Simply, Inc. in October 2020. Simply, Inc. is headquartered in Miami, Florida.",
+  "website": "http://www.simplyinc.com"
 }

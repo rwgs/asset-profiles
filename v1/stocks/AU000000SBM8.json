@@ -23,24 +23,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BM1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "BM1.HM"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BM1.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BM1.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "SBM.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "STBMF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "St. Barbara Ltd.",
   "primary_symbol": "BM1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials"
+  "sector": "Materials",
+  "summary": "St Barbara Limited, together with its subsidiaries, engages in the exploration, development, mining, and sale of gold. It operates three operational business units, including Leonora Operations, Simberi Operations, and Atlantic Operations. The company primarily explores for gold and silver deposits. Its properties include the Gwalia underground mine located in Leonora, Western Australia; the Simberi gold mine located in New Ireland province, Papua New Guinea; and Atlantic Gold operations in Nova Scotia, Canada. St Barbara Limited was founded in 1969 and is based in Melbourne, Australia.",
+  "website": "http://stbarbara.com.au"
 }

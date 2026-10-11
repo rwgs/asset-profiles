@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00GVK7QD6",
+    "figi": "BBG00NRVX415",
     "isin": "DE0005146807"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -16,20 +18,50 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DEX.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DEX.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DEX.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DEX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "DEX.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DEX.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DEX.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DEX.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Delticom AG",
   "primary_symbol": "0E4J.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

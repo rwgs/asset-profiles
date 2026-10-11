@@ -2,18 +2,29 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG004RWRPS6",
-    "figi": "BBG004RWRPZ8",
+    "composite_figi": "BBG004ML6D96",
+    "figi": "BBG004ML6DB3",
     "isin": "JP3336560002"
   },
+  "industry": "Beverages",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "JP3336560002",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "2587.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "7SN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7SN.F"
     },
     {
       "currency": "EUR",
@@ -24,17 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "7SN.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "STBFF"
     }
   ],
-  "name": "Suntory Beverage & Food Ltd.",
-  "primary_symbol": "7SN.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Suntory Beverage & Food Limited",
+  "primary_symbol": "2587.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Suntory Beverage & Food Ltd. is a Japanese beverage company, a subsidiary of Suntory Holdings. It manufactures and sells a wide range of beverages, including soft drinks, bottled water, tea, and coffee. The company operates globally and owns various brands."
+  "summary": "Suntory Beverage & Food Limited, a soft drink company, manufactures and sells beverages and foods in Japan, Europe, rest of Asia, Oceania, and the Americas. The company offers mineral water, ready-to-drink (RTD) coffee, RTD tea, carbonated beverages, functional drinks, fruit juices, and processed food. It also provides health foods. The company sells its products under the Suntory Tennensui, Boss, Suntory Green Tea Iyemon, Suntory Iyemon Tokucha, Suntory Oolong Tea, Green DAKARA, Pepsi, Orangina, Dekavita C, C.C. Lemon, Natchan!, and Suntory Black Oolong Tea brand names. Suntory Beverage & Food Limited was founded in 2009 and is headquartered in Tokyo, Japan. Suntory Beverage & Food Limited is a subsidiary of Suntory Holdings Limited.",
+  "website": "http://www.suntory.co.jp/softdrink/"
 }

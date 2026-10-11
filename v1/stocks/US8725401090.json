@@ -7,8 +7,8 @@
     "figi": "BBG000BV8G95",
     "isin": "US8725401090"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "US8725401090",
   "kind": "stock",
   "listings": [
@@ -24,13 +24,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TJX.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "TJX.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TJX.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TJX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TJX.MU"
     },
     {
       "currency": "MXN",
@@ -43,6 +58,7 @@
       "symbol": "TJX.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "TJX.TI"
     },
     {
@@ -60,7 +76,7 @@
   "name": "TJX Companies Inc",
   "primary_symbol": "TJX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

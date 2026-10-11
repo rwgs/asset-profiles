@@ -1,6 +1,6 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG00L4673D7",
     "figi": "BBG00L4673L8",
@@ -38,15 +38,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CPX.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000A2G9M17.SW"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "CAPSENSIXX AG  INH O.N.",
+  "name": "capsensixx AG",
   "primary_symbol": "CPX.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

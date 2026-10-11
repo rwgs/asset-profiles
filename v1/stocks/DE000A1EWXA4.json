@@ -3,28 +3,46 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG001PBVZ94",
-    "figi": "BBG001PBVZL0",
+    "figi": "BBG001PBVZD9",
     "isin": "DE000A1EWXA4"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Independent Power and Renewable Electricity Producers",
+  "industry_group": "Utilities",
   "isin": "DE000A1EWXA4",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "ABO.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ABO.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "ABO.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ABO.MU"
     }
   ],
-  "name": "CLEARVISE AG INH O.N.",
-  "primary_symbol": "ABO.HM",
+  "market_cap_band": "Micro Cap",
+  "name": "clearvise AG",
+  "primary_symbol": "ABO.DE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "CLEARVISE AG INH O.N. is a company which likely provides consulting services. The company is based in Germany."
+  "sector": "Utilities",
+  "summary": "Clearwise AG produces and distributes electricity and heat in Europe. It owns and operates 66 wind turbines with an installed nominal capacity of 150.7 megawatts (MW), including 24 in France, 19 in Germany, 14 in Ireland, and 9 in Finland; and a biogas plant with a nominal capacity of 0.8 MW located in Saxony-Anhalt. The company was formerly known as ABO Invest AG and changed its name to Clearwise AG in January 2021. Clearwise AG was founded in 2010 and is based in Wiesbaden, Germany.",
+  "website": "https://www.clearvise.de"
 }

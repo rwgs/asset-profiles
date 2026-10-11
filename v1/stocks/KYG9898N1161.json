@@ -2,26 +2,37 @@
   "country": "Cayman Islands",
   "country_code": "KY",
   "identifiers": {
-    "composite_figi": "BBG000Q5MSF7",
-    "figi": "BBG000Q5MVW1",
+    "composite_figi": "BBG000BN57L2",
+    "figi": "BBG000BN57V1",
     "isin": "KYG9898N1161"
   },
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "KYG9898N1161",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0672.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG9898N1161.SG"
     }
   ],
-  "name": "ZHONG AN GROUP LTD",
-  "primary_symbol": "KYG9898N1161.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Zhong An Group Limited",
+  "primary_symbol": "0672.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Real Estate",
+  "summary": "Zhong An Group Limited, established in 1997 and headquartered in Hangzhou, China, is a conglomerate focused on hospitality management, real estate leasing and property development in mainland China and Canada. Its core operations include a Residential segment covering development, sale and management of residential property.",
+  "website": "https://www.zhongangrouphk.com"
 }

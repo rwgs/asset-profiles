@@ -2,17 +2,30 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG00P3BYJY0",
     "cusip": "36257Y109",
+    "figi": "BBG00P3BYJY0",
     "isin": "US36257Y1091"
   },
+  "industry": "Diversified Consumer Services",
   "industry_group": "Consumer Services",
   "isin": "US36257Y1091",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "GOTU"
+    },
+    {
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A7G.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "18WA.BE"
     },
     {
       "currency": "EUR",
@@ -21,21 +34,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "18WA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "18WA.MU"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "GSXN.MX"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Gaotu Techedu, Inc. Sponsored ADR Class A",
-  "primary_symbol": "0A7G.L",
+  "name": "Gaotu Techedu Inc. American Depositary Shares",
+  "primary_symbol": "GOTU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "GSX Techedu Inc., a technology-driven education company, provides online K-12 after-school tutoring services in the People's Republic of China. Its K-12 after-school tutoring courses cover various K-12 academic subjects, including mathematics, English, Chinese, physics, chemistry, biology, history, geography, and political science. The company also provides foreign language courses comprising English and Japanese, as well as English test preparation courses for students taking post-graduate entrance exams; and professional courses primarily for working adults preparing for professional qualification exams, such as teacher's qualification, the Chartered Financial Analyst designation, securities qualification exams, and other exams. In addition, it offers admission courses for admission tests, including national graduate entrance examination, civil service examinations, and others. Further, the company provides other courses, including offline business consulting courses to enhance management skills for principals and other officers of private education institutions; and operates Weishi, an interactive learning platform on WeChat for instructors and students. The company was formerly known as BaiJiaHuLian Group Holdings Limited and changed its name to GSX Techedu Inc. in January 2019. GSX Techedu Inc. was incorporated in 2014 and is headquartered in Beijing, the People's Republic of China.",
+  "summary": "Gaotu Techedu Inc. American Depositary Shares is a technology-driven education company in China. It offers online K-12 courses covering core subjects and vocational training. Gaotu Techedu is headquartered in Beijing, China.",
   "website": "http://www.baijia.com"
 }

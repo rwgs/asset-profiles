@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BWXJH0",
-    "figi": "BBG000BWXNP2",
+    "composite_figi": "BBG000BLTF50",
+    "figi": "BBG000BLTFN0",
     "isin": "JP3820000002"
   },
+  "industry": "Electrical Equipment",
   "industry_group": "Capital Goods",
   "isin": "JP3820000002",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6504.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FELTF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FJE.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "FJE.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "FJE.SG"
     }
   ],
-  "name": "Fuji Electric Company Ltd.",
-  "primary_symbol": "FJE.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Fuji Electric",
+  "primary_symbol": "6504.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "FUJI ELECTRIC CO. LTD. is a Japanese electrical equipment manufacturer, providing power electronics, semiconductors, factory automation, and power generation systems. The company also offers services related to these products. Fuji Electric is headquartered in Tokyo, Japan."
+  "summary": "Fuji Electric Co., Ltd., together with its subsidiaries, develops power semiconductors and electronics solutions in Japan and internationally. It operates through Energy, Industry, Semiconductors, and Food and Beverage Distribution segments. The company also offers drivers and controls including AC drivers, motors, and servo systems; programmable logic controllers; human machine interface; power supply products, which includes uninterruptible power systems, solar inverters, data centers, regulators, rectifiers, and formers; sensors and measurements, such as instrumentation and radiation monitoring systems; and monitoring and control systems. In addition, it provides distribution and controls, including LV and MV distributions, motor controls, and energy control equipment; transmission and distribution comprising oil-immersed transformers, shunt reactors, cast resin transformers, gas insulated switchgears, MV and LV switchgears, and control centers; and transit systems, which includes tunnel ventilation systems, marine environment protection systems, and electrical equipment for railcars. Further, the company offers thermal and geothermal power generation, nuclear power, and fuel cell; energy management including power system simulator, steel EMS solutions, and boiler combustion solutions; can and PET, multi-purpose, frozen, and coffee machine; and transformers, AC drives, UPS, monitoring and control system upgrades solutions, as well as beverage vending machines, vending machines for food and other goods, store equipment, and currency handling equipment. Fuji Electric Co., Ltd. was formerly known as Fuji Electric Holdings Co., Ltd. and changed its name to Fuji Electric Co., Ltd. in 2011. The company was incorporated in 1923 and is headquartered in Tokyo, Japan.",
+  "website": "https://www.fujielectric.com"
 }

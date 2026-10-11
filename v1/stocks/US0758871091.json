@@ -2,15 +2,31 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000DXDG48",
+    "composite_figi": "BBG000BCZYD3",
     "cusip": "075887109",
-    "figi": "BBG000DXDJY9",
+    "figi": "BBG000BD00Y0",
     "isin": "US0758871091"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US0758871091",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BDX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0R19.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BDX.VI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,8 +34,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "BOX.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "BOX.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BOX.F"
     },
     {
       "currency": "EUR",
@@ -30,17 +56,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BOX.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "BOX.TI"
     }
   ],
-  "name": "BECTON, DICKINSON  DL 1",
-  "primary_symbol": "BOX.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Becton, Dickinson and Company",
+  "primary_symbol": "BDX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Becton, Dickinson and Company (BD) is a global medical technology company that develops, manufactures, and sells a wide range of medical devices, instrument systems, and reagents. BD serves healthcare institutions, life science researchers, clinical laboratories, the pharmaceutical industry, and the general public. The company is headquartered in Franklin Lakes, New Jersey."
+  "summary": "Becton, Dickinson and Company develops, manufactures, and sells medical supplies, devices, laboratory equipment, and diagnostic products worldwide. The company's BD Medical segment offers peripheral intravenous (IV) and advanced peripheral catheters, central lines, acute dialysis catheters, vascular care and preparation products, needle-free IV connectors and extensions sets, closed-system drug transfer devices, hazardous drug detection, hypodermic syringes and needles, anesthesia needles and trays, enteral syringes, sharps disposal systems; infusion pumps, dedicated disposables, IV fluids, medication compounding workflow systems, automated medication dispensing, automated supply management systems, medication inventory optimization and tracking systems; syringes, pen needles, and other products for diabetes care; and prefillable drug delivery systems. Its BD Life Sciences segment provides specimen and blood collection products and systems; automated blood and tuberculosis culturing, molecular testing, microorganism identification and drug susceptibility, and liquid-based cytology systems, as well as rapid diagnostic assays, microbiology laboratory automation products, and plated media products; and fluorescence-activated cell sorters and analyzers, antibodies and kits, reagent systems, and solutions for high-throughput single-cell gene expression analysis, as well as clinical oncology, immunological, and transplantation diagnostic/monitoring reagents and analyzers. The company's BD Interventional segment offers hernia and soft tissue repair, biological and bioresorbable grafts, biosurgery, and other surgical products; surgical infection prevention, surgical and laparoscopic instrumentation products; peripheral intervention products; and urology and critical care products. Becton, Dickinson and Company was founded in 1897 and is based in Franklin Lakes, New Jersey.",
+  "website": "http://www.bd.com"
 }

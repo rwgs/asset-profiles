@@ -3,32 +3,51 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000BL9JL6",
+    "figi": "BBG000BL9K51",
     "isin": "JP3870400003"
   },
-  "industry_group": "Retailing",
+  "industry": "Consumer Finance",
+  "industry_group": "Diversified Financials",
   "isin": "JP3870400003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8252.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JP3870400003.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MAURF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "MUI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MUI.F"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Marui Group Co., Ltd.",
-  "primary_symbol": "JP3870400003.SG",
+  "primary_symbol": "8252.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "MARUI GROUP CO., LTD. operates department stores and engages in credit card and financial services. The company's core business is retail, but it also offers financial products and services through its credit card business. MARUI GROUP CO LTD is headquartered in Tokyo, Japan."
+  "sector": "Financials",
+  "summary": "Marui Group Co., Ltd., an investment holding company, engages in the retailing and FinTech businesses in Japan. The company operates through two segments, Retailing and FinTech. The company engages in retailing and store operations, internet sales, store opening support, and specialty store businesses, as well as operates curated websites. It also engages in real estate rental; credit card and credit loan; and collection and management of receivables, and credit check businesses. Additionally, the company engages in the design and construction of commercial facilities; property and building management; rent guarantee; software development, and computer and IT systems operations; small-amount short-term insurance policy; and advertisement planning and creation, and space production businesses. In addition, it engages in the sale of investment trusts, as well as provides trucking and forwarding services. Further, the company invests in and finances companies operating in direct-to-consumer businesses; and engages in the provision of supply pickup, product inspection, and printing services. Marui Group Co., Ltd. was founded in 1931 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.0101maruigroup.co.jp"
 }

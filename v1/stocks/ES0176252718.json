@@ -2,8 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000J85HF2",
-    "figi": "BBG000J85J22",
+    "composite_figi": "BBG007R9GKF7",
+    "figi": "BBG007R9GKH5",
     "isin": "ES0176252718"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,6 +11,21 @@
   "isin": "ES0176252718",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0MKO.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MEL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MEL.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -23,6 +38,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MEL.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MEL.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "MEL.VI"
     },
@@ -32,17 +57,17 @@
       "symbol": "SMIZF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Melia Hotels International, S.A.",
-  "primary_symbol": "MEL.F",
+  "primary_symbol": "0MKO.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Meliá Hotels International, S.A. owns, manages, operates, leases, and franchises hotels worldwide. The company operates approximately 380 hotels under the Gran Meliá Hotels & Resorts, Paradisus by Meliá, ME by Meliá, Meliá Hotels & Resorts, INNSIDE by Meliá, Sol by Meliá, TRYP by Wyndham, and Circle by Melia brand names, as well as Meliá PRO, a platform for B2B clients. It also operates Club Meliá vacation club; develops and operates real estate properties; and engages in the casinos and tour-operator activities. The company was formerly known as Sol Meliá, S.A. and changed its name to Meliá Hotels International, S.A. in June 2011. Meliá Hotels International, S.A. was founded in 1956 and is based in Palma de Mallorca, Spain.",
+  "summary": "Meliá Hotels International, S.A. is a Spanish hotel chain that operates a portfolio of hotels under various brands. It manages and franchises hotels in numerous countries around the world. The company is headquartered in Palma de Mallorca, Spain.",
   "website": "http://www.meliahotelsinternational.com"
 }

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000NLDWV8",
-    "figi": "BBG000NLDWV8",
+    "composite_figi": "BBG000BGKTJ5",
+    "figi": "BBG000BGKVD6",
     "isin": "BMG814741010"
   },
   "industry": "Communications Equipment",
@@ -12,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2000.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SIMTF"
@@ -19,15 +24,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "SIM Technology Group Limited",
-  "primary_symbol": "SIMTF",
+  "primary_symbol": "2000.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SIM Technology Group Limited, an investment holding company, primarily designs, develops, manufactures, and sells handsets and Internet of Things (IOT) terminals. It operates through Handsets and IOT Terminals Business, Electronics Manufacturing Services Business, IOT System and Online-to-Offline Business, and Property Management segments. The company also offers electronic manufacturing services. In addition, it provides goods to vending machine customers; logistics services; and procurement agency and equipment finance lease services. Further, the company develops automated test equipment; and holds land use rights. Additionally, it develops, rents, and manages properties. The company has operations in the People's Republic of China, Europe, the United States, Hong Kong, and other Asian countries. SIM Technology Group Limited was founded in 1986 and is headquartered in Shanghai, the People's Republic of China.",
+  "summary": "SIM Technology Group Limited, headquartered in Shanghai and established in 1986, is an investment holding firm that develops, makes and distributes mobile phones and IoT devices for China, Europe, the US and other Asian markets. It operates handset and IoT, electronics manufacturing services and property management divisions, and also provides logistics, procurement, finance leasing and smart home projects.",
   "website": "http://www.sim.com"
 }

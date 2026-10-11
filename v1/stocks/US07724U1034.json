@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BZQRH3",
+    "composite_figi": "BBG000PK4PR8",
     "cusip": "07724U103",
-    "figi": "BBG000BZQRH3",
+    "figi": "BBG000PK4PR8",
     "isin": "US07724U1034"
   },
   "industry": "Household Products",
@@ -15,32 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "BDRFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "BDRFY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "BEI.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "BEI.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "BEI.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "BEI.VI"
     },
     {
       "currency": "EUR",
@@ -48,16 +23,16 @@
       "symbol": "BEIA.F"
     },
     {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "BEIN.MX"
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BEIA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Beiersdorf Aktiengesellschaft",
-  "primary_symbol": "BDRFF",
+  "primary_symbol": "BDRFY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

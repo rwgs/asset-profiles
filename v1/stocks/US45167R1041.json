@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000J7SZF9",
+    "composite_figi": "BBG000C1HN22",
     "cusip": "45167R104",
-    "figi": "BBG000J7V4M6",
+    "figi": "BBG000C1HPK7",
     "isin": "US45167R1041"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "US45167R1041",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "IEX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ID7.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -22,15 +33,17 @@
       "symbol": "ID7.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "IDEX Corporation",
-  "primary_symbol": "ID7.MU",
+  "primary_symbol": "IEX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "IDEX Corporation is a global fluidics leader specializing in highly engineered solutions in areas such as health & science, safety, and fire & rescue. Headquartered in Lake Forest, Illinois, the company designs, manufactures and distributes a range of products, including pumps, valves, and other fluid handling components. IDEX serves a wide array of industries."
+  "summary": "IDEX Corporation, together with its subsidiaries, operates as an applied solutions company worldwide. The company operates through three segments: Fluid & Metering Technologies (FMT), Health & Science Technologies (HST), and Fire & Safety/Diversified Products (FSDP). The FMT segment designs, produces, and distributes positive displacement pumps, small volume provers, flow meters, injectors, and other fluid-handling pump modules and systems, as well as offers flow monitoring and other services for the food, chemical, general industrial, water and wastewater, agricultural, and energy industries. The HST segment provides precision fluidics, rotary lobe pumps, centrifugal and positive displacement pumps, roll compaction, and drying systems for use in beverage, food processing, pharmaceutical, and cosmetics; pneumatic components and sealing solutions, such as pumping solutions for analytical instrumentation, clinical diagnostics, and drug discovery; molded and extruded sealing components; custom mechanical and shaft seals; engineered hygienic mixers and valves; biocompatible medical devices and implantables; and air compressors. This segment also offers optical components and coatings for applications in the scientific research, defense, biotechnology, aerospace, telecommunications, and electronics manufacturing applications; laboratory and commercial equipment to produce micro and nano scale materials; precision photonic solutions; and precision gear and peristaltic pump technologies. The FSDP segment produces and distributes firefighting pumps, valves and controls, rescue tools, lifting bags, and other components and systems for the fire and rescue industry; engineered stainless steel banding and clamping devices for various industrial and commercial applications; and precision equipment for dispensing, metering, and mixing colorants and paints used in retail and commercial businesses. The company was incorporated in 1987 and is headquartered in Northbrook, Illinois.",
+  "website": "http://www.idexcorp.com"
 }

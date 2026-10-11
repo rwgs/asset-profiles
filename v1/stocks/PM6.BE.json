@@ -5,6 +5,7 @@
     "composite_figi": "BBG0027J6SK6",
     "figi": "BBG0027J6SR9"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "kind": "stock",
   "listings": [
@@ -12,17 +13,54 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "PM6.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PM6.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PM6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PM6.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PM6.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "POLY.L"
+    },
+    {
+      "currency": "RUB",
+      "exchange_mic": "MISX",
+      "symbol": "POLY.ME"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "POYYF"
     }
   ],
-  "name": "POLYMETAL INTL PLC",
+  "market_cap_band": "Large Cap",
+  "name": "Polymetal International plc",
   "primary_symbol": "PM6.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "POLYMETAL INTL PLC is a precious metals mining company with operations in Russia and Kazakhstan. It focuses on the extraction and production of gold, silver, and copper. The company is headquartered in St. Petersburg, Russia."
+  "summary": "POLYMETAL INTL PLC is a precious metals mining company with operations in Russia and Kazakhstan. It focuses on the extraction and production of gold, silver, and copper. The company is headquartered in St. Petersburg, Russia.",
+  "website": "http://www.polymetalinternational.com"
 }

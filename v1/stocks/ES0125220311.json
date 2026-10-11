@@ -2,8 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000BSYVK7",
-    "figi": "BBG000BSYVK7",
+    "composite_figi": "BBG000KNZ935",
+    "figi": "BBG000KNZB76",
     "isin": "ES0125220311"
   },
   "industry": "Construction & Engineering",
@@ -12,14 +12,39 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0H4K.IL"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ACXIF"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AJ3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AJ3.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AJ3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AJ3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AJ3.SG"
     },
     {
       "currency": "EUR",
@@ -32,17 +57,17 @@
       "symbol": "ANA.VI"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Acciona, S.A.",
-  "primary_symbol": "ACXIF",
+  "primary_symbol": "0H4K.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Acciona, S.A., together with its subsidiaries, engages in the energy, infrastructure, and other businesses in Spain and internationally. The company develops, constructs, operates, and maintains wind, solar photovoltaic, solar thermal, hydro, and biomass plants. It also engages in designing, construction, maintenance, and management of infrastructure projects, including bridges, highways, motorways, roads, tunnels, railway, and metros and trams, as well as ports and water channels, airports, freight forwarding, data centers, substations, and transmission lines. In addition, the company offers event planning and management services, as well as designs, constructs, and operates drinking water treatment plants, reverse osmosis desalination plants, wastewater treatment plants, and tertiary treatment plants for water reuse; and constructs, operates, and manages health infrastructure, and academic institutions and student residences. Further, it provides museum and art center solutions; urban services; and shared electric motorcycles, as well as undertakes real estate projects; and projects for the urban and social regeneration of spaces. Additionally, the company facility, airport handling, waste collection and treatment, logistics, rail, and other services. It also engages in the fund management, stock broking, wine production, and other businesses. Acciona, S.A. is headquartered in Alcobendas, Spain.",
+  "summary": "Acciona S.A. is a Spanish conglomerate involved in infrastructure and renewable energy projects. The company designs, constructs, finances, and manages infrastructure projects, including roads, railways, hospitals, and water treatment plants, and is a major player in renewable energy generation, particularly wind power. Acciona is headquartered in Madrid, Spain.",
   "website": "http://www.acciona.com"
 }

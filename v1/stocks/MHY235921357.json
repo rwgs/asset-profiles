@@ -1,27 +1,39 @@
 {
-  "country": "Marshall Islands",
-  "country_code": "MH",
+  "country": "Greece",
+  "country_code": "GR",
   "identifiers": {
-    "composite_figi": "BBG00FBDL2Q9",
-    "figi": "BBG00FBDL2V3",
+    "composite_figi": "BBG000C9GH56",
+    "cusip": "Y23592135",
+    "figi": "BBG000C9GH56",
     "isin": "MHY235921357"
   },
+  "industry": "Marine",
+  "industry_group": "Transportation",
   "isin": "MHY235921357",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "ESEA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MHY235921357.SG"
     }
   ],
-  "name": "EUROSEAS LTD",
-  "primary_symbol": "MHY235921357.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Euroseas Ltd.",
+  "primary_symbol": "ESEA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "Euroseas Ltd. provides ocean-going transportation services worldwide. The company owns and operates containerships that transport dry and refrigerated containerized cargoes primarily, including manufactured products and perishables. As of April 15, 2020, its fleet consisted of 19 containerships. The company was founded in 2005 and is based in Maroussi, Greece.",
+  "website": "http://www.euroseas.gr"
 }

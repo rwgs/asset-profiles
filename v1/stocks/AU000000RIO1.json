@@ -6,6 +6,7 @@
     "figi": "BBG000BZ7GH8",
     "isin": "AU000000RIO1"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU000000RIO1",
   "kind": "stock",
@@ -19,6 +20,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "CRA1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CRA1.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +45,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CRA1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RTNTF"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Rio Tinto Limited",
   "primary_symbol": "CRA1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Rio Tinto Ltd is a global mining company, headquartered in London, UK. It focuses on mining and processing mineral resources, including iron ore, aluminum, copper, diamonds, gold and energy products. Rio Tinto operates assets around the world and is committed to sustainable business practices."
+  "summary": "Rio Tinto Ltd is a global mining company, headquartered in London, UK. It focuses on mining and processing mineral resources, including iron ore, aluminum, copper, diamonds, gold and energy products. Rio Tinto operates assets around the world and is committed to sustainable business practices.",
+  "website": "http://www.riotinto.com"
 }

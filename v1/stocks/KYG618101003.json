@@ -2,29 +2,52 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000MYGDS4",
-    "figi": "BBG000MYGHL2",
+    "composite_figi": "BBG000MHMQC2",
+    "figi": "BBG000MHMRD9",
     "isin": "KYG618101003"
   },
+  "industry": "Diversified Consumer Services",
   "industry_group": "Consumer Services",
   "isin": "KYG618101003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0919.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M3L.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "M3L.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M3L.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "M3L.SG"
     }
   ],
-  "name": "Modern Beauty Salon Hldgs Ltd.R",
-  "primary_symbol": "M3L.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Modern Healthcare Technology Holdings Limited",
+  "primary_symbol": "0919.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Modern Beauty Salon Holdings Limited operates beauty salons and retail outlets selling skincare, cosmetics, and wellness products. The company is based in Hong Kong. They provide beauty and slimming services, as well as distribute beauty products."
+  "summary": "Modern Healthcare Technology Holdings Limited, formerly Modern Beauty Salon Holdings Limited, is an investment holding company serving customers in Hong Kong, mainland China, Singapore and Australia. It earns revenue from beauty and wellness services, including facials, aesthetics, slimming, spa and massage, and from skincare and wellness products sold under many brands such as FERRECARE and Byotea. Smaller activities include sub-franchising, training, property holding, hospitality and fund management.",
+  "website": "https://www.modernhealthcaretech.com"
 }

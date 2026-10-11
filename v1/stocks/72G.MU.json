@@ -1,6 +1,12 @@
 {
   "country": "Norway",
   "country_code": "NO",
+  "identifiers": {
+    "composite_figi": "BBG00Z1RQFK7",
+    "figi": "BBG00Z1RQFQ1"
+  },
+  "industry": "Construction & Engineering",
+  "industry_group": "Capital Goods",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +15,14 @@
       "symbol": "72G.MU"
     }
   ],
-  "name": "ELOP AS  AS  NK -,50",
+  "name": "ELOP AS AS NK -,50",
   "primary_symbol": "72G.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials"
 }

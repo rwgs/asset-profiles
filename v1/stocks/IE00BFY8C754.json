@@ -2,8 +2,9 @@
   "country": "Ireland",
   "country_code": "IE",
   "identifiers": {
-    "composite_figi": "BBG000DHFB60",
-    "figi": "BBG000DHFBF0",
+    "composite_figi": "BBG00MRHG523",
+    "cusip": "G8473T100",
+    "figi": "BBG00MRHG523",
     "isin": "IE00BFY8C754"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,6 +13,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "STE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2TG.F"
@@ -19,9 +25,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "STERIS plc",
-  "primary_symbol": "2TG.F",
+  "primary_symbol": "STE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,28 +2,47 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00328NPF6",
+    "composite_figi": "BBG00JHW3WC2",
+    "figi": "BBG00JHW3WD1",
     "isin": "NO0010612450"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "NO0010612450",
   "kind": "stock",
   "listings": [
     {
+      "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0Q92.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010612450.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S2B.F"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "SBO.OL"
     }
   ],
-  "name": "SELVAAG BOLIG ASA",
-  "primary_symbol": "NO0010612450.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Selvaag Bolig ASA",
+  "primary_symbol": "0Q92.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Selvaag Bolig ASA is a residential property developer in Norway and Sweden. The company develops and sells apartments and houses in urban areas. Selvaag Bolig ASA is headquartered in Oslo, Norway."
+  "summary": "Selvaag Bolig ASA, a housing development company, engages in the construction and sale of residential properties in Greater Oslo, Bergen, Stavanger, Trondheim, and Stockholm. The company offers its properties under the Start, Home, and Pluss brands. The company was incorporated in 2008 and is headquartered in Oslo, Norway. Selvaag Bolig ASA is a subsidiary of Selvaag AS.",
+  "website": "http://www.selvaagboligasa.no"
 }

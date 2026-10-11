@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG001YKDND6",
     "cusip": "52603A208",
-    "figi": "BBG0074JGF52",
+    "figi": "BBG001YKDND6",
     "isin": "US52603A2087"
   },
   "industry": "Consumer Finance",
@@ -12,6 +12,11 @@
   "isin": "US52603A2087",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "HAPN"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -39,16 +44,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "LendingClub Corp",
-  "primary_symbol": "LC",
+  "name": "Happen Inc. Common Stock",
+  "primary_symbol": "HAPN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "LendingClub Corporation, operates as a bank holding company for LendingClub Bank, National Association that provides range of financial products and services through a technology-driven platform in the United States. The company provides commercial and industrial, commercial real estate, small business, and equipment loans, as well as leases equipment; and unsecured personal and auto, patient finance, and education finance loans. It also operates an online lending marketplace platform that connects borrowers and investors. The company was incorporated in 2006 and is headquartered in San Francisco, California.",
-  "website": "http://www.lendingclub.com"
+  "summary": "Happen, Inc., operates as a bank holding company, that provides range of financial products and services in the United States. [8, 24, 33, 52, 60, 62] It offers deposit products, including savings accounts, checking accounts, and certificates of deposit; patient and education finance loans; and commercial loans, including small business loans. [8, 33] The company also provides consumer loans, such as Unsecured and unsecured, fixed-rate, and fixed-term consumer loans; and secured auto refinance loans. [8, 33]",
+  "website": "https://www.happen.com"
 }

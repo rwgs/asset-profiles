@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BYS608",
-    "figi": "BBG000BYS8X8",
+    "composite_figi": "BBG000BFTPN1",
+    "figi": "BBG000BFTQ31",
     "isin": "JP3420600003"
   },
-  "industry_group": "Real Estate",
+  "industry": "Household Durables",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "JP3420600003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "1928.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SKHSF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SPH1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "SPH1.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "SPH1.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Sekisui House, Ltd.",
-  "primary_symbol": "SPH1.BE",
+  "primary_symbol": "1928.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "Sekisui House, Ltd. is a Japanese homebuilder that designs, constructs, and sells residential and commercial properties. The company also develops and manages real estate properties. Sekisui House is headquartered in Osaka, Japan."
+  "sector": "Consumer Discretionary",
+  "summary": "Sekisui House, Ltd. designs, constructs, and contracts built-to-order detached houses in Japan and internationally. It also engages in the design, construction, and contracting of built-to-order properties for lease, medical and nursing care facilities, commercial facilities, and hotels; design, construction, and contracting of construction of buildings and civil engineering works; remodeling and renovation of houses, etc.; sub-lease, management, operation, and brokerage of real estate; sale of houses and residential land; design, construction, and sale of condominiums; and development of office and commercial buildings, as well as management and operation of owned properties. The company was founded in 1960 and is headquartered in Osaka, Japan.",
+  "website": "http://www.sekisuihouse.co.jp"
 }

@@ -1,10 +1,12 @@
 {
-  "country": "Bermuda",
-  "country_code": "BM",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG005931MJ2",
+    "figi": "BBG00593GFN6",
     "isin": "BMG671801022"
   },
+  "industry": "Energy Equipment & Services",
   "industry_group": "Energy",
   "isin": "BMG671801022",
   "kind": "stock",
@@ -13,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BMG671801022.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OD3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OD3.MU"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "ODL.OL"
     }
   ],
-  "name": "ODFJELL DRILLING LTD",
+  "market_cap_band": "Mid Cap",
+  "name": "Odfjell Drilling Ltd.",
   "primary_symbol": "BMG671801022.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Odfjell Drilling Ltd is an international drilling contractor that owns and operates a fleet of mobile offshore drilling units (MODUs). The company provides drilling services to the oil and gas industry, focusing on harsh environments and deepwater operations. Odfjell Drilling Ltd is headquartered in Hamilton, Bermuda."
+  "summary": "Odfjell Drilling Ltd is an international drilling contractor that owns and operates a fleet of mobile offshore drilling units (MODUs). The company provides drilling services to the oil and gas industry, focusing on harsh environments and deepwater operations. Odfjell Drilling Ltd is headquartered in Hamilton, Bermuda.",
+  "website": "http://www.odfjelldrilling.com"
 }

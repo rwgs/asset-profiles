@@ -2,18 +2,35 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000DCKBL8",
-    "figi": "BBG000DCKGK8",
+    "composite_figi": "BBG000DB3KT1",
+    "cusip": "G96629103",
+    "figi": "BBG000DB3KT1",
     "isin": "IE00BDB6Q211"
   },
+  "industry": "Insurance",
   "industry_group": "Insurance",
   "isin": "IE00BDB6Q211",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "WTW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0Y4Q.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "WTY.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WTY.F"
     },
     {
       "currency": "EUR",
@@ -26,15 +43,17 @@
       "symbol": "WTY.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Willis Towers Watson Public Limited Company",
-  "primary_symbol": "WTY.BE",
+  "primary_symbol": "WTW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Willis Towers Watson Public Limited Company is a global advisory, broking, and solutions company. They help clients manage risk, optimize benefits, cultivate talent, and expand the power of capital to protect and strengthen institutions and individuals. The company is headquartered in London, United Kingdom."
+  "summary": "Willis Towers Watson Public Limited Company is a global advisory, broking, and solutions company. They help clients manage risk, optimize benefits, cultivate talent, and expand the power of capital to protect and strengthen institutions and individuals. The company is headquartered in London, United Kingdom.",
+  "website": "http://www.willistowerswatson.com"
 }

@@ -3,31 +3,76 @@
   "country_code": "NL",
   "identifiers": {
     "composite_figi": "BBG00Q72DY29",
-    "figi": "BBG00Q72DY74",
+    "figi": "BBG00Q72DY92",
     "isin": "NL0013654783"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Interactive Media & Services",
+  "industry_group": "Software & Services",
   "isin": "NL0013654783",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1TY.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "1TY.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "1TY.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1TY.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NL0013654783.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PROSF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "PRX.AS"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "PRX.JO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "PRX.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "PRXN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "PROSUS NV",
-  "primary_symbol": "NL0013654783.SG",
+  "name": "Prosus N.V.",
+  "primary_symbol": "1TY.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "Prosus N.V. engages in the e-commerce and internet businesses. It operates internet platforms, such as classifieds, payments and fintech, food delivery, travel, education, etail, health, social, and other internet platforms. It has operations in the Americas, Africa, Central and Eastern Europe, and Asia. The company was formerly known as Myriad International Holdings N.V. and changed its name to Prosus N.V. in August 2019. Prosus N.V. is headquartered in Amsterdam, the Netherlands. Prosus N.V. is a subsidiary of Naspers Limited.",
+  "sector": "Information Technology",
+  "summary": "Prosus N.V. is a global consumer internet group and one of the largest technology investors in the world. Through its investments, it operates and invests globally in markets with long-term growth potential, building leading companies in the online classifieds, payments and fintech, food delivery, etail, education, and social and internet platforms sectors and is headquartered in Amsterdam, Netherlands.",
   "website": "http://www.prosus.com"
 }

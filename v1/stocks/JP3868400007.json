@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BX1V77",
-    "figi": "BBG000BX1X73",
+    "composite_figi": "BBG000BMCPZ1",
+    "figi": "BBG000BMCQ70",
     "isin": "JP3868400007"
   },
+  "industry": "Automobiles",
   "industry_group": "Automobiles & Components",
   "isin": "JP3868400007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7261.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +25,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "MZA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MZA.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +50,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MZA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MZDAF"
     }
   ],
-  "name": "Mazda Motor Corp.",
-  "primary_symbol": "MZA.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Mazda Motor Corporation",
+  "primary_symbol": "7261.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Mazda Motor Corporation is a Japanese automaker that designs, manufactures, and sells passenger cars and commercial vehicles. The company is known for its innovative engine technology and stylish designs. Mazda Motor Corporation is headquartered in Hiroshima, Japan."
+  "summary": "Mazda Motor Corporation manufactures and sells passenger cars and commercial vehicles in Japan, North America, Europe, China, and internationally. Its principal products include four-wheeled vehicles, gasoline reciprocating engines, diesel engines, and automatic and manual transmissions for vehicles. The company was formerly known as Toyo Kogyo Co., Ltd. and changed its name to Mazda Motor Corporation in May 1984. Mazda Motor Corporation was founded in 1920 and is headquartered in Hiroshima, Japan.",
+  "website": "http://www.mazda.com"
 }

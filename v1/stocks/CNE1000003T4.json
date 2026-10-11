@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000LNQS50",
-    "figi": "BBG000LNRY74",
+    "composite_figi": "BBG000GPNCG7",
+    "figi": "BBG000GPNDM8",
     "isin": "CNE1000003T4"
   },
   "industry": "Communications Equipment",
@@ -11,6 +11,11 @@
   "isin": "CNE1000003T4",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0553.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -33,16 +38,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "NANJING PANDA ELEC. H YC1",
-  "primary_symbol": "NNJ.BE",
+  "name": "Nanjing Panda Electronics Company Limited",
+  "primary_symbol": "0553.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Nanjing Panda Electronics Co., Ltd. manufactures and sells electronic products. The company's products include televisions, communication equipment, and electronic components. Nanjing Panda Electronics is based in Nanjing, China.",
+  "summary": "Nanjing Panda Electronics Company Limited, together with its subsidiaries, engages in the development, manufacture, and sale of electronic equipment, electronic computer fitting, office machinery, and tooling products in the People's Republic of China. The company operates through Smart City Industry, Electronic Manufacturing Service, Intelligent Manufacturing Industry, and Others segments. It offers radio communication equipment, radio and television equipment, hardware and electrical equipment, electronic components, instrument and apparatus, electrical machinery, standard and electrical machinery, and medical equipment products. The company manufactures and sells automatic transmission equipment and industrial robots; railway transit auto fare collection (AFC) and AFC clearing center system equipment, building intellectualization products, and system integration; and mobile communications, digital communications, and network communication systems and products. It also manufactures general purpose equipment, communications equipment, and digital products, as well as provides software development, property management, and catering services. The company was founded in 1936 and is based in Nanjing, the People's Republic of China.",
   "website": "http://www.panda.cn"
 }

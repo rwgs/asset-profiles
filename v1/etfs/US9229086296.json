@@ -16,7 +16,7 @@
   ],
   "aum_usd": 224310026980.58,
   "category": "Mid Cap",
-  "category_group": "Financials",
+  "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
@@ -44,7 +44,7 @@
   "name": "Vanguard Mid-Cap ETF",
   "primary_symbol": "VO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
@@ -53,19 +53,23 @@
   "sector_weights": [
     {
       "sector": "Industrials",
-      "weight": 0.193011
+      "weight": 0.204889
     },
     {
       "sector": "Information Technology",
-      "weight": 0.185437
+      "weight": 0.175319
     },
     {
       "sector": "Financials",
-      "weight": 0.123427
+      "weight": 0.125137
     },
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.083798
+      "weight": 0.087073
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.083502
     },
     {
       "sector": "Energy",
@@ -73,31 +77,27 @@
     },
     {
       "sector": "Health Care",
-      "weight": 0.071398
-    },
-    {
-      "sector": "Utilities",
-      "weight": 0.068379
-    },
-    {
-      "sector": "Unknown",
-      "weight": 0.04847
+      "weight": 0.072513
     },
     {
       "sector": "Real Estate",
-      "weight": 0.045016
-    },
-    {
-      "sector": "Consumer Staples",
-      "weight": 0.042731
+      "weight": 0.052941
     },
     {
       "sector": "Materials",
-      "weight": 0.036501
+      "weight": 0.04454
     },
     {
       "sector": "Communications",
-      "weight": 0.028888
+      "weight": 0.037177
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.031502
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.012462
     }
   ],
   "top_holdings": [

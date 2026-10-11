@@ -2,29 +2,37 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00VTXGZM8",
-    "figi": "BBG00VTXGZR3",
+    "composite_figi": "BBG007R90QQ9",
+    "figi": "BBG00HL08535",
     "isin": "JP3869960009"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "JP3869960009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "3994.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JP3869960009.SG"
     }
   ],
-  "name": "MONEY FORWARD INC",
-  "primary_symbol": "JP3869960009.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Money Forward,Inc.",
+  "primary_symbol": "3994.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "MONEY FORWARD, INC. provides financial management and accounting software and services for individuals and businesses. The company offers personal finance apps, cloud-based accounting software, and other financial solutions. MONEY FORWARD INC is headquartered in Tokyo, Japan."
+  "summary": "Money Forward, Inc. supplies financial solutions mainly in Japan to individuals, corporations and financial institutions. Its offerings include personal financial management services such as Money Forward ME, Money Forward Cloud, a SaaS application for back office operations, accounting and tax solutions, and payment and financing services such as Money Forward Kessai, Early Payment and Invoice Card Pay.",
+  "website": "https://www.moneyforward.com"
 }

@@ -3,28 +3,71 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00M54SBK0",
-    "figi": "BBG00M54SBP5",
+    "figi": "BBG00M54SBR3",
     "isin": "GB00BN7CG237"
   },
+  "industry": "Automobiles",
   "industry_group": "Automobiles & Components",
   "isin": "GB00BN7CG237",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "A5SA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "A5SA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "A5SA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "A5SA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "A5SA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "A5SA.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMGDF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "AML.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BN7CG237.SG"
     }
   ],
-  "name": "ASTON MARTIN LAGONDA GLOBAL",
-  "primary_symbol": "GB00BN7CG237.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Aston Martin Lagonda Global Holdings plc",
+  "primary_symbol": "A5SA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Aston Martin Lagonda Global Holdings PLC is a luxury automotive manufacturer. The company designs, engineers, and produces high-performance sports cars and luxury vehicles. Aston Martin Lagonda Global Holdings PLC is headquartered in Gaydon, UK."
+  "summary": "Aston Martin Lagonda Global Holdings plc designs, develops, manufactures, markets, and sells luxury sports cars under the Aston Martin and Lagonda brand names worldwide. It also engages in the sale of parts; servicing and restoration of vehicles; and motorsport activities. The company sells its vehicles through a network of dealers. It has strategic technology agreement with Mercedes-Benz AG. Aston Martin Lagonda Global Holdings plc was incorporated in 2018 and is headquartered in Gaydon, the United Kingdom.",
+  "website": "http://www.astonmartinlagonda.com"
 }

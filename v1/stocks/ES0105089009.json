@@ -3,7 +3,7 @@
   "country_code": "ES",
   "identifiers": {
     "composite_figi": "BBG00ZJZ9TS1",
-    "figi": "BBG00ZJZ9TX5",
+    "figi": "BBG00ZJZ9TT0",
     "isin": "ES0105089009"
   },
   "industry_group": "Software & Services",
@@ -12,18 +12,41 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9TV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALLLN.PA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ES0105089009.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LLEIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "LLN.MC"
     }
   ],
-  "name": "LLEIDANETWORKS SERVEIS TELEM",
-  "primary_symbol": "ES0105089009.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "LleidaNetworks Serveis Telemàtics, S.A.",
+  "primary_symbol": "9TV.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology"
+  "sector": "Information Technology",
+  "summary": "LleidaNetworks Serveis Telemàtics, S.A. operates as a teleoperator for short message management services through the internet in Spain and internationally. The company is involved in the dissemination of telematics systems; provision, organization, and commercialization of telecommunication services; program development activities; and sending of text messages and electronic mail. It also offers study services and analysis of computer processes; notification and electronic contracting services; and engages in the creation, generation, and exploitation of information and communication technologies, as well as provision of related consulting and advisory services. In addition, the company offers VAS services, including SMS, MMS, UMS, and other types of messaging; and provides other activity related to the aforementioned corporate purpose for short message management services. Further, it provides electronic signing and contracting, data validation and fraud detection, and digital identity solutions. LleidaNetworks Serveis Telemàtics, S.A. was incorporated in 1995 and is based in Madrid, Spain.",
+  "website": "https://www.lleida.net"
 }

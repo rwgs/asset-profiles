@@ -6,6 +6,7 @@
     "figi": "BBG000HSLXD9",
     "isin": "GB0002259116"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Capital Goods",
   "isin": "GB0002259116",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0002259116.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "GHH.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GPL.F"
     }
   ],
-  "name": "GOOCH & HOUSEGO PLC",
+  "market_cap_band": "Small Cap",
+  "name": "Gooch & Housego PLC",
   "primary_symbol": "GB0002259116.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Gooch & Housego PLC is a photonics technology business that manufactures and supplies precision optical components, systems and instruments. The company serves a diverse range of markets including industrial, aerospace, defense, and life sciences. Gooch & Housego is headquartered in Ilminster, United Kingdom."
+  "summary": "Gooch & Housego PLC is a photonics technology business that manufactures and supplies precision optical components, systems and instruments. The company serves a diverse range of markets including industrial, aerospace, defense, and life sciences. Gooch & Housego is headquartered in Ilminster, United Kingdom.",
+  "website": "http://gandh.com"
 }

@@ -6,6 +6,7 @@
     "cusip": "65344W107",
     "isin": "CA65344W1077"
   },
+  "industry": "Containers & Packaging",
   "industry_group": "Commercial & Professional Services",
   "isin": "CA65344W1077",
   "kind": "stock",
@@ -14,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA65344W1077.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "NEXE.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NEXNF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NX5.F"
     }
   ],
-  "name": "NEXE INNOVATIONS INC",
+  "market_cap_band": "Nano Cap",
+  "name": "NEXE Innovations Inc.",
   "primary_symbol": "CA65344W1077.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "NEXE Innovations Inc. is a company focused on developing and manufacturing compostable packaging solutions for single-serve beverage pods. The company designs, manufactures, and commercializes fully compostable, plant-based, single-serve coffee pods for use in Keurig single-serve coffee machines. NEXE is headquartered in Surrey, BC, Canada."
+  "summary": "NEXE Innovations Inc. is a company focused on developing and manufacturing compostable packaging solutions for single-serve beverage pods. The company designs, manufactures, and commercializes fully compostable, plant-based, single-serve coffee pods for use in Keurig single-serve coffee machines. NEXE is headquartered in Surrey, BC, Canada.",
+  "website": "http://nexeinnovations.com"
 }

@@ -5,7 +5,8 @@
     "composite_figi": "BBG000BD7K24",
     "isin": "SE0015962477"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Industrial Conglomerates",
+  "industry_group": "Capital Goods",
   "isin": "SE0015962477",
   "kind": "stock",
   "listings": [
@@ -13,17 +14,29 @@
       "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0OA9.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NLTBF"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "NOLA-B.ST"
     }
   ],
-  "name": "NOLATO AB NOLATO B ORD SHS",
+  "market_cap_band": "Small Cap",
+  "name": "Nolato AB (publ)",
   "primary_symbol": "0OA9.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "NOLATO AB is a Swedish company that develops and manufactures polymer products for medical technology, industrial, and telecom applications. They offer product development and manufacturing services for demanding product applications. The company's headquarters are located in Torekov, Sweden."
+  "summary": "NOLATO AB is a Swedish company that develops and manufactures polymer products for medical technology, industrial, and telecom applications. They offer product development and manufacturing services for demanding product applications. The company's headquarters are located in Torekov, Sweden.",
+  "website": "http://www.nolato.com"
 }

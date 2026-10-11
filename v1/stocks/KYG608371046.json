@@ -6,7 +6,7 @@
     "figi": "BBG0015NVM80",
     "isin": "KYG608371046"
   },
-  "industry": "Health Care Technology",
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "KYG608371046",
   "kind": "stock",
@@ -23,15 +23,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MSK.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MSK.F"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Small Cap",
   "name": "MicroPort Scientific Corporation",
   "primary_symbol": "0853.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

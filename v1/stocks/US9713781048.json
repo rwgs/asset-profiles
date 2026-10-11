@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00JKMP214",
+    "composite_figi": "BBG00B0FS947",
     "cusip": "971378104",
-    "figi": "BBG00JKMP250",
+    "figi": "BBG00B0FS947",
     "isin": "US9713781048"
   },
   "industry": "Commercial Services & Supplies",
@@ -13,9 +13,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "WSC"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US9713781048.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "WS11.DU"
     },
     {
       "currency": "EUR",
@@ -24,16 +34,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "WILLSCOT MOBILE MINI HOLDING",
-  "primary_symbol": "US9713781048.SG",
+  "name": "WillScot Mobile Mini Holdings Corp.",
+  "primary_symbol": "WSC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "WILLSCOT MOBILE MINI HOLDING provides modular space and portable storage solutions for various industries; it rents and sells temporary office space, storage containers, and other related services; the company is headquartered in Phoenix, Arizona.",
+  "summary": "WillScot Mobile Mini Holdings Corp. provides modular space and portable storage solutions in the United States, Canada, Mexico, and the United Kingdom. The company leases various office space and storage solutions for temporary applications across a customer base in the commercial and industrial, construction, retail, education, natural resources, health care, government, transportation, security, and energy sectors. It operates a fleet of over 350,000 portable offices and storage containers. WillScot Mobile Mini Holdings Corp. is headquartered in Phoenix, Arizona.",
   "website": "http://www.willscotmobilemini.com"
 }

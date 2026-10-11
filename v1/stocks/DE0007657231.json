@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00GVK7ZV6",
+    "figi": "BBG00NRVX8W2",
     "isin": "DE0007657231"
   },
   "industry": "Household Durables",
@@ -13,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0OPA.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSWX",
+      "symbol": "DE0007657231.SW"
     },
     {
       "currency": "EUR",
@@ -59,7 +66,7 @@
   "name": "Villeroy & Boch AG Pref",
   "primary_symbol": "0OPA.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

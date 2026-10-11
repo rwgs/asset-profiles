@@ -2,29 +2,82 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG007FJN5X3",
-    "figi": "BBG007FJN5Z1",
+    "composite_figi": "BBG000R2H0B4",
+    "figi": "BBG000R2H140",
     "isin": "FR0000120503"
   },
+  "industry": "Construction & Engineering",
   "industry_group": "Capital Goods",
   "isin": "FR0000120503",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0HAN.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BOUYF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BYG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BYG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "BYG.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BYG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BYG.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BYG.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "EN.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "EN.VI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000120503.SW"
     }
   ],
-  "name": "BOUYGUES SA",
-  "primary_symbol": "FR0000120503.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Bouygues SA",
+  "primary_symbol": "0HAN.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "BOUYGUES SA is a diversified industrial group operating in construction, media, and telecommunications. The company's activities include construction of buildings and infrastructure, television broadcasting, and mobile network operation; headquarters are located in Paris, France. Bouygues aims to provide innovative and sustainable solutions in its various sectors of operation."
+  "summary": "Bouygues SA, together with its subsidiaries, operates in the construction, telecom, and media sectors in France and internationally. The company designs, builds, renovates, operates, and deconstructs building, infrastructure, and industrial projects; develops urban planning, residential, and commercial projects; constructs and maintains roads and motorways, airport runways, ports, industrial logistics and commercial hubs, urban roads and amenities, external works, reserved-lane public transport facilities, leisure facilities, and environmental amenities, as well as undertakes civil engineering activities; produces and recycles construction materials; and distributes bitumen. It also engages in the construction, renewal, and maintenance of rail networks; fitting of road safety and signaling equipment; and laying and maintenance of pipes and pipelines. In addition, the company produces TF1, TMC, TFX, TF1, and LCI complementary TV channels; operates TV Breizh, Histoire, Ushuaïa, and Serieclub channels; produces, broadcasts, and distributes content; produces cinemas; operates la seine musicale entertainment and concert venue; and licenses, publishes, and boards games, as well as musical and events. Further, it offers telecom services; mobile and fixed Internet services; and Bbox Miami, an Android box for TV. Bouygues SA was founded in 1952 and is based in Paris, France.",
+  "website": "http://www.bouygues.com"
 }

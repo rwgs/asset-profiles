@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG000CKPDQ7",
+    "figi": "BBG00G59STR6",
     "isin": "IT0005244402"
   },
   "industry": "Consumer Finance",
@@ -13,13 +15,18 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "BFF.MI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BFFBF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "BFF Bank S.p.A.",
   "primary_symbol": "BFF.MI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

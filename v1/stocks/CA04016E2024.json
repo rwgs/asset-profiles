@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BNJ443",
+    "composite_figi": "BBG000H8XR70",
     "cusip": "04016E202",
-    "figi": "BBG000BNJ6F6",
+    "figi": "BBG000H8XR70",
     "isin": "CA04016E2024"
   },
   "industry": "Metals & Mining",
@@ -12,6 +12,11 @@
   "isin": "CA04016E2024",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LILIF"
+    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -45,15 +50,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Argentina Lithium & Energy Corp.",
-  "primary_symbol": "LIT.V",
+  "primary_symbol": "LILIF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Argentina Lithium & Energy Corp., a junior mineral exploration company, engages in the acquisition, exploration, and evaluation of natural resource properties in Argentina. It holds a 100% interest in the Incahuasi lithium project covering an area of approximately 25,500 hectares of granted mineral rights properties located in the Catamarca Province, Argentina. The company was formerly known as Iron South Mining Corp. and changed its name to Argentina Lithium & Energy Corp. in September 2016. Argentina Lithium & Energy Corp. was incorporated in 2000 and is based in Vancouver, Canada.",
-  "website": "http://www.argentinalithium.com"
+  "summary": "Argentina Lithium & Energy Corp. (LILIF) is an exploration-focused company primarily involved in the identification, acquisition, and assessment of natural resource properties. Its operations span across the Americas, with a particular emphasis on Argentina. The company holds full ownership of the Incahuasi lithium project, encompassing approximately 13,372 hectares of fully granted mineral rights located in Argentina's Catamarca Province. Additionally, it has an exclusive option to acquire complete interest in the Antofalla North lithium project, which comprises 10,050 hectares of mining concessions situated in Salta, Argentina. Its portfolio in Salta also includes the 26,000-hectare Pocitos project, the 1,602-hectare El Pidio GIII property, and the Rincon West project, covering 3,742.8 hectares. Established in 2000, the company initially operated as Iron South Mining Corp. before rebranding as Argentina Lithium & Energy Corp. in September 2016. Its headquarters are situated in Vancouver, Canada.",
+  "website": "https://www.argentinalithium.com"
 }

@@ -2,29 +2,42 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BMNRM9",
-    "figi": "BBG000BMNTK7",
+    "composite_figi": "BBG000BDSBM9",
+    "figi": "BBG000BDSC56",
     "isin": "HK0000592854"
   },
-  "industry_group": "Real Estate",
+  "industry": "Transportation Infrastructure",
+  "industry_group": "Transportation",
   "isin": "HK0000592854",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0697.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HK0000592854.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SHVA.F"
     }
   ],
-  "name": "SHOUCHENG HOLDINGS LTD",
-  "primary_symbol": "HK0000592854.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Shoucheng Holdings Limited",
+  "primary_symbol": "0697.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "Shouchang Holdings Limited is involved in property development and investment. The company develops residential and commercial properties in China. Shouchang Holdings is headquartered in Hong Kong."
+  "sector": "Industrials",
+  "summary": "Shoucheng Holdings Limited, an investment holding company, engages in the management and operation of car parking assets. It is also involved in the management of private funds; and infrastructure and real estate funds. The company was formerly known as Shougang Concord International Enterprises Company Limited and changed its name to Shoucheng Holdings Limited in May 2020. Shoucheng Holdings Limited is based in Wan Chai, Hong Kong.",
+  "website": "http://www.shouchengholdings.com"
 }

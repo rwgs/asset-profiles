@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000C7X325",
+    "composite_figi": "BBG00T41DWY7",
     "cusip": "14218T105",
-    "figi": "BBG000C7X6J0",
+    "figi": "BBG00T41DWZ6",
     "isin": "US14218T1051"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,54 +12,6 @@
   "isin": "US14218T1051",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "AFX.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "AFX.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "AFX.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "AFX.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "AFX.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "AFX.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "AFX.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "AFX.SG"
-    },
-    {
-      "symbol": "AFX.TI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "AFX.VI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -73,19 +25,14 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "CZMWF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "CZMWY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Carl Zeiss Meditec AG",
-  "primary_symbol": "AFX.BE",
+  "primary_symbol": "AFXA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

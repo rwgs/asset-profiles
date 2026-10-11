@@ -2,15 +2,20 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BBG941",
-    "figi": "BBG000BBGDC3",
+    "composite_figi": "BBG007R9HCM6",
+    "figi": "BBG007R9HCP3",
     "isin": "FR0010451203"
   },
   "industry": "Trading Companies & Distributors",
-  "industry_group": "Capital Goods",
+  "industry_group": "Commercial & Professional Services",
   "isin": "FR0010451203",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0KBZ.IL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -32,11 +37,6 @@
       "symbol": "E7V.SG"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "RXEEY"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "RXL.PA"
@@ -47,17 +47,17 @@
       "symbol": "RXLSF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Rexel S.A.",
-  "primary_symbol": "E7V.BE",
+  "primary_symbol": "0KBZ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Rexel S.A., together with its subsidiaries, engages in the distribution of electrical products and services for the residential, commercial, and industrial energy markets worldwide. The company offers smart cameras, sensors, controllers, and monitoring software; light sources, lights, and control switches; climate control products, including heat pumps, air conditioning, and water heaters; fire alarms, surveillance equipment, access controls devices, and emergency lightings; and connection cables, and switches and routers, as well as enclosures, mounts, and racks. It also provides solar modules and inverters; connected lighting, intelligent home system, home control touch screen, and smart thermostat products; residential chargers, commercial stations, and charging cables for electric vehicles; electric motors, variable speed drives, programmable logic controllers, and computers and operator interface; and fastening systems, electrical power and control, and valves and instrumentation products, as well as electrical design and calculation for non-residential buildings. The company offers products, services, and solutions in the fields of technical supply, automation, and energy management related to construction, renovation, maintenance, and production. It operates a network of approximately 1,900 branches in 25 countries. Rexel S.A. was founded in 1967 and is based in Paris, France.",
+  "summary": "Rexel SA is a global distributor of electrical supplies and equipment. The company provides a wide range of products and services to electrical contractors, industrial customers, and commercial businesses. Rexel is headquartered in Paris, France",
   "website": "http://www.rexel.com"
 }

@@ -24,7 +24,7 @@
   ],
   "aum_usd": 647708774950.13,
   "category": "Developed Markets",
-  "category_group": "Financials",
+  "category_group": "Equities",
   "country_weights": [
     {
       "country": "Japan",
@@ -109,12 +109,12 @@
     {
       "country": "China",
       "country_code": "CN",
-      "weight": 0.015363
+      "weight": 0.015297
     },
     {
       "country": "Brazil",
       "country_code": "BR",
-      "weight": 0.011283
+      "weight": 0.011285
     },
     {
       "country": "Singapore",
@@ -282,8 +282,12 @@
       "weight": 0.0
     },
     {
+      "country": "Turkey",
+      "weight": -1e-06
+    },
+    {
       "country": "Unknown",
-      "weight": -0.000105
+      "weight": -4.1e-05
     }
   ],
   "holdings_count": 8868,
@@ -302,12 +306,62 @@
   "name": "Vanguard Total International Stock ETF",
   "primary_symbol": "VXUS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000275"
   },
   "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Financials",
+      "weight": 0.226447
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.186316
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.139559
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.077245
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.070419
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.067031
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.050401
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.04939
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.04193
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.04151
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.026676
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.023074
+    }
+  ],
   "top_holdings": [
     {
       "isin": "TW0002330008",

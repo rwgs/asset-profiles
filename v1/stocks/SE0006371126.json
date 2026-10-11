@@ -2,28 +2,42 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG004T4DQV5",
+    "composite_figi": "BBG00LGM8CN7",
+    "figi": "BBG00LGM8CP5",
     "isin": "SE0006371126"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "SE0006371126",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7V3.F"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "CANTA.ST"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0006371126.SG"
     }
   ],
-  "name": "CANTARGIA AB",
-  "primary_symbol": "SE0006371126.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Cantargia AB (publ)",
+  "primary_symbol": "7V3.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "CANTARGIA AB is a biotechnology company that develops antibody-based therapies for cancer treatment. Their lead product candidate targets a specific molecule involved in cancer progression. The company is headquartered in Lund, Sweden."
+  "summary": "Cantargia AB (publ), a biotechnology company, engages in the research and development of antibody-based treatments for life threatening diseases. The company is developing CAN04, an antibody against Interleukin-1 Receptor Accessory Protein (IL1RAP) to recognize cancer cells and stimulate natural immune system to destroy such cells, as well as block the tumor inflammation that is driven by the Interleukin-1 system; and CAN10, an antibody against IL1RAP for treatment of autoimmune and inflammatory diseases, including systemic sclerosis and myocarditis. It is also developing CANxx antibodies against IL1RAP that have other properties than CAN04 and CAN10. The company has collaboration agreements with Patheon Biologics BV and BioWa Inc. for the manufacture and production of CAN04; and Specialized Medical Services-oncology BV for the clinical study of CAN04. Cantargia AB (publ) was founded in 2010 and is based in Lund, Sweden.",
+  "website": "http://cantargia.com"
 }

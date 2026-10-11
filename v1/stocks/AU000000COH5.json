@@ -2,14 +2,25 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000K9SM44",
-    "figi": "BBG000K9SR07",
+    "composite_figi": "BBG000LSNP12",
+    "figi": "BBG000LSNP12",
     "isin": "AU000000COH5"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "AU000000COH5",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CHEOF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "COH.AX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +30,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "OC5.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OC5.F"
     },
     {
       "currency": "EUR",
@@ -36,15 +52,17 @@
       "symbol": "OC5.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Cochlear Limited",
-  "primary_symbol": "OC5.BE",
+  "primary_symbol": "CHEOF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Cochlear Limited is an Australian global medical device company that designs, manufactures, and supplies implantable hearing solutions. The company's primary products include cochlear implants and acoustic implants. Cochlear is headquartered in Sydney, Australia."
+  "summary": "Cochlear Limited provides implantable hearing solutions in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company offers cochlear implants, including Nucleus 7, Nucleus 6, Nucleus CP802, and Kanso sound processors; and Baha bone conduction implants, such as Baha attract system, Baha connect system, Baha softband, Baha soundarc, Baha 5 sound processor, and Baha sound processor. It also provides Cochlear true wireless accessories comprising mini microphones, phone clips, and TV streamers; Nucleus water-safe accessories; and training and development services. Cochlear Limited was founded in 1981 and is headquartered in Sydney, Australia.",
+  "website": "http://www.cochlear.com"
 }

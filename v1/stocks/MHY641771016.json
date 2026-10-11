@@ -2,8 +2,9 @@
   "country": "Greece",
   "country_code": "GR",
   "identifiers": {
-    "composite_figi": "BBG00QKZCHK9",
-    "figi": "BBG00QKZCHL8",
+    "composite_figi": "BBG00SVDJ460",
+    "cusip": "Y64177101",
+    "figi": "BBG00SVDJ460",
     "isin": "MHY641771016"
   },
   "industry": "Marine",
@@ -11,6 +12,11 @@
   "isin": "MHY641771016",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "ECO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -27,27 +33,22 @@
       "symbol": "OET.OL"
     },
     {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "OETO.OL"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "OKENF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Okeanis Eco Tankers Corp.",
-  "primary_symbol": "7OK.F",
+  "market_cap_band": "Mid Cap",
+  "name": "Okeanis Eco Tankers Corp. Common Stock",
+  "primary_symbol": "ECO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Okeanis Eco Tankers Corp. is a global maritime enterprise primarily involved in the acquisition, chartering out, and operational oversight of oil tanker vessels worldwide.",
+  "summary": "Okeanis Eco Tankers Corp. is a shipping company that focuses on owning and operating modern, fuel-efficient tanker vessels. Based in Oslo, Norway, the company aims to provide transportation services for crude oil while adhering to environmental standards.",
   "website": "https://www.okeanisecotankers.com"
 }

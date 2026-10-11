@@ -2,19 +2,30 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00RRMFFH4",
+    "composite_figi": "BBG000H0FKR0",
     "cusip": "021244207",
-    "figi": "BBG00RRMFFP5",
+    "figi": "BBG000H0FKR0",
     "isin": "US0212442075"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "US0212442075",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ALSMY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "AOMU.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AOMU.F"
     },
     {
       "currency": "EUR",
@@ -27,15 +38,17 @@
       "symbol": "US0212442075.SG"
     }
   ],
-  "name": "ALSTOM S.A. UNSP.ADR 1/10",
-  "primary_symbol": "AOMU.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Alstom SA",
+  "primary_symbol": "ALSMY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Alstom S.A. UNSP.ADR 1/10 represents American Depositary Receipts (ADRs) of Alstom S.A. Each ADR represents 1/10 of an ordinary share of Alstom S.A. The company operates in the rail transport market."
+  "summary": "Alstom SA develops and markets systems, equipment, and services for the transport sector in Europe, the Americas, Asia and Pacific, the Middle-East, and Africa. The company offers metros, tramways, tram-trains and LRVs, suburban trains, regional and intercity trains, high-speed trains, and locomotives, and electric buses; and signaling products, such as urban, mainline, and freight and mining signaling. It also provides tram, metro, and main line systems; and tracklaying and track solutions, catenary free and ground feeding solutions, electrification solutions, and electromechanical equipment. In addition, the company provides maintenance, modernization, parts and repair, and support services. Further, it offers various components, including bogies, motors and generators, propulsion systems, switchgears, auxiliary converters, traction transformers, components propulsion, and dampers; and asset optimization, connectivity, digital passenger, and security and city mobility solutions. Alstom SA has a strategic cooperation agreement with Cylus to provide cybersecurity solutions for the rail market. The company was incorporated in 1992 and is headquartered in Saint-Ouen, France.",
+  "website": "http://www.alstom.com"
 }

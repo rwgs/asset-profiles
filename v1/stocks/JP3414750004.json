@@ -2,18 +2,29 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000PLTTD6",
-    "figi": "BBG000PLTWZ5",
+    "composite_figi": "BBG000PRVGB0",
+    "figi": "BBG000PRVGV8",
     "isin": "JP3414750004"
   },
+  "industry": "Technology Hardware, Storage & Peripherals",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3414750004",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6724.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "SE7.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SE7.F"
     },
     {
       "currency": "EUR",
@@ -24,17 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE7.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SEKEF"
     }
   ],
-  "name": "Seiko Epson Corp.",
-  "primary_symbol": "SE7.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Seiko Epson Corporation",
+  "primary_symbol": "6724.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SEIKO EPSON CORP. is a Japanese technology company that develops and manufactures a wide range of products including printers, projectors, and watches. The company also produces industrial robots and other precision equipment. SEIKO EPSON CORP. is headquartered in Suwa, Nagano, Japan."
+  "summary": "Seiko Epson Corporation, together with its subsidiaries, develops, manufactures, sells, and provides services for products in the printing solutions, visual communications, wearable and industrial products, and other businesses. It operates through three segments: Printing Solutions, Visual Communications, and Wearable & Industrial Products segments. The Printing Solutions segment offers home and office inkjet printers, serial impact dot matrix printers, page printers, color image scanners, large-format inkjet printers, commercial and industrial inkjet printing systems, printers for use in POS systems, inkjet printheads and related consumables, dry process office papermaking systems, personal computers, and others. The Visual Communications segment provides 3LCD projectors for business, education, the home, and event; smart glasses; and others. The Wearable & Industrial Products segment offers wristwatches, watch movements, factory automation products, industrial robots, IC handlers, crystal units, crystal oscillators, quartz sensors, and others for consumer, automotive, and industrial equipment applications; and sensing equipment. This segment also provides CMOS LSIs and other chips primarily for consumer electronics and automotive applications; and metal powders for use as raw materials in the production of electronic components, etc., as well as value-added surface finishing in a range of industrial fields. It has operations in Japan, the Philippines, Indonesia, China, and internationally. The company was founded in 1942 and is headquartered in Suwa, Japan.",
+  "website": "http://global.epson.com"
 }

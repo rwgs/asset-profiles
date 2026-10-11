@@ -1,6 +1,12 @@
 {
   "country": "Germany",
   "country_code": "DE",
+  "identifiers": {
+    "composite_figi": "BBG000JSZQ47",
+    "figi": "BBG000JSZRB7"
+  },
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Telecommunication Services",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +15,17 @@
       "symbol": "EFS3.DU"
     }
   ],
-  "name": "EFF.-SPIEGEL VZO",
+  "market_cap_band": "Micro Cap",
+  "name": "Effecten-Spiegel AG",
   "primary_symbol": "EFS3.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Communications",
+  "summary": "Effecten-Spiegel AG engages in the investment and publishing businesses in Germany and internationally. The company operates in two segments, Investment for Own Account and Publishing. It holds investments in other companies, as well as publishes stock market journals. The company was founded in 1971 and is based in Dusseldorf, Germany.",
+  "website": "http://www.effecten-spiegel.de"
 }

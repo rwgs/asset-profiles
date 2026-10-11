@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BTKTL4",
+    "composite_figi": "BBG00TYZSQ49",
     "cusip": "74589A101",
-    "figi": "BBG000BTKTL4",
+    "figi": "BBG00TYZSQ67",
     "isin": "US74589A1016"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -13,44 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "PMMAF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "PUM.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "PUM.DE"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "PUM.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PUM.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "PUM.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "PUM.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "PUM.MI"
     },
     {
       "currency": "EUR",
@@ -59,23 +24,8 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PUM.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "PUM.VI"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PUMA.F"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "PUMN.MX"
     },
     {
       "currency": "USD",
@@ -88,11 +38,11 @@
       "symbol": "US74589A1016.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "PUMA SE",
-  "primary_symbol": "PMMAF",
+  "market_cap_band": "Mid Cap",
+  "name": "PUMA Se",
+  "primary_symbol": "PUM.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

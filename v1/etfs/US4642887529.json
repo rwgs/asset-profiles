@@ -15,7 +15,7 @@
     }
   ],
   "aum_usd": 2733530710.83,
-  "category": "Value",
+  "category": "Developed Markets",
   "category_group": "Consumer Discretionary",
   "country_weights": [
     {
@@ -40,7 +40,7 @@
   "name": "iShares U.S. Home Construction ETF",
   "primary_symbol": "ITB",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
@@ -48,20 +48,24 @@
   "schema_version": "1.0.0",
   "sector_weights": [
     {
-      "sector": "Industrials",
-      "weight": 0.675301
-    },
-    {
       "sector": "Consumer Discretionary",
-      "weight": 0.186936
+      "weight": 0.679228
     },
     {
-      "sector": "Unknown",
-      "weight": 0.072953
+      "sector": "Industrials",
+      "weight": 0.205999
     },
     {
       "sector": "Materials",
       "weight": 0.064811
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.048471
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.001491
     }
   ],
   "top_holdings": [

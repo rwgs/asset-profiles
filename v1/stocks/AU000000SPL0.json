@@ -6,6 +6,7 @@
     "figi": "BBG000DGZ1Z0",
     "isin": "AU000000SPL0"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "AU000000SPL0",
   "kind": "stock",
@@ -14,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "PQ6.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PQ6.F"
     },
     {
       "currency": "EUR",
@@ -29,17 +35,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PQ6.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SPHRF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "SPL.AX"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "Starpharma Holdings Ltd.",
   "primary_symbol": "PQ6.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Starpharma Holdings Limited is an Australian biopharmaceutical company that develops and commercializes pharmaceutical and medical products based on its proprietary DEP® drug delivery technology. Their lead product is VivaGel® (SPL7013) for the treatment and prevention of bacterial vaginosis (BV). The company is headquartered in Melbourne, Australia."
+  "summary": "Starpharma Holdings Limited is an Australian biopharmaceutical company that develops and commercializes pharmaceutical and medical products based on its proprietary DEP® drug delivery technology. Their lead product is VivaGel® (SPL7013) for the treatment and prevention of bacterial vaginosis (BV). The company is headquartered in Melbourne, Australia.",
+  "website": "http://starpharma.com"
 }

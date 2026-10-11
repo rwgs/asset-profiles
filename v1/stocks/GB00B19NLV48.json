@@ -1,29 +1,68 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Ireland",
+  "country_code": "IE",
   "identifiers": {
     "composite_figi": "BBG000BKFZN3",
+    "figi": "BBG000BKFZN3",
     "isin": "GB00B19NLV48"
   },
-  "industry_group": "Software & Services",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "GB00B19NLV48",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EXPGF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "EXPN.L"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B19NLV48.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "J2B.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "J2B.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "J2B.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "J2B.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "J2B.SG"
     }
   ],
-  "name": "EXPERIAN PLC",
-  "primary_symbol": "GB00B19NLV48.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Experian plc",
+  "primary_symbol": "EXPGF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "EXPERIAN PLC is a global information services company. Their business model involves providing data and analytics to businesses and consumers, helping them manage credit risk, prevent fraud, and improve decision-making, generating revenue through data subscriptions and analytics services. The company is headquartered in Dublin, Ireland."
+  "sector": "Industrials",
+  "summary": "Experian plc, together with its subsidiaries, operates as a technology company. The company operates through two segments, Business-to-Business and Consumer Services. It provides data services to identify and understand their customers, as well as to manage the risks related with lending. The company also offers analytical and decision tools that enhance businesses to manage their customers, minimize the risk of fraud, comply with legal requirements, and automate decisions and processes. In addition, it provides financial education, free access to Experian credit reports and scores, online educational tools, and applications to manage their financial position, access credit offers, and protect themselves from identity fraud. The company serves customers in financial service, direct-to-consumer, health, retail, automotive, software and professional services, telecommunications and utility, insurance, media and technology, government and public, and other sectors. It operates in North America, Latin America, the United Kingdom, Ireland, Europe, the Middle East, Africa, and the Asia Pacific. Experian plc was formerly known as Experian Group Limited and changed its name to Experian plc in July 2008. Experian plc was founded in 1897 and is headquartered in Dublin, Ireland.",
+  "website": "http://www.experianplc.com"
 }

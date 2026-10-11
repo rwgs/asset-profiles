@@ -2,14 +2,20 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00N8TQ357",
-    "figi": "BBG00N8TQ393",
+    "composite_figi": "BBG004LN45X5",
+    "figi": "BBG007P8KLP3",
     "isin": "NO0010633951"
   },
+  "industry": "Consumer Finance",
   "industry_group": "Diversified Financials",
   "isin": "NO0010633951",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "B2I.OL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -21,15 +27,17 @@
       "symbol": "NO0010633951.SW"
     }
   ],
-  "name": "B2 HOLDING ASA",
-  "primary_symbol": "NO0010633951.SG",
+  "market_cap_band": "Small Cap",
+  "name": "B2 Impact ASA",
+  "primary_symbol": "B2I.OL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "B2Holding ASA is a debt purchase and collection company. The company acquires and manages portfolios of non-performing loans (NPLs) across Europe. B2Holding ASA is headquartered in Oslo, Norway."
+  "summary": "B2Holding ASA is a debt purchase and collection company. The company acquires and manages portfolios of non-performing loans (NPLs) across Europe. B2Holding ASA is headquartered in Oslo, Norway.",
+  "website": "https://www.b2-impact.com"
 }

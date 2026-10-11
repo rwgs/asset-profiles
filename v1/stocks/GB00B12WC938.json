@@ -3,24 +3,46 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000PNDWF0",
+    "figi": "BBG000PNDWZ8",
     "isin": "GB00B12WC938"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "GB00B12WC938",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CAD.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CPD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CPD.SG"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B12WC938.SW"
     }
   ],
-  "name": "CADOGAN ENERGY SOLUTIONS PLC",
-  "primary_symbol": "GB00B12WC938.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "Cadogan Petroleum plc",
+  "primary_symbol": "CAD.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Energy",
+  "summary": "Cadogan Petroleum plc, together with its subsidiaries, engages in the exploration, development, and production of natural gas, oil, and condensate in Ukraine. The company operates through three segments: Exploration and Production, Service, and Trading. It holds working interests in two license areas, including Monastyretska and Bitlyanska located in the Carpathian basin. The company also provides drilling and civil services to exploration and production companies; imports natural gas; and purchases and sells natural gas. Cadogan Petroleum plc was incorporated in 2004 and is based in London, the United Kingdom.",
+  "website": "http://www.cadoganpetroleum.com"
 }

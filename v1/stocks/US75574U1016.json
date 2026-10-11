@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00F7QCSN1",
+    "composite_figi": "BBG003TCRRN1",
     "cusip": "75574U101",
-    "figi": "BBG00F7QCSV2",
+    "figi": "BBG003TCRRS6",
     "isin": "US75574U1016"
   },
+  "industry": "Mortgage Real Estate Investment Trusts (REITs)",
   "industry_group": "Diversified Financials",
   "isin": "US75574U1016",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "RC"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "0SZ.BE"
     }
   ],
-  "name": "READY CAPITAL  DL.-,0001",
-  "primary_symbol": "0SZ.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Ready Capital Corporation",
+  "primary_symbol": "RC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Ready Capital Corp. is a real estate finance company that originates, acquires, finances and services small-balance commercial (SBC) loans. They operate primarily in the United States. The company is headquartered in New York, New York."
+  "summary": "Ready Capital Corporation, together with its subsidiaries, operates as a real estate finance company in the United States. The company originates, acquires, finances, and services small balance commercial (SBC) loans, small business administration (SBA) loans, and residential mortgage loans, as well as mortgage backed securities collateralized primarily by SBC loans, or other real estate-related investments. It operates through four segments: Acquisitions; SBC Originations; SBA Originations, Acquisitions and Servicing; and Residential Mortgage Banking. The Acquisitions segment acquires performing and non-performing SBC loans. The SBC Originations segment originates SBC loans secured by stabilized or transitional investor properties using various loan origination channels; and originates and services multi-family loan products. The SBA Originations, Acquisitions and Servicing segment acquires, originates, and services owner-occupied loans guaranteed by the SBA. The Residential Mortgage Banking segment originates residential mortgage loans through retail, correspondent, and broker channels. The company qualifies as a real estate investment trust for federal income tax purposes. It generally would not be subject to federal corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. The company was formerly known as Sutherland Asset Management Corporation and changed its name to Ready Capital Corporation in September 2018. Ready Capital Corporation was founded in 2007 and is headquartered in New York, New York.",
+  "website": "http://www.readycapital.com"
 }

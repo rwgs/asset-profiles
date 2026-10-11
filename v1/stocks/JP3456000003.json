@@ -6,8 +6,8 @@
     "figi": "BBG000BGVDT7",
     "isin": "JP3456000003"
   },
-  "industry": "Household Durables",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Multiline Retail",
+  "industry_group": "Retailing",
   "isin": "JP3456000003",
   "kind": "stock",
   "listings": [
@@ -35,13 +35,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TKM.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TKSHF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Takashimaya Company, Limited",
   "primary_symbol": "8233.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

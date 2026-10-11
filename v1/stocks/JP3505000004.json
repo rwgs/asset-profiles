@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1QG36",
-    "figi": "BBG000C1QLJ8",
+    "composite_figi": "BBG000BFTDT2",
+    "figi": "BBG000BFTF17",
     "isin": "JP3505000004"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "JP3505000004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "1925.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DWAHF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DWH.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "DWH.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "DWH.SG"
     }
   ],
-  "name": "Daiwa House Industry Co. Ltd.",
-  "primary_symbol": "DWH.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Daiwa House Industry Co.,Ltd.",
+  "primary_symbol": "1925.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "DAIWA HOUSE IND. is a Japanese company engaged in the housing and construction industry. It provides a wide range of services, including custom-built homes, rental housing, commercial facilities, and environmental solutions. The company is headquartered in Osaka, Japan."
+  "summary": "Daiwa House Industry Co., Ltd. engages in the construction business worldwide. It operates through Single-Family Houses; Rental Housing; Condominiums; Existing Homes; Commercial Facilities; Logistics, Business and Corporate Facilities; and Other Businesses segments. The company constructs single-family houses; rents houses; develops, manages, and sells condominiums; purchases, renovates, and resells existing homes; develops commercial facilities; develops and constructs logistics, business, and corporate facilities; and provides real estate agency services. It also manufactures steel and timber housing parts; offers ground survey and reinforcement services; and constructs retail and wholesale, medical and nursing care, office and factory, urban development and industrial park, energy, environmental greening, agriculture, parking and carsharing, and public-private partnership facilities. In addition, the company operates resort hotels and golf courses, business and city hotels, fitness clubs and aesthetic salons, and home centers; provides robotics technologies for use in hospitals, care facilities, factories, and construction sites; manages private homes for the elderly and assisted-living residential facilities for seniors; and offers parking, advertising, travel agency, information technology, and credit card and insurance agency services. Daiwa House Industry Co., Ltd. was founded in 1947 and is headquartered in Osaka, Japan.",
+  "website": "http://www.daiwahouse.co.jp"
 }

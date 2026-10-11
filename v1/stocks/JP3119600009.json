@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BVGJ72",
-    "figi": "BBG000BVGM39",
+    "composite_figi": "BBG000BJ8LL7",
+    "figi": "BBG000BJ8MJ8",
     "isin": "JP3119600009"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "JP3119600009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "2802.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AJI.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "AJI.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AJI.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AJINF"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Ajinomoto Co., Inc.",
-  "primary_symbol": "AJI.BE",
+  "primary_symbol": "2802.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "AJINOMOTO is a Japanese food and chemical corporation. Ajinomoto produces seasonings, processed foods, amino acids, pharmaceuticals, and specialty chemicals. The company is headquartered in Tokyo, Japan, and operates globally."
+  "summary": "Ajinomoto Co., Inc. engages in the seasonings and foods, frozen foods, and healthcare and other businesses in Japan and internationally. Its Seasonings and Foods segment offers sauces and seasonings products under the AJI-NO-MOTO, HON-DASHI, Cook Do, Ajinomoto KK Consommé, Pure Select Mayonnaise, Ros Dee, Masako, Aji-ngon, Sazón, Sajiku, and CRISPY FRY names; and solutions and ingredients to consumer foods and food service industries. This segment also provides instant noodles under the Knorr Cup Soup, and YumYum names; coffee under the Birdy and Blendy brands; powdered drink under the Birdy 3in1 name; MAXIM products; Chyotto Zeitakuna Kohiten products; and gift sets and office supplies comprising coffee vending machines, tea server, etc. The Frozen Foods segment offers Chinese dumplings, cooked rice, noodles, desserts, shumai, processed chicken, and other products. The Healthcare and Other segment provides amino acids to various industries, such as pharmaceuticals, foods, and cosmetics; sports nutrition products; personal care ingredients; and sterile products, as well as engages in the provision of contract manufacturing services for pharmaceutical intermediates and active ingredients. This segment also offers Ajinomoto Build-up Film, an interlayer insulating material for semiconductor packages. Ajinomoto Co., Inc. was founded in 1909 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.ajinomoto.co.jp"
 }

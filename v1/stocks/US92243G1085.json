@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00XGCHM42",
+    "composite_figi": "BBG009PHHPL8",
     "cusip": "92243G108",
-    "figi": "BBG00XGCHM97",
+    "figi": "BBG009PHHPL8",
     "isin": "US92243G1085"
   },
   "industry": "Biotechnology",
@@ -13,16 +13,31 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "PCVX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5VA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5VA.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US92243G1085.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "VAXCYTE INC",
-  "primary_symbol": "US92243G1085.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Vaxcyte, Inc.",
+  "primary_symbol": "PCVX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BLLHB7",
+    "composite_figi": "BBG0025RDPM6",
     "cusip": "795842202",
-    "figi": "BBG000BLLLN5",
+    "figi": "BBG0025RDPN5",
     "isin": "US7958422021"
   },
   "industry": "Metals & Mining",
@@ -12,51 +12,6 @@
   "isin": "US7958422021",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "SZG.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "SZG.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "SZG.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SZG.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "SZG.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "SZG.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "SZG.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SZG.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "SZG.VI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -73,11 +28,11 @@
       "symbol": "SZGPY"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Salzgitter AG",
-  "primary_symbol": "SZG.BE",
+  "primary_symbol": "SZGA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

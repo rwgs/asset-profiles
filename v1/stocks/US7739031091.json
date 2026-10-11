@@ -34,8 +34,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RWL.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "RWL.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RWL.DU"
     },
     {
       "currency": "EUR",
@@ -44,10 +54,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "RWL.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "RWL.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RWL.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RWL.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "RWL.TI"
     }
   ],
@@ -55,7 +81,7 @@
   "name": "Rockwell Automation, Inc.",
   "primary_symbol": "ROK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

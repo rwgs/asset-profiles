@@ -2,7 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG00L4G09G6",
+    "composite_figi": "BBG00JRVHSJ0",
+    "figi": "BBG00NRVY1H3",
     "isin": "CH0110240600"
   },
   "industry": "Building Products",
@@ -12,15 +13,20 @@
   "listings": [
     {
       "currency": "CHF",
+      "exchange_mic": "XLON",
+      "symbol": "0QKR.L"
+    },
+    {
+      "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "ARBN.SW"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Arbonia AG",
-  "primary_symbol": "ARBN.SW",
+  "primary_symbol": "0QKR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

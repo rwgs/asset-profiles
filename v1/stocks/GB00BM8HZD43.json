@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00Y48YQD4",
-    "figi": "BBG00Y48YQJ8",
+    "figi": "BBG00Y48YQF2",
     "isin": "GB00BM8HZD43"
   },
   "industry": "Biotechnology",
@@ -13,18 +13,36 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "63V.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BM8HZD43.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VRCDF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "VRCI.L"
     }
   ],
-  "name": "VERICI DX PLC",
-  "primary_symbol": "GB00BM8HZD43.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Verici Dx plc",
+  "primary_symbol": "63V.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care"
+  "sector": "Health Care",
+  "summary": "Verici Dx plc engages in developing and commercializing clinical diagnostics kidney transplant tests. The company was incorporated in 2020 and is based in Penarth, United Kingdom. As of July 10, 2020, Verici Dx plc is a former subsidiary of Renalytix AI plc.",
+  "website": "http://www.vericidx.com"
 }

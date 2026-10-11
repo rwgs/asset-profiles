@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG005TW2FT9",
+    "figi": "BBG000BZGSF4",
     "isin": "CNE100001QV5"
   },
   "industry": "Pharmaceuticals",
@@ -24,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LP6.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LVZPF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Livzon Pharmaceutical Group Inc.",
   "primary_symbol": "000513.SZ",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

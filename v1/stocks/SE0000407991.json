@@ -2,9 +2,11 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BJZZ27",
+    "composite_figi": "BBG00JHVVL82",
+    "figi": "BBG00JHVVL91",
     "isin": "SE0000407991"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "SE0000407991",
   "kind": "stock",
@@ -13,12 +15,18 @@
       "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0GXD.L"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "SVED-B.ST"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "Svedbergs i Dalstorp AB (publ)",
   "primary_symbol": "0GXD.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

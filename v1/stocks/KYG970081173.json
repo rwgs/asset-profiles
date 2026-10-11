@@ -1,30 +1,43 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00GXQDVD3",
-    "figi": "BBG00GXQDVJ7",
+    "composite_figi": "BBG00GTY47G1",
+    "figi": "BBG00GTY47H0",
     "isin": "KYG970081173"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "KYG970081173",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2269.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG970081173.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WXIBF"
     }
   ],
-  "name": "WUXI BIOLOGICS CAYMAN INC",
-  "primary_symbol": "KYG970081173.SG",
+  "market_cap_band": "Large Cap",
+  "name": "WuXi Biologics (Cayman) Inc.",
+  "primary_symbol": "2269.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "WUXI BIOLOGICS CAYMAN INC is a leading global contract development and manufacturing organization (CDMO) providing end-to-end services for biologics drug development and manufacturing. The company offers services from cell line development to commercial manufacturing, enabling pharmaceutical and biotech companies to accelerate their drug development programs. Wuxi Biologics is headquartered in Wuxi, China."
+  "summary": "WuXi Biologics (Cayman) Inc., an open-access biologics technology platform company, provides solutions to organizations to discover, develop, and manufacture biologics from concept to commercial manufacturing in the People's Republic of China, North America, Europe, and internationally. The company also engages in the provision of consultation services in relation to the biopharmaceutical technology, international sales contracting services, testing and development of testing technologies, sales and marketing services, and biologics clinical and manufacturing services; production and sales of medicals; vaccine CDMO and related business; and material supplier activities. It has strategic partnerships with Almirall, S.A.; Vir Biotechnology, Inc.; Aravive, Inc.; Tubulis GmbH; Arcus Biosciences, Inc.; AC Immune SA; and AB2 Bio Ltd. The company was incorporated in 2014 and is headquartered in Wuxi, China. WuXi Biologics (Cayman) Inc. is a subsidiary of WuXi Biologics Holdings Limited.",
+  "website": "http://www.wuxibiologics.com"
 }

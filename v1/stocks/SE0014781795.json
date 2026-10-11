@@ -5,7 +5,7 @@
     "isin": "SE0014781795"
   },
   "industry": "Trading Companies & Distributors",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Capital Goods",
   "isin": "SE0014781795",
   "kind": "stock",
   "listings": [
@@ -15,9 +15,24 @@
       "symbol": "0QI7.IL"
     },
     {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "ADDT-B.ST"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AZZ2.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AZZ2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AZZ2.MU"
     },
     {
       "currency": "EUR",
@@ -29,13 +44,13 @@
   "name": "Addtech AB Class B",
   "primary_symbol": "0QI7.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Industrials",
   "summary": "Addtech AB is a Swedish technology trading group that supplies high-tech products and solutions to industrial companies. The company operates as an independent distributor, representing leading manufacturers in various technology areas, including automation, power solutions, and specialty products. Addtech is headquartered in Stockholm, Sweden.",
   "website": "http://www.addtech.com"
 }

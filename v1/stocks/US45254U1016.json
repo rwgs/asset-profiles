@@ -2,19 +2,30 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00PQM8124",
+    "composite_figi": "BBG000LZD9X8",
     "cusip": "45254U101",
-    "figi": "BBG00PQM8188",
+    "figi": "BBG000LZD9X8",
     "isin": "US45254U1016"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US45254U1016",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "IMRN"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "ANWA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ANWA.F"
     },
     {
       "currency": "EUR",
@@ -27,15 +38,17 @@
       "symbol": "US45254U1016.SG"
     }
   ],
-  "name": "IMMURON LTD SPON.ADR 40",
-  "primary_symbol": "ANWA.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Immuron Limited",
+  "primary_symbol": "IMRN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "IMMURON LTD SPON.ADR 40 represents American Depositary Receipts (ADRs) of Immuron Ltd. Each ADR represents a specified number of ordinary shares of Immuron Ltd. The company is focused on developing and commercializing bovine colostrum-derived products for gut health."
+  "summary": "Immuron Limited, a biopharmaceutical company, researches and develops oral immunotherapy polyclonal antibodies for the treatment and prevention of infectious and immune modulated diseases in Australia, the United States, and internationally. The company operates through two segments, Research and Development, and Hyperimmune Products. The company markets Travelan and Protectyn for the prevention of travellers' diarrhea. Its lead product candidates include IMM-124E that is in Phase II clinical trials for non-alcoholic steatohepatitis, severe alcoholic hepatitis, and non-alcoholic fatty liver disease, as well as used in antiviral activity against the COVID-19 virus in laboratory studies; and IMM-529, a clinical stage product for clostridium difficile infections. Immuron Limited was founded in 1994 and is based in Carlton, Australia.",
+  "website": "http://www.immuron.com.au"
 }

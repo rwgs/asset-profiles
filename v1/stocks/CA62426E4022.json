@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000GTDBX3",
     "cusip": "62426E402",
-    "figi": "BBG000GTDCB5",
+    "figi": "BBG000GTDG08",
     "isin": "CA62426E4022"
   },
   "industry": "Metals & Mining",
@@ -14,8 +14,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MPG.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MPG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MPG.MU"
     },
     {
       "currency": "EUR",
@@ -33,11 +43,11 @@
       "symbol": "MPVDF"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Mountain Province Diamonds Inc.",
-  "primary_symbol": "MPG.F",
+  "primary_symbol": "MPG.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

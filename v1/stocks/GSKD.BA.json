@@ -1,6 +1,11 @@
 {
   "country": "United Kingdom",
   "country_code": "GB",
+  "identifiers": {
+    "composite_figi": "BBG003641Z90",
+    "figi": "BBG003641Z90"
+  },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "kind": "stock",
   "listings": [
@@ -10,15 +15,17 @@
       "symbol": "GSKD.BA"
     }
   ],
-  "name": "GLAXOSMITHKLINE",
+  "market_cap_band": "Large Cap",
+  "name": "GlaxoSmithKline plc",
   "primary_symbol": "GSKD.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "GLAXOSMITHKLINE is a global research-based pharmaceutical and healthcare company committed to discovering, developing and manufacturing innovative medicines, vaccines and consumer healthcare products. Its focus areas include respiratory diseases, HIV, immuno-inflammation and oncology and consumer healthcare brands. The company's headquarters are located in Brentford, United Kingdom."
+  "summary": "GLAXOSMITHKLINE is a global research-based pharmaceutical and healthcare company committed to discovering, developing and manufacturing innovative medicines, vaccines and consumer healthcare products. Its focus areas include respiratory diseases, HIV, immuno-inflammation and oncology and consumer healthcare brands. The company's headquarters are located in Brentford, United Kingdom.",
+  "website": "http://www.gsk.com"
 }

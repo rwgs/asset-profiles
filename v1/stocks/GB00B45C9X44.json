@@ -2,13 +2,25 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000JR5T37",
-    "figi": "BBG000JR5Y09",
+    "composite_figi": "BBG000BDB238",
+    "figi": "BBG000BDB2P4",
     "isin": "GB00B45C9X44"
   },
+  "industry": "Aerospace & Defense",
+  "industry_group": "Capital Goods",
   "isin": "GB00B45C9X44",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CHG.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CMGMF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,16 +30,29 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "CMN1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CMN1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CMN1.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "CHEMRING GRP PLC  LS-,01",
-  "primary_symbol": "CMN1.BE",
+  "name": "Chemring Group PLC",
+  "primary_symbol": "CHG.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "Chemring Group PLC supplies countermeasures, sensors, and energetic solutions to aerospace, defense, and security industries in the United States, the United Kingdom, Norway, Australia, and internationally. The company operates through two segments, Sensors & Information and Countermeasures & Energetics. The Sensors & Information segment develops and manufactures explosive hazard detection equipment; chemical and biological threat detection equipment; and electronic countermeasures, as well as network protection technologies. The Countermeasures & Energetics segment offers expendable countermeasures for air, sea, and land platforms; cartridge/propellant actuated devices; pyrotechnic devices for satellite launch and deployment; aircraft and space launch systems; missile components; extruded double base propellants; separation sub-systems; actuators; and energetic materials, as well as aircrew egress and safety systems. Chemring Group PLC was founded in 1905 and is headquartered in Romsey, the United Kingdom.",
+  "website": "http://www.chemring.co.uk"
 }

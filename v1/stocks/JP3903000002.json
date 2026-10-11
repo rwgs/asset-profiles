@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C24G92",
-    "figi": "BBG000C24JL2",
+    "composite_figi": "BBG000BGFBD6",
+    "figi": "BBG000BGFBT9",
     "isin": "JP3903000002"
   },
   "industry": "Metals & Mining",
@@ -11,6 +11,16 @@
   "isin": "JP3903000002",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5711.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MIMTF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -33,16 +43,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "MITSUBISHI MAT.",
-  "primary_symbol": "MUJ.BE",
+  "name": "Mitsubishi Materials Corporation",
+  "primary_symbol": "5711.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Mitsubishi Materials Corporation is a Japanese company engaged in the manufacturing and sale of cement, metals, and advanced materials. Its operations span from resource development and recycling to the production of high-performance components and electronic materials. The company is headquartered in Tokyo, Japan.",
+  "summary": "Mitsubishi Materials Corporation, established in Tokyo in 1871, is a diversified group operating through subsidiaries. Its construction materials division offers cement, concrete repair products and grouting mortars, and it also covers metals and energy activities, including geothermal, solar and hydroelectric power, distribution of coal and recycling of radioactive waste.",
   "website": "http://www.mmc.co.jp"
 }

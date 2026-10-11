@@ -1,6 +1,11 @@
 {
   "country": "France",
   "country_code": "FR",
+  "identifiers": {
+    "composite_figi": "BBG00HLDTBW9",
+    "figi": "BBG00HLDTC02"
+  },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "kind": "stock",
   "listings": [
@@ -14,12 +19,13 @@
   "name": "Amoeba S.A.",
   "primary_symbol": "A1H.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Amoeba S.A. is a French biotech company specializing in biological biocide for water treatment and plant protection. The business model is based on the production and commercialization of the biological biocide based on Amoeba's lysate. The company is headquartered in Chassieu, France."
+  "summary": "Amoeba S.A. is a French biotech company specializing in biological biocide for water treatment and plant protection. The business model is based on the production and commercialization of the biological biocide based on Amoeba's lysate. The company is headquartered in Chassieu, France.",
+  "website": "http://www.amoeba-biocide.com"
 }

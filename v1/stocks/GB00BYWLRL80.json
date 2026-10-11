@@ -5,6 +5,8 @@
     "composite_figi": "BBG00FRJ7Y94",
     "isin": "GB00BYWLRL80"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "GB00BYWLRL80",
   "kind": "stock",
   "listings": [
@@ -12,15 +14,24 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00BYWLRL80.SW"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "NEO.L"
     }
   ],
-  "name": "STRANGER HOLDINGS PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "Neo Energy Metals Plc",
   "primary_symbol": "GB00BYWLRL80.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Energy",
+  "summary": "Neo Energy Metals Plc is an exploration and mining firm primarily focused on uranium and yellowcake ventures in South Africa. The company possesses an exclusive option to acquire up to a 70% interest in the Henkries Uranium project, which is situated within South Africa's Northern Cape Province. Originally founded in 2015, the entity was known as Stranger Holdings PLC until it adopted its current name, Neo Energy Metals Plc, in November 2023. Its main office is located in Nairobi, Kenya.",
+  "website": "https://www.neoenergymetals.com"
 }

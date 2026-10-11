@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG000BMDFR1",
+    "figi": "BBG000BMDGG1",
     "isin": "IT0003203947"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -13,13 +15,23 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "GE.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GF7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GF7.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Gefran S.p.A.",
   "primary_symbol": "GE.MI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

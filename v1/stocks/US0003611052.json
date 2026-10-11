@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BBGQF1",
     "cusip": "000361105",
+    "figi": "BBG000BBGQF1",
     "isin": "US0003611052"
   },
   "industry": "Aerospace & Defense",
@@ -10,6 +12,11 @@
   "isin": "US0003611052",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "AIR"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XDUS",
@@ -19,13 +26,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ARZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ARZ.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "AAR Corp.",
-  "primary_symbol": "ARZ.DU",
+  "primary_symbol": "AIR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

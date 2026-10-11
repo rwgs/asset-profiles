@@ -2,8 +2,12 @@
   "country": "India",
   "country_code": "IN",
   "identifiers": {
+    "composite_figi": "BBG00J1ZHGX9",
+    "figi": "BBG00J1ZHH30",
     "isin": "INE501Y01019"
   },
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "INE501Y01019",
   "kind": "stock",
   "listings": [
@@ -11,17 +15,24 @@
       "currency": "INR",
       "exchange_mic": "XBOM",
       "symbol": "SCPL.BO"
+    },
+    {
+      "currency": "INR",
+      "exchange_mic": "XNSE",
+      "symbol": "SCPL.NS"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Sheetal Cool Products Limited",
   "primary_symbol": "SCPL.BO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Sheetal Cool Products Limited manufactures and sells ice cream, frozen desserts, and other food products in India. The company operates through a network of distributors and retailers. It is based in Amreli, Gujarat, India."
+  "sector": "Consumer Staples",
+  "summary": "Sheetal Cool Products Limited manufactures and sells ice cream, frozen desserts, and other food products in India. The company operates through a network of distributors and retailers. It is based in Amreli, Gujarat, India.",
+  "website": "https://www.sheetalfoodworld.com"
 }

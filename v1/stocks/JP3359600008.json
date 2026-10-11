@@ -1,15 +1,26 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Japan",
+  "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C2MZL6",
-    "figi": "BBG000C2N2V7",
+    "composite_figi": "BBG000BGL515",
+    "figi": "BBG000BGL5C3",
     "isin": "JP3359600008"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3359600008",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6753.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SHCAF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +30,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SRP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SRP.F"
     },
     {
       "currency": "EUR",
@@ -36,16 +52,17 @@
       "symbol": "SRP.SG"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Sharp Corporation",
-  "primary_symbol": "SRP.BE",
+  "primary_symbol": "6753.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Sharp Corporation designs, develops, manufactures, and sells electronic products and business solutions. The company offers a range of products including consumer electronics, office equipment, and electronic components. Sharp is headquartered in Sakai, Japan."
+  "sector": "Information Technology",
+  "summary": "Sharp Corporation manufactures and sales telecommunication equipment, electric and electronic application equipment, and electronic components in Japan, China, and internationally. It operates through three segments: Smart Life, 8K Ecosystem, and ICT. The Smart Life segment offers refrigerators, superheated steam ovens, microwave ovens, small cooking appliances, air conditioners, washing machines, vacuum cleaners, air purifiers, fans, dehumidifiers, humidifiers, electric heating equipment, plasma cluster ion generators, beauty equipment, electronic dictionaries, calculators, telephones, network control units, solar cells, storage batteries, camera modules, sensor modules, proximity sensors, dust sensors, wafer foundry, CMOS / CCD sensors, semiconductor lasers etc. The 8K Ecosystem segment provides LCD TVs, Blu-ray disc recorders, audio equipment, display modules, in-vehicle cameras, multi-function printers, information displays, business projectors, POS system equipment, FA equipment, options/consumables, software etc. The ICT segment offers mobile phones, personal computers, etc. The company was formerly known as Hayakawa Electric Industry Co., Ltd. and changed its name to Sharp Corporation in January 1970. Sharp Corporation was founded in 1912 and is headquartered in Sakai, Japan.",
+  "website": "http://global.sharp"
 }

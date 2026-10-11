@@ -6,6 +6,7 @@
     "figi": "BBG001FBRYG5",
     "isin": "GB0000536739"
   },
+  "industry": "Commercial Services & Supplies",
   "industry_group": "Capital Goods",
   "isin": "GB0000536739",
   "kind": "stock",
@@ -17,19 +18,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0LC.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "0LC.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "0LC.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "AHT.L"
     }
   ],
-  "name": "ASHTEAD GRP PLC  LS-,10",
+  "market_cap_band": "Large Cap",
+  "name": "Ashtead Group plc",
   "primary_symbol": "0LC.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Ashtead Group plc is an international equipment rental company operating in the United States, Canada, and the United Kingdom. Through its Sunbelt Rentals brand, the company provides a wide range of construction, industrial, and event equipment for rent. Ashtead is headquartered in London, United Kingdom"
+  "summary": "Ashtead Group plc is an international equipment rental company operating in the United States, Canada, and the United Kingdom. Through its Sunbelt Rentals brand, the company provides a wide range of construction, industrial, and event equipment for rent. Ashtead is headquartered in London, United Kingdom",
+  "website": "http://www.ashtead-group.com"
 }

@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BDZQF6",
     "isin": "SE0000171100"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "SE0000171100",
   "kind": "stock",
@@ -13,17 +14,49 @@
       "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000171100.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SKWA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SKWA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SKWA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SSAAF"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "SSAB-A.ST"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "SSABAH.HE"
     }
   ],
-  "name": "SSAB AB-A SHARES",
+  "market_cap_band": "Large Cap",
+  "name": "SSAB AB (publ)",
   "primary_symbol": "SE0000171100.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "SSAB AB-A SHARES is a steel company that manufactures and sells high-strength steel products and related services. Their products are used in various industries, including construction, automotive, and heavy transport. The company is headquartered in Stockholm, Sweden."
+  "summary": "SSAB AB-A SHARES is a steel company that manufactures and sells high-strength steel products and related services. Their products are used in various industries, including construction, automotive, and heavy transport. The company is headquartered in Stockholm, Sweden.",
+  "website": "http://www.ssab.com"
 }

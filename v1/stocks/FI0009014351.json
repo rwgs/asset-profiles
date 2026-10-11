@@ -2,9 +2,11 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
+    "composite_figi": "BBG00GVJG1F2",
+    "figi": "BBG00NRVXM24",
     "isin": "FI0009014351"
   },
-  "industry": "Pharmaceuticals",
+  "industry": "Food & Staples Retailing",
   "industry_group": "Food & Staples Retailing",
   "isin": "FI0009014351",
   "kind": "stock",
@@ -38,13 +40,18 @@
       "currency": "EUR",
       "exchange_mic": "XHEL",
       "symbol": "OKDBV.HE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "ORIOLA.HE"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Oriola Corp Class B",
   "primary_symbol": "0NES.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

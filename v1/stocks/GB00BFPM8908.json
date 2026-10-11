@@ -2,10 +2,12 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG005P36KW8",
+    "composite_figi": "BBG00Z8LS266",
+    "figi": "BBG00Z8LS2B0",
     "isin": "GB00BFPM8908"
   },
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Pharmaceuticals",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "GB00BFPM8908",
   "kind": "stock",
   "listings": [
@@ -13,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BFPM8908.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "VLG.L"
     }
   ],
-  "name": "VENTURE LIFE GROUP PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Venture Life Group plc",
   "primary_symbol": "GB00BFPM8908.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Venture Life Group PLC is an international consumer healthcare company. They develop, manufacture and commercialise products for self-care. Venture Life Group is headquartered in Bracknell, UK."
+  "summary": "Venture Life Group PLC is an international consumer healthcare company. They develop, manufacture and commercialise products for self-care. Venture Life Group is headquartered in Bracknell, UK.",
+  "website": "http://www.venture-life.com"
 }

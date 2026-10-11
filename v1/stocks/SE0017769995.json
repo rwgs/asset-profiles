@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BFD561",
     "isin": "SE0017769995"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "SE0017769995",
   "kind": "stock",
@@ -13,17 +14,24 @@
       "currency": "SEK",
       "exchange_mic": "XLON",
       "symbol": "0GTN.IL"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "BIOG-B.ST"
     }
   ],
-  "name": "BIOGAIA AB BIOGAIA ORD SHS",
+  "market_cap_band": "Small Cap",
+  "name": "BioGaia AB (publ)",
   "primary_symbol": "0GTN.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "BioGaia AB is a Swedish biotechnology company that develops, markets and sells probiotic products. The company's products are used in dietary supplements, infant formula, and other applications. BioGaia is headquartered in Stockholm, Sweden."
+  "summary": "BioGaia AB is a Swedish biotechnology company that develops, markets and sells probiotic products. The company's products are used in dietary supplements, infant formula, and other applications. BioGaia is headquartered in Stockholm, Sweden.",
+  "website": "http://www.biogaia.com"
 }

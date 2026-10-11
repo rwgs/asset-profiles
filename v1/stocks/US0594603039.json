@@ -2,15 +2,31 @@
   "country": "Brazil",
   "country_code": "BR",
   "identifiers": {
-    "composite_figi": "BBG000BV8PZ6",
+    "composite_figi": "BBG000BS6WW3",
     "cusip": "059460303",
-    "figi": "BBG000BV8T60",
+    "figi": "BBG000BS6Y13",
     "isin": "US0594603039"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US0594603039",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BBD"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0HL8.L"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "BBDN.MX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +34,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BREC.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BREC.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BREC.SG"
     }
   ],
-  "name": "BANCO BRADESCO PFD 04 ADR",
-  "primary_symbol": "BREC.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Banco Bradesco S.A.",
+  "primary_symbol": "BBD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "BANCO BRADESCO PFD 04 ADR represents an American Depositary Receipt (ADR) for preferred shares of Banco Bradesco, a major Brazilian bank. These ADRs allow investors outside of Brazil to invest in the preferred equity of Bradesco. Banco Bradesco provides a wide range of financial services to individuals, businesses, and corporations in Brazil."
+  "summary": "Banco Bradesco S.A., together with its subsidiaries, provides various banking products and services to individuals, corporates, and businesses in Brazil and internationally. The company operates through The Banking, and The Insurance. The company offers leasing, investment banking, brokerage, and consortium management services, overdrafts, as well as credit cards, real estate products, pension plans, and capitalization bonds. It also provides health, life, and personal accident insurance products. Banco Bradesco S.A. was founded in 1943 and is headquartered in Osasco, Brazil.",
+  "website": "http://banco.bradesco"
 }

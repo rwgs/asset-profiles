@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00LGMHG03",
-    "figi": "BBG00LGMHG12",
+    "figi": "BBG00LGMHG21",
     "isin": "GB00BQQFX454"
   },
   "industry": "Paper & Forest Products",
@@ -13,8 +13,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "1D8.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1D8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1D8.MU"
     },
     {
       "currency": "EUR",
@@ -39,15 +49,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Accsys Technologies PLC",
-  "primary_symbol": "1D8.F",
+  "primary_symbol": "1D8.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Accsys Technologies PLC, together with its subsidiaries, produces and sells Accoya solid wood and Tricoya wood elements in the United Kingdom, Ireland, Benelux, rest of Europe, the Americas, the Asia-Pacific, and internationally. The company offers Accoya wood for use in windows and doors, decking, cladding, bridges, and exterior structures and applications; and Tricoya wood elements for facades and cladding, soffits and eaves, exterior joinery, wet interiors, door skins, flooring, signage, and marine uses, as well as kitchen carcasses, art installations, and window components. It also provides technical and engineering services to licensees; and sells acetic acid, a by-product from the manufacturing process. The company is headquartered in London, the United Kingdom.",
+  "summary": "Accsys Technologies PLC is a company focused on the development and commercialization of modified wood products. Their primary product is Accoya wood, a high-performance wood created through acetylation, offering enhanced durability and stability. Accsys Technologies is headquartered in Arnhem, Netherlands.",
   "website": "http://www.accsysplc.com"
 }

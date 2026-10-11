@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00252PKY6",
-    "figi": "BBG00252PL47",
+    "composite_figi": "BBG000G72VS5",
+    "figi": "BBG001MM1RL0",
     "isin": "CNE1000016V2"
   },
   "industry": "Capital Markets",
@@ -11,6 +11,11 @@
   "isin": "CNE1000016V2",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "6030.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -35,24 +40,19 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CIIHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CIIHY"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "CITIC Securities Co. Ltd. Class H",
-  "primary_symbol": "CI9.BE",
+  "name": "CITIC Securities Company Limited",
+  "primary_symbol": "6030.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "CITIC SECURITIES H YC 1 is a leading investment bank in China, providing a range of financial services including securities brokerage, investment banking, and asset management. The company is headquartered in Beijing, China.",
+  "summary": "CITIC Securities Company Limited, established in 1995 and headquartered in Beijing, is a financial institution serving clients in mainland China and abroad through investment banking, brokerage, trading and asset management divisions. Investment banking advises on equity and debt financing, brokerage handles securities and futures transactions, and trading covers market-making in equities, fixed income, derivatives and foreign exchange, along with margin lending and commodities. It also does fund management, private equity and custody.",
   "website": "http://www.cs.ecitic.com"
 }

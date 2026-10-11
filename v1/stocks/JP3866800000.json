@@ -2,9 +2,11 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG00JWMXYJ3",
+    "figi": "BBG00JWMXYK1",
     "isin": "JP3866800000"
   },
-  "industry": "Electronic Equipment, Instruments & Components",
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "JP3866800000",
   "kind": "stock",
@@ -13,6 +15,11 @@
       "currency": "JPY",
       "exchange_mic": "XLON",
       "symbol": "0QYR.L"
+    },
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6752.T"
     },
     {
       "currency": "EUR",
@@ -26,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MAT1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MAT1.MU"
     },
@@ -33,18 +45,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MAT1.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "MAT1.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PCRFF"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Large Cap",
   "name": "Panasonic Holdings Corporation",
   "primary_symbol": "0QYR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Panasonic Corporation is a global electronics manufacturer that develops, manufactures, sells, and services a wide range of products. The company's offerings include consumer electronics, home appliances, automotive systems, and industrial solutions. Panasonic is headquartered in Osaka, Japan."
+  "summary": "Panasonic Corporation is a global electronics manufacturer that develops, manufactures, sells, and services a wide range of products. The company's offerings include consumer electronics, home appliances, automotive systems, and industrial solutions. Panasonic is headquartered in Osaka, Japan.",
+  "website": "http://www.panasonic.com/global/home.html"
 }

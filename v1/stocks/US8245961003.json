@@ -2,8 +2,9 @@
   "country": "Korea, Republic of",
   "country_code": "KR",
   "identifiers": {
-    "composite_figi": "BBG000BXLRP4",
-    "figi": "BBG000BXLRZ3",
+    "composite_figi": "BBG000BF95M8",
+    "cusip": "824596100",
+    "figi": "BBG000BF95M8",
     "isin": "US8245961003"
   },
   "industry": "Banks",
@@ -12,6 +13,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SHG"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KSF1.F"
@@ -19,9 +25,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Shinhan Financial Group Co., Ltd.",
-  "primary_symbol": "KSF1.F",
+  "primary_symbol": "SHG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

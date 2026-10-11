@@ -2,14 +2,25 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BFW524",
-    "figi": "BBG000BFW8R1",
+    "composite_figi": "BBG000BDSQX4",
+    "figi": "BBG000BDSR53",
     "isin": "HK0083000502"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "HK0083000502",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0083.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SNLAF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +30,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SNO.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SNO.F"
     },
     {
       "currency": "EUR",
@@ -32,15 +48,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "SINO LD CO.",
-  "primary_symbol": "SNO.BE",
+  "name": "Sino Land Company Limited",
+  "primary_symbol": "0083.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Sino Land Company Limited is a property developer in Hong Kong. The company develops residential, office, industrial and retail properties for sale and investment. It's based in Hong Kong."
+  "summary": "Sino Land Company Limited, an investment holding company in real estate, invests in, develops, manages and trades properties. It reports six segments: property sales, rental, management and other services, hotels, securities investment and financing. Its portfolio spans residential, office and industrial buildings, shopping centers, car parks and hotels.",
+  "website": "http://www.sino.com"
 }

@@ -5,6 +5,8 @@
     "composite_figi": "BBG0077M1K93",
     "isin": "CL0002409135"
   },
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "CL0002409135",
   "kind": "stock",
   "listings": [
@@ -12,15 +14,22 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CL0002409135.SG"
+    },
+    {
+      "currency": "CLP",
+      "exchange_mic": "XSGO",
+      "symbol": "SALMOCAM.SN"
     }
   ],
-  "name": "SALMONES CAMANCHACA SA",
+  "name": "Salmones Camanchaca S.A.",
   "primary_symbol": "CL0002409135.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Consumer Staples",
+  "summary": "Salmones Camanchaca S.A. engages in the salmon farming business in Chile. The company offers Atlantic salmon, including whole/HG, steak, servings, and other products; and whole/HG coho, coho steak, and coho portions. It also exports its products. The company was founded in 1987 and is based in Puerto Montt, Chile. Salmones Camanchaca S.A. operates as a subsidiary of Camanchaca S.A."
 }

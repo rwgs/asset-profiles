@@ -6,7 +6,8 @@
     "figi": "BBG008FJX409",
     "isin": "GB00B0P1RP10"
   },
-  "industry_group": "Software & Services",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "GB00B0P1RP10",
   "kind": "stock",
   "listings": [
@@ -14,17 +15,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B0P1RP10.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TRAK.L"
     }
   ],
-  "name": "TRAKM8 HOLDINGS PLC",
+  "name": "Trakm8 Holdings PLC",
   "primary_symbol": "GB00B0P1RP10.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "TRAKM8 HOLDINGS PLC provides telematics and data analytics solutions. Their business model revolves around offering vehicle tracking, driver behavior monitoring, and other data-driven services to fleet operators and insurance companies, generating revenue through subscriptions and hardware sales. The company is headquartered in Coleshill, UK."
+  "summary": "TRAKM8 HOLDINGS PLC provides telematics and data analytics solutions. Their business model revolves around offering vehicle tracking, driver behavior monitoring, and other data-driven services to fleet operators and insurance companies, generating revenue through subscriptions and hardware sales. The company is headquartered in Coleshill, UK.",
+  "website": "http://www.trakm8.com"
 }

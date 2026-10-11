@@ -2,9 +2,7 @@
   "country": "India",
   "country_code": "IN",
   "identifiers": {
-    "composite_figi": "BBG000JXMDL0",
     "cusip": "39032T106",
-    "figi": "BBG000JXMF80",
     "isin": "US39032T1060"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,16 +11,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "D5T1.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "D5T1.SG"
-    },
-    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "GEEC.L"
@@ -30,9 +18,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Great Eastern Energy Corporation Limited",
-  "primary_symbol": "D5T1.F",
+  "primary_symbol": "GEEC.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

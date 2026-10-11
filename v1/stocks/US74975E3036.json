@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG000BMYQ49",
     "cusip": "74975E303",
-    "figi": "BBG000BMYS90",
+    "figi": "BBG000BMYQG6",
     "isin": "US74975E3036"
   },
+  "industry": "Multi-Utilities",
   "industry_group": "Utilities",
   "isin": "US74975E3036",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RWEA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "RWEA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RWEA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RWEOY"
     }
   ],
-  "name": "RWE AG  ADR 1",
-  "primary_symbol": "RWEA.MU",
+  "market_cap_band": "Large Cap",
+  "name": "RWE Aktiengesellschaft",
+  "primary_symbol": "RWEA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "RWE AG is a German multinational energy company. It is one of the largest electricity producers worldwide, generating power from conventional and renewable sources. RWE is headquartered in Essen, Germany."
+  "summary": "RWE Aktiengesellschaft generates and supplies electricity from renewable and conventional sources primarily in Europe and the United States. It operates through five segments: Offshore Wind; Onshore Wind/Solar; Hydro/Biomass/Gas; Supply & Trading; and Coal/Nuclear. The company generates wind, solar, hydro, nuclear, gas, and biomass electricity. It also trades in energy commodities; and operates gas storage facilities. The company serves commercial, industrial, and corporate customers. RWE Aktiengesellschaft was founded in 1898 and is headquartered in Essen, Germany.",
+  "website": "http://www.group.rwe/en"
 }

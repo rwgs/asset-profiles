@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BJQ7X5",
+    "composite_figi": "BBG000JSPR64",
     "cusip": "824667109",
-    "figi": "BBG000BJQ872",
+    "figi": "BBG000JSPR64",
     "isin": "US8246671098"
   },
   "industry": "Pharmaceuticals",
@@ -13,31 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "4507.T"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SGIOF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SGIOY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SH0.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Shionogi & Co., Ltd.",
-  "primary_symbol": "4507.T",
+  "primary_symbol": "SGIOY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

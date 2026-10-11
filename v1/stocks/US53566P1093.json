@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG000GKSLH2",
     "cusip": "53566P109",
-    "figi": "BBG000GKTQG1",
+    "figi": "BBG000GKSM71",
     "isin": "US53566P1093"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US53566P1093",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BT3.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "LCTX"
+    },
+    {
+      "currency": "ILS",
+      "exchange_mic": "XTAE",
+      "symbol": "LCTX.TA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US53566P1093.SG"
     }
   ],
-  "name": "LINEAGE CELL THERAPEUTICS IN",
-  "primary_symbol": "US53566P1093.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Lineage Cell Therapeutics, Inc.",
+  "primary_symbol": "BT3.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "LINEAGE CELL THERAPEUTICS IN is a clinical-stage biotechnology company focused on developing and commercializing cell therapies for the treatment of degenerative diseases. They are developing allogeneic cell therapies that are designed to replace or support damaged cells. Lineage Cell Therapeutics is headquartered in Carlsbad, California."
+  "summary": "Lineage Cell Therapeutics, Inc., a clinical-stage biotechnology company, focuses on developing and commercializing therapies for the treatment of degenerative diseases in the United States and internationally. The company's lead product candidates include OpRegen, a retinal pigment epithelium cell replacement therapy, which is in Phase I/IIa clinical trial for the treatment of the dry age-related macular degeneration; OPC1, an oligodendrocyte progenitor cell therapy that is in Phase I/IIa multicenter clinical trial for the treatment of acute spinal cord injuries; and VAC2, an allogeneic cancer immunotherapy of antigen-presenting dendritic cells, which is in Phase I clinical trial to treat non-small cell lung cancer. It also develops Renevia, a facial aesthetics product for the treatment of facial lipoatrophy. In addition, the company offers various therapeutic products for the treatment of oncology, and neurological diseases and disorders, as well as undertakes various research programs for vision restoration and Demyelination. Lineage Cell Therapeutics, Inc. has a collaboration with Orbit Biomedical, Ltd. The company was formerly known as BioTime, Inc. and changed its name to Lineage Cell Therapeutics, Inc. in August 2019. Lineage Cell Therapeutics, Inc. was incorporated in 1990 and is headquartered in Carlsbad, California.",
+  "website": "http://www.lineagecell.com"
 }

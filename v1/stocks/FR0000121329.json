@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BCFRC1",
     "isin": "FR0000121329"
   },
+  "industry": "Aerospace & Defense",
   "industry_group": "Capital Goods",
   "isin": "FR0000121329",
   "kind": "stock",
@@ -13,17 +14,63 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0IW5.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CSF.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CSF.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CSF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CSF.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CSF.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "CSF.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "HO.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "THAL.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "THLEF"
     }
   ],
-  "name": "THALES SA THALES ORD SHS",
+  "market_cap_band": "Large Cap",
+  "name": "Thales S.A.",
   "primary_symbol": "0IW5.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Thales S.A. is a French multinational company that designs and builds electrical systems and provides services for the aerospace, defence, transportation and security markets. Thales is headquartered in Paris, France."
+  "summary": "Thales S.A. is a French multinational company that designs and builds electrical systems and provides services for the aerospace, defence, transportation and security markets. Thales is headquartered in Paris, France.",
+  "website": "http://www.thalesgroup.com/en"
 }

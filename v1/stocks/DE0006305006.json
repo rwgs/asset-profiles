@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BN8Y58",
-    "figi": "BBG000BN90P9",
+    "composite_figi": "BBG000BQ9PL1",
+    "figi": "BBG000BQ9PL1",
     "isin": "DE0006305006"
   },
   "industry": "Machinery",
@@ -12,9 +12,24 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DEUZF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DEZ.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DEZ.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DEZ.DU"
     },
     {
       "currency": "EUR",
@@ -22,6 +37,27 @@
       "symbol": "DEZ.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "DEZ.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DEZ.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DEZ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DEZ.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "DEZ.TI"
     },
     {
@@ -31,16 +67,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "DEUTZ Aktiengesellschaft",
-  "primary_symbol": "DEZ.DE",
+  "name": "Deutz AG",
+  "primary_symbol": "DEUZF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "DEUTZ Aktiengesellschaft engages in the development, production, distribution, and servicing of diesel and gas engines in Europe, the Middle East, Africa, the Asia Pacific, and the Americas. It operates through three segments: DEUTZ Compact Engines, DEUTZ Customized Solutions, and Other. The DEUTZ Compact Engines segment provides liquid-cooled engines with capacities of up to 8 liters. The DEUTZ Customized Solutions segment offers air-cooled drives and liquid-cooled engines with a capacity exceeding 8 liters. This segment also supplies reconditioned exchange engines and parts. The Other segment is involved in manufacturing electric and hybrid drive systems for marine applications under the Torqeedo brand, and battery management hardware and software products, as well as focuses on the electrification of drive systems and electric-powered watercraft. It also offers maintenance and repair services for engines. The company's products are used in various applications, such as construction equipment, agricultural machinery, lifting and material handling equipment, ground support equipment, stationary equipment, commercial vehicles, rail vehicles, boats, and other applications. DEUTZ Aktiengesellschaft was founded in 1864 and is headquartered in Cologne, Germany.",
-  "website": "http://www.deutz.com"
+  "summary": "Deutz AG, a German corporation, is primarily engaged in the manufacturing of diesel and gas-powered engines. The company boasts a widespread international footprint, serving markets across Europe, the Middle East, Africa, the Asia Pacific region, and the Americas. Its activities are organized across three distinct segments. The DEUTZ Compact Engines division is dedicated to the servicing of liquid-cooled power units up to 8 liters in displacement. In contrast, the DEUTZ Customized Solutions segment offers air-cooled drives and liquid-cooled engines larger than 8 liters, alongside remanufactured exchange engines and spare parts. The 'Other' segment encompasses the manufacturing of electric and hybrid drive systems for marine applications under the Torqeedo brand. It is also responsible for developing battery management hardware and software products (Futavis) and spearheads efforts in electrifying drive systems and electric watercraft. Beyond manufacturing, Deutz provides comprehensive after-sales services, including engine installation, ongoing maintenance, and critical repairs. These engines are deployed in a broad spectrum of applications, such as construction and agricultural machinery, material handling equipment, ground support vehicles, stationary power plants, commercial and rail transport, and various marine vessels. Established in 1864, Deutz AG maintains its corporate headquarters in Cologne, Germany.",
+  "website": "https://www.deutz.com"
 }

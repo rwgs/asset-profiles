@@ -18,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TXC2.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TXC2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TXC2.MU"
     },
     {
       "currency": "EUR",
@@ -27,11 +37,11 @@
       "symbol": "TXC2.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Teixeira Duarte, S.A.",
   "primary_symbol": "TDSA.LS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

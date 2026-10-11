@@ -2,13 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG0085ZZXW3",
     "cusip": "04238R106",
+    "figi": "BBG0085ZZXW3",
     "isin": "US04238R1068"
   },
+  "industry": "Building Products",
   "industry_group": "Capital Goods",
   "isin": "US04238R1068",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "AFI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -20,20 +28,27 @@
       "symbol": "2AS.MU"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AFIIQ"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US04238R1068.SG"
     }
   ],
-  "name": "ARMSTRONG FLOOR.DL-,0001",
-  "primary_symbol": "2AS.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Armstrong Flooring, Inc.",
+  "primary_symbol": "AFI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Armstrong Flooring, Inc. designs, manufactures, and sells resilient flooring products in North America. The company offers a broad portfolio of flooring solutions, including vinyl sheet, vinyl tile, and engineered hardwood. Armstrong Flooring is headquartered in Lancaster, Pennsylvania."
+  "summary": "Armstrong Flooring, Inc., together with its subsidiaries, designs, manufactures, sources, and sells resilient flooring products in North America and the Pacific Rim. Its products are used in the construction and renovation of commercial, residential, and institutional buildings. The company sells its products to independent wholesale flooring distributors, retailers, builders, contractors, installers, property management firms, homeowners, and others. Armstrong Flooring, Inc. was founded in 1860 and is headquartered in Lancaster, Pennsylvania.",
+  "website": "http://www.armstrongflooring.com"
 }

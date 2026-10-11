@@ -2,6 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG00JRVHTR9",
+    "figi": "BBG00NRVYB63",
     "isin": "CH0360674466"
   },
   "industry": "Health Care Providers & Services",
@@ -18,13 +20,18 @@
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "GALE.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GALNF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Galenica AG",
   "primary_symbol": "0ROG.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

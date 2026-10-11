@@ -6,6 +6,7 @@
     "figi": "BBG000TR1774",
     "isin": "AU0000067092"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU0000067092",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000067092.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "GNM.AX"
     }
   ],
-  "name": "GREAT NORTHERN MINERALS LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Northern Minerals Limited",
   "primary_symbol": "AU0000067092.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Great Northern Minerals Ltd is an Australian gold exploration company focused on its East Kimberley gold projects in Western Australia. The company is exploring for gold and base metal resources."
+  "summary": "Great Northern Minerals Ltd is an Australian gold exploration company focused on its East Kimberley gold projects in Western Australia. The company is exploring for gold and base metal resources.",
+  "website": "http://northernminerals.com.au"
 }

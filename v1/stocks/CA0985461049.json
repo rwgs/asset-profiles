@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000KF9W03",
+    "composite_figi": "BBG000KF9JY5",
     "cusip": "098546104",
-    "figi": "BBG000KF9W03",
+    "figi": "BBG000KF9KT8",
     "isin": "CA0985461049"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,22 +13,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "BNE.TO"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BNEFF"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Bonterra Energy Corp.",
-  "primary_symbol": "BNEFF",
+  "market_cap_band": "Micro Cap",
+  "name": "Terra Energy Corp.",
+  "primary_symbol": "BNE.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Bonterra Energy Corp., a conventional oil and gas company, engages in the development and production of oil and natural gas in Canada. Its principal asset is the Pembina Cardium, a conventional oil field at the Pembina and Willesden green fields located in central Alberta. Bonterra Energy Corp. was incorporated in 2013 and is headquartered in Calgary, Canada.",
+  "summary": "Terra Energy Corp. does not have significant operations. Previously, the company engaged in the exploration, development, and operation of petroleum and natural gas in Western Canada. Terra Energy Corp. is headquartered in Calgary, Canada.",
   "website": "http://www.bonterraenergy.com"
 }

@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "ES0118594417"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "ES0118594417",
   "kind": "stock",
@@ -12,17 +13,59 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0HA9.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IDA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IDA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IDA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IDA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IDA.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "IDR.MC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "IDR.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ISMAF"
     }
   ],
-  "name": "INDRA SISTEMAS SA INDRA SISTEMA",
+  "market_cap_band": "Large Cap",
+  "name": "Indra Sistemas, S.A.",
   "primary_symbol": "0HA9.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Indra Sistemas S.A. is a Spanish information technology and defense systems company. The company provides consulting, technology, and engineering services to various sectors, including defense, security, transport, energy, and financial services. Indra Sistemas S.A. is headquartered in Alcobendas, Spain."
+  "summary": "Indra Sistemas S.A. is a Spanish information technology and defense systems company. The company provides consulting, technology, and engineering services to various sectors, including defense, security, transport, energy, and financial services. Indra Sistemas S.A. is headquartered in Alcobendas, Spain.",
+  "website": "http://www.indracompany.com"
 }

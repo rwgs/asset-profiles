@@ -6,28 +6,58 @@
     "figi": "BBG000BB3TX9",
     "isin": "AU000000RHC8"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Health Care Providers & Services",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "AU000000RHC8",
   "kind": "stock",
   "listings": [
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
-      "symbol": "RMY.AX"
+      "symbol": "RHC.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RMSYF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RMY.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RMY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "RMY.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RMY.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RMY.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "RMA Global Limited",
-  "primary_symbol": "RMY.AX",
+  "market_cap_band": "Mid Cap",
+  "name": "Ramsay Health Care Limited",
+  "primary_symbol": "RHC.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "RMA Global Limited, an online digital marketing company, provides data on real estate. The company offers sale results for residential real estate agents and agencies, as well as reviews of agent performance from vendors and buyers of residential real estate. It operates in Australia, the United States, and New Zealand. The company was formerly known as Digital Castle Pty. Ltd. RMA Global Limited was founded in 2014 and is based in Cremorne, Australia.",
-  "website": "http://www.rma-global.com"
+  "sector": "Health Care",
+  "summary": "Ramsay Health Care Limited provides health care services to public and private patients. The company's health care services comprise day surgery procedures and other surgeries, as well as psychiatric care and rehabilitation services. It operates through approximately 500 locations across Australia, the United Kingdom, France, Sweden, Norway, Denmark, Germany, Indonesia, Malaysia, Hong Kong, and Italy. The company was founded in 1964 and is based in Sydney, Australia.",
+  "website": "http://www.ramsayhealth.com"
 }

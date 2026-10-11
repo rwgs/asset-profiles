@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JHVSJJ9",
+    "figi": "BBG00JHVSJK7",
     "isin": "IT0000084043"
   },
   "industry": "Construction & Engineering",
@@ -9,6 +11,11 @@
   "isin": "IT0000084043",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0DNS.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -20,11 +27,11 @@
       "symbol": "IT0000084043.SW"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Autostrade Meridionali S.p.A.",
-  "primary_symbol": "AUTME.MI",
+  "primary_symbol": "0DNS.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

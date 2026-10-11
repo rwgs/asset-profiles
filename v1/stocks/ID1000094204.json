@@ -2,14 +2,20 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
-    "composite_figi": "BBG000BXVZ84",
-    "figi": "BBG000BXW2F8",
+    "composite_figi": "BBG000BFRMS5",
+    "figi": "BBG000BFRN58",
     "isin": "ID1000094204"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "ID1000094204",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "BDMN.JK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +23,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HX9.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "HX9.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HX9.SG"
     }
   ],
-  "name": "PT BK DANAMON TBK RP50000",
-  "primary_symbol": "HX9.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "PT Bank Danamon Indonesia Tbk",
+  "primary_symbol": "BDMN.JK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "PT Bank Danamon Indonesia Tbk is an Indonesian bank providing a range of financial services including consumer banking, small and medium enterprise (SME) banking, commercial banking, and automotive financing. The bank also offers Sharia-compliant banking services and wealth management. Bank Danamon is headquartered in Jakarta, Indonesia."
+  "summary": "PT Bank Danamon Indonesia Tbk provides banking services for retail, small and medium enterprises (SMEs), and corporate customers in Indonesia. It operates through Retail and Wholesale segments. The company offers savings and current accounts; online and time deposits; saving plans; business savings; and debit and credit cards. It also provides personal and mortgage loans, as well as automotive financing; investment products, including bonds, mutual funds, exchange traded fund mutual fund, structured products, foreign exchange, and market insights; and personal, investment related, endowment, health, and general insurance products. In addition, the company offers business financing, such as term installment credit, credit account statement, and term credit; incoming and outgoing collection, open account financing buyer and seller, letter of credit, financing against trust receipt, import LC/SKBDN financing, advise LC/SKBDN, LC/SKBDN negotiation, pre-shipment financing, guarantee, and trade finance form; derivative and economic corner; account, collection, liquidity management, and payment services. Further, it provides Sharia Savings, Savings Nisbah, financing, Deposito iB, Sharia Life Insurance, and cash Waqf payment services; and digital banking. The company was formerly known as Bank Kopra Indonesia and changed its name to PT Bank Danamon Indonesia Tbk in 1976. The company was incorporated in 1956 and is headquartered in Jakarta Selatan, Indonesia. PT Bank Danamon Indonesia Tbk is a subsidiary of MUFG Bank, Ltd.",
+  "website": "https://www.danamon.co.id"
 }

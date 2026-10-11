@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00L2Z0MK2",
+    "figi": "BBG00L2Z0ML1",
     "isin": "FR0013326246"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -11,18 +13,13 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XLON",
-      "symbol": "0YO9.IL"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1BR1.F"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "UBLB.F"
+      "exchange_mic": "XSWX",
+      "symbol": "FR0013326246.SW"
     },
     {
       "currency": "EUR",
@@ -48,19 +45,24 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "URW.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "URW.PA"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "WFD UNIBAIL RODAMCO NV WFD UNIB",
-  "primary_symbol": "0YO9.IL",
+  "name": "Unibail-Rodamco-Westfield SE",
+  "primary_symbol": "1BR1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "WFD UNIBAIL RODAMCO NV WFD UNIB represents warrants for Unibail-Rodamco-Westfield. Unibail-Rodamco-Westfield is a European commercial real estate company. The warrants give the holder the right to purchase shares of Unibail-Rodamco-Westfield under specific terms.",
+  "summary": "Unibail-Rodamco-Westfield is the premier global developer and operator of Flagship Destinations, with a portfolio valued at €58.3 Bn as at September 30, 2020, of which 86% in retail, 7% in offices, 5% in convention & exhibition venues and 2% in services. Currently, the Group owns and operates 89 shopping centres, including 55 Flagships in the most dynamic cities in Europe and the United States. Its centres welcome 1.2 billion visits per year. Present on two continents and in 12 countries, Unibail-Rodamco-Westfield provides a unique platform for retailers and brand events and offers an exceptional and constantly renewed experience for customers. With the support of its 3,400 professionals and an unparalleled track-record and know-how, Unibail-Rodamco-Westfield is ideally positioned to generate superior value and develop world-class projects. Unibail-Rodamco-Westfield distinguishes itself by its Better Places 2030 agenda, that sets its ambition to create better places that respect the highest environmental standards and contribute to better cities. Unibail-Rodamco-Westfield stapled shares are listed on Euronext Amsterdam and Euronext Paris (Euronext ticker: URW), with a secondary listing in Australia through Chess Depositary Interests. The Group benefits from an A- rating from Standard & Poor's and from a Baa1 rating from Moody's.",
   "website": "http://www.urw.com"
 }

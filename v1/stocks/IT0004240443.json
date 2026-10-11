@@ -2,7 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000H6PMW6",
+    "composite_figi": "BBG000TZD9Q8",
+    "figi": "BBG000TZD9T5",
     "isin": "IT0004240443"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -10,6 +11,16 @@
   "isin": "IT0004240443",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4LZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "4LZ.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -22,16 +33,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Piquadro S.p.A",
-  "primary_symbol": "IT0004240443.SW",
+  "name": "Piquadro S.p.A.",
+  "primary_symbol": "4LZ.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "PIQUADRO SPA is an Italian leather goods company that designs, manufactures, and distributes bags, luggage, and accessories. They focus on business and travel products with a blend of design, functionality, and technology. The company is headquartered in Gaggio Montano, Italy.",
+  "summary": "Piquadro S.p.A. designs, manufactures, and sells bags and accessories in Italy. The company was founded in 1987 and is based in Bologna, Italy.",
   "website": "http://www.piquadro.com"
 }

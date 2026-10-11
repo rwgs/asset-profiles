@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BBJHG7",
     "isin": "GB0008883927"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "GB0008883927",
   "kind": "stock",
@@ -13,17 +14,24 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0008883927.SW"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TRI.L"
     }
   ],
-  "name": "TRIFAST PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Trifast plc",
   "primary_symbol": "GB0008883927.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Trifast PLC is a global manufacturer and distributor of industrial fasteners, including screws, bolts, nuts, and related products. The company supplies fasteners to various industries, including automotive, electronics, and construction. Trifast PLC is headquartered in Uckfield, United Kingdom."
+  "summary": "Trifast PLC is a global manufacturer and distributor of industrial fasteners, including screws, bolts, nuts, and related products. The company supplies fasteners to various industries, including automotive, electronics, and construction. Trifast PLC is headquartered in Uckfield, United Kingdom.",
+  "website": "http://www.trifast.com"
 }

@@ -2,9 +2,8 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000BRR3N6",
-    "cusip": "296036304",
-    "figi": "BBG000BRR3N6",
+    "composite_figi": "BBG000BW25B0",
+    "figi": "BBG000BW25B0",
     "isin": "AT0000652011"
   },
   "industry": "Banks",
@@ -15,12 +14,12 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "EBKDY"
+      "symbol": "EBKOF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "EBKOF"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EBO.BE"
     },
     {
       "currency": "EUR",
@@ -29,8 +28,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EBO.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EBO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "EBO.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "EBO.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EBO.MU"
     },
     {
       "currency": "EUR",
@@ -41,11 +60,6 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "EBON.MX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EBOR.F"
     },
     {
       "currency": "EUR",
@@ -60,9 +74,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Erste Group Bank AG",
-  "primary_symbol": "EBKDY",
+  "primary_symbol": "EBKOF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

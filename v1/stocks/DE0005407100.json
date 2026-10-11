@@ -2,8 +2,11 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00GVJFZ31",
+    "figi": "BBG00NRVXJV9",
     "isin": "DE0005407100"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "DE0005407100",
   "kind": "stock",
@@ -15,20 +18,51 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CSH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "CSH.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CSH.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CSH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CSH.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CSH.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CSH.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "CENIT Aktiengesellschaft",
   "primary_symbol": "0MUF.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CENIT Aktiengesellschaft is a German IT consulting and software company. It provides product lifecycle management (PLM), enterprise information management (EIM), and application management services. The company is headquartered in Stuttgart, Germany."
+  "summary": "CENIT Aktiengesellschaft is a German IT consulting and software company. It provides product lifecycle management (PLM), enterprise information management (EIM), and application management services. The company is headquartered in Stuttgart, Germany.",
+  "website": "https://www.cenit.com"
 }

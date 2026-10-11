@@ -18,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "EVK.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "EVK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EVK.F"
     },
     {
       "currency": "EUR",
@@ -33,18 +43,39 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "EVK.MI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "EVK.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EVK.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "EVK.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "EVK.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EVKIF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Evonik Industries AG",
   "primary_symbol": "EVK.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -52,5 +83,5 @@
   "schema_version": "1.0.0",
   "sector": "Materials",
   "summary": "Evonik Industries AG is a specialty chemicals company headquartered in Essen, Germany. The company operates in various segments, including specialty additives, nutrition & care, smart materials, and performance materials, producing a wide range of chemical products. Evonik serves diverse industries, including automotive, agriculture, and healthcare.",
-  "website": "https://www.evonik.com"
+  "website": "http://corporate.evonik.com/en/"
 }

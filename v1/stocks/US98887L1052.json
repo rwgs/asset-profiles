@@ -2,9 +2,7 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG001XVXHF2",
     "cusip": "98887L105",
-    "figi": "BBG0072HKT17",
     "isin": "US98887L1052"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -12,54 +10,6 @@
   "isin": "US98887L1052",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "ZAL.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "ZAL.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "ZAL.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ZAL.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "ZAL.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "ZAL.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "ZAL.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ZAL.SG"
-    },
-    {
-      "symbol": "ZAL.TI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "ZAL.VI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -83,19 +33,14 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "ZLDSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "ZLNDY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Zalando SE",
-  "primary_symbol": "ZAL.BE",
+  "primary_symbol": "ZAL1.DE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

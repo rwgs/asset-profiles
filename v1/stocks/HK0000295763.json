@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000P6Z704",
-    "figi": "BBG000P6Z7S4",
+    "composite_figi": "BBG000BK6D61",
+    "figi": "BBG000BK6DF1",
     "isin": "HK0000295763"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,6 +11,11 @@
   "isin": "HK0000295763",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0070.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -29,15 +34,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Rich Goldman Holdings Limited",
-  "primary_symbol": "MRU3.F",
+  "primary_symbol": "0070.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Rich Goldman Holdings Limited, an investment holding company, engages in the gaming and entertainment related business in Macau. It is also involved in the money lending activities; hotel operations; and property leasing business. The company was formerly known as Neptune Group Limited and changed its name to Rich Goldman Holdings Limited in September 2017. Rich Goldman Holdings Limited is headquartered in Central, Hong Kong.",
+  "summary": "Rich Goldman Holdings Limited is an investment holding company focused on gaming and entertainment ventures in Macau and Hong Kong. It also provides money lending, manages hotel properties and leases real estate. Formerly Neptune Group Limited, it took its present name in September 2017 and has its main offices in Central, Hong Kong.",
   "website": "http://www.richgoldman.com.hk"
 }

@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000QTSD26",
+    "composite_figi": "BBG001DFRGF8",
     "cusip": "516557105",
-    "figi": "BBG000QTSD26",
+    "figi": "BBG001DFRGF8",
     "isin": "US5165571051"
   },
   "industry": "Chemicals",
@@ -15,42 +15,19 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "LNXSF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "LNXSY"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LX9B.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "LXS.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "LXS.F"
-    },
-    {
-      "symbol": "LXS.TI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "LXS.VI"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "LANXESS Aktiengesellschaft",
-  "primary_symbol": "LNXSF",
+  "primary_symbol": "LNXSY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

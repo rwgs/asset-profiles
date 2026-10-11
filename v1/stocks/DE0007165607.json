@@ -2,29 +2,81 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BFKDJ2",
-    "figi": "BBG000BFKG78",
+    "composite_figi": "BBG00GVJG279",
+    "figi": "BBG00NRVXN86",
     "isin": "DE0007165607"
   },
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Health Care Equipment & Supplies",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "DE0007165607",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NIQ.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SARTF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SRT.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SRT.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SRT.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SRT.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SRT.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SRT.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SRT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SRT.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "SRT.TI"
     }
   ],
-  "name": "SARTORIUS AG Inhaber-Stammaktie",
-  "primary_symbol": "SRT.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Sartorius Aktiengesellschaft",
+  "primary_symbol": "0NIQ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Sartorius AG is a German multinational pharmaceutical and laboratory equipment supplier. The company provides equipment and services for the biopharmaceutical industry, focusing on areas like filtration, fermentation, and lab products. Sartorius is headquartered in Göttingen, Germany."
+  "summary": "Sartorius Aktiengesellschaft provides bioprocess solutions and lab products and services worldwide. The company offers biosensors and kits, compliance tools, systems software, label-free detection systems, and SPR systems; live-cell analysis systems, flow cytometry platform, and cell analysis reagents and consumables; and antibody and recombinant protein media, viral vaccines media, regenerative medicine media, general media, downstream buffer, microcarrier, and stem cell media and reagent products, as well as strong acids, bases, and alcohols and detergents. It also provides multi-parallel bioreactors, benchtop bioreactors, single-use bioreactors, stainless steel bioreactors, cell culture bioreactors, microbial bioreactors, and software apps for bioreactors; membranes, blotting products, filter papers, glass and quartz microfibre products, and filtration equipment; syringe filters; and filtration devices, ultrafiltration devices, sterile filtration devices, harvesting devices, analytical sample prep systems, buffer exchange systems, diagnostic sample prep systems, particle analysis systems, pharmaceutical filtration systems, protein DNA concentration systems, venting moisture barriers, clarification systems, buffer and media products, and membrane chromatography products. In addition, the company offers process filtration products; process filtration products; process chromatography products; fluid management products; process analytical technology and data analytics; industrial microbiology systems; water purification systems; weighing systems; pipetting and dispensing systems; OEM systems; and centrifuges. Further, it provides bioprocess development and engineering, protein expression system, media and process, testing, instrument, and validation services. It serves the life science research, biopharmaceutical manufacturing, quality control and testing, and applied industries. The company was founded in 1870 and is headquartered in Göttingen, Germany.",
+  "website": "http://www.sartorius.com"
 }

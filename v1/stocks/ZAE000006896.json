@@ -6,6 +6,7 @@
     "figi": "BBG000C2RQC1",
     "isin": "ZAE000006896"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "ZAE000006896",
   "kind": "stock",
@@ -17,6 +18,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SAOA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "SAOA.MU"
     },
@@ -24,17 +30,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SAOA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SASOF"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "SOL.JO"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Sasol Limited",
   "primary_symbol": "SAOA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Sasol Ltd is an international integrated energy and chemical company based in South Africa. Sasol develops and commercializes technologies, including synthetic fuels and chemicals. The company operates in the energy, chemicals, and mining sectors."
+  "summary": "Sasol Ltd is an international integrated energy and chemical company based in South Africa. Sasol develops and commercializes technologies, including synthetic fuels and chemicals. The company operates in the energy, chemicals, and mining sectors.",
+  "website": "http://www.sasol.com"
 }

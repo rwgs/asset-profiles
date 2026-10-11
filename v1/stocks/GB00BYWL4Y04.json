@@ -3,28 +3,46 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00VQQNMH3",
-    "figi": "BBG00VQQNMM7",
+    "figi": "BBG00VQQNMJ1",
     "isin": "GB00BYWL4Y04"
   },
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Biotechnology",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "GB00BYWL4Y04",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2O9.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BYWL4Y04.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "RENX.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RTNXF"
     }
   ],
-  "name": "RENALYTIX PLC",
-  "primary_symbol": "GB00BYWL4Y04.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Renalytix AI plc",
+  "primary_symbol": "2O9.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Renalytix PLC is a diagnostics company focused on improving kidney health. The company's lead product is KidneyIntelX, a diagnostic platform that uses artificial intelligence to predict kidney disease progression. Renalytix PLC is headquartered in New York, NY, USA with operations in the UK."
+  "summary": "Renalytix AI plc develops artificial intelligence-enabled in vitro diagnostic solutions for kidney diseases. The company offers KidneyIntelX, a diagnostic platform that employs an artificial intelligence-enabled algorithm that combines various data inputs, including validated blood-based biomarkers, inherited genetics and personalized patient data from electronic health record, and systems to generate a unique patient risk score. Renalytix AI plc has a license agreement with Mount Sinai Health System to develop and commercialize licensed products in connection with the application of artificial intelligence for the diagnosis of kidney disease; Joslin Diabetes Center, Inc. for developing and commercializing products for diagnosing and predicting kidney disease using biomarkers; and Kantaro Biosciences LLC for developing and commercializing laboratory tests for the detection of antibodies against SARS-CoV-2. Its products are used in kidney disease diagnosis and prognosis, clinical care, patient stratification for drug clinical trials, and drug target discovery. The company was founded in 2018 and is based in Cardiff, the United Kingdom.",
+  "website": "http://www.renalytixai.com"
 }

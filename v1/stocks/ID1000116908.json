@@ -6,6 +6,7 @@
     "figi": "BBG001MF43K6",
     "isin": "ID1000116908"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "ID1000116908",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6TB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "6TB.SG"
+    },
+    {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "TBIG.JK"
     }
   ],
-  "name": "TOWER BERSAMA INFRASTRUC.",
+  "market_cap_band": "Small Cap",
+  "name": "PT Tower Bersama Infrastructure Tbk",
   "primary_symbol": "6TB.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "TOWER BERSAMA INFRASTRUC. is a telecommunications infrastructure provider in Indonesia. The company owns and operates towers and other infrastructure to support mobile network operators. Tower Bersama Infrastructure is headquartered in Jakarta, Indonesia."
+  "summary": "TOWER BERSAMA INFRASTRUC. is a telecommunications infrastructure provider in Indonesia. The company owns and operates towers and other infrastructure to support mobile network operators. Tower Bersama Infrastructure is headquartered in Jakarta, Indonesia.",
+  "website": "http://www.tower-bersama.com"
 }

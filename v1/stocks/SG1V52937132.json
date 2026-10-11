@@ -2,8 +2,6 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000RQQX92",
-    "figi": "BBG000RQQXQ3",
     "isin": "SG1V52937132"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -11,6 +9,11 @@
   "isin": "SG1V52937132",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3P51.F"
+    },
     {
       "currency": "SGD",
       "exchange_mic": "XSES",
@@ -22,17 +25,17 @@
       "symbol": "PRKWF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Parkway Life Real Estate Investment Trust",
-  "primary_symbol": "C2PU.SI",
+  "primary_symbol": "3P51.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Parkway Life Real Estate Investment Trust (“PLife REIT”) is one of Asia's largest listed healthcare REITs by asset size. It invests in income-producing real estate and real estate related assets that are used primarily for healthcare and healthcare-related purposes (including but are not limited to, hospitals, healthcare facilities and real estate and/or real estate assets used in connection with healthcare research, education, and the manufacture or storage of drugs, medicine and other healthcare goods and devices). PLife REIT owns a well-diversified portfolio of 54 properties located in the Asia Pacific region, with a total portfolio size of approximately S$2.02 billion3 as at 31 December 2020. It owns the largest portfolio of strategically-located private hospitals in Singapore comprising Mount Elizabeth Hospital, Gleneagles Hospital and Parkway East Hospital. In addition, it has 50 assets of high quality nursing home and care facility properties in various prefectures of Japan. It also owns strata-titled units/lots in MOB Specialist Clinics Kuala Lumpur in Malaysia.",
+  "summary": "Parkway Life Real Estate Investment Trust (PLife REIT) is a Singapore-based real estate investment trust that invests in healthcare and healthcare-related assets, including hospitals, nursing homes, and senior living facilities, across Asia. The REIT generates income primarily through long-term leases with healthcare operators, aiming to provide stable and growing distributions to its unitholders. PLife REIT focuses on acquiring and managing high-quality healthcare assets in established markets like Singapore and Japan to ensure sustainable returns.",
   "website": "http://www.plifereit.com"
 }

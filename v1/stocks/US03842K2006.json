@@ -7,8 +7,8 @@
     "figi": "BBG00FQB2FM3",
     "isin": "US03842K2006"
   },
-  "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "US03842K2006",
   "kind": "stock",
   "listings": [
@@ -19,8 +19,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "W8NB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "W8NB.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "W8NB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "W8NB.MU"
     },
     {
       "currency": "EUR",
@@ -32,7 +47,7 @@
   "name": "AquaBounty Technologies, Inc.",
   "primary_symbol": "AQB",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG00L17FQ75",
-    "figi": "BBG00NNG19F1",
+    "composite_figi": "BBG00NW15DY0",
+    "figi": "BBG00NW15F48",
     "isin": "IT0005366767"
   },
   "industry": "Software",
@@ -13,15 +13,50 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "N0XA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "N0XA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "N0XA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "N0XA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "N0XA.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "NEXI.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "NEXI.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NEXPF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Nexi S.p.A.",
-  "primary_symbol": "NEXI.MI",
+  "primary_symbol": "N0XA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

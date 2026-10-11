@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG00Z0GFVC8",
     "cusip": "871003109",
-    "figi": "BBG00Z0GFVH3",
+    "figi": "BBG00Z0GFVD7",
     "isin": "CA8710031094"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "CA8710031094",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7RD.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA8710031094.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "SWP.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SWSSF"
     }
   ],
-  "name": "SWISS WATER DECAFFEINATED CO",
-  "primary_symbol": "CA8710031094.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Swiss Water Decaffeinated Coffee Inc.",
+  "primary_symbol": "7RD.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Swiss Water Decaffeinated Coffee Inc. is a company that specializes in decaffeinating coffee beans using its proprietary Swiss Water process. The company licenses its process to coffee roasters and manufacturers. Swiss Water is based in Vancouver, British Columbia, Canada."
+  "summary": "Swiss Water Decaffeinated Coffee Inc. operates as a green coffee decaffeinator in Canada, the United States, and internationally. It decaffeinates and sells green coffees to specialty roaster retailers, specialty coffee importers, and commercial coffee roasters, as well as sells coffees through regional distributors. The company uses the Swiss Water process to decaffeinate green coffee without the use of chemicals. It also provides a range of green coffee handling and storage services, including devanning coffee received from origin; inspecting, weighing, and sampling coffees; and storing, handling, and preparing green coffee for outbound shipments. The company was formerly known as Ten Peaks Coffee Company Inc. and changed its name to Swiss Water Decaffeinated Coffee Inc. in September 2018. Swiss Water Decaffeinated Coffee Inc. is headquartered in Delta, Canada.",
+  "website": "http://www.swisswater.com"
 }

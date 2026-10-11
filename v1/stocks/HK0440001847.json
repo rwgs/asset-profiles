@@ -2,14 +2,30 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BQNST1",
-    "figi": "BBG000BQNXX5",
+    "composite_figi": "BBG000BCSTJ6",
+    "figi": "BBG000BCSV01",
     "isin": "HK0440001847"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "HK0440001847",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0440.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DAHSF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DSR.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -21,15 +37,17 @@
       "symbol": "DSR.SG"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Dah Sing Financial Holdings Limited",
-  "primary_symbol": "DSR.MU",
+  "primary_symbol": "0440.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Dah Sing Financial Holdings Limited is a financial services group based in Hong Kong, providing banking, insurance, and other financial products and services. The group operates primarily in Hong Kong and Mainland China. Dah Sing Financial Holdings is headquartered in Hong Kong."
+  "summary": "Dah Sing Financial Holdings Limited, an investment holding company, provides banking, insurance, financial, and other related services in the People's Republic of China. The company operates through Personal Banking, Commercial Banking, Treasury, Overseas Banking, and Insurance Business segments. The Personal Banking segment accepts various deposits from individual customers; and provides residential mortgage loans, personal loans, overdrafts, vehicle financing, and credit card services, as well as insurance sales and investment services. The Commercial Banking segment accepts various deposits; and offers loans and working capital financing to commercial, industrial, and institutional customers, as well as trade financing services. The Treasury segment provides foreign exchange services; cash management services for deposit taking and lending; and interest rate risk management services. It also manages investment in securities. The Overseas Banking segment offers personal and commercial banking products and services. The Insurance Business segment is involved in the insurance and pension fund management business. The company also provides insurance agency, nominee, and securities dealing services; and invest in properties. The company was formerly known as Fivetech Investments Limited and changed its name to Dah Sing Financial Holdings Limited in July 1987. Dah Sing Financial Holdings Limited was incorporated in 1987 and is based in Wan Chai, Hong Kong.",
+  "website": "http://www.dahsing.com"
 }

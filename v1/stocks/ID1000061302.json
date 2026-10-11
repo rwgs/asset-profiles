@@ -1,28 +1,58 @@
 {
-  "country": "France",
-  "country_code": "FR",
+  "country": "Indonesia",
+  "country_code": "ID",
   "identifiers": {
+    "composite_figi": "BBG000BDR9M5",
+    "figi": "BBG000BDRBK2",
     "isin": "ID1000061302"
   },
+  "industry": "Construction Materials",
   "industry_group": "Materials",
   "isin": "ID1000061302",
   "kind": "stock",
   "listings": [
     {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "INTP.JK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ITP.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ITP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ITP.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ITP.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PITPF"
     }
   ],
-  "name": "INDOCEMENT TUNGGAL PRAKARSA,PTR",
-  "primary_symbol": "ITP.SG",
+  "market_cap_band": "Small Cap",
+  "name": "PT Indocement Tunggal Prakarsa Tbk",
+  "primary_symbol": "INTP.JK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "INDOCEMENT TUNGGAL PRAKARSA,PTR is one of the largest cement producers in Indonesia. They manufacture and sell various types of cement, as well as ready-mix concrete and aggregates. The company is based in Jakarta, Indonesia."
+  "summary": "PT Indocement Tunggal Prakarsa Tbk manufactures and sells cement and ready mix concrete products in Indonesia and internationally. It operates in three segments: Cement, Ready-Mix Concrete, and Aggregates Quarries. The company offers Portland composite, ordinary Portland, Portland Pozzolan, oil well, white, and TR30 white mortar cement products under the Tiga Roda, Rajawali, and Duracem brands. It also involved in the aggregate and trass quarrying; and shipping activities, as well as provides labor supply services. The company was founded in 1975 and is headquartered in Jakarta, Indonesia. PT Indocement Tunggal Prakarsa Tbk is a subsidiary of Birchwood Omnia Limited.",
+  "website": "http://www.indocement.co.id"
 }

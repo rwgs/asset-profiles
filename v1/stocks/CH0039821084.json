@@ -2,6 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG00JYV5QN4",
+    "figi": "BBG00JYV5QP2",
     "isin": "CH0039821084"
   },
   "industry": "Industrial Conglomerates",
@@ -11,15 +13,25 @@
   "listings": [
     {
       "currency": "CHF",
+      "exchange_mic": "XLON",
+      "symbol": "0QLX.L"
+    },
+    {
+      "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "METN.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MTLZF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Metall Zug AG",
-  "primary_symbol": "METN.SW",
+  "primary_symbol": "0QLX.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG0017VBQ92",
-    "figi": "BBG0017VBQB9",
+    "composite_figi": "BBG00172G6S4",
+    "figi": "BBG00172G6T3",
     "isin": "KYG121611084"
   },
   "industry": "Trading Companies & Distributors",
@@ -12,22 +12,32 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1685.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BOE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BOE.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Boer Power Holdings Limited",
-  "primary_symbol": "BOE.F",
+  "primary_symbol": "1685.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Boer Power Holdings Limited, an investment holding company, designs, manufactures, and sells electrical distribution equipment; and provision of electrical distribution systems solution services in the People's Republic of China. It operates through two segments, IEM Solutions, and Components and Spare Parts Business. The IEM solutions segment sells electrical distribution systems; engineering, procurement, and construction projects; and electricity. The Components and Spare Parts Business segment offers components and spare parts for application of electrical distribution equipment. It also offers photovoltaic products, capacitors, and components and spare parts. Further, the company engages in the trading of electrical distribution equipment, and components and spare parts, as well as in the development and sale of software. It offers its products and services to medical, data center, real estate, energy, industrial park, and other sectors. The company was founded in 1985 and is headquartered in Wuxi, the People's Republic of China. Boer Power Holdings Limited is a subsidiary of King Able Limited.",
+  "summary": "Boer Power Holdings Limited is a Wuxi-based investment holding company that develops, produces and sells electrical distribution equipment and provides electrical distribution system solutions in China. Its two divisions are IEM Solutions, and Components and Spare Parts.",
   "website": "http://www.boerpower.com"
 }

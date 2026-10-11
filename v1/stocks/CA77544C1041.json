@@ -6,6 +6,7 @@
     "cusip": "77544C104",
     "isin": "CA77544C1041"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "CA77544C1041",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA77544C1041.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "ROK.V"
     }
   ],
-  "name": "ROK RESOURCES INC",
+  "market_cap_band": "Micro Cap",
+  "name": "ROK Resources Inc.",
   "primary_symbol": "CA77544C1041.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "ROK Resources Inc. is an oil and gas company focused on exploration, development, and production in Western Canada. The company is based in Calgary, Alberta. They are focused on light oil production."
+  "summary": "ROK Resources Inc. is an oil and gas company focused on exploration, development, and production in Western Canada. The company is based in Calgary, Alberta. They are focused on light oil production.",
+  "website": "http://www.rokresources.ca"
 }

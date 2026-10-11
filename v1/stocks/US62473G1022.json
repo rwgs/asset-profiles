@@ -2,20 +2,16 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000R0X3K4",
+    "composite_figi": "BBG000SG0Q50",
     "cusip": "62473G102",
-    "figi": "BBG000R0X3K4",
+    "figi": "BBG000SG0Q50",
     "isin": "US62473G1022"
   },
+  "industry": "Aerospace & Defense",
   "industry_group": "Capital Goods",
   "isin": "US62473G1022",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "MTUAF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -24,47 +20,30 @@
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
-      "symbol": "MTX.F"
+      "symbol": "MTX1.F"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "MTX.SG"
-    },
-    {
-      "symbol": "MTX.TI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "MTX.VI"
+      "exchange_mic": "XMUN",
+      "symbol": "MTX1.MU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MTX1.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "MTXN.F"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "MTXN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "MTU Aero Engines AG",
-  "primary_symbol": "MTUAF",
+  "primary_symbol": "MTUAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "MTU Aero Engines AG develops, manufactures, markets, and supports commercial and military aircraft engines, industrial gas turbines, and related services. The company operates globally and provides maintenance, repair, and overhaul services for aircraft engines. Its headquarters are located in Munich, Germany."
+  "summary": "MTU Aero Engines AG develops, manufactures, markets, and supports commercial and military aircraft engines, industrial gas turbines, and related services. The company operates globally and provides maintenance, repair, and overhaul services for aircraft engines. Its headquarters are located in Munich, Germany.",
+  "website": "https://www.mtu.de"
 }

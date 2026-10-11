@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BDZZ11",
     "isin": "GB00B082RF11"
   },
+  "industry": "Professional Services",
   "industry_group": "Commercial & Professional Services",
   "isin": "GB00B082RF11",
   "kind": "stock",
@@ -13,6 +14,16 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B082RF11.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RKLIF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "RTO.L"
     },
     {
       "currency": "EUR",
@@ -26,19 +37,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RTO1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "RTO1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RTO1.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Rentokil Initial plc",
   "primary_symbol": "GB00B082RF11.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "RENTOKIL INITIAL PLC provides pest control, hygiene, and workwear services. Their business model involves offering services to businesses and homes to control pests, maintain hygiene standards, and provide workwear solutions, generating revenue through service contracts and product sales. The company is headquartered in Crawley, UK."
+  "summary": "Rentokil Initial plc provides pest control, hygiene, and workwear services. Their business model involves offering services to businesses and homes to control pests, maintain hygiene standards, and provide workwear solutions, generating revenue through service contracts and product sales. The company is headquartered in Crawley, UK.",
+  "website": "http://www.rentokil-initial.com"
 }

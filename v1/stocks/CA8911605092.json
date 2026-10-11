@@ -2,28 +2,68 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000BXBHJ4",
     "cusip": "891160509",
+    "figi": "BBG000BXBKG0",
     "isin": "CA8911605092"
   },
-  "industry_group": "Telecommunication Services",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "CA8911605092",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XBUE",
-      "symbol": "TD.BA"
+      "exchange_mic": "XNYS",
+      "symbol": "TD"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XLON",
+      "symbol": "0VL8.L"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "TD.TO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TDB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TDB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TDB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TDB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TDB.SG"
     }
   ],
-  "name": "AT&T INC",
-  "primary_symbol": "TD.BA",
+  "market_cap_band": "Large Cap",
+  "name": "The Toronto-Dominion Bank",
+  "primary_symbol": "TD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "AT&T Inc. is a multinational telecommunications holding company providing services in the United States and internationally. The company offers mobile, broadband, video, and other communications services to consumers and businesses. AT&T is headquartered in Dallas, Texas."
+  "sector": "Financials",
+  "summary": "The Toronto-Dominion Bank, together with its subsidiaries, provides various personal and commercial banking products and services in Canada and the United States. The company operates through three segments: Canadian Retail, U.S. Retail, and Wholesale Banking. It offers personal deposits, such as chequing, savings, and investment products; financing, investment, cash management, international trade, and day-to-day banking services to businesses; financing options to customers at point of sale for automotive and recreational vehicle purchases through auto dealer network; credit cards; point-of-sale payment solutions for large and small businesses; wealth and asset management products, and advice to retail and institutional clients; and property and casualty insurance, as well as life and health insurance products. The company also provides capital markets, and corporate and investment banking services, including underwriting and distribution of new debt and equity issues; advice on strategic acquisitions and divestitures; and trading, funding, and investment services to companies, governments, and institutions. It offers its products and services under the TD Bank, America's Most Convenient Bank, and TD Ameritrade brand names. The company operates through a network of 1,085 branches, 3,440 automated teller machines, and 1,223 stores, as well as offers telephone, digital, and mobile banking services. The Toronto-Dominion Bank was founded in 1855 and is headquartered in Toronto, Canada.",
+  "website": "http://www.td.com"
 }

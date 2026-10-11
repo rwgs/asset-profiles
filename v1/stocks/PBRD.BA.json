@@ -1,6 +1,11 @@
 {
   "country": "Brazil",
   "country_code": "BR",
+  "identifiers": {
+    "composite_figi": "BBG020NS2NJ7",
+    "figi": "BBG020NS2NJ7"
+  },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "kind": "stock",
   "listings": [
@@ -10,15 +15,17 @@
       "symbol": "PBRD.BA"
     }
   ],
-  "name": "PETROL BRASILEIROS",
+  "market_cap_band": "Large Cap",
+  "name": "Petroleo Brasileiro S.A. - Petrobras",
   "primary_symbol": "PBRD.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "PETROL BRASILEIROS is Petróleo Brasileiro S.A., also known as Petrobras, which is a Brazilian multinational corporation and one of the largest integrated energy companies in Latin America. Petrobras engages in exploration, production, refining, transportation, and marketing of oil and gas. The company is headquartered in Rio de Janeiro, Brazil."
+  "summary": "PETROL BRASILEIROS is Petróleo Brasileiro S.A., also known as Petrobras, which is a Brazilian multinational corporation and one of the largest integrated energy companies in Latin America. Petrobras engages in exploration, production, refining, transportation, and marketing of oil and gas. The company is headquartered in Rio de Janeiro, Brazil.",
+  "website": "http://petrobras.com.br/pt"
 }

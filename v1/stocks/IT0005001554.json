@@ -2,30 +2,37 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00658H344",
+    "figi": "BBG00658H353",
     "isin": "IT0005001554"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Textiles, Apparel & Luxury Goods",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "IT0005001554",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0T6.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "TB.MI"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Triboo S.p.A.",
-  "primary_symbol": "TB.MI",
+  "primary_symbol": "0T6.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "Triboo S.p.A. provides e-commerce and digital advertising services worldwide. It offers digital consulting, marketing, and integration and development services; and e-commerce management, content development, audience and monetization, and training services. The company is based in Milan, Italy. Triboo S.p.A. is a subsidiary of Compagnia Digitale Italiana Spa.",
+  "sector": "Consumer Discretionary",
+  "summary": "TRIBOO S.P.A. is an Italian company that operates in the consumer discretionary sector, specializing in the design, production, and distribution of footwear and accessories. Their products are sold through various retail channels and online platforms. TRIBOO S.P.A. is headquartered in Italy.",
   "website": "http://www.triboo.com"
 }

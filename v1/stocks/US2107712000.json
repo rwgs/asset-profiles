@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000BMYXZ0",
     "cusip": "210771200",
-    "figi": "BBG002535873",
+    "figi": "BBG002535846",
     "isin": "US2107712000"
   },
   "industry": "Auto Components",
@@ -14,13 +14,18 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "CONA.SG"
+      "exchange_mic": "XFRA",
+      "symbol": "CONA.F"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CTTAF"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CONA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CONA.SG"
     },
     {
       "currency": "USD",
@@ -29,16 +34,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Continental Aktiengesellschaft",
-  "primary_symbol": "CONA.SG",
+  "name": "Continental AG ADR 1/10",
+  "primary_symbol": "CONA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Continental Aktiengesellschaft develops products, systems, and services for customers in various industries worldwide. The Autonomous Mobility and Safety business area engages in the development, production, and integration of components and systems for the autonomous mobility and safety, including advanced driver assistance systems, hydraulic brake systems, passive safety and sensoric products, and vehicle dynamics products. The Vehicle Networking and Information business area develops and integrates components and end-to-end systems for connected mobility – architecture, hardware, software, and services; and provides solutions for networking, human-machine interaction, user experience, high-performance computing, system integration, and digital services for passenger cars, and light commercial vehicles and fleets. The Tires business area offers tires for cars, trucks, buses, two-wheel and specialist vehicles, bicycles, and motor vehicles, as well as digital tire monitoring and management systems. The ContiTech business area engages in the development, manufacture, and marketing of products, systems, and intelligent components made of rubber, plastic, metal, and fabric, such as air spring systems, conveying solutions, industrial fluid solutions, mobile fluid systems, power transmission products, surface solutions, and vibration control products used in automotive, railway engineering, machine and plant construction, mining, agriculture, and other sectors. The Powertrain Technologies business area provides electrification solutions, electric drives, and power electronics for hybrid and battery electric vehicles; and develops and produces high-voltage boxes, electronic controls, sensors, actuators, turbo chargers, hydraulic components, and pumps, as well as solutions for exhaust-gas aftertreatment solutions. The company was formerly known as Continental-Caoutchouc- und Gutta-Percha Compagnie. Continental Aktiengesellschaft was founded in 1871 and is headquartered in Hanover, Germany.",
+  "summary": "Continental AG is a global automotive supplier specializing in tires, automotive systems, and industrial solutions. Their products and services cater to vehicle manufacturers and other industries. The company is headquartered in Hanover, Germany.",
   "website": "http://www.continental.com"
 }

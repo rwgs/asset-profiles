@@ -2,28 +2,47 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG00XY8SMW8",
-    "figi": "BBG00XY8SN01",
+    "composite_figi": "BBG00XY68Z37",
+    "figi": "BBG00XY68Z46",
     "isin": "ES0105463006"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Media",
+  "industry_group": "Media & Entertainment",
   "isin": "ES0105463006",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALMKS.PA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ES0105463006.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "MAKS.MC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MS7.F"
     }
   ],
-  "name": "MAKING SCIENCE GROUP SA",
-  "primary_symbol": "ES0105463006.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Making Science Group, S.A.",
+  "primary_symbol": "ALMKS.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary"
+  "sector": "Communications",
+  "summary": "Making Science Group, S.A. operates as a digital marketing agency worldwide. The company provides advertising, data and CRO, SEO, brand and content strategy, and user experience and creativity services; and development, infrastructure, and technology services comprising business intelligence, cybersecurity, ICT infrastructure or digital transformation, and Web development. It also offers Nilo, a cloud-based e-commerce platform that is used to optimize the design, development, and structure of the page for visibility in search engines; GAUSS AI, a product for solutions applied to marketing, sales, and loyalty needs; and Shoptize, a Spanish comparison shopping service. The company was founded in 2016 and is based in Barcelona, Spain.",
+  "website": "http://www.makingscience.com"
 }

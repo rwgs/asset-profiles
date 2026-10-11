@@ -2,24 +2,36 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG000G9CF87",
+    "figi": "BBG000G9CG85",
     "isin": "IT0001237053"
   },
-  "industry": "Building Products",
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "IT0001237053",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EK4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EK4.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "EM.MI"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Emak S.p.A.",
-  "primary_symbol": "EM.MI",
+  "primary_symbol": "EK4.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -1,16 +1,21 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00QJ361Q8",
-    "figi": "BBG00QJ361V2",
+    "composite_figi": "BBG00NZ74JH1",
+    "figi": "BBG00NZ74JJ9",
     "isin": "KYG9390W1015"
   },
   "industry": "Biotechnology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "KYG9390W1015",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1873.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -37,17 +42,17 @@
       "symbol": "VBIZF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Viva Biotech Holdings",
-  "primary_symbol": "KYG9390W1015.SG",
+  "primary_symbol": "1873.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "VIVA BIOTECH HOLDINGS is a contract research organization (CRO) and contract development and manufacturing organization (CDMO) providing structure-based drug discovery services for biotech and pharmaceutical companies worldwide. It focuses on early-stage drug discovery and offers integrated services to accelerate drug development. Viva Biotech is headquartered in Shanghai, China.",
+  "summary": "Viva Biotech Holdings is a Shanghai-based investment holding company, founded in 2008, offering structure-based drug discovery services to biotech and pharmaceutical clients around the world. Its services include protein expression, structural biology, hit identification, medicinal and synthetic chemistry and computer-aided drug design. It also performs antibody drug research, supplies biological resources such as cell lines and crystal structures, and provides contract development and manufacturing.",
   "website": "http://www.vivabiotech.com.cn"
 }

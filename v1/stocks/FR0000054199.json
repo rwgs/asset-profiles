@@ -2,13 +2,25 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BM82C2",
+    "composite_figi": "BBG00ZL6XPK1",
+    "figi": "BBG00ZL6XPL0",
     "isin": "FR0000054199"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "FR0000054199",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7EK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "DPT.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -20,15 +32,17 @@
       "symbol": "FR0000054199.SW"
     }
   ],
-  "name": "S.T. DUPONT",
-  "primary_symbol": "FR0000054199.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "S.T. Dupont S.A.",
+  "primary_symbol": "7EK.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "S.T. Dupont is a French manufacturer of luxury goods such as lighters, pens, leather goods, and other accessories. The company is known for its craftsmanship and use of precious materials. S.T. Dupont is headquartered in Paris, France."
+  "summary": "S.T. Dupont is a French company that designs, manufactures, and markets luxury goods. The company's products include lighters, pens, leather goods, and watches, sold through a network of boutiques and authorized retailers worldwide. S.T. Dupont is headquartered in Paris, France.",
+  "website": "http://www.st-dupont.com"
 }

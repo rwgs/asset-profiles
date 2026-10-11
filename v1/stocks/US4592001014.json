@@ -24,8 +24,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IBM.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "IBM.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IBM.DU"
     },
     {
       "currency": "EUR",
@@ -33,9 +43,24 @@
       "symbol": "IBM.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "IBM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IBM.HM"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "IBM.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IBM.MU"
     },
     {
       "currency": "MXN",
@@ -66,13 +91,23 @@
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "IBMB34.SA"
+    },
+    {
+      "currency": "CLP",
+      "exchange_mic": "XSGO",
+      "symbol": "IBMCL.SN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XDUS",
+      "symbol": "IBML.DU"
     }
   ],
   "market_cap_band": "Mega Cap",
   "name": "International Business Machines Corporation",
   "primary_symbol": "IBM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

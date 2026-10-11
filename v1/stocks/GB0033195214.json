@@ -6,6 +6,7 @@
     "figi": "BBG000BZKL82",
     "isin": "GB0033195214"
   },
+  "industry": "Specialty Retail",
   "industry_group": "Retailing",
   "isin": "GB0033195214",
   "kind": "stock",
@@ -17,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "KFI1.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "KFI1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KFI1.F"
     },
     {
       "currency": "EUR",
@@ -29,17 +40,34 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "KFI1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "KFI1.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "KGF.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KGFHF"
     }
   ],
-  "name": "KINGFISHER  LS-,157142857",
+  "market_cap_band": "Mid Cap",
+  "name": "Kingfisher plc",
   "primary_symbol": "KFI1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Kingfisher plc is a British multinational retailing company that offers home improvement and gardening products. It operates through various retail brands, including B&Q and Screwfix, across Europe. The company is headquartered in London, UK."
+  "summary": "Kingfisher plc is a British multinational retailing company that offers home improvement and gardening products. It operates through various retail brands, including B&Q and Screwfix, across Europe. The company is headquartered in London, UK.",
+  "website": "http://www.kingfisher.com"
 }

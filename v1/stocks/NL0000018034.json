@@ -2,6 +2,8 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
+    "composite_figi": "BBG00JGBR328",
+    "figi": "BBG00JGBR337",
     "isin": "NL0000018034"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -13,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0DI7.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AFCJF"
     },
     {
       "currency": "EUR",
@@ -41,6 +48,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AJXA.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "NL0000018034.SW"
     }
@@ -49,7 +61,7 @@
   "name": "AFC Ajax N.V.",
   "primary_symbol": "0DI7.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

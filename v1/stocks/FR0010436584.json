@@ -1,26 +1,43 @@
 {
-  "country": "France",
-  "country_code": "FR",
+  "country": "Luxembourg",
+  "country_code": "LU",
   "identifiers": {
     "composite_figi": "BBG000NBPGX0",
+    "figi": "BBG000NBPHR5",
     "isin": "FR0010436584"
   },
+  "industry": "Interactive Media & Services",
+  "industry_group": "Media & Entertainment",
   "isin": "FR0010436584",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALDNX.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DWP.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0010436584.SW"
     }
   ],
-  "name": "DNXCORP",
-  "primary_symbol": "FR0010436584.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "DNXCorp SE",
+  "primary_symbol": "ALDNX.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Communications",
+  "summary": "DNXCorp S.E. engages in the development and promotion of Internet-based audience in Luxembourg and internationally. The company offers traffic generation, site development and services, multi-country payment solutions, video streaming technology, CRM analysis, etc. It operates consumer Websites in the entertainment and e-commerce markets. The company also offers Web traders with payment services. DNXCorp S.E. was incorporated in 1999 and is headquartered in Luxembourg, Luxembourg.",
+  "website": "http://www.dnxcorp.com"
 }

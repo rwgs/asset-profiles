@@ -2,29 +2,57 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000BM9CJ2",
-    "figi": "BBG000BM9G21",
+    "composite_figi": "BBG000LG3HS9",
+    "figi": "BBG000LG3J96",
     "isin": "BMG653181005"
   },
+  "industry": "Paper & Forest Products",
   "industry_group": "Materials",
   "isin": "BMG653181005",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2689.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "N3Y.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "N3Y.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "N3Y.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "N3Y.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NDGPF"
     }
   ],
-  "name": "Nine Dragons Paper Hldgs Ltd. R",
-  "primary_symbol": "N3Y.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Nine Dragons Paper (Holdings) Limited",
+  "primary_symbol": "2689.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Nine Dragons Paper Hldgs Ltd. is a paper manufacturing company that produces various types of paper products, including packaging paper, printing paper, and pulp. The company focuses on sustainable paper production and caters to the growing demand for paper in China and other Asian markets. The company is based in Hong Kong."
+  "summary": "Nine Dragons Paper (Holdings) Limited, together with its subsidiaries, manufactures and sells packaging paper, recycled printing and writing paper, and specialty paper products in the People's Republic of China. The company offers linerboard products, including kraft, test, white top, and coated linerboards; corrugated cardboard products; coated duplex boards; and specialty paper. It also provides recycled printing and writing paper, such as uncoated wood-free paper and office paper; capacitor tissue paper; low and high voltage, ultra-high-voltage transformer coil winding, and heat-resistant insulating paper; and recycled and kraft pulp. It also distributes its products in Vietnam, Malaysia, and the United States. The company was founded in 1995 and is headquartered in Dongguan, the People's Republic of China. Nine Dragons Paper (Holdings) Limited is a subsidiary of Best Result Holdings Limited.",
+  "website": "http://www.ndpaper.com"
 }

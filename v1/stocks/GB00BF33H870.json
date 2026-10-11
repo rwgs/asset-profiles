@@ -2,28 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00G99XT23",
+    "composite_figi": "BBG00WMMG5B5",
+    "figi": "BBG00WMMG5C4",
     "isin": "GB00BF33H870"
   },
-  "industry_group": "Household & Personal Products",
+  "industry": "Biotechnology",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "GB00BF33H870",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5KW.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BF33H870.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "SBTX.L"
     }
   ],
-  "name": "SKINBIOTHERAPEUTICS PLC",
-  "primary_symbol": "GB00BF33H870.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "SkinBioTherapeutics Plc",
+  "primary_symbol": "5KW.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "SKINBIOTHERAPEUTICS PLC is focused on research and development of innovative skincare products that utilize the skin microbiome. They aim to develop solutions for various skin conditions by leveraging the benefits of probiotics and prebiotics. The company is based in the UK."
+  "sector": "Health Care",
+  "summary": "SkinBioTherapeutics plc, a life science company, engages in the research and development of lysates derived from the human microbiome on skin. The company focuses on the development of SkinBiotix technology for use in cosmetic, infection control, and eczema applications. It has an agreement with Croda International Plc for the design and manufacture of a new active cosmetic skincare ingredient based on its SkinBiotix skin microbiome technology; and a research programme with the University of Manchester to investigate and develop microbiome formulations. The company was formerly known as Skinbiotix Ltd and changed its name to SkinBioTherapeutics plc in December 2016. SkinBioTherapeutics plc was incorporated in 2015 and is based in Macclesfield, the United Kingdom.",
+  "website": "http://www.skinbiotherapeutics.com"
 }

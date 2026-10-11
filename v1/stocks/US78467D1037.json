@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000NRGCX4",
     "cusip": "78467D103",
+    "figi": "BBG000NRGCX4",
     "isin": "US78467D1037"
   },
   "industry": "Metals & Mining",
@@ -12,46 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SKWA.F"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SSAAF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SSAAY"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "SSAB-A.ST"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "SSAB-B.ST"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHEL",
-      "symbol": "SSABAH.HE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHEL",
-      "symbol": "SSABBH.HE"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "SSAB AB (publ)",
-  "primary_symbol": "SKWA.F",
+  "primary_symbol": "SSAAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

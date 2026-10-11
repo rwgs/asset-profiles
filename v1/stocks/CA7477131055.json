@@ -1,34 +1,49 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000DZ8HN6",
+    "composite_figi": "BBG000BJFVZ2",
     "cusip": "747713105",
-    "figi": "BBG000DZ8HN6",
+    "figi": "BBG000BJFWM4",
     "isin": "CA7477131055"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Communications Equipment",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "CA7477131055",
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "QTRH.TO"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "QTRHF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WJL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "WJL.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Quarterhill Inc.",
-  "primary_symbol": "QTRHF",
+  "primary_symbol": "QTRH.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Quarterhill Inc., a company founded in Toronto, Canada, in 1992, conducts its operations worldwide through two core divisions: intellectual property licensing and intelligent transportation systems. The company rebranded to Quarterhill Inc. in June 2017, having previously operated as Wi-LAN Inc.",
-  "website": "http://www.rh.com"
+  "sector": "Information Technology",
+  "summary": "Quarterhill Inc is a Canadian technology company operating in intelligent transportation systems and tolling solutions, providing electronic toll collection, traffic management, and related infrastructure technologies.",
+  "website": "https://www.quarterhill.com"
 }

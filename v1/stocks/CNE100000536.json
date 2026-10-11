@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000BM83C0",
-    "figi": "BBG000BM83C0",
+    "composite_figi": "BBG000F4K6G1",
+    "figi": "BBG000F4K706",
     "isin": "CNE100000536"
   },
   "industry": "Marine",
@@ -12,9 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2866.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CITAF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EZ5.BE"
     },
     {
       "currency": "EUR",
@@ -23,21 +33,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "EZ5.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "EZ5.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EZ5.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EZ5.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "COSCO SHIPPING Development Co., Ltd. Class H",
-  "primary_symbol": "CITAF",
+  "name": "COSCO SHIPPING Development Co., Ltd.",
+  "primary_symbol": "2866.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "COSCO SHIPPING Development Co., Ltd., together with its subsidiaries, provides vessel chartering and container leasing services. The company manufactures and sells containers; and offers operating leasing, equity or debt investment, insurance brokerage, and cargo and liner agency services, as well as financial leasing services in the areas of medical services, education, new energy, and construction and industrial equipment. It also offers container management, management, property investment, trading, and commercial factoring services. As of December 31, 2020, the company had a container fleet of 77 vessels with a total capacity of 500,587 TEU; 5 bulk cargo vessels of 466,900 DWT each; 2 wood pulp carriers with a total capacity of 123,900 DWT; approximately 90 LNG vessels, heavy crane vessels, and oil tankers; and an inventory of containers of approximately 3.78 million TEU. It operates in Hong Kong, Mainland China, rest of Asia, the United States, Europe, and internationally. The company was formerly known as China Shipping Container Lines Company Limited and changed its name to COSCO SHIPPING Development Co., Ltd. in December 2016. COSCO SHIPPING Development Co., Ltd. was founded in 1997 and is headquartered in Shanghai, the People's Republic of China.",
-  "website": "http://development.coscoshipping.com"
+  "summary": "COSCO SHIPPING Development Co., Ltd. and its subsidiaries develop, make and sell containers across the United States, Asia, Europe and other markets. Segments are Container Manufacturing, Shipping Leasing, Container Leasing and Investment Management. Products include dry cargo, refrigerated and special containers, container houses and after-sales services.",
+  "website": "https://development.coscoshipping.com"
 }

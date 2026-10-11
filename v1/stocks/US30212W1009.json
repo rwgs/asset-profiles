@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00XS5R960",
+    "composite_figi": "BBG001DCTG63",
     "cusip": "30212W100",
-    "figi": "BBG00XS5R9B4",
+    "figi": "BBG001DCTG63",
     "isin": "US30212W1009"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "US30212W1009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "AGNT"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "EXPI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US30212W1009.SG"
     }
   ],
-  "name": "EXP WORLD HOLDINGS INC",
-  "primary_symbol": "US30212W1009.SG",
+  "market_cap_band": "Small Cap",
+  "name": "AGNT, Inc.",
+  "primary_symbol": "AGNT",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "EXP WORLD HOLDINGS INC operates as a cloud-based real estate brokerage. Their platform provides real estate agents with technology, training, and support to grow their businesses. The company is headquartered in Bellingham, Washington."
+  "summary": "eXp World Holdings, Inc. is dedicated to acquiring and managing a variety of service-based enterprises. The company provides customers with access to its VirBELA virtual reality software platform through paid subscriptions. Its operations are organized into three primary divisions: the North American Realty segment, which oversees real estate brokerage activities in the United States and Canada; the International Realty segment, responsible for real estate brokerage services across all other global locations; and the Other Affiliated Services segment, encompassing ventures like SUCCESS Magazine, FrameVR.io, and other ancillary projects. Founded by Glenn Darrel Sanford on July 30, 2008, the company maintains its corporate headquarters in Bellingham, Washington.",
+  "website": "https://www.agnt.inc"
 }

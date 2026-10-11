@@ -3,27 +3,41 @@
   "country_code": "PT",
   "identifiers": {
     "composite_figi": "BBG000BXHHP1",
+    "figi": "BBG000BXHJ40",
     "isin": "PTPAD0AM0007"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "PTPAD0AM0007",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLIS",
+      "symbol": "GLINT.LS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PAJA.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "PTPAD0AM0007.SW"
     }
   ],
-  "name": "GLINTT - GLOBAL INTELLIGENT",
-  "primary_symbol": "PTPAD0AM0007.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "Glintt - Global Intelligent Technologies, S.A.",
+  "primary_symbol": "GLINT.LS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Glintt - Global Intelligent Technologies, S.A. is a Portuguese information technology company that provides services and solutions for the healthcare, banking, and retail sectors. The company offers software development, consulting, and outsourcing services, with headquarters in Lisbon, Portugal. Glintt specializes in digital transformation and technology innovation."
+  "summary": "Glintt - Global Intelligent Technologies, S.A. provides IT and consulting services in Portugal and internationally. The company offers business consulting services, such as pharmacy management, continuous, diagnostic, and project consulting; and IT consulting services, including applications and technology consulting, business process management, and data analytics. It also provides IT infrastructure services comprising cloud and datacenter, service and application management, networking and security, and information security; physical design and automation, and software solutions; and integrated application and equipment support services. The company primarily serves the healthcare, pharma, financial services, and telecommunications markets, as well as the public sector. Glintt - Global Intelligent Technologies, S.A. was incorporated in 1995 and is based in Sintra, Portugal.",
+  "website": "http://www.glintt.com"
 }

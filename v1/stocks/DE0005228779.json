@@ -5,6 +5,7 @@
     "composite_figi": "BBG000C2H912",
     "isin": "DE0005228779"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "DE0005228779",
   "kind": "stock",
@@ -13,17 +14,49 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0005228779.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "OBS.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "OBS.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OBS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "OBS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OBS.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "OBS.SG"
     }
   ],
-  "name": "ORBIS AG",
+  "market_cap_band": "Nano Cap",
+  "name": "Orbis AG",
   "primary_symbol": "DE0005228779.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ORBIS AG is a German IT consulting and system integration company. The company focuses on providing IT solutions for small and medium-sized enterprises (SMEs). ORBIS AG is headquartered in Saarbrücken, Germany."
+  "summary": "ORBIS AG is a German IT consulting and system integration company. The company focuses on providing IT solutions for small and medium-sized enterprises (SMEs). ORBIS AG is headquartered in Saarbrücken, Germany.",
+  "website": "http://www.orbis.de"
 }

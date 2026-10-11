@@ -5,6 +5,7 @@
     "composite_figi": "BBG0018DXTG3",
     "isin": "GB00BYZDVK82"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "GB00BYZDVK82",
   "kind": "stock",
@@ -13,17 +14,39 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00BYZDVK82.SW"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "SCT.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SF5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SF5.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SF5.SG"
     }
   ],
-  "name": "SOFTCAT PLC",
+  "market_cap_band": "Mid Cap",
+  "name": "Softcat plc",
   "primary_symbol": "GB00BYZDVK82.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Softcat PLC is a provider of IT infrastructure solutions and services to businesses in the UK. The company offers a range of services, including hardware and software procurement, cloud services, and IT consulting. Softcat PLC is headquartered in Marlow, UK."
+  "summary": "Softcat PLC is a provider of IT infrastructure solutions and services to businesses in the UK. The company offers a range of services, including hardware and software procurement, cloud services, and IT consulting. Softcat PLC is headquartered in Marlow, UK.",
+  "website": "http://www.softcat.com"
 }

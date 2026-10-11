@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BLD1M9",
     "isin": "FR0000054470"
   },
+  "industry": "Entertainment",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "FR0000054470",
   "kind": "stock",
@@ -16,19 +17,65 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "UBI.PA"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "UBIN.MX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "UBIS.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UBSFF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UEN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "UEN.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UEN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UEN.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "UEN.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "UEN.TI"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "UBISOFT Entertainment",
   "primary_symbol": "FR0000054470.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Ubisoft Entertainment SA is a French video game company that develops, publishes, and distributes interactive entertainment products worldwide. The company creates popular game franchises such as Assassin's Creed, Far Cry, and Tom Clancy's. Ubisoft is headquartered in Montreuil, France."
+  "summary": "Ubisoft Entertainment SA is a French video game company that develops, publishes, and distributes interactive entertainment products worldwide. The company creates popular game franchises such as Assassin's Creed, Far Cry, and Tom Clancy's. Ubisoft is headquartered in Montreuil, France.",
+  "website": "http://www.ubisoft.com"
 }

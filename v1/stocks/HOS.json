@@ -1,13 +1,17 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG000J7Q1L9",
+    "figi": "BBG000J7Q1L9"
+  },
   "industry": "Energy Equipment & Services",
   "industry_group": "Energy",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XASE",
+      "exchange_mic": "XNYS",
       "symbol": "HOS"
     }
   ],
@@ -15,11 +19,13 @@
   "name": "Hornbeck Offshore Services Inc. Common Stock",
   "primary_symbol": "HOS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy"
+  "sector": "Energy",
+  "summary": "Hornbeck Offshore Services is a provider of marine transportation services to customers in the offshore oilfield market and diversified non-oilfield markets, including military support services and renewable energy development. The company owns and operates fleets of offshore support vessels and multi-purpose support vessels, primarily in the United States, Gulf of Mexico, and select international markets.",
+  "website": "https://www.hornbeckoffshore.com"
 }

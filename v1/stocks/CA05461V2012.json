@@ -2,30 +2,38 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000Q20GX4",
+    "composite_figi": "BBG000P7C3D2",
     "cusip": "05461V201",
-    "figi": "BBG000Q20JY7",
+    "figi": "BBG000P7C3D2",
     "isin": "CA05461V2012"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA05461V2012",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AXMIF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA05461V2012.SG"
     }
   ],
-  "name": "AXMIN INC",
-  "primary_symbol": "CA05461V2012.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "AXMIN Inc.",
+  "primary_symbol": "AXMIF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "AXMIN INC is a Canadian-based exploration and development company with a focus on mineral projects. The company is focused on developing its Passendro Gold Project in the Central African Republic. AXMIN Inc. is headquartered in Montreal, Quebec."
+  "summary": "AXMIN Inc., a development stage company, operates as a mineral exploration company in central and West Africa. The company explores for gold properties. Its primary assets is Passendro gold project located in north-central Central African Republic. The company also holds a royalty interest in the Senegal project located in the Birimian belt of eastern Senegal. AXMIN Inc. is based in Vancouver, Canada.",
+  "website": "http://www.axmininc.com"
 }

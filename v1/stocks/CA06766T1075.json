@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG00N1322H6",
     "cusip": "06766T107",
-    "figi": "BBG00N1322M0",
+    "figi": "BBG00N1322J4",
     "isin": "CA06766T1075"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA06766T1075",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2NZ.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BRKCF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "BRO.V"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA06766T1075.SG"
     }
   ],
-  "name": "BARKSDALE RESOURCES CORP",
-  "primary_symbol": "CA06766T1075.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Barksdale Resources Corp.",
+  "primary_symbol": "2NZ.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "BARKSDALE RESOURCES CORP is a base metal exploration company focused on advancing the Sunnyside copper-silver project in Arizona. The company is dedicated to creating value through responsible mineral exploration and project development. Barksdale Resources Corp is headquartered in Vancouver, British Columbia, Canada."
+  "summary": "Barksdale Resources Corp. focuses on acquiring and exploring precious and base metal projects in the United States. It primarily explores for copper, zinc, lead, silver, and gold ores. The company's flagship asset is the Sunnyside property, which covers an area of approximately 5,223 acres located in the Patagonia Mountains of southern Arizona. It also owns 100% interest in the San Antonio project covering approximately 6,300 acres located in the Patagonia Mountains of southern Arizona. In addition, the company has an option to acquire a 100% interest in the Four Metals property that covers an area of approximately 760 acres located in Santa Cruz County, Arizona. The company was formerly known as Barksdale Capital Corp. and changed its name to Barksdale Resources Corp. in February 2020. Barksdale Resources Corp. is based in Vancouver, Canada.",
+  "website": "http://barksdaleresources.com"
 }

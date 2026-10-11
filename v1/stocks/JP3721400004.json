@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000F3W4F6",
-    "figi": "BBG000F3W5R0",
+    "composite_figi": "BBG000BL8P15",
+    "figi": "BBG000BL8PD2",
     "isin": "JP3721400004"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "JP3721400004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5631.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XDUS",
@@ -17,19 +23,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "J9R.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "J9R.SG"
     }
   ],
-  "name": "Japan Steel Works, Ltd.",
-  "primary_symbol": "J9R.DU",
+  "market_cap_band": "Mid Cap",
+  "name": "The Japan Steel Works,Ltd.",
+  "primary_symbol": "5631.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Japan Steel Works, Ltd. manufactures and sells steel products and industrial machinery. The company's products include steel plates, castings, forgings, plastics machinery, defense products, and power generation equipment. Japan Steel Works is headquartered in Tokyo, Japan."
+  "summary": "The Japan Steel Works, Ltd. was established in Tokyo in 1907 and manufactures steel and machinery worldwide through three groups: industrial machinery, steel and energy products, and other businesses. It makes power generation components like monoblock rotor shafts and nuclear reactor shell flanges, and advanced metals such as clad steel, high-alloy and stainless steels and nickel-based alloys.",
+  "website": "http://www.jsw.co.jp"
 }

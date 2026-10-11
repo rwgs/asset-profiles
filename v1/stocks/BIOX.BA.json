@@ -1,7 +1,11 @@
 {
   "country": "Argentina",
   "country_code": "AR",
-  "industry": "Construction Materials",
+  "identifiers": {
+    "composite_figi": "BBG00ZL7CYT4",
+    "figi": "BBG00ZL7CYT4"
+  },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "kind": "stock",
   "listings": [
@@ -11,11 +15,11 @@
       "symbol": "BIOX.BA"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Bioceres Crop Solutions Corp.",
   "primary_symbol": "BIOX.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

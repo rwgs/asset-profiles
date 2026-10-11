@@ -2,9 +2,11 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG00JHW8B79",
+    "figi": "BBG00NRVYBQ1",
     "isin": "SE0009778848"
   },
-  "industry": "Health Care Equipment & Supplies",
+  "industry": "Health Care Providers & Services",
   "industry_group": "Health Care Equipment & Services",
   "isin": "SE0009778848",
   "kind": "stock",
@@ -23,13 +25,23 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "5M0B.MU"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "MCOV-B.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MCVEF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Medicover AB Class B",
   "primary_symbol": "0RPS.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

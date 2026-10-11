@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG000PYTX30",
+    "figi": "BBG000PYTYX5",
     "isin": "KYG618391091"
   },
   "industry": "Communications Equipment",
@@ -11,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0947.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "M7B.F"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "MOBI Development Co., Ltd.",
-  "primary_symbol": "M7B.F",
+  "primary_symbol": "0947.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "MOBI Development Co., Ltd., an investment holding company, engages in the research, design, development, manufacture, marketing, and sale of wireless communication antennas, base station radio frequency subsystems and solutions, and products of coverage extension solutions. Its solutions are used in the components of mobile communication coverage systems, including wireless access systems, as well as antenna, satellite communication, and microwave transmission networks. The company serves network and telecommunication operators, wireless network solution providers, and system equipment manufacturers. The company has operations in the People's Republic of China, other countries in Asia, Europe, and the Americas. MOBI Development Co., Ltd. was founded in 1999 and is headquartered in Shenzhen, the People's Republic of China.",
+  "summary": "MOBI Development Co., Ltd. is an investment holding company that researches, designs, develops, makes, markets and sells coverage extension products, antennas for wireless communication and radio frequency subsystems for base stations. These form components of mobile communication coverage systems, including wireless access systems.",
   "website": "http://www.mobi-antenna.com"
 }

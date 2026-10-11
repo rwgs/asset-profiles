@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000KK09J2",
     "cusip": "28617Y101",
+    "figi": "BBG000KK09J2",
     "isin": "US28617Y1010"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,36 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EJXB.F"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "EKTA-B.ST"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "EKTABN.MX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "EKTAF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "EKTAY"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Elekta AB (publ)",
-  "primary_symbol": "EJXB.F",
+  "primary_symbol": "EKTAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

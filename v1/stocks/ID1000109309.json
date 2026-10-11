@@ -2,25 +2,57 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
+    "composite_figi": "BBG000BG0XY1",
+    "figi": "BBG000BG0YH8",
     "isin": "ID1000109309"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "ID1000109309",
   "kind": "stock",
   "listings": [
     {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "INCO.JK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PTNDF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "XT3B.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XT3B.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "XT3B.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "XT3B.SG"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Mid Cap",
   "name": "PT Vale Indonesia Tbk",
-  "primary_symbol": "XT3B.BE",
+  "primary_symbol": "INCO.JK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "PT Vale Indonesia Tbk, together with its subsidiaries, engages in the mining and processing of nickel in Indonesia. The company was formerly known as PT International Nickel Indonesia Tbk and changed its name to PT Vale Indonesia Tbk in September 2011. PT Vale Indonesia Tbk was incorporated in 1968 and is headquartered in Jakarta, Indonesia.",
+  "website": "https://www.vale.com/indonesia/EN/Pages/default.aspx"
 }

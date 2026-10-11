@@ -2,18 +2,29 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000BNY7S3",
-    "figi": "BBG000BNYCW7",
+    "composite_figi": "BBG000BGR449",
+    "figi": "BBG000BGR4R4",
     "isin": "SG0531000230"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "SG0531000230",
   "kind": "stock",
   "listings": [
     {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "V03.SI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "VEM.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VEM.F"
     },
     {
       "currency": "EUR",
@@ -24,17 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "VEM.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VEMLF"
     }
   ],
-  "name": "Venture Corp., Ltd.",
-  "primary_symbol": "VEM.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Venture Corporation Limited",
+  "primary_symbol": "V03.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "VENTURE SD-,25 is a company that provides investment and management services. The company's specific operations and industry focus are not readily available. Venture SD-,25's headquarters location is also not clear."
+  "sector": "Information Technology",
+  "summary": "Venture Corporation Limited provides technology solutions, products, and services in Singapore, the Asia Pacific, and internationally. The company operates through Advanced Manufacturing & Design Solutions, and Technology Products & Design Solutions segments. It engages in the design, manufacture, assemble, installation, and distribution of electronic, and other computer products and peripherals; manufacture and sale of terminal units; development and marketing of color imaging products for label printing; and research and development of biotechnology, life and medical science products. The company is also involved in the provision of engineering, customization, logistics, and repair services; information system development and support services; design solutions and services; administrative and technical, and management services; and manufacturing, product design and development, engineering and supply-chain management services. In addition, it engages in the manufacturing, fabricating, and dealing of precision plastic tools, components and sub-assemblies; design, customization, and marketing of tool-making and precision engineering solutions; manufacture of plastic injection molds and moldings with secondary processes and subassembly; manufacture of high technology products; and import and export of electronic parts, components, equipment, devices, and instruments. Further, the company wholesales computer hardware and peripheral equipment; manufactures and repairs engineering and scientific instruments; and manufactures and sells data and telecommunications products in industrial electronics industries. Venture Corporation Limited was incorporated in 1984 and is headquartered in Singapore.",
+  "website": "http://www.venture.com.sg"
 }

@@ -2,15 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BX6MS9",
-    "figi": "BBG000BX6PF6",
+    "composite_figi": "BBG000BG97Z8",
+    "figi": "BBG000BG9877",
     "isin": "JP3733400000"
   },
   "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Capital Goods",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3733400000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5214.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NPEGF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,16 +33,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Nippon Electric Glass Co., Ltd.",
-  "primary_symbol": "NPG.BE",
+  "name": "Nippon Electric Glass Co.,Ltd.",
+  "primary_symbol": "5214.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "NIPPON EL. GLASS is likely the former name for NEG (Nippon Electric Glass), a Japanese manufacturer of specialty glass. They produce glass for displays, optical devices, and other applications. The headquarters are located in Japan.",
+  "sector": "Information Technology",
+  "summary": "Nippon Electric Glass Co., Ltd. makes and sells high-performance glass products and glassmaking machinery globally, with operations in Japan, China, South Korea, the United States and Europe. Its products include substrates of glass for flat panel displays, glass fibers, thin-film coatings and glass strengthened chemically, as well as glass for pharmaceutical, medical and construction uses. Dating from 1944, it has its headquarters in Otsu, Japan.",
   "website": "http://www.neg.co.jp"
 }

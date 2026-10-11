@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG0019RSW07",
-    "figi": "BBG0019RSW16",
+    "composite_figi": "BBG00193KC93",
+    "figi": "BBG00193KCB0",
     "isin": "KYG2744A1076"
   },
   "industry": "Metals & Mining",
@@ -12,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1090.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DM7.F"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Da Ming International Holdings Limited",
-  "primary_symbol": "DM7.F",
+  "primary_symbol": "1090.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Da Ming International Holdings Limited processes, distributes, and sells stainless steel and carbon steel products in the People's Republic of China and internationally. It offers high strength steel, wear-resistant steel, regular stainless steel, duel phase steel, heat-resistant steel, nickel based alloy, super austenitic-steel, and 6mo steel products. The company is also involved in the purchase and sale of metal materials; and distribution and sale of fixed assets. It serves machineries, distributors, petrochemical, home hardware and appliances, automobile and transport, construction, renewable energy, and other industries. The company was incorporated in 2007 and is headquartered in Wuxi, the People's Republic of China. Da Ming International Holdings Limited is a subsidiary of Ally Good Group Limited.",
+  "summary": "Da Ming International Holdings Limited, established in 2007 and headquartered in Wuxi, is a subsidiary of Ally Good Group Limited that processes, distributes and sells stainless and carbon steel products in China and worldwide. Its range covers high-strength, wear-resistant, duplex, heat-resistant and nickel-based alloy steels, among others. It also trades metal materials and fixed assets, serving customers in machinery, petrochemicals, automotive, construction and renewable energy.",
   "website": "http://www.dmssc.net"
 }

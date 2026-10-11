@@ -7,6 +7,7 @@
     "figi": "BBG000GM5VD5",
     "isin": "US51817R1068"
   },
+  "industry": "Airlines",
   "industry_group": "Transportation",
   "isin": "US51817R1068",
   "kind": "stock",
@@ -18,19 +19,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LFL.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "LFL.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LFL.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "LATAM AIRLINES GRP ADR 1",
   "primary_symbol": "LFL.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Latam Airlines Group S.A. is a Chilean airline holding company. The airline group offers passenger and cargo air transportation services. Its headquarters are in Santiago, Chile."
+  "summary": "Latam Airlines Group S.A. is a Chilean airline holding company. The airline group offers passenger and cargo air transportation services. Its headquarters are in Santiago, Chile.",
+  "website": "http://www.latamairlinesgroup.net"
 }

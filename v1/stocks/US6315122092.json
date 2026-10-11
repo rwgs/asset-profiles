@@ -2,26 +2,16 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000SXH383",
+    "composite_figi": "BBG00LQHCKL6",
     "cusip": "631512209",
-    "figi": "BBG000SXH383",
+    "figi": "BBG00LQHCKM5",
     "isin": "US6315122092"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Interactive Media & Services",
+  "industry_group": "Media & Entertainment",
   "isin": "US6315122092",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "NAPRF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NNW.F"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -29,13 +19,13 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "NNWN.SG"
+      "exchange_mic": "XMUN",
+      "symbol": "NNWN.MU"
     },
     {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "NPN.JO"
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NNWN.SG"
     },
     {
       "currency": "USD",
@@ -48,11 +38,11 @@
       "symbol": "NPSNY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Naspers Limited",
-  "primary_symbol": "NAPRF",
+  "primary_symbol": "NNWN.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

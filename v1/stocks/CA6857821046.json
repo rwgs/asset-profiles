@@ -6,6 +6,7 @@
     "cusip": "685782104",
     "isin": "CA6857821046"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA6857821046",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA6857821046.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OREAF"
     }
   ],
-  "name": "OREA MINING CORP",
+  "market_cap_band": "Nano Cap",
+  "name": "Orea Mining Corp.",
   "primary_symbol": "CA6857821046.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Orea Mining Corp. is a precious metals exploration and development company with a focus on gold. Its key asset is the Montagne d'Or gold deposit in French Guiana, South America. The company is committed to responsible mining practices."
+  "summary": "Orea Mining Corp. is a precious metals exploration and development company with a focus on gold. Its key asset is the Montagne d'Or gold deposit in French Guiana, South America. The company is committed to responsible mining practices.",
+  "website": "http://www.oreamining.com"
 }

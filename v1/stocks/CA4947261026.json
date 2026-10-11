@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00RDTHR86",
+    "composite_figi": "BBG00R0DJYT5",
     "cusip": "494726102",
-    "figi": "BBG00RDTHR86",
+    "figi": "BBG00R0DJYX0",
     "isin": "CA4947261026"
   },
   "industry": "Metals & Mining",
@@ -13,6 +13,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "KCP.V"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "TBXXF"
@@ -20,15 +25,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "King Copper Discovery Corp.",
-  "primary_symbol": "TBXXF",
+  "primary_symbol": "KCP.V",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Turmalina Metals Corp. engages in the acquisition, exploration, and evaluation of mineral resource properties in South America. The company explores for gold, copper, silver, and molybdenum deposits. Its principal property is the San Francisco Project consisting of approximately 3,399 hectares located in San Juan Province, Argentina. The company also holds an option to acquire 100% interest in the Miranda project, Argentina project, and Chanape project located in Peru. The company was formerly known as Turmalina Copper Corp. and changed its name to Turmalina Metals Corp. in June 2019. Turmalina Metals Corp. was founded in 2017 and is headquartered in Vancouver, Canada.",
-  "website": "http://turmalinametals.com"
+  "summary": "King Copper Discovery Corp. procures and explores mineral resource properties in Peru and Argentina, seeking silver, gold and copper. It has an option on full ownership of the Colquemayo project claims in Peru, and has interests in Argentina's San Francisco project, which includes the Don David and Santa Barbara projects. Founded in 2017, it was formerly Turmalina Metals Corp.",
+  "website": "https://kingcopperdiscovery.com"
 }

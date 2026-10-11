@@ -2,29 +2,37 @@
   "country": "Guernsey",
   "country_code": "GG",
   "identifiers": {
-    "composite_figi": "BBG00ZJZ04Z7",
-    "figi": "BBG00ZJZ0539",
+    "composite_figi": "BBG00NQJGVS3",
+    "figi": "BBG00NQJGVT2",
     "isin": "GG00BGDYDZ69"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "GG00BGDYDZ69",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "FAR.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GG00BGDYDZ69.SG"
     }
   ],
-  "name": "FERRO-ALLOY RESOURCES LTD",
-  "primary_symbol": "GG00BGDYDZ69.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Ferro-Alloy Resources Limited",
+  "primary_symbol": "FAR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Ferro-Alloy Resources Ltd is a mining company focused on the development of vanadium and other mineral resources in Kazakhstan. The company is involved in the exploration and production of ferro-alloys and related products. The company is headquartered in Almaty, Kazakhstan."
+  "summary": "Ferro-Alloy Resources Limited engages in mining, processing, and selling vanadium and associated by-products in the Republic of Kazakhstan. It explores for uranium, molybdenum, aluminum, rare earth metals, and carbon deposits. The company primarily holds an interest in the Balasausqandiq deposit located in Southern Kazakhstan. Ferro-Alloy Resources Limited was founded in 2000 and is based in St. Peter Port, Guernsey.",
+  "website": "http://www.ferro-alloy.com"
 }

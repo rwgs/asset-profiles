@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000QKMYH9",
-    "figi": "BBG000QKMYZ9",
+    "composite_figi": "BBG000DVVTH0",
+    "cusip": "126601103",
+    "figi": "BBG000DVVTH0",
     "isin": "US1266011030"
   },
   "industry": "Machinery",
@@ -12,16 +13,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "CVV"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0V3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "0V3.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "CVD Equipment Corporation",
-  "primary_symbol": "0V3.F",
+  "primary_symbol": "CVV",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

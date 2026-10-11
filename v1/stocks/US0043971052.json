@@ -7,7 +7,7 @@
     "figi": "BBG000QNS713",
     "isin": "US0043971052"
   },
-  "industry": "Health Care Technology",
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US0043971052",
   "kind": "stock",
@@ -24,6 +24,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "XEJ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "XEJ.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "XEJ.F"
     },
@@ -33,11 +43,11 @@
       "symbol": "XEJ.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Accuray Incorporated",
   "primary_symbol": "ARAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

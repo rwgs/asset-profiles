@@ -3,14 +3,29 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG010FNDWV2",
-    "figi": "BBG010FNDWZ8",
+    "figi": "BBG010FNDWX0",
     "isin": "GB00BNDRLN84"
   },
-  "industry": "Software",
-  "industry_group": "Diversified Financials",
+  "industry": "Insurance",
+  "industry_group": "Insurance",
   "isin": "GB00BNDRLN84",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "6HD.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6HD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6HD.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -22,16 +37,17 @@
       "symbol": "PBEE.L"
     }
   ],
-  "name": "PENSIONBEE GROUP PLC",
-  "primary_symbol": "GB00BNDRLN84.SG",
+  "market_cap_band": "Small Cap",
+  "name": "PensionBee Group plc",
+  "primary_symbol": "6HD.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "PensionBee Group PLC is an online pension provider that consolidates existing pensions into a single online account. The company aims to simplify pension management and provide transparent fees. PensionBee Group PLC is headquartered in London, UK.",
+  "summary": "PensionBee Group PLC operates an online pension platform. The company enables individuals to consolidate and manage their pensions in one place. It offers various pension plans and investment options.",
   "website": "http://www.pensionbee.com"
 }

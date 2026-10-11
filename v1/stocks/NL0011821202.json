@@ -18,16 +18,6 @@
       "symbol": "ING"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XAMS",
-      "symbol": "IGPA.AS"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XAMS",
-      "symbol": "IGPPA.AS"
-    },
-    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "ING.BA"
@@ -41,6 +31,11 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "INGA.MI"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "INGA.SW"
     },
     {
       "currency": "EUR",
@@ -104,21 +99,6 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "INNA.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "INNA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "INNA.SG"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "NL0011821202.SW"
     }
@@ -127,7 +107,7 @@
   "name": "ING Groep N.V.",
   "primary_symbol": "ING",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

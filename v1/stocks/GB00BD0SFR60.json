@@ -2,28 +2,47 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00CVS14L4",
+    "composite_figi": "BBG00Q70K591",
+    "figi": "BBG00Q70K5B8",
     "isin": "GB00BD0SFR60"
   },
+  "industry": "Specialty Retail",
   "industry_group": "Retailing",
   "isin": "GB00BD0SFR60",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1X4.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BD0SFR60.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "MOTR.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MTPTF"
     }
   ],
-  "name": "MOTORPOINT GROUP PLC",
-  "primary_symbol": "GB00BD0SFR60.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Motorpoint Group plc",
+  "primary_symbol": "1X4.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Motorpoint Group PLC is an independent vehicle retailer in the United Kingdom, selling nearly-new vehicles. The company operates a network of retail branches and an online platform, providing customers with a wide selection of vehicles and finance options. Motorpoint is headquartered in Derby, UK."
+  "summary": "Motorpoint Group Plc operates as an independent vehicle retailer in the United Kingdom. It primarily sells nearly-new vehicles and vehicles from various brands, including Ford, Vauxhall, Volkswagen, Nissan, Hyundai, Audi, BMW, and Mercedes-Benz. The company operates 13 retail sites across Great Britain. It also operates Auction4Cars.com, a business to business digital auction platform for selling part-exchange vehicles. In addition, the company sells motor related services comprising extended guarantees, paint protection, and gap insurance. Motorpoint Group Plc was founded in 1998 and is headquartered in Derby, the United Kingdom.",
+  "website": "http://www.motorpointplc.com"
 }

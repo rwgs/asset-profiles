@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BPKW80",
-    "figi": "BBG000BPKWK6",
+    "composite_figi": "BBG000BDTM17",
+    "figi": "BBG000BDTMF2",
     "isin": "BMG2154F1095"
   },
   "industry": "Beverages",
@@ -12,27 +12,32 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0506.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CFH.F"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "CFH0.F"
+      "exchange_mic": "XSTU",
+      "symbol": "CFH.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "China Foods Limited",
-  "primary_symbol": "CFH.F",
+  "name": "China Foods",
+  "primary_symbol": "0506.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "China Foods Limited, an investment holding company, manufactures, distributes, markets, and sells Coca-Cola series products in the People's Republic of China. It offers sparkling drinks, juices, water, milk drinks, energy drinks, tea, coffee, functional nutrition drinks, and sports and plant-based protein drinks. The company is also involved in the production, sale, and distribution of beverage bottles; wholesale and retail of prepackaged foods, and raw and auxiliary materials; provision of supply chain information consultation, management services, and others; and wholesale of packaged foods. In addition, it provides enterprise management and consulting, business information consulting, and marketing planning services, as well as computer information system development, consulting, promotion, and other services. The company was formerly known as COFCO International Limited. China Foods Limited was founded in 1990 and is based in Causeway Bay, Hong Kong. China Foods Limited is a subsidiary of China Foods (Holdings) Limited.",
+  "summary": "China Foods Limited is an investment holding company that makes, distributes, markets and sells Coca-Cola series products in China. Its range covers coffee, tea, water, juices, sparkling drinks, milk drinks, energy drinks and functional and protein drinks. It also produces and sells beverage bottles and is involved in wholesale and retail of pre-packaged foods.",
   "website": "http://www.chinafoodsltd.com"
 }

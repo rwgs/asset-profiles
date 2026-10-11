@@ -15,7 +15,7 @@
     }
   ],
   "aum_usd": 13728069518.52,
-  "category": "Consumer Staples",
+  "category": "Developed Markets",
   "category_group": "Consumer Staples",
   "country_weights": [
     {
@@ -45,7 +45,7 @@
   "name": "Consumer Staples Select Sector SPDR Fund",
   "primary_symbol": "XLP",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001064642"
@@ -54,7 +54,11 @@
   "sector_weights": [
     {
       "sector": "Consumer Staples",
-      "weight": 0.960218
+      "weight": 0.90063
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.068968
     },
     {
       "sector": "Materials",
@@ -62,7 +66,7 @@
     },
     {
       "sector": "Unknown",
-      "weight": 0.016037
+      "weight": 0.006657
     }
   ],
   "top_holdings": [

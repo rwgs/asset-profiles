@@ -1,11 +1,12 @@
 {
-  "country": "Indonesia",
-  "country_code": "ID",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000M65CM5",
-    "cusip": "G9082C108",
+    "composite_figi": "BBG00H61B8V9",
+    "figi": "BBG00H61B8W8",
     "isin": "GB00BF0P7H59"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "isin": "GB00BF0P7H59",
   "kind": "stock",
@@ -13,18 +14,25 @@
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
+      "symbol": "LIVE.L"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
       "symbol": "SOHO.L"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Living REIT plc",
-  "primary_symbol": "SOHO.L",
+  "primary_symbol": "LIVE.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Triple Point Social Housing REIT plc invests in social housing assets in the United Kingdom. It focuses on providing supported living accommodation for vulnerable individuals. The company aims to deliver stable, long-term income and capital growth."
+  "summary": "Living REIT Plc is a closed-ended investment company, which engages in providing shareholders with an attractive level of income, together with the potential for capital growth from investing in a portfolio of social homes. It invests in social housing assets in the United Kingdom, with a particular focus on specialized supported housing. The company was founded on June 12, 2017 and is headquartered in London, the United Kingdom.",
+  "website": "https://www.socialhousingreit.com"
 }

@@ -7,6 +7,7 @@
     "figi": "BBG00FGFSWH6",
     "isin": "CA75101U4000"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Diversified Financials",
   "isin": "CA75101U4000",
   "kind": "stock",
@@ -15,17 +16,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA75101U4000.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EK7C.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RMNXF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "RMO.V"
     }
   ],
-  "name": "RAINY MOUNTAIN ROYALTY CORP",
+  "market_cap_band": "Nano Cap",
+  "name": "Rainy Mountain Royalty Corp.",
   "primary_symbol": "CA75101U4000.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Rainy Mountain Royalty Corp. is a Canadian company engaged in acquiring and managing mineral royalties. They are focused on generating revenue from royalties on producing mines and exploration projects. The company provides exposure to the mining sector without the risks associated with operating mines."
+  "summary": "Rainy Mountain Royalty Corp. is a Canadian company engaged in acquiring and managing mineral royalties. They are focused on generating revenue from royalties on producing mines and exploration projects. The company provides exposure to the mining sector without the risks associated with operating mines.",
+  "website": "http://www.rmroyalty.com"
 }

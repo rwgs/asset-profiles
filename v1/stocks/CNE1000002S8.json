@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000GRSBW2",
-    "figi": "BBG000GRSBW2",
+    "composite_figi": "BBG000BLPS38",
+    "figi": "BBG000BLPS92",
     "isin": "CNE1000002S8"
   },
   "industry": "Marine",
@@ -11,6 +11,11 @@
   "isin": "CNE1000002S8",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1138.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -23,21 +28,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HIFH.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HIFH.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HIFH.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HIFH.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "COSCO SHIPPING Energy Transportation Co., Ltd. Class H",
-  "primary_symbol": "CSDXF",
+  "market_cap_band": "Large Cap",
+  "name": "COSCO SHIPPING Energy Transportation Co., Ltd.",
+  "primary_symbol": "1138.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "COSCO SHIPPING Energy Transportation Co., Ltd., an investment holding company, engages in the shipment of oil, liquefied natural gas (LNG), and chemicals along the coast of the People's Republic of China and internationally. It operates in Oil Shipment, LNG, and Others segments. The company also engages in the chartering of vessels; shipment of liquefied petroleum gas; and provision of shipping agency services. As of December 31, 2020, it owned 160 oil tankers with a total capacity of 23.72 million deadweight tons (DWT), including 150 self-owned oil tankers with a capacity of 20.97 million DWT, 10 chartered-in oil tankers with a capacity of 2.75 million DWT, and 7 oil tankers with a capacity of 1.315 million DWT; and 41 jointly-invested LNG vessels, which includes 38 LNG vessels in operation with an aggregate capacity of 6,420,000 cubic meters and 3 LNG vessels under construction with an aggregate capacity of 522,000 cubic meters. The company was formerly known as China Shipping Development Company Limited and changed its name to COSCO SHIPPING Energy Transportation Co., Ltd. in October 2016. COSCO SHIPPING Energy Transportation Co., Ltd. was founded in 1994 and is based in Shanghai, the People's Republic of China.",
-  "website": "http://energy.coscoshipping.com"
+  "summary": "COSCO SHIPPING Energy Transportation Co., Ltd. is an investment holding company focused on maritime transport of energy commodities worldwide and along the Chinese coast. It ships crude oil, liquefied natural gas and chemical products, with segments that include Oil Shipment.",
+  "website": "https://energy.coscoshipping.com"
 }

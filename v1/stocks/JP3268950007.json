@@ -6,6 +6,7 @@
     "figi": "BBG00W5FDM07",
     "isin": "JP3268950007"
   },
+  "industry": "Health Care Providers & Services",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "JP3268950007",
   "kind": "stock",
@@ -17,19 +18,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "59Z.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "59Z.MU"
+    },
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7459.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MEPDF"
     }
   ],
-  "name": "MEDIPAL HOLDINGS CORP.",
+  "market_cap_band": "Mid Cap",
+  "name": "MediPal Holdings Corporation",
   "primary_symbol": "59Z.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MEDIPAL HOLDINGS CORPORATION, headquartered in Tokyo, Japan, is a major pharmaceutical wholesaler. They distribute prescription drugs, ethical pharmaceuticals, diagnostic reagents, and medical devices to hospitals, clinics, and pharmacies. Their business model is focused on efficiently delivering healthcare products and services to support the medical industry."
+  "summary": "MEDIPAL HOLDINGS CORPORATION, headquartered in Tokyo, Japan, is a major pharmaceutical wholesaler. They distribute prescription drugs, ethical pharmaceuticals, diagnostic reagents, and medical devices to hospitals, clinics, and pharmacies. Their business model is focused on efficiently delivering healthcare products and services to support the medical industry.",
+  "website": "http://www.medipal.co.jp"
 }

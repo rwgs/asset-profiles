@@ -5,7 +5,7 @@
     "composite_figi": "BBG000BSB930",
     "isin": "DE0005156236"
   },
-  "industry": "Electronic Equipment, Instruments & Components",
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "DE0005156236",
   "kind": "stock",
@@ -17,8 +17,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SCE.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SCE.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SCE.DU"
     },
     {
       "currency": "EUR",
@@ -27,15 +37,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SCE.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SCE.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Schweizer Electronic AG",
   "primary_symbol": "DE0005156236.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

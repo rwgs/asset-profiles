@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "FI0009000277"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "FI0009000277",
   "kind": "stock",
@@ -12,17 +13,54 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0KG0.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "TIETO.HE"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "TIETO.OL"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "TIETOS.ST"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TTEB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TTEB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TTEB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TTEB.SG"
     }
   ],
-  "name": "TIETO OYJ TIETO ORD SHS",
+  "market_cap_band": "Mid Cap",
+  "name": "TietoEVRY Oyj",
   "primary_symbol": "0KG0.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "TIETO OYJ TIETO ORD SHS is likely referring to TietoEVRY, a Finnish-based IT services and software company. TietoEVRY provides a range of services, including consulting, system integration, and application management. The company serves customers in the Nordic countries and globally."
+  "summary": "TIETO OYJ TIETO ORD SHS is likely referring to TietoEVRY, a Finnish-based IT services and software company. TietoEVRY provides a range of services, including consulting, system integration, and application management. The company serves customers in the Nordic countries and globally.",
+  "website": "http://www.tietoevry.com"
 }

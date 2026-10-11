@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "IT0001347308"
   },
+  "industry": "Construction Materials",
   "industry_group": "Materials",
   "isin": "IT0001347308",
   "kind": "stock",
@@ -12,6 +13,21 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0NVQ.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "BZU.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BZU.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BZZUF"
     },
     {
       "currency": "EUR",
@@ -25,19 +41,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UCM.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "UCM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "UCM.SG"
     }
   ],
-  "name": "BUZZI UNICEM SPA BUZZI UNICEM S",
+  "market_cap_band": "Mid Cap",
+  "name": "Buzzi Unicem S.p.A.",
   "primary_symbol": "0NVQ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Buzzi Unicem SpA is an Italian cement and concrete company. It manufactures cement, ready-mix concrete, and aggregates. The company is headquartered in Casale Monferrato, Italy."
+  "summary": "Buzzi Unicem SpA is an Italian cement and concrete company. It manufactures cement, ready-mix concrete, and aggregates. The company is headquartered in Casale Monferrato, Italy.",
+  "website": "http://www.buzziunicem.it"
 }

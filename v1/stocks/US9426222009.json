@@ -2,30 +2,48 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JNH0Q1",
+    "composite_figi": "BBG000DJN7L9",
     "cusip": "942622200",
-    "figi": "BBG000JNJ5Z8",
+    "figi": "BBG000DJN962",
     "isin": "US9426222009"
   },
+  "industry": "Trading Companies & Distributors",
   "industry_group": "Capital Goods",
   "isin": "US9426222009",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "WSO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WC3.F"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "WC3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "WC3.SG"
     }
   ],
-  "name": "WATSCO INC. A  DL-,50",
-  "primary_symbol": "WC3.MU",
+  "market_cap_band": "Large Cap",
+  "name": "Watsco, Inc.",
+  "primary_symbol": "WSO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Watsco, Inc. is a distributor of air conditioning, heating, and refrigeration equipment and related parts and supplies. The company serves contractors in the HVAC/R industry. Watsco, Inc. is headquartered in Miami, Florida, USA."
+  "summary": "Watsco, Inc., together with its subsidiaries, distributes air conditioning, heating, and refrigeration equipment; and related parts and supplies in the United States, Canada, Mexico, and Puerto Rico. It offers residential ducted and ductless air conditioners, including gas, electric, and oil furnaces; commercial air conditioning and heating equipment systems; and other specialized equipment. The company also provides parts comprising replacement compressors, evaporator coils, motors, and other component parts; and supplies, such as thermostats, insulation materials, refrigerants, ductworks, grills, registers, sheet metals, tools, copper tubing, concrete pads, tapes, adhesives, and other ancillary supplies, as well as plumbing and bathroom remodeling supplies. It serves contractors and dealers that service the replacement and new construction markets for residential and light commercial central air conditioning, heating, and refrigeration systems. In addition, the company exports its products to Latin America and the Caribbean Basin. Watsco, Inc. was founded in 1945 and is headquartered in Miami, Florida.",
+  "website": "http://www.watsco.com"
 }

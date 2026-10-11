@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BHNRP7",
-    "figi": "BBG000BHNT37",
+    "composite_figi": "BBG000BDYCR5",
+    "figi": "BBG000BDYD39",
     "isin": "HK0000608585"
   },
   "industry": "Real Estate Management & Development",
@@ -12,14 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0017.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HK0000608585.SG"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "NDVLY"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NWDA.BE"
     },
     {
       "currency": "EUR",
@@ -27,22 +32,27 @@
       "symbol": "NWDA.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NWDA.MU"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "NWWDF"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "New World Development Co. Ltd.",
-  "primary_symbol": "HK0000608585.SG",
+  "market_cap_band": "Small Cap",
+  "name": "New World Development Company Limited",
+  "primary_symbol": "0017.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "New World Development Company Limited is a diversified conglomerate involved in property development, infrastructure, services, and retail. The company develops residential and commercial properties, operates hotels, and invests in infrastructure projects. New World Development is based in Hong Kong.",
+  "summary": "New World Development Company Limited, founded in 1970 and headquartered in Central, Hong Kong, is an investment holding company with diverse businesses. Its main focus is developing and investing in residential, retail, office and industrial property in Hong Kong and overseas, and it also leases commercial aircraft, manages infrastructure such as expressways and undertakes construction.",
   "website": "http://www.nwd.com.hk"
 }

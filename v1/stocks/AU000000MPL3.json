@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000BL8MW8",
-    "figi": "BBG000BL8N65",
+    "composite_figi": "BBG00L5DVZ16",
+    "figi": "BBG00L5DVZ16",
     "isin": "AU000000MPL3"
   },
   "industry": "Insurance",
@@ -11,6 +11,11 @@
   "isin": "AU000000MPL3",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MDBPF"
+    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -33,10 +38,10 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "MEDIBANK PRIVATE LTD",
-  "primary_symbol": "MPL.AX",
+  "name": "Medibank Private Limited",
+  "primary_symbol": "MDBPF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -44,5 +49,5 @@
   "schema_version": "1.0.0",
   "sector": "Financials",
   "summary": "Medibank Private Limited, an integrated healthcare company, provides private health insurance and health solutions in Australia. The company operates through two segments, Health Insurance and Medibank Health. The Health Insurance segment offers private health insurance products, including hospital cover that provides members with health cover for hospital treatments; and ancillary cover, which offers members with health cover for healthcare services, such as dental, optical, and physiotherapy. This segment also provides health insurance products to overseas visitors and overseas students. The Medibank Health segment offers health management and telehealth services to government and corporate customers, as well as distributes travel, life, and pet insurance products. Medibank Private Limited underwrites its health insurance products under the Medibank and ahm brands. The company was founded in 1976 and is based in Docklands, Australia.",
-  "website": "http://www.medibank.com.au"
+  "website": "https://www.medibank.com.au"
 }

@@ -2,28 +2,47 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BVN9S3",
+    "composite_figi": "BBG006M131D9",
+    "figi": "BBG006M131D9",
     "isin": "GB0031509804"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "GB0031509804",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EKDHF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "EKF.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0031509804.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LYF.F"
     }
   ],
-  "name": "EKF DIAGNOSTICS HOLDINGS PLC",
-  "primary_symbol": "GB0031509804.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "EKF Diagnostics Holdings plc",
+  "primary_symbol": "EKDHF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "EKF Diagnostics Holdings PLC develops, manufactures and supplies point-of-care and central laboratory products for use in diagnostics. The company's products are used in hospitals, clinics, and laboratories around the world. EKF Diagnostics is headquartered in Penarth, United Kingdom."
+  "summary": "EKF Diagnostics Holdings plc, a company founded in Cardiff, United Kingdom in 1990, specializes in the global design, development, manufacture, and sale of diagnostic instruments, reagents, and supporting products. Operating across Europe, the Middle East, the Americas, Asia, and Africa, the company offers a comprehensive range of solutions for clinical diagnostics. Their product line encompasses various diagnostic tools, including hemoglobin analyzers such as the hand-held DiaSpect Tm, DiaSpect Hemoglobin T, and the lab-quality Hemo Control, alongside the HemataStat II microhematocrit centrifuge. For diabetes management and monitoring, EKF provides glycated hemoglobin analyzers like Quo-Lab A1c and Quo-Test A1c, in addition to glucose and lactate analyzers such as the Biosen C-Line GP+, C-Line Clinic, and Lactate Scout 4. The company also manufactures specialized analyzers, including the STAT-Site M Beta-hydroxybutyrate analyzer, Creamatocrit Plus for assessing lipid concentration and calorific density in mothers' milk, and pregnancy tests like QuPID and True20. EKF's portfolio extends to clinical chemical analyzers and reagents covering ketosis monitoring (Beta-hydroxybutyrate, Nitro-tab Ketone tablets), Glycated Albumin, Glycated Serum Protein, and Procalcitonin, a marker for bacterial infection and sepsis. Additional offerings include RaPET Serology immunoassay kits, rapid tests like QuStick Strep A for Strep A infections, and various laboratory instruments such as the Altair 240 chemistry analyzer, Excel semi-automated chemistry analyzer, and Micro 12 centrifuge. EKF also supplies Hema-Screen Serology for early colorectal cancer detection, the Uri-Trak 120 urine analyzer, and provides kits and services related to COVID-19. Beyond product sales, the company offers contract manufacturing solutions to third-party businesses and provides laboratory services.",
+  "website": "https://www.ekfdiagnostics.com"
 }

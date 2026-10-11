@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00JRY8R24",
     "cusip": "82835P103",
+    "figi": "BBG00JRY8R33",
     "isin": "CA82835P1036"
   },
   "industry": "Metals & Mining",
@@ -46,24 +48,9 @@
       "symbol": "SVM"
     },
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "SVM.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "SVM.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "SVM.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SVM.F"
     },
     {
       "currency": "CAD",
@@ -71,11 +58,11 @@
       "symbol": "SVM.TO"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Silvercorp Metals Inc.",
   "primary_symbol": "0QZ2.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

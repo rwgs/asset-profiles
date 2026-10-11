@@ -2,10 +2,12 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BDNCX0",
+    "composite_figi": "BBG000FT9K05",
+    "figi": "BBG000FT9N54",
     "isin": "GB00B61TVQ02"
   },
-  "industry_group": "Automobiles & Components",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "GB00B61TVQ02",
   "kind": "stock",
   "listings": [
@@ -18,17 +20,39 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B61TVQ02.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IHCPF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IJCA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IJCA.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "INCH.L"
     }
   ],
-  "name": "INCHCAPE PLC",
+  "market_cap_band": "Mid Cap",
+  "name": "Inchcape plc",
   "primary_symbol": "GB00B61TVQ02.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "INCHCAPE PLC is an automotive distributor and retailer. Their business model involves distributing and retailing vehicles, as well as providing aftersales services, generating revenue through vehicle sales, service contracts, and finance commissions. The company is headquartered in London, UK."
+  "summary": "INCHCAPE PLC is an automotive distributor and retailer. Their business model involves distributing and retailing vehicles, as well as providing aftersales services, generating revenue through vehicle sales, service contracts, and finance commissions. The company is headquartered in London, UK.",
+  "website": "http://www.inchcape.com"
 }

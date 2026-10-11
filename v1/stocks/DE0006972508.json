@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00JRQSNN5",
+    "figi": "BBG00JRQSNP3",
     "isin": "DE0006972508"
   },
   "industry": "Real Estate Management & Development",
@@ -16,20 +18,45 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PBY.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PBY.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PBY.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PBY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PBY.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PBY.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PBY.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Publity AG",
   "primary_symbol": "0VZS.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

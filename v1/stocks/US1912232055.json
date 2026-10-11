@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG006XQNXH6",
     "cusip": "191223205",
-    "figi": "BBG006XQNXJ4",
+    "figi": "BBG006XQNXM0",
     "isin": "US1912232055"
   },
   "industry": "Beverages",
@@ -14,23 +14,8 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "C0Q.F"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "C0Q.SG"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "CCH.L"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CCHBF"
     },
     {
       "currency": "USD",
@@ -46,18 +31,13 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CCKC.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "ASEX",
-      "symbol": "EEE.AT"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Coca-Cola HBC AG",
-  "primary_symbol": "C0Q.F",
+  "primary_symbol": "C0Q.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

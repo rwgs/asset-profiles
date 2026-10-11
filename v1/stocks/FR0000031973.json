@@ -5,6 +5,8 @@
     "composite_figi": "BBG000LDWNC8",
     "isin": "FR0000031973"
   },
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "FR0000031973",
   "kind": "stock",
   "listings": [
@@ -12,15 +14,24 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000031973.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "FSDV.PA"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "FAYENCE SARREGUEMINES DIGOIN",
   "primary_symbol": "FR0000031973.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Real Estate",
+  "summary": "FSDV Société anonyme operates as a real estate development company. The company provides real estate development and management, workspace leasing, operation of coworking spaces and operated offices, and off-site construction of concrete buildings. The company is based in Chambellay, France.",
+  "website": "https://fsdv.fr"
 }

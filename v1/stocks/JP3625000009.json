@@ -2,18 +2,29 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000FB34Z8",
-    "figi": "BBG000FB3870",
+    "composite_figi": "BBG000BK6372",
+    "figi": "BBG000BK6425",
     "isin": "JP3625000009"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "JP3625000009",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4043.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "TBT.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TBT.F"
     },
     {
       "currency": "EUR",
@@ -24,17 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TBT.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TKYMF"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Tokuyama Corporation",
-  "primary_symbol": "TBT.BE",
+  "primary_symbol": "4043.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "TOKUYAMA CORP. is a Japanese chemical company that manufactures and sells a variety of products including cement, chemicals, plastics, and electronic materials. The company operates globally with a focus on specialty chemicals. Tokuyama Corporation is headquartered in Tokyo, Japan."
+  "summary": "Tokuyama Corporation produces and sells various chemical products in Japan. The company operates in four segments: Chemicals, Specialty Products, Cement, and Life & Amenity. The Chemicals segment offers caustic soda, soda ash, calcium chloride, sodium silicate, vinyl chloride monomer, polyvinyl chloride resin, propylene oxide, isopropyl alcohol, chlorinated solvents, and hydrogen. The Specialty Products segment provides polycrystalline silicon; fumed silica and tetrachlorosilane; aluminum nitride; high-purity chemicals for electronics manufacturing and photoresist developer; and methylene chloride for metal cleaning. The Cement segment offers cement, ready-mixed concrete, and cement-type soil solidifier, as well as engages in the recycling and environment businesses. The Life & Amenity segment provides polyolefin film, plastic window sashes, medical diagnosis systems, dental materials and equipment, ion exchange membranes, pharmaceutical ingredients and intermediates, plastic lens-related materials, and microporous film. The company was formerly known as Tokuyama Soda Co., Ltd. and changed its name to Tokuyama Corporation in April 1994. Tokuyama Corporation was founded in 1918 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.tokuyama.co.jp"
 }

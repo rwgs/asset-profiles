@@ -1,11 +1,13 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG00K9HL629",
     "cusip": "45790Y104",
     "isin": "CA45790Y1043"
   },
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "CA45790Y1043",
   "kind": "stock",
   "listings": [
@@ -18,16 +20,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "98AA.MU"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "KASH.CN"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "INTELLABRIDGE TECH.CORP.",
+  "name": "Intellabridge Technology Corp.",
   "primary_symbol": "98AA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "Intellabridge Technology Corporation, a technology company, develops blockchain and artificial intelligence solutions for various sectors including self-sovereign identity, voting, supply-chain management, healthcare, gaming, and advertising. The company was formerly known as Cryptanite Blockchain Technologies Corp. and changed its name to Intellabridge Technology Corporation in October 2019. Intellabridge Technology Corporation is headquartered in Vancouver, Canada.",
+  "website": "https://www.intellabridge.com"
 }

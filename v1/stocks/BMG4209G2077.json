@@ -2,25 +2,52 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
+    "composite_figi": "BBG000JM9929",
+    "figi": "BBG000JM99N6",
     "isin": "BMG4209G2077"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "BMG4209G2077",
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "GKP.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GUKYF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "GVP1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GVP1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GVP1.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Gulf Keystone Petroleum Limited",
-  "primary_symbol": "GVP1.BE",
+  "primary_symbol": "GKP.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Energy",
+  "summary": "Gulf Keystone Petroleum Limited, together with its subsidiaries, explores, evaluates, develops, and produces oil and gas in the Kurdistan Region of Iraq. The company holds an 80% interest in the Shaikan Field, which covers an area of approximately 280 square kilometers located northwest of Erbil. It also provides management, support, geological, geophysical, and engineering services. Gulf Keystone Petroleum Limited was incorporated in 2001 and is based in Pembroke, Bermuda.",
+  "website": "https://www.gulfkeystone.com"
 }

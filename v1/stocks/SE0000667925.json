@@ -1,15 +1,26 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000GJ9377",
-    "figi": "BBG000GJ97N0",
+    "composite_figi": "BBG000M3HZF6",
+    "figi": "BBG000M3HZX6",
     "isin": "SE0000667925"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "SE0000667925",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "TELIA.ST"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "TELIA1.HE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TLS.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "TLS.MU"
     },
@@ -29,17 +45,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TLS.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TLSNF"
     }
   ],
-  "name": "Telia Company AB",
-  "primary_symbol": "TLS.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Telia Company AB (publ)",
+  "primary_symbol": "TELIA.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Telia Company AB is a Swedish multinational telecommunications company that provides network access and telecommunication services in the Nordic and Baltic countries, as well as Eurasia, including mobile, broadband, and television services. The company operates fixed and mobile networks and offers a range of services to consumers and businesses. Telia Company is headquartered in Stockholm, Sweden."
+  "summary": "Telia Company AB (publ) provides communication services in Sweden, Finland, Norway, Denmark, Lithuania, and Estonia. The company offers mobile, broadband, television, and fixed telephony services to businesses, individuals, families, and communities. It is also involved in the broadcasting and content activities; and financing business. The company was formerly known as TeliaSonera AB (publ) and changed its name to Telia Company AB (publ) in April 2016. Telia Company AB (publ) was founded in 1853 and is headquartered in Solna, Sweden.",
+  "website": "http://www.teliacompany.com"
 }

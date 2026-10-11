@@ -1,10 +1,10 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000HD1TF1",
+    "composite_figi": "BBG000C4R6H6",
     "cusip": "92857W308",
-    "figi": "BBG000HD1VK0",
+    "figi": "BBG000C4RM45",
     "isin": "US92857W3088"
   },
   "industry": "Diversified Telecommunication Services",
@@ -13,27 +13,77 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "CHF",
-      "exchange_mic": "XDUS",
-      "symbol": "VODN.DU"
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "VOD"
     },
     {
-      "currency": "CHF",
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LQQ.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "VOD.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VODJ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "VODJ.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "VODJ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VODJ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "VODJ.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VODJ.HM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
-      "symbol": "VODN.MU"
+      "symbol": "VODJ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VODJ.SG"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "VODN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Vodafone Group Public Limited Company",
-  "primary_symbol": "VODN.DU",
+  "primary_symbol": "VOD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Vodafone Group Public Limited Company, established in 1984 and based in Newbury, UK, is a global telecommunications leader delivering services across Europe and internationally.",
+  "summary": "Vodafone Group Public Limited Company provides telecommunication services in Germany, the United Kingdom, rest of Europe, Turkey, and South Africa. It offers mobile and fixed services; connectivity business solutions, such as digital services, the Internet of Things (IoT) and financial services; and IoT platforms. The company also provides cloud, multi-cloud, and edge computing solutions; M-PESA, an African mobile money platform to make payments and offer financial services; and international voice and roaming services. In addition, it offers unified communications, mobile connectivity, IoT connectivity, cloud and edge, E2E solutions, and security services; leases fibre and other fixed connectivity services; and engages in infrastructure assets, shared operations, growth platforms, retail, and service operations. The company serves private and public sector customers in health, banking and finance, transport and logistics, retail, utilities, and agriculture industries. Vodafone Group Public Limited Company was incorporated in 1984 and is based in Newbury, the United Kingdom.",
   "website": "https://www.vodafone.com"
 }

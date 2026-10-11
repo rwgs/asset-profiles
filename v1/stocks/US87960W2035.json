@@ -2,7 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "87960W203",
+    "composite_figi": "BBG006YQ1FY9",
     "isin": "US87960W2035"
   },
   "industry": "Pharmaceuticals",
@@ -12,29 +12,21 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "0IGA.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "0IGA.MU"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US87960W2035.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Teligent, Inc.",
-  "primary_symbol": "0IGA.BE",
+  "primary_symbol": "US87960W2035.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "TELIGENT INC. DL-,01 is likely referring to Teligent, Inc., a specialty generic pharmaceutical company. They develop, manufacture, and market topical and injectable pharmaceutical products. Teligent focuses on niche generic markets and contract manufacturing services."
+  "summary": "TELIGENT INC. DL-,01 is likely referring to Teligent, Inc., a specialty generic pharmaceutical company. They develop, manufacture, and market topical and injectable pharmaceutical products. Teligent focuses on niche generic markets and contract manufacturing services.",
+  "website": "http://www.teligent.com"
 }

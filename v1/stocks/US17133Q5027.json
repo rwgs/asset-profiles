@@ -2,6 +2,9 @@
   "country": "Taiwan, Province of China",
   "country_code": "TW",
   "identifiers": {
+    "composite_figi": "BBG000BBYJ94",
+    "cusip": "17133Q502",
+    "figi": "BBG000BBYJ94",
     "isin": "US17133Q5027"
   },
   "industry": "Diversified Telecommunication Services",
@@ -10,21 +13,31 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "C1HT34.SA"
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "CHT"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CHWD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CHWD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CHWD.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Chunghwa Telecom Co., Ltd.",
-  "primary_symbol": "C1HT34.SA",
+  "primary_symbol": "CHT",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

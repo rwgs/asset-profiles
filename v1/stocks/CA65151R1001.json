@@ -2,10 +2,13 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG003H4CMC1",
+    "composite_figi": "BBG0064RS8F8",
     "cusip": "65151R100",
+    "figi": "BBG0064RS8K2",
     "isin": "CA65151R1001"
   },
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "isin": "CA65151R1001",
   "kind": "stock",
   "listings": [
@@ -13,15 +16,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA65151R1001.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "LUX.CN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NGO.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NWLXF"
     }
   ],
-  "name": "NEWLOX GOLD VENTURES CORP",
+  "market_cap_band": "Nano Cap",
+  "name": "Newlox Gold Ventures Corp.",
   "primary_symbol": "CA65151R1001.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "Newlox Gold Ventures Corp. operates as an environmental reclamation and mineral recovery company in Canada. The company undertakes tailings remediation and fold recovery projects in Costa Rica. It produces gold through environmental remediation by recovering residual precious metals and contaminants from historical tailings. The company was incorporated in 2011 and is headquartered in West Vancouver, Canada.",
+  "website": "http://www.newloxgold.com"
 }

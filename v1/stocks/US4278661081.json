@@ -7,8 +7,8 @@
     "figi": "BBG000BLHVZ5",
     "isin": "US4278661081"
   },
-  "industry": "Food & Staples Retailing",
-  "industry_group": "Food & Staples Retailing",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "US4278661081",
   "kind": "stock",
   "listings": [
@@ -34,20 +34,50 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HSY.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "HSY.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HSY.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HSY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HSY.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HSY.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HSY.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HSY.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "The Hershey Company",
   "primary_symbol": "HSY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

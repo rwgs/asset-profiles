@@ -6,6 +6,7 @@
     "cusip": "69526L400",
     "isin": "CA69526L4001"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA69526L4001",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA69526L4001.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PACXF"
     }
   ],
-  "name": "PACTON GOLD INC",
+  "market_cap_band": "Nano Cap",
+  "name": "Pacton Gold Inc",
   "primary_symbol": "CA69526L4001.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Pacton Gold Inc. is a Canadian exploration company focused on the discovery and development of gold properties. The company is exploring projects located in Canada and Australia. The company is focused on exploring for high-grade gold discoveries."
+  "summary": "Pacton Gold Inc. is a Canadian exploration company focused on the discovery and development of gold properties. The company is exploring projects located in Canada and Australia. The company is focused on exploring for high-grade gold discoveries.",
+  "website": "http://www.pactongold.com"
 }

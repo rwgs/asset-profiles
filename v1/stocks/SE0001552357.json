@@ -2,28 +2,40 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BTJYT7",
     "isin": "SE0001552357"
   },
-  "industry_group": "Software & Services",
+  "industry": "Media",
+  "industry_group": "Media & Entertainment",
   "isin": "SE0001552357",
   "kind": "stock",
   "listings": [
     {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "NYOR.ST"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0001552357.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T1D.F"
     }
   ],
-  "name": "TRADEDOUBLER",
-  "primary_symbol": "SE0001552357.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Nyorda AB",
+  "primary_symbol": "NYOR.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "TRADEDOUBLER is a digital marketing company that provides performance-based marketing solutions. They connect advertisers with publishers to drive sales and generate leads. The company is headquartered in Stockholm, Sweden."
+  "sector": "Communications",
+  "summary": "Nyorda AB, together with its subsidiaries, provides performance marketing and technology solutions for publishers and advertisers in Europe. The company offers affiliate marketing network solutions; white-label partner management platform to manage and run affiliate networks; campaign management solutions; and business intelligence solutions. It also provides influencer marketing; mobile marketing to engage customers via mobile devices; app marketing; lead generation campaigns; partner marketing; and e-mail marketing solutions. In addition, the company offers C2C display advertising that promotes products and services to customers through e-commerce marketplaces and social media; CTV marketing that targets audiences via internet-connected TVs, smart TVs, and streaming services; and Metapic, an influencer network platform. It serves ecommerce companies, brands, agencies, and digital platforms. The company also operates in Germany, Switzerland, France, the Netherlands, Sweden, Norway, Denmark, Finland, Poland, Italy, Brazil, Spain, the United Kingdom, and Ireland. The company was formerly known as TradeDoubler AB (publ) and changed its name to Nyorda AB in June 2026. The company was incorporated in 1999 and is headquartered in Stockholm, Sweden. Nyorda AB is a subsidiary of Reworld Media Société Anonyme.",
+  "website": "https://nyorda.com"
 }

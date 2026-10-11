@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00VY11VX5",
+    "composite_figi": "BBG000BK7L26",
     "cusip": "33751L105",
-    "figi": "BBG00VY11W18",
+    "figi": "BBG000BK7L26",
     "isin": "US33751L1052"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US33751L1052",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "MYFW"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US33751L1052.SG"
     }
   ],
-  "name": "FIRST WESTERN FINANCIAL INC",
-  "primary_symbol": "US33751L1052.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "First Western Financial, Inc.",
+  "primary_symbol": "MYFW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "FIRST WESTERN FINANCIAL INC is a bank holding company that provides a range of financial services through its subsidiary, First Western Trust Bank. Their services include wealth management, private banking, and commercial banking. The company is headquartered in Denver, Colorado."
+  "summary": "First Western Financial, Inc., a financial holding company, provides wealth management, private banking, personal trust, investment management, mortgage lending, and institutional asset management services. The company operates through two segments: Wealth Management and Mortgage. The Wealth Management segment provides deposit, loan, insurance, and trust and investment management advisory products and services. The Mortgage segment engages in soliciting, originating, and selling mortgage loans into the secondary market. It serves entrepreneurs, professionals, high-net worth individuals or families, and philanthropic and business organizations. The company operates 15 profit centers, including 11 boutique private trust bank offices with 2 locations in Arizona, 8 locations in Colorado, and 1 location in Wyoming; 2 loan production offices with 1 location in Ft. Collins, Colorado, and 1 location in Greenwood Village, Colorado; and 2 trust offices with 1 location in Laramie, Wyoming, and 1 location in Century City, California. First Western Financial, Inc. was incorporated in 2002 and is headquartered in Denver, Colorado.",
+  "website": "http://www.myfw.com"
 }

@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JHVVLZ2",
+    "figi": "BBG00JHVVM08",
     "isin": "IT0001384590"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -31,15 +33,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "3A1.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "AEF.MI"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Aeffe S.p.A.",
   "primary_symbol": "0GY8.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

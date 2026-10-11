@@ -3,28 +3,46 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00WHNLJQ7",
-    "figi": "BBG00WHNLJV1",
+    "figi": "BBG00WHNLJR6",
     "isin": "GB0001351955"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB0001351955",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5H9.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CLBS.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DFORF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0001351955.SG"
     }
   ],
-  "name": "D4T4 SOLUTIONS PLC",
-  "primary_symbol": "GB0001351955.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Celebrus Technologies plc",
+  "primary_symbol": "5H9.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "D4t4 Solutions PLC provides data analytics and marketing solutions to help businesses improve customer engagement and drive revenue growth. The company offers a range of services, including data integration, customer data platform implementation, and campaign management. D4t4 Solutions is headquartered in Sunbury-on-Thames, United Kingdom."
+  "summary": "Celebrus Technologies plc, through its various subsidiaries, specializes in providing a comprehensive suite of information technology products and services. Its flagship offering is Celebrus, an innovative data technology platform engineered to enhance the connection and understanding between brands and their consumers. The company's diverse product line also includes Celebrus CDI for Salesforce, adept at capturing real-time data; Celebrus Digital Analytics, a powerful web analytics solution; and Celebrus Cloud, which automates the acquisition, integration, transformation, and distribution of customer information. Furthermore, the platform offers robust fraud prevention capabilities. Celebrus Technologies serves a wide array of industries, including financial services, banking, retail, travel, healthcare, and telecommunications, with operations spanning the United Kingdom, continental Europe, the United States, and other international territories. Founded in 1985, the company, formerly known as D4t4 Solutions Plc, officially rebranded to Celebrus Technologies plc in November 2023 and is headquartered in Sunbury-on-Thames, United Kingdom.",
+  "website": "http://www.d4t4solutions.com"
 }

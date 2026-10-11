@@ -6,6 +6,7 @@
     "figi": "BBG001KLQFC3",
     "isin": "GB00BJP0B151"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "GB00BJP0B151",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BJP0B151.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "KDNC.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RARMF"
     }
   ],
-  "name": "CADENCE MINERALS PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "Cadence Minerals Plc",
   "primary_symbol": "GB00BJP0B151.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Cadence Minerals PLC is an investment company focused on strategic mineral resources. The Company aims to identify, invest in and manage assets with significant upside potential. Cadence Minerals is headquartered in London, UK."
+  "summary": "Cadence Minerals PLC is an investment company focused on strategic mineral resources. The Company aims to identify, invest in and manage assets with significant upside potential. Cadence Minerals is headquartered in London, UK.",
+  "website": "http://www.cadenceminerals.com"
 }

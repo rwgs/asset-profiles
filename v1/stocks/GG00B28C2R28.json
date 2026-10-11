@@ -1,7 +1,9 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "Guernsey",
+  "country_code": "GG",
   "identifiers": {
+    "composite_figi": "BBG000D3G5Z1",
+    "figi": "BBG000D3G6F1",
     "isin": "GG00B28C2R28"
   },
   "isin": "GG00B28C2R28",
@@ -14,8 +16,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PEYA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PEYA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PEYA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PEYA.SG"
     },
     {
       "currency": "GBP",
@@ -27,11 +44,12 @@
   "name": "Princess Private Equity Holding Limited",
   "primary_symbol": "PEY.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Princess Private Equity Holding Limited is an investment company that invests in private equity and private debt investments globally. It focuses on providing shareholders with long-term capital appreciation and aims to generate income through its investments. The company is based in Guernsey."
+  "summary": "Princess Private Equity Holding Limited is an investment company that invests in private equity and private debt investments globally. It focuses on providing shareholders with long-term capital appreciation and aims to generate income through its investments. The company is based in Guernsey.",
+  "website": "https://www.princess-privateequity.net"
 }

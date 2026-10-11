@@ -6,6 +6,7 @@
     "figi": "BBG000BMP3Q6",
     "isin": "DE0005489561"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "DE0005489561",
   "kind": "stock",
@@ -14,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "ULC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "ULC.DE"
     },
     {
       "currency": "EUR",
@@ -36,15 +42,17 @@
       "symbol": "ULC.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "United Labels AG",
   "primary_symbol": "ULC.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "United Labels AG designs, produces, and distributes licensed textiles and toys. They offer a variety of products featuring popular characters and brands. The company's headquarters are located in Muenster, Germany."
+  "summary": "United Labels AG designs, produces, and distributes licensed textiles and toys. They offer a variety of products featuring popular characters and brands. The company's headquarters are located in Muenster, Germany.",
+  "website": "http://www.unitedlabels.com"
 }

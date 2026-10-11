@@ -2,8 +2,8 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG00ZHRHGQ2",
-    "figi": "BBG00ZHRHGV6",
+    "composite_figi": "BBG00J2413D5",
+    "figi": "BBG00KY4F8R6",
     "isin": "PLMLSTM00015"
   },
   "industry_group": "Technology Hardware & Equipment",
@@ -11,20 +11,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "MLS.WA"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLMLSTM00015.SG"
     }
   ],
-  "name": "ML SYSTEM SA",
-  "primary_symbol": "PLMLSTM00015.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "ML Systems",
+  "primary_symbol": "MLS.WA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ML SYSTEM SA is a Polish technology company that develops and integrates advanced IT and automation solutions, particularly in the areas of transport, energy, and healthcare. They specialize in LED lighting systems, photovoltaic installations, and intelligent transportation systems. The company is headquartered in Zaczernie, Poland."
+  "summary": "ML SYSTEM SA is a Polish technology company that develops and integrates advanced IT and automation solutions, particularly in the areas of transport, energy, and healthcare. They specialize in LED lighting systems, photovoltaic installations, and intelligent transportation systems. The company is headquartered in Zaczernie, Poland.",
+  "website": "https://www.mlsystem.pl"
 }

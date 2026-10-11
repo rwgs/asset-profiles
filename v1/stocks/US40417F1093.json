@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00VXCZJ35",
+    "composite_figi": "BBG00HMS9MR9",
     "cusip": "40417F109",
-    "figi": "BBG00VXCZJ71",
+    "figi": "BBG00HMS9MR9",
     "isin": "US40417F1093"
   },
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry": "Food & Staples Retailing",
+  "industry_group": "Food & Staples Retailing",
   "isin": "US40417F1093",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "HFFG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US40417F1093.SG"
     }
   ],
-  "name": "HF FOODS GROUP INC",
-  "primary_symbol": "US40417F1093.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "HF Foods Group Inc.",
+  "primary_symbol": "HFFG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "HF FOODS GROUP INC is a food company that produces and distributes specialty sauces and food products. The company is headquartered in Industry, California."
+  "summary": "HF Foods Group Inc., through its subsidiaries, operates as a food service distributor to Asian restaurants located in the Southeastern, Pacific, and Mountain West regions of the United States. It distributes Asian specialty food items, meat and poultry products, seafood, fresh produce, packaging and other items, and commodities. The company also provides design and printing services, as well as logistic and food processing services. In addition, it is involved in real estate holding activities. The company is headquartered in City of Industry, California.",
+  "website": "http://www.hffoodsgroup.com"
 }

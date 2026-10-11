@@ -6,6 +6,7 @@
     "figi": "BBG000PJ0K50",
     "isin": "TH0689010Z18"
   },
+  "industry": "Consumer Finance",
   "industry_group": "Diversified Financials",
   "isin": "TH0689010Z18",
   "kind": "stock",
@@ -14,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "KRTA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KRTA.F"
     },
     {
       "currency": "EUR",
@@ -26,15 +32,17 @@
       "symbol": "KRTA.SG"
     }
   ],
-  "name": "KRUNGTHAI CARD FGN  BA 1",
+  "market_cap_band": "Mid Cap",
+  "name": "Krungthai Card Public Company Limited",
   "primary_symbol": "KRTA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Krungthai Card Public Company Limited (KTC) is a credit card and personal loan provider in Thailand. They offer a range of credit cards and personal loan products to consumers, and operate as a subsidiary of Krungthai Bank. The company is headquartered in Bangkok, Thailand."
+  "summary": "Krungthai Card Public Company Limited (KTC) is a credit card and personal loan provider in Thailand. They offer a range of credit cards and personal loan products to consumers, and operate as a subsidiary of Krungthai Bank. The company is headquartered in Bangkok, Thailand.",
+  "website": "http://www.ktc.co.th"
 }

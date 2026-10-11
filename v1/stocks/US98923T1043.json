@@ -4,28 +4,41 @@
   "identifiers": {
     "composite_figi": "BBG00Z924110",
     "cusip": "98923T104",
-    "figi": "BBG00Z924156",
+    "figi": "BBG00Z924129",
     "isin": "US98923T1043"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "US98923T1043",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "34Z.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US98923T1043.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "ZDGE"
     }
   ],
-  "name": "ZEDGE INC-CL B",
-  "primary_symbol": "US98923T1043.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Zedge, Inc.",
+  "primary_symbol": "34Z.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ZEDGE INC-CL B operates a content platform that offers ringtones, wallpapers, and other personalization content for smartphones; its platform allows users to discover and customize their mobile devices; the company is headquartered in Oslo, Norway."
+  "summary": "Zedge, Inc. operates a digital publishing and content platform worldwide. Its platform enables consumers to personalize their mobile devices with ringtones, wallpapers, home screen app icons, widgets, and notification sounds. The company was incorporated in 2008 and is based in New York, New York.",
+  "website": "http://www.zedge.net"
 }

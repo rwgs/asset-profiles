@@ -1,16 +1,22 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00Q42N9C5",
+    "composite_figi": "BBG00NG4GW96",
     "cusip": "91531W106",
-    "figi": "BBG00Q42N9K6",
+    "figi": "BBG00NGBP6S6",
     "isin": "US91531W1062"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "US91531W1062",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "TIGR"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,20 +28,27 @@
       "symbol": "1M5.DU"
     },
     {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "TIGRN.MX"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US91531W1062.SG"
     }
   ],
-  "name": "UP FINT. HLDG (SP.ADR) A",
-  "primary_symbol": "1M5.BE",
+  "market_cap_band": "Small Cap",
+  "name": "UP Fintech Holding Limited",
+  "primary_symbol": "TIGR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "UP Fintech Holding Limited provides online brokerage services focusing on global investment opportunities for Chinese investors. The company offers access to securities trading in U.S., Hong Kong, and China markets through its mobile app. TICKER: UP Fintech Holding Limited provides online brokerage services focusing on global investment opportunities for Chinese investors in U.S., Hong Kong, and China markets."
+  "summary": "UP Fintech Holding Limited provides online brokerage services focusing on Chinese investors. The company has developed a brokerage platform, which allows investor to trade stocks, options, warrants, and other financial instruments that can be accessed through its APP and website. It offers brokerage and value-added services, including investor education, community discussion, and IR platform; and account management services. The company also provides margin financing and securities lending services; asset management and wealth management; ESOP management; fund license application, product design, asset custody, transaction execution, and funding allocation; fund structuring and management; and IPO underwriting services. In addition, it offers market information, community engagement, investor education, and simulated trading services. UP Fintech Holding Limited was founded in 2014 and is based in Beijing, China.",
+  "website": "http://www.itiger.com"
 }

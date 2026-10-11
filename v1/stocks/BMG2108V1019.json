@@ -1,9 +1,9 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Hong Kong",
+  "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BTWVT8",
-    "figi": "BBG000BTWXQ7",
+    "composite_figi": "BBG000KVJ7J2",
+    "figi": "BBG000KVJ7T1",
     "isin": "BMG2108V1019"
   },
   "industry": "Metals & Mining",
@@ -11,6 +11,16 @@
   "isin": "BMG2108V1019",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0581.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CUGCF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -33,16 +43,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "China Oriental Group Co. Ltd.",
-  "primary_symbol": "ORG.BE",
+  "name": "China Oriental Group Company Limited",
+  "primary_symbol": "0581.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "China Oriental Group Company Limited is a steel manufacturer in China. It primarily produces hot-rolled coils, cold-rolled coils, and galvanized products. The company's headquarters are located in Hong Kong.",
+  "summary": "China Oriental Group Company Limited produces iron and steel goods sold to downstream steel manufacturers in China. Its segments are Iron and Steel, and Real Estate. Products include H-section steel for construction and infrastructure, strips, cold rolled sheets for appliances and hardware, and galvanized sheets.",
   "website": "http://www.chinaorientalgroup.com"
 }

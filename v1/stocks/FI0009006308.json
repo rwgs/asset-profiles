@@ -2,9 +2,11 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
+    "composite_figi": "BBG00GVK8337",
+    "figi": "BBG00NRVXBT9",
     "isin": "FI0009006308"
   },
-  "industry": "Food & Staples Retailing",
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "FI0009006308",
   "kind": "stock",
@@ -16,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HK4.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HK4.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "HKFOODS.HE"
     },
     {
       "currency": "EUR",
@@ -29,13 +41,13 @@
   "name": "HKFoods Oyj",
   "primary_symbol": "0ISM.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "HKScan Oyj produces, markets, and sells pork, beef, poultry and lamb products, processed meats, and convenience foods to the retail, food service, industrial, and export sectors in Finland, Sweden, Denmark, and the Baltics. The company primarily sells its products under the HK, Scan, Rakvere, Pärsons, Kariniemen, Via, Rose, and Tallegg brands. It also exports its products to approximately 50 countries. The company was founded in 1913 and is headquartered in Turku, Finland. HKScan Oyj is a subsidiary of LSO Osuuskunta.",
-  "website": "http://www.hkscan.com"
+  "summary": "HKFoods Oyj, markets, and sells pork, beef, poultry and lamb products, processed meats, and convenience foods to the retail, food service, industrial, and export sectors in Finland, Sweden, Denmark, and the Baltics. The company primarily sells its products under the HK, Scan, Rakvere, Pärsons, Kariniemen, Via, Rose, and Tallegg brands. It also exports its products to approximately 50 countries. The company was founded in 1913 and is headquartered in Turku, Finland. HKScan Oyj is a subsidiary of LSO Osuuskunta.",
+  "website": "https://www.hkfoods.com"
 }

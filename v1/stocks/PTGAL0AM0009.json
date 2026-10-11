@@ -2,14 +2,25 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
-    "composite_figi": "BBG000H1M9Q6",
-    "figi": "BBG000H1MDV1",
+    "composite_figi": "BBG000F7KW95",
+    "figi": "BBG000F7KWG7",
     "isin": "PTGAL0AM0009"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "PTGAL0AM0009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLIS",
+      "symbol": "GALP.LS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GLPEF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GZ5.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "GZ5.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "GZ5.SG"
     }
   ],
-  "name": "Galp Energia, SGPS S.A. Class B",
-  "primary_symbol": "GZ5.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Galp Energia, SGPS, S.A.",
+  "primary_symbol": "GALP.LS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Galp Energia SGPS S.A. is an integrated energy operator involved in all stages of the oil and natural gas value chain, as well as in renewables and electricity. The company operates in exploration and production, refining and distribution, and power generation, with activities in Portugal and internationally. Galp Energia is headquartered in Lisbon, Portugal."
+  "summary": "Galp Energia, SGPS, S.A. operates as integrated energy operator in Portugal and internationally. The company operates through four segments: Upstream, Refining and Midstream, Commercial, and Renewables and New Business. The Upstream segment engages in the exploration, development, and production of hydrocarbons primarily in Brazil, Mozambique, and Angola. The Refining and Midstream segment owns refineries in Portugal, as well as is involved in activities related to wholesale marketing of oil products, gas, and electricity. This segment also provides storage and transportation infrastructure for oil and gas products, as well as engages in the sale of electricity to the grid in Portugal and Spain. The Commercial segment is involved in the areas of retail to final customers of oil, gas, and electricity. The Renewables and New Business segment is involved in the development of solar and wind power generation projects in Portugal and Spain. In addition, it produces biodiesel and biofuel; and operates 1,465 service stations. Further, the company engages in the reinsurance business. The company was formerly known as Galp – Petróleos e Gás de Portugal, SGPS, S.A. and changed its name to Galp Energia, SGPS, S.A. in September 2000. Galp Energia, SGPS, S.A. was incorporated in 1999 and is headquartered in Lisbon, Portugal.",
+  "website": "http://www.galp.com"
 }

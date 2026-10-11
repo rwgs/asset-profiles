@@ -6,21 +6,26 @@
     "cusip": "455793109",
     "figi": "BBG000H4P4V2"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "IDEXY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IXD2.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Industria de Diseno Textil, S.A.",
   "primary_symbol": "IDEXY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

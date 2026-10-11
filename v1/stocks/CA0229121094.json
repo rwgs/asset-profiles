@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000P8F2N8",
+    "composite_figi": "BBG000BG36D0",
     "cusip": "022912109",
-    "figi": "BBG000P8F2N8",
+    "figi": "BBG000BG3855",
     "isin": "CA0229121094"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,22 +13,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "AHR.V"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "AXREF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Amarc Resources Ltd.",
-  "primary_symbol": "AXREF",
+  "primary_symbol": "AHR.V",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Amarc Resources Ltd. is a Canadian firm specializing in the acquisition, exploration, and development of mineral properties throughout Canada. The company primarily focuses on discovering deposits rich in copper, gold, silver, and molybdenum, with wholly-owned assets including the IKE, DUKE, and JOY projects in British Columbia. Established in 1993 and headquartered in Vancouver, Canada, the company adopted its present name in January 1994, having previously operated as Patriot Resources Ltd.",
+  "summary": "Amarc Resources Ltd. engages in the acquisition, exploration, and development of mineral properties in Canada. The company explores for copper, gold, and silver deposits. It holds 100% interest in the IKE project covering an area of 673 square kilometers located in the Gold Bridge, south-central British Columbia; the DUKE project covering an area of 722 square kilometers located northeast of Smithers, central British Columbia; and the JOY project covering an area of 495 square kilometers located in the Toodoggone region of north-central British Columbia. The company was formerly known as Patriot Resources Ltd. and changed its name to Amarc Resources Ltd. in January 1994. Amarc Resources Ltd. was incorporated in 1993 and is based in Vancouver, Canada.",
   "website": "http://www.arcresources.com"
 }

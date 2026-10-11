@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BV1GW6",
-    "figi": "BBG000BV1K84",
+    "composite_figi": "BBG000BLN558",
+    "figi": "BBG000BLN692",
     "isin": "JP3166000004"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "JP3166000004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6361.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EAR.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "EAR.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EAR.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EBCOF"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Ebara Corporation",
-  "primary_symbol": "EAR.BE",
+  "primary_symbol": "6361.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Ebara Corporation is a Japanese industrial conglomerate specializing in the manufacture and sale of industrial machinery, environmental engineering equipment, and precision machinery. Headquartered in Tokyo, Japan, its products include pumps, compressors, chillers, and waste treatment systems."
+  "summary": "Ebara Corporation manufactures and sells industrial machinery. It operates through Fluid Machinery & Systems Business, Environmental Plants Business, and Precision Machinery Business segments. The company offers large, high pressure, API, cryogenic, and standard pumps, as well as blowers and fans to water and energy facilities; centrifugal and axial compressors, steam turbines, and gas expanders to oil refining and petrochemical plants; and centrifugal chillers, absorption chillers/heaters, square-type cooling towers, and screw modular chillers. It also engages in the design, construction, maintenance, and operation management of environmental plants, such as municipal solid waste incineration plants and other water treatment facilities. In addition, the company offers precision machineries, such chemical mechanical polishing systems, plating systems, bevel polishing equipment, and gas abatement systems, as well as dry vacuum and turbo molecular pumps; and semiconductor manufacturing equipment. Ebara Corporation was founded in 1912 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.ebara.co.jp"
 }

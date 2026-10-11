@@ -10,6 +10,7 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
       "symbol": "HEIA-U.TI"
     },
     {
@@ -35,12 +36,12 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "HEINY"
+      "symbol": "HINKF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "HINKF"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HNK1.BE"
     },
     {
       "currency": "EUR",
@@ -49,25 +50,40 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HNK1.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HNK1.F"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "HNK1.SG"
+      "exchange_mic": "XHAN",
+      "symbol": "HNK1.HA"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "HNK2.F"
+      "exchange_mic": "XHAM",
+      "symbol": "HNK1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HNK1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HNK1.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Heineken N.V.",
   "primary_symbol": "HEIA-U.TI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

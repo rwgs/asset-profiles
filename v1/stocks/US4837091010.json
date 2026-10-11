@@ -2,9 +2,7 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000PNF2V6",
     "cusip": "483709101",
-    "figi": "BBG000PNF9C2",
     "isin": "US4837091010"
   },
   "industry": "Auto Components",
@@ -14,50 +12,15 @@
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "KNDI"
-    },
-    {
-      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0QZ7.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "K8A.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "K8A.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "K8A.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "K8A.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "K8A.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "K8A.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Kandi Technologies Group, Inc.",
-  "primary_symbol": "KNDI",
+  "primary_symbol": "0QZ7.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,28 +2,47 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000QG5WX3",
+    "composite_figi": "BBG00ZCMDXZ5",
+    "figi": "BBG00ZCMDY01",
     "isin": "SE0002478776"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "SE0002478776",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6YC.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0002478776.SG"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "SEZI.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SNZZF"
     }
   ],
-  "name": "SENZIME AB",
-  "primary_symbol": "SE0002478776.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Senzime AB (publ)",
+  "primary_symbol": "6YC.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SENZIME AB develops and markets patient monitoring systems based on microdialysis technology. Their products are used to monitor glucose, lactate, pyruvate, and other substances in critically ill patients. The company is headquartered in Uppsala, Sweden."
+  "summary": "Senzime AB (publ) develps and markets patient monitoring systems to monitor patients under anesthesia in Europe and the United States. The company offers TetraGraph, a TOF-monitor that stimulates, measures, analyzes, and displays muscle function in surgical patients receiving neuromuscular blocking agents; CliniSenz Analyzer, which detects early signs of complications; and Onzurf Probe for sampling from the surface of an organ. Senzime AB (publ) was founded in 1999 and is based in Uppsala, Sweden.",
+  "website": "http://www.senzime.com"
 }

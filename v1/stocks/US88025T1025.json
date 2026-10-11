@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00LK6DY71",
+    "composite_figi": "BBG00LBLCD02",
     "cusip": "88025T102",
-    "figi": "BBG00LK6DYF2",
+    "figi": "BBG00LBLCDK0",
     "isin": "US88025T1025"
   },
-  "industry_group": "Software & Services",
+  "industry": "Internet & Direct Marketing Retail",
+  "industry_group": "Retailing",
   "isin": "US88025T1025",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "TENB"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0ZC0.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -32,15 +43,17 @@
       "symbol": "TE7.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Tenable Holdings, Inc.",
-  "primary_symbol": "TE7.BE",
+  "primary_symbol": "TENB",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Tenable Holdings, Inc. is a cybersecurity company that provides solutions for vulnerability management, security assessment, and compliance. The company's platform, Nessus, is widely used for vulnerability scanning and assessment. Tenable is headquartered in Columbia, Maryland, and serves organizations of all sizes."
+  "sector": "Consumer Discretionary",
+  "summary": "Tenable Holdings, Inc. is a cybersecurity firm that specializes in providing comprehensive solutions to identify and manage an organization's exposure to cyber risks. Their services extend globally, catering to clients across the Americas, Europe, the Middle East, Africa, the Asia Pacific region, and Japan. The company offers a diverse suite of platforms and products: Tenable.io functions as a cloud-delivered Software-as-a-Service (SaaS), offering clients a risk-centric overview of both modern and traditional attack surfaces. Tenable.cs is a cloud-native application solution designed to automatically detect and correct misconfigurations within cloud infrastructure. Tenable.ep serves as a unified platform, enabling businesses to discover, evaluate, and precisely prioritize cyber threats across their entire digital landscape. Tenable also delivers on-premises solutions, including Tenable.ad for securing Active Directory environments, Tenable.ot for protecting operational technology environments, and Tenable.sc for an on-site view of an organization's IT, security, and compliance posture. Tenable also includes its Nessus vulnerability assessment tools. Established in 2002, Tenable Holdings, Inc. is headquartered in Columbia, Maryland.",
+  "website": "http://www.tenable.com"
 }

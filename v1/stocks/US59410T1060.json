@@ -1,27 +1,44 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
     "composite_figi": "BBG00T0KYVR6",
-    "figi": "BBG00T0KYVW0",
+    "cusip": "59410T106",
+    "figi": "BBG00T0KYVS5",
     "isin": "US59410T1060"
   },
+  "industry": "Auto Components",
+  "industry_group": "Automobiles & Components",
   "isin": "US59410T1060",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MCH1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MGDDY"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US59410T1060.SG"
     }
   ],
-  "name": "MICHELIN (CGDE)",
-  "primary_symbol": "US59410T1060.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Compagnie Generale des Etablissements Michelin Societe en commandite par actions",
+  "primary_symbol": "MCH1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Consumer Discretionary",
+  "summary": "Compagnie Generale des Etablissements Michelin is a global tire manufacturer. The company designs, manufactures, and sells tires for various types of vehicles, including cars, trucks, motorcycles, and aircraft. Michelin is headquartered in Clermont-Ferrand, France.",
+  "website": "https://www.michelin.com"
 }

@@ -7,6 +7,7 @@
     "figi": "BBG000Q4QWS3",
     "isin": "CA98387F1036"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA98387F1036",
   "kind": "stock",
@@ -15,17 +16,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA98387F1036.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CGDXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "I970.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "XGC.V"
     }
   ],
-  "name": "XALI GOLD CORP",
+  "market_cap_band": "Nano Cap",
+  "name": "Xali Gold Corp.",
   "primary_symbol": "CA98387F1036.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Xali Gold Corp is a gold mining and exploration company focused on projects in Mexico. The company owns the El Oro mining camp in Zacatecas, Mexico. Xali Gold is based in Vancouver, British Columbia, Canada."
+  "summary": "Xali Gold Corp is a gold mining and exploration company focused on projects in Mexico. The company owns the El Oro mining camp in Zacatecas, Mexico. Xali Gold is based in Vancouver, British Columbia, Canada.",
+  "website": "http://www.xaligold.com"
 }

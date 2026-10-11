@@ -2,14 +2,30 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C11WS1",
-    "figi": "BBG000C11Z77",
+    "composite_figi": "BBG000BGSH67",
+    "figi": "BBG000BGSJK7",
     "isin": "JP3837800006"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "JP3837800006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7741.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HOCPF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HYB.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -21,15 +37,17 @@
       "symbol": "HYB.SG"
     }
   ],
-  "name": "Hoya Corp.",
-  "primary_symbol": "HYB.MU",
+  "market_cap_band": "Large Cap",
+  "name": "HOYA Corporation",
+  "primary_symbol": "7741.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Hoya Corporation is a Japanese multinational technology company and manufacturer of optical products such as eyeglass lenses, medical endoscopes, intraocular lenses, camera lenses, and HDD glass substrates. The company operates in the Life Care and Information Technology segments. Hoya Corporation is headquartered in Tokyo, Japan."
+  "summary": "HOYA Corporation operates as a med-tech company, and a supplier of high-tech and medical products worldwide. The company operates through three segments: Life Care, Information Technology, and Other. The Life Care segment offers healthcare products, including eyeglass and contact lenses; and medical products, such as medical endoscopes, laparoscopic surgical instruments, intraocular lenses, and prosthetic ceramic fillers and orthopedic implants. This segment also operates ‘Eyecity', a chain of specialist contact lens stores. The Information Technology segment provides electronics products comprising mask blanks and photomasks for manufacturing semiconductor chips; photomasks for liquid crystal display panels; and glass disks for hard disk drives. This segment also offers imaging products that include optical glasses/optical lenses, colored glass filters, and laser equipment/UV light resources. The Other segment provides various IT solutions, which comprise system architecture and information processing, business application software, ERP solutions, and internet services; speech synthesis software; and cloud services. HOYA Corporation was founded in 1941 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.hoya.co.jp"
 }

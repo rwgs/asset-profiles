@@ -2,16 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000VG0VH2",
+    "composite_figi": "BBG000TJ8XZ7",
     "cusip": "00123Q104",
-    "figi": "BBG000VG0WL5",
+    "figi": "BBG000TJ93C7",
     "isin": "US00123Q1040"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Mortgage Real Estate Investment Trusts (REITs)",
+  "industry_group": "Diversified Financials",
   "isin": "US00123Q1040",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "AGNC"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0H6E.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -29,19 +39,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4OQ1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "4OQ1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "4OQ1.SG"
     }
   ],
-  "name": "AGNC INV.CORP.  DL-,001",
-  "primary_symbol": "4OQ1.BE",
+  "market_cap_band": "Large Cap",
+  "name": "AGNC Investment Corp.",
+  "primary_symbol": "AGNC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "AGNC Investment Corp. is a real estate investment trust (REIT) that invests in agency mortgage-backed securities (MBS). The company's objective is to provide attractive risk-adjusted returns to its stockholders through dividend distributions and capital appreciation. AGNC Investment Corp. is headquartered in Bethesda, Maryland."
+  "sector": "Financials",
+  "summary": "AGNC Investment Corp. operates as a real estate investment trust (REIT) in the United States. The company invests in residential mortgage pass-through securities and collateralized mortgage obligations for which the principal and interest payments are guaranteed by the United States government-sponsored enterprise or by the United States government agency. It funds its investments primarily through collateralized borrowings structured as repurchase agreements. The company has elected to be taxed as a REIT under the Internal Revenue Code of 1986 and would not be subject to federal corporate income taxes, if it distributes at least 90% of its taxable income to its stockholders. The company was formerly known as American Capital Agency Corp. and changed its name to AGNC Investment Corp. in September 2016. AGNC Investment Corp. was incorporated in 2008 and is headquartered in Bethesda, Maryland.",
+  "website": "http://www.agnc.com"
 }

@@ -2,8 +2,8 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000BFPG28",
-    "figi": "BBG000BFPJC1",
+    "composite_figi": "BBG000BFDJ34",
+    "figi": "BBG000BFDJJ7",
     "isin": "SG1U68934629"
   },
   "industry": "Industrial Conglomerates",
@@ -11,6 +11,11 @@
   "isin": "SG1U68934629",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "BN4.SI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -20,6 +25,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "KEP1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KEP1.F"
     },
     {
       "currency": "EUR",
@@ -40,19 +50,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KEP1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KPELF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Keppel Corporation Limited",
-  "primary_symbol": "KEP1.BE",
+  "primary_symbol": "BN4.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Keppel Corporation Limited, a Singapore-based investment holding company established in 1968, maintains a global presence across offshore and marine, real estate, infrastructure, and strategic investments, including district heating/cooling, power generation, and environmental infrastructure. Keppel Corporation is headquartered in Singapore.",
-  "website": "https://www.keppel.com"
+  "summary": "Keppel Corporation Limited, an investment holding company, engages in the offshore and marine, property, infrastructure, and investment businesses in Singapore, China, Hong Kong, Brazil, other Far East and ASEAN countries, and internationally. It constructs, fabricates, and repairs offshore production facilities and drilling rigs, power barges, specialized vessels, and other offshore production facilities; engineers, constructs, and fabricates platforms for the oil and gas sector; undertakes shipyard works and other general business activities; and procures equipment and materials for the construction of offshore production facilities. The company is also involved in the provision of offshore and marine-related, as well as self-elevating platforms owning and leasing services; sourcing, fabricating, and supply of steel components; ship repairing, shipbuilding, and conversion activities; ship owning business; chartering of ships, barges, and boats with crew; property investment, management, and development activities; fund management business; golf and hotel ownership and operation; development of residential properties; procurement of equipment and materials for the construction of offshore production facilities; development of district heating and cooling systems; power generation and supply, and general wholesale trade businesses; purchase and sale of gaseous fuels; distribution of IT products and retail sale of telecommunication products; and provision of fixed and other telecommunications services. In addition, it offers jacking systems, and heavy-lift equipment and related services; project management and procurement, towage, financial, real estate investment trust management, logistics and warehousing, data center, and travel agency; and environmental infrastructure and solid waste treatment solutions. The company was incorporated in 1968 and is based in Singapore.",
+  "website": "http://www.kepcorp.com"
 }

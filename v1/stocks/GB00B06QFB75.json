@@ -6,6 +6,7 @@
     "figi": "BBG000R6F768",
     "isin": "GB00B06QFB75"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "GB00B06QFB75",
   "kind": "stock",
@@ -19,17 +20,39 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "I5G.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "I5G.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "I5G.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "IGG.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IGGRF"
     }
   ],
-  "name": "IG GROUP HLDGS PLC",
+  "market_cap_band": "Mid Cap",
+  "name": "IG Group Holdings plc",
   "primary_symbol": "I5G.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "IG GROUP HLDGS PLC is a global leader in online trading and investments, providing access to opportunities in financial markets. The company offers a range of trading products and platforms, including contracts for difference (CFDs), spread betting, and share dealing. IG Group is headquartered in London, United Kingdom."
+  "summary": "IG GROUP HLDGS PLC is a global leader in online trading and investments, providing access to opportunities in financial markets. The company offers a range of trading products and platforms, including contracts for difference (CFDs), spread betting, and share dealing. IG Group is headquartered in London, United Kingdom.",
+  "website": "http://www.iggroup.com"
 }

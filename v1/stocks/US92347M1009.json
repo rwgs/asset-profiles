@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00GZSPCZ2",
-    "figi": "BBG00GZSPD53",
+    "composite_figi": "BBG007NJLS39",
+    "cusip": "92347M100",
+    "figi": "BBG007NJLS39",
     "isin": "US92347M1009"
   },
   "industry": "Software",
@@ -12,20 +13,47 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "VERI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LP5.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "VEK.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "VEK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VEK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VEK.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Veritone, Inc.",
-  "primary_symbol": "VEK.BE",
+  "primary_symbol": "VERI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology"
+  "sector": "Information Technology",
+  "summary": "Veritone, Inc., together with its subsidiaries, engages in the provision of artificial intelligence (AI) computing solutions and services in the United States, the United Kingdom, France, Australia, Israel, and India. It develops and operates aiWARE platform, an AI operating system, that uses machine learning algorithms or AI models designed to mimic human cognitive functions, such as perception, prediction, and problem solving and optimization, as well as enables users to transform unstructured data into structured data, analyze and optimize data to drive business processes and insights. The company also offers software products and services to commercial enterprise and public sector customers; and managed services, including cloud-native digital content management solutions; and content licensing and representation services. It serves media and entertainment, government, legal and compliance, energy, and other vertical markets. The company has a strategic partnership with LeoSight for the development of an AI-based public safety platform. The company was formerly known as Veritone Delaware, Inc. and changed its name to Veritone, Inc. in July 2014. Veritone, Inc. was incorporated in 2014 and is headquartered in Irvine, California.",
+  "website": "https://www.veritone.com"
 }

@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "NO0003096208"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "NO0003096208",
   "kind": "stock",
@@ -12,17 +13,54 @@
       "currency": "NOK",
       "exchange_mic": "XLON",
       "symbol": "0GM2.IL"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "LSG.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LYSFF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "Z1L.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "Z1L.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "Z1L.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "Z1L.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "Z1L.SG"
     }
   ],
-  "name": "LEROY SEAFOOD GROUP ASA LEROY S",
+  "market_cap_band": "Mid Cap",
+  "name": "Leroy Seafood Group ASA",
   "primary_symbol": "0GM2.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Leroy Seafood Group ASA is a Norwegian seafood company involved in the production, processing, and distribution of salmon and trout. The company operates through its various subsidiaries, providing products to markets worldwide. Leroy Seafood Group is headquartered in Bergen, Norway."
+  "summary": "Leroy Seafood Group ASA is a Norwegian seafood company involved in the production, processing, and distribution of salmon and trout. The company operates through its various subsidiaries, providing products to markets worldwide. Leroy Seafood Group is headquartered in Bergen, Norway.",
+  "website": "http://www.leroyseafood.com"
 }

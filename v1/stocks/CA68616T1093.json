@@ -2,8 +2,11 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "cusip": "68616T109",
     "isin": "CA68616T1093"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA68616T1093",
   "kind": "stock",
   "listings": [
@@ -11,16 +14,39 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "OEX.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OEX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "OEX.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "ORE.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ORZCF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Orezone Gold Corporation",
   "primary_symbol": "OEX.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "Orezone Gold Corporation engages in the mining, exploration, and development of gold properties. Its flagship property is the 90% owned Bomboré gold project, which covers an area of approximately 12,963 hectares comprising one industrial operating permit and four mining exploration permits located in Burkina Faso, West Africa. Orezone Gold Corporation was incorporated in 2008 and is headquartered in Vancouver, Canada.",
+  "website": "https://www.orezone.com"
 }

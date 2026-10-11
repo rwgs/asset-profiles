@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000JQB8X5",
-    "figi": "BBG000JQB9K7",
+    "composite_figi": "BBG000BB13F8",
+    "figi": "BBG000BB13S4",
     "isin": "JP3402600005"
   },
   "industry": "Metals & Mining",
@@ -12,9 +12,29 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5713.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S19.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "S19.DU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "S19.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S19.MU"
     },
     {
       "currency": "EUR",
@@ -24,25 +44,20 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "SMMYY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "STMNF"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Sumitomo Metal Mining Co., Ltd.",
-  "primary_symbol": "S19.F",
+  "name": "Sumitomo Metal Mining Co.,Ltd.",
+  "primary_symbol": "5713.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Sumitomo Metal Mining Co., Ltd., together with its subsidiaries, engages in mining, smelting, and refining non-ferrous metals in Japan and internationally. It operates through three segments: Mineral Resources, Smelting & Refining, and Materials. The company provides metal products, including copper, nickel/cobalt, gold/precious metal, and other deposits. It also offers Battery Materials, such as nickel hydroxides and lithium nickel-cobalt-aluminum oxides; crystal materials, including lithium tantalates/lithium niobates, optical isolators, and faraday rotators; powder materials comprising thick film pastes, nickel powders, fine copper powders, nickel oxides, near-infrared shielding materials, deep-tinting materials, sputtering targets/tablets, electromagnetic sheets and coils, rare earth magnetic materials, and lubricants; package materials consisting of copper-clad polyimide films and printed wiring boards; automotive/chemical, hydro processing (HPC), rejuvenation and regeneration of HPC, and petrochemical catalysts products; construction materials; and terminal and connectors, and lens barrels. In addition, the company is involved in the water and precious recycling; water treatment and environment-related engineering; sterilization and property modification by irradiation; and domestic marine transportation businesses. Additionally, it engages in the real estate and technical engineering businesses. The company was formerly known as Seika Kogyo (Mining) Co., Ltd. and changed its name to Sumitomo Metal Mining Co., Ltd. in June 1952. Sumitomo Metal Mining Co., Ltd. was founded in 1590 and is headquartered in Tokyo, Japan.",
-  "website": "http://www.smm.co.jp"
+  "summary": "Sumitomo Metal Mining Co., Ltd. (SMM), traced to Tokyo in 1590, mines, smelts and refines non-ferrous metals in Japan and abroad. It was previously Seika Kogyo (Mining) Co., Ltd. and took its present name in June 1952. It has three divisions: mineral resources, smelting and refining, and materials, producing metals such as copper, nickel, cobalt and precious metals.",
+  "website": "https://www.smm.co.jp"
 }

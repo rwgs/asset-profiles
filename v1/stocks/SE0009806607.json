@@ -2,28 +2,57 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00GLM1NG3",
+    "composite_figi": "BBG00JHW89V7",
+    "figi": "BBG00JVX9C32",
     "isin": "SE0009806607"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "SE0009806607",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0RPO.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1MS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1MS.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MMNNF"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "MTRS.ST"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0009806607.SG"
     }
   ],
-  "name": "MUNTERS GROUP AB",
-  "primary_symbol": "SE0009806607.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Munters Group AB (publ)",
+  "primary_symbol": "0RPO.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "MUNTERS GROUP AB is a global leader in energy-efficient air treatment and climate control solutions. They offer products and systems for dehumidification, evaporative cooling, and ventilation. The company is headquartered in Kista, Sweden."
+  "summary": "MUNTERS GROUP AB is a global leader in energy-efficient air treatment and climate solutions. The company provides innovative technologies for dehumidification, cooling, and ventilation in various industries. MUNTERS GROUP AB is headquartered in Kista, Sweden.",
+  "website": "http://www.munters.com"
 }

@@ -2,6 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "composite_figi": "BBG00JHVVX40",
+    "figi": "BBG00JHVVX59",
     "isin": "NO0003033102"
   },
   "industry": "Auto Components",
@@ -16,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "K3A.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "K3A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "K3A.MU"
     },
     {
       "currency": "EUR",
@@ -36,20 +48,15 @@
     },
     {
       "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "KOAO.OL"
-    },
-    {
-      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0003033102.SW"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Kongsberg Automotive ASA",
   "primary_symbol": "0HW0.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

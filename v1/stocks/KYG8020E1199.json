@@ -2,6 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG000LB4MP1",
+    "figi": "BBG000LB4NH8",
     "isin": "KYG8020E1199"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -9,6 +11,11 @@
   "isin": "KYG8020E1199",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0981.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -36,16 +43,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "SEMICONDUCTOR MAN.INTL",
-  "primary_symbol": "MKN2.BE",
+  "name": "Semiconductor Manufacturing International Corporation",
+  "primary_symbol": "0981.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SEMICONDUCTOR MAN.INTL is a semiconductor foundry that manufactures integrated circuits for various customers. The company is one of the largest foundries in the world. Semiconductor Manufacturing International Corporation is headquartered in Shanghai, China.",
-  "website": "http://www.smics.com"
+  "summary": "Semiconductor Manufacturing International Corporation, incorporated in 2000 and headquartered in Shanghai, is an investment holding company that designs, makes, tests, packages and sells integrated circuits to customers in North America, China, wider Asia and Eurasia. It also develops and sells semiconductor masks, offers foundry and technology services, and runs residential accommodation. It supports clients with design, intellectual property and photomask production, as well as marketing and private education.",
+  "website": "https://www.smics.com"
 }

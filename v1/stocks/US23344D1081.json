@@ -2,15 +2,21 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00YFCQ2M5",
+    "composite_figi": "BBG00TSYD7Q3",
     "cusip": "23344D108",
-    "figi": "BBG00YFCQ2T8",
+    "figi": "BBG00TSYD8Y2",
     "isin": "US23344D1081"
   },
-  "industry_group": "Software & Services",
+  "industry": "Internet & Direct Marketing Retail",
+  "industry_group": "Retailing",
   "isin": "US23344D1081",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "DADA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,19 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D0A.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US23344D1081.SG"
     }
   ],
-  "name": "DADA NEXUS LTD  ADS",
-  "primary_symbol": "D0A.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Dada Nexus Limited",
+  "primary_symbol": "DADA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Dada Nexus Limited operates a local on-demand retail and delivery platform in China. It operates through Dada Now for last-mile delivery and JDDJ for on-demand retail. The company is headquartered in Shanghai, China."
+  "sector": "Consumer Discretionary",
+  "summary": "Dada Nexus Limited operates platform of local on-demand retail and delivery in China. It operates JDDJ, a local on-demand retail platform for consumers, retailers, and brand owners; and Dada Now, a local on-demand delivery platform for merchants and individual senders in various industries and product categories. The company was incorporated in 2014 and is headquartered in Shanghai, the People's Republic of China.",
+  "website": "http://about.imdada.cn"
 }

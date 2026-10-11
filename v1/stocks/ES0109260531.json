@@ -4,7 +4,7 @@
   "identifiers": {
     "isin": "ES0109260531"
   },
-  "industry": "IT Services",
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "ES0109260531",
   "kind": "stock",
@@ -21,8 +21,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "APR.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "APR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "APR.MU"
     },
     {
       "currency": "EUR",
@@ -30,11 +40,11 @@
       "symbol": "APR.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Amper, S.A.",
   "primary_symbol": "0NO6.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

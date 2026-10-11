@@ -6,6 +6,7 @@
     "figi": "BBG00RV8M7H0",
     "isin": "DE000A0LR9G9"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "DE000A0LR9G9",
   "kind": "stock",
@@ -14,17 +15,54 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A0LR9G9.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EXL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "EXL.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EXL.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EXL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "EXL.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EXL.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EXLGF"
     }
   ],
-  "name": "EXASOL AG",
+  "market_cap_band": "Micro Cap",
+  "name": "Exasol AG",
   "primary_symbol": "DE000A0LR9G9.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Exasol AG provides a high-performance, in-memory analytic database designed for speed and scalability, headquartered in Nuremberg, Germany. The company's software enables businesses to analyze large volumes of data in real-time, supporting data-driven decision-making. Exasol caters to companies in various industries, including e-commerce, finance, and telecommunications."
+  "summary": "Exasol AG provides a high-performance, in-memory analytic database designed for speed and scalability, headquartered in Nuremberg, Germany. The company's software enables businesses to analyze large volumes of data in real-time, supporting data-driven decision-making. Exasol caters to companies in various industries, including e-commerce, finance, and telecommunications.",
+  "website": "http://www.exasol.com"
 }

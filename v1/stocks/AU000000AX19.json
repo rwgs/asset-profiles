@@ -6,6 +6,7 @@
     "figi": "BBG00G6DY840",
     "isin": "AU000000AX19"
   },
+  "industry": "Specialty Retail",
   "industry_group": "Retailing",
   "isin": "AU000000AX19",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000AX19.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "AX1.AX"
     }
   ],
-  "name": "ACCENT GROUP LTD",
+  "market_cap_band": "Micro Cap",
+  "name": "Accent Group Limited",
   "primary_symbol": "AU000000AX19.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Accent Group Ltd is an Australian retailer and distributor of branded footwear and apparel. The company operates various retail chains and distributes brands through wholesale channels."
+  "summary": "Accent Group Ltd is an Australian retailer and distributor of branded footwear and apparel. The company operates various retail chains and distributes brands through wholesale channels.",
+  "website": "http://www.accentgr.com.au"
 }

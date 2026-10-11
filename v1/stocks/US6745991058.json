@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FX6X74",
+    "composite_figi": "BBG000BQQ2S6",
     "cusip": "674599105",
-    "figi": "BBG000FX82D3",
+    "figi": "BBG000BQQ4P5",
     "isin": "US6745991058"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "US6745991058",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "OXY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0KAK.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,8 +29,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "OPC.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "OPC.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OPC.F"
     },
     {
       "currency": "EUR",
@@ -30,17 +51,28 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OPC.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "OPC.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "OPCD.DU"
     }
   ],
-  "name": "OCCIDENTAL PET.  DL-,20",
-  "primary_symbol": "OPC.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Occidental Petroleum Corporatio",
+  "primary_symbol": "OXY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Occidental Petroleum Corporation is an international oil and gas exploration and production company, with operations in the United States, Middle East, and Latin America. The company explores for, develops, and produces crude oil and natural gas, and also manufactures and markets basic chemicals and plastics. Occidental Petroleum is headquartered in Houston, Texas."
+  "summary": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States, the Middle East, Africa, and Latin America. The company operates through three segments: Oil and Gas, Chemical, and Marketing and Midstream. The company's Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. Its Chemical segment manufactures and markets basic chemicals, including chlorine, caustic soda, chlorinated organics, potassium chemicals, ethylene dichloride, chlorinated isocyanurates, sodium silicates, and calcium chloride; vinyls comprising vinyl chloride monomer, polyvinyl chloride, and ethylene. The company's Midstream and Marketing segment gathers, processes, transports, stores, purchases, and markets oil, condensate, NGLs, natural gas, carbon dioxide, and power. This segment also trades around its assets consisting of transportation and storage capacity; and invests in entities. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas.",
+  "website": "http://www.oxy.com"
 }

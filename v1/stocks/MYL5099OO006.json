@@ -1,33 +1,37 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Malaysia",
+  "country_code": "MY",
   "identifiers": {
-    "composite_figi": "BBG000QQM4C7",
-    "figi": "BBG000QQM4C7",
+    "composite_figi": "BBG00KFNRJ07",
+    "figi": "BBG00KFNRJ16",
     "isin": "MYL5099OO006"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry_group": "Transportation",
   "isin": "MYL5099OO006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "MYR",
+      "exchange_mic": "XKLS",
+      "symbol": "5099.KL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "AIABF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Capital A Berhad",
-  "primary_symbol": "AIABF",
+  "primary_symbol": "5099.KL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Capital A Berhad functions as an investment holding company, primarily known for its extensive air transportation services operated under the globally recognized AirAsia brand. These flight operations span Malaysia, Indonesia, the Philippines, and various other international destinations. Beyond its core aviation business, the company boasts a diverse portfolio of integrated services, including aircraft leasing, financial services, and digital and e-commerce platforms, notably through the AirAsia Superapp. The company, founded in 2001 and headquartered in Kuala Lumpur, Malaysia, was previously known as AirAsia Group Berhad before officially changing its name to Capital A Berhad in January 2022.",
-  "website": "http://www.rh.com"
+  "sector": "Industrials",
+  "summary": "Capital A Berhad, an investment holding company based in Kuala Lumpur, Malaysia, was established in 2001 and rebranded from AirAsia Group Berhad in January 2022, with its primary focus on air transportation under the AirAsia brand, alongside aircraft engineering, tour operations, and digital economy ventures.",
+  "website": "https://www.capitala.com"
 }

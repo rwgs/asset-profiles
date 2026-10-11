@@ -16,7 +16,7 @@
   ],
   "aum_usd": 72692823441.79,
   "category": "Large Cap",
-  "category_group": "Fixed Income",
+  "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
@@ -95,7 +95,7 @@
   "name": "Schwab U.S. Large-Cap ETF",
   "primary_symbol": "SCHX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001454889"
@@ -104,39 +104,35 @@
   "sector_weights": [
     {
       "sector": "Information Technology",
-      "weight": 0.217973
-    },
-    {
-      "sector": "Unknown",
-      "weight": 0.175129
+      "weight": 0.306451
     },
     {
       "sector": "Financials",
-      "weight": 0.103919
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "weight": 0.097235
-    },
-    {
-      "sector": "Health Care",
-      "weight": 0.083503
-    },
-    {
-      "sector": "Industrials",
-      "weight": 0.079249
-    },
-    {
-      "sector": "Real Estate",
-      "weight": 0.067182
+      "weight": 0.10975
     },
     {
       "sector": "Communications",
-      "weight": 0.06498
+      "weight": 0.098094
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.095605
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.085888
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.083341
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.082988
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.044018
+      "weight": 0.042468
     },
     {
       "sector": "Energy",
@@ -144,11 +140,15 @@
     },
     {
       "sector": "Utilities",
-      "weight": 0.018472
+      "weight": 0.020724
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.019715
     },
     {
       "sector": "Materials",
-      "weight": 0.012385
+      "weight": 0.019022
     }
   ],
   "top_holdings": [

@@ -1,9 +1,14 @@
 {
   "country": "Israel",
   "country_code": "IL",
+  "identifiers": {
+    "composite_figi": "BBG000QG0D60",
+    "figi": "BBG000QG0DV2"
+  },
   "kind": "stock",
   "listings": [
     {
+      "currency": "ILS",
       "exchange_mic": "XTAE",
       "symbol": "JEEN.TA"
     }
@@ -11,7 +16,7 @@
   "name": "Jeen Technologies",
   "primary_symbol": "JEEN.TA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

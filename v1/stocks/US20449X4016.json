@@ -2,9 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000GBTYM7",
+    "composite_figi": "BBG000BX9406",
     "cusip": "20449X401",
-    "figi": "BBG000GBTYM7",
+    "figi": "BBG000BX9406",
     "isin": "US20449X4016"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -15,44 +15,19 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "CMPGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "CMPGY"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "CPG.L"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "CPGN.MX"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "XGR.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "XGR2.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "XGR2.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Compass Group PLC",
-  "primary_symbol": "CMPGF",
+  "primary_symbol": "CMPGY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

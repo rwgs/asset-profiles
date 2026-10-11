@@ -2,19 +2,30 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG008P19Y17",
+    "composite_figi": "BBG008LJ4TF3",
     "cusip": "18539C204",
-    "figi": "BBG008P19Y35",
+    "figi": "BBG008MZ5LW3",
     "isin": "US18539C2044"
   },
-  "industry_group": "Energy",
+  "industry": "Independent Power and Renewable Electricity Producers",
+  "industry_group": "Utilities",
   "isin": "US18539C2044",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "CWEN"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "NY41.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NY41.F"
     },
     {
       "currency": "EUR",
@@ -27,15 +38,17 @@
       "symbol": "NY41.SG"
     }
   ],
-  "name": "Clearway Energy, Inc. Class C",
-  "primary_symbol": "NY41.DU",
+  "market_cap_band": "Mid Cap",
+  "name": "Clearway Energy, Inc.",
+  "primary_symbol": "CWEN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Clearway Energy, Inc. is an energy company headquartered in Princeton, New Jersey. They own and operate infrastructure assets with a focus on long-term contracts. The company's portfolio primarily includes renewable energy and conventional power generation facilities."
+  "sector": "Utilities",
+  "summary": "Clearway Energy, Inc., through its subsidiaries, engages in the renewable energy businesses in the United States. As of March 2, 2021, it had approximately 4,200 net megawatts (MW) of installed wind and solar generation projects; and 2,500 net MW of natural gas generation facilities, as well as a portfolio of district energy systems. Its thermal infrastructure assets provide steam, hot water and/or chilled water, and electricity to commercial businesses, universities, hospitals, and governmental units. As of December 31, 2020, the company had 1,394 MW thermal equivalent capacity of steam and chilled water. Clearway Energy, Inc. was incorporated in 2012 and is based in Princeton, New Jersey. Clearway Energy, Inc. operates as a subsidiary of Clearway Energy Group LLC.",
+  "website": "http://www.clearwayenergy.com"
 }

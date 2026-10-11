@@ -2,28 +2,47 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000DYK971",
+    "composite_figi": "BBG00JHVV202",
+    "figi": "BBG00JHVV211",
     "isin": "NO0006000900"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "NO0006000900",
   "kind": "stock",
   "listings": [
     {
       "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0G67.L"
+    },
+    {
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0006000900.SW"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "SBNOR.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SPIZF"
     }
   ],
-  "name": "SPAREBANKEN VEST",
-  "primary_symbol": "NO0006000900.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Sparebanken Vest",
+  "primary_symbol": "0G67.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Sparebanken Vest is a regional bank providing financial services to individuals and businesses in Western Norway. The bank offers a range of products, including loans, deposits, insurance, and investment services. Sparebanken Vest is headquartered in Bergen, Norway."
+  "summary": "Sparebanken Vest, a financial services company, provides banking and financing services in the counties of Vestland and Rogaland, Norway. It operates through Corporate Market, Retail Market, Bulder Bank, Treasury, and Estate Agency Activities segments. The company is also involved in the estate agency and home mortgage activities. As of December 31, 2020, it had 33 points of sale outlets. The company was founded in 1823 and is headquartered in Bergen, Norway.",
+  "website": "http://www.spv.no"
 }

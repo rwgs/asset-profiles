@@ -2,29 +2,92 @@
   "country": "Luxembourg",
   "country_code": "LU",
   "identifiers": {
-    "composite_figi": "BBG006TLMDN0",
-    "figi": "BBG006TLMDR6",
+    "composite_figi": "BBG000DMQ374",
+    "figi": "BBG000DMQ374",
     "isin": "LU1598757687"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "LU1598757687",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMSYF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ARRD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "ARRD.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ARRD.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ARRD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ARRD.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ARRD.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ARRD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ARRD.SG"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "LU1598757687.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "MT.AS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "MT.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "MTS.MC"
     }
   ],
-  "name": "ARCELORMITTAL",
-  "primary_symbol": "LU1598757687.SW",
+  "market_cap_band": "Large Cap",
+  "name": "ArcelorMittal",
+  "primary_symbol": "AMSYF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "ArcelorMittal is the world's leading steel and mining company. It operates steelmaking facilities in numerous countries across Europe, the Americas, Asia, and Africa and produces a wide range of steel products for various industries, including automotive, construction, and packaging. ArcelorMittal is headquartered in Luxembourg City, Luxembourg."
+  "summary": "ArcelorMittal, together with its subsidiaries, owns and operates steel manufacturing and mining facilities in Europe, North and South America, Asia, and Africa. The company's principal steel products include semi-finished flat products, such as slabs; finished flat products comprising plates, hot- and cold-rolled coils and sheets, hot-dipped and electro-galvanized coils and sheets, tinplate, and color coated coils and sheets; semi-finished long products, such as blooms and billets; finished long products, including bars, wire-rods, structural sections, rails, sheet piles, and wire-products; and seamless and welded pipes and tubes. Its principal mining products comprise iron ore lumps, fines, concentrates, pellets, and sinter feeds; and coking and thermal coal, and pulverized coal injections. The company sells its products to various customers in the automotive, appliance, engineering, construction, energy, and machinery industries through a centralized marketing organization, as well as distributors. It has iron ore mining activities in Brazil, Bosnia, Canada, Kazakhstan, Liberia, Mexico, and Ukraine; and coal mining activities in Kazakhstan. The company was founded in 1976 and is headquartered in Luxembourg City, Luxembourg.",
+  "website": "http://corporate.arcelormittal.com"
 }

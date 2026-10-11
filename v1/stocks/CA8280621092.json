@@ -3,9 +3,12 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG00DM1CSV5",
+    "cusip": "828062109",
     "figi": "BBG00DM1CT16",
     "isin": "CA8280621092"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA8280621092",
   "kind": "stock",
   "listings": [
@@ -13,16 +16,49 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "BRK1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BRK1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BRK1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BRK1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BRK1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SLVRF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "SVE.V"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Silver One Resources Inc.",
   "primary_symbol": "BRK1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "Silver One Resources Inc. engages in the acquisition, exploration, and development of mineral properties in the United States. The company explores silver deposits. Its flagship project, the Candelaria Silver Mine project, located in Nevada; and holds 100% interest in Cherokee project located in Nevada, as well as in the Phoenix silver property located near Globe, Arizona. The company was formerly known as BRS Ventures Ltd. and changed its name to Silver One Resources Inc. in September 2016. Silver One Resources Inc. was incorporated in 2007 and is headquartered in Vancouver, Canada.",
+  "website": "https://www.silverone.com"
 }

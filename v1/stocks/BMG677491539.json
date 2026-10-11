@@ -2,29 +2,57 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BTHVX0",
-    "figi": "BBG000BTHXS2",
+    "composite_figi": "BBG000BDTL28",
+    "figi": "BBG000BDTLK8",
     "isin": "BMG677491539"
   },
+  "industry": "Marine",
   "industry_group": "Transportation",
   "isin": "BMG677491539",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0316.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ORI1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ORI1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ORI1.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ORI1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OROVF"
     }
   ],
-  "name": "Orient Overseas (Intl.) Ltd. Re",
-  "primary_symbol": "ORI1.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Orient Overseas (International) Limited",
+  "primary_symbol": "0316.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Orient Overseas (International) Limited is a global container transport and logistics service company. It operates through its brand OOCL (Orient Overseas Container Line) and provides transportation services to customers around the world. The company is headquartered in Hong Kong."
+  "summary": "Orient Overseas (International) Limited (OOIL) is an investment holding company in Wan Chai, Hong Kong, providing container transport and logistics around the world, with reach across Asia, Europe, Australia and North America. Services include supply chain management, distribution and container shipping on major trade lanes such as the Trans-Pacific and Trans-Atlantic.",
+  "website": "https://www.ooilgroup.com"
 }

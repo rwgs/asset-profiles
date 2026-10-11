@@ -1,0 +1,42 @@
+{
+  "country": "Canada",
+  "country_code": "CA",
+  "identifiers": {
+    "cusip": "582270609",
+    "isin": "CA5822706092"
+  },
+  "industry": "Software",
+  "industry_group": "Software & Services",
+  "isin": "CA5822706092",
+  "kind": "stock",
+  "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "MCLD"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "MCLD.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MCLDF"
+    }
+  ],
+  "market_cap_band": "Nano Cap",
+  "name": "mCloud Technologies Corp. Common Shares",
+  "primary_symbol": "MCLD",
+  "provenance": {
+    "fetched_at": "2026-10-11T12:21:30Z",
+    "license": "MIT",
+    "source": "FinanceDatabase",
+    "source_url": "https://github.com/JerBouma/FinanceDatabase"
+  },
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "mCloud Technologies Corp. provides asset management solutions combining IoT, cloud computing, and AI to optimize energy usage and reduce operating costs for buildings and infrastructure. Their services include remote monitoring, data analytics, and predictive maintenance. The company is headquartered in Vancouver, British Columbia, Canada.",
+  "website": "http://www.mcloudcorp.com"
+}

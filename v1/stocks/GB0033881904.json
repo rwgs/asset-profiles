@@ -2,30 +2,37 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "cusip": "G47173102",
+    "composite_figi": "BBG000DRT2F3",
+    "figi": "BBG000DRT334",
     "isin": "GB0033881904"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Consumer Finance",
+  "industry_group": "Diversified Financials",
   "isin": "GB0033881904",
   "kind": "stock",
   "listings": [
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
+      "symbol": "BANK.L"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
       "symbol": "IME.L"
     }
   ],
-  "name": "Immediate Acquisition Plc",
-  "primary_symbol": "IME.L",
+  "market_cap_band": "Nano Cap",
+  "name": "Fiinu Plc",
+  "primary_symbol": "BANK.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "Immedia Group Plc, together with its subsidiaries, engages in the marketing and communication service business through the provision of interactive digital channels products and services using music, radio, and screen-based media primarily in the United Kingdom. It operates through two segments, Production and Operations. The company's Production segment creates content that include audio based live and recorded radio, music, advertising, and branding; and video based video, music advertising and branding, digital Web and application designs, and digital solutions for audio visual, 3D, virtual reality, and augmented reality content. Its Operations segment engages in the supply, installation, and sale/hire of equipment that delivers content to customers that include broadband and satellite technologies, as well as maintenance of equipment. The company was formerly known as Immedia Broadcasting Plc and changed its name to Immedia Group Plc in September 2008. Immedia Group Plc was founded in 2000 and is based in Newbury, the United Kingdom.",
-  "website": "http://www.immediaplc.com"
+  "sector": "Financials",
+  "summary": "Fiinu Plc is a financial technology company, which engages in the provision of banking services. It develops a lending platform namely Bank Independent Overdraft. The company was founded by Marko Sjoblom on October 30, 2003 and is headquartered in Surrey, the United Kingdom.",
+  "website": "https://fiinuplc.com"
 }

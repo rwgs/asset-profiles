@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BQCY74",
-    "figi": "BBG000BQCZ26",
+    "composite_figi": "BBG000BDYQ94",
+    "figi": "BBG000BDYR56",
     "isin": "BMG9716V1000"
   },
   "industry": "Real Estate Management & Development",
@@ -12,22 +12,32 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0369.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "USH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "USH.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Wing Tai Properties Limited",
-  "primary_symbol": "USH.F",
+  "primary_symbol": "0369.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Wing Tai Properties Limited, an investment holding company, invests in, develops, and manages properties in Hong Kong, the United Kingdom, the People's Republic of China, Singapore, and internationally. The company operates through Property Development, Property Investment and Management, Hospitality Investment and Management, and Others divisions. It develops and manages residential and commercial properties. The company's investment properties include office buildings, industrial buildings, car parking spaces, retail spaces, and serviced apartments. It is also involved in the hospitality management, investment, licensing, treasury investment, financing, and property agency activities. The company was formerly known as USI Holdings Limited and changed its name to Wing Tai Properties Limited in 2010. Wing Tai Properties Limited is headquartered in Kwun Tong, Hong Kong.",
+  "summary": "Wing Tai Properties Limited, a diversified holding company, acquires, develops and administers real estate across Hong Kong, the UK, the mainland and Singapore. Its business covers property development, property investment and management, hospitality, and other activities.",
   "website": "http://www.wingtaiproperties.com"
 }

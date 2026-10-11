@@ -2,16 +2,21 @@
   "country": "Korea, Republic of",
   "country_code": "KR",
   "identifiers": {
-    "composite_figi": "BBG000BVP7Y8",
+    "composite_figi": "BBG00JRQS9K9",
     "cusip": "796054203",
-    "figi": "BBG000BVPD66",
+    "figi": "BBG00JRQS9L8",
     "isin": "US7960542030"
   },
-  "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Electrical Equipment",
+  "industry_group": "Capital Goods",
   "isin": "US7960542030",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0L2T.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -39,16 +44,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Samsung SDI Co., Ltd Sponsored GDR 144A",
-  "primary_symbol": "XSDG.BE",
+  "name": "Samsung SDI Co., Ltd.",
+  "primary_symbol": "0L2T.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Industrials",
   "summary": "Samsung SDI Co., Ltd. develops, manufactures, and sells energy solutions and electronic materials. Their energy solutions include rechargeable batteries for IT, automotive, and energy storage systems. The company's electronic materials include display materials and semiconductors, and is headquartered in Yongin-si, South Korea.",
-  "website": "http://www.samsungsdi.com"
+  "website": "https://www.samsungsdi.com"
 }

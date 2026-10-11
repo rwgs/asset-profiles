@@ -3,6 +3,7 @@
   "country_code": "MC",
   "identifiers": {
     "composite_figi": "BBG000TS4FG1",
+    "figi": "BBG000TS4HP7",
     "isin": "MHY622674098"
   },
   "industry": "Marine",
@@ -10,6 +11,11 @@
   "isin": "MHY622674098",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "NMM"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -26,17 +32,17 @@
       "symbol": "3PXA.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Navios Maritime Partners LP",
-  "primary_symbol": "3PXA.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Navios Maritime Partners L.P.",
+  "primary_symbol": "NMM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Navios Maritime Partners L.P. is an owner and operator of dry cargo vessels, tanker vessels and container vessels. The company focuses on long-term charters. Their headquarters are in Piraeus, Greece.",
+  "summary": "Navios Maritime Partners L.P. owns and operates dry cargo vessels in Asia, Europe, North America, and Australia. The company offers seaborne transportation services for a range of dry cargo commodities, including iron ore, coal, grain, fertilizers, and containers, as well as charters its vessels under medium to long-term charters. As of March 24, 2021, it operated a fleet of 52 vessels. Olympos Maritime Ltd. serves as the general partner of Navios Maritime Partners L.P. The company was founded in 2007 and is based in Monaco.",
   "website": "http://www.navios-mlp.com"
 }

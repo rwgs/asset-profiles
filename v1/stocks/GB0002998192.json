@@ -6,6 +6,7 @@
     "figi": "BBG000QWHBC4",
     "isin": "GB0002998192"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB0002998192",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0002998192.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LWL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LWL.MU"
     }
   ],
-  "name": "IDOX PLC",
+  "market_cap_band": "Small Cap",
+  "name": "IDOX plc",
   "primary_symbol": "GB0002998192.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "IDOX PLC provides software solutions and services to the public sector, focusing on local government, healthcare, and other public service organizations. The company's solutions support areas such as planning, asset management, and performance management. IDOX PLC is headquartered in Reading, United Kingdom."
+  "summary": "IDOX PLC provides software solutions and services to the public sector, focusing on local government, healthcare, and other public service organizations. The company's solutions support areas such as planning, asset management, and performance management. IDOX PLC is headquartered in Reading, United Kingdom.",
+  "website": "http://www.idoxplc.com"
 }

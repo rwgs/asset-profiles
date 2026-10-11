@@ -4,28 +4,51 @@
   "identifiers": {
     "composite_figi": "BBG000LVCPF2",
     "cusip": "88581L303",
-    "figi": "BBG000LVCRT3",
+    "figi": "BBG000LVCPY1",
     "isin": "CA88581L3039"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "CA88581L3039",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "B5K3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "B5K3.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA88581L3039.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "IDK.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IDKFF"
     }
   ],
-  "name": "THREED CAPITAL INC",
-  "primary_symbol": "CA88581L3039.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "ThreeD Capital Inc.",
+  "primary_symbol": "B5K3.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Threed Capital Inc. is a Canadian-based venture capital firm. They focus on investing in early-stage companies. The company is based in Toronto, Ontario, Canada."
+  "summary": "ThreeD Capital Inc., formerly known as Brownstone Energy Inc., is a venture capital firm specializing in seed, early stage and growth capital opportunistic investments. The firm seeks to invest in technology; biotechnology; renewable technology, Nanotechnology, Electric Vehicles,Internet of things, electronic sports, junior resources with an emphasis on the precious-metal and battery-metal sectors; artificial intelligence with a focus on disruptive data science technologies, machine learning, and neuro networks; and blockchain sectors with a focus on blockchain assets. ThreeD Capital Inc. was founded in 1987 and is based in Toronto, Canada.",
+  "website": "http://www.threedcapital.com"
 }

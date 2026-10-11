@@ -3,27 +3,36 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000BFDJ61",
+    "figi": "BBG000BFDJH9",
     "isin": "GB0007922338"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "GB0007922338",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "ARBB.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0007922338.SG"
     }
   ],
-  "name": "ARBUTHNOT BANKING GROUP PLC",
-  "primary_symbol": "GB0007922338.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Arbuthnot Banking Group PLC",
+  "primary_symbol": "ARBB.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Arbuthnot Banking Group PLC is an independent banking group providing a range of financial services to businesses and individuals. The company offers private banking, commercial banking, and asset management services. Arbuthnot Banking Group is headquartered in London, United Kingdom."
+  "summary": "Arbuthnot Banking Group PLC, together with its subsidiaries, provides private and commercial banking products and services in the United Kingdom. It operates through Private Banking, Mortgage Portfolios, Commercial Banking, Renaissance Asset Finance, Arbuthnot Commercial Asset Based Lending, Arbuthnot Specialist Finance Limited, and All Other Divisions segments. The company offers private banking services, including current and deposit accounts, loans, overdrafts, and foreign exchange; financial planning; investment and asset management; asset finance funding; and short-term secured lending solutions. It also provides commercial banking services, such as guarantees and charge cards; property finance for property investments and developments; individual secured lending; and asset based lending solutions. In addition, the company offers wealth structuring, tax mitigation, estate preservation, and retirement planning services, as well as mortgage portfolios. Further, it provides insurance, specialist finance, and property development and investment services. Arbuthnot Banking Group PLC was founded in 1833 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.arbuthnotgroup.com"
 }

@@ -2,28 +2,37 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000BCQW47",
+    "composite_figi": "BBG00GD7J8N1",
+    "figi": "BBG00NRVX772",
     "isin": "NO0005638858"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "NO0005638858",
   "kind": "stock",
   "listings": [
     {
       "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0FHP.L"
+    },
+    {
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0005638858.SW"
     }
   ],
-  "name": "OLAV THON EIENDOMSSELSKAP AS",
-  "primary_symbol": "NO0005638858.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Olav Thon Eiendomsselskap ASA",
+  "primary_symbol": "0FHP.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Olav Thon Eiendomsselskap ASA is a real estate company focusing on shopping centers and properties in Norway. The company owns, manages, and develops shopping centers, hotels, and commercial properties. Olav Thon Eiendomsselskap is headquartered in Oslo, Norway."
+  "summary": "Olav Thon Eiendomsselskap ASA engages in the property rental business in Norway and Sweden. The company is also involved in the property development and management business. As of December 31, 2020, it had 78 shopping centers comprising 17 managed for external owners. The company was founded in 1982 and is based in Oslo, Norway. Olav Thon Eiendomsselskap ASA is s a subsidiary of Olav Thon Gruppen AS.",
+  "website": "http://www.olt.no"
 }

@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1GXW8",
-    "figi": "BBG000C1H1P5",
+    "composite_figi": "BBG000BB67V6",
+    "figi": "BBG000BB6871",
     "isin": "JP3827200001"
   },
+  "industry": "Electrical Equipment",
   "industry_group": "Capital Goods",
   "isin": "JP3827200001",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5801.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FKA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "FKA.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FKA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FUWAF"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Furukawa Electric Co., Ltd.",
-  "primary_symbol": "FKA.BE",
+  "primary_symbol": "5801.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "FURUKAWA ELECTRIC CO.LTD. manufactures electric wires, optical fibers, and related products for various industries. The company also produces automotive components and electronic materials. Furukawa Electric is headquartered in Tokyo, Japan."
+  "summary": "Furukawa Electric Co., Ltd. manufactures and sells telecommunications, energy, automobile, electronic parts, and construction products worldwide. It operates through Infrastructure, Automotive Products & Materials, Functional Products, and Service and Developments segments. The company offers telecommunications products, such as broadband systems, routers/network equipment, and wireless products; and optical fiber cables and identifiers, optical closures/termination boxes, optical connectors/cords, fusion splicers/optical connecting tools, optical fiber line monitoring/management systems, optical component/devices, and metal communication cables, as well as wiring materials. It also offers energy products, including power cables, cable-related equipment/connection and terminal products, industrial machine-related equipment, fire-prevention products, electrical conductors, power distribution products, and cable conduit materials; and automobile products comprising wire harnesses, connectors, functional products and materials, and interior finishing materials. In addition, the company provides electronics parts materials, fluorescent lamps, and LED reflectors, as well as healthcare products, such as polyimide tubes and shape memory/super-elastic alloys; construction products, including water distribution piping and fluid transport piping products, heat insulators, and cable-related equipment/connection and terminal products; and superconducting cables, industrial lasers, single cell hunters, flow cytometers, and fluorescent silica nanoparticles. Furukawa Electric Co., Ltd. was founded in 1884 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.furukawa.co.jp"
 }

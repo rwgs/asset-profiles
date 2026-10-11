@@ -2,25 +2,42 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000CGHDR4",
+    "composite_figi": "BBG00JHVZZ23",
+    "figi": "BBG00JHVZZ32",
     "isin": "FR0000065971"
   },
+  "industry": "Chemicals",
+  "industry_group": "Materials",
   "isin": "FR0000065971",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0ORK.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000065971.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "GRVO.PA"
     }
   ],
-  "name": "GRAINES VOLTZ SA",
-  "primary_symbol": "FR0000065971.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "Graines Voltz S.A.",
+  "primary_symbol": "0ORK.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "Graines Voltz S.A. engages in the distribution of seeds, vegetable plants, and flower bulbs to professionals, horticulturists, market gardeners, and communities in France, rest of Europe, the Middle East, Africa, and internationally. It also produces seeds and young horticultural plants. The company was founded in 1985 and is headquartered in Colmar, France.",
+  "website": "http://www.graines-voltz.com"
 }

@@ -6,8 +6,8 @@
     "figi": "BBG004MYWKQ4",
     "isin": "KYG2118N1079"
   },
-  "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "KYG2118N1079",
   "kind": "stock",
   "listings": [
@@ -18,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HA5.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HA5.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HA5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HA5.MU"
     },
     {
       "currency": "EUR",
@@ -27,11 +42,11 @@
       "symbol": "HA5.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "China Harmony Auto Holding Limited",
   "primary_symbol": "3836.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

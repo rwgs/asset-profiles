@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000Q3RR87",
     "cusip": "13764M209",
+    "figi": "BBG000Q3RR87",
     "isin": "US13764M2098"
   },
   "industry": "Biotechnology",
@@ -12,21 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "8C8.SG"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CNBX"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Cannabics Pharmaceuticals Inc.",
-  "primary_symbol": "8C8.SG",
+  "name": "CNBX Pharmaceuticals Inc.",
+  "primary_symbol": "CNBX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

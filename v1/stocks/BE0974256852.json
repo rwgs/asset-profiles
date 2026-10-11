@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BKZ8W1",
     "isin": "BE0974256852"
   },
+  "industry": "Food & Staples Retailing",
   "industry_group": "Food & Staples Retailing",
   "isin": "BE0974256852",
   "kind": "stock",
@@ -16,6 +17,21 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "COLR.BR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "COLR.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CUYTF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "EFC1.BE"
     },
@@ -23,17 +39,29 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "EFC1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EFC1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EFC1.SG"
     }
   ],
-  "name": "COLRUYT SA",
+  "market_cap_band": "Mid Cap",
+  "name": "Colruyt Group N.V.",
   "primary_symbol": "BE0974256852.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "COLRUYT SA is a Belgian retail corporation engaged in the distribution of food and non-food products in Belgium, France, and Luxembourg, with headquarters in Halle, Belgium. The company operates various store formats, including supermarkets, hypermarkets, and convenience stores, under brands like Colruyt, Okay, and Bio-Planet. Their business model centers on offering competitive prices and a wide assortment of products to consumers."
+  "summary": "COLRUYT SA is a Belgian retail corporation engaged in the distribution of food and non-food products in Belgium, France, and Luxembourg, with headquarters in Halle, Belgium. The company operates various store formats, including supermarkets, hypermarkets, and convenience stores, under brands like Colruyt, Okay, and Bio-Planet. Their business model centers on offering competitive prices and a wide assortment of products to consumers.",
+  "website": "http://www.colruytgroup.com"
 }

@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000LCTSP9",
+    "composite_figi": "BBG000PX9P13",
     "cusip": "00687A107",
-    "figi": "BBG000LCTSP9",
+    "figi": "BBG000PX9P13",
     "isin": "US00687A1079"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -15,62 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "ADDDF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "ADDYY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "ADS.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "ADS.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "ADS.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ADS.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "ADS.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "ADS.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "ADS.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "ADS.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ADS.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "ADS.VI"
     },
     {
       "currency": "EUR",
@@ -96,18 +41,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ADS1.SG"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "ADSN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "adidas AG",
-  "primary_symbol": "ADDDF",
+  "primary_symbol": "ADDYY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

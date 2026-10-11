@@ -6,6 +6,7 @@
     "figi": "BBG000FVX098",
     "isin": "GB00B012TP20"
   },
+  "industry": "Specialty Retail",
   "industry_group": "Retailing",
   "isin": "GB00B012TP20",
   "kind": "stock",
@@ -17,19 +18,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HDK.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "HDK.MU"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "HFD.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HLFDF"
     }
   ],
-  "name": "HALFORDS GROUP  LS -,01",
+  "market_cap_band": "Small Cap",
+  "name": "Halfords Group plc",
   "primary_symbol": "HDK.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Halford Group Plc is a retailer of motoring and cycling products and services. The company operates through a network of retail stores and autocentres across the UK and Ireland. The company is headquartered in Redditch, United Kingdom."
+  "summary": "Halford Group Plc is a retailer of motoring and cycling products and services. The company operates through a network of retail stores and autocentres across the UK and Ireland. The company is headquartered in Redditch, United Kingdom.",
+  "website": "http://www.halfordscompany.com"
 }

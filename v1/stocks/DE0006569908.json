@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BF4366",
-    "figi": "BBG000BF4721",
+    "composite_figi": "BBG00GVJG1B6",
+    "figi": "BBG00NRVXLS8",
     "isin": "DE0006569908"
   },
   "industry": "Capital Markets",
@@ -11,6 +11,11 @@
   "isin": "DE0006569908",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NDP.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -54,9 +59,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "MLP SE",
-  "primary_symbol": "MLP.BE",
+  "primary_symbol": "0NDP.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -64,5 +69,5 @@
   "schema_version": "1.0.0",
   "sector": "Financials",
   "summary": "MLP SE is a German financial services company. It provides independent financial advice to private and corporate clients, focusing on wealth management, insurance, and real estate. MLP SE is headquartered in Wiesloch, Germany.",
-  "website": "http://mlp-se.de"
+  "website": "https://mlp-se.com"
 }

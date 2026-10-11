@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000CZ7F07",
-    "figi": "BBG000CZ8K23",
+    "composite_figi": "BBG000C2QRN8",
+    "figi": "BBG000C2QRY6",
     "isin": "JP3788600009"
   },
+  "industry": "Industrial Conglomerates",
   "industry_group": "Capital Goods",
   "isin": "JP3788600009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6501.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HIA1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "HIA1.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HIA1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HTHIF"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Hitachi, Ltd.",
-  "primary_symbol": "HIA1.BE",
+  "primary_symbol": "6501.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Hitachi Ltd. is a Japanese multinational conglomerate company operating in various sectors, including information technology, energy, industry, mobility, and smart life. The company provides a wide range of products, systems, and services, such as power generation systems, industrial machinery, healthcare solutions, and IT services, with its headquarters in Tokyo, Japan. Hitachi aims to improve people's lives and contribute to a sustainable society through its innovative technologies and solutions."
+  "summary": "Hitachi, Ltd. provides information technology, energy, industry, mobility, and smart life solutions in Japan and internationally. The company offers information and telecommunication services, such as internet of things, storage systems and platforms, servers, software, ATMs and self service terminals, and scanners for manufacturing, communication, finance, healthcare and life science, energy and transportation, and distribution industries, as well as government and urban sectors; drone platform solutions, including consulting, system integration, and other services; and infrastructure inspection, data, security, measurement, unmanned aerial system traffic management, and inventory management services. It operates nuclear power plants, power grides, wind turbines, and power generation systems; provides energy and equipment management services; power semiconductors; elevators, escalators and moving sidewalk, and control elevator systems; and transportation systems and equipment. In addition, the company offers medical equipment for radiation therapy, In-vitro diagnosis, and regenerative medicines; automotive systems; navigation and audio-visual solutions; financial solutions for corporate and consumers; home appliances; and water treatment solutions for water supply and sewage infrastructure, industrial water treatment, seawater desalination, and water recycling, as well as maintenance and repair services. Further, it manufactures and sales air and centrifugal compressors, blowers, electrical machinery control systems, fans, pumps, pharmaceutical manufacturing execution systems, induction motors, industrial computers, industrial controllers, inverters, logistics and marking systems, IGBT drives, motors, nitrogen gas generators, automobile production process management systems, rope and chain hoist, PCS, UPS, switches and breakers, steel systems, and transformers. The company was founded in 1910 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.hitachi.co.jp/"
 }

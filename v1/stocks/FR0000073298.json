@@ -4,7 +4,7 @@
   "identifiers": {
     "isin": "FR0000073298"
   },
-  "industry": "Diversified Telecommunication Services",
+  "industry": "Professional Services",
   "industry_group": "Commercial & Professional Services",
   "isin": "FR0000073298",
   "kind": "stock",
@@ -20,16 +20,46 @@
       "symbol": "IPS.PA"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IPSOF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IPZ.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IPZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "IPZ.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IPZ.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IPZ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IPZ.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Ipsos SA",
   "primary_symbol": "0KA3.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

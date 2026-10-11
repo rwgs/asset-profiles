@@ -2,37 +2,58 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GP18V3",
-    "figi": "BBG000GP1CY1",
+    "composite_figi": "BBG000F31Z34",
+    "cusip": "30214U102",
+    "figi": "BBG000F328F0",
     "isin": "US30214U1025"
   },
-  "industry": "Banks",
-  "industry_group": "Banks",
+  "industry": "Construction & Engineering",
+  "industry_group": "Capital Goods",
   "isin": "US30214U1025",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "EXPO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "EP5.BE"
     },
     {
-      "currency": "ILS",
-      "exchange_mic": "XTAE",
-      "symbol": "EXPO.TA"
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EP5.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EP5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EP5.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EP5.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Exponent, Inc.",
-  "primary_symbol": "EP5.BE",
+  "primary_symbol": "EXPO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Export Investment Co. Ltd. operates as the holding company for Bank of Jerusalem that provides various commercial banking products and services in Israel. The company accepts various deposits, such as long-term or short-term deposits, savings plans, and checking accounts. Its loan products include loans, personal loans, foreign currency loans, and mortgages. The company also offers capital market services comprising trading, investment advisory, individual retirement account, and forex. It operates 18 branches. The company was incorporated in 1963 and is based in Tel Aviv, Israel.",
-  "website": "http://www.bankjerusalem.co.il"
+  "sector": "Industrials",
+  "summary": "Exponent, Inc., together with its subsidiaries, operates as a science and engineering consulting company in the United States and internationally. The company operates in two segments, Engineering and Other Scientific, and Environmental and Health. It provides services in the areas of biomechanics, biomedical engineering and sciences, civil and structural engineering, construction consulting, data sciences, electrical engineering and computer science, human factors, materials and corrosion engineering, mechanical engineering, metallurgical and corrosion engineering polymer and chemistry, thermal sciences, and vehicle engineering. The company also offers services in the areas of chemical regulation and food safety, ecological and biological sciences, environmental and earth sciences, and health sciences. In addition, it provides proactive and reactive product safety, litigation support, and technical, regulatory services. It serves clients in chemical, construction, consumer products, energy, food, beverage and nutrition, government, life sciences, insurance, manufacturing, technology, industrial equipment, transportation, and other sectors. The company was formerly known as The Failure Group, Inc. and changed its name to Exponent, Inc. in 1998. The company was founded in 1967 and is headquartered in Menlo Park, California.",
+  "website": "https://www.exponent.com"
 }

@@ -18,6 +18,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PO9.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PO9.F"
     },
@@ -25,13 +30,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PO9.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "POELF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Navigator Company SA",
   "primary_symbol": "NVG.LS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,25 +3,56 @@
   "country_code": "ES",
   "identifiers": {
     "composite_figi": "BBG001VWSRR3",
-    "figi": "BBG001VWSRT1",
+    "figi": "BBG001VWSRY5",
     "isin": "ES0126775008"
   },
+  "industry": "Household Products",
+  "industry_group": "Household & Personal Products",
   "isin": "ES0126775008",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DI6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "DI6.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DI6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DI6.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "DIA.MC"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DIDAF"
     }
   ],
-  "name": "DISTRIB.INTL DE A.EO 0,01",
-  "primary_symbol": "DI6.DU",
+  "market_cap_band": "Mid Cap",
+  "name": "Distribuidora Internacional de Alimentacion, S.A.",
+  "primary_symbol": "DI6.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Consumer Staples",
+  "summary": "Distribuidora Internacional de Alimentación, S.A. engages in the retail sale of food products in Spain, Portugal, Switzerland, Brazil, Argentina, Paraguay, and China. Its stores offer food and household, and personal hygiene products. As of December 31, 2019, the company operated a network of approximately 3,725 proprietary stores and 2,901 franchised stores under various formats, including DIA Market, DIA Maxi, Clarel La Plaza de Dia, Minipreço, and DIA&go. It is also involved in the wholesale and retail distribution of food and consumer products; provision of consulting services; administration of real estate property of DIA Brasil; distribution of food and toiletries through supermarkets; leasing of business premises; distribution of cleaning and toiletry products; and creation, maintenance, and exploitation of Web pages and portals for the sale of products and services. In addition, the company offers consumer loans, mortgage loans, and finance for commercial transactions, and credit and debit card issuing and management services. The company was incorporated in 1966 and is headquartered in Madrid, Spain.",
+  "website": "http://www.diacorporate.com"
 }

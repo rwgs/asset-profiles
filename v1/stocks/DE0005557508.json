@@ -2,28 +2,96 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000PZVGH6",
-    "figi": "BBG000PZVGT3",
+    "composite_figi": "BBG000HJTKL0",
+    "figi": "BBG000HJTPL9",
     "isin": "DE0005557508"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "DE0005557508",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DTE.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "DTE.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DTE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DTE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "DTE.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DTE.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "DTE.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DTE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DTE.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "DTE.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "DTE.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DTEGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "DTEL.BR"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "DTEN.MX"
     }
   ],
-  "name": "DEUTSCHE TELEKOM",
-  "primary_symbol": "DTE.TI",
+  "market_cap_band": "Large Cap",
+  "name": "Deutsche Telekom AG",
+  "primary_symbol": "DTE.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Deutsche Telekom AG is a telecommunications company that provides a range of services, including fixed-network, mobile communications, internet, and television. They operate in Europe and the United States, offering communication and IT solutions to consumers and businesses. The company is headquartered in Bonn, Germany."
+  "summary": "Deutsche Telekom AG is a telecommunications company that provides a range of services, including fixed-network, mobile communications, internet, and television. They operate in Europe and the United States, offering communication and IT solutions to consumers and businesses. The company is headquartered in Bonn, Germany.",
+  "website": "http://www.telekom.com"
 }

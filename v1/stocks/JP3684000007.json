@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C6VZD6",
-    "figi": "BBG000C6W1Y7",
+    "composite_figi": "BBG000BGP8R7",
+    "figi": "BBG000BGP940",
     "isin": "JP3684000007"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Chemicals",
+  "industry_group": "Materials",
   "isin": "JP3684000007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6988.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +28,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ND5.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ND5.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NDEKF"
     }
   ],
-  "name": "Nitto Denko Corp.",
-  "primary_symbol": "ND5.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Nitto Denko Corporation",
+  "primary_symbol": "6988.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Nitto Denko Corporation manufactures and sells various materials, including adhesive tapes, films, and other products, globally. The company operates through multiple segments, including industrial tape, optronics, and life science, offering solutions for automotive, electronics, medical, and environmental applications. Nitto Denko is headquartered in Osaka, Japan."
+  "sector": "Materials",
+  "summary": "Nitto Denko Corporation primarily engages in the adhesive tapes business in Japan and internationally. It provides double sided tapes, surface protective films, sealing materials/NVH related products, masking tapes, membranes, FPD/touch panel related products, gasket materials, semiconductor manufacturing process products, flexible printed circuit boards, porous films/breathable materials, and packaging tapes. The company also offers functional thermal transfer systems, such as labels, barcode label printers, and label printing software; tapes for electrical and electronic equipment; dust removal products for clean rooms; fluoroplastic sheets and tapes, and fluoroplastic porous films; and materials for housing and construction, as well as packaging machines. In addition, it provides medical products, including transdermal drug delivery patches, medical surgical products/supportive items, athletic tapes, medical surgical products/adhesive plasters sheets, adhesive tapes, and particles for nucleic acid synthesis. The company offers its products to automotive and transportation, housing/housing equipment, infrastructure, material, home appliance and electrical, display, electronic device, medical, packaging, and consumer/personal care industries. It has a research and development agreement with CAGE Bio Inc. for a transdermal formulation of undisclosed molecules. Nitto Denko Corporation was founded in 1918 and is headquartered in Osaka, Japan.",
+  "website": "http://www.nitto.com"
 }

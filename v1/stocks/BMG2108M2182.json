@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000C15RS8",
-    "figi": "BBG000C15RS8",
+    "composite_figi": "BBG000BDV708",
+    "figi": "BBG000BDV7C5",
     "isin": "BMG2108M2182"
   },
   "industry": "Real Estate Management & Development",
@@ -11,6 +11,11 @@
   "isin": "BMG2108M2182",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0127.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -22,17 +27,17 @@
       "symbol": "CQ3.F"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Chinese Estates Holdings Limited",
-  "primary_symbol": "CESTF",
+  "primary_symbol": "0127.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Chinese Estates Group (the \"Group\") is one of the leading property developers in Hong Kong. Chinese Estates Holdings Limited is the holding company of the Group and it is publicly listed on The Stock Exchange of Hong Kong Limited with stock code: 127. Chinese Estates' core businesses comprise of property investment for rental and property development for sale. The Group focuses primarily in Hong Kong, and diversifies its property interests to mainland China and the United Kingdom. The Group's investment properties include retail and office assets. Most of the investment properties of Chinese Estates are highly accessible and strategically located in prime commercial areas in Hong Kong such as Causeway Bay and Wanchai. In mainland China, Chinese Estates owns a five-star international hotel in Beijing. In the United Kingdom, Chinese Estates owns four investment properties in London. Over the past twenty years, Chinese Estates has built a reputation for conceptualising and implementing redevelopment, renovation works and repackaging programmes to enhance the value and revenue of its investment properties. Chinese Estates specializes in developing mid to high-end commercial and residential property projects. A number of quality and cosmopolitan residential properties are developed for sale.",
+  "summary": "Chinese Estates Holdings Limited is the listed holding company of the Chinese Estates Group, a property developer in Hong Kong. Its core model is investing in property for rental income and developing property for sale, mainly in Hong Kong, with interests extending to mainland China and the United Kingdom.",
   "website": "http://www.chineseestates.com"
 }

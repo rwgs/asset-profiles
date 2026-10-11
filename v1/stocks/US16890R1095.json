@@ -2,7 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG00Z2YM082",
     "cusip": "16890R109",
+    "figi": "BBG00Z2YM091",
     "isin": "US16890R1095"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -11,16 +13,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "0916.HK"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "6WX.F"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6WX0.F"
@@ -28,19 +20,14 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "CLPXF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "CLPXY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "China Longyuan Power Group Corporation Limited",
-  "primary_symbol": "0916.HK",
+  "primary_symbol": "6WX0.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,14 +2,30 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00J7CMQ11",
-    "figi": "BBG00J7CMQ75",
+    "composite_figi": "BBG003CDTG22",
+    "figi": "BBG003CDTG68",
     "isin": "FR0010397232"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "FR0010397232",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALNOV.PA"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "NCYT.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NVYTF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +38,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NYZ.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NYZ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NYZ.SG"
     }
   ],
-  "name": "NOVACYT  EO-,0667",
-  "primary_symbol": "NYZ.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Novacyt S.A.",
+  "primary_symbol": "ALNOV.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Novacyt S.A. is an international diagnostics business generating an increasing portfolio of in vitro and molecular diagnostic tests, and near-patient point-of-care tests. The company serves a wide range of human and animal diseases and Novacyt's ordinary shares are listed on the London Stock Exchange's AIM market. The company is headquartered in Eastleigh, United Kingdom."
+  "summary": "Novacyt S.A., together with its subsidiaries, engages in the development, manufacture, and commercialization of clinical diagnostic products for cancer and infectious diseases in Africa, Europe, the Asia Pacific, the United States, and the Middle East. The company operates through Corporate and Diagnostics, and Molecular Products segments. The Corporate and Diagnostics segment manufactures and distributes reagents and kits for bacterial and blood tests. The Molecular Products segment designs, manufactures, and distributes test kits for various diseases in humans, animals, and food products. The company's diagnostic products are used in oncology, microbiology, haematology, and serology testing. It also develops, manufactures, and distributes diagnostic products for food laboratories; and manufactures and supplies reagents and tests for in vitro diagnostic tests and blood grouping applications under the Plasmatec and Biotec brand names. The company has collaboration with AstraZeneca, GSK, and the University of Cambridge to support increase testing for COVID-19. It serves universities, hospitals, clinics, and testing laboratories. Novacyt S.A. was founded in 2006 and is headquartered in Camberley, the United Kingdom.",
+  "website": "http://www.novacyt.com"
 }

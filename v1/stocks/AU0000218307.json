@@ -2,29 +2,37 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00VHK2540",
-    "figi": "BBG00VHK2540",
+    "composite_figi": "BBG000PX4996",
+    "figi": "BBG000PX4B46",
     "isin": "AU0000218307"
   },
+  "industry": "Consumer Finance",
   "industry_group": "Diversified Financials",
   "isin": "AU0000218307",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "ZIP.AX"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ZIZTF"
     }
   ],
-  "name": "ZIP CO LTD",
-  "primary_symbol": "ZIZTF",
+  "market_cap_band": "Small Cap",
+  "name": "Zip Co Limited",
+  "primary_symbol": "ZIP.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Zip Co Limited is a buy now, pay later (BNPL) company that provides point-of-sale credit and digital payment services to consumers and merchants. The company operates in several countries, offering interest-free installment plans for purchases. Zip Co is headquartered in Sydney, Australia."
+  "summary": "Zip Co Limited offers digital payment and financial services to consumers and small-to-medium businesses across a wide global footprint, including Australia, Canada, Mexico, Poland, Saudi Arabia, Singapore, South Africa, Turkey, the UAE, the UK and the US. Its segments are APAC, Americas, EMEA, Zip Business and Corporate, and it offers SMEs unsecured loans and revolving credit lines.",
+  "website": "https://zip.co"
 }

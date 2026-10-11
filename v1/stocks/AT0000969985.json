@@ -2,8 +2,8 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000LGVDT6",
-    "figi": "BBG000LGVFJ2",
+    "composite_figi": "BBG00LPFFH99",
+    "figi": "BBG00LPFFH99",
     "isin": "AT0000969985"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -12,9 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASAAF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "ATS.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AUS.BE"
     },
     {
       "currency": "EUR",
@@ -23,8 +33,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AUS.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AUS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AUS.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AUS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AUS.MU"
     },
     {
       "currency": "EUR",
@@ -32,17 +62,17 @@
       "symbol": "AUS.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "AT & S Austria Technologie & Systemtechnik Aktiengesellschaft",
-  "primary_symbol": "ATS.VI",
+  "market_cap_band": "Mid Cap",
+  "name": "AT & S Austria Technologie & Systemtechnik AG",
+  "primary_symbol": "ASAAF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "AT & S Austria Technologie & Systemtechnik Aktiengesellschaft, together with its subsidiaries, manufactures and distributes printed circuit boards (PCBs) worldwide. It operates through three segments: Mobile Devices & Substrates; Automotive, Industrial, Medical; and Others. The company offers double sided standard, metal core, and copper inlay PCBs; multilayer standard, high frequency/low loss, and thick copper PCBs; high density interconnect (HDI) Microvia PCBs; HDI any-layer PCBs; flexible, semi-flexible, rigid-flexible, and HDI rigid flex PCBs; integrated circuit substrates; and insulated metallic substrates PCBs, as well as related services. It also engages in embedding active and passive electronic components into printed circuit boards by using the embedded component packaging technology. The company distributes its products directly to original equipment and contract electronic manufacturers. AT & S Austria Technologie & Systemtechnik Aktiengesellschaft was founded in 1987 and is headquartered in Leoben, Austria.",
-  "website": "http://www.ats.net"
+  "summary": "AT&S Austria Technologie & Systemtechnik AG is a manufacturer of high-end printed circuit boards and IC substrates. The company serves various industries, including mobile devices, automotive, industrial electronics, medical technology and aerospace. AT&S is headquartered in Leoben, Austria.",
+  "website": "https://www.ats.net"
 }

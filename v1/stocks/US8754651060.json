@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000LBX148",
+    "composite_figi": "BBG000D2JB50",
     "cusip": "875465106",
-    "figi": "BBG000LBX4S6",
+    "figi": "BBG000D2JCF7",
     "isin": "US8754651060"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "isin": "US8754651060",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SKT"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LD4.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,19 +34,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T6O.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "T6O.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "T6O.SG"
     }
   ],
-  "name": "TANGER FACT.OUTLET DL-,01",
-  "primary_symbol": "T6O.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Tanger Factory Outlet Centers, Inc.",
+  "primary_symbol": "SKT",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "TANGER FACT.OUTLET DL-,01 is a real estate investment trust (REIT) specializing in owning, operating, and developing open-air outlet centers in the United States and Canada. The company leases retail space to a diverse mix of brand-name retailers and manufacturers, offering discounted merchandise to consumers. Tanger Factory Outlet Centers is headquartered in Greensboro, North Carolina."
+  "summary": "Tanger Factory Outlet Centers, Inc. (NYSE: SKT) is a leading operator of open-air upscale outlet shopping centers that owns, or has an ownership interest in, a portfolio of 38 centers. Tanger's operating properties are located in 20 states and in Canada, totaling approximately 14.1 million square feet, leased to over 2,700 stores operated by more than 500 different brand name companies. The Company has more than 39 years of experience in the outlet industry and is a publicly-traded REIT. Tanger is furnishing a Form 8-K with the Securities and Exchange Commission (\"SEC\") that includes a supplemental information package for the quarter ended September 30, 2020.",
+  "website": "http://www.tangeroutlets.com"
 }

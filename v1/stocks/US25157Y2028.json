@@ -2,15 +2,26 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000SNRLB0",
+    "composite_figi": "BBG000SNJFQ6",
     "cusip": "25157Y202",
-    "figi": "BBG000SNRN80",
+    "figi": "BBG000SNJFQ6",
     "isin": "US25157Y2028"
   },
+  "industry": "Air Freight & Logistics",
   "industry_group": "Transportation",
   "isin": "US25157Y2028",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DHLGY"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DPSGY"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +29,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DPWA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "DPWA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DPWA.SG"
     }
   ],
-  "name": "DEUTSCHE POST SPONS.ADR 1",
-  "primary_symbol": "DPWA.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Deutsche Post AG",
+  "primary_symbol": "DHLGY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Deutsche Post AG is a global logistics and mail company. The company operates through various divisions, including Post & Parcel Germany, Express, Global Forwarding, Freight, Supply Chain, and eCommerce Solutions. Deutsche Post is headquartered in Bonn, Germany."
+  "summary": "Headquartered in Bonn, Germany, Deutsche Post AG serves as a prominent global mail and logistics provider, with operations extending across Germany, the wider European continent, the Americas, the Asia Pacific region, the Middle East, and Africa. The company's diverse business is organized into five core segments: Express; Global Forwarding, Freight; Supply Chain; eCommerce; and Post & Parcel Germany. The Express segment specializes in providing time-definite courier and expedited shipping solutions for both business and private clientele. Its Global Forwarding, Freight division orchestrates the movement of goods via air, sea, and land, additionally offering comprehensive multimodal and industry-specific logistics strategies. The Supply Chain segment designs and implements customized logistics and supply chain solutions for clients, built upon flexible components including warehousing and transportation services. This encompasses a range of value-added services such as e-fulfilment, omnichannel integration, returns management, lead logistics partnership, property-related logistics, service logistics, and packaging solutions, catering to various industrial sectors. The eCommerce segment is dedicated to parcel deliveries and non-time critical international cross-border shipments. Lastly, the Post & Parcel Germany segment manages the sorting, transport, and delivery of mail communications—both physical and hybrid letters—along with goods within Germany, complemented by additional offerings like registered mail, cash-on-delivery options, and insured item handling.",
+  "website": "https://group.dhl.com"
 }

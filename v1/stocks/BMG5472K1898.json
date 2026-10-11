@@ -3,6 +3,7 @@
   "country_code": "HK",
   "identifiers": {
     "composite_figi": "BBG000BQBSH7",
+    "figi": "BBG000BQBSW0",
     "isin": "BMG5472K1898"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1223.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "YMP3.F"
@@ -18,15 +24,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Symphony Holdings Limited",
-  "primary_symbol": "YMP3.F",
+  "primary_symbol": "1223.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Symphony Holdings Limited, an investment holding company, primarily operates as a retailing company. The company is involved in the retailing and provision of sourcing services for branded apparel, swimwear, and accessories; manufacturing and trading of healthcare products; and development and management of PONY and SKINS trademarks. It also manages and operates outlet malls, duty free shops, and fashion stores; and provides financial services, including securities brokerage, margin financing, underwriting and placing, financial consulting, and money lending services. In addition, the company offers information, technology, corporate, and portfolio management services; accountancy, legal, secretarial, and cruiser services; and online trading platform support services. Further, it engages in the trading, retailing, and distribution of swimming apparel and accessories; property investment and holding activities; holding of club debentures; sub-licensing of trademark rights; and trading and wholesaling of sportswear. Symphony Holdings Limited operates in the People's Republic of China, Hong Kong, other Asian countries, the United States, and internationally. The company was formerly known as Liang Shing (Holdings) Limited and changed its name to Symphony Holdings Limited in 1997. Symphony Holdings Limited was founded in 1990 and is base in North Point, Hong Kong.",
+  "summary": "Symphony Holdings Limited, incorporated in 1993 and based in North Point, Hong Kong, is an investment holding company running sports brands and retail in China, Hong Kong, the United States and elsewhere. It reports branding, retailing and financial services segments, covering the SKINS trademarks, outlet malls and fashion stores, swimwear and sportswear trading, and food and drink. It also provides securities brokerage, margin financing and asset management. It was formerly Liang Shing (Holdings) Limited.",
   "website": "http://www.symphonyholdings.com"
 }

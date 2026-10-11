@@ -1,32 +1,48 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG000BF1LB3",
+    "figi": "BBG000BF1LW0",
     "isin": "SE0015961909"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "SE0015961909",
   "kind": "stock",
   "listings": [
     {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "HEXA-B.ST"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "HEXABN.MX"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "HXG.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HXGBF"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Hexagon Energy Materials Limited",
-  "primary_symbol": "HXG.AX",
+  "market_cap_band": "Large Cap",
+  "name": "Hexagon AB",
+  "primary_symbol": "HEXA-B.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "Hexagon Energy Materials Limited, together with its subsidiary, explores for and develops mineral properties in Australia and the United States. The company explores for graphite, gold, and base metal deposits. Its project includes McIntosh flake graphite project located in the Kimberley region of Western Australia. The company also holds 80% interest in the Alabama Graphite project located in Alabama; and the Halls Creek project covering an area of approximately 657 square kilometers located in the east Kimberley region of Western Australia. In addition, it focuses on the development of rare earth refining business. The company was formerly known as Hexagon Resources Limited and changed its name to Hexagon Energy Materials Limited in November 2019. Hexagon Energy Materials Limited was incorporated in 2001 and is based in Applecross, Australia.",
-  "website": "http://hexagonresources.com"
+  "sector": "Information Technology",
+  "summary": "Hexagon AB (publ) provides information technology solutions for geospatial and industrial applications worldwide. The company operates through two segments, Industrial Enterprise Solutions (IES) and Geospatial Enterprise Solutions (GIS). The IES segment offers metrology systems that incorporate the in-sensor technology for measurements, as well as computer-aided design, computer-aided manufacturing, and computer-aided engineering software. Its solutions include coordinate measuring machines, laser trackers and scanners, industrial metrology software, and operations management solutions. This segment's solutions are used in electronics and manufacturing, power and energy, automotive, aerospace and defense, and other industries. The GIS segment provides sensors for capturing data from land and air, as well as for positioning through satellites; and GIS software for the creation of 3D maps and models, which are used for decision-making in various software applications covering areas comprising surveying, construction, public safety, and agriculture. Its solutions comprise laser scanner, airborne camera, unmanned aerial vehicle, mobile mapping technology, and precise positioning solutions. This segment's solutions are used in surveying, infrastructure and construction, natural resources, public safety, aerospace and defense, and other industries. The company was formerly known as Eken Industri & Handel AB and changed its name to Hexagon AB (publ) in 1993. Hexagon AB (publ) was incorporated in 1975 and is headquartered in Stockholm, Sweden.",
+  "website": "http://www.hexagon.com"
 }

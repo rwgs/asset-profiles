@@ -2,8 +2,11 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "cusip": "34660G104"
+    "composite_figi": "BBG000JVB864",
+    "cusip": "34660G104",
+    "figi": "BBG000JVBC83"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "kind": "stock",
   "listings": [
@@ -13,15 +16,17 @@
       "symbol": "FSY.SG"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "FORMULA SYSTEMS (1985) LTD. Reg",
   "primary_symbol": "FSY.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Formula Systems (1985) Ltd. is an Israeli-based IT holding company with investments in a variety of software companies. The company's subsidiaries provide software solutions, IT professional services, and systems integration services to customers worldwide. Formula Systems is headquartered in Or Yehuda, Israel"
+  "summary": "Formula Systems (1985) Ltd. is an Israeli-based IT holding company with investments in a variety of software companies. The company's subsidiaries provide software solutions, IT professional services, and systems integration services to customers worldwide. Formula Systems is headquartered in Or Yehuda, Israel",
+  "website": "http://www.formulasystems.com"
 }

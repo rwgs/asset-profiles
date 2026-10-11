@@ -18,6 +18,11 @@
       "symbol": "MCD"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0R16.L"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "MCD.BA"
@@ -44,8 +49,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MDO.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "MDO.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MDO.DU"
     },
     {
       "currency": "EUR",
@@ -54,15 +69,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "MDO.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MDO.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MDO.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MDO.SG"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Large Cap",
   "name": "McDonald's Corporation",
   "primary_symbol": "MCD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

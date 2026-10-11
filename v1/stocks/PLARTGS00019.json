@@ -6,22 +6,33 @@
     "figi": "BBG00Q8957X7",
     "isin": "PLARTGS00019"
   },
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "PLARTGS00019",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
+      "symbol": "223.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
       "symbol": "PLARTGS00019.SG"
     }
   ],
-  "name": "ART GAMES STUDIO SA",
-  "primary_symbol": "PLARTGS00019.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Art Games Studio S.A.",
+  "primary_symbol": "223.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "Art Games Studio S.A. is dedicated to the creation and distribution of video games for personal computers. Its catalog features notable titles such as \"earthworms,\" \"bad dream: fever,\" and \"escape doodland.\" Founded in July 2017, the company's main operations are based in Warsaw, Poland.",
+  "website": "http://www.art-games.com"
 }

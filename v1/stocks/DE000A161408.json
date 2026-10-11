@@ -2,9 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00ZK0QLY7",
-    "cusip": "42341P104",
-    "figi": "BBG00ZK0QLY7",
+    "composite_figi": "BBG003Q1CF78",
+    "figi": "BBG00B9SRSJ3",
     "isin": "DE000A161408"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,11 +11,6 @@
   "isin": "DE000A161408",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "HELFY"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -58,6 +52,7 @@
       "symbol": "HFG.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "HFG.TI"
     },
     {
@@ -76,11 +71,11 @@
       "symbol": "HLFFF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Small Cap",
   "name": "HelloFresh SE",
-  "primary_symbol": "HELFY",
+  "primary_symbol": "HFG.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

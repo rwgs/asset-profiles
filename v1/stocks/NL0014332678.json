@@ -2,28 +2,67 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG00TZ4G8S4",
+    "composite_figi": "BBG00V308X88",
+    "figi": "BBG00V308XB4",
     "isin": "NL0014332678"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "NL0014332678",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "JDE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "JDE.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "JDE.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JDE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "JDEP.AS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "JDEP.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JDEPF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NL0014332678.SG"
     }
   ],
-  "name": "JDE PEET'S NV",
-  "primary_symbol": "NL0014332678.SG",
+  "market_cap_band": "Large Cap",
+  "name": "JDE Peet's N.V.",
+  "primary_symbol": "JDE.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "JDE Peet's N.V. is a global coffee and tea company. The company manufactures, markets, and distributes a wide range of coffee and tea products, including brands such as Jacobs, Douwe Egberts, and Peet's Coffee. JDE Peet's is headquartered in Amsterdam, Netherlands."
+  "summary": "JDE Peet's N.V. is a global pure-play coffee and tea company, serving consumers with a portfolio of well-known brands. The company offers a variety of coffee and tea products across different formats and price points. Its headquarters are located in Amsterdam, Netherlands.",
+  "website": "http://www.jdepeets.com"
 }

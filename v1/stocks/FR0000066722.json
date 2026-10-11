@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHVZQG8",
+    "figi": "BBG00JHVZQH7",
     "isin": "FR0000066722"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -38,13 +40,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "GUL.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GUL.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Guillemot Corporation S.A.",
   "primary_symbol": "0NB2.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,14 +3,19 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000J4XBS9",
-    "figi": "BBG000J4XH88",
+    "figi": "BBG000J4XF73",
     "isin": "DE000A161077"
   },
   "industry": "Marine",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Transportation",
   "isin": "DE000A161077",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "ERAG.DE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -52,17 +57,17 @@
       "symbol": "HXCK.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Ernst Russ AG",
-  "primary_symbol": "HXCK.BE",
+  "primary_symbol": "ERAG.DE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Ernst Russ AG is a German asset and investment manager specializing in the maritime sector, offering services in ship management, investment management, and fund administration. The company focuses on managing and developing investments in shipping, real estate, and other tangible assets. Ernst Russ AG is headquartered in Hamburg, Germany.",
-  "website": "http://www.ernst-russ.de"
+  "sector": "Industrials",
+  "summary": "Ernst Russ AG is a publicly listed asset manager that strategically allocates capital across a diverse range of investment classes. Its primary areas of focus include maritime shipping, various alternative investments, real estate, private equity, and renewable energy projects. Within its maritime portfolio, the firm engages in fractional ownership of vessels, invests in dedicated ship participation funds, and holds dormant investments that carry conversion options. For its real estate endeavors, Ernst Russ AG primarily targets closed-ended property investment funds, in addition to making broader direct real estate investments. In the private equity sector, it channels capital into both private equity and venture capital funds. Founded in 1985 and headquartered in Hamburg, Germany, Ernst Russ AG was formerly known as HCI Capital AG.",
+  "website": "https://www.ernst-russ.de"
 }

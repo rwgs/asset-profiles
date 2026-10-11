@@ -2,29 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000RL8VB4",
-    "figi": "BBG000RL8XM8",
+    "composite_figi": "BBG000PPG721",
+    "figi": "BBG000PPG785",
     "isin": "GB00B1XFKR57"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Energy Equipment & Services",
+  "industry_group": "Energy",
   "isin": "GB00B1XFKR57",
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CSC.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B1XFKR57.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PRS.F"
     }
   ],
-  "name": "PRESSURE TECHNOLOGIES PLC",
-  "primary_symbol": "GB00B1XFKR57.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Chesterfield Special Cylinders Holdings Plc",
+  "primary_symbol": "CSC.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "PRESSURE TECHNOLOGIES PLC designs and manufactures high-pressure gas containment systems. Their business model involves providing engineering solutions and manufacturing products for various industries including oil and gas, defence, and aerospace, generating revenue through product sales and service contracts. The company is headquartered in Sheffield, UK."
+  "sector": "Energy",
+  "summary": "Operating globally through its various subsidiaries, Chesterfield Special Cylinders Holdings Plc specializes in the engineering, production, and refurbishment of high-pressure gas cylinders. Its extensive operations cover countries including the United Kingdom, Canada, Germany, Australia, France, Spain, the United States, Norway, Italy, and the wider European market. Beyond manufacturing, it also offers crucial integrity management solutions tailored for safety-critical environments across sectors such as defense, oil and gas, general industry, and hydrogen energy. Previously operating as Pressure Technologies plc, the company officially adopted the name Chesterfield Special Cylinders Holdings Plc in March 2025. Established in 1897, the firm maintains its headquarters in Sheffield, United Kingdom.",
+  "website": "https://www.csc-holdings.com"
 }

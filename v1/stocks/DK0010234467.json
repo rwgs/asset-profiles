@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "DK0010234467"
   },
+  "industry": "Machinery",
   "industry_group": "Commercial & Professional Services",
   "isin": "DK0010234467",
   "kind": "stock",
@@ -12,17 +13,49 @@
       "currency": "DKK",
       "exchange_mic": "XLON",
       "symbol": "0OJA.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "F6O1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "F6O1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "F6O1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "F6O1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FLIDF"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XCSE",
+      "symbol": "FLS.CO"
     }
   ],
-  "name": "FLSMIDTH & CO A/S FLSMIDTH ORD",
+  "market_cap_band": "Mid Cap",
+  "name": "FLSmidth & Co. A/S",
   "primary_symbol": "0OJA.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "FLSMIDTH & CO A/S is a Danish engineering company that provides equipment and services to the cement and mining industries. The company supplies machinery, systems, and services for the entire cement production process and for mineral processing. Its headquarters are located in Copenhagen, Denmark."
+  "summary": "FLSMIDTH & CO A/S is a Danish engineering company that provides equipment and services to the cement and mining industries. The company supplies machinery, systems, and services for the entire cement production process and for mineral processing. Its headquarters are located in Copenhagen, Denmark.",
+  "website": "http://www.flsmidth.com"
 }

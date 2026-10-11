@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000K268J8",
+    "composite_figi": "BBG000BWQFY7",
     "cusip": "949746101",
-    "figi": "BBG000K26DD3",
+    "figi": "BBG000BWQHB8",
     "isin": "US9497461015"
   },
   "industry": "Banks",
@@ -13,14 +13,29 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "WFC"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "NWT.BE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "NWT.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "NWT.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NWT.F"
     },
     {
       "currency": "EUR",
@@ -43,20 +58,32 @@
       "symbol": "NWT.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XSGO",
+      "symbol": "WFC.SN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "WFC.VI"
+    },
+    {
       "currency": "CLP",
       "exchange_mic": "XSGO",
       "symbol": "WFCCL.SN"
     }
   ],
-  "name": "WELLS FARGO + CO.DL 1,666",
-  "primary_symbol": "NWT.BE",
+  "market_cap_band": "Mega Cap",
+  "name": "Wells Fargo & Company",
+  "primary_symbol": "WFC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Wells Fargo & Company is a diversified financial services company providing banking, investment and mortgage products and services, as well as consumer and commercial finance, through banking locations and offices across the United States. Headquartered in San Francisco, California, the company serves individuals, businesses and institutions. Wells Fargo focuses on meeting customers’ financial needs and building long-term relationships."
+  "summary": "Wells Fargo & Company (NYSE: WFC) is a leading financial services company that has approximately $1.9 trillion in assets and proudly serves one in three U.S. households and more than 10% of all middle market companies in the U.S. We provide a diversified set of banking, investment and mortgage products and services, as well as consumer and commercial finance, through our four reportable operating segments: Consumer Banking and Lending, Commercial Banking, Corporate and Investment Banking, and Wealth and Investment Management. Wells Fargo ranked No. 30 on Fortune's 2020 rankings of America's largest corporations. In the communities we serve, the company focuses its social impact on building a sustainable, inclusive future for all by supporting housing affordability, small business growth, financial health and a low-carbon economy.",
+  "website": "http://www.wellsfargo.com"
 }

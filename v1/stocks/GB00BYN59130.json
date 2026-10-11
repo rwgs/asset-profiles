@@ -3,28 +3,51 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000GHQKL8",
-    "figi": "BBG000GHRQ52",
+    "figi": "BBG000GHQL18",
     "isin": "GB00BYN59130"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "GB00BYN59130",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DKOB.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "DKOB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DKOB.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DMPZF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "DOM.L"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "DOMINO'S PIZZA LS-,005208",
-  "primary_symbol": "DKOB.MU",
+  "name": "Domino's Pizza Group plc",
+  "primary_symbol": "DKOB.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary"
+  "sector": "Consumer Discretionary",
+  "summary": "Domino's Pizza Group plc owns, operates, and franchises Domino's Pizza stores. It operates 1,147 stores in the United Kingdom and 54 stores in the Republic of Ireland. The company was formerly known as Domino's Pizza UK & IRL plc and changed its name to Domino's Pizza Group plc in May 2012. Domino's Pizza Group plc was founded in 1960 and is headquartered in Milton Keynes, the United Kingdom.",
+  "website": "http://corporate.dominos.co.uk"
 }

@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00K9XR3Z9",
-    "figi": "BBG00K9XR469",
+    "composite_figi": "BBG003MN93C9",
+    "cusip": "Y41053102",
+    "figi": "BBG00DGT2043",
     "isin": "MHY410531021"
   },
   "industry": "Marine",
@@ -11,6 +12,11 @@
   "isin": "MHY410531021",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "INSW"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -20,17 +26,24 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "IS5.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IS5.F"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "INTERNATIONAL SEAWAYS INC",
-  "primary_symbol": "IS5.BE",
+  "name": "International Seaways, Inc.",
+  "primary_symbol": "INSW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials"
+  "sector": "Industrials",
+  "summary": "International Seaways, Inc. owns and operates a fleet of oceangoing vessels for the transportation of crude oil and petroleum products in the International Flag trade. It operates through two segments, Crude Tankers and Product Carriers. As of March 12, 2021, the company owned and operated a fleet of 36 vessels, including 11 very large crude carriers, 2 Suezmaxes, 4 Aframaxes/LR2s, 13 Panamaxes/LR1s, and 4 medium range tankers, as well as had ownership interests in two floating storage and offloading service vessels. It serves independent and state-owned oil companies, oil traders, refinery operators, and international government entities. The company was formerly known as OSG International, Inc. and changed its name to International Seaways, Inc. in October 2016. The company was incorporated in 1999 and is headquartered in New York, New York.",
+  "website": "http://intlseas.com"
 }

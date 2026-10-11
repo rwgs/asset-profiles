@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG00ZGFRF62",
     "cusip": "06683R101",
-    "figi": "BBG00ZGFRFB6",
+    "figi": "BBG00ZGFRF80",
     "isin": "CA06683R1010"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "IT Services",
+  "industry_group": "Software & Services",
   "isin": "CA06683R1010",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AC00.DU"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "BNXA.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BNXAF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA06683R1010.SG"
     }
   ],
-  "name": "BANXA HOLDINGS INC",
-  "primary_symbol": "CA06683R1010.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Banxa Holdings Inc.",
+  "primary_symbol": "AC00.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "BANXA HOLDINGS INC is a payment service provider focused on enabling cryptocurrency exchanges and other businesses to offer fiat-to-crypto and crypto-to-fiat conversions. The company provides a platform for users to buy and sell cryptocurrencies using various payment methods. Banxa Holdings Inc. is headquartered in Melbourne, Australia."
+  "sector": "Information Technology",
+  "summary": "Banxa Holdings Inc. operates as a payments service provider for the digital asset space. The company's flagship product is a Plug-and-Play Fiat Onramp that allows seamless access to digital currencies through various payment methods. Its product line is diversified by a B2B offering or B2C websites. The company was founded in 2014 and is based in Vancouver, Canada.",
+  "website": "http://www.banxa.com"
 }

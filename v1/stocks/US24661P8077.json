@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C15720",
+    "composite_figi": "BBG000BY2VF5",
     "cusip": "24661P807",
-    "figi": "BBG000C158F4",
+    "figi": "BBG000BY2VF5",
     "isin": "US24661P8077"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US24661P8077",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "DCTH"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DV3R.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US24661P8077.SG"
     }
   ],
-  "name": "DELCATH SYSTEMS INC",
-  "primary_symbol": "US24661P8077.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Delcath Systems, Inc.",
+  "primary_symbol": "DCTH",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "DELCATH SYSTEMS INC is an interventional oncology company focused on delivering targeted therapies for the treatment of cancer. Their primary product is CHEMOSAT, a system for delivering chemotherapy directly to the liver. The company is headquartered in Queens Village, New York."
+  "summary": "Delcath Systems, Inc., an interventional oncology company, focuses on the treatment of primary and metastatic liver cancers in the United States and Europe. The company's lead product candidate is HEPZATO KIT, a melphalan hydrochloride for injection/hepatic delivery system to administer high-dose chemotherapy to the liver while controlling systemic exposure and associated side effects. Its clinical development program for HEPZATO includes the FOCUS clinical trial for patients with hepatic dominant ocular melanoma to investigate objective response rate in metastatic ocular melanoma; and the ALIGN trial, a Phase 3 clinical trial for intrahepatic cholangiocarcinoma. The company also provides HEPZATO as a stand-alone medical device for sale under the CHEMOSAT Hepatic Delivery System for Melphalan trade name for medical centers to treat a range of liver cancers in Europe. Delcath Systems, Inc. was incorporated in 1988 and is headquartered in New York, New York.",
+  "website": "http://www.delcath.com"
 }

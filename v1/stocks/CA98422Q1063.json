@@ -2,8 +2,11 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "cusip": "98422Q106",
     "isin": "CA98422Q1063"
   },
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "CA98422Q1063",
   "kind": "stock",
   "listings": [
@@ -11,16 +14,34 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "0PL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0PL.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "XTRA.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XTRAF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Xtract One Technologies Inc",
   "primary_symbol": "0PL.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "Xtract One Technologies Inc., together with its subsidiaries, engages in the research, development, and commercialization integrated, layered, artificial intelligence powered threat detection gateway solutions, with the aim of enhancing public safety in the United States, Japan, France, the United Kingdom, and Canada. It operates through two segments, Platform and Xtract. The Platform segment develops and commercializes artificial intelligence (AI)-powered threat detection gateway solutions. Its Xtract segment develops and commercializes AI solutions. The company's products include SafeGateway which automatically scans entrants for concealed weapons, such as guns, knives, and IED components in stadiums, arenas, live entertainment venues, theaters, casinos, nightclubs, art galleries, and other attractions for security screening applications; and SmartGateway that scans patrons for guns, knives, and other prohibited items through AI-powered sensors to detect threats without invading the sense of privacy and comfort of patrons. It also offers Xtract One Gateway for weapons detection in environments with medium volume of personal belongings on entrance, including laptops; and Xtract One View, a cloud-based platform that provides a central management system from which to monitor and manage SmartGateways and analyze facility ingress. The company serves the arena and stadium, ticket venue and attraction, casino, workplace, school, and healthcare industries. Xtract One Technologies Inc. is headquartered in Toronto, Canada.",
+  "website": "https://xtractone.com"
 }

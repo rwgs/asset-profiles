@@ -29,8 +29,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AMD.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "AMD.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AMD.DU"
     },
     {
       "currency": "EUR",
@@ -39,8 +49,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AMD.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AMD.HM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "AMD.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AMD.MU"
     },
     {
       "currency": "MXN",
@@ -51,6 +76,11 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AMD.SG"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "AMD.SW"
     },
     {
       "currency": "EUR",
@@ -67,7 +97,7 @@
   "name": "Advanced Micro Devices, Inc.",
   "primary_symbol": "AMD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

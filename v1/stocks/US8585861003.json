@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG006Z58WN2",
-    "figi": "BBG006Z58WP0",
+    "composite_figi": "BBG000BSMFN2",
+    "cusip": "858586100",
+    "figi": "BBG000BSMFN2",
     "isin": "US8585861003"
   },
   "industry": "Chemicals",
@@ -11,6 +12,11 @@
   "isin": "US8585861003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SCL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -22,11 +28,11 @@
       "symbol": "US8585861003.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Stepan Company",
-  "primary_symbol": "96S.F",
+  "primary_symbol": "SCL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

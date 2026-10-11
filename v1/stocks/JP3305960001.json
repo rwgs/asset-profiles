@@ -2,29 +2,42 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00JR3MMQ1",
-    "figi": "BBG00JR3MN61",
+    "composite_figi": "BBG0032PK2C5",
+    "figi": "BBG003MBYDL5",
     "isin": "JP3305960001"
   },
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry": "Entertainment",
+  "industry_group": "Media & Entertainment",
   "isin": "JP3305960001",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "3668.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3C8.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JP3305960001.SG"
     }
   ],
-  "name": "COLOPL INC",
-  "primary_symbol": "JP3305960001.SG",
+  "market_cap_band": "Small Cap",
+  "name": "COLOPL,Inc.",
+  "primary_symbol": "3668.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "COLOPL, INC. is a mobile game developer and publisher known for creating popular smartphone games. The company develops and operates games for iOS and Android platforms, focusing on innovative and engaging gameplay experiences. COLOPL INC is headquartered in Tokyo, Japan."
+  "sector": "Communications",
+  "summary": "COLOPL, Inc., headquartered in Tokyo, Japan and formed in 2008, is known for developing mobile games for smartphone users in Japan and worldwide. It also offers virtual reality device content, consulting on location data analytics for government bodies and companies, browser games, other digital content and video games, and has venture capital activities.",
+  "website": "http://www.colopl.co.jp/en"
 }

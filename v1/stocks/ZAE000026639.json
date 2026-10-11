@@ -2,15 +2,20 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000C0HZL6",
-    "figi": "BBG000C0J2Z2",
+    "composite_figi": "BBG000BYF416",
+    "figi": "BBG000BYF5F8",
     "isin": "ZAE000026639"
   },
-  "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "isin": "ZAE000026639",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "BAW.JO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +23,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BRL1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BRL1.MU"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "BARLOWORLD  RC-,05",
-  "primary_symbol": "BRL1.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Barloworld Limited",
+  "primary_symbol": "BAW.JO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy"
+  "sector": "Industrials",
+  "summary": "Barloworld Limited distributes products that provide integrated rental, fleet management, product support, and logistics solutions in South Africa, Europe, and Russia. The company operates through Equipment and Handling, and Automotive and Logistics segments. It offers short-term vehicle rental services; long-term leasing and fleet management services; insurance products; aftermarket service, including parts sales; and salvage management solution. The company also sells new, used, and demo cars; engages in the franchised motor vehicle retailing under Audi, BMW, Ford, Toyota, Lexus, Isuzu, Mazda, Volkswagen, and Mercedes-Benz brands; and invests in online platforms and toolsets for asset disposals. In addition, it operates as a dealer for the Cat construction, mining, and industrial machines; rents Cat machines; supplies power train, engines, and hydraulics to the mining and civil engineering customers; and provides after-sales solutions through service centers. In addition, it offers warehousing and distribution, supply chain advisory and management, freight forwarding, and transport management services; provides supply chain planning, environmental, rail supply chain, and temperature controlled solutions. Barloworld Limited was founded in 1902 and is based in Sandton, South Africa.",
+  "website": "http://www.barloworld.com"
 }

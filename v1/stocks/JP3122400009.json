@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C16Y75",
-    "figi": "BBG000C17158",
+    "composite_figi": "BBG000BGN014",
+    "figi": "BBG000BGN078",
     "isin": "JP3122400009"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "JP3122400009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6857.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ADTTF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VAN.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "VAN.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "VAN.SG"
     }
   ],
-  "name": "Advantest Corp.",
-  "primary_symbol": "VAN.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Advantest Corporation",
+  "primary_symbol": "6857.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Advantest Corporation is a leading manufacturer of automatic test equipment (ATE) for the semiconductor industry and electronic instruments. Their products are used in the design and production of semiconductors. Advantest is headquartered in Tokyo, Japan."
+  "summary": "Advantest Corporation manufactures and sells semiconductor and component test system products and mechatronics-related products. It operates through three segments: Semiconductor and Component Test System; Mechatronics System; and Services, Support and Others. The Semiconductor and Component Test System segment provides customers with test system products for the semiconductor industry and the electronic parts industry. This segment offers test systems for SoC semiconductor devices; and test systems for memory semiconductors devices. The Mechatronics System segment provides test handlers; mechatronic-applied products for handling semiconductor devices; and device interfaces, which serve as interfaces with the devices that are measured. This segment also engages in the operations related to nano-technology products. The Services, Support and Others segment provides customer solutions for the semiconductor and component test system and mechatronics system segments; and support services. This segment is also involved in the sale of consumables and used products; and equipment lease business and others. In addition, the company engages in the research and development activities measuring and testing technologies. Advantest Corporation serves fabless semiconductor companies, foundries, and test houses, as well as industrial, design, and manufacturing companies in Japan, rest of Asia, the United States, and Europe. Advantest Corporation has collaboration with STMicroelectronics on advanced automated test cell for IC Testing; and partnership with PDF Solutions Inc. for cloud-based software solutions. The company was founded in 1954 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.advantest.com"
 }

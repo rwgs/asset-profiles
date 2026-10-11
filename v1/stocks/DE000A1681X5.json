@@ -1,15 +1,21 @@
 {
-  "country": "Romania",
-  "country_code": "RO",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BW0JX8",
-    "figi": "BBG000BW0LH1",
+    "composite_figi": "BBG00D1V4B84",
+    "figi": "BBG00NRVY851",
     "isin": "DE000A1681X5"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "DE000A1681X5",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RH3.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SNG.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SNG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SNG.F"
     },
     {
       "currency": "EUR",
@@ -34,17 +50,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "SNG.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SNG.SG"
     }
   ],
-  "name": "SINGULUS TECHNOL. EO 1",
-  "primary_symbol": "SNG.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Singulus Technologies AG",
+  "primary_symbol": "0RH3.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Singulus Technologies AG is a German mechanical engineering company specializing in thin-film coating technology and surface treatment. Headquartered in Kahl am Main, Germany, the company develops and manufactures machines for the production of solar cells, optical discs, and other coated products. Its business model revolves around selling and servicing its specialized equipment."
+  "summary": "Singulus Technologies AG, together with its subsidiaries, develops, builds, and sells machinery in the areas of vacuum deposition, surface engineering, wet chemical, and thermal processing technologies worldwide. The company operates through three segments: Solar, Life Science, and Semiconductor. The Solar segment develops production solutions to manufacture solar cell concepts, including heterojunction, interdigitated back contact, and tunnel oxide passivated contacts for crystalline and thin-film solar cells. The Life Science segment offers product solutions for medical technology, decorative coating, and data storage; and develops an integrated product line DECOLINE II, inline vacuum cathode sputtering machine POLYCOATER, and MEDLINE for application in medical technologies. This segment also provides data storage machines for the production of optical disc formats comprising of CD, DVD, dual layer Blu-ray, and Ultra HD Blu-ray discs. The Semiconductor segment supplies special purpose machines and machine platforms, such as TIMARIS and ROTARIS for use in magneto resistive random access memory, sensors, power controllers, and microelectromechanical systems. Singulus Technologies AG was founded in 1995 and is headquartered in Kahl am Main, Germany.",
+  "website": "http://www.singulus.de"
 }

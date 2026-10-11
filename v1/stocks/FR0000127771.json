@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BC0QR3",
     "isin": "FR0000127771"
   },
+  "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
   "isin": "FR0000127771",
   "kind": "stock",
@@ -16,18 +17,85 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "VIV.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "VIV.PA"
+    },
+    {
+      "currency": "EUR",
       "symbol": "VIV.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "VIV.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VIVEF"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "VIVENN.MX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "VVU.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "VVU.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VVU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "VVU.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "VVU.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VVU.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VVU.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VVVNF"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Vivendi SE",
   "primary_symbol": "FR0000127771.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "VIVENDI SE is a French media and content group with interests in music, television, publishing, and advertising. The company owns Universal Music Group, Canal+ Group, Havas, and Editis; headquarters are located in Paris, France. Vivendi operates globally in the media and entertainment sectors."
+  "summary": "Vivendi SE is a French media and content group with interests in music, television, publishing, and advertising. The company owns Universal Music Group, Canal+ Group, Havas, and Editis; headquarters are located in Paris, France. Vivendi operates globally in the media and entertainment sectors.",
+  "website": "http://www.vivendi.com"
 }

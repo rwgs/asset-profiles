@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000M1R823",
-    "figi": "BBG000M1R9T2",
+    "composite_figi": "BBG007R9GLJ1",
+    "figi": "BBG00SYG77X6",
     "isin": "DE0005895403"
   },
   "industry": "Auto Components",
@@ -13,8 +13,23 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0OQX.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GMM.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "GMM.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "GMM.DU"
     },
     {
       "currency": "EUR",
@@ -23,21 +38,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "GMM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "GMM.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GMM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GMM.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "GMM.VI"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Grammer AG",
-  "primary_symbol": "GMM.DE",
+  "primary_symbol": "0OQX.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Grammer AG develops, produces, and sells components and systems for automotive interiors worldwide. It operates in two divisions, Automotive and Commercial Vehicles. The Automotive division supplies headrests, armrests, center consoles, and interior components and operating elements to automakers and automotive tier-I suppliers, as well as thermoplastic solutions. The Commercial Vehicles division offers driver and passenger seats for agricultural and construction machinery, forklifts, trucks, buses, and trains, as well as to bus and rolling stock OEMs and railway operators. The company was founded in 1880 and is based in Ursensollen, Germany. Grammer AG is a subsidiary of Ningbo Jifeng Auto Parts Co., Ltd.",
-  "website": "http://www.grammer.com"
+  "summary": "GRAMMER AG develops and manufactures components and systems for passenger car interiors as well as driver and operator seats for offroad vehicles, trucks, buses, and trains. Their products include headrests, armrests, center consoles, and integrated headrests. GRAMMER AG is headquartered in Amberg, Germany.",
+  "website": "https://www.grammer.com"
 }

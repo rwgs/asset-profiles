@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00Z844224",
+    "figi": "BBG00Z844233",
     "isin": "IT0005108219"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -11,15 +13,20 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "95H.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "IGV.MI"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "iGrandiViaggi S.p.A.",
-  "primary_symbol": "IGV.MI",
+  "primary_symbol": "95H.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BP56V8",
+    "composite_figi": "BBG0093MWSL8",
     "cusip": "33767E202",
-    "figi": "BBG000BP5791",
+    "figi": "BBG0093MWSL8",
     "isin": "CA33767E2024"
   },
   "industry": "Real Estate Management & Development",
@@ -13,16 +13,31 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "FSV"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1GIA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1GIA.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "FSV.TO"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "FirstService Corporation",
-  "primary_symbol": "1GIA.F",
+  "primary_symbol": "FSV",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

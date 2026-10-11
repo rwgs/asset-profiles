@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHW8CZ6",
+    "figi": "BBG00JHW8D02",
     "isin": "FR0013258399"
   },
   "industry": "Machinery",
@@ -16,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1BO.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1BO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1BO.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1BO.SG"
     },
     {
       "currency": "EUR",
@@ -34,7 +51,7 @@
   "name": "Balyo SA",
   "primary_symbol": "0RQF.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

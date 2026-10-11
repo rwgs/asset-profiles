@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG00R24WF46",
     "cusip": "127106102",
-    "figi": "BBG00R24WF82",
+    "figi": "BBG00R24WF55",
     "isin": "CA1271061022"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA1271061022",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C3J.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA1271061022.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CBGZF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "CBR.V"
     }
   ],
-  "name": "CABRAL GOLD INC",
-  "primary_symbol": "CA1271061022.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Cabral Gold Inc.",
+  "primary_symbol": "C3J.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "CABRAL GOLD INC is a mineral exploration company focused on exploring for gold in Brazil. The company's primary focus is on the Cuiú Cuiú Gold District in the Tapajós region of northern Brazil. Cabral Gold Inc. is headquartered in Vancouver, British Columbia, Canada."
+  "summary": "Cabral Gold Inc., a junior resource company, engages in the identification, exploration, and development of mineral properties with a primary focus on gold properties located in Brazil. The company principally holds 100% interests in the Cuiú Cuiú gold project covering an area of 41,576.08 hectares located in the Tapajos Region within the state of Para in northern Brazil. Cabral Gold Inc. is based in Vancouver, Canada.",
+  "website": "http://www.cabralgold.com"
 }

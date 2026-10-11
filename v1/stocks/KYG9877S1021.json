@@ -1,9 +1,9 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "Hong Kong",
+  "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000GJKG57",
-    "figi": "BBG000GJKK12",
+    "composite_figi": "BBG000L71Q29",
+    "figi": "BBG000L71QY4",
     "isin": "KYG9877S1021"
   },
   "industry": "Professional Services",
@@ -11,6 +11,11 @@
   "isin": "KYG9877S1021",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0629.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -20,19 +25,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "YDAB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "YDAB.MU"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Yue Da International Holdings Limited",
-  "primary_symbol": "KYG9877S1021.SG",
+  "primary_symbol": "0629.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Yue Da International Holdings Limited, an investment holding company, operates in the factoring business in the People's Republic of China. It offers trade finance, sales ledger management, customer credit rating, accounts receivable management and collection, credit risk guarantee, and supply chain management services. The company was formerly known as Yue Da Mining Holdings Limited and changed its name to Yue Da International Holdings Limited in December 2018. Yue Da International Holdings Limited was incorporated in 2001 and is headquartered in Sheung Wan, Hong Kong. Yue Da International Holdings Limited is a subsidiary of Yue Da Capital (H.K.) Limited.",
+  "summary": "Yue Da International Holdings Limited is an investment holding company mainly engaged in factoring in China, offering consultancy, collection solutions and management of accounts receivable. Established in 2001 with its main office in Sheung Wan, Hong Kong, it changed its name from Yue Da Mining Holdings Limited in December 2018.",
   "website": "http://www.yueda.com.hk"
 }

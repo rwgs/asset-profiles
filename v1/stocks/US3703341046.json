@@ -7,8 +7,8 @@
     "figi": "BBG000BKCHJ1",
     "isin": "US3703341046"
   },
-  "industry": "Food & Staples Retailing",
-  "industry_group": "Food & Staples Retailing",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "US3703341046",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "GIS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0R1X.L"
     },
     {
       "currency": "BRL",
@@ -34,13 +39,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GRM.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "GRM.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "GRM.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "GRM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GRM.MU"
     },
     {
       "currency": "EUR",
@@ -52,7 +72,7 @@
   "name": "General Mills, Inc.",
   "primary_symbol": "GIS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

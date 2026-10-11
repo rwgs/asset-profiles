@@ -39,8 +39,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TKD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TKD.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TKD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TKD.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TKD.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TKD.MU"
     },
     {
       "currency": "EUR",
@@ -53,16 +78,6 @@
       "symbol": "TKD.VI"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "TKDA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "TKDA.SG"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "TKPHF"
@@ -72,7 +87,7 @@
   "name": "Takeda Pharmaceutical Co. Ltd.",
   "primary_symbol": "TAK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

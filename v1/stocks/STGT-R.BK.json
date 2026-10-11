@@ -1,6 +1,10 @@
 {
   "country": "Thailand",
   "country_code": "TH",
+  "identifiers": {
+    "composite_figi": "BBG00V4V3MW1",
+    "figi": "BBG00V4V3MX0"
+  },
   "industry": "Chemicals",
   "industry_group": "Materials",
   "kind": "stock",
@@ -11,10 +15,11 @@
       "symbol": "STGT-R.BK"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Sri Trang Gloves (Thailand) Public Company Limited",
   "primary_symbol": "STGT-R.BK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

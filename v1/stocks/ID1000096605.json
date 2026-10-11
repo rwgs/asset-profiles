@@ -2,13 +2,20 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
-    "composite_figi": "BBG000KCFGB6",
-    "figi": "BBG000KCHPT5",
+    "composite_figi": "BBG000HNGY99",
+    "figi": "BBG000HNGYH0",
     "isin": "ID1000096605"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "ID1000096605",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "BBNI.JK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -16,18 +23,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BKE1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BKE1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BKE1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PBNNF"
     }
   ],
-  "market_cap_band": "Mega Cap",
-  "name": "BK NEGARA IND.  RP 7500",
-  "primary_symbol": "BKE1.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "PT Bank Negara Indonesia (Persero) Tbk",
+  "primary_symbol": "BBNI.JK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "PT Bank Negara Indonesia (Persero) Tbk, together with its subsidiaries, provides various banking products and services in Indonesia, rest of Asia, New York, and Europe. It operates through Corporate Banking, Institutional Banking, Commercial Banking, Consumer Banking, Treasury & International Banking, Head Office, and Subsidiaries segments. The company offers savings; savings plan and FIPF products; loans; credit cards; bancassurance, payroll, and simulation services; safe deposit boxes, bank references, bonds, foreign bank notes, and mobile banking services; services to collect payments or valuable documents; and Xpora, a digital solution for small and medium enterprises. It also provides business banking, funding, lending, trade finance, smart remittance, foreign direct investment, collection and liquidity management, payment management, supply chain financing, consumer financing, wealth management, and custody and trust services; financial institution products; solutions for industrial sectors; and treasury products. In addition, the company offers insurance and venture capital services; securities; and ATM, phone and SMS banking, mobile and internet banking, and internet payment gateway services. PT Bank Negara Indonesia (Persero) Tbk was founded in 1946 and is headquartered in Jakarta Pusat, Indonesia.",
+  "website": "https://www.bni.co.id"
 }

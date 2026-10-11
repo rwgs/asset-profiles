@@ -2,14 +2,20 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG001BDFD65",
+    "composite_figi": "BBG00JHW6JL8",
+    "figi": "BBG00JHW6JM7",
     "isin": "IT0005054967"
   },
   "industry": "Media",
-  "industry_group": "Telecommunication Services",
+  "industry_group": "Media & Entertainment",
   "isin": "IT0005054967",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0R40.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -22,16 +28,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Rai Way SpA",
-  "primary_symbol": "IT0005054967.SW",
+  "name": "Rai Way S.p.A.",
+  "primary_symbol": "0R40.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "RAI WAY SPA is an Italian infrastructure operator for broadcasting and telecommunications services. They manage radio and television transmission networks and provide services to broadcasters and telecommunications operators. The company is headquartered in Rome, Italy.",
-  "website": "http://www.raiway.it"
+  "summary": "Rai Way S.p.A. is an Italian entity specializing in the ownership and management of television and radio transmission and broadcasting infrastructure across Italy. The company facilitates the delivery of TV and radio signals via both terrestrial and satellite methods, utilizing its expansive network, radio links, satellite technology, and fiber optic systems. Beyond these core transmission activities, Rai Way offers tower co-location services for third-party broadcasting equipment, along with comprehensive management, maintenance, and various complementary solutions. Its extensive service portfolio further includes a wide range of network services, such as bespoke offerings, digital broadcasting networks, advanced transmission networks with integrated management systems, DTT, multimedia communications, and value-added services. The company also provides expertise in project management, organizational structuring, process optimization, and continuous maintenance for its transmission networks. Rai Way primarily caters to broadcasters, telecommunications operators, public administrations, and corporate clients. Founded in 1999, the company is headquartered in Rome, Italy, and operates as a subsidiary of Rai Radiotelevisione italiana S.p.A.",
+  "website": "https://www.raiway.it"
 }

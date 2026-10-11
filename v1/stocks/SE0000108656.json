@@ -2,30 +2,19 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BB0QF8",
-    "cusip": "294821608",
-    "figi": "BBG000BB13V0",
+    "composite_figi": "BBG000BHTZK8",
+    "figi": "BBG000BHV2M6",
     "isin": "SE0000108656"
   },
-  "industry": "Communications Equipment",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Telecommunication Services",
   "isin": "SE0000108656",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "ERIC"
-    },
-    {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "ERCA.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ERCA.F"
+      "exchange_mic": "XBER",
+      "symbol": "ERCB.BE"
     },
     {
       "currency": "EUR",
@@ -34,21 +23,37 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ERCB.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ERCB.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ERCB.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ERCB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ERCB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ERCB.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "ERCB.TI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "ERCG.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ERCG.F"
     },
     {
       "currency": "EUR",
@@ -58,22 +63,7 @@
     {
       "currency": "SEK",
       "exchange_mic": "XSTO",
-      "symbol": "ERIC-A.ST"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
       "symbol": "ERIC-B.ST"
-    },
-    {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "ERIC.BA"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "ERICN.MX"
     },
     {
       "currency": "USD",
@@ -83,15 +73,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Telefonaktiebolaget LM Ericsson (publ)",
-  "primary_symbol": "ERIC",
+  "primary_symbol": "ERCB.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Telefonaktiebolaget LM Ericsson (publ), together with its subsidiaries, provides communication infrastructure, services, and software solutions to the telecom and other sectors. It operates through four segments: Networks, Digital Services, Managed Services, and Emerging Business and Other. The Networks segment offers hardware, software, and related services for radio access and transport, as well as related services, such as design, tuning, network rollout, and customer support. The Digital Services segment provides products and services for operators in the areas of business support systems, operations support systems, cloud core, cloud communication, and cloud infrastructure, as well as consulting, learning, and testing services. The Managed Services segment offers networks and IT managed, network design and optimization, and application development and maintenance services to operators. The Emerging Business and Other segment consists of emerging businesses, including Internet of Things; iconectiv; Cradlepoint that provides wireless edge WAN 4G and 5G enterprise solutions; and Red Bee Media, MediaKind, and other new businesses. It operates in North America, Europe and Latin America, the Middle East and Africa, South East Asia, Oceania, India, North East Asia, and internationally. Telefonaktiebolaget LM Ericsson (publ) was founded in 1876 and is headquartered in Stockholm, Sweden.",
+  "sector": "Communications",
+  "summary": "Telefonaktiebolaget LM Ericsson is a Swedish multinational networking and telecommunications company. It provides infrastructure, services and software to the telecommunications industry. Ericsson is headquartered in Stockholm, Sweden.",
   "website": "http://www.ericsson.com"
 }

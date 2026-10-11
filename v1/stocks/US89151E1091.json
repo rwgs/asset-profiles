@@ -2,7 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000HR3793",
     "cusip": "89151E109",
+    "figi": "BBG000HR3C10",
     "isin": "US89151E1091"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -11,37 +13,20 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XLON",
-      "symbol": "0A30.IL"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "TOTA.F"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "TOTA.MU"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "TTEN"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "TotalEnergies SE",
-  "primary_symbol": "0A30.IL",
+  "name": "TOTALENERGIE SPONS. ADR 1",
+  "primary_symbol": "TOTA.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "TOTALENERGIES SE TOTAL ADR REPS is a broad energy company that produces and markets fuels, natural gas and electricity. It has operations in more than 130 countries and its headquarters is in Courbevoie, France.",
-  "website": "http://www.total.com"
+  "summary": "TotalEnergies SE is a French multinational integrated energy and petroleum company. The company is involved in the production and marketing of fuels, natural gas, and electricity. TotalEnergies is headquartered in Courbevoie, France."
 }

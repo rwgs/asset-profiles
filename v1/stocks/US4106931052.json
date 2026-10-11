@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000MDN4R3",
+    "composite_figi": "BBG004K945Q5",
     "cusip": "410693105",
-    "figi": "BBG000MDN7D1",
+    "figi": "BBG004K945S3",
     "isin": "US4106931052"
   },
   "industry": "Insurance",
@@ -14,28 +14,13 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "HNR1.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "HNR1.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "HNR1.VI"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HNRB.F"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "HVRRF"
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HNRB.SG"
     },
     {
       "currency": "USD",
@@ -45,9 +30,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Hannover Ruck SE",
-  "primary_symbol": "HNR1.DE",
+  "primary_symbol": "HNRB.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

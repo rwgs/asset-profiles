@@ -6,6 +6,7 @@
     "figi": "BBG00R4RZ0D3",
     "isin": "AU000000KSN7"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU000000KSN7",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000KSN7.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "KSN.AX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RZZ.F"
     }
   ],
-  "name": "KINGSTON RESOURCES LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Kingston Resources Limited",
   "primary_symbol": "AU000000KSN7.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Kingston Resources Ltd is an Australian gold exploration and development company focused on the Misima Gold Project in Papua New Guinea. The company aims to develop a long-life gold mine."
+  "summary": "Kingston Resources Ltd is an Australian gold exploration and development company focused on the Misima Gold Project in Papua New Guinea. The company aims to develop a long-life gold mine.",
+  "website": "http://www.kingstonresources.com.au"
 }

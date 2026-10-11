@@ -2,6 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG000C5K5K8",
+    "figi": "BBG000C5K5V6",
     "isin": "CNE1000002J7"
   },
   "industry": "Marine",
@@ -10,14 +12,39 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1919.HK"
+    },
+    {
       "currency": "CNY",
       "exchange_mic": "XSHG",
       "symbol": "601919.SS"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C6G.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "C6G.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "C6G.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "C6G.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C6G.MU"
     },
     {
       "currency": "EUR",
@@ -28,24 +55,19 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CICOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CICOY"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "COSCO SHIPPING Holdings Co Ltd.",
-  "primary_symbol": "601919.SS",
+  "name": "COSCO SHIPPING Holdings Co., Ltd.",
+  "primary_symbol": "1919.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "COSCO SHIPPING Holdings Co., Ltd., an investment holding company, engages in the container shipping, container terminals, and other businesses in the United States, Europe, the Asia Pacific, Mainland China, and internationally. The company operates through Container Shipping Business, Container Terminal Business, and Corporate and Other Operations segments. It offers container transportation, container stack, cargo storage, freight forwarding and transportation, logistics, vessel chartering, marine, document, vessel management and manning, shipping lines, vessel owning, and other international sea transportation services, as well as operates shipping and liner agencies. The company also provides technology services and solutions; and designs and manufactures computer software. As of December 31, 2020, it operated a fleet of 536 container vessels with a total shipping capacity of 3,073,684 TEUs. The company was formerly known as China COSCO Holdings Company Limited and changed its name to COSCO SHIPPING Holdings Co., Ltd. in November 2016. COSCO SHIPPING Holdings Co., Ltd. was incorporated in 2005 and is based in Shanghai, the People's Republic of China.",
+  "summary": "COSCO SHIPPING Holdings Co., Ltd., founded in 2005 and headquartered in Shanghai, is an investment holding company in global container shipping and container terminals, active in North America, Europe, Asia Pacific and mainland China. It has container shipping and terminal business divisions, plus freight forwarding, vessel chartering, ship management and liner agency services. It was originally China COSCO Holdings Company Limited until November 2016.",
   "website": "http://hold.coscoshipping.com"
 }

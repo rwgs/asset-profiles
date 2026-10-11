@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "SE0005190238"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "SE0005190238",
   "kind": "stock",
@@ -25,20 +26,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NCYD.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NCYD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NCYD.SG"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "TEL2-B.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TLTZF"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Tele2 AB Class B",
   "primary_symbol": "0QE6.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Tele2 AB is a Swedish telecommunications operator providing a range of services, including mobile and fixed telephony, broadband, data network services, cable TV, and content services, primarily in Sweden and the Baltics. The company focuses on providing innovative and cost-efficient solutions for both consumers and businesses, with a strong emphasis on mobile communications. Tele2 is headquartered in Stockholm, Sweden."
+  "summary": "Tele2 AB is a Swedish telecommunications operator providing a range of services, including mobile and fixed telephony, broadband, data network services, cable TV, and content services, primarily in Sweden and the Baltics. The company focuses on providing innovative and cost-efficient solutions for both consumers and businesses, with a strong emphasis on mobile communications. Tele2 is headquartered in Stockholm, Sweden.",
+  "website": "http://www.tele2.com"
 }

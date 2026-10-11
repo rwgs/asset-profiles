@@ -2,31 +2,42 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000C2FY46",
-    "figi": "BBG000C2FYC7",
+    "composite_figi": "BBG000K1JCP0",
+    "figi": "BBG000K1JCY0",
     "isin": "ZAE000028296"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "ZAE000028296",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IUE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IUE.SG"
+    },
     {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "TRU.JO"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Truworths International Limited",
-  "primary_symbol": "TRU.JO",
+  "primary_symbol": "IUE.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Truworths International Limited, an investment holding and management company, engages in the retail of fashion apparel, footwear, and related merchandise and homeware. It operates through Truworths and Office segments. The company operates approximately 728 stores in South Africa; and 49 stores in the rest of Africa. It serves in South Africa, the United Kingdom, Germany, the Republic of Ireland, and other sub-Saharan African countries. Truworths International Limited was founded in 1917 and is based in Cape Town, South Africa.",
+  "summary": "Truworths International Ltd is a South African-based retailer of fashion clothing, footwear, and accessories. The company operates through various retail brands, targeting different customer segments. Truworths International is headquartered in Cape Town, South Africa.",
   "website": "http://www.truworthsinternational.com"
 }

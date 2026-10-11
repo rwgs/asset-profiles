@@ -2,30 +2,48 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00GP93FP3",
+    "composite_figi": "BBG000QYF0M5",
     "cusip": "14167R100",
-    "figi": "BBG00GP93K18",
+    "figi": "BBG000QYF0M5",
     "isin": "US14167R1005"
   },
-  "industry_group": "Software & Services",
+  "industry": "Health Care Technology",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "US14167R1005",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "CCLD"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "MTBC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MTB0.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US14167R1005.SG"
     }
   ],
-  "name": "CARECLOUD INC",
-  "primary_symbol": "US14167R1005.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "CareCloud Inc. Common Stock",
+  "primary_symbol": "CCLD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "CARECLOUD INC provides cloud-based healthcare technology solutions for medical practices. Headquartered in Somerset, New Jersey, the company offers electronic health records (EHR), practice management, and revenue cycle management software. CareCloud aims to help healthcare providers improve efficiency, enhance patient care, and optimize financial performance."
+  "sector": "Health Care",
+  "summary": "CareCloud Inc. (formerly MTBC) is a healthcare technology company that provides cloud-based software and services to healthcare providers. The company offers solutions for practice management, electronic health records (EHR), revenue cycle management, and patient engagement. CareCloud is headquartered in Somerset, New Jersey.",
+  "website": "http://www.carecloud.com"
 }

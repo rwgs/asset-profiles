@@ -6,7 +6,7 @@
     "figi": "BBG000DX9J10",
     "isin": "BMG2442N1048"
   },
-  "industry": "Marine",
+  "industry": "Transportation Infrastructure",
   "industry_group": "Transportation",
   "isin": "BMG2442N1048",
   "kind": "stock",
@@ -22,14 +22,34 @@
       "symbol": "CSPKF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CSPKY"
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CTH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CTH.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CTH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "CTH.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CTH.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CTH.MU"
     },
     {
       "currency": "EUR",
@@ -41,7 +61,7 @@
   "name": "COSCO SHIPPING Ports Limited",
   "primary_symbol": "1199.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

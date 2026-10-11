@@ -2,28 +2,72 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000KR9YG6",
+    "composite_figi": "BBG007R9GW25",
+    "figi": "BBG007R9GW43",
     "isin": "BE0003822393"
   },
+  "industry": "Electric Utilities",
   "industry_group": "Utilities",
   "isin": "BE0003822393",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NTU.IL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "BE0003822393.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "E4S.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "E4S.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "E4S.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "E4S.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "ELI.BR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ELIA.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ELIAF"
     }
   ],
-  "name": "ELIA GROUP SA/NV",
-  "primary_symbol": "BE0003822393.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Elia Group SA/NV",
+  "primary_symbol": "0NTU.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "ELIA GROUP SA/NV is a transmission system operator (TSO) responsible for operating and developing the high-voltage electricity grid in Belgium and part of Germany; the company is headquartered in Brussels, Belgium. They ensure the reliable and secure transport of electricity across their networks. Their business model is based on regulated tariffs and infrastructure investments in the energy sector."
+  "summary": "Elia System Operator NV is a Belgian electricity transmission system operator. It manages the high-voltage electricity grid in Belgium and part of Germany. The company is headquartered in Brussels, Belgium.",
+  "website": "http://www.elia.be"
 }

@@ -2,6 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000BQNKM5",
+    "figi": "BBG000BQNKS9",
     "isin": "GB0009697037"
   },
   "industry": "Construction & Engineering",
@@ -26,6 +28,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BW3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BW3.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BW3.F"
     },
@@ -39,7 +51,7 @@
   "name": "Babcock International Group Plc",
   "primary_symbol": "BAB.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

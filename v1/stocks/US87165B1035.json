@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG006X0Y3G8",
+    "composite_figi": "BBG00658F3P3",
     "cusip": "87165B103",
-    "figi": "BBG006X0Y3N0",
+    "figi": "BBG00658F3W5",
     "isin": "US87165B1035"
   },
+  "industry": "Consumer Finance",
   "industry_group": "Diversified Financials",
   "isin": "US87165B1035",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SYF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LC3.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +29,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SFE.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SFE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SFE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SFE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SFE.SG"
     }
   ],
-  "name": "SYNCHRONY FIN.  DL-,001",
-  "primary_symbol": "SFE.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Synchrony Financial",
+  "primary_symbol": "SYF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Synchrony Financial is a consumer financial services company that provides credit products and services. The company offers private label credit cards, installment loans, and other financial solutions. The company is based in the United States."
+  "summary": "Synchrony Financial operates as a consumer financial services company in the United States. It provides a range of specialized financing programs and consumer banking products to digital, retail, home, auto, travel, health, and pet industries. The company also offers private label credit cards, dual cards, general purpose co-branded credit cards, and small and medium-sized business credit products; and promotional financing for consumer purchases, such as private label credit cards, dual cards, and installment loans. In addition, it provides promotional financing to consumers for health, veterinary and personal care procedures, and services and products, such as dental, vision, audiology, and cosmetic; debt cancellation products; and deposit products, including certificates of deposit, individual retirement accounts, money market accounts, and savings accounts to retail and commercial customers, as well as accepts deposits through third-party securities brokerage firms. The company offers its credit products through programs established with a group of national and regional retailers, local merchants, manufacturers, buying groups, industry associations, and healthcare service providers; and deposit products through various channels, such as digital and print. Synchrony Financial was incorporated in 2003 and is headquartered in Stamford, Connecticut.",
+  "website": "http://www.synchrony.com"
 }

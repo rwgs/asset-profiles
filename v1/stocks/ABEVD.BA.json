@@ -1,6 +1,12 @@
 {
   "country": "Brazil",
   "country_code": "BR",
+  "identifiers": {
+    "composite_figi": "BBG020D5YD41",
+    "figi": "BBG020D5YD41"
+  },
+  "industry": "Beverages",
+  "industry_group": "Food, Beverage & Tobacco",
   "kind": "stock",
   "listings": [
     {
@@ -9,14 +15,17 @@
       "symbol": "ABEVD.BA"
     }
   ],
-  "name": "AMBEV SA",
+  "market_cap_band": "Large Cap",
+  "name": "Ambev S.A.",
   "primary_symbol": "ABEVD.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "AMBEV SA is a Brazilian brewing company that produces, distributes, and markets beer, soft drinks, and other beverages. Its portfolio includes popular brands like Skol, Brahma, and Antarctica, and it operates in several countries across the Americas. The company is headquartered in São Paulo, Brazil."
+  "sector": "Consumer Staples",
+  "summary": "AMBEV SA is a Brazilian brewing company that produces, distributes, and markets beer, soft drinks, and other beverages. Its portfolio includes popular brands like Skol, Brahma, and Antarctica, and it operates in several countries across the Americas. The company is headquartered in São Paulo, Brazil.",
+  "website": "http://www.ambev.com.br"
 }

@@ -2,18 +2,29 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BX1LD2",
-    "figi": "BBG000BX1MD0",
+    "composite_figi": "BBG000BG0GJ5",
+    "figi": "BBG000BG0H85",
     "isin": "JP3401400001"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "JP3401400001",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4005.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SMM.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SMM.F"
     },
     {
       "currency": "EUR",
@@ -24,18 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SMM.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SOMMF"
     }
   ],
-  "market_cap_band": "Mega Cap",
-  "name": "SUMITOMO CHEM.",
-  "primary_symbol": "SMM.DU",
+  "market_cap_band": "Mid Cap",
+  "name": "Sumitomo Chemical",
+  "primary_symbol": "4005.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "SUMITOMO CHEMICAL CO. LTD. is a diversified chemical company. The company's business segments include petrochemicals, energy & functional materials, IT-related chemicals, health & crop sciences, and pharmaceuticals. Its headquarters are in Japan."
+  "summary": "Sumitomo Chemical Company, Limited is a global enterprise active across diverse sectors, including petrochemicals and plastics, advanced energy and functional materials, specialized IT-related chemicals, health and agricultural sciences, pharmaceuticals, and various other industrial services. Within its Petrochemicals & Plastics division, the company manufactures synthetic resins such as polyethylene, polypropylene, and polymethyl methacrylate, alongside raw components for synthetic fibers and a broad array of industrial chemical products. The Energy & Functional Materials unit supplies alumina and aluminum goods for energy applications, polymer and rubber additives, synthetic rubber for diverse uses including tires, footwear, and construction, as well as high-performance engineering plastics and lithium-ion battery components crucial for electronics and advanced automotive technologies. Sumitomo Chemical's IT-Related Chemicals segment develops polarizing films, touch screen sensors, and color resists essential for liquid crystal and OLED displays. This segment also produces photoresists and ultra-pure chemicals vital for semiconductor fabrication, in addition to compound semiconductor materials used in communication device components such as antenna switches. In the Health & Crop Sciences sector, the firm provides agricultural chemicals for crop protection, fertilizers, animal feed additives, and domestic insecticides. This segment also supplies active pharmaceutical ingredients and their intermediates, alongside solutions for managing infectious diseases. The Pharmaceuticals segment focuses on delivering both prescription medications and diagnostic agents. Finally, the \"Others\" segment encompasses a range of services, including the provision of electrical power and steam, the design, construction, and oversight of chemical facilities, comprehensive transportation and warehousing solutions, and detailed physical property and environmental analysis. Sumitomo Chemical has partnered with Ginkgo Bioworks to advance the development of bio-based chemicals. Established in 1913, the company maintains its corporate headquarters in Tokyo, Japan.",
+  "website": "https://www.sumitomo-chem.co.jp"
 }

@@ -2,33 +2,31 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000QKBHL3",
-    "cusip": "82935V208",
-    "figi": "BBG000QKBM41",
+    "composite_figi": "BBG000FYWZ32",
     "isin": "US82935V2088"
   },
+  "industry": "Air Freight & Logistics",
+  "industry_group": "Transportation",
   "isin": "US82935V2088",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "4GSN.BE"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US82935V2088.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "SINO-GLOBAL SHIP.AMERICA",
-  "primary_symbol": "4GSN.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Singularity Future Technology Ltd. Common Stock",
+  "primary_symbol": "US82935V2088.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "Singularity Future Technology Ltd. is a company operating in the blockchain and cryptocurrency sector, focusing on mining and related activities. The company is based in Hong Kong. It aims to leverage blockchain technology for various applications.",
+  "website": "http://www.singularity.us"
 }

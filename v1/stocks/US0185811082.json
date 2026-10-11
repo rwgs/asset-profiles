@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000C97Q65",
+    "composite_figi": "BBG000BFNR17",
     "cusip": "018581108",
-    "figi": "BBG000C98SH8",
+    "figi": "BBG000BFNR17",
     "isin": "US0185811082"
   },
-  "industry_group": "Software & Services",
+  "industry": "Consumer Finance",
+  "industry_group": "Diversified Financials",
   "isin": "US0185811082",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BFH"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0HCR.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XDUS",
@@ -22,15 +33,17 @@
       "symbol": "LID.MU"
     }
   ],
-  "name": "ALLIANCE DATA SYS. DL-,01",
-  "primary_symbol": "LID.DU",
+  "market_cap_band": "Mid Cap",
+  "name": "Bread Financial Holdings Inc. Common Stock",
+  "primary_symbol": "BFH",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Alliance Data Systems is a provider of data-driven marketing and loyalty solutions. The company offers credit and loyalty programs, and marketing services to consumer-based businesses. Alliance Data Systems is headquartered in Plano, Texas."
+  "sector": "Financials",
+  "summary": "Bread Financial Holdings Inc. is a tech-forward financial services company providing simple, personalized payment, lending and saving solutions. The company provides services through its Comenity Bank subsidiary. The company is headquartered in Columbus, Ohio.",
+  "website": "https://www.breadfinancial.com"
 }

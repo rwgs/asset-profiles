@@ -2,25 +2,42 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG003M4F8X0",
+    "composite_figi": "BBG00WHNH341",
+    "figi": "BBG00WHNH350",
     "isin": "DK0060816148"
   },
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "DK0060816148",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5IJ.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DK0060816148.SG"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XCSE",
+      "symbol": "UNLGRP.CO"
     }
   ],
-  "name": "CONFERIZE A/S",
-  "primary_symbol": "DK0060816148.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Unlimit Group A/S",
+  "primary_symbol": "5IJ.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "Established in 2011 and based in Køge, Denmark, Unlimit Group A/S is a company focused on both creating and financially backing technology-driven ventures. Its core activities revolve around autonomous retail concepts, subscription-based economic frameworks, and strategic investments within the venture capital and power generation sectors. The entity presently known as Unlimit Group A/S was formerly Conferize A/S, changing its name in April 2025.",
+  "website": "http://www.conferize.com"
 }

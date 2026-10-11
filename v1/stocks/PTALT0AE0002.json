@@ -3,7 +3,7 @@
   "country_code": "PT",
   "identifiers": {
     "composite_figi": "BBG000RC6H81",
-    "figi": "BBG000RC6HY2",
+    "figi": "BBG000RC6JC2",
     "isin": "PTALT0AE0002"
   },
   "industry": "Paper & Forest Products",
@@ -11,6 +11,11 @@
   "isin": "PTALT0AE0002",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ACJ.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -34,15 +39,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Altri, SGPS, S.A.",
-  "primary_symbol": "ACJ.F",
+  "primary_symbol": "ACJ.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Altri, SGPS, S.A. produces bleached eucalyptus pulp in Portugal and internationally. It offers bleached eucalyptus kraft pulp for use in a range of papers, such as fine paper grades, tissues, and printing and writing papers; and dissolving pulp for use in textile production. The company is also involved timber commercialization; forest management; the production of energy from forest resources, such as industrial cogeneration from black liquor and biomass; real estate activities; and production of plants in nurseries, as well as the provision of services related with forests and landscapes. It also exports its products. The company was incorporated in 2005 and is headquartered in Porto, Portugal.",
+  "summary": "Altri SGPS S.A. is a Portuguese pulp and paper company that produces bleached eucalyptus pulp and paper products, managing forestry resources and operating pulp mills, headquartered in Lisbon, Portugal",
   "website": "http://www.altri.pt"
 }

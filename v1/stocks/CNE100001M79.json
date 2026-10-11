@@ -3,7 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG007FFXH73",
-    "figi": "BBG007FFXHC7",
+    "figi": "BBG007FFXHF4",
     "isin": "CNE100001M79"
   },
   "industry": "Pharmaceuticals",
@@ -11,6 +11,26 @@
   "isin": "CNE100001M79",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "08HH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "08HH.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "08HH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "08HH.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -32,11 +52,11 @@
       "symbol": "SFOSF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Shanghai Fosun Pharmaceutical (Group) Co., Ltd.",
-  "primary_symbol": "08HH.SG",
+  "primary_symbol": "08HH.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

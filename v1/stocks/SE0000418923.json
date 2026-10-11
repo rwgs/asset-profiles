@@ -3,27 +3,36 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG000BVGPY8",
+    "figi": "BBG000BVGQJ3",
     "isin": "SE0000418923"
   },
+  "industry": "Aerospace & Defense",
   "industry_group": "Capital Goods",
   "isin": "SE0000418923",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "CTT.ST"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000418923.SW"
     }
   ],
-  "name": "CTT SYSTEMS AB",
-  "primary_symbol": "SE0000418923.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "CTT Systems AB",
+  "primary_symbol": "CTT.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "CTT SYSTEMS AB develops and sells aircraft humidity control systems to prevent condensation. Their products are used in commercial aircraft to improve air quality and reduce maintenance costs. The company is headquartered in Nyköping, Sweden."
+  "summary": "CTT Systems AB provides aerospace products for active humidity control worldwide. The company offers Zonal Drying system that prevents condensation in aircrafts, as well as Cabin Humidification system, including CAIR Intro. It also provides Crew Humidifiers, which offers humidified fresh air to the crew bunks, as well as Cair VIP humidification system. The company offers its products for non-condensation in the fuselage; and humidification of cockpit, crew rest, and cabins areas. CTT Systems AB is headquartered in Nyköping, Sweden.",
+  "website": "http://www.ctt.se"
 }

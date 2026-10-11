@@ -6,6 +6,7 @@
     "figi": "BBG000QQB803",
     "isin": "AU0000005159"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU0000005159",
   "kind": "stock",
@@ -14,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000005159.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "JMS.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JMXXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LGU.F"
     }
   ],
-  "name": "JUPITER MINES LTD",
+  "market_cap_band": "Small Cap",
+  "name": "Jupiter Mines Limited",
   "primary_symbol": "AU0000005159.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Jupiter Mines Ltd is an Australian mining company focused on the development of its Tshipi Borwa manganese mine in South Africa. The company produces and exports manganese ore."
+  "summary": "Jupiter Mines Ltd is an Australian mining company focused on the development of its Tshipi Borwa manganese mine in South Africa. The company produces and exports manganese ore.",
+  "website": "http://www.jupitermines.com"
 }

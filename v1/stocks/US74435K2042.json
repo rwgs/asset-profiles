@@ -2,8 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000C4C1D7",
+    "composite_figi": "BBG000C58NY8",
     "cusip": "74435K204",
+    "figi": "BBG000C58R51",
     "isin": "US74435K2042"
   },
   "industry": "Insurance",
@@ -12,20 +13,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "PUK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "PRU2.BE"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "PRUDENTIAL ADR/2 LS-,05",
-  "primary_symbol": "PRU2.BE",
+  "name": "Prudential plc",
+  "primary_symbol": "PUK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials"
+  "sector": "Financials",
+  "summary": "Prudential plc, through its subsidiaries, provides life and health insurance, and retirement and asset management solutions to individuals in Asia, the United States, and Africa. It offers health and protection, as well as savings products, such as participating, linked, and other traditional products; mutual funds; life insurance; property and casualty insurance; and group insurance. The company also provides insurance against common critical illnesses, including cancer, stroke, and heart attack; tropical disease protection, such as dengue, malaria, and measles; and food poisoning, minor burns, broken bones, and accident income support, as well as investment fund products. Prudential plc provides its products and services through agency sales force, banks, and brokers. The company was founded in 1848 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.prudentialplc.com"
 }

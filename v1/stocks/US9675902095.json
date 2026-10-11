@@ -7,7 +7,8 @@
     "figi": "BBG000F56XT1",
     "isin": "US9675902095"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "IT Services",
+  "industry_group": "Software & Services",
   "isin": "US9675902095",
   "kind": "stock",
   "listings": [
@@ -15,17 +16,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US9675902095.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "WYY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ZMX1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ZMX1.MU"
     }
   ],
-  "name": "WIDEPOINT CORP",
+  "market_cap_band": "Micro Cap",
+  "name": "WidePoint Corporation",
   "primary_symbol": "US9675902095.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "WIDEPOINT CORP provides technology solutions and managed services to government and commercial clients; its services include cybersecurity, cloud solutions, IT infrastructure management, and application development; the company is headquartered in Fairfax, Virginia."
+  "summary": "WIDEPOINT CORP provides technology solutions and managed services to government and commercial clients; its services include cybersecurity, cloud solutions, IT infrastructure management, and application development; the company is headquartered in Fairfax, Virginia.",
+  "website": "http://www.widepoint.com"
 }

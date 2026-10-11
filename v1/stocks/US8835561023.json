@@ -18,6 +18,11 @@
       "symbol": "TMO"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0R0H.L"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "TMO.BA"
@@ -39,8 +44,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TN8.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "TN8.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TN8.DU"
     },
     {
       "currency": "EUR",
@@ -49,18 +64,24 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TN8.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TN8.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "TN8.TI"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Thermo Fisher Scientific Inc.",
   "primary_symbol": "TMO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

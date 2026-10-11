@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG003CS6QK2",
     "cusip": "05453A207",
-    "figi": "BBG003CS6QP7",
+    "figi": "BBG003CS6QL1",
     "isin": "CA05453A2074"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA05453A2074",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8AMA.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AVPMF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "AVU.V"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA05453A2074.SG"
     }
   ],
-  "name": "AVRUPA MINERALS LTD",
-  "primary_symbol": "CA05453A2074.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Avrupa Minerals Ltd.",
+  "primary_symbol": "8AMA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "AVRUPA MINERALS LTD is a Canadian exploration company focused on identifying and developing mineral projects in Europe. The company is primarily focused on base and precious metals exploration in Portugal, Kosovo and Finland. Avrupa Minerals Ltd is headquartered in Vancouver, British Columbia, Canada."
+  "summary": "Avrupa Minerals Ltd., a junior exploration and development company, engages in the acquisition and exploration of mineral properties. The company explores for gold, silver, copper, lead, and zinc. It has interest in exploration licenses, including Alvalade license that covers approximately 115 square kilometers located in Iberian Pyrite Belt, Portugal; and Slivovo exploration license that covers 15.1 square kilometers located in southeast of the capital Prishtine, Kosovo. The company was formerly known as Everclear Capital Ltd. and changed its name to Avrupa Minerals Ltd. in July 2010. Avrupa Minerals Ltd. was incorporated in 2008 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.avrupaminerals.com"
 }

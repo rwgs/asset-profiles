@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG001R1TMV1",
-    "figi": "BBG00G9DQY76",
+    "figi": "BBG00G9DQYB1",
     "isin": "DE000A0XYHT5"
   },
   "industry": "Chemicals",
@@ -13,13 +13,28 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IBU.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "IBU.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IBU.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IBU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IBU.MU"
     },
     {
       "currency": "EUR",
@@ -29,15 +44,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "IBU-tec advanced materials AG",
-  "primary_symbol": "IBU.DE",
+  "primary_symbol": "IBU.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "IBU-tec advanced materials AG provides consulting, materials development, processing, and tolling services in the area of thermal processing for the chemical industry worldwide. It also offers contract manufacturing services. The company was founded in 1885 and is based in Weimar, Germany.",
+  "summary": "IBU-tec advanced materials AG is a German technology and engineering company. The company develops and produces innovative materials and technologies for various industries, including the battery, chemical, and automotive industries and is headquartered in Weimar, Germany. IBU-tec focuses on thermal process engineering and specialty materials.",
   "website": "http://www.ibu-tec.de"
 }

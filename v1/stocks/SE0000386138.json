@@ -3,27 +3,36 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG000C32H63",
+    "figi": "BBG000C32HG2",
     "isin": "SE0000386138"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "SE0000386138",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "LAMM-B.ST"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000386138.SW"
     }
   ],
-  "name": "LAMMHULTS DESIGN GROUP AB",
-  "primary_symbol": "SE0000386138.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "Lammhults Design Group AB (publ)",
+  "primary_symbol": "LAMM-B.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "LAMMHULTS DESIGN GROUP AB designs, manufactures, and markets furniture for public spaces and offices. The company focuses on Scandinavian design and sustainable production methods. Lammhults Design Group is headquartered in Lammhult, Sweden."
+  "summary": "Lammhults Design Group AB (publ), together with its subsidiaries, develops, manufactures, markets, and sells office and home, and public interiors in Sweden and internationally. It operates through Public Interiors, and Office and Home Interiors segment. The company offers furniture and interiors for public spaces and homes, as well as libraries. It is also involved in the aftermarket sale of furniture and consumables. The company markets and sells its office and home interiors products under the Lammhults, Abstracta, Fora Form, Morgana, Ragnars, Ire, and Voice brands; and public interiors under the BCI and Schulz Speyer, as well as Eurobib Direct brands. It serves government agencies, companies, offices, hotels, and restaurants. The company was formerly known as Expanda AB and changed its name to Lammhults Design Group AB (publ) in June 2008. Lammhults Design Group AB (publ) was founded in 1945 and is based in Lammhult, Sweden.",
+  "website": "http://www.lammhultsdesigngroup.com"
 }

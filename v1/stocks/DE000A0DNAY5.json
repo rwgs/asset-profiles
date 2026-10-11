@@ -1,6 +1,6 @@
 {
-  "country": "Spain",
-  "country_code": "ES",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000QQTZ40",
     "figi": "BBG000QQV1L3",
@@ -33,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ACX.HM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "ACX.MU"
     },
@@ -47,11 +52,11 @@
       "symbol": "BAH.VI"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "bet-at-home.com AG",
   "primary_symbol": "ACX.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

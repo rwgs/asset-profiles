@@ -2,28 +2,42 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG005NR9YT8",
+    "composite_figi": "BBG00JGBQRM4",
+    "figi": "BBG00JVX9FZ0",
     "isin": "IT0004967292"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "IT0004967292",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0QIQ.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "FILA.MI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "IT0004967292.SW"
     }
   ],
-  "name": "FILA  SPA",
-  "primary_symbol": "IT0004967292.SW",
+  "market_cap_band": "Small Cap",
+  "name": "FILA FABBRICA ITALIANA LAPIS ED",
+  "primary_symbol": "0QIQ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "FILA SPA is an Italian company that produces and markets a range of art materials and writing instruments. The company's brands include Giotto, Tratto, Das, and Pongo. The company is headquartered in Pero, Italy."
+  "summary": "FILA - Fabbrica Italiana Lapis ed Affini S.p.A. is an Italian manufacturer and distributor of art supplies, stationery, and writing instruments. The company's product portfolio includes brands such as FILA, Giotto, and Daler-Rowney, offering a wide range of products for artists, students, and professionals. FILA is headquartered in Milan, Italy.",
+  "website": "http://www.filagroup.it"
 }

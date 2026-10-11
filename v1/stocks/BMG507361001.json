@@ -2,27 +2,67 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
+    "composite_figi": "BBG000GM3JX2",
+    "figi": "BBG000GM3NF3",
     "isin": "BMG507361001"
   },
+  "industry": "Industrial Conglomerates",
   "industry_group": "Retailing",
   "isin": "BMG507361001",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "H4W.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "H4W.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "H4W.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "H4W.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "H4W.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XSES",
+      "symbol": "J36.SI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "JAR.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JARLF"
     }
   ],
-  "name": "JARDINE MATHESON HOLDINGS LTD.R",
-  "primary_symbol": "H4W.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Jardine Matheson Holdings Limited",
+  "primary_symbol": "H4W.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Jardine Matheson Holdings Limited is a diversified business group with operations spanning across Asia. Their businesses include retail, property, hotels, motor vehicles, financial services, and agribusiness. Jardine Matheson is headquartered in Hong Kong."
+  "summary": "Jardine Matheson Holdings Limited is a diversified business group with operations spanning across Asia. Their businesses include retail, property, hotels, motor vehicles, financial services, and agribusiness. Jardine Matheson is headquartered in Hong Kong.",
+  "website": "http://www.jardines.com"
 }

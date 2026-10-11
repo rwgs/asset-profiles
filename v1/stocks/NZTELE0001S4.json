@@ -6,6 +6,7 @@
     "figi": "BBG000HV1830",
     "isin": "NZTELE0001S4"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "NZTELE0001S4",
   "kind": "stock",
@@ -19,6 +20,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "NZT.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NZT.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +45,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NZT.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NZTCF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "SPK.AX"
+    },
+    {
+      "currency": "NZD",
+      "exchange_mic": "XNZE",
+      "symbol": "SPK.NZ"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Spark New Zealand Limited",
   "primary_symbol": "NZT.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Spark New Zealand Limited is a digital services company providing telecommunications, internet, and IT services in New Zealand. The company offers mobile, broadband, cloud, security, and digital solutions to consumers, businesses, and government organizations. Spark New Zealand is headquartered in Auckland, New Zealand."
+  "summary": "Spark New Zealand Limited is a digital services company providing telecommunications, internet, and IT services in New Zealand. The company offers mobile, broadband, cloud, security, and digital solutions to consumers, businesses, and government organizations. Spark New Zealand is headquartered in Auckland, New Zealand.",
+  "website": "http://www.sparknz.co.nz"
 }

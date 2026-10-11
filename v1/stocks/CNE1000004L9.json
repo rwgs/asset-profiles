@@ -2,6 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG000R7HVC4",
+    "figi": "BBG000R7HW78",
     "isin": "CNE1000004L9"
   },
   "industry": "Machinery",
@@ -23,11 +25,6 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "WEICF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "WEICY"
     },
     {
       "currency": "EUR",
@@ -68,18 +65,13 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "WI4.VI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "WI4B.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Weichai Power Company Ltd.",
   "primary_symbol": "000338.SZ",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

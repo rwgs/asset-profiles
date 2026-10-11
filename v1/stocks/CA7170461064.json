@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00JVRMQB0",
     "cusip": "717046106",
+    "figi": "BBG00JVRMQC9",
     "isin": "CA7170461064"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -27,6 +29,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PXK.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PXK.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PXK.F"
     },
@@ -36,11 +48,11 @@
       "symbol": "PXK.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Peyto Exploration & Development Corp.",
   "primary_symbol": "0VCO.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

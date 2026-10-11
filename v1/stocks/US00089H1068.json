@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000BMW3R7",
+    "composite_figi": "BBG000GM1DD9",
     "cusip": "00089H106",
-    "figi": "BBG000BMW592",
+    "figi": "BBG000GM1DD9",
     "isin": "US00089H1068"
   },
   "industry": "Construction & Engineering",
@@ -13,39 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XMAD",
-      "symbol": "ACS.MC"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "ACS.VI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "ACSAF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ACSAY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "OCI1.F"
-    },
-    {
-      "symbol": "OCI1.TI"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "ACS, Actividades de Construccion y Servicios, S.A.",
-  "primary_symbol": "ACS.MC",
+  "primary_symbol": "ACSAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

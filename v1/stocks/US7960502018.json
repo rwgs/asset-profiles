@@ -2,7 +2,9 @@
   "country": "Korea, Republic of",
   "country_code": "KR",
   "identifiers": {
+    "composite_figi": "BBG000BSD199",
     "cusip": "796050201",
+    "figi": "BBG000BSD1N3",
     "isin": "US7960502018"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -17,8 +19,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SSUN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SSUN.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SSUN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SSUN.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SSUN.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SSUN.MU"
     },
     {
       "currency": "EUR",
@@ -35,13 +62,13 @@
   "name": "Samsung Electronics Co Ltd Sponsored GDR Pfd",
   "primary_symbol": "SMSD.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Samsung Electronics Co., Ltd. engages in the consumer electronics, information technology and mobile communications, and device solutions businesses worldwide. It offers digital TVs, monitors, air conditioners, refrigerators, mobile phones, communication systems, and computers; semiconductor products, such as memory, foundry, and system LSI; and display products comprising LCD and OLED panels, as well as connected car systems, audio and visual products, enterprise automation solutions, and connected services. The company is also involved in the technology and venture capital investment businesses; manufacture of semiconductor equipment and components; and provision of repair services for electronic devices. In addition, it provides medical equipment; software development and supply; toll processing of semiconductors and display panels; general logistics agency, financing, marketing, consulting, and AI technology and cloud services; enterprise automation solutions and connected services; and digital advertising platforms. Further, the company offers mobile payment services; and designs and develops software products. It serves retail, hospitality, finance, transportation, education, government, and healthcare industries. Samsung Electronics Co., Ltd. was founded in 1938 and is based in Suwon, South Korea.",
-  "website": "http://www.samsung.com"
+  "summary": "Samsung Electronics Co., Ltd. engages in the consumer electronics, information technology and mobile communications, and device solutions businesses worldwide. The company offers smartphones, tablets, watches, and accessories; TVs, projectors, and sound devices; home appliances, including refrigerators, washing machines and dryers, vacuum cleaners, cooking appliances, dishwashers, air conditioners, and air purifiers; monitors, and memory and storage products; displays, and smart and LED signages; and other accessories. It also engages in technology, venture capital investments, cloud services, network devices installation and optimization, semiconductor equipment services, digital advertising platforms, marketing, consulting, connected services, logistics, financing, and software design activities; toll processing of display panels and semiconductors; development and sale of network solutions; manufactures semiconductors and food; provision of repair services for electronic devices and enterprise automation solutions; and development and supply of semiconductor process defect and quality control software. The company serves various industries, including education, retail, and finance, as well as government and corporate customers. Samsung Electronics Co., Ltd. was incorporated in 1969 and is based in Suwon-si, South Korea.",
+  "website": "https://www.samsung.com"
 }

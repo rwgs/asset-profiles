@@ -2,14 +2,20 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BWPW08",
-    "figi": "BBG000BWPYL1",
+    "composite_figi": "BBG000BTG0S5",
+    "figi": "BBG000BTG1B1",
     "isin": "GB00B63H8491"
   },
+  "industry": "Aerospace & Defense",
   "industry_group": "Capital Goods",
   "isin": "GB00B63H8491",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "RR.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "RRU.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "RRU.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RRU.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +55,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RRU.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RYCEF"
     }
   ],
-  "name": "ROLLS ROYCE HLDGS LS 0.20",
-  "primary_symbol": "RRU.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Rolls Royce Holdings plc",
+  "primary_symbol": "RR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Rolls-Royce Holdings plc is an engineering company focused on power and propulsion systems. It designs, manufactures and distributes power systems for aviation and other industries. The company is headquartered in London, United Kingdom."
+  "summary": "Rolls-Royce Holdings plc operates as an industrial technology company in the United Kingdom and internationally. The company operates in four segments: Civil Aerospace, Power Systems, Defence, and ITP Aero. The Civil Aerospace segment develops, manufactures, and sells aero engines for large commercial aircraft, regional jet, and business aviation markets, as well as provides aftermarket services. The Power Systems segment provides high-speed and medium-speed reciprocating engines, and propulsion and power generation systems for the marine, defense, power generation, and industrial markets. The Defence segment offers aero engines for military transport and patrol aircraft applications; and naval engines and submarine nuclear power plants, as well as aftermarket services. The ITP Aero segment engages in the design, research and development, manufacture and casting, assembly, and testing of aeronautical engines and gas turbines. It also provides maintenance, repair, and overhaul services for regional airlines, as well as business aviation, industrial, and defense applications. Rolls-Royce Holdings plc was founded in 1884 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.rolls-royce.com"
 }

@@ -1,27 +1,39 @@
 {
-  "country": "Marshall Islands",
-  "country_code": "MH",
+  "country": "Greece",
+  "country_code": "GR",
   "identifiers": {
-    "composite_figi": "BBG000RGFQ82",
-    "figi": "BBG000RGFSV2",
+    "composite_figi": "BBG000QP8KT1",
+    "cusip": "Y27265126",
+    "figi": "BBG000QP8KT1",
     "isin": "MHY272651263"
   },
+  "industry": "Marine",
+  "industry_group": "Transportation",
   "isin": "MHY272651263",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "GLBS"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MHY272651263.SG"
     }
   ],
-  "name": "GLOBUS MARITIME LIMITED",
-  "primary_symbol": "MHY272651263.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Globus Maritime Limited",
+  "primary_symbol": "GLBS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "Globus Maritime Limited, an integrated dry bulk shipping company, provides marine transportation services worldwide. It owns, operates, and manages a fleet of dry bulk vessels that transport iron ore, coal, grain, steel products, cement, alumina, and other dry bulk cargoes. As of December 31, 2020, the company owned and operated six vessels with a total carrying capacity of 381,738 deadweight tonnage. It charters its vessels to operators, trading houses, shipping companies and producers, and government-owned entities. The company was incorporated in 2006 and is based in Athens, Greece. Globus Maritime Limited operates as a subsidiary of Firment Trading Limited.",
+  "website": "http://www.globusmaritime.gr"
 }

@@ -2,26 +2,35 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG000CMWR39",
-    "figi": "BBG000CMY1H9",
+    "composite_figi": "BBG00LGDSWY9",
+    "figi": "BBG00LGDSX31",
     "isin": "DK0010304500"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "DK0010304500",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "24V.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DK0010304500.SG"
     }
   ],
-  "name": "VESTJYSK BANK A/S",
-  "primary_symbol": "DK0010304500.SG",
+  "name": "VESTJYSK BANK NAM. DK 1",
+  "primary_symbol": "24V.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Vestjysk Bank A/S is a Danish bank providing a range of financial services to individuals and businesses. The bank offers services such as lending, deposit accounts, investment advice, and insurance. Vestjysk Bank is headquartered in Lemvig, Denmark."
 }

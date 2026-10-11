@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C18TY4",
-    "figi": "BBG000C19030",
+    "composite_figi": "BBG000BFYC09",
+    "figi": "BBG000BFYCK7",
     "isin": "JP3111200006"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "JP3111200006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "3407.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AHKSF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ASAA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "ASAA.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "ASAA.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Asahi Kasei Corporation",
-  "primary_symbol": "ASAA.BE",
+  "primary_symbol": "3407.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Asahi Kasei Corporation is a diversified Japanese chemical company that manufactures chemicals, plastics, synthetic rubber, fibers, construction materials, electronics, and healthcare products. The company operates through various business segments, serving a wide range of industries globally. Its headquarters are in Tokyo, Japan."
+  "summary": "Asahi Kasei Corporation manufactures, processes, and sells chemical products in Japan and internationally. The company operates through three segments: Material, Homes, and Health Care. It offers cupro fiber, lining fabric, stretch fiber, spunbond nonwoven, cupro nonwoven fabric, microfiber suede, oil-water separator, multifunctional nonwoven, deodorizing nonwoven, heat-press formable thermoplastic nonwoven, noise suppression sheet, filament, flame-resistant fiber, honeycomb fabric, and cellulose nanobead products. The company also provides caustic soda, chemical fertilizers, nitric acid, ammonia, acrylonitrile, methyl methacrylate, styrene, adipic acid, hexamethylene diamine, AH salt, propionitrile, sodium cyanide, acetonitrile, methacrylonitrile, cyclohexyl methacrylate, cyclohexanol, cyclohexane, and cyclohexene; polymers; chemical intermediates; additives; membranes and systems; clads and anchors; optical and printing materials; electronic materials; synthetic rubber and elastomers; kitchen and household products; cleaners; and packaging products. In addition, the company provides lithium-ion battery and lead-acid battery separators, and electronic devices; and autoclaved aerated concrete, foundation systems, insulation materials, and structural systems and components. Further, it involved in the construction of homes and apartments; management of rental units and condominiums; brokerage of used homes; remodeling; and mortgage financing, asset management, and insurance activities. Additionally, the company provides prescription drugs and diagnostic reagents; dialyzers, therapeutic apheresis, leukocyte reduction filters, and virus removal filters; defibrillators, temperature management systems, and data solutions; and UVC LED products. Asahi Kasei Corporation was founded in 1922 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.asahi-kasei.com"
 }

@@ -1,30 +1,53 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00MNSW5V3",
-    "figi": "BBG00MNSW5Z9",
+    "composite_figi": "BBG00MF1HGY1",
+    "figi": "BBG00MF1HGZ0",
     "isin": "KYG8918W1069"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "KYG8918W1069",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0780.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG8918W1069.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TEM.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TEM.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TNGCF"
     }
   ],
-  "name": "TONGCHENG TRAVEL HOLDINGS LT",
-  "primary_symbol": "KYG8918W1069.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Tongcheng-Elong Holdings Limited",
+  "primary_symbol": "0780.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "TONGCHENG TRAVEL HOLDINGS LT is an online travel agency (OTA) in China, providing a range of travel-related services, including hotel bookings, flight tickets, and package tours. The company operates online platforms such as Tongcheng and eLong. Tongcheng Travel is headquartered in Suzhou, China."
+  "summary": "Tongcheng-Elong Holdings Limited, an investment holding company, provides travel related services in the People's Republic of China. It offers various products and services covering a range of aspects of travel, including transportation ticketing, accommodation reservation, and various ancillary value-added products and services. The company also provides online advertising services, technology consulting and services, and insurance agency services. It provides its travel products and services through its tencent-based online platforms, mobile apps, and websites. The company was formerly known as China E-Dragon Holdings Limited and changed its name to Tongcheng-Elong Holdings Limited in March 2018. Tongcheng-Elong Holdings Limited was founded in 1999 and is headquartered in Suzhou, the People's Republic of China.",
+  "website": "http://www.tcelir.com"
 }

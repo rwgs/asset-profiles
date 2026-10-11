@@ -2,10 +2,12 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHVSQ67",
+    "figi": "BBG00JHVSQ76",
     "isin": "FR0000053506"
   },
-  "industry": "Health Care Providers & Services",
-  "industry_group": "Software & Services",
+  "industry": "Health Care Technology",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "FR0000053506",
   "kind": "stock",
   "listings": [
@@ -16,8 +18,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALCGM.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C7E.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "C7E.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "C7E.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C7E.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "C7E.SG"
     },
     {
       "currency": "EUR",
@@ -25,17 +52,17 @@
       "symbol": "CGM.PA"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Cegedim SA",
   "primary_symbol": "0DYQ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Health Care",
   "summary": "Cegedim SA operates as a technology and services company in the digital data flow management for healthcare ecosystem and B2B marketing, and business software for healthcare and insurance professionals worldwide. It operates through two divisions, Health Insurance, HR and e-Services; and Healthcare Professionals. The Health Insurance, HR and e-Services division markets various products and services to insurance companies, mutual insurers, personal protection insurers, and insurance brokers, as well as engages in the interactions between these entities and healthcare professionals. This division also offers software and services for health insurers; flows, electronic payment, and management services; and outsourced payroll and human resources management services, as well as electronic data exchange services. In addition, it provides digital marketing tools to doctors, pharmacists, and allied health professionals; digital displays in pharmacies, and health and wellness shops; digitization of business, accounting, financial, and communication data flows; data and analytics for the healthcare industry; and other services, including the management of medical samples and promotional materials, healthcare data hosting, and integration and services. The Healthcare Professionals division offers management software, databases, and solutions to doctors, allied health professionals, pharmacists, and healthcare facilities. The company was founded in 1969 and is headquartered in Boulogne-Billancourt, France. Cegedim SA is a subsidiary of FCB SAS.",
   "website": "http://www.cegedim.fr"
 }

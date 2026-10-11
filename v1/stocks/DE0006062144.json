@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00GFQTHF5",
-    "figi": "BBG00GFQTHG4",
+    "composite_figi": "BBG009YTYWV7",
+    "figi": "BBG009YTYX09",
     "isin": "DE0006062144"
   },
   "industry": "Chemicals",
@@ -11,11 +11,6 @@
   "isin": "DE0006062144",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "1CO1.F"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -42,17 +37,13 @@
       "symbol": "1COV.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "1COV.TI"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "1COV.VI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "COVTY"
     },
     {
       "currency": "USD",
@@ -67,9 +58,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Covestro AG",
-  "primary_symbol": "1CO1.F",
+  "primary_symbol": "1COV.DE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

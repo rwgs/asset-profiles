@@ -2,9 +2,12 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
+    "composite_figi": "BBG00JVXCSY9",
     "cusip": "26152H301",
+    "figi": "BBG00JVXCSZ8",
     "isin": "US26152H3012"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "US26152H3012",
   "kind": "stock",
@@ -13,17 +16,39 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0ICU.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DUBA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DUBA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DUBA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DUBA.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "DRDGOLD LTD DRDGOLD ADR REPRESE",
   "primary_symbol": "0ICU.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "DRDGOLD Limited is a South African gold mining company. The company focuses on surface gold retreatment and tailings recovery operations. DRDGOLD Limited is headquartered in Johannesburg, South Africa."
+  "summary": "DRDGOLD Limited is a South African gold mining company. The company focuses on surface gold retreatment and tailings recovery operations. DRDGOLD Limited is headquartered in Johannesburg, South Africa.",
+  "website": "http://www.drdgold.com"
 }

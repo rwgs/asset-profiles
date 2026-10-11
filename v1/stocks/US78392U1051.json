@@ -2,40 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00LFS8RZ9",
+    "composite_figi": "BBG00R4XQSK1",
     "cusip": "78392U105",
-    "figi": "BBG00LFS8S05",
+    "figi": "BBG00R4XQSL0",
     "isin": "US78392U1051"
   },
-  "industry": "Household Durables",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Multiline Retail",
+  "industry_group": "Retailing",
   "isin": "US78392U1051",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
-      "symbol": "3RK.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "3RK.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
       "symbol": "3RKU.F"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "7453.T"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "RYKKF"
     },
     {
       "currency": "USD",
@@ -43,11 +23,11 @@
       "symbol": "RYKKY"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Large Cap",
   "name": "Ryohin Keikaku Co., Ltd.",
-  "primary_symbol": "3RK.F",
+  "primary_symbol": "3RKU.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,29 +2,47 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
-    "composite_figi": "BBG000BKN6D9",
-    "figi": "BBG000BKN827",
+    "composite_figi": "BBG000BFLFL3",
+    "figi": "BBG000BFLFW1",
     "isin": "BMG4587L1090"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "BMG4587L1090",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XSES",
+      "symbol": "H78.SI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HKHGF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "HKLD.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HLH.SG"
     }
   ],
-  "name": "HONGKONG LAND HOLDINGS LTD. Reg",
-  "primary_symbol": "HLH.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Hongkong Land Holdings Limited",
+  "primary_symbol": "H78.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Hongkong Land Holdings Limited is a property investment, management and development company with prime commercial and residential properties across Asia. The company focuses on owning and managing high-quality properties in key Asian cities. Hongkong Land is headquartered in Hong Kong."
+  "summary": "Hongkong Land Holdings Limited, together with its subsidiaries, engages in the investment, development, and management of properties in Hong Kong, Macau, Mainland China, Southeast Asia, and internationally. The company operates in two segments, Investment Properties and Development Properties. It owns and manages approximately 850,000 square meters of office and luxury retail property primarily in Hong Kong, Singapore, Beijing, and Jakarta. The company also develops and sells residential properties. In addition, it is involved in hotel investment, finance, and project management businesses. The company was founded in 1889 and is based in Hamilton, Bermuda. Hongkong Land Holdings Limited is a subsidiary of Jardine Strategic Holdings Limited.",
+  "website": "http://www.hkland.com"
 }

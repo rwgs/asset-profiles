@@ -2,14 +2,30 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000LH7VC9",
-    "figi": "BBG000LH7ZY6",
+    "composite_figi": "BBG000GBTYM7",
+    "figi": "BBG000GBTYM7",
     "isin": "GB00BD6K4575"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "GB00BD6K4575",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CMPGF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CPG.L"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "CPGN.MX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -27,19 +43,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XGR2.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "XGR2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "XGR2.SG"
     }
   ],
-  "name": "COMPASS GROUP  LS-,1105",
-  "primary_symbol": "XGR2.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Compass Group PLC",
+  "primary_symbol": "CMPGF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "COMPASS GROUP LS-,1105 is a multinational contract foodservice company headquartered in the United Kingdom. The company provides a range of food and support services to businesses, schools, hospitals, and other organizations. Compass Group operates in various sectors including business and industry, healthcare, education, and sports and leisure."
+  "summary": "Compass Group PLC, together with its subsidiaries, operates as a food and support services company in North America, Europe, and internationally. It serves business and industry; healthcare and senior living market; education; sports and leisure; and defense, offshore, and remote sectors. The company also offers support services, such as cleaning in hospitals; reception services at corporate headquarters; managing remote camps; grounds and facilities services at schools and universities; and others. Compass Group PLC was founded in 1941 and is based in Chertsey, the United Kingdom.",
+  "website": "http://www.compass-group.com"
 }

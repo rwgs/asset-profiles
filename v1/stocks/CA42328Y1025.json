@@ -7,6 +7,7 @@
     "figi": "BBG000PNPN58",
     "isin": "CA42328Y1025"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA42328Y1025",
   "kind": "stock",
@@ -15,17 +16,39 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA42328Y1025.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "HSTR.TO"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "HSTR.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HSTXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RGG1.F"
     }
   ],
-  "name": "HELIOSTAR METALS LTD",
+  "market_cap_band": "Small Cap",
+  "name": "Heliostar Metals Ltd.",
   "primary_symbol": "CA42328Y1025.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "HELIOSTAR METALS LTD is a junior mineral exploration company focused on the acquisition, exploration, and development of mineral properties. The company's focus is on exploring for precious metals and base metals. Heliostar Metals is headquartered in Vancouver, British Columbia."
+  "summary": "HELIOSTAR METALS LTD is a junior mineral exploration company focused on the acquisition, exploration, and development of mineral properties. The company's focus is on exploring for precious metals and base metals. Heliostar Metals is headquartered in Vancouver, British Columbia.",
+  "website": "http://www.heliostarmetals.com"
 }

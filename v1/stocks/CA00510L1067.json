@@ -2,15 +2,18 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00G95KSY2",
     "cusip": "00510L106",
-    "figi": "BBG00G95KT43",
     "isin": "CA00510L1067"
   },
-  "industry_group": "Software & Services",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "CA00510L1067",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "ILLM"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -20,22 +23,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "K3S.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "K3S.SG"
     }
   ],
-  "name": "ACUITYADS HOLDING INC.",
-  "primary_symbol": "K3S.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "AcuityAds Holdings Inc. Common Shares",
+  "primary_symbol": "ILLM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "AcuityAds Holdings Inc. is a technology company that provides a programmatic advertising platform for digital advertising. Their platform enables advertisers to plan, buy, and optimize their digital advertising campaigns. The company is headquartered in Toronto, Canada."
+  "summary": "AcuityAds Holdings Inc. is a technology company that provides a programmatic advertising platform for digital advertising. The company's platform enables advertisers to plan, execute, and analyze their digital advertising campaigns. AcuityAds is headquartered in Toronto, Ontario, Canada."
 }

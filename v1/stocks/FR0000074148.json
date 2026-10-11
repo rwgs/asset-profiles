@@ -2,10 +2,12 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHW5KS9",
+    "figi": "BBG00JHW5KT8",
     "isin": "FR0000074148"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Capital Goods",
   "isin": "FR0000074148",
   "kind": "stock",
   "listings": [
@@ -23,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BZ1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BZ1.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Assystem S.A.",
   "primary_symbol": "0OA7.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

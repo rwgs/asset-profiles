@@ -2,7 +2,9 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG000RKDZZ5",
     "cusip": "37427X104",
+    "figi": "BBG000RKDZZ5",
     "isin": "US37427X1046"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -11,61 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "SEK",
-      "exchange_mic": "XLON",
-      "symbol": "0GZV.IL"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "GETI-B.ST"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "GETIBN.MX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "GNGBF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "GNGBY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "GTN.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "GTN.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "GTN.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "GTN.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "GTN.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Getinge AB",
-  "primary_symbol": "0GZV.IL",
+  "primary_symbol": "GNGBY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

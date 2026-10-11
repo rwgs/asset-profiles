@@ -2,8 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000BC1TX9",
-    "figi": "BBG000BC1V91",
+    "composite_figi": "BBG00HVY2VG5",
+    "figi": "BBG00HVY2VJ2",
     "isin": "IT0000062072"
   },
   "industry": "Insurance",
@@ -13,15 +13,70 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "AGEN.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ARZGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ASG.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "ASG.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ASG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ASG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ASG.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ASG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ASG.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ASG.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "G.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "GEN.BR"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Assicurazioni Generali S.p.A.",
-  "primary_symbol": "G.MI",
+  "primary_symbol": "AGEN.VI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

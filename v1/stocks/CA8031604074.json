@@ -1,12 +1,13 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "Australia",
+  "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG005MYVTZ3",
     "cusip": "803160407",
     "figi": "BBG005MYVV33",
     "isin": "CA8031604074"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA8031604074",
   "kind": "stock",
@@ -15,17 +16,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA8031604074.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SRMMF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "SWA.V"
     }
   ],
-  "name": "SARAMA RESOURCES LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Sarama Resources Ltd",
   "primary_symbol": "CA8031604074.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Sarama Resources Ltd. is a gold exploration company focused on exploring properties in Burkina Faso, West Africa. They are based out of Vancouver, Canada. They are exploring for gold and are listed on the TSX Venture Exchange."
+  "summary": "Sarama Resources Ltd. is a gold exploration company focused on exploring properties in Burkina Faso, West Africa. They are based out of Vancouver, Canada. They are exploring for gold and are listed on the TSX Venture Exchange.",
+  "website": "http://www.saramaresources.com"
 }

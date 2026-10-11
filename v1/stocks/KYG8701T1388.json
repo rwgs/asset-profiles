@@ -2,15 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000D4LSD7",
-    "figi": "BBG000D4LWL9",
+    "composite_figi": "BBG000BVZCT2",
+    "figi": "BBG000BVZFN1",
     "isin": "KYG8701T1388"
   },
   "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "KYG8701T1388",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1070.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -32,22 +37,27 @@
       "symbol": "TC2A.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TC2A.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "TCLHF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "TCL Electronics Holdings Ltd.",
-  "primary_symbol": "TC2A.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "TCL Electronics Holdings Limited",
+  "primary_symbol": "1070.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "TCL Electronics Holdings Limited, headquartered in China, is a global consumer electronics manufacturer. The company designs, develops, manufactures, and sells a wide range of products, including televisions, audio and video equipment, and home appliances. TCL's business model involves brand operations, product development, and supply chain management to deliver affordable and innovative electronics to consumers worldwide.",
+  "sector": "Information Technology",
+  "summary": "TCL Electronics Holdings Limited is an investment holding company operating as a consumer electronics business in mainland China, Europe, North America and internationally. It has six segments, including TV, Internet Business, Smart Mobile and Connective Devices, Photovoltaic Business and Smart Commercial Display, and manufactures and sells televisions.",
   "website": "http://electronics.tcl.com"
 }

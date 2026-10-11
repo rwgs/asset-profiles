@@ -2,6 +2,8 @@
   "country": "Jersey",
   "country_code": "JE",
   "identifiers": {
+    "composite_figi": "BBG001J25JX9",
+    "figi": "BBG001JZ5CJ7",
     "isin": "GB00BYN5YK77"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,6 +17,11 @@
       "symbol": "JOG.L"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JYOGF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TPC1.F"
@@ -25,11 +32,11 @@
       "symbol": "TPC1.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Jersey Oil & Gas PLC",
   "primary_symbol": "JOG.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

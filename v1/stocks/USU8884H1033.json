@@ -4,28 +4,41 @@
   "identifiers": {
     "composite_figi": "BBG00ZMDL942",
     "cusip": "U8884H103",
-    "figi": "BBG00ZMDL988",
+    "figi": "BBG00ZMDL951",
     "isin": "USU8884H1033"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Entertainment",
+  "industry_group": "Media & Entertainment",
   "isin": "USU8884H1033",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8Z3.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TBLD.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "USU8884H1033.SG"
     }
   ],
-  "name": "TINYBUILD INC",
-  "primary_symbol": "USU8884H1033.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "tinyBuild, Inc",
+  "primary_symbol": "8Z3.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "TinyBuild, Inc. is a video game publisher and developer known for indie games across various platforms. They focus on acquiring and partnering with development studios to support game development and distribution. The company's headquarters are located in Bothell, Washington."
+  "sector": "Communications",
+  "summary": "tinyBuild, LLC engages in the development of video games. It offers games for desktop, iOS, Android, MAC, Xbox, PS4, 3DS, VR, and Linux. The company was founded in 2011 and is based in Bellevue, Washington.",
+  "website": "http://www.tinybuild.com"
 }

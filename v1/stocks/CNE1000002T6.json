@@ -2,29 +2,62 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000C4D1V6",
-    "figi": "BBG000C4D3L3",
+    "composite_figi": "BBG000BY1DB0",
+    "figi": "BBG000BY1DP5",
     "isin": "CNE1000002T6"
   },
+  "industry": "Airlines",
   "industry_group": "Transportation",
   "isin": "CNE1000002T6",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1055.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CHKIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ZNHH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ZNHH.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ZNHH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ZNHH.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ZNHH.SG"
     }
   ],
-  "name": "China Southern Airlines Co.LtdR",
-  "primary_symbol": "ZNHH.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "China Southern Airlines Company Limited",
+  "primary_symbol": "1055.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "China Southern Airlines Co.LtdR is one of China's largest airlines, operating a comprehensive network of domestic and international routes. The airline provides passenger and cargo transportation services. The company is headquartered in Guangzhou, China."
+  "summary": "China Southern Airlines Company Limited provides air transport services in China, including Hong Kong and Macau, Taiwan and many international destinations. Its business has two divisions, core airline operations and various ancillary segments, with passenger and cargo transport as primary offerings.",
+  "website": "https://www.csair.com"
 }

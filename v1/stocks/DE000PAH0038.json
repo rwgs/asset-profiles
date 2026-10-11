@@ -6,6 +6,7 @@
     "figi": "BBG000BCZ8F8",
     "isin": "DE000PAH0038"
   },
+  "industry": "Automobiles",
   "industry_group": "Automobiles & Components",
   "isin": "DE000PAH0038",
   "kind": "stock",
@@ -17,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "PAH3.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "PAH3.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PAH3.F"
     },
     {
       "currency": "EUR",
@@ -34,17 +45,43 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "PAH3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PAH3.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "PAH3.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "PAH3.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "POAHF"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "PSHE.WA"
     }
   ],
-  "name": "PORSCHE AUTOM.HLDG VZO",
+  "market_cap_band": "Mid Cap",
+  "name": "Porsche Automobil Holding SE",
   "primary_symbol": "PAH3.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Porsche Automobil Holding SE is a holding company with investments in the automotive industry, primarily Volkswagen AG. The company manages these investments and focuses on the strategic direction of the group. Porsche Automobil Holding SE is headquartered in Stuttgart, Germany."
+  "summary": "Porsche Automobil Holding SE is a holding company with investments in the automotive industry, primarily Volkswagen AG. The company manages these investments and focuses on the strategic direction of the group. Porsche Automobil Holding SE is headquartered in Stuttgart, Germany.",
+  "website": "http://www.porsche-se.com"
 }

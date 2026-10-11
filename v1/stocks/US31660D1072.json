@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000CBZN20",
+    "composite_figi": "BBG00XXXN217",
     "cusip": "31660D107",
-    "figi": "BBG000CC0QS1",
+    "figi": "BBG00XXXN226",
     "isin": "US31660D1072"
   },
   "industry": "Specialty Retail",
@@ -12,21 +12,6 @@
   "isin": "US31660D1072",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "FIE.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "FIE.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "FIE.VI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -40,9 +25,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Fielmann Aktiengesellschaft",
-  "primary_symbol": "FIE.DE",
+  "primary_symbol": "FIE1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

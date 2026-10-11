@@ -5,6 +5,7 @@
     "composite_figi": "BBG000F2WJ74",
     "isin": "JP3165700000"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "JP3165700000",
   "kind": "stock",
@@ -26,19 +27,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NT5.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NT5.MU"
     }
   ],
-  "name": "NTT DATA CORP",
+  "market_cap_band": "Large Cap",
+  "name": "NTT DATA Corporation",
   "primary_symbol": "JP3165700000.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "NTT DATA Corporation is a Japanese IT services provider. The company offers a wide range of services, including consulting, system integration, and IT outsourcing. NTT DATA serves clients in various industries globally and is headquartered in Tokyo, Japan."
+  "summary": "NTT DATA Corporation is a Japanese IT services provider. The company offers a wide range of services, including consulting, system integration, and IT outsourcing. NTT DATA serves clients in various industries globally and is headquartered in Tokyo, Japan.",
+  "website": "http://www.nttdata.com"
 }

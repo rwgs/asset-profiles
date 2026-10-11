@@ -2,28 +2,52 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BZ7BK5",
+    "composite_figi": "BBG00JHVTV10",
+    "figi": "BBG00JHVTV29",
     "isin": "FR0000038242"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "FR0000038242",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0FRI.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000038242.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "LBIRD.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "QTL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "QTL.SG"
     }
   ],
-  "name": "LUMIBIRD",
-  "primary_symbol": "FR0000038242.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Lumibird S.A.",
+  "primary_symbol": "0FRI.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Lumibird is a French company specializing in laser technologies. They design, manufacture and market high-performance lasers for scientific, industrial and medical applications. Lumibird is headquartered in Lannion, France."
+  "summary": "Lumibird SA specializes in the development, manufacturing, and commercialization of laser devices. Headquartered in Lannion, Bretagne, the company employs 541 dedicated full-time staff. Its extensive product offering includes various laser types such as compact pulsed and double-pulse Nd lasers, customizable laser systems, flash-lamp pumped lasers, diode-pumped solid-state lasers, semiconductor laser modules, and powerful intense pulsed light instruments. Lumibird provides its advanced laser solutions to a broad spectrum of clients, spanning industrial, scientific, and medical sectors. The firm operates globally through key subsidiaries, including Quantel Medical, which focuses on diagnostic ocular ultrasound systems and surgical lasers; Quantel USA, renowned for designing and producing fiber, glass, and tunable laser systems; and Quantel Derma AT, which concentrates on laser technology for dermatological and aesthetic applications.",
+  "website": "https://www.lumibird.com"
 }

@@ -1,6 +1,12 @@
 {
   "country": "Germany",
   "country_code": "DE",
+  "identifiers": {
+    "composite_figi": "BBG000BDCHY0",
+    "figi": "BBG000BDCLW3"
+  },
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +15,17 @@
       "symbol": "PIT.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Pittler Maschinenfabr. AG Inhab",
   "primary_symbol": "PIT.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "Pittler Maschinenfabrik AG, together with its subsidiaries, produces and sells precision tools in Germany and internationally. It also manufactures and sells clamping devices for various industries. Pittler Maschinenfabrik AG was founded in 1889 and is based in Frankfurt am Main, Germany.",
+  "website": "http://www.pittler-maschinenfabrik.de"
 }

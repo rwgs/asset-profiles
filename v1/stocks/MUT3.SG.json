@@ -1,6 +1,12 @@
 {
   "country": "Germany",
   "country_code": "DE",
+  "identifiers": {
+    "composite_figi": "BBG000BGBY68",
+    "figi": "BBG000BGBZ74"
+  },
+  "industry": "Beverages",
+  "industry_group": "Food, Beverage & Tobacco",
   "kind": "stock",
   "listings": [
     {
@@ -9,14 +15,17 @@
       "symbol": "MUT3.SG"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "Mineralbr.berkingen-Tein.KGaAIn",
   "primary_symbol": "MUT3.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Mineralbr.berkingen-Tein.KGaAIn is a German company that produces and distributes mineral water and other non-alcoholic beverages. The company's product range includes mineral water, fruit juices, soft drinks, and energy drinks, which are sold under various brands. Its headquarters are located in Berkheim, Germany."
+  "sector": "Consumer Staples",
+  "summary": "Mineralbr.berkingen-Tein.KGaAIn is a German company that produces and distributes mineral water and other non-alcoholic beverages. The company's product range includes mineral water, fruit juices, soft drinks, and energy drinks, which are sold under various brands. Its headquarters are located in Berkheim, Germany.",
+  "website": "http://www.mineralbrunnen-kgaa.de"
 }

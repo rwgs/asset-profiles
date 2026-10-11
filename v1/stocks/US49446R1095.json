@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JB54Y3",
+    "composite_figi": "BBG000CN3S73",
     "cusip": "49446R109",
-    "figi": "BBG000JB57N8",
+    "figi": "BBG000CN3V94",
     "isin": "US49446R1095"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "isin": "US49446R1095",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "KIM"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0JR1.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,19 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KIC.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KIC.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Kimco Realty Corporation",
-  "primary_symbol": "KIC.BE",
+  "primary_symbol": "KIM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Kimco Realty Corporation is a real estate investment trust (REIT) that owns and operates open-air, grocery-anchored shopping centers and mixed-use assets. The company's properties are primarily located in the United States and Canada. Kimco Realty is headquartered in Jericho, New York."
+  "summary": "Kimco Realty Corp. (NYSE:KIM) is a real estate investment trust (REIT) headquartered in Jericho, N.Y. that is one of North America's largest publicly traded owners and operators of open-air, grocery-anchored shopping centers and mixed-use assets. As of September 30, 2020, the company owned interests in 400 U.S. shopping centers and mixed-use assets comprising 70 million square feet of gross leasable space primarily concentrated in the top major metropolitan markets. Publicly traded on the NYSE since 1991, and included in the S&P 500 Index, the company has specialized in shopping center acquisitions, development and management for more than 60 years.",
+  "website": "http://www.kimcorealty.com"
 }

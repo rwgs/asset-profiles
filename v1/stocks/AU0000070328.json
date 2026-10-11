@@ -6,6 +6,7 @@
     "figi": "BBG000BZ2XF8",
     "isin": "AU0000070328"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "AU0000070328",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000070328.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "PRM.AX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RSX.F"
     }
   ],
-  "name": "PROMINENCE ENERGY LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Prominence Energy NL",
   "primary_symbol": "AU0000070328.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Prominence Energy Ltd is an Australian oil and gas exploration company. The company is focused on exploring and developing oil and gas resources in the United States."
+  "summary": "Prominence Energy Ltd is an Australian oil and gas exploration company. The company is focused on exploring and developing oil and gas resources in the United States.",
+  "website": "http://www.prominenceenergy.com.au"
 }

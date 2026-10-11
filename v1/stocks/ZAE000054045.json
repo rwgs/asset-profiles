@@ -2,8 +2,8 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000BP6PZ1",
-    "figi": "BBG000BP6Q52",
+    "composite_figi": "BBG000DLZTG9",
+    "figi": "BBG000DLZTG9",
     "isin": "ZAE000054045"
   },
   "industry": "Metals & Mining",
@@ -12,9 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AFBOF"
+    },
+    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "ARI.JO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EB9.BE"
     },
     {
       "currency": "EUR",
@@ -23,21 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EB9.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EB9.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "African Rainbow Minerals Ltd.",
-  "primary_symbol": "ARI.JO",
+  "market_cap_band": "Small Cap",
+  "name": "African Rainbow Minerals Limited",
+  "primary_symbol": "AFBOF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "African Rainbow Minerals (ARM) is a leading South African diversified mining and minerals company with long-life, low unit cost operations. ARM mines and beneficiates iron ore, manganese ore, chrome ore, platinum group metals (PGMs), nickel and coal. ARM also produces manganese and chrome alloys, and has an investment in gold through its shareholding in Harmony.",
-  "website": "http://www.arm.co.za"
+  "summary": "African Rainbow Minerals Limited (ARM) functions as a diversified mining and minerals group, primarily active across South Africa and Malaysia through its various subsidiaries. Its extensive exploration and extraction activities encompass a broad range of commodities, including platinum group metals (PGMs), nickel, copper, cobalt, coal, iron ore, manganese ore, chrome ore, ferromanganese, and gold. The company was founded in 1933 and is headquartered in Sandton, South Africa.",
+  "website": "https://arm.co.za"
 }

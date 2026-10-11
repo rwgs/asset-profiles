@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BF8K46",
     "isin": "FR0013227113"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "FR0013227113",
   "kind": "stock",
@@ -13,17 +14,54 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RMT.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SLOIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SOH1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SOH1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SOH1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SOH1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SOH1.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "SOI.PA"
     }
   ],
-  "name": "SOITEC SA SOITEC ORD SHS",
+  "market_cap_band": "Mid Cap",
+  "name": "Soitec S.A.",
   "primary_symbol": "0RMT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SOITEC SA is a French company that designs and manufactures innovative semiconductor materials. The company's products are used in a variety of applications, including smartphones, automotive electronics, and data centers. SOITEC SA is headquartered in Bernin, France."
+  "summary": "SOITEC SA is a French company that designs and manufactures innovative semiconductor materials. The company's products are used in a variety of applications, including smartphones, automotive electronics, and data centers. SOITEC SA is headquartered in Bernin, France.",
+  "website": "http://www.soitec.com"
 }

@@ -2,28 +2,47 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000PL06Z3",
+    "composite_figi": "BBG00JHVWZ08",
+    "figi": "BBG00JHVWZ17",
     "isin": "SE0000123671"
   },
+  "industry": "Professional Services",
   "industry_group": "Commercial & Professional Services",
   "isin": "SE0000123671",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0JH0.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3RE.F"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "REJL-B.ST"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000123671.SW"
     }
   ],
-  "name": "REJLERS AB",
-  "primary_symbol": "SE0000123671.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Rejlers AB (publ)",
+  "primary_symbol": "0JH0.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "REJLERS AB is a consultancy firm that provides technical consultancy services in areas such as energy, industry, infrastructure, and telecom. They offer expertise in project management, design, and engineering. The company is headquartered in Stockholm, Sweden."
+  "summary": "Rejlers AB (publ) provides technical consultancy services to various customers in the construction and property, energy, industry, infrastructure, and telecom sectors. The company also offers IT services. It operates in Sweden, Finland, and Norway. The company was formerly known as Rejlerkoncernen AB and changed its name to Rejlers AB (publ) in July 2013. Rejlers AB (publ) was founded in 1942 and is headquartered in Stockholm, Sweden.",
+  "website": "http://www.rejlers.com"
 }

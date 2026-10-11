@@ -3,28 +3,41 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00PM03PH2",
-    "figi": "BBG00PM03PM6",
+    "figi": "BBG00PM03PJ0",
     "isin": "GB00BKDTK925"
   },
-  "industry_group": "Software & Services",
+  "industry": "Hotels, Restaurants & Leisure",
+  "industry_group": "Consumer Services",
   "isin": "GB00BKDTK925",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2T9A.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BKDTK925.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TRN.L"
     }
   ],
-  "name": "TRAINLINE PLC",
-  "primary_symbol": "GB00BKDTK925.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Trainline Plc",
+  "primary_symbol": "2T9A.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Trainline PLC is an independent rail and coach travel platform. The company sells rail and coach tickets online and through its mobile app, providing customers with information, booking services, and real-time travel updates. Trainline is headquartered in London, UK."
+  "sector": "Consumer Discretionary",
+  "summary": "Trainline Plc operates an independent rail and coach travel platform that sells rail and coach tickets worldwide. The company operates through three segments: UK Consumer, UK T4B, and International. The UK Consumer segment provides travel apps and websites for individual travelers for journeys within the United Kingdom. The UK T4B segment offers travel portal platforms for corporates and travel management companies, and white label e-commerce platforms for train operating companies within the United Kingdom. The International segment provides travel apps and websites for individual travelers for journeys outside the United Kingdom. It offers routes, fares, and journey times from 270 rail and coach companies. The company was founded in 1997 and is based in London, the United Kingdom.",
+  "website": "http://www.thetrainline.com"
 }

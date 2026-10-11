@@ -1,16 +1,20 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000CT5FT2",
     "cusip": "64110W102",
-    "figi": "BBG000CT5JR6",
     "isin": "US64110W1027"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Semiconductors & Semiconductor Equipment",
+  "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "US64110W1027",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0K6G.IL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -25,17 +29,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NEH.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NEH.SG"
     }
   ],
-  "name": "NETEASE INC. ADR/5",
-  "primary_symbol": "NEH.BE",
+  "market_cap_band": "Large Cap",
+  "name": "NETEASE INC NETEASE ADR REP 25",
+  "primary_symbol": "0K6G.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "NetEase, Inc. is a Chinese technology company providing online services focused on gaming, e-commerce, and media content. The company develops and operates online games, runs e-commerce platforms, and offers online advertising services, with its headquarters in Hangzhou, China. This ticker represents the American Depositary Receipt (ADR) of NetEase shares."
+  "summary": "NetEase, Inc. is a leading Chinese internet technology company that develops and operates online games, advertising services, and e-commerce platforms. The company's popular online games include titles developed in-house and licensed from international developers. NetEase is headquartered in Hangzhou, China",
+  "website": "http://ir.netease.com"
 }

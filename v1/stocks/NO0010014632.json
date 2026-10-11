@@ -2,6 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "composite_figi": "BBG00JHVSLG7",
+    "figi": "BBG00JHVSLH6",
     "isin": "NO0010014632"
   },
   "industry": "Biotechnology",
@@ -20,11 +22,6 @@
       "symbol": "AZT.OL"
     },
     {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "AZTO.OL"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "B4V.BE"
@@ -40,11 +37,11 @@
       "symbol": "B4V.MU"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "ArcticZymes Technologies ASA",
   "primary_symbol": "0DRV.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

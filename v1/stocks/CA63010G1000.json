@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000M89Y03",
     "cusip": "63010G100",
+    "figi": "BBG000M89ZH2",
     "isin": "CA63010G1000"
   },
   "industry": "Chemicals",
@@ -10,6 +12,11 @@
   "isin": "CA63010G1000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "GRA.TO"
+    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -31,17 +38,17 @@
       "symbol": "NNXPF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Nanoxplore Inc.",
-  "primary_symbol": "GRA.V",
+  "market_cap_band": "Micro Cap",
+  "name": "NanoXplore Inc.",
+  "primary_symbol": "GRA.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "NanoXplore Inc., a graphene company, manufactures and supplies graphene powder for use in industrial markets. It offers graphene-based solutions, including GrapheneBlack powder and graphene-enhanced masterbatch pellets. The company also provides standard and custom graphene-enhanced plastic and composite products to customers in transportation, packaging, electronics, and other industrial sectors. It operates in the United States, Canada, France, Switzerland, and internationally. The company was founded in 2011 and is headquartered in Montréal, Canada.",
+  "summary": "NanoXplore Inc. specialises in graphene technology, making and distributing graphene powder for industrial uses. Its products include proprietary GrapheneBlack powder and graphene-enhanced masterbatch pellets, and it supplies standard and custom plastic and composite products strengthened with graphene to the transportation, packaging, electronics and wider industrial sectors.",
   "website": "http://www.nanoxplore.ca"
 }

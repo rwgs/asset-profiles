@@ -2,10 +2,12 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BZNSD8",
+    "composite_figi": "BBG000Q526G6",
     "cusip": "59162N109",
+    "figi": "BBG000Q528G2",
     "isin": "CA59162N1096"
   },
+  "industry": "Food & Staples Retailing",
   "industry_group": "Food & Staples Retailing",
   "isin": "CA59162N1096",
   "kind": "stock",
@@ -14,17 +16,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA59162N1096.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "MRU.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MTRAF"
     }
   ],
-  "name": "METRO INC/CN",
+  "market_cap_band": "Large Cap",
+  "name": "Metro Inc.",
   "primary_symbol": "CA59162N1096.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "METRO INC/CN is a Canadian food retailer operating supermarkets and drugstores in Quebec and Ontario. The company's retail banners include Metro, Metro Plus, Super C, and Jean Coutu. Metro Inc/CN is headquartered in Montreal, Quebec, Canada."
+  "summary": "METRO INC/CN is a Canadian food retailer operating supermarkets and drugstores in Quebec and Ontario. The company's retail banners include Metro, Metro Plus, Super C, and Jean Coutu. Metro Inc/CN is headquartered in Montreal, Quebec, Canada.",
+  "website": "http://corpo.metro.ca"
 }

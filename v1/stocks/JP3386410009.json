@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG005LBMYL8",
-    "figi": "BBG005LBMYS1",
+    "composite_figi": "BBG000BZZY60",
+    "figi": "BBG000BZZYJ6",
     "isin": "JP3386410009"
   },
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3386410009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6632.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +23,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JVC.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JVC.SG"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "JVCKENWOOD Corporation",
-  "primary_symbol": "JVC.BE",
+  "primary_symbol": "6632.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "JVCKENWOOD Corporation is a Japan-based electronics company that develops, manufactures, and sells car electronics, professional systems, and optical and audio products. Their products include car navigation systems, in-car entertainment, two-way radios, and audio equipment. The company is headquartered in Yokohama, Japan."
+  "sector": "Information Technology",
+  "summary": "JVCKENWOOD Corporation manufactures and sells products in automotive, public service, media service, and other sectors in Japan, the Americas, Europe, Asia, and internationally. It operates through: Automotive, Public Service, Media Service, and Other segments. The Automotive segment manufactures and sells car navigation systems, car audio systems, dashcams, in-vehicle devices, etc. The Public Service segment provides communications systems, such as professional radio systems and amateur radio sets; security camera systems, professional audio systems, and other products; and medical image display monitor solutions, as well as Gazefinder, a gaze tracking system. The Media Service segment comprises media business that covers professional-use video cameras, projectors, and other products; Lifestyle business covering headphones and other products; imaging devices business covering image display elements and other products; brand business covering brand licensing; content business of audio and video software, etc.; and entrusted business of CDs and DVDs. The Other segment provides telematics solutions, service parts, etc. The company also provides contract manufacturing service of electronic devices. It sells its products under the JVC, Victor, and KENWOOD brands. The company was formerly known as JVC KENWOOD Holdings, Inc. and changed its name to JVCKENWOOD Corporation in August 2011. JVC KENWOOD Corporation was founded in 1927 and is headquartered in Yokohama, Japan.",
+  "website": "http://www.jvckenwood.com"
 }

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000Q39RP8",
-    "figi": "BBG000Q39RP8",
+    "composite_figi": "BBG000NQGD37",
+    "figi": "BBG000NQGF05",
     "isin": "CNE1000001Z5"
   },
   "industry": "Banks",
@@ -12,9 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3988.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BACHF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BOCN.VI"
     },
     {
       "currency": "EUR",
@@ -37,17 +47,17 @@
       "symbol": "W8V.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Bank of China Limited",
-  "primary_symbol": "BACHF",
+  "primary_symbol": "3988.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Bank of China Limited, along with its associated entities, delivers a comprehensive array of banking and financial offerings. Its operations are structured across six key divisions: Corporate Banking, Personal Banking, Treasury Operations, Investment Banking, Insurance, and Other Operations. As of the close of 2021, the company maintained an extensive global presence with 10,382 branches and points of service. Established in 1912, its central offices are located in Beijing, China.",
+  "summary": "Bank of China Limited and its affiliates provide banking and financial services in six areas: corporate banking, personal banking, treasury, investment banking, insurance and other businesses. Corporate banking serves companies, governments and financial institutions with accounts, loans, trade finance and derivatives. Personal banking offers savings, lending, cards and wealth management, and the bank also does underwriting, brokerage, asset management and insurance.",
   "website": "http://www.boc.cn"
 }

@@ -4,27 +4,36 @@
   "identifiers": {
     "composite_figi": "BBG000BWN2Y9",
     "cusip": "199908104",
+    "figi": "BBG000BWN2Y9",
     "isin": "US1999081045"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Construction & Engineering",
+  "industry_group": "Capital Goods",
   "isin": "US1999081045",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "FIX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US1999081045.SG"
     }
   ],
-  "name": "COMFORT SYSTEMS USA INC",
-  "primary_symbol": "US1999081045.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Comfort Systems USA, Inc.",
+  "primary_symbol": "FIX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "COMFORT SYSTEMS USA INC provides mechanical, electrical, and plumbing (MEP) services, including HVAC (heating, ventilation, and air conditioning) installation, maintenance, and repair, primarily for commercial and industrial buildings. They also offer building automation and energy efficiency solutions. The company is headquartered in Houston, Texas."
+  "summary": "Comfort Systems USA, Inc. provides mechanical and electrical installation, renovation, maintenance, repair, and replacement services for the mechanical and electrical services industry in the United States. It engages in the design, engineering, integration, installation, and start-up of mechanical, electrical, and plumbing (MEP) systems; and maintenance, repair, replacement, renovation, expansion, reconfiguration, and monitoring of existing buildings The company offers its services for heating, ventilation, and air conditioning (HVAC) systems, as well as plumbing, piping and controls, off-site construction, electrical, monitoring, and fire protection. It serves building owners and developers, general contractors, architects, consulting engineers, and property managers in the commercial, industrial, and institutional MEP markets. Comfort Systems USA, Inc. was founded in 1917 and is headquartered in Houston, Texas.",
+  "website": "http://www.comfortsystemsusa.com"
 }

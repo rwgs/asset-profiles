@@ -3,6 +3,7 @@
   "country_code": "HK",
   "identifiers": {
     "composite_figi": "BBG000BFFCC7",
+    "figi": "BBG000BFFCM6",
     "isin": "BMG8437G3195"
   },
   "industry": "Entertainment",
@@ -11,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0326.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CQSN.F"
@@ -18,14 +24,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "China Star Entertainment Limited",
-  "primary_symbol": "CQSN.F",
+  "primary_symbol": "0326.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "China Star Entertainment Limited, an investment holding company, engages in the investment, production, distribution, and licensing of films and television drama series in Hong Kong, Macau, the People's Republic of China, and internationally. The company operates through three segments: Film Related Business Operations; Property Development and Investment Operations; and Restaurant Operations. It is also involved in the provision of other film related services, including artist management services; and investment and development of properties, as well as provision of catering services through a restaurant under the Obba Bar brand. In addition, the company offers corporate planning, props and equipment rental, and dramatic creation; art piece investment and rental; property and construction project management; motion pictures and video rights distribution; film production controlling, direction, and producing; nominee; and song rights, trademarks, and copyrights holding and licensing services. Further, it provides agency and management services, as well as holds cable rights. China Star Entertainment Limited is headquartered in Central, Hong Kong."
+  "summary": "China Star Entertainment Limited is an investment holding company centred on film and television, financing, producing, distributing and licensing films and drama series in Hong Kong, Macau, mainland China and Taiwan. It reports Film Related Business and Property Development and Investment segments, and also provides artist management, production services and rights licensing. It was established in 1992 and has its head office in Central, Hong Kong.",
+  "website": "https://www.chinastar.com.hk"
 }

@@ -1,16 +1,70 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BWT790",
-    "figi": "BBG000BWT790",
+    "composite_figi": "BBG000BC7QR6",
+    "figi": "BBG000BC7TK7",
     "isin": "DE0007030009"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Aerospace & Defense",
+  "industry_group": "Capital Goods",
   "isin": "DE0007030009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RHM.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "RHM.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RHM.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RHM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "RHM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "RHM.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RHM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RHM.SG"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "RHM.SW"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "RHM.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "RHM.VI"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -19,15 +73,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Rheinmetall AG",
-  "primary_symbol": "RNMBF",
+  "primary_symbol": "RHM.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Rheinmetall AG is a global technology company that supplies innovative solutions to the mobility and security industries, through Vehicle Systems, Weapon and Ammunition, Electronic Solutions, Sensors and Actuators, and Materials and Trade divisions. Established in 1889, the company initially operated as Rheinmetall Berlin AG before adopting its current name in 1996. Its corporate headquarters are located in Düsseldorf, Germany.",
-  "website": "http://www.rh.com"
+  "sector": "Industrials",
+  "summary": "Rheinmetall AG is a Germany-based security technology and mobility group operating in Vehicle Systems, Weapon and Ammunition, Electronic Solutions, Sensors and Actuators, and Materials and Trade segments, producing military vehicles, weapons and ammunition, as well as automotive components. Founded in 1889, headquartered in Düsseldorf, Germany.",
+  "website": "https://www.rheinmetall.com"
 }

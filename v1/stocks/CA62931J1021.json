@@ -7,6 +7,7 @@
     "figi": "BBG000Q5B676",
     "isin": "CA62931J1021"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "CA62931J1021",
   "kind": "stock",
@@ -15,17 +16,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA62931J1021.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "GASX.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GASXF"
     }
   ],
-  "name": "NG ENERGY INTERNATIONAL CORP",
+  "market_cap_band": "Micro Cap",
+  "name": "NG Energy International Corp.",
   "primary_symbol": "CA62931J1021.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "NG ENERGY INTERNATIONAL CORP is an energy company focused on natural gas exploration and production in Colombia. The company is focused on developing natural gas resources to meet local energy demand. NG ENERGY INTERNATIONAL CORP is headquartered in Calgary, Alberta."
+  "summary": "NG ENERGY INTERNATIONAL CORP is an energy company focused on natural gas exploration and production in Colombia. The company is focused on developing natural gas resources to meet local energy demand. NG ENERGY INTERNATIONAL CORP is headquartered in Calgary, Alberta.",
+  "website": "http://www.ngenergyintl.com"
 }

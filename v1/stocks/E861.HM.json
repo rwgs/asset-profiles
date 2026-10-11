@@ -1,6 +1,11 @@
 {
   "country": "Australia",
   "country_code": "AU",
+  "identifiers": {
+    "composite_figi": "BBG00D305Y25",
+    "figi": "BBG00D305YC4"
+  },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "kind": "stock",
   "listings": [
@@ -10,15 +15,16 @@
       "symbol": "E861.HM"
     }
   ],
-  "name": "EUROPEAN MET.HLDGS CDIS 1",
+  "name": "European Metals Holdings Ltd",
   "primary_symbol": "E861.HM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "European Metals Holdings Ltd is a mineral exploration and development company focused on the Cinovec lithium project in the Czech Republic. The Cinovec project is a hard rock lithium deposit and is expected to produce battery-grade lithium hydroxide. The company is headquartered in Perth, Australia."
+  "summary": "European Metals Holdings Ltd is a mineral exploration and development company focused on the Cinovec lithium project in the Czech Republic. The Cinovec project is a hard rock lithium deposit and is expected to produce battery-grade lithium hydroxide. The company is headquartered in Perth, Australia.",
+  "website": "http://www.europeanmet.com"
 }

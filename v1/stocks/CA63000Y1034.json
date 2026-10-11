@@ -6,6 +6,7 @@
     "cusip": "63000Y103",
     "isin": "CA63000Y1034"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Commercial & Professional Services",
   "isin": "CA63000Y1034",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA63000Y1034.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "NSCI.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NSCIF"
     }
   ],
-  "name": "NANALYSIS SCIENTIFIC CORP",
+  "market_cap_band": "Nano Cap",
+  "name": "Nanalysis Scientific Corp.",
   "primary_symbol": "CA63000Y1034.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Nanalysis Scientific Corp develops, manufactures, and markets compact Nuclear Magnetic Resonance (NMR) spectrometers for chemical analysis markets. Headquartered in Calgary, Canada, their spectrometers are used in various industries, including chemical, pharmaceutical, and research, for quality control and research purposes. The company focuses on providing accessible and affordable NMR technology."
+  "summary": "Nanalysis Scientific Corp develops, manufactures, and markets compact Nuclear Magnetic Resonance (NMR) spectrometers for chemical analysis markets. Headquartered in Calgary, Canada, their spectrometers are used in various industries, including chemical, pharmaceutical, and research, for quality control and research purposes. The company focuses on providing accessible and affordable NMR technology.",
+  "website": "http://www.nanalysis.com"
 }

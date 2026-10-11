@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000M14B49",
-    "figi": "BBG000M14C38",
+    "composite_figi": "BBG000F7NGK4",
+    "figi": "BBG000F7NGZ8",
     "isin": "JP3816200004"
   },
   "industry": "Pharmaceuticals",
@@ -12,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4554.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FUP.F"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Fuji Pharma Co., Ltd.",
-  "primary_symbol": "FUP.F",
+  "name": "Fuji Pharma Co.,Ltd.",
+  "primary_symbol": "4554.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Fuji Pharma Co., Ltd. engages in the research and development, manufacture, and marketing of pharmaceutical products in Japan and internationally. The company offers hormone medicines for obstetrics and gynecology therapies, as well as injectable drugs, such as radiopharmaceutical products. It also provides medical care for women; in vitro diagnostics, acute medical care products, and curative medicines; and information regarding pharmaceuticals and health. The company was founded in 1965 and is headquartered in Tokyo, Japan.",
+  "summary": "Fuji Pharma Co., Ltd. is a pharmaceutical company covering drug development from research and discovery to manufacturing and commercialization. Its products include injectable, oral and topical medicines and diagnostic tools, and it specializes in women's healthcare products. It also shares pharmaceutical and general health information. Dating from 1965, it has its headquarters in Tokyo, Japan.",
   "website": "http://www.fujipharma.jp"
 }

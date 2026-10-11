@@ -6,6 +6,7 @@
     "figi": "BBG000VMJRH8",
     "isin": "AU000000BOE4"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "AU000000BOE4",
   "kind": "stock",
@@ -16,20 +17,27 @@
       "symbol": "B8Y.BE"
     },
     {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "BOE.AX"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BQSSF"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Boss Energy Limited",
   "primary_symbol": "B8Y.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "BOSS ENERGY LTD. is an Australian uranium mining company. The company is focused on the development of its Honeymoon Uranium Project in South Australia."
+  "summary": "Boss Energy Limited is an Australian uranium mining company. The company is focused on the development of its Honeymoon Uranium Project in South Australia.",
+  "website": "http://www.bossenergy.com.au"
 }

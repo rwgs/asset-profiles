@@ -6,6 +6,7 @@
     "figi": "BBG000QZVT23",
     "isin": "GB00B0H2K534"
   },
+  "industry": "Energy Equipment & Services",
   "industry_group": "Energy",
   "isin": "GB00B0H2K534",
   "kind": "stock",
@@ -22,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "P2F.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "P2F.MU"
     },
@@ -29,17 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "P2F.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "POFCF"
     }
   ],
-  "name": "PETROFAC LIMITED",
+  "market_cap_band": "Nano Cap",
+  "name": "Petrofac Limited",
   "primary_symbol": "P2F.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Petrofac Limited is an international service provider to the energy industry, offering engineering, procurement, construction, installation, and operations & maintenance services to oil, gas, refining, petrochemical, and renewable energy sectors. Headquartered in Jersey, Channel Islands, the company serves clients globally. Petrofac's business model involves delivering complex and challenging projects across the asset life cycle."
+  "summary": "Petrofac Limited is an international service provider to the energy industry, offering engineering, procurement, construction, installation, and operations & maintenance services to oil, gas, refining, petrochemical, and renewable energy sectors. Headquartered in Jersey, Channel Islands, the company serves clients globally. Petrofac's business model involves delivering complex and challenging projects across the asset life cycle.",
+  "website": "http://www.petrofac.com"
 }

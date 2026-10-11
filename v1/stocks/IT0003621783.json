@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JHVYZ06",
+    "figi": "BBG00JHVYZ15",
     "isin": "IT0003621783"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -16,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSWX",
+      "symbol": "IT0003621783.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LZO1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LZO1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LZO1.MU"
     },
     {
       "currency": "EUR",
@@ -34,7 +51,7 @@
   "name": "S.S. Lazio S.p.A.",
   "primary_symbol": "0MS9.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

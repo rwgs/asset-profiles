@@ -7,7 +7,7 @@
     "figi": "BBG000CB9T62",
     "isin": "US9139031002"
   },
-  "industry": "Health Care Equipment & Supplies",
+  "industry": "Health Care Providers & Services",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US9139031002",
   "kind": "stock",
@@ -18,14 +18,29 @@
       "symbol": "UHS"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LJL.L"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "U1HS34.SA"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UHS.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "UHS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UHS.MU"
     },
     {
       "currency": "EUR",
@@ -37,7 +52,7 @@
   "name": "Universal Health Services, Inc. Class B",
   "primary_symbol": "UHS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

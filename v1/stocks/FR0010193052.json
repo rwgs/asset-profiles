@@ -2,9 +2,11 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHVZV77",
+    "figi": "BBG00JHVZV86",
     "isin": "FR0010193052"
   },
-  "industry": "Hotels, Restaurants & Leisure",
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "FR0010193052",
   "kind": "stock",
@@ -16,13 +18,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "2HU.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "2HU.F"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2HU.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "2HU.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALCAT.PA"
     },
     {
       "currency": "EUR",
@@ -34,7 +51,7 @@
   "name": "SA Catana Group",
   "primary_symbol": "0OGG.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

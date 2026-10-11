@@ -19,11 +19,6 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "BSD2.F"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "BSDK.BE"
     },
@@ -31,13 +26,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BSDK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BSDK.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Banco Santander, S.A.",
   "primary_symbol": "SAN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

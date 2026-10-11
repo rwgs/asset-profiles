@@ -2,30 +2,43 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG0014V19N8",
+    "composite_figi": "BBG000Q62W77",
     "cusip": "05466C109",
-    "figi": "BBG0014V19S3",
+    "figi": "BBG000Q62W77",
     "isin": "CA05466C1095"
   },
-  "industry_group": "Materials",
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Telecommunication Services",
   "isin": "CA05466C1095",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "AYA"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "AYA.TO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA05466C1095.SG"
     }
   ],
-  "name": "AYA GOLD & SILVER INC",
-  "primary_symbol": "CA05466C1095.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Aya Gold & Silver Inc. Common Shares",
+  "primary_symbol": "AYA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "AYA GOLD & SILVER INC is a mining company focused on the exploration, development, and operation of silver and gold mines in Morocco. The company's flagship project is the Zgounder Silver Mine. AYA Gold & Silver Inc. is headquartered in Montreal, Quebec, Canada."
+  "sector": "Communications",
+  "summary": "Aya Gold & Silver Inc. specializes in the procurement, investigation, and enhancement of mineral-rich landholdings. Its diverse portfolio encompasses key sites such as Zgounder, Boumadine, Imiter bis, Amizmiz, Azegour, Tirzzit, and Tijirit, in addition to its reported reserves and resources. Réjean Gosselin established this enterprise on December 19, 2007, and its corporate headquarters are situated in Montreal, Canada.",
+  "website": "http://www.ayagoldsilver.com"
 }

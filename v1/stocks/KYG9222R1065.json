@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000VPS6Y8",
-    "figi": "BBG000VPS6Y8",
+    "composite_figi": "BBG000TZG4D0",
+    "figi": "BBG000TZG4M0",
     "isin": "KYG9222R1065"
   },
   "industry": "Beverages",
@@ -12,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0220.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "UPCHY"
@@ -19,15 +24,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Uni-President China Holdings Ltd",
-  "primary_symbol": "UPCHY",
+  "primary_symbol": "0220.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Uni-President China Holdings Ltd., an investment holding company, manufactures, sells, and trades in beverages and instant noodles in the People's Republic of China. The company operates through Beverages, Instant Noodles, and Others segments. It offers tea drinks, juice drinks, milk tea, coffee, bottled water, soy milk, and bottle can drinks. The company also engages in the wholesale of pre-packaged food and dairy products, and forage and fertilizers, as well as manufactures and sells seasonings. In addition, it is involved in leasing, real estate, catering, and management consulting, as well as human resource management related activities. The company was incorporated in 2007 and is headquartered in Shanghai, China. Uni-President China Holdings Ltd. is a subsidiary of Cayman President Holdings Ltd.",
-  "website": "http://www.uni-president.com.cn"
+  "summary": "Uni-President China Holdings Ltd. is an investment holding company that produces and sells food and beverages in the Chinese market. It has three divisions: Beverages, Food, and Others. Its drinks include tea beverages, fruit juices, milk teas, coffee and bottled water.",
+  "website": "https://www.uni-president.com.cn"
 }

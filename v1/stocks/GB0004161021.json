@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BKFP37",
     "isin": "GB0004161021"
   },
+  "industry": "Professional Services",
   "industry_group": "Capital Goods",
   "isin": "GB0004161021",
   "kind": "stock",
@@ -13,17 +14,44 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0004161021.SW"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "HAS.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HAY.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HAY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HAY.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HAY.SG"
     }
   ],
-  "name": "HAYS PLC",
+  "market_cap_band": "Small Cap",
+  "name": "Hays plc",
   "primary_symbol": "GB0004161021.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Hays PLC is a global recruitment company, providing specialist recruitment services across a wide range of industries and professions. The company helps employers find qualified candidates for permanent, temporary, and contract positions. Hays PLC is headquartered in London, United Kingdom."
+  "summary": "Hays PLC is a global recruitment company, providing specialist recruitment services across a wide range of industries and professions. The company helps employers find qualified candidates for permanent, temporary, and contract positions. Hays PLC is headquartered in London, United Kingdom.",
+  "website": "http://www.haysplc.com"
 }

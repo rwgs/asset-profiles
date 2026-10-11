@@ -7,6 +7,7 @@
     "figi": "BBG00XZBMTQ8",
     "isin": "CA03169D1024"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "CA03169D1024",
   "kind": "stock",
@@ -17,20 +18,32 @@
       "symbol": "601A.MU"
     },
     {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "AMMP.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMMPF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA03169D1024.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "AmmPower Corp.",
   "primary_symbol": "601A.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "AMMPOWER CORP. is a company focused on the production of green ammonia. It aims to develop and commercialize technologies for producing ammonia from renewable energy sources. The company is headquartered in Canada."
+  "summary": "AmmPower Corp. is a company focused on the production of green ammonia. It aims to develop and commercialize technologies for producing ammonia from renewable energy sources. The company is headquartered in Canada.",
+  "website": "http://solderamining.com"
 }

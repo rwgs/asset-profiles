@@ -1,33 +1,38 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Malaysia",
+  "country_code": "MY",
   "identifiers": {
-    "composite_figi": "BBG00Q8J6F66",
-    "figi": "BBG00Q8J6F66",
+    "composite_figi": "BBG000Q849T8",
+    "figi": "BBG00J88MDX3",
     "isin": "MYL5288OO005"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "MYL5288OO005",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "MYR",
+      "exchange_mic": "XKLS",
+      "symbol": "5288.KL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SIMEF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Sime Darby Property Berhad",
-  "primary_symbol": "SIMEF",
+  "primary_symbol": "5288.KL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Sime Darby Property Berhad operates as a diversified real estate entity with a presence in Malaysia, Singapore, and the United Kingdom, involved in property development, real estate investment and asset management, and leisure and hospitality services. Sime Darby Property Berhad was founded in 1973 and is based in Petaling Jaya, Malaysia.",
-  "website": "http://www.rh.com"
+  "sector": "Real Estate",
+  "summary": "Sime Darby Property Berhad is a Malaysia-based property developer. The company is involved in developing residential, commercial, and industrial properties, as well as integrated townships and master-planned communities. Sime Darby Property aims to create sustainable and vibrant living environments through its innovative property developments.",
+  "website": "https://www.simedarbyproperty.com"
 }

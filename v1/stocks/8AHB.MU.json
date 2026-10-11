@@ -1,6 +1,10 @@
 {
   "country": "China",
   "country_code": "CN",
+  "identifiers": {
+    "composite_figi": "BBG005PSBBW7",
+    "figi": "BBG005PSBC19"
+  },
   "industry_group": "Software & Services",
   "kind": "stock",
   "listings": [
@@ -10,15 +14,17 @@
       "symbol": "8AHB.MU"
     }
   ],
-  "name": "AUTOHOME SP.ADR A 4 DL-01",
+  "market_cap_band": "Mid Cap",
+  "name": "Autohome Inc. Class A",
   "primary_symbol": "8AHB.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Autohome Inc. is a leading online destination for automobile consumers in China, offering comprehensive, independent, and interactive content. The company provides advertising, dealer subscription, and data product services for automakers and dealers; it also facilitates transaction matching for consumers. Headquartered in Beijing, China, Autohome leverages its content and technology to enhance the car-buying and ownership experience for Chinese consumers."
+  "summary": "Autohome Inc. is a leading online destination for automobile consumers in China, offering comprehensive, independent, and interactive content. The company provides advertising, dealer subscription, and data product services for automakers and dealers; it also facilitates transaction matching for consumers. Headquartered in Beijing, China, Autohome leverages its content and technology to enhance the car-buying and ownership experience for Chinese consumers.",
+  "website": "http://www.autohome.com.cn"
 }

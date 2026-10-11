@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG007R9H845",
+    "figi": "BBG007R9H863",
     "isin": "IT0003115950"
   },
   "industry": "Household Durables",
@@ -11,21 +13,41 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0E5M.IL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "DLG.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DLN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DLN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DLN.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "De'Longhi S.p.A.",
-  "primary_symbol": "DLG.MI",
+  "primary_symbol": "0E5M.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "De'Longhi S.p.A., together with its subsidiaries, manufactures and distributes coffee making products, food preparation and cooking machines, air conditioners and portable heaters, domestic cleaning devices, and ironing systems. The company provides its products primarily under the De'Longhi, Kenwood, Braun, Nespresso, Nutribullet, Magic Bullet, and Ariete brands. It has operation in Europe, the Middle East, India, Africa, the Asia/Pacific, and the Americas. The company was founded in 1900 and is headquartered in Treviso, Italy. De'Longhi S.p.A. is a subsidiary of De Longhi Industrial S.A.",
+  "summary": "De' Longhi S.p.A. is an Italian small appliance manufacturer based in Treviso, Italy. The company is famous for its range of espresso makers, ice cream makers, air conditioners and portable heaters, and also sells appliances under the Kenwood and Braun brands. The company operates globally offering products in cooking, comfort and home care.",
   "website": "http://www.delonghigroup.com"
 }

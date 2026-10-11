@@ -5,6 +5,8 @@
     "composite_figi": "BBG000BD0GW7",
     "isin": "DK0060135978"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "DK0060135978",
   "kind": "stock",
   "listings": [
@@ -12,15 +14,24 @@
       "currency": "DKK",
       "exchange_mic": "XSWX",
       "symbol": "DK0060135978.SW"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XCSE",
+      "symbol": "HVID.CO"
     }
   ],
-  "name": "HVIDBJERG BANK AKTIESELSKAB",
+  "market_cap_band": "Nano Cap",
+  "name": "Hvidbjerg Bank A/S",
   "primary_symbol": "DK0060135978.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Hvidbjerg Bank A/S provides various banking products and services to private and business customers in Denmark. The company offers accounts, housing finance, mortgage loans, consumer loans, car and motorcycle loans, succession and entrepreneurship loans, payment cards, and travel currency services. It also provides non-life and life insurance products; pension products; investment products; and mobile and Internet banking services. In addition, the company offers financial advisory services related to international trade and transactions involving foreign currencies. Hvidbjerg Bank A/S was founded in 1912 and is headquartered in Thyholm, Denmark.",
+  "website": "http://www.hvidbjergbank.dk"
 }

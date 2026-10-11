@@ -2,28 +2,37 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000QHJYY1",
+    "composite_figi": "BBG000BFKJ18",
+    "figi": "BBG000BFKJ90",
     "isin": "GB00BF044593"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "GB00BF044593",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CLI.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BF044593.SG"
     }
   ],
-  "name": "CLS HOLDINGS PLC",
-  "primary_symbol": "GB00BF044593.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "CLS Holdings plc",
+  "primary_symbol": "CLI.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "CLS Holdings PLC is a commercial property investment company focused on owning and managing office buildings in the UK, Germany, and France. The company aims to generate income and capital growth through active management and strategic acquisitions. CLS Holdings is headquartered in London, UK."
+  "summary": "CLS Holdings plc, together with its subsidiaries, engages in the investment, development, and management of commercial properties in the United Kingdom, Germany, and France. It operates in two segments, Investment Properties and Other Investments. The company also invests in a hotel; and corporate bonds and other corporate investments, as well as rents office buildings. Its asset portfolio consists of 97 properties comprising 6.4m square feet. The company serves blue-chip organizations and government departments. The company was founded in 1987 and is based in London, the United Kingdom. CLS Holdings plc is a subsidiary of The Sten and Karin Mortstedt Family & Charity Trust.",
+  "website": "http://www.clsholdings.com"
 }

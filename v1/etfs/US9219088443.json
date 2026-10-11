@@ -16,7 +16,7 @@
   ],
   "aum_usd": 130905337639.9,
   "category": "Developed Markets",
-  "category_group": "Alternatives",
+  "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
@@ -44,7 +44,7 @@
   "name": "Vanguard Dividend Appreciation ETF",
   "primary_symbol": "VIG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
@@ -52,48 +52,44 @@
   "schema_version": "1.0.0",
   "sector_weights": [
     {
+      "sector": "Information Technology",
+      "weight": 0.254639
+    },
+    {
       "sector": "Financials",
-      "weight": 0.20736
+      "weight": 0.217656
     },
     {
       "sector": "Health Care",
       "weight": 0.176212
     },
     {
-      "sector": "Information Technology",
-      "weight": 0.148537
-    },
-    {
-      "sector": "Unknown",
-      "weight": 0.115574
-    },
-    {
       "sector": "Industrials",
-      "weight": 0.109521
+      "weight": 0.119812
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.093241
-    },
-    {
-      "sector": "Real Estate",
-      "weight": 0.04593
+      "weight": 0.093275
     },
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.040328
-    },
-    {
-      "sector": "Materials",
-      "weight": 0.031316
-    },
-    {
-      "sector": "Utilities",
-      "weight": 0.026353
+      "weight": 0.041774
     },
     {
       "sector": "Energy",
-      "weight": 0.005628
+      "weight": 0.033503
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.031468
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.028857
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.002803
     }
   ],
   "top_holdings": [

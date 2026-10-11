@@ -2,28 +2,47 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
-    "composite_figi": "BBG000KGTC03",
+    "composite_figi": "BBG00GVK8989",
+    "figi": "BBG00NRVXGF3",
     "isin": "FI0009010862"
   },
   "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry_group": "Materials",
   "isin": "FI0009010862",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0M1M.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1S0.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FI0009010862.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "SUY1V.HE"
     }
   ],
-  "name": "SUOMINEN OYJ",
-  "primary_symbol": "FI0009010862.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "Suominen Oyj",
+  "primary_symbol": "0M1M.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples"
+  "sector": "Materials",
+  "summary": "Suominen Oyj manufactures and sells nonwovens as roll goods for wipes and other applications in Finland, the United States, the rest of Europe, the rest of North and South America, and internationally. It provides baby care, flushable, household, and workplace wipes. The company also offers nonwovens for specialty hygiene and medical applications, such as products for feminine hygiene and adult incontinence products, as well as baby diapers; and personal care, wound care, surgical drape, and patient care applications. Suominen Oyj was founded in 1767 and is headquartered in Helsinki, Finland.",
+  "website": "http://www.suominen.fi"
 }

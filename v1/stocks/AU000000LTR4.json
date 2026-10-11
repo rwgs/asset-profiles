@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000QLJ726",
-    "figi": "BBG000QLJ922",
+    "composite_figi": "BBG00JQBJPN4",
+    "figi": "BBG00JQBJPN4",
     "isin": "AU000000LTR4"
   },
   "industry": "Metals & Mining",
@@ -11,6 +11,11 @@
   "isin": "AU000000LTR4",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LINRF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -43,10 +48,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Liontown Limited",
-  "primary_symbol": "LIS.BE",
+  "name": "Liontown Resources Limited",
+  "primary_symbol": "LINRF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -54,5 +59,5 @@
   "schema_version": "1.0.0",
   "sector": "Materials",
   "summary": "Liontown Resources Limited is an Australian company focused on the exploration and development of lithium deposits. The company's primary asset is the Kathleen Valley Lithium Project in Western Australia. Liontown Resources aims to become a significant producer of lithium concentrate.",
-  "website": "http://www.ltresources.com.au"
+  "website": "https://www.liontown.com"
 }

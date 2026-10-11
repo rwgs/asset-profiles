@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000CBDPJ1",
+    "composite_figi": "BBG000BG3DK7",
     "cusip": "45662N103",
-    "figi": "BBG000CBDPJ1",
+    "figi": "BBG000BG3DK7",
     "isin": "US45662N1037"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -15,37 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "IFNNF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "IFNNY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "IFX.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "IFX.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "IFX.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "IFX.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "IFX.VI"
     },
     {
       "currency": "EUR",
@@ -66,18 +36,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "IFXA.SG"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "IFXN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Infineon Technologies AG",
-  "primary_symbol": "IFNNF",
+  "primary_symbol": "IFNNY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

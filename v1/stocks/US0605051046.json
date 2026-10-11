@@ -2,15 +2,45 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FB6065",
+    "composite_figi": "BBG000BCTLF6",
     "cusip": "060505104",
-    "figi": "BBG000FB63L2",
+    "figi": "BBG000BCTN44",
     "isin": "US0605051046"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US0605051046",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BAC"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0Q16.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XSGO",
+      "symbol": "BAC.SN"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "BAC.TI"
+    },
+    {
+      "currency": "CLP",
+      "exchange_mic": "XSGO",
+      "symbol": "BACCL.SN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BOAC.VI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,8 +48,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "NCB.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "NCB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NCB.F"
     },
     {
       "currency": "EUR",
@@ -42,15 +82,17 @@
       "symbol": "NCB.SG"
     }
   ],
-  "name": "BANK AMERICA  DL 0,01",
-  "primary_symbol": "NCB.BE",
+  "market_cap_band": "Mega Cap",
+  "name": "Bank of America Corporation",
+  "primary_symbol": "BAC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Bank of America Corporation is a global financial institution providing a wide range of banking, investment, asset management, and other financial and risk management products and services. It serves individuals, small and middle-market businesses, large corporations, and governments. The company is headquartered in Charlotte, North Carolina."
+  "summary": "Bank of America Corporation, through its subsidiaries, provides banking and financial products and services for individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. Its Consumer Banking segment offers traditional and money market savings accounts, certificates of deposit and IRAs, noninterest-and interest-bearing checking accounts, and investment accounts and products; and credit and debit cards, residential mortgages, and home equity loans, as well as direct and indirect loans, such as automotive, recreational vehicle, and consumer personal loans. The company's Global Wealth & Investment Management segment offers investment management, brokerage, banking, and trust and retirement products and services; and wealth management solutions, as well as customized solutions, including specialty asset management services. Its Global Banking segment provides lending products and services, including commercial loans, leases, commitment facilities, trade finance, and commercial real estate and asset-based lending; treasury solutions, such as treasury management, foreign exchange, and short-term investing options and merchant services; working capital management solutions; and debt and equity underwriting and distribution, and merger-related and other advisory services. The company's Global Markets segment offers market-making, financing, securities clearing, settlement, and custody services, as well as risk management products using interest rate, equity, credit, currency and commodity derivatives, foreign exchange, fixed-income, and mortgage-related products. As of April 15, 2021, it served approximately 66 million consumer and small business clients with approximately 4,300 retail financial centers; approximately 17,000 ATMs; and digital banking platforms with approximately 40 million active users. The company was founded in 1784 and is headquartered in Charlotte, North Carolina.",
+  "website": "http://www.bankofamerica.com"
 }

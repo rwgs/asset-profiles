@@ -3,28 +3,36 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000BL18R2",
+    "figi": "BBG000BL18X5",
     "isin": "JP3404200002"
   },
-  "industry_group": "Real Estate",
+  "industry": "Auto Components",
+  "industry_group": "Automobiles & Components",
   "isin": "JP3404200002",
   "kind": "stock",
   "listings": [
     {
-      "currency": "MYR",
-      "exchange_mic": "XKLS",
-      "symbol": "5110.KL"
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5110.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMTUF"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Uoa Real Estate Investment",
-  "primary_symbol": "5110.KL",
+  "market_cap_band": "Mid Cap",
+  "name": "Sumitomo Rubber Industries Ltd",
+  "primary_symbol": "5110.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "Uoa Real Estate Investment is a Malaysia-based real estate investment trust (REIT) that invests in commercial properties, primarily office buildings. The REIT generates income through rental of its properties located in Kuala Lumpur, Malaysia. Uoa Real Estate Investment is headquartered in Kuala Lumpur, Malaysia."
+  "sector": "Consumer Discretionary",
+  "summary": "Sumitomo Rubber Industries, Ltd. is a global enterprise that, together with its subsidiaries, offers a diverse range of tires, sports equipment, and industrial and specialty products. Its extensive operations cover Japan, the broader Asian region, Europe, North America, and other international markets. Under its renowned Dunlop and Falken brands, the company manufactures and distributes a comprehensive selection of tires. These cater to a multitude of vehicles, from passenger cars, trucks, and buses to motorcycles, construction and agricultural machinery, as well as specialized race, rally, and industrial vehicles. It also supplies aluminum wheels. The firm is also a prominent force in the sports industry. It produces golf clubs and balls under the XXIO, SRIXON, and Cleveland Golf labels, and provides tennis rackets and balls branded as Dunlop. Additionally, it manages fitness clubs and offers golf and tennis instruction through dedicated schools. Furthermore, Sumitomo Rubber's product portfolio extends to a variety of industrial and specialized items. These include rubber components for medical applications, precision rubber parts for office equipment, vibration control dampers, artificial turf for sports facilities, various types of rubber gloves and gas tubes, portable wheelchair ramps, water cushions, cooling packs, and even women's undergarments. Established in 1909 and headquartered in Kobe, Japan, the company was initially known as Dunlop Rubber Company (Far East) Ltd. It officially adopted the name Sumitomo Rubber Industries, Ltd. in 1963.",
+  "website": "https://www.srigroup.co.jp"
 }

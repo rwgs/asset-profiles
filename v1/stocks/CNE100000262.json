@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000CXR5F6",
-    "figi": "BBG000CXR5F6",
+    "composite_figi": "BBG000BJJZ70",
+    "figi": "BBG000BJJZJ7",
     "isin": "CNE100000262"
   },
   "industry": "Real Estate Management & Development",
@@ -11,6 +11,11 @@
   "isin": "CNE100000262",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0588.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -20,19 +25,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BJ3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BJ3.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Beijing North Star Company Limited",
-  "primary_symbol": "BEIJF",
+  "primary_symbol": "0588.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Beijing North Star Company Limited engages in the development and investment of properties and hotels in the People's Republic of China. It is involved in the property leasing, land and property development, property investment and management, and provision of food and beverage and trading services, as well as develops and sells residential units, apartments, villas, and offices and commercial buildings. The company also operates hotels, apartments, office buildings, restaurants, conference centers, and convention and exhibition centers. In addition, it provides multimedia information network development, system integration, software development, and investment management services; and hotel and restaurant management consulting services. Beijing North Star Company Limited was founded in 1997 and is based in Beijing, the People's Republic of China.",
+  "summary": "Beijing North Star Company Limited concentrates on mainland China real estate and hospitality. It covers land acquisition, development, leasing, investment and management, and builds and sells residences, apartments, villas, offices and commercial properties. It also manages and operates a range of other properties.",
   "website": "http://www.beijingns.com.cn"
 }

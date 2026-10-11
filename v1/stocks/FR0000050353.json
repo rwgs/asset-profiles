@@ -2,28 +2,57 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BLHSP3",
+    "composite_figi": "BBG00JGBR113",
+    "figi": "BBG00JVX9G42",
     "isin": "FR0000050353"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Aerospace & Defense",
+  "industry_group": "Capital Goods",
   "isin": "FR0000050353",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0EKE.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "FII.PA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000050353.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LI3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LI3.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LSIIF"
     }
   ],
-  "name": "LISI",
-  "primary_symbol": "FR0000050353.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Lisi S.A.",
+  "primary_symbol": "0EKE.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "LISI is a French industrial group specializing in the manufacture of fasteners and assembly components. The company serves the aerospace, automotive, and industrial sectors. LISI is headquartered in Belfort, France."
+  "summary": "LISI SA is a France-based global industrial group specializing in the manufacturing of high value-added assembly solutions and components. The company operates in three main sectors: Aerospace, Automotive, and Medical. LISI is headquartered in Grandvillars, France.",
+  "website": "http://www.lisi-group.com"
 }

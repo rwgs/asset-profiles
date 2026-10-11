@@ -2,29 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000HRSYR7",
+    "composite_figi": "BBG000BGMC46",
     "cusip": "126501105",
-    "figi": "BBG000HRV426",
+    "figi": "BBG000BGMF67",
     "isin": "US1265011056"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "US1265011056",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "CTS"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "XT1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XT1.F"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "CTS CORP.",
-  "primary_symbol": "XT1.BE",
+  "name": "CTS Corporation",
+  "primary_symbol": "CTS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology"
+  "sector": "Information Technology",
+  "summary": "CTS Corporation manufactures and sells sensors, actuators, and connectivity components in North America, Europe, and Asia. The company provides sensors and actuators for use in passenger or commercial vehicles; connectivity components for telecommunications infrastructure, information technology, and other high-speed applications; switches, temperature sensors, and potentiometers supplied to multiple markets; and fabricated piezoelectric materials and substrates used primarily in medical, industrial, aerospace and defense, and information technology markets. The company sells and markets its products through its sales engineers, independent manufacturers' representatives, and distributors. CTS Corporation was founded in 1896 and is headquartered in Lisle, Illinois.",
+  "website": "http://www.ctscorp.com"
 }

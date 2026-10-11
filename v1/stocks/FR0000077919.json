@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "FR0000077919"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Media",
+  "industry_group": "Media & Entertainment",
   "isin": "FR0000077919",
   "kind": "stock",
   "listings": [
@@ -36,6 +36,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DCS.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "DEC.PA"
     },
@@ -49,7 +54,7 @@
   "name": "JCDecaux SA",
   "primary_symbol": "0MGO.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

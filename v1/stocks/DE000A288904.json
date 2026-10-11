@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "DE000A288904"
   },
+  "industry": "Health Care Technology",
   "industry_group": "Software & Services",
   "isin": "DE000A288904",
   "kind": "stock",
@@ -15,19 +16,66 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "COP.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "COP.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "COP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "COP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "COP.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "COP.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "COP.MU"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "COP1N.MX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "COP2.VI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A288904.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "CompuGroup Medical SE & Co. KGaA",
   "primary_symbol": "0MSD.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CompuGroup Medical SE is a software company that provides information technology solutions for healthcare providers. It develops and markets software for doctors, hospitals, and pharmacies. The company is headquartered in Koblenz, Germany."
+  "summary": "CompuGroup Medical SE is a software company that provides information technology solutions for healthcare providers. It develops and markets software for doctors, hospitals, and pharmacies. The company is headquartered in Koblenz, Germany.",
+  "website": "http://www.cgm.com"
 }

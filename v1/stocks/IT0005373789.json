@@ -3,7 +3,7 @@
   "country_code": "IT",
   "identifiers": {
     "composite_figi": "BBG001HYNH83",
-    "figi": "BBG001HYNHD7",
+    "figi": "BBG001HYNHB9",
     "isin": "IT0005373789"
   },
   "industry": "Biotechnology",
@@ -11,6 +11,16 @@
   "isin": "IT0005373789",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "78Q.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "78Q.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -22,16 +32,17 @@
       "symbol": "PHIL.MI"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Philogen SpA",
-  "primary_symbol": "IT0005373789.SG",
+  "primary_symbol": "78Q.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "PHILOGEN SPA is an Italian biotechnology company focused on the discovery and development of innovative biopharmaceuticals for the treatment of diseases with unmet medical needs. The company's lead programs are in oncology and dermatology. The company is headquartered in Siena, Italy.",
+  "summary": "Philogen S.p.A. is a biotechnology company engaged in the discovery and development of biopharmaceuticals for the treatment of diseases with high unmet medical need. Their lead products are based on tumor-targeting proteins. Philogen is headquartered in Siena, Italy.",
   "website": "http://www.philogen.com"
 }

@@ -7,6 +7,7 @@
     "figi": "BBG009TBRBP3",
     "isin": "CA83445W1086"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA83445W1086",
   "kind": "stock",
@@ -15,17 +16,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA83445W1086.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMAGF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "SOMA.V"
     }
   ],
-  "name": "SOMA GOLD CORP",
+  "market_cap_band": "Micro Cap",
+  "name": "Soma Gold Corp.",
   "primary_symbol": "CA83445W1086.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Soma Gold Corp is a gold mining and exploration company focused on projects in Colombia. The company's primary asset is the El Bagre gold mining complex. Soma Gold Corp is based in Vancouver, Canada."
+  "summary": "Soma Gold Corp is a gold mining and exploration company focused on projects in Colombia. The company's primary asset is the El Bagre gold mining complex. Soma Gold Corp is based in Vancouver, Canada.",
+  "website": "http://www.somagoldcorp.com"
 }

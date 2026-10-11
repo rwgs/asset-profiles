@@ -1,6 +1,11 @@
 {
   "country": "Spain",
   "country_code": "ES",
+  "identifiers": {
+    "composite_figi": "BBG00Q8J08Z6",
+    "figi": "BBG00Q8J0902"
+  },
+  "industry": "Banks",
   "industry_group": "Banks",
   "kind": "stock",
   "listings": [
@@ -10,10 +15,10 @@
       "symbol": "BCSA34.SA"
     }
   ],
-  "name": "SANTANDER   DRN",
+  "name": "SANTANDER DRN",
   "primary_symbol": "BCSA34.SA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,11 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG00JWMXYD9",
+    "figi": "BBG00JWMXYF7",
     "isin": "JP3756600007"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "JP3756600007",
   "kind": "stock",
@@ -12,6 +15,21 @@
       "currency": "JPY",
       "exchange_mic": "XLON",
       "symbol": "0R1E.L"
+    },
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7974.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NTDOF"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "NTDOYN.MX"
     },
     {
       "currency": "EUR",
@@ -25,6 +43,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NTO.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NTO.MU"
     },
@@ -32,17 +55,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NTO.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "NTO.VI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Nintendo Co., Ltd.",
   "primary_symbol": "0R1E.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Nintendo Co., Ltd. is a Japanese multinational consumer electronics and video game company. It develops, manufactures, and sells video game consoles and software, including popular franchises like Mario, Zelda, and Pokémon. Nintendo is headquartered in Kyoto, Japan."
+  "summary": "Nintendo Co., Ltd. is a Japanese multinational consumer electronics and video game company. It develops, manufactures, and sells video game consoles and software, including popular franchises like Mario, Zelda, and Pokémon. Nintendo is headquartered in Kyoto, Japan.",
+  "website": "http://www.nintendo.co.jp"
 }

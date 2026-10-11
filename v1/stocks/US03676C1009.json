@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00NJ3QBG2",
+    "composite_figi": "BBG0081NLHR0",
     "cusip": "03676C100",
-    "figi": "BBG00NJ3QBM5",
+    "figi": "BBG0081NLHR0",
     "isin": "US03676C1009"
   },
   "industry": "Diversified Telecommunication Services",
@@ -13,16 +13,21 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "ATEX"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US03676C1009.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "ANTERIX INC",
-  "primary_symbol": "US03676C1009.SG",
+  "name": "Anterix Inc.",
+  "primary_symbol": "ATEX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

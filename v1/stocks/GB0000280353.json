@@ -2,6 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG00WFD5V00",
+    "figi": "BBG00WFD5V19",
     "isin": "GB0000280353"
   },
   "industry": "Building Products",
@@ -10,21 +12,32 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0JL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "0JL.SG"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "ALU.L"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "The Alumasc Group plc",
-  "primary_symbol": "ALU.L",
+  "primary_symbol": "0JL.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "The Alumasc Group plc, together with its subsidiaries, designs, manufactures, and sells building products, systems, and solutions in the United Kingdom, Europe, North America, the Middle East, the Far East, and internationally. It offers integrated roofing and walling solutions, including solar shading, architectural screening, and balcony and balustrading systems; water management solutions to manage and attenuate water; and housebuilding products. The company was incorporated in 1983 and is based in Kettering, the United Kingdom.",
+  "summary": "ALUMASC GRP PLC LS -,125 is a UK-based building products company that designs, manufactures, and supplies products for the construction industry. Their portfolio includes roofing, drainage, facade, and water management solutions. Alumasc Group serves a variety of sectors, including commercial, industrial, and residential.",
   "website": "http://www.alumasc.co.uk"
 }

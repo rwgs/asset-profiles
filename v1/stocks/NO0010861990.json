@@ -3,13 +3,24 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG000C3WLX1",
-    "figi": "BBG000C3WN85",
+    "figi": "BBG000C3WP44",
     "isin": "NO0010861990"
   },
-  "industry_group": "Transportation",
+  "industry": "Energy Equipment & Services",
+  "industry_group": "Energy",
   "isin": "NO0010861990",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1Q6.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1Q6.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -18,18 +29,25 @@
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
-      "symbol": "PRSO.OL"
+      "symbol": "PRS.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PRSEF"
     }
   ],
-  "name": "Prosafe SE (Cyprus)",
-  "primary_symbol": "NO0010861990.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Prosafe SE",
+  "primary_symbol": "1Q6.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "PROSAFE SE is a provider of offshore accommodation vessels, also known as flotels. The company owns and operates a fleet of semi-submersible accommodation vessels that provide accommodation and support services to the offshore oil and gas industry. PROSAFE SE is headquartered in Larnaca, Cyprus."
+  "sector": "Energy",
+  "summary": "Prosafe SE, together with its subsidiaries, owns and operates semi-submersible accommodation vessels in Europe, South America, and internationally. The company is also involved in the maintenance and modification of installations on fields for the production, hook-up and commissioning of new fields, tie-backs to existing infrastructure, and decommissioning activities. It owns and operates a fleet of seven semi-submersible accommodation vessels and one tender support vessel. The company primarily serves oil and gas industries. Prosafe SE was founded in 1972 and is headquarter in Stavanger, Norway.",
+  "website": "http://www.prosafe.com"
 }

@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000J39413",
-    "figi": "BBG000J39636",
+    "composite_figi": "BBG000P9D1X9",
+    "figi": "BBG000P9D267",
     "isin": "HK0823032773"
   },
   "industry": "Equity Real Estate Investment Trusts (REITs)",
@@ -11,6 +11,16 @@
   "isin": "HK0823032773",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0823.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "L5R.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -24,15 +34,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Link Real Estate Investment Trust",
-  "primary_symbol": "L5R.SG",
+  "primary_symbol": "0823.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Link Real Estate Investment TrR is a real estate investment trust (REIT) that invests in a diversified portfolio of retail facilities, car parks and offices in Hong Kong and Mainland China. Link REIT aims to provide stable returns to its unitholders through the management and enhancement of its properties. The REIT is based in Hong Kong.",
+  "summary": "Link Real Estate Investment Trust is a retail-focused real estate investment trust managed by Link Asset Management Limited and headquartered in Hong Kong. It was launched in Hong Kong in 2005, has individual and institutional investors as owners and forms part of the Hang Seng Index.",
   "website": "http://www.linkreit.com"
 }

@@ -1,10 +1,13 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Guernsey",
+  "country_code": "GG",
   "identifiers": {
-    "composite_figi": "BBG000J20BJ9",
+    "composite_figi": "BBG00YBC4653",
+    "figi": "BBG00YBC4699",
     "isin": "GB00B0CL3P62"
   },
+  "industry": "Consumer Finance",
+  "industry_group": "Diversified Financials",
   "isin": "GB00B0CL3P62",
   "kind": "stock",
   "listings": [
@@ -12,15 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B0CL3P62.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "LEND.L"
     }
   ],
-  "name": "SANCUS LENDING GROUP LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Sancus Lending Group Limited",
   "primary_symbol": "GB00B0CL3P62.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Sancus Lending Group Limited is a company listed on the London Stock Exchange (international) under the ticker LEND. It operates in the Consumer Finance industry within the Financials sector. The company is headquartered in Saint Peter Port, Guernsey.",
+  "website": "https://www.sancus.com"
 }

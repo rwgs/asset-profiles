@@ -2,7 +2,9 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG002D1B8H0",
     "cusip": "428263107",
+    "figi": "BBG002D1B8H0",
     "isin": "US4282631070"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -10,26 +12,6 @@
   "isin": "US4282631070",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "HEXA-B.ST"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "HEXABN.MX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "HXGB.F"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "HXGBF"
-    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -51,11 +33,11 @@
       "symbol": "US4282631070.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Hexagon AB",
-  "primary_symbol": "HEXA-B.ST",
+  "primary_symbol": "HXGBY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

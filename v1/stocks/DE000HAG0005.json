@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00Y79QXM3",
+    "figi": "BBG00Y79QXN2",
     "isin": "DE000HAG0005"
   },
   "industry": "Aerospace & Defense",
@@ -53,13 +55,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "HAG.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HNSDF"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "HENSOLDT AG",
+  "market_cap_band": "Large Cap",
+  "name": "Hensoldt AG",
   "primary_symbol": "0A5S.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

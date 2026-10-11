@@ -2,9 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000FYQ2F9",
-    "cusip": "450737101",
-    "figi": "BBG000FYQ2F9",
+    "composite_figi": "BBG000R2GJX0",
+    "figi": "BBG000R2GKR4",
     "isin": "ES0144580Y14"
   },
   "industry": "Multi-Utilities",
@@ -13,9 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "IBDRY"
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0HIT.IL"
     },
     {
       "currency": "USD",
@@ -39,8 +38,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IBE1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "IBE1.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IBE1.DU"
     },
     {
       "currency": "EUR",
@@ -49,8 +58,23 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "IBE5.F"
+      "exchange_mic": "XHAN",
+      "symbol": "IBE1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IBE1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IBE1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IBE1.SG"
     },
     {
       "currency": "MXN",
@@ -60,15 +84,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Iberdrola, S.A.",
-  "primary_symbol": "IBDRY",
+  "primary_symbol": "0HIT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Iberdrola, S.A. engages in the generation, transmission, distribution, and supply of electricity in Spain and internationally. It generates and markets electrical power using renewable sources, such as onshore and offshore wind, hydro, solar photovoltaic, combined cycle gas, nuclear, and biomass, as well as through installation of batteries. The company is also involved in the purchase and sale of electricity and gas on wholesale markets; development of green hydrogen projects; and distribution and sale of gas. It has a total installed capacity of 55,111 MW; total renewable installed capacity of 34,923 MW; and 1,206,783 KM of transmission power lines, as well as serves approximately 34 million consumers. In addition, the company offers energy storage, heat pumps, self-consumption, and electric vehicles for residential customers; and management of energy facilities and supplies for industrial customers. Iberdrola, S.A. was founded in 1840 and is headquartered in Bilbao, Spain.",
+  "summary": "Iberdrola S.A. is a Spanish multinational electric utility company. The company is involved in the generation, distribution, and marketing of electricity, as well as the production of renewable energy. Iberdrola S.A. is headquartered in Bilbao, Spain.",
   "website": "http://www.iberdrola.com"
 }

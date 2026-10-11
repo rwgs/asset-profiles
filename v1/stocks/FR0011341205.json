@@ -2,29 +2,57 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG007R248K6",
-    "figi": "BBG007R248Q0",
+    "composite_figi": "BBG00GVJW351",
+    "figi": "BBG00SYG78H2",
     "isin": "FR0011341205"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "FR0011341205",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0QAV.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5NR.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "5NR.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "5NR.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "NANO.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NNBXF"
     }
   ],
-  "name": "NANOBIOTIX INH.  EO-,03",
-  "primary_symbol": "5NR.MU",
+  "market_cap_band": "Small Cap",
+  "name": "Nanobiotix S.A.",
+  "primary_symbol": "0QAV.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Nanobiotix SA is a late-stage clinical biotechnology company pioneering physics-based approaches to expand treatment possibilities for patients with cancer. The company’s lead product candidate, NBTXR3, is designed to destroy tumors when activated by radiotherapy. Nanobiotix is headquartered in Paris, France."
+  "summary": "Nanobiotix S.A., a clinical-stage biotechnology, focuses on developing product candidates for the treatment of cancer. The company develops NanoXray products to help patients receiving radiotherapy by enhancing the effect of radiotherapy within tumor cells without increasing the dose to surrounding healthy tissues. It offers NBTXR3, a sterile aqueous suspension of functionalized crystalline hafnium oxide nanoparticles used for the treatment of solid tumors, including soft tissue sarcoma, head and neck cancers, liver cancers, prostate cancer, pancreatic cancer, esophageal cancer, and non-small cell lung cancer. Nanobiotix S.A. was incorporated in 2003 and is headquartered in Paris, France.",
+  "website": "http://www.nanobiotix.com"
 }

@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000BRR891",
+    "composite_figi": "BBG000DGJCJ2",
     "cusip": "45579R106",
-    "figi": "BBG000BRR935",
+    "figi": "BBG000DGJCJ2",
     "isin": "US45579R1068"
   },
   "industry": "IT Services",
@@ -13,36 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "IDA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMAD",
-      "symbol": "IDR.MC"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "IDR.VI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "ISMAF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ISMAY"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Indra Sistemas, S.A.",
-  "primary_symbol": "IDA.F",
+  "primary_symbol": "ISMAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -6,6 +6,7 @@
     "cusip": "74167M105",
     "isin": "CA74167M1059"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA74167M1059",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA74167M1059.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PRMNF"
     }
   ],
-  "name": "PRIME MINING CORP",
+  "market_cap_band": "Small Cap",
+  "name": "Prime Mining Corp",
   "primary_symbol": "CA74167M1059.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Prime Mining Corp. is a mineral exploration company focused on the discovery and development of precious metal deposits in Mexico. The company's flagship Los Reyes project is a past-producing gold-silver mine. They are focused on advancing the Los Reyes project to production."
+  "summary": "Prime Mining Corp. is a mineral exploration company focused on the discovery and development of precious metal deposits in Mexico. The company's flagship Los Reyes project is a past-producing gold-silver mine. They are focused on advancing the Los Reyes project to production.",
+  "website": "http://www.primeminingcorp.ca"
 }

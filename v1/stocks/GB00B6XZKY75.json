@@ -2,28 +2,52 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BD5XD6",
+    "composite_figi": "BBG0032JYWM7",
+    "figi": "BBG0032JYWN6",
     "isin": "GB00B6XZKY75"
   },
+  "industry": "Beverages",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "GB00B6XZKY75",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AF72.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AF72.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "BAG.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BAGFF"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B6XZKY75.SW"
     }
   ],
-  "name": "A.G. BARR PLC",
-  "primary_symbol": "GB00B6XZKY75.SW",
+  "market_cap_band": "Small Cap",
+  "name": "A.G. BARR p.l.c.",
+  "primary_symbol": "AF72.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "A.G. BARR PLC is a soft drinks manufacturer. Their business model involves producing and selling a range of soft drinks brands, generating revenue through product sales. The company is headquartered in Cumbernauld, Scotland."
+  "summary": "A.G. BARR p.l.c., together with its subsidiaries, manufactures, distributes, and sells soft drinks in the United Kingdom and internationally. It operates through three segments: Carbonated Soft Drinks, Still Soft Drinks and Water, and Funkin. The company provides carbonated and flavored soft drinks, drinks with spirit, fruit cocktails, fruit juices, spring and sparkling water, fruit drinks, energy drinks, iced tea, and other non-alcoholic beverages. It sells its products under the Barr flavours, Big Willie, Bundaberg, D'N'B, Funkin, IRN-BRU, KA, Le Joli, OMJ!, Rockstar, Rubicon, San Benedetto, Simply, Snapple, St Clement's, Strathmore, Sun Exotic, and Tizer brands. The company also engages in the distribution and sale of cocktail solutions. A.G. BARR p.l.c. was founded in 1875 and is headquartered in Cumbernauld, the United Kingdom.",
+  "website": "http://www.agbarr.co.uk"
 }

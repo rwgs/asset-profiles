@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BTMCW7",
-    "figi": "BBG000BTMGN8",
+    "composite_figi": "BBG00Z9FH5Q1",
+    "figi": "BBG00Z9FH5R0",
     "isin": "DE000A0Z1JH9"
   },
   "industry": "Software",
@@ -11,6 +11,11 @@
   "isin": "DE000A0Z1JH9",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0KUR.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -58,10 +63,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "PSI Software AG",
-  "primary_symbol": "PSAN.BE",
+  "name": "PSI Software SE",
+  "primary_symbol": "0KUR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -69,5 +74,5 @@
   "schema_version": "1.0.0",
   "sector": "Information Technology",
   "summary": "PSI Software AG develops and sells software systems and products for the energy supply, production, infrastructure, software technology, internet applications, and business consultancy sectors worldwide. The company operates in two segments, Energy Management and Production Management. The Energy Management segment provides intelligent solutions for utility companies in the electricity, gas, oil, and water sectors, as well as for the district heating sector. It develops control systems for electrical grids, cross-sector control systems, and gas and pipeline management systems; and products for energy trading, energy distribution, smart grids, power plant optimization, public transport system, and gas industry planning. The Production Management segment offers software products and solutions for planning and controlling production processes in metals production, logistics, mechanical engineering, and automotive manufacturing. The company also offers a range of data processing services; sells electronic equipment; and operates data processing systems. PSI Software AG was founded in 1969 and is headquartered in Berlin, Germany.",
-  "website": "http://www.psi.de"
+  "website": "https://www.psi.de"
 }

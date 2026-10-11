@@ -1,33 +1,68 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Austria",
+  "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG00NLL0DF4",
-    "figi": "BBG00NLL0DF4",
+    "composite_figi": "BBG00J364XS4",
+    "figi": "BBG00J364XZ6",
     "isin": "NL0012650360"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "NL0012650360",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RHF.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RHF.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RHF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RHF.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RHF.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "RHIM.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "RHIM.VI"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "RMGNF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Small Cap",
   "name": "RHI Magnesita N.V.",
-  "primary_symbol": "RMGNF",
+  "primary_symbol": "RHF.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "RHI Magnesita N.V., operating globally with its subsidiaries, specializes in the design, manufacturing, sale, installation, and upkeep of refractory products and systems employed across various high-temperature industrial processes. Founded in 1834, RHI Magnesita N.V. is headquartered in Vienna, Austria.",
-  "website": "http://www.rh.com"
+  "sector": "Materials",
+  "summary": "RHI Magnesita N.V. develops, produces, sells, installs, and maintains refractory products and systems used in industrial high-temperature processes worldwide, including magnesite and dolomite, refractory bricks, mixes, mortars, and castables, serving the steel, cement, non-ferrous metals, glass, and energy sectors.",
+  "website": "https://www.rhimagnesita.com"
 }

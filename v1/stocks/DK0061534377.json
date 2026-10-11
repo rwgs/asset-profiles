@@ -3,28 +3,36 @@
   "country_code": "DK",
   "identifiers": {
     "composite_figi": "BBG01017SWR1",
-    "figi": "BBG01017SWW5",
+    "figi": "BBG01017SWS0",
     "isin": "DK0061534377"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "DK0061534377",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8WX.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DK0061534377.SG"
     }
   ],
-  "name": "RISMA SYSTEMS A/S",
-  "primary_symbol": "DK0061534377.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Risma Systems A/S",
+  "primary_symbol": "8WX.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "RISMA SYSTEMS A/S provides software-as-a-service (SaaS) solutions for governance, risk, and compliance (GRC) management. The company's platform helps organizations manage their GRC processes, including risk assessments, compliance reporting, and internal audits, headquartered in Copenhagen, Denmark. RISMA SYSTEMS focuses on simplifying and automating GRC activities for its clients."
+  "summary": "Risma Systems A/S offers a software suite for governance, risk, and compliance (GRC) activities for private and public sectors in Denmark. The company offers GRC platform, a cloud-based Software-as-a-service solution which helps organizations to automate, report, and document controls across the organization through software. Its platform provides solutions for GRC, including privacy and general data protection regulation; information security management system; risk management; financial controls; and incident, policy, and vendor management sysyems. Risma Systems A/S was founded in 2014 and is headquartered in Herlev, Denmark.",
+  "website": "http://www.rismasystems.com"
 }

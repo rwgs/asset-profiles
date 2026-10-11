@@ -3,6 +3,7 @@
   "country_code": "IT",
   "identifiers": {
     "composite_figi": "BBG000BZRNX3",
+    "figi": "BBG000BZRP31",
     "isin": "IT0001472171"
   },
   "industry_group": "Media & Entertainment",
@@ -11,19 +12,29 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "CED.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EDJ.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "IT0001472171.SW"
     }
   ],
-  "name": "CALTAGIRONE EDITORE",
-  "primary_symbol": "IT0001472171.SW",
+  "name": "Caltagirone Editore SpA",
+  "primary_symbol": "CED.MI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Caltagirone Editore S.p.A. is an Italian media company that publishes newspapers. The company's main publications include Il Messaggero, Il Gazzettino, and Il Mattino. Caltagirone Editore is headquartered in Rome, Italy."
+  "summary": "Caltagirone Editore SpA publishes newspapers in Italy. The company publishes Il Messaggero, Il Mattino, Il Gazzettino, Corriere Adriatico, and Il Nuovo Quotidiano di Puglia newspapers. It also operates Piemme, an advertising agency comprising daily newspapers; social press, a social platform; and online news websites. The company is based in Rome, Italy."
 }

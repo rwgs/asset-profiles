@@ -2,14 +2,20 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000J13P89",
-    "figi": "BBG000J14V76",
+    "composite_figi": "BBG00JHVZP16",
+    "figi": "BBG00JHVZP25",
     "isin": "BE0003820371"
   },
+  "industry": "Communications Equipment",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "BE0003820371",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0N9Z.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -24,17 +30,24 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "BE0003820371.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "EVS.BR"
     }
   ],
-  "name": "EVS Broadcast Equipment SA",
-  "primary_symbol": "5E1.BE",
+  "market_cap_band": "Small Cap",
+  "name": "EVS Broadcast Equipment S.A.",
+  "primary_symbol": "0N9Z.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "EVS Broadcast Equipment SA, headquartered in Liège, Belgium, designs, develops, and manufactures live video production systems for broadcast and media organizations. Their products include video servers, replay systems, and software applications for live production, media asset management, and content delivery. EVS's solutions are used in a variety of live sports, entertainment, and news productions worldwide."
+  "summary": "EVS Broadcast Equipment SA, headquartered in Liège, Belgium, designs, develops, and manufactures live video production systems for broadcast and media organizations. Their products include video servers, replay systems, and software applications for live production, media asset management, and content delivery. EVS's solutions are used in a variety of live sports, entertainment, and news productions worldwide.",
+  "website": "https://www.evs.com"
 }

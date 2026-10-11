@@ -3,28 +3,51 @@
   "country_code": "PL",
   "identifiers": {
     "composite_figi": "BBG00328GGV6",
-    "figi": "BBG00328GGZ2",
+    "figi": "BBG00328GH17",
     "isin": "PLBH00000012"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "PLBH00000012",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6HW.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6HW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6HW.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "6HW.SG"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "BHW.WA"
     }
   ],
-  "name": "BANK HANDLOWY W WARSZAWIE S.A.I",
-  "primary_symbol": "6HW.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Bank Handlowy w Warszawie S.A.",
+  "primary_symbol": "6HW.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "BANK HANDLOWY W WARSZAWIE S.A. is a Poland-based company engaged in the provision of corporate, investment and retail banking services. Its offerings include loans, deposits, cash management, trade finance, factoring, and wealth management services. The bank is headquartered in Warsaw, Poland."
+  "summary": "BK HANDLOWY W WARS. ZY 4 is a Polish commercial bank offering a wide range of financial services to individual and corporate clients. The bank provides services including retail banking, corporate banking, investment banking and asset management. Bank Handlowy w Warszawie is a part of Citigroup and is headquartered in Warsaw, Poland.",
+  "website": "https://www.citibank.pl"
 }

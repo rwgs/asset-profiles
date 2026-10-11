@@ -4,27 +4,36 @@
   "identifiers": {
     "composite_figi": "BBG000DNB9Q4",
     "cusip": "66405S100",
+    "figi": "BBG000DNB9Q4",
     "isin": "US66405S1006"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US66405S1006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "NBN"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US66405S1006.SG"
     }
   ],
-  "name": "NORTHEAST BANK",
-  "primary_symbol": "US66405S1006.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Northeast Bank",
+  "primary_symbol": "NBN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "NORTHEAST BANK is a financial institution offering a range of banking products and services to individuals and businesses. Headquartered in Lewiston, Maine, the bank provides deposit accounts, loans, and other financial solutions, with a focus on community banking. The company also operates a nationwide lending division."
+  "summary": "Northeast Bank provides personal and business banking services in Maine, the United States. The company's deposit products include demand deposit, NOW, money market, savings, certificate of deposit, and individual retirement accounts, as well as checking accounts. Its loan portfolio comprises residential mortgage loans; multi-family and other commercial real estate loans; commercial and industrial loans, such as term loans, lines of credit and equipment, and receivables financing; consumer loans comprising mobile home and overdraft, and deposit-secured loans; and small business administration loans. In addition, the company offers telephone banking, online banking and bill payment, mobile banking, cash management, and remote deposit capture services, as well as debit and credit card, ATM, electronic transfer, and check services. It operates a network of nine branches in Western, Central, and Southern Maine. Northeast Bank was founded in 1872 and is headquartered in Portland, Maine.",
+  "website": "http://www.northeastbank.com"
 }

@@ -1,9 +1,10 @@
 {
-  "country": "Thailand",
-  "country_code": "TH",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG019Z17GD1",
+    "composite_figi": "BBG01BPHNXZ3",
     "cusip": "113004105",
+    "figi": "BBG01BPHNY36",
     "isin": "CA1130041058"
   },
   "industry": "Capital Markets",
@@ -12,22 +13,27 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "BAM.BK"
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BAM"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "BAM.TO"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Bangkok Commercial Asset Management Public Company Limited",
-  "primary_symbol": "BAM.BK",
+  "market_cap_band": "Large Cap",
+  "name": "Brookfield Asset Management Ltd.",
+  "primary_symbol": "BAM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Bangkok Commercial Asset Management Public Company Limited operates as an asset management company. It purchases non-performing loans (NPLs) from financial institutions in Thailand, including banks and other asset management companies; and manage NPLs through debt restructuring negotiations with debtors to reach optimal solutions for all stakeholders where possible. The company also acquires non-performing assets (NPAs) through various means, such as negotiating with debtors for the transfer of the guarantee or repayment property, foreclosing the debt settlement, and purchasing NPAs directly from other financial institutions. Its NPLs are primarily collateralized by real estate properties, secured by a first priority mortgage; and NPAs are primarily real estate assets, such as empty lands, hotels, factories, commercial buildings, and certain movable assets, as well as residential properties, including detached houses, townhouses, and condominiums. The company was founded in 1998 and is headquartered in Bangkok, Thailand.",
-  "website": "http://www.bam.co.th"
+  "summary": "Brookfield Asset Management is a leading global alternative asset manager and one of the largest investors in real assets. Our investment focus is on real estate, renewable power, infrastructure and private equity assets. Our objective is to generate attractive long-term risk-adjusted returns for the benefit of our clients and shareholders. We manage a range of public and private investment products and services for institutional and retail clients. We earn asset management income for doing so and align our interests with our clients by investing alongside them. We have an exceptionally strong balance sheet, with over $30 billion of capital invested, primarily in our four listed partnerships: Brookfield Property Partners, Brookfield Infrastructure Partners, Brookfield Renewable Partners and Brookfield Business Partners. This access to large-scale capital enables us to make investments in sizeable, premier assets across geographies and asset classes that few managers are able to do. We create value for BAM shareholders in the following ways: As an asset manager – by investing both our own capital and that of our investors – this enables us to increase the scale of our operations, and enhances our financial returns through base management fees and performance-based income; as an investor and capital allocator – we strive to invest at attractive valuations, particularly in value-oriented situations that create opportunities for superior valuation gains and cash flow returns, or by monetizing assets at appropriate times to realize value; and as an owner-operator – we constantly work to increase the value of the assets within our operating businesses and the cash flows they produce through our operating expertise, development capabilities and effective financing.",
+  "website": "http://www.brookfield.com"
 }

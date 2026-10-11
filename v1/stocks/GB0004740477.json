@@ -2,29 +2,47 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000D6JXH0",
-    "figi": "BBG000D6JZG6",
+    "composite_figi": "BBG000BJL0T0",
+    "figi": "BBG000BJL0T0",
     "isin": "GB0004740477"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB0004740477",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BBRDF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "BIRD.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FBD.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0004740477.SG"
     }
   ],
-  "name": "BLACKBIRD PLC",
-  "primary_symbol": "GB0004740477.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Blackbird plc",
+  "primary_symbol": "BBRDF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Blackbird PLC develops and licenses a cloud-based video editing platform used for fast and efficient video production and distribution. The platform enables remote editing and collaboration, catering to broadcasters, sports organizations, and content creators. Blackbird PLC is headquartered in London, UK."
+  "summary": "Blackbird plc develops and operates a cloud-based video editing and publishing platform under the Blackbird name in the United Kingdom, rest of Europe, North America, and internationally. The company's platform is used for video viewing, editing, and publishing. It serves news, sports, entertainment, and other sectors. The company was formerly known as Forbidden Technologies plc and changed its name to Blackbird plc in May 2019. Blackbird plc was incorporated in 1998 and is based in London, the United Kingdom.",
+  "website": "https://www.blackbird.video"
 }

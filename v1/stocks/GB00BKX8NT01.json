@@ -6,6 +6,7 @@
     "figi": "BBG00XTHC870",
     "isin": "GB00BKX8NT01"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB00BKX8NT01",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BKX8NT01.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MOC.F"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "MODE GLOBAL HOLDINGS PLC",
   "primary_symbol": "GB00BKX8NT01.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "MODE Global Holdings PLC provides financial technology and digital commerce solutions. The company operates a digital payments platform that enables businesses and consumers to make and receive payments using blockchain technology. MODE Global Holdings is headquartered in London, UK."
+  "summary": "MODE Global Holdings PLC provides financial technology and digital commerce solutions. The company operates a digital payments platform that enables businesses and consumers to make and receive payments using blockchain technology. MODE Global Holdings is headquartered in London, UK.",
+  "website": "http://www.modeplc.com"
 }

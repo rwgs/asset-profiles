@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG000F5Y7N3",
+    "figi": "BBG000F5Y8C3",
     "isin": "IT0001041000"
   },
   "industry": "Banks",
@@ -16,8 +18,8 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "BDBR.MI"
+      "exchange_mic": "XSTU",
+      "symbol": "BJ7.SG"
     },
     {
       "currency": "EUR",
@@ -25,11 +27,11 @@
       "symbol": "IT0001041000.SW"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Banco di Desio e della Brianza S.p.A.",
   "primary_symbol": "BDB.MI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

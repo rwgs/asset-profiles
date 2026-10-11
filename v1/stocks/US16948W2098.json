@@ -1,28 +1,44 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00165D0R5",
+    "composite_figi": "BBG000JNXK52",
     "cusip": "16948W209",
-    "figi": "BBG00165D0W9",
+    "figi": "BBG000JNXK52",
     "isin": "US16948W2098"
   },
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "US16948W2098",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "GGE"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GGEI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US16948W2098.SG"
     }
   ],
-  "name": "GREEN GIANT INC",
-  "primary_symbol": "US16948W2098.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Green Giant Inc. Common Stock",
+  "primary_symbol": "GGE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Real Estate",
+  "summary": "Green Giant Inc. operates as a property development firm, primarily engaged in the construction and sales of residential dwellings, parking structures, and commercial properties. Its development portfolio encompasses both commercial and residential ventures, specifically including multi-story, mid-rise, and high-rise apartment buildings, as well as office complexes. The company also participates in road building projects. Formerly known as China HGS Real Estate Inc., it rebranded to Green Giant Inc. in March 2022. The company's headquarters are situated in Hanzhong, China.",
+  "website": "https://www.gge.com"
 }

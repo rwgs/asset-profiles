@@ -6,6 +6,7 @@
     "figi": "BBG000C6S6R9",
     "isin": "AU000000BSL0"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU000000BSL0",
   "kind": "stock",
@@ -22,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BH5.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "BH5.HM"
     },
@@ -34,17 +40,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BH5.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BLSFF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "BSL.AX"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Bluescope Steel Limited",
   "primary_symbol": "BH5.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "BlueScope Steel Limited manufactures and markets coated and painted steel building products in Australia, New Zealand, Asia, and North America. The company is headquartered in Melbourne, Australia."
+  "summary": "BlueScope Steel Limited manufactures and markets coated and painted steel building products in Australia, New Zealand, Asia, and North America. The company is headquartered in Melbourne, Australia.",
+  "website": "http://www.bluescope.com"
 }

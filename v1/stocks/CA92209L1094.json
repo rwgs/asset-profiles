@@ -6,6 +6,7 @@
     "cusip": "92209L109",
     "isin": "CA92209L1094"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA92209L1094",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA92209L1094.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VMNGF"
     }
   ],
-  "name": "VANSTAR MINING RESOURCES INC",
+  "market_cap_band": "Nano Cap",
+  "name": "Vanstar Mining Resources Inc",
   "primary_symbol": "CA92209L1094.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Vanstar Mining Resources Inc. is a gold exploration company focused on projects in Quebec, Canada. The company explores properties with the goal of discovering gold deposits. Vanstar Mining Resources is based in Rouyn-Noranda, Quebec, Canada."
+  "summary": "Vanstar Mining Resources Inc. is a gold exploration company focused on projects in Quebec, Canada. The company explores properties with the goal of discovering gold deposits. Vanstar Mining Resources is based in Rouyn-Noranda, Quebec, Canada.",
+  "website": "http://www.vanstarmining.com"
 }

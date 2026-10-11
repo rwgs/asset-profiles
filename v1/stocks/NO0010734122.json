@@ -2,7 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00H9Q1F91",
+    "composite_figi": "BBG00N0NSM54",
+    "figi": "BBG00N0NSM63",
     "isin": "NO0010734122"
   },
   "industry": "Pharmaceuticals",
@@ -12,18 +13,41 @@
   "listings": [
     {
       "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0RAM.L"
+    },
+    {
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010734122.SW"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "VISTN.OL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VP4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VP4.SG"
     }
   ],
-  "name": "VISTIN PHARMA ASA",
-  "primary_symbol": "NO0010734122.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "Vistin Pharma ASA",
+  "primary_symbol": "0RAM.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care"
+  "sector": "Health Care",
+  "summary": "Vistin Pharma ASA, through its subsidiary, Vistin Pharma AS, produces and sells active pharmaceutical ingredients (APIs) worldwide. It offers metformin APIs and direct compressive granulates for the pharmaceutical industry. The company was incorporated in 2015 and is headquartered in Oslo, Norway.",
+  "website": "http://www.vistin.com"
 }

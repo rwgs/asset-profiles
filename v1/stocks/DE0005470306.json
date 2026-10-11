@@ -2,14 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BNZT31",
-    "figi": "BBG000BNZXM1",
+    "composite_figi": "BBG000BS8060",
+    "figi": "BBG000BS8060",
     "isin": "DE0005470306"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Entertainment",
+  "industry_group": "Media & Entertainment",
   "isin": "DE0005470306",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CEVMF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "EVD.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "EVD.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EVD.F"
     },
     {
       "currency": "EUR",
@@ -34,17 +50,29 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "EVD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EVD.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "EVD.VI"
     }
   ],
-  "name": "CTS EVENTIM KGAA",
-  "primary_symbol": "EVD.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "CTS Eventim AG & Co. KGaA",
+  "primary_symbol": "CEVMF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "CTS Eventim KGaA is a leading international provider of ticketing services and live entertainment. The company operates ticketing platforms and organizes live events, including concerts, festivals, and sports events. CTS Eventim is headquartered in Munich, Germany."
+  "sector": "Communications",
+  "summary": "CTS Eventim AG & Co. KGaA operates in the leisure events market Germany, Italy, Switzerland, Austria, Finland, Netherlands, Spain, and internationally. It operates in two segments, Ticketing and Live Entertainment. The Ticketing segment produces, sells, brokers, distributes, and markets tickets for concerts, theatre, art, sports, and other events. It markets events (tickets) through eventim.de and using its network platform, EVENTIM.Net; in-house ticketing products through EVENTIM.Inhouse; sport ticketing products through EVENTIM.Tixx; and self-service products for promotors through EVENTIM.Light, as well as provides a solution for ticket sales and admission control through EVENTIM.Access. This segment also operates kinoheld for cinema operators; EVENTIM.fanSALE, a resale portal where customers sell event tickets to other customers; and oeticket.com, ticketcorner.ch, ticketone.it, and entradas.com. The Live Entertainment segment plans, prepares, and executes tours and events, including music events and concerts, as well as markets music productions. This segment is also involved in the operation of venues. The company was formerly known as CTS EVENTIM AG and changed its name to CTS Eventim AG & Co. KGaA in May 2014. CTS Eventim AG & Co. KGaA is headquartered in Bremen, Germany.",
+  "website": "http://www.eventim.de"
 }

@@ -1,54 +1,32 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Australia",
+  "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000CGJMB9",
-    "cusip": "297178105",
-    "figi": "BBG000CGJP77",
+    "composite_figi": "BBG000C2RW29",
     "isin": "AU0000096943"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "AU0000096943",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "ESS"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XLON",
-      "symbol": "0IIR.L"
-    },
-    {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "E1SS34.SA"
-    },
-    {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "EXP.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EXP.F"
+      "exchange_mic": "XSTU",
+      "symbol": "AU0000096943.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "Essex Property Trust, Inc.",
-  "primary_symbol": "ESS",
+  "market_cap_band": "Nano Cap",
+  "name": "Essential Metals Limited",
+  "primary_symbol": "AU0000096943.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "Essex Property Trust, Inc., an S&P 500 company, is a fully integrated real estate investment trust (REIT) that acquires, develops, redevelops, and manages multifamily residential properties in selected West Coast markets. Essex currently has ownership interests in 246 apartment communities comprising approximately 60,000 apartment homes with an additional 6 properties in various stages of active development.",
-  "website": "http://www.essexapartmenthomes.com"
+  "sector": "Materials",
+  "summary": "Essential Metals Ltd is an Australian exploration company focused on lithium projects. The company is exploring for lithium resources in Western Australia.",
+  "website": "http://essmetals.com.au"
 }

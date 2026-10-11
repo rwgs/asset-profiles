@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1LCV9",
-    "figi": "BBG000C1LGK2",
+    "composite_figi": "BBG000BTXPK9",
+    "figi": "BBG000BTXPS1",
     "isin": "JP3893600001"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Industrial Conglomerates",
+  "industry_group": "Capital Goods",
   "isin": "JP3893600001",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8031.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MITSF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MTS1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MTS1.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "MTS1.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Mitsui & Co., Ltd.",
-  "primary_symbol": "MTS1.BE",
+  "primary_symbol": "8031.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Mitsui & Co., Ltd. is a Japanese general trading company (sogo shosha) engaged in a wide range of businesses, including energy, chemicals, machinery, metals, food, and textiles. The company facilitates trade and investment globally, developing projects and providing financial services, with headquarters in Tokyo, Japan. Mitsui operates through numerous subsidiaries and affiliated companies worldwide."
+  "summary": "Mitsui & Co., Ltd. is a diversified global trading company active in many industries. In metals it handles iron and steel products, automotive components and steel processing centers, and it trades specialty steels and makes parts such as wind turbine towers. In energy and resources it is involved in gas distribution, coal mining, power generation and oil, natural gas and LNG.",
+  "website": "http://www.mitsui.com/jp/en"
 }

@@ -5,6 +5,7 @@
     "composite_figi": "BBG000C3MKH2",
     "isin": "DE0005660104"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "DE0005660104",
   "kind": "stock",
@@ -13,17 +14,24 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0005660104.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EUX.F"
     }
   ],
-  "name": "EUWAX AG",
+  "market_cap_band": "Micro Cap",
+  "name": "EUWAX Aktiengesellschaft",
   "primary_symbol": "DE0005660104.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "EUWAX AG is a German stock exchange that specializes in trading structured products. It is a subsidiary of Boerse Stuttgart Group and facilitates the trading of warrants, certificates, and other investment products. EUWAX AG is based in Stuttgart, Germany."
+  "summary": "EUWAX AG is a German stock exchange that specializes in trading structured products. It is a subsidiary of Boerse Stuttgart Group and facilitates the trading of warrants, certificates, and other investment products. EUWAX AG is based in Stuttgart, Germany.",
+  "website": "http://www.euwax-ag.de"
 }

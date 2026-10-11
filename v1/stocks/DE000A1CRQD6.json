@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000QBRDZ0",
-    "figi": "BBG000QBRG74",
+    "figi": "BBG000QBRKF6",
     "isin": "DE000A1CRQD6"
   },
   "industry": "Beverages",
@@ -13,21 +13,31 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "B9B.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "B9B.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "B9B.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "BHB Brauholding Bayern-Mitte AG",
-  "primary_symbol": "B9B.F",
+  "name": "BHB BRAUHLD.BAY.MIT.AG",
+  "primary_symbol": "B9B.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "BHB Brauholding Bayern-Mitte AG engages in the brewery business in Germany. It offers wheat beer, bottom-fermented beerspecialties, and beer mixed drinks, as well as mineral water and non-alcoholic soft drinks, and thirst quenchers. The company was founded in 1882 and is based in Ingolstadt, Germany.",
+  "summary": "BHB Brauholding Bayern-Mitte AG is a Germany-based holding company primarily engaged in the brewery business. It owns and operates breweries and related businesses in the Bavaria region of Germany, producing and distributing a variety of beer brands. The company's headquarters is located in Germany.",
   "website": "http://www.bhb-ag.de"
 }

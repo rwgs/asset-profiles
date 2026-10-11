@@ -2,29 +2,36 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BMLG72",
     "cusip": "494274103",
     "isin": "US4942741038"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "US4942741038",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "KBAL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US4942741038.SG"
     }
   ],
-  "name": "KIMBALL INTERNATIONAL-B",
-  "primary_symbol": "US4942741038.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Kimball International, Inc.",
+  "primary_symbol": "KBAL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "KIMBALL INTERNATIONAL-B designs, manufactures, and sells furniture products for the workplace, healthcare, and hospitality industries. The company provides a range of furniture solutions, including seating, casegoods, and tables. Kimball International is headquartered in Jasper, Indiana."
+  "summary": "Kimball International, Inc. designs, manufactures, and sells furniture products under the Kimball, National, Kimball Hospitality, and D'style by Kimball Hospitality brands in the United States and internationally. The company offers office furniture, including desks, tables, seating, bookcases, and filing and storage units for federal, state, and local government offices, as well as other government related entities; and furniture solutions, such as headboards, tables, seating, vanities, casegoods, lighting, and other products for hotel properties, and commercial and residential mixed use developments. Its furniture solutions are used in collaborative and open work space areas, conference and meeting/huddle rooms, training rooms, private offices, learning areas, classrooms, lobby/reception areas, and dining/café areas with a mix of wood, metal, laminate, paint, fabric, solid surface, and plastic options. In addition, the company offers patient/exam room and lounge seating, and casegoods for the healthcare market. It markets and sells its products through sales representatives, office furniture dealers, wholesalers, brokers, designers, purchasing companies, and catalog houses to end users. The company was formerly known as The Jasper Corporation and changed its name to Kimball International, Inc. in July 1974. Kimball International, Inc. was incorporated in 1939 and is headquartered in Jasper, Indiana.",
+  "website": "http://www.kimballinternational.com"
 }

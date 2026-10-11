@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00Q79Q220",
+    "composite_figi": "BBG00TJH10S6",
     "cusip": "87816Y106",
-    "figi": "BBG00Q79ZD99",
+    "figi": "BBG00TJH10T5",
     "isin": "US87816Y1064"
   },
   "industry": "Software",
@@ -14,73 +14,25 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "TMV.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "TMV.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "TMV.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "TMV.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "TMV.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "TMV.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "TMV.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "TMV.VI"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TMV1.F"
     },
     {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "TMVIN.MX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "TMVWF"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TMV1.MU"
     },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "TMVWY"
-    },
-    {
-      "symbol": "TMW.TI"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "TeamViewer AG",
-  "primary_symbol": "TMV.BE",
+  "primary_symbol": "TMV1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

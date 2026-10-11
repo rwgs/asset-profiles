@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000JNBWF9",
-    "figi": "BBG000JNBWF9",
+    "composite_figi": "BBG000BL4CN4",
+    "figi": "BBG000BL4CZ1",
     "isin": "KYG645451090"
   },
   "industry": "Automobiles",
@@ -12,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0360.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "NWFAF"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "New Focus Auto Tech Holdings Limited",
-  "primary_symbol": "NWFAF",
+  "primary_symbol": "0360.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "New Focus Auto Tech Holdings Limited, an investment holding company, manufactures and sells electronic and power-related automotive parts and accessories. The company operates through three segments: Manufacturing Business, Wholesale Business, and Automobile Dealership and Service Business. It offers automotive lighting and automotive electronic power products, including the automotive converter boxes, multi-function power supplies, cooler and warmer boxes, chargers, automotive lighting products high intensity discharge lamps, automotive auxiliary lights, work lights, etc. The company is also involved in the provision of automotive sales and after-sales services, including maintenance and repair, automobile customization and furnishing, and automobile recall and consultancy services; distribution of automobile insurance and financial products; and sale of automobiles, auto parts, and accessories, as well as operation of e-commerce platform. It operates in the People's Republic of China, the United States, Europe, and the Asia Pacific regions. New Focus Auto Tech Holdings Limited was incorporated in 2002 and is headquartered in Shanghai, the People's Republic of China.",
+  "summary": "New Focus Auto Tech Holdings Limited is an investment holding company producing and selling electronic and power-related automotive parts and accessories. It has two segments, manufacturing and automobile dealership and servicing. Products include automotive lighting including work lights, auxiliary lights and high-intensity discharge lamps, plus electronic power devices like converter boxes.",
   "website": "http://www.nfa360.com"
 }

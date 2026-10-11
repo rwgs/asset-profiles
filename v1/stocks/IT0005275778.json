@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JWMXWZ9",
+    "figi": "BBG00JWMXX05",
     "isin": "IT0005275778"
   },
   "industry": "Paper & Forest Products",
@@ -11,15 +13,20 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0DEQ.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "NDT.MI"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Neodecortech S.p.A.",
-  "primary_symbol": "NDT.MI",
+  "primary_symbol": "0DEQ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

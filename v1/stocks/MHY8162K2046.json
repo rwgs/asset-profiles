@@ -2,29 +2,38 @@
   "country": "Greece",
   "country_code": "GR",
   "identifiers": {
-    "composite_figi": "BBG002ZQQM66",
-    "figi": "BBG002ZQQMF6",
+    "composite_figi": "BBG000L5R950",
+    "cusip": "Y8162K204",
+    "figi": "BBG000L5TSB9",
     "isin": "MHY8162K2046"
   },
+  "industry": "Marine",
   "industry_group": "Transportation",
   "isin": "MHY8162K2046",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "SBLK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "4FAP.MU"
     }
   ],
-  "name": "STAR BULK CARR.NEW DL-,01",
-  "primary_symbol": "4FAP.MU",
+  "market_cap_band": "Mid Cap",
+  "name": "Star Bulk Carriers Corp.",
+  "primary_symbol": "SBLK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Star Bulk Carriers Corp. is a global shipping company that owns and operates a fleet of dry bulk vessels. They transport major bulks such as iron ore, coal, and grain, as well as minor bulks including bauxite, fertilizers and steel products. The company is headquartered in Maroussi, Greece."
+  "summary": "Star Bulk Carriers Corp., a shipping company, engages in the ocean transportation of dry bulk cargoes worldwide. The company's vessels transport a range of major bulks, including iron ores, coal, and grains, as well as minor bulks, such as bauxite, fertilizers, and steel products. As of March 16, 2021, it had a fleet of 128 vessels with an aggregate capacity of approximately 14.1 million deadweight tons, including 17 Newcastlemax, 22 Capesize, 2 Mini Capesize, 7 Post Panamax, 41 Kamsarmax, 2 Panamax, 20 Ultramax, and 17 Supramax vessels. The company also provides vessel management services. Star Bulk Carriers Corp. was incorporated in 2006 and is based in Maroussi, Greece.",
+  "website": "http://www.starbulk.com"
 }

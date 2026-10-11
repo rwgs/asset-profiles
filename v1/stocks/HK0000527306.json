@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BHYNG4",
-    "figi": "BBG000BHYQW9",
+    "composite_figi": "BBG000BBMPC9",
+    "figi": "BBG000BBMQH2",
     "isin": "HK0000527306"
   },
   "industry_group": "Capital Goods",
@@ -11,20 +11,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0351.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HK0000527306.SG"
     }
   ],
-  "name": "ASIA ENERGY LOGISTICS GROUP",
-  "primary_symbol": "HK0000527306.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Asia Energy Logistics Group Limited",
+  "primary_symbol": "0351.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Asia Energy Logistics Group Limited is engaged in logistics and supply chain management services, particularly in the energy sector. The company provides integrated logistics solutions for the transportation and storage of energy products. Asia Energy Logistics Group is based in Hong Kong."
+  "summary": "Asia Energy Logistics Group Limited is an investment holding company providing shipping, logistics and telecommunication support services in China. Its fleet consists of two dry bulk vessels. Established in 1991, it adopted its current name in October 2009, having previously been called China Sciences Conservational Power Limited.",
+  "website": "https://www.aelg.com.hk"
 }

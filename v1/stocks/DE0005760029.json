@@ -3,28 +3,56 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000DC6K52",
-    "figi": "BBG003PQ4P62",
+    "figi": "BBG003PQ4P53",
     "isin": "DE0005760029"
   },
-  "industry_group": "Energy",
+  "industry": "Construction & Engineering",
+  "industry_group": "Capital Goods",
   "isin": "DE0005760029",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "AB9.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AB9.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AB9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AB9.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AB9.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE0005760029.SG"
     }
   ],
-  "name": "ABO WIND AG",
-  "primary_symbol": "DE0005760029.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "ABO Wind AG",
+  "primary_symbol": "AB9.DE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "ABO Wind AG develops and implements renewable energy projects, focusing on wind and solar power, as well as battery storage and hydrogen production, with headquarters in Wiesbaden, Germany. The company's services include project planning, financing, construction, and operation of renewable energy plants. ABO Wind supports the transition to a sustainable energy supply."
+  "sector": "Industrials",
+  "summary": "ABO Wind AG develops renewable energy projects in France, Finland, Spain, Ireland, the United Kingdom, Greece, the Netherlands, Germany, Hungary, Poland, Argentina, Colombia, Canada, South Africa, Tunisia and Tanzania. It develops wind farm projects, as well as undertakes engineering, procurement, and construction (EPC) works for its projects and third parties. The company also provides wind farm management services, such as commercial management, technical management and assessment, and maintenance and service, as well as replaces and repairs components. In addition, it engages in the project development, EPC, and operational management of solar projects. Further, the company provides operational management services for biogas plants; develops new biogas plants; purchases and enhances existing biogas plants; and offers bioenergy services. Additionally, it provides solutions for the storage of renewable energies; and ABO Lock, a digital access control locking system; as well as designs, constructs, and operates hybrid energy systems with renewables for infrastructure, mines, commercial and industrial, remote communities, tourism and hotels, and island and isolated power grid sectors. As of April, 2020, the company owns and operates approximately 681 wind energy turbines, solar parks, and biogas plants with an output of approximately 1,750 megawatts to the grid. ABO Wind AG was founded in 1996 and is headquartered in Wiesbaden, Germany.",
+  "website": "http://www.abo-wind.com"
 }

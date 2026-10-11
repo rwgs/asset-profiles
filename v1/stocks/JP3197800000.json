@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1YZK6",
-    "figi": "BBG000C1Z1H4",
+    "composite_figi": "BBG000BGJC59",
+    "figi": "BBG000BGJDG5",
     "isin": "JP3197800000"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3197800000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6645.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,17 +25,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OMR1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OMRNF"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "OMRNN.MX"
     }
   ],
-  "name": "OMRON Corp.",
-  "primary_symbol": "OMR1.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "OMRON Corporation",
+  "primary_symbol": "6645.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "OMRON Corporation is a Japanese electronics company that manufactures and sells automation components, equipment and systems. The company operates in industrial automation, healthcare, social systems and solutions, and electronic and mechanical components. Omron's headquarters are located in Kyoto, Japan."
+  "sector": "Information Technology",
+  "summary": "OMRON Corporation engages in industrial automation, electronic and mechanical components, social systems, and healthcare businesses worldwide. The company's Industrial Automation Business offers sensors, switches, safety and control components, relays, automation systems, motion/drives, robotics, energy conservation support/environment measure equipment, and power supplies. Its Electronic and Mechanical Components Business provides relays, switches, connectors, sensors, and components/units for amusement equipment. The company's Social Systems, Solutions and Service Business offers terminals and systems, including PV inverters and storage batteries; railway station systems, such as automated ticket gates and ticket vending machines, traffic and road management systems, payment systems, and UPS that protect equipment from unexpected power disruption; and transport management systems and infrastructure monitoring systems, as wells provides a range of solutions comprising software development and maintenance services to support the social infrastructure. Its Healthcare Business offers blood pressure monitors, nebulizers, electrotherapy TENS devices, digital thermometers, body composition monitors, and other products, such as activity monitors, AEDs, etc. The company was formerly known as OMRON Tateisi Electronics Co. and changed its name to OMRON Corporation in January 1990. OMRON Corporation was founded in 1933 and is headquartered in Kyoto, Japan.",
+  "website": "http://www.omron.com"
 }

@@ -1,6 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG000DW0959",
+    "figi": "BBG000DW0959"
+  },
   "industry_group": "Technology Hardware & Equipment",
   "kind": "stock",
   "listings": [
@@ -10,15 +14,17 @@
       "symbol": "INTCD.BA"
     }
   ],
-  "name": "INTEL CORP",
+  "market_cap_band": "Mega Cap",
+  "name": "Intel Corporation",
   "primary_symbol": "INTCD.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "INTEL CORP is a multinational technology company that designs, manufactures, and sells computer components and related products. Their main products include microprocessors, chipsets, and other related technologies used in personal computers, data centers, and other devices. The company is headquartered in Santa Clara, California."
+  "summary": "INTEL CORP is a multinational technology company that designs, manufactures, and sells computer components and related products. Their main products include microprocessors, chipsets, and other related technologies used in personal computers, data centers, and other devices. The company is headquartered in Santa Clara, California.",
+  "website": "http://www.intel.com"
 }

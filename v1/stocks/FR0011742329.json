@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHW67D3",
+    "figi": "BBG00JHW67F1",
     "isin": "FR0011742329"
   },
   "industry": "Machinery",
@@ -16,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M6P.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "M6P.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "M6P.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M6P.MU"
     },
     {
       "currency": "EUR",
@@ -28,13 +45,18 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "MCPHY.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MPHYF"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "MCPHY ENERGY",
+  "name": "McPhy Energy S.A.",
   "primary_symbol": "0QTF.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

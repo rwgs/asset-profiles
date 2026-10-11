@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG004MP4382",
-    "figi": "BBG004MP43G3",
+    "composite_figi": "BBG00JPQVD19",
+    "figi": "BBG00NRVYCB5",
     "isin": "DE000A1TNV91"
   },
   "industry": "Capital Markets",
@@ -11,6 +11,11 @@
   "isin": "DE000A1TNV91",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RWM.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -52,6 +57,7 @@
       "symbol": "ADE.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "ADE.TI"
     },
     {
@@ -62,9 +68,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Bitcoin Group SE",
-  "primary_symbol": "ADE.BE",
+  "primary_symbol": "0RWM.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -72,5 +78,5 @@
   "schema_version": "1.0.0",
   "sector": "Financials",
   "summary": "Bitcoin Group SE operates in the cryptocurrency and blockchain businesses worldwide. The company operates a trading platform for the digital currency bitcoin under the Bitcoin.de. It also provides financial services. Bitcoin Group SE is based in Herford, Germany. Bitcoin Group SE is a subsidiary of Priority AG.",
-  "website": "http://www.bitcoingroup.com"
+  "website": "https://www.bitcoingroup.com"
 }

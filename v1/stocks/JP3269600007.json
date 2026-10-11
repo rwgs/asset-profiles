@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C21XX1",
-    "figi": "BBG000C22142",
+    "composite_figi": "BBG000BFY586",
+    "figi": "BBG000BFY5M0",
     "isin": "JP3269600007"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "JP3269600007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "3405.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KURRF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KUY.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KUY.SG"
     }
   ],
-  "name": "KURARAY CO. LTD  YN 50",
-  "primary_symbol": "KUY.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Kuraray Co., Ltd.",
+  "primary_symbol": "3405.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Kuraray Co., Ltd. is a Japanese specialty chemical company that produces a variety of materials, including polyvinyl alcohol (PVA) resins, synthetic fibers, and specialty chemicals. The company's products are used in a wide range of applications, including textiles, packaging, and construction. Kuraray is headquartered in Tokyo, Japan."
+  "summary": "Kuraray Co., Ltd. engages in resins, chemicals, fibers, and others businesses worldwide. The company's Vinyl Acetate segment offers polyvinyl alcohol (PVA) resins for paper/fiber processing agents, adhesives, and stabilizers; optical-use PVA films for liquid crystal displays and others; water-soluble PVA films for detergents and others; PVB film and Ionoplast interlayer for safety glass; EVOH resins for food packaging, automotive fuel tanks, stain-resistant wallpaper, vacuum insulation panels, and others; EVAL, a food packaging materials; and PLANTIC, a bio-based barrier material for food packaging materials. Its Isoprene segment produces isoprene chemicals; thermoplastic elastomers; heat-resistant polyamide resins; liquid rubber as additive agent for automobile tires and others; and acrylic thermoplastic elastomers. The company's Functional Materials segment offers methacrylic resins for LCDs, automobile parts, signboards, construction materials, and others; dental materials; and activated carbons. Its Fibers and Textile segment provides man made leather products; PVA fibers, which are reinforcing materials for cement, concrete, automotive brake hoses, and others; non-woven fabrics for everyday goods, industrial products, and others; hook and loop fasteners for clothing, sporting goods, industrial materials, and others; and polyarylate fibers for aerospace, composites, electronic components, ropes, sporting goods, and others. The company's Trading segment engages in the import, export, and wholesale of resin and chemical products. Its Others segment offers membranes and liquid crystalline polymer films. This segment also engages in water purification, wastewater treatment, ballast water management system, and other businesses. In addition, the company provides yarn and fabric for clothing and materials, sportswear, uniforms, and others. Kuraray Co., Ltd. was founded in 1926 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.kuraray.co.jp"
 }

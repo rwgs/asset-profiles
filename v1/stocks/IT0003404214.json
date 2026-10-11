@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JHVSX35",
+    "figi": "BBG00JHVSX44",
     "isin": "IT0003404214"
   },
   "industry": "Household Durables",
@@ -11,15 +13,25 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0EA2.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7L4.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "ELC.MI"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Elica S.p.A.",
-  "primary_symbol": "ELC.MI",
+  "primary_symbol": "0EA2.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

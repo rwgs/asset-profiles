@@ -2,10 +2,11 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG004HKJY94",
+    "composite_figi": "BBG00WBMPP23",
+    "figi": "BBG00WBMPP69",
     "isin": "NL0010391108"
   },
-  "industry": "Technology Hardware, Storage & Peripherals",
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "NL0010391108",
   "kind": "stock",
@@ -22,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "P7V.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "P7V.F"
     },
@@ -34,13 +40,18 @@
       "currency": "CZK",
       "exchange_mic": "XPRA",
       "symbol": "PEN.PR"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "PEN.WA"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Photon Energy NV",
   "primary_symbol": "NL0010391108.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

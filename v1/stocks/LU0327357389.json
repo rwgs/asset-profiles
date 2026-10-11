@@ -6,7 +6,7 @@
     "figi": "BBG00328M0P1",
     "isin": "LU0327357389"
   },
-  "industry": "Household Products",
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "LU0327357389",
   "kind": "stock",
@@ -35,13 +35,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "0KE.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KARNF"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "KER.WA"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Kernel Holding S.A.",
   "primary_symbol": "0KE.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

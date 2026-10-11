@@ -2,7 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG001MKT1W9",
     "cusip": "92905R103",
+    "figi": "BBG001MKT1W9",
     "isin": "US92905R1032"
   },
   "industry": "Road & Rail",
@@ -11,66 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "UWU0.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "VOS.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "VOS.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "VOS.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "VOS.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "VOS.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "VOS.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "VOS.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "VOS.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "VOS.VI"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "VOSSY"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Large Cap",
   "name": "Vossloh AG",
-  "primary_symbol": "UWU0.F",
+  "primary_symbol": "VOSSY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

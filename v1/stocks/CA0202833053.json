@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00JVRKVH5",
     "cusip": "020283305",
+    "figi": "BBG00JVRKVJ3",
     "isin": "CA0202833053"
   },
   "industry": "Metals & Mining",
@@ -49,13 +51,18 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "AMM.TO"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "AMM.V"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Almaden Minerals Ltd.",
   "primary_symbol": "0UH8.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

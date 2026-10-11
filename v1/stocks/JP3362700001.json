@@ -2,29 +2,47 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000F6VZ98",
-    "figi": "BBG000F6X3H8",
+    "composite_figi": "BBG000BKGQW2",
+    "figi": "BBG000BKGRF9",
     "isin": "JP3362700001"
   },
+  "industry": "Marine",
   "industry_group": "Transportation",
   "isin": "JP3362700001",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9104.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MILA.F"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MILA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MSLOF"
     }
   ],
-  "name": "MITSUI O.S.K. LINES LTD. Regist",
-  "primary_symbol": "MILA.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Mitsui O.S.K. Lines, Ltd.",
+  "primary_symbol": "9104.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "MITSUI O.S.K. LINES LTD. Regist is a Japanese shipping company operating a diverse fleet of vessels, including containerships, bulk carriers, tankers, and car carriers. The company provides transportation services for a wide range of cargo worldwide. Mitsui O.S.K. Lines is headquartered in Tokyo, Japan."
+  "summary": "Mitsui O.S.K. Lines, Ltd. engages in the marine transportation business in Japan and internationally. The company operates through Dry Bulk Business, Energy Transport Business, Product Transport Business, and Associated Businesses. Its fleet consists of dry bulk carriers for the transportation of iron ore, coal, grain, wood, wood chips, cement, fertilizer, and salt; crude oil tankers; tankers that transport refined petroleum products, such as gas oils, naphtha, and gasoline; chemical tankers that transport liquid chemical products; methanol carriers; and LPG carriers. The company's fleet also includes car carriers that transport passenger cars and construction machinery; containerships; and ferries and coastal RoRo ships. In addition, it operates container terminals in Japan and internationally; floating storage and regasification units; and floating production, storage, and offloading systems, as well as offers logistics services, such as air and ocean freight forwarding, trucking, customs clearance, warehousing, inspection, and heavyweight and oversized cargo transport, as well as buyers' consolidation. Further, the company is involved in ocean shipping related businesses comprising tugboat operation, land transport, maritime consulting, travel, office building leasing, property management, finance, trading, insurance, ICT systems, temporary staffing, supporting an oil stockpile project, nautical charts, and other businesses. As of March 31, 2020, it operated 263 dry bulkers; 290 tankers, LNG carriers, and steaming coal carriers; 64 containerships; 1 cruise ship; and 186 product transport vessels, as well as 2 other vessels. The company was founded in 1884 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.mol.co.jp"
 }

@@ -3,14 +3,24 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG000BB4KM9",
-    "figi": "BBG000BB4L83",
+    "figi": "BBG000BB4PJ2",
     "isin": "SE0001662230"
   },
-  "industry": "Building Products",
-  "industry_group": "Capital Goods",
+  "industry": "Machinery",
+  "industry_group": "Retailing",
   "isin": "SE0001662230",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HRZ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HRZ.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -18,18 +28,13 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "HRZA.F"
+      "exchange_mic": "XMUN",
+      "symbol": "HRZ.MU"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "HSQVY"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
-      "symbol": "HUSQ-A.ST"
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HRZ.SG"
     },
     {
       "currency": "SEK",
@@ -47,17 +52,17 @@
       "symbol": "SE0001662230.SW"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Husqvarna AB Class B",
-  "primary_symbol": "HRZ.F",
+  "primary_symbol": "HRZ.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Husqvarna AB (publ) produces and sells outdoor power and garden watering products, and cutting equipment and diamond tools. It operates through three divisions: Husqvarna, Gardena, and Construction. The Husqvarna division offers handheld products, such as chainsaws, brush cutters, trimmers, and leaf blowers; wheeled products, such as front riders and zero-turn mowers; robotic lawn mowers; and accessories and spare parts. The Gardena division provides garden hoses, reels, and sprayers; sprinklers, sprinkler systems, and water pumps; robotic lawn mowers, trimmers, hedge cutters, and shrub shears; garden tools, such as secateurs, loppers, axes, and digging and winter tools; and smart garden systems. The Construction division offers power cutters, light compaction and concrete placement equipment, floor grinding machines, dust and slurry solutions, diamond tools for construction and stone industries, floor saws, and demolition robots. The company sells its products and solutions to forestry, tree care, landscaping, commercial lawn, and garden services sectors, as well as home and landowners, and light construction and stone industries primarily under the Husqvarna, Gardena, Diamant Boart, Jonsered, Flymo, RedMax, Zenoah, and McCulloch brands through dealers and retailers. It operates in Germany, France, Sweden, Austria, rest of Europe, the Asia/Pacific, Canada, the United States, Latin America, and internationally. Husqvarna AB (publ) was founded in 1689 and is headquartered in Stockholm, Sweden.",
+  "sector": "Consumer Discretionary",
+  "summary": "Husqvarna AB is a global manufacturer of outdoor power products, including chainsaws, trimmers, lawnmowers, and garden tractors. They also produce construction equipment such as concrete saws and demolition robots. The company is headquartered in Stockholm, Sweden.",
   "website": "http://www.husqvarnagroup.com"
 }

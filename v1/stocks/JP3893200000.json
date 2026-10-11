@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BVZHH4",
-    "figi": "BBG000BVZMB9",
+    "composite_figi": "BBG000BGXQ34",
+    "figi": "BBG000BGXQH9",
     "isin": "JP3893200000"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "JP3893200000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8801.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MFU.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MFU.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MFU.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MTSFF"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Mitsui Fudosan Co., Ltd.",
-  "primary_symbol": "MFU.BE",
+  "primary_symbol": "8801.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Mitsui Fudosan Co., Ltd. is a Japanese real estate company. They are involved in the development, leasing, and management of various properties, including office buildings, commercial facilities, and residential properties. The company is headquartered in Tokyo, Japan."
+  "summary": "Mitsui Fudosan Co., Ltd. operates as a real estate company in Japan. It operates through four segments: Leasing, Property Sales, Management, and Other. The Leasing segment leases office buildings and commercial facilities, and other properties. The Property Sales segment is involved in the sale of condominiums and detached housing to individuals; and rental housing and office buildings and other to investors. The Management segment engages in the property management and brokerage and asset management businesses. The Other segment engages in the housing construction and renovation business; and housing related material sales business. The company also offers car park leasing services; and operates hotels, golf courses, and resort facilities. In addition, it engages in the renewal work for offices and retail facilities; and electricity transmission and distribution and heat supply businesses, as well as operates as a retailer of flowers and ornamental plants, seeds, and other gardening products. The company was founded in 1941 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.mitsuifudosan.co.jp"
 }

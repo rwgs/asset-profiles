@@ -2,8 +2,8 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000BP9QT3",
-    "figi": "BBG000BP9T99",
+    "composite_figi": "BBG000BDGHM9",
+    "figi": "BBG000BDGHZ5",
     "isin": "SG1R95002270"
   },
   "industry": "Real Estate Management & Development",
@@ -12,16 +12,21 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "F17.SI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "FS8.MU"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "GuocoLand Limited",
-  "primary_symbol": "FS8.MU",
+  "primary_symbol": "F17.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

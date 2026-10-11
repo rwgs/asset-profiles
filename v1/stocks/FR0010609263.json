@@ -2,29 +2,52 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00DRDP3S9",
-    "figi": "BBG00DRDP3X3",
+    "composite_figi": "BBG00JHW19V4",
+    "figi": "BBG00JHW19W3",
     "isin": "FR0010609263"
   },
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Health Care Equipment & Supplies",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "FR0010609263",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0P5I.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1MK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1MK.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALMKT.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FR0010609263.SG"
     }
   ],
-  "name": "MAUNA KEA TECHNOLOGIES",
-  "primary_symbol": "FR0010609263.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Mauna Kea Technologies SA",
+  "primary_symbol": "0P5I.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MAUNA KEA TECHNOLOGIES develops and markets Cellvizio, a real-time in vivo cellular imaging platform. Their technology enables physicians to visualize and diagnose diseases at the cellular level during endoscopic procedures; headquarters are located in Paris, France. Mauna Kea Technologies aims to improve diagnostic accuracy and patient outcomes through its innovative imaging technology."
+  "summary": "Mauna Kea Technologies SA develops and markets medical devices for the diagnosis and treatment of cancers and other diseases in Europe, the Middle East, Africa, the United States, Latin America, China, and Japan. Its flagship product is Cellvizio, a multidisciplinary probe and needle-based confocal laser endomicroscopy platform, which provides physicians and researchers with images of tissues at the cellular level. The company was founded in 2000 and is headquartered in Paris, France.",
+  "website": "http://www.maunakeatech.com"
 }

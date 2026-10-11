@@ -21,8 +21,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CHY.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CHY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CHY.MU"
     },
     {
       "currency": "EUR",
@@ -34,13 +44,13 @@
   "name": "ChemoMetec A/S",
   "primary_symbol": "0DZ0.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "CHEMOMETEC A/S CHEMOMETEC ORD S is a Danish biotech company that develops, manufactures and markets cell counting and analysis instruments. The company provides solutions for cell counting, viability determination, and other cell analysis applications in research and development, with headquarters in Allerod, Denmark.",
+  "summary": "ChemoMetec A/S is a Danish biotech company that develops, manufactures and markets cell counting and analysis instruments. The company provides solutions for cell counting, viability determination, and other cell analysis applications in research and development, with headquarters in Allerod, Denmark.",
   "website": "http://www.chemometec.com"
 }

@@ -5,6 +5,7 @@
     "composite_figi": "BBG000C5XT13",
     "isin": "DE0007480204"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "DE0007480204",
   "kind": "stock",
@@ -21,8 +22,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "DEQ.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "DEQ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DEQ.F"
     },
     {
       "currency": "EUR",
@@ -38,17 +49,33 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "DEQ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DEQ.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "DEQ.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "DEQ.VI"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Deutsche EuroShop AG",
   "primary_symbol": "DE0007480204.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Deutsche EuroShop AG is a German real estate investment company that invests in shopping centers in prime locations, headquartered in Hamburg, Germany. The company owns a portfolio of shopping centers across Europe. Deutsche EuroShop aims to generate stable rental income and long-term value growth."
+  "summary": "Deutsche EuroShop AG is a German real estate investment company that invests in shopping centers in prime locations, headquartered in Hamburg, Germany. The company owns a portfolio of shopping centers across Europe. Deutsche EuroShop aims to generate stable rental income and long-term value growth.",
+  "website": "http://www.deutsche-euroshop.de"
 }

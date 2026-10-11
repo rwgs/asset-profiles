@@ -3,27 +3,36 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000DP62J8",
+    "figi": "BBG000DP6324",
     "isin": "GB00B13QQB40"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB00B13QQB40",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "DSG.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B13QQB40.SG"
     }
   ],
-  "name": "DILLISTONE GROUP PLC",
-  "primary_symbol": "GB00B13QQB40.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Dillistone Group Plc",
+  "primary_symbol": "DSG.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "DILLISTONE GROUP PLC provides software solutions for recruitment firms. Their business model involves offering software to manage recruitment processes, generating revenue through software licenses and support services. The company's headquarters are in Basingstoke, UK."
+  "summary": "Dillistone Group Plc, together with its subsidiaries, provides technology solutions and services in the United Kingdom, rest of Europe, the Americas, Australia, and internationally. It offers FileFinder, a solution for executive search firms; GatedTalent that offers career services to executives, and candidate sourcing opportunities to recruiters; ISV.online which offers online skills testing, working with recruiters, consultancies, and employers; and Talentis Global, a platform for executive search, recruiting, and candidate sourcing. The company also provides Voyager Infinity that streamlines the recruitment processes for various types of permanent, contract, and temporary positions; and Voyager Mid-Office, an automated way of managing placements, processing timesheets, raising invoices, paying staff, and updating accounts packages. It serves recruitment, staffing, and executive search businesses, as well as corporate talent acquisition teams. Dillistone Group Plc was founded in 1983 and is headquartered in Basingstoke, the United Kingdom.",
+  "website": "https://www.ikirupeople.com"
 }

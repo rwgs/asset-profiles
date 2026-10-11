@@ -3,7 +3,7 @@
   "country_code": "CZ",
   "identifiers": {
     "composite_figi": "BBG00BJL5MM0",
-    "figi": "BBG00BJL5MR5",
+    "figi": "BBG00BJL5MT3",
     "isin": "CZ0009000121"
   },
   "industry": "Beverages",
@@ -11,6 +11,11 @@
   "isin": "CZ0009000121",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "48K.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -22,17 +27,17 @@
       "symbol": "KOFOL.PR"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Kofola CeskoSlovensko a.s.",
-  "primary_symbol": "48K.SG",
+  "primary_symbol": "48K.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Kofola CeskoSlovensko a.s., together with its subsidiaries, produces and distributes non-alcoholic beverages in the Czech Republic, Slovakia, Poland, Slovenia, Croatia, and internationally. It provides carbonated and non-carbonated beverages, water, syrups, jams, Semtex energy drinks, fresh juices, fresh/salad bars, herbal teas, and coffee bean mixtures. The company offers its products primarily under the Kofola, Vinea, Radenska, Studenac, Korunní, Rajec, Kláštorná Kalcia, Jupí, Jupík, Semtex, UGO, LEROS, and Café Reserva brand names, as well as under private labels for third parties, such as retail chains. It is also involved in the provision of road cargo transport services; trademark licensing business; and operation of fresh bars chain. Kofola CeskoSlovensko a.s. is headquartered in Ostrava, the Czech Republic. Kofola CeskoSlovensko a.s. is a subsidiary of AETOS a.s.",
+  "summary": "Kofola ČeskoSlovensko a.s. is a producer and distributor of non-alcoholic beverages in Central and Eastern Europe. Their product portfolio includes Kofola, a popular cola-flavored drink, as well as other soft drinks and mineral waters. Kofola ČeskoSlovensko a.s. is headquartered in Krnov, Czech Republic.",
   "website": "http://www.kofola.cz/en"
 }

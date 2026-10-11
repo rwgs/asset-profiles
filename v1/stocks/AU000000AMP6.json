@@ -1,15 +1,26 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Australia",
+  "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000BQHSC6",
-    "figi": "BBG000BQHW00",
+    "composite_figi": "BBG000G2CGK6",
+    "figi": "BBG000G2CGK6",
     "isin": "AU000000AMP6"
   },
-  "industry_group": "Insurance",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "AU000000AMP6",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMLTF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "AMP.AX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -26,15 +37,17 @@
       "symbol": "AMP.MU"
     }
   ],
-  "name": "AMP LTD.",
-  "primary_symbol": "AMP.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "AMP Limited",
+  "primary_symbol": "AMLTF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "AMP Ltd., headquartered in Sydney, Australia, provides wealth management, banking, and insurance products and services. The company operates in Australia and New Zealand, offering financial advice, superannuation, retirement income, and investment solutions."
+  "summary": "AMP Limited operates as a wealth management company in Australia and internationally. The company offers financial advice and platform administration services, unit linked superannuation products, and retirement income and managed investment products for individuals; and residential mortgages, residential and investment property home loans, deposits, transaction banking services, SMSF products, and loans to AMP-aligned financial adviser practices through digital, online, and phone channels, as well as through financial advisers and home loan brokers. It also manages investments across various asset classes, including infrastructure debt, infrastructure equity, real estate, equities, fixed interest, diversified, and multi-manager and multi-asset funds for institutional and direct clients; and real estate and infrastructure assets, which include shopping centres, airports, and trains on behalf of funds and clients. In addition, the company provides wealth management solutions comprising KiwiSaver schemes, corporate superannuation, retail investments, and general insurance products, as well as operates a wrap investment management platform. AMP Limited was founded in 1849 and is based in Sydney, Australia.",
+  "website": "http://www.amp.com.au"
 }

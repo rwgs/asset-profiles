@@ -6,6 +6,8 @@
     "figi": "BBG000BC7M22",
     "isin": "DE000A254294"
   },
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "DE000A254294",
   "kind": "stock",
   "listings": [
@@ -13,15 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A254294.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "IPOK.DE"
     }
   ],
-  "name": "HEIDELBERGER BETEILIGUNDSHOL",
+  "market_cap_band": "Nano Cap",
+  "name": "SQD.AI Strategies AG",
   "primary_symbol": "DE000A254294.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Heidelberger Beteiligungsholding AG operates as an investment company in Germany. The company primarily invests in listed securities. Heidelberger Beteiligungsholding AG is headquartered in Heidelberg, Germany.",
+  "website": "http://www.sqdai-strategies.com"
 }

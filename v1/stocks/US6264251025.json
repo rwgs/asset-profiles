@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BM4K18",
+    "composite_figi": "BBG000GM5GS2",
     "cusip": "626425102",
-    "figi": "BBG000BM4LB5",
+    "figi": "BBG000GM5GS2",
     "isin": "US6264251025"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -13,31 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "6981.T"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "MRAAF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "MRAAY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "MUR1.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Murata Manufacturing Co., Ltd.",
-  "primary_symbol": "6981.T",
+  "primary_symbol": "MRAAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

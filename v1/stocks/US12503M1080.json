@@ -18,14 +18,29 @@
       "symbol": "CBOE"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0HQN.L"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "C1BO34.SA"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C67.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "C67.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C67.MU"
     },
     {
       "currency": "EUR",
@@ -37,7 +52,7 @@
   "name": "Cboe Global Markets Inc",
   "primary_symbol": "CBOE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

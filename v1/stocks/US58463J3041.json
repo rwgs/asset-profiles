@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000QXTHJ9",
+    "composite_figi": "BBG000BGRB25",
     "cusip": "58463J304",
-    "figi": "BBG000QXTP74",
+    "figi": "BBG000BGRB25",
     "isin": "US58463J3041"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "isin": "US58463J3041",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "MPT"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0JZZ.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,6 +34,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "M3P.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "M3P.MU"
     },
@@ -32,15 +48,17 @@
       "symbol": "M3P.SG"
     }
   ],
-  "name": "Medical Properties Trust, Inc.",
-  "primary_symbol": "M3P.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Medical Properties Trust Inc. common stock",
+  "primary_symbol": "MPT",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Medical Properties Trust, Inc. is a self-advised real estate investment trust formed to capitalize in hospital facilities. It finances healthcare facilities including acute care hospitals, rehabilitation hospitals, and other facilities. The company is headquartered in Birmingham, Alabama."
+  "summary": "Medical Properties Trust, Inc. is a self-advised real estate investment trust formed to capitalize in hospital facilities. It finances healthcare facilities including acute care hospitals, rehabilitation hospitals, and other facilities. The company is headquartered in Birmingham, Alabama.",
+  "website": "http://www.medicalpropertiestrust.com"
 }

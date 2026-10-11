@@ -3,27 +3,36 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000DP4282",
+    "figi": "BBG000DP42G3",
     "isin": "GB0001961035"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "GB0001961035",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CHH.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0001961035.SG"
     }
   ],
-  "name": "CHURCHILL CHINA PLC",
-  "primary_symbol": "GB0001961035.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Churchill China plc",
+  "primary_symbol": "CHH.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Churchill China PLC is a manufacturer of high-quality tableware for the hospitality industry, producing a wide range of durable and stylish products for restaurants, hotels, and catering establishments. The company's products are known for their strength, durability, and design. Churchill China is headquartered in Stoke-on-Trent, United Kingdom."
+  "summary": "Churchill China plc manufactures and sells ceramic and related products in the United Kingdom, rest of Europe, the United States, and internationally. It provides plates, bowls, trays and boards, crates and carriers, stands and risers, cookware, counter serving ware, cups, mugs, saucers, beverage pots, jugs, chip mugs, dip pots and sauce dishes, lids, glassware, cutlery, utensils, and accessories, as well as raw materials for the ceramics industry. The company offers its products to pubs, restaurant and hotel chains, sports and conference venues, health and education establishments, and contract caterers, as well as for consumer use. Churchill China plc was founded in 1795 and is headquartered in Stoke-on-Trent, the United Kingdom.",
+  "website": "http://www.churchill1795.com"
 }

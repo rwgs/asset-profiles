@@ -3,24 +3,36 @@
   "country_code": "DK",
   "identifiers": {
     "composite_figi": "BBG000PRCV46",
+    "figi": "BBG001QV4B38",
     "isin": "DK0060299063"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "DK0060299063",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "DKK",
+      "exchange_mic": "XCSE",
+      "symbol": "DAB.CO"
+    },
     {
       "currency": "DKK",
       "exchange_mic": "XSWX",
       "symbol": "DK0060299063.SW"
     }
   ],
-  "name": "DANSKE ANDELSKASSERS BANK A/",
-  "primary_symbol": "DK0060299063.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Danske Andelskassers Bank A/S",
+  "primary_symbol": "DAB.CO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Danske Andelskassers Bank A/S provides various banking products and services to private, small and medium-sized business, and institutional customers in Denmark. The company offers payment accounts; loans and credit products, such as mortgage, home, building credit, restructuring, and energy loans, as well as car loans, consumer loans, and overdrafts; and debit and credit cards. It also provides pension products; and death, sickness, home, accident, annuity, detached, auto, annual travel, holiday home, motorcycle, and pet insurance, as well as protection for wages. In addition, the company offers investment products; and net and mobile banking, ATM, SMS, and payment services. It has 14 full time branches for private and business customers; and 1 agricultural branch. The company was founded in 1969 and is headquartered in Tjele, Denmark.",
+  "website": "http://www.andelskassen.dk"
 }

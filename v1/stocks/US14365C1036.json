@@ -2,15 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0016YVLP8",
+    "composite_figi": "BBG000CKYG71",
     "cusip": "14365C103",
-    "figi": "BBG0016YVLX9",
+    "figi": "BBG000CKYJ75",
     "isin": "US14365C1036"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "US14365C1036",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "CUK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,6 +29,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "POH3.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "POH3.MU"
     },
@@ -32,15 +43,17 @@
       "symbol": "POH3.SG"
     }
   ],
-  "name": "CARNIVAL PLC",
-  "primary_symbol": "POH3.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Carnival Corporation & plc",
+  "primary_symbol": "CUK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Carnival plc is a global cruise company that operates a portfolio of cruise brands, including Carnival Cruise Line, Princess Cruises, Holland America Line, and Costa Cruises. They offer a range of cruise vacations to destinations around the world. The company is headquartered in Southampton, United Kingdom."
+  "summary": "Carnival Corporation & plc operates as a leisure travel company. Its ships visit approximately 700 ports under the Carnival Cruise Line, Princess Cruises, Holland America Line, P&O Cruises (Australia), Seabourn, Costa Cruises, AIDA Cruises, P&O Cruises (UK), and Cunard brand names. The company also provides port destinations and other services, as well as owns and operates hotels, lodges, glass-domed railcars, and motor coaches. It sells its cruises primarily through travel agents and tour operators. The company operates in the United States, Canada, Continental Europe, the United Kingdom, Australia, New Zealand, Asia, and internationally. It operates 87 ships with 223,000 lower berths. The company was incorporated in 1972 and is headquartered in Miami, Florida.",
+  "website": "http://www.carnivalcorp.com"
 }

@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00G7D6C05",
     "cusip": "83418M103",
-    "figi": "BBG00G7D6C32",
+    "figi": "BBG00G7D6C05",
     "isin": "US83418M1036"
   },
   "industry": "Energy Equipment & Services",
@@ -15,25 +15,35 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "SOI"
+      "symbol": "SEI"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "68S.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "68S.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "US83418M1036.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Solaris Oilfield Infrastructure, Inc.",
-  "primary_symbol": "SOI",
+  "market_cap_band": "Mid Cap",
+  "name": "Solaris Energy Infrastructure Inc. Class A Common Stock",
+  "primary_symbol": "SEI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Solaris Oilfield Infrastructure, Inc. designs, manufactures, and rents mobile proppant and chemical management systems to unload, store, and deliver proppant and chemicals at oil and natural gas well sites in the United States. The company also provides trained personnel and last mile proppant logistics services; transloading and forward staging storage services; and digital inventory software under the Solaris Lens and Railtronix names. It serves oil and natural gas exploration and production, and oilfield service companies. Solaris Oilfield Infrastructure, Inc. was founded in 2014 and is headquartered in Houston, Texas.",
-  "website": "http://www.solarisoilfield.com"
+  "summary": "Solaris Energy Infrastructure Inc. Class A Common Stock represents ownership in a company focused on developing and operating solar energy infrastructure projects. The company aims to provide clean and sustainable energy solutions. More information would be required for a complete description.",
+  "website": "https://www.solaris-energy.com"
 }

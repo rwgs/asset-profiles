@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG0014YBMG0",
-    "figi": "BBG0014YBMJ7",
+    "composite_figi": "BBG000WJ98X9",
+    "figi": "BBG000WJ9994",
     "isin": "JE00B3MW7P88"
   },
   "industry": "Construction Materials",
@@ -11,6 +11,11 @@
   "isin": "JE00B3MW7P88",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2233.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -28,16 +33,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "West China Cement Ltd.",
-  "primary_symbol": "WFG1.F",
+  "name": "West China Cement Limited",
+  "primary_symbol": "2233.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "West China Cement Limited, an investment holding company, produces and sells cement and cement products in the People's Republic of China. The company sells its products under the Yao Bai and Yaobaishuini names. Its cement products are used in the construction of infrastructure projects, such as highways, railways, bridges, hydroelectric power stations, and water conservancy and water transfer projects, as well as housing and social infrastructure projects. The company also engages in financial leasing and transportation business. West China Cement Limited is headquartered in Xi'an, the People's Republic of China.",
+  "summary": "West China Cement Limited is an investment holding enterprise that manufactures and distributes cement and related building materials in China. Its products are sold under the Yao Bai and Yaobaishuini brands and are used in a range of construction projects.",
   "website": "http://www.westchinacement.com"
 }

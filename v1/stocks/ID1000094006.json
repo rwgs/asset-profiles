@@ -2,14 +2,30 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
-    "composite_figi": "BBG000DXKR37",
-    "figi": "BBG000DXKTG9",
+    "composite_figi": "BBG000DJB7X9",
+    "figi": "BBG000DJB7X9",
     "isin": "ID1000094006"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "ID1000094006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PBATF"
+    },
+    {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "PTBA.JK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TBA.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -21,15 +37,17 @@
       "symbol": "TBA.SG"
     }
   ],
-  "name": "PT Bukit Asam (Persero) Tbk",
-  "primary_symbol": "TBA.MU",
+  "market_cap_band": "Mid Cap",
+  "name": "PT Bukit Asam Tbk",
+  "primary_symbol": "PBATF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "BUKIT ASAM TBK RP 100 is an Indonesian coal mining company. It engages in the exploration, mining, processing, and marketing of coal. The company is based in Tanjung Enim, South Sumatra, Indonesia."
+  "summary": "PT Bukit Asam Tbk, together with its subsidiaries, engages in the coal mining activities in Indonesia. The company operates through two segments, Coal Mining and Other. Its coal mining activities include general surveying, exploration, exploitation, processing, refining, transportation, and trading. It manages special coal port facilities; operates steam power plants; and provides consulting services related to the coal mining industry and production. The company also offers briquette processing, mining services, oil palm plantation and processing, and health services. It also operates in India, Taiwan, China, Hong Kong, South Korea, Thailand, Malaysia, the Philippines, Japan, and Vietnam. The company was formerly known as PT Bukit Asam Persero Tbk and changed its name to PT Bukit Asam Tbk in November 2017. PT Bukit Asam Tbk was founded in 1919 and is headquartered in Tanjung Enim Selatan, Indonesia. PT Bukit Asam Tbk is a subsidiary of PT Indonesia Asahan Aluminium.",
+  "website": "https://www.ptba.co.id"
 }

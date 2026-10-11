@@ -2,29 +2,62 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000BPJ0L7",
-    "figi": "BBG000BPJ1X2",
+    "composite_figi": "BBG000BFDMS0",
+    "figi": "BBG000BFDN17",
     "isin": "SG1S04926220"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "SG1S04926220",
   "kind": "stock",
   "listings": [
     {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "O39.SI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OCBA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "OCBA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OCBA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OCBA.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OCBA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OVCHF"
     }
   ],
-  "name": "Oversea-Chinese Bnkg Corp.Ltd.R",
-  "primary_symbol": "OCBA.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Oversea-Chinese Banking Corporation Limited",
+  "primary_symbol": "O39.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Oversea-Chinese Banking Corporation (OCBC) is a Singaporean multinational banking and financial services corporation. It provides a range of commercial banking, specialist financial and wealth management services. OCBC is headquartered in Singapore."
+  "summary": "Oversea-Chinese Banking Corporation Limited provides financial services in Singapore, Malaysia, Indonesia, Greater China, other parts of the Asia Pacific, and internationally. The company's Global Consumer/Private Banking segment provides products and services to individual customers, including checking accounts, and savings and fixed deposits; housing and other personal loans; credit cards; wealth management products consisting of unit trusts, banc assurance products, and structured deposits; and brokerage services. This segment also offers investment advice and portfolio management, estate and trust planning, and wealth structuring services for high net worth individuals. Its Global Wholesale Banking segment provides project financing, short-term credit, working capital, and trade financing; customized and structured equity-linked financing products; cash management and custodian services; capital market solutions; corporate finance and advisory banking services; and treasury products. This segment serves corporates, public sector, and small and medium enterprises. The company's Global Treasury and Markets segment is involved in the foreign exchange activities, money market operations, and fixed income and derivatives trading, as well as provision of structured treasury products and financial solutions. Its Insurance segment provides fund management services, and life and general insurance products. The company's Others segment is involved in property and investment holding activities. The company has approximately 480 branches and representative offices in 19 countries and regions. Oversea-Chinese Banking Corporation Limited was founded in 1912 and is headquartered in Singapore.",
+  "website": "http://www.ocbc.com"
 }

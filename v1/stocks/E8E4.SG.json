@@ -1,7 +1,12 @@
 {
   "country": "Hungary",
   "country_code": "HU",
-  "industry_group": "Technology Hardware & Equipment",
+  "identifiers": {
+    "composite_figi": "BBG000JTVRW6",
+    "figi": "BBG000JTVVQ4"
+  },
+  "industry": "IT Services",
+  "industry_group": "Software & Services",
   "kind": "stock",
   "listings": [
     {
@@ -10,15 +15,17 @@
       "symbol": "E8E4.SG"
     }
   ],
-  "name": "DELTA TECHNOLOGIES PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Delta Technologies Nyrt.",
   "primary_symbol": "E8E4.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Delta Technologies PLC is an investment holding company with interests in various technology sectors, including software development and IT services. The company focuses on acquiring and developing businesses in high-growth technology markets. Delta Technologies PLC is headquartered in Valletta, Malta."
+  "summary": "Delta Technologies PLC is an investment holding company with interests in various technology sectors, including software development and IT services. The company focuses on acquiring and developing businesses in high-growth technology markets. Delta Technologies PLC is headquartered in Valletta, Malta.",
+  "website": "http://www.estmedia.hu"
 }

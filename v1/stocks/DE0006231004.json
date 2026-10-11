@@ -2,14 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000C8L0S4",
-    "figi": "BBG000C8M566",
+    "composite_figi": "BBG000CBDPJ1",
+    "figi": "BBG000CBDPJ1",
     "isin": "DE0006231004"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "DE0006231004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IFNNF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "IFX.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "IFX.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IFX.F"
     },
     {
       "currency": "EUR",
@@ -32,19 +48,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "IFX.MI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "IFX.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IFX.SG"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "IFX.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "IFX.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "IFXN.MX"
     }
   ],
-  "name": "INFINEON TECH.AG NA O.N.",
-  "primary_symbol": "IFX.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Infineon Technologies AG",
+  "primary_symbol": "IFNNF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Infineon Technologies AG is a German semiconductor manufacturer headquartered in Neubiberg, Germany. The company designs, develops, manufactures, and markets a broad range of semiconductors and system solutions. Infineon's products are used in automotive, industrial, and security applications."
+  "summary": "Infineon Technologies AG designs, develops, manufactures, and markets semiconductors and related system solutions worldwide. Its Automotive segment offers automotive microcontrollers; 3D ToF, magnetic, and pressure sensors; discrete power semiconductors; IGBT modules; industrial microcontrollers; power and radar sensor integrated circuits (ICs); transceivers; silicon carbide diodes, MOSEFTs, and modules; and voltage regulators for use in assistance and safety systems, comfort electronics, infotainment, powertrain, and security products. The company's Industrial Power Control segment provides bare dies, discrete IGBTs, driver ICs, SIC diodes, and IGBT modules and stacks for home appliances, industrial drives, industrial power supplies, industrial robotics, industrial vehicles, and traction, as well as for energy generation, storage, and transmission. Its Power & Sensor Systems segment offers gas sensors, MEMS microphones, and pressure sensors chips; discrete low-voltage, mid-voltage, and high-voltage power MOSFETs; control ICs; customized chips; GaN power switches; GPS low-noise amplifiers; low-voltage and high-voltage driver ICs; radar sensor ICs; RF antenna switches and power transistors; transient voltage suppressor diodes; and USB controllers for use in audio amplifiers, automotive electronics, BLDC motors, cellular communications infrastructure, electric vehicle charging stations, human machine interaction, high-reliability components, Internet of Things, LED and conventional lighting systems, mobile devices, and power management applications. The company's Connected Secure Systems segment provides connectivity solutions, embedded security controllers, microcontrollers, and security controllers for authentication, automotive, consumer electronics, government identification document, Internet of Things, mobile communication, payment system, ticketing, access control, and trusted computing applications. Infineon Technologies AG is headquartered in Munich, Germany.",
+  "website": "http://www.infineon.com"
 }

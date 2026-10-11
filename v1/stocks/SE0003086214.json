@@ -2,28 +2,35 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00LXWVS37",
+    "composite_figi": "BBG00YXWPNF4",
+    "figi": "BBG00YXWPNG3",
     "isin": "SE0003086214"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "SE0003086214",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "M16.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0003086214.SG"
     }
   ],
-  "name": "METACON AB",
-  "primary_symbol": "SE0003086214.SG",
+  "name": "METACON AB B",
+  "primary_symbol": "M16.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "METACON AB is a company focused on energy technology, offering solutions within hydrogen production and related applications. They aim to contribute to the transition towards a sustainable energy system. Metacon AB is based in Sweden."
+  "summary": "Metacon AB is an energy technology company that develops and produces systems for the production of hydrogen gas. They focus on reforming processes to produce hydrogen from biogas or other renewable sources. The company is based in Sweden."
 }

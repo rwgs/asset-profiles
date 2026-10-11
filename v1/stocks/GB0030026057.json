@@ -3,28 +3,46 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00YZ13DH4",
-    "figi": "BBG00YZ13DM8",
+    "figi": "BBG00YZ13DJ2",
     "isin": "GB0030026057"
   },
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "GB0030026057",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8LS.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0030026057.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "NFG.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NXFNF"
     }
   ],
-  "name": "NEXT FIFTEEN COMMUNICATIONS",
-  "primary_symbol": "GB0030026057.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Next Fifteen Communications Group plc",
+  "primary_symbol": "8LS.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Next Fifteen Communications Group plc is a digital communications business, providing marketing, public relations, digital, and consulting services to businesses worldwide. The company operates through a number of specialist agencies. Next Fifteen Communications Group is headquartered in London, United Kingdom."
+  "summary": "Next Fifteen Communications Group plc, together with its subsidiaries, provides communications services in the United Kingdom, Europe, Africa, the United States, and the Asia Pacific. It offers strategy and insight, online marketing, corporate and internal communications, media training, brand and message consultancy, market research, digital, marketing communications, and creative and content, as well as public, media, analyst, and investor relations services; and digital and technology products and services. The company provides its services under the Agent3, encore, Publitek, Beyond, Savanta, MBooth, MBooth Health, MACH 49, MIGHTY SOCIAL, Archetype, Conversion Rate Experts, Twogether, ODD, The Blueshirt Group, OutCast, Velocity, SMG., ELVIS, Brandwidth, Activate, Planning-inc, and Palladium brands. Next Fifteen Communications Group plc was incorporated in 1981 and is based in London, the United Kingdom.",
+  "website": "http://www.next15.com"
 }

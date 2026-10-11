@@ -2,9 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG006D4G345",
-    "cusip": "82937X103",
-    "figi": "BBG006D4G345",
+    "composite_figi": "BBG000C6XCW4",
+    "figi": "BBG000C6XDL4",
     "isin": "KYG8167W1380"
   },
   "industry": "Biotechnology",
@@ -13,9 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SBHMY"
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1177.HK"
     },
     {
       "currency": "USD",
@@ -24,31 +23,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SMZ1.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SMZ1.F"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SMZ1.SG"
+      "exchange_mic": "XMUN",
+      "symbol": "SMZ1.MU"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SMZU.F"
+      "exchange_mic": "XSTU",
+      "symbol": "SMZ1.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Sino Biopharmaceutical Limited",
-  "primary_symbol": "SBHMY",
+  "primary_symbol": "1177.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Sino Biopharmaceutical Limited, an investment holding company, together with its subsidiaries, operates as a research and development pharmaceutical conglomerate in the People's Republic of China. It operates in three segments: Modernised Chinese Medicines and Chemical Medicines, Investment, and Others. The company's principal products include hepatitis medicines, such as Tianqingganmei injections and Tianqingganping enteric capsules; oncology medicines comprising Saiweijian injections, Qingkeshu tablets, Qianping injections, Anxian capsules, Yinishu tablets, Genike capsules, Shoufu tablets, Jizhi tablets, and Leweixin injection; cardio-cerebral medicines, including Yilunping tablets, Tuotuo tablets, Sacubatro/Valsartan tablets, Tolvaptan tablets, Rivaroxaban tablets, Edaravone injections, Esmolol Hydrochloride injections, Esmolol Hydrochloride and Sodium Chloride injections, Polidocanol injections, Sacubitril Valsartan Sodium tablets, Urapidil Hydrochloride injections, and Kaina tablets; and orthopedic medicines, such as Gaisanchun capsules, Taiyan tablets, Zoledronic Acid injections, and Yigu injections. Its principal products also comprise digestive system medicines that consists of Aisuping injections, Getai tablets, and Deyou granules; anti-infectious medicines that include Tianjie injections, Fengruineng injections, Tianli injections, and Tianming injections; respiratory system medicines, such as Tianqingsule inhalation powder; and others comprising Debaian cataplasms, and Qingliming injections. In addition, the company engages in property holding activities; the retail and distribution of pharmaceutical products; optometry for optical glasses and sale of ophthalmic products; the provision of medical management consultancy services; and outpatient and surgical procedure. Further, it manufactures, sells, and distributes health food; and develops medical technology. The company was incorporated in 2000 and is headquartered in Wan Chai, Hong Kong.",
+  "summary": "Sino Biopharmaceutical Limited is an investment holding company operating in China as a pharmaceutical group built around research and development. Its segments are Modernised Chinese Medicines and Chemical Medicines, Investment, and Others. Its oncology medicines include anlotinib hydrochloride capsules and penpulimab injection.",
   "website": "http://www.sinobiopharm.com"
 }

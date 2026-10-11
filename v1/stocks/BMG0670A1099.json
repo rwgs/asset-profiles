@@ -6,7 +6,8 @@
     "figi": "BBG0134S69V6",
     "isin": "BMG0670A1099"
   },
-  "industry": "Industrial - Machinery",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "BMG0670A1099",
   "kind": "stock",
   "listings": [
@@ -14,13 +15,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1IG.F"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "AUTO.OL"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "AutoStore Holdings Ltd.",
   "primary_symbol": "1IG.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

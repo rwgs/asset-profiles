@@ -2,28 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00D341R53",
+    "composite_figi": "BBG00DWXQ0T3",
+    "figi": "BBG00DWXQ0V0",
     "isin": "GB00BD0NVK62"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "GB00BD0NVK62",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2H4.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "BOWL.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BD0NVK62.SG"
     }
   ],
-  "name": "HOLLYWOOD BOWL GROUP PLC",
-  "primary_symbol": "GB00BD0NVK62.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Hollywood Bowl Group plc",
+  "primary_symbol": "2H4.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Hollywood Bowl Group PLC operates ten-pin bowling and leisure centers across the UK. The company offers bowling, amusement machines, food and beverage services, and other leisure activities. Hollywood Bowl Group is headquartered in Hemel Hempstead, UK."
+  "summary": "Hollywood Bowl Group plc operates ten-pin bowling centers. It operates a portfolio of 64 centers in the United Kingdom under the Hollywood Bowl, AMF, and Puttstars brands. Hollywood Bowl Group plc was incorporated in 2016 and is headquartered in Hemel Hempstead, the United Kingdom.",
+  "website": "http://www.hollywoodbowlgroup.com"
 }

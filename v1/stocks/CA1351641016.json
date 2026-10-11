@@ -2,27 +2,42 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000LHMLJ7",
+    "figi": "BBG000LHMM87",
     "isin": "CA1351641016"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA1351641016",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "CONE"
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AU31.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AU31.MU"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "CONE.V"
     }
   ],
-  "name": "CyrusOne Inc.",
-  "primary_symbol": "CONE",
+  "market_cap_band": "Nano Cap",
+  "name": "Canada One Mining Corp.",
+  "primary_symbol": "AU31.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate"
+  "sector": "Materials",
+  "summary": "Canada One Mining Corp., an exploration stage company, acquires, explores, and develops, and evaluates mineral deposits in Canada. It primarily explores for copper, gold, lead, zinc, silver, nickel, palladium, and platinum group elements; as well as base and precious metals. The company owns 100% interest in Copper Dome Project covering an area of 7,997 hectares located in Princeton, British Columbia; Zeus gold property located in Lillooet, British Columbia; and Goldrop property located in Princeton, British Columbia. The company was formerly known as Anglo-Canadian Mining Corp. and changed its name to Canada One Mining Corp. in August 2017. Canada One Mining Corp. was incorporated in 1979 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.canadaonemining.com"
 }

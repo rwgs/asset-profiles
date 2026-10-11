@@ -2,9 +2,6 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00T65K7T9",
-    "cusip": "350267605",
-    "figi": "BBG00T65K808",
     "isin": "CA3502676057"
   },
   "industry": "Metals & Mining",
@@ -14,33 +11,8 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "4TU0.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "4TU0.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "4TU0.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "4TU0.MU"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA3502676057.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "FSX.MU"
     },
     {
       "currency": "CAD",
@@ -54,10 +26,10 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "FOSTERVILLE SOUTH EXP. A",
-  "primary_symbol": "4TU0.BE",
+  "name": "FOSTERVILLE SOUTH EXPLO-CL A",
+  "primary_symbol": "CA3502676057.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

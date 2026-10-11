@@ -2,10 +2,11 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "cusip": "919067207",
     "isin": "CA9190672076"
   },
-  "industry": "Communications Equipment",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Health Care Equipment & Supplies",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "CA9190672076",
   "kind": "stock",
   "listings": [
@@ -21,8 +22,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VZAB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VZAB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VZAB.MU"
     },
     {
       "currency": "EUR",
@@ -34,13 +45,13 @@
   "name": "Valdor Technology International Inc",
   "primary_symbol": "VTI.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Health Care",
   "summary": "Valdor Technology International Inc. engages in developing, manufacturing, and marketing fiber optic products in the United States, Canada, and internationally. The company was formerly known as Valdor Fiber Optics Inc. and changed its name to Valdor Technology International Inc. in July 2008. Valdor Technology International Inc. was incorporated in 1984 and is based in Vancouver, Canada.",
   "website": "http://valdortech.com"
 }

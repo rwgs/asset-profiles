@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00Z5KWX95",
+    "composite_figi": "BBG00NBFR487",
     "cusip": "91916W101",
-    "figi": "BBG00Z5KWX95",
+    "figi": "BBG00NBFR4C2",
     "isin": "CA91916W1014"
   },
   "industry": "Metals & Mining",
@@ -13,6 +13,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "OZ.V"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "OZBKF"
@@ -20,15 +25,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Valkea Resources Corp.",
-  "primary_symbol": "OZBKF",
+  "primary_symbol": "OZ.V",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Valkea Resources Corp. primarily focuses on the discovery and procurement of gold resources. The company's most significant venture is the Paana project, an asset located in Finland that it holds in its entirety. Valkea Resources Corp. maintains its corporate base in Vancouver, Canada.",
-  "website": "http://outbackgoldfields.com"
+  "summary": "Valkea Resources Corp. is a Vancouver-based exploration company mainly searching for gold in Finland's Central Lapland Greenstone Belt. Its flagship Paana Project lies next to Europe's largest gold producer, already contains a confirmed gold discovery, and is backed by two joint venture agreements with Rupert Resources and Kinross Gold.",
+  "website": "https://valkearesources.com"
 }

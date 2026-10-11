@@ -3,27 +3,41 @@
   "country_code": "HK",
   "identifiers": {
     "composite_figi": "BBG000VY0X16",
+    "figi": "BBG000VY0XC4",
     "isin": "HK0000056264"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "HK0000056264",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1668.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CS4.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HK0000056264.SG"
     }
   ],
-  "name": "CHINA SOUTH CITY HOLDINGS",
-  "primary_symbol": "HK0000056264.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "China South City Holdings Limited",
+  "primary_symbol": "1668.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "China South City Holdings Limited is a large-scale integrated logistics and trade center developer and operator in China. The company develops and operates integrated trade platforms that provide trading, logistics, warehousing, exhibition, information, and other supporting services. The company is headquartered in Hong Kong."
+  "sector": "Real Estate",
+  "summary": "China South City Holdings Limited, established in 2002 and based in Tsim Sha Tsui, Hong Kong, develops and operates integrated logistics and trade centers in China, giving wholesalers, manufacturers and retailers a place to trade raw materials and finished goods. It sells and leases commercial units, runs fashion retail outlets and an e-commerce platform, and offers warehousing, property management, exhibitions, advertising, logistics and micro-financing.",
+  "website": "http://www.chinasouthcity.com"
 }

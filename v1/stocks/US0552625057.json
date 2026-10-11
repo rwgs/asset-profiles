@@ -2,33 +2,53 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BS3DK1",
+    "composite_figi": "BBG000BVBYJ1",
     "cusip": "055262505",
-    "figi": "BBG000BS3DK1",
+    "figi": "BBG000BVC1K0",
     "isin": "US0552625057"
   },
-  "industry": "Construction Materials",
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "US0552625057",
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BASA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BASA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BASA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BASA.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "BASA"
+      "symbol": "BASFY"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Basanite Inc.",
-  "primary_symbol": "BASA",
+  "market_cap_band": "Large Cap",
+  "name": "BASF Spons. ADR 1/4",
+  "primary_symbol": "BASA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Basanite Inc. engages in the basalt fiber reinforced polymer business worldwide. It produces basalt fiber reinforced polymer products that are used as replacements for steel products, which reinforce concrete, such as rebar. The company was formerly known as PayMeOn, Inc. and changed its name to Basanite, Inc. in December 2018. Basanite Inc. was founded in 2006 and is headquartered in Oakland Park, Florida.",
-  "website": "http://www.basaniteindustries.com"
+  "summary": "BASF SE is a German multinational chemical company. It is the largest chemical producer in the world and creates chemicals for various industries including agriculture, construction and transportation, with headquarters in Ludwigshafen, Germany.",
+  "website": "http://www.basf.com"
 }

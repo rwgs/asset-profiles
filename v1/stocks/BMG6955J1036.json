@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG001C93L86",
-    "figi": "BBG001C93LC1",
+    "composite_figi": "BBG000QLS1Z3",
+    "figi": "BBG0019XTWJ3",
     "isin": "BMG6955J1036"
   },
   "industry": "Commercial Services & Supplies",
@@ -11,6 +11,11 @@
   "isin": "BMG6955J1036",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0327.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -24,15 +29,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "PAX Global Technology Limited",
-  "primary_symbol": "P8X.F",
+  "primary_symbol": "0327.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "PAX Global Technology Limited, an investment holding company, engages in the development and sale of electronic funds transfer point-of-sale products worldwide. Its E-payment terminal products include smart and traditional E-payment terminals, smart electronic cash register solutions, mobile E-payment terminals, and QR code E-payment terminals, as well as other accessories. The company also develops PAXSTORE, a cloud-based platform that allows users to create and manage their own independent white-label marketplace for software application distribution; and paxRhino, a key injection service. In addition, it offers payment solutions services, and maintenance and installation services. The company was founded in 2000 and is headquartered in Wan Chai, Hong Kong.",
+  "summary": "PAX Global Technology Limited is an investment holding company that develops and sells electronic funds transfer point-of-sale systems worldwide. Its hardware range covers payment terminals, intelligent electronic cash registers, self-service solutions and the Smart PayPhone and PayTablet devices, along with accessories. It also builds software platforms for its payment products.",
   "website": "http://www.paxglobal.com.hk"
 }

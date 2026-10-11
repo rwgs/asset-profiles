@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009L4Z1R8",
+    "composite_figi": "BBG007H0TDK3",
     "cusip": "05614L209",
-    "figi": "BBG009L4Z1X1",
+    "figi": "BBG007H0TDK3",
     "isin": "US05614L2097"
   },
+  "industry": "Electrical Equipment",
   "industry_group": "Capital Goods",
   "isin": "US05614L2097",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UBW1.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US05614L2097.SG"
     }
   ],
-  "name": "BABCOCK & WILCOX ENTERPR",
-  "primary_symbol": "US05614L2097.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Babcock & Wilcox Enterprises, I",
+  "primary_symbol": "BW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "BABCOCK & WILCOX ENTERPR is a global provider of energy and environmental technologies and services for power and industrial markets. Headquartered in Akron, Ohio, the company offers a range of solutions including boilers, environmental equipment, and aftermarket services. They serve diverse industries, including power generation, pulp and paper, and petrochemical."
+  "summary": "Babcock & Wilcox Enterprises, Inc., together with its subsidiaries, provides energy and environmental technologies and services for the power and industrial markets worldwide. The company operates through three segments: Babcock & Wilcox Renewable; Babcock & Wilcox Environmental; and Babcock & Wilcox Thermal. The Babcock & Wilcox Renewable segment offers technologies for waste-to-energy and biomass energy systems, as well as black liquor systems for the pulp and paper industry. This segment provides technologies support solutions for diverting waste from landfills to use for power generation and replacing fossil fuels while recovering metals and reducing emissions. The Babcock & Wilcox Environmental segment offers a range of emissions control and environmental technology solutions for utility, waste to energy, biomass, carbon black, and industrial steam generation applications. This segment provides systems for cooling, ash handling, particulate control, nitrogen oxides and sulfur dioxides removal, chemical looping for carbon control, and mercury control. The Babcock & Wilcox Thermal segment offers steam generation equipment; aftermarket parts; and construction, maintenance, and field services for plants in the power generation, oil and gas, and industrial sectors. This segment has an installed equipment for utilities and general industrial applications, including refining, petrochemical, food processing, metals, and others. Babcock & Wilcox Enterprises, Inc. was founded in 1867 and is headquartered in Akron, Ohio.",
+  "website": "http://www.babcock.com"
 }

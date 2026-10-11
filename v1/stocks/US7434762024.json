@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000CTFMR8",
+    "composite_figi": "BBG000DPHY79",
     "cusip": "743476202",
-    "figi": "BBG000CTFMR8",
+    "figi": "BBG000DPHY79",
     "isin": "US7434762024"
   },
   "industry": "Media",
@@ -15,37 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "PBSFF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "PBSFY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "PSM.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PSM.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "PSM.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PSM.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "PSM.VI"
     },
     {
       "currency": "EUR",
@@ -56,18 +26,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PSMA.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBRU",
-      "symbol": "PSMP.BR"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "ProSiebenSat.1 Media SE",
-  "primary_symbol": "PBSFF",
+  "primary_symbol": "PBSFY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

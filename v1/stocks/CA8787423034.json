@@ -2,15 +2,21 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000F7NP79",
+    "composite_figi": "BBG000BCS036",
     "cusip": "878742303",
-    "figi": "BBG000F7NT80",
+    "figi": "BBG000BCS1F1",
     "isin": "CA8787423034"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA8787423034",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "TECK-A.TO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,15 +28,17 @@
       "symbol": "TPT.SG"
     }
   ],
-  "name": "Teck Resources Ltd.",
-  "primary_symbol": "TPT.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Teck Resources Ltd",
+  "primary_symbol": "TECK-A.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Teck Resources Limited is a diversified resource company committed to responsible mining and mineral development with major business units focused on copper, zinc, and steelmaking coal. The company operates in Canada, the United States, Chile, and Peru. Teck Resources is headquartered in Vancouver, British Columbia."
+  "summary": "Teck Resources Limited engages in exploring for, acquiring, developing, and producing natural resources in Asia, Europe, and North America. It operates through Steelmaking Coal, Copper, Zinc, and Energy segments. The company's principal products include steelmaking coal; copper concentrates and refined copper cathodes; refined zinc and zinc concentrates; energy products, such as bitumen; and lead and molybdenum concentrates. It also produces gold, silver, germanium, indium, and cadmium, as well as chemicals, industrial products, and fertilizers. In addition, the company holds interest in Frontier oil sands projects in the Athabasca region of Alberta; and owns interests in exploration and development projects in Australia, Chile, Ireland, Mexico, Peru, Turkey, and the United States. The company was formerly known as Teck Cominco Limited and changed its name to Teck Resources Limited in April 2009. Teck Resources Limited was founded in 1913 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.teck.com"
 }

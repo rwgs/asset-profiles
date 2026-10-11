@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00YZ4W8N0",
+    "composite_figi": "BBG000DPSVR1",
     "cusip": "968223305",
-    "figi": "BBG00YZ4W8S5",
+    "figi": "BBG000DPSVR1",
     "isin": "US9682233054"
   },
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "US9682233054",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "WLYB"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US9682233054.SG"
     }
   ],
-  "name": "WILEY (JOHN) & SONS-CL B",
-  "primary_symbol": "US9682233054.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "John Wiley & Sons Inc. Common Stock",
+  "primary_symbol": "WLYB",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "WILEY (JOHN) & SONS-CL B is a global provider of content and technology solutions in research, professional learning, and education; the company helps universities, businesses, researchers, and professionals achieve their goals; it is headquartered in Hoboken, New Jersey."
+  "summary": "John Wiley & Sons Inc. is a global provider of knowledge and learning solutions in areas of research, professional development, and education. The company publishes scientific, technical, medical, and scholarly journals, as well as textbooks, online learning resources, and assessment tools. John Wiley & Sons Inc. is headquartered in Hoboken, New Jersey, USA.",
+  "website": "https://www.wiley.com"
 }

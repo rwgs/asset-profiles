@@ -3,28 +3,51 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00YJH17R1",
-    "figi": "BBG00YJH17W5",
+    "figi": "BBG00YJH17S0",
     "isin": "GB00BMH18Q19"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB00BMH18Q19",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9NY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "9NY.MU"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "BYI.JO"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "BYIT.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BMH18Q19.SG"
     }
   ],
-  "name": "BYTES TECHNOLOGY GROUP PLC",
-  "primary_symbol": "GB00BMH18Q19.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Bytes Technology Group PLC",
+  "primary_symbol": "9NY.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Bytes Technology Group PLC is a software, security, and cloud services specialist, providing organizations with expert advice and procurement services. The company assists businesses in navigating complex technology landscapes and optimizing their IT investments. Bytes Technology Group PLC is headquartered in Leatherhead, UK."
+  "summary": "Bytes Technology Group plc provides software, hardware, and cloud services in the United Kingdom, Europe, and internationally. It offers security, storage, and virtualization solutions, as well as licensing, digital transformation, and managed services to the public and private sectors under the Bytes Software Services and Phoenix brands. The company was founded in 1982 and is headquartered in Leatherhead, the United Kingdom.",
+  "website": "http://www.bytes.co.uk"
 }

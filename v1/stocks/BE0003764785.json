@@ -2,14 +2,35 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000BV2KC8",
-    "figi": "BBG000BV2P46",
+    "composite_figi": "BBG000KNS737",
+    "figi": "BBG000KNS853",
     "isin": "BE0003764785"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Construction & Engineering",
+  "industry_group": "Capital Goods",
   "isin": "BE0003764785",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0GYM.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "ACKB.BR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ACKB.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AVHNF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +43,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "B3K.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "B3K.SG"
     }
   ],
-  "name": "Ackermans & van Haaren NV",
-  "primary_symbol": "B3K.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Ackermans & Van Haaren NV",
+  "primary_symbol": "0GYM.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Ackermans & van Haaren is a diversified investment group based in Belgium. The company has holdings in various sectors including marine engineering, dredging, real estate, private banking, and energy. Ackermans & van Haaren is headquartered in Antwerp, Belgium."
+  "sector": "Industrials",
+  "summary": "Ackermans & Van Haaren NV engages in the marine engineering and contracting, private banking, real estate and senior care, and energy and resources businesses worldwide. The company operates through five segments: Marine Engineering & Contracting, Private Banking, Real Estate & Senior Care, Energy & Resources, and AvH & Growth Capital. It engages in the marine construction activities, including dredging and civil works on water, as well as offshore activities in the area of renewable energy, oil and gas, soil and sludge remediation, and aggregate and mineral harvesting; real estate development activities; and development of port projects and port-linked industrial zones, as well as offshore wind farms. The company also offers asset management services for various private clients; advisory banking services for entrepreneurs and liberal professions; and car finance and financial car leasing services through distributors. In addition, it develops residential and mixed projects; invests in retail and office properties; provides accommodation and care for the elderly; and operates retirement homes. Further, the company produces crude palm oil, rubber, banana, and tea products; manufactures cement; and offers advice, automation, and maintenance services for life science, tank terminal, food and beverage, infrastructure, and chemistry markets. Ackermans & Van Haaren NV was founded in 1876 and is headquartered in Antwerp, Belgium.",
+  "website": "http://www.avh.be"
 }

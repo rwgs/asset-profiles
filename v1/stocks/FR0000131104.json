@@ -6,6 +6,7 @@
     "figi": "BBG000BK59L4",
     "isin": "FR0000131104"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "FR0000131104",
   "kind": "stock",
@@ -17,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "BNP.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "BNP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BNP.F"
     },
     {
       "currency": "EUR",
@@ -32,24 +43,60 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "BNP.MI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BNP.MU"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "BNP.PA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BNP.SG"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "BNP.SW"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "BNP.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BNP.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "BNPN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BNPQF"
     }
   ],
-  "name": "BNP PARIBAS INH.  EO 2",
+  "market_cap_band": "Large Cap",
+  "name": "BNP Paribas S.A. Class A",
   "primary_symbol": "BNP.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "BNP Paribas is a French international banking and financial services company. It provides a wide range of financial products and services to individuals, corporates, and institutions, including retail banking, investment banking, asset management, and insurance. The company's headquarters are located in Paris, France."
+  "summary": "BNP Paribas is a French international banking and financial services company. It provides a wide range of financial products and services to individuals, corporates, and institutions, including retail banking, investment banking, asset management, and insurance. The company's headquarters are located in Paris, France.",
+  "website": "http://group.bnpparibas"
 }

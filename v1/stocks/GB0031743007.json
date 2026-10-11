@@ -6,6 +6,7 @@
     "figi": "BBG000BYJPP9",
     "isin": "GB0031743007"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "GB0031743007",
   "kind": "stock",
@@ -19,6 +20,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "BB2.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BB2.F"
     },
     {
       "currency": "EUR",
@@ -36,20 +42,37 @@
       "symbol": "BB2.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BB2.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BBRYF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "BRBY.L"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0031743007.SW"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Burberry Group plc",
   "primary_symbol": "BB2.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Burberry Group plc is a British luxury fashion company that designs, manufactures, and distributes clothing, accessories, fragrances, and cosmetics. The company operates through retail, wholesale, and licensing channels, and is headquartered in London, United Kingdom. Burberry is known for its iconic trench coats, distinctive check pattern, and high-end fashion products."
+  "summary": "Burberry Group plc is a British luxury fashion company that designs, manufactures, and distributes clothing, accessories, fragrances, and cosmetics. The company operates through retail, wholesale, and licensing channels, and is headquartered in London, United Kingdom. Burberry is known for its iconic trench coats, distinctive check pattern, and high-end fashion products.",
+  "website": "http://www.burberryplc.com"
 }

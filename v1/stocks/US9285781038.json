@@ -2,9 +2,9 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000DSMJ34",
+    "composite_figi": "BBG00YG3B188",
     "cusip": "928578103",
-    "figi": "BBG000DSMMR1",
+    "figi": "BBG00YG3B197",
     "isin": "US9285781038"
   },
   "industry": "Metals & Mining",
@@ -14,70 +14,20 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "VAS.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "VAS.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "VAS.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "VAS.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "VAS.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "VAS.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "VAS.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "VAS.SG"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VASS.F"
     },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "VLPNF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "VLPNY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "VOE.VI"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Voestalpine AG",
-  "primary_symbol": "VAS.BE",
+  "primary_symbol": "VASS.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

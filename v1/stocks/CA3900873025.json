@@ -2,10 +2,12 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000F5JZW8",
+    "composite_figi": "BBG000SM9QW8",
     "cusip": "390087302",
+    "figi": "BBG000SM9S63",
     "isin": "CA3900873025"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA3900873025",
   "kind": "stock",
@@ -14,17 +16,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA3900873025.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "GR.V"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PH02.F"
     }
   ],
-  "name": "GREAT ATLANTIC RESOURCES COR",
+  "market_cap_band": "Nano Cap",
+  "name": "Great Atlantic Resources Corp.",
   "primary_symbol": "CA3900873025.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "GREAT ATLANTIC RESOURCES CORP is a Canadian exploration company focused on the discovery and development of mineral properties, primarily precious and base metals, in Atlantic Canada. The company aims to create shareholder value through strategic acquisitions and exploration success. Great Atlantic Resources Corp is headquartered in Vancouver, British Columbia."
+  "summary": "GREAT ATLANTIC RESOURCES CORP is a Canadian exploration company focused on the discovery and development of mineral properties, primarily precious and base metals, in Atlantic Canada. The company aims to create shareholder value through strategic acquisitions and exploration success. Great Atlantic Resources Corp is headquartered in Vancouver, British Columbia.",
+  "website": "http://greatatlanticresources.com"
 }

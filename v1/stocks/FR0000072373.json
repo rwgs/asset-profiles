@@ -2,8 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000D7NK27",
-    "figi": "BBG000D7NKL6",
+    "composite_figi": "BBG000DB3L64",
+    "figi": "BBG000DB3M08",
     "isin": "FR0000072373"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -13,8 +13,23 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALGID.PA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EGID.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EGID.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EGID.SG"
     },
     {
       "currency": "EUR",
@@ -24,15 +39,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Egide S.A.",
-  "primary_symbol": "EGID.F",
+  "primary_symbol": "ALGID.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Egide S.A., together with its subsidiaries, designs, manufactures, and sells hermetic packages to protect and interconnect various types of electronic or photonic chips in France, rest of the European Union, North America, and internationally. The company offers ceramic-to-metal-seal, glass-to-metal-seal, high temperature cofired ceramic, power, opto-electronics, and microwave/RF packages, as well as inks. It also provides thermal management materials and metallic components; and surface treatment services. The company serves the defense and space, telecommunications, civil aeronautics, security and industrial, and energy markets. Egide S.A. was founded in 1986 and is based in Bollène, France.",
-  "website": "http://www.egide-group.com"
+  "summary": "Egide S.A., through its affiliates, specializes in the development, production, and distribution of hermetically sealed casings designed to protect and connect various electronic and photonic chips. The company's market reach extends globally, encompassing France, the broader European Union, and North America. Its product range includes diverse package types such as ceramic-to-metal, glass-to-metal, high-temperature cofired ceramic, power, optoelectronic, and microwave/RF solutions, alongside various inks. Furthermore, Egide supplies materials for thermal management, specific metallic components like molybdenum copper and copper tungsten, glass beads, and surface finishing services. The company caters to key sectors including defense and aerospace, telecommunications, civil aviation, security and industrial applications, and energy. Established in 1986, Egide S.A. has its headquarters in Bollène, France.",
+  "website": "https://www.egide-group.com"
 }

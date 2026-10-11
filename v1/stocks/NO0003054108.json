@@ -2,21 +2,16 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG005XVPYP4",
+    "composite_figi": "BBG000NXRG79",
     "cusip": "624678108",
-    "figi": "BBG005XVPYP4",
+    "figi": "BBG000NXRG79",
     "isin": "NO0003054108"
   },
-  "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "NO0003054108",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "MHGVY"
-    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -26,11 +21,6 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "MOWI.OL"
-    },
-    {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "MOWIO.OL"
     },
     {
       "currency": "EUR",
@@ -56,28 +46,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PND.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PNDA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "PNDA.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "US6246781081.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Mowi ASA",
-  "primary_symbol": "MHGVY",
+  "primary_symbol": "MNHVF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

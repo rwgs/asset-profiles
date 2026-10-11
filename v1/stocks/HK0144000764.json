@@ -2,14 +2,25 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BM5XB8",
-    "figi": "BBG000BM61Q1",
+    "composite_figi": "BBG000BGBPY6",
+    "figi": "BBG000BGBQC8",
     "isin": "HK0144000764"
   },
+  "industry": "Transportation Infrastructure",
   "industry_group": "Transportation",
   "isin": "HK0144000764",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0144.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CMHHF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CPM.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "CPM.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "CPM.SG"
     }
   ],
-  "name": "China Merchants Port Holdings Co., Ltd.",
-  "primary_symbol": "CPM.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "China Merchants Port Holdings Company Limited",
+  "primary_symbol": "0144.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "China Merchants Port Holdings Company Limited is a leading port operator with investments in ports located in Mainland China, Hong Kong and overseas. The company engages in container and bulk cargo handling, warehousing, and other port-related services. The company is headquartered in Hong Kong."
+  "summary": "China Merchants Port Holdings Company Limited is an investment holding company in ports, bonded logistics and property investment, active in Mainland China, Hong Kong, Taiwan, Brazil and other markets. It reports ports, bonded logistics and other operations. Activities include container, bulk and general cargo terminals, logistics parks, port transport and airport cargo handling.",
+  "website": "http://www.cmport.com.hk"
 }

@@ -2,7 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "cusip": "F16823100",
+    "composite_figi": "BBG003TTRZC8",
+    "figi": "BBG003TY6563",
     "isin": "FR0000054322"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -12,15 +13,25 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1YH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1YH.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "CIB.PA"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Cibox Inter@ctive",
-  "primary_symbol": "CIB.PA",
+  "primary_symbol": "1YH.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

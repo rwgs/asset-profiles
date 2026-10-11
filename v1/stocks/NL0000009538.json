@@ -18,9 +18,19 @@
       "symbol": "PHG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0A2M.IL"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "PHG.BA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PHI1.BE"
     },
     {
       "currency": "EUR",
@@ -29,8 +39,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PHI1.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PHI1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PHI1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PHI1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PHI1.MU"
     },
     {
       "currency": "EUR",
@@ -44,23 +74,8 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "PHIA.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "PHIA.F"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "PHIA.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "PHIA.SG"
     },
     {
       "currency": "EUR",
@@ -82,7 +97,7 @@
   "name": "Koninklijke Philips N.V.",
   "primary_symbol": "PHG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

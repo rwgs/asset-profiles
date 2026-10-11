@@ -6,6 +6,7 @@
     "figi": "BBG000F8KDY7",
     "isin": "AU000000SLX4"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Utilities",
   "isin": "AU000000SLX4",
   "kind": "stock",
@@ -22,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RW4.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "RW4.HM"
     },
@@ -29,17 +35,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RW4.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SILXF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "SLX.AX"
     }
   ],
-  "name": "SILEX SYS LTD",
+  "market_cap_band": "Small Cap",
+  "name": "Silex Systems Limited",
   "primary_symbol": "RW4.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Silex Systems Limited is a research and development company. It is developing laser-based uranium enrichment technology. Silex Systems is headquartered in Sydney, Australia."
+  "summary": "Silex Systems Limited is a research and development company. It is developing laser-based uranium enrichment technology. Silex Systems is headquartered in Sydney, Australia.",
+  "website": "http://www.silex.com.au"
 }

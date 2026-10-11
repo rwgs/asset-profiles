@@ -3,6 +3,7 @@
   "country_code": "HK",
   "identifiers": {
     "composite_figi": "BBG000BVDV14",
+    "figi": "BBG000BVDW94",
     "isin": "KYG210AW1064"
   },
   "industry": "Real Estate Management & Development",
@@ -11,22 +12,32 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0978.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TNY1.F"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TNY1.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "China Merchants Land Limited",
-  "primary_symbol": "TNY1.SG",
+  "primary_symbol": "0978.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "China Merchants Land Limited, an investment holding company, engages in the investment, development, management, lease, and sale of properties. The company operates through Properties and Asset Management segments. Its property portfolio includes residential properties; and residential and commercial complex properties, such as apartments, villas, offices, retail shops, etc. The company also offers asset management services for office premises and shopping malls. As of December 31, 2019, its portfolio of property development projects includes 33 projects in Foshan, Guangzhou, Chongqing, Nanjing, Jurong, and Xi'an; and a land bank of approximately 5,954,429 square metres. The company was formerly known as Tonic Industries Holdings Limited. China Merchants Land Limited was founded in 1997 and is headquartered in Central, Hong Kong.",
+  "summary": "China Merchants Land Ltd. is an investment holding company that develops, sells, leases, invests in and manages properties. Its segments are Properties, covering development, sale and leasing, and Asset Management, covering office premises and shopping malls.",
   "website": "http://www.cmland.hk"
 }

@@ -2,30 +2,53 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG000QJ8KZ8",
+    "composite_figi": "BBG000K7Z9K1",
     "cusip": "925458101",
-    "figi": "BBG000QJ8M02",
+    "figi": "BBG000K7Z9K1",
     "isin": "US9254581013"
   },
-  "industry_group": "Energy",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "US9254581013",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VWDRY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VWSA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VWSA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VWSA.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "VWSA.SG"
     }
   ],
-  "name": "Vestas Wind Systems AS Nav.-Akt",
-  "primary_symbol": "VWSA.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Vestas Wind Systems A/S",
+  "primary_symbol": "VWDRY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Vestas Wind Systems A/S is a Danish manufacturer, seller, installer, and servicer of wind turbines. The company operates globally, providing sustainable energy solutions. Vestas is headquartered in Aarhus, Denmark."
+  "sector": "Industrials",
+  "summary": "Vestas Wind Systems A/S designs, manufactures, installs, and services wind turbines worldwide. The company operates in two segments, Power Solutions and Service. The Power Solutions segment sells wind power plants, wind turbines, development sites, etc. The Service segment engages in the sale of service contracts, spare parts, and related activities. Vestas Wind Systems A/S was founded in 1898 and is headquartered in Aarhus, Denmark.",
+  "website": "http://www.vestas.com"
 }

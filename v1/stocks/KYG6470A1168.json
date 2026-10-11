@@ -1,30 +1,38 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00Y19J9K2",
-    "figi": "BBG00Y19J9P7",
+    "composite_figi": "BBG000BWSVL4",
+    "figi": "BBG00Y0937D2",
     "isin": "KYG6470A1168"
   },
+  "industry": "Diversified Consumer Services",
   "industry_group": "Consumer Services",
   "isin": "KYG6470A1168",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "9901.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KYG6470A1168.SG"
     }
   ],
-  "name": "NEW ORIENTAL EDUCATION & TEC",
-  "primary_symbol": "KYG6470A1168.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "New Oriental Education & Technology Group Inc.",
+  "primary_symbol": "9901.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "NEW ORIENTAL EDUCATION & TEC is a leading provider of private educational services in China, offering test preparation, language training, and other educational programs. The company operates a network of learning centers and online platforms across China. Its headquarters are in Beijing, China."
+  "summary": "NEW ORIENTAL EDUCATION & TEC is a leading provider of private educational services in China, offering test preparation, language training, and other educational programs. The company operates a network of learning centers and online platforms across China. Its headquarters are in Beijing, China.",
+  "website": "https://www.neworiental.org"
 }

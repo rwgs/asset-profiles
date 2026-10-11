@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BGL515",
+    "composite_figi": "BBG000BFB082",
     "cusip": "819882309",
-    "figi": "BBG000BGL5C3",
+    "figi": "BBG000BFB082",
     "isin": "US8198823093"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -13,16 +13,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "6753.T"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SHCAF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SHCAY"
@@ -30,19 +20,14 @@
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
-      "symbol": "SRP.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
       "symbol": "SRPB.F"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Sharp Corporation",
-  "primary_symbol": "6753.T",
+  "primary_symbol": "SHCAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

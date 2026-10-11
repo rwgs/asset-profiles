@@ -2,7 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG005GBRGB9",
     "cusip": "G3R10W105",
+    "figi": "BBG005GBRGF5",
     "isin": "GB00BFH55S51"
   },
   "industry": "Entertainment",
@@ -14,12 +16,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "EMAN.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EVY.F"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "Everyman Media Group plc",
   "primary_symbol": "EMAN.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

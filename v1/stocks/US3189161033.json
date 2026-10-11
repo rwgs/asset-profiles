@@ -2,29 +2,36 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BHWFN5",
     "cusip": "318916103",
     "isin": "US3189161033"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US3189161033",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "FBMS"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US3189161033.SG"
     }
   ],
-  "name": "FIRST BANCSHARES INC/MS",
-  "primary_symbol": "US3189161033.SG",
+  "market_cap_band": "Small Cap",
+  "name": "First Bancshares, Inc.",
+  "primary_symbol": "FBMS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "FIRST BANCSHARES INC/MS is a bank holding company that provides a range of financial services through its subsidiary, First Bank. Their services include deposit accounts, loans, and other banking products to individuals and businesses. The company is headquartered in Hattiesburg, Mississippi."
+  "summary": "First Bancshares, Inc. is the holding company for Stockmens Bank, a FDIC-insured commercial bank chartered by the State of Colorado that conducts business from its home office in Colorado Springs, Colorado, and eight full service Missouri offices in Mountain Grove, Marshfield, Ava, Kissee Mills, Gainesville, Sparta, Crane and Springfield, and a full service office in Bartley, Nebraska.",
+  "website": "http://stockmensmo.com"
 }

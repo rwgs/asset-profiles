@@ -2,7 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG0122MVVP3",
+    "composite_figi": "BBG000BH0115",
+    "figi": "BBG000BH01Q8",
     "isin": "JP3774200004"
   },
   "industry": "Industrial Conglomerates",
@@ -11,16 +12,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9042.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HKY.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HYUHF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Hankyu Hanshin Holdings, Inc.",
-  "primary_symbol": "HKY.F",
+  "primary_symbol": "9042.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

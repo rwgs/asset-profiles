@@ -2,15 +2,30 @@
   "country": "Ireland",
   "country_code": "IE",
   "identifiers": {
-    "composite_figi": "BBG00HVTK7Y9",
-    "figi": "BBG00HVTK7Z8",
+    "composite_figi": "BBG00HXXH512",
+    "figi": "BBG00HXXH521",
     "isin": "IE00BD6JX574"
   },
-  "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry": "Household Durables",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "IE00BD6JX574",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "GLV.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GLVHF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GVR.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XDUB",
@@ -29,15 +44,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Glenveagh Properties PLC",
-  "primary_symbol": "GVR.IR",
+  "primary_symbol": "GLV.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
+  "sector": "Consumer Discretionary",
   "summary": "Glenveagh Properties PLC, a homebuilder, builds and sells houses and apartments for the private buyers and local authorities in the Greater Dublin Area, Ireland. The company operates through Glenveagh Homes and Glenveagh Living segments. It also designs, develops, and delivers residential solutions to institutional investors, social and affordable landlords, government entities, and strategic landowners; and provides property rental services. The company was founded in 2003 and is based in Dublin, Ireland.",
   "website": "http://www.glenveagh.ie"
 }

@@ -6,8 +6,8 @@
     "figi": "BBG000PRMS97",
     "isin": "ID1000113202"
   },
-  "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "ID1000113202",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "7B7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7B7.MU"
     },
     {
       "currency": "IDR",
@@ -26,7 +31,7 @@
   "name": "PT Eagle High Plantations Tbk",
   "primary_symbol": "7B7.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

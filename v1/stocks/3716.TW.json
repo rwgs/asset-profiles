@@ -1,7 +1,12 @@
 {
   "country": "Taiwan, Province of China",
   "country_code": "TW",
+  "identifiers": {
+    "composite_figi": "BBG01MG863F6",
+    "figi": "BBG01MG863G5"
+  },
   "industry": "Pharmaceuticals",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "kind": "stock",
   "listings": [
     {
@@ -13,10 +18,11 @@
   "name": "Cenra Inc",
   "primary_symbol": "3716.TW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Health Care"
 }

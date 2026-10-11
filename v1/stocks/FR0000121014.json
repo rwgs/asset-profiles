@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "FR0000121014"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "FR0000121014",
   "kind": "stock",
@@ -12,17 +13,89 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0HAU.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "LVMH.MI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LVMHF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "MC.PA"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "MC.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "MC.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "MCN.MX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MOH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "MOH.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MOH.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MOH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "MOH.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MOH.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MOH.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MOH.SG"
     }
   ],
-  "name": "LVMH MOET HENNESSY LOUIS VUITTO",
+  "market_cap_band": "Mega Cap",
+  "name": "LVMH Moët Hennessy - Louis Vuitton, Societe Europeenne",
   "primary_symbol": "0HAU.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "LVMH Moët Hennessy Louis Vuitton SE is a French multinational luxury goods conglomerate. The company owns a portfolio of prestigious brands across various sectors, including fashion, leather goods, wines and spirits, perfumes and cosmetics, and watches and jewelry. LVMH is headquartered in Paris, France."
+  "summary": "LVMH Moët Hennessy Louis Vuitton SE is a French multinational luxury goods conglomerate. The company owns a portfolio of prestigious brands across various sectors, including fashion, leather goods, wines and spirits, perfumes and cosmetics, and watches and jewelry. LVMH is headquartered in Paris, France.",
+  "website": "http://www.lvmh.com"
 }

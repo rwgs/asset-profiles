@@ -2,26 +2,37 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
-    "composite_figi": "BBG000BJ8HY2",
-    "figi": "BBG000BJ8KC9",
+    "composite_figi": "BBG000CSMHV8",
+    "figi": "BBG000CSMJJ8",
     "isin": "BMG1932V2128"
   },
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "BMG1932V2128",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0510.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BMG1932V2128.SG"
     }
   ],
-  "name": "CASH FINANCIAL SERVICES GROU",
-  "primary_symbol": "BMG1932V2128.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "CASH Financial Services Group Limited",
+  "primary_symbol": "0510.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "CASH Financial Services Group Limited is an investment holding company brokering securities, futures and options in Hong Kong both online and in person. It also offers margin financing, money lending, investment management, mutual funds, insurance and mandatory provident fund products. It was founded in 1972 and has its head office in Kowloon Bay.",
+  "website": "https://www.cfsg.com.hk"
 }

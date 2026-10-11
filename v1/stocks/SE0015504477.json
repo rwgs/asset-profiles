@@ -3,28 +3,34 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00ZF9DHF8",
-    "figi": "BBG00ZF9DHK2",
+    "figi": "BBG00ZF9DHG7",
     "isin": "SE0015504477"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "SE0015504477",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5HS.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0015504477.SG"
     }
   ],
-  "name": "FRACTAL GAMING GROUP AB",
-  "primary_symbol": "SE0015504477.SG",
+  "name": "Fractal Gaming Group AB",
+  "primary_symbol": "5HS.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "FRACTAL GAMING GROUP AB is a company focused on developing and marketing PC gaming hardware and accessories. The company offers products such as computer cases, cooling solutions, and power supplies. Fractal Gaming Group AB is based in Gothenburg, Sweden."
+  "summary": "Fractal Gaming Group AB develops and sells premium computer gaming hardware and accessories. Their product portfolio includes PC cases, cooling solutions, power supplies, and other gaming peripherals, all designed with a focus on aesthetics, performance, and quality. The company is headquartered in Sweden."
 }

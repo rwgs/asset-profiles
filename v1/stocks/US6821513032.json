@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BGJC59",
+    "composite_figi": "BBG000BX0XW6",
     "cusip": "682151303",
-    "figi": "BBG000BGJDG5",
+    "figi": "BBG000BX0XW6",
     "isin": "US6821513032"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -13,26 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "6645.T"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "OMRNN.MX"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "OMRNY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "OMRON Corporation",
-  "primary_symbol": "6645.T",
+  "primary_symbol": "OMRNY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

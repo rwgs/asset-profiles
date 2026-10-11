@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1YSL1",
-    "figi": "BBG000C1YWN0",
+    "composite_figi": "BBG000BN6Z93",
+    "figi": "BBG000BN6ZW7",
     "isin": "JP3223800008"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Marine",
+  "industry_group": "Transportation",
   "isin": "JP3223800008",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9107.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KAKKF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,17 +30,24 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "KLI1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KLI1.F"
     }
   ],
-  "name": "KAWASAKI KISEN",
-  "primary_symbol": "KLI1.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Kawasaki Kisen Kaisha, Ltd.",
+  "primary_symbol": "9107.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Kawasaki Kisen Kaisha, Ltd., also known as \"K\" Line, is a Japanese shipping company. It operates a fleet of vessels engaged in container shipping, dry bulk shipping, car carrier services, and energy transportation. Kawasaki Kisen Kaisha, Ltd. is headquartered in Tokyo, Japan."
+  "summary": "Kawasaki Kisen Kaisha, Ltd. provides marine, land, and air transportation services in Japan, the United States, Europe, Asia, and internationally. The company operates through Dry Bulk, Energy Resource Transport, Product Logistics, and Other segments. It offers containership services; dry bulk carrier services comprising transport of raw materials, such as coal, iron ore, wheat, soybeans, corn, etc., as well as woodchips, and pulp; car carrier services; liquefied natural gas (LNG) carrier services; marine transport of crude oil, oil derivatives, and liquefied petroleum gas (LPG) products through tankers; offshore support vessel services; offshore drilling services; and floating production storage and offloading services. The company also offers logistics services, including air and sea freight forwarding, land transportation, warehousing, and buyer's consolidation services; and operates container terminals. As of March 31, 2020, it operated a fleet of 49 short sea and coastal vessels; 46 containership vessels; 183 dry bulk carriers; 89 car carriers; 1 FPSO and drillship; 6 offshore support vessels; 17 oil tankers; and 47 LNG carriers; and 29 thermal coal carriers. The company was founded in 1919 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.kline.co.jp"
 }

@@ -16,8 +16,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DMP.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DMP.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DMP.DU"
     },
     {
       "currency": "EUR",
@@ -26,21 +36,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "DMP.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DMP.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DMP.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DMP.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DMPHF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Dermapharm Hldg SE",
   "primary_symbol": "0A5J.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "DERMAPHARM HOLDING SE DERMAPHAR is a pharmaceutical company that develops, produces, and distributes branded and generic pharmaceutical products, as well as other healthcare products. It focuses on dermatology and other therapeutic areas, offering a range of prescription and over-the-counter products, with headquarters in Grünwald, Germany.",
+  "summary": "Dermapharm Hldg SE is a pharmaceutical company that develops, produces, and distributes branded and generic pharmaceutical products, as well as other healthcare products. It focuses on dermatology and other therapeutic areas, offering a range of prescription and over-the-counter products, with headquarters in Grünwald, Germany.",
   "website": "http://www.dermapharm.de"
 }

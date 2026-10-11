@@ -2,13 +2,20 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
+    "composite_figi": "BBG000VBX3M3",
+    "figi": "BBG000VBX3M3",
     "isin": "BE0003844611"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "BE0003844611",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "MDXH"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XLON",
@@ -36,16 +43,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "MDxHealth SA",
-  "primary_symbol": "0O8G.L",
+  "name": "MDxHealth SA American Depositary Shares",
+  "primary_symbol": "MDXH",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MDxHealth SA operates as a molecular diagnostics company in Belgium, the Netherlands, Spain, Poland, Italy, the United States, rest of European Union, and internationally. The company develops and commercializes epigenetic and other molecular tests for cancer assessment and the personalized treatment of patients. Its tests are based on proprietary genetic, epigenetic, and other molecular technologies, as well as assist physicians with the diagnosis of urologic cancers, prognosis of recurrence risk, and prediction of response to a specific therapy. The company's product pipeline includes tests for bladder, kidney, and other urologic cancers. Its products include ConfirmMDx, a tissue test for prostate cancer; and SelectMDx, a non-invasive urine test for prostate cancer. The company was formerly known as OncoMethylome Sciences SA and changed its name to MDxHealth SA in October 2010. MDxHealth SA was incorporated in 2003 and is headquartered in Herstal, Belgium.",
+  "summary": "MDxHealth SA is a molecular diagnostics company that develops and commercializes epigenetic tests for cancer detection and management. Their tests provide clinicians with actionable information to improve patient outcomes in areas such as prostate cancer. The company is headquartered in Herstal, Belgium, with US operations in Irvine, California.",
   "website": "http://mdxhealth.com"
 }

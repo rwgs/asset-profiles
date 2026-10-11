@@ -2,9 +2,7 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BT4589",
     "cusip": "457637601",
-    "figi": "BBG000BT4589",
     "isin": "CA4576376012"
   },
   "industry": "Biotechnology",
@@ -13,26 +11,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "INM"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "IN.TO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "MWG.F"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "InMed Pharmaceuticals Inc.",
-  "primary_symbol": "INM",
+  "primary_symbol": "IN.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

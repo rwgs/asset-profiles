@@ -2,8 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00445MWX4",
-    "figi": "BBG00445R8N3",
+    "composite_figi": "BBG00NZ215G6",
+    "figi": "BBG00NZ215H5",
     "isin": "FR001400BVK2"
   },
   "industry": "Health Care Technology",
@@ -13,15 +13,30 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "37S.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "37S.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "37S.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALSPW.PA"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Spineway Societe Anonyme",
-  "primary_symbol": "ALSPW.PA",
+  "primary_symbol": "37S.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

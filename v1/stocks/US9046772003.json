@@ -4,27 +4,41 @@
   "identifiers": {
     "composite_figi": "BBG000C48RJ9",
     "cusip": "904677200",
+    "figi": "BBG000C48RJ9",
     "isin": "US9046772003"
   },
-  "industry_group": "Household & Personal Products",
+  "industry": "Textiles, Apparel & Luxury Goods",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "US9046772003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "UFI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "36A.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US9046772003.SG"
     }
   ],
-  "name": "UNIFI INC",
-  "primary_symbol": "US9046772003.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Unifi, Inc.",
+  "primary_symbol": "UFI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "UNIFI INC is a global textile manufacturer. The company produces recycled and synthetic yarns and fibers, with headquarters in Greensboro, North Carolina. Unifi aims to be a leader in sustainable textile solutions."
+  "sector": "Consumer Discretionary",
+  "summary": "Unifi, Inc., together with its subsidiaries, engages in the manufacture and sale of recycled and synthetic products made from polyester and nylon in the United States, Brazil, China, and internationally. It operates in four segments: Polyester, Nylon, Brazil, and Asia. The Polyester segment offers partially oriented, textured, solution and package dyed, twisted, beamed, and draw wound yarns; and pre-consumer and post-consumer waste products, including plastic bottle flakes and polyester polymer beads to other yarn manufacturers, and knitters and weavers that produce yarn and/or fabric for the apparel, hosiery, home furnishings, automotive, industrial, and other end-use markets. The Nylon segment provides virgin or recycled textured, solution dyed, and spandex covered yarns to knitters and weavers that produce fabric primarily for the apparel, hosiery, medical markets. The Brazil segment manufactures and sells polyester-based products to knitters and weavers that produce fabric for the apparel, home furnishings, automotive, industrial, and other end-use markets principally in South America. The Asia segment primarily sells polyester-based products to knitters and weavers that produce fabric for the apparel, home furnishings, automotive, industrial, and other end-use markets principally in Asia. The company sells its products through sales force and independent sales agents under the REPREVE and PROFIBER brands. Unifi, Inc. was founded in 1969 and is headquartered in Greensboro, North Carolina.",
+  "website": "http://www.unifi.com"
 }

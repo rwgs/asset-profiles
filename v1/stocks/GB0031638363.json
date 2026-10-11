@@ -5,6 +5,7 @@
     "composite_figi": "BBG000C08QY2",
     "isin": "GB0031638363"
   },
+  "industry": "Professional Services",
   "industry_group": "Commercial & Professional Services",
   "isin": "GB0031638363",
   "kind": "stock",
@@ -15,6 +16,11 @@
       "symbol": "GB0031638363.SW"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IKTSF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "IT1.BE"
@@ -23,17 +29,39 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "IT1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IT1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IT1.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "ITRK.L"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "ITRKN.MX"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Intertek Group Plc",
   "primary_symbol": "GB0031638363.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Intertek Group PLC is a multinational assurance, inspection, product testing and certification company. It provides a range of services to manufacturers, retailers, and distributors worldwide to ensure their products meet quality, safety, and regulatory standards. Intertek is headquartered in London, United Kingdom."
+  "summary": "Intertek Group PLC is a multinational assurance, inspection, product testing and certification company. It provides a range of services to manufacturers, retailers, and distributors worldwide to ensure their products meet quality, safety, and regulatory standards. Intertek is headquartered in London, United Kingdom.",
+  "website": "http://www.intertek.com"
 }

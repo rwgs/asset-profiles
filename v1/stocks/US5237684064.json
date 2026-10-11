@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000JQHLJ6",
+    "composite_figi": "BBG000BN4PM2",
     "cusip": "523768406",
-    "figi": "BBG000JQHPF1",
+    "figi": "BBG000BN4PM2",
     "isin": "US5237684064"
   },
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "US5237684064",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "LEE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LE70.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US5237684064.SG"
     }
   ],
-  "name": "LEE ENTERPRISES",
-  "primary_symbol": "US5237684064.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Lee Enterprises, Incorporated",
+  "primary_symbol": "LEE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "LEE ENTERPRISES is a media company that publishes newspapers, magazines, and digital content. It operates primarily in mid-sized markets across the United States. The company is headquartered in Davenport, Iowa."
+  "summary": "Lee Enterprises, Incorporated provides local news and information, and advertising services in the United States. The company offers print and digital editions of daily, weekly, and monthly newspapers and publications; and digital services, including Web hosting and content management for other content producers. It also provides advertising and marketing services, such as audience extension, search engine optimization, search engine marketing, web and mobile production, social media services, and reputation monitoring and management, as well as digital marketing services to small to medium businesses, including search engine marketing and social media. In addition, the company offers integrated digital publishing and content management solutions for creating, distributing, and monetizing multimedia content for daily and weekly newspapers, as well as universities, television stations, and niche publications. Further, it provides commercial printing services; distributes third party publications; and operates a digital marketing agency. Additionally, the company publishes 9 daily newspapers, and weekly newspapers and specialty publications. Lee Enterprises, Incorporated was founded in 1890 and is based in Davenport, Iowa.",
+  "website": "http://www.lee.net"
 }

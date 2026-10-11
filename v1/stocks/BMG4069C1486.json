@@ -2,15 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BZZGM1",
-    "figi": "BBG000BZZGM1",
+    "composite_figi": "BBG000BDW7G0",
+    "figi": "BBG000BDW7N2",
     "isin": "BMG4069C1486"
   },
-  "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Services",
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "BMG4069C1486",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0041.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -37,17 +42,17 @@
       "symbol": "GHK.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Great Eagle Holdings Limited",
-  "primary_symbol": "GEAHF",
+  "primary_symbol": "0041.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Great Eagle Holdings Limited, an investment holding company, invests in, develops, and manages residential, office, retail, and hotel properties in Asia, North America, Australasia, and Europe. It operates through Hotel Operation, Property Investment, Property Development, Other Operations, Champion REIT, Langham, and US Real Estate Fund segments. The company engages in leasing furnished apartments and properties; and flexible workspace, asset management, hotel accommodation, food and banquet, and restaurant operations. It also owns and operates three hotels under The Langham, Cordis, and Eaton brand names. In addition, the company offers property management services, including facilities management, security services, cleanliness and hygiene, financial management, staff training, green and risk management, maintenance and repairs, building survey, car park management, consultancy, and club house management services, as well as property maintenance and agency services. Further, it trades building materials; invests in securities; offers real estate investment trust, computer system solutions, project, treasury management, investment, and investment fund management services, as well as procurement and financing, and general trading services; and issues medium term notes. The company was founded in 1963 and is headquartered in Wanchai, Hong Kong.",
+  "sector": "Real Estate",
+  "summary": "Great Eagle Holdings Limited, an investment group established in 1963 and headquartered in Hong Kong, acquires, develops and manages residential, commercial, retail and hospitality properties across Asia, North America, Australasia and Europe. It reports Hotel Operation, Property Investment and Property Development segments, plus other interests including Champion REIT, Langham and a US Real Estate Fund.",
   "website": "http://www.greateagle.com.hk"
 }

@@ -2,14 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BVTMG1",
-    "figi": "BBG000BVTR61",
+    "composite_figi": "BBG000R0X3K4",
+    "figi": "BBG000R0X3K4",
     "isin": "DE000A0D9PT0"
   },
+  "industry": "Aerospace & Defense",
   "industry_group": "Capital Goods",
   "isin": "DE000A0D9PT0",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MTUAF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "MTX.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "MTX.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MTX.F"
     },
     {
       "currency": "EUR",
@@ -37,19 +53,40 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MTX.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "MTX.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "MTX.VI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "MTXN.DE"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "MTXN.MX"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "MTU Aero Engines AG",
-  "primary_symbol": "MTX.BE",
+  "primary_symbol": "MTUAF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "MTU Aero Engines is a German aircraft engine manufacturer that develops, produces, and services engines for commercial and military aircraft, as well as industrial gas turbines. The company is headquartered in Munich, Germany and provides maintenance, repair, and overhaul services for aircraft engines. MTU Aero Engines partners with major engine manufacturers like Pratt & Whitney and General Electric."
+  "summary": "MTU Aero Engines AG develops, manufactures, markets, and supports commercial and military aircraft engines, industrial gas turbines, and related services. The company operates globally and provides maintenance, repair, and overhaul services for aircraft engines. Its headquarters are located in Munich, Germany.",
+  "website": "https://www.mtu.de"
 }

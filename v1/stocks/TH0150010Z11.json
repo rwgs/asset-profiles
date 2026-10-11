@@ -2,14 +2,20 @@
   "country": "Thailand",
   "country_code": "TH",
   "identifiers": {
-    "composite_figi": "BBG000BM68Q6",
-    "figi": "BBG000BM6F26",
+    "composite_figi": "BBG000BTSQL2",
+    "figi": "BBG000BTSQL2",
     "isin": "TH0150010Z11"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "TH0150010Z11",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KGTFF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KTB1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "KTB1.MU"
     },
@@ -31,15 +42,17 @@
       "symbol": "KTB1.SG"
     }
   ],
-  "name": "KRUNG THAI -FGN-  BA 5,15",
-  "primary_symbol": "KTB1.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Krung Thai Bank Public Company Limited",
+  "primary_symbol": "KGTFF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Krung Thai Bank PCL is a Thai state-owned bank providing a comprehensive range of banking and financial services to individuals, businesses, and government entities. Its services include deposits, loans, trade finance, investment banking, and insurance. Krung Thai Bank is headquartered in Bangkok, Thailand."
+  "summary": "Krung Thai Bank Public Company Limited provides various commercial banking products and services. The company operates through three segments: Retail Banking, Wholesale Banking, and Treasury and Investment. It provides various retail banking products and services, including current, savings, and fixed deposit accounts; time and foreign currency deposits; personal and housing loans; debit, travel, cash and top up, and credit cards; investment services; travel, motor, and home asset insurance products; money transfer, payment and top up, foreign exchange, and overseas education services; and e-banking services. The company also offers SME loans for small and medium businesses; and international business loans. In addition, it provides corporate banking products and services comprising cash management services, such as collection, liquidity management, and transfer and payment services; fixed deposit and current accounts; foreign currency and term deposits; cards; Fx, interest rate, equity, commodity, and credit derivatives; financial advisory services related to merger and acquisition transactions; financial advisory, underwriting, and selling agent services for products offered through the equity capital markets; project finance advisory and feasibility study services, as well as e-banking services; and investment solutions, such as government and corporate bonds, structured notes, and investment units. The company provides its services through a network of branches in Thailand and various centers internationally. Krung Thai Bank Public Company Limited was founded in 1966 and is headquartered in Bangkok, Thailand.",
+  "website": "http://www.krungthai.com"
 }

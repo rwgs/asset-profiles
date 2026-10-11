@@ -2,29 +2,63 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BZYV49",
+    "composite_figi": "BBG00JHW6L24",
     "cusip": "550371108",
+    "figi": "BBG00JHW6L33",
     "isin": "CA5503711080"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA5503711080",
   "kind": "stock",
   "listings": [
     {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0R4M.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA5503711080.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "F1YN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "F1YN.F"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "LUG.ST"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "LUG.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LUGDF"
     }
   ],
-  "name": "LUNDIN GOLD INC",
-  "primary_symbol": "CA5503711080.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Lundin Gold Inc.",
+  "primary_symbol": "0R4M.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "LUNDIN GOLD INC is a gold mining company that owns and operates the Fruta del Norte gold mine in Ecuador. The company is focused on increasing gold production and exploring for new resources in the area. Lundin Gold Inc is headquartered in Vancouver, British Columbia."
+  "summary": "Lundin Gold Inc. operates as a mining company in Canada. The company holds interests in 29 metallic mineral concessions and three materials concessions covering an area of approximately 64,609 hectares located in Southeast Ecuador. It primary holds interests in the Fruta del Norte gold project that comprises seven concessions covering an area of approximately 5,566 hectares located near the city of Loja in Ecuador. The company was formerly known as Fortress Minerals Corp. and changed its name to Lundin Gold Inc. in December 2014. Lundin Gold Inc. was incorporated in 1986 and is headquartered in Vancouver, Canada.",
+  "website": "https://www.lundingold.com"
 }

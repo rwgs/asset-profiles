@@ -2,18 +2,29 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BRB647",
+    "composite_figi": "BBG00GVJG2D2",
+    "figi": "BBG00NRVXNL1",
     "isin": "DE0007203705"
   },
-  "industry": "Software",
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "DE0007203705",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NJB.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0007203705.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SHF.BE"
     },
     {
       "currency": "EUR",
@@ -22,8 +33,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SHF.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SHF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SHF.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SHF.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SHF.MU"
     },
     {
       "currency": "EUR",
@@ -33,15 +64,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "SNP Schneider-Neureither & Partner SE",
-  "primary_symbol": "DE0007203705.SW",
+  "primary_symbol": "0NJB.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SNP Schneider-Neureither & Partner SE provides software and consulting services for business transformation and data migration, headquartered in Heidelberg, Germany. The company's CrystalBridge platform enables automated data migration and system landscape transformation. SNP helps organizations streamline their IT landscapes and accelerate their digital transformation initiatives.",
-  "website": "http://www.snpgroup.com"
+  "summary": "SNP Schneider-Neureither & Partner SE provides software and consulting services for business transformation. The company focuses on SAP-based solutions. The company is headquartered in Heidelberg, Germany.",
+  "website": "https://www.snpgroup.com"
 }

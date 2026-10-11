@@ -6,6 +6,7 @@
     "figi": "BBG000BVFZX8",
     "isin": "GB00BLGZ9862"
   },
+  "industry": "Food & Staples Retailing",
   "industry_group": "Food & Staples Retailing",
   "isin": "GB00BLGZ9862",
   "kind": "stock",
@@ -14,17 +15,69 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BLGZ9862.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TCO0.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "TCO0.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TCO0.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TCO0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TCO0.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TCO0.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TCO0.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TSCDF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TSCO.L"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "TSCON.MX"
     }
   ],
-  "name": "TESCO PLC",
+  "market_cap_band": "Large Cap",
+  "name": "Tesco PLC",
   "primary_symbol": "GB00BLGZ9862.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Tesco PLC is a multinational grocery and general merchandise retailer. The company operates a network of supermarkets, convenience stores, and online platforms, offering a wide range of food, clothing, household goods, and financial services. Tesco is headquartered in Welwyn Garden City, UK."
+  "summary": "Tesco PLC is a multinational grocery and general merchandise retailer. The company operates a network of supermarkets, convenience stores, and online platforms, offering a wide range of food, clothing, household goods, and financial services. Tesco is headquartered in Welwyn Garden City, UK.",
+  "website": "http://www.tescoplc.com"
 }

@@ -2,19 +2,35 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000Q08DN8",
+    "composite_figi": "BBG000Q5ZRM7",
     "cusip": "253868103",
-    "figi": "BBG000Q08F44",
+    "figi": "BBG000Q5ZSC6",
     "isin": "US2538681030"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "isin": "US2538681030",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "DLR"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0I9F.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "FQI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FQI.F"
     },
     {
       "currency": "EUR",
@@ -27,15 +43,17 @@
       "symbol": "FQI.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Digital Realty Trust, Inc.",
-  "primary_symbol": "FQI.DU",
+  "primary_symbol": "DLR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Digital Realty Trust, Inc. is a real estate investment trust (REIT) that owns, acquires, develops, and manages data centers. The company's data centers are used by businesses to house their servers and other IT infrastructure. Digital Realty Trust is headquartered in Austin, Texas."
+  "summary": "Digital Realty supports the world's leading enterprises and service providers by delivering the full spectrum of data center, colocation and interconnection solutions. PlatformDIGITALR, the company's global data center platform, provides customers a trusted foundation and proven Pervasive Datacenter Architecture PDxTM solution methodology for scaling digital business and efficiently managing data gravity challenges. Digital Realty's global data center footprint gives customers access to the connected communities that matter to them with more than 284 facilities in 48 metros across 23 countries on six continents.",
+  "website": "http://www.digitalrealty.com"
 }

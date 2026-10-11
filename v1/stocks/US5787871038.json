@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BMCPZ1",
+    "composite_figi": "BBG00YT56VH9",
     "cusip": "578787103",
-    "figi": "BBG000BMCQ70",
+    "figi": "BBG00YT56VJ7",
     "isin": "US5787871038"
   },
   "industry": "Automobiles",
@@ -13,24 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "7261.T"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "MZA.F"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MZA0.F"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "MZDAF"
     },
     {
       "currency": "USD",
@@ -40,9 +25,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Mazda Motor Corporation",
-  "primary_symbol": "7261.T",
+  "primary_symbol": "MZA0.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

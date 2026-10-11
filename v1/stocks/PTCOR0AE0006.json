@@ -2,28 +2,62 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
-    "composite_figi": "BBG000BHXQJ5",
+    "composite_figi": "BBG00G417JD4",
+    "figi": "BBG00G417JG1",
     "isin": "PTCOR0AE0006"
   },
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry": "Paper & Forest Products",
+  "industry_group": "Materials",
   "isin": "PTCOR0AE0006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0O7J.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AS4.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AS4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AS4.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AS4.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLIS",
+      "symbol": "COR.LS"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "PTCOR0AE0006.SW"
     }
   ],
-  "name": "CORTICEIRA AMORIM SA",
-  "primary_symbol": "PTCOR0AE0006.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Corticeira Amorim, S.G.P.S., S.A.",
+  "primary_symbol": "0O7J.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
-  "summary": "CORTICEIRA AMORIM, S.A. is a Portuguese company engaged in the production and sale of cork products. The company's main products include cork stoppers for wine, flooring, wall coverings, and insulation materials, with headquarters located in Mozelos, Portugal. Corticeira Amorim is a vertically integrated company, managing the entire cork value chain from forest management to the production of finished goods."
+  "sector": "Materials",
+  "summary": "CORTICEIRA AMORIM SGPS SA is a Portuguese company specializing in the production and distribution of cork products. The company is the world's largest producer of cork stoppers for wine bottles and also produces cork-based flooring, insulation, and composite materials. Its headquarters are located in Mozelos, Portugal.",
+  "website": "http://www.corticeiraamorim.com"
 }

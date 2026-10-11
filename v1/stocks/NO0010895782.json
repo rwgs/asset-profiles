@@ -3,14 +3,19 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG00YD7BHX9",
-    "figi": "BBG00YD7BJ38",
+    "figi": "BBG00YD7BHY8",
     "isin": "NO0010895782"
   },
   "industry": "Internet & Direct Marketing Retail",
-  "industry_group": "Retailing",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "NO0010895782",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "86P.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -29,15 +34,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Xplora Technologies AS",
-  "primary_symbol": "86P.MU",
+  "primary_symbol": "86P.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Xplora Technologies AS, an information technology company, develops wearable smart devices and services for kids and families in Norway and internationally. The company offers Xplora Service Platform, which consists of various elements, such as SIM connectivity and value-added services; IoT service that allows wearable smart devices to connect to the platform and app; and Goplay Service, a value-added service platform, which converts physical activity and location collected from IoT devices to Xplora coins. It also provides an online social community. The company was founded in 2016 and is headquartered in Oslo, Norway.",
+  "sector": "Information Technology",
+  "summary": "Xplora Technologies AS is a Norwegian company that develops and sells smartwatches for children. Their products include GPS tracking, communication, and activity monitoring features designed to keep children safe and connected. The company is headquartered in Oslo, Norway.",
   "website": "http://www.myxplora.com"
 }

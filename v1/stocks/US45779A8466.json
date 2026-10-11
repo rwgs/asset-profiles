@@ -2,15 +2,21 @@
   "country": "Israel",
   "country_code": "IL",
   "identifiers": {
-    "composite_figi": "BBG00D7GRP03",
+    "composite_figi": "BBG000QDM9D4",
     "cusip": "45779A846",
-    "figi": "BBG00D7GRP67",
+    "figi": "BBG000QDMBM9",
     "isin": "US45779A8466"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US45779A8466",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "NSPR"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "II2.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US45779A8466.SG"
     }
   ],
-  "name": "INSPIREMD 1/18 DL-,0001",
-  "primary_symbol": "II2.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "InspireMD, Inc.",
+  "primary_symbol": "NSPR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "InspireMD, Inc. is a medical device company focused on the development and commercialization of proprietary minimally invasive devices for vascular and structural heart procedures. The company's lead product is the NANO stent system designed to prevent distal embolization during cardiovascular interventions. InspireMD is headquartered in Tel Aviv, Israel."
+  "summary": "InspireMD, Inc., a medical device company, focuses on the development and commercialization of proprietary MicroNet stent platform technology for the treatment of vascular and coronary diseases in Europe, Latin America, the Middle East, and Asia. The company offers CGuard carotid embolic prevention system for use in carotid artery applications; and MGuard Prime embolic protection systems for use in patients with acute coronary syndromes, notably acute myocardial infarction, and saphenous vein graft coronary interventions. It is also developing NGuard, a neurovascular flow diverter that diverts blood flow away from cerebral aneurysms and seals the aneurysms. The company sells its products through local distributors. InspireMD, Inc. was founded in 2005 and is headquartered in Tel Aviv, Israel.",
+  "website": "http://www.inspiremd.com"
 }

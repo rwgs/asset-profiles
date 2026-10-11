@@ -2,25 +2,58 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000FYJ962",
+    "cusip": "536216104",
+    "figi": "BBG000FYJB94",
     "isin": "CA5362161047"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA5362161047",
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "LIO.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LOMLF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "LY1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LY1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LY1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LY1.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Lion One Metals Limited",
-  "primary_symbol": "LY1.BE",
+  "primary_symbol": "LIO.V",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "Lion One Metals Limited engages in mine development and exploration of mineral properties in Fiji. Its primary asset is the 100% owned Tuvatu Gold project, which comprise four exploration licenses located on the island of Viti Levu in Fiji. The company is headquartered in North Vancouver, Canada.",
+  "website": "https://www.liononemetals.com"
 }

@@ -2,9 +2,11 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000PYMMT3",
+    "composite_figi": "BBG00VYKMYF4",
+    "figi": "BBG00VYKMYK8",
     "isin": "GB00B608Z994"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "GB00B608Z994",
   "kind": "stock",
@@ -13,17 +15,39 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B608Z994.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "I8A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "I8A.MU"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "IKA.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ILIKF"
     }
   ],
-  "name": "ILIKA PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Ilika plc",
   "primary_symbol": "GB00B608Z994.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "ILIKA PLC develops solid-state batteries. Their business model involves developing and licensing its battery technology to manufacturers in various sectors, generating revenue through licensing agreements and royalties. The company is headquartered in Romsey, UK."
+  "summary": "ILIKA PLC develops solid-state batteries. Their business model involves developing and licensing its battery technology to manufacturers in various sectors, generating revenue through licensing agreements and royalties. The company is headquartered in Romsey, UK.",
+  "website": "http://www.ilika.com"
 }

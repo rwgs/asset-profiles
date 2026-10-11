@@ -6,8 +6,8 @@
     "figi": "BBG000BWH9K6",
     "isin": "AU000000PDN8"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "AU000000PDN8",
   "kind": "stock",
   "listings": [
@@ -20,6 +20,11 @@
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "PDN.AX"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "PDN.TO"
     },
     {
       "currency": "EUR",
@@ -47,17 +52,17 @@
       "symbol": "PUR.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Paladin Energy Ltd",
   "primary_symbol": "PALAF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
+  "sector": "Energy",
   "summary": "Paladin Energy Limited develops and operates uranium mines in Australia, Canada, and Africa. The company operates through Exploration, Namibia, Malawi, and Australia segments. Its flagship project is the Langer Heinrich mine located in the Namib Desert in Namibia. The company was formerly known as Paladin Resources Ltd and changed its name to Paladin Energy Limited in November 2007. The company was incorporated in 1993 and is based in Perth, Australia.",
   "website": "http://www.paladinenergy.com.au"
 }

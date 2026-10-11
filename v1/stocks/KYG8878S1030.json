@@ -2,14 +2,25 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000JVLXJ4",
-    "figi": "BBG000JVM1Y6",
+    "composite_figi": "BBG000G5QM12",
+    "figi": "BBG000G5QMZ5",
     "isin": "KYG8878S1030"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "KYG8878S1030",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0322.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TCYMF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TYG.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TYG.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Tingyi (Cayman Islands) Holding Corp.",
-  "primary_symbol": "TYG.BE",
+  "primary_symbol": "0322.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Tingyi (Cayman Islands) Holding Corp. manufactures and distributes instant noodles, beverages, and instant food products in the People's Republic of China. The company's product portfolio includes a variety of noodle flavors, ready-to-drink teas, bottled water, and confectionery products, and it is headquartered in Tianjin, China. Tingyi's products are widely available across China through a vast distribution network."
+  "summary": "Tingyi (Cayman Islands) Holding Corp., an investment holding company, produces and sells instant noodles, beverages, and instant food products in the People's Republic of China. The company operates through Instant Noodles, Beverages, and Others segments. The company offers ready-to-drink teas, juices, bottled water, and carbonated soft drinks, as well as coffee drinks/functional drinks/probiotics. It also provides property rental, logistics, and support services. As of December 31, 2020, it operated a sales network of 365 sales offices and 236 warehouses serving 47,898 wholesalers and 210,366 direct retailers. The company was founded in 1992 and is based in Shanghai, the People's Republic of China.",
+  "website": "http://www.masterkong.com.cn"
 }

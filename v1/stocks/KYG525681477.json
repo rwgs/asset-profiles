@@ -2,29 +2,72 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000GFWTZ1",
-    "figi": "BBG000GFWYY1",
+    "composite_figi": "BBG000FQH854",
+    "figi": "BBG000FQH8C6",
     "isin": "KYG525681477"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "KYG525681477",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0268.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KDIC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "KDIC.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KDIC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "KDIC.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "KDIC.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KDIC.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KDIC.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KGDEF"
     }
   ],
-  "name": "Kingdee Int. Software Grp Co. R",
-  "primary_symbol": "KDIC.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Kingdee International Software Group Company Limited",
+  "primary_symbol": "0268.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Kingdee Int. Software Grp Co. R is a Chinese software company providing enterprise resource planning (ERP) and cloud services. The company's products are used by businesses for financial management, supply chain management, and customer relationship management. The company is based in Shenzhen, China."
+  "summary": "Kingdee International Software Group Company Limited, an investment holding company, engages in enterprise resource planning business. The company operates through ERP Business, Cloud Services Business, and Investment Properties Operating Business segments. The ERP Business segment sells software and hardware products; and provides software solution consulting, maintenance, upgrade, and other supporting services, as well as software implementation services. The Cloud Services Business segment provides enterprise, finance, industry, and other cloud services. The Investment Properties Operating Business segment invests in properties. The company also develops, designs, manufactures, and sells hardware products; provides software-related and online financial services; and develops Internet and online pay technologies. It serves enterprises, government agencies, and other organizations worldwide. Kingdee International Software Group Company Limited was founded in 1991 and is headquartered in Shenzhen, the People's Republic of China.",
+  "website": "http://www.kingdee.com"
 }

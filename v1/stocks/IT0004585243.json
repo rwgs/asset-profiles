@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JHVZ3M2",
+    "figi": "BBG00JHVZ3N1",
     "isin": "IT0004585243"
   },
   "industry": "Machinery",
@@ -11,15 +13,25 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0MVJ.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2GV.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "TES.MI"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Tesmec S.p.A.",
-  "primary_symbol": "TES.MI",
+  "primary_symbol": "0MVJ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

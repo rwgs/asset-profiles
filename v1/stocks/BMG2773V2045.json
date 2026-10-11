@@ -2,26 +2,37 @@
   "country": "Bermuda",
   "country_code": "BM",
   "identifiers": {
-    "composite_figi": "BBG000BNGRH1",
-    "figi": "BBG000BNGSN2",
+    "composite_figi": "BBG000BFMGT2",
+    "figi": "BBG000BFMHG4",
     "isin": "BMG2773V2045"
   },
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "BMG2773V2045",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0726.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BMG2773V2045.SG"
     }
   ],
-  "name": "DIT GROUP LTD",
-  "primary_symbol": "BMG2773V2045.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "DIT Group Limited",
+  "primary_symbol": "0726.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Real Estate",
+  "summary": "DIT Group Limited and its subsidiaries operate mainly in China, specialising in prefabricated construction projects. Its activities also include interior decoration, landscaping, consulting, equipment sales and licensing, and commercial property investment, particularly in Shandong province.",
+  "website": "https://dit.aconnect.com.hk"
 }

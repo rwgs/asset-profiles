@@ -2,29 +2,67 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BP4CT9",
-    "figi": "BBG000BP4FM9",
+    "composite_figi": "BBG000R2J6N6",
+    "figi": "BBG000R2J7X3",
     "isin": "FR0000130452"
   },
+  "industry": "Construction & Engineering",
   "industry_group": "Capital Goods",
   "isin": "FR0000130452",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NPT.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EF3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EF3.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EF3.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EF3.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EFGSF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "FGR.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "FGR.VI"
     }
   ],
-  "name": "EIFFAGE S.A. Actions Port. EO 4",
-  "primary_symbol": "EF3.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Eiffage SA",
+  "primary_symbol": "0NPT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Eiffage S.A. is a French construction and concessions company involved in civil engineering, construction, energy, infrastructure, and concessions. It designs, builds, and operates infrastructure projects, including roads, bridges, tunnels, and buildings. Eiffage is headquartered in Vélizy-Villacoublay, France."
+  "summary": "Eiffage SA engages in the construction, infrastructure, energy systems, and concessions businesses in France and internationally. The company's Construction segment offers urban development, building design and construction, property development, and maintenance and facilities management services for public and private-sector customers. Its Infrastructure segment is involved in the civil engineering, road and rail design and construction, drainage, earthworks, and metallic construction. The company's Energy Systems segment designs, constructs, integrates, operates, and maintains of energy and telecommunication systems and installations. Its Concessions segment finances, designs, builds, maintains, and services motorways and other large infrastructure projects, public facilities, and buildings and urban developments, as well as operates toll structures under concessions and public-private partnerships. The company was incorporated in 1920 and is headquartered in Vélizy-Villacoublay, France.",
+  "website": "http://www.eiffage.com"
 }

@@ -2,9 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00MJP4778",
+    "composite_figi": "BBG0064RWP65",
     "cusip": "775781206",
-    "figi": "BBG00MJP4778",
+    "figi": "BBG0064RWPD7",
     "isin": "US7757812067"
   },
   "industry": "Aerospace & Defense",
@@ -12,21 +12,6 @@
   "isin": "US7757812067",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "RLLCF"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "RR.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "RRU.F"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -45,19 +30,14 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "RYCEF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "RYCEY"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Large Cap",
   "name": "Rolls Royce Holdings plc",
-  "primary_symbol": "RLLCF",
+  "primary_symbol": "RRU1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

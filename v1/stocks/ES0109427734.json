@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "ES0109427734"
   },
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "ES0109427734",
   "kind": "stock",
@@ -12,17 +13,49 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0MJT.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "A3M.MC"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AIOSF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "YT2A.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "YT2A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "YT2A.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "YT2A.SG"
     }
   ],
-  "name": "ATRESMEDIA CORPORACION DE MEDIO",
+  "market_cap_band": "Small Cap",
+  "name": "Atresmedia Corporacion de Medios de Comunicacion, S.A.",
   "primary_symbol": "0MJT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Atresmedia Corporación de Medios de Comunicación, S.A. is a Spanish media company that operates television channels, radio stations, and online platforms. It produces and distributes audiovisual content. The company is headquartered in Madrid, Spain."
+  "summary": "Atresmedia Corporación de Medios de Comunicación, S.A. is a Spanish media company that operates television channels, radio stations, and online platforms. It produces and distributes audiovisual content. The company is headquartered in Madrid, Spain.",
+  "website": "http://www.atresmediacorporacion.com"
 }

@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG002B0CY95",
-    "figi": "BBG002B0CYJ4",
+    "composite_figi": "BBG001CDRZ53",
+    "figi": "BBG0027XP3K9",
     "isin": "JP3758190007"
   },
+  "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
   "isin": "JP3758190007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "3659.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +23,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7NX.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "7NX.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "7NX.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NEXOF"
     }
   ],
-  "name": "NEXON CO. LTD",
-  "primary_symbol": "7NX.BE",
+  "market_cap_band": "Large Cap",
+  "name": "NEXON Co., Ltd.",
+  "primary_symbol": "3659.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Nexon Co., Ltd. is a South Korean video game developer and publisher. They are known for creating and publishing popular online games across various platforms, including PC and mobile. The company is headquartered in Seongnam, South Korea."
+  "summary": "NEXON Co., Ltd. produces, develops, and services PC online and mobile games. It operates through five segments: Japan, Korea, China, North America, and Others. The company's PC online game titles include MapleStory, Dungeon & Fighter, and EA SPORTS FIFA ONLINE 4. It offers approximately 60 online games in 190 countries. The company was formerly known as NEXON Japan Co., Ltd. and changed its name to NEXON Co., Ltd. in April 2009. The company was founded in 1994 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.nexon.co.jp"
 }

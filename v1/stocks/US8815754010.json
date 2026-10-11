@@ -2,9 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BVFYF1",
+    "composite_figi": "BBG004ZBQ919",
     "cusip": "881575401",
-    "figi": "BBG000BVG0H2",
+    "figi": "BBG004ZBQ937",
     "isin": "US8815754010"
   },
   "industry": "Food & Staples Retailing",
@@ -14,70 +14,20 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "TCO0.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "TCO0.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "TCO0.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "TCO0.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "TCO0.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "TCO0.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "TCO0.MU"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TCO2.F"
     },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "TSCDF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "TSCDY"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "TSCO.L"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "TSCON.MX"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Tesco PLC",
-  "primary_symbol": "TCO0.BE",
+  "primary_symbol": "TCO2.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

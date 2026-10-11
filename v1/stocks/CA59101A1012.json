@@ -1,33 +1,44 @@
 {
-  "country": "Thailand",
-  "country_code": "TH",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG012TB6JW5",
+    "composite_figi": "BBG013N9Q7P6",
     "cusip": "59101A101",
+    "figi": "BBG013N9Q7Q5",
     "isin": "CA59101A1012"
   },
-  "industry": "Independent Power and Renewable Electricity Producers",
-  "industry_group": "Utilities",
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Telecommunication Services",
   "isin": "CA59101A1012",
   "kind": "stock",
   "listings": [
     {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "META.BK"
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FB20.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "NEOE",
+      "symbol": "META.NE"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "META.TO"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Meta Corporation Public Company Limited",
-  "primary_symbol": "META.BK",
+  "market_cap_band": "Mega Cap",
+  "name": "Meta Platforms",
+  "primary_symbol": "FB20.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Utilities",
-  "summary": "Meta Corporation Public Company Limited, together with its subsidiaries, operates as a contractor, developer, and operator of renewable energy power plants in Asia. It operates through four segments: Engineering Systems Installation, Energy and Coal, Power Plant for Alternative in Renewable Energy, and Business Development and Finance Advisory. The company is involved in the engineering, procurement, construction, and installation of solar power, biomass, wind power, and geothermal projects. It also offers building engineering systems installation and maintenance services; and investment consultancy services, as well as operates as a coal agent. The company was formerly known as Vintage Engineering Public Company Limited and changed its name to Meta Corporation Public Company Limited in May 2018. Meta Corporation Public Company Limited was founded in 1992 and is based in Bangkok, Thailand.",
-  "website": "http://www.metacorporation.co.th"
+  "sector": "Communications",
+  "summary": "Meta Platforms, Inc. develops social media applications and technology to help people stay connected and share, locate communities and expand their own businesses. It reports Family of Apps and Reality Labs segments. The first includes Facebook, Instagram, Messenger and WhatsApp, while Reality Labs covers augmented, mixed and virtual reality hardware, software and content. It was founded in 2004.",
+  "website": "https://www.meta.com"
 }

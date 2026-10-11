@@ -2,9 +2,11 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000GKSLK8",
+    "composite_figi": "BBG000L7DXJ3",
+    "figi": "BBG000L7DZS8",
     "isin": "GB0030181522"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB0030181522",
   "kind": "stock",
@@ -13,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0030181522.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T3G.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TRB.L"
     }
   ],
-  "name": "TRIBAL GROUP PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Tribal Group plc",
   "primary_symbol": "GB0030181522.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Tribal Group PLC provides education services and technology solutions to higher education institutions, further education colleges, and vocational training providers. The company's services include student information systems, curriculum management software, and quality assurance solutions. Tribal Group is headquartered in Bristol, United Kingdom."
+  "summary": "Tribal Group PLC provides education services and technology solutions to higher education institutions, further education colleges, and vocational training providers. The company's services include student information systems, curriculum management software, and quality assurance solutions. Tribal Group is headquartered in Bristol, United Kingdom.",
+  "website": "http://www.tribalgroup.com"
 }

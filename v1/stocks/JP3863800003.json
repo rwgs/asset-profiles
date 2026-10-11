@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000CZB0T4",
-    "figi": "BBG000CZB381",
+    "composite_figi": "BBG000FZKBM4",
+    "figi": "BBG000FZKC42",
     "isin": "JP3863800003"
   },
   "industry": "Capital Markets",
@@ -11,6 +11,11 @@
   "isin": "JP3863800003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8628.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,19 +28,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MTW.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MTW.MU"
     }
   ],
-  "market_cap_band": "Mega Cap",
-  "name": "MATSUI SECURITIES CO. LTD",
-  "primary_symbol": "MTW.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Matsui Securities Co., Ltd.",
+  "primary_symbol": "8628.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials"
+  "sector": "Financials",
+  "summary": "Matsui Securities Co., Ltd. provides online securities brokerage services to retail investors in Japan. It offers brokerage services of stocks, futures, and options; services for underwriting, offering, and secondary distribution and solicitation for selling; and foreign exchange margin trading services, as well as sells investment trusts. The company was founded in 1918 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.matsui.co.jp"
 }

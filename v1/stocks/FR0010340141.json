@@ -2,14 +2,30 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000Q3GXL1",
-    "figi": "BBG000Q3H194",
+    "composite_figi": "BBG000H291V0",
+    "figi": "BBG000H292Q4",
     "isin": "FR0010340141"
   },
+  "industry": "Transportation Infrastructure",
   "industry_group": "Transportation",
   "isin": "FR0010340141",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ADP.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ADPA.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AEOXF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +38,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "W7L.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "W7L.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "W7L.SG"
     }
   ],
-  "name": "AEROP.DE PARIS SA INH.EO3",
-  "primary_symbol": "W7L.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Aeroports de Paris SA",
+  "primary_symbol": "ADP.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Aéroports de Paris SA, also known as Groupe ADP, designs, develops and operates airports, including Charles de Gaulle Airport, Orly Airport, and Le Bourget Airport, near Paris. The company provides airport management services, including passenger handling, baggage handling, and retail operations. Aéroports de Paris is headquartered in Paris, France."
+  "summary": "Aeroports de Paris SA designs, constructs, and operates airports. The company operates through five segments: Aviation, Retail and Services, Real Estate, International and Airport Developments, and Other Activities. It owns and operates Paris-Charles de Gaulle, Paris-Orly, and Paris-Le Bourget airports; Issy-les-Moulineaux heliport; and 10 general aviation aerodromes in France. The company is also involved in retail activities offering services through shops, bars and restaurants, and banks and exchange counters, as well as in the provision of advertising and catering, terminal rental, car parking and access routes, car rental, and industrial services. In addition, it owns, develops, invests in, and manages real estate properties, such as lands and buildings. It also offers airport management and engineering services; and telecom operator services and cybersecurity services, as well as traceability and mobility solutions of goods. Aeroports de Paris SA was incorporated in 1945 and is based in Tremblay-en-France, France.",
+  "website": "http://www.parisaeroport.fr"
 }

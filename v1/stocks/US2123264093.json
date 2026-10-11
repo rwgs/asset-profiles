@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG001J2MCH3",
     "cusip": "212326409",
+    "figi": "BBG001J2MCH3",
     "isin": "US2123264093"
   },
   "industry": "Biotechnology",
@@ -20,13 +21,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "22R1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CFRXQ"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "ContraFect Corporation",
   "primary_symbol": "CFRX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "SE0000135485"
   },
-  "industry": "Health Care Providers & Services",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Health Care Technology",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "SE0000135485",
   "kind": "stock",
   "listings": [
@@ -16,8 +16,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "27R.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "27R.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "27R.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "27R.MU"
     },
     {
       "currency": "SEK",
@@ -44,7 +59,7 @@
   "name": "RaySearch Laboratories AB Class B",
   "primary_symbol": "0GRZ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

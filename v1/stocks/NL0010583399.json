@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BBZKM5",
     "isin": "NL0010583399"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "NL0010583399",
   "kind": "stock",
@@ -13,17 +14,54 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0QHL.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "CRBN.AS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CSNVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CSUA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CSUA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CSUA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CSUA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CSUA.SG"
     }
   ],
-  "name": "CORBION NV CORBION NV ORD SHS",
+  "market_cap_band": "Small Cap",
+  "name": "Corbion N.V.",
   "primary_symbol": "0QHL.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Corbion N.V. is a Dutch company specializing in bio-based ingredients for food, feed, biochemicals, and biomedical applications. The company develops and produces lactic acid, lactic acid derivatives, emulsifiers, functional enzyme blends, minerals, vitamins, and algae ingredients. Corbion is headquartered in Amsterdam, Netherlands."
+  "summary": "Corbion N.V. is a Dutch company specializing in bio-based ingredients for food, feed, biochemicals, and biomedical applications. The company develops and produces lactic acid, lactic acid derivatives, emulsifiers, functional enzyme blends, minerals, vitamins, and algae ingredients. Corbion is headquartered in Amsterdam, Netherlands.",
+  "website": "http://www.corbion.com"
 }

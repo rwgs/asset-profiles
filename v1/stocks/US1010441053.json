@@ -2,31 +2,48 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00RKNYY23",
+    "composite_figi": "BBG0021J73K6",
     "cusip": "101044105",
-    "figi": "BBG00RKNYY87",
+    "figi": "BBG0021J73K6",
     "isin": "US1010441053"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Media",
+  "industry_group": "Media & Entertainment",
   "isin": "US1010441053",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BOC"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "BOMN"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "42S.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "42S.F"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "BOSTON OMAHA CORP.DL-,001",
-  "primary_symbol": "42S.BE",
+  "name": "Boston Omaha Corporation Class A Common Stock",
+  "primary_symbol": "BOC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications"
+  "sector": "Communications",
+  "summary": "Boston Omaha Corporation is a holding company that invests in a variety of businesses, including billboard advertising, surety insurance, and broadband communications. The company also invests in real estate and other assets. Boston Omaha is headquartered in Omaha, Nebraska.",
+  "website": "http://www.bostonomaha.com"
 }

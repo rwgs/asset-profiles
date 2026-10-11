@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000KKL375",
     "cusip": "00249G105",
+    "figi": "BBG000KKL375",
     "isin": "CA00249G1054"
   },
   "industry": "Commercial Services & Supplies",
@@ -12,19 +13,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AZNVF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA00249G1054.SG"
     }
   ],
-  "name": "AZN CAPITAL CORP",
-  "primary_symbol": "CA00249G1054.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "AZN Capital Corp.",
+  "primary_symbol": "AZNVF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials"
+  "sector": "Industrials",
+  "summary": "AZN Capital Corp. operates as a light vehicle mobility solutions company in the United States. It offers various product for rideshare programs and delivery services, including e-bikes, e-scooters, e-trikes, and electric seated scooters. The company was formerly known as Last Mile Holdings Ltd. and changed its name to AZN Capital Corp. in February 2021. AZN Capital Corp. is based in Vancouver, Canada.",
+  "website": "http://www.lastmile-holdings.com"
 }

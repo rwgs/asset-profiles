@@ -2,6 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "composite_figi": "BBG00JHVZCF0",
+    "figi": "BBG00JHVZCG9",
     "isin": "NO0010564701"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -40,16 +42,16 @@
       "symbol": "PEN.OL"
     },
     {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "PENO.OL"
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PESAF"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Panoro Energy ASA",
   "primary_symbol": "0N08.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

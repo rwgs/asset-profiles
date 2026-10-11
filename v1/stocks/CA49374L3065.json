@@ -7,6 +7,7 @@
     "figi": "BBG00M0G8V26",
     "isin": "CA49374L3065"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "CA49374L3065",
   "kind": "stock",
@@ -23,6 +24,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4KH.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "4KH.HM"
     },
@@ -30,17 +36,34 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "4KH.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "4KH.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "KHRN.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KHRNF"
     }
   ],
-  "name": "KHIRON LIFE SCIENCES",
+  "market_cap_band": "Micro Cap",
+  "name": "Khiron Life Sciences Corp.",
   "primary_symbol": "4KH.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Khiron Life Sciences Corp. is a cannabis company focused on medical and consumer markets. The company cultivates and processes cannabis, and develops cannabis-based products for medical and consumer use. Khiron Life Sciences is headquartered in Toronto, Canada."
+  "summary": "Khiron Life Sciences Corp. is a cannabis company focused on medical and consumer markets. The company cultivates and processes cannabis, and develops cannabis-based products for medical and consumer use. Khiron Life Sciences is headquartered in Toronto, Canada.",
+  "website": "http://www.khiron.ca"
 }

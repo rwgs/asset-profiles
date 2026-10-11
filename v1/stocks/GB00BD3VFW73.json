@@ -6,6 +6,7 @@
     "figi": "BBG00F38S4R7",
     "isin": "GB00BD3VFW73"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "GB00BD3VFW73",
   "kind": "stock",
@@ -22,19 +23,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2CV.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "2CV.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "2CV.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CNVVF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CTEC.L"
     }
   ],
-  "name": "CONVATEC GROUP WI LS -,10",
+  "market_cap_band": "Mid Cap",
+  "name": "ConvaTec Group Plc",
   "primary_symbol": "2CV.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Convatec Group Plc is a global medical products and technologies company. They develop, manufacture, and market products for ostomy care, wound care, continence and critical care, and infusion devices. Convatec Group Plc is headquartered in Reading, United Kingdom."
+  "summary": "Convatec Group Plc is a global medical products and technologies company. They develop, manufacture, and market products for ostomy care, wound care, continence and critical care, and infusion devices. Convatec Group Plc is headquartered in Reading, United Kingdom.",
+  "website": "http://www.convatecgroup.com"
 }

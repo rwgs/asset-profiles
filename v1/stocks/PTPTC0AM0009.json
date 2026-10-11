@@ -2,6 +2,8 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
+    "composite_figi": "BBG000S9DX84",
+    "figi": "BBG00NRVY7P1",
     "isin": "PTPTC0AM0009"
   },
   "industry": "Diversified Telecommunication Services",
@@ -26,8 +28,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PTCA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PTCA.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PTCA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PTCA.MU"
     },
     {
       "currency": "EUR",
@@ -39,7 +56,7 @@
   "name": "Pharol, SGPS S.A.",
   "primary_symbol": "0FQ8.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

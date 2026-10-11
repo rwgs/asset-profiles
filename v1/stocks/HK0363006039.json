@@ -1,30 +1,53 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Hong Kong",
+  "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000JGMHP4",
-    "figi": "BBG000JGMM00",
+    "composite_figi": "BBG000GMM348",
+    "figi": "BBG000GMM3L9",
     "isin": "HK0363006039"
   },
+  "industry": "Industrial Conglomerates",
   "industry_group": "Capital Goods",
   "isin": "HK0363006039",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0363.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SGHIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SGI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SGI.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SGI.SG"
     }
   ],
-  "name": "SHANGHAI INDUSTRIAL HLDGS LTD.R",
-  "primary_symbol": "SGI.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Shanghai Industrial Holdings Limited",
+  "primary_symbol": "0363.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Shanghai Industrial Holdings Limited is a conglomerate engaged in infrastructure, property, consumer products, and technology businesses. The company has operations primarily in Hong Kong and mainland China. Shanghai Industrial Holdings is headquartered in Hong Kong."
+  "summary": "Shanghai Industrial Holdings Limited is an investment holding company with businesses in healthcare, consumer products, real estate, and infrastructure with environmental protection. It invests in toll roads, bridges, water services and clean energy, develops property and runs a hotel, and makes cigarettes, packaging and printed products as well as pharmaceutical and healthcare goods.",
+  "website": "https://www.sihl.com.hk"
 }

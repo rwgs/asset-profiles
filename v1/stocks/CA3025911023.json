@@ -2,10 +2,12 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000HVWXQ6",
+    "composite_figi": "BBG000Q3W9N4",
     "cusip": "302591102",
+    "figi": "BBG000Q3WCL9",
     "isin": "CA3025911023"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA3025911023",
   "kind": "stock",
@@ -14,17 +16,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA3025911023.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FP5.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FPOCF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "FPX.V"
     }
   ],
-  "name": "FPX NICKEL CORP",
+  "market_cap_band": "Micro Cap",
+  "name": "FPX Nickel Corp.",
   "primary_symbol": "CA3025911023.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "FPX NICKEL CORP is a Canadian nickel exploration and development company focused on advancing the Decar Nickel District in British Columbia. The company's goal is to become a major nickel supplier for the electric vehicle battery market. FPX Nickel is based in Vancouver, British Columbia, Canada."
+  "summary": "FPX NICKEL CORP is a Canadian nickel exploration and development company focused on advancing the Decar Nickel District in British Columbia. The company's goal is to become a major nickel supplier for the electric vehicle battery market. FPX Nickel is based in Vancouver, British Columbia, Canada.",
+  "website": "http://fpxnickel.com"
 }

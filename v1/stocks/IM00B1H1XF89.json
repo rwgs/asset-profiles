@@ -1,29 +1,48 @@
 {
-  "country": "Isle of Man",
-  "country_code": "IM",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000QCNDF4",
+    "composite_figi": "BBG000QMBQ57",
+    "figi": "BBG000QMBQK0",
     "isin": "IM00B1H1XF89"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Insurance",
+  "industry_group": "Insurance",
   "isin": "IM00B1H1XF89",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "H9G.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HNRDF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "HSD.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "IM00B1H1XF89.SG"
     }
   ],
-  "name": "HANSARD GLOBAL PLC",
-  "primary_symbol": "IM00B1H1XF89.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Hansard Global Plc",
+  "primary_symbol": "H9G.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Hansard Global plc is a specialist international provider of long-term savings products. They focus on providing wealth management solutions for international clients through a network of independent financial advisors. The company is headquartered in Douglas, Isle of Man."
+  "summary": "Hansard Global plc operates as a specialist long-term savings provider that offers savings and investment products for investors, institutions, and wealth-management groups worldwide. The company offers unit-linked regular or single premium life assurance and investment contracts; administration services; and marketing and development services. It also operates Hansard OnLine, a sales and business administration tool that is used by independent financial advisors (IFAs) and clients. The company distributes its products through IFAs, as well as through the retail operations of financial institutions. The company was founded in 1970 and is headquartered in Douglas, the United Kingdom.",
+  "website": "http://www.hansard.com"
 }

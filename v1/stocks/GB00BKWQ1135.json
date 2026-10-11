@@ -3,7 +3,7 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG008MPHMD1",
-    "figi": "BBG008MPHMF9",
+    "figi": "BBG008MPHML2",
     "isin": "GB00BKWQ1135"
   },
   "industry": "Chemicals",
@@ -13,8 +13,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6HG.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "6HG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6HG.MU"
     },
     {
       "currency": "EUR",
@@ -34,15 +44,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Haydale Graphene Industries plc",
-  "primary_symbol": "6HG.F",
+  "primary_symbol": "6HG.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Haydale Graphene Industries plc, through its subsidiaries, functionalizes graphene and other nanomaterials in the United Kingdom, Europe, the United States, China, Thailand, South Korea, Japan, and internationally. It operates through Resins, Polymers, Composites & Inks; and Advanced Materials segments. The company offers composites; elastomers; graphene and silver-based complex fluids for radio frequency identification market; piezo resistive nanomaterial enhanced inks graphene-based sensor systems; flexible electronics; and test strips for self-diagnostic biomedical sensor device. It also provides silicon carbide whiskers for ceramic cutting tools, technical ceramics, protective coatings, ceramic and metal matrix coatings, fiber reinforced plastics, and plant cell transformation applications, as well as consulting services. The company was formerly known as Innovative Carbon Limited and changed its name to Haydale Graphene Industries PLC in March 2014. Haydale Graphene Industries PLC was incorporated in 2010 and is headquartered in Ammanford, the United Kingdom.",
+  "summary": "Haydale Graphene Industries plc is a technology company focused on enabling technology for graphene and other nanomaterials. The company develops and commercializes enhanced materials for various applications, including composites, inks, and coatings. Haydale is headquartered in the United Kingdom.",
   "website": "http://www.haydale.com"
 }

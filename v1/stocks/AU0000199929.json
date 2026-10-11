@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000SW6X36",
-    "figi": "BBG000SW6X36",
+    "composite_figi": "BBG000DR2QP8",
+    "figi": "BBG000DR2RG6",
     "isin": "AU0000199929"
   },
   "industry": "Metals & Mining",
@@ -12,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "1MC.AX"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ALTAF"
@@ -19,14 +24,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Morella Corporation Limited",
-  "primary_symbol": "ALTAF",
+  "primary_symbol": "1MC.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Altura Mining Limited engages in the exploration and development of mineral properties in Australia and Indonesia. It operates through Lithium Mining, Exploration Services, and Mineral Exploration segments. The company's flagship property is the Altura Lithium Project located at Pilgangoora in Western Australia. It also provides drilling services primarily to mining and exploration companies. The company is based in Perth, Australia."
+  "summary": "Morella Corporation Limited is a resource exploration and development company searching for lithium and other battery minerals in Australia and the United States. It reports Mineral Exploration and Exploration Services segments, holding interests in the Mallina Lithium Project in Western Australia's Pilbara and the Fish Lake Valley Lithium Project in Nevada, and offers drilling services to other mining and exploration firms.",
+  "website": "https://www.morellacorp.com"
 }

@@ -2,7 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000RKGNY0",
     "cusip": "83404D109",
+    "figi": "BBG000RKGNY0",
     "isin": "US83404D1090"
   },
   "industry": "Diversified Telecommunication Services",
@@ -11,64 +13,14 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XLON",
-      "symbol": "0R15.L"
-    },
-    {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "9984.T"
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SFTBY"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
-      "symbol": "SFT.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "SFT.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SFT.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "SFT.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "SFT.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "SFT.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "SFT.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "SFT.VI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SFTBF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SFTBY"
+      "symbol": "SFTU.BE"
     },
     {
       "currency": "EUR",
@@ -79,18 +31,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SFTU.SG"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "SOFTN.MX"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "SoftBank Group Corp.",
-  "primary_symbol": "0R15.L",
+  "primary_symbol": "SFTBY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

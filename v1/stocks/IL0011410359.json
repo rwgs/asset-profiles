@@ -3,28 +3,46 @@
   "country_code": "IL",
   "identifiers": {
     "composite_figi": "BBG00ZJYZP49",
-    "figi": "BBG00ZJYZP94",
+    "figi": "BBG00ZJYZP58",
     "isin": "IL0011410359"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Semiconductors & Semiconductor Equipment",
+  "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "IL0011410359",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "82N.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "82N.MU"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "ENET.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ENETF"
     }
   ],
-  "name": "ETHERNITY NETW.(DI) -,001",
-  "primary_symbol": "82N.MU",
+  "market_cap_band": "Nano Cap",
+  "name": "Ethernity Networks Ltd.",
+  "primary_symbol": "82N.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Ethernity Networks provides networking and data acceleration semiconductor solutions. The company's products are used in telecommunications and data center infrastructure. The company is headquartered in Israel."
+  "summary": "Ethernity Networks Ltd., a technology solutions provider, develops and delivers data processing technology and solutions for applications in telecommunications, mobile, security, and data center markets in Israel and the United States. It offers ENET network appliances, such as UEP2025 family universal edge platform and ENET UEP-20 universal edge platform, as well as PON devices comprising PON OLT MAC SoC, a programmable PON OLT integrated on an FPGA SoC that supports XGS-PON and/or GPON; and Single-Port PON OLT MAC device, which supports GPON in FTTR applications. The company also provides ACE-NIC40 SmartNIC, an open flow enabled software acceleration NIC; ACE-NIC50 SmartNIC, that offers 10/25G Ethernet connectivity and field-programmable gate array (FPGA) acceleration; ACE-NIC100 SmartNIC that provides 10/25/40/100G Ethernet connectivity and programmable FPGA acceleration; ENET flow processors for telco/cloud network; and FPGA boards. In addition, it offers 5G solutions, such as ACE-NIC100 for 5G performance and VNF offload, 5G UPF forwarding offload, and 5G DU vRouter; and ENET wireless backhaul, carrier ethernet on FPGA, vRouter VNF acceleration, 5G cell site router, vBRAS VNF acceleration, broadband access, NFVI acceleration, SD-WAN acceleration, and avionic switch. The company was formerly known as Neracore Ltd. and changed its name to Ethernity Networks Ltd. in August 2004. Ethernity Networks Ltd. was incorporated in 2003 and is headquartered in Airport City, Israel.",
+  "website": "https://www.ethernitynet.com"
 }

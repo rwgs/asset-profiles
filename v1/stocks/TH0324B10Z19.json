@@ -3,12 +3,19 @@
   "country_code": "TH",
   "identifiers": {
     "composite_figi": "BBG000BRVXG3",
-    "figi": "BBG000BRW181",
+    "figi": "BBG000BRVY53",
     "isin": "TH0324B10Z19"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "TH0324B10Z19",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HAA1.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -16,13 +23,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "HANA MICROEL. -FGN-  BA 1",
-  "primary_symbol": "HAA1.MU",
+  "name": "Hana Microelectronics Public Company Limited",
+  "primary_symbol": "HAA1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "Hana Microelectronics Public Company Limited, together with its subsidiaries, manufactures and trades in electronic components. It offers printed circuit board and integrated circuit assemblies, as well as produces liquid crystal on silicon devices that are being used for microdisplays and optical telecommunications components. The company also provides agent and customer services. It has operations in Malaysia, China, the United States, Singapore, Hong Kong, and internationally. The company was founded in 1978 and is headquartered in Bangkok, Thailand.",
+  "website": "http://www.hanagroup.com"
 }

@@ -2,28 +2,47 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000PKP7T3",
+    "composite_figi": "BBG00JHVVGS1",
+    "figi": "BBG00JVX9JN5",
     "isin": "SE0001634262"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "SE0001634262",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0GTM.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "D1F.F"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "DIOS.ST"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0001634262.SW"
     }
   ],
-  "name": "DIOS FASTIGHETER AB",
-  "primary_symbol": "SE0001634262.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Dios Fastigheter AB (publ)",
+  "primary_symbol": "0GTM.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "DIOS FASTIGHETER AB is a real estate company that owns, manages, and develops residential properties in Sweden. They focus on properties in smaller and medium-sized cities. The company is headquartered in Västerås, Sweden."
+  "summary": "DIOS Fastigheter AB is a Swedish real estate company that owns and manages residential properties in Sweden. The company focuses on properties in university and college towns. DIOS Fastigheter is headquartered in Uppsala, Sweden.",
+  "website": "http://www.dios.se"
 }

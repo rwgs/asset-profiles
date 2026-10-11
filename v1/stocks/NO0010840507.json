@@ -2,6 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "composite_figi": "BBG00TZ6ZB10",
+    "figi": "BBG00TZ6ZB29",
     "isin": "NO0010840507"
   },
   "industry": "Software",
@@ -55,11 +57,6 @@
       "symbol": "PEXIP.OL"
     },
     {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "PEXIPO.OL"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "PXPHF"
@@ -69,7 +66,7 @@
   "name": "Pexip Holding ASA",
   "primary_symbol": "0A3H.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

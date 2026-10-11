@@ -2,10 +2,12 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
+    "composite_figi": "BBG000BMVCC4",
+    "figi": "BBG000BMVD23",
     "isin": "SG1CE4000000"
   },
-  "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "SG1CE4000000",
   "kind": "stock",
   "listings": [
@@ -13,13 +15,23 @@
       "currency": "SGD",
       "exchange_mic": "XSES",
       "symbol": "BNE.SI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KEBA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "KEBA.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Kencana Agri Limited",
   "primary_symbol": "BNE.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

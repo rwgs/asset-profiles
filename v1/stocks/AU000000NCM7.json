@@ -2,14 +2,20 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000BVR730",
-    "figi": "BBG000BVR9L6",
+    "composite_figi": "BBG00XT27CY0",
+    "figi": "BBG00XT27D05",
     "isin": "AU000000NCM7"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU000000NCM7",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "NCM.TO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +25,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "NMA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NMA.F"
     },
     {
       "currency": "EUR",
@@ -37,15 +48,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "NEWCREST MNG LTD",
-  "primary_symbol": "NMA.BE",
+  "name": "Newcrest Mining Limited",
+  "primary_symbol": "NCM.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "NEWCREST MINING LTD. Registered is an Australian gold mining company. It explores for, develops, and operates gold and copper mines. Newcrest Mining has operations in Australia, Canada, and Papua New Guinea."
+  "summary": "Newcrest Mining Limited, together with its subsidiaries, engages in the exploration, mine development, mine operation, and sale of gold and gold/copper concentrates. It is also involved in the exploration of silver deposits. The company primarily owns and operates mines and projects located in Cadia and Telfer, Australia; and Lihir, Papua New Guinea. It also holds 70% interest in the Red Chris mine project located in British Columbia, Canada. Newcrest Mining Limited was founded in 1966 and is headquartered in Melbourne, Australia.",
+  "website": "http://www.newcrest.com"
 }

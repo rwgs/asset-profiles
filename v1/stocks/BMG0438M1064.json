@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000LJKZ59",
-    "figi": "BBG000LJKZ59",
+    "composite_figi": "BBG000C46H49",
+    "figi": "BBG000C46H94",
     "isin": "BMG0438M1064"
   },
   "industry": "Diversified Telecommunication Services",
@@ -11,6 +11,11 @@
   "isin": "BMG0438M1064",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1045.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -22,17 +27,17 @@
       "symbol": "AY8.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "APT Satellite Holdings Limited",
-  "primary_symbol": "ASEJF",
+  "primary_symbol": "1045.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "APT Satellite Holdings Limited, an investment holding company, maintains, operates, and provides satellite transponder capacity and related services, satellite-based broadcasting and telecommunications services, and other services. It offers a range of C-band and Ku-band transponder leasing services to its broadcast and telecommunication customers; satellite TV broadcasting and uplink services; and teleport and network services, including hub-based and single channel per carrier services. The company also provides data center services that comprise rack leasing, server and equipment hosting, cloud management, IP gateway transit, and customized managed services; offers OTT services; and holds rights on the licensing of Chinese TV channel content and 25 TV channels of APT Satellite packages. It operates in-orbit satellites consisting of APSTAR-5C, APSTAR-6C, APSTAR-7, and APSTAR-9 in Asia, Australia, the Middle East, Africa, Europe, and the Pacific region. In addition, the company engages in property holding activities; and the provision of management and project management consultancy services. The company was founded in 1992 and is headquartered in Tai Po, Hong Kong. APT Satellite Holdings Limited is a subsidiary of APT Satellite International Company Limited.",
+  "summary": "APT Satellite Holdings Limited is an investment holding company that operates satellite communication services. It manages and supplies satellite transponder capacity and related support, together with satellite broadcasting and telecommunications solutions, leasing C-band and Ku-band transponders to broadcasting and telecommunications customers.",
   "website": "http://www.apstar.com"
 }

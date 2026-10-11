@@ -6,6 +6,7 @@
     "cusip": "68752A104",
     "isin": "CA68752A1049"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA68752A1049",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA68752A1049.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ORSUF"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "ORSU METALS CORP",
   "primary_symbol": "CA68752A1049.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Orsu Metals Corp. is a mineral exploration company focused on exploring and developing the Sergeevskoe gold project in Russia. The company aims to develop a significant gold resource at the Sergeevskoe project. The company is based in Vancouver, Canada."
+  "summary": "Orsu Metals Corp. is a mineral exploration company focused on exploring and developing the Sergeevskoe gold project in Russia. The company aims to develop a significant gold resource at the Sergeevskoe project. The company is based in Vancouver, Canada.",
+  "website": "http://www.orsumetals.com"
 }

@@ -2,29 +2,82 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG006TLNCW1",
-    "figi": "BBG006TLNCY9",
+    "composite_figi": "BBG000BYJXY2",
+    "figi": "BBG000BYJXY2",
     "isin": "DE0005909006"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Construction & Engineering",
+  "industry_group": "Capital Goods",
   "isin": "DE0005909006",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BFLBF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE0005909006.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GBF.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "GBF.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "GBF.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GBF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "GBF.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "GBF.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GBF.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GBF.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "GBF.VI"
     }
   ],
-  "name": "BILFINGER SE",
-  "primary_symbol": "DE0005909006.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Bilfinger SE",
+  "primary_symbol": "BFLBF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Bilfinger SE is an international industrial services provider offering engineering, construction, maintenance, and digital solutions for industrial plants, power plants, and real estate, headquartered in Mannheim, Germany. The company's services cover the entire life cycle of assets, from planning and construction to maintenance and decommissioning. Bilfinger focuses on increasing the efficiency and sustainability of its clients' operations."
+  "summary": "Bilfinger SE provides industrial services to customers in the process industry primarily in Europe, North America, and the Middle East. The company offers maintenance engineering and consulting, planning and execution of maintenance, coordination of subcontractors, planning and execution of turnarounds, and condition monitoring and asset integrity assessments services; and plant engineering, piping and steel construction, and plant demolition and conversion services; and operates and maintains various industrial plants. It also provides solutions in the fields of servicing, constructing, and digitally networking components and systems. In addition, the company offers consulting, digital networking, data collection, and analysis services, as well as forward-looking maintenance services. It serves customers in chemical and petrochemical, energy and utilities, oil and gas, pharmaceuticals and biopharma, metallurgy, and cement industries. The company was formerly known as Bilfinger Berger SE and changed its name to Bilfinger SE in September 2012. Bilfinger SE was founded in 1880 and is headquartered in Mannheim, Germany.",
+  "website": "https://www.bilfinger.com"
 }

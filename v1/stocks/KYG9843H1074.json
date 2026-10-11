@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG006NC7ZY2",
+    "figi": "BBG006NCBHQ6",
     "isin": "KYG9843H1074"
   },
   "industry": "Real Estate Management & Development",
@@ -11,22 +12,32 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3639.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "YC2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "YC2.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Yida China Holdings Limited",
-  "primary_symbol": "YC2.F",
+  "primary_symbol": "3639.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Yida China Holdings Limited, an investment holding company, develops and operates business parks in the People's Republic of China. The company's Property Development segment develops and sells properties. Its Property Investment segment invests in and rents properties. The company's Business Park Operation and Management segment provides operation and management services to the business park projects owned by the local governments or other independent third parties. Its Construction, Decoration and Landscaping segment engages in property construction business; and the provision of interior decoration services to property buyers, as well as landscaping services to property projects. The company's Property Management segment provides management services to properties. Yida China Holdings Limited's property portfolio includes multifunctional integrated residential community projects, office properties, and residential properties. Yida China Holdings Limited was founded in 1988 and is headquartered in Shanghai, the People's Republic of China.",
+  "summary": "Yida China Holdings Limited is an investment holding company mainly developing and operating business parks in China. Its Property Development segment builds and sells real estate, its Property Investment segment acquires properties for rental, and its Business Park Operation segment runs the parks.",
   "website": "http://www.yidachina.com.cn"
 }

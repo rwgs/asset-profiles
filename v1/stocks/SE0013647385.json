@@ -3,27 +3,41 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00F0SJZN1",
+    "figi": "BBG00F0SJZP9",
     "isin": "SE0013647385"
   },
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Health Care Equipment & Supplies",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "SE0013647385",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "BICO.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CLLKF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0013647385.SG"
     }
   ],
-  "name": "BICO GROUP AB",
-  "primary_symbol": "SE0013647385.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "BICO Group AB (publ)",
+  "primary_symbol": "BICO.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "BICO GROUP AB, formerly CELLINK AB, develops and provides bioprinting technologies and solutions for various applications in life sciences, including tissue engineering, drug discovery, and personalized medicine. The company's products enable researchers to create 3D biological structures. BICO GROUP AB is headquartered in Gothenburg, Sweden."
+  "summary": "BICO GROUP AB, formerly CELLINK AB, develops and provides bioprinting technologies and solutions for various applications in life sciences, including tissue engineering, drug discovery, and personalized medicine. The company's products enable researchers to create 3D biological structures. BICO GROUP AB is headquartered in Gothenburg, Sweden.",
+  "website": "https://www.bico.com"
 }

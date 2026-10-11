@@ -2,15 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BSYF95",
-    "figi": "BBG000BSYHM6",
+    "composite_figi": "BBG000BG79N9",
+    "figi": "BBG000BG7B45",
     "isin": "JP3749400002"
   },
   "industry": "Chemicals",
-  "industry_group": "Capital Goods",
+  "industry_group": "Materials",
   "isin": "JP3749400002",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4612.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -29,15 +34,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Nippon Paint Holdings Co., Ltd.",
-  "primary_symbol": "NI7.BE",
+  "primary_symbol": "4612.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "NIPPON PAINT HOLDINGS CO., LTD. manufactures and sells paints and coatings for a variety of applications including automotive, industrial, and decorative purposes. The company also provides related services such as application and technical support. Nippon Paint is headquartered in Osaka, Japan, and operates globally.",
+  "sector": "Materials",
+  "summary": "Nippon Paint Holdings Co., Ltd. makes paints and advanced chemical products, including coatings for vehicles, paints for the exteriors and interiors of homes, commercial buildings and bridges, and industrial finishes applied to household appliances, office equipment, farm and construction machinery and building materials. Dating from 1881 with headquarters in Osaka, Japan, it took its present name in October 2014, having been Nippon Paint Co., Ltd.",
   "website": "http://www.nipponpaint-holdings.com"
 }

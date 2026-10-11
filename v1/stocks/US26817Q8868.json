@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BJ67P6",
+    "composite_figi": "BBG000FBJQM6",
     "cusip": "26817Q886",
-    "figi": "BBG000BJ6BZ6",
+    "figi": "BBG000FBJSP9",
     "isin": "US26817Q8868"
   },
-  "industry_group": "Real Estate",
+  "industry": "Mortgage Real Estate Investment Trusts (REITs)",
+  "industry_group": "Diversified Financials",
   "isin": "US26817Q8868",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "DX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DYT1.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "DYT1.MU"
     }
   ],
-  "name": "DYNEX CAPITAL INC. DL-,01",
-  "primary_symbol": "DYT1.MU",
+  "market_cap_band": "Mid Cap",
+  "name": "Dynex Capital, Inc.",
+  "primary_symbol": "DX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "DYNEX CAPITAL INC. DL-,01 is a mortgage real estate investment trust (REIT). The company invests in mortgage-backed securities (MBS). Dynex Capital Inc. is headquartered in Glen Allen, Virginia."
+  "sector": "Financials",
+  "summary": "Dynex Capital, Inc., a mortgage real estate investment trust, invests in mortgage-backed securities (MBS) on a leveraged basis in the United States. It invests in agency and non-agency MBS consisting of residential MBS, commercial MBS (CMBS), and CMBS interest-only securities. Agency MBS have a guaranty of principal payment by an agency of the U.S. government or a U.S. government-sponsored entity, such as Fannie Mae and Freddie Mac. Non-Agency MBS have no such guaranty of payment. The company has qualified as a real estate investment trust for federal income tax purposes. It generally would not be subject to federal income taxes if it distributes at least 90% of its taxable income to its stockholders. Dynex Capital, Inc. was founded in 1987 and is headquartered in Glen Allen, Virginia.",
+  "website": "http://www.dynexcapital.com"
 }

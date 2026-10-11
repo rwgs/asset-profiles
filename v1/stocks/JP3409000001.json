@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000CB48P2",
-    "figi": "BBG000CB49F1",
+    "composite_figi": "BBG000BGY432",
+    "figi": "BBG000BGY575",
     "isin": "JP3409000001"
   },
   "industry": "Real Estate Management & Development",
@@ -12,9 +12,29 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8830.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RL2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RL2.DU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RL2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RL2.MU"
     },
     {
       "currency": "EUR",
@@ -28,16 +48,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Sumitomo Realty & Development Co., Ltd.",
-  "primary_symbol": "RL2.F",
+  "name": "Sumitomo Realty & Development Co.,Ltd.",
+  "primary_symbol": "8830.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Sumitomo Realty & Development Co., Ltd. engages in the real estate business in Japan. It operates through five segments: Leasing, Sales, Construction, Brokerage, and Other. The Leasing segment leases and manages office buildings, residences, and other properties. The Sales segment sells condominiums, detached houses, and land lots. The Construction segment is involved in the construction of housing, condominiums, and buildings. The Brokerage segment offers real estate brokerage services. The Other segment is involved in the fitness and restaurant businesses. The company was formerly known as Izumi Real Estate Co., Ltd. and changed its name to Sumitomo Realty & Development Co., Ltd. in 1957. Sumitomo Realty & Development Co., Ltd. was founded in 1949 and is headquartered in Tokyo, Japan.",
-  "website": "http://www.sumitomo-rd.co.jp/english/"
+  "summary": "Sumitomo Realty & Development Co., Ltd. is among Japan's major property companies, split into leasing, sales, construction, brokerage and other businesses. Leasing manages and rents offices and apartments and also oversees hotels, event halls, shopping centers and land, while sales markets condominiums and detached houses.",
+  "website": "https://www.sumitomo-rd.co.jp"
 }

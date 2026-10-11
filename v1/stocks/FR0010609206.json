@@ -2,28 +2,42 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000RR7Q41",
+    "composite_figi": "BBG00VJBYRC6",
+    "figi": "BBG00VJBYRD5",
     "isin": "FR0010609206"
   },
+  "industry": "Commercial Services & Supplies",
   "industry_group": "Commercial & Professional Services",
   "isin": "FR0010609206",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4ZF.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FR0010609206.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "OREGE.PA"
     }
   ],
-  "name": "OREGE",
-  "primary_symbol": "FR0010609206.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Orege Societe Anonyme",
+  "primary_symbol": "4ZF.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "OREGE is a cleantech company that develops and markets solutions for the treatment of sludge from wastewater treatment plants. The company's patented SOF (Sludge Optimization Facility) technology reduces sludge volume and improves its dewaterability; headquarters are located in Voisins-le-Bretonneux, France. OREGE aims to reduce the environmental impact of sludge management."
+  "summary": "Orege Société Anonyme designs, manufactures, and sells solutions for the treatment of municipal and industrial sludge, and complex effluents in France and internationally. It offers SOFHYS, a technology used to treat complex, toxic, or non-biodegradable industrial effluents; and SLG Solution and SLG Mobile Unit, which are solid liquid gas technology solutions for the treatment of sludge. The company was founded in 2005 and is based in Jouy-en-Josas, France. Orege Société Anonyme operates as a subsidiary of Eren Groupe SA.",
+  "website": "http://www.orege.com"
 }

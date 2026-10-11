@@ -5,6 +5,7 @@
     "composite_figi": "BBG000PPDZP7",
     "isin": "FI0009014369"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "FI0009014369",
   "kind": "stock",
@@ -13,17 +14,24 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FI0009014369.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "ORNAV.HE"
     }
   ],
-  "name": "ORION OYJ-CLASS A",
+  "market_cap_band": "Large Cap",
+  "name": "Orion Oyj Class B",
   "primary_symbol": "FI0009014369.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Orion Oyj is a Finnish pharmaceutical company that develops, manufactures and markets human and veterinary pharmaceuticals and active pharmaceutical ingredients. Its product portfolio includes prescription medicines, self-care products, and veterinary medicines. The company is headquartered in Espoo, Finland."
+  "summary": "Orion Oyj is a Finnish pharmaceutical company that develops, manufactures and markets human and veterinary pharmaceuticals and active pharmaceutical ingredients. Its product portfolio includes prescription medicines, self-care products, and veterinary medicines. The company is headquartered in Espoo, Finland.",
+  "website": "http://www.orion.fi"
 }

@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG018LQQ1Z1",
-    "figi": "BBG018LQQ207",
+    "composite_figi": "BBG001WWJTK5",
+    "cusip": "238337109",
+    "figi": "BBG001WWJTK5",
     "isin": "US2383371091"
   },
   "industry": "Hotels, Restaurants & Leisure",
@@ -12,16 +13,26 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "PLAY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9DB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "9DB.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Dave & Buster's Entertainment, Inc.",
-  "primary_symbol": "9DB.F",
+  "primary_symbol": "PLAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

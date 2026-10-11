@@ -6,6 +6,7 @@
     "figi": "BBG000H4L3C9",
     "isin": "ZAE000022331"
   },
+  "industry": "Insurance",
   "industry_group": "Health Care Equipment & Services",
   "isin": "ZAE000022331",
   "kind": "stock",
@@ -14,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "D3H.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D3H.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DCYHF"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "DSY.JO"
     }
   ],
-  "name": "DISCOVERY LTD.  RC -,001",
+  "market_cap_band": "Large Cap",
+  "name": "Discovery Limited",
   "primary_symbol": "D3H.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Discovery Ltd. is a South African-based financial services organization that operates in the healthcare, life insurance, and investment management markets. The company's core purpose is to make people healthier and to enhance and protect their lives. Discovery is headquartered in Sandton, South Africa."
+  "summary": "Discovery Ltd. is a South African-based financial services organization that operates in the healthcare, life insurance, and investment management markets. The company's core purpose is to make people healthier and to enhance and protect their lives. Discovery is headquartered in Sandton, South Africa.",
+  "website": "http://www.discovery.co.za"
 }

@@ -21,16 +21,6 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "ALONV.PA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "ALSMY"
-    },
-    {
-      "currency": "EUR",
       "symbol": "ALSO.TI"
     },
     {
@@ -40,8 +30,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AOMD.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "AOMD.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AOMD.DU"
     },
     {
       "currency": "EUR",
@@ -49,21 +49,36 @@
       "symbol": "AOMD.F"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "AOMFF"
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AOMD.HA"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "AOMU.F"
+      "exchange_mic": "XHAM",
+      "symbol": "AOMD.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AOMD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AOMD.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AOMFF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Alstom SA",
   "primary_symbol": "0J2R.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,28 +3,51 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG00Z3VGRZ5",
-    "figi": "BBG00Z3VGS38",
+    "figi": "BBG00Z3VGS10",
     "isin": "GB00BMT9K014"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "GB00BMT9K014",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "769.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "769.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "769.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BMT9K014.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "MOON.L"
     }
   ],
-  "name": "MOONPIG GROUP PLC",
-  "primary_symbol": "GB00BMT9K014.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Moonpig Group PLC",
+  "primary_symbol": "769.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Moonpig Group PLC is an online greeting card and gifting platform operating in the UK, Netherlands, and US. The company offers personalized cards, flowers, and gifts for various occasions. Moonpig Group PLC is headquartered in London, UK."
+  "summary": "Moonpig Group PLC is an online greeting card and gifting platform operating primarily in the United Kingdom and internationally. The company offers a wide range of personalized cards, gifts, and flowers for various occasions. It is listed on the London Stock Exchange.",
+  "website": "http://www.moonpig.group"
 }

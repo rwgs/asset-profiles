@@ -2,8 +2,11 @@
   "country": "Ireland",
   "country_code": "IE",
   "identifiers": {
+    "composite_figi": "BBG01JXGFL75",
+    "figi": "BBG01JXGFL75",
     "isin": "IE000OD0CSK4"
   },
+  "industry": "Auto Components",
   "industry_group": "Capital Goods",
   "isin": "IE000OD0CSK4",
   "kind": "stock",
@@ -12,18 +15,24 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "CREV"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CREVF"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Carbon Revolution Public Limited Ordinary Shares",
   "primary_symbol": "CREV",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Carbon Revolution Public Limited Ordinary Shares is a company that manufactures lightweight carbon fiber wheels for automotive applications. The company's wheels are designed to improve vehicle performance and fuel efficiency. Carbon Revolution Public Limited is headquartered in Geelong, Australia."
+  "summary": "Carbon Revolution Public Limited Ordinary Shares is a company that manufactures lightweight carbon fiber wheels for automotive applications. The company's wheels are designed to improve vehicle performance and fuel efficiency. Carbon Revolution Public Limited is headquartered in Geelong, Australia.",
+  "website": "https://www.carbonrev.com"
 }

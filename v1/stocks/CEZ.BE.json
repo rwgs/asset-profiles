@@ -1,6 +1,8 @@
 {
   "country": "Czechia",
   "country_code": "CZ",
+  "industry": "Electric Utilities",
+  "industry_group": "Utilities",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +11,14 @@
       "symbol": "CEZ.BE"
     }
   ],
-  "name": "CEZ AS INH.  KC 100",
+  "name": "CEZ AS INH. KC 100",
   "primary_symbol": "CEZ.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Utilities"
 }

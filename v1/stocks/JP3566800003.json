@@ -2,29 +2,57 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000K65JV2",
-    "figi": "BBG000K65NF1",
+    "composite_figi": "BBG000JD6QG9",
+    "figi": "BBG000JD6R86",
     "isin": "JP3566800003"
   },
+  "industry": "Road & Rail",
   "industry_group": "Transportation",
   "isin": "JP3566800003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9022.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CJPRF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "JAP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JAP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JAP.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JAP.SG"
     }
   ],
-  "name": "CENTRAL JAPAN RAILWAY CO. Regis",
-  "primary_symbol": "JAP.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Central Japan Railway Company",
+  "primary_symbol": "9022.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Central Japan Railway Company (JR Central) operates the high-speed Tokaido Shinkansen line and conventional railway lines in the Chubu region of Japan. The company provides passenger railway transportation services and related businesses. JR Central is headquartered in Nagoya, Japan."
+  "summary": "Central Japan Railway Company runs railway and related businesses in Japan through transportation, distribution and real estate segments. It operates the Tokaido Shinkansen linking Tokyo, Nagoya and Osaka, department stores in JR Central Towers and buses, sells goods on trains and in stations, rents and sells real estate, and builds and maintains railway rolling stock.",
+  "website": "https://www.jr-central.co.jp"
 }

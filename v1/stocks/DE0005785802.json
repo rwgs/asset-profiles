@@ -2,15 +2,50 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00DB6FL02",
-    "figi": "BBG00DB6FL11",
+    "composite_figi": "BBG000LYFMB4",
+    "figi": "BBG000LYFMB4",
     "isin": "DE0005785802"
   },
-  "industry": "Health Care Equipment & Supplies",
+  "industry": "Health Care Providers & Services",
   "industry_group": "Health Care Equipment & Services",
   "isin": "DE0005785802",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FMCQF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FME.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "FME.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "FME.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FME.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "FME.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FME.HM"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -18,18 +53,34 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FME.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FME.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "FME.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "FME.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "FMEN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Fresenius Medical Care AG",
-  "primary_symbol": "FME.MI",
+  "name": "Fresenius Medical Care AG & Co. KGaA",
+  "primary_symbol": "FMCQF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

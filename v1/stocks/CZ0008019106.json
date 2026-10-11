@@ -2,8 +2,8 @@
   "country": "Czechia",
   "country_code": "CZ",
   "identifiers": {
-    "composite_figi": "BBG000NMCY25",
-    "figi": "BBG000NMCY25",
+    "composite_figi": "BBG000S99GZ6",
+    "figi": "BBG000S99J17",
     "isin": "CZ0008019106"
   },
   "industry": "Banks",
@@ -11,6 +11,11 @@
   "isin": "CZ0008019106",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CZK",
+      "exchange_mic": "XLON",
+      "symbol": "0IKH.IL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -23,21 +28,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KONN.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KONN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KONN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "KONN.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Komercni banka, a.s.",
-  "primary_symbol": "KMERF",
+  "primary_symbol": "0IKH.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Komercní banka, a.s., together with its subsidiaries, provides various retail, corporate, and investment banking services primarily in the Czech Republic, and Central and Eastern Europe. The company accepts various deposits, such as current and savings accounts, term deposits, building savings, and foreign currency accounts. Its loan products include optimal, personal, student, and home equity/secured loans; loans for start-up businesses, business loans, business operating loans, and revolving loans; operational, installment, claims, and structured finance, as well as finances for acquisitions and mergers; and mortgage loans. The company also offers payment, debit, and credit cards; investment products; life, travel and card, and property insurance products; pension products; overdraft, trade and export, bond issuance, cash and payment, cash pooling, bills of exchange, financial instruments trading, leases, foreign currency and derivative, and guarantee transaction services, as well as Internet, telephone, and mobile banking services. It serves individuals, small businesses, corporates, and municipalities. As of December 31, 2020, the company operated 242 branches and 809 ATMs. The company was founded in 1990 and is headquartered in Prague, the Czech Republic. Komercní banka, a.s. is a subsidiary of Société Générale S.A.",
+  "summary": "Komercni banka a.s. is a Czech bank that provides a range of banking and financial services to individuals, businesses, and institutions. The bank operates through a network of branches and online channels. Komercni banka a.s. is headquartered in Prague, Czech Republic.",
   "website": "http://www.kb.cz"
 }

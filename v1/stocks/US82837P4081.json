@@ -24,8 +24,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0XZ.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "0XZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0XZ.MU"
     },
     {
       "currency": "MXN",
@@ -33,16 +43,21 @@
       "symbol": "SI.MX"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SICP"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US82837P4081.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "SILVERGATE CAPITAL CORPORATION",
+  "market_cap_band": "Small Cap",
+  "name": "Silvergate Capital Corporation",
   "primary_symbol": "SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

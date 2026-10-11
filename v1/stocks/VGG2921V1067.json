@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG000QWJW81",
+    "figi": "BBG000QWJWY2",
     "isin": "VGG2921V1067"
   },
   "industry": "Metals & Mining",
@@ -10,6 +11,11 @@
   "isin": "VGG2921V1067",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1733.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -27,16 +33,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "E-COMMODITIES HOLDINGS",
-  "primary_symbol": "WWY1.BE",
+  "name": "E-Commodities Holdings Limited",
+  "primary_symbol": "1733.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "E-COMMODITIES HOLDINGS is a holding company in the commodities industry. The company likely has investments in various businesses related to commodity trading, processing, and distribution. They focus on e-commerce for commodities.",
+  "summary": "E-Commodities Holdings Limited and its subsidiaries process and trade coal and other products, with segments for trading and for integrated supply chain services. It also builds and operates mining equipment, processing plants and logistics parks, in China, Indonesia, Malaysia, Mongolia, South Korea, India, Japan, Vietnam and the Netherlands. Founded in 1995 and based in Beijing, it was formerly Winsway Enterprises Holdings Limited and is a subsidiary of Famous Speech Limited.",
   "website": "http://www.e-comm.com/tc/home.aspx"
 }

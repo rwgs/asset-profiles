@@ -2,28 +2,77 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
-    "composite_figi": "BBG000BXG658",
+    "composite_figi": "BBG00G4172J5",
+    "figi": "BBG00G4172L2",
     "isin": "DK0060094928"
   },
-  "industry_group": "Utilities",
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "DK0060094928",
   "kind": "stock",
   "listings": [
     {
       "currency": "DKK",
+      "exchange_mic": "XLON",
+      "symbol": "0RHE.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "D2G.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "D2G.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "D2G.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D2G.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "D2G.SG"
+    },
+    {
+      "currency": "DKK",
       "exchange_mic": "XSWX",
       "symbol": "DK0060094928.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DOGEF"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XCSE",
+      "symbol": "ORSTED.CO"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "ORSTEDN.MX"
     }
   ],
-  "name": "ORSTED A/S",
-  "primary_symbol": "DK0060094928.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Ørsted A/S",
+  "primary_symbol": "0RHE.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Utilities",
-  "summary": "Ørsted A/S is a Danish energy company focused on renewable energy, particularly offshore wind power. They develop, construct, and operate wind farms. The company is headquartered in Fredericia, Denmark."
+  "sector": "Energy",
+  "summary": "ORSTED A/S is a Danish energy company that develops, constructs, and operates offshore wind farms. The company is a global leader in offshore wind power and is transitioning to renewable energy sources. ORSTED A/S is headquartered in Fredericia, Denmark.",
+  "website": "http://www.orsted.com"
 }

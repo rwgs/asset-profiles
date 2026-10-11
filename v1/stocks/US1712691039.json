@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BJVLC1",
+    "composite_figi": "BBG000C4TSQ6",
     "cusip": "171269103",
-    "figi": "BBG000BJVM02",
+    "figi": "BBG000C4TSQ6",
     "isin": "US1712691039"
   },
   "industry": "Pharmaceuticals",
@@ -13,31 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "4519.T"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CHGCF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CHGCY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "CUP.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Chugai Pharmaceutical Co., Ltd.",
-  "primary_symbol": "4519.T",
+  "primary_symbol": "CHGCY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

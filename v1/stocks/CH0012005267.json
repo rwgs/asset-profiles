@@ -29,8 +29,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NOTA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "NOTA.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NOTA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NOTA.MU"
     },
     {
       "currency": "EUR",
@@ -41,11 +56,6 @@
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "NOVN.SW"
-    },
-    {
-      "currency": "CHF",
-      "exchange_mic": "XSWX",
-      "symbol": "NOVNEE.SW"
     },
     {
       "currency": "ARS",
@@ -72,7 +82,7 @@
   "name": "Novartis AG",
   "primary_symbol": "NVS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

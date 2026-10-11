@@ -3,14 +3,34 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG00XZNRDD6",
-    "figi": "BBG00XZNRDJ0",
+    "figi": "BBG00XZNRDL7",
     "isin": "NO0010713936"
   },
-  "industry": "Auto Components",
+  "industry": "Electrical Equipment",
   "industry_group": "Capital Goods",
   "isin": "NO0010713936",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6I4.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "6I4.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6I4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6I4.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -23,16 +43,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Zaptec ASA",
-  "primary_symbol": "NO0010713936.SG",
+  "name": "Zaptec AS",
+  "primary_symbol": "6I4.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Zaptec ASA develops and sells charging systems for electric vehicles (EVs). The company's products are designed for both residential and commercial applications. Zaptec ASA is headquartered in Stavanger, Norway.",
+  "summary": "ZAPTEC AS develops, produces, and sells electric vehicle charging systems, focusing on simplicity, safety, and user-friendliness for homes, businesses, and public charging stations, headquartered in Stavanger, Norway.",
   "website": "http://zaptec.com"
 }

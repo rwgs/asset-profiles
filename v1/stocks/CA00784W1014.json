@@ -1,31 +1,49 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "Australia",
+  "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG00ZKX5WD7",
     "cusip": "00784W101",
-    "figi": "BBG00ZKX5WM7",
+    "figi": "BBG00ZKX5WG4",
     "isin": "CA00784W1014"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA00784W1014",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "701.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "ADY.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ADYRF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA00784W1014.SG"
     }
   ],
-  "name": "ADYTON RESOURCES CORP",
-  "primary_symbol": "CA00784W1014.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Adyton Resources Corporation",
+  "primary_symbol": "701.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "ADYTON RESOURCES CORP is a Canadian mineral exploration company focused on the exploration and development of gold and copper projects in Papua New Guinea. The company is actively exploring the Fergusson Island Gold Project. Its head office is located in Vancouver, British Columbia, Canada."
+  "summary": "Adyton Resources Corporation focuses on the development of gold and copper resources in Papua New Guinea. Its flagship project is its 100% owned Feni Island Copper Gold project. The company is headquartered in Brisbane, Australia.",
+  "website": "http://www.adytonresources.com"
 }

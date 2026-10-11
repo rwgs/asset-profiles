@@ -2,15 +2,25 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000BF17Q8",
-    "figi": "BBG000BF1C50",
+    "composite_figi": "BBG00JHW07S3",
+    "figi": "BBG00NRVWHY1",
     "isin": "ES0183746314"
   },
-  "industry": "Distributors",
-  "industry_group": "Retailing",
+  "industry": "Containers & Packaging",
+  "industry_group": "Materials",
   "isin": "ES0183746314",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NV7.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VDRFF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMAD",
@@ -18,21 +28,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VIR.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VIR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VIR.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Vidrala, S.A.",
-  "primary_symbol": "VID.MC",
+  "primary_symbol": "0NV7.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Vidrala, S.A. manufactures and sells glass containers for food and beverage products in Spain, the United Kingdom, Ireland, France, Italy, Portugal, and internationally. It also offers packaging services that include logistic solutions and beverage filling activities. The company was founded in 1965 and is headquartered in Laudio/Llodio, Spain.",
+  "sector": "Materials",
+  "summary": "Vidrala SA manufactures and distributes glass containers for the food and beverage industries. It operates production facilities in several countries. The company is headquartered in Llodio, Spain.",
   "website": "http://www.vidrala.com"
 }

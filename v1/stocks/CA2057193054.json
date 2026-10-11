@@ -2,29 +2,43 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000CT18S3",
+    "composite_figi": "BBG002N532J0",
     "cusip": "205719305",
+    "figi": "BBG002N532K8",
     "isin": "CA2057193054"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA2057193054",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C752.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA2057193054.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CMMMF"
     }
   ],
-  "name": "COMSTOCK METALS LTD",
-  "primary_symbol": "CA2057193054.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Comstock Metals Ltd.",
+  "primary_symbol": "C752.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "COMSTOCK METALS LTD is a mineral exploration company focused on exploring and developing mineral properties in North America. The company is based in Vancouver, British Columbia, Canada. Comstock Metals Ltd's primary focus is its exploration efforts."
+  "summary": "Comstock Metals Ltd., a gold exploration company, engages in the acquisition and exploration of mineral properties in Canada and Mexico. It primarily explores gold deposits. The company holds a 100% interest in the Preview SW gold project comprises 853 hectares located in the La Ronge district of Saskatchewan. Comstock Metals Ltd. was incorporated in 2007 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.comstock-metals.com"
 }

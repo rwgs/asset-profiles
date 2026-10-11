@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG00R97GPM8",
-    "figi": "BBG00R97GPM8",
+    "composite_figi": "BBG000BDVDQ7",
+    "figi": "BBG000BDVDY8",
     "isin": "HK0031044180"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -11,6 +11,11 @@
   "isin": "HK0031044180",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0031.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -34,15 +39,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "China Aerospace International Holdings Limited",
-  "primary_symbol": "CHAEF",
+  "primary_symbol": "0031.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "China Aerospace International Holdings Limited, an investment holding company, engages in hi-tech manufacturing business in the People's Republic of China. The company distributes plastic and metal products and molds, liquid crystal displays and modules, printed circuit boards, intelligent battery chargers, and electronic components. It is also involved in the provision of property investment and management, and treasury services; electroplating of metals; and distribution of packing products. The company was incorporated in 1975 and is based in Hung Hom, Hong Kong, and is considered a Red Chip company due to its listing on the Hong Kong Stock Exchange.",
+  "summary": "China Aerospace International Holdings Limited is an investment holding company concentrating on advanced manufacturing in the People's Republic of China. It distributes products including plastic and metal items and moulds, liquid crystal displays and modules, printed circuit boards, intelligent power chargers and electronic components, and also has real estate investment and management activities.",
   "website": "http://www.casil-group.com"
 }

@@ -2,28 +2,42 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000GMM9B7",
+    "composite_figi": "BBG00JHVVJX9",
+    "figi": "BBG00SY898K4",
     "isin": "SE0001664707"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "SE0001664707",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0GVS.IL"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "CATE.ST"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0001664707.SW"
     }
   ],
-  "name": "CATENA AB",
-  "primary_symbol": "SE0001664707.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Catena AB",
+  "primary_symbol": "0GVS.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "CATENA AB is a logistics property company that owns, manages, and develops properties for efficient goods flows. They focus on properties located near major transportation hubs and logistics centers. The company is headquartered in Helsingborg, Sweden."
+  "summary": "Catena AB is a Swedish real estate company that owns, manages, and develops logistics properties. The company focuses on properties located in strategic locations for logistics and distribution. Catena is headquartered in Helsingborg, Sweden.",
+  "website": "http://catenafastigheter.com"
 }

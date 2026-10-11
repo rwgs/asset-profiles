@@ -1,34 +1,39 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BQZDN7",
+    "composite_figi": "BBG00HL65Y96",
     "cusip": "694213109",
-    "figi": "BBG000BQZDN7",
+    "figi": "BBG00HL65YQ7",
     "isin": "CA6942131096"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA6942131096",
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "PEMC.V"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "PEMC"
+      "symbol": "PEMSF"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Pacific Energy & Mining Company",
-  "primary_symbol": "PEMC",
+  "name": "Pacific Empire Minerals Corp.",
+  "primary_symbol": "PEMC.V",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "Pacific Energy & Mining Company operates as an oil and gas company. The company explores and produces oil and gas properties in the United States. It has non-operated working interests in oil and gas fields in the state of Utah. The company is based in Reno, Nevada. On November 7, 2019, the voluntary petition of Pacific Energy & Mining Company for reorganization was converted to Chapter 7 liquidation in the US Bankruptcy Court for the District of Utah. It had filed for Chapter 11 bankruptcy on July 10, 2019.",
-  "website": "http://www.pemc.us"
+  "sector": "Materials",
+  "summary": "Pacific Empire Minerals Corp. engages in the acquisition and exploration of copper-gold porphyry and mineral properties in Canada. It holds a 100% interest in the Pinnacle project that covers an area of 14,040 hectares located in the Omineca Mining Division of British Columbia. The company also has interests in 9 other mineral properties in British Columbia. Pacific Empire Minerals Corp. was founded in 2012 and is headquartered in Vancouver, Canada.",
+  "website": "http://pemcorp.ca"
 }

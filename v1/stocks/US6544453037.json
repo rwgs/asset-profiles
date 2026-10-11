@@ -2,10 +2,12 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG00JRQS670",
     "cusip": "654445303",
+    "figi": "BBG00JRQS689",
     "isin": "US6544453037"
   },
-  "industry": "Interactive Media & Services",
+  "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
   "isin": "US6544453037",
   "kind": "stock",
@@ -16,46 +18,36 @@
       "symbol": "0K85.L"
     },
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "7974.T"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "NTDOF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "NTDOY"
     },
     {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "NTDOYN.MX"
-    },
-    {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NTO.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "NTO.VI"
+      "exchange_mic": "XBER",
+      "symbol": "NTOA.BE"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NTOA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NTOA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NTOA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Nintendo Co., Ltd.",
   "primary_symbol": "0K85.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

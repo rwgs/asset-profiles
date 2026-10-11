@@ -2,11 +2,12 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000C2R2G0",
+    "composite_figi": "BBG00NWMW054",
+    "figi": "BBG00NWMW063",
     "isin": "CH0002178181"
   },
   "industry": "Road & Rail",
-  "industry_group": "Capital Goods",
+  "industry_group": "Transportation",
   "isin": "CH0002178181",
   "kind": "stock",
   "listings": [
@@ -14,6 +15,11 @@
       "currency": "CHF",
       "exchange_mic": "XLON",
       "symbol": "0A0C.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SRAIF"
     },
     {
       "currency": "CHF",
@@ -25,7 +31,7 @@
   "name": "Stadler Rail AG",
   "primary_symbol": "0A0C.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

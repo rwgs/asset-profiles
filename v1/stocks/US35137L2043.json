@@ -2,16 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00NNQ8RW3",
+    "composite_figi": "BBG00JHNKJY8",
     "cusip": "35137L204",
-    "figi": "BBG00NNQ8S24",
+    "figi": "BBG00JHNKKJ2",
     "isin": "US35137L2043"
   },
-  "industry": "Metals & Mining",
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "US35137L2043",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "FOX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,9 +28,14 @@
       "symbol": "FO5B.DU"
     },
     {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "FOX.L"
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FO5B.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FO5B.MU"
     },
     {
       "currency": "ILS",
@@ -38,16 +48,17 @@
       "symbol": "US35137L2043.SG"
     }
   ],
-  "name": "Fox Corporation Class B",
-  "primary_symbol": "FO5B.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Fox Corporation Class A",
+  "primary_symbol": "FOX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Fox Corporation is a news, sports, and entertainment company. The company operates through various segments, including Cable Network Programming, Television, and Filmed Entertainment. Fox Corporation is headquartered in New York, New York.",
-  "website": "http://www.foxmarble.net"
+  "summary": "Fox Corporation operates as a news, sports, and entertainment company in the United States. The company operates through Cable Network Programming; Television; and Other, Corporate and Eliminations segments. The Cable Network Programming segment produces and licenses news, business news, and sports content for distribution primarily through cable television systems, direct broadcast satellite operators, telecommunications companies, and online multi-channel video programming distributors. It operates FOX News, a national cable news channel; FOX Business, a business news national cable channel; FS1 and FS2 multi-sport national networks; FOX Sports Racing, a video programming service that comprises motor sports programming; and FOX Soccer Plus video programming network for live soccer and rugby competitions; FOX Deportes, a Spanish-language sports programming service; and Big Ten Network, a national video programming service. The Television segment acquires, produces, markets, and distributes broadcast network programming. It operates The FOX Network, a national television broadcast network that broadcasts sports programming and entertainment; MyNetworkTV, a programming distribution service; Fox Alternative Entertainment, a full-service production studio that develops and produces unscripted and alternative programming; Bento Box, which develops and produces animated programing; and Tubi, a free advertising-supported video-on-demand service. This segment owns and operates 29 broadcast television stations. The Other, Corporate and Eliminations segment owns the FOX Studios lot that provides production and post-production services, including 15 sound stages, 4 scoring and mixing stages, 2 broadcast studios, theaters and screening rooms, editing bays, and other production facilities in Los Angeles, California. The company was incorporated in 2018 and is based in New York, New York.",
+  "website": "http://www.foxcorporation.com"
 }

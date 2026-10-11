@@ -2,10 +2,12 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG00QG40Q17",
     "cusip": "00809M104",
+    "figi": "BBG00QG40Q17",
     "isin": "US00809M1045"
   },
-  "industry": "Health Care Equipment & Supplies",
+  "industry": "Health Care Providers & Services",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US00809M1045",
   "kind": "stock",
@@ -19,13 +21,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3FMA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3FMA.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PAIYY"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Aesthetic Medical International Holdings Group Limited",
   "primary_symbol": "AIH",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

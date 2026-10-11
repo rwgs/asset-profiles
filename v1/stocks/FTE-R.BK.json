@@ -1,7 +1,11 @@
 {
   "country": "Thailand",
   "country_code": "TH",
-  "industry": "Professional Services",
+  "identifiers": {
+    "composite_figi": "BBG00H97DCD2",
+    "figi": "BBG00H97DCG9"
+  },
+  "industry": "Commercial Services & Supplies",
   "industry_group": "Commercial & Professional Services",
   "kind": "stock",
   "listings": [
@@ -11,11 +15,11 @@
       "symbol": "FTE-R.BK"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Firetrade Engineering Public Company Limited",
   "primary_symbol": "FTE-R.BK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

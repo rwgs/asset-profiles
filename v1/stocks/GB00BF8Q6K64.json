@@ -2,13 +2,25 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000Q6Z7S3",
-    "figi": "BBG000Q6ZB95",
+    "composite_figi": "BBG000N2BZ81",
+    "figi": "BBG000N2C023",
     "isin": "GB00BF8Q6K64"
   },
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "GB00BF8Q6K64",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "ABDN.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SLFPF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -21,18 +33,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T3V2.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "T3V2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "T3V2.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "STD.LIFE AB.LS-,139682539",
-  "primary_symbol": "T3V2.BE",
+  "name": "Aberdeen Group PLC",
+  "primary_symbol": "ABDN.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Aberdeen Group Plc is a global investment company, which engages in the provision of asset management and savings solutions. It operates through the following business segments: Investments, Adviser, Interactive Investor (ii), and Other. The Investments segment involves global asset management and provision of related solutions. The Adviser segment includes the United Kingdom financial business and platform services. The ii segment refers to the direct investing platform, financial planning business, and discretionary fund management. The Corporate segment relates to the Finimize, digital innovation group, and certain corporate costs. The company was founded in 1825 and is headquartered in Edinburgh, the United Kingdom.",
+  "website": "http://www.standardlifeaberdeen.com"
 }

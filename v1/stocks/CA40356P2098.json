@@ -2,8 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000RTVX27",
+    "composite_figi": "BBG00H2YT1X5",
     "cusip": "40356P209",
+    "figi": "BBG00H2YT227",
     "isin": "CA40356P2098"
   },
   "industry": "Metals & Mining",
@@ -13,18 +14,36 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "753.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA40356P2098.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "GYA.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GYNAF"
     }
   ],
-  "name": "GUYANA GOLDSTRIKE INC",
-  "primary_symbol": "CA40356P2098.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Guyana Goldstrike Inc.",
+  "primary_symbol": "753.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials"
+  "sector": "Materials",
+  "summary": "Guyana Goldstrike Inc. engages in the acquisition, exploration, and development of resource properties. It explores for gold deposits. It primarily holds an interest in the Marudi Gold project that covers an area of approximately 13,500 acres located in Guyana, South America. The company was formerly known as Swift Resources Inc. and changed its name to Guyana Goldstrike Inc. in March 2017. Guyana Goldstrike Inc. was incorporated in 2006 and is based in Vancouver, Canada.",
+  "website": "http://www.guyanagoldstrike.com"
 }

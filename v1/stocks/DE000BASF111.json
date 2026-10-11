@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000BBVT77",
+    "figi": "BBG000BBVVK7",
     "isin": "DE000BASF111"
   },
   "industry": "Chemicals",
@@ -11,15 +13,70 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "BAS.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BAS.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BAS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "BAS.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BAS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BAS.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BAS.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BAS.VI"
+    },
+    {
+      "currency": "HUF",
+      "exchange_mic": "XBUD",
+      "symbol": "BASF.BD"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "BASF.MI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "BASN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BFFAF"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "BASF SE",
-  "primary_symbol": "BASF.MI",
+  "name": "BASF Se",
+  "primary_symbol": "BAS.DE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

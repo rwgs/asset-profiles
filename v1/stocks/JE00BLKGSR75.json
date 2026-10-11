@@ -2,6 +2,8 @@
   "country": "Jersey",
   "country_code": "JE",
   "identifiers": {
+    "composite_figi": "BBG00PBHXGB0",
+    "figi": "BBG00PBHXGB0",
     "isin": "JE00BLKGSR75"
   },
   "industry": "Biotechnology",
@@ -9,6 +11,11 @@
   "isin": "JE00BLKGSR75",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IDGXF"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XLON",
@@ -21,10 +28,10 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Integrated Diagnostics Holdings Plc",
-  "primary_symbol": "IDHC.L",
+  "name": "Integrated Diagnostics Holdings plc",
+  "primary_symbol": "IDGXF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -32,5 +39,5 @@
   "schema_version": "1.0.0",
   "sector": "Health Care",
   "summary": "Integrated Diagnostics Holdings plc, a consumer healthcare company, provides various medical diagnostics services to patients. It offers approximately 2,000 diagnostic test services, including immunology, microbiology, hematology, endocrinology, clinical chemistry, molecular biology, cytogenetics, histopathology, and radiology. The company operates in Egypt, Jordan, Sudan, and Nigeria. As of December 31, 2020, it operated a network of 481 branch labs. The company was founded in 1979 and is headquartered in Saint Helier, Jersey.",
-  "website": "http://www.idhcorp.com"
+  "website": "https://www.idhcorp.com"
 }

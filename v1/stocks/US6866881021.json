@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000Q5BQ63",
+    "cusip": "686688102",
+    "figi": "BBG000Q5BQ63",
     "isin": "US6866881021"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -11,6 +14,11 @@
   "listings": [
     {
       "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "ORA"
+    },
+    {
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0KDH.L"
     },
@@ -18,13 +26,33 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HNM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HNM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HNM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HNM.SG"
+    },
+    {
+      "currency": "ILS",
+      "exchange_mic": "XTAE",
+      "symbol": "ORA.TA"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Ormat Technologies, Inc.",
-  "primary_symbol": "0KDH.L",
+  "primary_symbol": "ORA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

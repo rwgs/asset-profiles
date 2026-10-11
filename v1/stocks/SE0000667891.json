@@ -2,13 +2,30 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BMVYC6",
+    "composite_figi": "BBG000R2K3D2",
+    "figi": "BBG000R2K486",
     "isin": "SE0000667891"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "SE0000667891",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0HC0.IL"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "SAND.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SDVKF"
+    },
     {
       "currency": "SEK",
       "exchange_mic": "XSWX",
@@ -26,19 +43,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SVKB.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "SVKB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SVKB.SG"
     }
   ],
-  "name": "SANDVIK AB",
-  "primary_symbol": "SE0000667891.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Sandvik AB (publ)",
+  "primary_symbol": "0HC0.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "SANDVIK AB is a high-tech engineering group that develops and manufactures tools and tooling systems for metal cutting, equipment and tools for the mining and construction industries, and materials technology. They serve a variety of industries, including aerospace, automotive, and energy. The company is headquartered in Sandviken, Sweden."
+  "summary": "Sandvik AB is a Swedish high-tech engineering group that develops and manufactures tools and tooling systems for metal cutting, equipment and tools for the mining and construction industries, and stainless and special alloys. The company operates globally and serves a wide range of industries. Sandvik AB is headquartered in Sandviken, Sweden.",
+  "website": "http://www.home.sandvik"
 }

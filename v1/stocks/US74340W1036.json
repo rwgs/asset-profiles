@@ -2,30 +2,53 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000HXWWD8",
+    "composite_figi": "BBG000B9Z0J8",
     "cusip": "74340W103",
-    "figi": "BBG000HXWZN0",
+    "figi": "BBG000B9Z339",
     "isin": "US74340W1036"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "isin": "US74340W1036",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "PLD"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0KOD.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "POJN.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XBER",
+      "symbol": "PRLD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "PRLD.VI"
     }
   ],
-  "name": "ProLogis Inc. Registered Shares",
-  "primary_symbol": "POJN.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Prologis, Inc.",
+  "primary_symbol": "PLD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Prologis, Inc. is a real estate investment trust (REIT) that owns, manages, and develops logistics facilities. They lease their industrial properties to a diverse base of customers, primarily in the business-to-business and retail/online fulfillment sectors. The company is headquartered in San Francisco, California."
+  "summary": "Prologis, Inc. is the global leader in logistics real estate with a focus on high-barrier, high-growth markets. As of December 31, 2020, the company owned or had investments in, on a wholly owned basis or through co-investment ventures, properties and development projects expected to total approximately 984 million square feet (91 million square meters) in 19 countries. Prologis leases modern logistics facilities to a diverse base of approximately 5,500 customers principally across two major categories: business-to-business and retail/online fulfillment.",
+  "website": "http://www.prologis.com"
 }

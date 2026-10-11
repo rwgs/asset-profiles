@@ -2,15 +2,20 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG00VDHQ9L8",
-    "figi": "BBG00VDHQ9L8",
+    "composite_figi": "BBG013QPMGH0",
+    "figi": "BBG013QPMGK6",
     "isin": "CH0435377954"
   },
-  "industry": "Distributors",
-  "industry_group": "Retailing",
+  "industry": "Containers & Packaging",
+  "industry_group": "Materials",
   "isin": "CH0435377954",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "0P4G.IL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -23,16 +28,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "SIG COMBIBLOC GROUP AG",
-  "primary_symbol": "SCBGF",
+  "name": "SIG Combibloc Group",
+  "primary_symbol": "0P4G.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
+  "sector": "Materials",
   "summary": "SIG Combibloc Group AG provides aseptic carton packaging systems and solutions for beverage and liquid food products. The company provides aseptic carton packaging filling machines, aseptic carton packaging sleeves, and closures, as well as spare parts, maintenance, digital, add-on, training, and other services. It primarily operates in Europe, the Middle East, Africa, the Asia Pacific, and the Americas. The company was founded in 1853 and is headquartered in Neuhausen am Rheinfall, Switzerland.",
   "website": "http://www.sig.biz"
 }

@@ -2,9 +2,7 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00YTS96G2",
-    "cusip": "03743Q108",
-    "figi": "BBG00YTS96G2",
+    "composite_figi": "BBG000BC42W6",
     "isin": "AU000000APA1"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,26 +11,36 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "APA"
-    },
-    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "A1PA34.SA"
     },
     {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "APA.MX"
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "APA.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "APAJF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PJZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PJZ.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "APA Corporation",
-  "primary_symbol": "APA",
+  "primary_symbol": "A1PA34.SA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

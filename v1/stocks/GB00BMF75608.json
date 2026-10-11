@@ -2,29 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG007D41WJ9",
-    "figi": "BBG007D41WN4",
+    "composite_figi": "BBG000BKNKY5",
+    "figi": "BBG000BKNLG3",
     "isin": "GB00BMF75608"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "GB00BMF75608",
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CMET.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BMF75608.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "N9R.F"
     }
   ],
-  "name": "CAPITAL METALS PLC",
-  "primary_symbol": "GB00BMF75608.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Capital Metals plc",
+  "primary_symbol": "CMET.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Capital Metals PLC is a mineral sands company focused on the exploration and development of high-grade mineral sands deposits in Sri Lanka. The company's flagship project is the Eastern Minerals Project, which is expected to produce ilmenite, rutile, and zircon. Capital Metals PLC is headquartered in London, UK."
+  "summary": "Capital Metals plc focuses on exploring, developing, and producing mineral sands in Sri Lanka and internationally. It holds interests in the Eastern Minerals Project that is located in the Eastern Province of Sri Lanka, approximately 220 km east of Colombo. The company was founded in 2015 and is based in London, the United Kingdom.",
+  "website": "http://capitalmetals.com"
 }

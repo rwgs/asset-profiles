@@ -6,6 +6,7 @@
     "figi": "BBG00JG00ZK0",
     "isin": "AU0000067936"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU0000067936",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000067936.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NC3.F"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "RML.AX"
     }
   ],
-  "name": "RESOLUTION MINERALS LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Resolution Minerals Limited",
   "primary_symbol": "AU0000067936.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Resolution Minerals Ltd is an Australian exploration company focused on gold and copper projects in Alaska and Australia. The company is exploring for mineral resources in prospective regions."
+  "summary": "Resolution Minerals Ltd is an Australian exploration company focused on gold and copper projects in Alaska and Australia. The company is exploring for mineral resources in prospective regions.",
+  "website": "http://www.resolutionminerals.com"
 }

@@ -2,9 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000PZYQL6",
-    "cusip": "061605101",
-    "figi": "BBG000PZYQL6",
+    "composite_figi": "BBG000FTZ028",
+    "figi": "BBG000FTZ082",
     "isin": "CNE100000205"
   },
   "industry": "Banks",
@@ -13,9 +12,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "BCMXY"
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3328.HK"
     },
     {
       "currency": "USD",
@@ -24,8 +23,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C4C.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "C4C.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "C4C.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C4C.MU"
     },
     {
       "currency": "EUR",
@@ -34,16 +48,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Bank of Communications Co., Ltd. Class H",
-  "primary_symbol": "BCMXY",
+  "name": "Bank of Communications Co., Ltd.",
+  "primary_symbol": "3328.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Bank of Communications Co., Ltd. provides commercial banking products and services. The company offers personal banking products and services, including demand, time, call, withdrawal, foreign currency, swap management, and education deposits, as well as certificate of deposits; credit and debit cards; housing and personal loans; and wealth management products, and wealth management advisory and consulting services. It also provides corporate banking products and services, such as corporate time and demand structured deposits; cash management services, such as accounts receivable/accounts payable management, account management, liquidity management, and investment and financing management; financing, settlement, and risk management services; financing services; syndicated loans; overdrafts; investment banking services; offshore banking services, including forex deposit and loan, inter-bank loan, international settlement, forex trading and guarantee, business advisory, and other services; and precious metal leasing and commodity trading services. In addition, the company offers international banking services comprising corporate foreign exchange wealth management, import and export settlement, document settlement, remittance and bill, trade finance, and offshore banking services. Further, it provides treasury, asset management, trustee, insurance, financial leasing, debt-to-equity swap, and other financial services; trust investment, fund management, securities dealing and brokerage, and reinsurance services; and e-banking services. It has 245 branches and 3,025 banking outlets in Mainland China; 22 overseas branches and 68 overseas banking outlets, as well as representative offices in 17 countries. Bank of Communications Co., Ltd. was founded in 1908 and is headquartered in Shanghai, the People's Republic of China.",
-  "website": "http://www.bankcomm.com"
+  "summary": "Bank of Communications Co., Ltd. is a commercial bank providing personal, corporate and international banking. Individuals can use various deposit accounts, credit and debit cards, housing and personal loans, and wealth management. Businesses can use deposits, cash management, financing, settlement, risk management, syndicated loans, investment banking and offshore banking, and the bank also leases precious metals and trades commodities.",
+  "website": "https://www.bankcomm.com"
 }

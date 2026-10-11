@@ -2,10 +2,10 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BJWBZ7",
     "cusip": "65654L105",
     "isin": "CA65654L1058"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA65654L1058",
   "kind": "stock",
@@ -14,17 +14,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA65654L1058.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NOCSF"
     }
   ],
-  "name": "NORSEMAN SILVER INC",
+  "market_cap_band": "Nano Cap",
+  "name": "Norseman Silver Inc",
   "primary_symbol": "CA65654L1058.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Norseman Silver Inc. is a mineral exploration company. It focuses on acquiring and exploring mineral properties with a focus on silver. The company is based in Canada."
+  "summary": "Norseman Silver Inc. is a mineral exploration company. It focuses on acquiring and exploring mineral properties with a focus on silver. The company is based in Canada.",
+  "website": "http://norsemancap.com"
 }

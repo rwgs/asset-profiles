@@ -6,6 +6,7 @@
     "figi": "BBG00DWV5DF7",
     "isin": "NL0012015705"
   },
+  "industry": "Internet & Direct Marketing Retail",
   "industry_group": "Software & Services",
   "isin": "NL0012015705",
   "kind": "stock",
@@ -17,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "T5W.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "T5W.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T5W.F"
     },
     {
       "currency": "EUR",
@@ -29,17 +40,33 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "T5W.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "T5W.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "TKWY.AS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "TKWY.VI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Just Eat Takeaway.com B.V.",
   "primary_symbol": "T5W.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "JUST EAT TAKEAWAY. EO-,04 is an online food order and delivery service that connects consumers with restaurants and provides delivery services through its own fleet and partner couriers. The company operates in multiple countries across Europe, North America, and other regions, offering a wide range of cuisines and restaurant options through its platform. Its headquarters is located in Amsterdam, Netherlands."
+  "summary": "Just Eat Takeaway.com B.V. is an online food order and delivery service that connects consumers with restaurants and provides delivery services through its own fleet and partner couriers. The company operates in multiple countries across Europe, North America, and other regions, offering a wide range of cuisines and restaurant options through its platform. Its headquarters is located in Amsterdam, Netherlands.",
+  "website": "http://www.justeattakeaway.com"
 }

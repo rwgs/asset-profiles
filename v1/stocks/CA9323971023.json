@@ -2,10 +2,12 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000C0SL26",
+    "composite_figi": "BBG000G5H9D8",
     "cusip": "932397102",
+    "figi": "BBG000G5HDX7",
     "isin": "CA9323971023"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA9323971023",
   "kind": "stock",
@@ -14,17 +16,44 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA9323971023.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "WC7.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WC7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WC7.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WLBMF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "WM.TO"
     }
   ],
-  "name": "WALLBRIDGE MINING CO LTD",
+  "market_cap_band": "Micro Cap",
+  "name": "Wallbridge Mining Company Limited",
   "primary_symbol": "CA9323971023.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Wallbridge Mining Company Ltd. is a Canadian exploration and development company focused on gold. The company's flagship asset is the Fenelon Gold Property. Wallbridge Mining is headquartered in Sudbury, Ontario, Canada."
+  "summary": "Wallbridge Mining Company Ltd. is a Canadian exploration and development company focused on gold. The company's flagship asset is the Fenelon Gold Property. Wallbridge Mining is headquartered in Sudbury, Ontario, Canada.",
+  "website": "http://wallbridgemining.com"
 }

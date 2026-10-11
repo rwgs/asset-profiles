@@ -2,28 +2,72 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00JVBVQ34",
+    "composite_figi": "BBG00M6X32J4",
+    "figi": "BBG00NRVYDV1",
     "isin": "DE000A2NBX80"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "DE000A2NBX80",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0ZQ7.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000A2NBX80.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "INS.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "INS.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "INS.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "INS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "INS.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "INS.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "INS.MU"
     }
   ],
-  "name": "INSTONE REAL ESTATE GROUP SE",
-  "primary_symbol": "DE000A2NBX80.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "Instone Real Estate Group SE",
+  "primary_symbol": "0ZQ7.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Instone Real Estate Group SE is a residential developer in Germany, developing and building multi-family homes and apartments in urban locations, headquartered in Essen, Germany. The company focuses on sustainable building practices and modern living concepts. Instone Real Estate aims to create attractive and affordable housing solutions."
+  "summary": "Instone Real Estate Group SE, together with its subsidiaries, develops residential real estate properties in Germany. The company develops single and multi-family buildings, publicly subsidized housing, designs modern residential neighborhood, and renovates listed properties. It also sells and rents residential quarters with apartments and refurbishes listed buildings for residential use. Instone Real Estate Group SE was founded in 1991 and is headquartered in Essen, Germany.",
+  "website": "https://www.instone.de"
 }

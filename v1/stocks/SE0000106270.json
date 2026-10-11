@@ -4,7 +4,8 @@
   "identifiers": {
     "isin": "SE0000106270"
   },
-  "industry_group": "Retailing",
+  "industry": "Textiles, Apparel & Luxury Goods",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "SE0000106270",
   "kind": "stock",
   "listings": [
@@ -14,20 +15,67 @@
       "symbol": "0HBP.IL"
     },
     {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "HM-B.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HMRZF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HMSB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "HMSB.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HMSB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HMSB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HMSB.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HMSB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HMSB.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HMSB.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "H&M Hennes & Mauritz AB Class B",
   "primary_symbol": "0HBP.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "H & M Hennes & Mauritz AB is a Swedish multinational clothing retail company. The company operates a chain of stores that offer fashion apparel, accessories, and home goods. H & M Hennes & Mauritz AB is headquartered in Stockholm, Sweden."
+  "summary": "H & M Hennes & Mauritz AB is a Swedish multinational clothing retail company. The company operates a chain of stores that offer fashion apparel, accessories, and home goods. H & M Hennes & Mauritz AB is headquartered in Stockholm, Sweden.",
+  "website": "http://www.hmgroup.com"
 }

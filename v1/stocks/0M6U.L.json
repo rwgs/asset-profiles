@@ -1,6 +1,11 @@
 {
   "country": "Hungary",
   "country_code": "HU",
+  "identifiers": {
+    "composite_figi": "BBG00JHVYB63",
+    "figi": "BBG00JHVYB72"
+  },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "kind": "stock",
   "listings": [
@@ -10,10 +15,11 @@
       "symbol": "0M6U.L"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "Budapesti Ingatlan Hasznositasi es Fejlesztesi Nyrt.",
   "primary_symbol": "0M6U.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

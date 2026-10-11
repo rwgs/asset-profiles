@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000KX4B69",
+    "composite_figi": "BBG000BCWWV0",
     "cusip": "199333105",
-    "figi": "BBG000KX5G03",
+    "figi": "BBG000BCWWV0",
     "isin": "US1993331057"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "US1993331057",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "CMCO"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US1993331057.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VC3.F"
     }
   ],
-  "name": "COLUMBUS MCKINNON CORP/NY",
-  "primary_symbol": "US1993331057.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Columbus McKinnon Corporation",
+  "primary_symbol": "CMCO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "COLUMBUS MCKINNON CORP/NY designs, manufactures, and markets material handling products, systems, and services. These include hoists, cranes, actuators, and rigging tools, used in a variety of industries worldwide. The company is headquartered in Getzville, New York."
+  "summary": "Columbus McKinnon Corporation designs, manufactures, and markets intelligent motion solutions to ergonomically move, lift, position, and secure materials worldwide. It offers material handling equipment, such as electric and air hoists, manual hoists, trolleys, and winches; crane systems, including crane components, crane kits, enclosed track rail systems, mobile workstation and jib cranes, lift assists, and fall protection systems; rigging equipment comprising below-the-hook lifters, wire grips, hooks, shackles, chains, forestry and hand tools, lifting slings, lashing systems, tie-downs, and load binders; and power fluid transfer technology, such as rotary unions and swivel joints. The company also provides power and motion technology, including AC motor controls systems, AC line regenerative systems, actuators, automation and diagnostics, brakes, cable and festoon systems, collision avoidance systems, conductor bar systems, DC motor and magnet control systems, elevator drives, inverter duty motors, mining drives, pendant pushbutton stations, and wind inverters; sanitary and vertical elevation conveyor systems, as well as pallet system conveyors; and lifting solutions, such as legacy crane solutions, industrial products, and engineered products. It serves market verticals, including general industries, mobile industries, energy and utilities, process industries, industrial automation, construction and infrastructure, food processing, entertainment, life sciences, consumer packaged goods, and e-commerce/supply chain/warehousing. The company offers its products to end users directly, as well as through distributors, private companies, engineering procurement contractors, crane builders, integrators of factory production systems, and original equipment manufacturers. Columbus McKinnon Corporation was founded in 1875 and is headquartered in Buffalo, New York.",
+  "website": "http://www.columbusmckinnon.com"
 }

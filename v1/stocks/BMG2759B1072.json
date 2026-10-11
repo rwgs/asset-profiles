@@ -2,15 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000J7KBY9",
-    "figi": "BBG000J7KBY9",
+    "composite_figi": "BBG000C1Z424",
+    "figi": "BBG000C1Z4K4",
     "isin": "BMG2759B1072"
   },
-  "industry": "IT Services",
-  "industry_group": "Software & Services",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "BMG2759B1072",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0861.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -18,21 +23,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DIN.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DIN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DIN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DIN.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Digital China Holdings Limited",
-  "primary_symbol": "DCHIF",
+  "primary_symbol": "0861.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Digital China Holdings Limited, an investment holding company, provides information technology (IT) services primarily in Mainland China. The company operates through five segments: DCITS, Smart Industry Chain Business, Sm@rt City Business, Investing Business, and Other Business. The DCITS segment provides system development, maintenance, industry cloud, and infrastructure development services for the banking industry; and technical, application software development, and industry cloud construction and operation services for government, enterprises, and agriculture clients. The Smart Industry Chain Business segment offers logistics and e-commerce supply chain services. The Sm@rt City Business segment builds a city-wide big data platform for the city to solve medical, transportation, energy supply, and social security issues. The Investing Business segment provides mergers and acquisitions, equity investment, and specialized capital operations, such as investment incubation. The Other Business engages in the investment and sale of properties; financial licensing; integration of resources of financial institutions, such as banking, insurance, securities, and trusts; and provision of financial services, such as micro-credit loan, leasing, factoring, etc. to internal and external customers. It also engages in data integration and management software sales businesses; development and construction of science and technology park; provision of systems integration and network optimization services; and sale of financial specialized equipment and surveying service software. Digital China Holdings Limited was incorporated in 2000 and is headquartered in Wan Chai, Hong Kong.",
+  "summary": "Digital China Holdings Limited is a Hong Kong-headquartered investment company founded in 2000 that provides information technology services. It has three segments: big data products and solutions, including the Data Fabric, Data Hub and Digital Twin suites; software and operating services using cloud, automation and artificial intelligence; and traditional and localization services such as systems integration and e-commerce supply chain work that supports the other two.",
   "website": "http://www.dcholdings.com"
 }

@@ -2,27 +2,91 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00HL0TPY4",
-    "figi": "BBG00HL0TPZ3",
+    "composite_figi": "BBG000BC1HT0",
+    "figi": "BBG000BC1M55",
     "isin": "DE0006047004"
   },
+  "industry": "Construction Materials",
   "industry_group": "Materials",
   "isin": "DE0006047004",
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HEI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "HEI.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HEI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HEI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HEI.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HEI.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "HEI.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HEI.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HEI.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "HEI.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "HEI.VI"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "HEID.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HLBZF"
     }
   ],
-  "name": "HEIDELBERG CEMENT",
-  "primary_symbol": "HEI.TI",
+  "market_cap_band": "Large Cap",
+  "name": "HeidelbergCement AG",
+  "primary_symbol": "HEI.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Heidelberg Cement is a multinational building materials company headquartered in Heidelberg, Germany. The company is a leading producer of cement, aggregates, and ready-mixed concrete. Heidelberg Cement operates globally with production sites in numerous countries."
+  "summary": "HeidelbergCement AG, together with its subsidiaries, produces and distributes cement, aggregates, ready-mixed concrete, and asphalt worldwide. It provides cement products, including special cements with targeted characteristics, special geotechnical building materials, and a range of binders. The company also offers natural stone aggregates, such as sand and gravel; crushed aggregates comprising stone chippings and crushed stones; and concrete/ready-mixed concrete for use in the construction of tunnels or bridges, office buildings, or schools, as well as for the production of precast concrete parts consisting of stairs, ceiling elements, or structural components. In addition, it provides asphalt primarily used in the construction of infrastructure, such as roads; and trades in cement, clinker, solid and alternative fuels, and other building materials. The company was founded in 1873 and is headquartered in Heidelberg, Germany.",
+  "website": "http://www.heidelbergcement.com"
 }

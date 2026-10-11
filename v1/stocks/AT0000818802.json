@@ -2,6 +2,8 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
+    "composite_figi": "BBG000C3RNT8",
+    "figi": "BBG000C3RP77",
     "isin": "AT0000818802"
   },
   "industry": "Air Freight & Logistics",
@@ -13,13 +15,38 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "DOC.VI"
+    },
+    {
+      "currency": "TRY",
+      "exchange_mic": "XIST",
+      "symbol": "DOCO.IS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DOQ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DOQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DOQ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DOQ.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "DO & CO Aktiengesellschaft",
   "primary_symbol": "DOC.VI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

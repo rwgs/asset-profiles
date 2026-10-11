@@ -7,7 +7,7 @@
     "isin": "GB00BSBMW716"
   },
   "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry_group": "Consumer Services",
   "isin": "GB00BSBMW716",
   "kind": "stock",
   "listings": [
@@ -22,6 +22,11 @@
       "symbol": "0FO.F"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FOCIF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BSBMW716.SG"
@@ -32,10 +37,11 @@
       "symbol": "TUNE.L"
     }
   ],
-  "name": "FOCUSRITE PLC  LS -,001",
+  "market_cap_band": "Micro Cap",
+  "name": "Focusrite Plc.",
   "primary_symbol": "0FO.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

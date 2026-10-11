@@ -2,6 +2,9 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG009PH3Q86",
+    "cusip": "N3167Y103",
+    "figi": "BBG009PH3Q86",
     "isin": "NL0011585146"
   },
   "industry": "Automobiles",
@@ -10,16 +13,51 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "RACE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RDT.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "2FE.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2FE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "2FE.SG"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "RACE.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "RACE.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "RACEN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Ferrari N.V.",
-  "primary_symbol": "RACE.MI",
+  "primary_symbol": "RACE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000DH1T57",
+    "composite_figi": "BBG000F54FK1",
     "cusip": "06759L103",
-    "figi": "BBG000DH1TJ2",
+    "figi": "BBG000F54FK1",
     "isin": "US06759L1035"
   },
   "industry": "Consumer Finance",
@@ -13,6 +13,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "BBDC"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TRY.F"
@@ -20,9 +25,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Barings BDC, Inc.",
-  "primary_symbol": "TRY.F",
+  "primary_symbol": "BBDC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

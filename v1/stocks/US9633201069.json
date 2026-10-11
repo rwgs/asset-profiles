@@ -2,19 +2,35 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FHHT85",
+    "composite_figi": "BBG000BWSV34",
     "cusip": "963320106",
-    "figi": "BBG000FHJZH9",
+    "figi": "BBG000BWSW50",
     "isin": "US9633201069"
   },
-  "industry_group": "Retailing",
+  "industry": "Hotels, Restaurants & Leisure",
+  "industry_group": "Consumer Services",
   "isin": "US9633201069",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "WHR"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LWH.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "WHR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "WHR.DE"
     },
     {
       "currency": "EUR",
@@ -32,15 +48,17 @@
       "symbol": "WHR.SG"
     }
   ],
-  "name": "WHIRLPOOL CORP.  DL 1",
-  "primary_symbol": "WHR.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Whirlpool Corporation",
+  "primary_symbol": "WHR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Whirlpool Corporation manufactures and markets home appliances including refrigerators, washing machines, and ovens. The company sells its products under various brands, including Whirlpool, KitchenAid, Maytag, and others. Whirlpool is headquartered in Benton Harbor, Michigan."
+  "summary": "Whirlpool Corporation specializes in the creation and distribution of household appliances and associated merchandise. Its extensive operations are divided into four principal geographical regions: North America, Europe (encompassing the Middle East and Africa), Latin America, and Asia. The company's core product lineup includes a wide variety of essential items such as refrigeration solutions like refrigerators, freezers, ice makers, and water filters; a comprehensive range of laundry machines and their complementary accessories; cooking devices and other compact kitchen equipment; dishwashers with accompanying accessories; and mixers. These diverse products are brought to market under numerous well-known brand names, specifically Whirlpool, Maytag, KitchenAid, JennAir, Amana, Roper, Affresh, Gladiator, Swash, everydrop, Speed Queen, Hotpoint, Bauknecht, Indesit, Ignis, Privileg, Consul, Eslabon de Lujo, Brastemp, Acros, Ariston, Diqua, and Royalstar. Whirlpool distributes its merchandise through various channels, supplying products to retailers, distributors, independent dealers, construction companies, other manufacturers, and directly to individual consumers. The corporation was established in 1911 and maintains its corporate headquarters in Benton Harbor, Michigan.",
+  "website": "https://www.whirlpoolcorp.com"
 }

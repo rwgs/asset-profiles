@@ -24,8 +24,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "307.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "307.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "307.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "307.MU"
     },
     {
       "currency": "EUR",
@@ -53,11 +68,11 @@
       "symbol": "SHOPN.MX"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Shopify Inc.",
   "primary_symbol": "SHOP",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

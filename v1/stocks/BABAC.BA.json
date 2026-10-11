@@ -1,6 +1,10 @@
 {
   "country": "China",
   "country_code": "CN",
+  "identifiers": {
+    "composite_figi": "BBG020JLFBL6",
+    "figi": "BBG020JLFBL6"
+  },
   "industry_group": "Software & Services",
   "kind": "stock",
   "listings": [
@@ -10,15 +14,17 @@
       "symbol": "BABAC.BA"
     }
   ],
-  "name": "ALIBABA GROUP HLDG",
+  "market_cap_band": "Mega Cap",
+  "name": "Alibaba Group Hldg",
   "primary_symbol": "BABAC.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ALIBABA GROUP HOLDING is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The company provides consumer-to-consumer, business-to-consumer, and business-to-business sales services via web portals."
+  "summary": "ALIBABA GROUP HOLDING is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. The company provides consumer-to-consumer, business-to-consumer, and business-to-business sales services via web portals.",
+  "website": "http://www.alibabagroup.com"
 }

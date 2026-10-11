@@ -2,28 +2,77 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000C331Q5",
+    "composite_figi": "BBG000R3X523",
+    "figi": "BBG000R3X6Z5",
     "isin": "NO0010081235"
   },
-  "industry_group": "Energy",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "NO0010081235",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "D7G.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "D7G.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "D7G.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "D7G.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "D7G.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D7G.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "D7G.SG"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "NEL.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NLLSF"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010081235.SW"
     }
   ],
-  "name": "NEL ASA",
-  "primary_symbol": "NO0010081235.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Nel ASA",
+  "primary_symbol": "D7G.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "NEL ASA is a global company specializing in hydrogen technology. The company designs and manufactures electrolyzers for hydrogen production and fueling stations for hydrogen vehicles. NEL ASA is headquartered in Oslo, Norway."
+  "sector": "Industrials",
+  "summary": "Nel ASA, a hydrogen company, delivers various solutions to produce, store, and distribute hydrogen from renewable energy in Norway, the United States, Denmark, and South Korea. It operates in two segments, Nel Hydrogen Fueling and Nel Hydrogen Electrolyser. The company produces H2Station hydrogen fueling stations that provide fuel cell electric vehicles with the fast fueling and long range as conventional vehicles, including cars, buses, trucks, forklifts, and other applications. It also produces and installs electrolysers for hydrogen production. The company serves industry, energy, and gas companies. The company was formerly known as DiaGenic ASA and changed its name to Nel ASA in October 2014. Nel ASA was founded in 1927 and is headquartered in Oslo, Norway.",
+  "website": "http://nelhydrogen.com"
 }

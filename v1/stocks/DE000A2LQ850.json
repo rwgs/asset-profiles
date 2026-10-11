@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "DE000A2LQ850"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "DE000A2LQ850",
   "kind": "stock",
@@ -12,17 +13,44 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A2LQ850.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PAG.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "PAG.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PAG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PAG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PAG.MU"
     }
   ],
-  "name": "PREOS GBL OFFICE R/EST & TECH A",
+  "market_cap_band": "Small Cap",
+  "name": "PREOS Global Office Real Estate & Technology AG",
   "primary_symbol": "DE000A2LQ850.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "PREOS GBL OFFICE R/EST & TECH A is a real estate investment company based in Germany that focuses on investing in office properties and technology-related real estate. The company aims to generate attractive returns for its investors through strategic acquisitions, property management, and value enhancement initiatives. Their strategy involves focusing on properties located in key economic regions."
+  "summary": "PREOS GBL OFFICE R/EST & TECH A is a real estate investment company based in Germany that focuses on investing in office properties and technology-related real estate. The company aims to generate attractive returns for its investors through strategic acquisitions, property management, and value enhancement initiatives. Their strategy involves focusing on properties located in key economic regions.",
+  "website": "http://www.preos.de"
 }

@@ -2,10 +2,13 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00215LXQ8",
+    "composite_figi": "BBG00D5QVHP9",
     "cusip": "492537105",
+    "figi": "BBG00D5QVHT5",
     "isin": "CA4925371052"
   },
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "CA4925371052",
   "kind": "stock",
   "listings": [
@@ -13,15 +16,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA4925371052.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KSSRF"
     }
   ],
-  "name": "KESSELRUN RESOURCES LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Kesselrun Resources Ltd.",
   "primary_symbol": "CA4925371052.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Materials",
+  "summary": "Kesselrun Resources Ltd. engages in the acquisition, exploration, and development of mineral properties in Canada. The company owns 100% interest in the Bluffpoint property comprising of 280 mining claims covering an area of 8,857 hectares located in the Kenora mining division of northwestern Ontario. It also holds 100% interest in Huronian property consisting of 290 contiguous unpatented mining claims and four patented mining claims totaling approximately 5,160 hectares located in Moss Township, Thunder Bay Mining Division, Ontario. The company was formerly known as Aleeyah Capital Corp. and changed its name to Kesselrun Resources Ltd. in July 2012. Kesselrun Resources Ltd. was incorporated in 2011 and is headquartered in Thunder Bay, Canada.",
+  "website": "http://www.kesselrunresources.com"
 }

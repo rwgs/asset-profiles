@@ -1,9 +1,10 @@
 {
-  "country": "United Kingdom",
-  "country_code": "GB",
+  "country": "Luxembourg",
+  "country_code": "LU",
   "identifiers": {
     "isin": "LU0075646355"
   },
+  "industry": "Energy Equipment & Services",
   "industry_group": "Energy",
   "isin": "LU0075646355",
   "kind": "stock",
@@ -14,20 +15,52 @@
       "symbol": "0OGK.IL"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ACGYF"
+    },
+    {
       "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "LU0075646355.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SOC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SOC.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SOC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SOC.SG"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "SUBC.OL"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Subsea 7 S.A.",
   "primary_symbol": "0OGK.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "SUBSEA 7 SA is a Luxembourg-based company that provides subsea engineering, construction, and services to the offshore energy industry. The company's services include project management, engineering, procurement, fabrication, installation, and commissioning of subsea infrastructure. Its headquarters are located in Luxembourg City, Luxembourg."
+  "summary": "Subsea 7 S.A. is a Luxembourg-based company that provides subsea engineering, construction, and services to the offshore energy industry. The company's services include project management, engineering, procurement, fabrication, installation, and commissioning of subsea infrastructure. Its headquarters are located in Luxembourg City, Luxembourg.",
+  "website": "http://www.subsea7.com"
 }

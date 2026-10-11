@@ -2,28 +2,52 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000BMT5N0",
+    "composite_figi": "BBG007R9HF49",
+    "figi": "BBG007R9HF67",
     "isin": "SE0000106205"
   },
+  "industry": "Construction & Engineering",
   "industry_group": "Capital Goods",
   "isin": "SE0000106205",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0MHT.IL"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "PEAB-B.ST"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PEKB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PEKB.SG"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000106205.SW"
     }
   ],
-  "name": "PEAB AB-CLASS B",
-  "primary_symbol": "SE0000106205.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Peab AB (publ)",
+  "primary_symbol": "0MHT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "PEAB AB is a Swedish construction and civil engineering company. The company undertakes a wide range of projects including residential, commercial, and infrastructure development. PEAB AB is headquartered in Förslöv, Sweden."
+  "summary": "PEAB AB is a construction and civil engineering company in Sweden. It undertakes a wide range of projects, including residential, commercial, and infrastructure developments. The company is headquartered in Förslöv, Sweden.",
+  "website": "http://www.peab.com"
 }

@@ -1,6 +1,10 @@
 {
   "country": "China",
   "country_code": "CN",
+  "identifiers": {
+    "composite_figi": "BBG006JQMVS5",
+    "figi": "BBG006JQMVX9"
+  },
   "industry_group": "Retailing",
   "kind": "stock",
   "listings": [
@@ -10,15 +14,17 @@
       "symbol": "013A.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "JD.com Inc. R.Shs Cl.A(Sp.ADRs)",
   "primary_symbol": "013A.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "JD.com is a Chinese e-commerce company operating an online retail platform. It offers a wide range of products, including electronics, home appliances, apparel, and books to consumers in China. The company is headquartered in Beijing, China."
+  "summary": "JD.com is a Chinese e-commerce company operating an online retail platform. It offers a wide range of products, including electronics, home appliances, apparel, and books to consumers in China. The company is headquartered in Beijing, China.",
+  "website": "http://www.jd.com"
 }

@@ -3,7 +3,8 @@
   "country_code": "BM",
   "identifiers": {
     "composite_figi": "BBG000C1XVK6",
-    "figi": "BBG000C1XXY7",
+    "cusip": "G3223R108",
+    "figi": "BBG000C1XVK6",
     "isin": "BMG3223R1088"
   },
   "industry": "Insurance",
@@ -14,7 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "RE"
+      "symbol": "EG"
     },
     {
       "currency": "USD",
@@ -28,21 +29,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ERE.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ERE.F"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Everest Re Group, Ltd.",
-  "primary_symbol": "RE",
+  "name": "Everest Group Ltd. Common Stock",
+  "primary_symbol": "EG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Everest Re Group, Ltd., through its subsidiaries, provides reinsurance and insurance products in the United States, Bermuda, and internationally. The company operates through Reinsurance Operations and Insurance Operations segments. The Reinsurance Operations segment writes property and casualty reinsurance; and specialty lines of business through reinsurance brokers, as well as directly with ceding companies in the United States, Bermuda, Ireland, Canada, Singapore, and the United Kingdom. The Insurance Operations segment writes property and casualty insurance directly, as well as through brokers, surplus lines brokers, and general agents in the United States, Canada, Europe, Ireland, and Switzerland. The company also provides treaty and facultative reinsurance products; admitted and non-admitted insurance products; and property and casualty reinsurance and insurance coverages, including marine, aviation, surety, errors and omissions liability, directors' and officers' liability, medical malpractice, mortgage reinsurance, other specialty lines, accident and health, and workers' compensation products. In addition, it offers commercial property and casualty insurance products through wholesale and retail brokers, surplus lines brokers, and program administrators. Everest Re Group, Ltd. was founded in 1973 and is headquartered in Hamilton, Bermuda.",
+  "summary": "Everest Group, Ltd. is a consulting and research firm focused on strategic IT, business services, engineering services, and sourcing. They provide advisory services, market intelligence, and sourcing support to global businesses. The company is headquartered in Dallas, Texas.",
   "website": "http://www.everestre.com"
 }

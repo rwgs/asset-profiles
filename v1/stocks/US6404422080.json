@@ -4,27 +4,36 @@
   "identifiers": {
     "composite_figi": "BBG0068FC7D1",
     "cusip": "640442208",
+    "figi": "BBG0068FC7D1",
     "isin": "US6404422080"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US6404422080",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "NMRD"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US6404422080.SG"
     }
   ],
-  "name": "NEMAURA MEDICAL INC",
-  "primary_symbol": "US6404422080.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Nemaura Medical Inc.",
+  "primary_symbol": "NMRD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "NEMAURA MEDICAL INC is a medical technology company focused on developing and commercializing non-invasive wearable diagnostic devices. Headquartered in Loughborough, United Kingdom, their primary product is the sugarBEAT® continuous glucose monitor (CGM) designed for use by individuals with diabetes and pre-diabetes. The device aims to provide real-time glucose data without the need for invasive blood sampling."
+  "summary": "Nemaura Medical Inc., a medical technology company, discovers, develops, and commercializes diagnostic medical devices. The company provides sugarBEAT, a non-invasive continuous glucose monitoring device for use by persons with Type I and Type II diabetes, as well as for screening pre-diabetic patients. It has a license agreement with Healthimation, LLC, which licenses the company to make, have made, use, offer to sell, sell, and import intensive medical diabetes and weight management program for Type 2 diabetes, prediabetes, and general wellness; the Why WAIT app; and common law trademarks which incorporate the mark WHY WAIT or WHYWAIT and the use of licensed marks. Nemaura Medical Inc. was founded in 2009 and is based in New York, New York.",
+  "website": "http://nemauramedical.com"
 }

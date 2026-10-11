@@ -1,28 +1,94 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000P3VNQ2",
+    "cusip": "589339209",
+    "figi": "BBG000P3VNQ2",
     "isin": "DE0006599905"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "DE0006599905",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MKGAF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "MRCK.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MRK.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "MRK.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MRK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MRK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "MRK.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MRK.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "MRK.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MRK.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MRK.SG"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "MRK1N.MX"
+    },
+    {
+      "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "MRKD.BA"
     }
   ],
-  "name": "MERCK & CO INC",
-  "primary_symbol": "MRKD.BA",
+  "market_cap_band": "Large Cap",
+  "name": "MERCK Kommanditgesellschaft auf Aktien",
+  "primary_symbol": "MKGAF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Merck & Co., Inc. is a global pharmaceutical company that discovers, develops, manufactures, and markets a wide range of healthcare products. Its portfolio includes prescription medicines, vaccines, biologic therapies, and animal health products. Merck & Co. is headquartered in Rahway, New Jersey."
+  "summary": "MERCK Kommanditgesellschaft auf Aktien operates in the healthcare, life science, and performance materials sectors worldwide. It discovers, develops, manufactures, and markets pharmaceutical and biological prescription drugs to treat oncology, immuno-oncology, neurology, immunology, fertility, and endocrinology, as well as general medicines for diabetes, cardiovascular, thyroid, and other diseases. The company also provides life science products and services, including research, process, and applied solution. In addition, it offers specialty chemicals for semiconductor, liquid crystals, organic light-emitting diodes, effect pigments, automotive, and functional solutions. It has strategic alliances with Pfizer Inc. and GlaxoSmithKline plc; agreement with Novartis AG and Vera Therapeutics, Inc.; and collaboration with F-star Delta Ltd. and Artios Pharma Limited. The company was founded in 1668 and is headquartered in Darmstadt, Germany. MERCK Kommanditgesellschaft auf Aktien is a subsidiary of E. Merck Kommanditgesellschaft. MERCK Kommanditgesellschaft auf Aktien operates as a subsidiary of E. Merck KG.",
+  "website": "http://www.merckgroup.com"
 }

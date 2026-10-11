@@ -2,13 +2,30 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JHW6VV0",
+    "figi": "BBG00JHW6VW9",
     "isin": "IT0001006128"
   },
-  "industry": "Air Freight & Logistics",
+  "industry": "Transportation Infrastructure",
   "industry_group": "Transportation",
   "isin": "IT0001006128",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0R9D.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "169.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "169.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -17,9 +34,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Aeroporto Guglielmo Marconi di Bologna S.p.A.",
-  "primary_symbol": "ADB.MI",
+  "primary_symbol": "0R9D.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

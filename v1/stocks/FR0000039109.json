@@ -1,19 +1,30 @@
 {
-  "country": "Thailand",
-  "country_code": "TH",
+  "country": "France",
+  "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000G7CPL4",
-    "figi": "BBG000G7DVM9",
+    "composite_figi": "BBG00JHVZLL3",
+    "figi": "BBG00JHVZLM2",
     "isin": "FR0000039109"
   },
+  "industry": "Commercial Services & Supplies",
   "industry_group": "Commercial & Professional Services",
   "isin": "FR0000039109",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0OG6.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "SCB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SCB.F"
     },
     {
       "currency": "EUR",
@@ -24,17 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SCB.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "SCHP.PA"
     }
   ],
-  "name": "SECHE ENVIRON. INH.EO-,20",
-  "primary_symbol": "SCB.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Séché Environnement S.A.",
+  "primary_symbol": "0OG6.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Séché Environnement SA provides waste management and environmental services. The company operates in the treatment and recovery of hazardous and non-hazardous waste. The company is headquartered in France."
+  "summary": "Séché Environnement S.A., established in Paris, France, in 1976, operates as an international specialist in environmental services. The company delivers a comprehensive range of waste recovery and treatment solutions to industrial and corporate clients, alongside municipal authorities, both within France and globally. Its extensive service portfolio encompasses industrial cleaning, the decontamination and remediation of various sites—including marine environments and polluted soil—and the secure storage of both hazardous and non-hazardous waste materials. Séché Environnement also employs thermal treatment methods and manages the collection and initial processing of reclaimable waste streams through techniques such as mechanical/biological sorting, maturation, and the handling of commercial waste, solid recovered fuel, and wood. Furthermore, the firm undertakes the decontamination, dismantling, and full rehabilitation of industrial facilities. Other activities include the generation of electricity and steam from biogas, solid recovered fuel, or wood, purification services for synthesis intermediates, metals, and gases, and the regeneration of used products. The company additionally handles waste transportation, treats residues from household and industrial incineration fumes and ash, and provides rapid response services for environmental emergencies.",
+  "website": "https://www.groupe-seche.com"
 }

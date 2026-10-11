@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00CDN8ZM8",
     "cusip": "465246106",
+    "figi": "BBG00CDN8ZM8",
     "isin": "US4652461066"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -36,16 +38,21 @@
       "symbol": "4U1A.MU"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ISUNQ"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US4652461066.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "ISUN INC",
+  "name": "iSun, Inc.",
   "primary_symbol": "ISUN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

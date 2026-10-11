@@ -1,6 +1,10 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG01YYTLYX9",
+    "figi": "BBG01YYTLYX9"
+  },
   "kind": "stock",
   "listings": [
     {
@@ -9,11 +13,11 @@
       "symbol": "USDE"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Small Cap",
   "name": "StablecoinX Inc. Class A Common Stock",
   "primary_symbol": "USDE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

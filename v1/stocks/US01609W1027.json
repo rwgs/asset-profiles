@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG0073XLZW2",
     "cusip": "01609W102",
-    "figi": "BBG0073XM003",
+    "figi": "BBG0073XM021",
     "isin": "US01609W1027"
   },
   "industry_group": "Software & Services",
@@ -13,24 +13,46 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "AHLA.SG"
+      "exchange_mic": "XBER",
+      "symbol": "AHLA.BE"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XBUE",
-      "symbol": "BABAD.BA"
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AHLA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AHLA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AHLA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AHLA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AHLA.SG"
     }
   ],
-  "name": "Alibaba Group Holding Ltd. Reg.",
-  "primary_symbol": "AHLA.SG",
+  "market_cap_band": "Mega Cap",
+  "name": "Alibaba Group Holding Limited",
+  "primary_symbol": "AHLA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Alibaba Group Holding Limited is a technology company focusing on e-commerce, retail, internet, and technology. It operates online marketplaces like Taobao and Tmall, as well as providing cloud computing services through Alibaba Cloud. The company is headquartered in Hangzhou, China."
+  "summary": "Alibaba Group Holding Limited is a technology company focusing on e-commerce, retail, internet, and technology. It operates online marketplaces like Taobao and Tmall, as well as providing cloud computing services through Alibaba Cloud. The company is headquartered in Hangzhou, China.",
+  "website": "http://www.alibabagroup.com"
 }

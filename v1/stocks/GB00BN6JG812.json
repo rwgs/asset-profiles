@@ -6,6 +6,7 @@
     "figi": "BBG000QR01W3",
     "isin": "GB00BN6JG812"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "GB00BN6JG812",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BN6JG812.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "SNT.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SUJ0.F"
     }
   ],
-  "name": "SABIEN TECHNOLOGY GROUP PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "Sabien Technology Group Plc",
   "primary_symbol": "GB00BN6JG812.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Sabien Technology Group PLC is a company that provides energy efficiency solutions for commercial and industrial buildings. The company's products aim to reduce energy consumption and carbon emissions. Sabien Technology Group PLC is headquartered in Reading, UK."
+  "summary": "Sabien Technology Group PLC is a company that provides energy efficiency solutions for commercial and industrial buildings. The company's products aim to reduce energy consumption and carbon emissions. Sabien Technology Group PLC is headquartered in Reading, UK.",
+  "website": "http://www.sabien-tech.co.uk"
 }

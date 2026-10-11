@@ -2,28 +2,42 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG006NKYRR0",
+    "composite_figi": "BBG00JHW6GR8",
+    "figi": "BBG00JHW6GS7",
     "isin": "SE0005999760"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "SE0005999760",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0QVR.L"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "SCST.ST"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0005999760.SW"
     }
   ],
-  "name": "SCANDI STANDARD AB",
-  "primary_symbol": "SE0005999760.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Scandi Standard AB (publ)",
+  "primary_symbol": "0QVR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "SCANDI STANDARD AB produces, markets, and sells chilled and frozen chicken products. They are a leading producer of chicken in the Nordic region. The company is headquartered in Stockholm, Sweden."
+  "summary": "Scandi Standard AB (publ) is a poultry company that specializes in the production, marketing, and distribution of a diverse range of chicken products, encompassing chilled, frozen, and convenience-ready options. Its operational footprint extends across multiple European countries, including Sweden, Norway, Ireland, Denmark, Finland, Germany, and the United Kingdom, with further reach throughout the rest of Europe and into international markets. The company structures its business into distinct segments: Ready-to-cook, Ready-to-eat, and Other. These offerings, including ready-to-cook and ready-to-eat items, are sold under well-known brands such as Danpo, Naapurin Maalaiskana, Manor Farm, Den Stolte Hane, and Kronfågel. Beyond its core product lines, Scandi Standard is also vertically integrated, engaging in the breeding and hatching of day-old chicks, the production and sale of eggs, and the provision of animal feed. Established in 2013, the company maintains its headquarters in Stockholm, Sweden.",
+  "website": "https://www.scandistandard.com"
 }

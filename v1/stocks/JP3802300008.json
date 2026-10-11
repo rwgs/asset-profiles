@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000NPS935",
-    "figi": "BBG000NPTGK9",
+    "composite_figi": "BBG000CLY9H4",
+    "figi": "BBG000CLY9R3",
     "isin": "JP3802300008"
   },
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "JP3802300008",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9983.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -31,15 +37,17 @@
       "symbol": "FR7.SG"
     }
   ],
-  "name": "Fast Retailing Co. Ltd.",
-  "primary_symbol": "FR7.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Fast Retailing Co., Ltd.",
+  "primary_symbol": "9983.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "FAST RETAILING CO. is a Japanese retail holding company that operates a portfolio of apparel brands, most notably UNIQLO. They design, manufacture, and sell clothing through a global network of retail stores and online platforms. Fast Retailing is headquartered in Tokyo, Japan."
+  "summary": "Fast Retailing Co., Ltd. designs and sells apparel worldwide through subsidiaries in Japan and many other markets. It reports in four divisions: UNIQLO Japan, UNIQLO International, GU, and Global Brands. Its clothing for men, women, children and babies is sold under brands including UNIQLO, GU, PLST and Theory.",
+  "website": "http://www.fastretailing.com"
 }

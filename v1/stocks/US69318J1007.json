@@ -2,30 +2,48 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BP0Z12",
+    "composite_figi": "BBG000BX74M4",
     "cusip": "69318J100",
-    "figi": "BBG000BP10Z1",
+    "figi": "BBG000BX74M4",
     "isin": "US69318J1007"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "US69318J1007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "CNXN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PCC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PCC.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US69318J1007.SG"
     }
   ],
-  "name": "PC CONNECTION INC",
-  "primary_symbol": "US69318J1007.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "PC Connection, Inc.",
+  "primary_symbol": "CNXN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "PC CONNECTION INC is a direct marketing reseller of information technology (IT) products and solutions. Headquartered in Merrimack, New Hampshire, the company provides IT products, services, and solutions to businesses, government agencies, and educational institutions. PC Connection operates through its subsidiaries, including PC Connection Sales Corp., GovConnection, Inc., and MoreDirect, Inc."
+  "summary": "PC Connection, Inc., together with its subsidiaries, provides a range of information technology (IT) solutions. The company operates through three segments: Business Solutions, Enterprise Solutions, and Public Sector Solutions. It offers IT products, including computer systems, data center solutions, software and peripheral equipment, networking communications, and other products and accessories, as well as provides services, such as design, configuration, and implementation of IT solutions. The company markets its products and services through its websites comprising connection.com, connection.com/enterprise, connection.com/publicsector, and macconnection.com. It serves small to medium-sized businesses (SMBs) that include small office/home office customers; government and educational institutions; and medium-to-large corporate accounts through outbound telemarketing and field sales, and marketing programs targeted to specific customer populations, as well as through digital, web, and print media advertising. The company was founded in 1982 and is headquartered in Merrimack, New Hampshire.",
+  "website": "http://www.connection.com"
 }

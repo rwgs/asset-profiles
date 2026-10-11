@@ -2,7 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG00JSC0MH4",
     "cusip": "37827X100",
+    "figi": "BBG00JSC0MJ2",
     "isin": "US37827X1000"
   },
   "industry": "Metals & Mining",
@@ -17,51 +19,12 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "8GC.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "8GC.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "8GC.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "8GC.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "8GC.SG"
-    },
-    {
       "symbol": "8GC.TI"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "8GCA.SG"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "GLCNF"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "GLEN.L"
-    },
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "GLN.JO"
     },
     {
       "currency": "USD",
@@ -73,7 +36,7 @@
   "name": "Glencore plc",
   "primary_symbol": "0IVW.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

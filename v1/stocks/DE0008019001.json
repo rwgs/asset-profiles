@@ -4,7 +4,7 @@
   "identifiers": {
     "isin": "DE0008019001"
   },
-  "industry": "Thrifts & Mortgage Finance",
+  "industry": "Banks",
   "industry_group": "Diversified Financials",
   "isin": "DE0008019001",
   "kind": "stock",
@@ -21,8 +21,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PBB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PBB.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PBB.DU"
     },
     {
       "currency": "EUR",
@@ -31,29 +41,50 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PBB.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PBB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PBB.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PBB.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "PBB.TI"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "PBB.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PBBGF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Deutsche Pfandbriefbank AG",
   "primary_symbol": "0R9K.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "DEUTSCHE PFANDBRIEFBANK AG is a German property and public sector financing bank. The bank provides financing for commercial real estate and infrastructure projects, as well as public sector entities. DEUTSCHE PFANDBRIEFBANK AG is headquartered in Unterschleissheim, Germany.",
+  "summary": "Deutsche Pfandbriefbank AG is a German property and public sector financing bank. The bank provides financing for commercial real estate and infrastructure projects, as well as public sector entities. DEUTSCHE PFANDBRIEFBANK AG is headquartered in Unterschleissheim, Germany.",
   "website": "http://www.pfandbriefbank.com"
 }

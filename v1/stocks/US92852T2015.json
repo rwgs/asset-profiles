@@ -2,9 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DN2JN5",
+    "composite_figi": "BBG001D74422",
     "cusip": "92852T201",
-    "figi": "BBG000DN2KG0",
+    "figi": "BBG001D74422",
     "isin": "US92852T2015"
   },
   "industry": "Media",
@@ -13,56 +13,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "VIV.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "VIV.PA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "VIV.VI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "VIVEF"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "VIVENN.MX"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "VIVHY"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "VVU.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "VVU.F"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VVUD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VVUD.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Small Cap",
   "name": "Vivendi SE",
-  "primary_symbol": "VIV.MI",
+  "primary_symbol": "VIVHY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

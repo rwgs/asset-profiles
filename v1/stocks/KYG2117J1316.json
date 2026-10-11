@@ -3,6 +3,7 @@
   "country_code": "HK",
   "identifiers": {
     "composite_figi": "BBG000KSTV05",
+    "figi": "BBG000KSVWW5",
     "isin": "KYG2117J1316"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -11,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0931.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RYZR.F"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "China LNG Group Limited",
-  "primary_symbol": "RYZR.F",
+  "market_cap_band": "Small Cap",
+  "name": "China HK Power Smart Energy Group Limited",
+  "primary_symbol": "0931.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "China LNG Group Limited, an investment holding company, sells and distributes liquefied natural gas (LNG) in the People's Republic of China. The company engages in the wholesale and point-to-point supply of LNG; and provision of LNG in the midstream and downstream market through fueling/refueling of LNG in road refueling stations for commercial vehicles, as well as water refueling stations for vessels and specific designed refueling facilities for equipment. It also provides LNG logistic services; finance leasing services for LNG vehicles and equipment; and securities brokerage, margin financing, and securities investments and financial services, as well as sells LNG vehicles. In addition, the company develops and operates oil-to-gas conversion and LNG refueling facilities on floating barges; develops LNG related technologies; operates LNG refueling stations; trades in gas ignition equipment; utilizes new energy sources and new energy related businesses; and supplies and manages LNG. Further, it is involved in the construction and operation of natural gas filling stations; wholesale of ethanol and liquefied petroleum gas; and trading of natural gas and transportation. Additionally, the company offers commercial vehicle user's long distance IT control, insurance handling, and new/used LNG/diesel vehicles purchase/sale services; and LNG consultancy services. The company was formerly known as Artel Solutions Group Holdings Limited and changed its name to China LNG Group Limited in June 2014. China LNG Group Limited was founded in 1995 and is headquartered in Central, Hong Kong.",
+  "summary": "China HK Power Smart Energy Group Limited is an investment holding entity mainly distributing and selling liquefied natural gas in China and Hong Kong. Its energy operations cover bulk and direct-to-consumer LNG supply, LNG pipeline network development and LNG logistics services.",
   "website": "http://chinalng.todayir.com"
 }

@@ -2,29 +2,62 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000CHSFP7",
-    "figi": "BBG000CHSJ97",
+    "composite_figi": "BBG000BLBD45",
+    "figi": "BBG000BLBDW4",
     "isin": "JP3407400005"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Auto Components",
+  "industry_group": "Automobiles & Components",
   "isin": "JP3407400005",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5802.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SMO.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SMO.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SMO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SMO.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SMO.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMTOF"
     }
   ],
-  "name": "SUMITOMO ELECTRIC IND. LTD. Reg",
-  "primary_symbol": "SMO.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Sumitomo Electric Industries,Ltd.",
+  "primary_symbol": "5802.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "SUMITOMO ELECTRIC IND. LTD. is a manufacturer of electric wires, cables, and related products. The company's products are used in various industries, including telecommunications, automotive, and energy. It is a global company with headquarters in Japan."
+  "sector": "Consumer Discretionary",
+  "summary": "Sumitomo Electric Industries, Ltd. is an Osaka-headquartered manufacturer mainly of electrical wires and cables. Its segments are Automotive, Infocommunications, Electronics, Environmental and Energy, and Industrial Materials and Others. The automotive segment supplies wiring harnesses, electrical components, tire reinforcement steel cords and specialized steel wires, while infocommunications covers fiber optic products such as fusion splicers.",
+  "website": "https://sumitomoelectric.com"
 }

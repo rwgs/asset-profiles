@@ -1,6 +1,12 @@
 {
   "country": "Canada",
   "country_code": "CA",
+  "identifiers": {
+    "composite_figi": "BBG000GR7497",
+    "figi": "BBG000GR7754"
+  },
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +15,17 @@
       "symbol": "BMM.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "BRUEDER MANNESMANN AG Inhaber-A",
   "primary_symbol": "BMM.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Consumer Discretionary",
+  "summary": "Brüder Mannesmann Aktiengesellschaft distributes hand, electrical, and gardening tool items. It offers products through wholesalers and mail order companies in Germany and other European countries. The company was founded in 1750 and is based in Remscheid, Germany.",
+  "website": "http://bmag-online.de"
 }

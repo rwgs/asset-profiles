@@ -6,6 +6,7 @@
     "figi": "BBG000KQ0669",
     "isin": "GB00BJFFLV09"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "GB00BJFFLV09",
   "kind": "stock",
@@ -19,17 +20,39 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "6CMB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6CMB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "6CMB.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "COIHF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CRDA.L"
     }
   ],
-  "name": "CRODA INTL  LS -,10609756",
+  "market_cap_band": "Mid Cap",
+  "name": "Croda International Plc",
   "primary_symbol": "6CMB.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Croda International Plc is a British specialty chemicals company that manufactures and sells ingredients for various industries. The company's products are used in personal care, life sciences, and industrial applications. It is headquartered in Snaith, East Yorkshire, United Kingdom."
+  "summary": "Croda International Plc is a British specialty chemicals company that manufactures and sells ingredients for various industries. The company's products are used in personal care, life sciences, and industrial applications. It is headquartered in Snaith, East Yorkshire, United Kingdom.",
+  "website": "http://www.croda.com"
 }

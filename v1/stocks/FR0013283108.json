@@ -2,28 +2,42 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BXR6C8",
+    "composite_figi": "BBG00JHWCKH3",
+    "figi": "BBG00JHWCKJ1",
     "isin": "FR0013283108"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Textiles, Apparel & Luxury Goods",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "FR0013283108",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RUJ.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALDLT.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FR0013283108.SG"
     }
   ],
-  "name": "DELTA PLUS GROUP",
-  "primary_symbol": "FR0013283108.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Delta Plus Group",
+  "primary_symbol": "0RUJ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "DELTA PLUS GROUP designs, manufactures, and distributes personal protective equipment (PPE). They offer a wide range of products, including safety helmets, gloves, footwear, and eyewear, to protect workers in various industries; headquarters are located in Apt, France. Delta Plus Group serves a global market."
+  "sector": "Consumer Discretionary",
+  "summary": "DELTA PLUS GROUP designs, manufactures, and distributes personal protective equipment (PPE). They offer a wide range of products, including safety helmets, gloves, footwear, and eyewear, to protect workers in various industries; headquarters are located in Apt, France. Delta Plus Group serves a global market.",
+  "website": "https://www.deltaplus.eu"
 }

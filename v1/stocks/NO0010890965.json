@@ -3,28 +3,46 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG00ZKX5KQ9",
-    "figi": "BBG00ZKX5KV3",
+    "figi": "BBG00ZKX5KS7",
     "isin": "NO0010890965"
   },
+  "industry": "Containers & Packaging",
   "industry_group": "Materials",
   "isin": "NO0010890965",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "5T0.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5T0.F"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "BEWI.OL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010890965.SG"
     }
   ],
-  "name": "BEWI AS",
-  "primary_symbol": "NO0010890965.SG",
+  "market_cap_band": "Small Cap",
+  "name": "BEWi ASA",
+  "primary_symbol": "5T0.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "BEWI ASA is a provider of packaging, insulation, and engineered solutions using expanded polystyrene (EPS) and other polymeric materials. The company serves a variety of industries including construction, aquaculture, and packaging. BEWI ASA is headquartered in Bekkjarvik, Norway."
+  "summary": "BEWi ASA produces, distributes, and sells various packaging and insulation solutions based on expandable polystyrene (EPS). The company operates through RAW, Packaging & Components, and Insulation segments. The RAW segment produces and sells EPS beads to external parties as a raw material for the production of final products. The Packaging & Components segment provides packaging material and technical components that are made out of converted EPS beads, EPP, paper board, and other material. The Insulation segment develops and manufactures a range of insulation products for the construction industry and infrastructure facilities. The company sells its products to seafood/food, pharmaceutical, automotive, leisure, residential housing, commercial buildings, and infrastructure industries. BEWi ASA was founded in 1980 and is based in Hammarvika, Norway.",
+  "website": "http://bewi.com"
 }

@@ -3,24 +3,36 @@
   "country_code": "FR",
   "identifiers": {
     "composite_figi": "BBG001DQJ9Q7",
+    "figi": "BBG001NPNDS2",
     "isin": "FR0011038348"
   },
+  "industry": "Media",
+  "industry_group": "Media & Entertainment",
   "isin": "FR0011038348",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALKLA.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FR0011038348.SG"
     }
   ],
-  "name": "KLARSEN",
-  "primary_symbol": "FR0011038348.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Klarsen",
+  "primary_symbol": "ALKLA.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Communications",
+  "summary": "Klarsen is a data-driven marketing agency with its headquarters in Bordeaux, France, providing services both domestically and on an international scale. Established in 1995, the firm specializes in executing comprehensive marketing campaigns across a diverse range of communication channels, including SMS, email, telephone, mobile platforms, and postal mail. The company was previously known as Groupe Actiplay SA.",
+  "website": "https://www.klarsen.com"
 }

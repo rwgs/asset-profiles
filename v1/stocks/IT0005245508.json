@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00GSS7FW6",
+    "figi": "BBG00GSS7FX5",
     "isin": "IT0005245508"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -9,6 +11,16 @@
   "isin": "IT0005245508",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2I6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "2I6.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
@@ -22,9 +34,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Indel B S.p.A.",
-  "primary_symbol": "INDB.MI",
+  "primary_symbol": "2I6.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

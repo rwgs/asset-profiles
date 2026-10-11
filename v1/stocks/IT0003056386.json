@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG000BC71W5",
+    "figi": "BBG000BC7262",
     "isin": "IT0003056386"
   },
   "industry": "Automobiles",
@@ -13,13 +15,23 @@
       "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "PINF.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PNF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PNF.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Pininfarina S.p.A.",
   "primary_symbol": "PINF.MI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

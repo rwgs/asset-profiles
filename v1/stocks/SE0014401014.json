@@ -3,28 +3,36 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00VVPXZM3",
-    "figi": "BBG00VVPXZR8",
+    "figi": "BBG00VVPXZN2",
     "isin": "SE0014401014"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "SE0014401014",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "52X.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0014401014.SG"
     }
   ],
-  "name": "MAGLE CHEMOSWED HOLDING AB",
-  "primary_symbol": "SE0014401014.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Magle Chemoswed Holding AB (publ)",
+  "primary_symbol": "52X.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MAGLE CHEMOSWED HOLDING AB is a contract development and manufacturing organization (CDMO) that provides pharmaceutical development and manufacturing services. The company supports pharmaceutical companies with drug formulation, manufacturing, and packaging. Magle Chemoswed Holding AB is headquartered in Malmö, Sweden."
+  "summary": "Magle Chemoswed Holding AB (publ) engages in the research, development, and manufacture of pharmaceutical products and technology in Sweden. The company focuses on the process development and manufacture of active pharmaceutical ingredients (API); research, development, and production of products in the areas of wound care and diagnostics, with a focus on products based on degradable starch microspheres. Its APIs include Warfarin sodium products that are used as anticoagulants for multiple indications; Melperone hydrochloride, which is an antipsychotic agent; Isradipine, a calcium channel blocker used to treat hypertension; Amantadine sulfate that is used in the treatment of central nervous system disorders; and Benserazide hydrochloride, which is used in combination with L-Dopa in the treatment of Parkinson's disease. The company also offers medical device technology products in the areas of advanced wound care, surgical and diagnostics, drug delivery, which include its marketed technology products comprising EmboCept S, a microsphere based medical device used in vascular occlusion of liver and lung tumors; and SmartGel, a non-allergenic hydrogel based on the company's unique microsphere technology. It serves companies in the pharmaceutical and medical device industry on a contract basis. The company is headquartered in Malmö, Sweden. Magle Magle Chemoswed Holding AB (publ) is a subsidiary of Magle AB.",
+  "website": "http://www.maglechemoswed.cow"
 }

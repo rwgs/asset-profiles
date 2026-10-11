@@ -1,17 +1,27 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Germany",
+  "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BXYKH4",
+    "composite_figi": "BBG00GK2TL09",
     "cusip": "76206K107",
-    "figi": "BBG000BXYKH4",
+    "figi": "BBG00GK2TL18",
     "isin": "US76206K1079"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Aerospace & Defense",
+  "industry_group": "Capital Goods",
   "isin": "US76206K1079",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RHMB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RHMB.SG"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -20,15 +30,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Rheinmetall AG",
-  "primary_symbol": "RNMBY",
+  "primary_symbol": "RHMB.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Operating globally, Rheinmetall AG (RNMBY) specializes in delivering cutting-edge technologies across the mobility and security domains, structured into Vehicle Systems, Weapon and Ammunition, Electronic Solutions, Sensors and Actuators, and Materials and Trade divisions. Originally established in 1889 as Rheinmetall Berlin AG, its corporate headquarters are located in Düsseldorf, Germany.",
-  "website": "http://www.rh.com"
+  "sector": "Industrials",
+  "summary": "Rheinmetall AG is a Germany-based security technology and mobility group operating in Vehicle Systems, Weapon and Ammunition, Electronic Solutions, Sensors and Actuators, and Materials and Trade segments, producing military vehicles, weapons and ammunition, as well as automotive components. Founded in 1889, headquartered in Düsseldorf, Germany.",
+  "website": "https://www.rheinmetall.com"
 }

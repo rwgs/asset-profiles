@@ -2,28 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000CDH8S1",
+    "composite_figi": "BBG002V28LX5",
+    "figi": "BBG002V28LY4",
     "isin": "GB0001646941"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "GB0001646941",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "EDEN.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EDNSF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0001646941.SG"
     }
   ],
-  "name": "EDEN RESEARCH PLC",
-  "primary_symbol": "GB0001646941.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Eden Research plc",
+  "primary_symbol": "EDEN.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Eden Research PLC focuses on developing and supplying sustainable biopesticides for crop protection, utilizing microencapsulation technology. The company's products target key agricultural challenges while reducing environmental impact. Eden Research is based in Milton Keynes, United Kingdom."
+  "summary": "Eden Research plc offers sustainable solutions for crop protection, animal health, and consumer products in the United Kingdom and rest of Europe. The company provides various plant protection products, such as foliar disease and insect control, open field and greenhouses, soil pests, protected glass house crops, shelf-life extension, seed treatment, and post-harvest applications. It also offers treatment for various pathogens that effect animal health, as well as provides animal health products, such as shampoos, conditioners, companion animal products, bio-control products, parasite treatments, flea and tick control, skin disease control products, OTIC flush treatment, and insect sprays. In addition, the company offers human health products comprising head-lice, fragrances, wound-care, deodorants, odour neutralisers, food flavorings, and biocide active ingredients products. The company was incorporated in 1995 and is headquartered in Oxfordshire, the United Kingdom.",
+  "website": "http://www.edenresearch.com"
 }

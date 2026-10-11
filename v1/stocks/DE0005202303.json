@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000DL11S4",
-    "figi": "BBG000DL13L7",
+    "figi": "BBG000DL1505",
     "isin": "DE0005202303"
   },
   "industry": "Banks",
@@ -13,13 +13,33 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "QB7.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "QB7.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "QB7.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "QB7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "QB7.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "QB7.MU"
     },
     {
       "currency": "EUR",
@@ -29,9 +49,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Quirin Privatbank AG",
-  "primary_symbol": "QB7.DE",
+  "primary_symbol": "QB7.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

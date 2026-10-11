@@ -6,6 +6,7 @@
     "figi": "BBG00QLCCNS8",
     "isin": "GB00BKFB1C65"
   },
+  "industry": "Insurance",
   "industry_group": "Insurance",
   "isin": "GB00BKFB1C65",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BKFB1C65.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MGPUF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "MNG.L"
     }
   ],
-  "name": "M&G PLC",
+  "market_cap_band": "Mid Cap",
+  "name": "M&G plc",
   "primary_symbol": "GB00BKFB1C65.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "M&G PLC is an international savings and investment management company. They offer a wide range of investment solutions to help people manage their finances and achieve their financial goals. M&G PLC is headquartered in London, UK."
+  "summary": "M&G PLC is an international savings and investment management company. They offer a wide range of investment solutions to help people manage their finances and achieve their financial goals. M&G PLC is headquartered in London, UK.",
+  "website": "http://www.mandgplc.com"
 }

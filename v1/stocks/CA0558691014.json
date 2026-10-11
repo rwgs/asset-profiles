@@ -1,0 +1,39 @@
+{
+  "country": "Canada",
+  "country_code": "CA",
+  "identifiers": {
+    "composite_figi": "BBG01G970R62",
+    "cusip": "055869101",
+    "figi": "BBG01G970R62",
+    "isin": "CA0558691014"
+  },
+  "industry": "Software",
+  "industry_group": "Software & Services",
+  "isin": "CA0558691014",
+  "kind": "stock",
+  "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "BTQ"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "NEOE",
+      "symbol": "BTQ.NE"
+    }
+  ],
+  "market_cap_band": "Small Cap",
+  "name": "BTQ Technologies Corp. Common Stock",
+  "primary_symbol": "BTQ",
+  "provenance": {
+    "fetched_at": "2026-10-11T12:21:30Z",
+    "license": "MIT",
+    "source": "FinanceDatabase",
+    "source_url": "https://github.com/JerBouma/FinanceDatabase"
+  },
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "BTQ Technologies Corp. specializes in developing cutting-edge computer-based solutions for post-quantum cryptography, particularly for blockchain and related technological applications. Among its key offerings is PQScale, a scaling mechanism that utilizes zero-knowledge proofs to compress lattice-based post-quantum signatures, thereby optimizing speed and reducing costs. Another product, Keelung, provides an intuitive toolkit for zero-knowledge proof development, complete with a domain-specific language integrated into Haskell and a dedicated compiler. For hardware-accelerated zero-knowledge computations, the company offers Kenting. Additionally, BTQ provides Quantum Proof-of-Work (QPoW), an energy-efficient, next-generation consensus algorithm that leverages Noisy Intermediate Scale Quantum (NISQ) hardware to authorize blockchain transactions. The company's portfolio also features QRiNG, a toolkit for generating quantum random numbers; Preon, which lays the groundwork for a resilient, future-proof post-quantum signature scheme; and QByte, a quantum risk calculator. Founded in 1983, BTQ Technologies Corp. is headquartered in Vancouver, Canada.",
+  "website": "https://www.btq.com"
+}

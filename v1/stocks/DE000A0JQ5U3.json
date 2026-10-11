@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00JHVWQN3",
+    "figi": "BBG00NRVXCS8",
     "isin": "DE000A0JQ5U3"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -60,14 +62,20 @@
       "symbol": "M5Z.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "M5Z.TI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MANZF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Manz AG",
   "primary_symbol": "0J9O.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

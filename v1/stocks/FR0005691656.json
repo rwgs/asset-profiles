@@ -2,19 +2,49 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BYS0S1",
-    "figi": "BBG000BYS109",
+    "composite_figi": "BBG00GD8M392",
+    "figi": "BBG00GD8M3C8",
     "isin": "FR0005691656"
   },
-  "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry": "Textiles, Apparel & Luxury Goods",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "FR0005691656",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NX0.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TGNOF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TGO.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TGO.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TGO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TGO.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TGO.SG"
     },
     {
       "currency": "EUR",
@@ -24,15 +54,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Trigano S.A.",
-  "primary_symbol": "TGO.F",
+  "primary_symbol": "0NX0.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Trigano S.A. designs, manufactures, markets, and sells leisure vehicles and trailers for individuals and professionals in Europe. The company operates through Leisure Vehicles and Leisure Equipment segments. It offers leisure vehicles, including caravans, motorhomes, and mobile homes; camping and garden equipment; tents; and baggage and utility trailers, as well as accessories for leisure vehicles. The company also rents motorhomes; and provides finance for leisure vehicles, as well as offers a range of rental stay services in mobile homes. It offers its products through dealer networks and distributors, as well as through its online sales site, Triganostore.com. The company was founded in 1935 and is based in Paris, France.",
+  "summary": "Trigano SA manufactures and distributes leisure vehicles and equipment. It produces motorhomes, caravans, and camping equipment. The company is headquartered in Paris, France.",
   "website": "http://www.trigano.fr"
 }

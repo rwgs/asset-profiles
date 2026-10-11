@@ -3,7 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG0015K23L5",
-    "figi": "BBG0015K23M4",
+    "figi": "BBG0015K23S8",
     "isin": "CNE100000Q35"
   },
   "industry": "Automobiles",
@@ -13,8 +13,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "02G.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "02G.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "02G.MU"
     },
     {
       "currency": "EUR",
@@ -37,17 +47,17 @@
       "symbol": "GNZUF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Guangzhou Automobile Group Co., Ltd. Class H",
-  "primary_symbol": "02G.F",
+  "primary_symbol": "02G.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Guangzhou Automobile Group Co., Ltd., together with its subsidiaries, engages in the research, development, manufacture, and sale of vehicles and motorcycles, and parts and components; and provision of commercial and financial services in Mainland China and Hong Kong. The company operates through two segments, Vehicles and Related Operations, and Others. It offers large to medium sized passenger vehicles, light and heavy trucks, construction vehicles, and energy vehicles; motorcycles comprising standard motorcycles, sport bikes, scooters, etc.; and auto-parts and components, including engines, gearboxes, car seats, HVAC systems, auto lamps, automation accessories, redirectors, shock absorbers, and accessories. The company also provides financial investment, insurance, insurance broker, financial lease, automobile credit, and other related services; and engages in the businesses of vehicle sales, logistics, international trading, second-hand vehicles, disassembling, resources recycling, supporting services, etc. In addition, it offers investment management services; and engages in the trade of steel. The company was founded in 1997 and is headquartered in Guangzhou, the People's Republic of China. Guangzhou Automobile Group Co., Ltd. is a subsidiary of Guangzhou Automobile Industry Group Co., Ltd.",
+  "summary": "GUANGZHOU AUTO.GRP H YC 1 is a Chinese automobile manufacturer that produces a wide range of vehicles, including passenger cars, commercial vehicles, and buses. The company operates through various brands, including GAC Motor and GAC Toyota. Guangzhou Automobile Group Co., Ltd. is headquartered in Guangzhou, China.",
   "website": "http://www.gac.com.cn"
 }

@@ -2,15 +2,25 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG00Z1JSTN0",
-    "figi": "BBG00Z1JSTP8",
+    "composite_figi": "BBG00Z6BB4T9",
+    "figi": "BBG00Z6BB507",
     "isin": "FR0014001PM5"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "FR0014001PM5",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1FO.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "1FO.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -22,17 +32,17 @@
       "symbol": "FR0014001PM5.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Hydrogen Refueling Solutions SA",
-  "primary_symbol": "ALHRS.PA",
+  "primary_symbol": "1FO.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Hydrogen-Refueling-Solutions SA manufactures hydrogen refueling stations for all types of vehicles, light and heavy fleets, for the mobility, industrial activities, storage, and energy markets. The company was incorporated in 2004 and is based in Champ-sur-Drac, France.",
+  "sector": "Energy",
+  "summary": "HYDROG.-REF.-SOL. EO-,10 is a company involved in hydrogen energy solutions. It is focused on developing and deploying hydrogen refueling stations. Specific details about its headquarters location are not readily available.",
   "website": "http://www.hydrogen-refueling-solutions.fr"
 }

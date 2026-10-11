@@ -4,6 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG004WFYQV3",
     "cusip": "124312109",
+    "figi": "BBG004WFYQV3",
     "isin": "US1243121092"
   },
   "industry": "Communications Equipment",
@@ -12,26 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "0285.HK"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "BYDIF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BYDIY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "BYD Electronic (International) Company Limited",
-  "primary_symbol": "0285.HK",
+  "primary_symbol": "BYDIY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

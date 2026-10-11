@@ -7,8 +7,8 @@
     "figi": "BBG000BS4P78",
     "isin": "US2540671011"
   },
-  "industry": "Household Durables",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Multiline Retail",
+  "industry_group": "Retailing",
   "isin": "US2540671011",
   "kind": "stock",
   "listings": [
@@ -19,15 +19,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DL7A.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DL7A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DL7A.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DL7A.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Dillard's, Inc.",
   "primary_symbol": "DDS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

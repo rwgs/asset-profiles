@@ -2,30 +2,41 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG001DCQ2W8",
     "cusip": "675746606",
-    "figi": "BBG001DCQ301",
     "isin": "US6757466064"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Thrifts & Mortgage Finance",
+  "industry_group": "Banks",
   "isin": "US6757466064",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "OCN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OW0A.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US6757466064.SG"
     }
   ],
-  "name": "OCWEN FINANCIAL CORP",
-  "primary_symbol": "US6757466064.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Ocwen Financial Corporation",
+  "primary_symbol": "OCN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "OCWEN FINANCIAL CORP is a mortgage servicer and originator. Headquartered in West Palm Beach, Florida, the company provides servicing and lending solutions to homeowners and investors. Ocwen aims to help homeowners achieve their financial goals and manage their mortgage obligations."
+  "summary": "Ocwen Financial Corporation, a financial services company, originates and services mortgage loans in the United States, the United States Virgin Islands, India, and the Philippines. The company operates through Servicing and Originations segments. It provides commercial mortgage loan servicing, special servicing, and asset management services, as well as residential mortgage loan servicing, such as forward and reverse conventional, government-insured, and non-agency loans, including the reverse mortgage loans to owners of mortgage loans and foreclosed real estate. The company also originates and purchases conventional and government-insured residential forward and reverse mortgage loans through its correspondent lending arrangements, broker relationships, and retail channels. Ocwen Financial Corporation serves primarily under the PHH Mortgage and Liberty Reverse Mortgage brands. The company was founded in 1988 and is headquartered in West Palm Beach, Florida.",
+  "website": "http://www.ocwen.com"
 }

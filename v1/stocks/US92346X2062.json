@@ -4,34 +4,29 @@
   "identifiers": {
     "composite_figi": "BBG000H9TWR0",
     "cusip": "92346X206",
-    "figi": "BBG002K3GN80",
+    "figi": "BBG002K3GN71",
     "isin": "US92346X2062"
   },
-  "industry": "Professional Services",
+  "industry": "Commercial Services & Supplies",
   "industry_group": "Commercial & Professional Services",
   "isin": "US92346X2062",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "LT1B.MU"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US92346X2062.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
   "name": "VerifyMe, Inc.",
-  "primary_symbol": "LT1B.MU",
+  "primary_symbol": "US92346X2062.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials"
+  "sector": "Industrials",
+  "website": "http://www.verifyme.com"
 }

@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BYSX18",
-    "figi": "BBG000BYSYH9",
+    "composite_figi": "BBG000BGHX91",
+    "figi": "BBG000BGHYG1",
     "isin": "JP3902400005"
   },
+  "industry": "Electrical Equipment",
   "industry_group": "Capital Goods",
   "isin": "JP3902400005",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6503.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MIE1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MIE1.MU"
     },
@@ -29,17 +40,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MIE1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MIELF"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "MITSN.MX"
     }
   ],
-  "name": "MITSUBISHI EL. CORP.",
-  "primary_symbol": "MIE1.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Mitsubishi Electric Corp.",
+  "primary_symbol": "6503.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "MITSUBISHI EL. CORP. is a Japanese multinational electronics and electrical equipment manufacturing company. It produces a wide range of products, including industrial automation systems, air conditioning systems, automotive equipment, and visual information systems. The company is headquartered in Tokyo, Japan, and operates globally."
+  "summary": "Mitsubishi Electric Corporation develops, manufactures, sells, and distributes electrical and electronic equipment in Japan, North America, rest of Asia, Europe, and internationally. It operates through Infrastructure, Industry & Mobility, Life, Business Platform, Semiconductor & Device, and Others segments. The company offers public utility systems comprising rolling stock and communication systems, and supervisory control and power supply systems; energy systems consisting of power transmission and distribution systems and power demand and supply optimization solutions; and defense and space systems, including missile and radar systems, command and control systems, electric warfare and satellite systems, and satellite data solutions. It also provides factory automation (FA) systems, such as control and drive products, processing machines, power distribution control equipment, and FA digital solutions; automotive equipment comprising electric vehicle-related equipment, ADAS-related products, vehicle control systems, and powertrain products; building systems consisting of elevators, escalators, and building management systems; and air conditioning and refrigeration systems, lighting, ventilation, and home equipment and appliances. In addition, the company offers information systems and network services related to manufacturing dx solutions; IT infrastructure; and security solutions. Further, it provides semiconductor and device products, including power and high-frequency devices, and optical devices, as well as procurement, real estate leasing and brokerage, advertising, and finance services. Additionally, the company offers energy and facility, OT security, and CVC solutions; data center and information systems outsourcing services; software, control panels, switchboards, printed circuit boards, and generators; electrical construction services; and repair services. Mitsubishi Electric Corporation was incorporated in 1921 and is headquartered in Chiyoda, Japan.",
+  "website": "https://www.mitsubishielectric.com"
 }

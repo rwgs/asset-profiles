@@ -1,6 +1,11 @@
 {
   "country": "Mexico",
   "country_code": "MX",
+  "identifiers": {
+    "composite_figi": "BBG020PWMHJ7",
+    "figi": "BBG020PWMHJ7"
+  },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "kind": "stock",
   "listings": [
@@ -10,15 +15,17 @@
       "symbol": "VISTD.BA"
     }
   ],
-  "name": "VISTA OIL & GAS",
+  "market_cap_band": "Mid Cap",
+  "name": "Vista Oil & Gas, S.A.B. de C.V.",
   "primary_symbol": "VISTD.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "VISTA OIL & GAS is an independent Latin American energy company that operates throughout the oil and gas value chain, from exploration and production to refining and marketing. The company focuses on developing resources in Argentina, Mexico, Brazil, and Colombia. Vista Oil & Gas is based in Mexico City, Mexico."
+  "summary": "VISTA OIL & GAS is an independent Latin American energy company that operates throughout the oil and gas value chain, from exploration and production to refining and marketing. The company focuses on developing resources in Argentina, Mexico, Brazil, and Colombia. Vista Oil & Gas is based in Mexico City, Mexico.",
+  "website": "http://www.vistaoilandgas.com"
 }

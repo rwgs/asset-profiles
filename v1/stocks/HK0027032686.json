@@ -2,14 +2,25 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BT9DJ5",
-    "figi": "BBG000BT9K09",
+    "composite_figi": "BBG000BG5KL8",
+    "figi": "BBG000BG5LL6",
     "isin": "HK0027032686"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "HK0027032686",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0027.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GXYEF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KW9A.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KW9A.SG"
     }
   ],
-  "name": "GALAXY ENTMT GROUP",
-  "primary_symbol": "KW9A.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Galaxy Entertainment Group Limited",
+  "primary_symbol": "0027.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Galaxy Entertainment Group Limited is a Hong Kong-based company that develops and operates hotels, gaming, and integrated resort facilities in Macau. The company's flagship properties include Galaxy Macau, StarWorld Macau, and Broadway Macau."
+  "summary": "Galaxy Entertainment Group Limited, an investment holding company, engages in the gaming and entertainment, and construction materials businesses in Macau, Hong Kong, and Mainland China. The company operates casino games of chance or games of other forms; and provides hospitality and related services. It owns and operates Galaxy Macau, an integrated resort; Broadway Macau, a landmark entertainment and food street destination; StarWorld Macau, a five-star hotel located in the Macau Peninsula; and City Club casinos. The company also manufactures, sells, and distributes construction materials, including concrete pipes and piles, asphalt, ready-mixed concrete, concrete products, cement, aggregates, and slag; provides property investment, handling, quality assurance, project management, and security services; and imports, exports, trades in, and transports construction materials. In addition, it is involved in quarrying, aircraft holding, and vessel holding activities. Galaxy Entertainment Group Limited is based in Central, Hong Kong.",
+  "website": "http://www.galaxyentertainment.com"
 }

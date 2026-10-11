@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BNWBM2",
-    "figi": "BBG000BNWHZ5",
+    "composite_figi": "BBG000BJ2DR5",
+    "figi": "BBG000BJ2F18",
     "isin": "JP3783600004"
   },
+  "industry": "Road & Rail",
   "industry_group": "Transportation",
   "isin": "JP3783600004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9020.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EJPRF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +30,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "EJR.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EJR.F"
     },
     {
       "currency": "EUR",
@@ -36,15 +52,17 @@
       "symbol": "EJR.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "East Japan Railway Company",
-  "primary_symbol": "EJR.BE",
+  "primary_symbol": "9020.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "East Japan Railway Company is a major passenger railway company in Japan. It operates a network of railway lines in the eastern part of Honshu, the largest island of Japan, including the Tokyo metropolitan area. Its headquarters are located in Tokyo, Japan."
+  "summary": "East Japan Railway Company is a leading passenger rail operator whose main operations are in Japan. Its segments are transportation, retail and services, real estate and hotels, and others. Beyond passenger rail, it provides freight and bus transport, travel agency services, warehousing, financial services, telecommunications, data services, casualty insurance and dry cleaning.",
+  "website": "http://www.jreast.co.jp"
 }

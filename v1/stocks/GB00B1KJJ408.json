@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BRVG61",
     "isin": "GB00B1KJJ408"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "GB00B1KJJ408",
   "kind": "stock",
@@ -26,19 +27,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WHF4.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "WHF4.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "WHF4.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "WTB.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WTBCF"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Whitbread PLC",
   "primary_symbol": "GB00B1KJJ408.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "WHITBREAD PLC operates hotels and restaurants. Their business model revolves around providing hospitality services through brands like Premier Inn and various restaurant chains, generating revenue through accommodation, food, and beverage sales. The company is headquartered in Dunstable, UK."
+  "summary": "Whitbread PLC operates hotels and restaurants. Their business model revolves around providing hospitality services through brands like Premier Inn and various restaurant chains, generating revenue through accommodation, food, and beverage sales. The company is headquartered in Dunstable, UK.",
+  "website": "http://www.whitbread.co.uk"
 }

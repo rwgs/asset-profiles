@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FRQFT0",
+    "composite_figi": "BBG000C23KJ3",
     "cusip": "00130H105",
-    "figi": "BBG000FRRLJ7",
+    "figi": "BBG000C23NG0",
     "isin": "US00130H1059"
   },
+  "industry": "Multi-Utilities",
   "industry_group": "Utilities",
   "isin": "US00130H1059",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "AES"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0H6G.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,6 +34,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AES.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "AES.MU"
     },
@@ -32,15 +48,17 @@
       "symbol": "AES.SG"
     }
   ],
-  "name": "AES Corporation",
-  "primary_symbol": "AES.BE",
+  "market_cap_band": "Large Cap",
+  "name": "The AES Corporation",
+  "primary_symbol": "AES",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "The AES Corporation is a global power generation and utility company. AES generates and distributes electricity through various sources, including renewable energy, thermal power, and energy storage. The company is headquartered in Arlington, Virginia."
+  "summary": "The AES Corporation operates as a diversified power generation and utility company. It owns and/or operates power plants to generate and sell power to customers, such as utilities, industrial users, and other intermediaries. The company also owns and/or operates utilities to generate or purchase, distribute, transmit, and sell electricity to end-user customers in the residential, commercial, industrial, and governmental sectors; and generates and sells electricity on the wholesale market. It uses a range of fuels and technologies to generate electricity, including natural gas, coal, pet coke, diesel, and oil, as well as renewables, such as hydro, solar, wind, energy storage, biomass, and landfill gas. The company owns and/or operates a generation portfolio of approximately 30,308 megawatts. It has operations in the United States, Puerto Rico, El Salvador, Chile, Colombia, Argentina, Brazil, Mexico, Central America, the Caribbean, Europe, and Asia. The company was formerly known as Applied Energy Services, Inc. and changed its name to The AES Corporation in April 2000. The AES Corporation was incorporated in 1981 and is headquartered in Arlington, Virginia.",
+  "website": "http://www.aes.com"
 }

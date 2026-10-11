@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00JHVX9Q7",
     "cusip": "74836K100",
+    "figi": "BBG00NRVXDR7",
     "isin": "CA74836K1003"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -41,11 +43,6 @@
       "symbol": "QEC.TO"
     },
     {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "QECO.OL"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "QTEYF"
@@ -55,7 +52,7 @@
   "name": "Questerre Energy Corp.",
   "primary_symbol": "0KF1.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,14 +2,20 @@
   "country": "Thailand",
   "country_code": "TH",
   "identifiers": {
-    "composite_figi": "BBG000BM6Q13",
-    "figi": "BBG000BM6TJ8",
+    "composite_figi": "BBG000BTZ656",
+    "figi": "BBG000BTZ656",
     "isin": "TH0016010017"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "TH0016010017",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KPCPF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TFBF.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "TFBF.MU"
     },
@@ -31,15 +42,17 @@
       "symbol": "TFBF.SG"
     }
   ],
-  "name": "KASIKORNBANK -FGN-  BA 10",
-  "primary_symbol": "TFBF.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Kasikornbank Public Company Limited",
+  "primary_symbol": "KPCPF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Kasikornbank, also known as KBank, is a commercial bank in Thailand that provides a range of banking and financial services to individuals, SMEs, and corporate clients. These services include deposit accounts, loans, credit cards, investment products, and international trade finance. The bank's headquarters are located in Bangkok, Thailand."
+  "summary": "Kasikornbank Public Company Limited, together with its subsidiaries, provides commercial banking products and services. The company's personal banking products and services include savings, current, fixed deposit, and foreign currency accounts; personal, home, and auto loans; debit and credit cards; life and non-life insurance products; investment products, such as mutual funds, stocks, and derivatives/futures exchange; money transfer and bill payment, cheque and draft, and foreign exchange services; mobile banking services; and digital banking. It also offers various products and services for small and medium enterprises, including savings, current, and fixed deposits; working capital, commercial, special, and business loans, as well as letters of guarantee; collection and payment services; life, non-life, and group insurance products; cards; and international trade services. In addition, the company provides various products and services for corporate customers, such as cash management solutions, including current, savings, special savings deposit, and fixed deposit accounts, as well as collection, payment, liquidity management, and electronic solutions; international trade solutions comprising import and export, global money transfer, guarantee, and trade finance solutions; working capital loans, term loans, special loans, and letters of guarantee; supply chain financing; life, non-life, and group insurance products; and foreign exchange and derivatives, corporate finance, securities, investment, and business card services. It operates 860 branches in Thailand and 6 internationally. Kasikornbank Public Company Limited was founded in 1945 and is headquartered in Bangkok, Thailand.",
+  "website": "http://www.kasikornbank.com"
 }

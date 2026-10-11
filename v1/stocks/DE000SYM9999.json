@@ -6,6 +6,7 @@
     "figi": "BBG006TLWC24",
     "isin": "DE000SYM9999"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "DE000SYM9999",
   "kind": "stock",
@@ -14,17 +15,64 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000SYM9999.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SY1.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SY1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SY1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SY1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SY1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SY1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SY1.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "SY1.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SYIEF"
     }
   ],
-  "name": "SYMRISE AG",
+  "market_cap_band": "Large Cap",
+  "name": "Symrise AG",
   "primary_symbol": "DE000SYM9999.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "SYMRISE AG is a global supplier of fragrances, flavorings, cosmetic active ingredients and raw materials, as well as functional ingredients. They develop, produce and sell these products for use in perfumes, cosmetics, food and beverages, pharmaceuticals and other industries. The company is headquartered in Holzminden, Germany."
+  "summary": "SYMRISE AG is a global supplier of fragrances, flavorings, cosmetic active ingredients and raw materials, as well as functional ingredients. They develop, produce and sell these products for use in perfumes, cosmetics, food and beverages, pharmaceuticals and other industries. The company is headquartered in Holzminden, Germany.",
+  "website": "http://www.symrise.com"
 }

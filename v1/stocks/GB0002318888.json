@@ -2,13 +2,30 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BDDCF1",
+    "composite_figi": "BBG00KDGMRP4",
+    "figi": "BBG00KDGMRT0",
     "isin": "GB0002318888"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "GB0002318888",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0U6.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRWKF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CWK.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -20,15 +37,17 @@
       "symbol": "GB0002318888.SW"
     }
   ],
-  "name": "CRANSWICK PLC",
-  "primary_symbol": "GB0002318888.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Cranswick plc",
+  "primary_symbol": "0U6.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Cranswick PLC is a food producer supplying a range of fresh pork, poultry, cooked meats, and pastry products to the UK food retail market. The company focuses on high-quality, sustainable food production. Cranswick is headquartered in Hull, United Kingdom."
+  "summary": "Cranswick plc produces and supplies food products to grocery retailers, food service sector, and other food producers in the United Kingdom, Continental Europe, and internationally. It offers fresh pork, gourmet bacon and gammon, fresh and cooked chicken, and prepared chicken and poultry products, as well as gourmet sausages, cooked meats, continental foods, gourmet pastries, and ingredients. The company was incorporated in 1972 and is based in Hessle, the United Kingdom.",
+  "website": "http://www.cranswick.plc.uk"
 }

@@ -2,19 +2,30 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00Z0Y6J09",
+    "composite_figi": "BBG00N2N8310",
     "cusip": "14161Y200",
-    "figi": "BBG00Z0Y6J45",
+    "figi": "BBG00N2N8310",
     "isin": "CA14161Y2006"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "CA14161Y2006",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "CRDL"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA14161Y2006.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "CRDL.TO"
     },
     {
       "currency": "EUR",
@@ -23,19 +34,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CT9.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "CT9.MU"
     }
   ],
-  "name": "Cardiol Therapeutics Inc. Class A",
-  "primary_symbol": "CA14161Y2006.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Cardiol Therapeutics Inc. Class A Common Shares",
+  "primary_symbol": "CRDL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "CARDIOL THERAPEUTICS INC-A is a biotechnology company focused on developing pharmaceutical cannabidiol (CBD) formulations for the treatment of heart disease. The company's lead drug candidate is CardiolRx. Cardiol Therapeutics Inc. is headquartered in Oakville, Ontario, Canada."
+  "summary": "Cardiol Therapeutics Inc. is a biotechnology company focused on the research and clinical development of innovative therapies for heart disease. The company is developing pharmaceuticals and medical cannabinoids for the treatment of cardiovascular conditions. Cardiol Therapeutics Inc. is headquartered in Oakville, Ontario, Canada.",
+  "website": "http://www.cardiolrx.com"
 }

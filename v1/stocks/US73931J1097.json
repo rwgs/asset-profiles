@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00QJ4K8W8",
+    "composite_figi": "BBG00PG3JNL6",
     "cusip": "73931J109",
-    "figi": "BBG00QJ4K901",
+    "figi": "BBG00PG3JNL6",
     "isin": "US73931J1097"
   },
-  "industry_group": "Software & Services",
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Telecommunication Services",
   "isin": "US73931J1097",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "AIOT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3LO.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US73931J1097.SG"
     }
   ],
-  "name": "POWERFLEET INC",
-  "primary_symbol": "US73931J1097.SG",
+  "market_cap_band": "Small Cap",
+  "name": "PowerFleet Inc. Common Stock",
+  "primary_symbol": "AIOT",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "POWERFLEET INC is a global provider of wireless Internet of Things (IoT) and machine-to-machine (M2M) solutions. Headquartered in Rochelle Park, New Jersey, the company provides fleet management, asset tracking, and workforce management solutions to businesses of all sizes. PowerFleet's solutions help customers improve operational efficiency, reduce costs, and enhance safety."
+  "sector": "Communications",
+  "summary": "PowerFleet Inc. Common Stock provides wireless Internet of Things (IoT) and machine-to-machine (M2M) solutions. It provides subscription-based services for securing, tracking and managing mobile assets. The company is headquartered in Woodcliff Lake, New Jersey.",
+  "website": "http://www.powerfleet.com"
 }

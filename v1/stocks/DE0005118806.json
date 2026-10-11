@@ -6,6 +6,7 @@
     "figi": "BBG000BT7K01",
     "isin": "DE0005118806"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Software & Services",
   "isin": "DE0005118806",
   "kind": "stock",
@@ -17,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "TGT.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "TGT.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TGT.F"
     },
     {
       "currency": "EUR",
@@ -36,15 +47,17 @@
       "symbol": "TGT.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "11 88 0 Solutions AG",
   "primary_symbol": "TGT.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "11880 Solutions AG provides digital marketing and online advertising solutions for small and medium-sized enterprises (SMEs). The company offers services such as search engine optimization (SEO), online directory listings, and website development. 11880 Solutions AG is headquartered in Essen, Germany."
+  "summary": "11880 Solutions AG provides digital marketing and online advertising solutions for small and medium-sized enterprises (SMEs). The company offers services such as search engine optimization (SEO), online directory listings, and website development. 11880 Solutions AG is headquartered in Essen, Germany.",
+  "website": "http://www.11880.com"
 }

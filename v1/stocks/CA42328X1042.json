@@ -7,6 +7,7 @@
     "figi": "BBG00NTXM9Q3",
     "isin": "CA42328X1042"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "CA42328X1042",
   "kind": "stock",
@@ -15,17 +16,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA42328X1042.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FFXXF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XTSE",
+      "symbol": "HFPC-U.TO"
     }
   ],
-  "name": "HELIOS FAIRFAX PARTNERS CORP",
+  "market_cap_band": "Micro Cap",
+  "name": "Helios Fairfax Partners Corporation",
   "primary_symbol": "CA42328X1042.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "HELIOS FAIRFAX PARTNERS CORP is a special purpose acquisition corporation (SPAC) focused on identifying and acquiring a target business. The company seeks to acquire a company in a sector with attractive growth prospects. Helios Fairfax Partners Corp is headquartered in Toronto, Ontario."
+  "summary": "HELIOS FAIRFAX PARTNERS CORP is a special purpose acquisition corporation (SPAC) focused on identifying and acquiring a target business. The company seeks to acquire a company in a sector with attractive growth prospects. Helios Fairfax Partners Corp is headquartered in Toronto, Ontario.",
+  "website": "http://www.heliosinvestment.com/helios-fairfax-partners"
 }

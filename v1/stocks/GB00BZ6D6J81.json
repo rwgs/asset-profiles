@@ -2,7 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000QR2CQ4",
     "cusip": "G89865136",
+    "figi": "BBG000QR2D00",
     "isin": "GB00BZ6D6J81"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -14,12 +16,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "TRP.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ULF1.F"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Tower Resources plc",
   "primary_symbol": "TRP.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

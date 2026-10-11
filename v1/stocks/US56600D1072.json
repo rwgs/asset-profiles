@@ -2,13 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00Y1DFV91",
     "cusip": "56600D107",
+    "figi": "BBG00Y1DFV91",
     "isin": "US56600D1072"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US56600D1072",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "MRVI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -26,15 +34,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "MARAVAI LIFESC.HLD.A -,01",
-  "primary_symbol": "MAR.BE",
+  "name": "Maravai LifeSciences Holdings, Inc.",
+  "primary_symbol": "MRVI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MARAVAI LIFESCIENCES HLDGS-A provides products and services to the life sciences industry, enabling drug development programs. Their offerings include nucleic acids, protein production, and biologics safety testing. The company is headquartered in San Diego, California."
+  "summary": "Maravai LifeSciences Holdings, Inc., a life sciences company, provides products to enable the development of drug therapies, diagnostics, novel vaccines, and support research on human diseases in the United States and internationally. The company's products address the key phases of biopharmaceutical development and include nucleic acids for diagnostic and therapeutic applications, antibody-based products to detect impurities during the production of biopharmaceutical products, and products to detect the expression of proteins in tissues of various species. It operates in three segments: Nucleic Acid Production, Biologics Safety Testing, and Protein Detection. The Nucleic Acid Production segment manufactures and sells products for use in the fields of gene therapy, nucleoside chemistry, oligonucleotide therapy, and molecular diagnostics, including reagents used in the chemical synthesis, modification, labelling, and purification of deoxyribonucleic acid (DNA) and ribonucleic acid (RNA). This segment also offers messenger RNA, oligonucleotides, and oligonucleotide building blocks, as well as plasmid DNA and CleanCap capping technology. The Biologics Safety Testing segment sells analytical products for use in biologic manufacturing process development, including custom product-specific development antibody and assay development services. This segment also provides HCP ELISA kits, other bioprocess impurity and contaminant ELISA kits, ancillary reagents, and custom services. The Protein Detection segment sells labeling and detection reagents for researchers in immunohistochemistry, immunofluorescence, and glycobiology. The company serves biopharmaceutical companies, and other biopharmaceutical and life sciences research companies; and academic research institutions and in vitro diagnostics companies. Maravai LifeSciences Holdings, Inc. was incorporated in 2020 and is headquartered in San Diego, California.",
+  "website": "http://www.maravai.com"
 }

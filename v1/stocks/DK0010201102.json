@@ -2,6 +2,8 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
+    "composite_figi": "BBG00JHVT5H0",
+    "figi": "BBG00JHVT5J8",
     "isin": "DK0010201102"
   },
   "industry": "Air Freight & Logistics",
@@ -16,20 +18,35 @@
     },
     {
       "currency": "DKK",
+      "exchange_mic": "XSWX",
+      "symbol": "DK0010201102.SW"
+    },
+    {
+      "currency": "DKK",
       "exchange_mic": "XCSE",
       "symbol": "KBHL.CO"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KLH.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KLH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "KLH.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Kobenhavns Lufthavne A/S",
   "primary_symbol": "0EYJ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

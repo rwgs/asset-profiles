@@ -1,8 +1,7 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00R97WP13",
     "cusip": "50046B205",
     "isin": "CA50046B2057"
   },
@@ -12,16 +11,25 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "symbol": "KOMOF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "YUM.F"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "YUM.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Komo Plant Based Foods Inc.",
-  "primary_symbol": "YUM.SG",
+  "name": "Komo Plant Based Foods",
+  "primary_symbol": "KOMOF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

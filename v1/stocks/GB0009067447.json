@@ -1,9 +1,9 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000C7VH99",
-    "figi": "BBG000C7VL18",
+    "composite_figi": "BBG000C6N658",
+    "figi": "BBG000C6N6M9",
     "isin": "GB0009067447"
   },
   "industry": "Specialty Retail",
@@ -11,6 +11,11 @@
   "isin": "GB0009067447",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "MTC.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -29,9 +34,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Mothercare plc",
-  "primary_symbol": "MTR.BE",
+  "primary_symbol": "MTC.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

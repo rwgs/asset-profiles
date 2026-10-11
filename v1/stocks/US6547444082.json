@@ -2,9 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BGPQB4",
+    "composite_figi": "BBG00BL3NY23",
     "cusip": "654744408",
-    "figi": "BBG000BGPQR7",
+    "figi": "BBG00BL3NY32",
     "isin": "US6547444082"
   },
   "industry": "Automobiles",
@@ -13,29 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "7201.T"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NISA.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "NISA.VI"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NISE.F"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "NSANF"
     },
     {
       "currency": "USD",
@@ -48,11 +28,11 @@
       "symbol": "NSANYN.MX"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Nissan Motor Co., Ltd.",
-  "primary_symbol": "7201.T",
+  "primary_symbol": "NISE.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

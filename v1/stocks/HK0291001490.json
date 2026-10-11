@@ -2,14 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000JGFQ18",
-    "figi": "BBG000JGFT94",
+    "composite_figi": "BBG000BKWLP3",
+    "figi": "BBG000BKWM80",
     "isin": "HK0291001490"
   },
+  "industry": "Beverages",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "HK0291001490",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0291.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,6 +25,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "CHK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CHK.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +50,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CHK.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRHKF"
     }
   ],
-  "name": "China Resources Beer (Holdings) Co. Ltd.",
-  "primary_symbol": "CHK.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "China Resources Beer (Holdings) Company Limited",
+  "primary_symbol": "0291.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "China Resources Beer (Holdings) Co. Ltd. is a Chinese brewery and beverage company, known for its Snow beer brand, which is one of the world's best-selling beer brands. The company is engaged in the production, distribution, and marketing of beer products. China Resources Beer is headquartered in Hong Kong."
+  "summary": "China Resources Beer (Holdings) Company Limited, an investment holding company, manufactures, distributes, and sells beer products under the Snow and Heineken brands. As of December 31, 2020, it operated 70 breweries in 25 provinces, municipalities, and autonomous regions in Mainland China. The company was formerly known as China Resources Enterprise, Limited and changed its name to China Resources Beer (Holdings) Company Limited in October 2015. The company is based in Wan Chai, Hong Kong. China Resources Beer (Holdings) Company Limited is a subsidiary of China Resources (Holdings) Company Limited.",
+  "website": "http://www.crbeer.com.hk"
 }

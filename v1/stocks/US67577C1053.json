@@ -2,30 +2,58 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG007PQLLR0",
+    "composite_figi": "BBG00194VJB1",
     "cusip": "67577C105",
-    "figi": "BBG007PQLLW4",
+    "figi": "BBG00194VJB1",
     "isin": "US67577C1053"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US67577C1053",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "OCGN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "2H51.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2H51.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "2H51.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2H51.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US67577C1053.SG"
     }
   ],
-  "name": "OCUGEN INC",
-  "primary_symbol": "US67577C1053.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Ocugen, Inc.",
+  "primary_symbol": "OCGN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "OCUGEN INC is a biopharmaceutical company focused on developing gene therapies to cure blindness diseases. Headquartered in Malvern, Pennsylvania, the company is developing a pipeline of innovative therapies for diseases such as retinitis pigmentosa, dry age-related macular degeneration, and diabetic retinopathy. Ocugen's goal is to restore vision and improve the quality of life for individuals with inherited and age-related eye diseases."
+  "summary": "Ocugen, Inc., a clinical-stage biopharmaceutical company, focuses on the developing gene therapies to cure blindness diseases. The company's pipeline product includes OCU400, a novel gene therapy product candidate restoring retinal integrity and function across a range of genetically diverse inherited retinal diseases, such as retinitis pigmentosa and leber congenital amaurosis; OCU410, gene therapy candidate for the treatment of dry age-related macular degeneration (AMD); and OCU200, a novel fusion protein that is in preclinical development stage for the treatment of diabetic macular edema, diabetic retinopathy, and wet AMD. Ocugen, Inc. has a strategic partnership with CanSino Biologics Inc. for gene therapy co-development and manufacturing; and Bharat Biotech for the commercialization of COVAXIN in the United States market. The company is headquartered in Malvern, Pennsylvania.",
+  "website": "http://www.ocugen.com"
 }

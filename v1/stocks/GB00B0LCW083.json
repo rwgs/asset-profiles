@@ -6,6 +6,7 @@
     "figi": "BBG000KRDLJ6",
     "isin": "GB00B0LCW083"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "GB00B0LCW083",
   "kind": "stock",
@@ -19,17 +20,39 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "H5P.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "H5P.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "H5P.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "HIK.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HKMPF"
     }
   ],
-  "name": "HIKMA PHARMACEUTIC.LS-,10",
+  "market_cap_band": "Mid Cap",
+  "name": "Hikma Pharmaceuticals PLC",
   "primary_symbol": "H5P.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Hikma Pharmaceuticals PLC is a multinational pharmaceutical company that develops, manufactures, and markets a broad range of generic, branded and in-licensed pharmaceutical products. The company operates through three segments: Injectables, Generics and Branded. Hikma Pharmaceuticals is headquartered in London, UK."
+  "summary": "Hikma Pharmaceuticals PLC is a multinational pharmaceutical company that develops, manufactures, and markets a broad range of generic, branded and in-licensed pharmaceutical products. The company operates through three segments: Injectables, Generics and Branded. Hikma Pharmaceuticals is headquartered in London, UK.",
+  "website": "http://www.hikma.com"
 }

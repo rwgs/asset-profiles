@@ -3,27 +3,36 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG00D60P6T2",
+    "figi": "BBG00D60P6V9",
     "isin": "CNE1000029M4"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "CNE1000029M4",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "6178.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CNE1000029M4.SG"
     }
   ],
-  "name": "EVERBRIGHT SECURITIES CO L-H",
-  "primary_symbol": "CNE1000029M4.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Everbright Securities Company Limited",
+  "primary_symbol": "6178.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "EVERBRIGHT SECURITIES CO L-H is a financial services company providing securities brokerage, investment banking, and asset management services. The company offers services to both individual and institutional clients. It is headquartered in China."
+  "summary": "Everbright Securities Company Limited was founded in Wan Chai, Hong Kong, in 1996 and runs a broad financial services business in China and internationally. Its activities cover wealth management, corporate finance, institutional client services, proprietary trading, asset management and direct equity investment, with brokerage services for individuals.",
+  "website": "https://www.ebscn.com"
 }

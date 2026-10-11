@@ -2,8 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00XPQ1YZ8",
-    "figi": "BBG00XPQ1Z03",
+    "composite_figi": "BBG0120T68X0",
+    "figi": "BBG0120T68X0",
     "isin": "NO0010892359"
   },
   "industry": "Machinery",
@@ -11,6 +11,11 @@
   "isin": "NO0010892359",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HYPRF"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -20,19 +25,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010892359.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "R6Z.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "R6Z.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "R6Z.MU"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "HydrogenPro AS",
-  "primary_symbol": "HYPRO.OL",
+  "market_cap_band": "Nano Cap",
+  "name": "HydrogenPro ASA",
+  "primary_symbol": "HYPRF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "HydrogenPro AS designs and supplies customized hydrogen plants for industrial clients. The company primarily provides alkaline high-pressure electrolysers. It also offers containerized solutions for small plants; and indoor installations for medium plants. The company was founded in 2013 and is based in Porsgrunn, Norway.",
-  "website": "http://www.hydrogen-pro.com"
+  "summary": "HydrogenPro ASA designs and supplies hydrogen production plants and advanced alkaline electrolysers. Their focus is enabling the industrial scale green hydrogen economy. The company is headquartered in Porsgrunn, Norway.",
+  "website": "https://hydrogenpro.com"
 }

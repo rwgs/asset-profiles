@@ -2,14 +2,20 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG006K9FYS3",
+    "composite_figi": "BBG006M17N29",
+    "figi": "BBG006M17N74",
     "isin": "CNE100001SG2"
   },
-  "industry": "Marine",
+  "industry": "Transportation Infrastructure",
   "industry_group": "Transportation",
   "isin": "CNE100001SG2",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0QP.MU"
+    },
     {
       "currency": "CNY",
       "exchange_mic": "XSHG",
@@ -19,13 +25,18 @@
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "6198.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "QNDPF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Qingdao Port International Co., Ltd.",
-  "primary_symbol": "601298.SS",
+  "primary_symbol": "0QP.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,26 +2,87 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000R69TG6",
-    "figi": "BBG000R69W33",
+    "composite_figi": "BBG000T233S3",
+    "figi": "BBG000T234L8",
     "isin": "AT0000APOST4"
   },
+  "industry": "Air Freight & Logistics",
+  "industry_group": "Transportation",
   "isin": "AT0000APOST4",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0NTM.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSWX",
+      "symbol": "AT0000APOST4.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "O3P.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "O3P.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "O3P.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "O3P.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "O3P.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "O3P.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "O3P.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "O3P.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OERCF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "POST.VI"
     }
   ],
-  "name": "sterreichische Post AG Inhaber-",
-  "primary_symbol": "O3P.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Österreichische Post AG",
+  "primary_symbol": "0NTM.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "Österreichische Post AG is the postal service provider in Austria. It provides postal services, logistics solutions, and financial services. The company is headquartered in Vienna, Austria.",
+  "website": "https://www.post.at"
 }

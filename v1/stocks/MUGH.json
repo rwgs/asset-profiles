@@ -1,7 +1,10 @@
 {
   "country": "Taiwan, Province of China",
   "country_code": "TW",
-  "industry": "Hotels, Restaurants & Leisure",
+  "identifiers": {
+    "cusip": "55380G108"
+  },
+  "industry": "Diversified Consumer Services",
   "industry_group": "Consumer Services",
   "kind": "stock",
   "listings": [
@@ -15,7 +18,7 @@
   "name": "Mu Global Holding Limited",
   "primary_symbol": "MUGH",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

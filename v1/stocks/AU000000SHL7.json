@@ -1,11 +1,12 @@
 {
-  "country": "Spain",
-  "country_code": "ES",
+  "country": "Australia",
+  "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG000BC3Q45",
     "figi": "BBG000BC3S96",
     "isin": "AU000000SHL7"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "AU000000SHL7",
   "kind": "stock",
@@ -22,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SAB.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "SAB.HM"
     },
@@ -34,17 +40,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SAB.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "SHL.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SKHCF"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Sonic Healthcare Limited",
   "primary_symbol": "SAB.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "SONIC HEALTHCARE is a medical diagnostics company, providing pathology and radiology services to medical practitioners, hospitals, and community health services. Sonic Healthcare operates laboratories and imaging centers in Australia, Europe, and North America. The company is headquartered in Sydney, Australia."
+  "summary": "Sonic Healthcare Limited is a medical diagnostics company, providing pathology and radiology services to medical practitioners, hospitals, and community health services. Sonic Healthcare operates laboratories and imaging centers in Australia, Europe, and North America. The company is headquartered in Sydney, Australia.",
+  "website": "http://www.sonichealthcare.com"
 }

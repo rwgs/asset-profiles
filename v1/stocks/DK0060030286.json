@@ -2,6 +2,8 @@
   "country": "Denmark",
   "country_code": "DK",
   "identifiers": {
+    "composite_figi": "BBG00JHVSPF9",
+    "figi": "BBG00JHVSPG8",
     "isin": "DK0060030286"
   },
   "industry": "Software",
@@ -16,6 +18,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C6F.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C6F.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "C6F.SG"
     },
@@ -25,11 +37,11 @@
       "symbol": "CBRAIN.CO"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "cBrain A/S",
   "primary_symbol": "0DWV.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

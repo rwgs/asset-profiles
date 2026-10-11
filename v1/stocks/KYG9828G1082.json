@@ -2,14 +2,25 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000QT9409",
-    "figi": "BBG000QT96P7",
+    "composite_figi": "BBG000LG6F55",
+    "figi": "BBG000LG6G08",
     "isin": "KYG9828G1082"
   },
-  "industry_group": "Materials",
+  "industry": "Building Products",
+  "industry_group": "Capital Goods",
   "isin": "KYG9828G1082",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0868.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XI9.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -19,17 +30,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "XI9.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XYIGF"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Xinyi Glass Holdings Limited",
-  "primary_symbol": "XI9.MU",
+  "primary_symbol": "0868.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "XINYI GLASS HLDGS HD,- 10 is likely referring to Xinyi Glass Holdings Limited, a leading integrated glass manufacturer based in Hong Kong. The company is engaged in the production and sale of various types of glass, including float glass, architectural glass, and automotive glass. Xinyi Glass is headquartered in Hong Kong."
+  "sector": "Industrials",
+  "summary": "Xinyi Glass Holdings Limited, an investment holding company, produces and sells automobile, construction, float, and other glass products for commercial and industrial applications. The company operates through three segments: Float Glass, Automobile Glass, and Architectural Glass. It is also involved in the manufacturing and sale of automobile rubber and plastic components, as well as electronic glass; trading of automobile glass; and research and trading of glass. In addition, the company offers logistic and related services; supply chain services; operates a wind farm for electricity generation; and manufactures automatic machines for solar glass factory and other glass related industries, as well as holds properties and car parks. The company serves automobile glass manufacturing; wholesale and distribution; automobile repair; motor vehicle manufacturing; curtain wall engineering and installing; architectural and furniture glass manufacturing; electronic and household appliances manufacturing; and float glass wholesale and distribution companies. It sells its products in approximately 140 countries and territories, including the People's Republic of China, Hong Kong, the United States, Canada, Australia, and New Zealand, as well as countries in Asia, the Middle East, Europe, Africa, and the Americas. The company was founded in 1988 and is headquartered in Kwun Tong, Hong Kong.",
+  "website": "http://www.xinyiglass.com"
 }

@@ -2,32 +2,47 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000PWVC55",
-    "figi": "BBG000PWVCP3",
+    "composite_figi": "BBG000M340F7",
+    "figi": "BBG000M34183",
     "isin": "KYG2029E1052"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "KYG2029E1052",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1164.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CGNMF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VBO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VBO.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "CGN Mining Company Limited",
-  "primary_symbol": "VBO.F",
+  "primary_symbol": "1164.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "CGN Mining Company Limited engages in the investment and trading of natural uranium resources. The company is also involved in the property investment activities. It has operations in Hong Kong, the People's Republic of China, Kazakhstan, Canada, and the United Kingdom, rest of Europe. The company was incorporated in 2001 and is headquartered in Wanchai, Hong Kong. CGN Mining Company Limited is a subsidiary of China Uranium Development Company Limited.",
+  "sector": "Energy",
+  "summary": "CGN Mining Company Limited develops and trades natural uranium resources for nuclear power plants. Its segments are Natural Uranium Trading and Other Investments, and it also invests in uranium resources. It operates in China, Kazakhstan, Canada and the United Kingdom, was founded in 1998 and has its head office in Wan Chai, Hong Kong.",
   "website": "http://www.cgnmc.com"
 }

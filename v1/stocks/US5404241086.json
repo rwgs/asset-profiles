@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000C45984",
     "cusip": "540424108",
+    "figi": "BBG000C45984",
     "isin": "US5404241086"
   },
   "industry": "Insurance",
@@ -12,20 +14,35 @@
   "listings": [
     {
       "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "L"
+    },
+    {
+      "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0JVI.L"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "LTR.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "LTR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LTR.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Loews Corporation",
-  "primary_symbol": "0JVI.L",
+  "primary_symbol": "L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

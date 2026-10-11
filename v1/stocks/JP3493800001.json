@@ -1,15 +1,21 @@
 {
-  "country": "Poland",
-  "country_code": "PL",
+  "country": "Japan",
+  "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1P7K8",
-    "figi": "BBG000C1PCJ9",
+    "composite_figi": "BBG000BMJDM5",
+    "figi": "BBG000BMJFN9",
     "isin": "JP3493800001"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "JP3493800001",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7912.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,17 +25,29 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "DNP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DNP.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DNPCF"
     }
   ],
-  "name": "DAI NIPPON PRINTG",
-  "primary_symbol": "DNP.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Dai Nippon Printing Co.,Ltd.",
+  "primary_symbol": "7912.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "DAI NIPPON PRINTING CO., LTD. is a Japanese company that provides printing and information solutions. The company's business segments include information communication, lifestyle and industrial supplies, and electronics. DAI NIPPON PRINTING offers products such as publications, commercial printing, packaging materials, decorative materials, and display components, and is headquartered in Tokyo, Japan."
+  "sector": "Industrials",
+  "summary": "Dai Nippon Printing Co., Ltd. is headquartered in Tokyo, Japan, and was established in 1876. It operates mainly in printing across several business segments. The Information Communication segment covers print media such as books, magazines, flyers and catalogs, as well as business process outsourcing.",
+  "website": "http://www.dnp.co.jp"
 }

@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BXHVR8",
-    "figi": "BBG000BXHY65",
+    "composite_figi": "BBG000BGNSG7",
+    "figi": "BBG000BGNSQ6",
     "isin": "JP3209000003"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3209000003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6952.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CAC1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "CAC1.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CAC1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CSIOF"
     }
   ],
-  "name": "Casio Computer Co., Ltd.",
-  "primary_symbol": "CAC1.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Casio Computer Co.,Ltd.",
+  "primary_symbol": "6952.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CASIO COMPUTER CO., LTD. designs, develops, manufactures, and sells various electronics products worldwide. Its product portfolio includes calculators, watches, electronic dictionaries, label printers, digital cameras, electronic musical instruments, and system equipment. The company is headquartered in Tokyo, Japan."
+  "summary": "Casio Computer Co., Ltd. develops, produces, and sells consumer, system equipment, and other products in Asia, Europe, Japan, North America, and internationally. Its Consumer segment offers watches, clocks, electronic dictionaries, electronic calculators, label printers, electronic musical instruments, digital cameras, etc. The company's System Equipment segment provides handheld terminals, electronic cash registers, management support systems, data projectors, etc. Its Others segment offers formed parts, molds, etc. The company was founded in 1957 and is headquartered in Tokyo, Japan.",
+  "website": "http://world.casio.com"
 }

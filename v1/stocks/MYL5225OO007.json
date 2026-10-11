@@ -1,33 +1,43 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Malaysia",
+  "country_code": "MY",
   "identifiers": {
-    "composite_figi": "BBG004FLFVT2",
-    "figi": "BBG004FLFVT2",
+    "composite_figi": "BBG0033XXWJ0",
+    "figi": "BBG0033XXWK8",
     "isin": "MYL5225OO007"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Health Care Providers & Services",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "MYL5225OO007",
   "kind": "stock",
   "listings": [
     {
+      "currency": "MYR",
+      "exchange_mic": "XKLS",
+      "symbol": "5225.KL"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "IHHHF"
+    },
+    {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "Q0F.SI"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "IHH Healthcare Berhad",
-  "primary_symbol": "IHHHF",
+  "primary_symbol": "5225.KL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "IHH Healthcare Berhad is a prominent investment holding company delivering a comprehensive range of healthcare services across various international markets, notably Malaysia, Singapore, Turkey, and India, spanning primary through quaternary care. Established in 2010, IHH Healthcare Berhad maintains its headquarters in Kuala Lumpur, Malaysia.",
-  "website": "http://www.rh.com"
+  "sector": "Health Care",
+  "summary": "IHH Healthcare Berhad, established in Kuala Lumpur, Malaysia, in 2010, functions as a global investment holding company renowned for its comprehensive healthcare services, operating hospitals across Malaysia, Singapore, Turkey, India, and other markets.",
+  "website": "https://www.ihhhealthcare.com"
 }

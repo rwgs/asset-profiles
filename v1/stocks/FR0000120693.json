@@ -2,18 +2,29 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG007FJN6N2",
-    "figi": "BBG007FJN6Q9",
+    "composite_figi": "BBG000R2HB02",
+    "figi": "BBG000R2HBX6",
     "isin": "FR0000120693"
   },
+  "industry": "Beverages",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "FR0000120693",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0HAT.IL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000120693.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PDRDF"
     },
     {
       "currency": "EUR",
@@ -22,8 +33,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "PER.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "PER.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PER.F"
     },
     {
       "currency": "EUR",
@@ -44,17 +65,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PER.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "RI.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "RI.VI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Pernod Ricard SA",
-  "primary_symbol": "FR0000120693.SW",
+  "primary_symbol": "0HAT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "PERNOD RICARD SA is a global alcoholic beverage company that produces and distributes a wide range of spirits and wines. The company's portfolio includes brands such as Absolut Vodka, Chivas Regal, and Martell cognac, sold in markets around the world; headquarters are located in Paris, France. Pernod Ricard focuses on building premium brands and engaging consumers through memorable experiences."
+  "summary": "Pernod Ricard SA produces and sells wines and spirits worldwide. Its brands include Absolut Vodka, Ricard pastis, Ballantine's, Chivas Regal, Royal Salute, The Glenlivet Scotch whiskies, Jameson Irish whiskey, Martell cognac, Havana Club rum, Beefeater gin, Malibu liqueur, Mumm, and Perrier-Jouët champagnes, as well Jacob's Creek, Brancott Estate, Campo Viejo, and Kenwood wines. The company was founded in 1805 and is headquartered in Paris, France.",
+  "website": "http://www.pernod-ricard.com"
 }

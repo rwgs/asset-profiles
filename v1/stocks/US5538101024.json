@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00XZQD104",
+    "composite_figi": "BBG000BPFFJ1",
     "cusip": "553810102",
-    "figi": "BBG00XZQD140",
+    "figi": "BBG000BPFFJ1",
     "isin": "US5538101024"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US5538101024",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "MVBF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MV6.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US5538101024.SG"
     }
   ],
-  "name": "MVB FINANCIAL CORP",
-  "primary_symbol": "US5538101024.SG",
+  "market_cap_band": "Small Cap",
+  "name": "MVB Financial Corp.",
+  "primary_symbol": "MVBF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "MVB FINANCIAL CORP is a financial holding company that provides community banking services through its subsidiary, MVB Bank. The bank offers a range of deposit accounts, loans, and other financial products to individuals and businesses. MVB Financial Corp. is headquartered in Fairmont, West Virginia."
+  "summary": "MVB Financial Corp., together with its subsidiaries, provides banking and mortgage products and services to individuals and corporate clients in the United States. The company operates through three segments: Commercial and Retail Banking; Mortgage Banking; and Financial Holding Company. It offers various demand deposit accounts, savings accounts, money market accounts, and certificates of deposit; and grants various types of loans, including commercial and commercial real estate loans, residential real estate loans, home equity lines of credit, and consumer loans. The company also provides debit cards; cashier's checks; safe deposit rental facilities; and non-deposit investment services, as well as automated teller machines, and internet and telephone banking services. The company operates 13 full-service banking branches; ten offices in West Virginia; and three in Virginia. MVB Financial Corp. was founded in 1997 and is headquartered in Fairmont, West Virginia.",
+  "website": "http://www.mvbbanking.com"
 }

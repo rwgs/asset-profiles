@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000CRLYX2",
-    "figi": "BBG000CRN1Y1",
+    "composite_figi": "BBG000C3ZJP2",
+    "figi": "BBG000C3ZJW4",
     "isin": "JP3637300009"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "JP3637300009",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4704.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TMI.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "TMI.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TMI.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TMICF"
     }
   ],
-  "name": "Trend Micro Inc.",
-  "primary_symbol": "TMI.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Trend Micro",
+  "primary_symbol": "4704.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Trend Micro Incorporated develops and sells cybersecurity solutions for businesses, consumers, and governments. The company provides cloud security, network security, endpoint security, and threat intelligence solutions to protect against cyber threats. Trend Micro is headquartered in Tokyo, Japan."
+  "summary": "Trend Micro Incorporated, established in 1965 and headquartered in Tokyo, Japan, is a leading provider of computer and internet security software, primarily serving the Japanese market. The company offers a comprehensive suite of hybrid cloud security solutions, encompassing areas like conformity, workload, container, file storage, application, network, and open-source protection. Their offerings extend to intrusion prevention, threat defense, and securing both industrial and mobile networks, alongside robust endpoint security for email, mobile, web, and industrial systems. Trend Micro also facilitates cloud adoption with solutions for migration, cloud-native application development, cloud operational security, data center protection, and SaaS applications. Furthermore, the company addresses specialized security needs for ICS/OT, connected cars, and 5G infrastructure, while providing critical solutions for ransomware mitigation, end-of-support systems, regulatory compliance, and advanced detection and response. Their diverse client base includes industries such as oil and gas, healthcare, manufacturing, and electric utilities.",
+  "website": "https://www.trendmicro.com"
 }

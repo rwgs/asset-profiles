@@ -5,6 +5,8 @@
     "composite_figi": "BBG000RWJ5Z9",
     "isin": "DK0060093524"
   },
+  "industry": "Real Estate Management & Development",
+  "industry_group": "Real Estate",
   "isin": "DK0060093524",
   "kind": "stock",
   "listings": [
@@ -12,15 +14,24 @@
       "currency": "DKK",
       "exchange_mic": "XSWX",
       "symbol": "DK0060093524.SW"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XCSE",
+      "symbol": "GERHSP.CO"
     }
   ],
-  "name": "GERMAN HIGH STREET PROPERTIE",
+  "market_cap_band": "Nano Cap",
+  "name": "German High Street Properties A/S",
   "primary_symbol": "DK0060093524.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Real Estate",
+  "summary": "German High Street Properties A/S invests in and rents high-street properties in Germany and in the Nordic countries. The company is based in Charlottenlund, Denmark.",
+  "website": "http://www.germanhighstreet.dk"
 }

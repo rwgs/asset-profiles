@@ -2,29 +2,42 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DFWYX5",
-    "figi": "BBG000DFX1J2",
+    "composite_figi": "BBG00886PK17",
+    "figi": "BBG00Z7448Z6",
     "isin": "FR0013505062"
   },
+  "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
   "isin": "FR0013505062",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0MV8.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FR0013505062.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "VANTI.PA"
     }
   ],
-  "name": "VANTIVA SA",
-  "primary_symbol": "FR0013505062.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Vantiva S.A.",
+  "primary_symbol": "0MV8.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "VANTIVA SA, formerly known as Technicolor, is a French company that provides technology products and services for the connected home market. They offer solutions for broadband access, video streaming, and home automation, serving network service providers globally with headquarter located in Paris, France. VANTIVA SA delivers innovative customer premises equipment."
+  "summary": "Technicolor SA develops, creates, and delivers products and services for the media and entertainment sectors in France, the United Kingdom, rest of Europe, the United States, rest of Americas, and the Asia-Pacific. It operates through three segments: Production Services, DVD Services, and Connected Home. The Production Services segment offers visual effects (VFX) services, including pre-visualization, asset creation, texturing, animation, rigging, rotoscoping, lighting, match move, and compositing; and computer-generated imagery animation solutions. This segment offers its services for feature films, episodic, advertising, video games, and other audiovisual content. The DVD Services segment replicates, packages, and distributes video game and music CD, DVD, and Blu-ray discs; and provides turnkey integrated supply-chain solutions, and returns handling and freight management, as well as procurement, and other inventory management and related services. The Connected Home segment offers a portfolio of broadband and video customer premise equipment, including broadband modems and gateways, digital set-top boxes, and Internet of Things connected devices for Pay-TV operators and network service providers, as well as develops software solutions. The company was incorporated in 1985 and is headquartered in Paris, France.",
+  "website": "https://www.vantiva.com"
 }

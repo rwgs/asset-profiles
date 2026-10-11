@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00JHP6GP5",
-    "cusip": "G9001E102",
-    "figi": "BBG00JHP6H64",
+    "composite_figi": "BBG00JKWHZ81",
+    "cusip": "G9001E128",
+    "figi": "BBG00JKWHZT8",
     "isin": "BMG9001E1286"
   },
   "industry": "Diversified Telecommunication Services",
@@ -15,19 +15,29 @@
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
-      "symbol": "LILA"
+      "symbol": "LILAK"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "LILAK"
+      "exchange_mic": "XLON",
+      "symbol": "0MDS.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1LLC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1LLC.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Liberty Latin America Ltd.",
-  "primary_symbol": "LILA",
+  "primary_symbol": "LILAK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,14 +3,19 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000CN15T1",
-    "figi": "BBG000CN17J8",
+    "figi": "BBG000CN2CF0",
     "isin": "DE0005492938"
   },
   "industry": "Chemicals",
-  "industry_group": "Materials",
+  "industry_group": "Capital Goods",
   "isin": "DE0005492938",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MZX.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -18,8 +23,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MZX.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MZX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MZX.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MZX.MU"
     },
     {
       "currency": "EUR",
@@ -29,15 +49,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Masterflex SE",
-  "primary_symbol": "MZX.DE",
+  "primary_symbol": "MZX.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "Masterflex SE develops, produces, and markets high-tech hoses and connecting systems for various industrial and manufacturing applications worldwide. The company offers spiral hoses, clip hoses, and PU hoses, as well as connecting elements like cuffs, flanges, threaded sockets, clamps, and other accessories under the Masterflex brand; and specialist hoses, bellows, and moulded parts for aerospace, automotive, and rail transport industries under the Matzen & Timm brand name. It also provides extruded hoses and profiles under the Novoplast Schlauchtechnik brand; injection-moulded parts and assembled plastic components for the medical technology, cosmetics, and food technology industries under the Fleima-Plastic brand; and hoses for heating, ventilation, and air conditioning under the Masterduct brand name. In addition, the company offers smooth and shrink tubes produced from fluoridated plastics under the APT brand; and markets intelligent hoses and connection solutions under the AMPIUS brand name. Masterflex SE was founded in 1987 and is headquartered in Gelsenkirchen, Germany.",
+  "sector": "Industrials",
+  "summary": "Masterflex SE develops, manufactures, and markets high-performance plastic hoses and connection systems. The company's products are used in various industries including machinery, medical technology, and food processing. Masterflex SE is headquartered in Gelsenkirchen, Germany.",
   "website": "http://www.masterflexgroup.com"
 }

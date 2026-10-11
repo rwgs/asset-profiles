@@ -2,9 +2,9 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG001P9GTT8",
+    "composite_figi": "BBG001P7ST00",
     "cusip": "89465J109",
-    "figi": "BBG001P9GTV5",
+    "figi": "BBG001P7ST00",
     "isin": "US89465J1097"
   },
   "industry": "Beverages",
@@ -13,31 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "T7W.F"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "TSRYF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "TSRYY"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "TWE.AX"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Treasury Wine Estates Limited",
-  "primary_symbol": "T7W.F",
+  "primary_symbol": "TSRYY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,27 +3,61 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG000G6J4S9",
+    "figi": "BBG00188QF09",
     "isin": "NO0010582521"
   },
+  "industry": "Insurance",
   "industry_group": "Insurance",
   "isin": "NO0010582521",
   "kind": "stock",
   "listings": [
     {
       "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "GJF.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GJNSF"
+    },
+    {
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010582521.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "XGJ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XGJ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "XGJ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "XGJ.SG"
     }
   ],
-  "name": "GJENSIDIGE FORSIKRING ASA",
-  "primary_symbol": "NO0010582521.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Gjensidige Forsikring ASA",
+  "primary_symbol": "GJF.OL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Gjensidige Forsikring ASA is a leading Nordic insurance group. The company offers a wide range of insurance products, including property and casualty insurance, life insurance, and pension products. Gjensidige Forsikring is headquartered in Oslo, Norway."
+  "summary": "Gjensidige Forsikring ASA operates as a general insurance company in Norway, Sweden, Denmark, Latvia, Lithuania, and Estonia. The company operates through six segments: General Insurance Private, General Insurance Commercial, General Insurance Denmark, General Insurance Sweden, General Insurance Baltics, and Pension. It offers motor, home, accident and health, travel, leisure craft, boat, valuables, liability, commercial, marine/transport, natural perils, life, and pet insurance products, as well as insurance for farmed animals and plant cultures. The company also provides defined contribution occupational pension schemes for businesses, which include disability pension, spouse/cohabitant pension, and child's pension products. It distributes its products through various distribution channels comprising office channel, call center, Internet, partners, brokers, and telephone to private and commercial customers. The company was founded in 1816 and is headquartered in Oslo, Norway. Gjensidige Forsikring ASA is a subsidiary of Gjensidigestiftelsen.",
+  "website": "http://www.gjensidige.no"
 }

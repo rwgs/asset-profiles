@@ -6,6 +6,7 @@
     "figi": "BBG000C7X1M7",
     "isin": "BRCMIGACNPR3"
   },
+  "industry": "Electric Utilities",
   "industry_group": "Utilities",
   "isin": "BRCMIGACNPR3",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CIDA.SG"
+    },
+    {
+      "currency": "BRL",
+      "exchange_mic": "BVMF",
+      "symbol": "CMIG4.SA"
     }
   ],
-  "name": "CIA EN. DE MINAS GERAIS-CEMIG R",
+  "market_cap_band": "Mid Cap",
+  "name": "Companhia Energetica de Minas Gerais",
   "primary_symbol": "CIDA.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "CIA EN. DE MINAS GERAIS-CEMIG R is a Brazilian power company that generates, transmits, and distributes electricity. The company is based in Belo Horizonte, Brazil."
+  "summary": "CIA EN. DE MINAS GERAIS-CEMIG R is a Brazilian power company that generates, transmits, and distributes electricity. The company is based in Belo Horizonte, Brazil.",
+  "website": "http://www.cemig.com.br"
 }

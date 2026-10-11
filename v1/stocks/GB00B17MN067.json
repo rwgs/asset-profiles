@@ -5,6 +5,7 @@
     "composite_figi": "BBG000C0PG84",
     "isin": "GB00B17MN067"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "GB00B17MN067",
   "kind": "stock",
@@ -13,17 +14,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B17MN067.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T9V.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TAST.L"
     }
   ],
-  "name": "TASTY PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "Tasty plc",
   "primary_symbol": "GB00B17MN067.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "TASTY PLC operates a chain of restaurants. Their business model involves offering dining experiences through its restaurant brands, generating revenue through food and beverage sales. The company is headquartered in London, UK."
+  "summary": "TASTY PLC operates a chain of restaurants. Their business model involves offering dining experiences through its restaurant brands, generating revenue through food and beverage sales. The company is headquartered in London, UK.",
+  "website": "http://www.dimt.co.uk/investor-relations/profile/"
 }

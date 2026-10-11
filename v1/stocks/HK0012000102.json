@@ -2,29 +2,62 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BKMH55",
-    "figi": "BBG000BKMJ60",
+    "composite_figi": "BBG000BDWD59",
+    "figi": "BBG000BDWF36",
     "isin": "HK0012000102"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "HK0012000102",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0012.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HLD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HLD.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HLD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HLD.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HLD.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HLDVF"
     }
   ],
-  "name": "HENDERSON LAND DEVMT CO. LTD. R",
-  "primary_symbol": "HLD.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Henderson Land Development Company Limited",
+  "primary_symbol": "0012.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Henderson Land Development Company Limited is a property development and investment company in Hong Kong. The company develops residential, commercial, and industrial properties. Henderson Land Development is headquartered in Hong Kong."
+  "summary": "Henderson Land Development Company Limited, an investment holding company dating from 1976 and based in Central, Hong Kong, concentrates on property development and investment in Hong Kong and mainland China. Its Property Development division creates and sells offices, shopping arcades, retail complexes and residential projects, and another division handles leasing.",
+  "website": "https://www.hld.com"
 }

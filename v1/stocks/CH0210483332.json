@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BQD6P4",
     "isin": "CH0210483332"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "CH0210483332",
   "kind": "stock",
@@ -13,17 +14,44 @@
       "currency": "CHF",
       "exchange_mic": "XLON",
       "symbol": "0QMU.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1CFR.MI"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "CFR.JO"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "CFR.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CFRHF"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "CFRIN.MX"
     }
   ],
-  "name": "COMPAGNIE FINANCIERE RICHEMONT",
+  "market_cap_band": "Large Cap",
+  "name": "Compagnie Financiere Richemont S.A.",
   "primary_symbol": "0QMU.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Compagnie Financière Richemont SA is a Swiss luxury goods holding company that owns several of the world's leading luxury brands. The company's portfolio includes brands such as Cartier, Van Cleef & Arpels, Piaget, and Montblanc, specializing in jewelry, watches, writing instruments, and leather goods. Richemont is headquartered in Bellevue, Switzerland."
+  "summary": "Compagnie Financière Richemont SA is a Swiss luxury goods holding company that owns several of the world's leading luxury brands. The company's portfolio includes brands such as Cartier, Van Cleef & Arpels, Piaget, and Montblanc, specializing in jewelry, watches, writing instruments, and leather goods. Richemont is headquartered in Bellevue, Switzerland.",
+  "website": "http://www.richemont.com"
 }

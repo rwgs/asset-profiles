@@ -2,29 +2,72 @@
   "country": "Singapore",
   "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000G7HN07",
-    "figi": "BBG000G7HR26",
+    "composite_figi": "BBG000BM10N1",
+    "figi": "BBG000BM10Z8",
     "isin": "SG1T56930848"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "SG1T56930848",
   "kind": "stock",
   "listings": [
     {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "F34.SI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RTHA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RTHA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RTHA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "RTHA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "RTHA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RTHA.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RTHA.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WLMIF"
     }
   ],
-  "name": "Wilmar International Ltd. Regis",
-  "primary_symbol": "RTHA.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Wilmar International Limited",
+  "primary_symbol": "F34.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Wilmar International Ltd. is an agribusiness company that operates in the palm oil, oilseeds, grains, and sugar sectors. The company is involved in cultivation, processing, merchandising, and distribution of agricultural products. Wilmar International is headquartered in Singapore."
+  "summary": "Wilmar International Limited operates as an agribusiness company in Singapore and internationally. The company operates through four segments: Tropical Oils, Oilseeds and Grains, Sugar, and Others. It engages in the oil palm cultivation, harvesting, and milling activities that primarily offer crude palm oil and palm kernel. As of December 31, 2019, the company owned an oil palm plantation covering an area of 232,940 hectares in Indonesia, East Malaysia, and Africa. It is also involved in processing, merchandising, branding, and distributing palm oil and laurics related products, including oleochemicals, specialty fats, and biodiesel; and oilseed products, such as soybean, rapeseed, groundnut, sunflower seed, sesame seed, cottonseed, corn, and rice bran oil products. In addition, the company produces and markets edible oil, rice, flour, grains, sauces, condiments, and noodles to traditional retail outlets, supermarkets, convenience stores, and hypermarts. Further, it engages in milling, refining, merchandising, branding, and distributing white sugar, brown sugar, caster sugar, and syrups, as well as molasses; the generation, distribution, and sale of electricity; the manufacture and sale of bioethanol, as well as nitrogen, phosphorus, and potassium compound fertilizers; and the distribution of chemicals, as well as in ship-owning, chartering, brokering, and management activities. Additionally, it offers agriculture and technical services; and management consulting services. Wilmar International Limited was founded in 1991 and is headquartered in Singapore.",
+  "website": "http://www.wilmar-international.com"
 }

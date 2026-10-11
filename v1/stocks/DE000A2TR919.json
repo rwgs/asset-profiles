@@ -6,6 +6,7 @@
     "figi": "BBG00PNLL0B6",
     "isin": "DE000A2TR919"
   },
+  "industry": "Hotels, Restaurants & Leisure",
   "industry_group": "Consumer Services",
   "isin": "DE000A2TR919",
   "kind": "stock",
@@ -14,17 +15,44 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE000A2TR919.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S6P.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "S6P.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "S6P.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S6P.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S6P.MU"
     }
   ],
-  "name": "SPIELVEREINIGUNG UNTERHACHIN",
+  "market_cap_band": "Nano Cap",
+  "name": "Spielvereinigung Unterhaching Fußball GmbH & Co. KGaA",
   "primary_symbol": "DE000A2TR919.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "SPIELVEREINIGUNG UNTERHACHING is a German football club based in Unterhaching, Bavaria. The club operates a professional football team that competes in German football leagues and also has youth teams. Their activities include player development, match operations, and fan engagement."
+  "summary": "SPIELVEREINIGUNG UNTERHACHING is a German football club based in Unterhaching, Bavaria. The club operates a professional football team that competes in German football leagues and also has youth teams. Their activities include player development, match operations, and fan engagement.",
+  "website": "https://www.spvggunterhaching.de"
 }

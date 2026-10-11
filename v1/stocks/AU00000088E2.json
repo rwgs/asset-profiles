@@ -2,8 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00DP49J22",
-    "figi": "BBG00DP49J22",
+    "composite_figi": "BBG000C4PMQ3",
+    "figi": "BBG000C4PN09",
     "isin": "AU00000088E2"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -11,6 +11,16 @@
   "isin": "AU00000088E2",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "88E.AX"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "88E.L"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -37,17 +47,17 @@
       "symbol": "POQ.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "88 Energy Ltd.",
-  "primary_symbol": "EEENF",
+  "market_cap_band": "Nano Cap",
+  "name": "88 Energy Limited",
+  "primary_symbol": "88E.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "88 Energy Limited engages in the exploration of oil and gas properties in the United States. The company holds a 59% working interest in the Icewine project, which covers an area of approximately 231,000 acres located in North Slope of Alaska, the United States. It also holds a 100% working interest in the Yukon Gold leases covering an area of approximately 15,235 acres located on the eastern border of the Central North Slope of Alaska. In addition, the company has a 50% working interest in Peregrine project covering an area of approximately 195,373 acres located in the NPR-A region of the North Slope of Alaska. The company was formerly known as Tangiers Petroleum Limited and changed its name to 88 Energy Limited in February 2015. 88 Energy Limited was incorporated in 1996 and is based in Subiaco, Australia.",
+  "summary": "88 Energy Limited is an Australian oil and gas explorer established in 1996 and based in Subiaco, previously named Tangiers Petroleum Limited. It concentrates on the United States, especially Alaska's North Slope, where its holdings include the Icewine, Yukon, Peregrine and Umiat Oil Field projects.",
   "website": "http://www.88energy.com"
 }

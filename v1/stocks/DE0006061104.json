@@ -3,8 +3,10 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000K5B0G5",
+    "figi": "BBG000K5B3R7",
     "isin": "DE0006061104"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "DE0006061104",
   "kind": "stock",
@@ -13,17 +15,39 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DE0006061104.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "HMU.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HMU.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HMU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HMU.MU"
     }
   ],
-  "name": "HMS BERGBAU AG",
+  "market_cap_band": "Micro Cap",
+  "name": "HMS Bergbau AG",
   "primary_symbol": "DE0006061104.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "HMS Bergbau AG is a trading and investment company focused on international coal trading and investment in mining projects, headquartered in Berlin, Germany. They source coal from various regions and supply it to industrial consumers and power plants worldwide. HMS Bergbau focuses on securing reliable coal supply and expanding its investment portfolio."
+  "summary": "HMS Bergbau AG is a trading and investment company focused on international coal trading and investment in mining projects, headquartered in Berlin, Germany. They source coal from various regions and supply it to industrial consumers and power plants worldwide. HMS Bergbau focuses on securing reliable coal supply and expanding its investment portfolio.",
+  "website": "http://www.hms-ag.com"
 }

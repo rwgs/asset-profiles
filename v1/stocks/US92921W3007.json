@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG001J17MQ0",
+    "composite_figi": "BBG000QKVV49",
     "cusip": "92921W300",
-    "figi": "BBG001J17MX2",
+    "figi": "BBG000QKVYC4",
     "isin": "US92921W3007"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "US92921W3007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "VUZI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LRL.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -32,15 +43,17 @@
       "symbol": "V7XN.SG"
     }
   ],
-  "name": "Vuzix Corporation",
-  "primary_symbol": "V7XN.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Vuzix Corp.",
+  "primary_symbol": "VUZI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Vuzix Corporation is a technology company that designs, manufactures, and sells wearable display technology, including smart glasses and augmented reality (AR) devices. Their products are used in various industries, including healthcare, logistics, and manufacturing. Vuzix is headquartered in Rochester, New York."
+  "summary": "Vuzix Corporation is a technology company that designs, manufactures, and sells wearable display technology, including smart glasses and augmented reality (AR) devices. Their products are used in various industries, including healthcare, logistics, and manufacturing. Vuzix is headquartered in Rochester, New York.",
+  "website": "http://www.zix.com"
 }

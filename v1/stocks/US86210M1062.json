@@ -7,6 +7,7 @@
     "figi": "BBG002HRHVN5",
     "isin": "US86210M1062"
   },
+  "industry": "Containers & Packaging",
   "industry_group": "Materials",
   "isin": "US86210M1062",
   "kind": "stock",
@@ -25,17 +26,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "ENUS.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SEOAY"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "STORA ENSO R ADR 1",
   "primary_symbol": "ENUS.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Stora Enso Oyj is a Finnish pulp and paper manufacturer producing paper, packaging and wood products. They also operate in renewable materials. The company is headquartered in Helsinki, Finland."
+  "summary": "Stora Enso Oyj is a Finnish pulp and paper manufacturer producing paper, packaging and wood products. They also operate in renewable materials. The company is headquartered in Helsinki, Finland.",
+  "website": "http://www.storaenso.com"
 }

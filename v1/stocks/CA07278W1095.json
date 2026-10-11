@@ -7,6 +7,7 @@
     "figi": "BBG001HWVZ42",
     "isin": "CA07278W1095"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA07278W1095",
   "kind": "stock",
@@ -18,19 +19,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7KXN.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "7KXN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "7KXN.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "BHS.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BHSIF"
     }
   ],
-  "name": "BAYHORSE SILVER NEW",
+  "market_cap_band": "Nano Cap",
+  "name": "Bayhorse Silver Inc.",
   "primary_symbol": "7KXN.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Bayhorse Silver Inc. is a Canadian junior silver mining company. It focuses on the exploration, development, and production of silver properties. The company's primary asset is the Bayhorse Silver Mine in Oregon, USA."
+  "summary": "Bayhorse Silver Inc. is a Canadian junior silver mining company. It focuses on the exploration, development, and production of silver properties. The company's primary asset is the Bayhorse Silver Mine in Oregon, USA.",
+  "website": "http://www.bayhorsesilver.com"
 }

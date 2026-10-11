@@ -2,9 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BBX6D8",
+    "composite_figi": "BBG000NTRHC0",
     "cusip": "088736103",
-    "figi": "BBG000BBX6X6",
+    "figi": "BBG000NTRHC0",
     "isin": "US0887361030"
   },
   "industry": "Household Products",
@@ -13,31 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XPAR",
-      "symbol": "BB.PA"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "BICEF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BICEY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "BIF.F"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Societe BIC SA",
-  "primary_symbol": "BB.PA",
+  "primary_symbol": "BICEY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

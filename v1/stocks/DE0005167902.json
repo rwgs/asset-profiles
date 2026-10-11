@@ -1,16 +1,21 @@
 {
-  "country": "Germany",
-  "country_code": "DE",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BMDVG8",
-    "figi": "BBG000BMDY27",
+    "composite_figi": "BBG00Z9FGZV0",
+    "figi": "BBG00Z9FGZW9",
     "isin": "DE0005167902"
   },
-  "industry": "Building Products",
-  "industry_group": "Software & Services",
+  "industry": "Industrial Conglomerates",
+  "industry_group": "Capital Goods",
   "isin": "DE0005167902",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "0HCC.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -47,17 +52,17 @@
       "symbol": "UUU.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "3U HOLDING AG",
-  "primary_symbol": "UUU.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "3U Holding",
+  "primary_symbol": "0HCC.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Industrials",
   "summary": "3U HOLDING AG is a German company that operates as an e-commerce provider and systems house for information and telecommunications technology. The company operates through segments like Information and Communication Technology and Energy. 3U Holding AG is headquartered in Marburg, Germany.",
   "website": "http://www.3u.net"
 }

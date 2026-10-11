@@ -2,11 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BSFNQ0",
+    "composite_figi": "BBG00JVXH645",
+    "figi": "BBG00JVXH654",
     "isin": "DE000LS1LUS9"
   },
   "industry": "Capital Markets",
-  "industry_group": "Banks",
+  "industry_group": "Diversified Financials",
   "isin": "DE000LS1LUS9",
   "kind": "stock",
   "listings": [
@@ -44,13 +45,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LUS.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "LUS1.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LUS1.F"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Lang & Schwarz AG",
   "primary_symbol": "0RS1.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

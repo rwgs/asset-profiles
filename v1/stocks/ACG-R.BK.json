@@ -1,8 +1,12 @@
 {
   "country": "Thailand",
   "country_code": "TH",
-  "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "identifiers": {
+    "composite_figi": "BBG00PGN88N5",
+    "figi": "BBG00PGN88P3"
+  },
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "kind": "stock",
   "listings": [
     {
@@ -11,11 +15,11 @@
       "symbol": "ACG-R.BK"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Autocorp Holding Public Company Limited",
   "primary_symbol": "ACG-R.BK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,28 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000D1T2P9",
+    "composite_figi": "BBG000RRCQ81",
+    "figi": "BBG000RRCQG2",
     "isin": "GB00BYYJL418"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "GB00BYYJL418",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3N1N.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BYYJL418.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "NXR.L"
     }
   ],
-  "name": "NORCROS PLC",
-  "primary_symbol": "GB00BYYJL418.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Norcros plc",
+  "primary_symbol": "3N1N.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Norcros PLC manufactures and distributes bathroom and kitchen products. The company's brands include Triton Showers, Johnson Tiles, and Vado. Norcros PLC is headquartered in Wilmslow, UK."
+  "summary": "Norcros plc is a supplier of bathroom and kitchen products. The company manufactures and distributes products to the trade and retail sectors. Norcros is headquartered in Wilmslow, United Kingdom.",
+  "website": "http://www.norcros.com"
 }

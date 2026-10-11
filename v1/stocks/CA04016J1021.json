@@ -2,29 +2,48 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000MB9ZY6",
+    "composite_figi": "BBG00BV3WM46",
     "cusip": "04016J102",
+    "figi": "BBG00BV3WM46",
     "isin": "CA04016J1021"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA04016J1021",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ARBTF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "ARQ.CN"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA04016J1021.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "P3U.F"
     }
   ],
-  "name": "ARGO GOLD INC",
-  "primary_symbol": "CA04016J1021.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Argo Gold Inc.",
+  "primary_symbol": "ARBTF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "ARGO GOLD INC is a Canadian mineral exploration company focused on gold exploration in Northwestern Ontario. The company is actively exploring its Uchi Gold Project. Argo Gold Inc. is headquartered in Toronto, Ontario."
+  "summary": "Argo Gold Inc., a development stage company, focuses on the exploration and development of mineral properties in northwestern Ontario. The company explores for gold, silver, cobalt, and zinc deposits. Its flagship project is the Uchi Gold project covering 22 square kilometers of mineralization and various mineralized trends located to the west of Uchi Lake, Ontario. The company was formerly known as Arbitrage Exploration Inc. and changed its name to Argo Gold Inc. in September 2016. Argo Gold Inc. was incorporated in 1995 and is based in Toronto, Canada.",
+  "website": "http://www.argogold.ca"
 }

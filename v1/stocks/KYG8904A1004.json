@@ -2,31 +2,42 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG006LHYD81",
-    "figi": "BBG006LHYD81",
+    "composite_figi": "BBG005NH0SF7",
+    "figi": "BBG005NH0SG6",
     "isin": "KYG8904A1004"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "KYG8904A1004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1233.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T2H.F"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "TMPPF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Times China Holdings Limited",
-  "primary_symbol": "TMPPF",
+  "primary_symbol": "1233.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Times China Holdings Limited, an investment holding company, operates as a property developer in the People's Republic of China. The company operates through Property Development, Urban Redevelopment Business, and Property Leasing segments. The Property Development segment develops and sells residential and commercial properties; and provides construction services. The Urban Redevelopment Business segment is involved in the sale of land held for development and other related activities. The Property Leasing segment engages in the development, leasing, and sub-leasing of commercial properties owned by the company or independent third parties. The company also provides money lending and consulting management services. As at 31 December 2020, it had total land reserves of approximately 21.6 million sq.m. The company was formerly known as Times Property (Holdings) Co., Limited and changed its name to Times China Holdings Limited in February 2018. Times China Holdings Limited was founded in 1999 and is headquartered in Guangzhou, the People's Republic of China.",
+  "summary": "Times China Holdings Limited is an investment holding firm and real estate developer in China. Its three divisions are Property Development, Urban Redevelopment Business and Property Leasing, with the development arm building and selling residential and commercial properties.",
   "website": "http://www.timesgroup.cn"
 }

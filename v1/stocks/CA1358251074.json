@@ -1,0 +1,41 @@
+{
+  "country": "Canada",
+  "country_code": "CA",
+  "identifiers": {
+    "composite_figi": "BBG000KRLFP3",
+    "cusip": "135825107",
+    "figi": "BBG000KRLG17",
+    "isin": "CA1358251074"
+  },
+  "isin": "CA1358251074",
+  "kind": "fund",
+  "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CGI.L"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "CGI.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CGRIF"
+    }
+  ],
+  "market_cap_band": "Small Cap",
+  "name": "Canadian General Investments, Ltd",
+  "primary_symbol": "CGI.L",
+  "provenance": {
+    "fetched_at": "2026-10-11T12:21:30Z",
+    "license": "MIT",
+    "source": "FinanceDatabase",
+    "source_url": "https://github.com/JerBouma/FinanceDatabase"
+  },
+  "schema_version": "1.0.0",
+  "summary": "Canadian General Investments, Limited is a closed-end investment fund that invests primarily in Canadian equities. The company aims to provide long-term capital appreciation to its shareholders. Canadian General Investments is based in Toronto, Canada.",
+  "website": "https://www.canadiangeneralinvestments.ca"
+}

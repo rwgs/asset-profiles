@@ -2,15 +2,21 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00FRT32Y8",
+    "composite_figi": "BBG00JVRMSY1",
     "cusip": "853606101",
-    "figi": "BBG00FRT3349",
+    "figi": "BBG00JVRMSZ0",
     "isin": "CA8536061010"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA8536061010",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CAD",
+      "exchange_mic": "XLON",
+      "symbol": "0VIK.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,19 +29,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S5L.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "S5L.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "S5L.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "SLI"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "SLI.L"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "SLI.V"
     }
   ],
-  "name": "STANDARD LITHIUM LTD",
-  "primary_symbol": "S5L.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Standard Lithium Ltd.",
+  "primary_symbol": "0VIK.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "STANDARD LITHIUM LTD is a resource exploration and development company focused on the sustainable extraction of lithium brine in the Smackover Formation. The company is developing its Lanxess Project to produce battery-quality lithium hydroxide and carbonate. Standard Lithium is headquartered in Vancouver, Canada."
+  "summary": "STANDARD LITHIUM LTD is a resource exploration and development company focused on the sustainable extraction of lithium brine in the Smackover Formation. The company is developing its Lanxess Project to produce battery-quality lithium hydroxide and carbonate. Standard Lithium is headquartered in Vancouver, Canada.",
+  "website": "https://www.standardlithium.com"
 }

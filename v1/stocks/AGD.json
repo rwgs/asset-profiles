@@ -6,6 +6,7 @@
     "cusip": "00302M106",
     "figi": "BBG000PMSMG7"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "kind": "stock",
   "listings": [
@@ -15,15 +16,17 @@
       "symbol": "AGD"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Aberdeen Global Dynamic Dividend Fund",
   "primary_symbol": "AGD",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials"
+  "sector": "Financials",
+  "summary": "abrdn Global Dynamic Dividend Fund is a mutual fund, closed-end investment trust. It focuses on long-term growth of capital and seeks high current dividend income. The company was founded on May 11, 2006 and is headquartered in Philadelphia, PA.",
+  "website": "https://www.alpinefunds.com/default.asp?P=856340&S=857561"
 }

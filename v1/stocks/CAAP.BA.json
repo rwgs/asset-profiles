@@ -1,7 +1,11 @@
 {
   "country": "Luxembourg",
   "country_code": "LU",
-  "industry": "Air Freight & Logistics",
+  "identifiers": {
+    "composite_figi": "BBG00ZL7D6C2",
+    "figi": "BBG00ZL7D6C2"
+  },
+  "industry": "Transportation Infrastructure",
   "industry_group": "Transportation",
   "kind": "stock",
   "listings": [
@@ -11,11 +15,11 @@
       "symbol": "CAAP.BA"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Corporacion America Airports S.A.",
   "primary_symbol": "CAAP.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,15 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000CS5P76",
-    "figi": "BBG000CS5SX1",
+    "composite_figi": "BBG00GVK8426",
+    "figi": "BBG00NRVXCL5",
     "isin": "DE000A0ETBQ4"
   },
-  "industry": "Machinery",
-  "industry_group": "Diversified Financials",
+  "industry": "Industrial Conglomerates",
+  "industry_group": "Capital Goods",
   "isin": "DE000A0ETBQ4",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0J7X.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -48,16 +53,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "MBB SE",
-  "primary_symbol": "MBB.BE",
+  "name": "Mbb Se",
+  "primary_symbol": "0J7X.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
+  "sector": "Industrials",
   "summary": "MBB SE is a German-based investment company that focuses on acquiring and managing medium-sized, family-owned industrial companies. The company operates as a generalist investor, targeting businesses with strong market positions and growth potential across various sectors. MBB SE is headquartered in Berlin, Germany.",
-  "website": "http://www.mbb.com/en.html"
+  "website": "https://www.mbb.com"
 }

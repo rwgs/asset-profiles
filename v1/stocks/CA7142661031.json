@@ -1,31 +1,44 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG001Y0L1Y6",
+    "composite_figi": "BBG0024TXN82",
     "cusip": "714266103",
-    "figi": "BBG001Y0L229",
+    "figi": "BBG0024TXN82",
     "isin": "CA7142661031"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA7142661031",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "PPTA"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA7142661031.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "PPTA.TO"
     }
   ],
-  "name": "PERPETUA RESOURCES CORP",
-  "primary_symbol": "CA7142661031.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Perpetua Resources Corp.",
+  "primary_symbol": "PPTA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Perpetua Resources Corp., formerly known as Midas Gold Corp., is focused on the Stibnite Gold Project in Idaho, USA, which aims to restore an abandoned mine site and produce gold, antimony, and silver. They are committed to responsible mining practices and environmental restoration. The project is designed to address legacy environmental issues while providing economic benefits."
+  "summary": "Perpetua Resources Corp. engages in the mineral exploration activities in the United States. The company primarily explores for gold, silver, and antimony. Its principal asset is the 100% owned Stibnite gold project located in Valley County, Idaho. The company was formerly known as Gold Corp. and changed its name to Perpetua Resources Corp. in February 2021. Perpetua Resources Corp. was incorporated in 2011 and is headquartered in Boise, Idaho.",
+  "website": "http://perpetuaresources.com"
 }

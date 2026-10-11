@@ -2,7 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "cusip": "G25340103",
+    "composite_figi": "BBG00WJTN8W7",
+    "figi": "BBG00WJTN8X6",
     "isin": "GB0002341666"
   },
   "industry": "Household Products",
@@ -10,6 +11,11 @@
   "isin": "GB0002341666",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5K8.F"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -21,10 +27,11 @@
       "symbol": "GB0002341666.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Creightons Plc",
-  "primary_symbol": "CRL.L",
+  "primary_symbol": "5K8.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

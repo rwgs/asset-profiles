@@ -7,6 +7,7 @@
     "figi": "BBG00RZCKXZ2",
     "isin": "US00783V1044"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "US00783V1044",
   "kind": "stock",
@@ -17,20 +18,27 @@
       "symbol": "1N8U.BE"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ADYEY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US00783V1044.SG"
     }
   ],
-  "name": "ADYEN NV UNSP.ADR/0,02",
+  "market_cap_band": "Large Cap",
+  "name": "Adyen N.V.",
   "primary_symbol": "1N8U.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ADYEN NV UNSP.ADR/0,02 represents American Depositary Receipts (ADRs) for Adyen N.V. Adyen N.V. is a Dutch payment processing company. The company's headquarters are located in the Netherlands."
+  "summary": "ADYEN NV UNSP.ADR/0,02 represents American Depositary Receipts (ADRs) for Adyen N.V. Adyen N.V. is a Dutch payment processing company. The company's headquarters are located in the Netherlands.",
+  "website": "http://www.adyen.com"
 }

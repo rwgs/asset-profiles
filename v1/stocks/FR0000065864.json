@@ -2,14 +2,25 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DRKY35",
+    "composite_figi": "BBG00JHVZXW5",
+    "figi": "BBG00JHVZXX4",
     "isin": "FR0000065864"
   },
   "industry": "Aerospace & Defense",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Capital Goods",
   "isin": "FR0000065864",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0OQ2.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALSOG.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -22,16 +33,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "SOGECLAIR SA",
-  "primary_symbol": "FR0000065864.SW",
+  "name": "Sogeclair S.A.",
+  "primary_symbol": "0OQ2.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "SOGECLAIR SA is a French engineering company providing design, development, and manufacturing services for the aerospace, automotive, and rail industries. The company offers solutions for aircraft interiors, vehicle systems, and railway equipment. SOGECLAIR is headquartered in Blagnac, France.",
-  "website": "http://www.sogeclair.com"
+  "summary": "Established in 1986 and headquartered in Blagnac, France, Sogeclair S.A. offers specialized engineering and production services across the aeronautics, space, and both civilian and military transportation sectors. The company operates through three core divisions: Aerospace, Vehicle, and Simulation. Its Aerospace division provides extensive engineering expertise for aerostructures, cabin design, system integration, manufacturing engineering, and tooling. This division also excels in the development and fabrication of intricate structural thermoplastic components, employing additive manufacturing techniques, and producing cockpit equipment along with cabin furnishings and mechanisms. The Vehicle division is dedicated to the conceptualization and production of custom civilian and military vehicles, terrestrial drones, adaptable multi-mission platforms, and vehicle modification services. Finally, the Simulation division focuses on designing and supplying complete, ready-to-use simulators, in addition to developing advanced software platforms for simulation purposes.",
+  "website": "https://www.sogeclair.com"
 }

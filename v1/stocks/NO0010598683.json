@@ -3,27 +3,51 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG0029P0134",
+    "figi": "BBG0029P0143",
     "isin": "NO0010598683"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "NO0010598683",
   "kind": "stock",
   "listings": [
     {
       "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "HBC.OL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HBQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HBQ.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HOFBF"
+    },
+    {
+      "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010598683.SW"
     }
   ],
-  "name": "HOFSETH BIOCARE ASA",
-  "primary_symbol": "NO0010598683.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "Hofseth BioCare ASA",
+  "primary_symbol": "HBC.OL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Hofseth BioCare ASA is a Norwegian biotech company specializing in marine ingredients for human and animal health. The company develops and produces products based on salmon by-products. Hofseth BioCare is headquartered in Ålesund, Norway."
+  "summary": "Hofseth BioCare ASA provides value added biomarine ingredients for human, pets, and animal feed markets in Norway and internationally. Its products include Brilliant salmon oil; OmeGo salmon oil for the maintenance of healthy cholesterol and cardiovascular function; ProGo, a salmon protein hydrolysate powder used as a fast absorbing protein supplement; CalGo, a marine calcium powder produced from salmon bones that enhances bone density and bone deposition in older individuals; and CollaGo, a collagen peptide powder to enhance the beauty of hair, skin, and nails. The company distributes its products through distributors, agents, and its own sales force. It has a research agreement with Stanford University School of Medicine for pre-clinical and clinical research on necrotizing enterocolitis and irritable bowel syndrome. The company was founded in 2000 and is headquartered in Ålesund, Norway.",
+  "website": "http://www.hofsethbiocare.no"
 }

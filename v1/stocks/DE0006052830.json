@@ -3,31 +3,56 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BTSQG8",
-    "figi": "BBG000BTSRK1",
+    "figi": "BBG000BTSTP2",
     "isin": "DE0006052830"
   },
-  "industry": "Commercial Services & Supplies",
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "DE0006052830",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MBH3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MBH3.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "MBH3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MBH3.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MBH3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MBH3.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Maschinenfabrik Berthold Hermle AG",
-  "primary_symbol": "MBH3.F",
+  "primary_symbol": "MBH3.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Maschinenfabrik Berthold Hermle AG manufactures and sells milling machines worldwide. The company offers a range of machining centers for use in the 5-axis technology, agricultural engineering, apparatus construction, automation, dental technology, energy technology, vehicle technology, precision engineering, generative manufacture, casting technology, innovative technologies, aerospace industry, mechanical engineering, medical, modelling, engine technology industry, production technology, racing, series production, sports and leisure industry, flow technology, packaging industry, tool and mold making, tool engineering, and gear production industries. It also provides components for the tool and mold-making industry; advisory services on milling, programming, and handling of products; CNC training courses; and used machine, accessory, and other services. The company was founded in 1938 and is based in Gosheim, Germany.",
+  "summary": "Maschinenfabrik Berthold Hermle AG is a German machine tool manufacturer specializing in high-precision milling machines and machining centers. The company's products are used in a wide range of industries including automotive, aerospace, medical technology, and tool and mold making. Hermle AG is headquartered in Gosheim, Germany.",
   "website": "http://www.hermle.de"
 }

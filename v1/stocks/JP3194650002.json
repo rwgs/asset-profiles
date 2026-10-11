@@ -2,28 +2,47 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BHCV16",
+    "composite_figi": "BBG000BR6PB3",
+    "figi": "BBG000BR6PV1",
     "isin": "JP3194650002"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "JP3194650002",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9436.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JP3194650002.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OCU.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OKCTF"
     }
   ],
-  "name": "OKINAWA CELLULAR TELEPHONE",
-  "primary_symbol": "JP3194650002.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Okinawa Cellular Telephone Company",
+  "primary_symbol": "9436.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "OKINAWA CELLULAR TELEPHONE CO., LTD. provides mobile telecommunications services and related solutions in Okinawa Prefecture, Japan. The company offers a range of services including mobile phone subscriptions, data communication, and internet services under the au brand. Their headquarters are located in Okinawa, Japan."
+  "summary": "Okinawa Cellular Telephone Company provides telecommunication and portable phone services in Japan. The company was incorporated in 1991 and is headquartered in Naha, Japan. Okinawa Cellular Telephone Company is a subsidiary of KDDI Corporation.",
+  "website": "https://okinawa-cellular.jp"
 }

@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000HMVXG8",
+    "composite_figi": "BBG000DPKKK0",
     "cusip": "025932104",
-    "figi": "BBG000HMW2D8",
+    "figi": "BBG000DPKMB6",
     "isin": "US0259321042"
   },
+  "industry": "Insurance",
   "industry_group": "Insurance",
   "isin": "US0259321042",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "AFG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "QFI.BE"
     }
   ],
-  "name": "AMER. FINL GRP",
-  "primary_symbol": "QFI.BE",
+  "market_cap_band": "Large Cap",
+  "name": "American Financial Group, Inc.",
+  "primary_symbol": "AFG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "American Financial Group, Inc. is an insurance holding company whose core businesses are specialty property and casualty insurance operations. Through Great American Insurance Group, AFG provides a range of commercial products for businesses and is based in Cincinnati, Ohio."
+  "summary": "American Financial Group, Inc., an insurance holding company, provides property and casualty insurance products in the United States. The company operates through three segments: Property and Casualty Insurance, Annuity, and Other. It offers property and transportation insurance products, such as physical damage and liability coverage for buses and trucks, inland and ocean marine, agricultural-related products, and other commercial property coverages; specialty casualty insurance, including primarily excess and surplus, executive and professional liability, general liability, umbrella and excess liability, and specialty coverage in targeted markets, as well as customized programs for small to mid-sized businesses and workers' compensation insurance; and specialty financial insurance products comprising risk management insurance programs for lending and leasing institutions, fidelity and surety products, and trade credit insurance. The company sells its property and casualty insurance products through independent insurance agents and brokers, as well as through employee agents. It also provides traditional fixed and indexed annuities to the retail, financial institutions, broker-dealer, and registered investment advisor markets; and run-off long-term care and life insurance services. In addition, the company engages in the commercial real estate operations in Cincinnati, Whitefield, New Hampshire, Chesapeake Bay, Charleston, and Palm Beach. American Financial Group, Inc. was founded in 1872 and is headquartered in Cincinnati, Ohio.",
+  "website": "http://www.afginc.com"
 }

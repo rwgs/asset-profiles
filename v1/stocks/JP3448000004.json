@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C4ZD28",
-    "figi": "BBG000C4ZDF4",
+    "composite_figi": "BBG000BGDCL7",
+    "figi": "BBG000BGDDD4",
     "isin": "JP3448000004"
   },
   "industry": "Metals & Mining",
@@ -11,6 +11,11 @@
   "isin": "JP3448000004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "5541.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -22,17 +27,17 @@
       "symbol": "PYV.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Pacific Metals Co., Ltd.",
-  "primary_symbol": "PYV.F",
+  "primary_symbol": "5541.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Pacific Metals Co., Ltd. produces and sells ferro-nickel and ferro-nickel slag products in Japan and internationally. The company offers ferro-nickel that is used as a raw material for stainless steel; and mineral slag products. It is also involved in waste recycling business. In addition, the company purchases and sells cast forged steel products and various industrial machinery. Pacific Metals Co., Ltd. was founded in 1949 and is based in Hachinohe, Japan.",
-  "website": "http://www.pacific-metals.co.jp"
+  "summary": "Pacific Metals Co., Ltd., formed in 1949 with headquarters in Hachinohe, Japan, produces and distributes ferro-nickel and ferro-nickel slag worldwide. Its ferro-nickel is a key input for stainless steel manufacturing. The company also does waste recycling and trades cast forged steel items and industrial machinery.",
+  "website": "https://www.pacific-metals.co.jp"
 }

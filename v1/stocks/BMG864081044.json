@@ -3,7 +3,7 @@
   "country_code": "BM",
   "identifiers": {
     "composite_figi": "BBG000BMY910",
-    "figi": "BBG000BMY9L8",
+    "figi": "BBG000BMYCY7",
     "isin": "BMG864081044"
   },
   "industry": "Metals & Mining",
@@ -13,8 +13,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "31L.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "31L.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "31L.MU"
     },
     {
       "currency": "EUR",
@@ -34,15 +44,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Sylvania Platinum Limited",
-  "primary_symbol": "31L.F",
+  "primary_symbol": "31L.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Sylvania Platinum Limited primarily engages in the retreatment of platinum group metals (PGM) bearing chrome tailings materials in South Africa and Mauritius. The company produces PGMs, such as platinum, palladium, and rhodium. It holds interests in the Sylvania dump operations, as well as Northern Limb projects. The company is based in Hamilton, Bermuda.",
+  "summary": "SYLVANIA PLAT. DL 0,01 is a company involved in platinum mining or exploration. The company focuses on extracting and processing platinum group metals.",
   "website": "http://www.sylvaniaplatinum.com"
 }

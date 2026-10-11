@@ -3,27 +3,36 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG000BG57F4",
+    "figi": "BBG000BG5826",
     "isin": "SE0010769182"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "SE0010769182",
   "kind": "stock",
   "listings": [
     {
       "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "SAFETY-B.ST"
+    },
+    {
+      "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0010769182.SW"
     }
   ],
-  "name": "EMPIR GROUP AB - B",
-  "primary_symbol": "SE0010769182.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "mySafety Group AB",
+  "primary_symbol": "SAFETY-B.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "EMPIR GROUP AB - B is a technology consulting company that provides IT solutions, primarily within the areas of IT management and security. It works through consulting services, software development, and implementation. The company is headquartered in Stockholm, Sweden."
+  "summary": "Operating within the Nordic market, mySafety Group AB provides specialized insurance solutions, primarily focusing on protection against identity theft and fraud. Established in 1987, the company underwent a name change from Empir Group AB (publ) to its current designation, mySafety Group AB, in October 2023. Its corporate headquarters are located in Stockholm, Sweden.",
+  "website": "https://investor.mysafety.se"
 }

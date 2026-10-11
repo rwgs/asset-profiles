@@ -1,30 +1,38 @@
 {
-  "country": "Guernsey",
-  "country_code": "GG",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00Z8LNC41",
-    "figi": "BBG00Z8LNC87",
+    "composite_figi": "BBG00LY4RQY3",
+    "figi": "BBG00LY4RQZ2",
     "isin": "GG00BGJYPP46"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "GG00BGJYPP46",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CHRY.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GG00BGJYPP46.SG"
     }
   ],
-  "name": "CHRYSALIS INVESTMENTS LTD",
-  "primary_symbol": "GG00BGJYPP46.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Chrysalis Investments Limited",
+  "primary_symbol": "CHRY.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Chrysalis Investments Ltd is an investment company focused on late-stage private equity investments in the UK and Europe. The company targets high-growth businesses with proven business models and significant market opportunities. The company is headquartered in Guernsey, Channel Islands."
+  "summary": "Chrysalis Investments Limited is based in Guernsey, United Kingdom.",
+  "website": "http://www.chrysalisinvestments.co.uk"
 }

@@ -2,29 +2,47 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG00ZSK20F8",
-    "figi": "BBG00ZSK20K2",
+    "composite_figi": "BBG00XKLN7V3",
+    "figi": "BBG00ZJRH897",
     "isin": "NL00150006R6"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "NL00150006R6",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "CTPNV.AS"
+    },
+    {
+      "currency": "CZK",
+      "exchange_mic": "XPRA",
+      "symbol": "CTPNV.PR"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CTPVF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NL00150006R6.SG"
     }
   ],
-  "name": "CTP NV",
-  "primary_symbol": "NL00150006R6.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Ctp N.V.",
+  "primary_symbol": "CTPNV.AS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "CTP NV is a commercial real estate company focused on developing and managing logistics and industrial properties in Central and Eastern Europe. The company develops, owns, and operates a network of business parks called CTParks. CTP NV is headquartered in the Netherlands."
+  "summary": "CTP B.V., a commercial real estate developer, engages in the development and ownership of multi-use industrial and logistics business parks and properties in the Central and Eastern Europe. It offers its properties primarily for warehousing, light production, or office spaces. As of March 17, 2021, the company owned and operated a network of 70 multi-use business parks with approximately 450 buildings; and owned three hotels in the Czech Republic. It primarily operates in the Czech Republic, Romania, Hungary, and Slovakia with presence in Serbia, Poland, Bulgaria, Germany, and Austria. The company was founded in 1998 and is headquartered in Utrecht, the Netherlands. CTP B.V. operates as a subsidiary of CTP Holding B.V.",
+  "website": "http://www.ctp.eu"
 }

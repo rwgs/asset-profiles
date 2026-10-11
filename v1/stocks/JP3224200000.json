@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C5G9K5",
-    "figi": "BBG000C5GFG6",
+    "composite_figi": "BBG000BM72Q8",
+    "figi": "BBG000BM73C1",
     "isin": "JP3224200000"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "JP3224200000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7012.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KHE.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "KHE.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KHE.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KWHIF"
     }
   ],
-  "name": "Kawasaki Heavy Industries Ltd.",
-  "primary_symbol": "KHE.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Kawasaki Heavy Industries, Ltd.",
+  "primary_symbol": "7012.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Kawasaki Heavy Industries, Ltd. is a Japanese multinational corporation that manufactures a wide range of products including motorcycles, heavy machinery, aerospace equipment, and ships. The company operates through various segments, serving diverse industries globally. Kawasaki Heavy Industries is headquartered in Tokyo, Japan."
+  "summary": "Kawasaki Heavy Industries, Ltd. engages in ship and offshore structure, rolling stock, aerospace systems, energy system and plant engineering, motorcycle and engine, and precision machinery and robot businesses worldwide. It manufactures aircraft for the Japan ministry of defense; parts for commercial aircraft; commercial helicopters; missiles/space equipment; jet engines; and aerospace gearboxes. The company also offers gas turbine cogeneration systems, gas and diesel engines for power generation, steam turbines, aerodynamic machinery, boiler plants, combined cycle power plants, industrial plants LNG tanks, municipal waste incineration plants, material handling systems, tunnel boring machines, crushing machines, marine gas turbines/reduction gear, marine reciprocating engines, and marine propulsion systems; and LPG and LNG carriers, bulk carriers, jetfoils, and submarines. In addition, it provides electric train cars, electric and diesel locomotives, passenger coaches, and bogies; motorcycles, off-road utility vehicles, personal watercraft, and general-purpose gasoline engines; and hydraulic components for construction and agricultural machinery, hydraulic components and systems for industrial machinery, hydraulic steering gears for marine products, hydraulic deck machinery for marine products, industrial robots, and medical and pharmaceutical robots. Kawasaki Heavy Industries, Ltd. was founded in 1878 and is headquartered in Tokyo, Japan.",
+  "website": "http://global.kawasaki.com"
 }

@@ -2,30 +2,43 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG006MD5X41",
+    "composite_figi": "BBG001J2NVH0",
     "cusip": "517125100",
-    "figi": "BBG006MD5X96",
+    "figi": "BBG001J2NVH0",
     "isin": "US5171251003"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US5171251003",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "LRMR"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US5171251003.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ZA71.F"
     }
   ],
-  "name": "LARIMAR THERAPEUTICS INC",
-  "primary_symbol": "US5171251003.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Larimar Therapeutics, Inc.",
+  "primary_symbol": "LRMR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "LARIMAR THERAPEUTICS INC is a biotechnology company focused on developing treatments for complex rare diseases, particularly those affecting the central nervous system. Their lead product candidate, CTI-1601, is being developed for the treatment of Friedreich's ataxia. The company is headquartered in Bala Cynwyd, Pennsylvania."
+  "summary": "Larimar Therapeutics, Inc., a clinical-stage biotechnology company, focuses on developing treatments for rare diseases. The company's lead product candidate is CTI-1601, which is in Phase 1 clinical trial for the treatment of Friedreich's ataxia, a rare and progressive genetic disease. Larimar Therapeutics, Inc. is headquartered in Bala Cynwyd, Pennsylvania.",
+  "website": "http://www.larimartx.com"
 }

@@ -2,29 +2,37 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000QY39V9",
-    "figi": "BBG000QY3CK4",
+    "composite_figi": "BBG00MK1Q169",
+    "figi": "BBG00MK1Q169",
     "isin": "GB00B013SN63"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "GB00B013SN63",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AOECF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B013SN63.SG"
     }
   ],
-  "name": "AFERIAN PLC",
-  "primary_symbol": "GB00B013SN63.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Aferian plc",
+  "primary_symbol": "AOECF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "AFERIAN PLC designs and manufactures digital media players and provides related software and services. Their business model involves selling hardware and software solutions for digital signage, video streaming, and other digital media applications to businesses. The company's headquarters are in Cambridge, UK."
+  "sector": "Information Technology",
+  "summary": "AFERIAN PLC designs and manufactures digital media players and provides related software and services. Their business model involves selling hardware and software solutions for digital signage, video streaming, and other digital media applications to businesses. The company's headquarters are in Cambridge, UK.",
+  "website": "https://aferian.com"
 }

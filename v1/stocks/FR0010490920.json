@@ -2,8 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000VMN3G7",
-    "figi": "BBG000VMN448",
+    "composite_figi": "BBG000Q4MJ79",
+    "figi": "BBG000Q4MJL3",
     "isin": "FR0010490920"
   },
   "industry": "Entertainment",
@@ -11,6 +11,11 @@
   "isin": "FR0010490920",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALECP.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,21 +28,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AZ6.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ECP.PA"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "EUROPACORP S.A.  EO-,34",
-  "primary_symbol": "AZ6.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "EuropaCorp",
+  "primary_symbol": "ALECP.PA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "EUROPACORP S.A. EO-,34 is a film production and distribution company. It is involved in the creation, production, and distribution of feature films and television series. EuropaCorp is headquartered in France.",
-  "website": "http://www.europacorp.com"
+  "summary": "EuropaCorp, operating through its subsidiaries, focuses on the global creation and distribution of feature films, television series, and dramatic programming across France and international markets. Its diverse operations encompass the development of cinematographic works, theatrical exhibition, worldwide film rights sales, licensing content to television broadcasters, and distribution to subscription video-on-demand (SVOD) platforms. The company also oversees the management of cinema venues. Beyond its core content production, EuropaCorp offers audiovisual communication services, facilitates licensing and partnership agreements, and provides line and co-production support, frequently acting as an executive producer. Its portfolio extends to publishing and distributing video content, offering communication and corporate image consulting to businesses, and marketing its own film catalog. Furthermore, EuropaCorp is engaged in music and book publishing, including the exploitation of musical works. The company's services also cover audiovisual post-production, which includes editing, sound mixing, and visual effects. It is involved in the organization and promotion of events, the production and distribution of institutional and advertising films, advertising consultancy, and media space purchasing. Actively developing new film projects, EuropaCorp additionally provides specialized technical and consulting services for sound, lighting, editing, structural staging, and image projection. Founded in 1992, EuropaCorp's headquarters are located in Saint-Denis, France.",
+  "website": "https://www.europacorp.com"
 }

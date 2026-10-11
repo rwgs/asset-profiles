@@ -2,15 +2,31 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000FLCPN2",
+    "composite_figi": "BBG000BSLZY7",
     "cusip": "808513105",
-    "figi": "BBG000FLCVK2",
+    "figi": "BBG000BSM368",
     "isin": "US8085131055"
   },
-  "industry_group": "Banks",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "US8085131055",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SCHW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0L3I.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "SCHW.VI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,8 +34,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SWG.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SWG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SWG.F"
     },
     {
       "currency": "EUR",
@@ -32,15 +58,17 @@
       "symbol": "SWG.SG"
     }
   ],
-  "name": "Charles Schwab Corp",
-  "primary_symbol": "SWG.BE",
+  "market_cap_band": "Large Cap",
+  "name": "The Charles Schwab Corporation",
+  "primary_symbol": "SCHW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "The Charles Schwab Corporation is a savings and brokerage holding company engaged in wealth management, securities brokerage, banking, asset management and financial advisory services. The company provides financial services to individuals and institutions through its subsidiaries. Charles Schwab is headquartered in San Francisco, California."
+  "summary": "The Charles Schwab Corporation, through its subsidiaries, provides wealth management, securities brokerage, banking, asset management, custody, and financial advisory services. The company operates in two segments, Investor Services and Advisor Services. The Investor Services segment provides retail brokerage and banking services, retirement plan services, and other corporate brokerage services; equity compensation plan sponsors full-service recordkeeping for stock plans, stock options, restricted stock, performance shares, and stock appreciation rights; and retail investor, retirement plan, and mutual fund clearing services. The Advisor Services segment offers custodial, trading, banking, and support services; and retirement business and corporate brokerage retirement services. This segment provides brokerage accounts with cash management capabilities; third-party mutual funds, as well as proprietary mutual funds, plus mutual fund trading, and clearing services to broker-dealers; and exchange-traded funds (ETFs), including proprietary and third-party ETFs. It also offers advice solutions, such as managed portfolios of proprietary and third-party mutual funds and ETFs, separately managed accounts, customized personal advice for tailored portfolios, and specialized planning and portfolio management. In addition, this segment provides banking products and services, including checking and savings accounts, first lien residential real estate mortgage loans, home equity lines of credit, and pledged asset lines; and trust services comprising trust custody services, personal trust reporting services, and administrative trustee services. The company serves individuals and institutional clients in the United States, the Commonwealth of Puerto Rico, the United Kingdom, Hong Kong, and Singapore. The Charles Schwab Corporation was incorporated in 1971 and is headquartered in Westlake, Texas.",
+  "website": "http://www.schwab.com"
 }

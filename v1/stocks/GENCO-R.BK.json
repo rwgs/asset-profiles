@@ -1,8 +1,12 @@
 {
   "country": "Thailand",
   "country_code": "TH",
-  "industry": "Transportation Infrastructure",
-  "industry_group": "Transportation",
+  "identifiers": {
+    "composite_figi": "BBG000DCGCC1",
+    "figi": "BBG000DCGCS4"
+  },
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "kind": "stock",
   "listings": [
     {
@@ -15,7 +19,7 @@
   "name": "General Environmental Conservation Public Company Limited",
   "primary_symbol": "GENCO-R.BK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

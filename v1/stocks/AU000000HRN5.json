@@ -2,9 +2,11 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00F32XY07",
+    "composite_figi": "BBG00QDBCC21",
+    "figi": "BBG00QDBCC67",
     "isin": "AU000000HRN5"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU000000HRN5",
   "kind": "stock",
@@ -13,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000HRN5.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HO0.F"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "HRN.AX"
     }
   ],
-  "name": "HORIZON GOLD LIMITED",
+  "market_cap_band": "Micro Cap",
+  "name": "Horizon Gold Limited",
   "primary_symbol": "AU000000HRN5.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Horizon Gold Limited is an Australian gold exploration and development company focused on the Gum Creek Gold Project in Western Australia. The company aims to become a mid-tier gold producer."
+  "summary": "Horizon Gold Limited is an Australian gold exploration and development company focused on the Gum Creek Gold Project in Western Australia. The company aims to become a mid-tier gold producer.",
+  "website": "http://www.horizongold.com.au"
 }

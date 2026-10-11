@@ -2,29 +2,43 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000FG7FP9",
-    "figi": "BBG000FG7JH0",
+    "composite_figi": "BBG000CFNH18",
+    "cusip": "05352A100",
+    "figi": "BBG000CFNHP2",
     "isin": "GB0009188797"
   },
-  "industry_group": "Transportation",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "GB0009188797",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "AVG.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DZR.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB0009188797.SG"
     }
   ],
-  "name": "AVINGTRANS PLC",
-  "primary_symbol": "GB0009188797.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Avingtrans plc",
+  "primary_symbol": "AVG.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "AVINGTRANS PLC is an investment company focused on acquiring businesses in the aviation, transportation, and engineering sectors. They aim to grow their portfolio through strategic acquisitions and providing operational support to their investments. The company is based in the United Kingdom."
+  "summary": "Avingtrans plc manufactures and sells engineered components, systems, and services to the energy, medical, and infrastructure industries worldwide. It operates through three segments: Energy-EPM, Energy-PSRE, and Medical-MII. The company designs, manufactures, integrates, and services electric motors and pumps, steam turbines, gas compressors, pressure vessels, blast doors, containers, and skidded systems. It also designs and manufactures equipment for the medical, science and research communities, including products for medical diagnostic equipment; high performance pressure, vacuum vessels, and composite materials for research organizations; and superconducting magnets and helium-free cryogenic systems for use in magnetic resonance imaging and nuclear magnetic resonance. The company was incorporated in 1985 and is based in Chatteris, the United Kingdom.",
+  "website": "http://www.avingtrans.plc.uk"
 }

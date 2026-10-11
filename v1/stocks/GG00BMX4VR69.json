@@ -2,7 +2,8 @@
   "country": "Guernsey",
   "country_code": "GG",
   "identifiers": {
-    "composite_figi": "BBG000D22J79",
+    "composite_figi": "BBG000H6N1D5",
+    "figi": "BBG000H6N4W8",
     "isin": "GG00BMX4VR69"
   },
   "industry": "Metals & Mining",
@@ -16,6 +17,16 @@
       "symbol": "GG00BMX4VR69.SG"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LMK1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "LMK1.MU"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "LND.L"
@@ -26,10 +37,11 @@
       "symbol": "LNDLF"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Landore Resources Limited",
   "primary_symbol": "GG00BMX4VR69.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

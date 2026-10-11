@@ -2,19 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000BBD070",
     "cusip": "42809H107",
+    "figi": "BBG000BBD2Z5",
     "isin": "US42809H1077"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "US42809H1077",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "AHC"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -24,16 +21,6 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0J50.L"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "AHC.AX"
-    },
-    {
-      "currency": "THB",
-      "exchange_mic": "XBKK",
-      "symbol": "AHC.BK"
     },
     {
       "currency": "EUR",
@@ -66,17 +53,17 @@
       "symbol": "H1ES34.SA"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "A.H. Belo Corporation",
-  "primary_symbol": "AHC",
+  "market_cap_band": "Large Cap",
+  "name": "Hess Corporation",
+  "primary_symbol": "HES",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "A.H. Belo Corporation, together with its subsidiaries, operates as a local news and information publishing company in Texas. The company publishes The Dallas Morning News, a newspaper; Briefing, a newspaper; and Al Dia, a Spanish-language newspaper, as well as operates related websites and mobile applications. It also offers commercial printing, distribution, direct mail, and shared mail packaging services; and auto dealerships advertising services on the cars.com platform. In addition, the company provides digital marketing services, such as multi-channel marketing solutions through subscription sales of its cloud-based software; digital and marketing analytics, search engine marketing, and other marketing related services; social media account management and content marketing services; and multi- channel digital advertising and marketing services campaigns, as well as marketing and promotional products for businesses. A.H. Belo Corporation was founded in 1842 and is headquartered in Dallas, Texas.",
-  "website": "http://www.ahbelo.com"
+  "sector": "Energy",
+  "summary": "Hess Corporation, an exploration and production company, explores, develops, produces, purchases, transports, and sells crude oil, natural gas liquids (NGLs), and natural gas. The company operates through two segments, Exploration and Production, and Marketing and Refining. It conducts production operations primarily in the United States, Denmark, the Malaysia/Thailand Joint Development Area, and Malaysia; and exploration activities primarily offshore Guyana, Suriname, Canada, and in the Gulf of Mexico. As of December 31, 2020, the company had total proved reserves of 1,077 million barrels of oil equivalent. It is also involved in the gathering, compressing, and processing of natural gas; fractionating NGLs; gathering, terminaling, loading, and transporting crude oil and NGLs through rail car; storing and terminaling propane, as well as providing water handling services primarily in the Bakken Shale plays in the Williston Basin area of North Dakota. The company was incorporated in 1920 and is headquartered in New York, New York.",
+  "website": "http://www.hess.com"
 }

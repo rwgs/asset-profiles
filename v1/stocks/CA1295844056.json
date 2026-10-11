@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG000NSX737",
     "cusip": "129584405",
-    "figi": "BBG000NSX8H0",
+    "figi": "BBG000NSX7D6",
     "isin": "CA1295844056"
   },
+  "industry": "Energy Equipment & Services",
   "industry_group": "Energy",
   "isin": "CA1295844056",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5CFA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA1295844056.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "CFW.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CFWFF"
     }
   ],
-  "name": "CALFRAC WELL SERVICES LTD",
-  "primary_symbol": "CA1295844056.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Calfrac Well Services Ltd.",
+  "primary_symbol": "5CFA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "CALFRAC WELL SERVICES LTD is a provider of specialized oilfield services including hydraulic fracturing, coiled tubing, and cementing. The company operates primarily in Western Canada. Calfrac Well Services Ltd. is headquartered in Calgary, Alberta, Canada."
+  "summary": "Calfrac Well Services Ltd., together with its subsidiaries, provides specialized oilfield services in Canada, the United States, Russia, and Argentina. It offers hydraulic fracturing, coiled tubing, cementing, and other well stimulation services, as well as pressure pumping services to oil and natural gas industries. The company was incorporated in 1999 and is headquartered in Calgary, Canada.",
+  "website": "http://www.calfrac.com"
 }

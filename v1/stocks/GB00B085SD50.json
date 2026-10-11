@@ -2,28 +2,47 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000HS6V59",
+    "composite_figi": "BBG000RDWPX4",
+    "figi": "BBG000RDWT57",
     "isin": "GB00B085SD50"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "GB00B085SD50",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4A6.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4A6.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "AAU.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B085SD50.SG"
     }
   ],
-  "name": "ARIANA RESOURCES PLC",
-  "primary_symbol": "GB00B085SD50.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Ariana Resources plc",
+  "primary_symbol": "4A6.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "ARIANA RESOURCES PLC is a mineral exploration and development company focused on Turkey. Their business model involves exploring and developing mineral projects, generating revenue through the eventual sale of mined resources or project ownership. The company is headquartered in London, UK."
+  "summary": "Ariana Resources plc is a mineral exploration and development company focused on Turkey. They are primarily involved in the exploration and development of gold and copper projects. Ariana Resources is headquartered in London, UK.",
+  "website": "http://arianaresources.com"
 }

@@ -18,9 +18,19 @@
       "symbol": "TXN"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0R2H.L"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "TEXA34.SA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TII.BE"
     },
     {
       "currency": "EUR",
@@ -29,8 +39,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TII.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TII.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TII.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TII.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TII.MU"
     },
     {
       "currency": "EUR",
@@ -62,11 +92,11 @@
       "symbol": "TXN.VI"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Texas Instruments Incorporated",
   "primary_symbol": "TXN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

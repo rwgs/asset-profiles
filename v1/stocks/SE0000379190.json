@@ -1,15 +1,31 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000C7Y8P8",
-    "figi": "BBG000C7YCN1",
+    "composite_figi": "BBG000J1JWC2",
+    "figi": "BBG000J1JX03",
     "isin": "SE0000379190"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "SE0000379190",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0GT1.IL"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "CAST.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CWQXF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -19,17 +35,29 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "TEX.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TEX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TEX.SG"
     }
   ],
-  "name": "CASTELLUM AB",
-  "primary_symbol": "TEX.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Castellum AB (publ)",
+  "primary_symbol": "0GT1.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Castellum AB is one of Sweden's largest listed property companies, managing and developing commercial properties. The company invests in properties primarily located in Sweden's growth regions, focusing on office, retail, and logistics properties. Castellum is headquartered in Gothenburg, Sweden, and aims to create long-term value through property management and development."
+  "summary": "Castellum AB is a Swedish real estate company that owns, manages, and develops commercial properties in Sweden and the Nordic region. The company focuses on office, retail, logistics, and industrial properties. Castellum is headquartered in Gothenburg, Sweden.",
+  "website": "http://www.castellum.se"
 }

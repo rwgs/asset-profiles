@@ -2,15 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GK9BR4",
+    "composite_figi": "BBG000BCLBY5",
     "cusip": "046433108",
-    "figi": "BBG000GK9K30",
+    "figi": "BBG000BCLLH2",
     "isin": "US0464331083"
   },
+  "industry": "Aerospace & Defense",
   "industry_group": "Capital Goods",
   "isin": "US0464331083",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "ATRO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AC1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AC1.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Astronics Corporation",
-  "primary_symbol": "AC1.BE",
+  "primary_symbol": "ATRO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Astronics Corporation designs and manufactures advanced, high-performance lighting, electrical power, avionics, and structures for the aerospace, defense, and other mission-critical industries. The company provides solutions for aircraft, spacecraft, and ground vehicles. Astronics Corporation is headquartered in East Aurora, New York."
+  "summary": "Astronics Corporation, through its subsidiaries, designs and manufactures products for the aerospace, defense, and electronics industries in the United States, North America, Asia, Europe, South America, and internationally. It operates in two segments, Aerospace and Test Systems. The Aerospace segment offers lighting and safety systems, electrical power generation systems, distribution and motions systems, aircraft structures, avionics products, system certification, and other products. This segment serves airframe manufacturers (OEM) that build aircraft for the commercial, military, and general aviation markets; suppliers; and aircraft operators, such as airlines and branches of the U.S. Department of Defense. The Test Systems segment designs, develops, manufactures, and maintains automated test systems that support the aerospace and defense, and communications and mass transit industries, as well as training and simulation devices for commercial and military applications. It serves OEMs and prime government contractors for electronics and military products. The company also sells inflight entertainment and connectivity products, and lower antenna; and wireless communication testing primarily for the civil land mobile radio market. Astronics Corporation was founded in 1968 and is headquartered in East Aurora, New York.",
+  "website": "http://www.astronics.com"
 }

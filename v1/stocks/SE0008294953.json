@@ -4,7 +4,7 @@
   "identifiers": {
     "isin": "SE0008294953"
   },
-  "industry": "Interactive Media & Services",
+  "industry": "Entertainment",
   "industry_group": "Software & Services",
   "isin": "SE0008294953",
   "kind": "stock",
@@ -16,8 +16,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ETA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ETA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ETA.MU"
     },
     {
       "currency": "EUR",
@@ -39,7 +49,7 @@
   "name": "Paradox Interactive AB",
   "primary_symbol": "0GDU.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

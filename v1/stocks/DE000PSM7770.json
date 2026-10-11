@@ -6,6 +6,7 @@
     "figi": "BBG006TLT202",
     "isin": "DE000PSM7770"
   },
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "DE000PSM7770",
   "kind": "stock",
@@ -14,17 +15,78 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000PSM7770.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PBSFF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PSM.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "PSM.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PSM.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PSM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PSM.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PSM.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "PSM.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PSM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PSM.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "PSM.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "PSM.VI"
     }
   ],
-  "name": "PROSIEBENSAT.1 MEDIA SE",
+  "market_cap_band": "Small Cap",
+  "name": "ProSiebenSat.1 Media SE",
   "primary_symbol": "DE000PSM7770.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "PROSIEBENSAT.1 MEDIA SE is a German media company. They operate a portfolio of television channels, digital platforms, and production companies across Europe. The company is headquartered in Unterföhring, Germany."
+  "summary": "PROSIEBENSAT.1 MEDIA SE is a German media company. They operate a portfolio of television channels, digital platforms, and production companies across Europe. The company is headquartered in Unterföhring, Germany.",
+  "website": "http://www.prosiebensat1.com"
 }

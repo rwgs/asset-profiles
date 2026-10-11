@@ -2,18 +2,29 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
-    "composite_figi": "BBG000CD1CS9",
-    "figi": "BBG000CD2J58",
+    "composite_figi": "BBG000CC3MR8",
+    "figi": "BBG000CC3P00",
     "isin": "ID1000109507"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "ID1000109507",
   "kind": "stock",
   "listings": [
     {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "BBCA.JK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "BZG2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BZG2.F"
     },
     {
       "currency": "EUR",
@@ -24,17 +35,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BZG2.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PBCRF"
     }
   ],
-  "name": "BANK CENTRAL ASIA RP 62,5",
-  "primary_symbol": "BZG2.BE",
+  "market_cap_band": "Large Cap",
+  "name": "PT Bank Central Asia Tbk",
+  "primary_symbol": "BBCA.JK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "PT Bank Central Asia Tbk (BCA) is one of the largest private banks in Indonesia, providing a wide range of banking services to individuals, businesses, and corporations. The bank offers deposit accounts, loans, credit cards, and wealth management services, as well as digital banking solutions. BCA is headquartered in Jakarta, Indonesia."
+  "summary": "PT Bank Central Asia Tbk, together with its subsidiaries, provides banking products and services to individual, corporate, and small and medium enterprise customers in Indonesia and internationally. It offers deposits accounts, loans, transaction banking services, electronic banking services, cash management services, credit cards, bancassurance products, mutual fund and treasury investment products, credit facilities, standby LC/bank guarantees, export import facilities, local LC, and foreign exchange facilities. The company also provides investment financing, working capital financing, auto and multipurpose financing, operating lease, other financing activities, money lending and remittance, securities brokerage dealing and securities issuance underwriting, general or loss insurance, life insurance, Sharia banking, and venture capital services. As of December 31, 2020, it operated 1,248 offices comprising 139 main branches, 874 sub-branches, and 235 cash offices; and 17,623 automated teller machines. PT Bank Central Asia Tbk was founded in 1955 and is headquartered in Jakarta, Indonesia. PT Bank Central Asia Tbk is a subsidiary of PT Dwimuria Investama Andalan.",
+  "website": "http://www.bca.co.id"
 }

@@ -2,8 +2,8 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00KXPN9S8",
-    "figi": "BBG00NF05BL9",
+    "composite_figi": "BBG00NNWXT49",
+    "figi": "BBG00NNWXT58",
     "isin": "SE0010573113"
   },
   "industry": "Biotechnology",
@@ -12,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7ZA.F"
+    },
+    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "ACE.ST"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Ascelia Pharma AB (publ)",
-  "primary_symbol": "ACE.ST",
+  "primary_symbol": "7ZA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Ascelia Pharma AB (publ), a biotech company, operates as an oncology-focused orphan drug development company in Sweden. It is developing Mangoral, a novel non-gadolinium contrast agent, which is in Phase 3 for use in MRI-scans of the liver; and Oncoral, a novel oral chemotherapy tablet, which is in Phase 2 for the treatment of gastric cancer. The company was founded in 2000 and is headquartered in Malmö, Sweden.",
+  "summary": "Ascelia Pharma AB is a Swedish biopharmaceutical company focused on developing and commercializing novel therapies for rare cancer indications. Their lead product candidate is Oncoral, an oral formulation of the chemotherapy drug irinotecan, being developed for the treatment of gastric cancer. The company is headquartered in Stockholm, Sweden.",
   "website": "http://www.ascelia.com"
 }

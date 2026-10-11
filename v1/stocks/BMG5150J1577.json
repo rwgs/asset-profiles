@@ -2,9 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG0056LBYY1",
-    "cusip": "479087405",
-    "figi": "BBG0056LBYY1",
+    "composite_figi": "BBG000BDXJX4",
+    "figi": "BBG000BDXKS7",
     "isin": "BMG5150J1577"
   },
   "industry": "Auto Components",
@@ -13,14 +12,24 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "JEHLY"
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0179.HK"
     },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "JELCF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JOHB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JOHB.MU"
     },
     {
       "currency": "EUR",
@@ -30,15 +39,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Johnson Electric Holdings Limited",
-  "primary_symbol": "JEHLY",
+  "primary_symbol": "0179.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Johnson Electric Holdings Limited, an investment holding company, researches and develops, manufactures, licenses, and sells motion products, control systems, and flexible interconnects worldwide. The company offers motion products, including solenoids, piezo motors and subsystems, starters, blowers, gearboxes, automotive actuators, haptic motion products, and piezo stages, as well as brushless EC, DC, AC, stepper, piezo, and gear motors; pumps and valves; and flex circuits and microelectronics, flat flexible cables, security circuits, and electromagnetic interference shielded flexible circuits. It also provides switches and relays comprising microswitches, TIPPMATIC auto power-off products, manually operated switches, panel mounted switches, automotive switches and subsystems, and smart meter relays; and powder metal components. It serves a range of industries, including automotive, building automation and security, business machines, defense and aerospace, food and beverage, home technologies, HVAC, industrial equipment, medical devices, personal care, power equipment, and power tools. Johnson Electric Holdings Limited was founded in 1959 and is headquartered in Shatin, Hong Kong.",
+  "summary": "Johnson Electric Holdings Limited is a global investment holding company dating from 1959, with its headquarters in Sha Tin, Hong Kong. It supplies motion products, control systems and flexible interconnect solutions. Its motion range includes brushless, DC, AC, stepper and gear motors, as well as solenoids, piezo motors, starters, blowers and gearboxes.",
   "website": "http://www.johnsonelectric.com"
 }

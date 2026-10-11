@@ -2,29 +2,37 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG00XYBBY17",
-    "figi": "BBG00XYBBY53",
+    "composite_figi": "BBG003M05RF7",
+    "figi": "BBG003M0FJW5",
     "isin": "PLSNTFG00017"
   },
-  "industry_group": "Software & Services",
+  "industry": "Entertainment",
+  "industry_group": "Media & Entertainment",
   "isin": "PLSNTFG00017",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "ALG.WA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLSNTFG00017.SG"
     }
   ],
-  "name": "ALL IN! GAMES SA",
-  "primary_symbol": "PLSNTFG00017.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "All in! Games S.A.",
+  "primary_symbol": "ALG.WA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "ALL IN! GAMES SA is a Polish video game publisher and developer, focusing on publishing and supporting independent video game projects across PC and console platforms. They work with various developers to bring their games to market. The company is based in Krakow, Poland."
+  "sector": "Communications",
+  "summary": "ALL IN! GAMES SA is a Polish video game publisher and developer, focusing on publishing and supporting independent video game projects across PC and console platforms. They work with various developers to bring their games to market. The company is based in Krakow, Poland.",
+  "website": "https://www.allingames.com"
 }

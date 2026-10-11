@@ -2,9 +2,11 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000VB6CR8",
+    "composite_figi": "BBG00YYZ7BK6",
+    "figi": "BBG00YYZ7BP1",
     "isin": "GB00BY7QYJ50"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "GB00BY7QYJ50",
   "kind": "stock",
@@ -13,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BY7QYJ50.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "GROW.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GRWXF"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "MOLTEN VENTURES PLC",
   "primary_symbol": "GB00BY7QYJ50.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Molten Ventures PLC, formerly Draper Esprit PLC, is a venture capital firm that invests in high-growth technology companies. The company focuses on investing in companies in the UK and Europe. Molten Ventures PLC is headquartered in London, UK."
+  "summary": "Molten Ventures PLC, formerly Draper Esprit PLC, is a venture capital firm that invests in high-growth technology companies. The company focuses on investing in companies in the UK and Europe. Molten Ventures PLC is headquartered in London, UK.",
+  "website": "https://www.moltenventures.com"
 }

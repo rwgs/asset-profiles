@@ -6,6 +6,7 @@
     "cusip": "654484104",
     "isin": "CA6544841043"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA6544841043",
   "kind": "stock",
@@ -24,17 +25,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BR3.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NIOBF"
     }
   ],
-  "name": "NIOCORP DEVELOPMENTS",
+  "market_cap_band": "Small Cap",
+  "name": "NioCorp Developments",
   "primary_symbol": "BR3.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "NIOCORP DEVELOPMENTS is a company focused on the development of niobium projects. The company is focused on developing its Elk Creek Resources Niobium Project. It is headquartered in Centennial, CO."
+  "summary": "NioCorp Developments is a company focused on the development of niobium projects. The company is focused on developing its Elk Creek Resources Niobium Project. It is headquartered in Centennial, CO.",
+  "website": "http://www.niocorp.com"
 }

@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BKT5S9",
-    "figi": "BBG000BKT6X1",
+    "figi": "BBG000BKT7W0",
     "isin": "DE0006942808"
   },
   "industry": "Industrial Conglomerates",
@@ -13,13 +13,28 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PZS.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PZS.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PZS.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PZS.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PZS.MU"
     },
     {
       "currency": "EUR",
@@ -29,9 +44,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Scherzer & Co. AG",
-  "primary_symbol": "PZS.DE",
+  "primary_symbol": "PZS.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

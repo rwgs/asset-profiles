@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000LG8QV0",
-    "figi": "BBG000LG8TW3",
+    "composite_figi": "BBG000BXG701",
+    "figi": "BBG000BXG7P4",
     "isin": "BMG2155W1010"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -11,6 +11,16 @@
   "isin": "BMG2155W1010",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0603.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CLSZF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -37,17 +47,17 @@
       "symbol": "GPI1.SG"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "China Oil & Gas Group, Ltd.",
-  "primary_symbol": "GPI1.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "China Oil And Gas Group Limited",
+  "primary_symbol": "0603.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "China Oil And Gas Group Limited, an investment holding company, primarily invests in natural gas and energy related businesses in the People's Republic of China and Canada. The company operates through three segments: Sales and Distribution of Natural Gas and Other Related Products; Gas Pipeline Construction and Connection; and Exploitation and Production of Crude Oil and Natural Gas. It is involved in the piped city gas business, as well as design and construction of gas pipelines; and the transportation, distribution, and sale of compressed natural gas and liquefied natural gas. The company also develops, produces, and sells crude oil and natural gas, and other upstream energy resources; constructs and operates gas pipelines and natural gas stations; and provision for finance, as well as involved in the trading of natural gas and related equipment. In addition, it operates natural gas stations for automobiles. The company serves approximately 1,603,096 residential users; and 14,319 industrial and commercial users. China Oil And Gas Group Limited is headquartered in Causeway Bay, Hong Kong.",
+  "summary": "China Oil And Gas Group Limited is a company that mainly invests in natural gas and related energy in China and Canada. It has four areas: marketing and supplying gas and related products, building and integrating gas pipeline infrastructure, exploring for and producing oil and gas, and making and selling coal gasification products.",
   "website": "http://www.hk603.com"
 }

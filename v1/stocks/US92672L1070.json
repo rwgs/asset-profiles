@@ -2,10 +2,12 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG005XKG722",
     "cusip": "92672L107",
+    "figi": "BBG005XKG722",
     "isin": "US92672L1070"
   },
-  "industry": "Health Care Technology",
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US92672L1070",
   "kind": "stock",
@@ -29,13 +31,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "6L9.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VRAYQ"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "ViewRay, Inc.",
   "primary_symbol": "VRAY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

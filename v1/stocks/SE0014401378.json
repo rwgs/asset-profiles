@@ -2,10 +2,12 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG00JHW7564",
+    "figi": "BBG00JHW7573",
     "isin": "SE0014401378"
   },
   "industry": "Health Care Equipment & Supplies",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "SE0014401378",
   "kind": "stock",
   "listings": [
@@ -28,13 +30,23 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "1AD1.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ADDLF"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "ALIF-B.ST"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "ADDLIFE AB",
+  "name": "AddLife AB Class B",
   "primary_symbol": "0REZ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

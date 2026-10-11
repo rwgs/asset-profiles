@@ -3,28 +3,56 @@
   "country_code": "ID",
   "identifiers": {
     "composite_figi": "BBG000J6PN52",
-    "figi": "BBG000J6PQF4",
+    "figi": "BBG000J6PR08",
     "isin": "ID1000129000"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "ID1000129000",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TCID.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TCID.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TCID.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TCID.SG"
+    },
+    {
+      "currency": "IDR",
+      "exchange_mic": "XIDX",
+      "symbol": "TLKM.JK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TLKMF"
     }
   ],
-  "name": "PT Telekomunikasi Ind. Tbk Regi",
-  "primary_symbol": "TCID.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk",
+  "primary_symbol": "TCID.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "PT Telekomunikasi Indonesia (Persero) Tbk, also known as Telkom Indonesia, is the largest telecommunications company in Indonesia. The company provides a full range of telecommunications services, including fixed and mobile telephony, internet, and data communication services. Telkom Indonesia is headquartered in Jakarta and serves a broad customer base across the archipelago."
+  "summary": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk provides information and communications technology, and telecommunications network services worldwide. The company operates through Mobile, Consumer, Enterprise, Wholesale and International Business, and Other segments. The Mobile segment offers mobile voice, SMS, mobile broadband, and value added services. The Consumer segment provides fixed wireline, pay TV, and internet services; and other telecommunication services to home customers. The Enterprise segment offers end-to-end solution to corporate and institutions. The Wholesale and International Business segment provides interconnection services, broadband access, information technology services, data, and internet services to other licensed operator and institutions. The Other segment offers digital content products, big data, business-to-business commerce, and financial services to individual and corporate customers. The company also engages in leasing of towers, and provision of digital support and other telecommunication services; provision of consultation service of hardware, software, data center, and internet exchange, as well as multimedia portal services; business management consulting; property development and management; trading service related to telecommunication, information, multimedia technology, entertainment, and investment services; and digital content exchange hub services. The company was founded in 1884 and is headquartered in Bandung, Indonesia. Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk operates as a subsidiary of PT Danantara Asset Management (Persero).",
+  "website": "https://www.telkom.co.id"
 }

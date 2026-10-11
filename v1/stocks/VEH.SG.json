@@ -1,6 +1,10 @@
 {
   "country": "Germany",
   "country_code": "DE",
+  "identifiers": {
+    "composite_figi": "BBG000BJ9SV0",
+    "figi": "BBG000BJ9VY0"
+  },
   "industry_group": "Diversified Financials",
   "kind": "stock",
   "listings": [
@@ -10,15 +14,17 @@
       "symbol": "VEH.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "VALORA EFFEKTEN HANDEL AG Inhab",
   "primary_symbol": "VEH.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "VALORA EFFEKTEN HANDEL AG Inhab description is not available. It is likely a financial services company operating in Germany. It potentially provides brokerage and trading services."
+  "summary": "VALORA EFFEKTEN HANDEL AG Inhab is a company listed on the Stuttgart Stock Exchange under the ticker VEH and traded in EUR. It is classified in the Financials sector (Diversified Financials). Its country is Germany.",
+  "website": "http://veh.de"
 }

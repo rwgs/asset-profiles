@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG0016RL5W1",
-    "figi": "BBG0016RL5W1",
+    "composite_figi": "BBG000T9PJ36",
+    "figi": "BBG000T9PJD5",
     "isin": "CNE100000Q43"
   },
   "industry": "Banks",
@@ -11,6 +11,11 @@
   "isin": "CNE100000Q43",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1288.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -25,49 +30,19 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "EK7.VI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EK7A.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ICK.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "ICK.VI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ICKB.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "W8V.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "W8VS.F"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Agricultural Bank of China Limited",
-  "primary_symbol": "ACGBF",
+  "primary_symbol": "1288.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Agricultural Bank of China Limited (ABC) delivers a comprehensive range of financial solutions to both corporate and individual customers. Its operations are structured across three primary divisions: Corporate Banking, Personal Banking, and Treasury Operations. The bank offers a diverse array of deposit products, including various types of demand, call, and time deposits (available in both local and foreign currencies), certificates of deposit, savings accounts, and specially negotiated or agreed-term deposits. Its lending portfolio encompasses housing, consumer, business, fixed asset, working capital, and real estate loans. Additionally, ABC facilitates entrusted syndicated loans, trade financing, guarantees and commitments, and loans secured by export rebate accounts. Beyond its core banking activities, ABC provides numerous other services. These include credit and debit card issuance, payment processing and settlement solutions, private banking, cash management, and investment banking. It also offers custody services, financial market access, specialized services for financial institutions, trading activities, and wealth management, alongside personal fund collection and automated transfer functionalities. A key area of focus for the bank involves its specialized agro-related banking products and services tailored for both individual and corporate clients within the agricultural sector. Customers can conveniently access ABC's services through various digital and alternative channels, such as personal, online, telephone, mobile, self-service terminals, television, and SMS banking platforms. Further expanding its offerings, the bank provides financial leasing, comprehensive fund management, asset custodian services, and solutions for debt-to-equity swaps. It also extends into the insurance sector, offering life, health, and accident policies, as well as reinsurance products. As of December 31, 2021, ABC's extensive domestic network comprised 22,807 establishments. Agricultural Bank of China Limited was established in 1951 and is headquartered in Beijing, People's Republic of China.",
-  "website": "http://www.boc.cn"
+  "summary": "Agricultural Bank of China Limited provides banking and financial services to corporate and individual customers. Its segments are Corporate Banking, Personal Banking and Treasury, and it offers deposit options including savings, foreign currency, call, time and demand accounts, as well as certificates of deposit.",
+  "website": "https://www.abchina.com"
 }

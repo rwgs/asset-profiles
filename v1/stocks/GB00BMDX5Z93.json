@@ -3,28 +3,41 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000TX83G3",
-    "figi": "BBG000TX84S8",
+    "figi": "BBG000TX83P3",
     "isin": "GB00BMDX5Z93"
   },
-  "industry_group": "Insurance",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "GB00BMDX5Z93",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4CV1.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CPP.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BMDX5Z93.SG"
     }
   ],
-  "name": "CPP GROUP PLC",
-  "primary_symbol": "GB00BMDX5Z93.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "CPPGroup Plc",
+  "primary_symbol": "4CV1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "CPP Group PLC provides assistance and insurance products and services focused on personal and financial protection. The company offers products that cover areas such as card protection, identity protection, and travel disruption. CPP Group PLC is headquartered in Leeds, UK."
+  "sector": "Industrials",
+  "summary": "CPPGroup Plc engages in the provision of assistance products in the United Kingdom, India, Spain, and internationally. It sources, creates, distributes, and manages a range of insurance and assistance related products and services, including card protection; identity and cyber risks protection; phone insurance, mobile payment insurance, and virus protection; extended warranty; health and wellbeing; and travel disruption and auto covers, as well as business process management services. The company was founded in 1980 and is headquartered in Leeds, the United Kingdom.",
+  "website": "http://international.cppgroup.com"
 }

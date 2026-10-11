@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GT91D2",
+    "composite_figi": "BBG000D0FNV3",
     "cusip": "95082P105",
-    "figi": "BBG000GT9552",
+    "figi": "BBG000D0FQ55",
     "isin": "US95082P1057"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Trading Companies & Distributors",
+  "industry_group": "Capital Goods",
   "isin": "US95082P1057",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "WCC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WP7.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -22,15 +33,17 @@
       "symbol": "WP7.SG"
     }
   ],
-  "name": "WESCO INTL INC.  DL-,01",
-  "primary_symbol": "WP7.MU",
+  "market_cap_band": "Large Cap",
+  "name": "WESCO International, Inc.",
+  "primary_symbol": "WCC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "WESCO International Inc. is a multinational distribution and services company, providing electrical, industrial, and communications maintenance, repair and operating (MRO) and original equipment manufacturer (OEM) products, construction materials, and supply chain management services. They serve customers in various industries, including industrial, construction, utility, and government sectors. WESCO International Inc. is headquartered in Pittsburgh, Pennsylvania."
+  "summary": "WESCO International, Inc. provides business-to-business distribution, logistics, and supply chain solutions in the United States, Canada, and internationally. It operates in three segments: Electrical & Electronic Solutions (EES), Communications & Security Solutions (CSS), and Utility and Broadband Solutions (UBS). The EES segment supplies products and supply chain solutions, including electrical equipment and supplies, wires and cables, lubricants, pipes, valves, fittings, fasteners, cutting tools, power transmission products, and safety products, as well as assemblies and components; and provides various value-added services, such as supplier consolidation, design and technical support, just-in-time supply and electronic commerce, and supply chain management services to the construction, industrial, and original equipment manufacturing markets. The CSS segment provides copper and fiber optic cable and connectivity, access control, video surveillance, intrusion and fire/life safety, cabinets, power, cable management, wireless, professional audio/video, voice and networking switches, and other ancillary products; and value-added supply chain solutions, including inventory management, product packaging and enhancement, and customized supply chain services to the network infrastructure and security markets. The UBS segment supplies electrical transmission and distribution, power plant maintenance, repair and operations supplies, and smart-grid products; arranges materials management and procurement outsourcing services for the power generation, transmission, and distribution industries; and offers conductors, transformers, overhead transmission and distribution hardware, switches, protective devices and underground distribution products, connectors, critical components, and lighting and conduit products for the investor-owned utilities, public power companies, and contractors. The company was founded in 1922 and is headquartered in Pittsburgh, Pennsylvania.",
+  "website": "http://www.wesco.com"
 }

@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000HT5LY8",
+    "composite_figi": "BBG000DMBXR2",
     "cusip": "46625H100",
-    "figi": "BBG000HT5RV8",
+    "figi": "BBG000DMBZW1",
     "isin": "US46625H1005"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US46625H1005",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "JPM"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0Q1F.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,8 +29,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "CMC.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "CMC.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CMC.F"
     },
     {
       "currency": "EUR",
@@ -37,20 +58,41 @@
       "symbol": "CMC.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CMC.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XSGO",
+      "symbol": "JPM.SN"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "JPM.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "JPM.VI"
+    },
+    {
       "currency": "CLP",
       "exchange_mic": "XSGO",
       "symbol": "JPMCL.SN"
     }
   ],
+  "market_cap_band": "Mega Cap",
   "name": "JPMorgan Chase & Co.",
-  "primary_symbol": "CMC.BE",
+  "primary_symbol": "JPM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "JPMorgan Chase & Co. is a global financial services firm offering a range of investment banking, financial services for consumers and small businesses, commercial banking, financial transaction processing, and asset management products and services. The company serves corporations, governments, institutions, and individuals worldwide. JPMorgan Chase is headquartered in New York, New York."
+  "summary": "JPMorgan Chase & Co. operates as a financial services company worldwide. It operates in four segments: Consumer & Community Banking (CCB), Corporate & Investment Bank (CIB), Commercial Banking (CB), and Asset & Wealth Management (AWM). The CCB segment offers deposit and investment products and services to consumers; lending, deposit, and cash management and payment solutions to small businesses; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit card, auto loan, and leasing services. The CIB segment provides investment banking products and services, including corporate strategy and structure advisory, and equity and debt markets capital-raising services, as well as loan origination and syndication; wholesale payments and cross-border financing; and cash securities and derivative instruments, risk management solutions, prime brokerage, and research. This segment also offers securities services, including custody, fund accounting and administration, and securities lending products for asset managers, insurance companies, and public and private investment funds. The CB segment provides financial solutions, including lending, investment banking, and asset management to small business, large and midsized corporations, local governments, and nonprofit clients; and commercial real estate banking services to investors, developers, and owners of multifamily, as well as to office, retail, industrial, and affordable housing properties. The AWM segment offers multi-asset investment management solutions across equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; and retirement products and services, brokerage, custody, trusts and estates, loans, mortgages, deposits, and investment management products. The company also provides ATM, online and mobile, and telephone banking services. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York.",
+  "website": "http://www.jpmorganchase.com"
 }

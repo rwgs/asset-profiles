@@ -2,9 +2,9 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG01WZQ2RY3",
-    "cusip": "00777X470",
-    "figi": "BBG01WZQ2RY3",
+    "composite_figi": "BBG000JLVJ97",
+    "cusip": "89158C106",
+    "figi": "BBG000JLVJ97",
     "isin": "FR0000120271"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -15,7 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "TOT"
+      "symbol": "TTE"
     },
     {
       "currency": "EUR",
@@ -31,11 +31,6 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000120271.SW"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "TOTA.SG"
     },
     {
       "currency": "EUR",
@@ -59,6 +54,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "TOTB.HA"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "TOTB.HM"
     },
@@ -69,8 +69,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TOTB.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "TTA.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "TTE.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "TTE.PA"
     },
     {
       "currency": "USD",
@@ -79,16 +94,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "TOTAL SE",
-  "primary_symbol": "TOT",
+  "name": "TotalEnergies SE",
+  "primary_symbol": "TTE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "TOTAL SE operates as an integrated oil and gas company worldwide. The company operates through four segments: Exploration & Production; Integrated Gas, Renewables & Power; Refining & Chemicals; and Marketing & Services. The company's Exploration & Production segment is involved in oil and natural gas exploration and production activities in approximately 50 countries. Its Integrated Gas, Renewables & Power segment engages in the liquefied natural gas (LNG) production, shipping, trading, and regasification activities; trading of liquefied petroleum gas (LPG), petcoke and sulfur, natural gas, and electricity; transportation of natural gas; electricity production from natural gas, wind, solar, hydroelectric, and biogas sources; energy storage activities; and development and operation of biomethane production units, as well as provides energy efficiency services. The company's Refining & Chemicals segment is involved in refining petrochemicals, including olefins and aromatics; and polymer derivatives, such as polyethylene, polypropylene, polystyrene, and hydrocarbon resins, as well as biomass conversion and elastomer processing. This segment also engages in trading and shipping crude oil and petroleum products. Its Marketing & Services segment produces and sells lubricants; supplies and markets petroleum products, including bulk fuel, aviation and marine fuel, special fluids, compressed natural gas, LPG, and bitumen; and provides fuel payment solutions. It operates approximately 15,500 service stations. As of December 31, 2020, the company had 12,328 Mboe of combined proved reserves of oil and gas. TOTAL SE has a strategic partnership with PureCycle Technologies in the area of plastic recycling. The company was incorporated in 1924 and is headquartered in Paris, France.",
-  "website": "http://www.total.com"
+  "summary": "TotalEnergies SE is a global multi-energy company that produces and markets fuels, natural gas, and electricity. The company is involved in oil and gas exploration and production, refining, petrochemicals, and renewable energy sources. TotalEnergies SE is headquartered in Courbevoie, France.",
+  "website": "https://www.totalenergies.com"
 }

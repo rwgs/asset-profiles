@@ -2,10 +2,12 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000FYNK80",
+    "composite_figi": "BBG00629V7X8",
     "cusip": "14179V503",
+    "figi": "BBG00629V820",
     "isin": "CA14179V5036"
   },
+  "industry": "Air Freight & Logistics",
   "industry_group": "Transportation",
   "isin": "CA14179V5036",
   "kind": "stock",
@@ -14,17 +16,39 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA14179V5036.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CGJTF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CJ8A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CJ8A.MU"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "CJT.TO"
     }
   ],
-  "name": "CARGOJET INC",
+  "market_cap_band": "Small Cap",
+  "name": "Cargojet Inc.",
   "primary_symbol": "CA14179V5036.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "CARGOJET INC is a cargo airline that provides time-sensitive air cargo services in North America. The company operates a fleet of all-cargo aircraft and offers scheduled and charter services. Cargojet Inc. is headquartered in Mississauga, Ontario, Canada."
+  "summary": "CARGOJET INC is a cargo airline that provides time-sensitive air cargo services in North America. The company operates a fleet of all-cargo aircraft and offers scheduled and charter services. Cargojet Inc. is headquartered in Mississauga, Ontario, Canada.",
+  "website": "http://www.cargojet.com"
 }

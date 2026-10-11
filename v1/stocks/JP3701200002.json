@@ -2,13 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
+    "composite_figi": "BBG000BM5RG6",
+    "figi": "BBG000BM5T09",
     "isin": "JP3701200002"
   },
-  "industry": "Electrical Equipment",
-  "industry_group": "Capital Goods",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "JP3701200002",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6997.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -22,15 +29,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Nippon Chemi-Con Corporation",
-  "primary_symbol": "NCZ.F",
+  "primary_symbol": "6997.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Nippon Chemi-Con Corporation manufactures and sells aluminum and other capacitors, precision mechanical components, and electronics equipment in Japan, China, the United States, Europe, and internationally. The company offers aluminum electrolytic capacitors, conductive polymer aluminum solid capacitors, and conductive polymer hybrid aluminum electrolytic capacitors. It also provides multilayer ceramic capacitors, film capacitors, metal oxide varistors TNR, nanocrystalline/amorphous/dust choke coils, electric double layer capacitors, and camera modules, as well as manufactures and distributes silicon wafers and wafer related products. The company was formerly known as Nippon Chemical Capacitor Inc. and changed its name to Nippon Chemi-Con Corporation in July 1981. Nippon Chemi-Con Corporation was founded in 1931 and is headquartered in Tokyo, Japan.",
-  "website": "http://www.chemi-con.co.jp"
+  "sector": "Information Technology",
+  "summary": "Nippon Chemi-Con Corporation manufactures and sells capacitors, precision mechanical components and electronic equipment, with operations in Japan, China, the United States, Europe and elsewhere. Its main capacitors are aluminum electrolytic, conductive polymer solid and hybrid types, and the wider range adds ceramic and film capacitors, metal oxide varistors and nanocrystalline and amorphous materials.",
+  "website": "https://www.chemi-con.co.jp"
 }

@@ -3,9 +3,9 @@
   "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000R263Y5",
-    "cusip": "98420U703",
     "isin": "US98420U7037"
   },
+  "industry": "Diversified Consumer Services",
   "industry_group": "Consumer Services",
   "isin": "US98420U7037",
   "kind": "stock",
@@ -14,32 +14,19 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US98420U7037.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "V9G.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "V9G.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "V9G.MU"
     }
   ],
-  "name": "XWELL INC",
+  "market_cap_band": "Nano Cap",
+  "name": "XWELL Inc. Common Stock",
   "primary_symbol": "US98420U7037.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "XWELL INC is a wellness company offering spa and salon services in airports; it provides travelers with treatments such as massages, manicures, and haircuts; the company is headquartered in New York, New York."
+  "summary": "XWELL INC is a wellness company offering spa and salon services in airports; it provides travelers with treatments such as massages, manicures, and haircuts; the company is headquartered in New York, New York.",
+  "website": "https://www.xwell.com"
 }

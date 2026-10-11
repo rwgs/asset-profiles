@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG01K4TR863",
+    "composite_figi": "BBG00WDRNJG1",
     "cusip": "217661107",
-    "figi": "BBG01K4TR863",
+    "figi": "BBG01P6YZGV4",
     "isin": "CA2176611077"
   },
   "industry": "Metals & Mining",
@@ -13,22 +13,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "COPR.TO"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CPPMF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Coppernico Metals Inc.",
-  "primary_symbol": "CPPMF",
+  "primary_symbol": "COPR.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Coppernico Metals Inc. engages in the acquisition and exploration of mineral properties in South America. The company explores for copper and gold deposits. Its flagship property is the Sombrero copper-gold project covering an area of approximately 56,400 hectares comprising 78 concessions, located in southern Peru. The company was formerly known as Sombrero Resources Inc. and changed its name to Coppernico Metals Inc. in December 2021. Coppernico Metals Inc. was incorporated in 2020 and is based in Vancouver, Canada.",
+  "summary": "Coppernico Metals Inc. acquires and explores mineral property interests. Its main asset is the Sombrero copper-gold project in southern Peru. It was founded in 2020 by Ivan James Bebek and Shawn Kristen Wallace and has its head office in Vancouver, Canada.",
   "website": "http://www.cumtn.com"
 }

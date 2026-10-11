@@ -5,7 +5,7 @@
     "isin": "DE0005659700"
   },
   "industry": "Health Care Technology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "DE0005659700",
   "kind": "stock",
   "listings": [
@@ -16,8 +16,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EUZ.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "EUZ.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EUZ.DU"
     },
     {
       "currency": "EUR",
@@ -25,6 +35,22 @@
       "symbol": "EUZ.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "EUZ.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EUZ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EUZ.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "EUZ.TI"
     }
   ],
@@ -32,7 +58,7 @@
   "name": "Eckert & Ziegler Strahlen-und Medizinte AG",
   "primary_symbol": "0NZY.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -40,5 +66,5 @@
   "schema_version": "1.0.0",
   "sector": "Health Care",
   "summary": "ECKERT & ZIEGLER Strahlen- und Medizintechnik AG is a German company focused on isotope technology for medical, scientific, and industrial applications. It manufactures radioactive sources and components for nuclear medicine and radiation therapy. The company's headquarters are located in Berlin, Germany.",
-  "website": "http://www.ezag.com"
+  "website": "http://www.ezag.de"
 }

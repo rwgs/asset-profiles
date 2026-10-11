@@ -1,33 +1,38 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Malaysia",
+  "country_code": "MY",
   "identifiers": {
-    "composite_figi": "BBG000NXY0H5",
-    "figi": "BBG000NXY0H5",
+    "composite_figi": "BBG000BFT8B2",
+    "figi": "BBG000BFT8N9",
     "isin": "MYL6033OO004"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "MYL6033OO004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "MYR",
+      "exchange_mic": "XKLS",
+      "symbol": "6033.KL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "PNAGF"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "PETRONAS Gas Berhad",
-  "primary_symbol": "PNAGF",
+  "market_cap_band": "Mid Cap",
+  "name": "Petronas Gas Bhd",
+  "primary_symbol": "6033.KL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "PETRONAS Gas Berhad operates as a pivotal gas infrastructure and utilities provider across Malaysia, involved in gas processing, transportation, regasification, and utilities. Incorporated in 1983 and headquartered in Kuala Lumpur, Malaysia, PETRONAS Gas Berhad operates as a subsidiary of Petroliam Nasional Berhad.",
-  "website": "http://www.rh.com"
+  "sector": "Energy",
+  "summary": "Petronas Gas Bhd is a Malaysian gas infrastructure and utilities company involved in processing, transmission, and distribution of gas. It also undertakes regasification of liquefied natural gas (LNG) and operates utilities for industrial customers. The company plays a crucial role in Malaysia's gas value chain.",
+  "website": "https://www.petronas.com/pgb"
 }

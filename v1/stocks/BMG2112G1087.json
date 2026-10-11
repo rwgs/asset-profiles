@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000D3DL43",
-    "figi": "BBG000D3DLM3",
+    "composite_figi": "BBG000BFJHN0",
+    "figi": "BBG000BFJJV7",
     "isin": "BMG2112G1087"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,9 +12,24 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0681.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KEH.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KEH.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KEH.MU"
     },
     {
       "currency": "EUR",
@@ -22,17 +37,17 @@
       "symbol": "KEH.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Chinese People Holdings Co. Ltd.",
-  "primary_symbol": "KEH.F",
+  "market_cap_band": "Nano Cap",
+  "name": "Chinese People Holdings Company Limited",
+  "primary_symbol": "0681.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Chinese People Holdings Company Limited, an investment holding company, sells and distributes gas fuel in the People's Republic of China. The company operates through Provision of Piped Gas; Sale and Distribution of Cylinder Gas; and FMCG and Food Ingredients segments. It is involved in the sale of piped gas and construction of gas pipeline networks under gas connection contracts; sale and distribution of gas using tank containers to end-user households, and industrial and commercial customers; and retail and wholesale of merchandise, including rice, meat, and fresh food, as well as FMCG and barreled drinking water through supermarkets and convenience stores. The company was formerly known as Chinese People Gas Holdings Company Limited and changed its name to Chinese People Holdings Company Limited in 2007. Chinese People Holdings Company Limited is headquartered in Beijing, the People's Republic of China.",
+  "summary": "Chinese People Holdings Company Limited is an investment holding company with businesses across China in piped gas infrastructure and supply, cylinder gas provision and wider gas distribution. It also retails and wholesales fast-moving consumer goods and food ingredients.",
   "website": "http://www.681hk.com"
 }

@@ -2,8 +2,11 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "cusip": "29267M108"
+    "composite_figi": "BBG000KH61K8",
+    "cusip": "29267M108",
+    "figi": "BBG000KH6495"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "kind": "stock",
   "listings": [
@@ -13,15 +16,17 @@
       "symbol": "EDG.MU"
     }
   ],
-  "name": "GOLD FIELDS ADR/1 RC-,50",
+  "market_cap_band": "Large Cap",
+  "name": "Gold Fields Limited",
   "primary_symbol": "EDG.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Gold Fields Limited is a gold mining company with operations and projects in Australia, Chile, Ghana, Peru, and South Africa. The company explores for, extracts, and processes gold. Gold Fields is headquartered in Johannesburg, South Africa."
+  "summary": "Gold Fields Limited is a gold mining company with operations and projects in Australia, Chile, Ghana, Peru, and South Africa. The company explores for, extracts, and processes gold. Gold Fields is headquartered in Johannesburg, South Africa.",
+  "website": "http://www.goldfields.com"
 }

@@ -3,7 +3,7 @@
   "country_code": "CH",
   "identifiers": {
     "composite_figi": "BBG00NDVNYY9",
-    "figi": "BBG00NDVNYZ8",
+    "figi": "BBG00NDVNZ49",
     "isin": "CH0451424300"
   },
   "industry": "Auto Components",
@@ -13,15 +13,30 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IQL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "IQL.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "IQL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IQL.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "iQ International AG",
-  "primary_symbol": "IQL.F",
+  "primary_symbol": "IQL.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

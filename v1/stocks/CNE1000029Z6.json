@@ -3,27 +3,36 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG00DX062L0",
+    "figi": "BBG00DX062M9",
     "isin": "CNE1000029Z6"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "CNE1000029Z6",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "6099.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CNE1000029Z6.SG"
     }
   ],
-  "name": "CHINA MERCHANTS SECURITIES-H",
-  "primary_symbol": "CNE1000029Z6.SG",
+  "market_cap_band": "Large Cap",
+  "name": "China Merchants Securities Co., Ltd.",
+  "primary_symbol": "6099.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "CHINA MERCHANTS SECURITIES-H is a securities firm providing investment banking, brokerage, and asset management services. The company serves individual and institutional investors. It is based in China."
+  "summary": "China Merchants Securities Co., Ltd. serves corporate, institutional and individual clients in China, with business lines in wealth management and institutional services, investment banking, investment management, and investment and trading. Services include investment advice, product sales, margin financing, securities lending, research and prime brokerage for funds and insurers, equity and bond underwriting, and merger and acquisition advisory.",
+  "website": "https://www.cmschina.com"
 }

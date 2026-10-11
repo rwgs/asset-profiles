@@ -2,8 +2,9 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG00KTB2KN7",
+    "composite_figi": "BBG0172B97P4",
     "cusip": "485537401",
+    "figi": "BBG0172B97Q3",
     "isin": "US4855374017"
   },
   "industry": "Household Products",
@@ -12,19 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "JPY",
-      "exchange_mic": "XJPX",
-      "symbol": "4452.T"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "KAO.F"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "KAOCF"
     },
     {
       "currency": "USD",
@@ -34,9 +25,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Kao Corporation",
-  "primary_symbol": "4452.T",
+  "primary_symbol": "KAO.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

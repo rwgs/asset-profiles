@@ -1,34 +1,53 @@
 {
-  "country": "Mexico",
-  "country_code": "MX",
+  "country": "Singapore",
+  "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000R2NRT9",
-    "cusip": "400506101",
-    "figi": "BBG000R2NRT9",
+    "composite_figi": "BBG000BC7ZW0",
+    "figi": "BBG000BC8083",
     "isin": "SG1J17886040"
   },
-  "industry": "Air Freight & Logistics",
-  "industry_group": "Transportation",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "SG1J17886040",
   "kind": "stock",
   "listings": [
     {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "P15.SI"
+    },
+    {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "PAC"
+      "exchange_mic": "OTCM",
+      "symbol": "PCDVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PFQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PFQ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PFQ.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "Grupo Aeroportuario del Pacifico, S.A.B. de C.V.",
-  "primary_symbol": "PAC",
+  "market_cap_band": "Small Cap",
+  "name": "Pacific Century Regional Developments Limited",
+  "primary_symbol": "P15.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Grupo Aeroportuario del Pacífico, S.A.B. de C.V., together with its subsidiaries, develops, manages, and operates airports primarily in Mexico's Pacific region. It has 12 airports in Guadalajara, Puerto Vallarta, Tijuana, San Jose del Cabo, Guanajuato (Bajío), Hermosillo, Mexicali, Los Mochis, La Paz, Manzanillo, Morelia, and Aguascalientes, as well as two international airports in Jamaica. The company was incorporated in 1998 and is headquartered in Guadalajara, Mexico.",
-  "website": "http://www.aeropuertosgap.com.mx"
+  "sector": "Financials",
+  "summary": "Pacific Century Regional Developments Limited, an investment holding company, provides business management and consultancy services. It holds interests in the telecommunications, media, IT solutions, logistics, and property development and investment businesses in the Asia-Pacific region. The company was formerly known as Seapower Asia Investments Limited and changed its name to Pacific Century Regional Developments Limited in November 1994. The company was incorporated in 1963 and is headquartered in Singapore. Pacific Century Regional Developments Limited is a subsidiary of Pacific Century Group (Cayman Islands) Limited.",
+  "website": "http://www.pcrd.com"
 }

@@ -2,6 +2,8 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
+    "composite_figi": "BBG00JHW8867",
+    "figi": "BBG00SYG79D4",
     "isin": "BE0974310428"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -18,6 +20,11 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "XFAB.PA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XFABF"
     },
     {
       "currency": "EUR",
@@ -49,7 +56,7 @@
   "name": "X-FAB Silicon Foundries SE",
   "primary_symbol": "0ROZ.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

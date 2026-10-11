@@ -2,28 +2,42 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
-    "composite_figi": "BBG000BNWPD1",
+    "composite_figi": "BBG000KNSK29",
+    "figi": "BBG00QG0ZTN7",
     "isin": "CH0012138605"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "CH0012138605",
   "kind": "stock",
   "listings": [
     {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "ADEF.AX"
+      "currency": "CHF",
+      "exchange_mic": "XLON",
+      "symbol": "0QNM.L"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "ADEN.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AHEXF"
     }
   ],
-  "name": "Apostle Dundas Global Equity Fund - Class D Units (Managed Fund)",
-  "primary_symbol": "ADEF.AX",
+  "market_cap_band": "Mid Cap",
+  "name": "Adecco Group AG",
+  "primary_symbol": "0QNM.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "The Apostle Dundas Global Equity Fund is a managed fund, offering investors exposure to a diversified portfolio of global equities. It aims to provide long-term capital growth by investing in a range of international companies. The fund is managed by Apostle Asset Management and Dundas Global Investors."
+  "sector": "Industrials",
+  "summary": "Adecco Group AG, together with its subsidiaries, provides human resource services to businesses and organizations worldwide. It offers temporary staffing, permanent placement, and career transition services; technical experts for project-related work; managed service programs; recruitment process outsourcing; training, upskilling, and reskilling services; technology and digital-engineering consulting; and talent development services under the Adecco, LHH, General Assembly, Spring, Badenoch + Clark, Adia, Vettery, Spring Professional, Modis, and Pontoon brands. As of December 31, 2020, it operated approximately 4,800 branches in 60 countries and territories. The company was formerly known as Adecco S.A. Adecco Group AG was founded in 1957 and is based in Zurich, Switzerland.",
+  "website": "http://www.adeccogroup.com"
 }

@@ -2,15 +2,21 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00Q9V0ZT5",
+    "composite_figi": "BBG00QLDJ1L4",
     "cusip": "29385B109",
-    "figi": "BBG00Q9V1002",
+    "figi": "BBG00QLDJ250",
     "isin": "CA29385B1094"
   },
+  "industry": "Interactive Media & Services",
   "industry_group": "Media & Entertainment",
   "isin": "CA29385B1094",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "EGLX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +24,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2AV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2AV.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA29385B1094.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "EGLX.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EGLXF"
     }
   ],
-  "name": "Enthusiast Gaming Holdings Inc",
-  "primary_symbol": "2AV.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "Enthusiast Gaming Holdings Inc.",
+  "primary_symbol": "EGLX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Enthusiast Gaming Holdings Inc. is a media and entertainment company building the largest platform of communities for gamers and esports fans. They create and acquire gaming content, operate esports teams, and host live gaming events. Enthusiast Gaming is headquartered in Toronto, Canada."
+  "summary": "Enthusiast Gaming Holdings Inc. engages in the media, content, entertainment, and esports businesses the United States, Canada, and internationally. The company operates an online network of approximately 100 gaming related websites; owns and operates Enthusiast Gaming Live Expo, a video-gaming expo; provides management and support services to players involved in professional gaming; and owns and manages esports teams, which cover games comprising Call of Duty, Madden, Fortnite, Overwatch, Apex, and Valorant; and produces and programs approximately 30 weekly shows across AVOD and OTT channels, and represents approximately 500 gaming influencers across YouTube and Twitch. It also operates Luminosity Gaming, an eSports franchise; and hosts other gaming events. The company is headquartered in Toronto, Canada.",
+  "website": "http://www.enthusiastgaming.com"
 }

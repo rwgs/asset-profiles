@@ -3,26 +3,41 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG00D5Z9RV5",
+    "figi": "BBG00D5Z9RW4",
     "isin": "CNE1000027F2"
   },
-  "industry_group": "Insurance",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "CNE1000027F2",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3958.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CNE1000027F2.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OS9.F"
     }
   ],
-  "name": "ORIENT SECURITIES CO LTD-H",
-  "primary_symbol": "CNE1000027F2.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Orient Securities Company Limited Class H",
+  "primary_symbol": "3958.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials"
+  "sector": "Financials",
+  "summary": "Orient Securities Co., Ltd. is a Shanghai-based financial services firm founded in 1997. It reports five segments covering sales and trading of securities, asset management, brokerage with securities financing, investment banking, and headquarters and other activities.",
+  "website": "http://www.dfzq.com.cn"
 }

@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000BFNLP4",
     "cusip": "68621T102",
-    "figi": "BBG00KK8G178",
+    "figi": "BBG000BFNLP4",
     "isin": "US68621T1025"
   },
   "industry": "Banks",
@@ -12,6 +12,11 @@
   "isin": "US68621T1025",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "OBK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
@@ -29,16 +34,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Origin Bancorp, Inc.",
-  "primary_symbol": "OBNK",
+  "name": "Origin Bancorp Inc. Common Stock",
+  "primary_symbol": "OBK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Origin Bancorp, Inc. operates as a bank holding company for Origin Bank that provides banking and financial services to small and medium-sized businesses, municipalities, high net worth individuals, and retail clients in Louisiana, Texas, and Mississippi. It offers noninterest and interest-bearing checking accounts, savings deposits, money market accounts, and time deposits; and offers commercial real estate, construction/land development, consumer, residential real estate, commercial and industrial, mortgage warehouse, residential mortgage, and paycheck protection program loans. The company also offers personal and commercial property, and casualty insurance products; and Internet banking and voice response information, mobile applications, cash management, overdraft protection, direct deposit, safe deposit box, U.S. savings bonds, and automatic account transfer services; and treasury management, mortgage origination and servicing facilities, peer-to-peer electronic pay solutions, and personal financial management solutions. As of December 31, 2020, it operated 43 banking centers. The company was founded in 1912 and is headquartered in Ruston, Louisiana.",
+  "summary": "Origin Bancorp, Inc. is a financial holding company headquartered in Ruston, Louisiana, with Origin Bank as its primary subsidiary. The bank provides a range of financial services, including personal and commercial banking, wealth management, and mortgage services. Origin Bank operates branches across Louisiana, Texas, and Mississippi.",
   "website": "http://www.origin.bank"
 }

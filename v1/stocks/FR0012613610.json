@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHW8CQ6",
+    "figi": "BBG00JHW8CR5",
     "isin": "FR0012613610"
   },
   "industry": "Machinery",
@@ -35,6 +37,11 @@
       "symbol": "5PD.SG"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALPWG.PA"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "PRWYF"
@@ -45,11 +52,11 @@
       "symbol": "PWG.PA"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Prodways Group SA",
   "primary_symbol": "0RQB.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

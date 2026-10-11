@@ -2,38 +2,58 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000LHXSV6",
+    "composite_figi": "BBG00Z0Y5GG9",
     "cusip": "59124U605",
-    "figi": "BBG000LHXVP6",
+    "figi": "BBG00Z0Y5GH8",
     "isin": "CA59124U6051"
   },
   "industry": "Metals & Mining",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Materials",
   "isin": "CA59124U6051",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CAD",
+      "exchange_mic": "XLON",
+      "symbol": "0A66.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA59124U6051.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "MTA"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "MTA.V"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "X9C.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "X9C.MU"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "METALLA ROYALTY & STREAMING",
-  "primary_symbol": "CA59124U6051.SG",
+  "name": "Metalla Royalty & Streaming Ltd.",
+  "primary_symbol": "0A66.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "METALLA ROYALTY & STREAMING LTD is a precious metals royalty and streaming company that acquires and manages a portfolio of royalties and streams from mining operations. The company generates revenue from its interests in producing mines and development-stage projects. METALLA ROYALTY & STREAMING LTD is headquartered in Vancouver, British Columbia.",
+  "sector": "Materials",
+  "summary": "Metalla Royalty & Streaming Ltd., a precious metals royalty and streaming company, engages in the acquisition and management of precious metal royalties, streams, and related production-based interests in Canada and Australia. The company was formerly known as Excalibur Resources Ltd. and changed its name to Metalla Royalty & Streaming Ltd. in December 2016. Metalla Royalty & Streaming Ltd. was incorporated in 1983 and is headquartered in Vancouver, Canada.",
   "website": "http://www.metallaroyalty.com"
 }

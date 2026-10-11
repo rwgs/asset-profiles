@@ -5,6 +5,7 @@
     "composite_figi": "BBG000Q4MWV3",
     "isin": "DE000A0BL849"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "DE000A0BL849",
   "kind": "stock",
@@ -13,17 +14,39 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000A0BL849.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "V3V.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "V3V.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "V3V.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "VTIAF"
     }
   ],
-  "name": "VITA 34 AG",
+  "market_cap_band": "Micro Cap",
+  "name": "FamiCord AG",
   "primary_symbol": "DE000A0BL849.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Vita 34 AG is a German biotechnology company specializing in the cryopreservation of umbilical cord blood stem cells for potential future medical treatments, headquartered in Leipzig, Germany. They offer services for storing stem cells for families and provide stem cell products for therapeutic applications. Vita 34 is focused on advancing regenerative medicine."
+  "summary": "Vita 34 AG is a German biotechnology company specializing in the cryopreservation of umbilical cord blood stem cells for potential future medical treatments, headquartered in Leipzig, Germany. They offer services for storing stem cells for families and provide stem cell products for therapeutic applications. Vita 34 is focused on advancing regenerative medicine.",
+  "website": "http://www.vita34.de"
 }

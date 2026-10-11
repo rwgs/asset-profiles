@@ -6,8 +6,8 @@
     "figi": "BBG000JWXGV2",
     "isin": "AU000000AAC9"
   },
-  "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "AU000000AAC9",
   "kind": "stock",
   "listings": [
@@ -23,8 +23,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AY5.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AY5.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AY5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AY5.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AY5.MU"
     },
     {
       "currency": "EUR",
@@ -36,7 +56,7 @@
   "name": "Australian Agricultural Co Ltd.",
   "primary_symbol": "AAC.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

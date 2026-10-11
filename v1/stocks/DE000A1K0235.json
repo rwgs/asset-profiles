@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000CWVLJ4",
-    "figi": "BBG000CWVLJ4",
+    "composite_figi": "BBG00GVJW2D4",
+    "figi": "BBG00NRVXSK1",
     "isin": "DE000A1K0235"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -12,9 +12,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0Q3C.L"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SESMF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SMHN.BE"
     },
     {
       "currency": "EUR",
@@ -23,21 +33,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SMHN.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SMHN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SMHN.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SMHN.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SMHN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SMHN.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "SUSS MicroTec SE",
-  "primary_symbol": "SESMF",
+  "name": "SÜSS MicroTec SE",
+  "primary_symbol": "0Q3C.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SÜSS MicroTec SE, together with its subsidiaries, develops, manufactures, and markets machines for the production of microelectronics, microelectromechanical systems, and related applications. It operates through Lithography, Bonder, Photomask Equipment, and Microoptics divisions. The Lithography division develops, manufactures, and sells mask aligners, coaters and developers, UV projection scanners, and laser processing tool. The Bonder division develops, produces, and sells bonder systems, including microelectromechanical systems, compound semiconductors, and 3D integration markets. The Photomask Equipment division develops, manufactures, and sells specialized tools for the cleaning and processing of photomasks for the semiconductor industry. The Microoptics division is involved in the production and sale of micro lenses and specialized optics for various industrial applications. It operates in Europe, the Middle East, Africa, North America, and the Asia Pacific. The company distributes its products through production facilities, as well as through distribution companies and trade representatives. SÜSS MicroTec SE was founded in 1949 and is headquartered in Garching, Germany.",
-  "website": "http://www.suss.com"
+  "summary": "SÜSS MicroTec SE is a supplier of equipment and process solutions for the semiconductor industry and related markets. The company's products include photolithography systems, bonders, and coating systems. Süss MicroTec is headquartered in Garching, Germany.",
+  "website": "https://www.suss.com"
 }

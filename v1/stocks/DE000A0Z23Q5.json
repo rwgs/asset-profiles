@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00GVJFZL1",
+    "figi": "BBG00NRVXKB8",
     "isin": "DE000A0Z23Q5"
   },
   "industry": "IT Services",
@@ -43,13 +45,23 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "ADN1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ADN1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ADSGF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "adesso SE",
   "primary_symbol": "0N5I.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

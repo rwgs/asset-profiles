@@ -2,8 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG007FJN2T5",
-    "figi": "BBG007FJN2W1",
+    "composite_figi": "BBG008H9BVS3",
+    "figi": "BBG016HSNXV3",
     "isin": "DE000LEG1110"
   },
   "industry": "Real Estate Management & Development",
@@ -11,6 +11,11 @@
   "isin": "DE000LEG1110",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0QC9.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -52,6 +57,12 @@
       "symbol": "LEG.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LEG.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "LEG.TI"
     },
     {
@@ -65,17 +76,17 @@
       "symbol": "LEGIF"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "LEG IMMOBILIEN SE",
-  "primary_symbol": "DE000LEG1110.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "LEG Immobilien SE",
+  "primary_symbol": "0QC9.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "LEG IMMOBILIEN SE is a German residential real estate company. They own and manage a large portfolio of residential properties, primarily in North Rhine-Westphalia, Germany. The company is headquartered in Düsseldorf, Germany.",
-  "website": "http://www.leg-wohnen.de/unternehmen"
+  "summary": "LEG Immobilien AG operates as an integrated property company in Germany. It rents apartments, commercial units, and garages and parking spaces; and purchases and sells property portfolios. The company also offers property management and location development services; and housing industry services, as well as IT services for third parties. In addition, it generates electricity and heat. As of December 31, 2020, the company's portfolio consisted of 144,530 residential units; 1,346 commercial units; and 39,205 garages and parking spaces in North Rhine-Westphalia. LEG Immobilien AG was founded in 1970 and is headquartered in Dusseldorf, Germany.",
+  "website": "https://www.leg-wohnen.de/unternehmen"
 }

@@ -2,7 +2,9 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG000GKR6V0",
     "cusip": "204319107",
+    "figi": "BBG000GKR6V0",
     "isin": "US2043191079"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,46 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "CFR.JO"
-    },
-    {
-      "currency": "CHF",
-      "exchange_mic": "XSWX",
-      "symbol": "CFR.SW"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CFRHF"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "CFRIN.MX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CFRSF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CFRUY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "RIU1.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Compagnie Financiere Richemont SA",
-  "primary_symbol": "CFR.JO",
+  "primary_symbol": "CFRUY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

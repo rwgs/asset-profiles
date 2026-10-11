@@ -1,6 +1,11 @@
 {
   "country": "Argentina",
   "country_code": "AR",
+  "identifiers": {
+    "composite_figi": "BBG020KZ6BM2",
+    "figi": "BBG020KZ6BM2"
+  },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "kind": "stock",
   "listings": [
@@ -10,15 +15,17 @@
       "symbol": "BIOXD.BA"
     }
   ],
-  "name": "BIOCERES CROP SOLU",
+  "market_cap_band": "Nano Cap",
+  "name": "Bioceres Crop Solutions Corp.",
   "primary_symbol": "BIOXD.BA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Bioceres Crop Solutions Corp. develops and commercializes agricultural solutions including crop productivity traits, seed treatments, biologicals, and high-value ingredients. The company is based in Argentina and serves markets worldwide."
+  "summary": "Bioceres Crop Solutions Corp. develops and commercializes agricultural solutions including crop productivity traits, seed treatments, biologicals, and high-value ingredients. The company is based in Argentina and serves markets worldwide.",
+  "website": "http://biocerescrops.com"
 }

@@ -2,28 +2,47 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000BX0KG2",
+    "composite_figi": "BBG00JHW5LM3",
+    "figi": "BBG00JQ4QR30",
     "isin": "NO0010840515"
   },
+  "industry": "Consumer Finance",
   "industry_group": "Diversified Financials",
   "isin": "NO0010840515",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0QIG.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2LJ.F"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "ACR.OL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010840515.SG"
     }
   ],
-  "name": "AXACTOR ASA",
-  "primary_symbol": "NO0010840515.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Axactor SE",
+  "primary_symbol": "0QIG.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "AXACTOR ASA is a debt collection and credit management services company. They provide services such as debt purchasing, collection, and invoice management to businesses. AXACTOR ASA is headquartered in Oslo, Norway."
+  "summary": "Axactor AB is a debt collection and debt purchase company that acquires and manages non-performing loan (NPL) portfolios and provides debt collection services to creditors. The company operates across Europe and focuses on providing ethical and efficient debt resolution solutions. Axactor is headquartered in Oslo, Norway.",
+  "website": "http://www.axactor.com"
 }

@@ -19,25 +19,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "QYM.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "QYM.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "QYM.F"
     },
     {
-      "currency": "CLP",
-      "exchange_mic": "XSGO",
-      "symbol": "SQM-A.SN"
-    },
-    {
-      "currency": "CLP",
-      "exchange_mic": "XSGO",
-      "symbol": "SQM-B.SN"
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "QYM.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Sociedad Quimica y Minera de Chile S.A.",
   "primary_symbol": "SQM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

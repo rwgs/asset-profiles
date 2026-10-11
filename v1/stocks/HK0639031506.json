@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BTK803",
-    "figi": "BBG000BTK8F7",
+    "composite_figi": "BBG000BF91G4",
+    "figi": "BBG000BF9281",
     "isin": "HK0639031506"
   },
   "industry": "Metals & Mining",
@@ -12,16 +12,31 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0639.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FSHYF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FU7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FU7.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Shougang Fushan Resources Group Limited",
-  "primary_symbol": "FU7.F",
+  "primary_symbol": "0639.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

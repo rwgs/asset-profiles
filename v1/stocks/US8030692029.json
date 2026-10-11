@@ -2,7 +2,9 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
+    "composite_figi": "BBG000C2CRP1",
     "cusip": "803069202",
+    "figi": "BBG000C2CTW9",
     "isin": "US8030692029"
   },
   "industry": "Paper & Forest Products",
@@ -10,16 +12,6 @@
   "isin": "US8030692029",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "ZAR",
-      "exchange_mic": "XJSE",
-      "symbol": "SAP.JO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SPI.F"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -38,15 +30,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Sappi Ltd.",
-  "primary_symbol": "SAP.JO",
+  "primary_symbol": "SPIA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Sappi Limited, a woodfibre company, manufactures and sells dissolving wood pulp, packaging and specialty papers, and printing and writing papers to direct and indirect customers in North America, Europe, Southern Africa, and internationally. The company offers dissolving wood pulp products that are used by converters to create viscose fiber for clothing and textiles, acetate tow, and pharmaceutical products, as well as a range of consumer and household products. It also provides packaging and specialty papers, which are used in the manufacture of soup sachets, luxury carry bags, cosmetic and confectionery packaging, boxes for agricultural products for export, and tissue wadding for household tissue products, as well as casting and release papers for the fashion, textiles, automobile, and household industries. In addition, the company offers printing, writing, and coated and uncoated graphic paper products that are used by printers in the production of books, brochures, magazines, catalogues, direct mail, newspapers, and various other print applications. Further, it develops and processes biomaterials and biochemicals; offers sawn timber; and produces and sells green electricity through a network of five hydro, two gas, and 31 steam turbines that generate approximately 800MW renewable power on 14 sites across seven countries, as well as produces biogas. The company was formerly known as South African Pulp and Paper Industries Limited and changed its name to Sappi Limited in 1973. Sappi Limited was founded in 1936 and is headquartered in Johannesburg, South Africa.",
+  "summary": "Sappi Limited is a global woodfibre company. Sappi produces dissolving pulp, paper pulp, packaging and specialty papers, printing and writing papers, as well as biomaterials. The company is headquartered in Johannesburg, South Africa.",
   "website": "http://www.sappi.com"
 }

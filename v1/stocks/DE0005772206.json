@@ -6,6 +6,7 @@
     "figi": "BBG000CC0SF1",
     "isin": "DE0005772206"
   },
+  "industry": "Specialty Retail",
   "industry_group": "Retailing",
   "isin": "DE0005772206",
   "kind": "stock",
@@ -17,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "FIE.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "FIE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FIE.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +50,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FIE.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "FIE.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FLMNF"
     }
   ],
-  "name": "FIELMANN AG O.N.",
+  "market_cap_band": "Mid Cap",
+  "name": "Fielmann Aktiengesellschaft",
   "primary_symbol": "FIE.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "FIELMANN AG is a German eyewear company that designs, manufactures, and retails optical products, including eyeglasses, sunglasses, and contact lenses. They operate a network of retail stores across Europe and offer a wide range of brands and services. The company is headquartered in Hamburg, Germany."
+  "summary": "FIELMANN AG is a German eyewear company that designs, manufactures, and retails optical products, including eyeglasses, sunglasses, and contact lenses. They operate a network of retail stores across Europe and offer a wide range of brands and services. The company is headquartered in Hamburg, Germany.",
+  "website": "http://www.fielmann.eu"
 }

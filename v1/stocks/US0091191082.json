@@ -2,19 +2,30 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG005M469C6",
+    "composite_figi": "BBG000PMHX66",
     "cusip": "009119108",
-    "figi": "BBG005M469K7",
+    "figi": "BBG000PMHX66",
     "isin": "US0091191082"
   },
+  "industry": "Airlines",
   "industry_group": "Transportation",
   "isin": "US0091191082",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AFLYY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "FQZ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FQZ.F"
     },
     {
       "currency": "EUR",
@@ -27,15 +38,17 @@
       "symbol": "US0091191082.SG"
     }
   ],
-  "name": "Air France-KLM",
-  "primary_symbol": "FQZ.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Air France-KLM S.A.",
+  "primary_symbol": "AFLYY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Air France-KLM SA is a Franco-Dutch airline holding company. The group provides passenger and cargo transportation, as well as aircraft maintenance and other related services. Air France-KLM is headquartered in Tremblay-en-France, France."
+  "summary": "Air France-KLM SA, together with its subsidiaries, provides passenger transportation services on scheduled flights. The company operates through Network, Maintenance, Transavia, and Other segments. It also offers cargo transportation and aeronautics maintenance, and other air-transport-related services. The company operates in France, Benelux, Europe, Africa, the Middle East, Gulf, India, the Asia-Pacific, North America, Caribbean, West Indies, French Guyana, Indian Ocean, and South America. As of December 31, 2019, it operated fleet of 554 aircraft. The company was founded in 1919 and is headquartered in Paris, France.",
+  "website": "http://www.airfranceklm.com"
 }

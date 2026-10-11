@@ -2,30 +2,48 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG005JRZD47",
+    "composite_figi": "BBG001B4BV87",
     "cusip": "34964C106",
-    "figi": "BBG005JRZDD7",
+    "figi": "BBG001B4BV87",
     "isin": "US34964C1062"
   },
+  "industry": "Household Durables",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "US34964C1062",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "FBIN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "2FB.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2FB.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "2FB.SG"
     }
   ],
-  "name": "Fortune Brands Home & Sec.Inc.R",
-  "primary_symbol": "2FB.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Fortune Brands Innovations Inc. Common Stock",
+  "primary_symbol": "FBIN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Fortune Brands Home & Security, Inc. is a home and security products company that manufactures and sells products for use in residential home repair, remodeling, new construction, and security applications. The company's product portfolio includes plumbing, cabinets, decorative hardware, and security products, sold under various brands such as Moen, Master Lock, and Therma-Tru. Fortune Brands Home & Security is headquartered in Deerfield, Illinois."
+  "summary": "Fortune Brands Innovations Inc. Common Stock is a company that designs, manufactures, and sells home, security, and commercial building products. Their portfolio includes brands in water innovations, outdoor living, and security solutions. The company is headquartered in Deerfield, Illinois.",
+  "website": "https://www.fbin.com"
 }

@@ -3,28 +3,46 @@
   "country_code": "PL",
   "identifiers": {
     "composite_figi": "BBG00QJDLKW0",
-    "figi": "BBG00QJDLL03",
+    "figi": "BBG00QJDLKX9",
     "isin": "PLLSRMD00018"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "PLLSRMD00018",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1OJ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1OJ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1OJ.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLLSRMD00018.SG"
     }
   ],
-  "name": "ONE MORE LEVEL SA",
-  "primary_symbol": "PLLSRMD00018.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "One More Level S.A.",
+  "primary_symbol": "1OJ.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "ONE MORE LEVEL SA is a Polish video game developer focusing on creating high-quality action games for PC and consoles. They develop and publish their own games, and also provide porting and co-development services. The company is based in Krakow, Poland."
+  "summary": "ONE MORE LEVEL SA is a Polish video game developer focusing on creating high-quality action games for PC and consoles. They develop and publish their own games, and also provide porting and co-development services. The company is based in Krakow, Poland.",
+  "website": "http://www.omlgames.com"
 }

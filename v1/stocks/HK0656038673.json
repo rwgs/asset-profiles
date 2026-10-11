@@ -2,14 +2,20 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000RQGQP0",
-    "figi": "BBG000RQGSL0",
+    "composite_figi": "BBG000RJJ5L3",
+    "figi": "BBG000RJJ5Z8",
     "isin": "HK0656038673"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Industrial Conglomerates",
+  "industry_group": "Capital Goods",
   "isin": "HK0656038673",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0656.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FNI.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "FNI.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FNI.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FOSUF"
     }
   ],
-  "name": "FOSUN INTL LTD",
-  "primary_symbol": "FNI.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Fosun International Limited",
+  "primary_symbol": "0656.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Fosun International Limited is a global investment company with a focus on health, happiness, and wealth ecosystems. The company operates through various segments, including health, property, steel, tourism and leisure, financial services, and resources. Fosun International is headquartered in Hong Kong."
+  "sector": "Industrials",
+  "summary": "Fosun International Limited operates in health, happiness, wealth, and intelligent manufacturing sectors in Mainland China, Portugal, and internationally. It operates in five segments: Health, Happiness, Insurance, Asset Management, and Intelligent Manufacturing. The Health segment engages in the research, development, manufacture, sale, and trading of pharmaceutical, biopharmaceutical, and health products; and provision of medical and health management services. The Happiness segment operates and invests in tourism and leisure, fashion consumer, and lifestyle industries. The Insurance segment operates in the insurance markets, including life, medical, illness, disability income, health care, and accident insurance. The Asset Management segment engages in the asset management and market investments activities. The Intelligent Manufacturing segment operates and invests in the intelligent manufacturing business; and produces iron, steel, and ore. It is also involved in the capital investment and management, property development, retail, reinsurance, and beer production and distribution businesses; manufacture and sale of iron and steel products; mining and ore processing activities; and provision of banking and financial, and medical consultation services, as well as digital solutions. The company was founded in 1992 and is based in Shanghai, China. Fosun International Limited is a subsidiary of Fosun Holdings Limited.",
+  "website": "http://www.fosun.com"
 }

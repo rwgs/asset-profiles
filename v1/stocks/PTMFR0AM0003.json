@@ -2,9 +2,8 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
-    "composite_figi": "BBG000RHTR92",
-    "cusip": "X52136102",
-    "figi": "BBG000RHTRL8",
+    "composite_figi": "BBG000RKW367",
+    "figi": "BBG000RKW3L0",
     "isin": "PTMFR0AM0003"
   },
   "industry": "Construction & Engineering",
@@ -14,15 +13,25 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FRW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "FRW.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XLIS",
       "symbol": "MAR.LS"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Martifer SGPS, S.A.",
-  "primary_symbol": "MAR.LS",
+  "primary_symbol": "FRW.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

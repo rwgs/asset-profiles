@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG001F6V4P7",
     "cusip": "84761T869",
+    "figi": "BBG001F6V4S4",
     "isin": "CA84761T8692"
   },
   "industry": "Semiconductors & Semiconductor Equipment",
@@ -10,16 +12,6 @@
   "isin": "CA84761T8692",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "7M0.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "7M0.SG"
-    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -33,9 +25,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Spectra7 Microsystems Inc.",
-  "primary_symbol": "7M0.F",
+  "primary_symbol": "SEV.V",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

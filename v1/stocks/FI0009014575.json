@@ -2,28 +2,67 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
-    "composite_figi": "BBG000R0F0X6",
+    "composite_figi": "BBG007R9GJT5",
+    "figi": "BBG007R9GJW1",
     "isin": "FI0009014575"
   },
-  "industry_group": "Transportation",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "FI0009014575",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0MGI.IL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FI0009014575.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M6Q.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "M6Q.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M6Q.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "M6Q.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "METSO.HE"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OUKPF"
     }
   ],
-  "name": "METSO OUTOTEC OYJ",
-  "primary_symbol": "FI0009014575.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Metso Outotec Oyj",
+  "primary_symbol": "0MGI.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Metso Outotec Oyj is a Finnish company that provides technologies and services for the aggregates, mining, metals refining and recycling industries. The company offers equipment, systems, and solutions for crushing, screening, grinding, and processing various materials. Metso Outotec is headquartered in Helsinki, Finland."
+  "summary": "Metso Outotec Oyj provides sustainable technologies, end-to-end solutions, and services for minerals processing, aggregates, and metals refining industries in Finland, Europe, North and Central America, South America, the Asia Pacific, Africa, the Middle East, and India. The company operates through three segments: Aggregates, Minerals, and Metals. It offers a range of equipment, parts, and services for quarries, aggregates contractors, construction companies; and a portfolio of process solutions, equipment, and aftermarket services, as well as plant delivery capability for mining operations. The company also provides sustainable solutions for processing virtually various types of ores and concentrates to refined metals. Metso Outotec Oyj was incorporated in 1990 and is headquartered in Helsinki, Finland.",
+  "website": "http://www.mogroup.com"
 }

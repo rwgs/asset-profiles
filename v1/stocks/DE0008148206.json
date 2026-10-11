@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000D54YD0",
-    "figi": "BBG000D55052",
+    "figi": "BBG000D563B8",
     "isin": "DE0008148206"
   },
   "industry": "Banks",
@@ -11,6 +11,11 @@
   "isin": "DE0008148206",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MBK.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -23,21 +28,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MBK.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MBK.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "MERKUR PRIVATBANK KGaA",
-  "primary_symbol": "MBK.DE",
+  "primary_symbol": "MBK.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Merkur Bank KGaA provides various private banking products and services in Germany. The company offers business and personal accounts; mastercards; and SME and developer financing, and leasing refinancing services. It is also involved in the securities and interest investment activities. The company was founded in 1923 and is based in Munich, Germany.",
+  "summary": "Merkur Bank KGaA is a German bank offering a range of financial services to private and corporate clients, including investment banking, asset management, and real estate financing. The bank focuses primarily on small and medium-sized enterprises (SMEs) and wealthy individuals. Merkur Bank is headquartered in Munich, Germany.",
   "website": "http://www.merkur-privatbank.de"
 }

@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009F52BN0",
+    "composite_figi": "BBG0026ZG1F5",
     "cusip": "488445206",
-    "figi": "BBG009F52BW0",
+    "figi": "BBG0026ZG1F5",
     "isin": "US4884452065"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US4884452065",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "ZVRA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US4884452065.SG"
     }
   ],
-  "name": "ZEVRA THERAPEUTICS INC",
-  "primary_symbol": "US4884452065.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Zevra Therapeutics Inc. Common Stock",
+  "primary_symbol": "ZVRA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "ZEVRA THERAPEUTICS INC is a biopharmaceutical company focused on acquiring, developing, and commercializing differentiated therapies for rare diseases. Their strategy involves identifying and acquiring promising drug candidates to address unmet medical needs in the rare disease space. The company is headquartered in Franklin, Tennessee."
+  "summary": "Zevra Therapeutics Inc. is a biopharmaceutical company focused on developing and commercializing therapies for rare diseases. The company's pipeline includes products targeting diseases with limited treatment options. Zevra Therapeutics is headquartered in the United States.",
+  "website": "https://zevra.com"
 }

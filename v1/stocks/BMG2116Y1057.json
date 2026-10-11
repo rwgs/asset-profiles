@@ -2,15 +2,20 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000BJ4L59",
-    "figi": "BBG000BJ4NQ2",
+    "composite_figi": "BBG00NZMWLN5",
+    "figi": "BBG00NZMWLP3",
     "isin": "BMG2116Y1057"
   },
-  "industry": "Transportation Infrastructure",
+  "industry": "Water Utilities",
   "industry_group": "Utilities",
   "isin": "BMG2116Y1057",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1857.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -43,16 +48,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "CN EVERBRIGHT WATER HD 1",
-  "primary_symbol": "BIU2.BE",
+  "name": "China Everbright Water Limited",
+  "primary_symbol": "1857.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "China Everbright Water Limited is a Singapore-based investment holding company engaged in the treatment, recycling and reuse of wastewater. The company operates through various segments including wastewater treatment, engineering & construction and water supply.",
+  "summary": "China Everbright Water Limited is an investment holding company providing water environmental management services in mainland China and Germany. Its offerings include wastewater treatment for reuse, river restoration, leachate and wastewater management, and construction and maintenance of pipeline networks.",
   "website": "http://www.ebwater.com"
 }

@@ -6,8 +6,8 @@
     "figi": "BBG000BFM3G5",
     "isin": "BMG6901M1010"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "BMG6901M1010",
   "kind": "stock",
   "listings": [
@@ -22,6 +22,16 @@
       "symbol": "GIO.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GIO.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GIO.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "GRDZF"
@@ -31,7 +41,7 @@
   "name": "Giordano International Limited",
   "primary_symbol": "0709.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

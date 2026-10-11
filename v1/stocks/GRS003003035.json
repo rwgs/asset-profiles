@@ -18,8 +18,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NAGF.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "NAGF.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NAGF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "NAGF.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "NAGF.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NAGF.MU"
     },
     {
       "currency": "EUR",
@@ -27,21 +52,16 @@
       "symbol": "NAGF.SG"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NAGG.F"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "NBGIF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "National Bank of Greece S.A.",
   "primary_symbol": "ETE.AT",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00TZ5C397",
-    "figi": "BBG00TZL4J78",
+    "composite_figi": "BBG00Z5K3419",
+    "figi": "BBG00Z5K3428",
     "isin": "KYG9835C1087"
   },
   "industry": "Software",
@@ -11,6 +11,16 @@
   "isin": "KYG9835C1087",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4YE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4YE.MU"
+    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -27,11 +37,11 @@
       "symbol": "YHEKF"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "YEAHKA LTD.",
-  "primary_symbol": "9923.HK",
+  "market_cap_band": "Micro Cap",
+  "name": "Yeahka Limited",
+  "primary_symbol": "4YE.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

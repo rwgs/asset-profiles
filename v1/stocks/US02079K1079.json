@@ -2,28 +2,87 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG009S3NB30",
+    "cusip": "02079K107",
+    "figi": "BBG009S3NB30",
     "isin": "US02079K1079"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Interactive Media & Services",
+  "industry_group": "Media & Entertainment",
   "isin": "US02079K1079",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "GOOG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "ABEC.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ABEC.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ABEC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "ABEC.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ABEC.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ABEC.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ABEC.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "ABEC.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "GOOC.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XSGO",
+      "symbol": "GOOG.SN"
+    },
+    {
+      "currency": "CLP",
+      "exchange_mic": "XSGO",
+      "symbol": "GOOGCL.SN"
     }
   ],
   "market_cap_band": "Mega Cap",
-  "name": "Alphabet Inc. Class C",
-  "primary_symbol": "ABEC.TI",
+  "name": "Alphabet Inc.",
+  "primary_symbol": "GOOG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Alphabet Inc. operates globally, providing a wide array of products and digital platforms to customers across the United States, Europe, the Middle East, Africa, the Asia-Pacific region, Canada, and Latin America. The company's business is organized into three primary segments: Google Services, Google Cloud, and Other Bets. The Google Services division delivers a broad spectrum of consumer-facing offerings, which include its advertising products, the Android operating system, Chrome browser, various hardware devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search functionality, and YouTube. This segment also generates revenue through the sale of applications, in-app purchases, and digital content via Google Play and YouTube, alongside device sales and consumer subscriptions for YouTube services. Conversely, the Google Cloud segment furnishes enterprise-grade solutions such as infrastructure, cybersecurity, database management, analytics, artificial intelligence, and other professional services. The Other Bets segment is dedicated to developing nascent ventures, particularly those focused on healthcare-related and internet services. Established in 1998, Alphabet Inc. maintains its corporate headquarters in Mountain View, California.",
-  "website": "https://abc.xyz"
+  "summary": "Alphabet Inc. provides online advertising services in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. The company offers performance and brand advertising services. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, such as ads, Android, Chrome, hardware, Google Maps, Google Play, Search, and YouTube, as well as technical infrastructure; and digital content. The Google Cloud segment offers infrastructure and data analytics platforms, collaboration tools, and other services for enterprise customers. The Other Bets segment sells internet and TV services, as well as licensing and research and development services. The company was founded in 1998 and is headquartered in Mountain View, California.",
+  "website": "http://www.abc.xyz"
 }

@@ -2,23 +2,30 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG005541DW9",
+    "composite_figi": "BBG00XYBBX55",
+    "figi": "BBG00XYBBX64",
     "isin": "GB00BD5JNK30"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "GB00BD5JNK30",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "A9Q.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BD5JNK30.SG"
     }
   ],
-  "name": "AQUIS EXCHANGE PLC",
-  "primary_symbol": "GB00BD5JNK30.SG",
+  "name": "AQUIS EXCHANGE PL LS-,1",
+  "primary_symbol": "A9Q.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

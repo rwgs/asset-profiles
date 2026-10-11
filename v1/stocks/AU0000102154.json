@@ -6,6 +6,7 @@
     "figi": "BBG00GCTJMP1",
     "isin": "AU0000102154"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU0000102154",
   "kind": "stock",
@@ -14,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000102154.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GR2.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GRXMF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "MVL.AX"
     }
   ],
-  "name": "MARVEL GOLD LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Marvel Gold Limited",
   "primary_symbol": "AU0000102154.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Marvel Gold Ltd is an Australian gold exploration and development company focused on its Tabakorole Gold Project in Mali. The company is advancing the project towards production."
+  "summary": "Marvel Gold Ltd is an Australian gold exploration and development company focused on its Tabakorole Gold Project in Mali. The company is advancing the project towards production.",
+  "website": "http://marvelgold.com.au"
 }

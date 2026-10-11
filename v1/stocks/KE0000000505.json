@@ -2,6 +2,8 @@
   "country": "Kenya",
   "country_code": "KE",
   "identifiers": {
+    "composite_figi": "BBG000BRHTW0",
+    "figi": "BBG000BRHVD6",
     "isin": "KE0000000505"
   },
   "industry": "Food Products",
@@ -11,14 +13,14 @@
   "listings": [
     {
       "currency": "KES",
-      "exchange_mic": "XNSE",
-      "symbol": "KE0000000505"
+      "exchange_mic": "XNAI",
+      "symbol": "WTK"
     }
   ],
-  "name": "Williamson Tea Kenya Ltd Ord 5.00 AIM",
-  "primary_symbol": "KE0000000505",
+  "name": "Williamson Tea Kenya Ltd",
+  "primary_symbol": "WTK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

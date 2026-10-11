@@ -2,18 +2,39 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000R70LQ9",
-    "figi": "BBG000R70NN8",
+    "composite_figi": "BBG000QQCXQ9",
+    "figi": "BBG000QQCY41",
     "isin": "KYG245241032"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "KYG245241032",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2007.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CTRYF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CTRYQ"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "DZJ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DZJ.F"
     },
     {
       "currency": "EUR",
@@ -26,15 +47,17 @@
       "symbol": "DZJ.SG"
     }
   ],
-  "name": "Country Garden Holdings Co. Ltd.",
-  "primary_symbol": "DZJ.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Country Garden Holdings Company Limited",
+  "primary_symbol": "2007.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "COUNTRY GARDEN HLDGS CO. is a property development company in China. It develops residential properties, commercial properties, and integrated urban developments. Country Garden Holdings is headquartered in Guangdong, China."
+  "summary": "Country Garden Holdings Company Limited, an investment holding company, invests, develops, and constructs real estate properties primarily in Mainland China. The company operates through two segments, Property Development and Construction. It develops residential projects, such as townhouses and condos; and car-parks and retail shops. The company also develops, operates, and manages hotels. In addition, it researches and develops robot intelligence; develops electronic hardware and biomass energy; sells food; and provides interior decoration, landscape design, agriculture and animal husbandry, investment consulting, cultural activity planning, and real estate consulting services. Country Garden Holdings Company Limited was founded in 1992 and is headquartered in Foshan, the People's Republic of China.",
+  "website": "http://www.countrygarden.com.cn"
 }

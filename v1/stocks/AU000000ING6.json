@@ -2,15 +2,20 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00DZTFM86",
-    "figi": "BBG00DZTFMC1",
+    "composite_figi": "BBG00F7SVN84",
+    "figi": "BBG00F7SVN93",
     "isin": "AU000000ING6"
   },
-  "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "AU000000ING6",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IH1.F"
+    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Inghams Group Limited",
-  "primary_symbol": "ING.AX",
+  "primary_symbol": "IH1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

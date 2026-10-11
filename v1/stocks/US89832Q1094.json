@@ -2,30 +2,63 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GYC9B2",
+    "composite_figi": "BBG000BYYLS8",
     "cusip": "89832Q109",
-    "figi": "BBG000GYCD87",
+    "figi": "BBG000BYYNN9",
     "isin": "US89832Q1094"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "US89832Q1094",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "TFC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BBK.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "BBK.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BBK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BBK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BBK.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US89832Q1094.SG"
     }
   ],
-  "name": "TRUIST FINANCIAL CORP",
-  "primary_symbol": "US89832Q1094.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Truist Financial Corporation",
+  "primary_symbol": "TFC",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "TRUIST FINANCIAL CORP is a financial services company offering banking, insurance, and investment services. The company serves individuals, businesses, and institutions across the Southeastern United States, with headquarters in Charlotte, North Carolina. Truist Financial aims to provide comprehensive financial solutions and build strong relationships with its customers."
+  "summary": "Truist Financial Corporation, a holding company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through three segments: Consumer Banking and Wealth, Corporate and Commercial Banking, and Insurance Holdings. Its deposit products include noninterest-bearing checking, interest-bearing checking, savings, and money market deposit accounts, as well as certificates of deposit and individual retirement accounts. The company also provides funding; asset management; automobile lending; bankcard lending; consumer finance; home equity and mortgage lending; insurance, such as property and casualty, life, health, employee benefits, workers compensation and professional liability, surety coverage, title, and other insurance products; investment brokerage; mobile/online banking; and payment, lease financing, small business lending, and wealth management/private banking services. In addition, it offers association, capital market, institutional trust, insurance premium and commercial finance, international banking, leasing, merchant, commercial deposit and treasury, government finance, commercial middle market lending, small business and student lending, floor plan and commercial mortgage lending, mortgage warehouse lending, private equity investment, real estate lending, and supply chain financing services. Further, the company provides corporate and investment banking, retail and wholesale brokerage, securities underwriting, and investment advisory services. As of December 31, 2020, the company operated through 2,781 banking offices. The company was formerly known as BB&T Corporation and changed its name to Truist Financial Corporation in December 2019. Truist Financial Corporation was founded in 1872 and is headquartered in Charlotte, North Carolina.",
+  "website": "http://www.truist.com"
 }

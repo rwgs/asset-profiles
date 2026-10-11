@@ -2,8 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BMX6S8",
-    "figi": "BBG000BMX7W1",
+    "composite_figi": "BBG000T23LN8",
+    "figi": "BBG000T23MH3",
     "isin": "FR0013280286"
   },
   "industry": "Biotechnology",
@@ -11,6 +11,11 @@
   "isin": "FR0013280286",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RUG.IL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -28,21 +33,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EYWN.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EYWN.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EYWN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "EYWN.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EYWN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EYWN.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "bioMerieux S.A.",
-  "primary_symbol": "BIM.PA",
+  "primary_symbol": "0RUG.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "bioMérieux S.A. develops and produces in vitro diagnostic solutions for private and hospital laboratories for the diagnosis of infectious diseases. The company offers systems, which use biological samples to diagnose infectious diseases, cardiovascular pathologies, and various cancers; and microbiological testing of manufacturing primarily for food, pharmaceutical, cosmetics, and veterinary sectors. The company was formerly known as B-D Mérieux. bioMérieux S.A. was founded in 1963 and is headquartered in Marcy l'Etoile, France. bioMérieux S.A. is a subsidiary of Institut Mérieux SA.",
+  "summary": "BIOMERIEUX SA is a French multinational biotechnology company specializing in in-vitro diagnostics. It develops, manufactures and markets diagnostic systems for medical and industrial applications. BIOMERIEUX SA is headquartered in Marcy-l'Étoile, France.",
   "website": "http://www.biomerieux.com"
 }

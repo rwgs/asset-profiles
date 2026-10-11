@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BNVN92",
-    "figi": "BBG000BNVQR5",
+    "composite_figi": "BBG000BCN8S7",
+    "figi": "BBG000BCN8Z9",
     "isin": "JP3629000005"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "JP3629000005",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7911.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TONPF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +28,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TPX.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TPX.SG"
     }
   ],
-  "name": "TOPPAN Holdings Inc.",
-  "primary_symbol": "TPX.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Toppan Printing Co., Ltd.",
+  "primary_symbol": "7911.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Toppan Printing Co., Ltd. is a Japanese printing company. The company's business includes printing, security solutions, packaging, décor materials, and electronics. Toppan Printing is headquartered in Tokyo, Japan."
+  "summary": "Toppan Printing Co., Ltd. develops solutions based on its printing technologies worldwide. It operates in three segments: Information & Communication, Living & Industry, and Electronics segments. The company plans, manufactures, and sells calendars and character-related goods; manufactures and sells plastic and chemical products, lithium-ion battery packaging materials, printing inks, and surface treatment films; manufactures display-related and semiconductor-related, information and network, and packaging products; and procures and sells industrial materials. It is also involved in filling alcoholic beverages; clinical art and art instructor-related, publishing, character sales and licensing, catalog, label, magnetic media, industrial material, and IC-related businesses; and newspaper prepress and multicolor offset printing, Internet advertising media, contract gene analysis, and gene diagnosis reagent businesses. In addition, the company engages in the development and sale of art-related goods; environmental development planning, display design, and planning and producing visual and other media products; printing business forms; and the planning, production, prepress, printing, manufacturing, and sale of printing-related materials. Further, it provides smart card issuance-related, travel and human resources agency, filling, LSI design and turnkey, system development, shipping, warehousing, data printing, and insurance services; education and consultation services for invigorating individuals and workplaces; and sales and intermediary services for publishing and newspaper content. Additionally, the company is involved in the event planning and operation of Toppan hall; and operation of e-book store and distribution platform. Toppan Printing Co., Ltd. was founded in 1900 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.toppan.co.jp"
 }

@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BZZVY5",
-    "figi": "BBG000BZZVY5",
+    "composite_figi": "BBG000BC1VB8",
+    "figi": "BBG000BC1VS0",
     "isin": "BMG3729C1001"
   },
   "industry": "Air Freight & Logistics",
@@ -12,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0500.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "DVNHF"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Frontier Services Group Limited",
-  "primary_symbol": "DVNHF",
+  "primary_symbol": "0500.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Frontier Services Group Limited, an investment holding company, provides aviation, logistics, security, insurance, and infrastructure related services. It operates through Aviation, Logistics and Other Business; Financial Market Information Business; and Direct Investments segments. It also provides online financial market information. Its security services include protective services and specialized training services; logistics services comprise engineering project logistics services and special logistics services, such as transportation of valuables; and infrastructure solutions include project planning, business consulting, investment and financing, engineering design, project implementation, project operation, and support services. The company serves the oil and gas, mining, finance, energy, and infrastructure industries, as well as organizations. It operates in Africa, Europe, Mainland China, and Hong Kong. The company was formerly known as DVN (Holdings) Limited and changed its name to Frontier Services Group Limited in March 2014. Frontier Services Group Limited is headquartered in Admiralty, Hong Kong.",
+  "summary": "Frontier Services Group Limited is an investment holding company in Admiralty, Hong Kong, providing aviation, logistics, security, insurance and infrastructure development services through dedicated segments. One segment supplies online financial market intelligence.",
   "website": "http://www.fsgroup.com"
 }

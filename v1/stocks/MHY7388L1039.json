@@ -2,14 +2,21 @@
   "country": "Monaco",
   "country_code": "MC",
   "identifiers": {
-    "composite_figi": "BBG000DCQRD6",
-    "figi": "BBG000DCQTD2",
+    "composite_figi": "BBG000FYPPB3",
+    "cusip": "Y7388L103",
+    "figi": "BBG000FYPR38",
     "isin": "MHY7388L1039"
   },
+  "industry": "Marine",
   "industry_group": "Transportation",
   "isin": "MHY7388L1039",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SB"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SBL.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SBL.SG"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "Safe Bulkers, Inc.",
-  "primary_symbol": "SBL.BE",
+  "primary_symbol": "SB",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Safe Bulkers, Inc. is a drybulk shipping company that owns and operates a fleet of vessels. They transport drybulk commodities, such as coal, grain, and iron ore, worldwide. The company is headquartered in Monaco."
+  "summary": "Safe Bulkers, Inc. provides marine drybulk transportation services. It owns and operates drybulk vessels for transporting bulk cargoes primarily coal, grain, and iron ore. As of March 15, 2021, the company had a fleet of 43 drybulk vessels having an average age of 10.3 years; and an aggregate carrying capacity of 3,937,000 deadweight tons. Its fleet consisted of 15 Panamax class vessels, 10 Kamsarmax class vessels, 14 post- Panamax class vessels, and four Capesize class vessels. The company was incorporated in 2007 and is based in Monaco.",
+  "website": "http://www.safebulkers.com"
 }

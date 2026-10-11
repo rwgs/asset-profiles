@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000NWQBJ0",
     "cusip": "74624B700",
-    "figi": "BBG000NWQDG9",
+    "figi": "BBG000NWQC53",
     "isin": "CA74624B7007"
   },
   "industry": "Metals & Mining",
@@ -14,18 +14,41 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AHG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AHG.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA74624B7007.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "PE.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PEMIF"
     }
   ],
-  "name": "PURE ENERGY MINERALS LTD",
-  "primary_symbol": "CA74624B7007.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Pure Energy Minerals Limited",
+  "primary_symbol": "AHG.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials"
+  "sector": "Materials",
+  "summary": "Pure Energy Minerals Limited engages in the acquisition, exploration, and development of mineral properties. Its primary project is the Clayton Valley lithium brine project that includes 1,085 lithium placer claims covering an area of approximately 10,600 hectares located in Clayton Valley, Esmeralda County, Nevada. The company was formerly known as Harmony Gold Corp. and changed its name to Pure Energy Minerals Limited in October 2012. Pure Energy Minerals Limited is headquartered in Vancouver, Canada.",
+  "website": "http://www.pureenergyminerals.com"
 }

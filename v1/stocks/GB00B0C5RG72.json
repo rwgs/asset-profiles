@@ -3,27 +3,41 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG000BWRFG6",
+    "figi": "BBG000BWRG38",
     "isin": "GB00B0C5RG72"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "GB00B0C5RG72",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CKT.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EKC1.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B0C5RG72.SG"
     }
   ],
-  "name": "CHECKIT PLC",
-  "primary_symbol": "GB00B0C5RG72.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Checkit plc",
+  "primary_symbol": "CKT.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CHECKIT PLC provides real-time monitoring and automation solutions for operational compliance. Their business model revolves around providing monitoring solutions to businesses, mainly in food retail and healthcare, generating revenue through subscriptions and hardware sales. The company is headquartered in Cambridge, UK."
+  "summary": "Checkit plc provides cloud-based services through intelligent operations management platforms for deskless workforces in the United Kingdom and the Americas. The company offers software-as-a-service for connected workflow management, automated monitoring and building energy management, Internet of things, and operational insight-based products and services. It also provides web-based service for work management and automated monitoring. The company was formerly known as Elektron Technology plc and changed its name to Checkit plc in October 2019. Checkit plc was incorporated in 1948 and is headquartered in Cambridge, the United Kingdom.",
+  "website": "http://www.checkit.net"
 }

@@ -5,6 +5,8 @@
     "composite_figi": "BBG000BQ1MK7",
     "isin": "DK0060133841"
   },
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "DK0060133841",
   "kind": "stock",
   "listings": [
@@ -12,15 +14,24 @@
       "currency": "DKK",
       "exchange_mic": "XSWX",
       "symbol": "DK0060133841.SW"
+    },
+    {
+      "currency": "DKK",
+      "exchange_mic": "XCSE",
+      "symbol": "MNBA.CO"
     }
   ],
-  "name": "MONS BANK",
+  "market_cap_band": "Micro Cap",
+  "name": "Mons Bank A/S",
   "primary_symbol": "DK0060133841.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Mons Bank A/S provides banking products and services to private, business, and association customers. The company offers housing loans, car loans, wealth management, local pool investment, mutual funds, share savings accounts, pension/insurance services, and mobile and online banking services. It operates through branches in Næstved, Rønnede, Præstø, and Vordingborg. The company was founded in 1877 and is headquartered in Stege, Denmark.",
+  "website": "http://www.moensbank.dk"
 }

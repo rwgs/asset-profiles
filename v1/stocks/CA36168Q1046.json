@@ -2,30 +2,58 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00QTDLTM1",
+    "composite_figi": "BBG00PQS00S3",
     "cusip": "36168Q104",
-    "figi": "BBG00QTDLTR6",
+    "figi": "BBG00PQS02V5",
     "isin": "CA36168Q1046"
   },
+  "industry": "Commercial Services & Supplies",
   "industry_group": "Commercial & Professional Services",
   "isin": "CA36168Q1046",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "GFL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "36E.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "36E.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "36E.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA36168Q1046.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "GFL.TO"
     }
   ],
-  "name": "GFL ENVIRONMENTAL INC-SUB VT",
-  "primary_symbol": "CA36168Q1046.SG",
+  "market_cap_band": "Large Cap",
+  "name": "GFL Environmental Inc.",
+  "primary_symbol": "GFL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "GFL ENVIRONMENTAL INC-SUB VT is a diversified environmental services company providing non-hazardous solid waste management, infrastructure & soil remediation, and liquid waste management services. They operate primarily in North America. GFL Environmental is headquartered in Vaughan, Ontario, Canada."
+  "summary": "GFL Environmental Inc. operates as a diversified environmental services company in Canada and the United States. The company offers non-hazardous solid waste management, infrastructure and soil remediation, and liquid waste management services. Its solid waste management business line includes the collection, transportation, transfer, recycling, and disposal of non-hazardous solid waste for municipal, residential, and commercial and industrial customers. The company's infrastructure and soil remediation business line provides remediation of contaminated soils, as well as complementary services, including civil, demolition, and excavation and shoring services. Its liquid waste management business collects, manages, transports, processes, and disposes of a range of industrial and commercial liquid wastes, as well as resells liquid waste products. The company was founded in 2007 and is headquartered in Vaughan, Canada.",
+  "website": "http://gflenv.com"
 }

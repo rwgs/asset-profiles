@@ -2,6 +2,8 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00JHWCJF8",
+    "figi": "BBG00JHWCJG7",
     "isin": "DE000A2E4LE9"
   },
   "industry": "Auto Components",
@@ -31,11 +33,6 @@
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "VBX.F"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "VBX.HM"
     },
@@ -53,13 +50,23 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "VOAXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "VOTR.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VOTR.F"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Voltabox AG",
   "primary_symbol": "0RV4.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

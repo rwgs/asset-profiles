@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BPYBV5",
     "isin": "SGXE15822534"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "SGXE15822534",
   "kind": "stock",
@@ -13,17 +14,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SGXE15822534.SG"
+    },
+    {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "TVV.SI"
     }
   ],
-  "name": "OXPAY FINANCIAL LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "OxPay Financial Limited",
   "primary_symbol": "SGXE15822534.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "OXPAY FINANCIAL LTD is a financial technology company. The company develops and provides digital payment solutions. The company is headquartered in Singapore."
+  "summary": "OXPAY FINANCIAL LTD is a financial technology company. The company develops and provides digital payment solutions. The company is headquartered in Singapore.",
+  "website": "https://oxpayfinancial.com"
 }

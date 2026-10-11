@@ -2,28 +2,42 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG000MH21V8",
+    "composite_figi": "BBG00ZHRKGB4",
+    "figi": "BBG00ZHRKGC3",
     "isin": "PLSTLEX00019"
   },
-  "industry_group": "Transportation",
+  "industry": "Construction & Engineering",
+  "industry_group": "Capital Goods",
   "isin": "PLSTLEX00019",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8ZZ.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLSTLEX00019.SG"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "STX.WA"
     }
   ],
-  "name": "STALEXPORT AUTOSTRADY SA",
-  "primary_symbol": "PLSTLEX00019.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Stalexport Autostrady S.A.",
+  "primary_symbol": "8ZZ.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "STALEXPORT AUTOSTRADY SA is a Polish company engaged in the operation of the A4 motorway in Poland. The company collects tolls from vehicles using the motorway and is responsible for its maintenance and development. The company is headquartered in Mysłowice, Poland."
+  "summary": "Stalexport Autostrady S.A., together with its subsidiaries, constructs and operates motorways in Poland. The company operates a Katowice-Kraków section of the A4 motorway. It also constructs roads and railroads; leases office and parking spaces. The company was formerly known as STALEXPORT S.A. and changed its name to Stalexport Autostrady S.A. in September 2007. Stalexport Autostrady S.A. was founded in 1963 and is based in Myslowice, Poland.",
+  "website": "http://www.stalexport-autostrady.pl"
 }

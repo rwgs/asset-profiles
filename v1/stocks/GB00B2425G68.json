@@ -2,28 +2,47 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000PZK8T3",
+    "composite_figi": "BBG000TKC6J6",
+    "figi": "BBG000TKC6Q8",
     "isin": "GB00B2425G68"
   },
+  "industry": "Health Care Technology",
   "industry_group": "Software & Services",
   "isin": "GB00B2425G68",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3X6.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CRW.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRWRF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B2425G68.SG"
     }
   ],
-  "name": "CRANEWARE PLC",
-  "primary_symbol": "GB00B2425G68.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Craneware plc",
+  "primary_symbol": "3X6.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CRANEWARE PLC provides software solutions for managing and automating business processes. Their business model involves selling software and related services to businesses in various sectors, generating revenue through software licenses, subscription fees, and support contracts. The company is headquartered in Cambridge, UK."
+  "summary": "CRANEWARE PLC is a provider of software solutions designed to help businesses automate and optimize their supply chain processes. The company offers a suite of products for warehouse management, transportation management, and order management. Its headquarters are located in Zaventem, Belgium.",
+  "website": "http://public.craneware.com"
 }

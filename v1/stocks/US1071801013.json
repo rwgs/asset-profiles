@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000CVSV53",
+    "composite_figi": "BBG00LV3RRH5",
     "cusip": "107180101",
-    "figi": "BBG000CVSZX3",
+    "figi": "BBG00LV3RRJ3",
     "isin": "US1071801013"
   },
   "industry": "Chemicals",
@@ -12,46 +12,6 @@
   "isin": "US1071801013",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "BNR.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "BNR.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "BNR.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "BNR.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAN",
-      "symbol": "BNR.HA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "BNR.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "BNR.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "BNR.VI"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -63,26 +23,16 @@
       "symbol": "BNRA.SG"
     },
     {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "BNRN.MX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "BNTGF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BNTGY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Brenntag SE",
-  "primary_symbol": "BNR.BE",
+  "primary_symbol": "BNRA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

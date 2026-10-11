@@ -2,6 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000F0TQJ3",
+    "figi": "BBG000F0TQP6",
     "isin": "KYG2691D1126"
   },
   "industry": "Capital Markets",
@@ -9,6 +11,11 @@
   "isin": "KYG2691D1126",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1073.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -22,14 +29,14 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Da Yu Financial Holdings Limited",
-  "primary_symbol": "CQT1.F",
+  "primary_symbol": "1073.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Da Yu Financial Holdings Limited provides corporate finance advisory and asset management services. It acts as a financial adviser to advise listed issuers, shareholders, and investors of listed issuers, as well as entities on specific transactions. The company also acts as independent financial adviser to listed issuers to provide independent advice required under the listing rules, the takeovers code, or other specific circumstances. In addition, it acts as financial adviser to listed issuers on retainer basis to advise listed issuers on corporate strategies and compliance with the listing rules, the GEM listing rules, and the takeovers code. The company was formerly known as China Agrotech Holdings Limited and changed its name to Da Yu Financial Holdings Limited in June 2019. Da Yu Financial Holdings Limited was incorporated in 1999 and is headquartered in Wanchai, Hong Kong."
+  "summary": "Da Yu Financial Holdings Limited is an investment holding company offering money lending, securities broking, asset management, corporate finance advice, and underwriting and placing of securities in Hong Kong. Its segments are Corporate Finance Services, Investment and Others; Asset Management; Securities and Related Services; and Money Lending."
 }

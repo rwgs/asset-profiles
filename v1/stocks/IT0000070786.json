@@ -2,28 +2,47 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000BBXTF6",
+    "composite_figi": "BBG00JHVSRZ3",
+    "figi": "BBG00JHVSS09",
     "isin": "IT0000070786"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Auto Components",
+  "industry_group": "Capital Goods",
   "isin": "IT0000070786",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0ONR.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BN7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "CIR.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "IT0000070786.SW"
     }
   ],
-  "name": "CIR SPA-COMPAGNIE INDUSTRIAL",
-  "primary_symbol": "IT0000070786.SW",
+  "market_cap_band": "Small Cap",
+  "name": "CIR S.p.A. - Compagnie Industriali Riunite",
+  "primary_symbol": "0ONR.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "CIR S.p.A. - Compagnie Industriali Riunite is an Italian holding company with investments in media, healthcare, and automotive components. The company manages a portfolio of industrial companies. CIR is headquartered in Bologna, Italy."
+  "sector": "Industrials",
+  "summary": "CIR S.p.A. - Compagnie Industriali Riunite, through its subsidiaries, primarily operates in the automotive components and healthcare sectors worldwide. The company develops, produces, and sells suspension components, including coil springs, stabilizer bars, torsion bars, stabilinkers, leaf springs, and track adjusters for cars, light and heavy commercial vehicles, earth-moving machines, armored vehicles, and railway rolling stock manufacturers; and precision springs for aerospace, nuclear energy, transport, energy production, oil and gas distribution, and medical applications. It also offers oil, petrol, diesel fuel, and air and passenger cabin filters for original equipment, replacement for original suppliers, and independent aftermarkets; and air and cooling systems, such as intake manifold systems, air induction systems, charged air ducting, thermostat housing and ducts, and coolant pump modules. In addition, the company operates nursing homes, functional and psychiatric rehabilitation units, and diagnostic centers; and provides treatment for serious cerebral injuries and neurological pathologies, as well as trauma or chronic-degenerative muscular and skeletal pathologies, as well as manages Ospedale Fratelli Montecchi di hospital in Suzzara, Italy. It offers healthcare services under the Anni Azzurri, Santo Stefano, Neomesia, and Charleston brands. CIR S.p.A. - Compagnie Industriali Riunite is headquartered in Milan, Italy.",
+  "website": "http://www.cirgroup.it"
 }

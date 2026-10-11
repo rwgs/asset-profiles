@@ -18,7 +18,27 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ACA.PA"
+    },
+    {
+      "currency": "EUR",
       "symbol": "ACA.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ACA.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "ACAFN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CRARF"
     },
     {
       "currency": "EUR",
@@ -29,6 +49,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "XCA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XCA.F"
     },
     {
       "currency": "EUR",
@@ -44,13 +69,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "XCA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "XCA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Credit Agricole SA",
   "primary_symbol": "ACA.MI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

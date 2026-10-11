@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG01C5JQQL6",
+    "figi": "BBG01C5JQQM5",
     "isin": "CNE100005RX0"
   },
   "industry_group": "Capital Goods",
@@ -10,20 +11,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2402.HK"
+    },
+    {
       "currency": "CNY",
       "exchange_mic": "XSHG",
       "symbol": "688339.SS"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "Beijing SinoHytec Co., Ltd.",
-  "primary_symbol": "688339.SS",
+  "primary_symbol": "2402.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Beijing SinoHytec Co., Ltd. is a China-based company specializing in the development, production, and sales of hydrogen fuel cell systems and components. Their products are used in fuel cell vehicles and other applications. Beijing SinoHytec Co., Ltd. is headquartered in China."
+  "summary": "Beijing SinoHytec Co., Ltd., founded in 2012 and headquartered in Beijing, and its subsidiaries research, produce and apply hydrogen fuel cell engine systems and their core parts, in China and abroad. It also supplies cogeneration systems, PEM electrolyzers and technical services. Its products are sold directly to makers of commercial vehicles such as buses, logistics vans and heavy trucks.",
+  "website": "https://www.sinohytec.com"
 }

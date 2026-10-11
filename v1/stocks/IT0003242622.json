@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "IT0003242622"
   },
+  "industry": "Electric Utilities",
   "industry_group": "Utilities",
   "isin": "IT0003242622",
   "kind": "stock",
@@ -12,17 +13,59 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0LBM.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TERRF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "TRN.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "TRN.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UEI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "UEI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UEI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UEI.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "UEI.SG"
     }
   ],
-  "name": "TERNA RETE ELETTRICA NAZIONALE",
+  "market_cap_band": "Large Cap",
+  "name": "Terna - Rete Elettrica Nazionale Societa per Azioni",
   "primary_symbol": "0LBM.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Terna - Rete Elettrica Nazionale S.p.A. is an Italian electricity transmission system operator (TSO). It is responsible for the planning, development, and maintenance of the Italian high-voltage electricity transmission grid. Terna is headquartered in Rome, Italy"
+  "summary": "Terna - Rete Elettrica Nazionale S.p.A. is an Italian electricity transmission system operator (TSO). It is responsible for the planning, development, and maintenance of the Italian high-voltage electricity transmission grid. Terna is headquartered in Rome, Italy",
+  "website": "http://www.terna.it"
 }

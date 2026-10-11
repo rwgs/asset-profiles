@@ -2,10 +2,12 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHVV8S9",
+    "figi": "BBG00JHVV8T8",
     "isin": "FR0004034072"
   },
   "industry": "Entertainment",
-  "industry_group": "Consumer Services",
+  "industry_group": "Media & Entertainment",
   "isin": "FR0004034072",
   "kind": "stock",
   "listings": [
@@ -13,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0GJS.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALXIL.PA"
     },
     {
       "currency": "EUR",
@@ -35,17 +42,17 @@
       "symbol": "XIL.PA"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Xilam Animation SA",
   "primary_symbol": "0GJS.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
+  "sector": "Communications",
   "summary": "Xilam Animation operates as an animation company in Europe and internationally. It creates, produces, and distributes programmes for children and adult audiences. The company broadcasts its content on television and SVoD platforms, such as Netflix, Disney+, Amazon, and NBC Universal, as well as ADVoD streaming platforms, including YouTube and Facebook. It owns various brands that include Oggy and the Cockroaches, Zig & Sharko, Oggy Oggy, Moka, Mr. Magoo, and I Lost My Body. Xilam Animation was founded in 1990 and is headquartered in Paris, France.",
   "website": "http://www.xilam.com"
 }

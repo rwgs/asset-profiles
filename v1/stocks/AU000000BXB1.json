@@ -2,14 +2,25 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000GGW3M0",
-    "figi": "BBG000GGW7Z7",
+    "composite_figi": "BBG000QPLQ59",
+    "figi": "BBG000QPLQ59",
     "isin": "AU000000BXB1"
   },
-  "industry_group": "Transportation",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "AU000000BXB1",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BMBLF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "BXB.AX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +33,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "R1H.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "R1H.SG"
     }
   ],
-  "name": "Brambles, Ltd.",
-  "primary_symbol": "R1H.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Brambles Limited",
+  "primary_symbol": "BMBLF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Brambles Limited provides supply-chain logistics solutions using reusable pallets, crates, and containers. They operate a circular business model, pooling assets and sharing them across multiple customers, primarily in the fast-moving consumer goods, fresh produce, beverage, retail, and manufacturing industries. The company is headquartered in Sydney, Australia."
+  "summary": "Brambles Limited operates as a supply-chain logistics company. The company operates through CHEP North America and Latin America; CHEP Europe, Middle East, Africa and India; and CHEP Australia, New Zealand and Asia, excluding India segments. It engages in the pooling of unit-load equipment and associated services, focusing on the outsourced management of pallets, crates, and containers. The company serves customers in the fast-moving consumer goods, fresh produce, beverage, retail, and general manufacturing industries in the Americas, Europe, Australia, and internationally. Brambles Limited was founded in 1875 and is based in Sydney, Australia.",
+  "website": "http://www.brambles.com"
 }

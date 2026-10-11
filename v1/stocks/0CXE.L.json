@@ -1,6 +1,11 @@
 {
   "country": "Finland",
   "country_code": "FI",
+  "identifiers": {
+    "composite_figi": "BBG00JRQSTC4",
+    "figi": "BBG00JRQSTD3"
+  },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Technology Hardware & Equipment",
   "kind": "stock",
   "listings": [
@@ -10,11 +15,11 @@
       "symbol": "0CXE.L"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Detection Technology Oyj",
   "primary_symbol": "0CXE.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,11 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00F461MF2",
+    "composite_figi": "BBG00FF55GW2",
+    "figi": "BBG00FF55H05",
     "isin": "AU000000BVS9"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "AU000000BVS9",
   "kind": "stock",
@@ -13,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000BVS9.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BRA.F"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "BVS.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BVSFF"
     }
   ],
-  "name": "BRAVURA SOLUTIONS LTD",
+  "market_cap_band": "Small Cap",
+  "name": "Bravura Solutions Limited",
   "primary_symbol": "AU000000BVS9.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Bravura Solutions Ltd is an Australian provider of software solutions for the wealth management, life insurance, and funds administration industries. The company provides platforms and services to financial institutions globally."
+  "summary": "Bravura Solutions Ltd is an Australian provider of software solutions for the wealth management, life insurance, and funds administration industries. The company provides platforms and services to financial institutions globally.",
+  "website": "http://bravurasolutions.com"
 }

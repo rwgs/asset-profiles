@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000C0WLR4",
     "cusip": "54180A106",
+    "figi": "BBG000C0WM92",
     "isin": "CA54180A1066"
   },
   "industry": "Metals & Mining",
@@ -11,24 +13,9 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "LN"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "LN.TO"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "LO51.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "LO51.F"
     },
     {
       "currency": "USD",
@@ -38,9 +25,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Loncor Resources Inc.",
-  "primary_symbol": "LN",
+  "primary_symbol": "LN.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

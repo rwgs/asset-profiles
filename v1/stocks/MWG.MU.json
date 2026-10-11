@@ -1,6 +1,11 @@
 {
   "country": "Canada",
   "country_code": "CA",
+  "identifiers": {
+    "composite_figi": "BBG000BTSGH9",
+    "figi": "BBG000BTSK17"
+  },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "kind": "stock",
   "listings": [
@@ -10,15 +15,17 @@
       "symbol": "MWG.MU"
     }
   ],
-  "name": "INMED PHARMACEUT.",
+  "market_cap_band": "Nano Cap",
+  "name": "InMed Pharmaceuticals Inc.",
   "primary_symbol": "MWG.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "InMed Pharmaceuticals Inc. is a Canada-based biopharmaceutical company specializing in the research, development, and commercialization of novel cannabinoid-based therapeutics. The company focuses on developing treatments for diseases with high unmet medical needs. InMed is headquartered in Vancouver, British Columbia."
+  "summary": "InMed Pharmaceuticals Inc. is a Canada-based biopharmaceutical company specializing in the research, development, and commercialization of novel cannabinoid-based therapeutics. The company focuses on developing treatments for diseases with high unmet medical needs. InMed is headquartered in Vancouver, British Columbia.",
+  "website": "http://www.inmedpharma.com"
 }

@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BZZ7W0",
     "isin": "GB00B1YW4409"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "GB00B1YW4409",
   "kind": "stock",
@@ -13,17 +14,54 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B1YW4409.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IGQ5.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IGQ5.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IGQ5.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IGQ5.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "III.L"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "IIIN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TGOPF"
     }
   ],
-  "name": "3I GROUP PLC",
+  "market_cap_band": "Large Cap",
+  "name": "3i Group plc",
   "primary_symbol": "GB00B1YW4409.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "3I GROUP PLC is an international investment manager. Their business model involves investing in private equity, infrastructure, and debt management, generating revenue through investment returns and management fees. The company is headquartered in London, UK."
+  "summary": "3I GROUP PLC is an international investment manager. Their business model involves investing in private equity, infrastructure, and debt management, generating revenue through investment returns and management fees. The company is headquartered in London, UK.",
+  "website": "https://www.3i.com"
 }

@@ -2,15 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00N8D0CY8",
-    "figi": "BBG00N8D0CY8",
+    "composite_figi": "BBG00GVK8578",
+    "figi": "BBG00GVK85B3",
     "isin": "DE0005493365"
   },
-  "industry": "Consumer Finance",
-  "industry_group": "Diversified Financials",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "DE0005493365",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0JVS.IL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -62,17 +67,17 @@
       "symbol": "HYQ.VI"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "Hypoport SE",
-  "primary_symbol": "HYPOF",
+  "primary_symbol": "0JVS.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Hypoport SE operates as a technology-based financial service provider in Germany. The company operates through four segments: Credit Platform, Private Clients, Real Estate Platform, and Insurance Platform. It offers EUROPACE marketplace for independent distributors to process their financing transactions with the product suppliers they represent. The company also provides mortgage finance, personal loans, insurance, and current and deposit accounts through distribution channels, including online and branch-based sales. In addition, it offers advice and customized solutions in the areas of financial management, portfolio management, and insurance for business customers; PRoMMiSe, a software that helps banks with the analysis and reporting of securitized or collateralized loan portfolios; Software as a Service for banks and housing companies; and property valuation services, as well as supports issuers with the provision of information technology and a range of services. Further, it develops and operates software solutions for the sale and management of insurance products; operates SMART INSUR, a web-based B2B platform for advice, comparison of tariffs, and the administration of insurance policies; and provides support services to small and medium-sized financial product distributors in relation to the brokerage of insurance policies. The company is headquartered in Lübeck, Germany.",
+  "summary": "Hypoport AG operates a technology-based financial product marketplace in Germany, offering mortgage finance, insurance, and investment products. It connects independent financial advisors, banks, and insurance companies through its Europace platform, facilitating efficient product comparison and transaction processing. The company is headquartered in Berlin, Germany",
   "website": "http://www.hypoport.com"
 }

@@ -1,34 +1,63 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Singapore",
+  "country_code": "SG",
   "identifiers": {
-    "composite_figi": "BBG000FGBMT5",
-    "cusip": "867224107",
-    "figi": "BBG000FGBMT5",
+    "composite_figi": "BBG000BB9NN7",
+    "figi": "BBG000BB9PT6",
     "isin": "SG1V12936232"
   },
-  "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry": "Diversified Telecommunication Services",
+  "industry_group": "Telecommunication Services",
   "isin": "SG1V12936232",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SGD",
+      "exchange_mic": "XSES",
+      "symbol": "CC3.SI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RYTB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RYTB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RYTB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RYTB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RYTB.SG"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SRHBF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Small Cap",
   "name": "StarHub Ltd",
-  "primary_symbol": "SRHBF",
+  "primary_symbol": "CC3.SI",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "StarHub Ltd engages in the operation and provision of telecommunications services and other businesses relating to the info-communications industry for individuals and businesses in Singapore, through Telecommunications and Cyber Security segments. The company was incorporated in 1998 and is headquartered in Singapore. StarHub Ltd operates as a subsidiary of Asia Mobile Holdings Pte. Ltd.",
-  "website": "http://www.rh.com"
+  "sector": "Communications",
+  "summary": "StarHub Ltd provides communications, entertainment, and digital solutions for individuals and corporations in Singapore, operating through Telecommunications and Cyber Security segments. Founded in 1998.",
+  "website": "https://www.starhub.com"
 }

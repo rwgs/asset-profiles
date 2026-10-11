@@ -2,28 +2,72 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BNKLQ9",
+    "composite_figi": "BBG007R9HBS2",
+    "figi": "BBG007R9HBV8",
     "isin": "FR0000039299"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Banks",
+  "industry_group": "Banks",
   "isin": "FR0000039299",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0IXZ.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BOIVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "BOL.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "BOL.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BOP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BOP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BOP.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BOP.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "FR0000039299.SW"
     }
   ],
-  "name": "BOLLORE SE",
-  "primary_symbol": "FR0000039299.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Bolloré SE",
+  "primary_symbol": "0IXZ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Bolloré SE is a French investment holding conglomerate with interests in transport and logistics, communications and media, electricity storage and solutions, and plantations. The company has a diverse portfolio of businesses and investments. Bolloré is headquartered in Puteaux, France."
+  "summary": "Bolloré SA is a French investment company with holdings in transportation and logistics, communications and media, and energy storage. The company operates in various sectors through its subsidiaries and affiliates. Bolloré SA is headquartered in Puteaux, France.",
+  "website": "http://www.bollore.com"
 }

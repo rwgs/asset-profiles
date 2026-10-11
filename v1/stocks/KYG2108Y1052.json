@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000MK6LJ7",
-    "figi": "BBG000MK6LV3",
+    "composite_figi": "BBG000HPNCZ5",
+    "figi": "BBG000HPNDX5",
     "isin": "KYG2108Y1052"
   },
   "industry": "Real Estate Management & Development",
@@ -11,6 +11,11 @@
   "isin": "KYG2108Y1052",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1109.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -25,24 +30,19 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CRBJF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CRBJY"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "China Resources Land Limited",
-  "primary_symbol": "CHZ.F",
+  "primary_symbol": "1109.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "China Resources Land Limited, an investment holding company, invests, develops, manages, and sells properties in the People's Republic of China. It invests in commercial, office, hotel, and apartment properties. As of December 31, 2020, the company had land bank of 68.087 million square meters. It also operates hotels; offers construction, decoration, and other property development related services; and manufactures and sells furniture. The company was incorporated in 1996 and is headquartered in Wanchai, Hong Kong. China Resources Land Limited is a subsidiary of CRH (Land) Limited.",
-  "website": "http://www.crland.com.hk"
+  "summary": "China Resources Land Limited, founded in 1994 and based in Wan Chai, Hong Kong, is an investment holding company and a subsidiary of CRH (Land) Limited. It invests in, develops, manages and sells property in China through development, investment, asset-light management and eco-system segments. Its offerings include residential, office and commercial properties, shopping malls, hotels and apartments for lease, property management, rental housing and construction services. It was formerly China Resources (Beijing) Land Co., Ltd.",
+  "website": "https://www.crland.com.hk"
 }

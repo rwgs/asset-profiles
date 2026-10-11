@@ -2,14 +2,30 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000BL2T31",
-    "figi": "BBG000BL2VX3",
+    "composite_figi": "BBG00Z9FGB16",
+    "figi": "BBG00Z9FGB25",
     "isin": "AT0000785555"
   },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "isin": "AT0000785555",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0G29.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SEIGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "SEM.VI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +38,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SEW.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "SEW.MU"
     },
@@ -31,15 +52,17 @@
       "symbol": "SEW.SG"
     }
   ],
-  "name": "Semperit AG Holding",
-  "primary_symbol": "SEW.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Semperit Aktiengesellschaft Holding",
+  "primary_symbol": "0G29.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Semperit AG Holding is an Austrian company specializing in the development, production, and sale of highly specialized rubber and plastic products. The company operates in two sectors: industrial and medical. The company is based in Vienna, Austria."
+  "summary": "Semperit Aktiengesellschaft Holding develops, produces, and sells rubber and plastic products for the medical and industrial sectors worldwide. It operates through five segments: Sempermed, Semperflex, Sempertrans, Semperform, and Semperseal. The Sempermed segment manufactures examination and surgical gloves in the medical area, as well as protective gloves in the industrial area. The Semperflex segment develops, produces, and sells hydraulic and industrial hoses that are used in the construction and transport industry, as well as in mining; and agricultural machinery, such as tractors, combines, and harvesters. The Sempertrans segment provides textile and steel-cord conveyor belts for use in mining, steel, cement, civil engineering, and transport industries, as well as in power stations. The Semperform segment offers escalator handrails; rubber sheaves and wheels for ropeways; vibration-dampening foils for skis and snowboards; and customized injection molding and extrusion parts with isolating or dampening functions. The Semperseal segment provides elastomer and sealing profiles for windows, doors, and facades; and elastomer and wear-resistant protective sheeting. The company was founded in 1824 and is headquartered in Vienna, Austria. Semperit Aktiengesellschaft Holding is a subsidiary of B & C KB Holding GmbH.",
+  "website": "http://www.semperitgroup.com"
 }

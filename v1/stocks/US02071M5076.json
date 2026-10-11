@@ -2,9 +2,9 @@
   "country": "Greece",
   "country_code": "GR",
   "identifiers": {
-    "composite_figi": "BBG000BJRX58",
+    "composite_figi": "BBG000BNPJ25",
     "cusip": "02071M507",
-    "figi": "BBG000BJRXB1",
+    "figi": "BBG000BNPJ70",
     "isin": "US02071M5076"
   },
   "industry": "Banks",
@@ -15,34 +15,24 @@
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
-      "symbol": "ACBB.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
       "symbol": "ACBC.F"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "ALBKF"
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ACBC.SG"
     },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ALBKY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "ASEX",
-      "symbol": "ALPHA.AT"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Alpha Services and Holdings S.A.",
-  "primary_symbol": "ACBB.F",
+  "primary_symbol": "ACBC.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,14 +2,20 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000CLY591",
-    "figi": "BBG000CLY626",
+    "composite_figi": "BBG000C3MRL2",
+    "figi": "BBG000C3MRY8",
     "isin": "AU000000NUF3"
   },
+  "industry": "Chemicals",
   "industry_group": "Materials",
   "isin": "AU000000NUF3",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "NUF.AX"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XDUS",
@@ -17,19 +23,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NUF.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NUF.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NUFMF"
     }
   ],
-  "name": "NuFarm Ltd.",
-  "primary_symbol": "NUF.DU",
+  "market_cap_band": "Small Cap",
+  "name": "Nufarm Limited",
+  "primary_symbol": "NUF.AX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Nufarm Ltd is an Australian agricultural chemical company that develops, manufactures, and sells crop protection solutions and seed technologies. Its products include herbicides, insecticides, and fungicides, used to protect crops from weeds, pests, and diseases. The company is headquartered in Melbourne, Australia."
+  "summary": "Nufarm Limited, together with its subsidiaries, develops, manufactures, and sells crop protection solutions and seed technologies in Australia, New Zealand, Asia, Europe, and North America. The company's protection solutions include herbicides, insecticides, and fungicides that help growers protect crops against weeds, pests, and disease. It also provides seed treatment products for the protection and treatment of damage caused by insects, fungus, and disease; and distributes sunflower, sorghum, and canola seeds. Nufarm Limited was founded in 1916 and is headquartered in Laverton North, Australia.",
+  "website": "http://www.nufarm.com"
 }

@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BLB4S9",
-    "figi": "BBG000BLB6M0",
+    "composite_figi": "BBG000BCH4D9",
+    "figi": "BBG000BCH4P6",
     "isin": "BMG709641044"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -11,6 +11,11 @@
   "isin": "BMG709641044",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1079.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -37,17 +42,17 @@
       "symbol": "PNY.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Pine Technology Holdings Limited",
-  "primary_symbol": "PNY.BE",
+  "market_cap_band": "Nano Cap",
+  "name": "PINE Technology Holdings Limited",
+  "primary_symbol": "1079.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "PINE Technology Holdings Limited, an investment holding company, manufactures and sells computer components, consumer electronic, and other products. It operates through five divisions: Group's Brand Products, Other Brand Products, Money Lending Service, Trading Business, and Computer Software and Hardware and System Development. The company provides graphic cards; power supply units; and other products, such as cables, video input output adapters, gaming accessories, and apparel, as well as monitor stands and mouse pad technologies. It also offers mobile accessories; and inbound logistics, handling and testing, warehousing and distribution, and value added services. In addition, the company is involved in the trademarks holding business; wholesale and distribution of computer components; and manufacture of electronics and computer digital audio devices, as well as computer software and hardware, and system development activities. Further, it engages in money lending business, as well as the trading of chemical products. The company offers its products under the XFX, Samtack, and AviiQ brands. It has operations in Canada, the United States, Asia, Europe, and internationally. PINE Technology Holdings Limited was founded in 1989 and is headquartered in Central, Hong Kong. PINE Technology Holdings Limited is a subsidiary of South Pearl Ventures Limited.",
+  "summary": "PINE Technology Holdings Limited, founded in 1989 and headquartered in Central, Hong Kong, is an investment holding entity that makes and distributes consumer electronic devices and components for computers. It has five areas: its own brand products, other branded products, money lending, general trading, and computer software and hardware.",
   "website": "http://www.pinegroup.com"
 }

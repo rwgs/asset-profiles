@@ -2,14 +2,25 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C0KXM6",
-    "figi": "BBG000C0L234",
+    "composite_figi": "BBG000BB6ZY1",
+    "figi": "BBG000BB70J4",
     "isin": "JP3404600003"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Industrial Conglomerates",
+  "industry_group": "Capital Goods",
   "isin": "JP3404600003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8053.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SSUMF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SUMA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "SUMA.MU"
     },
@@ -31,15 +47,17 @@
       "symbol": "SUMA.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Sumitomo Corporation",
-  "primary_symbol": "SUMA.BE",
+  "primary_symbol": "8053.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Sumitomo Corporation is a global trading and investment company involved in various industries, including metals, transportation, infrastructure, media, and real estate. The company facilitates trade, invests in projects, and manages businesses across diverse sectors. Sumitomo Corporation is headquartered in Tokyo, Japan."
+  "summary": "Sumitomo Corporation is a diversified global trading company with six segments: metal products; transportation and construction systems; infrastructure; media and digital; living related and real estate; and mineral resources, energy, chemical and electronics. The metal products division handles steel sheets and tubular goods, while transportation and construction systems covers making, leasing, selling and servicing assets.",
+  "website": "http://www.sumitomocorp.com"
 }

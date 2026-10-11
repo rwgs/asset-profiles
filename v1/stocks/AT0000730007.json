@@ -2,28 +2,87 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000DMZS88",
+    "composite_figi": "BBG000FK9L20",
+    "figi": "BBG000FK9L20",
     "isin": "AT0000730007"
   },
+  "industry": "Trading Companies & Distributors",
   "industry_group": "Capital Goods",
   "isin": "AT0000730007",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ADRZF"
+    },
+    {
+      "currency": "CZK",
+      "exchange_mic": "XPRA",
+      "symbol": "ANDR.PR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ANDR.VI"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "AT0000730007.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AZ2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "AZ2.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AZ2.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AZ2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AZ2.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AZ2.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AZ2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AZ2.SG"
     }
   ],
-  "name": "ANDRITZ AG",
-  "primary_symbol": "AT0000730007.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Andritz AG",
+  "primary_symbol": "ADRZF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "ANDRITZ AG is an Austrian technology group that provides plants, equipment, and services for various industries. The company's segments include pulp & paper, metals, hydropower, and separation. ANDRITZ AG is headquartered in Graz, Austria."
+  "summary": "Andritz AG provides plants, equipment, and services for pulp and paper industry, metalworking and steel industries, hydropower stations, and solid/liquid separation in the municipal and industrial sectors. It operates through four segments: Pulp & Paper, Metals, Hydro, and Separation. The Pulp & Paper segment supplies plants, systems, equipment, and services for the production of various types of pulp, paper, board, and tissue; boilers for power production; flue gas cleaning plants; plants for the production of nonwovens and panelboard; and recycling and shredding solutions for various waste materials. The Metals segment provides technologies, plants, and digital solutions, including automation and software solutions, dies, process know-how, and services; and solutions for production and processing of flat products and welding systems, as well as furnaces and services for the metals processing industry. The Hydro segment supplies electromechanical equipment and services for hydropower plants; and pumps for irrigation, water supply, and flood control, as well as offers turbo generators. The Separation segment offers mechanical and thermal technologies, services, and related automation solutions for solid/liquid separation to serve chemical, environmental, food, mining and minerals industries; and technologies and services for the production of animal feed and biomass pellets. It operates primarily in Europe, North America, South America, China, and rest of Asia. The company was founded in 1852 and is headquartered in Graz, Austria.",
+  "website": "http://www.andritz.com"
 }

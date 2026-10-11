@@ -2,29 +2,48 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00GNH7PR9",
+    "composite_figi": "BBG00J2K6CZ0",
     "cusip": "29384J103",
+    "figi": "BBG00J2K6D06",
     "isin": "CA29384J1030"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA29384J1030",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2EE.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA29384J1030.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ERLFF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "ETG.TO"
     }
   ],
-  "name": "ENTREE RESOURCES LTD",
-  "primary_symbol": "CA29384J1030.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Entree Resources Ltd.",
+  "primary_symbol": "2EE.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "ENTREE RESOURCES LTD is a mineral exploration and development company with a focus on large-scale copper and gold deposits in Mongolia. The company's primary asset is its joint venture interest in the Oyu Tolgoi project. Entree Resources is based in Vancouver, British Columbia, Canada."
+  "summary": "ENTREE RES LTD is a Canadian mineral exploration company focused on exploring and developing copper-gold projects, primarily in Mongolia. The company's key asset is its joint venture interest in the Lookout Hill Property, which hosts the Oyu Tolgoi project. Entree Resources is headquartered in Vancouver, Canada.",
+  "website": "http://www.entreeresourcesltd.com"
 }

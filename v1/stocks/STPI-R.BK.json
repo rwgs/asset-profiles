@@ -1,7 +1,11 @@
 {
   "country": "Thailand",
   "country_code": "TH",
-  "industry": "Building Products",
+  "identifiers": {
+    "composite_figi": "BBG000NS3Y77",
+    "figi": "BBG000NS3YP7"
+  },
+  "industry": "Machinery",
   "industry_group": "Capital Goods",
   "kind": "stock",
   "listings": [
@@ -11,11 +15,11 @@
       "symbol": "STPI-R.BK"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "STP&I Public Company Limited",
   "primary_symbol": "STPI-R.BK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

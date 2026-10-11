@@ -2,8 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000QKZWP0",
-    "figi": "BBG000QKZZT9",
+    "composite_figi": "BBG000Q94ZV5",
+    "figi": "BBG000Q950P8",
     "isin": "GB00B4Y7R145"
   },
   "industry": "Specialty Retail",
@@ -12,20 +12,52 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "CURY.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "CWB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CWB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CWB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CWB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CWB.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DSITF"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Currys PLC",
-  "primary_symbol": "CWB.BE",
+  "primary_symbol": "CURY.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary"
+  "sector": "Consumer Discretionary",
+  "summary": "Currys plc operates as a omnichannel retailer of technology products and services in the United Kingdom, Ireland, Norway, Sweden, Finland, Denmark, Iceland, Greenland, and the Faroe Islands. The company offers consumer electronics and mobile technology products and services; iD Mobile, a mobile virtual network operator solution; and provides repair and insurance services. It sells its products through franchise and own stores operated under Currys and Elkjøp brand names, as well as through online channels. The company was formerly known as Dixons Carphone plc and changed its name to Currys plc in September 2021. Currys plc was founded in 1884 and is based in London, the United Kingdom.",
+  "website": "https://www.currysplc.com"
 }

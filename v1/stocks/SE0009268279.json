@@ -7,7 +7,7 @@
     "isin": "SE0009268279"
   },
   "industry": "Software",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry_group": "Software & Services",
   "isin": "SE0009268279",
   "kind": "stock",
   "listings": [
@@ -27,22 +27,32 @@
       "symbol": "SE9.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SE9.SG"
+    },
+    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "SEYE.ST"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SMTEF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Micro Cap",
   "name": "Smart Eye AB",
   "primary_symbol": "SE9.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SMART EYE AB is a Swedish technology company that develops and markets eye-tracking systems. The company's technology is used in various applications, including automotive, research, and aerospace. SMART EYE AB is headquartered in Gothenburg, Sweden.",
+  "summary": "Smart Eye AB is a Swedish technology company that develops and markets eye-tracking systems. The company's technology is used in various applications, including automotive, research, and aerospace. SMART EYE AB is headquartered in Gothenburg, Sweden.",
   "website": "http://www.smarteye.se"
 }

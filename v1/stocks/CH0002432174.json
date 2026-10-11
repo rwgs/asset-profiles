@@ -2,6 +2,8 @@
   "country": "Switzerland",
   "country_code": "CH",
   "identifiers": {
+    "composite_figi": "BBG00JRVHCK3",
+    "figi": "BBG00NRVXW86",
     "isin": "CH0002432174"
   },
   "industry": "Machinery",
@@ -15,6 +17,11 @@
       "symbol": "0QQN.L"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BCHHF"
+    },
+    {
       "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "BUCN.SW"
@@ -24,7 +31,7 @@
   "name": "Bucher Industries AG",
   "primary_symbol": "0QQN.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

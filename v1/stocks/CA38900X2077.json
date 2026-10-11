@@ -7,6 +7,7 @@
     "figi": "BBG0032H1JX4",
     "isin": "CA38900X2077"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA38900X2077",
   "kind": "stock",
@@ -15,17 +16,39 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA38900X2077.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CB82.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CB82.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CBULF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "GRAT.V"
     }
   ],
-  "name": "GRATOMIC INC",
+  "market_cap_band": "Nano Cap",
+  "name": "Gratomic Inc.",
   "primary_symbol": "CA38900X2077.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "GRATOMIC INC is a Canadian-based graphite development company focused on the development of its flagship Aukam Graphite Project in Namibia. The company aims to become a significant supplier of graphite for the electric vehicle battery and other industrial markets. Gratomic Inc. is headquartered in Toronto, Ontario."
+  "summary": "GRATOMIC INC is a Canadian-based graphite development company focused on the development of its flagship Aukam Graphite Project in Namibia. The company aims to become a significant supplier of graphite for the electric vehicle battery and other industrial markets. Gratomic Inc. is headquartered in Toronto, Ontario.",
+  "website": "http://gratomic.ca"
 }

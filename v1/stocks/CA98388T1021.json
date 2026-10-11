@@ -4,28 +4,51 @@
   "identifiers": {
     "composite_figi": "BBG00TDMB493",
     "cusip": "98388T102",
-    "figi": "BBG00TDMB4F6",
+    "figi": "BBG00TDMB4B0",
     "isin": "CA98388T1021"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "CA98388T1021",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7XT.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7XT.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA98388T1021.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "PAID.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "XTMIF"
     }
   ],
-  "name": "XTM INC",
-  "primary_symbol": "CA98388T1021.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "XTM Inc.",
+  "primary_symbol": "7XT.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "XTM Inc. is a fintech company providing mobile payment and payroll solutions. The company provides services for businesses in the hospitality and personal care industries. XTM Inc. is based in Miami, Florida, USA."
+  "summary": "XTM Inc., a financial technology company, specializes in designing, building, and maintaining payment and ecommerce solutions customized for business and consumers in Canada. The company provides mobile cloud-based banking and card issuing solutions for loyalty, reward, and corporate payouts, including tips and wages. It offers solutions for hospitality, payroll, government payouts, digitizing push payments, and cashless payment sectors. The company was formerly known as Extreme Corp Makeover Inc. and changed its name to XTM Inc. in October 2006. XTM Inc. was incorporated in 2005 and is headquartered in Toronto, Canada.",
+  "website": "http://xtminc.com"
 }

@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00JHVZK44",
+    "figi": "BBG00JHVZK53",
     "isin": "IT0001033700"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -11,15 +13,30 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0N6O.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "BAN.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BCJ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BCJ.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "BasicNet S.p.A.",
-  "primary_symbol": "BAN.MI",
+  "primary_symbol": "0N6O.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

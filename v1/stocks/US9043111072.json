@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG009DTD8H2",
+    "composite_figi": "BBG000BXM6V2",
     "cusip": "904311107",
-    "figi": "BBG00CGP0928",
+    "figi": "BBG000BXM875",
     "isin": "US9043111072"
   },
   "industry": "Textiles, Apparel & Luxury Goods",
@@ -15,12 +15,12 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
-      "symbol": "UA"
+      "symbol": "UAA"
     },
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UAA"
+      "exchange_mic": "XLON",
+      "symbol": "0R2I.L"
     },
     {
       "currency": "BRL",
@@ -58,17 +58,13 @@
       "symbol": "U9R.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "U9R.TI"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "U9RA.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "U9RA.F"
     },
     {
       "currency": "MXN",
@@ -79,23 +75,13 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "UAA.VI"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "UAAC.MX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "UAC.VI"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Under Armour, Inc. Class A",
-  "primary_symbol": "UA",
+  "primary_symbol": "UAA",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

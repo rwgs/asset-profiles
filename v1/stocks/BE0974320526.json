@@ -6,6 +6,7 @@
     "figi": "BBG000BPMLN5",
     "isin": "BE0974320526"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "BE0974320526",
   "kind": "stock",
@@ -27,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NVJP.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAN",
       "symbol": "NVJP.HA"
     },
@@ -39,17 +45,48 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NVJP.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NVJP.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "NVJP.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "UMI.BR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "UMI.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "UMICF"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "UMIN.MX"
     }
   ],
-  "name": "UMICORE S.A.",
+  "market_cap_band": "Mid Cap",
+  "name": "Umicore SA",
   "primary_symbol": "NVJP.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Umicore S.A. is a global materials technology and recycling group. The company, headquartered in Brussels, Belgium, focuses on areas such as catalysis, energy materials, recycling, and specialty materials."
+  "summary": "Umicore S.A. is a global materials technology and recycling group. The company, headquartered in Brussels, Belgium, focuses on areas such as catalysis, energy materials, recycling, and specialty materials.",
+  "website": "http://www.umicore.com"
 }

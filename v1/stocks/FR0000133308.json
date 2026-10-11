@@ -2,13 +2,20 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DQSH27",
+    "composite_figi": "BBG000NZHTC1",
+    "figi": "BBG000NZHTC1",
     "isin": "FR0000133308"
   },
+  "industry": "Diversified Telecommunication Services",
   "industry_group": "Telecommunication Services",
   "isin": "FR0000133308",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FNCTF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -21,8 +28,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "FTE.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "FTE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FTE.F"
     },
     {
       "currency": "EUR",
@@ -41,18 +58,40 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "FTE.SG"
+    },
+    {
+      "currency": "EUR",
       "symbol": "FTE.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "ORA.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ORA.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ORA.VI"
     }
   ],
-  "name": "Orange SA",
-  "primary_symbol": "FR0000133308.SW",
+  "market_cap_band": "Large Cap",
+  "name": "Orange S.A.",
+  "primary_symbol": "FNCTF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "ORANGE is a French multinational telecommunications operator providing mobile, fixed-line, internet, and television services. The company operates in numerous countries across Europe, Africa, and the Middle East; headquarters are located in Paris, France. Orange aims to provide connectivity and digital services to consumers and businesses."
+  "summary": "Orange S.A. provides a range of fixed telephony and mobile telecommunications, data transmission, and other value-added services to customers, businesses, and other telecommunications operators in France and internationally. It operates through France; Spain and Other European Countries; The Africa and Middle East; Enterprise; International Carriers & Shared Services; and Mobile Financial Services segments. The company offers mobile services, such as voice, SMS, and data; fixed broadband and narrowband services, as well as fixed network business solutions, including voice and data; and convergence packages. It also sells mobile handsets, broadband equipment, and connected devices and accessories. In addition, the company provides IT and integration services comprising unified communication and collaboration services, such as LAN and telephony, consultancy, integration, and project management; hosting and infrastructure services, including cloud computing; customer relations management and other applications services; security services; and video conferencing, as well as sells related equipment. Further, it offers national and international roaming services; and mobile virtual network operators, network sharing, and mobile financial services, as well as sells equipment to external distributors and brokers. Orange S.A. markets its products and services under the Orange brand. The company was formerly known as France Telecom and changed its name to Orange S.A. in July 2013. Orange S.A. was founded in 1990 and is headquartered in Paris, France.",
+  "website": "http://www.orange.com"
 }

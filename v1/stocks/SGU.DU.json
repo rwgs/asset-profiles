@@ -1,6 +1,12 @@
 {
   "country": "United States",
   "country_code": "US",
+  "identifiers": {
+    "composite_figi": "BBG000BFWQR1",
+    "figi": "BBG000BFWRK6"
+  },
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "kind": "stock",
   "listings": [
     {
@@ -9,13 +15,16 @@
       "symbol": "SGU.DU"
     }
   ],
-  "name": "SINO-GERMAN UTD AG O.N.",
+  "market_cap_band": "Nano Cap",
+  "name": "Sino-German United AG",
   "primary_symbol": "SGU.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "website": "http://www.sgu-ag.de"
 }

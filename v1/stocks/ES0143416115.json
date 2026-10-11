@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "ES0143416115"
   },
+  "industry": "Machinery",
   "industry_group": "Energy",
   "isin": "ES0143416115",
   "kind": "stock",
@@ -27,17 +28,23 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "GTQ1.MU"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "GTQ1.TI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "SIEMENS GAMESA R.E.EO-,17",
   "primary_symbol": "GTQ1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Siemens Gamesa Renewable Energy is a company focused on the design, manufacturing, and maintenance of wind turbines. They provide both onshore and offshore wind turbine solutions. The company is headquartered in Zamudio, Spain."
+  "summary": "Siemens Gamesa Renewable Energy is a company focused on the design, manufacturing, and maintenance of wind turbines. They provide both onshore and offshore wind turbine solutions. The company is headquartered in Zamudio, Spain.",
+  "website": "http://www.siemensgamesa.com"
 }

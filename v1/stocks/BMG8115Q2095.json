@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000DSQ7N4",
-    "figi": "BBG000DSQ9S5",
+    "composite_figi": "BBG000BG1BD1",
+    "figi": "BBG000BG1BT4",
     "isin": "BMG8115Q2095"
   },
   "industry": "Capital Markets",
@@ -12,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0851.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MH9D.SG"
@@ -19,15 +24,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Sheng Yuan Holdings Limited",
-  "primary_symbol": "MH9D.SG",
+  "primary_symbol": "0851.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Sheng Yuan Holdings Limited, an investment holding company, provides various financial services in Hong Kong and Mainland China. It operates through: Securities Brokerage and Financial Services, Asset Management Services, Proprietary Trading, and Trading Business segments. The company offers discretionary and non-discretionary dealing services for securities and futures contracts; securities placing and underwriting services; margin financing and money lending services; and corporate finance advisory and general advisory services. It is also involved in the provision of fund management and discretionary portfolio management, and investment advisory services; securities trading; and trading of chemical products and energy and minerals products. Sheng Yuan Holdings Limited serves professional investors and retail investors. The company is based in Central, Hong Kong.",
+  "summary": "Sheng Yuan Holdings Limited, established in 1998 and based in Central, Hong Kong, is an investment holding company providing financial services in Hong Kong and mainland China to professional and retail investors. Its segments are securities brokerage and financial services, asset management, proprietary trading and general trading. Offerings include securities and futures dealing, placement and underwriting, margin financing and money lending, corporate finance advice, fund and portfolio management, and commodity trading in chemicals, energy and minerals.",
   "website": "http://www.shengyuan.hk"
 }

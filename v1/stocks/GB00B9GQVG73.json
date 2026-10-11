@@ -2,28 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG004KFBTH1",
+    "composite_figi": "BBG00L8YX7Q0",
+    "figi": "BBG00L8YX7Q0",
     "isin": "GB00B9GQVG73"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Auto Components",
+  "industry_group": "Automobiles & Components",
   "isin": "GB00B9GQVG73",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ABDDF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "ABDP.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B9GQVG73.SG"
     }
   ],
-  "name": "AB DYNAMICS PLC",
-  "primary_symbol": "GB00B9GQVG73.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "AB Dynamics plc",
+  "primary_symbol": "ABDDF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "AB DYNAMICS PLC is a designer, manufacturer and supplier of advanced testing and measurement products. Their business model involves delivering solutions, for vehicle suspension, steering and ADAS testing for automotive and other transport sectors, generating revenue through product sales and servicing. The company is headquartered in Bradford on Avon, UK."
+  "sector": "Consumer Discretionary",
+  "summary": "AB Dynamics plc, through its various group companies, is a global enterprise specializing in the creation, production, and provision of advanced systems for vehicle testing and development, alongside verification products and services. Headquartered in Bradford-on-Avon, UK, and founded in 1982, the company serves numerous international markets, including the United Kingdom, Germany, the United States, China, Japan, and Singapore. Their offerings are pivotal for evaluating modern vehicle technologies such as advanced driver assistance systems (ADAS), autonomous driving capabilities, and vehicle dynamics. AB Dynamics delivers comprehensive testing solutions that span from automating physical proving grounds to conducting extensive virtual simulations. This includes their proprietary rFpro, a leading simulation environment tailored for the automotive and motorsport industries. The company also offers full-scale track testing, encompassing ADAS and vehicle dynamics evaluations, complemented by services in applied research, human factors analysis, and simulation. Furthermore, they provide automotive testing for infotainment systems, connectivity features, electric vehicle performance, charging mechanisms, and other related functionalities. AB Dynamics also develops efficient retrofit solutions designed to rapidly and affordably automate existing vehicle fleets. Their portfolio extends to the creation and deployment of diverse Driver-in-the-Loop (DIL) simulators, adaptable for various vehicle types, driving scenarios, experimental setups, and product development objectives. They supply holistic simulation solutions, encompassing hardware, software, expert application consultancy, training, and ongoing aftermarket support. Ultimately, their products are utilized to scrutinize vehicle dynamics, noise, vibration, harshness (NVH), and autonomy across a spectrum of vehicles, from conventional cars to motorsport entries and fully autonomous platforms.",
+  "website": "https://www.abdplc.com"
 }

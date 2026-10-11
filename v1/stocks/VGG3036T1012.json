@@ -1,30 +1,43 @@
 {
-  "country": "Virgin Islands, British",
-  "country_code": "VG",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG002GN1WL2",
-    "figi": "BBG002GN1WQ7",
+    "composite_figi": "BBG001BRV8Y6",
+    "figi": "BBG001BRV8Z5",
     "isin": "VGG3036T1012"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "VGG3036T1012",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "EEE.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NOGN.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "VGG3036T1012.SG"
     }
   ],
-  "name": "EMPIRE METALS LTD",
-  "primary_symbol": "VGG3036T1012.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Empire Metals Limited",
+  "primary_symbol": "EEE.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "EMPIRE METALS LTD is a mineral exploration and development company. It focuses on acquiring, exploring, and developing mineral resource projects. Empire Metals is based in Australia."
+  "summary": "Empire Metals Limited engages in the exploration and development of copper and gold properties in Georgia and Austria. Its principal property is 50% owned the Bolnisi Copper and Gold project that covers an area of over 860 square kilometers located in Georgia. The company was formerly known as Georgian Mining Corporation and changed its name to Empire Metals Limited in February 2020. Empire Metals Limited and is based in London, the United Kingdom.",
+  "website": "http://www.empiremetals.co.uk"
 }

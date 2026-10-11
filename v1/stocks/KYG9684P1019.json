@@ -3,29 +3,36 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG000NZTG09",
+    "figi": "BBG000NZTGC6",
     "isin": "KYG9684P1019"
   },
+  "industry": "Interactive Media & Services",
   "industry_group": "Media & Entertainment",
   "isin": "KYG9684P1019",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0543.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "PCOLF"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Pacific Online Limited",
-  "primary_symbol": "PCOLF",
+  "primary_symbol": "0543.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Pacific Online Limited, an investment holding company, provides Internet advertising services primarily in the People's Republic of China. It operates Internet portals, including PConline that offers professional IT information services for domestic IT enterprises and customers; PCauto, an automobile portal, which provides product information, brand review and testing, and after-sale information services; and PClady, which offers lifestyle-related services and product information to women's interests and needs. The company also provides PCbaby that provides personalized information and service on pregnancy and infant care; and PChouse, which focuses on home improvement professional interpretation; and PC games for games. In addition, it offers information technology and software development services; computer information consultancy services; computer technology services; technology research, testing, and development services; computer technique, and electronic and medical products trading services; and healthy consultation and advertising services. The company was incorporated in 2007 and is headquartered in Guangzhou, China.",
+  "summary": "Pacific Online Limited is an investment holding company mainly providing internet advertising solutions in China. It operates digital portals including PConline, which offers IT information to enterprises and consumers, and PCauto, an automotive platform with product information, brand assessments and test results.",
   "website": "http://corp.pconline.com.cn"
 }

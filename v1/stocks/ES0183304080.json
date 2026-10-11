@@ -6,6 +6,7 @@
     "figi": "BBG002JW2P51",
     "isin": "ES0183304080"
   },
+  "industry": "IT Services",
   "industry_group": "Media & Entertainment",
   "isin": "ES0183304080",
   "kind": "stock",
@@ -14,16 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ES0183304080.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "SQRL.MC"
     }
   ],
-  "name": "SQUIRREL MEDIA SA",
+  "market_cap_band": "Micro Cap",
+  "name": "Squirrel Media, S.A.",
   "primary_symbol": "ES0183304080.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications"
+  "sector": "Communications",
+  "summary": "Squirrel Media, S.A. is a company listed on the Bolsa de Madrid under the ticker SQRL. It operates in the IT Services industry within the Information Technology sector. The company is headquartered in Madrid, Spain.",
+  "website": "https://www.squirrelmedia.es"
 }

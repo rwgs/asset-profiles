@@ -2,38 +2,31 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "696389105",
+    "composite_figi": "BBG0014YPKF0",
     "isin": "US6963891055"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US6963891055",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "7NSA.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "7NSA.MU"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US6963891055.SG"
     }
   ],
-  "name": "PALISADE BIO INC. DL 0,01",
-  "primary_symbol": "7NSA.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Palisade Bio, Inc.",
+  "primary_symbol": "US6963891055.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Palisade Bio, Inc. is a biopharmaceutical company focused on developing novel therapeutics to protect and restore intestinal barrier function. They are developing oral formulations of first-in-class therapies to treat gastrointestinal disorders. The company is headquartered in Carlsbad, California."
+  "summary": "PALISADE BIO INC is a biopharmaceutical company focused on developing novel therapeutics for acute and chronic gastrointestinal (GI) complications. Headquartered in Carlsbad, California, their lead product candidate, PALI-210, is an oral formulation designed to protect and repair the intestinal barrier. The company aims to improve outcomes for patients suffering from GI disorders.",
+  "website": "https://www.palisadebio.com"
 }

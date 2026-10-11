@@ -2,9 +2,9 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG004Q278R4",
+    "composite_figi": "BBG005DZP339",
     "cusip": "05578W100",
-    "figi": "BBG004Q278S3",
+    "figi": "BBG005DZP339",
     "isin": "US05578W1009"
   },
   "industry": "Air Freight & Logistics",
@@ -13,36 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "13B.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "BPOS.VI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBRU",
-      "symbol": "BPOST.BR"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "BPOSTN.MX"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BPOSY"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Micro Cap",
   "name": "bpost SA/NV",
-  "primary_symbol": "13B.F",
+  "primary_symbol": "BPOSY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,6 +2,8 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
+    "composite_figi": "BBG00JHVSCZ6",
+    "figi": "BBG00JHVSD02",
     "isin": "BE0003823409"
   },
   "industry": "Biotechnology",
@@ -21,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FTD.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FTD.SG"
     },
@@ -34,7 +41,7 @@
   "name": "Financiere de Tubize SA",
   "primary_symbol": "0D53.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

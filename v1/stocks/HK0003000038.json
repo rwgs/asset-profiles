@@ -2,14 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BBRDL1",
-    "figi": "BBG000BBRJJ1",
+    "composite_figi": "BBG000BDWSR2",
+    "figi": "BBG000BDWT45",
     "isin": "HK0003000038"
   },
+  "industry": "Gas Utilities",
   "industry_group": "Utilities",
   "isin": "HK0003000038",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0003.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -39,17 +45,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HCG.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HOKCF"
     }
   ],
-  "name": "H.K. CHINA GAS",
-  "primary_symbol": "HCG.BE",
+  "market_cap_band": "Large Cap",
+  "name": "The Hong Kong and China Gas Company Limited",
+  "primary_symbol": "0003.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "The Hong Kong and China Gas Company Limited (Towngas) is a public utility company in Hong Kong. The company's core business is the production, distribution and marketing of gas, but it also has investments in telecommunications, information technology, infrastructure, and property. The company is headquartered in Hong Kong."
+  "summary": "The Hong Kong and China Gas Company Limited, a utility and energy provider based in North Point, dates from 1862. It produces, distributes and markets gas in Hong Kong and the mainland, and supplies town gas to customers. It also deals in liquefied natural gas, methanol, coal and other chemicals, and takes part in energy projects such as biomass conversion.",
+  "website": "http://www.towngas.com"
 }

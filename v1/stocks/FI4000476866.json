@@ -3,7 +3,7 @@
   "country_code": "FI",
   "identifiers": {
     "composite_figi": "BBG00ZF23BZ5",
-    "figi": "BBG00ZF23C38",
+    "figi": "BBG00ZF23C01",
     "isin": "FI4000476866"
   },
   "industry": "Construction & Engineering",
@@ -13,19 +13,31 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "16T.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FI4000476866.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "KREATE.HE"
     }
   ],
-  "name": "KREATE GROUP OYJ",
-  "primary_symbol": "FI4000476866.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Kreate Group Oyj",
+  "primary_symbol": "16T.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "KREATE GROUP OYJ is a Finnish marketing and communications agency that helps businesses develop and implement strategies for marketing, branding, and digital communications. They offer services such as content creation, campaign management, and social media marketing. The company is headquartered in Helsinki, Finland and works with clients across various industries."
+  "summary": "Kreate Group Oyj engages in the construction of infrastructure projects to private and public sector customers in Finland. It offers bridge construction and repair, rock engineering, circular economy, and expert services, as well as foundation and concrete, transport infrastructure, railway, special foundation, and environmental construction services. The company was founded in 2015 and is headquartered in Tuusula, Finland.",
+  "website": "http://kreate.fi"
 }

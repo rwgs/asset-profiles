@@ -2,9 +2,11 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BT09Y6",
+    "composite_figi": "BBG000QWLH90",
+    "figi": "BBG000QWLJB3",
     "isin": "GB00B128J450"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "GB00B128J450",
   "kind": "stock",
@@ -18,17 +20,39 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B128J450.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IOOA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IOOA.MU"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "IPO.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IPZYF"
     }
   ],
-  "name": "IP GROUP PLC",
+  "market_cap_band": "Small Cap",
+  "name": "IP Group Plc",
   "primary_symbol": "GB00B128J450.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "IP GROUP PLC invests in intellectual property-based businesses, primarily in the UK and US. Their business model involves identifying promising technologies, providing capital and support to develop these technologies into successful companies, and generating returns through equity stakes and exits. The company is headquartered in London, UK."
+  "summary": "IP GROUP PLC invests in intellectual property-based businesses, primarily in the UK and US. Their business model involves identifying promising technologies, providing capital and support to develop these technologies into successful companies, and generating returns through equity stakes and exits. The company is headquartered in London, UK.",
+  "website": "http://www.ipgroupplc.com"
 }

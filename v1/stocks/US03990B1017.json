@@ -4,27 +4,41 @@
   "identifiers": {
     "composite_figi": "BBG0068KVV91",
     "cusip": "03990B101",
+    "figi": "BBG0068KVV91",
     "isin": "US03990B1017"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "US03990B1017",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "ARES"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0QN.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US03990B1017.SG"
     }
   ],
-  "name": "ARES MANAGEMENT CORP - A",
-  "primary_symbol": "US03990B1017.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Ares Management Corporation",
+  "primary_symbol": "ARES",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "ARES MANAGEMENT CORP - A is a global alternative investment manager operating integrated businesses across credit, private equity, real estate and strategic initiatives. Based in Los Angeles, California, Ares provides a wide range of investment solutions to institutional and individual investors. The company seeks to deliver attractive risk-adjusted investment returns throughout market cycles."
+  "summary": "Ares Management Corporation operates as an alternative asset manager in the United States, Europe, and Asia. The company's Tradable Credit Group segment manages various types of investment funds, such as commingled and separately managed accounts for institutional investors, and publicly traded vehicles and sub-advised funds for retail investors in the tradable and non-investment grade corporate credit markets. Its Direct Lending Group segment provides financing solutions to small-to-medium sized companies. The company's Private Equity Group segment focuses on majority or shared-control investments primarily in under-capitalized companies. Its Real Estate Group segment invests in new developments and the repositioning of assets, with a focus on control or majority-control investments; and originates and invests in a range of self-originated financing opportunities for middle-market owners and operators of commercial real estate. The firm was previously known as Ares Management, L.P. Ares Management Corporation was founded in 1997 and is headquartered in Los Angeles, California with additional offices in the United States, Europe and Asia. Ares Management GP LLC is the general partner of the company.",
+  "website": "http://www.aresmgmt.com"
 }

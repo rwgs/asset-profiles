@@ -2,19 +2,39 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000BM6H31",
-    "figi": "BBG000BM6HZ6",
+    "composite_figi": "BBG000BDXH31",
+    "figi": "BBG000BDXHG7",
     "isin": "HK0308001558"
   },
-  "industry": "Hotels, Restaurants & Leisure",
+  "industry": "Diversified Consumer Services",
   "industry_group": "Consumer Services",
   "isin": "HK0308001558",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0308.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CTI.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CTI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CTI.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CTI.SG"
     },
     {
       "currency": "USD",
@@ -24,14 +44,15 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "China Travel International Investment Hong Kong Limited",
-  "primary_symbol": "CTI.F",
+  "primary_symbol": "0308.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "China Travel International Investment Hong Kong Limited, an investment holding company, provides travel and tourism services. Its Tourist Attraction and Related Operations segment operates theme parks, natural and cultural scenic spots, cable car systems, skiing facilities, golf clubs, hot spring resorts, and other resorts, as well as engages in arts performance and tourism property development activities in Mainland China. The company's Travel Agency, Travel Document, and Related Operations segment provides travel agency, travel document, and related services in Hong Kong, Mainland China, South East Asia, Oceania, the United States, and countries in the European Union. Its Hotel Operations segment offers hotel accommodation, and food and beverage services in Hong Kong, Macau, and Mainland China. The company's Passenger Transportation Operations segment provides cross-border transportation services to individuals travelling between Hong Kong, Macau, and Mainland China; and vehicle and vessel rental and charter services in Hong Kong, Macau, and Mainland China. It also trades in computer equipment and provides computer services; and offers travel and air ticketing agency, printing and advertising agency, entry permit handling agency, fuel supply, ship repairing, and logistics and courier services. In addition, the company is involved in property investment; software system development; and shipping and shipping management activities, as well as conference and exhibition operations. The company was incorporated in 1992 and is based in Central, Hong Kong. China Travel International Investment Hong Kong Limited is a subsidiary of China Travel Service (Holdings) Hong Kong Limited."
+  "summary": "China Travel International Investment Hong Kong Ltd. holds investments in travel services. Its segments cover tourist attractions, travel agency, travel documents, hotels, passenger transport, and corporate matters. The attractions side runs theme parks, scenic spots, cable cars, ski facilities and hot spring resorts.",
+  "website": "http://www.ctiihk.com"
 }

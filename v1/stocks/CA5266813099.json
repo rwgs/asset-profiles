@@ -7,6 +7,7 @@
     "figi": "BBG00J7JBF12",
     "isin": "CA5266813099"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "CA5266813099",
   "kind": "stock",
@@ -15,17 +16,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA5266813099.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LE4A.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "LTV.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LVNSF"
     }
   ],
-  "name": "LEONOVUS INC",
+  "market_cap_band": "Nano Cap",
+  "name": "Leonovus Inc.",
   "primary_symbol": "CA5266813099.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "LEONOVUS INC is a software company focused on data management and storage solutions. Their products include blockchain-hardened data storage and security solutions. Leonovus Inc. is headquartered in Ottawa, Ontario."
+  "summary": "LEONOVUS INC is a software company focused on data management and storage solutions. Their products include blockchain-hardened data storage and security solutions. Leonovus Inc. is headquartered in Ottawa, Ontario.",
+  "website": "http://www.leonovus.com"
 }

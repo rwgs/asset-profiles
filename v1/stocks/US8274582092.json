@@ -1,10 +1,10 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000DYS7S4",
     "cusip": "827458209",
-    "figi": "BBG000DYTC84",
+    "figi": "BBG000DYS893",
     "isin": "US8274582092"
   },
   "industry": "Metals & Mining",
@@ -14,18 +14,36 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LZ61.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "SVB.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SVBL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US8274582092.SG"
     }
   ],
-  "name": "SILVER BULL RES INC",
-  "primary_symbol": "US8274582092.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Silver Bull Resources, Inc.",
+  "primary_symbol": "LZ61.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials"
+  "sector": "Materials",
+  "summary": "Silver Bull Resources, Inc., an exploration stage company, acquires, explores, and develops mineral properties in Mexico and Canada. The company primarily explores for silver and zinc deposits. Its principal project is the Sierra Mojada property comprising 20 concessions covering an area of 6,496 hectares located in Coahuila, Mexico. The company also holds an option to acquire a 100% interest in the Beskauga copper-gold project located in the Pavlodar region of northeastern Kazakhstan. The company was formerly known as Metalline Mining Company and changed its name to Silver Bull Resources, Inc. in April 2011. Silver Bull Resources, Inc. was founded in 1993 and is based in Vancouver, Canada.",
+  "website": "http://www.silverbullresources.com"
 }

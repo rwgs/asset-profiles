@@ -2,7 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "cusip": "Q2076L100",
+    "composite_figi": "BBG00N02TJ56",
+    "figi": "BBG00N02TJ65",
     "isin": "AU0000024275"
   },
   "industry": "Metals & Mining",
@@ -11,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C3F.F"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "CRS.AX"
@@ -18,9 +24,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Caprice Resources Limited",
-  "primary_symbol": "CRS.AX",
+  "primary_symbol": "C3F.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

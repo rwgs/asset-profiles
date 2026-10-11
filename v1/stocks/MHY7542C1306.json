@@ -3,6 +3,7 @@
   "country_code": "MC",
   "identifiers": {
     "composite_figi": "BBG000Q1TVZ0",
+    "cusip": "Y7542C130",
     "figi": "BBG000Q1TYC9",
     "isin": "MHY7542C1306"
   },
@@ -11,11 +12,6 @@
   "isin": "MHY7542C1306",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "SBBA"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -52,11 +48,11 @@
       "symbol": "STNGN.MX"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Scorpio Tankers Inc.",
-  "primary_symbol": "SBBA",
+  "primary_symbol": "STNG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

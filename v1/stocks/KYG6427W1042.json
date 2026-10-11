@@ -6,7 +6,7 @@
     "figi": "BBG000R5QKG8",
     "isin": "KYG6427W1042"
   },
-  "industry": "Interactive Media & Services",
+  "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
   "isin": "KYG6427W1042",
   "kind": "stock",
@@ -18,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3ND.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3ND.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3ND.MU"
     },
     {
       "currency": "EUR",
@@ -31,7 +41,7 @@
   "name": "NetDragon Websoft Holdings Limited",
   "primary_symbol": "0777.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

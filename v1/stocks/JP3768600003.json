@@ -3,27 +3,46 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000BH71F3",
+    "figi": "BBG000BH7207",
     "isin": "JP3768600003"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Household Durables",
+  "industry_group": "Consumer Durables & Apparel",
   "isin": "JP3768600003",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "1808.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HS6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HS6.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JP3768600003.SG"
     }
   ],
-  "name": "HASEKO CORP",
-  "primary_symbol": "JP3768600003.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "HASEKO Corporation",
+  "primary_symbol": "1808.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "HASEKO CORPORATION is a major construction company in Japan specializing in the construction of condominiums and other residential buildings. The company is involved in planning, design, construction, and management of residential properties. HASEKO CORP is headquartered in Tokyo, Japan."
+  "sector": "Consumer Discretionary",
+  "summary": "HASEKO Corporation plans, designs, constructs, sells, renovates, and rents condominiums in Japan and internationally. The company operates through Construction-Related Business, Service-Related Business, and Overseas-Related Business segments. It is also involved in the real estate development, including for-sale housing and real estate, and condominium and apartment management operation and administration business; real estate brokerage, such as selling and buying, exchanging, leasing, and agency of real estate; purchase and resale comprising condominiums and other properties; and provision of real estate solutions that include asset management and project proposals, as well as consultation for use of land and real estate investment management and admiration of real estate. In addition, the company is involved in the for-sale condominium management business, which comprises monitoring, management and cleaning, maintenance, clerical, and life support; and rental condominium management and operation. Further, it provides large-scale repair, earthquake-resistant structure and facility renovation, environmental friendliness and energy saving renovation, value enhancement renovation, and remolding works, as well as condominium rehabilitation and building replacement services. Additionally, the company manages facilities for the elderly; and offers home nursing care, and senior living planning and consultation. It also provides interior enhancement services; and sells and leases construction materials. The company was founded in 1937 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.haseko.co.jp"
 }

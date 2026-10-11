@@ -2,14 +2,18 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000D5N4Q1",
-    "figi": "BBG000D5P951",
     "isin": "JP3902900004"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "JP3902900004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "8306.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -41,15 +45,17 @@
       "symbol": "MFZ.SG"
     }
   ],
+  "market_cap_band": "Mega Cap",
   "name": "Mitsubishi UFJ Financial Group, Inc.",
-  "primary_symbol": "MFZ.BE",
+  "primary_symbol": "8306.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Mitsubishi UFJ Financial Group (MUFG) is a Japanese financial services company. They offer a wide range of banking, trust, securities, and other financial services to individuals and corporate clients globally. The company is headquartered in Tokyo, Japan."
+  "summary": "Mitsubishi UFJ Financial Group, Inc. (MUFG) operates as the overarching bank holding company for MUFG Bank, Ltd., delivering a broad spectrum of financial services globally, including in Japan, the United States, Europe, and the Asia/Oceania region. The company organizes its operations across several key divisions: Digital Service; Retail & Commercial Banking; Japanese Corporate & Investment Banking; Asset Management & Investor Services; Global Corporate & Investment Banking; Global Commercial Banking; and Global Markets. MUFG provides commercial banking, trust banking, and securities products and services to a diverse clientele, ranging from retail consumers and small to medium-sized enterprises. Its offerings further extend to advisory on mergers and acquisitions, real estate solutions, digital financial platforms, credit card services, lending, fund transfers, and foreign exchange. For large corporations and financial institutions, MUFG offers specialized corporate, investment, and transaction banking services. Additionally, it manages assets and provides administrative services for corporations and pension funds, facilitates loans, deposits, fund transfers, and investments, and deals in various financial instruments such as fixed income, currencies, and equities. The group is also active in the origination and distribution of financial products and provides treasury solutions. Mitsubishi UFJ Financial Group, Inc. was established in 1880 and maintains its headquarters in Tokyo, Japan.",
+  "website": "https://www.mufg.jp"
 }

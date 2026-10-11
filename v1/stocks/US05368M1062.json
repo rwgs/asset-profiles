@@ -2,15 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000GWBC57",
+    "composite_figi": "BBG000JDWKY3",
     "cusip": "05368M106",
-    "figi": "BBG000GWCLK9",
+    "figi": "BBG000JDWRH7",
     "isin": "US05368M1062"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US05368M1062",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "CDMO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,19 +24,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TEHP.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TEHP.SG"
     }
   ],
-  "name": "AVID BIOSERVICES, INC.",
-  "primary_symbol": "TEHP.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Avid Bioservices, Inc.",
+  "primary_symbol": "CDMO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Avid Bioservices, Inc. is a contract development and manufacturing organization (CDMO) that provides biopharmaceutical manufacturing services to biotechnology and pharmaceutical companies. The company offers a range of services, including cell line development, process development, and GMP manufacturing. Avid Bioservices is headquartered in Tustin, California."
+  "summary": "Avid Bioservices, Inc., a contract development and manufacturing organization, provides process development and current good manufacturing practices (CGMP) clinical and commercial manufacturing services focused on biopharmaceutical drug substances derived from mammalian cell culture. It produces monoclonal antibodies and recombinant proteins; and offers services, including CGMP clinical and commercial drug substance manufacturing, purification, bulk packaging, release and stability testing, and regulatory submission and support. The company also provides various process development services, such as upstream and downstream development and optimization, analytical methods development, testing, and characterization. It serves biotechnology and pharmaceutical companies. Avid Bioservices, Inc. has a process development and manufacturing agreement with Oragenics, Inc. to develop coronavirus vaccine. The company was formerly known as Peregrine Pharmaceuticals, Inc. and changed its name to Avid Bioservices, Inc. in January 2018. Avid Bioservices, Inc. was founded in 1981 and is headquartered in Tustin, California.",
+  "website": "http://www.avidbio.com"
 }

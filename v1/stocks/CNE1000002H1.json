@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000Q0ZWQ3",
-    "figi": "BBG000Q0ZWZ3",
+    "composite_figi": "BBG000NW2R83",
+    "figi": "BBG000NW2S18",
     "isin": "CNE1000002H1"
   },
   "industry": "Banks",
@@ -12,9 +12,39 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0939.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C6T.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "C6T.DU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "C6T.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "C6T.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "C6T.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C6T.MU"
     },
     {
       "currency": "EUR",
@@ -22,32 +52,27 @@
       "symbol": "C6T.SG"
     },
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "C6TB.F"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CICHF"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CICHY"
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "CNCB.VI"
     }
   ],
   "market_cap_band": "Mega Cap",
-  "name": "China Construction Bank Corporation Class H",
-  "primary_symbol": "C6T.F",
+  "name": "China Construction Bank Corporation",
+  "primary_symbol": "0939.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "China Construction Bank Corporation provides various banking and related financial services to individuals and corporate customers in the People's Republic of China and internationally. It operates through Corporate Banking, Personal Banking, Treasury Business, and Others segments. The company accepts various deposits, such as foreign currency, all in one accounts, RMB, corporate term and notification, and corporate demand deposits, as well corporate deposits by agreement. Its loan products include personal business, car, and housing loans; and SME, traditional credit, commercial draft, buyer credit, and RMB credit line loans. The company also offers credit cards; physical gold for personal investment and personal gold accounts; foreign exchange services; certificate treasury and savings bonds, securities deposit accounts, and securities services, as well as bank-securities transfer and book-entry treasury bond over the counter services; and wealth management products. In addition, it provides collection, salaries payment, third-party collection and payment, insurance agency, and remittance services; international settlement and financing, and FI services; securities and fund settlement services; guarantee-based, consulting and advising, and factoring services; fund custody services; treasury, asset management, trustee, finance leasing, investment banking, and other financial services; and e-banking services. Further, the company offers institutional services comprising services for government agencies, social security, banks cooperation, bank-securities cooperation, bank-insurance cooperation, and services for non-banking financial institutions. As of December 31, 2020, it operated 14,741 banking outlets. China Construction Bank Corporation was founded in 1954 and is headquartered in Beijing, the People's Republic of China.",
+  "summary": "China Construction Bank Corporation serves individual and corporate clients in China and internationally with banking and financial services. Its segments are Corporate Banking, Personal Banking, Treasury Business and others, and it offers a range of deposit products, including foreign currency deposits.",
   "website": "http://www.ccb.com"
 }

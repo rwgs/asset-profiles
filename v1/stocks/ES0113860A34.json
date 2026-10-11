@@ -6,6 +6,7 @@
     "figi": "BBG000CVRK30",
     "isin": "ES0113860A34"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "ES0113860A34",
   "kind": "stock",
@@ -22,19 +23,50 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BDSB.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BDSB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BDSB.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "BDSB.TI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BNDSF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "SAB.MC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "SAB.VI"
     }
   ],
-  "name": "BCO DE SABADELL A EO-,125",
+  "market_cap_band": "Large Cap",
+  "name": "Banco de Sabadell, S.A.",
   "primary_symbol": "BDSB.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Banco de Sabadell, S.A. is a Spanish financial institution offering a range of banking products and services to individuals, businesses, and institutions. These include deposit accounts, loans, mortgages, credit cards, investment products, and insurance. Banco de Sabadell is headquartered in Alicante, Spain."
+  "summary": "Banco de Sabadell, S.A. is a Spanish financial institution offering a range of banking products and services to individuals, businesses, and institutions. These include deposit accounts, loans, mortgages, credit cards, investment products, and insurance. Banco de Sabadell is headquartered in Alicante, Spain.",
+  "website": "http://www.bancsabadell.com"
 }

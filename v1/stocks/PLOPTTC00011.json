@@ -5,6 +5,7 @@
     "composite_figi": "BBG000D03WH2",
     "isin": "PLOPTTC00011"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "PLOPTTC00011",
   "kind": "stock",
@@ -13,17 +14,59 @@
       "currency": "PLN",
       "exchange_mic": "XLON",
       "symbol": "0LX1.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "7CD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "7CD.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7CD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7CD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "7CD.SG"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "CDR.WA"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "CDRN.MX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "OTGLF"
     }
   ],
-  "name": "CD PROJEKT SA CD PROJECT ORD SH",
+  "market_cap_band": "Mid Cap",
+  "name": "CD Projekt S.A.",
   "primary_symbol": "0LX1.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "CD Projekt SA is a Polish video game developer, publisher and distributor known for its critically acclaimed video game series, The Witcher, and the Cyberpunk 2077 video game. The company develops and publishes video games for PC and consoles. CD Projekt is headquartered in Warsaw, Poland"
+  "summary": "CD Projekt SA is a Polish video game developer, publisher and distributor known for its critically acclaimed video game series, The Witcher, and the Cyberpunk 2077 video game. The company develops and publishes video games for PC and consoles. CD Projekt is headquartered in Warsaw, Poland",
+  "website": "http://www.cdprojekt.com"
 }

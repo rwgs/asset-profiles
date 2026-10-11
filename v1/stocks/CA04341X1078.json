@@ -4,28 +4,46 @@
   "identifiers": {
     "composite_figi": "BBG002RQS9H0",
     "cusip": "04341X107",
-    "figi": "BBG002RQS9M4",
+    "figi": "BBG002RQS9J8",
     "isin": "CA04341X1078"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA04341X1078",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1A9.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "ASE.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASGOF"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA04341X1078.SG"
     }
   ],
-  "name": "ASANTE GOLD CORP",
-  "primary_symbol": "CA04341X1078.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Asante Gold Corporation",
+  "primary_symbol": "1A9.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "ASANTE GOLD CORP is a gold exploration and development company focused on projects in Ghana, West Africa. The company is focused on developing the Bibiani and Chirano gold mines. Asante Gold Corp is headquartered in Vancouver, British Columbia, Canada."
+  "summary": "Asante Gold Corporation, a mineral exploration company, engages in the acquisition and development of gold properties in the Republic of Ghana. Its principal property is the Kubi Mining Lease located in south west Ghana. The company was incorporated in 2011 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.asantegold.com"
 }

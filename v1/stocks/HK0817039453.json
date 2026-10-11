@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000RWKBV8",
-    "figi": "BBG000RWKD80",
+    "composite_figi": "BBG000BYML29",
+    "figi": "BBG000BYML92",
     "isin": "HK0817039453"
   },
   "industry": "Real Estate Management & Development",
@@ -11,6 +11,11 @@
   "isin": "HK0817039453",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0817.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -20,19 +25,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "3F5.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CJNHF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "China Jinmao Holdings Group Limited",
-  "primary_symbol": "3F5.BE",
+  "primary_symbol": "0817.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "China Jinmao Holdings Group Limited is a property developer and operator in China. The company focuses on developing and operating high-end properties, including hotels, office buildings, and residential developments. China Jinmao is headquartered in Hong Kong.",
+  "summary": "China Jinmao Holdings Group Limited, an investment holding company, operates in real estate and hotel businesses in Mainland China. It operates in four segments: City and Property Development, Commercial Leasing and Retail Operations, Hotel Operations, and Others. The City and Property Development segment develops city complexes and properties, as well as develops land. The Commercial Leasing and Retail Operations segment engages in the leasing of office and retail commercial premises. This segment has twelve investment properties with an area of approximately 0.80 million square meters. The Hotel Operations segment provides hotel accommodation, and food and beverages services. This segment operates ten luxury hotels that offers 3,968 guest rooms. The Others segment offers property management, and design and decoration services, as well as operates an observation deck. The company also engages in technology and services business. It holds 277 projects of city operations and property development, commercial leasing and retail operations, and hotel operations. The company was formerly known as Franshion Properties (China) Limited and changed its name to China Jinmao Holdings Group Limited in September 2015. China Jinmao Holdings Group Limited was incorporated in 2004 and is based in Wan Chai, Hong Kong.",
   "website": "http://www.chinajinmao.cn"
 }

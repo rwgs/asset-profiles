@@ -1,11 +1,13 @@
 {
-  "country": "Bermuda",
-  "country_code": "BM",
+  "country": "Barbados",
+  "country_code": "BB",
   "identifiers": {
     "composite_figi": "BBG00JHTK021",
     "figi": "BBG00JHTK067",
     "isin": "BM78669Q1007"
   },
+  "industry": "Insurance",
+  "industry_group": "Insurance",
   "isin": "BM78669Q1007",
   "kind": "stock",
   "listings": [
@@ -13,15 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BM78669Q1007.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "SFC.TO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SGCFF"
     }
   ],
-  "name": "SAGICOR FINANCIAL CO LTD",
+  "market_cap_band": "Small Cap",
+  "name": "Sagicor Financial Company Ltd.",
   "primary_symbol": "BM78669Q1007.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Financials",
+  "summary": "Sagicor Financial Company Ltd., together with its subsidiaries, provides insurance products and related financial services in the Caribbean and the United States. It operates through Sagicor Jamaica, Sagicor Life, Sagicor Life USA, and Head Office and Other segments. The company offers life and health insurance, property and casualty insurance, and reinsurance products, as well as annuities and pension administration services. It also provides investment and asset management, investment and merchant banking, hospitality and real estate investment, microfinance, securities brokerage, mutual funds, farming and real estate development, loan and lease financing, deposit taking, and commercial banking services. The company was founded in 1840 and is headquartered in St. Michael, Barbados.",
+  "website": "http://www.sagicor.com"
 }

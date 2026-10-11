@@ -2,28 +2,37 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00KG0CDN0",
+    "composite_figi": "BBG00RC8L158",
+    "figi": "BBG00RC8L167",
     "isin": "GB00BL0L5G04"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "GB00BL0L5G04",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3FNA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BL0L5G04.SG"
     }
   ],
-  "name": "ADRIATIC METALS PLC",
-  "primary_symbol": "GB00BL0L5G04.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Adriatic Metals PLC",
+  "primary_symbol": "3FNA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Adriatic Metals PLC is a mineral exploration and development company. The Company is advancing the Vares silver project in Bosnia & Herzegovina, as well as exploring prospective ground in other locations across the Balkans. Adriatic Metals is based in London, UK."
+  "summary": "Adriatic Metals PLC, through its subsidiaries, engages in the mineral exploration and development business in Bosnia and Herzegovina. The company explores for zinc, lead, barite, gold, silver, and copper deposits. Its flagship project is the Vares Silver Project located in the Federation of Bosnia and Herzegovina. The company was incorporated in 2017 and is based in Cheltenham, the United Kingdom.",
+  "website": "http://www.adriaticmetals.com"
 }

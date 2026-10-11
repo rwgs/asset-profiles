@@ -6,6 +6,7 @@
     "figi": "BBG00WGGW3R5",
     "isin": "GB00B040L800"
   },
+  "industry": "Professional Services",
   "industry_group": "Commercial & Professional Services",
   "isin": "GB00B040L800",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B040L800.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OSU.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "STAF.L"
     }
   ],
-  "name": "STAFFLINE GROUP PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Staffline Group plc",
   "primary_symbol": "GB00B040L800.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "STAFFLINE GROUP PLC provides recruitment and training services. Their business model involves matching job seekers with employers, and offering training programs to improve workforce skills, generating revenue through recruitment fees and training contracts. The company is headquartered in Nottingham, UK."
+  "summary": "STAFFLINE GROUP PLC provides recruitment and training services. Their business model involves matching job seekers with employers, and offering training programs to improve workforce skills, generating revenue through recruitment fees and training contracts. The company is headquartered in Nottingham, UK.",
+  "website": "http://www.stafflinegroupplc.co.uk"
 }

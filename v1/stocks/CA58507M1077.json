@@ -5,6 +5,7 @@
     "cusip": "58507M107",
     "isin": "CA58507M1077"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "CA58507M1077",
   "kind": "stock",
@@ -21,19 +22,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0JS.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "0JS.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "0JS.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "MMEN.CN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MMNFF"
     }
   ],
-  "name": "MEDMEN ENTERPRISES",
+  "market_cap_band": "Nano Cap",
+  "name": "MedMen Enterprises Inc.",
   "primary_symbol": "0JS.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MEDMEN ENTERPRISES is a cannabis company that cultivates, processes, distributes, and retails cannabis products. MedMen operates retail stores in several US states and offers a variety of cannabis brands and products. The company is focused on providing a premium retail experience for cannabis consumers."
+  "summary": "MEDMEN ENTERPRISES is a cannabis company that cultivates, processes, distributes, and retails cannabis products. MedMen operates retail stores in several US states and offers a variety of cannabis brands and products. The company is focused on providing a premium retail experience for cannabis consumers.",
+  "website": "http://www.medmen.com"
 }

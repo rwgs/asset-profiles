@@ -6,6 +6,7 @@
     "cusip": "68622C108",
     "isin": "CA68622C1086"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA68622C1086",
   "kind": "stock",
@@ -14,17 +15,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA68622C1086.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "ORGN.CN"
     }
   ],
-  "name": "ORIGEN RESOURCES INC",
+  "market_cap_band": "Nano Cap",
+  "name": "Origen Resources Inc.",
   "primary_symbol": "CA68622C1086.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Origen Resources Inc. is a mineral exploration company focused on the acquisition and development of mineral resource properties. The company focuses on base and precious metals projects. They are based in Canada."
+  "summary": "Origen Resources Inc. is a mineral exploration company focused on the acquisition and development of mineral resource properties. The company focuses on base and precious metals projects. They are based in Canada.",
+  "website": "http://www.origenresources.com"
 }

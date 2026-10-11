@@ -2,28 +2,42 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000C3FW02",
+    "composite_figi": "BBG00JHWBR70",
+    "figi": "BBG00JHWBR89",
     "isin": "NO0010751910"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "NO0010751910",
   "kind": "stock",
   "listings": [
     {
+      "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0RU6.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010751910.SG"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "SPOL.OL"
     }
   ],
-  "name": "SPAREBANK 1 OESTLANDET",
-  "primary_symbol": "NO0010751910.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Sparebank 1 Ostlandet",
+  "primary_symbol": "0RU6.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "SPAREBANK 1 OESTLANDET is a Norwegian regional bank offering a wide range of financial services to individuals and businesses. These services include loans, savings accounts, insurance, and investment products. The bank is headquartered in Hamar, Norway, and operates primarily in the Oestlandet region."
+  "summary": "SpareBank 1 Østlandet provides various financial products and services to individuals, businesses, public entities, teams, associations, and organisations. It operates through the Retail Division, Corporate Division, SpareBank 1 Finans Østlandet, EiendomsMegler 1 Østlandet, and SpareBank 1 ForretningsPartner Østlandet segments. The Retail segment offers financial services comprising savings, financing, payment processing, insurance, loss prevention, capital management, and investments. The Corporate segment provides hedging for interest and foreign exchange transactions, placement of surplus liquidity, insurance for individuals, pension solutions, as well as buildings and movable property for businesses; and delivers advisory solutions to private customers and businesses, and it also engages in foreign currency services. The SpareBank 1 Finans Østlandet's segment provides activities consisting of leasing and lending for private purchases of vehicles, including car loans for electric vehicles, as well as leasing and lending to corporate customers for vehicles and operating assets. The EiendomsMegler 1 Østlandet's segment offers activities consisting of advisory services and real estate brokerage in connection with the purchase and sale of residential property and real estate. The SpareBank 1 ForretningsPartner Østlandet's segment provides activities consisting of accounting services, advisory and consultancy services, including advisory services related to sustainability. SpareBank 1 Østlandet was founded in 1845 and is headquartered in Hamar, Norway.",
+  "website": "http://www.sparebank1.no"
 }

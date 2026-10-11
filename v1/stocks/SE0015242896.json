@@ -2,8 +2,6 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00YLVXT94",
-    "figi": "BBG00YLVXTH5",
     "isin": "SE0015242896"
   },
   "industry": "Chemicals",
@@ -12,31 +10,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "3JE.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "3JE.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "3JE.MU"
-    },
-    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "BIOGAS.ST"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "SC.BIOGAS FUELS INTL.O.N.",
-  "primary_symbol": "3JE.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Scandinavian Biogas Fuels International AB (publ)",
+  "primary_symbol": "BIOGAS.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -6,6 +6,7 @@
     "figi": "BBG00J5KLJ76",
     "isin": "AU000000KP25"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "AU000000KP25",
   "kind": "stock",
@@ -19,6 +20,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "KP1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KP1.F"
     },
     {
       "currency": "EUR",
@@ -39,17 +45,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "KP1.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "KP2.AX"
     }
   ],
-  "name": "KORE POTASH PLC CDI/1",
+  "market_cap_band": "Micro Cap",
+  "name": "Kore Potash plc",
   "primary_symbol": "KP1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Kore Potash PLC is an exploration and development company focused on potash projects. The company's primary focus is the development of its potash assets in the Sintoukola Basin, located in the Republic of Congo. The company is headquartered in Jersey, Channel Islands."
+  "summary": "Kore Potash PLC is an exploration and development company focused on potash projects. The company's primary focus is the development of its potash assets in the Sintoukola Basin, located in the Republic of Congo. The company is headquartered in Jersey, Channel Islands.",
+  "website": "http://korepotash.com"
 }

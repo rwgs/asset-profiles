@@ -2,7 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00L07HM73",
     "cusip": "44916T107",
+    "figi": "BBG00L07HM73",
     "isin": "US44916T1079"
   },
   "industry": "Commercial Services & Supplies",
@@ -34,13 +36,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "8HY.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HYREQ"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "HyreCar Inc.",
   "primary_symbol": "HYRE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

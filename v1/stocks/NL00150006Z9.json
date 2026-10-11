@@ -2,29 +2,37 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG00ZVW04Z0",
-    "figi": "BBG00ZVW0532",
+    "composite_figi": "BBG00ZTGBNR3",
+    "figi": "BBG00ZTGBNS2",
     "isin": "NL00150006Z9"
   },
+  "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
   "isin": "NL00150006Z9",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "AZRN.AS"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NL00150006Z9.SG"
     }
   ],
-  "name": "AZERION GROUP N.V.",
-  "primary_symbol": "NL00150006Z9.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Azerion Group N.V.",
+  "primary_symbol": "AZRN.AS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "AZERION GROUP N.V. is a pan-European digital entertainment and media platform company. Headquartered in the Netherlands, they create, distribute, and monetize digital games and content. Azerion’s offerings include games, advertising, and digital publishing solutions."
+  "summary": "AZERION GROUP N.V. is a pan-European digital entertainment and media platform company. Headquartered in the Netherlands, they create, distribute, and monetize digital games and content. Azerion’s offerings include games, advertising, and digital publishing solutions.",
+  "website": "https://www.azerion.com"
 }

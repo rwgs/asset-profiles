@@ -2,29 +2,42 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG00PGLZ1J9",
-    "figi": "BBG00PGLZ1N4",
+    "composite_figi": "BBG00P95F0L3",
+    "figi": "BBG00P95F0M2",
     "isin": "HK0000504214"
   },
-  "industry_group": "Banks",
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "isin": "HK0000504214",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3877.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3LL.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HK0000504214.SG"
     }
   ],
-  "name": "CSSC HONG KONG SHIPPING CO L",
-  "primary_symbol": "HK0000504214.SG",
+  "market_cap_band": "Small Cap",
+  "name": "CSSC (Hong Kong) Shipping Company Limited",
+  "primary_symbol": "3877.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "CSSC Hong Kong Shipping Company Limited is a financial leasing company. The company provides ship leasing and other related financial services to the shipping industry. CSSC Hong Kong Shipping is based in Hong Kong."
+  "sector": "Industrials",
+  "summary": "CSSC (Hong Kong) Shipping Company Limited operates as a shipyard-affiliated leasing company in People Republic of China, Asia, the United States, and Europe. It operates through Leasing Services, Shipbroking Services, and Loan Borrowings segments. The company provides leasing services, such as finance and operating lease. It also offers shipbroking services; and loan services comprising pre-delivery loan, secured loan, and factoring services. As of December 31, 2020, the company had 136 vessels, including 90 vessels were operating and 46 vessels were under construction. The company was incorporated in 2012 and is headquartered in Central, Hong Kong.",
+  "website": "http://www.csscshipping.net"
 }

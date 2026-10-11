@@ -1,31 +1,49 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000R4RP97",
     "cusip": "74365J102",
-    "figi": "BBG000R4RR57",
+    "figi": "BBG000R4RPQ8",
     "isin": "CA74365J1021"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "CA74365J1021",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5D00.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA74365J1021.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MAPPF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "MAPS.V"
     }
   ],
-  "name": "PROSTAR HOLDINGS INC",
-  "primary_symbol": "CA74365J1021.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "ProStar Holdings Inc.",
+  "primary_symbol": "5D00.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "ProStar Holdings Inc. develops and sells precision mapping solutions. They offer products used for the management and maintenance of critical infrastructure assets. The company focuses on the utilities sector."
+  "sector": "Information Technology",
+  "summary": "ProStar Geocorp, Inc. develops geospatial intelligence software. It provides Transparent Earth, a software-as-a-service solution that enables real time access to critical information where and when it is most needed, including in the office or out in the field; and PointMan, a mobile software application that enables field personnel to capture precise asset location data from a mobile device. The company was incorporated in 2014 and is based in Grand Junction, Colorado with an additional office in Boulder, Colorado.",
+  "website": "http://www.prostarcorp.com"
 }

@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG002DMT2T5",
-    "figi": "BBG002DMT2T5",
+    "composite_figi": "BBG000BDSC92",
+    "figi": "BBG000BDSCW6",
     "isin": "BMG9231L1081"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -12,22 +12,27 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0467.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "UNEGF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Small Cap",
   "name": "United Energy Group Limited",
-  "primary_symbol": "UNEGF",
+  "primary_symbol": "0467.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "United Energy Group Limited, an investment holding company, engages in the investment and operation of upstream oil, natural gas, and other energy related businesses in South Asia, the Middle East, and North Africa. The company explores for and produces crude oil and natural gas. As of December 31, 2020, its proven recoverable reserves consisted of 1,073.9 million barrels of oil equivalent. United Energy Group Limited is headquartered in Admiralty, Hong Kong.",
+  "summary": "United Energy Group Limited is an investment holding company active in upstream oil and gas, clean energy and energy trading. Its markets span Pakistan, South Asia, North Africa and the Middle East. It reports exploration and production and trading segments, trades energy products such as petrochemicals, and builds and operates solar power facilities.",
   "website": "http://www.uegl.com.hk"
 }

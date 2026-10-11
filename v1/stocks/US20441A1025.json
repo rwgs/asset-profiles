@@ -19,30 +19,35 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SAJA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SAJA.F"
     },
     {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "SBS.BA"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SAJA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SAJA.SG"
     },
     {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "SBSN.MX"
-    },
-    {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "SBSP3.SA"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Companhia de Saneamento Basico do Estado de Sao Paulo - SABESP",
   "primary_symbol": "SBS",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

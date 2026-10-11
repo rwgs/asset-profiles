@@ -1,8 +1,12 @@
 {
   "country": "Thailand",
   "country_code": "TH",
-  "industry": "Distributors",
-  "industry_group": "Retailing",
+  "identifiers": {
+    "composite_figi": "BBG000NS3R54",
+    "figi": "BBG000NS3RC6"
+  },
+  "industry": "Containers & Packaging",
+  "industry_group": "Materials",
   "kind": "stock",
   "listings": [
     {
@@ -15,12 +19,13 @@
   "name": "Thai Coating Industrial Public Company Limited",
   "primary_symbol": "TCOAT-R.BK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Thai Coating Industrial Public Company Limited, together with its subsidiaries, manufactures and sells plastic sacks and beads in Thailand. It also exports its products. Thai Coating Industrial Public Company Limited was incorporated in 1978 and is headquartered in Prachinburi, Thailand."
+  "sector": "Materials",
+  "summary": "Thai Coating Industrial Public Company Limited, together with its subsidiaries, manufactures and sells plastic sacks and beads in Thailand. It also exports its products. Thai Coating Industrial Public Company Limited was incorporated in 1978 and is headquartered in Prachinburi, Thailand.",
+  "website": "http://www.tcoat.co.th"
 }

@@ -3,27 +3,41 @@
   "country_code": "DK",
   "identifiers": {
     "composite_figi": "BBG009BC4NZ8",
+    "figi": "BBG009DQMCX1",
     "isin": "DK0060945467"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Entertainment",
+  "industry_group": "Media & Entertainment",
   "isin": "DK0060945467",
   "kind": "stock",
   "listings": [
     {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "5PG.OL"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DK0060945467.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "IDGAF"
     }
   ],
-  "name": "5TH PLANET GAMES A/S",
-  "primary_symbol": "DK0060945467.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "5th Planet Games A/S",
+  "primary_symbol": "5PG.OL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "5th Planet Games A/S develops and publishes mobile games. The company focuses on games based on popular brands and intellectual properties, targeting a broad audience of mobile gamers, and is headquartered in Copenhagen, Denmark. Its business model involves licensing well-known brands and developing engaging mobile games to generate revenue through in-app purchases and advertising."
+  "sector": "Communications",
+  "summary": "5th Planet Games A/S develops and publishes mobile games. The company focuses on games based on popular brands and intellectual properties, targeting a broad audience of mobile gamers, and is headquartered in Copenhagen, Denmark. Its business model involves licensing well-known brands and developing engaging mobile games to generate revenue through in-app purchases and advertising.",
+  "website": "https://www.5thplanetgames.com"
 }

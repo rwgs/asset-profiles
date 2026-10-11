@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "GRS426003000"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
   "industry_group": "Energy",
   "isin": "GRS426003000",
   "kind": "stock",
@@ -15,19 +16,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MHZ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MHZ.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MHZ.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ASEX",
+      "symbol": "MOH.AT"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MOHCF"
     }
   ],
-  "name": "MOTOR OIL (HELLAS) CORINTH REFINERIES S.A.",
+  "market_cap_band": "Mid Cap",
+  "name": "Motor Oil (Hellas) Corinth Refineries S.A.",
   "primary_symbol": "0MQT.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "Motor Oil (Hellas) Corinth Refineries S.A. is a Greek oil refining company. It operates a refinery complex near Corinth and is involved in the marketing and distribution of petroleum products. The company is headquartered in Maroussi, Greece."
+  "summary": "Motor Oil (Hellas) Corinth Refineries S.A. is a Greek oil refining company. It operates a refinery complex near Corinth and is involved in the marketing and distribution of petroleum products. The company is headquartered in Maroussi, Greece.",
+  "website": "http://www.moh.gr"
 }

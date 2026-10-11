@@ -6,6 +6,7 @@
     "figi": "BBG000QN5JJ3",
     "isin": "GB00B0923P27"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "GB00B0923P27",
   "kind": "stock",
@@ -14,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B0923P27.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NZCA.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "PXS.L"
     }
   ],
-  "name": "PROVEXIS PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "Provexis plc",
   "primary_symbol": "GB00B0923P27.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "PROVEXIS PLC is a specialty pharmaceutical company focused on developing and commercializing prescription medicines for gastrointestinal disorders. Their business model involves developing and marketing innovative treatments to healthcare providers, generating revenue through sales of their pharmaceutical products. The company's headquarters are in Basingstoke, UK."
+  "summary": "PROVEXIS PLC is a specialty pharmaceutical company focused on developing and commercializing prescription medicines for gastrointestinal disorders. Their business model involves developing and marketing innovative treatments to healthcare providers, generating revenue through sales of their pharmaceutical products. The company's headquarters are in Basingstoke, UK.",
+  "website": "http://www.provexis.org"
 }

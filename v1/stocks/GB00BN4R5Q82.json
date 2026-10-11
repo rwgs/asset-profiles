@@ -2,29 +2,42 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG005945MB4",
-    "figi": "BBG005945MG9",
+    "composite_figi": "BBG00579Y6N5",
+    "figi": "BBG00579Y771",
     "isin": "GB00BN4R5Q82"
   },
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "GB00BN4R5Q82",
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "EMVC.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BN4R5Q82.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NTK1.F"
     }
   ],
-  "name": "NETSCIENTIFIC PLC",
-  "primary_symbol": "GB00BN4R5Q82.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "EMV Capital plc",
+  "primary_symbol": "EMVC.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "NetScientific PLC is an investment group focused on investing in and developing companies in the healthcare, sustainability and technology sectors. The company seeks to build and commercialize innovative technologies and solutions. NetScientific PLC is headquartered in London, UK."
+  "sector": "Financials",
+  "summary": "EMV Capital plc operates as a venture capital firm, primarily targeting investments across the full spectrum of early-stage funding, from seed rounds through to mid-stage and growth capital. Its investment mandate spans diverse high-growth sectors, including sustainability, life science, technology, transformative biomedical, deep tech, semiconductors, industrials, robotics, and artificial intelligence. The firm also places a strong emphasis on healthcare technologies, particularly digital health, diagnostics, and therapeutics, with a specific focus on ventures that enhance the lives and health outcomes of individuals battling chronic illnesses. Within digital health, core interests lie in data analytics, advanced wearable devices, and other related technologies. Geographically, EMV Capital seeks opportunities within developed European markets, including its home base in the United Kingdom, as well as the United States. While typical investment sizes reach up to £15 million (approximately $20.32 million), the firm retains the flexibility to commit larger sums. A strategic preference is to secure a controlling stake in key subsidiary companies, with investments primarily executed via its balance sheet. Established in 2008, EMV Capital plc operates from its headquarters in London, UK, with an additional presence in Beaconsfield.",
+  "website": "https://www.emvcapital.com"
 }

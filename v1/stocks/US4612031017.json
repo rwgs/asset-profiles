@@ -7,6 +7,7 @@
     "figi": "BBG000GLMDP5",
     "isin": "US4612031017"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US4612031017",
   "kind": "stock",
@@ -18,19 +19,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IV3.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US4612031017.SG"
     }
   ],
-  "name": "INVACARE CORPORATION",
+  "market_cap_band": "Small Cap",
+  "name": "Invacare Corporation",
   "primary_symbol": "IV3.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Invacare Corporation manufactures and distributes medical equipment used in non-acute care settings. Their products include wheelchairs, respiratory products, and other home healthcare equipment. The company is headquartered in Elyria, Ohio."
+  "summary": "Invacare Corporation manufactures and distributes medical equipment used in non-acute care settings. Their products include wheelchairs, respiratory products, and other home healthcare equipment. The company is headquartered in Elyria, Ohio.",
+  "website": "http://www.invacare.com"
 }

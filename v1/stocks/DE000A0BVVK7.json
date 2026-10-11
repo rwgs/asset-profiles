@@ -1,33 +1,48 @@
 {
-  "country": "Germany",
-  "country_code": "DE",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG000C0CVQ5",
-    "figi": "BBG000C0CW92",
+    "figi": "BBG000C0CYY0",
     "isin": "DE000A0BVVK7"
   },
-  "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "DE000A0BVVK7",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HEMP.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HEMP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HEMP.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HEMP.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Deutsche Cannabis AG",
-  "primary_symbol": "HEMP.F",
+  "primary_symbol": "HEMP.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Deutsche Cannabis AG engages in the acquisition, sale, and management of investments in cannabis industry primarily in Germany. It also focuses on the investment in the renewable energy sector, such as photovoltaics and cogeneration. The company was formerly known as F.A.M.E. AG and changed its name to Deutsche Cannabis AG in December 2014. Deutsche Cannabis AG was founded in 1999 and is based in Hamburg, Germany.",
+  "sector": "Consumer Staples",
+  "summary": "Deutsche Cannabis AG is a German company that operates in the cannabis industry. It focuses on the cultivation, processing, and distribution of cannabis products for medical and recreational purposes. The company is headquartered in Germany.",
   "website": "http://www.deutschecannabis.com"
 }

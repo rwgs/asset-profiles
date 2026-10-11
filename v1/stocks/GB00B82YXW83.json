@@ -2,28 +2,57 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BDBLH1",
+    "composite_figi": "BBG000C7DP73",
+    "figi": "BBG000C7DP73",
     "isin": "GB00B82YXW83"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "GB00B82YXW83",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CKSNF"
+    },
+    {
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00B82YXW83.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "V4S.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "V4S.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "V4S.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "VSVS.L"
     }
   ],
-  "name": "VESUVIUS PLC",
-  "primary_symbol": "GB00B82YXW83.SW",
+  "market_cap_band": "Small Cap",
+  "name": "Vesuvius plc",
+  "primary_symbol": "CKSNF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "VESUVIUS PLC provides engineering services and systems to the steel and foundry industries. Their business model involves supplying consumable products and services to improve the efficiency and quality of metal production, generating revenue through product sales and service contracts. The company is headquartered in London, UK."
+  "sector": "Materials",
+  "summary": "Vesuvius plc provides engineering services and solutions principally to steel and foundry industries worldwide. It operates in two segments, Steel and Foundry. The company offers foundry consumables and equipment, including binders, coatings, feeding systems, filtration and gating systems, melt shop refractories, metallurgical and pouring control systems, die dressings and coatings, melt treatment products, crucibles, and ceramics for the iron, steel, and nonferrous foundries. It also provides nonferrous metals, such as primary and secondary aluminum, copper, and other metals and alloys; cement and lime solutions, iron ore pelletizing and calcination products, and grains and powders; and process heaters, FCC units, hydrogen reformers, boilers, coke calciners, and thermal oxidizers, as well as sulphur, ethylene, and ammonia plants. In addition, the company offers solutions for power generation and incineration; glass products comprising artistic, display, float, hollow, and optical glass; glass tempering, and reheat and forming products; and solutions for solar multi-crystal silicon ingots, thin film and cell processing, and feedstock. Further, it provides solutions for blast furnace stack repair; taphole clay, iron and slang runner, sampler and temperature, tilting runner, and torpedo ladle solutions; iron ladle solutions; lining, taphole system, bath agitation and tuyere system, electric arc furnace and BOF maintenance, and metallurgical sensor solutions; and ladle, ladle to tundish, and tundish solutions, as well as tundish to mold solutions for conventional slab, thin and slim slab, beam blank, flow control valve bloom or billet, and calibrated nozzle billet casters. Additionally, the company offers ingot casting solutions; and reheat furnace, steel hot forming, galvanized steel, and electrical and stainless steel solutions. Vesuvius plc was founded in 1916 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.vesuvius.com"
 }

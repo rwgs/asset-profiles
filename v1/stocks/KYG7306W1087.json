@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG005M0HD97",
-    "figi": "BBG005M0HDB4",
+    "composite_figi": "BBG005GSB7G4",
+    "figi": "BBG005GSB7H3",
     "isin": "KYG7306W1087"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1358.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PWE.F"
@@ -19,15 +24,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "PW Medtech Group Limited",
-  "primary_symbol": "PWE.F",
+  "primary_symbol": "1358.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "PW Medtech Group Limited, an investment holding company, operates as a medical device company in the People's Republic of China. It manufactures and sells infusion sets, such as non-PVC-based infusion sets, precision filter infusion sets, light resistant infusion sets, and intravenous cannula products, as well as human plasma-based biopharmaceutical products. The company was formerly known as Pyholding Limited. PW Medtech Group Limited was founded in 1997 and is headquartered in Beijing, the People's Republic of China.",
+  "summary": "PW Medtech Group Limited is an investment holding company in the medical device industry in China. It makes and distributes medical consumables, including intravenous cannulas and infusion sets of non-PVC, light-resistant and precision filter types.",
   "website": "http://www.pwmedtech.com"
 }

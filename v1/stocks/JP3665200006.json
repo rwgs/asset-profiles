@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C1TL23",
-    "figi": "BBG000C1TNH3",
+    "composite_figi": "BBG000BFWT31",
+    "figi": "BBG000BFWVN4",
     "isin": "JP3665200006"
   },
+  "industry": "Food Products",
   "industry_group": "Food, Beverage & Tobacco",
   "isin": "JP3665200006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "2871.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,19 +28,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NI3.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NI3.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Nichirei Corporation",
-  "primary_symbol": "NI3.BE",
+  "primary_symbol": "2871.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Nichirei Corporation is a Japanese food company that produces and sells frozen foods, processed foods, marine products, and livestock products. The company also operates a logistics business that provides temperature-controlled transportation and storage services. Nichirei is headquartered in Tokyo, Japan."
+  "summary": "Nichirei Corporation engages in the processed foods, marine products, meat and poultry products, logistics, real estate, and biosciences businesses in Japan. It offers frozen foods, acerola products, packed ice, agricultural processed foods, wellness foods, and retort-pouch foods. The company also provides refrigerated warehouse, transport, delivery, and logistics consulting services, as well as produces and sells ice. In addition, it rents and manages office building space and parking lots; sells housing land; provides construction work and planning services; and engages in cell biotechnology and functional materials business. The company was formerly known as Nippon Reizo Co. Ltd. and changed its name to Nichirei Corporation in February 1985. The company was founded in 1942 and is headquartered in Tokyo, Japan.",
+  "website": "http://www.nichirei.co.jp"
 }

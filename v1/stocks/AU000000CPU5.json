@@ -2,29 +2,47 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000BSCWS1",
-    "figi": "BBG000BSCZ68",
+    "composite_figi": "BBG000BRK1H4",
+    "figi": "BBG000BRK1H4",
     "isin": "AU000000CPU5"
   },
-  "industry_group": "Insurance",
+  "industry": "IT Services",
+  "industry_group": "Software & Services",
   "isin": "AU000000CPU5",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CMSQF"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "CPU.AX"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "QCH.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "QCH.F"
     }
   ],
-  "name": "COMPUTERSHARE LTD.",
-  "primary_symbol": "QCH.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Computershare Limited",
+  "primary_symbol": "CMSQF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "Computershare Limited provides investor services and technology solutions to companies and financial institutions. Their services include registry maintenance, stakeholder communications, and corporate actions. The company is headquartered in Melbourne, Australia."
+  "sector": "Information Technology",
+  "summary": "Computershare Limited provides issuer service, mortgage service, employee equity plans, communication, business, stakeholder relationship management, and technology services in Australia, the United States, the United Kingdom, Canada, Asia, and internationally. The company's issuer services comprise the provision of registry maintenance corporate actions, stakeholder relationship management, corporate governance, and related services; mortgage services and property rental, and tenant bond protection service; employee share plans and voucher services include administration and related services for employee share and option plans, and childcare voucher administration services; and business services comprise the provision of bankruptcy, class action, and corporate trust administration services. Its communication services and utilities operations consist of document composition and printing, intelligent mailing, inbound process automation, scanning, and electronic delivery; and technology services consist of the provision of software in share registry and financial services. The company was founded in 1978 and is based in Abbotsford, Australia.",
+  "website": "http://www.computershare.com"
 }

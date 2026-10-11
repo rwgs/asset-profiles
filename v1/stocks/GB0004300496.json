@@ -2,14 +2,30 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000F5YJT1",
-    "figi": "BBG000F5YMT4",
+    "composite_figi": "BBG000DK3051",
+    "figi": "BBG000DK30N1",
     "isin": "GB0004300496"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "GB0004300496",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "PAF.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "PAFRF"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "PAN.JO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +33,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RTZ.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "RTZ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RTZ.SG"
     }
   ],
-  "name": "PAN AFRICAN RES  LS -,01",
-  "primary_symbol": "RTZ.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Pan African Resources PLC",
+  "primary_symbol": "PAF.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Pan African Resources PLC is a gold producer with operations in South Africa. The company engages in exploration, development, and operation of gold mines. Pan African Resources is headquartered in Johannesburg, South Africa."
+  "summary": "Pan African Resources PLC engages in the exploration of precious metals in South Africa. Its principal property is the Barberton gold project that consists of three underground mines, including Fairview, Sheba, and New Consort located in the Mpumalanga Province, as well as holds interests in Evander mines. Pan African Resources PLC was incorporated in 2000 and is headquartered in Johannesburg, South Africa.",
+  "website": "http://www.panafricanresources.com"
 }

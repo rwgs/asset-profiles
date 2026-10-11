@@ -6,6 +6,7 @@
     "figi": "BBG00WGGW000",
     "isin": "GB00B021F836"
   },
+  "industry": "Food & Staples Retailing",
   "industry_group": "Food & Staples Retailing",
   "isin": "GB00B021F836",
   "kind": "stock",
@@ -14,17 +15,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B021F836.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MWJ.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "NWINF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "WINE.L"
     }
   ],
-  "name": "NAKED WINES PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Naked Wines plc",
   "primary_symbol": "GB00B021F836.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "NAKED WINES PLC is an online wine retailer that connects independent winemakers with wine drinkers. Their business model involves offering exclusive wines at affordable prices by cutting out the middleman, generating revenue through membership fees and wine sales. The company is headquartered in Norwich, UK."
+  "summary": "NAKED WINES PLC is an online wine retailer that connects independent winemakers with wine drinkers. Their business model involves offering exclusive wines at affordable prices by cutting out the middleman, generating revenue through membership fees and wine sales. The company is headquartered in Norwich, UK.",
+  "website": "http://www.nakedwinesplc.co.uk"
 }

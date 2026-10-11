@@ -1,6 +1,10 @@
 {
   "country": "Thailand",
   "country_code": "TH",
+  "identifiers": {
+    "composite_figi": "BBG000KC7GX1",
+    "figi": "BBG000KC7LH8"
+  },
   "industry_group": "Materials",
   "kind": "stock",
   "listings": [
@@ -10,15 +14,17 @@
       "symbol": "PKW.MU"
     }
   ],
-  "name": "POLYPLEX (TH) -FGN-  BA1",
+  "market_cap_band": "Small Cap",
+  "name": "Polyplex (Thailand) Public Company Limited",
   "primary_symbol": "PKW.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Polyplex (Thailand) Public Company Limited is a manufacturer of polyester films (PET) used for packaging, industrial, and other applications. The company, headquartered in Thailand, exports its products globally. They produce a wide range of PET films, including thin, thick, and specialty films."
+  "summary": "Polyplex (Thailand) Public Company Limited is a manufacturer of polyester films (PET) used for packaging, industrial, and other applications. The company, headquartered in Thailand, exports its products globally. They produce a wide range of PET films, including thin, thick, and specialty films.",
+  "website": "http://www.polyplexthailand.com"
 }

@@ -3,7 +3,7 @@
   "country_code": "HU",
   "identifiers": {
     "composite_figi": "BBG001M9K475",
-    "figi": "BBG001M9K4C9",
+    "figi": "BBG001M9K484",
     "isin": "HU0000170824"
   },
   "isin": "HU0000170824",
@@ -11,14 +11,30 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8PL2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8PL2.MU"
+    },
+    {
+      "currency": "HUF",
+      "exchange_mic": "XBUD",
+      "symbol": "AKKO.BD"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HU0000170824.SG"
     }
   ],
-  "name": "AKKO INVEST PLC",
-  "primary_symbol": "HU0000170824.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "AKKO Invest Nyrt.",
+  "primary_symbol": "8PL2.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

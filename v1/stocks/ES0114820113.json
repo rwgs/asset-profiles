@@ -2,9 +2,11 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
+    "composite_figi": "BBG00JHVX914",
+    "figi": "BBG00JHVX923",
     "isin": "ES0114820113"
   },
-  "industry": "Entertainment",
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "ES0114820113",
   "kind": "stock",
@@ -33,13 +35,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "VON.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VON.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Vocento, S.A.",
   "primary_symbol": "0KDD.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

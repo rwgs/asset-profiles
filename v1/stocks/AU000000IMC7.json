@@ -6,6 +6,7 @@
     "figi": "BBG000FG92W8",
     "isin": "AU000000IMC7"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "AU000000IMC7",
   "kind": "stock",
@@ -17,19 +18,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ANW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ANW.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU000000IMC7.SG"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "IMC.AX"
     }
   ],
-  "name": "IMMURON LTD",
+  "market_cap_band": "Nano Cap",
+  "name": "Immuron Limited",
   "primary_symbol": "ANW.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "IMMURON LTD is a biopharmaceutical company focused on developing and commercializing bovine colostrum-derived products for gut health. Their primary product Travelan is designed to prevent travelers' diarrhea. The company is headquartered in Australia."
+  "summary": "IMMURON LTD is a biopharmaceutical company focused on developing and commercializing bovine colostrum-derived products for gut health. Their primary product Travelan is designed to prevent travelers' diarrhea. The company is headquartered in Australia.",
+  "website": "http://www.immuron.com.au"
 }

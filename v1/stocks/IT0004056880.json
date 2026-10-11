@@ -4,7 +4,7 @@
   "identifiers": {
     "isin": "IT0004056880"
   },
-  "industry": "Health Care Equipment & Supplies",
+  "industry": "Health Care Providers & Services",
   "industry_group": "Health Care Equipment & Services",
   "isin": "IT0004056880",
   "kind": "stock",
@@ -13,6 +13,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0N61.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AMFPF"
     },
     {
       "currency": "EUR",
@@ -43,13 +48,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "AXNA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AXNA.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Amplifon S.p.A.",
   "primary_symbol": "0N61.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

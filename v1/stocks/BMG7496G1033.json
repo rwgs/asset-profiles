@@ -3,27 +3,47 @@
   "country_code": "BM",
   "identifiers": {
     "composite_figi": "BBG000BFVZ83",
+    "cusip": "G7496G103",
+    "figi": "BBG000BFW132",
     "isin": "BMG7496G1033"
   },
+  "industry": "Insurance",
   "industry_group": "Insurance",
   "isin": "BMG7496G1033",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "RNR"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BMG7496G1033.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RRJ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RRJ.F"
     }
   ],
-  "name": "RENAISSANCERE HOLDINGS LTD",
-  "primary_symbol": "BMG7496G1033.SG",
+  "market_cap_band": "Large Cap",
+  "name": "RenaissanceRe Holdings Ltd.",
+  "primary_symbol": "RNR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "RenaissanceRe Holdings Ltd. is a global provider of reinsurance and insurance. The company offers a range of products and services to help clients manage risks, including property, casualty, and specialty lines of business, with headquarters in Pembroke, Bermuda. They utilize their expertise in underwriting, risk management, and capital management to deliver innovative solutions to insurers and reinsurers worldwide."
+  "summary": "RenaissanceRe Holdings Ltd. provides reinsurance and insurance products in the United States and internationally. The company operates through Property, and Casualty and Specialty segments. The Property segment writes property catastrophe excess of loss reinsurance and excess of loss retrocessional reinsurance to insure insurance and reinsurance companies against natural and man-made catastrophes, including hurricanes, earthquakes, and other windstorms, as well as claims arising from other natural and man-made catastrophes comprising tsunamis, winter storms, freezes, floods, fires, tornadoes, explosions, and acts of terrorism; and other property class of products, such as proportional reinsurance, property per risk, property reinsurance, and binding facilities and regional U.S. multi-line reinsurance. The Casualty and Specialty segment writes various classes of products, such as directors and officers, medical malpractice, and professional indemnity; automobile and employer's liability, casualty clash, umbrella or excess casualty, workers' compensation, and general liability; financial and mortgage guaranty, political risk, surety, and trade credit; and accident and health, agriculture, aviation, cyber, energy, marine, satellite, and terrorism. It distributes its products and services primarily through intermediaries. RenaissanceRe Holdings Ltd. was founded in 1993 and is headquartered in Pembroke, Bermuda.",
+  "website": "http://www.renre.com"
 }

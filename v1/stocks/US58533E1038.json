@@ -2,9 +2,9 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00LLV9WV7",
+    "composite_figi": "BBG00XTVNVF7",
     "cusip": "58533E103",
-    "figi": "BBG00LLV9WW6",
+    "figi": "BBG00XTVNVG6",
     "isin": "US58533E1038"
   },
   "industry": "Internet & Direct Marketing Retail",
@@ -13,41 +13,6 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "HKD",
-      "exchange_mic": "XHKG",
-      "symbol": "3690.HK"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "3690N.MX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XBER",
-      "symbol": "9MD.BE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "9MD.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "9MD.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "9MD.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "9MD.SG"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "9MDA.F"
@@ -55,19 +20,14 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "MPNGF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "MPNGY"
     }
   ],
-  "market_cap_band": "Mega Cap",
+  "market_cap_band": "Large Cap",
   "name": "Meituan",
-  "primary_symbol": "3690.HK",
+  "primary_symbol": "9MDA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -27,19 +27,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S2S.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "S2S.SG"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Sprott Physical Silver Trust",
   "primary_symbol": "PSLV",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Sprott Physical Silver Trust is a closed-end fund that invests primarily in physical silver bullion. The trust offers investors a convenient way to gain exposure to silver without the complexities of buying and storing physical metal. Sprott Physical Silver Trust is based in Toronto, Canada."
+  "summary": "Sprott Physical Silver Trust is a closed-end fund that invests primarily in physical silver bullion. The trust offers investors a convenient way to gain exposure to silver without the complexities of buying and storing physical metal. Sprott Physical Silver Trust is based in Toronto, Canada.",
+  "website": "https://sprott.com"
 }

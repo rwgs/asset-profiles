@@ -2,9 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000M9D590",
-    "cusip": "Q5781L109",
-    "figi": "BBG000M9D652",
+    "composite_figi": "BBG000P415J0",
+    "figi": "BBG000P41653",
     "isin": "AU0000054587"
   },
   "industry": "Metals & Mining",
@@ -13,16 +12,21 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CQ4.F"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "MAN.AX"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Mandrake Resources Limited",
-  "primary_symbol": "MAN.AX",
+  "primary_symbol": "CQ4.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

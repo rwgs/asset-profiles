@@ -2,29 +2,37 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG00F3ZDBJ6",
-    "figi": "BBG00F3ZDBN1",
+    "composite_figi": "BBG005HGTSM7",
+    "figi": "BBG00DZWSDQ5",
     "isin": "HK0000311099"
   },
+  "industry": "Pharmaceuticals",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "HK0000311099",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3320.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "640.SG"
     }
   ],
-  "name": "China Resources Pharm.Grp.Ltd.R",
-  "primary_symbol": "640.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "China Resources Pharmaceutical Group Ltd.",
+  "primary_symbol": "3320.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "China Resources Pharm.Grp.Ltd.R is a large pharmaceutical company in China engaged in manufacturing, distribution, and retail of pharmaceutical products and healthcare services. The group has a comprehensive portfolio of pharmaceutical products, including prescription drugs, over-the-counter medications, and traditional Chinese medicines. The company is headquartered in Hong Kong."
+  "summary": "China Resources Pharmaceutical Group Limited is an investment holding company that manufactures, distributes and retails pharmaceutical and healthcare products in mainland China and internationally. It has four segments: Pharmaceutical Manufacturing, Distribution, Retail and Others. Its products include chemical drugs, Chinese medicines, biological drugs and nutritional products.",
+  "website": "https://www.crpharm.com"
 }

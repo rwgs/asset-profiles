@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000C2VPN6",
-    "figi": "BBG000C2VSZ7",
+    "composite_figi": "BBG000BTG7G3",
+    "figi": "BBG000BTG7M6",
     "isin": "JP3814000000"
   },
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "isin": "JP3814000000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "4901.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FJI.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "FJI.MU"
     },
@@ -29,17 +40,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "FJI.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "FJI.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FUJIF"
     }
   ],
-  "name": "FUJIFILM Holdings Corp.",
-  "primary_symbol": "FJI.BE",
+  "market_cap_band": "Large Cap",
+  "name": "FUJIFILM Holdings Corporation",
+  "primary_symbol": "4901.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "FUJIFILM HOLDINGS CORP. is a Japanese multinational conglomerate company that operates in various fields including imaging, healthcare, and document solutions. They develop, manufacture, and sell a wide range of products such as photographic films, medical equipment, and office printers. Fujifilm is headquartered in Tokyo, Japan."
+  "sector": "Industrials",
+  "summary": "FUJIFILM Holdings Corporation develops, manufactures, sells, and services imaging, healthcare and material, and document solutions worldwide. Its Imaging Solutions segment offers color films, instant cameras, developing and printing systems, color papers, and photo printing services; and TV and cinema lenses, surveillance cameras, industrial lenses for production line inspection, and projectors. The company's Healthcare & Material Solutions segment provides products and services, such as medical devices, biomedical contract development and manufacturing organization, pharmaceutical, regenerative medicine, and cosmetics and supplements in the three areas of prevention, diagnosis, and treatment. This segment offers inkjet digital presses and printing plates for printing industries, as well as industrial inkjet-related products and inkjet heads; storage media and archiving services to save and manage digital data volumes; and materials for industrials, including display and touch panel, semiconductor and image sensor, and functional film materials. Its Document Solutions provides devices and services used in offices, including digital multifunction devices, printers, software, and cloud services; workflow solutions for printing companies and others in the graphical communications sector; and document services tailored to diverse business formats and roles, including system integration, business process outsourcing, and others FUJIFILM Holdings Corporation was founded in 1934 and is headquartered in Tokyo, Japan.",
+  "website": "http://holdings.fujifilm.com"
 }

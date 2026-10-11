@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BFW436",
     "isin": "FR0014003TT8"
   },
+  "industry": "Software",
   "industry_group": "Software & Services",
   "isin": "FR0014003TT8",
   "kind": "stock",
@@ -13,17 +14,39 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0HB4.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DASTF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "DSY.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "DSY.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "DSYN.MX"
     }
   ],
-  "name": "DASSAULT SYSTEMES SE DASSAULT S",
+  "market_cap_band": "Large Cap",
+  "name": "Dassault Systemes SE",
   "primary_symbol": "0HB4.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Dassault Systèmes SE is a French software company that develops 3D design, engineering, and product lifecycle management (PLM) solutions. The company's software is used by companies in various industries, including aerospace, automotive, and manufacturing. Dassault Systèmes SE is headquartered in Vélizy-Villacoublay, France."
+  "summary": "Dassault Systèmes SE is a French software company that develops 3D design, engineering, and product lifecycle management (PLM) solutions. The company's software is used by companies in various industries, including aerospace, automotive, and manufacturing. Dassault Systèmes SE is headquartered in Vélizy-Villacoublay, France.",
+  "website": "http://www.3ds.com"
 }

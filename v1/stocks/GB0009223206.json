@@ -7,7 +7,7 @@
     "figi": "BBG000C2W4K5",
     "isin": "GB0009223206"
   },
-  "industry": "Health Care Technology",
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "GB0009223206",
   "kind": "stock",
@@ -19,18 +19,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NPW1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "NPW1.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NPW1.F"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "NPW1.SG"
+      "exchange_mic": "XHAN",
+      "symbol": "NPW1.HA"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NPWA.F"
+      "exchange_mic": "XSTU",
+      "symbol": "NPW1.SG"
     },
     {
       "currency": "GBP",
@@ -47,7 +57,7 @@
   "name": "Smith & Nephew plc",
   "primary_symbol": "SNN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

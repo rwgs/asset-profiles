@@ -6,6 +6,7 @@
     "figi": "BBG00328L1B5",
     "isin": "PLGTC0000037"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "isin": "PLGTC0000037",
   "kind": "stock",
@@ -24,17 +25,29 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "G91.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "G91.SG"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "GTC.WA"
     }
   ],
-  "name": "GLOBE TRADE CENTRE ZY 0,1",
+  "market_cap_band": "Small Cap",
+  "name": "Globe Trade Centre S.A.",
   "primary_symbol": "G91.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "GLOBE TRADE CENTRE ZY 0,1 is likely a ticker for Globe Trade Centre S.A., a real estate company focused on property development and investment in Central and Eastern Europe, but the limited information provided prevents a more detailed description. Headquartered in Warsaw, Poland, the company develops and manages office and retail properties."
+  "summary": "Globe Trade Centre S.A. is a real estate company focused on property development and investment in Central and Eastern Europe. Headquartered in Warsaw, Poland, the company develops and manages office and retail properties.",
+  "website": "https://www.gtcgroup.com"
 }

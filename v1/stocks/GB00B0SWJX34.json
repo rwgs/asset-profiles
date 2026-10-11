@@ -2,14 +2,20 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BDGCS4",
-    "figi": "BBG000BDGGQ7",
+    "composite_figi": "BBG000CZZW54",
+    "figi": "BBG000CZZW54",
     "isin": "GB00B0SWJX34"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "GB00B0SWJX34",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LDNXF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LS4C.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "LS4C.MU"
     },
@@ -29,17 +40,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LS4C.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "LSEG.L"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "LSEN.MX"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "London Stock Exchange Group plc",
-  "primary_symbol": "LS4C.BE",
+  "primary_symbol": "LDNXF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "LONDON STOCK EXCHANGE is a global financial markets infrastructure and data provider. The company operates stock exchanges, fixed income trading platforms, and provides market data and analytics. The London Stock Exchange Group is headquartered in London, United Kingdom."
+  "summary": "London Stock Exchange Group plc engages in market infrastructure business primarily in the United Kingdom, the United States, Italy, France, and internationally. The company operates in five segments: Information Services, Post Trade Services, Capital Markets, Technology Services, and Other. It operates a range of international equity, ETF, bond, and derivatives markets, including London Stock Exchange; Borsa Italiana; MTS, a European fixed income market; and Turquoise, a pan-European equities multilateral trading facility. The company also provides capital formation, intellectual property, and risk and balance sheet management services; financial indexing, benchmarking, and analytic services; data and research services; and clearing, settlement, custody and other post trade services. In addition, it offers information and data products, such as indexes and benchmarks, real time pricing data, product identification, reporting, and reconciliation services, as well as network connectivity and server hosting services. Further, the company provides market trading services; information services comprising regulatory news; education and training, events space, and studio hire services; and capital markets technology and services, trading solutions, technical services, infrastructure solutions and services, and market connectivity, as well as operates data centers and trading venues. Additionally, it licenses capital markets and related IT infrastructure. London Stock Exchange Group plc was founded in 1698 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.lseg.com"
 }

@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "DE0007493991"
   },
+  "industry": "Media",
   "industry_group": "Media & Entertainment",
   "isin": "DE0007493991",
   "kind": "stock",
@@ -17,6 +18,11 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "SAX.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SAX.DE"
     },
     {
       "currency": "EUR",
@@ -37,17 +43,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "SAX.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SOTDF"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "Stroeer SE",
   "primary_symbol": "0MYZ.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Ströer SE & Co. KGaA is a German outdoor advertising company. It provides out-of-home advertising solutions, including billboards, street furniture, and digital advertising. The company is headquartered in Cologne, Germany."
+  "summary": "Ströer SE & Co. KGaA is a German outdoor advertising company. It provides out-of-home advertising solutions, including billboards, street furniture, and digital advertising. The company is headquartered in Cologne, Germany.",
+  "website": "https://www.stroeer.de"
 }

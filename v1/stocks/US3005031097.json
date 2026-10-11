@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000DD3GQ9",
+    "composite_figi": "BBG00W0JWRH4",
     "cusip": "300503109",
-    "figi": "BBG001PD3L10",
+    "figi": "BBG00W0JWRJ2",
     "isin": "US3005031097"
   },
   "industry": "Chemicals",
@@ -14,38 +14,8 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "EVK.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "EVK.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMIL",
-      "symbol": "EVK.MI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "EVK.SG"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "EVK.VI"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EVKA.F"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "EVKIF"
     },
     {
       "currency": "USD",
@@ -60,9 +30,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Evonik Industries AG",
-  "primary_symbol": "EVK.DE",
+  "primary_symbol": "EVKA.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

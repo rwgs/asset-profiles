@@ -2,8 +2,8 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG000C0HD08",
-    "figi": "BBG000C0HDC5",
+    "composite_figi": "BBG000PSNSQ5",
+    "figi": "BBG000PSNTQ3",
     "isin": "KYG2117N1088"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -12,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "8225.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VNL1.F"
@@ -19,15 +24,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "China Health Group Inc.",
-  "primary_symbol": "VNL1.F",
+  "primary_symbol": "8225.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "China Health Group Inc., an investment holding company, provides clinical research services to pharmaceutical and biotechnology companies in the People's Republic of China. The company offers contracted clinical research services; contracted pharmaceutical development services; post launch market research, medical, and medical market services; medical science liaisons; and other medical services. It also provides hospital management, medical tourism, and specialized hospital services, as well as Venturepharma cloud; and sells drugs technologies. The company was formerly known as Venturepharm Laboratories Limited and changed its name to China Health Group Inc. in January 2015. China Health Group Inc. was founded in 1998 and is headquartered in Beijing, the People's Republic of China.",
+  "summary": "China Health Group Inc. is an investment holding company in China that researches and develops drugs, including bio drugs, natural drugs and synthetic drugs. It provides contract pharmaceutical development and clinical research, market research and medical services, as well as hospital management and rehabilitation services.",
   "website": "http://www.chgi.net"
 }

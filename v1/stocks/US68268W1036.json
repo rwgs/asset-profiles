@@ -2,6 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG005497GZ3",
+    "cusip": "68268W103",
+    "figi": "BBG005497GZ3",
     "isin": "US68268W1036"
   },
   "industry": "Consumer Finance",
@@ -10,9 +13,19 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "OMF"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "0S1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0S1.F"
     },
     {
       "currency": "EUR",
@@ -22,14 +35,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "OneMain Holdings, Inc.",
-  "primary_symbol": "0S1.BE",
+  "primary_symbol": "OMF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "ONEMAIN HOLDINGS INC is a financial services holding company that provides personal installment loans and insurance products. Headquartered in Evansville, Indiana, the company operates through its subsidiaries, OneMain Financial and Trim Financial, offering financial solutions to non-prime consumers. OneMain focuses on providing responsible and transparent credit options to underserved populations."
+  "summary": "OneMain Holdings, Inc., a financial service holding company, engages in the consumer finance and insurance businesses in the United States. The company provides origination, underwriting, and servicing of consumer loans, consisting of personal loans and auto finance. It also offers secured auto financing; credit cards; optional credit insurance products, including life, disability, and involuntary unemployment insurance; optional non-credit insurance; guaranteed asset protection coverage as a waiver product or insurance; and membership plans. The company provides personal loans through its branch network, central operations, digital affiliates, and its website. The company was formerly known as Springleaf Holdings, Inc. and changed its name to OneMain Holdings, Inc. in November 2015. OneMain Holdings, Inc. was incorporated in 2013 and is based in Evansville, Indiana. OneMain Holdings, Inc. operates as a subsidiary of Omh (Ml), L.P.",
+  "website": "https://www.onemainfinancial.com"
 }

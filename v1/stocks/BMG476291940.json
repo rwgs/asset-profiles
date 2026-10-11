@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000CTBSB6",
-    "figi": "BBG000CTBST7",
+    "composite_figi": "BBG000BR1292",
+    "figi": "BBG000BR12Q3",
     "isin": "BMG476291940"
   },
   "industry": "Capital Markets",
@@ -11,6 +11,11 @@
   "isin": "BMG476291940",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0585.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -22,17 +27,17 @@
       "symbol": "BOI7.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Imagi International Holdings Limited",
-  "primary_symbol": "BOI7.F",
+  "primary_symbol": "0585.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Imagi International Holdings Limited, an investment holding company, engages in the financial services, computer graphic imaging (CGI), and cultural and entertainment businesses in Hong Kong. The company operates through Securities Brokerage and Asset Management, Trading of Securities, Provision of Finance, and Entertainment segments. It offers financial services, such as securities investments and proprietary trading, securities brokerage, margin financing, and money lending services; and invests in movie business and film rights. The company also holds and licenses intellectual property rights of CGI animation picture; and provides administrative services. Imagi International Holdings Limited is headquartered in North Point, Hong Kong.",
+  "summary": "Imagi International Holdings Limited is a Hong Kong-based investment holding company operating in financial services, computer-generated imagery and entertainment. Its financial activities include money lending, margin financing, proprietary trading, asset management and securities brokerage, and in entertainment it invests in film productions and related intellectual property rights.",
   "website": "http://www.imagi.hk"
 }

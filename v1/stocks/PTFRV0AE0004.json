@@ -2,28 +2,42 @@
   "country": "Portugal",
   "country_code": "PT",
   "identifiers": {
-    "composite_figi": "BBG000BZCRB4",
+    "composite_figi": "BBG00JHW78G7",
+    "figi": "BBG00JHW78H6",
     "isin": "PTFRV0AE0004"
   },
-  "industry_group": "Real Estate",
+  "industry": "Metals & Mining",
+  "industry_group": "Materials",
   "isin": "PTFRV0AE0004",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0JOP.L"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "PTFRV0AE0004.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLIS",
+      "symbol": "RAM.LS"
     }
   ],
-  "name": "RAMADA INVESTIMENTOS E INDUS",
-  "primary_symbol": "PTFRV0AE0004.SW",
+  "market_cap_band": "Micro Cap",
+  "name": "Ramada Investimentos e Industria, S.A.",
+  "primary_symbol": "0JOP.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "RAMADA INVESTIMENTOS E INDUSTRIA, S.A. is a Portuguese holding company with investments in various sectors, including real estate, tourism, and industry. The company’s headquarters is located in Portugal. Ramada Investimentos e Indústria focuses on managing and developing its portfolio of assets and investments."
+  "sector": "Materials",
+  "summary": "Ramada Investimentos e Industria, S.A. primarily engages in the manufacture and commercialization of steel products in Portugal and internationally. The company operates through Industry and Real Estate segments. It offers steel for use in the construction of machines and components; production of tools, including dies, cutters, and molds; and manufacture of molds for plastic, components for the automotive industry, and capital goods and components for household appliances and electronics. The company also manufactures and sells steel wires for the industrial, agriculture, and construction markets; and steel molds and welded mesh products. In addition, it manages and leases real estate properties comprising forest assets and buildings; and manages financial investments. The company was formerly known as F. Ramada Investimentos, SGPS, S.A. Ramada Investimentos e Industria, S.A. was founded in 1935 and is headquartered in Porto, Portugal.",
+  "website": "http://www.ramadainvestimentos.pt"
 }

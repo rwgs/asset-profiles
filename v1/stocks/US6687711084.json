@@ -2,30 +2,38 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000F3XLN8",
+    "composite_figi": "BBG000BH2JM1",
     "cusip": "668771108",
-    "figi": "BBG000F3XN81",
+    "figi": "BBG000BH2JM1",
     "isin": "US6687711084"
   },
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "US6687711084",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "GEN"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US6687711084.SG"
     }
   ],
-  "name": "GEN DIGITAL INC",
-  "primary_symbol": "US6687711084.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Gen Digital Inc. Common Stock",
+  "primary_symbol": "GEN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "GEN DIGITAL INC is a global company focused on providing digital safety solutions for consumers. Formerly known as NortonLifeLock, the company is headquartered in Tempe, Arizona, and offers a range of cybersecurity and privacy products and services under brands such as Norton, Avast, LifeLock, Avira, AVG, CCleaner, and ReputationDefender. Gen aims to protect consumers' devices, data, online identity, and home and family needs."
+  "summary": "Gen Digital Inc., formerly known as NortonLifeLock, is a global company focused on providing cybersecurity and digital freedom solutions for consumers. It offers a range of products and services including antivirus software, identity theft protection, and VPN services. Gen Digital's mission is to empower people to live their digital lives safely, privately, and confidently, with headquarters in Tempe, Arizona.",
+  "website": "https://www.gendigital.com"
 }

@@ -7,6 +7,8 @@
     "figi": "BBG00GV0Y7X0",
     "isin": "CA53633C1077"
   },
+  "industry": "Software",
+  "industry_group": "Software & Services",
   "isin": "CA53633C1077",
   "kind": "stock",
   "listings": [
@@ -17,6 +19,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4T5.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "4T5.MU"
     },
@@ -24,16 +31,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA53633C1077.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LQAVF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "LQID.CN"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "LIQUID AVATAR TECHNO.INC.",
+  "name": "Liquid Avatar Technologies Inc.",
   "primary_symbol": "4T5.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Information Technology",
+  "summary": "KABN Systems NA Holdings Corp., through its subsidiary, KABN Systems North America Inc, focuses on the verification, management, and monetization of digital identity. The company develops and operates KABN ID, a blockchain and biometric based patent-pending digital identity validation and verification platform allowing users to prove their identity to the online community; Liquid Avatar that allows users to create digital icons representing their online personas; KABN Card, a Visa approved prepaid card program allowing users to manage digital and fiat currencies and earn cashback and other loyalty incentives ; and KABN KASH, a cashback, loyalty, and engagement program. The company is based in Markham, Canada.",
+  "website": "http://www.kabnnaholdco.com"
 }

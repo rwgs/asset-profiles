@@ -2,8 +2,8 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000LWL1X3",
-    "figi": "BBG000LWL1X3",
+    "composite_figi": "BBG000G0R7M2",
+    "figi": "BBG000G0R822",
     "isin": "BMG3654D1074"
   },
   "industry": "Software",
@@ -12,27 +12,47 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0418.HK"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "FHGDF"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "FOU1.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FOU1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FOU1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "FOU1.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Founder Holdings Limited",
-  "primary_symbol": "FHGDF",
+  "primary_symbol": "0418.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Founder Holdings Limited, an investment holding company, engages in the software development, system integration, and information products distribution activities in Mainland China, Hong Kong, and internationally. It also engages in the properties holding business. The company is headquartered in Tsuen Wan, Hong Kong.",
+  "summary": "Founder Holdings Limited is an investment holding company engaged in software development, system integration and distribution of information technology products. It operates in mainland China, Hong Kong and other international locations, and also holds property. Its principal offices are in Tsuen Wan, Hong Kong.",
   "website": "http://www.founder.com.hk"
 }

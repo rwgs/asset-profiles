@@ -2,14 +2,20 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00H3P5Z91",
-    "figi": "BBG00H3P5ZH2",
+    "composite_figi": "BBG00JHW8XV4",
+    "figi": "BBG00JHW8XW3",
     "isin": "SE0009858152"
   },
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "SE0009858152",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0RQO.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,20 +23,41 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2B4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2B4.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BOEUF"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "BONEX.ST"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0009858152.SG"
     }
   ],
-  "market_cap_band": "Large Cap",
-  "name": "BONESUPPORT HOLDING AB",
-  "primary_symbol": "2B4.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Bonesupport Holding AB (publ)",
+  "primary_symbol": "0RQO.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "BONESUPPORT HOLDING AB develops and commercializes injectable bone graft substitutes for orthopedic trauma. Their Cerament technology is designed to promote bone regeneration and healing. The company is headquartered in Lund, Sweden."
+  "summary": "Bonesupport Holding AB (publ), an orthobiologics company, develops and sells injectable bio-ceramic bone graft substitutes in Europe, the United States, and internationally. The company provides CERAMENT Bone Void Filler, an injectable ceramic bone graft substitute that remodels to host bone; CERAMENT G, an injectable ceramic bone graft substitute that remodels to host bone and elutes Gentamicin during the critical first 30 days of bone healing, as well as treats and prevents bone infection; CERAMENT V, an injectable ceramic bone graft substitute that remodels to host bone and elutes Vancomycin during the critical first 30 days of bone healing, as well as treats and prevents bone infection. It also offers CERAMENT Bead Tray, an adjunctive local delivery option for surgeons for targeted delivery to osseous defects and for dead space management. Bonesupport Holding AB (publ) was founded in 1999 and is headquartered in Lund, Sweden.",
+  "website": "https://www.bonesupport.com"
 }

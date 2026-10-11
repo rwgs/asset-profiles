@@ -19,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ASME.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "ASME.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ASME.DU"
     },
     {
       "currency": "EUR",
@@ -29,21 +39,22 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ASME.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ASME.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "ASME.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "ASME.TI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ASMF.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "ASMF.SG"
     },
     {
       "currency": "EUR",
@@ -61,6 +72,11 @@
       "symbol": "ASML.VI"
     },
     {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "ASML.WA"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ASMLF"
@@ -75,7 +91,7 @@
   "name": "ASML Holding N.V.",
   "primary_symbol": "ASML",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

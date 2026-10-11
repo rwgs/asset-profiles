@@ -2,14 +2,20 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000P35NS9",
-    "figi": "BBG000P35SF2",
+    "composite_figi": "BBG000H5XXL7",
+    "figi": "BBG000H5XYC5",
     "isin": "JP3659000008"
   },
+  "industry": "Road & Rail",
   "industry_group": "Transportation",
   "isin": "JP3659000008",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9021.T"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +23,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WEJ.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "WEJ.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "WJRYF"
     }
   ],
-  "name": "West Japan Railway Company",
-  "primary_symbol": "WEJ.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "West Japan Railway",
+  "primary_symbol": "9021.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "West Japan Railway Company provides passenger railway transportation services. The company operates various rail lines and related businesses in the western Japan region. The company is headquartered in Osaka, Japan."
+  "summary": "Based in Osaka, Japan, West Japan Railway Company, founded in 1987, primarily delivers passenger rail transportation services across the country. The company's operations span several key divisions: Transportation Operations, Retail Business, Real Estate Business, and various Other Businesses. It maintains a substantial railway infrastructure, extending 4,903.1 kilometers in total, comprising 812.6 kilometers of high-speed Shinkansen routes and 4,090.5 kilometers of conventional lines, facilitating travel through 1,174 stations. Additionally, it offers supplementary bus and ferry services. Beyond its core transport functions, the company engages extensively in retail, including the sale of goods, food service provision, wholesale distribution, and other retail initiatives. This encompasses the management of department stores, convenience stores, restaurants, souvenir shops, and shopping centers. Its real estate portfolio involves property sales and leasing. JR West also holds interests in hospitality (hotels), financial services (credit cards, electronic money), travel arrangements, rolling stock and equipment manufacturing, electrical contracting, construction, information technology solutions, and advertising.",
+  "website": "https://www.westjr.co.jp"
 }

@@ -2,6 +2,8 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
+    "composite_figi": "BBG00GVK8827",
+    "figi": "BBG00NRVXG09",
     "isin": "FI0009000400"
   },
   "industry": "Household Durables",
@@ -18,6 +20,16 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "A8X.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "A8X.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "A8X.SG"
     },
     {
       "currency": "EUR",
@@ -39,7 +51,7 @@
   "name": "Fiskars Oyj Abp",
   "primary_symbol": "0L9Q.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

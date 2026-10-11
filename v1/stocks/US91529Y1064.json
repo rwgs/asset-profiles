@@ -4,27 +4,56 @@
   "identifiers": {
     "composite_figi": "BBG000BW2QX0",
     "cusip": "91529Y106",
+    "figi": "BBG000BW2QX0",
     "isin": "US91529Y1064"
   },
+  "industry": "Insurance",
   "industry_group": "Insurance",
   "isin": "US91529Y1064",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "UNM"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LJN.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US91529Y1064.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "UUM.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UUM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UUM.MU"
     }
   ],
-  "name": "UNUM GROUP",
-  "primary_symbol": "US91529Y1064.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Unum Group",
+  "primary_symbol": "UNM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "UNUM GROUP provides financial protection benefits, including disability, life, and supplemental insurance products. The company serves individuals and businesses in the United States and the United Kingdom, with headquarters in Chattanooga, Tennessee. Unum Group aims to help people protect their financial well-being."
+  "summary": "Unum Group, together with its subsidiaries, provides financial protection benefit solutions primarily in the United States, the United Kingdom, and Poland. It operates through Unum US, Unum International, Colonial Life, and Closed Block segments. The company offers group long-term and short-term disability, group life, and accidental death and dismemberment products; supplemental and voluntary products, such as individual disability, voluntary benefits, and dental and vision products; and accident, sickness, disability, life, and cancer and critical illness products. It also provides group pension, individual life and corporate-owned life insurance, reinsurance pools and management operations, and other products. The company sells its products primarily to employers for the benefit of employees. Unum Group sells its products through field sales personnel, independent brokers, and consultants, as well as independent contractor agency sales force. The company was founded in 1848 and is based in Chattanooga, Tennessee.",
+  "website": "http://www.unum.com"
 }

@@ -2,6 +2,8 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "composite_figi": "BBG007B23NS3",
+    "figi": "BBG007B23NY6",
     "isin": "NO0010715394"
   },
   "industry": "Energy Equipment & Services",
@@ -9,6 +11,11 @@
   "isin": "NO0010715394",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "26Q.MU"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -22,9 +29,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Aqualis ASA",
-  "primary_symbol": "AQUA.OL",
+  "primary_symbol": "26Q.MU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

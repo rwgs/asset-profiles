@@ -2,7 +2,9 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000F4F132",
     "cusip": "G6681C109",
+    "figi": "BBG000F4F1K3",
     "isin": "GB0006523608"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -14,12 +16,18 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "NWF.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NYY.F"
     }
   ],
+  "market_cap_band": "Micro Cap",
   "name": "NWF Group plc",
   "primary_symbol": "NWF.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

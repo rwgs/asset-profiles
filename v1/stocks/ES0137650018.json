@@ -2,15 +2,20 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000TZFNC0",
-    "figi": "BBG000TZFQ15",
+    "composite_figi": "BBG00JHVW8J8",
+    "figi": "BBG00JQ3SNW7",
     "isin": "ES0137650018"
   },
   "industry": "Machinery",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry_group": "Capital Goods",
   "isin": "ES0137650018",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0ILI.IL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -25,6 +30,11 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "4F1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "4F1.SG"
     },
     {
       "currency": "EUR",
@@ -44,15 +54,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Fluidra, S.A.",
-  "primary_symbol": "4F1.BE",
+  "primary_symbol": "0ILI.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Fluidra, S.A. is a multinational company focused on the development, manufacturing, and distribution of equipment and connected solutions for the global pool and wellness sector. The company offers a wide range of products including pumps, filters, cleaners, and other accessories for residential and commercial pools. Fluidra is headquartered in Barcelona, Spain.",
+  "sector": "Industrials",
+  "summary": "Fluidra, S.A. is a Spanish multinational company focused on the development, production, and distribution of equipment and connected solutions for the residential and commercial pool and wellness sector. They operate globally with a focus on innovation and sustainability. Fluidra, S.A. is headquartered in Sant Just Desvern, Barcelona, Spain.",
   "website": "http://www.fluidra.com"
 }

@@ -3,27 +3,46 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG000FB3077",
+    "figi": "BBG000FB30G7",
     "isin": "CNE100000BK2"
   },
+  "industry": "Paper & Forest Products",
   "industry_group": "Materials",
   "isin": "CNE100000BK2",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1812.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "SCD1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SCD1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SCD1.SG"
     }
   ],
-  "name": "SHANDONG CHENMING PAPER H",
-  "primary_symbol": "SCD1.BE",
+  "market_cap_band": "Small Cap",
+  "name": "Shandong Chenming Paper Holdings Limited",
+  "primary_symbol": "1812.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "SHANDONG CHENMING PAPER H is a paper manufacturing company based in China. It produces a wide range of paper products, including printing paper, writing paper, and packaging paper. The company is headquartered in Shandong Province, China."
+  "summary": "Shandong Chenming Paper Holdings Limited engages in the pulp production and paper making in Mainland China and internationally. It operates through Machine Paper, Financial Services, and Investment Real Estate segments. The company offers offset paper, white paper board, coated paper, lightweight coated paper, household paper, electrostatic copy paper and thermal paper, and glassine paper; and paper making raw materials and machinery. It also generates and sells electric and thermal power; manufactures, processes, and sells wood products, laminated boards, and fortified wooden floorboards; provides cement, wall materials, panel, and coal; and purchases and sells waste, as well as offers financial leasing services. In addition, the company is involved in the provision of catering services; hotel services; forestry, saplings growing, and processing and sale of timber and paper products; and mining, transportation, logistics, arboriculture, customs declaration, property management, trading, machinery manufacturing, printing and packaging, and investment management businesses. Shandong Chenming Paper Holdings Limited was incorporated in 1993 and is headquartered in Shouguang, the People's Republic of China.",
+  "website": "http://www.chenmingpaper.com"
 }

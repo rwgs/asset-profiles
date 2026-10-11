@@ -4,6 +4,7 @@
   "identifiers": {
     "isin": "PTJMT0AE0001"
   },
+  "industry": "Food & Staples Retailing",
   "industry_group": "Food & Staples Retailing",
   "isin": "PTJMT0AE0001",
   "kind": "stock",
@@ -12,17 +13,59 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0EXG.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "JEM.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "JEM.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JEM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JEM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "JEM.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLIS",
+      "symbol": "JMT.LS"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "JMT.WA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "JRONF"
     }
   ],
-  "name": "JERONIMO MARTINS SGPS SA JERONI",
+  "market_cap_band": "Large Cap",
+  "name": "Jerónimo Martins, SGPS, S.A.",
   "primary_symbol": "0EXG.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Jerónimo Martins SGPS, SA is a Portuguese international food industry corporation that operates supermarkets and hypermarkets. The company operates mainly in Portugal, Poland, and Colombia, with brands like Pingo Doce and Biedronka. Jerónimo Martins is headquartered in Lisbon, Portugal."
+  "summary": "Jerónimo Martins SGPS, SA is a Portuguese international food industry corporation that operates supermarkets and hypermarkets. The company operates mainly in Portugal, Poland, and Colombia, with brands like Pingo Doce and Biedronka. Jerónimo Martins is headquartered in Lisbon, Portugal.",
+  "website": "https://www.jeronimomartins.com"
 }

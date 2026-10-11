@@ -2,12 +2,12 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000LSNP12",
+    "composite_figi": "BBG000RPMPK2",
     "cusip": "191459205",
-    "figi": "BBG000LSNP12",
+    "figi": "BBG000RPMPK2",
     "isin": "US1914592050"
   },
-  "industry": "Health Care Technology",
+  "industry": "Health Care Equipment & Supplies",
   "industry_group": "Health Care Equipment & Services",
   "isin": "US1914592050",
   "kind": "stock",
@@ -15,22 +15,7 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "CHEOF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "CHEOY"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "COH.AX"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "OC5.F"
     },
     {
       "currency": "EUR",
@@ -38,11 +23,11 @@
       "symbol": "OC50.F"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Cochlear Limited",
-  "primary_symbol": "CHEOF",
+  "primary_symbol": "CHEOY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

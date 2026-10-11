@@ -1,9 +1,9 @@
 {
-  "country": "Bermuda",
-  "country_code": "BM",
+  "country": "Hong Kong",
+  "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000CBRNL8",
-    "figi": "BBG000CBRR84",
+    "composite_figi": "BBG000C9XH84",
+    "figi": "BBG000C9XJ53",
     "isin": "BMG2154Z1216"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -11,6 +11,11 @@
   "isin": "BMG2154Z1216",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0110.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -24,15 +29,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "China Fortune Holdings Limited",
-  "primary_symbol": "BMG2154Z1216.SG",
+  "primary_symbol": "0110.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "China Fortune Holdings Limited, an investment holding company, engages in the distribution and trading of mobile phones and related accessories in the People's Republic of China. The company operates through Mobile Phone Business and Mining Business segments. It also offers telecommunication equipment, wireless solutions, network equipment, software, and other equipment. In addition, the company is involved in the development of marketing and after-sales service network; and mining and processing of celestite, zinc, and lead minerals located in Huangshi City, Hubei Province. Further, it engages in the provision of management services. The company was formerly known as Fortune Telecom Holdings Limited and changed its name to China Fortune Holdings Limited in October 2007. China Fortune Holdings Limited was founded in 1992 and is based in Kwai Chung, Hong Kong. China Fortune Holdings Limited is a subsidiary of Future 2000 Limited.",
+  "summary": "China Fortune Holdings Limited is an investment holding company mainly distributing and selling mobile phones and accessories in mainland China. It operates Mobile Phone Business and Mining Business segments, builds marketing and after-sales service networks, and extracts and processes celestite, zinc and lead minerals.",
   "website": "http://www.fortunetele.com"
 }

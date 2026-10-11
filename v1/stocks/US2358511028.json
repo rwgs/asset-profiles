@@ -2,15 +2,26 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000J2XRG1",
+    "composite_figi": "BBG000BH3JF8",
     "cusip": "235851102",
-    "figi": "BBG000J2YYF6",
+    "figi": "BBG000BH3LR0",
     "isin": "US2358511028"
   },
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Biotechnology",
+  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "US2358511028",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "DHR"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0R2B.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -18,8 +29,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "DAP.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "DAP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DAP.F"
     },
     {
       "currency": "EUR",
@@ -30,17 +51,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DAP.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "DHRC.VI"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Danaher Corporation",
-  "primary_symbol": "DAP.BE",
+  "primary_symbol": "DHR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Danaher Corporation is a global science and technology innovator designing, manufacturing, and marketing professional, medical, industrial, and commercial products and services. They operate through various segments, including life sciences, diagnostics, environmental & applied solutions, and dental. The company is headquartered in Washington, D.C., USA."
+  "summary": "Danaher Corporation designs, manufactures, and markets professional, medical, industrial, and commercial products and services worldwide. The company operates through three segments: Life Sciences, Diagnostics, and Environmental & Applied Solutions. The Life Sciences segment provides mass spectrometers; cellular analysis, lab automation, and centrifugation instruments; microscopes; and genomics consumables. This segment also offers bioprocess technologies, consumables, and services; and filtration, separation, and purification technologies to the pharmaceutical and biopharmaceutical, food and beverage, medical, and life sciences companies, as well as universities, medical schools and research institutions, and various industrial manufacturers. The Diagnostics segment provides chemistry, immunoassay, microbiology, and automation systems, as well as hematology and molecular diagnostics products. This segment offers analytical instruments, reagents, consumables, software, and services for hospitals, physicians' offices, reference laboratories, and other critical care settings. The Environmental & Applied Solutions segment offers instrumentation, consumables, software, services, and disinfection systems to analyze, treat, and manage ultra-pure, potable, industrial, waste, ground, source, and ocean water in residential, commercial, industrial, and natural resource applications. This segment also provides instruments, software, services, and consumables for various color and appearance management, packaging design and quality management, packaging converting, printing, marking, coding, and traceability applications for consumer, pharmaceutical, and industrial products. The company was formerly known as Diversified Mortgage Investors, Inc. and changed its name to Danaher Corporation in 1984. Danaher Corporation was founded in 1969 and is headquartered in Washington, the District of Columbia.",
+  "website": "http://www.danaher.com"
 }

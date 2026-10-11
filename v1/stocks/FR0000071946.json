@@ -2,8 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BFBL59",
-    "figi": "BBG000BFBLK2",
+    "composite_figi": "BBG007R9H3Z2",
+    "figi": "BBG007R9H417",
     "isin": "FR0000071946"
   },
   "industry": "IT Services",
@@ -13,8 +13,28 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0O1S.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AN3.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AN3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AN3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AN3.SG"
     },
     {
       "currency": "EUR",
@@ -24,15 +44,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Alten S.A.",
-  "primary_symbol": "AN3.F",
+  "primary_symbol": "0O1S.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Alten S.A. operates as an engineering and technology consultancy company primarily in France, North America, Germany, Scandinavia, Spain, Portugal, Italy, the United Kingdom, Belgium, the Netherlands, the Asia-Pacific, and internationally. The company carries out design and research projects for the technical and information systems divisions in the industrial, telecommunications, and service sectors. It offers IT and network services, such as digital transformation; product design and development; manufacturing engineering; supply chain and quality; customer service and training; and project and change management services. The company also provides information systems and internal network services comprising consulting and digital transformation; technical services for digital, big data, data science, and artificial intelligence; development, maintenance, and testing of applications; and cloud, and networks and security infrastructure services. It serves customers in aeronautics, space, defense and security, automotive, rail and naval, energy and life sciences, telecoms and media, banking, finance, insurance, services, and public sectors. Alten S.A. was founded in 1988 and is headquartered in Boulogne-Billancourt, France.",
-  "website": "http://www.alten.fr"
+  "summary": "ALTEN SA is a French engineering and technology consulting company that provides support for its clients' development strategies in the fields of technology, information technology and networks. They offer expertise in various sectors including aerospace, automotive, defense, energy, finance, life sciences, railway, and telecommunications. The company is headquartered in Boulogne-Billancourt, France.",
+  "website": "https://www.alten.com"
 }

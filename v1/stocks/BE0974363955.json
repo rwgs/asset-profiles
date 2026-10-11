@@ -3,28 +3,41 @@
   "country_code": "BE",
   "identifiers": {
     "composite_figi": "BBG00VSF20Y7",
-    "figi": "BBG00VSF2120",
+    "figi": "BBG00VSF20Z6",
     "isin": "BE0974363955"
   },
+  "industry": "Biotechnology",
   "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
   "isin": "BE0974363955",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "52U.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BE0974363955.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "HYL.BR"
     }
   ],
-  "name": "HYLORIS PHARMACEUTICALS SA",
-  "primary_symbol": "BE0974363955.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Hyloris Pharmaceuticals SA",
+  "primary_symbol": "52U.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "HYLORIS PHARMACEUTICALS SA is a biopharmaceutical company developing products in the field of ear, nose, and throat (ENT) disorders. Their focus is on innovative treatments for conditions such as allergic rhinitis and chronic rhinosinusitis. The company is based in Liege, Belgium."
+  "summary": "HYLORIS PHARMACEUTICALS SA is a biopharmaceutical company developing products in the field of ear, nose, and throat (ENT) disorders. Their focus is on innovative treatments for conditions such as allergic rhinitis and chronic rhinosinusitis. The company is based in Liege, Belgium.",
+  "website": "http://www.hyloris.com"
 }

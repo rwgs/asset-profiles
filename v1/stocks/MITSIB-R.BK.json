@@ -1,8 +1,12 @@
 {
   "country": "Thailand",
   "country_code": "TH",
-  "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "identifiers": {
+    "composite_figi": "BBG00P9CFGF0",
+    "figi": "BBG00P9CFGG9"
+  },
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "kind": "stock",
   "listings": [
     {
@@ -15,7 +19,7 @@
   "name": "Mitsib Leasing Public Company Limited",
   "primary_symbol": "MITSIB-R.BK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

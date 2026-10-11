@@ -2,30 +2,58 @@
   "country": "Mexico",
   "country_code": "MX",
   "identifiers": {
-    "composite_figi": "BBG000BPG548",
+    "composite_figi": "BBG000BPCTB2",
     "cusip": "151290889",
-    "figi": "BBG000BPG6Z2",
+    "figi": "BBG000BPCXM1",
     "isin": "US1512908898"
   },
+  "industry": "Construction Materials",
   "industry_group": "Materials",
   "isin": "US1512908898",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "CX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CEXA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CEXA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CEXA.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CEXA.SG"
+    },
+    {
+      "currency": "ARS",
+      "exchange_mic": "XBUE",
+      "symbol": "CX.BA"
     }
   ],
-  "name": "Cemex S.A.B. de C.V. Reg.CPO's",
-  "primary_symbol": "CEXA.SG",
+  "market_cap_band": "Large Cap",
+  "name": "CEMEX, S.A.B. de C.V.",
+  "primary_symbol": "CX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Cemex S.A.B. de C.V. Reg.CPO's is a global building materials company that manufactures and distributes cement, ready-mix concrete, and aggregates. The company operates in numerous countries around the world. Cemex is headquartered in Monterrey, Mexico."
+  "summary": "CEMEX, S.A.B. de C.V., together with its subsidiaries, produces, markets, distributes, and sells cement, ready-mix concrete, aggregates, clinker, and other construction materials worldwide. The company also offers various complementary construction products, including asphalt products; concrete blocks; roof tiles; architectural products; concrete pipes for storm and sanitary sewers applications; and other precast products, such as rail products, concrete floors, box culverts, bridges, drainage basins, barriers, and parking curbs. In addition, it provides building solutions for housing projects, pavement projects, and green building consultancy services; cement trade maritime services; and information technology solutions. The company operates approximately 2,000 retail stores in approximately 600 cities. CEMEX, S.A.B. de C.V. was founded in 1906 and is headquartered in San Pedro Garza García, Mexico.",
+  "website": "http://www.cemex.com"
 }

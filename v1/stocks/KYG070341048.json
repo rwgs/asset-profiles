@@ -7,8 +7,8 @@
     "figi": "BBG000QXWHD1",
     "isin": "KYG070341048"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Interactive Media & Services",
+  "industry_group": "Media & Entertainment",
   "isin": "KYG070341048",
   "kind": "stock",
   "listings": [
@@ -18,14 +18,39 @@
       "symbol": "BIDU"
     },
     {
+      "currency": "CNY",
+      "exchange_mic": "XHKG",
+      "symbol": "89888.HK"
+    },
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "9888.HK"
+    },
+    {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "B1C.F"
+      "exchange_mic": "XDUS",
+      "symbol": "B1CB.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "B1CB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "B1CB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "B1CB.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BAIDF"
     },
     {
       "currency": "ARS",
@@ -52,7 +77,7 @@
   "name": "Baidu, Inc.",
   "primary_symbol": "BIDU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

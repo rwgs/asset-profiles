@@ -2,9 +2,11 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000C0S0W9",
+    "composite_figi": "BBG00N8TWRY5",
+    "figi": "BBG00N8TWS28",
     "isin": "NO0006000801"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "NO0006000801",
   "kind": "stock",
@@ -18,17 +20,29 @@
       "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0006000801.SW"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "NONG.OL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SPXXF"
     }
   ],
-  "name": "SPAREBANK 1 NORD-NORGE",
+  "market_cap_band": "Small Cap",
+  "name": "SpareBank 1 Nord-Norge",
   "primary_symbol": "NO0006000801.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "SpareBank 1 Nord-Norge is a regional bank providing financial services to individuals and businesses in Northern Norway. The bank offers a range of products, including loans, deposits, insurance, and investment services. SpareBank 1 Nord-Norge is headquartered in Tromsø, Norway."
+  "summary": "SpareBank 1 Nord-Norge is a regional bank providing financial services to individuals and businesses in Northern Norway. The bank offers a range of products, including loans, deposits, insurance, and investment services. SpareBank 1 Nord-Norge is headquartered in Tromsø, Norway.",
+  "website": "http://www.sparebank1.no/nb/nord-norge"
 }

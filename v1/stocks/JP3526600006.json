@@ -3,14 +3,24 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG000GJ1DJ0",
-    "figi": "BBG000GJ1FP8",
+    "figi": "BBG000GJ2LV7",
     "isin": "JP3526600006"
   },
-  "industry": "Multi-Utilities",
+  "industry": "Electric Utilities",
   "industry_group": "Utilities",
   "isin": "JP3526600006",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0C2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "0C2.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -32,11 +42,11 @@
       "symbol": "CHUEF"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Chubu Electric Power Company,Incorporated",
-  "primary_symbol": "0C2.F",
+  "primary_symbol": "0C2.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

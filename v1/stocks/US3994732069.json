@@ -2,30 +2,58 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0027NXBP9",
+    "composite_figi": "BBG000QRKJ70",
     "cusip": "399473206",
-    "figi": "BBG0027NXBW1",
+    "figi": "BBG000QRKJ70",
     "isin": "US3994732069"
   },
-  "industry_group": "Consumer Services",
+  "industry": "Interactive Media & Services",
+  "industry_group": "Media & Entertainment",
   "isin": "US3994732069",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "GRPN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0R1H.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "G5NA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "G5NA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "G5NA.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US3994732069.SG"
     }
   ],
-  "name": "GROUPON INC",
-  "primary_symbol": "US3994732069.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Groupon, Inc.",
+  "primary_symbol": "GRPN",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "GROUPON INC operates an online marketplace that connects consumers with local merchants. They offer deals and discounts on a variety of products and services. The company is headquartered in Chicago, Illinois."
+  "sector": "Communications",
+  "summary": "Groupon, Inc. operates a marketplace that connects consumers to merchants. It operates in two segments, North America and International. The company sells goods or services on behalf of third-party merchants; and first-party goods inventory. It serves customers through its mobile applications and websites. The company was formerly known as ThePoint.com, Inc. and changed its name to Groupon, Inc. in October 2008. Groupon, Inc. was founded in 2008 and is headquartered in Chicago, Illinois.",
+  "website": "http://www.groupon.com"
 }

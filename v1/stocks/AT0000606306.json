@@ -2,29 +2,86 @@
   "country": "Austria",
   "country_code": "AT",
   "identifiers": {
-    "composite_figi": "BBG000GF2JL1",
-    "figi": "BBG000GF2LZ1",
+    "composite_figi": "BBG000GFSRC5",
+    "figi": "BBG000GFSRC5",
     "isin": "AT0000606306"
   },
+  "industry": "Banks",
   "industry_group": "Banks",
   "isin": "AT0000606306",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RAIFF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RAW.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "RAW.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RAW.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RAW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "RAW.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "RAW.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RAW.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RAW.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "RAW.TI"
+    },
+    {
+      "currency": "CZK",
+      "exchange_mic": "XPRA",
+      "symbol": "RBI.PR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "RBI.VI"
     }
   ],
-  "name": "Raiffeisen Bank Intl AG Inhaber",
-  "primary_symbol": "RAW.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Raiffeisen Bank International AG",
+  "primary_symbol": "RAIFF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Raiffeisen Bank International AG provides corporate and investment banking services. Headquartered in Vienna, Austria, it operates primarily in Central and Eastern Europe. Raiffeisen Bank International offers a range of financial services, including lending, asset management, and capital markets solutions."
+  "summary": "Raiffeisen Bank International AG provides corporate and investment banking services. Headquartered in Vienna, Austria, it operates primarily in Central and Eastern Europe. Raiffeisen Bank International offers a range of financial services, including lending, asset management, and capital markets solutions.",
+  "website": "https://www.rbinternational.com"
 }

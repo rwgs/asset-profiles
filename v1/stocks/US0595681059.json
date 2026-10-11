@@ -2,9 +2,9 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000CVRFP7",
+    "composite_figi": "BBG000FGQ2C1",
     "cusip": "059568105",
-    "figi": "BBG000CVRG57",
+    "figi": "BBG000FGQ2C1",
     "isin": "US0595681059"
   },
   "industry": "Banks",
@@ -13,39 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "BDSB.F"
-    },
-    {
-      "symbol": "BDSB.TI"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "BNDSF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BNDSY"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMAD",
-      "symbol": "SAB.MC"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "SAB.VI"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "Banco de Sabadell, S.A.",
-  "primary_symbol": "BDSB.F",
+  "primary_symbol": "BNDSY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

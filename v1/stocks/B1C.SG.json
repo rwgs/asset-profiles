@@ -1,6 +1,10 @@
 {
   "country": "China",
   "country_code": "CN",
+  "identifiers": {
+    "composite_figi": "BBG000QYX7G7",
+    "figi": "BBG000QYX982"
+  },
   "industry_group": "Software & Services",
   "kind": "stock",
   "listings": [
@@ -10,15 +14,17 @@
       "symbol": "B1C.SG"
     }
   ],
+  "market_cap_band": "Large Cap",
   "name": "Baidu Inc. R.Shs A(Sp.ADRs)1/10",
   "primary_symbol": "B1C.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Baidu is a Chinese multinational technology company specializing in Internet-related services and products and artificial intelligence, headquartered in Beijing. The company offers a variety of services, including a Chinese search engine, online advertising, cloud storage, and AI solutions. Baidu also invests heavily in research and development in areas such as autonomous driving and voice recognition."
+  "summary": "Baidu is a Chinese multinational technology company specializing in Internet-related services and products and artificial intelligence, headquartered in Beijing. The company offers a variety of services, including a Chinese search engine, online advertising, cloud storage, and AI solutions. Baidu also invests heavily in research and development in areas such as autonomous driving and voice recognition.",
+  "website": "http://www.baidu.com"
 }

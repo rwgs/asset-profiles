@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BCL266",
-    "figi": "BBG000BCL2S2",
+    "figi": "BBG000BCL5B3",
     "isin": "DE0005767909"
   },
   "industry": "Water Utilities",
@@ -13,15 +13,25 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "FHW.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FHW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "FHW.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Fernheizwerk Neukolln Aktiengesellschaft",
-  "primary_symbol": "FHW.F",
+  "primary_symbol": "FHW.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

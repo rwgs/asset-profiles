@@ -7,6 +7,7 @@
     "figi": "BBG00N2JRTV8",
     "isin": "CA36258E1025"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA36258E1025",
   "kind": "stock",
@@ -15,17 +16,34 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA36258E1025.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GPE.F"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "GRSL.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GRSLF"
     }
   ],
-  "name": "GR SILVER MINING LTD",
+  "market_cap_band": "Micro Cap",
+  "name": "GR Silver Mining Ltd.",
   "primary_symbol": "CA36258E1025.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "GR SILVER MINING LTD is a silver and gold exploration company focused on projects in Mexico. The company explores for high-grade silver and gold deposits. GR Silver Mining is based in Vancouver, British Columbia, Canada."
+  "summary": "GR SILVER MINING LTD is a silver and gold exploration company focused on projects in Mexico. The company explores for high-grade silver and gold deposits. GR Silver Mining is based in Vancouver, British Columbia, Canada.",
+  "website": "http://www.grsilvermining.com"
 }

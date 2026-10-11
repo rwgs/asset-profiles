@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG007JV5795",
     "cusip": "00507W206",
-    "figi": "BBG007JV57F8",
+    "figi": "BBG007JV57B2",
     "isin": "US00507W2061"
   },
   "industry": "Biotechnology",
@@ -14,18 +14,31 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7AY1.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "ATNM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US00507W2061.SG"
     }
   ],
-  "name": "ACTINIUM PHARMACEUTICALS INC",
-  "primary_symbol": "US00507W2061.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Actinium Pharmaceuticals, Inc.",
+  "primary_symbol": "7AY1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care"
+  "sector": "Health Care",
+  "summary": "Actinium Pharmaceuticals, Inc., a clinical stage biopharmaceutical company, focuses on developing and commercializing therapies for bone marrow transplant (BMT) or a type of cellular therapy, and for other adoptive cell therapies. Its lead product candidate, I-131 apamistamab (Iomab-B) that is in a pivotal Phase III clinical trial for elderly relapsed or refractory acute myeloid leukemia trial for BMT conditioning; and a Phase I study with a CD19 CAR T-cell therapy with memorial sloan kettering cancer center. The company is also developing a multi-disease, multi-target pipeline of clinical-stage antibody radiation-conjugates targeting the antigens CD45 and CD33 for targeted conditioning and as a therapeutic either in combination with other therapeutic modalities or as a single agent for patients with a range of hematologic malignancies, including acute myeloid leukemia, myelodysplastic syndrome, and multiple myeloma. Actinium Pharmaceuticals, Inc. has research collaboration with Astellas Pharma, Inc. to develop targeted radiotherapies using its Antibody Warhead Enabling technology platforms. The company was founded in 2000 and is based in New York, New York.",
+  "website": "http://www.actiniumpharma.com"
 }

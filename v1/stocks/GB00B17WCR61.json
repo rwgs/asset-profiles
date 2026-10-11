@@ -2,9 +2,11 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000MLFJ28",
+    "composite_figi": "BBG00ZHZWKK4",
+    "figi": "BBG00ZHZWKP9",
     "isin": "GB00B17WCR61"
   },
+  "industry": "Media",
   "industry_group": "Transportation",
   "isin": "GB00B17WCR61",
   "kind": "stock",
@@ -13,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00B17WCR61.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "SNWS.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T6N.F"
     }
   ],
-  "name": "SMITHS NEWS PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Smiths News plc",
   "primary_symbol": "GB00B17WCR61.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "SMITHS NEWS PLC distributes newspapers and magazines to retailers. Their business model involves delivering newspapers and magazines to retailers across the UK, generating revenue through distribution fees. The company is headquartered in Swindon, UK."
+  "summary": "SMITHS NEWS PLC distributes newspapers and magazines to retailers. Their business model involves delivering newspapers and magazines to retailers across the UK, generating revenue through distribution fees. The company is headquartered in Swindon, UK.",
+  "website": "http://www.corporate.smithsnews.co.uk"
 }

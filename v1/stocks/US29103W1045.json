@@ -2,30 +2,48 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00GM564B1",
+    "composite_figi": "BBG00GCTWVH5",
     "cusip": "29103W104",
-    "figi": "BBG00GM564G6",
+    "figi": "BBG00GCTWVH5",
     "isin": "US29103W1045"
   },
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Media",
+  "industry_group": "Media & Entertainment",
   "isin": "US29103W1045",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "EEX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EM7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EM7.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US29103W1045.SG"
     }
   ],
-  "name": "EMERALD HOLDING INC",
-  "primary_symbol": "US29103W1045.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Emerald Holding, Inc.",
+  "primary_symbol": "EEX",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "EMERALD HOLDING INC operates business-to-business trade shows. It connects industries and builds relationships through live events and other platforms. The company is headquartered in San Juan Capistrano, California."
+  "sector": "Communications",
+  "summary": "Emerald Holding, Inc. operates business-to-business (B2B) trade shows in the United States. The company operates trade shows in various industry sectors, including retail, design and construction, technology, equipment, and safety. It also operates content and content-marketing websites, and related digital products, as well as produce publications. In addition, the company operates Elastic Suite platform that streamlines the wholesale buying process for brands and retail buyers; and Flex platform. Emerald Expositions Events, Inc. was incorporated in 2013 and is based in New York, New York.",
+  "website": "http://www.emeraldx.com"
 }

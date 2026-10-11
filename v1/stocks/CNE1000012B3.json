@@ -2,28 +2,37 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG0015W4KW7",
+    "figi": "BBG0015W4KX6",
     "isin": "CNE1000012B3"
   },
-  "industry_group": "Materials",
+  "industry": "Health Care Providers & Services",
+  "industry_group": "Health Care Equipment & Services",
   "isin": "CNE1000012B3",
   "kind": "stock",
   "listings": [
     {
-      "currency": "MYR",
-      "exchange_mic": "XKLS",
-      "symbol": "2607.KL"
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2607.HK"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SHPMF"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Inch Kenneth Kajang Rubber Public Limited Company",
-  "primary_symbol": "2607.KL",
+  "market_cap_band": "Mid Cap",
+  "name": "Shanghai Pharmaceuticals Holding Co., Ltd",
+  "primary_symbol": "2607.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "Inch Kenneth Kajang Rubber Public Limited Company is involved in the cultivation and sale of palm oil and rubber. The company owns and manages plantations in Malaysia. It is headquartered in Malaysia."
+  "sector": "Health Care",
+  "summary": "Shanghai Pharmaceuticals Holding Co., Ltd. is an investment holding company based in Shanghai, active in the pharmaceutical and healthcare industries. It researches, develops, produces, distributes and retails medical and wellness products. Its segments are Production, Distribution, Retail and Other, and its portfolio includes Western and traditional medicines.",
+  "website": "https://www.sphchina.com"
 }

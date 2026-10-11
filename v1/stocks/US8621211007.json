@@ -2,15 +2,19 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG007LSX627",
     "cusip": "862121100",
-    "figi": "BBG007LSX681",
     "isin": "US8621211007"
   },
+  "industry": "Equity Real Estate Investment Trusts (REITs)",
   "industry_group": "Real Estate",
   "isin": "US8621211007",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "STOR"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,19 +27,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S76.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "S76.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "S76.SG"
     }
   ],
-  "name": "STORE CAPITAL CORP.DL-,01",
-  "primary_symbol": "S76.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "STORE Capital Corporation",
+  "primary_symbol": "STOR",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "STORE Capital Corporation is a real estate investment trust (REIT) that invests in single-tenant operational real estate. The company provides financing solutions to middle-market and larger businesses. STORE Capital is headquartered in Scottsdale, Arizona."
+  "summary": "STORE Capital Corporation is an internally managed net-lease real estate investment trust, or REIT, that is the leader in the acquisition, investment and management of Single Tenant Operational Real Estate, which is its target market and the inspiration for its name. STORE Capital is one of the largest and fastest growing net-lease REITs and owns a large, well-diversified portfolio that consists of investments in more than 2,500 property locations across the United States, substantially all of which are profit centers.",
+  "website": "http://www.storecapital.com"
 }

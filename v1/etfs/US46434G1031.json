@@ -20,7 +20,7 @@
   ],
   "aum_usd": 171477411324.63,
   "category": "Emerging Markets",
-  "category_group": "Financials",
+  "category_group": "Equities",
   "country_weights": [
     {
       "country": "Taiwan, Province of China",
@@ -248,12 +248,62 @@
   "name": "iShares Core MSCI Emerging Markets ETF",
   "primary_symbol": "IEMG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
   },
   "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.389383
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.151512
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.077154
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.074789
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.074343
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.059577
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.055122
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.032126
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.027249
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.026844
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.018347
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.013555
+    }
+  ],
   "top_holdings": [
     {
       "isin": "TW0002330008",

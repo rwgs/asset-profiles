@@ -2,15 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000C0J647",
-    "figi": "BBG000C0J9P8",
+    "composite_figi": "BBG00R86ZFW1",
+    "figi": "BBG00R86ZFX0",
     "isin": "KYG0958F1019"
   },
-  "industry": "Industrial Conglomerates",
-  "industry_group": "Capital Goods",
+  "industry": "Commercial Services & Supplies",
+  "industry_group": "Commercial & Professional Services",
   "isin": "KYG0958F1019",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3718.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -27,15 +32,17 @@
       "symbol": "BJEB.MU"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "BEIJING ENTERPRISES",
-  "primary_symbol": "BJEB.BE",
+  "market_cap_band": "Micro Cap",
+  "name": "Beijing Enterprises Urban Resources Group Limited",
+  "primary_symbol": "3718.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials"
+  "sector": "Industrials",
+  "summary": "Beijing Enterprises Urban Resources Group Limited is a waste management service provider operating in mainland China and Hong Kong, founded in 2013 and based in Wan Chai. Its urban services include road cleaning, garbage sorting, collection and transport, public toilet management, river cleaning and property management. It also treats hazardous waste and waste electrical and electronic equipment, and offers solid waste disposal.",
+  "website": "https://www.beur.net.cn"
 }

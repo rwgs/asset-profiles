@@ -3,7 +3,7 @@
   "country_code": "CH",
   "identifiers": {
     "composite_figi": "BBG000BVCW95",
-    "figi": "BBG000BVCXR3",
+    "figi": "BBG000BVCZ89",
     "isin": "CH0006539198"
   },
   "industry": "Entertainment",
@@ -11,6 +11,11 @@
   "isin": "CH0006539198",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HLG.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -23,15 +28,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HLG.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HLG.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Nano Cap",
   "name": "Highlight Communications AG",
-  "primary_symbol": "HLG.DE",
+  "primary_symbol": "HLG.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,28 +2,42 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG000BYM0V3",
+    "composite_figi": "BBG000C3RDK9",
+    "figi": "BBG000C3RFF0",
     "isin": "JP3920860008"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "JP3920860008",
   "kind": "stock",
   "listings": [
     {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "6875.T"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "JP3920860008.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MHC.F"
     }
   ],
-  "name": "MEGACHIPS CORP",
-  "primary_symbol": "JP3920860008.SG",
+  "market_cap_band": "Small Cap",
+  "name": "MegaChips Corporation",
+  "primary_symbol": "6875.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "MEGACHIPS CORPORATION is a fabless semiconductor company specializing in the development and sales of system LSIs (large-scale integration). The company's products are used in various applications including imaging, audio, and communication. MEGACHIPS CORP is headquartered in Osaka, Japan."
+  "summary": "MegaChips Corporation provides chip solutions in Japan. The company offers application specific integrated circuits; MEMS timing devices; automotive ethernet PHY; wired communication networks; and LCD timing controllers for various input and output interfaces, such as HDTVs and smart devices. MegaChips Corporation was incorporated in 1967 and is headquartered in Osaka, Japan.",
+  "website": "http://www.megachips.co.jp"
 }

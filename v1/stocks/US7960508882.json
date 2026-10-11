@@ -2,7 +2,9 @@
   "country": "Korea, Republic of",
   "country_code": "KR",
   "identifiers": {
+    "composite_figi": "BBG000FRWTT3",
     "cusip": "796050888",
+    "figi": "BBG000FRWVF3",
     "isin": "US7960508882"
   },
   "industry": "Electronic Equipment, Instruments & Components",
@@ -27,8 +29,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SSU.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SSU.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SSU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SSU.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SSU.MU"
     },
     {
       "currency": "EUR",
@@ -45,7 +67,7 @@
   "name": "Samsung Electronics Co., Ltd. Sponsored GDR",
   "primary_symbol": "BC94.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

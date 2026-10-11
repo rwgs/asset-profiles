@@ -2,7 +2,8 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG00JQ23H95",
+    "composite_figi": "BBG00MCBRB27",
+    "figi": "BBG00MCBRB36",
     "isin": "AU000000YOJ5"
   },
   "industry": "Software",
@@ -14,13 +15,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SRC.F"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "YOJ.AX"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Yojee Limited",
   "primary_symbol": "SRC.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

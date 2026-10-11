@@ -3,6 +3,7 @@
   "country_code": "CN",
   "identifiers": {
     "composite_figi": "BBG002BC28G9",
+    "figi": "BBG002BC28H8",
     "isin": "KYG8405W1069"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -11,6 +12,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "1251.HK"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SEI.F"
@@ -18,15 +24,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "SPT Energy Group Inc.",
-  "primary_symbol": "SEI.F",
+  "primary_symbol": "1251.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "SPT Energy Group Inc., an investment holding company, provides integrated oilfield services and manufactures oilfield services related products in the People's Republic of China, Kazakhstan, Turkmenistan, the Middle East, Canada, Indonesia, and internationally. It operates through three segments: Drilling, Well Completion, and Reservoir. The company offers drilling services, including drilling rig, workover rig, complex well workover and fishing, rotary geological steering, vertical and horizontal drilling technologies, side tracking and underbalanced drilling technologies, fine managed pressure drilling technology, cementing, and drilling fluid services. It also provides well completion services, such as well completion tools and project design services, as well as stimulation and fracturing services. In addition, the company offers geology research and oil reservoir research, dynamic monitoring, oil testing and recovery, and oil extraction process services, as well as coiled tubing and repair service of surface production devices. Further, it is also involved in manufacturing and trading activities; and promotion of technology and application services. SPT Energy Group Inc. was founded in 1993 and is headquartered in Beijing, the People's Republic of China.",
+  "summary": "SPT Energy Group Inc., founded in 1993 and headquartered in Beijing, is an investment holding company providing integrated oilfield services and products. Its customers are located in the Middle East, Canada, Singapore, Indonesia, Kazakhstan, Turkmenistan and China. Its business falls into drilling, well completion and reservoir segments, from rigs, workovers and drilling fluids to stimulation tools and reservoir research, with smaller farming, trading, manufacturing and gas activities.",
   "website": "http://www.sptenergygroup.com"
 }

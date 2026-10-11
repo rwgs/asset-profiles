@@ -2,28 +2,67 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000BW26J0",
+    "composite_figi": "BBG008H2BR52",
+    "figi": "BBG008H2BR70",
     "isin": "BE0165385973"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "BE0165385973",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0FA0.IL"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "BE0165385973.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "MELE.BR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MEX.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MEX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MEX.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MEX.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MLXSF"
     }
   ],
-  "name": "MELEXIS NV",
-  "primary_symbol": "BE0165385973.SW",
+  "market_cap_band": "Mid Cap",
+  "name": "Melexis NV",
+  "primary_symbol": "0FA0.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "MELEXIS NV, headquartered in Tessenderlo, Belgium, is a global microelectronics company that designs, develops, tests and markets advanced integrated semiconductor devices. Their products are primarily used in the automotive industry but also have applications in other sectors such as industrial, medical, and consumer. Melexis focuses on sensor ICs, driver ICs and wireless communication ICs."
+  "summary": "Melexis NV is a Belgian microelectronics company that designs, develops, tests and markets advanced integrated semiconductor devices. The company's products are primarily used in the automotive industry, but also in other industries such as industrial, medical and consumer electronics. Melexis is headquartered in Tessenderlo, Belgium.",
+  "website": "http://www.melexis.com"
 }

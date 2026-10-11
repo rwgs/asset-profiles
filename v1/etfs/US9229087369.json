@@ -16,7 +16,7 @@
   ],
   "aum_usd": 379514980856.54,
   "category": "Growth",
-  "category_group": "Financials",
+  "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
@@ -44,7 +44,7 @@
   "name": "Vanguard Growth ETF",
   "primary_symbol": "VUG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000036405"
@@ -53,35 +53,31 @@
   "sector_weights": [
     {
       "sector": "Information Technology",
-      "weight": 0.292927
+      "weight": 0.437834
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.145866
     },
     {
       "sector": "Unknown",
-      "weight": 0.273545
+      "weight": 0.138054
     },
     {
       "sector": "Consumer Discretionary",
       "weight": 0.110834
     },
     {
-      "sector": "Communications",
-      "weight": 0.085924
-    },
-    {
-      "sector": "Real Estate",
-      "weight": 0.085457
-    },
-    {
       "sector": "Health Care",
-      "weight": 0.047525
-    },
-    {
-      "sector": "Financials",
-      "weight": 0.041111
+      "weight": 0.046671
     },
     {
       "sector": "Industrials",
-      "weight": 0.032343
+      "weight": 0.043573
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.037319
     },
     {
       "sector": "Consumer Staples",
@@ -90,6 +86,10 @@
     {
       "sector": "Energy",
       "weight": 0.011559
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.009516
     },
     {
       "sector": "Materials",

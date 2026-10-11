@@ -2,29 +2,58 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG0059LB4R2",
+    "composite_figi": "BBG00CLLF0J6",
     "cusip": "925654105",
+    "figi": "BBG00CLLF0J6",
     "isin": "CA9256541058"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Construction Materials",
+  "industry_group": "Materials",
   "isin": "CA9256541058",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "VEV"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6LGA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "6LGA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6LGA.F"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA9256541058.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "VMC.V"
     }
   ],
-  "name": "VICINITY MOTOR CORP",
-  "primary_symbol": "CA9256541058.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Vicinity Motor Corp. Common Stock",
+  "primary_symbol": "VEV",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Vicinity Motor Corp., formerly Grande West Transportation Group Inc., manufactures and distributes electric, CNG, and clean-diesel buses for public and private transportation. The company's products serve transit agencies, universities, and private operators. Vicinity Motor Corp is based in Aldergrove, British Columbia, Canada."
+  "sector": "Materials",
+  "summary": "Vicinity Motor Corp. is a Canadian company that designs, engineers, and manufactures electric, CNG, gas and clean-diesel vehicles. Their focus is on providing affordable, clean, and efficient transportation solutions for public and private sector applications, including transit buses and shuttle vans. The company is headquartered in Aldergrove, British Columbia, Canada.",
+  "website": "http://www.grandewest.com"
 }

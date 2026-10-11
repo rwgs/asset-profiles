@@ -2,8 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00MCDNJ93",
-    "figi": "BBG00MCDNJB0",
+    "composite_figi": "BBG000BDS374",
+    "cusip": "449172105",
+    "figi": "BBG000BDS374",
     "isin": "US4491721050"
   },
   "industry": "Machinery",
@@ -12,6 +13,11 @@
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "HY"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HYEA.F"
@@ -19,9 +25,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Hyster-Yale Materials Handling, Inc.",
-  "primary_symbol": "HYEA.F",
+  "primary_symbol": "HY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

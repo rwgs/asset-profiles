@@ -2,30 +2,37 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000LNS3Y1",
-    "figi": "BBG000LNS4Q8",
+    "composite_figi": "BBG000GFQBM1",
+    "figi": "BBG000GFQBY8",
     "isin": "BMG2111B1752"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Electronic Equipment, Instruments & Components",
+  "industry_group": "Technology Hardware & Equipment",
   "isin": "BMG2111B1752",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0370.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "EFO3.F"
     }
   ],
-  "name": "China Best Group Holding Limited",
-  "primary_symbol": "EFO3.F",
+  "market_cap_band": "Micro Cap",
+  "name": "Hong Kong Robotics Group Holding Limited",
+  "primary_symbol": "0370.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "China Best Group Holding Limited, an investment holding company, trades in radio systems and electronic appliances in the People's Republic of China, Singapore, Hong Kong, and North and South America. The company operates through Trading of Goods, Finance Leasing, Money Lending, Securities and Futures Brokerage, International Air and Sea Freight Forwarding, Securities Trading, Property Investment, Building Architecture and Interior Design, and Property Brokerage segments. It is also involved in finance leasing of plant and machinery; money lending, securities and futures dealing, and equity securities trading activities; and the provision of international air and sea freight forwarding and logistic services, and finance lease and consultancy services; residential and commercial property agency services, as well as property investment services; and building architecture and interior design services. China Best Group Holding Limited was incorporated in 1996 and is based in Tsim Sha Tsui, Hong Kong.",
-  "website": "http://www.cbgroup.com.hk"
+  "sector": "Information Technology",
+  "summary": "Hong Kong Robotics Group Holding Limited is an investment holding company with varied activities. It distributes electronic appliances in mainland China, Singapore, Hong Kong and the Americas. In finance it leases plant and machinery, lends money and brokers securities and futures, and it also trades equities directly.",
+  "website": "https://www.hkrobotics.ai"
 }

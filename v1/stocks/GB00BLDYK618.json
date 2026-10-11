@@ -1,12 +1,24 @@
 {
-  "country": "Israel",
-  "country_code": "IL",
+  "country": "United Kingdom",
+  "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG00JGDWH09",
+    "figi": "BBG00JGDWH63",
     "isin": "GB00BLDYK618"
   },
   "isin": "GB00BLDYK618",
   "kind": "fund",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1IZ1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1IZ1.MU"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -20,13 +32,14 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Scottish Mortgage Investment Trust PLC",
-  "primary_symbol": "SMT.L",
+  "primary_symbol": "1IZ1.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Scottish Mortgage Investment Trust PLC is an investment trust that invests globally in a portfolio of listed and unlisted companies. The trust aims to achieve maximum total return by investing in businesses with above-average growth potential. It is managed by Baillie Gifford."
+  "summary": "Scottish Mortgage Investment Trust PLC is an investment trust that invests globally in publicly traded and private companies with long-term growth potential. The trust aims to identify and invest in businesses that are expected to experience significant growth over the long term. TICKER: Scottish Mortgage Investment Trust PLC is an investment trust that invests globally in companies with long-term growth potential, aiming to identify and invest in businesses expected to experience significant growth.",
+  "website": "https://www.scottishmortgage.com"
 }

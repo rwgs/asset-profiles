@@ -3,7 +3,7 @@
   "country_code": "AU",
   "identifiers": {
     "composite_figi": "BBG00FZM8RW6",
-    "figi": "BBG00FZM8RX5",
+    "figi": "BBG00FZM8RY4",
     "isin": "AU000000ARL4"
   },
   "industry": "Metals & Mining",
@@ -11,6 +11,11 @@
   "isin": "AU000000ARL4",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "A91.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -29,15 +34,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Ardea Resources Limited",
-  "primary_symbol": "A91.F",
+  "primary_symbol": "A91.DU",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Ardea Resources Limited engages in the exploration and development of mineral properties in Australia. The company explores for nickel, cobalt, scandium, gold, PGEs, copper, lead, and zinc  deposits. Its flagship project is its 100% interest include the Goongarrie Nickel-Cobalt Project located in the Kalgoorlie, Western Australia. The company was incorporated in 2016 and is based in West Perth, Australia.",
+  "summary": "Ardea Resources Limited engages in the exploration and development of mineral properties in Australia. The company explores for nickel, cobalt, scandium, gold, PGEs, copper, lead, and zinc deposits. Its flagship project is its 100% interest include the Goongarrie Nickel-Cobalt Project located in the Kalgoorlie, Western Australia. The company was incorporated in 2016 and is based in West Perth, Australia.",
   "website": "http://www.ardearesources.com.au"
 }

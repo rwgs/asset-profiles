@@ -2,14 +2,20 @@
   "country": "South Africa",
   "country_code": "ZA",
   "identifiers": {
-    "composite_figi": "BBG000BQ4XQ4",
-    "figi": "BBG000BQ50B1",
+    "composite_figi": "BBG000BVP9V7",
+    "figi": "BBG000BVPB15",
     "isin": "ZAE000081949"
   },
+  "industry": "Capital Markets",
   "industry_group": "Diversified Financials",
   "isin": "ZAE000081949",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "INL.JO"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,19 +23,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IYYA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "IYYA.MU"
     }
   ],
-  "name": "INVESTEC LTD  RC-,0002",
-  "primary_symbol": "IYYA.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Investec plc",
+  "primary_symbol": "INL.JO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Investec Limited is an international financial services group providing a range of financial products and services to a niche client base in three principal markets: South Africa, the United Kingdom, and Australia. The company operates in two main divisions: Specialist Banking and Wealth & Investment. Investec is headquartered in Johannesburg, South Africa."
+  "summary": "Investec Group provides various financial products and services in the United Kingdom South Africa, and internationally. The company offers wealth and investment products and services, including portfolio management, discretionary wealth management, financial planning, stockbroking/execution, pensions and retirement, and investment advisory services for private clients, charities, pension funds and trusts. It also provides specialist banking products and services comprising private banking products, such as lending, savings, foreign exchange, private capital, and transactional banking services; corporate and investment banking products, including lending, advisory, hedging, cash deposits and savings, and equity placement services to government, institutions, corporates, and intermediaries. Investec Group was founded in 1974 and is based in Sandton, South Africa.",
+  "website": "http://www.investec.com"
 }

@@ -2,9 +2,9 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BK6YX5",
+    "composite_figi": "BBG000GXR223",
     "cusip": "45773H201",
-    "figi": "BBG000BK7763",
+    "figi": "BBG000GXS9P2",
     "isin": "US45773H2013"
   },
   "industry": "Biotechnology",
@@ -12,16 +12,6 @@
   "isin": "US45773H2013",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "INO"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XLON",
-      "symbol": "0A43.L"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -46,18 +36,13 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GBMB.SG"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "INO.MX"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Inovio Pharmaceuticals, Inc.",
-  "primary_symbol": "INO",
+  "primary_symbol": "GBMB.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

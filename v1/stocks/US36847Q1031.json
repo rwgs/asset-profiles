@@ -2,15 +2,21 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000S9BL19",
+    "composite_figi": "BBG000BYKWS9",
     "cusip": "36847Q103",
-    "figi": "BBG000S9BNK4",
+    "figi": "BBG000BYL1Y9",
     "isin": "US36847Q1031"
   },
+  "industry": "Automobiles",
   "industry_group": "Automobiles & Components",
   "isin": "US36847Q1031",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "GELYY"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -23,6 +29,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GRUA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "GRUA.MU"
     },
@@ -32,15 +43,17 @@
       "symbol": "GRUA.SG"
     }
   ],
-  "name": "GEELY AUTO.H.ADR/20 HD-02",
-  "primary_symbol": "GRUA.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Geely Automobile Holdings Ltd.",
+  "primary_symbol": "GELYY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Geely Automobile Holdings Limited is a Chinese automobile manufacturer that designs, develops, manufactures, and sells passenger vehicles under the Geely Auto brand and other brands. The company's product line includes sedans, sport utility vehicles (SUVs), and electric vehicles. Geely is headquartered in Hong Kong."
+  "summary": "Geely Automobile Holdings Limited, an investment holding company, operates as an automobile manufacturer primarily in the People's Republic of China. The company engages in the research and development, production, marketing, and sale of automobiles, automobile parts, and related automobile components, as well as provision of related after-sales and technical services. It primarily offers sedans, wagons, sport utility cars, and electric vehicles. The company also provides vehicles design, technology consulting, general logistics, packing, and storage services; researches and develops technology; and manufactures and sells vehicle engines. It operates in Malaysia, Eastern Europe, the Middle East, Sweden, the Philippines, Central and South America, Africa, and other countries. The company is headquartered in Wan Chai, Hong Kong.",
+  "website": "http://www.geelyauto.com.hk"
 }

@@ -2,9 +2,9 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000BC3Q45",
+    "composite_figi": "BBG00HL184V5",
     "cusip": "83546A203",
-    "figi": "BBG000BC3QH1",
+    "figi": "BBG00HL184V5",
     "isin": "US83546A2033"
   },
   "industry": "Health Care Equipment & Supplies",
@@ -13,31 +13,16 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "SAB.F"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "SHL.AX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SKHCF"
-    },
-    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SKHHY"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Sonic Healthcare Limited",
-  "primary_symbol": "SAB.F",
+  "primary_symbol": "SKHHY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

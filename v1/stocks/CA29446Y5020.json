@@ -4,28 +4,61 @@
   "identifiers": {
     "composite_figi": "BBG00DSPRCD5",
     "cusip": "29446Y502",
-    "figi": "BBG00DSPRCJ9",
+    "figi": "BBG00DSPRCL6",
     "isin": "CA29446Y5020"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA29446Y5020",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1LRC.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "1LRC.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1LRC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1LRC.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA29446Y5020.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "EQX"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "EQX.TO"
     }
   ],
-  "name": "EQUINOX GOLD CORP",
-  "primary_symbol": "CA29446Y5020.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "Equinox Gold Corp.",
+  "primary_symbol": "1LRC.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "EQUINOX GOLD CORP is a gold mining company with operations in the Americas. The company is focused on gold production, development, and exploration. Equinox Gold is headquartered in Vancouver, British Columbia, Canada."
+  "summary": "Equinox Gold Corp. engages in the acquisition, exploration, and development of mineral deposits. The company primarily explores for gold and silver deposits. Its properties include the Aurizona gold mine located in Maranhão State; the Fazenda gold mine located in Bahia State; the RDM gold mine located in Minas Gerais State; the Pilar gold mine located in Goiás State; and the Santa Luz gold mine located in Bahia State, Brazil. The company also hold interests in the Mesquite gold mine and the Castle Mountain property situated in California, the United States; and the Los Filos Gold Mine located in Guerrero State, Mexico. In addition, it holds a 60% interest in the Greenstone project located in Ontario, Canada. The company was formerly known as Trek Mining Inc. and changed its name to Equinox Gold Corp. in December 2017. Equinox Gold Corp. was incorporated in 2007 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.equinoxgold.com"
 }

@@ -2,6 +2,8 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG00JHW88B1",
+    "figi": "BBG00JHW88C0",
     "isin": "FR0013230612"
   },
   "industry": "Capital Markets",
@@ -21,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7TI.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "7TI.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TKKHF"
     },
     {
       "currency": "EUR",
@@ -34,7 +46,7 @@
   "name": "Tikehau Capital",
   "primary_symbol": "0RP0.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

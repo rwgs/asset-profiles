@@ -1,14 +1,19 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "New Zealand",
+  "country_code": "NZ",
   "identifiers": {
-    "composite_figi": "BBG000Q238F9",
-    "figi": "BBG000Q23912",
+    "composite_figi": "BBG00YM390S4",
+    "figi": "BBG00YM390T3",
     "isin": "NZBRME0001S2"
   },
   "isin": "NZBRME0001S2",
   "kind": "fund",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "607.F"
+    },
     {
       "currency": "NZD",
       "exchange_mic": "XNZE",
@@ -22,13 +27,14 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Barramundi Limited",
-  "primary_symbol": "BRM.NZ",
+  "primary_symbol": "607.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Barramundi Limited is a New Zealand-based investment company focused on investing in listed Australian companies. The company seeks to provide shareholders with long-term capital growth through a concentrated portfolio of investments. The company is managed by Fisher Funds."
+  "summary": "Barramundi Limited is an Australian investment company that invests in a portfolio of listed global healthcare companies. The company provides investors with exposure to the global healthcare sector. Their headquarter is in Australia.",
+  "website": "http://www.barramundi.co.nz"
 }

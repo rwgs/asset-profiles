@@ -3,27 +3,36 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG000BXTJD7",
+    "figi": "BBG000BXTJX5",
     "isin": "SE0000567539"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "SE0000567539",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "PION-B.ST"
+    },
     {
       "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0000567539.SW"
     }
   ],
-  "name": "PION GROUP AB",
-  "primary_symbol": "SE0000567539.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "PION Group AB (publ)",
+  "primary_symbol": "PION-B.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials",
-  "summary": "PION GROUP AB is an investment company that invests in and develops companies in various sectors. They focus on long-term value creation through active ownership and strategic support. The company is headquartered in Stockholm, Sweden."
+  "sector": "Industrials",
+  "summary": "PION GROUP AB is an investment company that invests in and develops companies in various sectors. They focus on long-term value creation through active ownership and strategic support. The company is headquartered in Stockholm, Sweden.",
+  "website": "https://www.piongroup.se"
 }

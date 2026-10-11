@@ -2,9 +2,9 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG005ZQ2M65",
+    "composite_figi": "BBG002NFG4Y3",
     "cusip": "34959A206",
-    "figi": "BBG005ZQ2MD7",
+    "figi": "BBG002NFG4Y3",
     "isin": "US34959A2069"
   },
   "industry": "Metals & Mining",
@@ -12,6 +12,11 @@
   "isin": "US34959A2069",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FSUGY"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -24,16 +29,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "FORTESCUE MET.GR.SP.ADR 2",
-  "primary_symbol": "FVJA.BE",
+  "name": "Fortescue Metals Group Limited",
+  "primary_symbol": "FSUGY",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Fortescue Metals Group Limited is a global mining enterprise primarily engaged in the exploration, extraction, processing, and worldwide distribution of iron ore, with a significant presence in Australia and China.",
-  "website": "https://www.fortescue.com"
+  "summary": "Fortescue Metals Group Limited engages in the exploration, development, production, processing, and sale of iron ore in Australia, China, and internationally. It also explores for copper and gold deposits. The company owns and operates the Chichester Hub that includes the Cloudbreak and Christmas Creek mines located in the Chichester ranges; and the Solomon Hub comprising the Firetail and Kings Valley mines located in the Hamersley ranges of Pilbara, Western Australia. It is also developing the Eliwana mine situated in the Pilbara region of Western Australia. In addition, the company holds a portfolio of properties situated in Ecuador and Argentina. Further, it provides port towage services. Fortescue Metals Group Limited was founded in 2003 and is headquartered in East Perth, Australia.",
+  "website": "http://www.fmgl.com.au"
 }

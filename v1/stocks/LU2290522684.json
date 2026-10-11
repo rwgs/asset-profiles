@@ -1,27 +1,68 @@
 {
-  "country": "Luxembourg",
-  "country_code": "LU",
+  "country": "Poland",
+  "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG00Z2WW4M1",
-    "figi": "BBG00Z2WW4R6",
+    "composite_figi": "BBG00Z2Z7Z89",
+    "figi": "BBG00Z2Z7Z98",
     "isin": "LU2290522684"
   },
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "LU2290522684",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0A6K.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "669.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "669.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "669.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "669.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "INPOF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "INPST.AS"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LU2290522684.SG"
     }
   ],
-  "name": "INPOST SA",
-  "primary_symbol": "LU2290522684.SG",
+  "market_cap_band": "Mid Cap",
+  "name": "InPost S.A.",
+  "primary_symbol": "0A6K.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Industrials",
+  "summary": "InPost S.A. provides parcel locker services in Europe. The company operates self-service parcel dispatch and collection points. It also offers warehousing and fulfilment services to merchants. The company operates approximately 12,000 automated parcel machines in Poland and internationally. The company was founded in 1999 and is headquartered in Kraków, Poland.",
+  "website": "http://www.inpost.eu"
 }

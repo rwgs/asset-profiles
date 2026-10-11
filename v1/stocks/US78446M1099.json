@@ -2,9 +2,9 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000G9LML7",
+    "composite_figi": "BBG00XXXNTP2",
     "cusip": "78446M109",
-    "figi": "BBG000G9LPT2",
+    "figi": "BBG00XXXNTQ1",
     "isin": "US78446M1099"
   },
   "industry": "Technology Hardware, Storage & Peripherals",
@@ -14,36 +14,13 @@
   "listings": [
     {
       "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "S92.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "S92.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "S92.SG"
-    },
-    {
-      "symbol": "S92.TI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "S92.VI"
-    },
-    {
-      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "S93.F"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "SMTGF"
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S93.MU"
     },
     {
       "currency": "USD",
@@ -51,11 +28,11 @@
       "symbol": "SMTGY"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "SMA Solar Technology AG",
-  "primary_symbol": "S92.DE",
+  "primary_symbol": "S93.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

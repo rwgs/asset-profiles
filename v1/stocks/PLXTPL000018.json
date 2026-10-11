@@ -2,28 +2,47 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG00HPS3M01",
+    "composite_figi": "BBG00RNXF675",
+    "figi": "BBG00RNXF684",
     "isin": "PLXTPL000018"
   },
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "PLXTPL000018",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5C8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5C8.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PLXTPL000018.SG"
+    },
+    {
+      "currency": "PLN",
+      "exchange_mic": "XWAR",
+      "symbol": "XTP.WA"
     }
   ],
-  "name": "XTPL SA",
-  "primary_symbol": "PLXTPL000018.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "XTPL S.a.",
+  "primary_symbol": "5C8.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "XTPL SA is a Polish technology company specializing in developing and commercializing innovative printing technology for advanced electronics applications. Their technology enables precise deposition of nanomaterials, creating opportunities in areas like displays, printed electronics, and microelectronics. The company is based in Warsaw, Poland."
+  "summary": "XTPL S.A. develops additive manufacturing technology for ultra-precise printing of nanomaterials. The company offers ultra-precise deposition technology, nano inks, and printed structures. Its technology is used in display, semiconductor, PCB, anticounterfeiting, research and prototyping, and biosensor applications. XTPL S.A. was founded in 2015 and is based in Wroclaw, Poland.",
+  "website": "http://xtpl.com"
 }

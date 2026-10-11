@@ -2,8 +2,11 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "cusip": "84790A105"
+    "composite_figi": "BBG000BXRYC7",
+    "cusip": "84790A105",
+    "figi": "BBG000BXS058"
   },
+  "industry": "Real Estate Management & Development",
   "industry_group": "Real Estate",
   "kind": "stock",
   "listings": [
@@ -13,15 +16,17 @@
       "symbol": "SPB.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "SEDLMAYR GRUND U.IMMOBILIEN AGI",
   "primary_symbol": "SPB.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Sedlmayr Grund und Immobilien AG is a German real estate company focused on property management and development. The company owns and manages a diverse portfolio of commercial and residential properties. Its headquarters are located in Munich, Germany."
+  "summary": "Sedlmayr Grund und Immobilien AG is a German real estate company focused on property management and development. The company owns and manages a diverse portfolio of commercial and residential properties. Its headquarters are located in Munich, Germany.",
+  "website": "http://www.sedlmayr-ag.de"
 }

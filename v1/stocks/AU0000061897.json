@@ -6,6 +6,7 @@
     "figi": "BBG000CD6YG9",
     "isin": "AU0000061897"
   },
+  "industry": "Professional Services",
   "industry_group": "Commercial & Professional Services",
   "isin": "AU0000061897",
   "kind": "stock",
@@ -14,17 +15,49 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "AU0000061897.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "AUSDF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "FWG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FWG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FWG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FWG.MU"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "PRN.AX"
     }
   ],
-  "name": "PERENTI LTD",
+  "market_cap_band": "Small Cap",
+  "name": "Perenti Global Limited",
   "primary_symbol": "AU0000061897.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Perenti Ltd is an Australian mining services company providing a range of services to the mining industry, including contract mining, drilling, and maintenance. The company operates globally, serving clients in various commodities."
+  "summary": "Perenti Ltd is an Australian mining services company providing a range of services to the mining industry, including contract mining, drilling, and maintenance. The company operates globally, serving clients in various commodities.",
+  "website": "http://www.perentigroup.com"
 }

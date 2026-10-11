@@ -7,6 +7,7 @@
     "figi": "BBG000MSV632",
     "isin": "CA5359194019"
   },
+  "industry": "Entertainment",
   "industry_group": "Media & Entertainment",
   "isin": "CA5359194019",
   "kind": "stock",
@@ -18,19 +19,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LGNA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "LGNA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LGNA.SG"
     }
   ],
-  "name": "LIONS GATE ENTERT. CL. A",
+  "market_cap_band": "Mid Cap",
+  "name": "Lions Gate Entertainment Corp.",
   "primary_symbol": "LGNA.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Lions Gate Entertainment Corp. is a global content platform whose films, television series, digital products and linear and over-the-top platforms reach next-generation audiences around the world. Lions Gate is based in Santa Monica, California."
+  "summary": "Lions Gate Entertainment Corp. is a global content platform whose films, television series, digital products and linear and over-the-top platforms reach next-generation audiences around the world. Lions Gate is based in Santa Monica, California.",
+  "website": "http://www.lionsgate.com"
 }

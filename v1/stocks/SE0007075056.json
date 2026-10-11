@@ -2,13 +2,35 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG000QPJM79",
+    "composite_figi": "BBG00JHW6TH1",
+    "figi": "BBG00JHW6TJ9",
     "isin": "SE0007075056"
   },
-  "industry_group": "Energy",
+  "industry": "Construction & Engineering",
+  "industry_group": "Utilities",
   "isin": "SE0007075056",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XLON",
+      "symbol": "0R8F.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7EVB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7EVB.MU"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "EOLU-B.ST"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -20,15 +42,17 @@
       "symbol": "SE0007075056.SW"
     }
   ],
-  "name": "EOLUS VIND AB-B SHS",
-  "primary_symbol": "SE0007075056.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Eolus Vind AB (publ)",
+  "primary_symbol": "0R8F.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
-  "summary": "EOLUS VIND AB-B SHS develops, constructs, and operates wind farms. They are involved in all stages of wind power projects, from early development to operation and maintenance. The company is headquartered in Hässleholm, Sweden."
+  "sector": "Utilities",
+  "summary": "Eolus Vind AB (publ) primarily engages in the development, establishment, and operation of facilities for renewable energy and energy storage in the Nordic region, Sweden, Norway, Finland, Baltic countries, and the United States. The company operates through three segments: Project Development, Asset Management, and Electricity Generation. It engages in the operation of wind turbines; production and sale of electricity; and sale of electricity certificates. The company is also involved in the pre-study, project development, and establishment of wind power facilities. In addition, it offers asset management services to the owners of wind power facilities. Further, the company invests in wind power projects; and provides technical and management consultancy services for wind power stakeholders. Eolus Vind AB (publ) was founded in 1990 and is headquartered in Hässleholm, Sweden.",
+  "website": "http://www.eolusvind.com"
 }

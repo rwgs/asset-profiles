@@ -6,8 +6,8 @@
     "figi": "BBG00J06SK45",
     "isin": "FR0013214145"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Specialty Retail",
+  "industry_group": "Retailing",
   "isin": "FR0013214145",
   "kind": "stock",
   "listings": [
@@ -18,15 +18,20 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SFC.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "SMCP.PA"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "SMCP S.A.",
+  "name": "SMCP S.a.",
   "primary_symbol": "SFC.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,9 +2,11 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000DMZP39",
+    "composite_figi": "BBG000GZVG68",
+    "figi": "BBG000GZVJY1",
     "isin": "GB00BDGS8G04"
   },
+  "industry": "Textiles, Apparel & Luxury Goods",
   "industry_group": "Consumer Durables & Apparel",
   "isin": "GB00BDGS8G04",
   "kind": "stock",
@@ -13,17 +15,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BDGS8G04.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HXKB.F"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "SOS.L"
     }
   ],
-  "name": "SOSANDAR PLC",
+  "market_cap_band": "Nano Cap",
+  "name": "Sosandar Plc",
   "primary_symbol": "GB00BDGS8G04.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Sosandar PLC is an online women's fashion brand that designs and sells clothing, footwear, and accessories. The company targets fashion-conscious women and offers a wide range of styles and sizes through its website and partnerships with other retailers. Sosandar is headquartered in Wilmslow, UK."
+  "summary": "Sosandar PLC is an online women's fashion brand that designs and sells clothing, footwear, and accessories. The company targets fashion-conscious women and offers a wide range of styles and sizes through its website and partnerships with other retailers. Sosandar is headquartered in Wilmslow, UK.",
+  "website": "http://www.sosandar.com"
 }

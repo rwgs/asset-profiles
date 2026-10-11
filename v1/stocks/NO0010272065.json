@@ -2,28 +2,37 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG000HHBQ85",
+    "composite_figi": "BBG000P0DH72",
+    "figi": "BBG000P0DH72",
     "isin": "NO0010272065"
   },
+  "industry": "Marine",
   "industry_group": "Transportation",
   "isin": "NO0010272065",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ASCJF"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010272065.SW"
     }
   ],
-  "name": "AMSC ASA",
-  "primary_symbol": "NO0010272065.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "AMSC Asa",
+  "primary_symbol": "ASCJF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "AMSC ASA is a ship owning company, focusing on the Jones Act market in the United States. The company owns and operates a fleet of product tankers. AMSC ASA is headquartered in Oslo, Norway."
+  "summary": "AMSC ASA is a ship owning company, focusing on the Jones Act market in the United States. The company owns and operates a fleet of product tankers. AMSC ASA is headquartered in Oslo, Norway.",
+  "website": "https://www.amscasa.com"
 }

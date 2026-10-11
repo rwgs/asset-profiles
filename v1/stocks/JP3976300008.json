@@ -3,28 +3,51 @@
   "country_code": "JP",
   "identifiers": {
     "composite_figi": "BBG00LFS8RZ9",
-    "figi": "BBG00LFS8S41",
+    "figi": "BBG00LFS8S05",
     "isin": "JP3976300008"
   },
+  "industry": "Multiline Retail",
   "industry_group": "Retailing",
   "isin": "JP3976300008",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3RK.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "3RK.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "3RK.SG"
+    },
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "7453.T"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RYKKF"
     }
   ],
-  "name": "RYOHIN KEIKAKU CO.",
-  "primary_symbol": "3RK.MU",
+  "market_cap_band": "Mid Cap",
+  "name": "Ryohin Keikaku Co., Ltd.",
+  "primary_symbol": "3RK.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Ryohin Keikaku Co., Ltd., operating as MUJI, is a Japanese retail company which sells a wide variety of household and consumer goods. MUJI is distinguished by its design minimalism, emphasis on recycling, avoidance of waste in production and packaging, and no-logo or \"no-brand\" policy. The company is headquartered in Tokyo, Japan."
+  "summary": "Ryohin Keikaku Co., Ltd. develops, manufactures, distributes, and sells clothing, household goods, and food items under the MUJI brand. It operates café and meal stores, campsites, and online stores. The company also designs, manufactures, and sells home furnishings, including furniture, accessories, antiques, curtains, and rugs. As of February 29, 2020, it operated 970 stores in Japan and internationally. The company also engages in the production, consultation, and design of living, retail, and other space. Ryohin Keikaku Co., Ltd. was founded in 1989 and is based in Tokyo, Japan.",
+  "website": "http://ryohin-keikaku.jp"
 }

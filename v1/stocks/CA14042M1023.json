@@ -2,7 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG000LX4D19",
     "cusip": "14042M102",
+    "figi": "BBG000LX5GR3",
     "isin": "CA14042M1023"
   },
   "industry": "Independent Power and Renewable Electricity Producers",
@@ -10,16 +12,6 @@
   "isin": "CA14042M1023",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CPRHF"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "CPWPF"
-    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSE",
@@ -32,10 +24,10 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "CAPITAL POWER CORPORATION",
-  "primary_symbol": "CPRHF",
+  "name": "Capital Power Corporation",
+  "primary_symbol": "CPX.TO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

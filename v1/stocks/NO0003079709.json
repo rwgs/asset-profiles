@@ -2,9 +2,11 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "composite_figi": "BBG00JHVTGG7",
+    "figi": "BBG00JHVTGH6",
     "isin": "NO0003079709"
   },
-  "industry": "Electrical Equipment",
+  "industry": "Electronic Equipment, Instruments & Components",
   "industry_group": "Technology Hardware & Equipment",
   "isin": "NO0003079709",
   "kind": "stock",
@@ -20,11 +22,6 @@
       "symbol": "KIT.OL"
     },
     {
-      "currency": "NOK",
-      "exchange_mic": "XOSL",
-      "symbol": "KITO.OL"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "KP5.BE"
@@ -35,11 +32,11 @@
       "symbol": "KP5.F"
     }
   ],
-  "market_cap_band": "Small Cap",
+  "market_cap_band": "Mid Cap",
   "name": "Kitron ASA",
   "primary_symbol": "0F0J.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -6,6 +6,7 @@
     "figi": "BBG00HPS2XP1",
     "isin": "DE000WAF3001"
   },
+  "industry": "Semiconductors & Semiconductor Equipment",
   "industry_group": "Semiconductors & Semiconductor Equipment",
   "isin": "DE000WAF3001",
   "kind": "stock",
@@ -14,17 +15,69 @@
       "currency": "EUR",
       "exchange_mic": "XSWX",
       "symbol": "DE000WAF3001.SW"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "SSLLF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "WAF.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "WAF.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WAF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "WAF.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "WAF.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WAF.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "WAF.SG"
+    },
+    {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "WAF.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "WAF.VI"
     }
   ],
-  "name": "SILTRONIC AG",
+  "market_cap_band": "Mid Cap",
+  "name": "Siltronic AG",
   "primary_symbol": "DE000WAF3001.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "SILTRONIC AG is a German manufacturer of silicon wafers. They are a leading supplier of hyperpure silicon wafers for the semiconductor industry. The company is headquartered in Munich, Germany."
+  "summary": "SILTRONIC AG is a German manufacturer of silicon wafers. They are a leading supplier of hyperpure silicon wafers for the semiconductor industry. The company is headquartered in Munich, Germany.",
+  "website": "http://www.siltronic.com"
 }

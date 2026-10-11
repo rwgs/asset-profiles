@@ -2,27 +2,62 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
+    "composite_figi": "BBG000BFGXC0",
+    "figi": "BBG000BFGXV9",
     "isin": "HK0669013440"
   },
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Machinery",
+  "industry_group": "Capital Goods",
   "isin": "HK0669013440",
   "kind": "stock",
   "listings": [
     {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0669.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TIB1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TIB1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TIB1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TIB1.MU"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "TIB1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TTNDF"
     }
   ],
-  "name": "Techtronic Industries Co. Ltd.R",
-  "primary_symbol": "TIB1.SG",
+  "market_cap_band": "Large Cap",
+  "name": "Techtronic Industries Company Limited",
+  "primary_symbol": "0669.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Techtronic Industries Co. Ltd. designs, manufactures, and markets power tools, outdoor power equipment, and floor care and appliance products. Its portfolio includes brands such as MILWAUKEE, RYOBI, and HOOVER. The company is headquartered in Hong Kong."
+  "sector": "Industrials",
+  "summary": "Techtronic Industries Company Limited, an investment holding company, engages in the design, manufacture, and marketing of power tools, outdoor power equipment, and floor care worldwide. It offers industrial power tools, accessories, hand tools and storage products, layout and measuring tools, trade power tools, and outdoor products under the Milwaukee, AEG, RYOBI, HOMELITE, Empire, Imperial Blades, STILETTO, and HART brands. The company also provides cleaning solutions, including uprights, stick vacuums, and hard-floor cleaners under the HOOVER brand; vacuums, steam mops, floor machines, air purifiers, and other cleaning products under the ORECK brand; cleaning products across various floor care categories under the VAX brand; and uprights, sticks, and hand vacuums under the DIRT DEVIL brand. In addition, it trades in outdoor power equipment products, household electronic and electrical products, and floor care products; manufactures plastic parts, metallic parts, and electronic products; holds investment and intellectual properties; and offers inspection services. Further, the company is involved in the research and development activities; and design, manufacture, and supply of products under a contract manufacturing basis for other brands, distributors, and retailers. It serves DIY, professional, and industrial users in the home improvement, repair, maintenance, construction, and infrastructure industries. The company was incorporated in 1985 and is headquartered in Kwai Chung, Hong Kong.",
+  "website": "http://www.ttigroup.com"
 }

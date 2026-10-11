@@ -2,6 +2,8 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG00G417MR2",
+    "figi": "BBG00G417MT0",
     "isin": "IT0005211237"
   },
   "industry": "Gas Utilities",
@@ -11,21 +13,56 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RK1.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "I10.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "I10.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "I10.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "I10.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "IG.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "IG.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "ITGGF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Italgas S.p.A.",
-  "primary_symbol": "IG.MI",
+  "primary_symbol": "0RK1.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Italgas S.p.A., together with its subsidiaries, engages in the distribution of natural gas in Italy. It is involved in the transportation of gas through local pipeline networks from the delivery points at the reduction and measurement stations interconnected with the transport networks to the points of final delivery to households, enterprises, etc. As of December 31, 2019, the company operated a distribution network of 70,502 kilometers that served 1,744 operating municipalities. It also engages in metering activities; and distributes and sells water. The company was founded in 1837 and is based in Milan, Italy.",
+  "summary": "ITALGAS SPA is an Italian natural gas distribution company. The company operates and maintains a network of gas pipelines and distributes natural gas to residential, commercial, and industrial customers. ITALGAS SPA is headquartered in Milan, Italy.",
   "website": "http://www.italgas.it"
 }

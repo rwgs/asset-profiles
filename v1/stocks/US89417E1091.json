@@ -24,8 +24,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PA9.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PA9.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PA9.DU"
     },
     {
       "currency": "EUR",
@@ -34,10 +44,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "PA9.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PA9.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PA9.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "PA9.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "PA9.TI"
     },
     {
@@ -49,23 +75,13 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "TRV.VI"
-    },
-    {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "TRVC34.SA"
-    },
-    {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "TRVV.BA"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Travelers Companies, Inc.",
   "primary_symbol": "TRV",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

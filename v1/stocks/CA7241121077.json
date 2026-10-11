@@ -3,9 +3,10 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG000LGJCN8",
-    "cusip": "724112107",
     "isin": "CA7241121077"
   },
+  "industry": "Oil, Gas & Consumable Fuels",
+  "industry_group": "Energy",
   "isin": "CA7241121077",
   "kind": "stock",
   "listings": [
@@ -15,13 +16,14 @@
       "symbol": "CA7241121077.SG"
     }
   ],
-  "name": "PIPESTONE ENERGY CORP",
+  "name": "Pipestone Energy",
   "primary_symbol": "CA7241121077.SG",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "sector": "Energy"
 }

@@ -5,6 +5,7 @@
     "composite_figi": "BBG000BL9QB1",
     "isin": "GB0009035741"
   },
+  "industry": "IT Services",
   "industry_group": "Software & Services",
   "isin": "GB0009035741",
   "kind": "stock",
@@ -13,17 +14,34 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB0009035741.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TD8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TD8.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "TRD.L"
     }
   ],
-  "name": "TRIAD GROUP PLC",
+  "market_cap_band": "Micro Cap",
+  "name": "Triad Group plc",
   "primary_symbol": "GB0009035741.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "TRIAD GROUP PLC is a software and IT services company based in the UK. They provide digital solutions, consulting, and managed services to public and private sector clients, focusing on areas like digital transformation and data analytics. Their headquarters are in Godalming, UK."
+  "summary": "TRIAD GROUP PLC is a software and IT services company based in the UK. They provide digital solutions, consulting, and managed services to public and private sector clients, focusing on areas like digital transformation and data analytics. Their headquarters are in Godalming, UK.",
+  "website": "http://www.triad.co.uk"
 }

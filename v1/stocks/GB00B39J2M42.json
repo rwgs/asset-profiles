@@ -2,6 +2,8 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG000BBFLJ9",
+    "figi": "BBG000BBFLV5",
     "isin": "GB00B39J2M42"
   },
   "industry": "Water Utilities",
@@ -13,11 +15,6 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "UU.L"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "UUEA.F"
     },
     {
       "currency": "EUR",
@@ -52,24 +49,14 @@
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
-      "symbol": "UUGRY"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
       "symbol": "UUGWF"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "UUL.AX"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "United Utilities Group PLC",
   "primary_symbol": "UU.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

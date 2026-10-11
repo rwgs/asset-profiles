@@ -4,7 +4,7 @@
   "identifiers": {
     "isin": "SE0009922164"
   },
-  "industry": "Household Products",
+  "industry": "Food & Staples Retailing",
   "industry_group": "Food & Staples Retailing",
   "isin": "SE0009922164",
   "kind": "stock",
@@ -17,22 +17,32 @@
     {
       "currency": "SEK",
       "exchange_mic": "XSTO",
-      "symbol": "ESSITY-A.ST"
-    },
-    {
-      "currency": "SEK",
-      "exchange_mic": "XSTO",
       "symbol": "ESSITY-B.ST"
     },
     {
       "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ESW.F"
+      "exchange_mic": "XBER",
+      "symbol": "ESWB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ESWB.DU"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "ESWB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ESWB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ESWB.SG"
     },
     {
       "currency": "USD",
@@ -44,13 +54,13 @@
   "name": "Essity AB Class B",
   "primary_symbol": "0RQD.IL",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "ESSITY AB is a Swedish hygiene and health company that develops, produces, and sells personal care and tissue products. The company's brands include TENA, Tork, and Libresse. ESSITY AB is headquartered in Stockholm, Sweden.",
+  "summary": "Essity AB Class B is a Swedish hygiene and health company that develops, produces, and sells personal care and tissue products. The company's brands include TENA, Tork, and Libresse. ESSITY AB is headquartered in Stockholm, Sweden.",
   "website": "http://www.essity.com"
 }

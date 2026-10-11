@@ -2,8 +2,8 @@
   "country": "Japan",
   "country_code": "JP",
   "identifiers": {
-    "composite_figi": "BBG009RT88F5",
-    "figi": "BBG009RT88F5",
+    "composite_figi": "BBG000BPHCB4",
+    "figi": "BBG000BPHCP9",
     "isin": "JP3152750000"
   },
   "industry": "Diversified Telecommunication Services",
@@ -11,6 +11,11 @@
   "isin": "JP3152750000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "JPY",
+      "exchange_mic": "XJPX",
+      "symbol": "9449.T"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -43,16 +48,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "GMO Internet, Inc.",
-  "primary_symbol": "GMOYF",
+  "name": "GMO internet group,Inc.",
+  "primary_symbol": "9449.T",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "GMO Internet, Inc. provides various Internet services worldwide. It operates through Internet Infrastructure, Online Advertising and Media, Internet Finance, and Cryptocurrency segments. It offers Internet infrastructure services in the areas of domain, hosting, cloud, security, payments, e-commerce support, connection, Website creation support, marketing support, community, contents, app, and IoT. The company also provides online advertising and media services, such as media services, search, ad tech services, mobile marketing, O2O, and coupon/point services; and Internet financial services, including Internet securities, and FX and other trading services. In addition, it engages in cryptocurrency trading and mining business; and mobile, online, and other games. The company was incorporated in 1976 and is headquartered in Tokyo, Japan.",
+  "summary": "GMO Internet, Inc. provides a wide range of internet services worldwide, grouped into four divisions covering infrastructure, advertising and media, finance and cryptocurrency. Its infrastructure services include domain registration, web hosting, cloud, security, payments, e-commerce support and connectivity.",
   "website": "http://www.gmo.jp"
 }

@@ -2,14 +2,20 @@
   "country": "Hong Kong",
   "country_code": "HK",
   "identifiers": {
-    "composite_figi": "BBG000R27JD2",
-    "figi": "BBG000R27PZ4",
+    "composite_figi": "BBG000TF4XD3",
+    "figi": "BBG000TF4XZ9",
     "isin": "KYG5264Y1089"
   },
-  "industry_group": "Software & Services",
+  "industry": "Interactive Media & Services",
+  "industry_group": "Media & Entertainment",
   "isin": "KYG5264Y1089",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "3888.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -22,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3K1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "3K1.MU"
     },
@@ -29,17 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "3K1.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "KSFTF"
     }
   ],
-  "name": "Kingsoft Corporation Ltd",
-  "primary_symbol": "3K1.BE",
+  "market_cap_band": "Mid Cap",
+  "name": "Kingsoft Corporation Limited",
+  "primary_symbol": "3888.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Kingsoft Corporation Limited is a Chinese software and internet services company known for its office software, security software, cloud storage, and online gaming. The company develops products such as WPS Office, Kingsoft Antivirus, and various mobile games. Kingsoft is headquartered in Beijing, China, and serves a global customer base."
+  "sector": "Communications",
+  "summary": "Kingsoft Corporation Limited, an investment holding company, operates as a software and internet service company in Mainland China, Hong Kong, and internationally. It operates in two segments, Entertainment Software and Others, and Office Software and Services. The Entertainment Software segment engages in the research and development of games; and provision of online games, mobile games, and casual game services. The Office Software and Services and Others segment designs, researches and develops, sells, and markets office software products and services of WPS Office. It also engages in the operation and distribution of games; marketing and operation of SMS, and wireless service of online games and application software; sale and operation of office application software; marketing and operation of entertainment software products; and research, development, and distribution of consumer application software. Kingsoft Corporation Limited was founded in 1988 and is headquartered in Kowloon, Hong Kong.",
+  "website": "http://www.kingsoft.com"
 }

@@ -2,14 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BL4Y74",
-    "figi": "BBG000BL51B0",
+    "composite_figi": "BBG000BZXQZ7",
+    "figi": "BBG000BZXQZ7",
     "isin": "DE0006048408"
   },
+  "industry": "Household Products",
   "industry_group": "Household & Personal Products",
   "isin": "DE0006048408",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HELKF"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -17,8 +23,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "HEN.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "HEN.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HEN.F"
     },
     {
       "currency": "EUR",
@@ -34,17 +50,28 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "HEN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HEN.SG"
+    },
+    {
+      "currency": "EUR",
+      "symbol": "HEN.TI"
     }
   ],
-  "name": "HENKEL AG+CO.KGAA ST O.N.",
-  "primary_symbol": "HEN.BE",
+  "market_cap_band": "Large Cap",
+  "name": "Henkel AG & Co. KGAA",
+  "primary_symbol": "HELKF",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Henkel AG & Co. KGaA is a German chemical and consumer goods company that operates worldwide. It is organized into business units like Adhesive Technologies, Beauty Care, and Laundry & Home Care and is headquartered in Düsseldorf, Germany."
+  "summary": "Henkel AG & Co. KGaA, together with its subsidiaries, engages in the adhesive technologies, beauty care, and laundry and home care businesses worldwide. The company's Adhesive Technologies segment offers adhesives, sealants, and functional coatings for various business areas, including packaging and consumer goods; automotive and metals, electronics and industrials, and craftsmen, construction, and professional industries. This segment markets its products primarily under the Loctite, Technomelt, Bonderite, Teroson, and Aquence brand names. Its Beauty Care segment offers hair cosmetics; and body, skin, and oral care products, as well as operates professional hair salons. This segment distributes its products through brick and mortar stores, hair salons, third party online platforms, and direct-to-consumer channels primarily under the Schwarzkopf, Dial, and Syoss brands. The company's Laundry & Home Care segment offers heavy-duty and specialty detergents, fabric softeners, laundry performance enhancers, and other fabric care products; hand and automatic dishwashing products; cleaners for bathroom and WC applications; household, glass, and specialty cleaners; and air fresheners and insect control products for household applications. This segment markets its products primarily under the Persil, Bref, Purex, all, and other brand names. Henkel AG & Co. KGaA was founded in 1876 and is headquartered in Düsseldorf, Germany.",
+  "website": "http://www.henkel.com"
 }

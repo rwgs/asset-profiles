@@ -3,7 +3,7 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG01FC8CFN2",
-    "figi": "BBG01FC8CFS7",
+    "figi": "BBG01FC8CFV3",
     "isin": "SE0005034550"
   },
   "industry": "Real Estate Management & Development",
@@ -13,21 +13,36 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4M2B.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4M2B.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "4M2B.SG"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "NEOBO.ST"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Amasten Fastighets AB (publ)",
-  "primary_symbol": "4M2B.SG",
+  "market_cap_band": "Micro Cap",
+  "name": "Neobo Fastigheter",
+  "primary_symbol": "4M2B.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Amasten Fastighets AB (publ) builds, develops, and manages real estate properties in Sweden. It also develops and manages housing properties. The company was formerly known as Amasten Holding AB (publ) and changed its name to Amasten Fastighets AB (publ) in November 2017. Amasten Fastighets AB (publ) is headquartered in Stockholm, Sweden.",
-  "website": "http://www.amasten.se"
+  "summary": "Amasten Fastighets AB is a Swedish real estate company that owns, manages, and develops residential properties. The company focuses on properties located in growth regions in Sweden, aiming to provide attractive housing for tenants. Its headquarters are in Stockholm, Sweden.",
+  "website": "https://www.neobo.se"
 }

@@ -2,9 +2,8 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0035M2ZB7",
-    "cusip": "65249B208",
-    "figi": "BBG0035M2ZB7",
+    "composite_figi": "BBG000H17GJ5",
+    "figi": "BBG000H17HC0",
     "isin": "BMG8196H1280"
   },
   "industry": "Media",
@@ -13,66 +12,26 @@
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "NWS"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "NWSA"
-    },
-    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1105.HK"
     },
     {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "N1WS34.SA"
-    },
-    {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "N1WS35.SA"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NC0.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NC0B.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "NC0E.F"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "NWS.AX"
-    },
-    {
-      "currency": "AUD",
-      "exchange_mic": "XASX",
-      "symbol": "NWSLV.AX"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PVGB.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "STAOF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Nano Cap",
   "name": "News Corporation",
-  "primary_symbol": "NWS",
+  "primary_symbol": "1105.HK",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

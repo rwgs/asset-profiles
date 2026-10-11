@@ -3,27 +3,41 @@
   "country_code": "GB",
   "identifiers": {
     "composite_figi": "BBG0018G78T7",
+    "figi": "BBG006MJRQF7",
     "isin": "GB00BN3ZZ526"
   },
+  "industry": "Building Products",
   "industry_group": "Capital Goods",
   "isin": "GB00BN3ZZ526",
   "kind": "stock",
   "listings": [
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "FAN.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GB00BN3ZZ526.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VO1.F"
     }
   ],
-  "name": "VOLUTION GROUP PLC",
-  "primary_symbol": "GB00BN3ZZ526.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Volution Group plc",
+  "primary_symbol": "FAN.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Volution Group PLC is a manufacturer of ventilation products for residential and commercial buildings. The company's product range includes fans, ventilation systems, and heat recovery units. Volution Group PLC is headquartered in Crawley, UK."
+  "summary": "Volution Group plc, together with its subsidiaries, manufactures and supplies ventilation products to residential and commercial construction markets in the United Kingdom, Continental Europe, Australasia, and internationally. The company's products include unitary extractor fans for use in bathrooms and kitchens; MVHR and MEV systems; rigid, semi-rigid, and flexible ducting products and accessories; mechanical heat recovery units; air handling units and fan coils; commercial ventilation products; underfloor heating, heated towel rails, radiators, and storage and panel heaters; wall, box, and tower fans, as well as portable air conditioners; hand dryers and insect killers; and sensors, controllers, and ducting products. It also manufactures blowers and motors for the heating and ventilation industry, such as direct and belt-drive fans, fandecks, double inlet centrifugal blowers, motorized impellers, and combustion blowers. The company sells its products principally under the Vent-Axia, Manrose, Diffusion, Airtech, National Ventilation, Breathing Buildings, Torin-Sifan, Fresh, PAX, VoltAir, Kair, Air Connection, inVENTer, Ventilair, Simx, and Ventair brands. Volution Group plc was incorporated in 2014 and is based in Crawley, the United Kingdom.",
+  "website": "http://www.volutiongroupplc.com"
 }

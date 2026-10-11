@@ -7,8 +7,8 @@
     "figi": "BBG000BB7059",
     "isin": "US0394831020"
   },
-  "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry": "Food Products",
+  "industry_group": "Food, Beverage & Tobacco",
   "isin": "US0394831020",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "ADM"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0JQQ.L"
     },
     {
       "currency": "BRL",
@@ -49,6 +54,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "ADM.HM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "ADM.MU"
     },
@@ -63,6 +73,7 @@
       "symbol": "ADM.SG"
     },
     {
+      "currency": "EUR",
       "symbol": "ADM.TI"
     },
     {
@@ -75,7 +86,7 @@
   "name": "Archer-Daniels-Midland Company",
   "primary_symbol": "ADM",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

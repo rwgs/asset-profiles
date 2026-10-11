@@ -5,7 +5,8 @@
     "composite_figi": "BBG000BFR0X7",
     "isin": "GB0004657408"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Professional Services",
+  "industry_group": "Commercial & Professional Services",
   "isin": "GB0004657408",
   "kind": "stock",
   "listings": [
@@ -15,25 +16,47 @@
       "symbol": "GB0004657408.SW"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MITFF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "MTO.L"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "MZ4.DU"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MZ4.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "MZ4.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MZ4.SG"
     }
   ],
+  "market_cap_band": "Mid Cap",
   "name": "MITIE Group PLC",
   "primary_symbol": "GB0004657408.SW",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "Mitie Group PLC is a facilities management and professional services company. They provide a range of services to businesses and the public sector, including cleaning, security, engineering, and catering. Mitie Group is headquartered in London, United Kingdom."
+  "summary": "Mitie Group PLC is a facilities management and professional services company. They provide a range of services to businesses and the public sector, including cleaning, security, engineering, and catering. Mitie Group is headquartered in London, United Kingdom.",
+  "website": "http://www.mitie.com"
 }

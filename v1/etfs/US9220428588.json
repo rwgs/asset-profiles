@@ -20,12 +20,12 @@
   ],
   "aum_usd": 163696122659.37,
   "category": "Emerging Markets",
-  "category_group": "Financials",
+  "category_group": "Equities",
   "country_weights": [
     {
       "country": "Taiwan, Province of China",
       "country_code": "TW",
-      "weight": 0.295072
+      "weight": 0.295087
     },
     {
       "country": "Hong Kong",
@@ -40,7 +40,7 @@
     {
       "country": "China",
       "country_code": "CN",
-      "weight": 0.061567
+      "weight": 0.061485
     },
     {
       "country": "United States",
@@ -50,7 +50,7 @@
     {
       "country": "Brazil",
       "country_code": "BR",
-      "weight": 0.041158
+      "weight": 0.041168
     },
     {
       "country": "South Africa",
@@ -174,7 +174,7 @@
     },
     {
       "country": "Unknown",
-      "weight": -0.000512
+      "weight": -0.000454
     }
   ],
   "holdings_count": 6393,
@@ -193,12 +193,62 @@
   "name": "Vanguard FTSE Emerging Markets ETF",
   "primary_symbol": "VWO",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000275"
   },
   "schema_version": "1.0.0",
+  "sector_weights": [
+    {
+      "sector": "Information Technology",
+      "weight": 0.287858
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.186178
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.089091
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.074123
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.073198
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.071043
+    },
+    {
+      "sector": "Materials",
+      "weight": 0.06883
+    },
+    {
+      "sector": "Health Care",
+      "weight": 0.038278
+    },
+    {
+      "sector": "Energy",
+      "weight": 0.035383
+    },
+    {
+      "sector": "Consumer Staples",
+      "weight": 0.032678
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.02548
+    },
+    {
+      "sector": "Real Estate",
+      "weight": 0.01786
+    }
+  ],
   "top_holdings": [
     {
       "isin": "TW0002330008",

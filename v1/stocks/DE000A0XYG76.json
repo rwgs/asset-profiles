@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000DDY0Z0",
-    "figi": "BBG000DDY2G7",
+    "figi": "BBG000DDY4B8",
     "isin": "DE000A0XYG76"
   },
   "industry": "Oil, Gas & Consumable Fuels",
@@ -13,8 +13,18 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DR0.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DR0.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DR0.DU"
     },
     {
       "currency": "EUR",
@@ -23,15 +33,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DR0.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DR0.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "DR0.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
+  "market_cap_band": "Small Cap",
   "name": "Deutsche Rohstoff AG",
-  "primary_symbol": "DR0.DE",
+  "primary_symbol": "DR0.BE",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

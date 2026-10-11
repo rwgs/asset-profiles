@@ -2,29 +2,48 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG001WNR724",
+    "composite_figi": "BBG00J4047T2",
     "cusip": "77543A208",
+    "figi": "BBG00J4047V9",
     "isin": "CA77543A2083"
   },
+  "industry": "Metals & Mining",
   "industry_group": "Materials",
   "isin": "CA77543A2083",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1RR1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA77543A2083.SG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RKMSF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "RKR.V"
     }
   ],
-  "name": "ROKMASTER RESOURCES CORP",
-  "primary_symbol": "CA77543A2083.SG",
+  "market_cap_band": "Nano Cap",
+  "name": "Rokmaster Resources Corp.",
+  "primary_symbol": "1RR1.F",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Rokmaster Resources Corp is a mineral exploration company. It is focused on the exploration and development of mineral properties with an emphasis on precious metals. The company is based in Canada."
+  "summary": "Rokmaster Resources Corp., an exploration stage company, engages in the acquisition, exploration, and development of mineral properties in North, Central, and South America. It explores for zinc, lead, silver, copper, gold, and polymetallic deposits, as well as precious metals. The company holds a 100% in the Duncan Lake property comprising 35 contiguous mineral claims that covers an area of 3,929 hectares; and a 55% interest in the Big Copper property located in the Slocan Mining Division in southeast British Columbia, Canada. It also holds an option to acquire 100% interest in the Revel Ridge Project in British Columbia. The company was incorporated in 2010 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.rokmaster.com"
 }

@@ -2,10 +2,12 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
+    "composite_figi": "BBG00JRQRLM1",
+    "figi": "BBG00JRQRLN0",
     "isin": "SE0007439443"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Media",
+  "industry_group": "Media & Entertainment",
   "isin": "SE0007439443",
   "kind": "stock",
   "listings": [
@@ -35,6 +37,11 @@
       "symbol": "DST.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DST.SG"
+    },
+    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "STORY-B.ST"
@@ -49,7 +56,7 @@
   "name": "Storytel AB",
   "primary_symbol": "0GBU.L",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

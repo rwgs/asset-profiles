@@ -3,27 +3,36 @@
   "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00KH5GBB1",
+    "figi": "BBG00KH5GBC0",
     "isin": "SE0010600106"
   },
-  "industry_group": "Capital Goods",
+  "industry": "Capital Markets",
+  "industry_group": "Diversified Financials",
   "isin": "SE0010600106",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "INFREA.ST"
+    },
     {
       "currency": "SEK",
       "exchange_mic": "XSWX",
       "symbol": "SE0010600106.SW"
     }
   ],
-  "name": "INFREA AB",
-  "primary_symbol": "SE0010600106.SW",
+  "market_cap_band": "Nano Cap",
+  "name": "Infrea AB",
+  "primary_symbol": "INFREA.ST",
   "provenance": {
-    "fetched_at": "2026-10-04T11:58:09Z",
+    "fetched_at": "2026-10-11T12:21:30Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "INFREA AB is an infrastructure investment company that invests in and manages infrastructure assets in the Nordic region, focusing on assets like roads, bridges, and energy infrastructure. The company aims to create long-term value through sustainable infrastructure development. Infrea AB is headquartered in Stockholm, Sweden."
+  "sector": "Financials",
+  "summary": "Infrea AB is a publicly owned investment manager. The firm invests in infrastructure. The firm was formerly known as Grand Capital. Infrea AB is based in Stockholm, Sweden.",
+  "website": "http://www.infrea.se"
 }
