@@ -4,13 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG0074P1FJ9",
     "cusip": "048592109",
+    "figi": "BBG0074P1FJ9",
     "isin": "US0485921094"
   },
-  "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Professional Services",
+  "industry_group": "Business Services",
   "isin": "US0485921094",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "ATLN"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
@@ -18,16 +24,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Circle8 Group Inc. Common Stock",
-  "primary_symbol": "CIRC",
+  "name": "Atlantic International Corp.",
+  "primary_symbol": "ATLN",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "Circle8 Group is a global technology and workforce solutions company serving enterprise, government, and multinational organizations across North America and Europe. The company provides Technology Consulting, Technology Solutions, Managed Services, and Technology Workforce Solutions across various fields including artificial intelligence, cybersecurity, cloud computing, and digital infrastructure. The firm was formerly known as Atlantic International Corp. and rebranded in July 2026 after several acquisitions.",
+  "sector": "Industrials",
+  "summary": "Atlantic International Corp. is involved in mineral exploration, development, and production. The company focuses on acquiring and developing mining projects.",
   "website": "https://www.circle8group.com"
 }

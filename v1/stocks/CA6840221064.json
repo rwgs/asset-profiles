@@ -2,16 +2,24 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG002YX29L0",
     "cusip": "684022106",
-    "figi": "BBG002YX29P6",
     "isin": "CA6840221064"
   },
-  "industry": "Food Products",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry": "Grocery & Drug Retail",
+  "industry_group": "Staples Retail",
   "isin": "CA6840221064",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9CW1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "9CW1.SG"
+    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -24,16 +32,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Oragin Foods Inc.",
-  "primary_symbol": "OG.V",
+  "name": "Organic Garage Ltd.",
+  "primary_symbol": "9CW1.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Oragin Foods Inc. operates grocery stores that sell natural and organic products to consumers in Canada. The company offers produce, dairy, bakery, bulk, grocery, meat, frozen, and prepared foods; and health and beauty products, as well as vitamins and supplements. It operates four stores in the Greater Toronto Area. The company was founded in 2005 and is headquartered in Toronto, Canada.",
-  "website": "https://www.oragin.com"
+  "summary": "Organic Garage Ltd. owns and operates grocery stores that sell natural and organic products to consumers in Canada. The company offers produce, dairy, bakery, bulk, grocery, meat, frozen, and prepared foods; and health and beauty products, as well as vitamins and supplements. It operates four stores in the Greater Toronto Area. The company was founded in 2005 and is headquartered in Toronto, Canada.",
+  "website": "http://www.organicgarage.com"
 }

@@ -2,70 +2,22 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BW1442",
-    "cusip": "904767803",
-    "figi": "BBG000BW1674",
     "isin": "GB00B10RZP78"
   },
   "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry_group": "Household & Personal Care",
   "isin": "GB00B10RZP78",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "UL"
-    },
-    {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "UL.BA"
-    },
     {
       "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "ULC.BA"
     },
     {
-      "currency": "USD",
-      "exchange_mic": "XBUE",
-      "symbol": "ULD.BA"
-    },
-    {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "ULEV34.SA"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "ULN.MX"
-    },
-    {
-      "currency": "GBP",
-      "exchange_mic": "XLON",
-      "symbol": "ULVR.L"
-    },
-    {
-      "currency": "CZK",
-      "exchange_mic": "XPRA",
-      "symbol": "ULVR.PR"
-    },
-    {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "ULVR.VI"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XAMS",
-      "symbol": "UNA.AS"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "OTCM",
-      "symbol": "UNLYF"
     },
     {
       "currency": "EUR",
@@ -120,9 +72,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Unilever PLC",
-  "primary_symbol": "UL",
+  "primary_symbol": "ULC.BA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

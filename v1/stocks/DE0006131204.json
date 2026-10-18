@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "DE0006131204"
   },
-  "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Services",
+  "industry": "Hospitality & Leisure",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "DE0006131204",
   "kind": "stock",
   "listings": [
@@ -13,13 +13,18 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "IFA.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IFA.HM"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "LS Invest AG",
   "primary_symbol": "IFA.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

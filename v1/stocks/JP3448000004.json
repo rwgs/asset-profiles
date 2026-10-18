@@ -6,8 +6,8 @@
     "figi": "BBG000BGDDD4",
     "isin": "JP3448000004"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "JP3448000004",
   "kind": "stock",
   "listings": [
@@ -18,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PYV.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "PYV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PYV.MU"
     },
     {
       "currency": "EUR",
@@ -31,7 +41,7 @@
   "name": "Pacific Metals Co., Ltd.",
   "primary_symbol": "5541.T",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

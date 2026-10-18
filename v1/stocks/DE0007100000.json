@@ -3,18 +3,43 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000CCVZZ9",
-    "figi": "BBG000CCW1K9",
+    "figi": "BBG000CCX4J4",
     "isin": "DE0007100000"
   },
   "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Automotive",
   "isin": "DE0007100000",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MBG.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "MBG.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MBG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MBG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MBG.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MBG.SG"
     },
     {
       "currency": "PLN",
@@ -29,15 +54,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Mercedes-Benz Group AG",
-  "primary_symbol": "MBG.DE",
+  "primary_symbol": "MBG.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Mercedes-Benz Group AG engages in the business of manufacturing and distributing premium cars. It operates through the following segments: Mercedes-Benz Cars, Mercedes-Benz Vans, and Mercedes-Benz Mobility. The Mercedes-Benz Cars segment includes the brands Mercedes-AMG, Mercedes-Maybach, and Mercedes-EQ. The Mercedes-Benz Vans segment focuses on selling vans under the Mercedes-Benz brand. The Mercedes-Benz Mobility segment is involved in supporting the sales of the vehicle brands. The company was founded by Gottlieb Daimler and Carl Benz in 1926 and is headquartered in Stuttgart, Germany.",
+  "summary": "Mercedes-Benz Group AG, a global automotive enterprise headquartered in Stuttgart, Germany, traces its origins back to its founding in 1886. The company, which rebranded from Daimler AG in February 2022, is primarily involved in the design, manufacturing, and sale of a diverse portfolio of vehicles. Its extensive vehicle lineup encompasses premium and luxury passenger cars under the esteemed Mercedes-Benz marque, which includes high-performance Mercedes-AMG models, the iconic G-Class, ultra-luxurious Mercedes-Maybach vehicles, and the innovative electric Mercedes-EQ series. Additionally, the company markets compact automobiles under its smart brand and provides commercial vans through both the Mercedes-Benz and Freightliner brands. Beyond vehicles, Mercedes-Benz Group AG supplies essential spare parts and accessories, and offers a comprehensive digital ecosystem for its Mercedes-Benz vehicles via the Mercedes me brand. Furthermore, the company extends its services to include a wide array of financial and mobility solutions. These offerings feature financing and leasing packages for both individual customers and dealerships, automotive insurance brokerage, and banking services. It also provides car subscription and rental programs, fleet management, and various digital services for vehicle charging and payments, along with other general mobility services.",
   "website": "https://group.mercedes-benz.com/en/"
 }

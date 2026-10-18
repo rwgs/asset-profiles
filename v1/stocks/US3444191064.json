@@ -8,7 +8,7 @@
     "isin": "US3444191064"
   },
   "industry": "Beverages",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "US3444191064",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,26 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "FMX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0TD7.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "FOMA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FOMA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FOMA.MU"
     },
     {
       "currency": "EUR",
@@ -27,7 +47,7 @@
   "name": "Fomento Economico Mexicano, S.A.B. de C.V.",
   "primary_symbol": "FMX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

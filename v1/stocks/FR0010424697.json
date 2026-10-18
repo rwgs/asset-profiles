@@ -2,15 +2,25 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000QS9JB6",
-    "figi": "BBG000QS9JK6",
+    "composite_figi": "BBG00Z924FD6",
+    "figi": "BBG00Z924FF4",
     "isin": "FR0010424697"
   },
-  "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry": "Internet Media & Services",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "FR0010424697",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "99Q.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "99Q.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -24,15 +34,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Ethero",
-  "primary_symbol": "ALENT.PA",
+  "primary_symbol": "99Q.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Ethero operates a search engine for real estate ads in France. The company was founded in 2000 and is based in Paris, France.",
+  "sector": "Communications",
+  "summary": "SA Entreparticuliers.com operates a Website that provides information to individuals for the sale and rent of apartments, land, houses, or villas in France. The company was founded in 2000 and is based in Paris, France.",
   "website": "https://www.ethero.eu"
 }

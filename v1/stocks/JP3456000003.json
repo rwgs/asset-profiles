@@ -6,8 +6,8 @@
     "figi": "BBG000BGVDT7",
     "isin": "JP3456000003"
   },
-  "industry": "Multiline Retail",
-  "industry_group": "Retailing",
+  "industry": "General & Online Retail",
+  "industry_group": "Retail",
   "isin": "JP3456000003",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,26 @@
       "currency": "JPY",
       "exchange_mic": "XJPX",
       "symbol": "8233.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DC9.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DC9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DC9.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DC9.SG"
     },
     {
       "currency": "EUR",
@@ -46,7 +66,7 @@
   "name": "Takashimaya Company, Limited",
   "primary_symbol": "8233.T",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

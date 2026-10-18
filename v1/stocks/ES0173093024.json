@@ -2,8 +2,8 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000C2V319",
-    "figi": "BBG000C2V4T7",
+    "composite_figi": "BBG000J16NX3",
+    "figi": "BBG000J17R27",
     "isin": "ES0173093024"
   },
   "industry": "Electric Utilities",
@@ -11,6 +11,46 @@
   "isin": "ES0173093024",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RI5.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "RDEIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RE21.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RE21.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RE21.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RE21.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RE21.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ETLX",
+      "symbol": "RE21.TI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMAD",
@@ -23,16 +63,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Redeia",
-  "primary_symbol": "RED.MC",
+  "name": "Red Electrica Corporacion, S.A.",
+  "primary_symbol": "0RI5.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Redeia Corporación, S.A. is primarily involved in the transmission of electricity, alongside the extensive operation and management of power transmission networks. The company's activities extend across Spain and into various international markets. Its robust infrastructure includes approximately 45,019 kilometers of transmission lines and a substantial transformation capacity of 94,221 MVA. Beyond its core power grid responsibilities, Redeia provides a diverse array of services, encompassing advisory, engineering, and construction solutions. It also offers telecommunications, financing, and reinsurance services. Furthermore, the company manages line and substation maintenance, delivers technical consultancy, and operates in the satellite communications sector, offering space segment services for geostationary orbital slots, as well as selling and leasing satellites and spatial capacity. Additional undertakings include the development and oversight of energy storage facilities, management of the water cycle, and the acquisition, holding, and administration of equity securities. Founded in 1985, Redeia Corporación, S.A. maintains its headquarters in Alcobendas, Spain.",
-  "website": "https://www.ree.es"
+  "summary": "RED ELECTRICA CORPORACION SA is a Spanish electricity transmission company. The company operates and maintains the Spanish high-voltage electricity grid. RED ELECTRICA CORPORACION SA is headquartered in Alcobendas, Spain.",
+  "website": "http://www.ree.es"
 }

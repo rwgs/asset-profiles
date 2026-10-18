@@ -7,7 +7,8 @@
     "figi": "BBG000JFNL85",
     "isin": "US00770C1018"
   },
-  "industry_group": "Materials",
+  "industry": "Chemicals",
+  "industry_group": "Basic Materials",
   "isin": "US00770C1018",
   "kind": "stock",
   "listings": [
@@ -15,13 +16,38 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "ARQ"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OXQ1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "OXQ1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OXQ1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OXQ1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "OXQ1.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Arq Inc. Common Stock",
+  "name": "Arq Inc.",
   "primary_symbol": "ARQ",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

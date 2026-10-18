@@ -7,8 +7,8 @@
     "figi": "BBG000BKZ1W6",
     "isin": "US7806412059"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "US7806412059",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,23 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "KKPNY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KPNB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "KPNB.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Koninklijke KPN N.V.",
   "primary_symbol": "KKPNY",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

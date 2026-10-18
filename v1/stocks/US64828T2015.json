@@ -7,8 +7,8 @@
     "figi": "BBG003T1GM03",
     "isin": "US64828T2015"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Mortgage REITs",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "US64828T2015",
   "kind": "stock",
   "listings": [
@@ -21,19 +21,39 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0K76.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "14N1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "14N1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "14N1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "14N1.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Rithm Capital Corp. Common Stock",
+  "name": "Rithm Capital Corp.",
   "primary_symbol": "RITM",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
+  "sector": "Financials",
   "summary": "Rithm Capital Corp. is a real estate finance company focused on originating, investing in, and managing assets related to residential real estate. The company's investments are primarily in residential mortgage-backed securities, mortgage servicing rights, and other real estate-related assets. Rithm Capital aims to generate attractive risk-adjusted returns for its investors.",
   "website": "https://www.rithmcap.com"
 }

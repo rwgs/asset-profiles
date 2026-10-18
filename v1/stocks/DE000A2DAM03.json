@@ -2,10 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00JQ4LKC0",
+    "figi": "BBG00JQ4LKF7",
     "isin": "DE000A2DAM03"
   },
   "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "DE000A2DAM03",
   "kind": "stock",
   "listings": [
@@ -56,6 +58,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "AAG.TI"
     },
     {
@@ -68,7 +71,7 @@
   "name": "Aumann AG",
   "primary_symbol": "0RO8.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

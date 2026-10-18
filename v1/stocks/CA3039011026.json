@@ -2,9 +2,9 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000BYQVJ5",
+    "composite_figi": "BBG000QMYWJ4",
     "cusip": "303901102",
-    "figi": "BBG000BYQWQ5",
+    "figi": "BBG000QMYXQ4",
     "isin": "CA3039011026"
   },
   "industry": "Insurance",
@@ -12,6 +12,11 @@
   "isin": "CA3039011026",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XTSE",
+      "symbol": "FFH-U.TO"
+    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSE",
@@ -21,6 +26,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "FFX.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "FFX.F"
     },
     {
       "currency": "EUR",
@@ -39,16 +49,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Fairfax Financial Holdings Limited",
-  "primary_symbol": "FFH.TO",
+  "name": "Fairfax Financial Holdings Limited USD (FFH.U)",
+  "primary_symbol": "FFH-U.TO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Fairfax Financial Holdings Ltd. is a holding company, which engages in the provision of property and casualty insurance, and reinsurance, and investment management. It operates through the following segments: Insurance and Reinsurance, Runoff, and Other. The Insurance and Reinsurance segment comprises of Group Re, Bryte Insurance, Advent, Fairfax Latin America and Fairfax Central; and Eastern Europe, which focuses on third party business and specialty property reinsurance and insurance risks. The Runoff segment includes European Run-off, which includes RiverStone (UK) and Syndicate 3500 at Lloyd's, and U.S. Run-off, which includes TIG Insurance. The Other segment consists of all the non-insurance operations such as Restaurants & Retail, Fairfax India, Thomas Cook India, and Other. The company was founded by Vivian Prem Watsa on March 13, 1951 and is headquartered in Toronto, Canada.",
+  "summary": "Fairfax Financial Holdings Limited USD (FFH.U) is a company listed on the Toronto Stock Exchange under the ticker FFH-U and traded in USD.",
   "website": "http://www.fairfax.ca"
 }

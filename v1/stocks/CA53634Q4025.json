@@ -2,16 +2,26 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000CH3KX4",
+    "composite_figi": "BBG000LTLF05",
     "cusip": "53634Q402",
-    "figi": "BBG000CH3KX4",
+    "figi": "BBG000LTLJ89",
     "isin": "CA53634Q4025"
   },
   "industry": "Entertainment",
-  "industry_group": "Media & Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "CA53634Q4025",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "L7BB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "L7BB.SG"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -20,15 +30,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Liquid Media Group Ltd.",
-  "primary_symbol": "YVRLF",
+  "primary_symbol": "L7BB.MU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Liquid Media Group Ltd. supports independent television and content creators by providing comprehensive business solutions, enabling them to effectively develop, finance, distribute, and monetize their creative works on a global scale. The company produces and disseminates film and educational content with a social impact focus, reaching diverse audiences and markets via its subscription video-on-demand (VOD) platform. Furthermore, it manages an online video community that allows filmmakers to directly self-publish their content to viewers. An expansive content recommendation platform is also maintained to assist audiences in discovering engaging movies, TV series, and other programs. Liquid Media Group Ltd. has a strategic alliance with Slated, Inc., and its corporate headquarters are located in Vancouver, Canada.",
-  "website": "https://www.liquidmediagroup.co"
+  "summary": "LIQUID MEDIA GRP LTD is a technology company focused on developing and acquiring technologies and solutions for the media and entertainment industries. The company offers services such as video streaming, content management, and digital advertising. Liquid Media Group is headquartered in Vancouver, Canada.",
+  "website": "http://www.liquidmediagroup.co"
 }

@@ -8,7 +8,7 @@
     "isin": "US78409V1044"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "US78409V1044",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,11 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0KYY.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MHL.BE"
     },
     {
       "currency": "EUR",
@@ -39,6 +44,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MHL.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MHL.SG"
     },
@@ -52,7 +62,7 @@
   "name": "S&P Global Inc.",
   "primary_symbol": "SPGI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

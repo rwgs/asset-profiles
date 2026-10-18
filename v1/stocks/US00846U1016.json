@@ -7,8 +7,8 @@
     "figi": "BBG000C2V541",
     "isin": "US00846U1016"
   },
-  "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Life Science Tools",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US00846U1016",
   "kind": "stock",
   "listings": [
@@ -34,8 +34,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AG8.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AG8.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AG8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "AG8.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AG8.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AG8.MU"
     },
     {
       "currency": "EUR",
@@ -47,7 +72,7 @@
   "name": "Agilent Technologies, Inc.",
   "primary_symbol": "A",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

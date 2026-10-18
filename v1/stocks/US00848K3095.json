@@ -2,16 +2,46 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000DH97L9",
+    "composite_figi": "BBG00X940P21",
     "cusip": "00848K309",
-    "figi": "BBG000DH9855",
+    "figi": "BBG00X940P30",
     "isin": "US00848K3095"
   },
   "industry": "Aerospace & Defense",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "US00848K3095",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0A4B.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "29Z0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "29ZA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "29ZA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "29ZA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "29ZA.SG"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XASE",
@@ -20,9 +50,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "AgEagle Aerial Systems, Inc.",
-  "primary_symbol": "UAVS",
+  "primary_symbol": "0A4B.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

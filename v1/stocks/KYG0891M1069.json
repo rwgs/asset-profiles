@@ -7,8 +7,8 @@
     "figi": "BBG008HNS333",
     "isin": "KYG0891M1069"
   },
-  "industry": "Internet & Direct Marketing Retail",
-  "industry_group": "Retailing",
+  "industry": "General & Online Retail",
+  "industry_group": "Retail",
   "isin": "KYG0891M1069",
   "kind": "stock",
   "listings": [
@@ -43,6 +43,16 @@
       "symbol": "2BZA.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2BZA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "2BZA.SG"
+    },
+    {
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "9991.HK"
@@ -62,7 +72,7 @@
   "name": "Baozun, Inc. Class A",
   "primary_symbol": "BZUN",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

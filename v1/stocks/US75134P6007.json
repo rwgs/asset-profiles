@@ -7,8 +7,8 @@
     "figi": "BBG00FP308Q6",
     "isin": "US75134P6007"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "US75134P6007",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,28 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "METC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5R0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "5R0.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5R02.F"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Ramaco Resources, Inc.",
   "primary_symbol": "METC",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

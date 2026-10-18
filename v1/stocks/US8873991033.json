@@ -7,8 +7,8 @@
     "figi": "BBG0057SF1Z2",
     "isin": "US8873991033"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "US8873991033",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,33 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "MTUS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "TMST"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ZS2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ZS2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ZS2.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Metallus Inc. Common Shares",
+  "name": "Metallus Inc.",
   "primary_symbol": "MTUS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

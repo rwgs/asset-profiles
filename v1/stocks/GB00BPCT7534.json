@@ -7,7 +7,7 @@
     "isin": "GB00BPCT7534"
   },
   "industry": "Professional Services",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Business Services",
   "isin": "GB00BPCT7534",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,26 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "CPI.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CTA0.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CTA0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CTA0.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CTA0.SG"
     },
     {
       "currency": "EUR",
@@ -51,7 +71,7 @@
   "name": "Capita PLC",
   "primary_symbol": "CPI.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,10 +2,12 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000R2GR53",
+    "figi": "BBG000R2GS33",
     "isin": "FR0000054900"
   },
   "industry": "Media",
-  "industry_group": "Media & Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "FR0000054900",
   "kind": "stock",
   "listings": [
@@ -16,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "FSE.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FSE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FSE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "FSE.SG"
     },
     {
       "currency": "EUR",
@@ -34,7 +51,7 @@
   "name": "Television Francaise 1 SA",
   "primary_symbol": "0NQT.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

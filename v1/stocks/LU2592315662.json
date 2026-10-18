@@ -6,8 +6,8 @@
     "figi": "BBG000RCGLP2",
     "isin": "LU2592315662"
   },
-  "industry": "Marine",
-  "industry_group": "Transportation",
+  "industry": "Shipping",
+  "industry_group": "Transport & Logistics",
   "isin": "LU2592315662",
   "kind": "stock",
   "listings": [
@@ -28,6 +28,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "B7C0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "B7C0.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "DIS.MI"
     },
@@ -41,7 +51,7 @@
   "name": "d'Amico International Shipping S.A.",
   "primary_symbol": "B7C.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

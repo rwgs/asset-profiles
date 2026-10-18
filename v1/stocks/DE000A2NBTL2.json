@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "DE000A2NBTL2"
   },
-  "industry": "Road & Rail",
-  "industry_group": "Transportation",
+  "industry": "Rail & Road Transport",
+  "industry_group": "Transport & Logistics",
   "isin": "DE000A2NBTL2",
   "kind": "stock",
   "listings": [
@@ -13,13 +13,18 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SLT.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SLT.HM"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Schaltbau Holding AG",
   "primary_symbol": "SLT.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

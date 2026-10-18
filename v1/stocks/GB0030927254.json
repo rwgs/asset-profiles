@@ -6,8 +6,8 @@
     "figi": "BBG000KL73H8",
     "isin": "GB0030927254"
   },
-  "industry": "Internet & Direct Marketing Retail",
-  "industry_group": "Retailing",
+  "industry": "General & Online Retail",
+  "industry_group": "Retail",
   "isin": "GB0030927254",
   "kind": "stock",
   "listings": [
@@ -17,16 +17,46 @@
       "symbol": "ASC.L"
     },
     {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "ASCL.L"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ASOMF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DYQ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DYQ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DYQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DYQ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DYQ.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "ASOS Plc",
   "primary_symbol": "ASC.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

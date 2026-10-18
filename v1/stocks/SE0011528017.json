@@ -1,13 +1,13 @@
 {
-  "country": "China",
-  "country_code": "CN",
+  "country": "Sweden",
+  "country_code": "SE",
   "identifiers": {
     "composite_figi": "BBG00N53CR86",
     "figi": "BBG00N53CRG7",
     "isin": "SE0011528017"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "SE0011528017",
   "kind": "stock",
   "listings": [
@@ -20,17 +20,24 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NIO.F"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "NIO.ST"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Nordic Iron Ore AB",
   "primary_symbol": "NIO.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Nordic Iron Ore AB is a Swedish mining company focused on the exploration and development of iron ore deposits in Sweden. The company aims to restart iron ore production at its iron ore projects. Nordic Iron Ore is headquartered in Ludvika, Sweden."
+  "summary": "Nordic Iron Ore AB is a Swedish mining company focused on the exploration and development of iron ore deposits in Sweden. The company aims to restart iron ore production at its iron ore projects. Nordic Iron Ore is headquartered in Ludvika, Sweden.",
+  "website": "http://www.nordicironore.se"
 }

@@ -8,7 +8,7 @@
     "isin": "CA6330671034"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "CA6330671034",
   "kind": "stock",
   "listings": [
@@ -19,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "NBC.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NBC.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NBC.MU"
     },
     {
       "currency": "EUR",
@@ -37,7 +47,7 @@
   "name": "National Bank of Canada",
   "primary_symbol": "NA.TO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

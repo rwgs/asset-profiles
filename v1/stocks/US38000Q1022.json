@@ -2,14 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG001J1BQN9",
     "cusip": "38000Q102",
+    "figi": "BBG001J1BQN9",
     "isin": "US38000Q1022"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US38000Q1022",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "CBIO"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
@@ -31,11 +38,11 @@
       "symbol": "GKO.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "GlycoMimetics, Inc.",
-  "primary_symbol": "GLYC",
+  "market_cap_band": "Small Cap",
+  "name": "Crescent Biopharma, Inc.",
+  "primary_symbol": "CBIO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -43,5 +50,5 @@
   "schema_version": "1.0.0",
   "sector": "Health Care",
   "summary": "GlycoMimetics, Inc., a clinical-stage biotechnology company, focuses on the discovery and development of novel glycomimetic drugs to address unmet medical needs resulting from diseases in the United States. The company's drug candidate include rivipansel, a pan-selectin antagonist for the treatment of vaso-occlusive crisis in sickle cell disease. It is also developing uproleselan, an E-selectin inhibitor, which is used in combination with chemotherapy to treat acute myeloid leukemia (AML), as well as Phase 3 trial to treat relapsed/refractory AML. In addition, the company is developing GMI-1359 to target E-selectin and a chemokine receptors. It also develops various other programs, including GMI-1687, an antagonist of E-selectin; and Galectin-3, a carbohydrate-binding protein. The company has a cooperative research and development agreement with the National Cancer Institute; and collaboration and license agreement with Apollomics for the development and commercialization of uproleselan and GMI-1687. GlycoMimetics, Inc. was founded in 2003 and is headquartered in Rockville, Maryland.",
-  "website": "http://glycomimetics.com"
+  "website": "https://crescentbiopharma.com"
 }

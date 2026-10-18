@@ -7,8 +7,8 @@
     "figi": "BBG000BT4384",
     "isin": "AN8068571086"
   },
-  "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry": "Oilfield Services & Equipment",
+  "industry_group": "Energy Production & Services",
   "isin": "AN8068571086",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SLB"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SCL.BE"
     },
     {
       "currency": "EUR",
@@ -39,15 +44,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SCL.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "SLB.PA"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "SLBN.MX"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Slb N.V.",
   "primary_symbol": "SLB",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

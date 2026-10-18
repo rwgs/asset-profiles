@@ -6,8 +6,8 @@
     "figi": "BBG004KGX6B1",
     "isin": "GB00BZ042C28"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Oil, Gas & Fuels",
+  "industry_group": "Energy Production & Services",
   "isin": "GB00BZ042C28",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,21 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "IGESF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "K1P3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "K1P3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "K1P3.SG"
     },
     {
       "currency": "GBP",
@@ -26,7 +41,7 @@
   "name": "Star Energy Group PLC",
   "primary_symbol": "IGESF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

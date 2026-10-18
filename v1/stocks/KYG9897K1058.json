@@ -1,16 +1,21 @@
 {
-  "country": "Cayman Islands",
-  "country_code": "KY",
+  "country": "China",
+  "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00XP6L967",
-    "figi": "BBG00XP6L9B1",
+    "composite_figi": "BBG00F0R66P9",
+    "figi": "BBG00XDF30K3",
     "isin": "KYG9897K1058"
   },
-  "industry": "Air Freight & Logistics",
-  "industry_group": "Transportation",
+  "industry": "Freight & Logistics",
+  "industry_group": "Transport & Logistics",
   "isin": "KYG9897K1058",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "2057.HK"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -23,16 +28,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "ZTO Express Cayman Inc",
-  "primary_symbol": "KYG9897K1058.SG",
+  "name": "ZTO Express (Cayman) Inc.",
+  "primary_symbol": "2057.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "ZTO Express Cayman Inc is a leading express delivery company in China, providing express delivery services to e-commerce merchants and other businesses. The company operates a nationwide network of sorting hubs and delivery stations. ZTO Express is headquartered in Shanghai, China.",
+  "summary": "ZTO Express (Cayman) Inc. provides express delivery and other value-added logistics services in the People's Republic of China. The company offers delivery services for e-commerce and traditional merchants, and other express service users. As of December 31, 2019, it operated a fleet of approximately 6,450 self-owned trucks. The company was founded in 2002 and is headquartered in Shanghai, the People's Republic of China.",
   "website": "http://www.zto.com"
 }

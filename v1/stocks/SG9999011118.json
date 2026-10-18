@@ -2,15 +2,25 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG005YPF9J9",
-    "figi": "BBG005YPF9L6",
+    "composite_figi": "BBG00YTZ4XV5",
+    "figi": "BBG00YTZ4XW4",
     "isin": "SG9999011118"
   },
-  "industry": "Electric Utilities",
+  "industry": "Power Producers & Renewables",
   "industry_group": "Utilities",
   "isin": "SG9999011118",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7K8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "7K8.MU"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -29,15 +39,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Ampeak Energy Ltd.",
-  "primary_symbol": "AMP.L",
+  "primary_symbol": "7K8.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "Ampeak Energy Ltd. engages in the design, construction, installation, testing, operation, and maintenance of power projects. It operates through the following segments: Battery Storage, Project Development, Corporate, and Turbine and Engineering Services. The Battery Storage segment is involved in the BESS projects. The Project Development segment consists of project development costs. The Corporate segment is comprised of costs associated with running an AIM listed and Singapore incorporated group and unallocated expenditure. The company was founded by Kim Manley and Lawrence Harold Payne on December 19, 2005 and is headquartered in Edinburgh, the United Kingdom.",
+  "summary": "SIMEC Atlantis Energy Limited is a global sustainable energy company. They are involved in the generation of renewable energy through projects such as tidal power, hydro power, and waste-to-energy. The company is headquartered in Edinburgh, Scotland.",
   "website": "https://ampeak.energy"
 }

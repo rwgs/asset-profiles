@@ -2,15 +2,18 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000R1KJ49",
-    "figi": "BBG000R1KJN8",
     "isin": "ES0173908015"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "ES0173908015",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RBS.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -29,9 +32,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Realia Business, S.A.",
-  "primary_symbol": "RBS.F",
+  "primary_symbol": "RBS.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

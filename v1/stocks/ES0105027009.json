@@ -3,18 +3,28 @@
   "country_code": "ES",
   "identifiers": {
     "composite_figi": "BBG006T6HBW3",
-    "figi": "BBG006T6HBX2",
+    "figi": "BBG006T6HC24",
     "isin": "ES0105027009"
   },
-  "industry": "Air Freight & Logistics",
-  "industry_group": "Transportation",
+  "industry": "Freight & Logistics",
+  "industry_group": "Transport & Logistics",
   "isin": "ES0105027009",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "5CI.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "5CI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "5CI.SG"
     },
     {
       "currency": "USD",
@@ -29,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Compania de Distribucion Integral Logista Holdings, S.A.",
-  "primary_symbol": "5CI.F",
+  "primary_symbol": "5CI.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

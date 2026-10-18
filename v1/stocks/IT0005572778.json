@@ -2,19 +2,69 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000BH9S62",
-    "figi": "BBG000BH9T06",
+    "composite_figi": "BBG000GDF863",
+    "figi": "BBG000GDF9R8",
     "isin": "IT0005572778"
   },
-  "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Services",
+  "industry": "Hospitality & Leisure",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "IT0005572778",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "JUV.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JUV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JUV.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "JUV.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "JUVE.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "JUVE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JUVE.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "JUVE.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "JUVE.MU"
+    },
+    {
+      "currency": "CZK",
+      "exchange_mic": "XPRA",
+      "symbol": "JUVE.PR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "JUVE.SG"
     },
     {
       "currency": "USD",
@@ -24,9 +74,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Juventus Football Club S.p.A.",
-  "primary_symbol": "JUVE.MI",
+  "primary_symbol": "JUV.DU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

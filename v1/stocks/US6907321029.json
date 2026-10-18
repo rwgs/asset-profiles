@@ -4,14 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG000CTV5F0",
     "cusip": "690732102",
-    "figi": "BBG000CTV800",
+    "figi": "BBG000CTV5F0",
     "isin": "US6907321029"
   },
-  "industry": "Health Care Providers & Services",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Health Care Providers",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "US6907321029",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "ACH"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -33,17 +38,17 @@
       "symbol": "6OM.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Owens & Minor, Inc.",
-  "primary_symbol": "OMI",
+  "market_cap_band": "Nano Cap",
+  "name": "Accendra Health, Inc.",
+  "primary_symbol": "ACH",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Owens & Minor, Inc., together with its subsidiaries, operates as a healthcare solutions company in the United States and internationally. It operates through two segments, Global Solutions and Global Products. The Global Solutions segment offers a portfolio of products and services to healthcare providers and manufacturers. Its portfolio of medical and surgical supplies includes branded products and its proprietary products. This segment also offers services to healthcare providers, which include supplier management, analytics, inventory management, and clinical supply management; and various programs to provide logistics and marketing solutions to its suppliers. The Global Products segment manufactures and sources medical surgical products for the prevention of healthcare-associated infections across the acute and alternate site channels. This segments products portfolio includes sterilization wraps, surgical drapes and gowns, facial protection products, protective apparel, medical exam gloves, custom and minor procedure kits, and other medical products. The company provides its products and services to multi-facility networks of healthcare providers, independent hospitals, surgery centers, physicians' practices, and networks of hospitals directly, as well as indirectly through third-party distributors. Owens & Minor, Inc. was founded in 1882 and is headquartered in Richmond, Virginia.",
-  "website": "http://www.owens-minor.com"
+  "summary": "Accendra Health, Inc., together with its subsidiaries, operates as a healthcare solutions company in the United States. It offers a range of products and services for in-home care and delivery for diabetes treatment; home respiratory therapy, including home oxygen and non-invasive ventilation services; obstructive sleep apnea treatment, such as continuous positive airway pressure and bi-level positive airway pressure devices, and patient support services. The company also supplies other home medical equipment, patient care product lines including ostomy, wound care and negative pressure wound therapy, urology, incontinence, and other products and services. It serves patients and home health agencies. The company was formerly known as Owens & Minor, Inc. and changed its name to Accendra Health, Inc. in December 2025. Accendra Health, Inc. was founded in 1882 and is based in Glen Allen, Virginia.",
+  "website": "https://www.accendrahealth.com"
 }

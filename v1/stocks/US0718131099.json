@@ -7,8 +7,8 @@
     "figi": "BBG000BCVLK7",
     "isin": "US0718131099"
   },
-  "industry": "Health Care Equipment & Supplies",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Medical Devices & Supplies",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "US0718131099",
   "kind": "stock",
   "listings": [
@@ -71,13 +71,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BTL.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BTL.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Baxter International Inc.",
   "primary_symbol": "BAX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

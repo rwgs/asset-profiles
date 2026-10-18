@@ -3,18 +3,33 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG000RJPRF5",
-    "figi": "BBG000RJPRR2",
+    "figi": "BBG000RJPTT6",
     "isin": "NO0010358484"
   },
-  "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry": "Oilfield Services & Equipment",
+  "industry_group": "Energy Production & Services",
   "isin": "NO0010358484",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "E2M.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "E2M.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "E2M.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "E2M.SG"
     },
     {
       "currency": "NOK",
@@ -25,13 +40,18 @@
       "currency": "NOK",
       "exchange_mic": "XSWX",
       "symbol": "NO0010358484.SW"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "VOIM.OL"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Voim ASA",
-  "primary_symbol": "E2M.F",
+  "primary_symbol": "E2M.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

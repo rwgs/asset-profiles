@@ -2,15 +2,18 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BW55T8",
-    "figi": "BBG00J784LR3",
     "isin": "DE0007236101"
   },
   "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "DE0007236101",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1SIE.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBRU",
@@ -63,6 +66,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "SIE.TI"
     },
     {
@@ -81,11 +85,11 @@
       "symbol": "SMAWF"
     }
   ],
-  "market_cap_band": "Large Cap",
+  "market_cap_band": "Mega Cap",
   "name": "Siemens Aktiengesellschaft",
-  "primary_symbol": "SIA.BR",
+  "primary_symbol": "1SIE.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

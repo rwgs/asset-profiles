@@ -1,21 +1,34 @@
 {
   "country": "Australia",
   "country_code": "AU",
+  "identifiers": {
+    "cusip": "87588D108"
+  },
   "industry": "Beverages",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "kind": "stock",
   "listings": [
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "DW8.AX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "TTLXF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XCNQ",
+      "symbol": "TTX.CN"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "DW8 Limited",
   "primary_symbol": "DW8.AX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

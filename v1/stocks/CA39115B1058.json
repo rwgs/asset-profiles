@@ -2,16 +2,36 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00T2SM329",
+    "composite_figi": "BBG00T65K7T9",
     "cusip": "39115B105",
-    "figi": "BBG00T2SM356",
+    "figi": "BBG00T65K808",
     "isin": "CA39115B1058"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA39115B1058",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "4TU0.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "4TU0.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "4TU0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "4TU0.MU"
+    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -23,17 +43,17 @@
       "symbol": "GPGCF"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Great Pacific Gold Corp.",
-  "primary_symbol": "GPAC.V",
+  "market_cap_band": "Micro Cap",
+  "name": "FOSTERVILLE SOUTH EXP. A",
+  "primary_symbol": "4TU0.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Great Pacific Gold Corp. is a junior exploration company that acquires, discovers and develops mineral properties, aiming to find copper and gold in Australia and Papua New Guinea. Its core assets are in Papua New Guinea, including the Wild Dog project on New Britain, with two exploration licenses covering 1,422 square kilometers, and ventures in the Kainantu region.",
-  "website": "https://gpacgold.com"
+  "summary": "Fosterville South Exploration Ltd., a junior exploration company, engages in the acquisition and exploration of epizonal orogenic gold deposits in Australia. It holds 100% interests in the Lauriston gold and Golden Mountain projects located in the central part of the state of Victoria; and Providence gold project. The company was founded in 2019 and is headquartered in Vancouver, Canada.",
+  "website": "http://www.fostervillesouth.com"
 }

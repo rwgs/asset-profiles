@@ -6,8 +6,8 @@
     "figi": "BBG000BM4R13",
     "isin": "DK0010244425"
   },
-  "industry": "Marine",
-  "industry_group": "Transportation",
+  "industry": "Shipping",
+  "industry_group": "Transport & Logistics",
   "isin": "DK0010244425",
   "kind": "stock",
   "listings": [
@@ -18,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DP4A.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "DP4A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DP4A.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DP4A.SG"
     },
     {
       "currency": "DKK",
@@ -36,7 +51,7 @@
   "name": "A.P. Moller - Maersk A/S",
   "primary_symbol": "AMKAF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

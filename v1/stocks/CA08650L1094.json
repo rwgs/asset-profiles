@@ -2,16 +2,21 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000C4ZG30",
+    "composite_figi": "BBG000TFKLS5",
     "cusip": "08650L109",
-    "figi": "BBG000C4ZG30",
+    "figi": "BBG000TFKMR4",
     "isin": "CA08650L1094"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA08650L1094",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "BST.V"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -20,15 +25,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Bessor Minerals Inc.",
-  "primary_symbol": "TRYXF",
+  "primary_symbol": "BST.V",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Bessor Minerals Inc., a junior mining exploration company, engages in the identification, evaluation, acquisition, and exploration of mineral properties in Canada. It primarily explores for copper, gold, zinc, tungsten, and silver deposits. The company holds a 100% interest in the Golden Eagle project covering an area of 8,178 hectares, located to the south of Whitehorse, Yukon Territory. It also has an option to acquire a 100% interest in the Redhill property covering an area of 3,689 hectares located to the south of Ashcroft, British Columbia. The company was formerly known as Troymet Exploration Corp and changed its name to Bessor Minerals Inc. in April 2019. Bessor Minerals Inc. was incorporated in 2007 and is headquartered in Vancouver, Canada.",
-  "website": "https://www.bessorminerals.com"
+  "summary": "Bessor Minerals Inc. engages in the identification, evaluation, acquisition, and exploration of mineral properties in Canada. It explores for copper, gold, zinc, and silver deposits. The company holds 100% interest in the Golden Eagle project covering an area of 8,178 hectares located in south of the Yukon-British Columbia border. It also has an option to acquire a 100% interest in the Redhill property covering an area of 3,689.75 hectares located to the south of Ashcroft, British Columbia. The company was formerly known as Troymet Exploration Corp and changed its name to Bessor Minerals Inc. in April 2019. Bessor Minerals Inc. was incorporated in 2007 and is based in Nanaimo, Canada.",
+  "website": "http://www.bessorminerals.com"
 }

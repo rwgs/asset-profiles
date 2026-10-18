@@ -6,8 +6,8 @@
     "figi": "BBG00ZF9DHG7",
     "isin": "SE0015504477"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Computers & Hardware",
+  "industry_group": "Hardware & Electronics",
   "isin": "SE0015504477",
   "kind": "stock",
   "listings": [
@@ -17,20 +17,27 @@
       "symbol": "5HS.F"
     },
     {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "FRACTL.ST"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0015504477.SG"
     }
   ],
+  "market_cap_band": "Nano Cap",
   "name": "Fractal Gaming Group AB",
   "primary_symbol": "5HS.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
-  "summary": "Fractal Gaming Group AB develops and sells premium computer gaming hardware and accessories. Their product portfolio includes PC cases, cooling solutions, power supplies, and other gaming peripherals, all designed with a focus on aesthetics, performance, and quality. The company is headquartered in Sweden."
+  "sector": "Information Technology",
+  "summary": "Fractal Gaming Group AB develops and sells premium computer gaming hardware and accessories. Their product portfolio includes PC cases, cooling solutions, power supplies, and other gaming peripherals, all designed with a focus on aesthetics, performance, and quality. The company is headquartered in Sweden.",
+  "website": "http://www.fractalgaminggroup.se"
 }

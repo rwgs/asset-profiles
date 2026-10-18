@@ -2,15 +2,18 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000HJTKL0",
-    "figi": "BBG000HJTPL9",
     "isin": "DE0005557508"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "DE0005557508",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1DTE.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -58,6 +61,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "DTE.TI"
     },
     {
@@ -83,15 +87,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Deutsche Telekom AG",
-  "primary_symbol": "DTE.BE",
+  "primary_symbol": "1DTE.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Deutsche Telekom AG is a telecommunications company that provides a range of services, including fixed-network, mobile communications, internet, and television. They operate in Europe and the United States, offering communication and IT solutions to consumers and businesses. The company is headquartered in Bonn, Germany.",
+  "summary": "Deutsche Telekom AG, together with its subsidiaries, provides integrated telecommunication services. The company operates through five segments: Germany, United States, Europe, Systems Solutions, and Group Development. It offers fixed-network services, including voice and data communication services based on fixed-network and broadband technology; and sells terminal equipment and other hardware products, as well as services to resellers. The company also provides mobile voice and data services to consumers and business customers; sells mobile devices and other hardware products; and sells mobile services to resellers and to companies that purchases and markets network services to third parties, such as mobile virtual network operators. In addition, it offers internet services; internet-based TV products and services; and information and communication technology systems for multinational corporations and public sector institutions with an infrastructure of data centers and networks under the T-Systems brand, as well as call center services. The company has 242 million mobile customers and 22 million broadband customers, as well as 27 million fixed-network lines. Deutsche Telekom AG has a collaboration with VMware, Inc. on cloud-based open and intelligent virtual RAN platform to bring agility to radio access networks for existing LTE and future 5G networks; and partnership with Microsoft to deliver high-performance cloud computing experiences. The company was founded in 1995 and is headquartered in Bonn, Germany.",
   "website": "http://www.telekom.com"
 }

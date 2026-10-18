@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG00MF4SGM6",
     "cusip": "69346N107",
-    "figi": "BBG00MF4SGM6",
+    "figi": "BBG00MTGP6Z5",
     "isin": "US69346N1072"
   },
   "isin": "US69346N1072",
@@ -13,18 +13,23 @@
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
+      "symbol": "NRGX"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
       "symbol": "PDX"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "PIMCO Dynamic Income Strategy Fund Common Shares of Beneficial Interest",
-  "primary_symbol": "PDX",
+  "name": "PIMCO Energy and Tactical Credit Opportunities Fund",
+  "primary_symbol": "NRGX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "PIMCO Dynamic Income Strategy Fund is a closed-end management investment company managed by PIMCO. The fund seeks to generate high current income by investing in a portfolio of various debt securities and other income-producing assets. The fund's investment strategy can include the use of leverage."
+  "summary": "PIMCO Energy and Tactical Credit Opportunities Fund is a closed-end investment fund that invests in a portfolio of energy and credit-related securities. The fund seeks to generate current income and capital appreciation. The fund is managed by PIMCO (Pacific Investment Management Company)."
 }

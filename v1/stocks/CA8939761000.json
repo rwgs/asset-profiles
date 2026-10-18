@@ -2,16 +2,41 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG003PYQ431",
+    "composite_figi": "BBG003NZPQQ7",
     "cusip": "893976100",
-    "figi": "BBG003PYQ431",
+    "figi": "BBG003NZPQV1",
     "isin": "CA8939761000"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA8939761000",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "3SB.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "M01.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "M01.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "M01.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "M01.SG"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -25,9 +50,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Transoceanic Investments Inc.",
-  "primary_symbol": "OCEEF",
+  "primary_symbol": "3SB.SG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

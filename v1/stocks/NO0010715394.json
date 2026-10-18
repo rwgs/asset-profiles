@@ -3,14 +3,24 @@
   "country_code": "NO",
   "identifiers": {
     "composite_figi": "BBG007B23NS3",
-    "figi": "BBG007B23NY6",
+    "figi": "BBG007B23NZ5",
     "isin": "NO0010715394"
   },
-  "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry": "Oilfield Services & Equipment",
+  "industry_group": "Energy Production & Services",
   "isin": "NO0010715394",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "26Q.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "26Q.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XMUN",
@@ -29,9 +39,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Aqualis ASA",
-  "primary_symbol": "26Q.MU",
+  "primary_symbol": "26Q.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

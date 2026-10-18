@@ -7,8 +7,8 @@
     "figi": "BBG000BQBFQ5",
     "isin": "SE0001174970"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "SE0001174970",
   "kind": "stock",
   "listings": [
@@ -26,6 +26,11 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "M4M.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "M4M1.F"
     },
     {
       "currency": "EUR",
@@ -52,7 +57,7 @@
   "name": "Millicom International Cellular S.A.",
   "primary_symbol": "TIGO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

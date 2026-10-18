@@ -2,19 +2,49 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BCDPP3",
-    "figi": "BBG000BCDQ35",
+    "composite_figi": "BBG000R2J8R8",
+    "figi": "BBG000R2J9P8",
     "isin": "FR0000130809"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "FR0000130809",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0J6Y.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1GLE.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "GLE.MI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "GLE.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ETLX",
+      "symbol": "GLE.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "GLE.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "GLEN.MX"
     },
     {
       "currency": "USD",
@@ -23,26 +53,56 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SGE.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SGE.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SGE.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SGE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SGE.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SGE.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SGE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SGE.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Société Générale S.A.",
-  "primary_symbol": "GLE.PA",
+  "primary_symbol": "0J6Y.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Société Générale Société anonyme provides financial services in Europe, the Americas, Asia, Oceania, Africa, and France. The company offers retail banking services, including deposits and loans, vehicles and asset management, corporate finance, insurance, payments, investment, and online brokerage and financial information services; Internet, mobile, telephone, and service platforms; and online banking to individual and professional customers, businesses, non-profit associations and local authorities under the Societe Generale, Crédit du Nord, and Boursorama Banque brands. It also provides international retail banking and financial services, comprising of deposit and loan products; consumer finance and car finance; mortgage facilities; corporate and investment banking; infrastructure, renewable energies, and agribusiness financing; life, retirement savings, and personal protection insurance products; vehicle leasing and fleet management services; and vendor and equipment finance services to corporate and individual customers. In addition, the company offers capital market services, such as fixed income and currencies, equities, and securities services; mergers and acquisitions, advisory and other corporate finance advisory services, and corporate banking and investment banking, as well as capital raising solutions for debt or equity, financial engineering, and hedging for issuers; transaction and payment services, comprising of cash management, trade finance, cash clearing and correspondent banking, supply chain finance, and foreign exchange services; and export finance, aircraft finance, shipping finance, real estate finance, and structured solutions and leasing. Further, it provides financial engineering and wealth management solutions; structured products, hedge funds, mutual funds, private equity funds and real estate investment solutions; and asset management solutions. Société Générale Société anonyme was founded in 1864 and is headquartered in Paris, France.",
+  "summary": "Societe Generale S.A. is a French multinational investment bank and financial services company. The bank provides a range of banking, investment, and asset management services to individuals, businesses, and institutions. Societe Generale S.A. is headquartered in Paris, France.",
   "website": "http://www.societegenerale.com"
 }

@@ -2,15 +2,40 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000R2KJ92",
-    "figi": "BBG00QSGLRT2",
+    "composite_figi": "BBG00QTYWZ21",
+    "figi": "BBG00QTYWZ85",
     "isin": "FR0013451333"
   },
-  "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Services",
+  "industry": "Hospitality & Leisure",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "FR0013451333",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1WE.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "1WE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1WE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1WE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "FDJ.VI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -29,9 +54,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "FDJ United",
-  "primary_symbol": "FDJU.PA",
+  "primary_symbol": "1WE.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

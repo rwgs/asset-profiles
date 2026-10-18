@@ -7,7 +7,7 @@
     "isin": "GB00BF4HYT85"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "GB00BF4HYT85",
   "kind": "stock",
   "listings": [
@@ -25,13 +25,28 @@
       "currency": "GBP",
       "exchange_mic": "XSWX",
       "symbol": "GB00BF4HYT85.SW"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GEB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GEB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GEB.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Lion Finance Group PLC",
   "primary_symbol": "BDGSF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,10 +2,12 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
+    "composite_figi": "BBG009LV4L61",
+    "figi": "BBG009LV4L89",
     "isin": "ES0105066007"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "ES0105066007",
   "kind": "stock",
   "listings": [
@@ -37,6 +39,11 @@
     {
       "currency": "EUR",
       "exchange_mic": "XMAD",
+      "symbol": "CLN-D.MC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
       "symbol": "CLNX.MC"
     },
     {
@@ -59,7 +66,7 @@
   "name": "Cellnex Telecom S.A.",
   "primary_symbol": "0R9C.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -5,7 +5,7 @@
     "isin": "DE0005111702"
   },
   "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry_group": "Retail",
   "isin": "DE0005111702",
   "kind": "stock",
   "listings": [
@@ -26,6 +26,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ZO1.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "ZO1.VI"
     }
@@ -34,7 +39,7 @@
   "name": "zooplus AG",
   "primary_symbol": "ZLPSF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

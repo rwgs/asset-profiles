@@ -7,8 +7,8 @@
     "figi": "BBG003RY97K2",
     "isin": "US81282V1008"
   },
-  "industry": "Health Care Technology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Hospitality & Leisure",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "US81282V1008",
   "kind": "stock",
   "listings": [
@@ -16,19 +16,39 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "PRKS"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "SEAS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "W2L.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "W2L.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "W2L.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "United Parks & Resorts Inc. Common Stock",
+  "name": "United Parks & Resorts Inc.",
   "primary_symbol": "PRKS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
+  "sector": "Consumer Discretionary",
   "summary": "United Parks & Resorts Inc. owns and operates a portfolio of theme parks and water parks. The company aims to deliver entertainment and educational experiences to guests. Their portfolio is located in the United States.",
   "website": "https://www.unitedparks.com"
 }

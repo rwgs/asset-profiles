@@ -2,10 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG007R9H8M5",
+    "figi": "BBG007R9H8P2",
     "isin": "DE0006916604"
   },
   "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "DE0006916604",
   "kind": "stock",
   "listings": [
@@ -61,6 +63,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "PFV.TI"
     },
     {
@@ -73,7 +76,7 @@
   "name": "Pfeiffer Vacuum Technology AG",
   "primary_symbol": "0FQR.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

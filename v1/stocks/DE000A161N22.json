@@ -6,8 +6,8 @@
     "figi": "BBG00NQ3FPG5",
     "isin": "DE000A161N22"
   },
-  "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry": "Payments & Specialty Finance",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "DE000A161N22",
   "kind": "stock",
   "listings": [
@@ -18,21 +18,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TUF.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TUF.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TUF.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "LIBERO Football Finance AG",
   "primary_symbol": "TUF.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
+  "sector": "Financials",
   "summary": "LIBERO Football Finance AG provides working capital finance for soccer companies in Europe. It offers professional services and business consulting for European professional football companies. The company was formerly known as RAVENO Capital AG and changed its name to LIBERO Football Finance AG in July 2023. LIBERO Football Finance AG was founded in 2015 and is based in Frankfurt am Main, Germany.",
-  "website": "http://www.tuffgroup.com"
+  "website": "https://libero-football-finance.com"
 }

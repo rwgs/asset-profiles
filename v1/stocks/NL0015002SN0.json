@@ -8,7 +8,7 @@
     "isin": "NL0015002SN0"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "NL0015002SN0",
   "kind": "stock",
   "listings": [
@@ -19,15 +19,65 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0RLT.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "QGE4.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "QGEN.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "QIA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "QIA.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "QIA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "QIA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "QIA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "QIA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "QIA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "QIA.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Qiagen N.V.",
   "primary_symbol": "QGEN",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

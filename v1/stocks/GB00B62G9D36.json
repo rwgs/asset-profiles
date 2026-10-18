@@ -2,15 +2,25 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00DSL4D92",
-    "figi": "BBG00DSL4D92",
+    "composite_figi": "BBG000R2DSW4",
+    "figi": "BBG000R2DT07",
     "isin": "GB00B62G9D36"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Diversified REITs",
+  "industry_group": "REITs",
   "isin": "GB00B62G9D36",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C20.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "C20.SG"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -22,17 +32,17 @@
       "symbol": "SHC.L"
     }
   ],
-  "market_cap_band": "Mid Cap",
-  "name": "Shaftesbury Capital PLC",
-  "primary_symbol": "CCPPF",
+  "market_cap_band": "Small Cap",
+  "name": "Capital & Counties Properties PLC",
+  "primary_symbol": "C20.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "Shaftesbury Capital PLC, a significant real estate investment trust (REIT) focused on mixed-use properties, holds a prominent position within central London's market and is a constituent of the FTSE-250 Index. As of June 2023, its extensive property collection was valued at £4.9 billion, offering 2.9 million square feet of rentable space. These assets are strategically situated across London's dynamic West End, encompassing thriving districts like Covent Garden, Carnaby, Soho, and Chinatown, alongside holdings in Fitzrovia. The portfolio is characterized by its rich variety, incorporating establishments such as restaurants, cafés, bars, retail outlets, residential accommodations, and office premises. Excellent public transport access is a key feature, with properties conveniently located near principal West End Underground stations and Elizabeth Line transit hubs. The company's shares are primarily traded on the London Stock Exchange, with a secondary listing available on the Johannesburg Stock Exchange.",
-  "website": "https://www.shaftesburycapital.com"
+  "summary": "Capital & Counties Properties PLC, a property company, engages in investment, development, and management of properties. Its principal properties include Covent Garden, a retail and dining destination in central London. The company was incorporated in 2010 and is headquartered in London, the United Kingdom.",
+  "website": "http://www.capitalandcounties.com"
 }

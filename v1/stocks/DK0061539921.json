@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "DK0061539921"
   },
-  "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry": "Electrical Equipment",
+  "industry_group": "Industrial Goods",
   "isin": "DK0061539921",
   "kind": "stock",
   "listings": [
@@ -65,6 +65,11 @@
       "symbol": "VWSB.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VWSB.SG"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "VWSN.MX"
@@ -79,7 +84,7 @@
   "name": "Vestas Wind Systems A/S",
   "primary_symbol": "0NMK.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -7,8 +7,8 @@
     "figi": "BBG008N299H5",
     "isin": "US9741551033"
   },
-  "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Services",
+  "industry": "Hospitality & Leisure",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "US9741551033",
   "kind": "stock",
   "listings": [
@@ -31,13 +31,28 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "EWG.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WST.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "WST.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "WST.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Wingstop Inc.",
   "primary_symbol": "WING",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

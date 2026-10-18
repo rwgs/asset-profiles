@@ -6,8 +6,8 @@
     "figi": "BBG000PMQYN5",
     "isin": "DE000A3H2135"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Capital Goods",
+  "industry": "Software",
+  "industry_group": "Software & IT Services",
   "isin": "DE000A3H2135",
   "kind": "stock",
   "listings": [
@@ -20,19 +20,34 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "MA10.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MA10.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MA10.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MA10.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Binect AG",
   "primary_symbol": "DE000A3H2135.SG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
+  "sector": "Information Technology",
   "summary": "BINECT AG is a German company focused on innovative and sustainable solutions for the recycling and processing of plastics. They develop and operate facilities for the production of high-quality recyclates from plastic waste. The company is headquartered in Munich, Germany.",
-  "website": "http://www.max21.de"
+  "website": "https://binect.com"
 }

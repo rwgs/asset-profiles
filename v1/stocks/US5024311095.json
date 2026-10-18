@@ -8,7 +8,7 @@
     "isin": "US5024311095"
   },
   "industry": "Aerospace & Defense",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "US5024311095",
   "kind": "stock",
   "listings": [
@@ -24,8 +24,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HRS.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "HRS.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HRS.DU"
     },
     {
       "currency": "EUR",
@@ -52,7 +62,7 @@
   "name": "L3Harris Technologies Inc",
   "primary_symbol": "LHX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,15 +2,18 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000BS5M47",
-    "figi": "BBG000BS5M92",
     "isin": "GB0006449366"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "GB0006449366",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "APF.L"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -25,19 +28,39 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ECRAF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HGR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HGR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HGR.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HGR.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Ecora Royalties PLC",
-  "primary_symbol": "ECOR.L",
+  "name": "Anglo Pacific Group plc",
+  "primary_symbol": "APF.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Ecora Royalties PLC is a royalty and streaming business in natural resources with operations across Australia, North and South America and Europe. It holds royalty interests and investments in mining and exploration projects covering commodities such as gold, silver, copper, nickel, cobalt, vanadium, uranium, steelmaking coal and iron ore. It was established in 1967.",
+  "summary": "Anglo Pacific Group plc operates as a natural resources royalty and streaming company. The company, together with its subsidiaries, engages in securing natural resources royalties and streams by acquisition and through investment in mining and exploration interests in coking and thermal coal, cobalt, iron ore, copper, vanadium, uranium, gold, silver, nickel, and anthracite properties primarily in Australia, North and South America, and Europe. Anglo Pacific Group plc was incorporated in 1967 and is headquartered in London, the United Kingdom.",
   "website": "https://www.ecoraroyalties.com"
 }

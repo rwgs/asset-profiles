@@ -6,8 +6,8 @@
     "figi": "BBG000BR8552",
     "isin": "ES0139140174"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Office REITs",
+  "industry_group": "REITs",
   "isin": "ES0139140174",
   "kind": "stock",
   "listings": [
@@ -33,11 +33,17 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HSC2.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "HSC2.SG"
     },
     {
       "currency": "USD",
+      "exchange_mic": "OTCM",
       "symbol": "IMQCF"
     }
   ],
@@ -45,7 +51,7 @@
   "name": "Inmobiliaria Colonial, SOCIMI, S.A.",
   "primary_symbol": "COL.MC",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

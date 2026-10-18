@@ -8,7 +8,7 @@
     "isin": "US88023U1016"
   },
   "industry": "Household Durables",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry_group": "Consumer Goods & Apparel",
   "isin": "US88023U1016",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,28 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SGI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TPD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TPD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TPD.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Somnigroup International Inc. Common Stock",
+  "name": "Somnigroup International Inc.",
   "primary_symbol": "SGI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

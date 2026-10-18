@@ -7,8 +7,8 @@
     "figi": "BBG0024CH3W4",
     "isin": "US8969452015"
   },
-  "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Services",
+  "industry": "Hospitality & Leisure",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "US8969452015",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,11 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0QZS.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1TRIP.MI"
     },
     {
       "currency": "BRL",
@@ -69,6 +74,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "T6A.TI"
     },
     {
@@ -96,7 +102,7 @@
   "name": "TripAdvisor, Inc.",
   "primary_symbol": "TRIP",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

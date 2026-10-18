@@ -8,7 +8,7 @@
     "isin": "GB00BM8PJY71"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "GB00BM8PJY71",
   "kind": "stock",
   "listings": [
@@ -66,13 +66,43 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RYS2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "RYSD.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RYSD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "RYSD.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "RYSD.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RYSD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RYSD.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "NatWest Group plc",
   "primary_symbol": "NWG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

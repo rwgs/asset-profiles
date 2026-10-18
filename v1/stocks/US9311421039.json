@@ -7,14 +7,14 @@
     "figi": "BBG000BWXCP6",
     "isin": "US9311421039"
   },
-  "industry": "Food & Staples Retailing",
-  "industry_group": "Food & Staples Retailing",
+  "industry": "Grocery & Drug Retail",
+  "industry_group": "Staples Retail",
   "isin": "US9311421039",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "WMT"
     },
     {
@@ -29,6 +29,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "WMT-U.TI"
     },
     {
@@ -87,7 +88,7 @@
       "symbol": "WMT.SN"
     },
     {
-      "currency": "USD",
+      "currency": "CHF",
       "exchange_mic": "XSWX",
       "symbol": "WMT.SW"
     },
@@ -95,13 +96,18 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "WMT.VI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XBUE",
+      "symbol": "WMTD.BA"
     }
   ],
   "market_cap_band": "Mega Cap",
   "name": "Walmart Inc.",
   "primary_symbol": "WMT",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

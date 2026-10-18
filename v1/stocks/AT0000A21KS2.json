@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "AT0000A21KS2"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "AT0000A21KS2",
   "kind": "stock",
   "listings": [
@@ -13,13 +13,53 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "CPI.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "IIA.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IMO1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IMO1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IMO1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "IMO1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IMO1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IMO1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IMO1.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "CPI Europe AG",
   "primary_symbol": "CPI.VI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

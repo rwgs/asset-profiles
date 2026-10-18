@@ -2,13 +2,20 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
+    "composite_figi": "BBG00LFJW8X6",
+    "figi": "BBG00LFJW8Y5",
     "isin": "BE0974334667"
   },
-  "industry": "Interactive Media & Services",
-  "industry_group": "Media & Entertainment",
+  "industry": "Networking & Communications Equipment",
+  "industry_group": "Hardware & Electronics",
   "isin": "BE0974334667",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALAVY.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -16,16 +23,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Winamp Group",
-  "primary_symbol": "ALWIN.PA",
+  "name": "AudioValley SA",
+  "primary_symbol": "ALAVY.PA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
-  "summary": "Winamp Group SA operates globally within the digital music industry. The firm's portfolio includes the iconic Winamp audio player, Bridger – a specialized copyright management platform for artists – and a wide array of themed digital and music radio channels. Beyond these offerings, it empowers artists with comprehensive solutions for the promotion, distribution, and licensing of their musical works. Headquartered in Brussels, Belgium, the company was established in 2007. It previously operated as Llama Group SA before officially rebranding to Winamp Group SA in October 2025.",
-  "website": "https://www.llama-group.com"
+  "sector": "Information Technology",
+  "summary": "AudioValley SA engages in the digital audio business worldwide. It operates Radionomy, a free platform that allows radio enthusiasts to broadcast, promote, and monetize their radio; Storever, an international agency offering instore solutions for brands covering music services, digital signage, interactive solutions, and audiovisual equipment for retail players; and Jamendo, an independent music community with thousands of artists sharing a catalogue of approximately 500,000 tracks to stream or download for free. The company was founded in 2007 and is headquartered in Anderlecht, Belgium.",
+  "website": "http://www.audiovalley.com"
 }

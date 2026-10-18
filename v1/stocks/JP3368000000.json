@@ -7,7 +7,7 @@
     "isin": "JP3368000000"
   },
   "industry": "Chemicals",
-  "industry_group": "Materials",
+  "industry_group": "Basic Materials",
   "isin": "JP3368000000",
   "kind": "stock",
   "listings": [
@@ -20,13 +20,38 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SHWDF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SWD.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SWD.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SWD.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SWD.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SWD.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Resonac Holdings Corporation",
   "primary_symbol": "4004.T",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

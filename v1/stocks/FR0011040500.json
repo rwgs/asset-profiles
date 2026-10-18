@@ -2,17 +2,44 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG00JHW19Q0",
+    "figi": "BBG00JHW19R9",
     "isin": "FR0011040500"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "FR0011040500",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0P5L.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1XV.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1XV.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1XV.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "74SW.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "AXW.PA"
     },
     {
       "currency": "EUR",
@@ -21,16 +48,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "74software",
-  "primary_symbol": "74SW.PA",
+  "name": "74Software",
+  "primary_symbol": "0P5L.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Headquartered in Scottsdale, Arizona, and established in 2000, 74Software operates as a global infrastructure software developer and publisher, reaching markets across France, the rest of Europe, the Americas, and the Asia Pacific region. The company provides an extensive suite of \"amplify\" software products. These include Axway Managed File Transfer, meticulously designed to manage essential data streams while ensuring compliance; Axway B2B Integration, which orchestrates business interactions throughout a company's value chains; and the core amplify platform, intended to unify software infrastructures, streamline analytical processes, and accelerate the deployment of digital services. Additionally, its offerings encompass the Axway Financial Accounting Hub, automating and centralizing accounting and financial management, and Axway Managed Cloud Services, a cloud-based platform for overseeing critical business operations. Complementing these are specialty products that deliver enhanced visibility, intelligence, and security across the entire digital ecosystem. 74Software serves a broad array of sectors, including banking and finance, healthcare, life sciences, automotive, energy and utilities, government, insurance, manufacturing, consumer packaged goods, and the public sector. The company was previously known as Axway Software SA before officially changing its name to 74Software in December 2024.",
+  "summary": "74Software operates as a software company in France. The company offers amplify platform that publish, validate, and govern APIs across multiple clouds, on-premises data centers, and gateway vendors; B2B integration, a structured and automated data exchange between organizations, enabling efficient, compliant and traceable business and supply chain processes; managed file transfer that secure critical file transfers under the axway brand name; application programming interface management, which provides applications to communicate and exchange services and data; Integration Platform as a Service, a cloud-based integration solutions, as well as financial accounting hub for integration, transformation and control of financial data under the axway brand name. It also provides specialty products that offers visibility, intelligence, and security across the digital ecosystem. In addition, the company offers banking and financing platform under SBS brand name. The company serves financial services, manufacturing, retail, public sector, transport and logistic, and healthcare sectors. 74Software was formerly known as Axway Software SA and changed its name to 74Software in December 2024. The company was incorporated in 2000 and is headquartered in Scottsdale, Arizona.",
   "website": "https://www.74software.com"
 }

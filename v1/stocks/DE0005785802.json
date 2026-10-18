@@ -2,15 +2,18 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000LYFMB4",
-    "figi": "BBG000LYFMB4",
     "isin": "DE0005785802"
   },
-  "industry": "Health Care Providers & Services",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Health Care Providers",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "DE0005785802",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1FME.MI"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -63,6 +66,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "FME.TI"
     },
     {
@@ -77,10 +81,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Fresenius Medical Care AG & Co. KGaA",
-  "primary_symbol": "FMCQF",
+  "name": "Fresenius Medical Care AG",
+  "primary_symbol": "1FME.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

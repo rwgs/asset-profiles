@@ -3,31 +3,61 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BDR268",
-    "figi": "BBG000BDR4P3",
+    "figi": "BBG000BDR5M3",
     "isin": "DE0006627201"
   },
-  "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Machinery",
+  "industry_group": "Industrial Goods",
   "isin": "DE0006627201",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MUB.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "MUB.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MUB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MUB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MUB.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MUB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MUB.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Mühlbauer Holding AG",
-  "primary_symbol": "MUB.DE",
+  "name": "Muhlbauer Holding AG",
+  "primary_symbol": "MUB.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Mühlbauer Holding AG engages in the production and personalization of cards, passports, and RFID applications worldwide. It produces and supplies precision parts and systems, including precision and surface engineering for use in the manufacture of its machines, as well as for exacting industries, such as aerospace, motorsports, semiconductor, and medical engineering. The company also offers production systems and software solutions for production management and personalization, including IC modules, smart cards, e-passport, RFID/SMART labels, die sorting, carrier tapes, flip chip LED, flexible solar technology, multicomponent flexible electronic, TEMA security inspection, and TEMA industrial inspection equipment. In addition, it offers government solutions, which include ID card, e-passport, driver's license and vehicle registration, document verification, border management, e-government, and production facility solutions, as well as consumables and accessories, such as card measuring stations, UV-lamps, thread counters, color fans, tool trollies, and cardboard cartons for cards. Further, the company produces laser and board handling systems for the traceability of electronic components; vision inspection systems for various applications; and production technologies for flexible solar cells. Additionally, it provides automation, marking, and traceability systems, as well as operates in the solar back-end industry. The company was founded in 1981 and is headquartered in Roding, Germany.",
+  "sector": "Industrials",
+  "summary": "Muehlbauer Holding AG is a German company specializing in the development, manufacturing, and sales of production equipment for the smart card, RFID, and solar industries. The company's portfolio includes machines for chip embedding, card personalization, and solar cell production, with headquarters located in Roding, Germany. Muehlbauer provides solutions to customers worldwide, including government agencies, card manufacturers, and solar panel producers.",
   "website": "http://www.muehlbauer.de"
 }

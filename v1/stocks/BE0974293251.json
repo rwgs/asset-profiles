@@ -8,7 +8,7 @@
     "isin": "BE0974293251"
   },
   "industry": "Beverages",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "BE0974293251",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0RJI.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1ABI.MI"
     },
     {
       "currency": "EUR",
@@ -39,6 +44,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "ABI.TI"
     },
     {
@@ -65,18 +71,13 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "BUDFF"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "ITKA.F"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Anheuser Busch Inbev SA NV",
   "primary_symbol": "BUD",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

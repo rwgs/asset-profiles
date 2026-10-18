@@ -6,8 +6,8 @@
     "figi": "BBG00JHW10Q9",
     "isin": "FR0010282822"
   },
-  "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry": "Electronic Components & Instruments",
+  "industry_group": "Hardware & Electronics",
   "isin": "FR0010282822",
   "kind": "stock",
   "listings": [
@@ -22,7 +22,33 @@
       "symbol": "FR0010282822.SW"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S4M.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S4M.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "S4M.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "S4M.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "SESL.PA"
+    },
+    {
       "currency": "USD",
+      "exchange_mic": "OTCM",
       "symbol": "SRBEF"
     },
     {
@@ -35,7 +61,7 @@
   "name": "VusionGroup",
   "primary_symbol": "0OA4.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -69,7 +69,7 @@
   "name": "Invesco QQQ Trust",
   "primary_symbol": "QQQ",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067839"
@@ -78,19 +78,15 @@
   "sector_weights": [
     {
       "sector": "Information Technology",
-      "weight": 0.533469
+      "weight": 0.607307
     },
     {
       "sector": "Communications",
-      "weight": 0.116037
+      "weight": 0.126439
     },
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.100372
-    },
-    {
-      "sector": "Unknown",
-      "weight": 0.093926
+      "weight": 0.102955
     },
     {
       "sector": "Consumer Staples",
@@ -98,11 +94,11 @@
     },
     {
       "sector": "Health Care",
-      "weight": 0.03417
+      "weight": 0.035427
     },
     {
       "sector": "Industrials",
-      "weight": 0.033729
+      "weight": 0.034386
     },
     {
       "sector": "Utilities",
@@ -115,6 +111,14 @@
     {
       "sector": "Energy",
       "weight": 0.004513
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.003542
+    },
+    {
+      "sector": "Financials",
+      "weight": 0.001645
     }
   ],
   "top_holdings": [

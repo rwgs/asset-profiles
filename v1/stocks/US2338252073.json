@@ -2,16 +2,31 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG00FQ9Y929",
+    "composite_figi": "BBG00GF4NN94",
     "cusip": "233825207",
-    "figi": "BBG00FQ9Y929",
+    "figi": "BBG00GF4NNH5",
     "isin": "US2338252073"
   },
   "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Automotive",
   "isin": "US2338252073",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DAII.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DAII.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DAII.SG"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -25,15 +40,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Mercedes-Benz Group AG",
-  "primary_symbol": "DMLRY",
+  "primary_symbol": "DAII.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "Mercedes-Benz Group AG operates as a prominent global automotive manufacturer, with significant operations in Germany and across international markets. The company specializes in the design, production, and distribution of a diverse portfolio of vehicles. This extensive range includes premium and luxury passenger vehicles under its flagship Mercedes-Benz brand, encompassing high-performance Mercedes-AMG, iconic G-Class, ultra-luxury Mercedes-Maybach, and electric Mercedes-EQ lines, alongside compact smart-branded automobiles. Additionally, it offers the integrated Mercedes me digital ecosystem, commercial vans marketed under the Mercedes-Benz and Freightliner names, and corresponding spare parts and accessories. Beyond vehicle manufacturing, Mercedes-Benz Group AG provides comprehensive financial and mobility solutions. These encompass vehicle financing and leasing packages for both individual customers and dealerships, automotive insurance brokerage, and banking services. The company's mobility offerings further include car subscriptions, rental programs, fleet management, and advanced digital services for vehicle charging and payment. Established in 1886, the organization was previously known as Daimler AG until its rebranding to Mercedes-Benz Group AG in February 2022. Its global headquarters are located in Stuttgart, Germany.",
+  "summary": "Mercedes-Benz Group AG is an international automotive conglomerate based in Stuttgart, Germany, with roots tracing back to 1886. The company excels in the development, manufacturing, and global distribution of a wide array of vehicles. Its passenger car portfolio features premium and luxury models under the Mercedes-Benz umbrella, including high-end variants like Mercedes-AMG, G-Class, Mercedes-Maybach, and Mercedes-EQ, as well as compact vehicles from the smart brand. Furthermore, it produces commercial vans under the Mercedes-Benz and Freightliner marques, alongside selling corresponding spare parts and accessories. Beyond vehicle sales, Mercedes-Benz Group AG offers an extensive range of services. These include the Mercedes me digital ecosystem, comprehensive financial and leasing solutions for both customers and dealerships, automotive insurance brokerage, and banking services. Its service repertoire also covers car subscription and rental options, fleet management, digital platforms for charging and payment, and various other mobility services. The entity officially changed its name from Daimler AG to Mercedes-Benz Group AG in February 2022.",
   "website": "https://group.mercedes-benz.com"
 }

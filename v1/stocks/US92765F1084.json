@@ -2,30 +2,56 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000BFG2V7",
     "cusip": "92765F108",
     "isin": "US92765F1084"
   },
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Machinery",
+  "industry_group": "Industrial Goods",
   "isin": "US92765F1084",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "RYI"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "VIRX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "RYI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RYI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "RYI.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US92765F1084.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "Viracta Therapeutics, Inc.",
-  "primary_symbol": "US92765F1084.SG",
+  "market_cap_band": "Small Cap",
+  "name": "Ryerson Holding Corporation",
+  "primary_symbol": "RYI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Health Care",
-  "summary": "VIRACTA THERAPEUTICS INC is a precision oncology company focused on developing oral medicines for virus-associated cancers; their lead product candidate is an all-oral combination therapy designed to target Epstein-Barr virus-positive lymphomas; the company is headquartered in San Diego, California."
+  "sector": "Industrials",
+  "summary": "Ryerson Holding Corporation, together with its subsidiaries, processes and distributes industrial metals in the United States, Canada, Mexico, and China. The company offers a line of products in carbon steel, stainless steel, alloy steels, and aluminum, as well as nickel and red metals in various shapes and forms, including coils, sheets, rounds, hexagons, square and flat bars, plates, structurals, and tubing. It also provides various processing services, such as bending, beveling, blanking, blasting, burning, cutting-to-length, drilling, embossing, flattening, forming, grinding, laser cutting, machining, notching, painting, perforating, polishing, punching, rolling, sawing, scribing, shearing, slitting, stamping, tapping, threading, welding, or other techniques to process materials. The company serves various industries, including commercial ground transportation, metal fabrication and machine shops, industrial machinery and equipment manufacturing, consumer durable equipment, HVAC manufacturing, construction equipment manufacturing, food processing and agricultural equipment manufacturing, and oil and gas. Ryerson Holding Corporation was founded in 1842 and is headquartered in Chicago, Illinois.",
+  "website": "http://www.ryerson.com"
 }

@@ -6,8 +6,8 @@
     "figi": "BBG000SZV3K8",
     "isin": "KYG2113L1068"
   },
-  "industry": "Construction Materials",
-  "industry_group": "Materials",
+  "industry": "Building Materials",
+  "industry_group": "Basic Materials",
   "isin": "KYG2113L1068",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,11 @@
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "1313.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C44.BE"
     },
     {
       "currency": "EUR",
@@ -27,6 +32,11 @@
       "symbol": "C44.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "C44.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CJRCF"
@@ -36,7 +46,7 @@
   "name": "China Resources Building Materials Technology Holdings Limited",
   "primary_symbol": "1313.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

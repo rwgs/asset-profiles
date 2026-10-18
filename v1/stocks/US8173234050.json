@@ -7,8 +7,8 @@
     "figi": "BBG001LKFKN3",
     "isin": "US8173234050"
   },
-  "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry": "Semiconductors & Chip Equipment",
+  "industry_group": "Semiconductors",
   "isin": "US8173234050",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,33 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SQNS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6SQ0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "6SQB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6SQB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6SQB.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Sequans Communications S.A.",
   "primary_symbol": "SQNS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

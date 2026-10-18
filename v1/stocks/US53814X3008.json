@@ -7,8 +7,8 @@
     "figi": "BBG00HNJXM64",
     "isin": "US53814X3008"
   },
-  "industry": "Hotels, Restaurants & Leisure",
-  "industry_group": "Consumer Services",
+  "industry": "Hospitality & Leisure",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "US53814X3008",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,28 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "LVO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "351.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "351.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "351.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "LiveOne Inc. Common Stock",
+  "name": "LiveOne Inc.",
   "primary_symbol": "LVO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

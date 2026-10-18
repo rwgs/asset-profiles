@@ -2,14 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
+    "composite_figi": "BBG000GMGNB3",
     "cusip": "75524B104",
+    "figi": "BBG000GMGNB3",
     "isin": "US75524B1044"
   },
   "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "US75524B1044",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "RBC"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
@@ -21,11 +28,11 @@
       "symbol": "B1X.F"
     }
   ],
-  "market_cap_band": "Mid Cap",
+  "market_cap_band": "Large Cap",
   "name": "RBC Bearings Incorporated",
-  "primary_symbol": "ROLL",
+  "primary_symbol": "RBC",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

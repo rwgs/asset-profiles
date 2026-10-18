@@ -8,7 +8,7 @@
     "isin": "US3755581036"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US3755581036",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "GILD"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1GILD.MI"
     },
     {
       "currency": "ARS",
@@ -92,7 +97,7 @@
   "name": "Gilead Sciences, Inc.",
   "primary_symbol": "GILD",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

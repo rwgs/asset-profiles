@@ -2,15 +2,20 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000JY6JK4",
-    "figi": "BBG000JY6KL0",
+    "composite_figi": "BBG000BSGTK2",
+    "figi": "BBG000BSGVB7",
     "isin": "GB00B0KM9T71"
   },
   "industry": "Professional Services",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Business Services",
   "isin": "GB00B0KM9T71",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S8T.F"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "SThree plc",
-  "primary_symbol": "STEM.L",
+  "primary_symbol": "S8T.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

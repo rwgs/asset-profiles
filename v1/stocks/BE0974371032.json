@@ -2,13 +2,20 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
+    "composite_figi": "BBG00XKLQBY8",
+    "figi": "BBG00XKLQBZ7",
     "isin": "BE0974371032"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "BE0974371032",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "60Z.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBRU",
@@ -18,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BE0974371032.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBRU",
+      "symbol": "UPG.BR"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Banqup Group",
-  "primary_symbol": "BANQ.BR",
+  "primary_symbol": "60Z.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

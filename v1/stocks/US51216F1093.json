@@ -4,12 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG01M7VPQH1",
     "cusip": "51216F109",
+    "figi": "BBG01M7VPQH1",
     "isin": "US51216F1093"
   },
-  "industry_group": "Transportation",
+  "industry": "Freight & Logistics",
+  "industry_group": "Transport & Logistics",
   "isin": "US51216F1093",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "LSH"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
@@ -17,10 +24,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Quanome Technologies Inc. Common Stock",
-  "primary_symbol": "QNME",
+  "name": "Lakeside Holding Limited",
+  "primary_symbol": "LSH",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

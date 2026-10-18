@@ -2,15 +2,20 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG000BSFLY5",
-    "figi": "BBG000BSFLY5",
+    "composite_figi": "BBG000BLS0Y2",
+    "figi": "BBG000BLS2Q7",
     "isin": "NL0000009082"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "NL0000009082",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0O8F.IL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -20,19 +25,54 @@
       "currency": "EUR",
       "exchange_mic": "XAMS",
       "symbol": "KPN.AS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "KPN.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KPN.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "KPN.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "KPN.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KPN.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "KPN.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "KPN.VI"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Koninklijke KPN N.V.",
-  "primary_symbol": "KKPNF",
+  "primary_symbol": "0O8F.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Koninklijke KPN N.V. provides telecommunications and information technology (IT) services in the Netherlands. The company operates through Consumer; Business; Wholesale; and Network, Operations & IT segments. It offers fixed and mobile telephony, fixed and mobile broadband internet, and television services to retail consumers; infrastructure and network related IT solutions to business customers; and wholesale network services to third parties. The company also provides cloud and security services; and workplace and related services to large corporate customers. Koninklijke KPN N.V. was founded in 1881 and is headquartered in Rotterdam, the Netherlands.",
+  "summary": "KONINKLIJKE KPN NV is a Dutch telecommunications company that provides fixed and mobile telephony, broadband internet, and television services. The company serves residential and business customers in the Netherlands. Its headquarters are located in Rotterdam, Netherlands.",
   "website": "http://www.kpn.com"
 }

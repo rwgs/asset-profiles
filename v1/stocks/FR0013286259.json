@@ -2,15 +2,25 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG008D4Q8G6",
-    "figi": "BBG00HYCJ4F3",
+    "composite_figi": "BBG00VTXGQ11",
+    "figi": "BBG00VTXGQ20",
     "isin": "FR0013286259"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "FR0013286259",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3VG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3VG.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -23,16 +33,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "THX Pharma",
-  "primary_symbol": "ALTHX.PA",
+  "name": "Theranexus Societe Anonyme",
+  "primary_symbol": "3VG.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "THX Pharma, a biopharmaceutical company, develops drug candidates for the treatment of central nervous system disorders. The company's lead drug candidate is THN102, which is in Phase II clinical trial to treat sleep/wake disorders. It also develops THN201 for the treatment of neurocognitive disorders linked to Alzheimer's disease; and THN101 to treat neuropathic pain. The company was founded in 2013 and is based in Lyon, France.",
+  "summary": "Theranexus société anonyme, a biopharmaceutical company, develops drug candidates for the treatment of central nervous system disorders. The company's lead drug candidate is THN102, which is in Phase II clinical trial to treat sleep/wake disorders. It also develops THN201 for the treatment of neurocognitive disorders linked to Alzheimer's disease; and THN101 to treat neuropathic pain. The company was founded in 2013 and is based in Lyon, France.",
   "website": "http://www.theranexus.com"
 }

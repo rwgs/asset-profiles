@@ -2,15 +2,20 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG004LN45X5",
-    "figi": "BBG007P8KLP3",
+    "composite_figi": "BBG00N8TQ357",
+    "figi": "BBG00N8TQ366",
     "isin": "NO0010633951"
   },
-  "industry": "Consumer Finance",
-  "industry_group": "Diversified Financials",
+  "industry": "Consumer Lending",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "NO0010633951",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "B28.F"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -29,9 +34,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "B2 Impact ASA",
-  "primary_symbol": "B2I.OL",
+  "primary_symbol": "B28.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

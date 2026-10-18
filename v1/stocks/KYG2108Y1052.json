@@ -6,8 +6,8 @@
     "figi": "BBG000HPNDX5",
     "isin": "KYG2108Y1052"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "KYG2108Y1052",
   "kind": "stock",
   "listings": [
@@ -18,8 +18,23 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CHZ.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CHZ.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CHZ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CHZ.MU"
     },
     {
       "currency": "EUR",
@@ -36,7 +51,7 @@
   "name": "China Resources Land Limited",
   "primary_symbol": "1109.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

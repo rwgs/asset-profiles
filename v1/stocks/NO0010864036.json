@@ -2,15 +2,20 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00W26RCL4",
-    "figi": "BBG00W2P5KZ3",
+    "composite_figi": "BBG00Z1RQFK7",
+    "figi": "BBG00Z1RQFQ1",
     "isin": "NO0010864036"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "NO0010864036",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "72G.MU"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -24,9 +29,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Inin Group AS",
-  "primary_symbol": "ININ.OL",
+  "primary_symbol": "72G.MU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

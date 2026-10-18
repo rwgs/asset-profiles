@@ -7,8 +7,8 @@
     "figi": "BBG0018SLC07",
     "isin": "US8522341036"
   },
-  "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry": "Payments & Specialty Finance",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "US8522341036",
   "kind": "stock",
   "listings": [
@@ -19,21 +19,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SQ3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SQ3.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SQ3.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "SQ3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SQ3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SQ3.SG"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Block Inc. Class A Common Stock",
+  "name": "Block Inc.",
   "primary_symbol": "XYZ",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Financials",
   "summary": "Block, Inc., formerly known as Square, Inc., provides payment processing and financial services for businesses and individuals. The company's products and services include point-of-sale systems, payment processing, peer-to-peer money transfer, and digital wallets. Block is headquartered in San Francisco, California.",
   "website": "https://www.block.xyz"
 }

@@ -2,14 +2,20 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
-    "composite_figi": "BBG000BBS2R8",
+    "composite_figi": "BBG00GVJFZ68",
+    "figi": "BBG00NRVXK19",
     "isin": "FI0009000251"
   },
   "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry_group": "Retail",
   "isin": "FI0009000251",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0MW2.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -19,13 +25,33 @@
       "currency": "EUR",
       "exchange_mic": "XHEL",
       "symbol": "LINDEX.HE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SOMB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SOMB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SOMB.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHEL",
+      "symbol": "STOCKA.HE"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Stockmann Oyj Abp",
-  "primary_symbol": "FI0009000251.SW",
+  "name": "Lindex Group Oyj",
+  "primary_symbol": "0MW2.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -8,7 +8,7 @@
     "isin": "DE0006632003"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "DE0006632003",
   "kind": "stock",
   "listings": [
@@ -69,12 +69,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "MOR.TI"
     },
     {
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "MOR.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "MOR2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MOR2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MOR2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MOR2.SG"
     },
     {
       "currency": "USD",
@@ -86,7 +107,7 @@
   "name": "MorphoSys AG",
   "primary_symbol": "MOR",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

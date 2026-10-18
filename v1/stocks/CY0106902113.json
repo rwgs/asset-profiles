@@ -2,15 +2,18 @@
   "country": "Cyprus",
   "country_code": "CY",
   "identifiers": {
-    "composite_figi": "BBG00FJGN3R9",
-    "figi": "BBG00FJGN3S8",
     "isin": "CY0106902113"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "CY0106902113",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "ILS",
+      "exchange_mic": "XTAE",
+      "symbol": "MLD-M.TA"
+    },
     {
       "currency": "ILS",
       "exchange_mic": "XTAE",
@@ -19,9 +22,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "MirLand Development Corporation Plc",
-  "primary_symbol": "MLD.TA",
+  "primary_symbol": "MLD-M.TA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

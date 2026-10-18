@@ -7,7 +7,7 @@
     "isin": "CNE1000003G1"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "CNE1000003G1",
   "kind": "stock",
   "listings": [
@@ -18,13 +18,28 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "ICK.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "ICK.DU"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ICK.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "ICK.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "ICK.SG"
     },
     {
       "currency": "EUR",
@@ -41,7 +56,7 @@
   "name": "Industrial and Commercial Bank of China Limited",
   "primary_symbol": "1398.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

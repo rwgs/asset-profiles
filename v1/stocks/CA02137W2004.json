@@ -3,11 +3,12 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG00CW40PV9",
+    "cusip": "02137W200",
     "figi": "BBG00CW40PW8",
     "isin": "CA02137W2004"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA02137W2004",
   "kind": "stock",
   "listings": [
@@ -20,13 +21,18 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "AAEEF"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "AVX.V"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Altair Resources Inc.",
   "primary_symbol": "90AA.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

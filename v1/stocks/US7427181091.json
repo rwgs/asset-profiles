@@ -8,7 +8,7 @@
     "isin": "US7427181091"
   },
   "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry_group": "Household & Personal Care",
   "isin": "US7427181091",
   "kind": "stock",
   "listings": [
@@ -38,9 +38,19 @@
       "symbol": "PG.VI"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XBUE",
+      "symbol": "PGC.BA"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "PGCO34.SA"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XBUE",
+      "symbol": "PGD.BA"
     },
     {
       "currency": "EUR",
@@ -87,7 +97,7 @@
   "name": "The Procter & Gamble Company",
   "primary_symbol": "PG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

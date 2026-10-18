@@ -7,8 +7,8 @@
     "figi": "BBG000BDDBD5",
     "isin": "US9297401088"
   },
-  "industry": "Road & Rail",
-  "industry_group": "Transportation",
+  "industry": "Machinery",
+  "industry_group": "Industrial Goods",
   "isin": "US9297401088",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,11 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A7Y.L"
+    },
+    {
+      "currency": "BRL",
+      "exchange_mic": "BVMF",
+      "symbol": "W1AB34.SA"
     },
     {
       "currency": "EUR",
@@ -51,13 +56,18 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "WB2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "WB2.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Westinghouse Air Brake Technologies Corporation",
   "primary_symbol": "WAB",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

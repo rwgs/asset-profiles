@@ -6,8 +6,8 @@
     "figi": "BBG000D2M1D9",
     "isin": "GB00B1Z4ST84"
   },
-  "industry": "Consumer Finance",
-  "industry_group": "Diversified Financials",
+  "industry": "Consumer Lending",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "GB00B1Z4ST84",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,31 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "FPLPF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PRVA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PRVA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PRVA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PRVA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PRVA.SG"
     },
     {
       "currency": "GBP",
@@ -26,7 +51,7 @@
   "name": "Vanquis Banking Group plc",
   "primary_symbol": "FPLPF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

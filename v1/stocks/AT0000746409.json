@@ -3,23 +3,63 @@
   "country_code": "AT",
   "identifiers": {
     "composite_figi": "BBG000BFNHD6",
-    "figi": "BBG000BFNK49",
+    "figi": "BBG000BFNLN6",
     "isin": "AT0000746409"
   },
-  "industry": "Independent Power and Renewable Electricity Producers",
+  "industry": "Electric Utilities",
   "industry_group": "Utilities",
   "isin": "AT0000746409",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "OEWA.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "OEWA.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "OEWA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OEWA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "OEWA.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "OEWA.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OEWA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "OEWA.SG"
     },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "OEZVF"
+    },
+    {
+      "currency": "CZK",
+      "exchange_mic": "XPRA",
+      "symbol": "VER.PR"
     },
     {
       "currency": "EUR",
@@ -29,9 +69,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Verbund AG",
-  "primary_symbol": "OEWA.DE",
+  "primary_symbol": "OEWA.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

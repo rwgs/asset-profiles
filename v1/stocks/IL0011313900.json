@@ -6,7 +6,7 @@
     "isin": "IL0011313900"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "IL0011313900",
   "kind": "stock",
   "listings": [
@@ -14,13 +14,23 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "EOCN"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "GLMD"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GPH.F"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Eocene Ltd. Ordinary Shares",
+  "name": "Eocene Ltd.",
   "primary_symbol": "EOCN",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -28,5 +38,5 @@
   "schema_version": "1.0.0",
   "sector": "Health Care",
   "summary": "Eocene Ltd. is a clinical-stage drug development biopharmaceutical company, which engages in the development of oral therapy for the treatment of non-alcoholic steato-hepatitis (NASH). Its product candidate, Aramchol, is a synthetic fatty acid-bile acid conjugate molecule for the oral treatment of NASH in patients who are overweight or obese and have prediabetes or type II diabetes mellitus. The company was founded by Allen Baharaff and Tuvia Gilat in 2000 and is headquartered in Tel Aviv, Israel.",
-  "website": "http://galmedpharma.com"
+  "website": "https://eocn.com"
 }

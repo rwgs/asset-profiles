@@ -2,86 +2,27 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG0077VNXV6",
+    "composite_figi": "BBG012TB9MF4",
     "cusip": "70452C109",
-    "figi": "BBG0077VNXV6",
+    "figi": "BBG012TB9N80",
     "isin": "CA70452C1095"
   },
-  "industry": "Consumer Finance",
-  "industry_group": "Diversified Financials",
+  "industry": "Payments & Specialty Finance",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "CA70452C1095",
   "kind": "stock",
   "listings": [
     {
-      "currency": "USD",
-      "exchange_mic": "XNAS",
-      "symbol": "PYPL"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XETR",
-      "symbol": "2PP.DE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XDUS",
-      "symbol": "2PP.DU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XFRA",
-      "symbol": "2PP.F"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XHAM",
-      "symbol": "2PP.HM"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XMUN",
-      "symbol": "2PP.MU"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XSTU",
-      "symbol": "2PP.SG"
-    },
-    {
-      "currency": "EUR",
-      "symbol": "PYPL-U.TI"
-    },
-    {
-      "currency": "ARS",
-      "exchange_mic": "XBUE",
-      "symbol": "PYPL.BA"
-    },
-    {
-      "currency": "MXN",
-      "exchange_mic": "XMEX",
-      "symbol": "PYPL.MX"
-    },
-    {
       "currency": "CAD",
       "exchange_mic": "NEOE",
       "symbol": "PYPL.NE"
-    },
-    {
-      "currency": "EUR",
-      "exchange_mic": "XWBO",
-      "symbol": "PYPL.VI"
-    },
-    {
-      "currency": "BRL",
-      "exchange_mic": "BVMF",
-      "symbol": "PYPL34.SA"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "PayPal Holdings, Inc.",
-  "primary_symbol": "PYPL",
+  "primary_symbol": "PYPL.NE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -89,5 +30,5 @@
   "schema_version": "1.0.0",
   "sector": "Financials",
   "summary": "PayPal Holdings, Inc. operates as a technology platform and digital payments company that enables digital and mobile payments on behalf of consumers and merchants worldwide. Its payment solutions include PayPal, PayPal Credit, Braintree, Venmo, Xoom, Hyperwallet, and iZettle products. The company's payments platform allows consumers to send and receive payments, withdraw funds to their bank accounts, and hold balances in their PayPal accounts in various currencies. It also offers gateway services that enable merchants to accept payments online with credit or debit cards, as well as digital wallets. PayPal Holdings, Inc. was founded in 1998 and is headquartered in San Jose, California.",
-  "website": "http://www.paypal.com"
+  "website": "https://www.paypal.com"
 }

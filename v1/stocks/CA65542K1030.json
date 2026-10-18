@@ -2,14 +2,36 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG002037XG1",
     "cusip": "65542K103",
+    "figi": "BBG002037XJ8",
     "isin": "CA65542K1030"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA65542K1030",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "N7R.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "N7R.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "N7R.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "N7R.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -48,9 +70,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Noram Ventures Inc.",
-  "primary_symbol": "N7R1.BE",
+  "primary_symbol": "N7R.DU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -7,8 +7,8 @@
     "figi": "BBG001MPG125",
     "isin": "CA5504353098"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA5504353098",
   "kind": "stock",
   "listings": [
@@ -31,13 +31,23 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "LQP.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LQPA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LQPA.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Lupaka Gold Corp.",
   "primary_symbol": "LPK.V",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -4,6 +4,8 @@
   "identifiers": {
     "isin": "DE000A12UPJ7"
   },
+  "industry": "Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "DE000A12UPJ7",
   "kind": "stock",
   "listings": [
@@ -11,18 +13,49 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "CAP.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PAL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "PAL.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PAL.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PAL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PAL.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "VAD.DE"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "SCP Standard Capital Partners AG",
   "primary_symbol": "CAP.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
+  "sector": "Communications",
   "summary": "SCP Standard Capital Partners AG engages in the production, distribution, exploitation, and marketing of films and series and their rights. It operates through the following business units: Production, Adjacent, and Platform. The Production business unit is involved in the operations of PANTALEON Films, PANTAFLIX Studios, and PANTALEON Pictures. The Adjacent business unit is composed of CC15 and PantaSounds. The Platform business unit deals with PANTAFLIX Technologies. The company was founded by Marco Beckmann on July 15, 2009 and is headquartered in Munich, Germany.",
   "website": "https://www.standardcapitalpartners.xyz"
 }

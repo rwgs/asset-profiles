@@ -3,7 +3,7 @@
   "country_code": "BR",
   "identifiers": {
     "composite_figi": "BBG000C7WZT6",
-    "figi": "BBG000C7X1M7",
+    "figi": "BBG000C7X2N4",
     "isin": "BRCMIGACNPR3"
   },
   "industry": "Electric Utilities",
@@ -13,6 +13,16 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CIDA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CIDA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CIDA.SG"
     },
@@ -20,19 +30,24 @@
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "CMIG4.SA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMAD",
+      "symbol": "XCMIG.MC"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Companhia Energetica de Minas Gerais",
-  "primary_symbol": "CIDA.SG",
+  "primary_symbol": "CIDA.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "CIA EN. DE MINAS GERAIS-CEMIG R is a Brazilian power company that generates, transmits, and distributes electricity. The company is based in Belo Horizonte, Brazil.",
+  "summary": "CIA EN.GE.PFD-CEMIGRB- represents the preferred shares of Companhia Energética de Minas Gerais (CEMIG), a Brazilian power company involved in electricity generation, transmission, and distribution. CEMIG is based in Belo Horizonte, Brazil.",
   "website": "http://www.cemig.com.br"
 }

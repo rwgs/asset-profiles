@@ -7,8 +7,8 @@
     "figi": "BBG007HTCRF3",
     "isin": "US4234031049"
   },
-  "industry": "Interactive Media & Services",
-  "industry_group": "Media & Entertainment",
+  "industry": "Internet Media & Services",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "US4234031049",
   "kind": "stock",
   "listings": [
@@ -18,9 +18,34 @@
       "symbol": "MOMO"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0K2P.IL"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "1MO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1MO.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1MOA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1MOA.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "MOMO.VI"
     },
     {
       "currency": "MXN",
@@ -32,7 +57,7 @@
   "name": "Hello Group Inc.",
   "primary_symbol": "MOMO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

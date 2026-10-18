@@ -2,27 +2,47 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
+    "composite_figi": "BBG000V0PXR5",
+    "figi": "BBG000V0PY02",
     "isin": "AU000000ERM4"
   },
-  "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "AU000000ERM4",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "42E.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "42E.HM"
+    },
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "ERM.AX"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "ERM.L"
     }
   ],
-  "name": "Euromoney Institutional Investor PLC",
-  "primary_symbol": "ERM.L",
+  "market_cap_band": "Nano Cap",
+  "name": "Emmerson Resources Limited",
+  "primary_symbol": "42E.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Financials"
+  "sector": "Materials",
+  "summary": "Emmerson Resources Limited engages in the exploration and evaluation of mineral properties. It primarily explores for gold, copper, and cobalt deposits. The company holds interest in the Tennant Creek Mineral Field covering an area of 2,800 square kilometers located in the Northern Territory, Australia. It also holds interests in five projects located in New South Wales, Australia. The company was incorporated in 2005 and is based in West Leederville, Australia.",
+  "website": "http://www.emmersonresources.com.au"
 }

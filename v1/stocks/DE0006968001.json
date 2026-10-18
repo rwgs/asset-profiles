@@ -3,31 +3,61 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BFJMC1",
-    "figi": "BBG000BFJP70",
+    "figi": "BBG000BFJR67",
     "isin": "DE0006968001"
   },
-  "industry": "Auto Components",
-  "industry_group": "Automobiles & Components",
+  "industry": "Auto Parts",
+  "industry_group": "Automotive",
   "isin": "DE0006968001",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PWO.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "PWO.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PWO.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PWO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PWO.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PWO.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PWO.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "PWO AG",
-  "primary_symbol": "PWO.DE",
+  "name": "Progress-Werk Oberkirch AG",
+  "primary_symbol": "PWO.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "PWO AG develops and manufactures advanced metal components and subsystems used in lightweight construction for the automotive safety and comfort in Germany, Czechia, Canada, Mexico, and China. It offers mechanical components for electrical and electronic applications, such as motor housings, housings for electronic control units, rotor housings, and covers for electronic control units. The company also provides safety components for airbags and seats, as well as casings for steering wheel suspension; and structural components and sub-systems for vehicle body and chassis consisting of body components, instrument panel carriers, and air spring pots. The company was founded in 1919 and is headquartered in Oberkirch, Germany.",
+  "summary": "PROGRESS-WERK OBERK. O.N. is a German automotive supplier specializing in metal forming and assembly technology. They develop and manufacture complex metal components and systems for the automotive industry, including structural parts and safety components. The company is headquartered in Oberkirch, Germany.",
   "website": "http://www.progress-werk.de"
 }

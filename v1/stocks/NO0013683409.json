@@ -2,15 +2,20 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG0024N3YB0",
-    "figi": "BBG0024N3YC9",
+    "composite_figi": "BBG00Z18NQ55",
+    "figi": "BBG00Z18NQ64",
     "isin": "NO0013683409"
   },
-  "industry": "Independent Power and Renewable Electricity Producers",
+  "industry": "Power Producers & Renewables",
   "industry_group": "Utilities",
   "isin": "NO0013683409",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "82T.F"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Nordic Financials ASA",
-  "primary_symbol": "NOFIN.OL",
+  "primary_symbol": "82T.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

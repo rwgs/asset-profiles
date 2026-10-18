@@ -1,14 +1,14 @@
 {
-  "country": "Australia",
-  "country_code": "AU",
+  "country": "Canada",
+  "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG0029BPQV2",
     "cusip": "58410Q203",
     "figi": "BBG0029BPQX0",
     "isin": "CA58410Q2036"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Pharmaceuticals",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "CA58410Q2036",
   "kind": "stock",
   "listings": [
@@ -21,19 +21,24 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "MEDXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "P731.F"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Medexus Pharmaceuticals Inc.",
   "primary_symbol": "MDP.TO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
+  "sector": "Health Care",
   "summary": "Medexus Pharmaceuticals Inc. is a pharmaceutical company in Canada and the United States with a focus on rare diseases, rheumatology, oncology, hematology, dermatology and allergy. Its products include IXINITY, an intravenous factor IX therapy for hemophilia B; Rasuvo and Metoject, methotrexate formulations for rheumatoid arthritis and other autoimmune diseases; Rupall, an allergy medication; and GRAFAPEX.",
   "website": "https://www.medexus.com"
 }

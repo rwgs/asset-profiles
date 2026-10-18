@@ -2,19 +2,29 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG012J94349",
-    "figi": "BBG012J967J2",
+    "composite_figi": "BBG012M74HG5",
+    "figi": "BBG012M74HH4",
     "isin": "NL0015000IY2"
   },
   "industry": "Entertainment",
-  "industry_group": "Media & Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "NL0015000IY2",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0VD.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XAMS",
       "symbol": "UMG.AS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UMG.F"
     },
     {
       "currency": "USD",
@@ -24,9 +34,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Universal Music Group NV",
-  "primary_symbol": "UMG.AS",
+  "primary_symbol": "0VD.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

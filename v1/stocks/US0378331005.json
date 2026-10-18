@@ -7,8 +7,8 @@
     "figi": "BBG000B9Y5X2",
     "isin": "US0378331005"
   },
-  "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Computers & Hardware",
+  "industry_group": "Hardware & Electronics",
   "isin": "US0378331005",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "AAPL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1AAPL.MI"
     },
     {
       "currency": "ARS",
@@ -112,7 +117,7 @@
   "name": "Apple Inc.",
   "primary_symbol": "AAPL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

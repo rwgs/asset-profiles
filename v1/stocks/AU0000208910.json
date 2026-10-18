@@ -2,15 +2,20 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG00HPLS472",
-    "figi": "BBG00HPLS481",
+    "composite_figi": "BBG00XP7ZRF0",
+    "figi": "BBG00XP7ZRG9",
     "isin": "AU0000208910"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "AU0000208910",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "30Z.F"
+    },
     {
       "currency": "AUD",
       "exchange_mic": "XASX",
@@ -24,9 +29,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Iperionx Ltd.",
-  "primary_symbol": "IPX.AX",
+  "primary_symbol": "30Z.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

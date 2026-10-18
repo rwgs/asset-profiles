@@ -8,7 +8,7 @@
     "isin": "DE0007164600"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "DE0007164600",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "SAP"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1SAP.MI"
     },
     {
       "currency": "ARS",
@@ -74,6 +79,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "SAP.TI"
     },
     {
@@ -87,6 +93,31 @@
       "symbol": "SAP1N.MX"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SAPA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SAPA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SAPA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SAPA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SAPA.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "XBUE",
       "symbol": "SAPD.BA"
@@ -95,6 +126,11 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SAPGF"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "SAPN.MX"
     },
     {
       "currency": "BRL",
@@ -106,7 +142,7 @@
   "name": "Sap Se",
   "primary_symbol": "SAP",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

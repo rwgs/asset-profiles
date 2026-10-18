@@ -7,8 +7,8 @@
     "figi": "BBG01H7CZ9S9",
     "isin": "NL0015001FS8"
   },
-  "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Transport Infrastructure",
+  "industry_group": "Transport & Logistics",
   "isin": "NL0015001FS8",
   "kind": "stock",
   "listings": [
@@ -19,21 +19,86 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "8ZQ.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "8ZQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "8ZQ.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "8ZQ.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "8ZQ.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "FER.AS"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMAD",
       "symbol": "FER.MC"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UFG.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "UFG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UFG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "UFG.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "UFG.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UFG.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UFGD.F"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Ferrovial, S.A.",
+  "name": "Ferrovial SE",
   "primary_symbol": "FER",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Industrials",
   "summary": "Ferrovial SE is a global infrastructure operator involved in toll roads, airports, construction, and services. The company develops, finances, operates, and maintains transportation infrastructure and provides related services. Ferrovial is headquartered in Madrid, Spain.",
   "website": "http://www.ferrovial.com"
 }

@@ -7,8 +7,8 @@
     "figi": "BBG000DX9JV7",
     "isin": "US1143401024"
   },
-  "industry": "Health Care Technology",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Life Science Tools",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US1143401024",
   "kind": "stock",
   "listings": [
@@ -21,13 +21,38 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HQ1.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BA3.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BA3.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BA3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BA3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BA3.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Azenta Inc.",
   "primary_symbol": "AZTA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

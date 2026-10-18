@@ -8,13 +8,13 @@
     "isin": "US98985Y1082"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US98985Y1082",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "ZYME"
     },
     {
@@ -36,13 +36,28 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "0OX.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "ZA8.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ZA8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "ZA8.MU"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Zymeworks Inc.",
   "primary_symbol": "ZYME",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

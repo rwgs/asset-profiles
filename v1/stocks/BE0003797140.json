@@ -3,14 +3,34 @@
   "country_code": "BE",
   "identifiers": {
     "composite_figi": "BBG000BSFX97",
-    "figi": "BBG000BSFY59",
+    "figi": "BBG000BSFYS4",
     "isin": "BE0003797140"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "BE0003797140",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EAI.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EAI.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EAI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EAI.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -22,6 +42,11 @@
       "symbol": "GBLB.BR"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "GBLB.VI"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "GBLBF"
@@ -29,15 +54,15 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Groupe Bruxelles Lambert SA",
-  "primary_symbol": "EAI.SG",
+  "primary_symbol": "EAI.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "GRPE BRUXELLES LAMBERT SA(GBL)A is an investment holding company with a diversified portfolio of investments in various sectors. The company invests in companies across Europe, including industrial, energy, and consumer goods businesses. GRPE BRUXELLES LAMBERT SA(GBL)A is headquartered in Brussels, Belgium.",
+  "summary": "GBL SA is an investment holding company with a diversified portfolio of investments in various sectors. The company invests in companies across Europe, including industrial, energy, and consumer goods businesses. GBL SA is headquartered in Brussels, Belgium.",
   "website": "http://www.gbl.be"
 }

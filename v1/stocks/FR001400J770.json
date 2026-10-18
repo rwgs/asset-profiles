@@ -2,31 +2,99 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000K79NK9",
-    "figi": "BBG000K79P88",
     "isin": "FR001400J770"
   },
   "industry": "Airlines",
-  "industry_group": "Transportation",
+  "industry_group": "Transport & Logistics",
   "isin": "FR001400J770",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1AF.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "AF.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "AF.PA"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AFR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AFR.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AFR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AFR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AFR.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AFR.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AFR0.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AFR0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "AFR0.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AFR0.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AFR0.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "AFRAF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "AIRF.VI"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Air France-KLM S.A.",
-  "primary_symbol": "AF.PA",
+  "primary_symbol": "1AF.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

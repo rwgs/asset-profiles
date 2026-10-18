@@ -2,15 +2,18 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000DD3GQ9",
-    "figi": "BBG001PD3L47",
     "isin": "DE000EVNK013"
   },
   "industry": "Chemicals",
-  "industry_group": "Materials",
+  "industry_group": "Basic Materials",
   "isin": "DE000EVNK013",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1EVK.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -58,6 +61,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "EVK.TI"
     },
     {
@@ -73,15 +77,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Evonik Industries AG",
-  "primary_symbol": "EVK.BE",
+  "primary_symbol": "1EVK.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Evonik Industries AG is a specialty chemicals company headquartered in Essen, Germany. The company operates in various segments, including specialty additives, nutrition & care, smart materials, and performance materials, producing a wide range of chemical products. Evonik serves diverse industries, including automotive, agriculture, and healthcare.",
-  "website": "http://corporate.evonik.com/en/"
+  "summary": "Evonik Industries AG engages in the specialty chemicals business. It operates through Specialty Additives, Nutrition & Care, Smart Materials, Performance Materials, and Services segments. The Specialty Additives segment provides polyurethane additives, organically modified silicones, isophorones, epoxy curing agents, oil additives, fumed silicas, matting agents, TAA and TAA derivatives, and acetylenic diol-based surfactants for consumer goods and specialized industrial applications. The Nutrition & Care segment offers amphoteric surfactants, ceramides, phytosphingosines, oleochemicals, quaternary derivatives, amino acids and amino acid derivatives, synthesis products, pharmaceutical polymers, and DL-methionine for use in consumer goods, animal nutrition, and healthcare products. The Smart Materials segment provides hydrogen peroxide, activated nickel catalysts, precious metal powder catalysts, peracetic acid, oil and fat hydrogenation catalysts, amorphous polyalphaolefins, polybutadienes, polyester resins, thermoplastic and reactive methacrylate resins, PEEK, polyamide 12, organosilanes, chlorosilanes, fumed silicas, fumed metal oxides, and precipitated silicas for the automotive, paints, coatings, adhesives, construction, and various other sectors. The Performance Materials segment produces polymer materials and intermediates, including butene-1, DINP, isononanol, cyanuric chloride, alkoxides, and superabsorbent for rubber, plastics, and automotive industries. The Services segment provides site management, utilities and waste management, technical, process technology, engineering, and logistics services. It operates in the Asia-Pacific, Europe, the Middle East, Africa, Central and South America, and North America. The company is headquartered in Essen, Germany. Evonik Industries AG is a subsidiary of RAG-Stiftung.",
+  "website": "https://evonik.com"
 }

@@ -7,8 +7,8 @@
     "figi": "BBG000BCVP91",
     "isin": "CA13646K1084"
   },
-  "industry": "Road & Rail",
-  "industry_group": "Transportation",
+  "industry": "Rail & Road Transport",
+  "industry_group": "Transport & Logistics",
   "isin": "CA13646K1084",
   "kind": "stock",
   "listings": [
@@ -21,13 +21,33 @@
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "CP.TO"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PC8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PC8.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "X88.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "X88.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Canadian Pacific Railway Limited",
   "primary_symbol": "CP",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,10 +2,12 @@
   "country": "Luxembourg",
   "country_code": "LU",
   "identifiers": {
+    "composite_figi": "BBG00JHWCKW6",
+    "figi": "BBG00NRVWQF2",
     "isin": "LU1296758029"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Capital Markets",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "LU1296758029",
   "kind": "stock",
   "listings": [
@@ -56,6 +58,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "CCAP.TI"
     }
   ],
@@ -63,13 +66,13 @@
   "name": "CORESTATE Capital Holding SA",
   "primary_symbol": "0RVJ.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
+  "sector": "Financials",
   "summary": "CORESTATE Capital Holding SA is a real estate investment manager headquartered in Luxembourg. The company provides investment management services and integrated property solutions across Europe. CORESTATE focuses on real estate investments in various sectors.",
   "website": "http://www.corestate-capital.com"
 }

@@ -8,7 +8,7 @@
     "isin": "US88160R1014"
   },
   "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Automotive",
   "isin": "US88160R1014",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,11 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0R0X.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1TSLA.MI"
     },
     {
       "currency": "EUR",
@@ -59,6 +64,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "TSLA-U.TI"
     },
     {
@@ -106,7 +112,7 @@
   "name": "Tesla, Inc.",
   "primary_symbol": "TSLA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

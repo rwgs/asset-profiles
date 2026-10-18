@@ -7,7 +7,7 @@
     "isin": "MT0001770107"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "MT0001770107",
   "kind": "stock",
   "listings": [
@@ -18,6 +18,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CAP.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CAP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CAP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CAP.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CAP.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "MT0001770107.SG"
     },
@@ -25,19 +50,34 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "SRAG.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SRAG.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SRAG.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SRAG.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Cryptology Asset Group p.l.c.",
+  "market_cap_band": "Large Cap",
+  "name": "Samara Asset Group plc",
   "primary_symbol": "CAGPF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Cryptology Asset Group p.l.c., an asset manager, invests in crypto assets and crypto companies, and advises blockchain based businesses. It also trades in crypto currencies and tokens. The company is based in Sliema, Malta.",
-  "website": "http://cryptology-ag.com"
+  "summary": "Samara Asset Group plc, an asset manager, invests in crypto assets and crypto companies, and advises blockchain based businesses. It also trades in crypto currencies and tokens. The company is based in Sliema, Malta.",
+  "website": "https://www.samara-ag.com"
 }

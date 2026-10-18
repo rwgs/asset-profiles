@@ -2,15 +2,18 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00WS6RZ53",
-    "figi": "BBG00WS6RZ71",
     "isin": "SE0009155518"
   },
-  "industry": "Communications Equipment",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Networking & Communications Equipment",
+  "industry_group": "Hardware & Electronics",
   "isin": "SE0009155518",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "GAPW-B.ST"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XDUS",
@@ -27,11 +30,11 @@
       "symbol": "SE0009155518.SG"
     }
   ],
-  "market_cap_band": "Micro Cap",
-  "name": "Gapwaves AB Class B",
-  "primary_symbol": "GW3.DU",
+  "market_cap_band": "Nano Cap",
+  "name": "Gapwaves AB (publ)",
+  "primary_symbol": "GAPW-B.ST",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

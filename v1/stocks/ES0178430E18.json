@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "ES0178430E18"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "ES0178430E18",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1TEF.MI"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMAD",
       "symbol": "TEF.MC"
     },
@@ -31,6 +36,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "TEF.TI"
     },
     {
@@ -103,7 +109,7 @@
   "name": "Telefonica, S.A.",
   "primary_symbol": "TEF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

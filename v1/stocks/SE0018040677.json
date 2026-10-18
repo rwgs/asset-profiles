@@ -6,8 +6,8 @@
     "figi": "BBG00BP8FLQ9",
     "isin": "SE0018040677"
   },
-  "industry": "Communications Equipment",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Networking & Communications Equipment",
+  "industry_group": "Hardware & Electronics",
   "isin": "SE0018040677",
   "kind": "stock",
   "listings": [
@@ -20,6 +20,16 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "02H.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "02H0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "02H0.SG"
     },
     {
       "currency": "SEK",
@@ -36,7 +46,7 @@
   "name": "Hexatronic Group AB (publ)",
   "primary_symbol": "02H.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

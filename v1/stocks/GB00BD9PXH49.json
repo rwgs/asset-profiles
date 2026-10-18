@@ -2,15 +2,20 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG00JB4CJL9",
-    "figi": "BBG00JB4CJM8",
+    "composite_figi": "BBG00WHNDDJ7",
+    "figi": "BBG00WHNDDP0",
     "isin": "GB00BD9PXH49"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Industrial REITs",
+  "industry_group": "REITs",
   "isin": "GB00BD9PXH49",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5JX.MU"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -24,9 +29,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "abrdn European Logistics Income PLC",
-  "primary_symbol": "ASLI.L",
+  "primary_symbol": "5JX.MU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

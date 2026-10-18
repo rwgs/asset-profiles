@@ -8,7 +8,7 @@
     "isin": "US26210C1045"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "US26210C1045",
   "kind": "stock",
   "listings": [
@@ -34,6 +34,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1Q5.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAM",
       "symbol": "1Q5.HM"
     },
@@ -46,13 +51,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "1Q5.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "DBX.VI"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Dropbox, Inc.",
   "primary_symbol": "DBX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -60,5 +70,5 @@
   "schema_version": "1.0.0",
   "sector": "Information Technology",
   "summary": "Dropbox, Inc. engages in providing file backup, sync, and sharing solutions. Its products include Dropbox, Dropbox Reply, Dropbox Sign, Dropbox Reclaim.ai, Dropbox Dash, Dropbox DocSend, Dropbox Fax, and Dropbox Early access. It operates through the United States and International geographical segments. The company was founded by Andrew W. Houston and Arash Ferdowsi in May 2007 and is headquartered in San Francisco, CA.",
-  "website": "http://www.box.com"
+  "website": "https://www.dropbox.com"
 }

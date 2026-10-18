@@ -7,7 +7,7 @@
     "isin": "IT0005599938"
   },
   "industry": "Aerospace & Defense",
-  "industry_group": "Transportation",
+  "industry_group": "Industrial Goods",
   "isin": "IT0005599938",
   "kind": "stock",
   "listings": [
@@ -33,6 +33,21 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1F80.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1F80.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "1F80.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "FCT.MI"
     },
@@ -46,7 +61,7 @@
   "name": "Fincantieri S.p.A.",
   "primary_symbol": "1F8.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

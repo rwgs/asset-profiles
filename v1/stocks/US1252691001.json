@@ -7,8 +7,8 @@
     "figi": "BBG000BWJJP7",
     "isin": "US1252691001"
   },
-  "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry": "Chemicals",
+  "industry_group": "Basic Materials",
   "isin": "US1252691001",
   "kind": "stock",
   "listings": [
@@ -23,6 +23,11 @@
       "symbol": "0HQU.L"
     },
     {
+      "currency": "BRL",
+      "exchange_mic": "BVMF",
+      "symbol": "C1FI34.SA"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "C4F.BE"
@@ -31,6 +36,11 @@
       "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "C4F.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C4F.F"
     },
     {
       "currency": "EUR",
@@ -57,13 +67,13 @@
   "name": "CF Industries Holdings, Inc.",
   "primary_symbol": "CF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
+  "sector": "Materials",
   "summary": "CF Industries Holdings, Inc. is a manufacturer and distributor of nitrogen and hydrogen products for clean energy, fertilizer, and other industrial applications. The company is headquartered in Deerfield, Illinois.",
-  "website": "http://www.ies-co.com"
+  "website": "https://www.cfindustries.com"
 }

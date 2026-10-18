@@ -7,8 +7,8 @@
     "figi": "BBG00GGXGR61",
     "isin": "US1091992081"
   },
-  "industry": "Diversified Consumer Services",
-  "industry_group": "Consumer Services",
+  "industry": "Consumer Services",
+  "industry_group": "Leisure & Consumer Services",
   "isin": "US1091992081",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,33 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "BEDU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BSK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "BSK.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BSK.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BSK.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Bright Scholar Education Holdings Limited",
   "primary_symbol": "BEDU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -3,23 +3,44 @@
   "country_code": "BE",
   "identifiers": {
     "composite_figi": "BBG000BJQY75",
+    "cusip": "36315X101",
     "figi": "BBG000BJR4R8"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "GLPG"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "LKFT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GXEA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GXEA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GXEA.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Galapagos NV",
   "primary_symbol": "GLPG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

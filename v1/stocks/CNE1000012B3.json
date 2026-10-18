@@ -6,8 +6,8 @@
     "figi": "BBG0015W4KX6",
     "isin": "CNE1000012B3"
   },
-  "industry": "Health Care Providers & Services",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Pharmaceuticals",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "CNE1000012B3",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,21 @@
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "2607.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "S1R.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "S1R.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "S1R.SG"
     },
     {
       "currency": "USD",
@@ -26,7 +41,7 @@
   "name": "Shanghai Pharmaceuticals Holding Co., Ltd",
   "primary_symbol": "2607.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

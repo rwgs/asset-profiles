@@ -7,8 +7,8 @@
     "figi": "BBG021KSP2G2",
     "isin": "US65405R3021"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "US65405R3021",
   "kind": "stock",
   "listings": [
@@ -21,13 +21,18 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "HLI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HLI.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Nicola Mining Inc. American Depositary Shares",
+  "name": "Nicola Mining Inc.",
   "primary_symbol": "NICM",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

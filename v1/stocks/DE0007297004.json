@@ -2,15 +2,20 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000BWVH59",
-    "figi": "BBG000BWVH59",
+    "composite_figi": "BBG000KNW5V5",
+    "figi": "BBG000KNW6Z9",
     "isin": "DE0007297004"
   },
   "industry": "Food Products",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "DE0007297004",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0G7B.IL"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -20,19 +25,54 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SZU.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SZU.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SZU.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SZU.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SZU.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SZU.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SZU.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "SZU.VI"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Südzucker AG",
-  "primary_symbol": "SUEZF",
+  "name": "Sudzucker AG",
+  "primary_symbol": "0G7B.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "Südzucker AG produces and sells sugar products in Germany, Belgium, frane, Austria, Poland, the United Kingdom, rest of Europe, and internationally. It operates through four segments: Sugar, Special Products, CropEnergies, and Fruit. The Sugar segment produces and sells sugar, sugary specialty products, and animal feed to food industry, retailers, and agriculture market. This segment is also involved in agricultural and cultivation of wheat, sugar beet, corn, chicory, rapeseed, soybean, and other prodcuts; the provision of soil testing, fertilization advisory, plant nutrients comparison, virus and bacteria analysis, animal feed testing, and organic fertilizer testing services; and the marketing of by-products of sugar, as well as starch and bioethanol production. The Special Products segment produces functional food ingredients, including inulin, oligofructose, Isomalt, Palatinose, and wheat gluten, as well as rice starches, flours, and proteins for food, animal feed, non-food, and pharmaceutical sectors. This segment also offers frozen and chilled pizzas, deep-frozen pasta dishes and snacks, and sauces and dressings; and portion packed foods and non-food products to hotels, caterers, restaurants, and canteens. The CropEnergies segment produces fuel-grade ethanol, rectified spirits, protein-based food and animal feed, and liquid CO2 to oil and pharmaceutical companies, food and animal feed producers, and beverage and cosmetics producers. The Fruit segment produces fruit preparations for the dairy, ice cream, bakery, and food service industries; and fruit juice concentrates, pure juices and purees, fruit wines, natural aromas, and beverage bases for beverage industry. The company was founded in 1837 and is headquartered in Mannheim, Germany. Südzucker AG is a subsidiary of Süddeutsche Zuckerrübenverwertungs-Genossenschaft eG.",
+  "summary": "Südzucker AG is a German sugar producer. The company is one of the largest sugar producers in the world and is also involved in the production of other food ingredients and animal feed. Südzucker is headquartered in Mannheim, Germany.",
   "website": "https://www.suedzuckergroup.com"
 }

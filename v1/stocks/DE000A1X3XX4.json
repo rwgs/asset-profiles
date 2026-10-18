@@ -6,8 +6,8 @@
     "figi": "BBG000PQHVT6",
     "isin": "DE000A1X3XX4"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "DE000A1X3XX4",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,36 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "BRNK.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BRNK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BRNK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "BRNK.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BRNK.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BRNK.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BRNK.SG"
     },
     {
       "currency": "USD",
@@ -71,7 +101,7 @@
   "name": "Branicks Group AG",
   "primary_symbol": "BRNK.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

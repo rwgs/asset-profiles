@@ -2,11 +2,12 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BFW436",
+    "composite_figi": "BBG000S9BB66",
+    "figi": "BBG000S9BCG3",
     "isin": "FR0014003TT8"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "FR0014003TT8",
   "kind": "stock",
   "listings": [
@@ -31,6 +32,11 @@
       "symbol": "DSY.VI"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "DSY2.VI"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "DSYN.MX"
@@ -40,7 +46,7 @@
   "name": "Dassault Systemes SE",
   "primary_symbol": "0HB4.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

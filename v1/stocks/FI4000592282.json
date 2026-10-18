@@ -2,15 +2,25 @@
   "country": "Finland",
   "country_code": "FI",
   "identifiers": {
-    "composite_figi": "BBG008KSD290",
-    "figi": "BBG008KSD2C6",
+    "composite_figi": "BBG00WHNJS17",
+    "figi": "BBG00WHNJS26",
     "isin": "FI4000592282"
   },
-  "industry": "Aerospace & Defense",
-  "industry_group": "Capital Goods",
+  "industry": "Computers & Hardware",
+  "industry_group": "Hardware & Electronics",
   "isin": "FI4000592282",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "5J4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "5J4.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XHEL",
@@ -18,16 +28,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Summa Defence Oyj",
-  "primary_symbol": "SUMMA.HE",
+  "name": "Savosolar Oyj",
+  "primary_symbol": "5J4.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
-  "summary": "Helsinki, Finland-based Summa Defence Oyj, established in 2024, operates as a technology group dedicated to defence and security. Previously known as Meriaura Group Oyj until its rebranding in June 2025, the company specializes in developing dual-use technologies. These innovations are crucial for bolstering security of supply, enhancing situational awareness, improving mobility, and strengthening overall defence capabilities across civilian, security, and military sectors. Its diverse portfolio includes marine vessels crafted from aluminum and steel, adaptable machine and equipment solutions, Watermaster multi-purpose machines, modular containers and spaces, advanced drone systems, augmented and virtual reality technologies, near-eye display solutions, and sustainable energy provisions for industrial use, power companies, and properties.",
-  "website": "https://summadefence.fi"
+  "sector": "Information Technology",
+  "summary": "Savosolar Oyj, together with its subsidiaries, designs and supplies solar thermal systems primarily in Europe. The company produces flat plate collectors, collector fields, and turnkey solar thermal systems. Its products are used in district heating, industrial process heating, and hot water and space heating applications. The company was founded in 2009 and is based in Mikkeli, Finland.",
+  "website": "http://savosolar.com/fi"
 }

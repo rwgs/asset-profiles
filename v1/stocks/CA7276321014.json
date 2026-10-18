@@ -2,16 +2,21 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000TSWV20",
+    "composite_figi": "BBG000PSP155",
     "cusip": "727632101",
-    "figi": "BBG000TSWWD6",
+    "figi": "BBG000PSP155",
     "isin": "CA7276321014"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA7276321014",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "MEXGF"
+    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -19,16 +24,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Platauro Metals Corp.",
-  "primary_symbol": "PURO.V",
+  "name": "Mexican Gold Mining Corp.",
+  "primary_symbol": "MEXGF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Platauro Metals Corp., previously called Mexican Gold Mining Corp., is a Canadian mineral explorer pursuing precious-metal and copper projects in the Americas. Assets include Las Minas (gold and copper, Veracruz state, Mexico) and Princesa, a silver and base-metal prospect in Peru's Puno-Cusco district.",
-  "website": "https://www.mexicangold.ca"
+  "summary": "Mexican Gold Mining Corp. engages in the acquisition, exploration, and evaluation of resource properties. It holds a 100% interest in the Las Minas project consists of six mineral concessions located in the state of Veracruz, Mexico. The company was formerly known as Mexican Gold Corp. and changed its name to Mexican Gold Mining Corp. in February 2020. Mexican Gold Mining Corp. was founded in 2006 and is based in Vancouver, Canada.",
+  "website": "http://www.mexicangold.ca"
 }

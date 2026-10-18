@@ -7,8 +7,8 @@
     "figi": "BBG000BGKVR1",
     "isin": "US14040H1059"
   },
-  "industry": "Consumer Finance",
-  "industry_group": "Diversified Financials",
+  "industry": "Consumer Lending",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "US14040H1059",
   "kind": "stock",
   "listings": [
@@ -23,6 +23,36 @@
       "symbol": "0HT4.L"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CFX.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "CFX.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "CFX.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CFX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CFX.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CFX.SG"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "COFI"
@@ -32,7 +62,7 @@
   "name": "Capital One Financial Corporation",
   "primary_symbol": "COF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

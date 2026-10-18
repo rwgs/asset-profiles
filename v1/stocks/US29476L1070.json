@@ -4,14 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG000BG8M31",
     "cusip": "29476L107",
-    "figi": "BBG000BG8M31",
+    "figi": "BBG000BG8P98",
     "isin": "US29476L1070"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Residential REITs",
+  "industry_group": "REITs",
   "isin": "US29476L1070",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "EQR"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -49,10 +54,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Vivmark Residential Common Shares of Beneficial Interest",
-  "primary_symbol": "VMRK",
+  "name": "Equity Residential",
+  "primary_symbol": "EQR",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -60,5 +65,5 @@
   "schema_version": "1.0.0",
   "sector": "Real Estate",
   "summary": "Equity Residential is committed to creating communities where people thrive. The Company, a member of the S&P 500, is focused on the acquisition, development and management of residential properties located in and around dynamic cities that attract high quality long-term renters. Equity Residential owns or has investments in 305 properties consisting of 78,568 apartment units, located in Boston, New York, Washington, D.C., Seattle, San Francisco, Southern California and Denver.",
-  "website": "https://www.equityapartments.com"
+  "website": "https://www.vivmarkresidential.com"
 }

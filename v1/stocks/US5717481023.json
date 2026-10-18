@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG000BP4MH0",
     "cusip": "571748102",
-    "figi": "BBG000BP4MH0",
+    "figi": "BBG000BP4P74",
     "isin": "US5717481023"
   },
   "industry": "Insurance",
@@ -12,6 +12,11 @@
   "isin": "US5717481023",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "MMC"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -59,16 +64,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Marsh Common Stock",
-  "primary_symbol": "MRSH",
+  "name": "Marsh & McLennan Companies, Inc.",
+  "primary_symbol": "MMC",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Marsh & McLennan Companies, Inc. (MRSH) functions as a leading professional services organization, delivering expert guidance and innovative solutions to clients across the vital domains of risk management, strategic planning, and human capital. Based in New York City, the firm maintains a substantial global workforce, employing approximately 65,000 full-time professionals. This entity serves as the parent company for several prominent advisory and consulting brands. These include Marsh, renowned for its insurance brokerage services; Guy Carpenter, a specialist in risk and reinsurance; Mercer, which provides comprehensive human resources and investment-related financial advice; and Oliver Wyman Group, an influential management and economic consultancy. Marsh & McLennan structures its operations into two core business segments. The \"Risk and Insurance Services\" division encompasses activities such as risk management, along with comprehensive insurance and reinsurance brokerage and services. The \"Consulting\" division offers a broad spectrum of services, including health, retirement, talent, and investment consulting, as well as specialized advice in management, economics, and brand strategy. The Risk and Insurance Services segment's operations are primarily conducted through Marsh and Guy Carpenter, while Mercer and Oliver Wyman Group are the key contributors to the Consulting segment's offerings.",
+  "summary": "Marsh & McLennan Companies, Inc., a professional services company, provides advice and solutions to clients in the areas of risk, strategy, and people worldwide. It operates in two segments, Risk and Insurance Services, and Consulting. The Risk and Insurance Services segment offers risk management services, such as risk advice, risk transfer, and risk control and mitigation solutions, as well as insurance and reinsurance broking, catastrophe and financial modeling, and related advisory services; and insurance program management services. This segment serves businesses, public entities, insurance companies, associations, professional services organizations, and private clients. The Consulting segment provides health, wealth, and career consulting services and products; and specialized management, as well as economic and brand consulting services. Marsh & McLennan Companies, Inc. has collaboration with Chubb Limited to secure insurance coverage for the COVAX no-fault compensation program. The company was founded in 1871 and is headquartered in New York, New York.",
   "website": "http://www.mmc.com"
 }

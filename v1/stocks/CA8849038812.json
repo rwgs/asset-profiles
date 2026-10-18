@@ -8,14 +8,54 @@
     "isin": "CA8849038812"
   },
   "industry": "Professional Services",
-  "industry_group": "Commercial & Professional Services",
+  "industry_group": "Business Services",
   "isin": "CA8849038812",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
-      "exchange_mic": "XNYS",
+      "exchange_mic": "XNAS",
       "symbol": "TRI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TOC0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TOC0.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TOC0.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TOCB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TOCB.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TOCB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TOCB.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "TOCB.SG"
     },
     {
       "currency": "CAD",
@@ -27,7 +67,7 @@
   "name": "Thomson Reuters Corporation",
   "primary_symbol": "TRI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

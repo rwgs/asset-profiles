@@ -3,14 +3,19 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000C4R9R9",
-    "figi": "BBG000C4RCH3",
+    "figi": "BBG000C4RGG5",
     "isin": "DE0005408686"
   },
-  "industry": "Insurance",
-  "industry_group": "Insurance",
+  "industry": "Capital Markets",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "DE0005408686",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VVV3.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -18,21 +23,36 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "VVV3.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "VVV3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "VVV3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VVV3.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Ökoworld AG",
-  "primary_symbol": "VVV3.DE",
+  "primary_symbol": "VVV3.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "ÖKOWORLD AG, together with its subsidiaries, engages in the investment business in Germany. The company provides pension insurance, and retirement and investment funds. It serves institutional investors, financial service providers, and private investors. The company was formerly known as versiko AG and changed its name to ÖKOWORLD AG in December 2013. ÖKOWORLD AG was founded in 1975 and is based in Hilden, Germany.",
+  "summary": "OEKOWORLD AG is a German asset management company focused on sustainable and ethical investments. They offer various investment funds that meet specific environmental, social, and governance (ESG) criteria. The company is headquartered in Germany.",
   "website": "http://www.oekoworld.com"
 }

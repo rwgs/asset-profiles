@@ -2,16 +2,19 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000P3VNQ2",
     "cusip": "589339209",
-    "figi": "BBG000P3VNQ2",
     "isin": "DE0006599905"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "DE0006599905",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1MRK.MI"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -71,18 +74,13 @@
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "MRK1N.MX"
-    },
-    {
-      "currency": "USD",
-      "exchange_mic": "XBUE",
-      "symbol": "MRKD.BA"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "MERCK Kommanditgesellschaft auf Aktien",
-  "primary_symbol": "MKGAF",
+  "primary_symbol": "1MRK.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

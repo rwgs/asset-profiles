@@ -2,15 +2,20 @@
   "country": "Indonesia",
   "country_code": "ID",
   "identifiers": {
-    "composite_figi": "BBG002QQ63P9",
-    "figi": "BBG002QQ63Q8",
+    "composite_figi": "BBG003T1TMB7",
+    "figi": "BBG003T1TMG2",
     "isin": "ID1000122609"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "ID1000122609",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "B73.SG"
+    },
     {
       "currency": "IDR",
       "exchange_mic": "XIDX",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "PT Bekasi Fajar Industrial Estate Tbk",
-  "primary_symbol": "BEST.JK",
+  "primary_symbol": "B73.SG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

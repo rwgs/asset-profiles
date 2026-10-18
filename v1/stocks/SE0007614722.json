@@ -2,15 +2,25 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00ZTLV848",
-    "figi": "BBG00ZTLV848",
+    "composite_figi": "BBG00YHXYQ54",
+    "figi": "BBG00YHXYQC6",
     "isin": "SE0007614722"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "SE0007614722",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "869.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "869.F"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -27,17 +37,17 @@
       "symbol": "SE0007614722.SG"
     }
   ],
-  "market_cap_band": "Nano Cap",
-  "name": "K33 AB (publ)",
-  "primary_symbol": "ARCNF",
+  "market_cap_band": "Micro Cap",
+  "name": "ARCANE CRYPTO AB",
+  "primary_symbol": "869.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Arcario AB, along with its various subsidiaries, provides a research-driven digital asset brokerage service, including investment offerings, for clients both within Sweden and internationally. The company's operations also extend to managing an interbank over-the-counter (OTC) market for digital currencies, operating a dedicated bitcoin exchange, and running bitcoin mining activities in northern Norway. Formerly known as Arcane Crypto AB, the firm rebranded to Arcario AB in March 2023. Its corporate headquarters are located in Stockholm, Sweden.",
-  "website": "https://www.k33.com"
+  "summary": "Arcane Crypto AB, based in Stockholm, Sweden, is a holding company focusing on investments in the digital asset industry. They provide infrastructure and investment opportunities in the cryptocurrency market. The company aims to create value through strategic investments and partnerships.",
+  "website": "http://www.arcane.no"
 }

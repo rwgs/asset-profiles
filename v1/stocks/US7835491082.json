@@ -7,8 +7,8 @@
     "figi": "BBG000BRVRS3",
     "isin": "US7835491082"
   },
-  "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry": "Industrial Distribution & Rental",
+  "industry_group": "Industrial Goods",
   "isin": "US7835491082",
   "kind": "stock",
   "listings": [
@@ -29,6 +29,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RYD.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "RYD.SG"
     }
@@ -37,13 +42,13 @@
   "name": "Ryder System, Inc.",
   "primary_symbol": "R",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Industrials",
   "summary": "Ryder System, Inc. functions as a worldwide provider of logistics and transportation services, operating through Fleet Management Solutions, Supply Chain Solutions, and Dedicated Transportation Solutions segments. Ryder System, Inc. was established in 1933 and its main office is situated in Miami, Florida.",
-  "website": "http://www.stem.com"
+  "website": "https://www.ryder.com"
 }

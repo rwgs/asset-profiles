@@ -1,14 +1,14 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Argentina",
+  "country_code": "AR",
   "identifiers": {
     "composite_figi": "BBG000DRSX48",
     "cusip": "450047303",
     "figi": "BBG000DRSZ89",
     "isin": "US4500473032"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "US4500473032",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,21 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "IRS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IRY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IRY.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IRY.SG"
     },
     {
       "currency": "EUR",
@@ -42,7 +57,7 @@
   "name": "IRSA Inversiones y Representaciones Sociedad Anónima",
   "primary_symbol": "IRS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -7,8 +7,8 @@
     "figi": "BBG000H3YXF8",
     "isin": "US1729081059"
   },
-  "industry": "Professional Services",
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Commercial Services",
+  "industry_group": "Business Services",
   "isin": "US1729081059",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,11 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HYJ.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CIT.BE"
     },
     {
       "currency": "EUR",
@@ -51,13 +56,28 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "CTAS.VI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "QIT1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "QIT1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "QIT1.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Cintas Corporation",
   "primary_symbol": "CTAS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

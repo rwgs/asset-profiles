@@ -8,7 +8,7 @@
     "isin": "SE0010441584"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "SE0010441584",
   "kind": "stock",
   "listings": [
@@ -54,6 +54,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LC8A.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "SE0010441584.SG"
     }
@@ -62,7 +67,7 @@
   "name": "Calliditas Therapeutics AB (publ)",
   "primary_symbol": "CALT",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,24 +2,51 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
+    "composite_figi": "BBG00FNFTYM7",
+    "figi": "BBG00FNFTYM7",
     "isin": "GB00BD3VDH82"
   },
-  "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Computers & Hardware",
+  "industry_group": "Hardware & Electronics",
   "isin": "GB00BD3VDH82",
   "kind": "stock",
   "listings": [
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
+      "symbol": "VIVO"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
       "symbol": "VVPR"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "51J.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "51J.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "51J.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "51J.MU"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Micro Cap",
   "name": "VivoPower International PLC",
-  "primary_symbol": "VVPR",
+  "primary_symbol": "VIVO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

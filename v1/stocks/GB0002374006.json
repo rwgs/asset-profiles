@@ -8,7 +8,7 @@
     "isin": "GB0002374006"
   },
   "industry": "Beverages",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "GB0002374006",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "DEO"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "DEON.MX"
     },
     {
       "currency": "GBP",
@@ -31,6 +36,11 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "DGEAF"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "DGED.L"
     },
     {
       "currency": "MXN",
@@ -76,13 +86,28 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "GUI.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GUIA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GUIA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GUIA.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Diageo plc",
   "primary_symbol": "DEO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

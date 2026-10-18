@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "NL0012044747"
   },
-  "industry": "Health Care Providers & Services",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Health Care Providers",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "NL0012044747",
   "kind": "stock",
   "listings": [
@@ -13,6 +13,56 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "RDC.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SAE.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "SAE.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SAE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SAE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SAE.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SAE.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SAE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SAE.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ETLX",
+      "symbol": "SAE.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "SHOP.VI"
     },
     {
       "currency": "USD",
@@ -24,7 +74,7 @@
   "name": "Redcare Pharmacy N.V.",
   "primary_symbol": "RDC.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

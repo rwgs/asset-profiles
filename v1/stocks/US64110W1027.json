@@ -2,11 +2,13 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
+    "composite_figi": "BBG00JRY91P5",
     "cusip": "64110W102",
+    "figi": "BBG00JRY91Q4",
     "isin": "US64110W1027"
   },
-  "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry": "Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "US64110W1027",
   "kind": "stock",
   "listings": [
@@ -27,6 +29,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NEH.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NEH.MU"
     },
@@ -37,16 +44,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "NETEASE INC NETEASE ADR REP 25",
+  "name": "Netease Inc",
   "primary_symbol": "0K6G.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "NetEase, Inc. is a leading Chinese internet technology company that develops and operates online games, advertising services, and e-commerce platforms. The company's popular online games include titles developed in-house and licensed from international developers. NetEase is headquartered in Hangzhou, China",
+  "sector": "Communications",
+  "summary": "NetEase, Inc. is a leading Chinese internet technology company that develops and operates online games, advertising services, and e-commerce platforms. The company's popular online games include titles developed in-house and licensed from international developers. NetEase is headquartered in Hangzhou, China.",
   "website": "http://ir.netease.com"
 }

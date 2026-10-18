@@ -7,7 +7,8 @@
     "figi": "BBG0073XM021",
     "isin": "US01609W1027"
   },
-  "industry_group": "Software & Services",
+  "industry": "General & Online Retail",
+  "industry_group": "Retail",
   "isin": "US01609W1027",
   "kind": "stock",
   "listings": [
@@ -18,8 +19,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "AHLA.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "AHLA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AHLA.F"
     },
     {
       "currency": "EUR",
@@ -46,13 +57,13 @@
   "name": "Alibaba Group Holding Limited",
   "primary_symbol": "AHLA.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
+  "sector": "Consumer Discretionary",
   "summary": "Alibaba Group Holding Limited is a technology company focusing on e-commerce, retail, internet, and technology. It operates online marketplaces like Taobao and Tmall, as well as providing cloud computing services through Alibaba Cloud. The company is headquartered in Hangzhou, China.",
   "website": "http://www.alibabagroup.com"
 }

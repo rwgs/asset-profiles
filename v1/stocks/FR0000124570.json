@@ -2,14 +2,30 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BCQ3H7",
+    "composite_figi": "BBG000C7B1X9",
+    "figi": "BBG000C7C6R4",
     "isin": "FR0000124570"
   },
-  "industry": "Auto Components",
-  "industry_group": "Automobiles & Components",
+  "industry": "Auto Parts",
+  "industry_group": "Automotive",
   "isin": "FR0000124570",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EZM.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EZM.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "EZM.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -19,19 +35,24 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "PASTF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "POM.PA"
     }
   ],
-  "market_cap_band": "Small Cap",
-  "name": "Opmobility",
-  "primary_symbol": "OPM.PA",
+  "market_cap_band": "Mid Cap",
+  "name": "Compagnie Plastic Omnium SA",
+  "primary_symbol": "EZM.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "OPmobility, founded in 1946 and headquartered in Levallois-Perret, France, operates as a subsidiary of Burelle SA. Formerly known as Compagnie Plastic Omnium SE until its rebranding in March 2024, the company is a global leader in designing, manufacturing, and distributing essential automotive components. Its extensive product portfolio includes advanced exterior vehicle lighting systems, sophisticated batteries, and cutting-edge electrification solutions tailored for electric mobility. These offerings reach diverse markets across Europe, North America, China, the wider Asian region, South America, the Middle East, and Africa. The company's operations are strategically divided into three main segments: Exterior Systems, Powertrain, and Modules. The Exterior Systems division delivers intelligent external vehicle parts, such as bumpers, tailgates, spoilers, and body panels. It also encompasses a wide array of automotive lighting products, including headlights, signal lights, interior and body shell lighting, projection systems, and related electronic components. The Powertrain segment specializes in clean energy solutions. This involves developing energy storage and emission reduction systems for conventional gasoline, diesel, hybrid, and plug-in hybrid vehicles, featuring technologies like selective catalytic reduction and comprehensive fuel systems. Additionally, it designs and produces battery systems, electronics, and power electronics components for various electric mobility applications, ranging from trucks and buses to trains and construction machinery. A significant focus for this segment is also hydrogen technologies, including high-pressure fuel tanks, fuel cell stacks, and integrated hydrogen systems. Lastly, the Modules segment focuses on the design, development, and assembly of complex automotive modules, notably through its HBPO operations. This segment further provides personalization products such as front-end modules, active grille shutters, active rollos, and various interior and charge lid modules.",
-  "website": "https://www.opmobility.com"
+  "summary": "Compagnie Plastic Omnium SA designs, develops, manufactures, and sells intelligent exterior systems, clean energy systems, and modules for the automotive industry in France, rest of Europe, North America, South America, Africa, and Asia. It offers intelligent exterior systems, including bumpers, energy absorption systems, tailgates, spoilers, fenders, rocket panels, and rear sash and floor modules, as well as radar and other sensors. The company also provides clean energy systems comprising selective catalytic reduction diesel emissions control systems, and fuel systems for plug-in hybrid vehicles; energy management and control solutions in fuel cell systems; composite filament vessels for high-pressure hydrogen storage; hydrogen vessels, fuel cell stacks, and integrated hydrogen systems, as well as fuel tanks. In addition, it is involved in the development, assembly, and logistics of front-end modules. The company was founded in 1946 and is headquartered in Levallois-Perret, France. Compagnie Plastic Omnium SA is a subsidiary of Burelle SA.",
+  "website": "http://www.plasticomnium.com"
 }

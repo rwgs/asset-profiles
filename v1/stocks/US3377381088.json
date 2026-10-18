@@ -4,14 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG000BJKPG0",
     "cusip": "337738108",
-    "figi": "BBG000BJKPG0",
+    "figi": "BBG000BJL0P4",
     "isin": "US3377381088"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Payments & Specialty Finance",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "US3377381088",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNAS",
+      "symbol": "FI"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNAS",
@@ -79,20 +84,21 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "FIV.TI"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Fiserv Inc. Common Stock",
-  "primary_symbol": "FISV",
+  "name": "Fiserv, Inc.",
+  "primary_symbol": "FI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Real Estate",
-  "summary": "Fiserv, Inc. is a global provider of technology solutions for payments and financial services. Its operations are structured into three primary segments: Acceptance, Fintech, and Payments. The Acceptance segment enables businesses to process transactions at the point of sale and through digital channels, offering mobile payment capabilities and robust security and fraud prevention tools. Key offerings include Carat, its omnichannel commerce platform; Clover, a cloud-native platform for point-of-sale and business management; and Clover Connect, designed for independent software vendors. This segment reaches clients via diverse distribution channels, including direct sales, agent networks, ISVs, and financial institution partnerships. The Fintech segment supports financial institutions in managing core functions like customer deposit and loan accounts, general ledgers, and central information repositories. Further services extend to digital banking, financial and risk management, specialized consulting, and item processing solutions. The Payments segment facilitates a wide array of card-based transactions, including processing for debit, credit, and prepaid cards. It also delivers security and fraud safeguards, card manufacturing, print services, and various network functionalities. Beyond cards, this segment offers digital payment solutions like bill payment, account-to-account transfers, person-to-person payments, and electronic billing, complemented by security features. Fiserv caters to a broad clientele, including businesses, banks, credit unions, other financial institutions, merchants, and corporate enterprises. Established in 1984, Fiserv, Inc. maintains its corporate headquarters in Brookfield, Wisconsin.",
+  "sector": "Financials",
+  "summary": "Fiserv, Inc., together with its subsidiaries, provides payment and financial services technology worldwide. The company operates through Acceptance, Fintech, and Payments segments. The Acceptance segment provides point-of-sale merchant acquiring and digital commerce services; mobile payment services; security and fraud protection products; Carat, an omnichannel commerce solution; and Clover POS, a cloud-based point-of-sale solution. This segment distributes through various channels, including direct sales teams, strategic partnerships with agent sales forces, independent software vendors, financial institutions, and other strategic partners. The Fintech segment offers customer deposit and loan accounts, as well as manages an institution's general ledger and central information files. This segment also provides digital banking, financial and risk management, cash management, professional services and consulting, item processing and source capture, and other products and services. The Payments segment offers card transactions, such as debit, credit, and prepaid card processing and services; security and fraud protection products; card production; print services; and various network services, as well as non-card digital payment software and services, including bill payment, account-to-account transfers, person-to-person payments, and electronic billing products. It serves business, banks, credit unions, other financial institutions, merchants, and corporate clients. The company was incorporated in 1984 and is headquartered in Brookfield, Wisconsin.",
   "website": "http://www.fiserv.com"
 }

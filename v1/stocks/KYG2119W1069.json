@@ -6,8 +6,8 @@
     "figi": "BBG000QX6VV9",
     "isin": "KYG2119W1069"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "KYG2119W1069",
   "kind": "stock",
   "listings": [
@@ -33,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EV1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "EV1.MU"
     },
@@ -51,7 +56,7 @@
   "name": "China Evergrande Group",
   "primary_symbol": "3333.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

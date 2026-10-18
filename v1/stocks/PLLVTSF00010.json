@@ -2,15 +2,25 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG00NQC5XD2",
-    "figi": "BBG00NQC5XD2",
+    "composite_figi": "BBG00ZHRH9S6",
+    "figi": "BBG00ZHRH9T5",
     "isin": "PLLVTSF00010"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "PLLVTSF00010",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "886.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "886.MU"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -29,15 +39,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Text S.A.",
-  "primary_symbol": "LCHTF",
+  "primary_symbol": "886.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "Text S.A. is a worldwide developer and distributor of communication software solutions tailored for businesses. Its product portfolio includes LiveChat, a tool facilitating direct interactions between website visitors and owners; ChatBot, designed for creating conversational AI agents to automate customer support and corporate communications; KnowledgeBase, a platform that allows companies to build extensive information repositories for both employees and clients; and HelpDesk, an application aimed at streamlining email-based customer service workflows for teams. Founded in 2002, the company underwent a name change in September 2023, evolving from LiveChat Software S.A. to its current designation, Text S.A. It is based in Wroclaw, Poland.",
-  "website": "https://text.com"
+  "summary": "Text S.A. develops and distributes online text communication software for businesses worldwide. It offers Text, a platform integrating customer service, sales, and customer base development; LiveChat, a platform for online multichannel text communication; ChatBot, a chatbot building platform that allows the creation of conversational chatbots to handle various business scenarios; KnowledgeBase, a platform that lets companies to create knowledge bases for employees and clients; OpenWidget, a solution allowing for an easy installation of widgets on website; and HelpDesk, a solution that support, ticket grouping and tagging, and customer satisfaction assessment. Text S.A. was formerly known as LiveChat Software S.A. and changed its name to Text S.A. in September 2023. The company was incorporated in 2002 and is headquartered in Wroclaw, Poland.",
+  "website": "https://www.text.com"
 }

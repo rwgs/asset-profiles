@@ -7,8 +7,8 @@
     "figi": "BBG000DHNGN1",
     "isin": "CA55903Q1046"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA55903Q1046",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XASE",
       "symbol": "MAG"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "MAG.ST"
     },
     {
       "currency": "CAD",
@@ -52,7 +57,7 @@
   "name": "MAG Silver Corp.",
   "primary_symbol": "MAG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

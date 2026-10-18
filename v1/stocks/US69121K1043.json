@@ -4,14 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG00DB0XYC4",
     "cusip": "69121K104",
-    "figi": "BBG00PC368N5",
+    "figi": "BBG00DB0XYC4",
     "isin": "US69121K1043"
   },
-  "industry": "Consumer Finance",
-  "industry_group": "Diversified Financials",
+  "industry": "Capital Markets",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "US69121K1043",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "OBDC"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -24,16 +29,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Owl Rock Capital Corporation",
-  "primary_symbol": "ORCC",
+  "name": "Blue Owl Capital Corporation",
+  "primary_symbol": "OBDC",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Owl Rock Capital Corporation is a business development company. The fund makes investments in senior secured or unsecured loans, subordinated loans or mezzanine loans and also considers equity-related securities including warrants and preferred stocks. It seeks to invest in middle market companies based in the United States, with EBITDA between $10 million and $250 million annually and/or annual revenue of $50 million and $2.5 billion at the time of investment.",
+  "summary": "Blue Owl Capital Corporation is a business development company that provides direct lending solutions to middle market companies. The company originates and invests primarily in first lien, senior secured loans and second lien secured loans. Its headquarters are in New York.",
   "website": "http://owlrock.com/overview-orcc/"
 }

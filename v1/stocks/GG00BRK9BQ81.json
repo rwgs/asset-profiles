@@ -2,13 +2,28 @@
   "country": "Guernsey",
   "country_code": "GG",
   "identifiers": {
-    "composite_figi": "BBG000HXB0G8",
-    "figi": "BBG000HXB167",
+    "composite_figi": "BBG00RJ022D8",
+    "figi": "BBG00RJ022D8",
     "isin": "GG00BRK9BQ81"
   },
   "isin": "GG00BRK9BQ81",
   "kind": "fund",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "FFRIF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "LYZ1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LYZ1.SG"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -16,15 +31,15 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Seed Innovations Limited",
-  "primary_symbol": "SEED.L",
+  "name": "Fastforward Innovations Limited",
+  "primary_symbol": "FFRIF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "Seed Innovations Limited operates as a venture capital firm, dedicating itself to early-stage investments. It primarily seeks opportunities within innovative sectors such as lifestyle, wellness, health, medical cannabis, technology, life sciences, and pharmaceuticals. Although its main geographical focus is North America and Europe, the firm is open to considering investments globally. Seed Innovations Limited can acquire stakes ranging from a minority position to full ownership in its portfolio companies. A significant criterion for investment includes companies possessing substantial intellectual property rights. The company's operations are headquartered in Guernsey, Channel Islands.",
+  "summary": "Fastforward Innovations Limited is an investing company that focuses on making investments in early-stage and high growth companies, primarily in the technology and life sciences sectors. The company seeks to identify and support disruptive businesses with significant potential for capital appreciation, often providing early-stage funding and strategic guidance. Fastforward Innovations is based in the UK.",
   "website": "https://www.seedinnovations.co"
 }

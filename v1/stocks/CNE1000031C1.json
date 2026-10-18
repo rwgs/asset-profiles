@@ -7,7 +7,7 @@
     "isin": "CNE1000031C1"
   },
   "industry": "Household Durables",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry_group": "Consumer Goods & Apparel",
   "isin": "CNE1000031C1",
   "kind": "stock",
   "listings": [
@@ -18,8 +18,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "690D.DE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XDUS",
       "symbol": "690D.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "690D.F"
     },
     {
       "currency": "EUR",
@@ -41,7 +51,7 @@
   "name": "Haier Smart Home Co., Ltd. Class D",
   "primary_symbol": "690D.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

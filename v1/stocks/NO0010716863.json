@@ -2,29 +2,35 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00739K277",
+    "composite_figi": "BBG008H2LFV8",
+    "figi": "BBG008H2LFX6",
     "isin": "NO0010716863"
   },
   "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry_group": "Retail",
   "isin": "NO0010716863",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "NOK",
+      "exchange_mic": "XLON",
+      "symbol": "0R3P.IL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "NO0010716863.SG"
     }
   ],
-  "name": "XXL ASA",
-  "primary_symbol": "NO0010716863.SG",
+  "name": "XXL ASA XXL ORD SHS",
+  "primary_symbol": "0R3P.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "XXL ASA is a sporting goods retailer with stores in Norway, Sweden, Finland, and Austria. The company offers a wide range of products for sports, outdoor activities, and fitness. XXL ASA is headquartered in Oslo, Norway."
+  "summary": "XXL ASA is a Norwegian sports retailer that sells sporting goods, clothing, and equipment through a network of stores and online platforms. The company operates in Norway, Sweden, Finland, and Austria, offering a wide range of products for various sports and outdoor activities. XXL is headquartered in Oslo, Norway."
 }

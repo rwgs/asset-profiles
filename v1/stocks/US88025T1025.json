@@ -7,8 +7,8 @@
     "figi": "BBG00LBLCDK0",
     "isin": "US88025T1025"
   },
-  "industry": "Internet & Direct Marketing Retail",
-  "industry_group": "Retailing",
+  "industry": "Software",
+  "industry_group": "Software & IT Services",
   "isin": "US88025T1025",
   "kind": "stock",
   "listings": [
@@ -34,6 +34,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TE7.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "TE7.MU"
     },
@@ -47,13 +52,13 @@
   "name": "Tenable Holdings, Inc.",
   "primary_symbol": "TENB",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Discretionary",
+  "sector": "Information Technology",
   "summary": "Tenable Holdings, Inc. is a cybersecurity firm that specializes in providing comprehensive solutions to identify and manage an organization's exposure to cyber risks. Their services extend globally, catering to clients across the Americas, Europe, the Middle East, Africa, the Asia Pacific region, and Japan. The company offers a diverse suite of platforms and products: Tenable.io functions as a cloud-delivered Software-as-a-Service (SaaS), offering clients a risk-centric overview of both modern and traditional attack surfaces. Tenable.cs is a cloud-native application solution designed to automatically detect and correct misconfigurations within cloud infrastructure. Tenable.ep serves as a unified platform, enabling businesses to discover, evaluate, and precisely prioritize cyber threats across their entire digital landscape. Tenable also delivers on-premises solutions, including Tenable.ad for securing Active Directory environments, Tenable.ot for protecting operational technology environments, and Tenable.sc for an on-site view of an organization's IT, security, and compliance posture. Tenable also includes its Nessus vulnerability assessment tools. Established in 2002, Tenable Holdings, Inc. is headquartered in Columbia, Maryland.",
   "website": "http://www.tenable.com"
 }

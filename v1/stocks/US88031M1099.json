@@ -7,8 +7,8 @@
     "figi": "BBG000PLD732",
     "isin": "US88031M1099"
   },
-  "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry": "Oilfield Services & Equipment",
+  "industry_group": "Energy Production & Services",
   "isin": "US88031M1099",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "TS"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "TS.MX"
     },
     {
       "currency": "EUR",
@@ -37,7 +42,7 @@
   "name": "Tenaris S.A.",
   "primary_symbol": "TS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

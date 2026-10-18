@@ -2,15 +2,18 @@
   "country": "Netherlands",
   "country_code": "NL",
   "identifiers": {
-    "composite_figi": "BBG000CS9WH6",
-    "figi": "BBG000CSB0Y4",
     "isin": "NL0000235190"
   },
   "industry": "Aerospace & Defense",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "NL0000235190",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1AIR.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -84,15 +87,15 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Airbus SE",
-  "primary_symbol": "AIR.BE",
+  "primary_symbol": "1AIR.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "AIRBUS is a European multinational aerospace corporation. The company designs, manufactures and sells commercial and military aircraft, helicopters, satellites, and launch vehicles. Airbus is headquartered in Leiden, Netherlands and has manufacturing facilities across Europe and globally.",
+  "summary": "Airbus SE designs, manufactures, and distributes aerospace products and solutions in the Netherlands and internationally. The company operates through three segments: Airbus, Airbus Helicopters, and Airbus Defence and Space. The company's Airbus segment develops, manufactures, markets, and sells commercial jet aircraft of approximately 100 seats; and regional turboprop aircraft and aircraft components, as well as provides aircraft conversion and related services. Its Airbus Helicopters segment develops, manufactures, markets, and sells civil and military helicopters; and provides helicopter related services. The company's Airbus Defence and Space segment designs, develops, delivers, and supports military aircraft, such as combat, mission, transport, and tanker aircraft; and provides unmanned aerial systems and their associated services. It also offers civil and defense space systems for telecommunications, earth observations, navigation, science, and orbital systems; missile systems; and missile and space launcher systems, as well as services around data processing from platforms, secure communication, and cyber security. The company was formerly known as Airbus Group SE and changed its name to Airbus SE in April 2017. Airbus SE was incorporated in 1998 and is headquartered in Leiden, the Netherlands.",
   "website": "http://www.airbus.com"
 }

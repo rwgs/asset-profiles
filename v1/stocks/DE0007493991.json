@@ -2,10 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG008H85D39",
+    "figi": "BBG008H85D57",
     "isin": "DE0007493991"
   },
   "industry": "Media",
-  "industry_group": "Media & Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "DE0007493991",
   "kind": "stock",
   "listings": [
@@ -31,6 +33,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SAX.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XHAN",
       "symbol": "SAX.HA"
     },
@@ -45,6 +52,16 @@
       "symbol": "SAX.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SAX.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "SAX.VI"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "SOTDF"
@@ -54,7 +71,7 @@
   "name": "Stroeer SE",
   "primary_symbol": "0MYZ.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

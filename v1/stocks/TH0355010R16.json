@@ -2,15 +2,35 @@
   "country": "Thailand",
   "country_code": "TH",
   "identifiers": {
-    "composite_figi": "BBG000BTWVR0",
-    "figi": "BBG000BTWVY2",
+    "composite_figi": "BBG000C1NJJ6",
+    "figi": "BBG000C1NLX5",
     "isin": "TH0355010R16"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Oil, Gas & Fuels",
+  "industry_group": "Energy Production & Services",
   "isin": "TH0355010R16",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NVAL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "NVAL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NVAL.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NVAL.SG"
+    },
     {
       "currency": "THB",
       "exchange_mic": "XBKK",
@@ -19,9 +39,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "PTT Exploration and Production Public Company Limited",
-  "primary_symbol": "PTTEP-R.BK",
+  "primary_symbol": "NVAL.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

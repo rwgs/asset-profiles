@@ -4,14 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG000VZHLL9",
     "cusip": "48238T109",
-    "figi": "BBG000VZHLL9",
+    "figi": "BBG000VZHMK8",
     "isin": "US48238T1097"
   },
   "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry_group": "Retail",
   "isin": "US48238T1097",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "KAR"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -21,19 +26,29 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US48238T1097.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "XKR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "XKR.F"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "OPENLANE Inc.",
-  "primary_symbol": "OPLN",
+  "name": "KAR Auction Services, Inc.",
+  "primary_symbol": "KAR",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Discretionary",
-  "summary": "OPENLANE, Inc., including its various subsidiaries, functions as a leading digital platform designed for the transaction of pre-owned vehicles, connecting buyers and sellers across major markets in the United States, Canada, Continental Europe, and the United Kingdom. The company's operations are distinctly divided into two primary segments: Marketplace and Finance. The Marketplace segment offers comprehensive digital services for both acquiring and divesting used vehicles. This is augmented by an array of value-added ancillary services, such as inbound and outbound transportation logistics, vehicle reconditioning, detailed inspection and certification, titling assistance, administrative support, and collateral recovery. A key component of this segment is the OPENLANE platform, a mobile application-enabled solution that empowers dealerships to effectively source and sell their inventory. The clientele for this segment is diverse, including commercial fleet operators, financial institutions, rental car companies, new and used vehicle dealerships, and vehicle manufacturers. Conversely, the Finance segment specializes in providing floorplan financing. This entails offering short-term, inventory-secured capital specifically to independent vehicle dealers. Established in 2006 and headquartered in Carmel, Indiana, the company underwent a name change in May 2023, transitioning from its former identity as KAR Auction Services, Inc. to OPENLANE, Inc.",
-  "website": "https://corporate.openlane.com"
+  "summary": "KAR Auction Services, Inc., together with its subsidiaries, provides used vehicle auctions and related vehicle remarketing services for the automotive industry in the United States, Europe, Canada, Mexico, and the United Kingdom. The company operates through two segments, ADESA Auctions and AFC. The ADESA Auctions segment offers whole car auctions and related services to the vehicle remarketing industry through online auctions and auction facilities. It also provides value-added services, such as auction related, transportation, reconditioning, inspection, title and repossession administration and remarketing, vehicle research, and analytical services, as well as data as a service. This segment sells its products and services through vehicle manufacturers, fleet companies, rental car companies, finance companies, and others. As of December 31, 2020, this segment had a network of 74 whole car auction facilities in North America. The AFC segment offers floorplan financing, a short-term inventory-secured financing to independent used vehicle dealers; and sells vehicle service contracts. The company provides wheel repair and hail catastrophe response services. It serves vehicle manufacturers, vehicle rental companies, financial institutions, commercial fleets and fleet management companies, and dealer customers. The company was formerly known as KAR Holdings, Inc. and changed its name to KAR Auction Services, Inc. in November 2009. KAR Auction Services, Inc. was founded in 2006 and is headquartered in Carmel, Indiana.",
+  "website": "http://www.karglobal.com"
 }

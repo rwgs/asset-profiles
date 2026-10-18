@@ -2,10 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00DDY9M68",
+    "figi": "BBG00DDY9M86",
     "isin": "DE0008019001"
   },
-  "industry": "Banks",
-  "industry_group": "Diversified Financials",
+  "industry": "Mortgage Finance",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "DE0008019001",
   "kind": "stock",
   "listings": [
@@ -61,6 +63,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "PBB.TI"
     },
     {
@@ -78,7 +81,7 @@
   "name": "Deutsche Pfandbriefbank AG",
   "primary_symbol": "0R9K.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

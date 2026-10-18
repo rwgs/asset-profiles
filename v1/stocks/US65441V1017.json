@@ -2,21 +2,16 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG004M28MF9",
+    "composite_figi": "BBG00JVWRBP2",
     "cusip": "65441V101",
-    "figi": "BBG00GM6PSH9",
+    "figi": "BBG00JVWRBQ1",
     "isin": "US65441V1017"
   },
-  "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry": "Oilfield Services & Equipment",
+  "industry_group": "Energy Production & Services",
   "isin": "US65441V1017",
   "kind": "stock",
   "listings": [
-    {
-      "currency": "USD",
-      "exchange_mic": "XNYS",
-      "symbol": "NINE"
-    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -26,13 +21,23 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "NEJ.MU"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "NINE"
+    },
+    {
+      "currency": "THB",
+      "exchange_mic": "XBKK",
+      "symbol": "NINE.BK"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Nine Energy Service, Inc.",
-  "primary_symbol": "NINE",
+  "primary_symbol": "NEJ.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -8,7 +8,7 @@
     "isin": "US67577R1023"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US67577R1023",
   "kind": "stock",
   "listings": [
@@ -19,15 +19,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "R3X1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "R3X1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "US67577R1023.SG"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Opus Genetics Inc. Common Stock",
+  "name": "Opus Genetics Inc.",
   "primary_symbol": "IRD",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

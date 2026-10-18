@@ -6,8 +6,8 @@
     "figi": "BBG000BDTJ14",
     "isin": "KYG0535Q1331"
   },
-  "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry": "Semiconductors & Chip Equipment",
+  "industry_group": "Semiconductors",
   "isin": "KYG0535Q1331",
   "kind": "stock",
   "listings": [
@@ -20,13 +20,28 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "ASMVF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "AY7A.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "AY7A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "AY7A.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "ASMPT Limited",
   "primary_symbol": "0522.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

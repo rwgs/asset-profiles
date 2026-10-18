@@ -2,15 +2,30 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BRN3X9",
-    "figi": "BBG000BRN4G6",
+    "composite_figi": "BBG00646M1M7",
+    "figi": "BBG00646M1P4",
     "isin": "FR0013333432"
   },
-  "industry": "Trading Companies & Distributors",
-  "industry_group": "Capital Goods",
+  "industry": "Industrial Distribution & Rental",
+  "industry_group": "Industrial Goods",
   "isin": "FR0013333432",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "T8DA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "T8DA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "T8DA.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -19,9 +34,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Thermador Groupe SA",
-  "primary_symbol": "THEP.PA",
+  "primary_symbol": "T8DA.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

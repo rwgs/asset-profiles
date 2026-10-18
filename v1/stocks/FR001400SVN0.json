@@ -7,7 +7,7 @@
     "isin": "FR001400SVN0"
   },
   "industry": "Aerospace & Defense",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "FR001400SVN0",
   "kind": "stock",
   "listings": [
@@ -23,6 +23,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2DV0.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALDRV.PA"
     }
@@ -31,7 +36,7 @@
   "name": "Drone Volt SA",
   "primary_symbol": "2DV.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

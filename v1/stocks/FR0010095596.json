@@ -2,30 +2,57 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000HQ54K7",
+    "figi": "BBG000HQ55Z8",
     "isin": "FR0010095596"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "FR0010095596",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
+      "symbol": "ALONX.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
       "symbol": "ALVIO.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "C4X.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "C4X.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "C4X.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "C4X.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Valerio Therapeutics S.A.",
-  "primary_symbol": "ALVIO.PA",
+  "name": "Onxeo SA",
+  "primary_symbol": "ALONX.PA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Headquartered in Paris, France, and founded in 1997, Valerio Therapeutics S.A. (known as Onxeo SA until June 2023) is a clinical-stage biotechnology company dedicated to the global research and development of oncology treatments. Their focus is on targeting the DNA repair processes crucial for tumor survival. The company's offerings include Beleodaq, an approved medication for peripheral T-cell lymphoma. Their development pipeline features AsiDNA, which is progressing through Phase 1 clinical trials for metastatic melanoma and is also being evaluated for relapsed ovarian cancer through a research collaboration with Gustave Roussy. Furthermore, Valerio Therapeutics is advancing OX401, a preclinical program targeting DNA damage response and immuno-oncology, along with its proprietary platON decoy oligonucleotide platform. The firm also holds a licensing agreement with Acrotech Biopharma LLC.",
-  "website": "https://valeriotx.com"
+  "summary": "Onxeo SA, a clinical-stage biotechnology company, designs and develops oncology drugs for tumor DNA repair functions worldwide. The company offers Beleodaq for the treatment of relapsed or refractory peripheral T-cell lymphoma. It also develops AsiDNA, which is in Phase 1 clinical trial for the treatment of metastatic melanoma; OX401, which is in preclinical stage for treating DNA damage response and immuno-oncology; and Validive, which completed Phase II clinical trial for the treatment of oral mucositis in patients treated for a head and neck cancer. Onxeo SA has a collaboration and licensing agreement with Spectrum Pharmaceuticals for the development of Beleodaq; a license agreement with Monopar Therapeutics Inc. to develop Validive; and clinical research agreement with Gustave Roussy to conduct clinical trial of AsiDNA for the treatment of relapsed ovarian cancer. The company was formerly known as BioAlliance Pharma SA and changed its name to Onxeo SA in July 2014. Onxeo SA was founded in 1997 and is headquartered in Paris, France.",
+  "website": "http://www.onxeo.com"
 }

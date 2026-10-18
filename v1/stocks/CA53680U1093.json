@@ -3,11 +3,12 @@
   "country_code": "CA",
   "identifiers": {
     "composite_figi": "BBG002MYF483",
+    "cusip": "53680U109",
     "figi": "BBG002MYF4D7",
     "isin": "CA53680U1093"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA53680U1093",
   "kind": "stock",
   "listings": [
@@ -15,13 +16,28 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA53680U1093.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "LIS.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "LISMF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OGPQ.F"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Lithium South Development Corporation",
   "primary_symbol": "CA53680U1093.SG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

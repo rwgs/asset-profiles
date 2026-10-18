@@ -2,13 +2,18 @@
   "country": "Guernsey",
   "country_code": "GG",
   "identifiers": {
-    "composite_figi": "BBG00MRPN858",
-    "figi": "BBG00MRPN867",
+    "composite_figi": "BBG00YYZCBD8",
+    "figi": "BBG00YYZCBF6",
     "isin": "GG00BR30MJ80"
   },
   "isin": "GG00BR30MJ80",
   "kind": "fund",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9JF.F"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XLON",
@@ -18,18 +23,23 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "HVPE.L"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "HVPQF"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "HarbourVest Global Private Equity Ltd.",
-  "primary_symbol": "HVPD.L",
+  "primary_symbol": "9JF.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "HarbourVest Global Private Equity Ltd. is a closed-end investment company that invests in a globally diversified portfolio of private equity investments. The company provides investors with access to private equity opportunities through primary fund investments, secondary purchases of existing fund interests, and direct co-investments in operating companies. HarbourVest Global Private Equity is based in Guernsey.",
+  "summary": "HarbourVest Global Private Equity Limited is a closed-end investment company that invests in private equity. The company provides access to a diversified portfolio of private equity investments. It is based in Guernsey.",
   "website": "https://www.hvgpe.com"
 }

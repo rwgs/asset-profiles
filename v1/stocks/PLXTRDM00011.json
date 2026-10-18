@@ -2,14 +2,20 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG001CDRVD3",
+    "composite_figi": "BBG00ZHRL1B6",
+    "figi": "BBG00ZHRL1C5",
     "isin": "PLXTRDM00011"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "PLXTRDM00011",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "9PR.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -22,16 +28,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "XTB S.A.",
-  "primary_symbol": "9PR.SG",
+  "name": "X-Trade Brokers Dom Maklerski S.A.",
+  "primary_symbol": "9PR.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "XTB S.A. conducts brokerage activities on exchange and over-the-counter markets. Its services include stocks, ETFs, CFDs, investment plans, savings products, and electronic payment services, delivered through its online investment platform and mobile application.",
-  "website": "https://www.xtb.com"
+  "summary": "X-Trade Brokers Dom Maklerski S.A., together with its subsidiaries, provides currency derivatives, commodities, indices, stocks, and bonds brokerage services in Central and Eastern Europe, Western Europe, and Latin America. It operates in two segments, Retail Operations and Institutional Activity. The company offers its services through xStation 5, xStation mobile, and MetaTrader 4 trading platforms to retail and institutional clients. It also provides investment consulting, and trading derivatives and intermediation services; and trade infrastructure to entities, which offer services of trading in financial instruments for their own customers under their own brand. The company was incorporated in 2002 and is headquartered in Warsaw, Poland. X-Trade Brokers Dom Maklerski S.A. is a subsidiary of XXZW Investment Group S.A.",
+  "website": "http://www.xtb.com/pl"
 }

@@ -6,8 +6,8 @@
     "figi": "BBG000BPS144",
     "isin": "IT0000076536"
   },
-  "industry": "Auto Components",
-  "industry_group": "Capital Goods",
+  "industry": "Auto Parts",
+  "industry_group": "Automotive",
   "isin": "IT0000076536",
   "kind": "stock",
   "listings": [
@@ -29,6 +29,11 @@
     {
       "currency": "EUR",
       "exchange_mic": "XMIL",
+      "symbol": "SGF.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
       "symbol": "SO.MI"
     }
   ],
@@ -36,13 +41,13 @@
   "name": "Sogefi S.p.A.",
   "primary_symbol": "GEF.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Industrials",
+  "sector": "Consumer Discretionary",
   "summary": "Sogefi S.p.A. designs, develops and produces systems and components for the automotive industry. The company operates through two business units: Filtration and Suspensions components. Sogefi has its head office in Italy.",
   "website": "http://www.sogefigroup.com"
 }

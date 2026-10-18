@@ -2,10 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000P9CR90",
+    "figi": "BBG000P9CSJ7",
     "isin": "DE000A0S8488"
   },
-  "industry": "Marine",
-  "industry_group": "Transportation",
+  "industry": "Shipping",
+  "industry_group": "Transport & Logistics",
   "isin": "DE000A0S8488",
   "kind": "stock",
   "listings": [
@@ -61,6 +63,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "HHFA.TI"
     },
     {
@@ -78,7 +81,7 @@
   "name": "Hamburger Hafen und Logistik AG",
   "primary_symbol": "0NBI.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

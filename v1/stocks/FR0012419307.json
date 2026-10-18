@@ -2,13 +2,20 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG003CKMP87",
+    "figi": "BBG0080JW0R5",
     "isin": "FR0012419307"
   },
   "industry": "Entertainment",
-  "industry_group": "Media & Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "FR0012419307",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALFOC.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -16,16 +23,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Pullup Entertainment S.A.",
-  "primary_symbol": "ALPUL.PA",
+  "name": "Focus Home Interactive Societe anonyme",
+  "primary_symbol": "ALFOC.PA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Communications",
-  "summary": "Pullup Entertainment S.A., established in 1995 and headquartered in Paris, France, operates globally as a developer, publisher, and distributor of video games. Their diverse catalog of titles is available across a wide array of systems, including personal computers, mobile devices (Android, iOS, macOS), and numerous gaming consoles such as the PlayStation series (PS3, PS4, PS5), Xbox generations (360, One, Series X/S, and via Xbox Game Pass), and Nintendo Switch. The company makes its games accessible to consumers through both traditional physical retail channels and various digital storefronts and online download platforms.",
-  "website": "https://pullupent.com"
+  "summary": "Focus Home Interactive Société Anonyme publishes and distributes games worldwide. It offers games for various platforms and consoles, such as PS4, XBOX ONE, PS3, XBOX 360, MAC, NINTENDO DS/3DS, PS VITA/PSP, IPHONE/IPAD, and LINUX, as well as for use in PCs. The company distributes its titles through stores, as well as through the downloading platforms. Focus Home Interactive Société Anonyme was founded in 1996 and is based in Paris, France.",
+  "website": "http://www.focus-home.com"
 }

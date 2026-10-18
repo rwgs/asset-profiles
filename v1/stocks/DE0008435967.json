@@ -3,7 +3,7 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BF3CX7",
-    "figi": "BBG000BF3DZ3",
+    "figi": "BBG000BF3GS4",
     "isin": "DE0008435967"
   },
   "industry": "Insurance",
@@ -13,26 +13,51 @@
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "NBG6.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "NBG6.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "NBG6.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "NBG6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "NBG6.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "NBG6.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "NBG6.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "NURNBERGER Beteiligungs-AG",
-  "primary_symbol": "NBG6.DE",
+  "primary_symbol": "NBG6.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "NÜRNBERGER Beteiligungs-AG operates as an insurance company in Germany. The company offers car, motorcycle, oldtimerversicherung, long-term care, protection, life, and pension insurance products; personal, pet owners, home and property owners, watersports, principal's, civil, and waters damage liability, as well as hunting insurance products; and content, homeowners, shell, house and wohnungsschutzbrief, and household glass insurance products. It also provides inshape, seeing and hearing, dental, travel, alternative medicine, around protection, hospitalization, sickness allowance, and private health insurance products; and musical instrument, horse transport, sport boat, luggage, security, valuables, and event insurance products. In addition, the company offers disability, dread disease, and accident insurance products; insurance products for kids and teens, and owners and employees; and invalidity and subsidy insurance products. Further, it provides glass, commercial building, and building services insurance products; building services breakdown, electronics, and photovoltaic insurance products; property damage and IT liability, and D & O insurance products; and intellectual property legal insurance products. Additionally, the company offers transportation, cargo, fleet, and carrier's liability, as well as car insurance products for car wholesalers and electricians; and multi-risk, exhibition, and business insurance products. It serves business customers in the pharmacy, construction, funeral home, heliwesen, wholesale, manufacturing, hotels, restaurants, agriculture, forestry, food trade, crafts, beauty, horse-holding facilities, IT service, and related trades industries, as well as operator of renewable energy plants, medium-sized enterprises, shippers, carriers, organizers, and chamber professions; and private customers. The company was founded in 1884 and is based in Nuremberg, Germany.",
+  "summary": "Nürnberger Beteiligungs-AG is a German insurance group offering a range of insurance products and financial services. The company operates in various segments, including life, health, and property/casualty insurance. It also provides asset management and banking services, and it is based in Nuremberg, Germany.",
   "website": "http://www.nuernberger.de"
 }

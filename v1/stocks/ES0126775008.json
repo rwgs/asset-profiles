@@ -7,7 +7,7 @@
     "isin": "ES0126775008"
   },
   "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry_group": "Household & Personal Care",
   "isin": "ES0126775008",
   "kind": "stock",
   "listings": [
@@ -33,6 +33,21 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DI60.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DI60.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DI60.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMAD",
       "symbol": "DIA.MC"
     },
@@ -46,7 +61,7 @@
   "name": "Distribuidora Internacional de Alimentacion, S.A.",
   "primary_symbol": "DI6.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

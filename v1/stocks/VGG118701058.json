@@ -2,15 +2,20 @@
   "country": "Virgin Islands, British",
   "country_code": "VG",
   "identifiers": {
-    "composite_figi": "BBG00CL5JHQ2",
-    "figi": "BBG00CL5JHS0",
+    "composite_figi": "BBG00ZJZB4D9",
+    "figi": "BBG00ZJZB4F7",
     "isin": "VGG118701058"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "VGG118701058",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "09D.F"
+    },
     {
       "currency": "GBP",
       "exchange_mic": "XLON",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Bluebird Merchant Ventures Limited",
-  "primary_symbol": "BMV.L",
+  "primary_symbol": "09D.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

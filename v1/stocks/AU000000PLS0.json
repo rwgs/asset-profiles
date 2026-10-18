@@ -6,8 +6,8 @@
     "figi": "BBG00CSNQ5H4",
     "isin": "AU000000PLS0"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "AU000000PLS0",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,36 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "PILBF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PLR.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PLR.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PLR.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "PLR.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PLR.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PLR.SG"
     },
     {
       "currency": "AUD",
@@ -26,7 +56,7 @@
   "name": "PLS Group Limited",
   "primary_symbol": "PILBF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -34,5 +64,5 @@
   "schema_version": "1.0.0",
   "sector": "Materials",
   "summary": "PLS Group Limited engages in the exploration, development, and operation of mineral resources in Australia. The company primarily holds a 100% interest in the Pilgangoora lithium-tantalum project located in the Pilbara region of Western Australia. The company was incorporated in 2005 and is headquartered in West Perth, Australia.",
-  "website": "http://www.pilbaraminerals.com.au"
+  "website": "https://www.pls.com"
 }

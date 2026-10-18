@@ -2,15 +2,20 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000DNS7N3",
-    "figi": "BBG000DNS7V4",
+    "composite_figi": "BBG00JHVTW72",
+    "figi": "BBG00JHVTW81",
     "isin": "FR0000075954"
   },
-  "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry": "Semiconductors & Chip Equipment",
+  "industry_group": "Semiconductors",
   "isin": "FR0000075954",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0FT3.L"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -20,13 +25,28 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "RI7.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RI7.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "RIB.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "RIB.VI"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Riber S.A.",
-  "primary_symbol": "ALRIB.PA",
+  "primary_symbol": "0FT3.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

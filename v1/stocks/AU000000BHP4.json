@@ -7,8 +7,8 @@
     "figi": "BBG000BD5SC8",
     "isin": "AU000000BHP4"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "AU000000BHP4",
   "kind": "stock",
   "listings": [
@@ -18,9 +18,19 @@
       "symbol": "BHP"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0HN3.L"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "B1BL34.SA"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "BHG.JO"
     },
     {
       "currency": "AUD",
@@ -33,6 +43,21 @@
       "symbol": "BHP.BA"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BHP.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BHP.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BHP.F"
+    },
+    {
       "currency": "ZAR",
       "exchange_mic": "XJSE",
       "symbol": "BHP.JO"
@@ -41,6 +66,16 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "BHP.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BHP.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BHP.SG"
     },
     {
       "currency": "EUR",
@@ -78,6 +113,11 @@
       "symbol": "BHP1.SG"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "BHPBF"
+    },
+    {
       "currency": "BRL",
       "exchange_mic": "BVMF",
       "symbol": "BHPG34.SA"
@@ -109,6 +149,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BIL.HM"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "BIL1.BE"
     }
@@ -117,7 +162,7 @@
   "name": "BHP Group",
   "primary_symbol": "BHP",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -7,8 +7,8 @@
     "figi": "BBG000BD4KH1",
     "isin": "NL0000226223"
   },
-  "industry": "Semiconductors & Semiconductor Equipment",
-  "industry_group": "Semiconductors & Semiconductor Equipment",
+  "industry": "Semiconductors & Chip Equipment",
+  "industry_group": "Semiconductors",
   "isin": "NL0000226223",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "STM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0INB.IL"
     },
     {
       "currency": "EUR",
@@ -55,7 +60,17 @@
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
+      "symbol": "SGM.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
       "symbol": "SGMR.SG"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "STM.L"
     },
     {
       "currency": "EUR",
@@ -97,7 +112,7 @@
   "name": "STMicroelectronics N.V.",
   "primary_symbol": "STM",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

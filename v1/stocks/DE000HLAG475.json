@@ -2,10 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG00BGYN1K3",
+    "figi": "BBG00BGYN1M1",
     "isin": "DE000HLAG475"
   },
-  "industry": "Marine",
-  "industry_group": "Transportation",
+  "industry": "Shipping",
+  "industry_group": "Transport & Logistics",
   "isin": "DE000HLAG475",
   "kind": "stock",
   "listings": [
@@ -56,6 +58,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "HLAG.TI"
     },
     {
@@ -73,7 +76,7 @@
   "name": "Hapag-Lloyd Aktien",
   "primary_symbol": "0RCG.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

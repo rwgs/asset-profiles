@@ -6,8 +6,8 @@
     "figi": "BBG000BDXDC0",
     "isin": "GB0008481250"
   },
-  "industry": "Commercial Services & Supplies",
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Commercial Services",
+  "industry_group": "Business Services",
   "isin": "GB0008481250",
   "kind": "stock",
   "listings": [
@@ -15,13 +15,23 @@
       "currency": "GBP",
       "exchange_mic": "XLON",
       "symbol": "MEGP.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PHQ.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PHQ.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "ME Group International plc",
   "primary_symbol": "MEGP.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

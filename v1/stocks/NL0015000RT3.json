@@ -2,15 +2,25 @@
   "country": "Isle of Man",
   "country_code": "IM",
   "identifiers": {
-    "composite_figi": "BBG00JHWBFM9",
-    "figi": "BBG00JHWBFR4",
+    "composite_figi": "BBG00LY0BYH0",
+    "figi": "BBG00LY0BYJ8",
     "isin": "NL0015000RT3"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "NL0015000RT3",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0A3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "0A3.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XLON",
@@ -29,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "NEPI Rockcastle plc",
-  "primary_symbol": "0RU4.L",
+  "primary_symbol": "0A3.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

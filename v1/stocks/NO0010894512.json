@@ -2,14 +2,25 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
-    "composite_figi": "BBG00XT0H3M6",
+    "composite_figi": "BBG00XZNR847",
+    "figi": "BBG00XZNR892",
     "isin": "NO0010894512"
   },
   "industry": "Health Care Technology",
-  "industry_group": "Software & Services",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "NO0010894512",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "6Q1.MU"
+    },
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "CSAM.OL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -22,16 +33,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "CSAM HEALTH GROUP AS",
-  "primary_symbol": "NO0010894512.SG",
+  "name": "Omda AS",
+  "primary_symbol": "6Q1.MU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "CSAM HEALTH GROUP AS is a provider of specialized software solutions for healthcare providers. Their software supports critical workflows in hospitals and other healthcare settings. CSAM HEALTH GROUP AS is headquartered in Oslo, Norway.",
-  "website": "http://www.csamhealth.com"
+  "sector": "Health Care",
+  "summary": "CSAM HEALTH GROUP NK 10 is a healthcare IT solutions provider. It offers healthcare information systems and related services to hospitals and other healthcare providers. CSAM Health Group is headquartered in Norway.",
+  "website": "https://omda.com"
 }

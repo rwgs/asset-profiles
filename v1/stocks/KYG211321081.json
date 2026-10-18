@@ -6,8 +6,8 @@
     "figi": "BBG000BH0F05",
     "isin": "KYG211321081"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "KYG211321081",
   "kind": "stock",
   "listings": [
@@ -20,13 +20,23 @@
       "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "CV8S.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CV8S.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CV8S.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "China Vanadium Titano-Magnetite Mining Company Limited",
   "primary_symbol": "0893.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

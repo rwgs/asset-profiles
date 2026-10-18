@@ -6,8 +6,8 @@
     "figi": "BBG000BFP7Z2",
     "isin": "FR0012202497"
   },
-  "industry": "Health Care Equipment & Supplies",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Medical Devices & Supplies",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "FR0012202497",
   "kind": "stock",
   "listings": [
@@ -15,13 +15,18 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALDMS.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DMS1.F"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Diagnostic Medical Systems S.A.",
   "primary_symbol": "ALDMS.PA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

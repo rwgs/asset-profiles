@@ -6,8 +6,8 @@
     "figi": "BBG000LS8J86",
     "isin": "SE0000825820"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Power Producers & Renewables",
+  "industry_group": "Utilities",
   "isin": "SE0000825820",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,11 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "LNDNF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "LYV.BE"
     },
     {
       "currency": "EUR",
@@ -27,6 +32,11 @@
       "symbol": "LYV.F"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "LYV.SG"
+    },
+    {
       "currency": "SEK",
       "exchange_mic": "XSTO",
       "symbol": "ORRON.ST"
@@ -36,13 +46,13 @@
   "name": "Lundin Energy AB (publ)",
   "primary_symbol": "LNDNF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Energy",
+  "sector": "Utilities",
   "summary": "Lundin Energy AB (publ), an independent oil and gas company, engages in the exploration, development, and production of oil and gas properties primarily in Norway. As of December 31, 2020, it had proved plus probable net reserves of 671 million barrels of oil equivalent (MMboe); and proved plus probable plus possible net reserves of 826 MMboe. The company was formerly known as Lundin Petroleum AB (publ) and changed its name to Lundin Energy AB (publ) in March 2020. Lundin Energy AB (publ) was incorporated in 2001 and is headquartered in Stockholm, Sweden.",
-  "website": "http://www.lundin-energy.com"
+  "website": "https://www.orron.com"
 }

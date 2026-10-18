@@ -7,8 +7,8 @@
     "figi": "BBG00JVRLR47",
     "isin": "CA3208901064"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA3208901064",
   "kind": "stock",
   "listings": [
@@ -29,6 +29,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "FMG.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "FMG.F"
     },
@@ -42,7 +47,7 @@
   "name": "First Mining Gold Corp.",
   "primary_symbol": "0P07.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

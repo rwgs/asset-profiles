@@ -6,8 +6,8 @@
     "figi": "BBG000BCGYJ8",
     "isin": "FR0013176526"
   },
-  "industry": "Auto Components",
-  "industry_group": "Automobiles & Components",
+  "industry": "Auto Parts",
+  "industry_group": "Automotive",
   "isin": "FR0013176526",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "FR.PA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "FR.VI"
     },
     {
       "currency": "USD",
@@ -33,15 +38,30 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "VSA2.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "VSA2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VSA2.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ETLX",
+      "symbol": "VSA2.TI"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Valeo SE",
   "primary_symbol": "FR.PA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

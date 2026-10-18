@@ -2,15 +2,25 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG0063MJVB3",
-    "figi": "BBG009H7XGP7",
+    "composite_figi": "BBG00HLDTBW9",
+    "figi": "BBG00HLDTBX8",
     "isin": "FR0011051598"
   },
   "industry": "Chemicals",
-  "industry_group": "Materials",
+  "industry_group": "Basic Materials",
   "isin": "FR0011051598",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "A1H.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "A1H.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -19,9 +29,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Amoeba S.A.",
-  "primary_symbol": "ALMIB.PA",
+  "primary_symbol": "A1H.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

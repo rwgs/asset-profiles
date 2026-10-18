@@ -7,8 +7,8 @@
     "figi": "BBG000C1HP90",
     "isin": "AU000000JHX1"
   },
-  "industry": "Construction Materials",
-  "industry_group": "Materials",
+  "industry": "Building Materials",
+  "industry_group": "Basic Materials",
   "isin": "AU000000JHX1",
   "kind": "stock",
   "listings": [
@@ -33,6 +33,11 @@
       "symbol": "JHA.SG"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "JHA0.F"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "JHIUF"
@@ -47,7 +52,7 @@
   "name": "James Hardie Industries plc",
   "primary_symbol": "JHX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

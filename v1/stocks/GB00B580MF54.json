@@ -4,8 +4,8 @@
   "identifiers": {
     "isin": "GB00B580MF54"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Oil, Gas & Fuels",
+  "industry_group": "Energy Production & Services",
   "isin": "GB00B580MF54",
   "kind": "stock",
   "listings": [
@@ -13,6 +13,11 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "HRCXF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "HUR.BE"
     },
     {
       "currency": "GBP",
@@ -44,7 +49,7 @@
   "name": "Hurricane Energy plc",
   "primary_symbol": "HRCXF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

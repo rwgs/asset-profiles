@@ -8,7 +8,7 @@
     "isin": "US5949181045"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "US5949181045",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "MSFT"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1MSFT.MI"
     },
     {
       "currency": "HKD",
@@ -117,7 +122,7 @@
   "name": "Microsoft Corporation",
   "primary_symbol": "MSFT",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,18 +2,35 @@
   "country": "Cyprus",
   "country_code": "CY",
   "identifiers": {
+    "composite_figi": "BBG0018Q8958",
     "cusip": "560317208",
+    "figi": "BBG0018Q89G6",
     "isin": "US5603172082"
   },
   "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "US5603172082",
   "kind": "stock",
   "listings": [
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "MAIL.IL"
+    },
+    {
       "currency": "RUB",
       "exchange_mic": "MISX",
       "symbol": "MAIL.ME"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "MAIL.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "MAIL.VI"
     },
     {
       "currency": "USD",
@@ -32,6 +49,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "RL9A.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "RL9A.MU"
     },
@@ -43,9 +65,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "VK Company Limited",
-  "primary_symbol": "MAIL.ME",
+  "primary_symbol": "MAIL.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

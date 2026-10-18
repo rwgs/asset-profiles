@@ -5,8 +5,8 @@
     "composite_figi": "BBG000C19SB0",
     "isin": "DE000A289B07"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Networking & Communications Equipment",
+  "industry_group": "Hardware & Electronics",
   "isin": "DE000A289B07",
   "kind": "stock",
   "listings": [
@@ -17,21 +17,46 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "TLIK.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "TLIK.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "TLIK.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "TLIK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "TLIK.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "TLIK.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "TELES AG",
+  "name": "Arzneiwerk AG VIDA",
   "primary_symbol": "DE000A289B07.SG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Communications",
+  "sector": "Information Technology",
   "summary": "TELES AG, headquartered in Berlin, Germany, offers telecommunications solutions, including cloud-based communication platforms and unified communication services for businesses and carriers. They focus on providing innovative and scalable communication technologies to improve business processes. The company's offerings include VoIP, SIP trunking, and collaboration tools.",
-  "website": "http://www.teles.com"
+  "website": "https://www.arzneiwerk.ag"
 }

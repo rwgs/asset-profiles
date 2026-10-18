@@ -2,10 +2,12 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
+    "composite_figi": "BBG000J16M56",
+    "figi": "BBG000J16N90",
     "isin": "ES0148396007"
   },
   "industry": "Specialty Retail",
-  "industry_group": "Retailing",
+  "industry_group": "Retail",
   "isin": "ES0148396007",
   "kind": "stock",
   "listings": [
@@ -13,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0QWI.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1ITX.MI"
     },
     {
       "currency": "USD",
@@ -25,14 +32,59 @@
       "symbol": "ITX.MC"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "ITX.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ITX.VI"
+    },
+    {
       "currency": "PLN",
       "exchange_mic": "XWAR",
       "symbol": "ITX.WA"
     },
     {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "ITXN.MX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IXD1.BE"
+    },
+    {
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "IXD1.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IXD1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IXD1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "IXD1.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "IXD1.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IXD1.MU"
     },
     {
       "currency": "EUR",
@@ -44,7 +96,7 @@
   "name": "Industria de Diseno Textil, S.A.",
   "primary_symbol": "0QWI.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

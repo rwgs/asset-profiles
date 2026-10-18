@@ -8,7 +8,7 @@
     "isin": "US09071M3043"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US09071M3043",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,23 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "BLRX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "YP2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "YP2A.F"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "BioLineRx Ltd.",
   "primary_symbol": "BLRX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

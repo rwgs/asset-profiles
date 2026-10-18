@@ -7,8 +7,8 @@
     "figi": "BBG001QVSNG2",
     "isin": "CA29269R1055"
   },
-  "industry": "Food & Staples Retailing",
-  "industry_group": "Food & Staples Retailing",
+  "industry": "Oilfield Services & Equipment",
+  "industry_group": "Energy Production & Services",
   "isin": "CA29269R1055",
   "kind": "stock",
   "listings": [
@@ -18,22 +18,32 @@
       "symbol": "EFXT"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "7EX.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "7EX.SG"
+    },
+    {
       "currency": "CAD",
       "exchange_mic": "XTSE",
       "symbol": "EFX.TO"
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Enerflex Ltd Common Shares",
+  "name": "Enerflex Ltd",
   "primary_symbol": "EFXT",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Consumer Staples",
+  "sector": "Energy",
   "summary": "Enerflex Ltd. provides energy infrastructure solutions to the global energy industry, offering a comprehensive range of natural gas compression, processing, refrigeration, and power generation equipment and services. The company operates in several regions, including North America, Latin America, and the Middle East. Enerflex is headquartered in Calgary, Alberta, Canada.",
   "website": "https://www.enerflex.com"
 }

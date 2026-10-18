@@ -2,15 +2,25 @@
   "country": "Australia",
   "country_code": "AU",
   "identifiers": {
-    "composite_figi": "BBG000GJN3T7",
-    "figi": "BBG000GJN3T7",
+    "composite_figi": "BBG000BBBC67",
+    "figi": "BBG000BBBCK1",
     "isin": "AU0000487795"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "AU0000487795",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "HGO.AX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HIN.F"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -24,15 +34,15 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Kantra Copper Ltd",
-  "primary_symbol": "HLGVF",
+  "primary_symbol": "HGO.AX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Kantra Copper Ltd engages in the operation, exploration, and development of mineral properties in Australia. It primarily explores for copper, gold, and silver deposits. The company's project is the Kanmantoo Copper mine located approximately 55 kilometres from Adelaide, South Australia; and owns an 80% interest in the Mutooroo Copper Project in South Australia's Curnamona Province. The company was formerly know as Hillgrove Resources Limited and change its name to Kantra Copper Ltd in August 2026. Kantra Copper Ltd was incorporated in 2000 and is headquartered in Unley, Australia.",
+  "summary": "Kantra Copper Ltd. is an Australian mining company focused on mining the Kanmantoo Underground Copper Mine in South Australia and mineral exploration in the south-east of South Australia. Its project includes Kanmantoo Mineral Resource and Mutooroo Copper. The company was founded on March 24, 1952 and is headquartered in Adelaide, Australia.",
   "website": "https://kantra.com"
 }

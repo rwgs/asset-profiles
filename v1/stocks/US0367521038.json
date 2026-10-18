@@ -7,8 +7,8 @@
     "figi": "BBG000BCG930",
     "isin": "US0367521038"
   },
-  "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Health Care Providers",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "US0367521038",
   "kind": "stock",
   "listings": [
@@ -21,13 +21,48 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HG8.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "A58.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "A58.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "A58.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "A58.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "A58.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "A58.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "ANTM.VI"
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Elevance Health Inc. Common Stock",
+  "name": "Elevance Health Inc.",
   "primary_symbol": "ELV",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

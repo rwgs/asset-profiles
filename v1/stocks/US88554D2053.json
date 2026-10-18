@@ -7,8 +7,8 @@
     "figi": "BBG000D42HN1",
     "isin": "US88554D2053"
   },
-  "industry": "Technology Hardware, Storage & Peripherals",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Computers & Hardware",
+  "industry_group": "Hardware & Electronics",
   "isin": "US88554D2053",
   "kind": "stock",
   "listings": [
@@ -23,6 +23,11 @@
       "symbol": "0QYH.L"
     },
     {
+      "currency": "AUD",
+      "exchange_mic": "XASX",
+      "symbol": "DDD.AX"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "DDD.MX"
@@ -34,8 +39,18 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SYV.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "SYV.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "SYV.DU"
     },
     {
       "currency": "EUR",
@@ -44,6 +59,27 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "SYV.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "SYV.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SYV.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SYV.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "SYV.TI"
     }
   ],
@@ -51,7 +87,7 @@
   "name": "3D Systems Corporation",
   "primary_symbol": "DDD",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,15 +2,20 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG0019K1G33",
-    "figi": "BBG0019K1G33",
+    "composite_figi": "BBG000PT6SS0",
+    "figi": "BBG000PT6TY1",
     "isin": "BMG215A42065"
   },
   "industry": "Beverages",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "BMG215A42065",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "HKD",
+      "exchange_mic": "XHKG",
+      "symbol": "0389.HK"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "China Tontine Wines Group Limited",
-  "primary_symbol": "CATWF",
+  "primary_symbol": "0389.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -8,7 +8,7 @@
     "isin": "JP3854600008"
   },
   "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Automotive",
   "isin": "JP3854600008",
   "kind": "stock",
   "listings": [
@@ -63,6 +63,16 @@
       "symbol": "HDM.SG"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HDMA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HDMA.SG"
+    },
+    {
       "currency": "ARS",
       "exchange_mic": "XBUE",
       "symbol": "HMC.BA"
@@ -82,7 +92,7 @@
   "name": "Honda Motor Co., Ltd.",
   "primary_symbol": "HMC",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

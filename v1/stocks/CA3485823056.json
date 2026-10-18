@@ -2,33 +2,43 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG000C995D1",
+    "composite_figi": "BBG000C7C7R2",
     "cusip": "348582305",
-    "figi": "BBG000C995D1",
+    "figi": "BBG000C7CB11",
     "isin": "CA3485823056"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA3485823056",
   "kind": "stock",
   "listings": [
     {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "FTJ.V"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "OARFF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "WL3P.F"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Fort St. James Nickel Corp.",
-  "primary_symbol": "OARFF",
+  "primary_symbol": "FTJ.V",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Materials",
-  "summary": "Fort St. James Nickel Corp. operates as an emerging mineral exploration enterprise dedicated to identifying, assessing, and developing resource properties throughout North America. Its primary focus lies in the discovery of nickel deposits. The company holds outright ownership of the Kilometer 26 property, an area covering 5,778 hectares located in British Columbia's Omineca Mining Division. Additionally, it has secured an option to purchase the Porcupine property, situated in New Brunswick, and has entered into a definitive agreement to acquire full control of the Nepisiguit Property, also found in New Brunswick. Established in 1988, the firm's principal office is located in Vancouver, Canada.",
-  "website": "https://ftjminerals.com"
+  "summary": "Fort St. James Nickel Corp., a junior mineral exploration company, engages in the acquisition, evaluation, and exploration of mineral properties in North America. It explores for nickel deposits. The company holds a 100% interest in the Kilometer 26 property consisting of 5,778 hectares in the Omineca Mining Division, British Columbia. Fort St. James Nickel Corp. was incorporated in 1988 and is based in Vancouver, Canada.",
+  "website": "http://ftjminerals.com"
 }

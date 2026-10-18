@@ -2,14 +2,26 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
+    "composite_figi": "BBG00FQRD548",
     "cusip": "135870202",
+    "figi": "BBG00FQRD557",
     "isin": "CA1358702027"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA1358702027",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "A68.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "A68.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -38,9 +50,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Canadian GoldCamps Corp.",
-  "primary_symbol": "A681.BE",
+  "primary_symbol": "A68.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

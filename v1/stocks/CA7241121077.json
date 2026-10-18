@@ -1,25 +1,37 @@
 {
-  "country": "Canada",
-  "country_code": "CA",
+  "country": "United States",
+  "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000LGJCN8",
+    "composite_figi": "BBG004H0WV17",
+    "cusip": "724112107",
+    "figi": "BBG004H0WV26",
     "isin": "CA7241121077"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Oil, Gas & Fuels",
+  "industry_group": "Energy Production & Services",
   "isin": "CA7241121077",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "2LA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CA7241121077.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSE",
+      "symbol": "PIPE.TO"
     }
   ],
   "name": "Pipestone Energy",
-  "primary_symbol": "CA7241121077.SG",
+  "primary_symbol": "2LA.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

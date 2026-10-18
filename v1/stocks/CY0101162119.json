@@ -2,15 +2,20 @@
   "country": "Cyprus",
   "country_code": "CY",
   "identifiers": {
-    "composite_figi": "BBG000KPC6C1",
-    "figi": "BBG000KPD8T8",
+    "composite_figi": "BBG000PFYKQ8",
+    "figi": "BBG000PFYNK8",
     "isin": "CY0101162119"
   },
-  "industry": "Energy Equipment & Services",
-  "industry_group": "Energy",
+  "industry": "Oilfield Services & Equipment",
+  "industry_group": "Energy Production & Services",
   "isin": "CY0101162119",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "E36.MU"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -18,16 +23,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "SED Energy Holdings Plc",
-  "primary_symbol": "ENH.OL",
+  "name": "SEABIRD EXPLO. DL 0,2",
+  "primary_symbol": "E36.MU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Energy",
-  "summary": "SED Energy Holdings Plc, headquartered in Nicosia, Cyprus, specializes in the acquisition and processing of marine seismic data for the global oil and gas sector. The company's operational reach extends across Europe, Africa, the Middle East, North and South America, and the Asia Pacific. Its comprehensive service offerings include 2D seismic surveys and the deployment of advanced source vessels capable of various specialized tasks, such as conventional undershoot, 4D repeat surveys, wide azimuth projects, and push-reverse techniques. Additionally, they provide long-term vessel chartering and management, in-house source modelling, environmental decay analysis, and spot charter services. Beyond seismic operations, SED Energy Holdings also owns and manages tender-assisted drilling rigs. The firm conducts a range of seismic surveys, including 2D, source, and niche 3D, crucial for supporting offshore exploration and development initiatives. It manages the entire lifecycle of seismic projects and operates a specialized fleet of seismic vessels designed for efficient data acquisition and operational effectiveness.",
+  "summary": "SeaBird Exploration PLC is a marine seismic company providing 2D, 3D, and 4D seismic data services to the oil and gas industry. The company operates a fleet of seismic vessels and offers a range of services, including data acquisition, processing, and interpretation, and is headquartered in Cyprus. SeaBird Exploration focuses on providing high-quality seismic data to help oil and gas companies explore for and develop hydrocarbon resources.",
   "website": "https://www.energyholdings.cy"
 }

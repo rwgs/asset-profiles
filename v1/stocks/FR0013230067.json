@@ -2,11 +2,19 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "figi": "BBG00FWN3KZ4",
     "isin": "FR0013230067"
   },
+  "industry": "Software",
+  "industry_group": "Software & IT Services",
   "isin": "FR0013230067",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "MLFNP.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -14,15 +22,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "SA Multimicrocloud",
-  "primary_symbol": "MLMMC.PA",
+  "name": "FNP Technologies SA",
+  "primary_symbol": "MLFNP.PA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "summary": "MultiMicroCloud SA is a French-based software developer, specializing in creating Software-as-a-Service (SaaS) solutions that leverage both cloud and mobile technologies. Their platforms are primarily designed for the hotel and restaurant industry, streamlining various aspects of business management, particularly reservation and booking processes. What sets their offering apart is a distinctive unified solution that integrates three essential hospitality functions: a Property Management System (PMS) for reservation and billing, a multi-channel Booking Engine for broad distribution, and a Yield management system for strategic decision support.",
-  "website": "http://www.multimicro.fr"
+  "sector": "Information Technology",
+  "summary": "FNP Technologies SA provides software development, computer networks, and training and assistance services to the hotel industry. It offers FlipNpik, a collaborative social network to promote local businesses; and MAST, a software for reservation and billing management, multi-channel distribution, and decision support. The company was formerly known as Multimicrocloud SA and changed its name to FNP Technologies SA in July 2021. FNP Technologies SA was founded in 1986 and is based in Valbonne, France.",
+  "website": "https://www.fnptechnologies.com"
 }

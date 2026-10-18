@@ -1,13 +1,13 @@
 {
-  "country": "United States",
-  "country_code": "US",
+  "country": "Luxembourg",
+  "country_code": "LU",
   "identifiers": {
     "composite_figi": "BBG000Q5LWL2",
     "figi": "BBG000Q5M013",
     "isin": "LU0472835155"
   },
-  "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Electronic Components & Instruments",
+  "industry_group": "Hardware & Electronics",
   "isin": "LU0472835155",
   "kind": "stock",
   "listings": [
@@ -45,13 +45,33 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "H2A.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "H2A.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "H2A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "H2A.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "H2A.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "exceet Group SCA",
   "primary_symbol": "EXC.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

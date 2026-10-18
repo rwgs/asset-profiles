@@ -6,8 +6,8 @@
     "figi": "BBG00NRVXJR4",
     "isin": "DE0005550602"
   },
-  "industry": "Health Care Equipment & Supplies",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Medical Devices & Supplies",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "DE0005550602",
   "kind": "stock",
   "listings": [
@@ -23,15 +23,50 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DRW8.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "DRW8.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "DRW8.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DRW8.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "DRW8.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "DRW8.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "DRW8.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DRW8.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Drägerwerk AG & Co. KGaA",
   "primary_symbol": "0MT8.L",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

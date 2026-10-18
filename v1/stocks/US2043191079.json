@@ -4,14 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG000GKR6V0",
     "cusip": "204319107",
-    "figi": "BBG000GKR6V0",
+    "figi": "BBG000GKSKH4",
     "isin": "US2043191079"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Apparel & Luxury Goods",
+  "industry_group": "Consumer Goods & Apparel",
   "isin": "US2043191079",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "CFRSF"
+    },
     {
       "currency": "USD",
       "exchange_mic": "OTCM",
@@ -20,9 +25,9 @@
   ],
   "market_cap_band": "Large Cap",
   "name": "Compagnie Financiere Richemont SA",
-  "primary_symbol": "CFRUY",
+  "primary_symbol": "CFRSF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

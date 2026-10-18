@@ -7,7 +7,7 @@
     "figi": "BBG000BBKXD3",
     "isin": "US2044096012"
   },
-  "industry": "Multi-Utilities",
+  "industry": "Electric Utilities",
   "industry_group": "Utilities",
   "isin": "US2044096012",
   "kind": "stock",
@@ -19,15 +19,35 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "CID.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CID.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CID.MU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "CID.SG"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "CIGN.MX"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Companhia Energetica de Minas Gerais",
   "primary_symbol": "CIG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

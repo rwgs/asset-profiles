@@ -7,8 +7,8 @@
     "figi": "BBG000BS5F97",
     "isin": "US1011211018"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Office REITs",
+  "industry_group": "REITs",
   "isin": "US1011211018",
   "kind": "stock",
   "listings": [
@@ -21,13 +21,38 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0HOX.L"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BO9.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BO9.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BO9.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BO9.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BO9.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "BXP, Inc.",
   "primary_symbol": "BXP",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

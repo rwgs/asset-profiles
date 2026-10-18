@@ -6,8 +6,8 @@
     "figi": "BBG000BX0XR2",
     "isin": "AU0000310302"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "AU0000310302",
   "kind": "stock",
   "listings": [
@@ -20,13 +20,28 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "FYIRF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "SDL.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SDL.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SDL.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Cadoux Limited",
   "primary_symbol": "CCM.AX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

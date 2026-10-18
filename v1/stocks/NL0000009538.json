@@ -7,8 +7,8 @@
     "figi": "BBG000BR4SZ3",
     "isin": "NL0000009538"
   },
-  "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Medical Devices & Supplies",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "NL0000009538",
   "kind": "stock",
   "listings": [
@@ -21,6 +21,16 @@
       "currency": "USD",
       "exchange_mic": "XLON",
       "symbol": "0A2M.IL"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0LNG.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1PHIA.MI"
     },
     {
       "currency": "ARS",
@@ -74,8 +84,33 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PHIA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PHIA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PHIA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMIL",
       "symbol": "PHIA.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PHIA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PHIA.SG"
     },
     {
       "currency": "EUR",
@@ -97,7 +132,7 @@
   "name": "Koninklijke Philips N.V.",
   "primary_symbol": "PHG",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,15 +2,18 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BK56X7",
-    "figi": "BBG000BK59L4",
     "isin": "FR0000131104"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "FR0000131104",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1BNP.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -68,6 +71,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "BNP.TI"
     },
     {
@@ -87,16 +91,16 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "BNP Paribas S.A. Class A",
-  "primary_symbol": "BNP.BE",
+  "name": "BNP Paribas",
+  "primary_symbol": "1BNP.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "BNP Paribas is a French international banking and financial services company. It provides a wide range of financial products and services to individuals, corporates, and institutions, including retail banking, investment banking, asset management, and insurance. The company's headquarters are located in Paris, France.",
+  "summary": "BNP Paribas SA provides a range of banking and financial services in France and internationally. It operates through two divisions, Retail Banking and Services, and Corporate and Institutional Banking. The company offers long-term corporate vehicle leasing, and rental and other financing solutions; and digital banking and investment services, cash management, and factoring services to corporate clients, as well as wealth management services. It also provides credit solutions for individuals under the Cetelem, Cofinoga, Findomestic, AlphaCredit, and Opel Vauxhall brands; savings and protection solutions, including insuring individuals, and their personal projects and assets; and asset management, private banking, and real estate services. In addition, the company offers global market services, including investment, hedging, financing, research, and market intellingence across asset classes; security services comprising clearing, custody, and asset and fund services, as well as corporate trust, and market and financing services; and corporate trade and treasury, debt financing, specialized financing, strategic advisory, mergers and acquisition, and equity capital market services for institutional and corporate clients. The company was formerly known as Banque Nationale de Paris and changed its name to BNP Paribas SA in May 2000. BNP Paribas SA was founded in 1848 and is headquartered in Paris, France.",
   "website": "http://group.bnpparibas"
 }

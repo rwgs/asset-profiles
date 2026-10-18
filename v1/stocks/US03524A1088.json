@@ -2,11 +2,13 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
+    "composite_figi": "BBG00PSSKT51",
     "cusip": "03524A108",
+    "figi": "BBG00PSSKT60",
     "isin": "US03524A1088"
   },
   "industry": "Beverages",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "US03524A1088",
   "kind": "stock",
   "listings": [
@@ -27,6 +29,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "ITKA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "ITKA.MU"
     },
@@ -40,7 +47,7 @@
   "name": "Anheuser-Busch InBev SA/NV Sponsored ADR",
   "primary_symbol": "0A22.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

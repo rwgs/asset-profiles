@@ -6,8 +6,8 @@
     "figi": "BBG000BQ9JC5",
     "isin": "DE000A3EYLC7"
   },
-  "industry": "Banks",
-  "industry_group": "Banks",
+  "industry": "Capital Markets",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "DE000A3EYLC7",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "MWB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "MWB.DE"
     },
     {
       "currency": "EUR",
@@ -45,13 +50,38 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "MWB0.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "MWB0.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "MWB0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "MWB0.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MWB0.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "MWB0.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "mwb fairtrade Wertpapierhandelsbank AG",
   "primary_symbol": "MWB.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

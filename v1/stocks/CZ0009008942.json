@@ -3,14 +3,24 @@
   "country_code": "CZ",
   "identifiers": {
     "composite_figi": "BBG00ZMGK376",
-    "figi": "BBG00ZMGK3C0",
+    "figi": "BBG00ZMGK385",
     "isin": "CZ0009008942"
   },
   "industry": "Aerospace & Defense",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "CZ0009008942",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6QS.F"
+    },
+    {
+      "currency": "CZK",
+      "exchange_mic": "XPRA",
+      "symbol": "COLT.PR"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -29,9 +39,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Colt CZ Group SE",
-  "primary_symbol": "CZ0009008942.SG",
+  "primary_symbol": "6QS.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -39,5 +49,5 @@
   "schema_version": "1.0.0",
   "sector": "Industrials",
   "summary": "Colt CZ Group SE, together with its subsidiaries, engages in the production, purchase, and sale of firearms, ammunition products, and tactical accessories in the Czech Republic, the United States, Europe, Africa, Asia, and internationally. It is also involved in the leasing of real estate properties; trading of military materials; production of scope mounts; and operation of an academy for shooting training for sport shooters and government bodies. The company markets and sells its products under the Ceská zbrojovka, CZ-USA, Dan Wesson, Zbrojovka Brno, and 4M Systems brands. It sells its products for military and law enforcement, personal defense, hunting, sport shooting, and other civilian uses. The company was formerly known as EHC CZUB, SE and changed its name to Colt CZ Group SE in June 2019. The company was founded in 1936 and is headquartered in Prague, the Czech Republic. Colt CZ Group SE is a subsidiary of Ceska Zbrojovka Partners SE.",
-  "website": "http://www.czg.cz"
+  "website": "https://www.coltczgroup.com"
 }

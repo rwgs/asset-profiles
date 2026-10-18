@@ -2,19 +2,64 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
-    "composite_figi": "BBG000C03WJ1",
-    "figi": "BBG000C03ZF8",
+    "composite_figi": "BBG000KNWJR0",
+    "figi": "BBG000KNWKJ6",
     "isin": "DE000KC01000"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Industrial Distribution & Rental",
+  "industry_group": "Industrial Goods",
   "isin": "DE000KC01000",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0KVR.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "KCO.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "KCO.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "KCO.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "KCO.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "KCO.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "KCO.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "KCO.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "KCO.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "KCO.VI"
     },
     {
       "currency": "USD",
@@ -23,16 +68,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Klöckner & Co SE",
-  "primary_symbol": "KCO.DE",
+  "name": "Klockner & Co SE",
+  "primary_symbol": "0KVR.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Materials",
-  "summary": "Klöckner & Co SE, through its subsidiaries, distributes steel and metal products. It operates through Kloeckner Metals US, Kloeckner Metals Services Europe, Kloeckner Metals Switzerland, and Kloeckner Metals Distribution Europe segments. The company's product portfolio includes flat steel products; long steel products; tubes and hollow sections; stainless steel and high-grade steel; aluminum products; and special products for building installations, roof and wall construction, and water supply. It also provides various services, including cutting and splitting of steel strips; forming and manufacturing of pressed parts; CNC turning/milling; 2D/3D tube laser cutting; laser and water jet cutting; processing of structural steel; plasma and oxy-fuel cutting; shot blasting and primer painting; and sawing/drilling/rounding off. In addition, the company offers warehousing, logistics, and materials management services. It serves small to medium-sized steel and metal consumers, primarily from the construction industry, as well as machinery and mechanical engineering industries; and supplies intermediate products for the automotive, shipbuilding, and consumer goods industries. The company was founded in 1906 and is headquartered in Duisburg, Germany.",
+  "sector": "Industrials",
+  "summary": "Klöckner & Co SE is a German-based independent distributor of steel and metal products and one of the leading producers in the steel industry. The company provides a range of products and services including warehousing, processing, and distribution. Klöckner & Co is headquartered in Duisburg, Germany.",
   "website": "http://www.kloeckner.com"
 }

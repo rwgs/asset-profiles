@@ -2,13 +2,35 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000V0LR38",
+    "figi": "BBG000V0LT43",
     "isin": "FR0004153930"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "FR0004153930",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "3HB.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3HB.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "3HB.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XPAR",
+      "symbol": "ALHYG.PA"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XPAR",
@@ -16,16 +38,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Aton",
-  "primary_symbol": "ALTAO.PA",
+  "name": "Hybrigenics Societe Anonyme",
+  "primary_symbol": "3HB.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "Based in France, Aton operates as a bioscience enterprise, with its headquarters located in Strasbourg. Established in 1998, the company's extensive operations encompass pharmaceutical research and development, the provision of preclinical and clinical services, and the creation of monoclonal antibodies. Additionally, Aton manufactures laboratory equipment, designs and produces various medical devices—including specialized surgical instruments powered by Stemcis technology—and supplies human tissues.",
-  "website": "https://www.aton-group.com"
+  "summary": "Hybrigenics S.A. is a French biopharmaceutical company focused on the discovery and development of new therapies against cancer and other diseases. The company uses its high-throughput screening platform to identify and develop drug candidates. Hybrigenics is headquartered in Paris, France.",
+  "website": "http://www.hybrigenics.com"
 }

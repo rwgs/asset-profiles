@@ -3,14 +3,19 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000BCKTW9",
-    "figi": "BBG000BCKW98",
+    "figi": "BBG000BCKXG8",
     "isin": "DE0005498901"
   },
-  "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Technology Hardware & Equipment",
+  "industry": "Electronic Components & Instruments",
+  "industry_group": "Hardware & Electronics",
   "isin": "DE0005498901",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "DAM.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -35,19 +40,24 @@
       "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "DAM.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "DAM.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "DATA MODUL Aktiengesellschaft, Produktion und Vertrieb von elektronischen Systemen",
-  "primary_symbol": "DAM.DE",
+  "primary_symbol": "DAM.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "DATA MODUL Aktiengesellschaft, Produktion und Vertrieb von elektronischen Systemen develops, manufactures, and distributes flatbed displays, monitors, electronic subassemblies, and information systems. It operates through two segments, Displays and Systems. The company manufactures and distributes TFT, touch, passive, epaper, customized, memory-in-pixel, and OLED displays. It also provides projected capacitive touch solutions, resistive touch screens, touch panels and controller solutions, optical human machine interface components and solutions, and optical bonding; and LCD controller boards, CPU boards, and embedded box PCs, as well as embedded computing design services. In addition, the company offers various monitors, panel PC solutions, and passenger information systems, as well as develops customized system solutions for various applications. It primarily serves customers in the mechanical engineering, medical device technology, automotive, industrial automation, and gaming industries in Germany and internationally. The company was founded in 1972 and is headquartered in Munich, Germany. DATA MODUL Aktiengesellschaft, Produktion und Vertrieb von elektronischen Systemen is a subsidiary of Arrow Central Europe Holding Munich GmbH.",
+  "summary": "DATA MODUL AG is a German company that develops, manufactures, and distributes display solutions, embedded systems, and touch solutions. The company serves customers in various industries, including industrial automation, medical technology, and transportation. DATA MODUL AG is headquartered in Munich, Germany.",
   "website": "http://www.data-modul.com"
 }

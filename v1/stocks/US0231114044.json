@@ -7,8 +7,8 @@
     "figi": "BBG000BPYG99",
     "isin": "US0231114044"
   },
-  "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry": "Pharmaceuticals",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US0231114044",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,48 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "AMRN"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EH3.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EH3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EH3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "EH3A.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "EH3A.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "EH3A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "EH3A.MU"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "Amarin Corporation plc",
   "primary_symbol": "AMRN",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

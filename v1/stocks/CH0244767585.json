@@ -8,7 +8,7 @@
     "isin": "CH0244767585"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "CH0244767585",
   "kind": "stock",
   "listings": [
@@ -28,6 +28,11 @@
       "symbol": "UBSG34.SA"
     },
     {
+      "currency": "CHF",
+      "exchange_mic": "XSWX",
+      "symbol": "UBSGEE.SW"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "UBSN.MX"
@@ -37,7 +42,7 @@
   "name": "UBS Group AG",
   "primary_symbol": "UBS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

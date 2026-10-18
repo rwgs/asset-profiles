@@ -7,7 +7,7 @@
     "isin": "FR0000120966"
   },
   "industry": "Household Products",
-  "industry_group": "Household & Personal Products",
+  "industry_group": "Household & Personal Care",
   "isin": "FR0000120966",
   "kind": "stock",
   "listings": [
@@ -33,15 +33,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BIF.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMUN",
       "symbol": "BIF.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BIF.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Societe BIC SA",
   "primary_symbol": "BB.PA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

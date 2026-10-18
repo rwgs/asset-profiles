@@ -2,15 +2,20 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00BKSPTJ0",
-    "figi": "BBG00BKSPTK8",
+    "composite_figi": "BBG00BLWKD46",
+    "figi": "BBG00BLWKD91",
     "isin": "CNE1000023C8"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "CNE1000023C8",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "2E5.MU"
+    },
     {
       "currency": "HKD",
       "exchange_mic": "XHKG",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "China Energy Engineering Corporation Limited",
-  "primary_symbol": "3996.HK",
+  "primary_symbol": "2E5.MU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

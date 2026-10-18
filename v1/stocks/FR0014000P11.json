@@ -3,14 +3,19 @@
   "country_code": "FR",
   "identifiers": {
     "composite_figi": "BBG00YHKJCC2",
-    "figi": "BBG00YHKJCD1",
+    "figi": "BBG00YHKJCF9",
     "isin": "FR0014000P11"
   },
-  "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry": "Industrial Distribution & Rental",
+  "industry_group": "Industrial Goods",
   "isin": "FR0014000P11",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "6WW.DU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -28,10 +33,10 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "WINFARM Societe anonyme",
-  "primary_symbol": "6WW.F",
+  "name": "Winfarm S.A.",
+  "primary_symbol": "6WW.DU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -39,5 +44,5 @@
   "schema_version": "1.0.0",
   "sector": "Industrials",
   "summary": "WINFARM Société anonyme provides a range of consulting and distance selling services for equipment and solutions to breeders and the agricultural worldwide. The company is headquartered in Loudéac, France.",
-  "website": "http://investir.winfarm-group.com"
+  "website": "https://www.winfarm-group.com"
 }

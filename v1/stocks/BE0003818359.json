@@ -2,19 +2,59 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG000FVZZN3",
-    "figi": "BBG000FVZZN3",
+    "composite_figi": "BBG000F8Z6P6",
+    "figi": "BBG000F8Z7J1",
     "isin": "BE0003818359"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "BE0003818359",
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XAMS",
+      "symbol": "GLPG.AS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XWBO",
+      "symbol": "GLPG.VI"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "GLPGF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "GXE.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "GXE.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "GXE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GXE.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "GXE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "GXE.SG"
     },
     {
       "currency": "EUR",
@@ -24,9 +64,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Lakefront Biotherapeutics",
-  "primary_symbol": "GLPGF",
+  "primary_symbol": "GLPG.AS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

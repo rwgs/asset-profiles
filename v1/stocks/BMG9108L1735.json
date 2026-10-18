@@ -3,14 +3,19 @@
   "country_code": "GR",
   "identifiers": {
     "composite_figi": "BBG000BRM155",
-    "figi": "BBG000BRM333",
+    "figi": "BBG000BRM155",
     "isin": "BMG9108L1735"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Oil, Gas & Fuels",
+  "industry_group": "Energy Production & Services",
   "isin": "BMG9108L1735",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "TEN"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -20,13 +25,18 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "BMG9108L1735.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "TK41.F"
     }
   ],
-  "market_cap_band": "Nano Cap",
+  "market_cap_band": "Small Cap",
   "name": "Tsakos Energy Navigation Limited",
-  "primary_symbol": "TNP",
+  "primary_symbol": "TEN",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

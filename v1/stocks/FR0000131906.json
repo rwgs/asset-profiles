@@ -2,15 +2,18 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
-    "composite_figi": "BBG000BFHY55",
-    "figi": "BBG000BFHZ89",
     "isin": "FR0000131906"
   },
   "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Automotive",
   "isin": "FR0000131906",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1RNO.MI"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XETR",
@@ -69,9 +72,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Renault SA",
-  "primary_symbol": "RNL.DE",
+  "primary_symbol": "1RNO.MI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

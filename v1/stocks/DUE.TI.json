@@ -1,20 +1,39 @@
 {
   "country": "Germany",
   "country_code": "DE",
+  "identifiers": {
+    "cusip": "266888106"
+  },
   "industry": "Machinery",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "DUE.TI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "DUEB.F"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "DURYY"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "US2668881061.SG"
     }
   ],
   "market_cap_band": "Small Cap",
   "name": "Durr Aktiengesellschaft",
   "primary_symbol": "DUE.TI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

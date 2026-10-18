@@ -2,15 +2,20 @@
   "country": "China",
   "country_code": "CN",
   "identifiers": {
-    "composite_figi": "BBG00DDS5ZS2",
-    "figi": "BBG00DDS5ZT1",
+    "composite_figi": "BBG00R24H8D9",
+    "figi": "BBG00R24H8F7",
     "isin": "KYG9898S1075"
   },
-  "industry": "Independent Power and Renewable Electricity Producers",
+  "industry": "Power Producers & Renewables",
   "industry_group": "Utilities",
   "isin": "KYG9898S1075",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3UG.F"
+    },
     {
       "currency": "SGD",
       "exchange_mic": "XSES",
@@ -19,9 +24,9 @@
   ],
   "market_cap_band": "Small Cap",
   "name": "Zheneng Jinjiang Environment Holding Company Limited",
-  "primary_symbol": "BWM.SI",
+  "primary_symbol": "3UG.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

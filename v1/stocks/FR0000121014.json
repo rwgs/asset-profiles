@@ -2,10 +2,12 @@
   "country": "France",
   "country_code": "FR",
   "identifiers": {
+    "composite_figi": "BBG000R2HJ50",
+    "figi": "BBG000R2HJJ5",
     "isin": "FR0000121014"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Apparel & Luxury Goods",
+  "industry_group": "Consumer Goods & Apparel",
   "isin": "FR0000121014",
   "kind": "stock",
   "listings": [
@@ -13,6 +15,11 @@
       "currency": "EUR",
       "exchange_mic": "XLON",
       "symbol": "0HAU.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1MC.MI"
     },
     {
       "currency": "EUR",
@@ -89,7 +96,7 @@
   "name": "LVMH Moët Hennessy - Louis Vuitton, Societe Europeenne",
   "primary_symbol": "0HAU.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

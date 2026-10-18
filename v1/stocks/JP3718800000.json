@@ -7,7 +7,7 @@
     "isin": "JP3718800000"
   },
   "industry": "Food Products",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "JP3718800000",
   "kind": "stock",
   "listings": [
@@ -15,13 +15,28 @@
       "currency": "JPY",
       "exchange_mic": "XJPX",
       "symbol": "1332.T"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "71N.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "71N.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "71N.SG"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Nissui Corporation",
   "primary_symbol": "1332.T",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

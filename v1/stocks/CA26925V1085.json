@@ -7,8 +7,8 @@
     "figi": "BBG00GXFPFS3",
     "isin": "CA26925V1085"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA26925V1085",
   "kind": "stock",
   "listings": [
@@ -41,13 +41,28 @@
       "currency": "EUR",
       "exchange_mic": "XSTU",
       "symbol": "OU7A.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "OW3.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "OW3.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "OW3.SG"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "E3 Metals Corp.",
   "primary_symbol": "EEMMF",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

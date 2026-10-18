@@ -6,8 +6,8 @@
     "figi": "BBG000BS3CD1",
     "isin": "DE000FRE5EN2"
   },
-  "industry": "Health Care Providers & Services",
-  "industry_group": "Health Care Equipment & Services",
+  "industry": "Health Care Providers",
+  "industry_group": "Health Care Equipment & Providers",
   "isin": "DE000FRE5EN2",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,31 @@
       "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "FRE.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "FRE.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "FRE.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "FRE.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "FRE.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "FRE.SG"
     },
     {
       "currency": "USD",
@@ -26,7 +51,7 @@
   "name": "Fresenius SE & Co. KGaA",
   "primary_symbol": "FRE.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

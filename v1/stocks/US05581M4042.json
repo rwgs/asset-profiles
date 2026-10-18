@@ -2,15 +2,21 @@
   "country": "United States",
   "country_code": "US",
   "identifiers": {
-    "composite_figi": "BBG000HN50C1",
+    "composite_figi": "BBG00V9T0560",
     "cusip": "05581M404",
+    "figi": "BBG00V9T05C3",
     "isin": "US05581M4042"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "US05581M4042",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BIC.MU"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
@@ -29,9 +35,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "BTCS Inc.",
-  "primary_symbol": "BICB.BE",
+  "primary_symbol": "BIC.MU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

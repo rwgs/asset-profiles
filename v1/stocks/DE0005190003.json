@@ -2,10 +2,12 @@
   "country": "Germany",
   "country_code": "DE",
   "identifiers": {
+    "composite_figi": "BBG000R2FX97",
+    "figi": "BBG000R2FY59",
     "isin": "DE0005190003"
   },
   "industry": "Automobiles",
-  "industry_group": "Automobiles & Components",
+  "industry_group": "Automotive",
   "isin": "DE0005190003",
   "kind": "stock",
   "listings": [
@@ -23,6 +25,11 @@
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "BMW.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XETR",
+      "symbol": "BMW.DE"
     },
     {
       "currency": "EUR",
@@ -64,7 +71,7 @@
   "name": "Bayerische Motoren Werke AG",
   "primary_symbol": "0O0U.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

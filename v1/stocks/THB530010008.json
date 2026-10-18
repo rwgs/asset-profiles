@@ -7,8 +7,8 @@
     "figi": "BBG000Q02ZM6",
     "isin": "THB530010008"
   },
-  "industry": "Consumer Finance",
-  "industry_group": "Diversified Financials",
+  "industry": "Consumer Lending",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "THB530010008",
   "kind": "stock",
   "listings": [
@@ -16,17 +16,24 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "MGI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "9M1N.SG"
     }
   ],
+  "market_cap_band": "Small Cap",
   "name": "MISS GRAND INTERNATIONAL PUBLIC COMPANY LIMITED",
   "primary_symbol": "MGI",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
+  "summary": "MoneyGram International, Inc., along with its subsidiaries, specializes in facilitating global peer-to-peer payments and money transfer services through its Global Funds Transfer and Financial Paper Products segments. MoneyGram International, Inc. was established in 2003 and maintains its corporate headquarters in Dallas, Texas.",
   "website": "https://corporate.moneygram.com"
 }

@@ -4,7 +4,7 @@
   "identifiers": {
     "composite_figi": "BBG006JNW321",
     "cusip": "65341B106",
-    "figi": "BBG006JNW321",
+    "figi": "BBG006JNW367",
     "isin": "US65341B1061"
   },
   "industry": "Electric Utilities",
@@ -12,6 +12,11 @@
   "isin": "US65341B1061",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XNYS",
+      "symbol": "NEP"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XNYS",
@@ -24,16 +29,16 @@
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "XPLR Infrastructure LP Common Units representing limited partner interests",
-  "primary_symbol": "XIFR",
+  "name": "NextEra Energy Partners, LP",
+  "primary_symbol": "NEP",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Utilities",
-  "summary": "XPLR Infrastructure LP operates in the energy industry, focusing on midstream infrastructure. The company owns and operates pipelines and related facilities for the transportation of crude oil and natural gas. It is based in Houston, Texas.",
-  "website": "http://www.investor.xplrinfrastructure.com"
+  "summary": "NextEra Energy Partners, LP acquires, owns, and manages contracted clean energy projects in the United States. The company owns a portfolio of contracted renewable generation assets consisting of wind and solar projects, as well as contracted natural gas pipeline assets. NextEra Energy Partners, LP was incorporated in 2014 and is headquartered in Juno Beach, Florida.",
+  "website": "http://www.investor.nexteraenergypartners.com"
 }

@@ -8,7 +8,7 @@
     "isin": "US23254L8761"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "US23254L8761",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,28 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "BGMS"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "UXI4.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "UXI4.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "UXI4.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "Bio Green Med Solution Inc. Common Stock",
+  "name": "Bio Green Med Solution Inc.",
   "primary_symbol": "BGMS",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

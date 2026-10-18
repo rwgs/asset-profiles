@@ -2,15 +2,25 @@
   "country": "Poland",
   "country_code": "PL",
   "identifiers": {
-    "composite_figi": "BBG00K9D8XW1",
-    "figi": "BBG00K9D8XX0",
+    "composite_figi": "BBG00ZHRHV70",
+    "figi": "BBG00ZHRHV89",
     "isin": "PLONCTH00011"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "PLONCTH00011",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1B1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1B1.MU"
+    },
     {
       "currency": "PLN",
       "exchange_mic": "XWAR",
@@ -24,15 +34,15 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Molecure S.A.",
-  "primary_symbol": "MOC.WA",
+  "primary_symbol": "1B1.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Health Care",
-  "summary": "MOLECURE SA is a Polish biotechnology company focused on the discovery and development of innovative drugs, particularly in the field of oncology and neurodegenerative diseases. They are involved in preclinical and clinical research, aiming to develop novel therapeutic candidates. The company is based in Warsaw, Poland.",
+  "summary": "OncoArendi Therapeutics S.A., a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics for the treatment of neoplastic and inflammatory diseases in Poland. It is involved in the development of OATD-01, a chitotriosidase/acidic mammalian chitinase inhibitor that has completed phase I clinical trial for the treatment of idiopathic pulmonary fibrosis and sarcoidosis; YKL-40 program for the treatment of cancer and fibrosis; OATD-02 for the treatment of cancer; and Deubiquitinase program. The company was founded in 2012 and is headquartered in Warsaw, Poland.",
   "website": "https://molecure.com"
 }

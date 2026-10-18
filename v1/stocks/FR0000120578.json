@@ -8,7 +8,7 @@
     "isin": "FR0000120578"
   },
   "industry": "Pharmaceuticals",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "FR0000120578",
   "kind": "stock",
   "listings": [
@@ -23,7 +23,18 @@
       "symbol": "0A2V.IL"
     },
     {
+      "currency": "USD",
+      "exchange_mic": "XLON",
+      "symbol": "0O59.IL"
+    },
+    {
       "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1SAN.MI"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "C17415.TI"
     },
     {
@@ -38,6 +49,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "SANF.TI"
     },
     {
@@ -91,6 +103,21 @@
       "symbol": "SNW2.BE"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "SNW2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "SNW2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "SNW2.SG"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "SNYN.MX"
@@ -105,7 +132,7 @@
   "name": "Sanofi",
   "primary_symbol": "SNY",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -6,8 +6,8 @@
     "figi": "BBG000BHXR94",
     "isin": "CNE1000002G3"
   },
-  "industry": "Diversified Telecommunication Services",
-  "industry_group": "Telecommunication Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "CNE1000002G3",
   "kind": "stock",
   "listings": [
@@ -15,6 +15,31 @@
       "currency": "HKD",
       "exchange_mic": "XHKG",
       "symbol": "0552.HK"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "CMW.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "CMW.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "CMW.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "CMW.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CMW.SG"
     },
     {
       "currency": "USD",
@@ -26,7 +51,7 @@
   "name": "China Communications Services Corp. Ltd. Class H",
   "primary_symbol": "0552.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -6,8 +6,8 @@
     "figi": "BBG00QK47W03",
     "isin": "FR00140153G5"
   },
-  "industry": "Electronic Equipment, Instruments & Components",
-  "industry_group": "Commercial & Professional Services",
+  "industry": "Building Products",
+  "industry_group": "Industrial Goods",
   "isin": "FR00140153G5",
   "kind": "stock",
   "listings": [
@@ -28,6 +28,11 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3QK1.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XPAR",
       "symbol": "ALBOO.PA"
     }
@@ -36,7 +41,7 @@
   "name": "Boostheat S.A.",
   "primary_symbol": "3QK.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

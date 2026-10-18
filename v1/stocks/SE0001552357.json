@@ -5,7 +5,7 @@
     "isin": "SE0001552357"
   },
   "industry": "Media",
-  "industry_group": "Media & Entertainment",
+  "industry_group": "Media, Entertainment & Internet",
   "isin": "SE0001552357",
   "kind": "stock",
   "listings": [
@@ -21,15 +21,25 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "T1D.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "T1D.F"
+    },
+    {
+      "currency": "SEK",
+      "exchange_mic": "XSTO",
+      "symbol": "TRAD.ST"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Nyorda AB",
   "primary_symbol": "NYOR.ST",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

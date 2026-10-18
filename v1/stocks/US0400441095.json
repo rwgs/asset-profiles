@@ -4,13 +4,19 @@
   "identifiers": {
     "composite_figi": "BBG000HPKKH0",
     "cusip": "040044109",
+    "figi": "BBG000HPKKH0",
     "isin": "US0400441095"
   },
-  "industry": "Software",
-  "industry_group": "Software & Services",
+  "industry": "Fixed & Integrated Telecom",
+  "industry_group": "Telecommunications",
   "isin": "US0400441095",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "USD",
+      "exchange_mic": "XASE",
+      "symbol": "AREN"
+    },
     {
       "currency": "USD",
       "exchange_mic": "XASE",
@@ -18,16 +24,16 @@
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Paradium.AI Inc. Common Stock",
-  "primary_symbol": "PAAI",
+  "name": "The Arena Group Holdings Inc.",
+  "primary_symbol": "AREN",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
-  "sector": "Information Technology",
-  "summary": "Paradium.AI, Inc., formerly The Arena Group Holdings, Inc., is a brand, data and intellectual property company that operates a portfolio of digital media brands. The company combines technology and storytelling to create content verticals across sports, leisure, lifestyle, and finance, monetizing audience engagement through its unified digital publishing platform. Its owned and operated brands include Parade, TheStreet, Men's Journal, and Athlon Sports.",
+  "sector": "Communications",
+  "summary": "The Arena Group Holdings Inc. operates as a media company, focusing on sports and entertainment content. The company owns and operates various media brands and platforms. The Arena Group Holdings is headquartered in New York, NY.",
   "website": "https://paradium.ai"
 }

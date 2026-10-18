@@ -2,15 +2,25 @@
   "country": "Spain",
   "country_code": "ES",
   "identifiers": {
-    "composite_figi": "BBG000BNFCD9",
-    "figi": "BBG000BNFCZ5",
+    "composite_figi": "BBG007R9GKM9",
+    "figi": "BBG007R9GKP6",
     "isin": "ES0184262212"
   },
   "industry": "Food Products",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "isin": "ES0184262212",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0MKW.IL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "VIS.BE"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XDUS",
@@ -33,21 +43,26 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "VIS.SG"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "VIS.VI"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Viscofan, S.A.",
-  "primary_symbol": "VIS.DU",
+  "primary_symbol": "0MKW.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Consumer Staples",
-  "summary": "VISCOFAN SA INH. EO 0,70 manufactures and distributes artificial casings for the meat industry. The company's products are used for sausages, hams, and other processed meat products. Viscofan is headquartered in Tajonar, Spain.",
+  "summary": "Viscofan SA is a global manufacturer of casings for the food industry. It produces and distributes artificial casings for meat products. The company is headquartered in Tajonar, Spain.",
   "website": "http://www.viscofan.com"
 }

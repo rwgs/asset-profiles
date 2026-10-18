@@ -2,15 +2,20 @@
   "country": "Belgium",
   "country_code": "BE",
   "identifiers": {
-    "composite_figi": "BBG008LXWQW8",
-    "figi": "BBG008LXWQX7",
+    "composite_figi": "BBG00JHW6RF7",
+    "figi": "BBG00NRVWNH7",
     "isin": "BE0974281132"
   },
   "industry": "Biotechnology",
-  "industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+  "industry_group": "Pharma, Biotech & Life Sciences",
   "isin": "BE0974281132",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XLON",
+      "symbol": "0R72.IL"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -29,9 +34,9 @@
   ],
   "market_cap_band": "Micro Cap",
   "name": "Biocartis Group NV",
-  "primary_symbol": "8XB.F",
+  "primary_symbol": "0R72.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

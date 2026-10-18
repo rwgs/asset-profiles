@@ -7,7 +7,7 @@
     "isin": "DE0008131350"
   },
   "industry": "IT Services",
-  "industry_group": "Software & Services",
+  "industry_group": "Software & IT Services",
   "isin": "DE0008131350",
   "kind": "stock",
   "listings": [
@@ -18,21 +18,31 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "AMI.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "AMI.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "AMI.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "medondo holding AG",
   "primary_symbol": "AMI.DE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Information Technology",
-  "summary": "amalphi ag, a manufacturer-independent specialist, provides multi-vendor warranty extensions for the professional IT users worldwide. The company offers third party maintenance services; managed, roll-out, removal, and certified data carrier destruction services; and maintenance services for securing IT landscapes. It serves small/medium-sized enterprises and corporations, cloud providers, data centers, IT system houses, and original equipment manufacturers. The company was founded in 2003 and is headquartered in Moers, Germany.",
-  "website": "http://www.amalphi.de"
+  "summary": "medondo holding AG, together with its subsidiaries, provides software solutions in Germany. The company offers Online Diary, an online appointment calendar; digital anamnesis & clarification, which records patient's relevant health information before the appointment; practice marketing & visibility that publishes regular specialist articles in practice blog, as well as publish specialist articles on channels for an online presence; Form Designer that create customized forms; and Patient Portal, which make documents and forms available digitally and enable patients to make appointments and follow-up appointments. It also provides self-check-in; digital patient file, which provides information about patients; practice TV & patient management that integrates the patient call function directly into the practice TV; co-treatment portal, which shares findings, X-ray images or treatment reports; and digital documents & signature that provides patients with important documents digitally via the patient portal or by e-mail and have documents signed electronically. In addition, the company offers digital invoices; follow-up appointment management & appointment reminders; digital medical history & explanation; digital patient record; digital factoring; quality management & documentation; and appointment quotas & controlling software. Further, it provides product-related services, such as training, consulting, maintenance, and support services. The company was founded in 2003 and is based in Munich, Germany.",
+  "website": "https://holding.medondo.com"
 }

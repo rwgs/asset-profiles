@@ -6,8 +6,8 @@
     "figi": "BBG000FPG5N3",
     "isin": "AU000000IGO4"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "AU000000IGO4",
   "kind": "stock",
   "listings": [
@@ -32,6 +32,11 @@
       "symbol": "IDZ.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IDZ.SG"
+    },
+    {
       "currency": "AUD",
       "exchange_mic": "XASX",
       "symbol": "IGO.AX"
@@ -46,7 +51,7 @@
   "name": "IGO Limited",
   "primary_symbol": "IDZ.DU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,13 +2,19 @@
   "country": "Norway",
   "country_code": "NO",
   "identifiers": {
+    "figi": "BBG000R2T1X5",
     "isin": "NO0013711721"
   },
-  "industry": "Real Estate Management & Development",
-  "industry_group": "Real Estate",
+  "industry": "Real Estate Development & Services",
+  "industry_group": "Real Estate Development & Services",
   "isin": "NO0013711721",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "NOK",
+      "exchange_mic": "XOSL",
+      "symbol": "BINT.OL"
+    },
     {
       "currency": "NOK",
       "exchange_mic": "XOSL",
@@ -16,16 +22,16 @@
     }
   ],
   "market_cap_band": "Nano Cap",
-  "name": "KMC Properties ASA",
-  "primary_symbol": "KMCP.OL",
+  "name": "Bevest ASA",
+  "primary_symbol": "BINT.OL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Real Estate",
-  "summary": "KMC Properties ASA, a real estate company, owns and operates industrial and logistics properties. It owns a portfolio of 39 properties in the Nordics and the Netherlands, as well as an office building in Moscow, Russia. The company was incorporated in 2020 and is headquartered in Trondheim, Norway.",
+  "summary": "Bevest ASA, a real estate company, owns and operates industrial and logistics properties. It owns a portfolio of 39 properties in the Nordics and the Netherlands, as well as an office building in Moscow, Russia. The company was incorporated in 2020 and is headquartered in Trondheim, Norway.",
   "website": "http://www.kmcp.no"
 }

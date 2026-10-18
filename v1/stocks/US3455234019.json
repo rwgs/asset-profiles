@@ -7,8 +7,8 @@
     "figi": "BBG00GXL7WB1",
     "isin": "US3455234019"
   },
-  "industry": "Auto Components",
-  "industry_group": "Automobiles & Components",
+  "industry": "Auto Parts",
+  "industry_group": "Automotive",
   "isin": "US3455234019",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,38 @@
       "currency": "USD",
       "exchange_mic": "XNAS",
       "symbol": "FRSX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "1FZA.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1FZA.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1FZA.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "3011.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "3011.MU"
     }
   ],
   "market_cap_band": "Nano Cap",
   "name": "Foresight Autonomous Holdings Ltd.",
   "primary_symbol": "FRSX",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

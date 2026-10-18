@@ -1,14 +1,14 @@
 {
-  "country": "Bermuda",
-  "country_code": "BM",
+  "country": "Cyprus",
+  "country_code": "CY",
   "identifiers": {
     "composite_figi": "BBG000BTQNQ6",
     "cusip": "M46528101",
     "figi": "BBG000BTQR05",
     "isin": "CY0200352116"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Oil, Gas & Fuels",
+  "industry_group": "Energy Production & Services",
   "isin": "CY0200352116",
   "kind": "stock",
   "listings": [
@@ -61,13 +61,43 @@
       "currency": "NOK",
       "exchange_mic": "XOSL",
       "symbol": "FRO.OL"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "HF6.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "HF6.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "HF6.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "HF6.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "HF6.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "HF6.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Frontline Plc",
   "primary_symbol": "FRO",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

@@ -2,14 +2,40 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
-    "composite_figi": "BBG000BB0RP5",
+    "composite_figi": "BBG000BPSK97",
+    "figi": "BBG000BPSN19",
     "isin": "IT0003865570"
   },
   "industry": "Construction & Engineering",
-  "industry_group": "Capital Goods",
+  "industry_group": "Industrial Goods",
   "isin": "IT0003865570",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "IPJ1.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "IPJ1.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "IPJ1.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "IPJ1.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "IPJ1.SG"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSWX",
@@ -22,16 +48,16 @@
     }
   ],
   "market_cap_band": "Mid Cap",
-  "name": "Webuild SpA",
-  "primary_symbol": "IT0003865570.SW",
+  "name": "Webuild S.p.A.",
+  "primary_symbol": "IPJ1.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Industrials",
-  "summary": "WEBUILD SPA, formerly Salini Impregilo, is an Italian construction company specializing in large infrastructure projects. They are involved in the construction of dams, hydroelectric plants, railways, highways, and other civil engineering works. The company is headquartered in Milan, Italy.",
+  "summary": "Webuild S.p.A. engages in the construction activities worldwide. The company designs and builds works and infrastructure for the mobility, hydroelectric energy, water, green buildings, and tunnelling sectors. It also undertakes the construction of airports and civil and industrial construction; railways and subways; and highways, roads, and bridges, as well as dams and hydroelectric power plants. The company is headquartered in Milan, Italy. Webuild S.p.A. is a subsidiary of Salini Costruttori S.p.A.",
   "website": "http://www.webuildgroup.com"
 }

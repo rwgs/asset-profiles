@@ -6,8 +6,8 @@
     "figi": "BBG000QS28Q1",
     "isin": "CNE100000114"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CNE100000114",
   "kind": "stock",
   "listings": [
@@ -20,13 +20,38 @@
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "CMCLF"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "D7N.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "D7N.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "D7N.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "D7N.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "D7N.SG"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "CMOC Group Limited",
   "primary_symbol": "3993.HK",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

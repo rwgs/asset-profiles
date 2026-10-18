@@ -3,31 +3,56 @@
   "country_code": "DE",
   "identifiers": {
     "composite_figi": "BBG000QVR7M3",
-    "figi": "BBG000QVR8W0",
+    "figi": "BBG000QVR9Z5",
     "isin": "DE0001218063"
   },
   "industry": "Capital Markets",
-  "industry_group": "Diversified Financials",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "DE0001218063",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "A7A.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "A7A.DE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "A7A.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "A7A.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "A7A.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "A7A.SG"
     }
   ],
   "market_cap_band": "Micro Cap",
-  "name": "Heliad AG",
-  "primary_symbol": "A7A.DE",
+  "name": "FinLab AG",
+  "primary_symbol": "A7A.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "Heliad AG is a venture capital firm specializing in direct and fund of fund investments. For direct investments, it makes minority and majority venture capital investments in growth capital, incubation, seed/start up and follow-on investment in fintech companies. It prefers to invest in blockchain, online financial services and financial technology and software sector. It seeks to invest in Germany, Europe, and globally, primarily in the United States and Asia. For fund of fund investments, the firm seeks to invest in funds specializing in fintech companies especially in the US and Asia. It also considers co-investment opportunities. Heliad AG was founded in 2003 and is based in Frankfurt am Main, Germany.",
+  "summary": "FinLab AG is a Germany-based investment company focused on fintech and financial services. The company invests in and supports early-stage and growth-stage companies in the fintech sector, providing capital, expertise, and access to its network. FinLab AG is headquartered in Frankfurt, Germany.",
   "website": "https://www.heliad.com"
 }

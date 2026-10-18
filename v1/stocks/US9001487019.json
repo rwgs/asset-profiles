@@ -3,14 +3,19 @@
   "identifiers": {
     "composite_figi": "BBG0060GN521",
     "cusip": "900148701",
-    "figi": "BBG0060GN567",
+    "figi": "BBG0060GN530",
     "isin": "US9001487019"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "US9001487019",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "GBKB.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -23,10 +28,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Trkiye Garanti Bankasi A.S. Nam",
-  "primary_symbol": "GBKB.SG",
+  "name": "Turkiye Garanti Bankasi A.S.",
+  "primary_symbol": "GBKB.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

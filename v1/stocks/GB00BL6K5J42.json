@@ -6,11 +6,16 @@
     "figi": "BBG011FDPKN4",
     "isin": "GB00BL6K5J42"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "GB00BL6K5J42",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "6E2.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
@@ -33,10 +38,10 @@
     }
   ],
   "market_cap_band": "Large Cap",
-  "name": "Endeavour Mining Corporation",
-  "primary_symbol": "E5Y1.F",
+  "name": "Endeavour Mining plc",
+  "primary_symbol": "6E2.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
@@ -44,5 +49,5 @@
   "schema_version": "1.0.0",
   "sector": "Materials",
   "summary": "Endeavour Mining Corporation operates as a multi-asset gold producer in West Africa. The company's property portfolio includes the Karma, Houndé, Mana, Boungou, and Wahgnion mines located in the Burkina Faso; the Ity mine situated in Côte d'Ivoire; and the Kalana Project is in the capital city of Mali. It also holds interest in the Fetekro, Bantou, Nabanga, and Golden Hill Projects. The company was formerly known as Endeavour Financial Corporation and changed its name to Endeavour Mining Corporation in September 2010. Endeavour Mining Corporation was incorporated in 2002 and is based in London, the United Kingdom.",
-  "website": "http://www.endeavourmining.com"
+  "website": "https://www.endeavourmining.com"
 }

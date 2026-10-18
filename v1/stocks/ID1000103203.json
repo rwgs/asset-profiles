@@ -6,8 +6,8 @@
     "figi": "BBG000PWQN02",
     "isin": "ID1000103203"
   },
-  "industry": "Marine",
-  "industry_group": "Transportation",
+  "industry": "Shipping",
+  "industry_group": "Transport & Logistics",
   "isin": "ID1000103203",
   "kind": "stock",
   "listings": [
@@ -22,6 +22,11 @@
       "symbol": "P5TA.MU"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "P5TA.SG"
+    },
+    {
       "currency": "IDR",
       "exchange_mic": "XIDX",
       "symbol": "TMAS.JK"
@@ -31,7 +36,7 @@
   "name": "PT Temas Tbk.",
   "primary_symbol": "P5TA.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

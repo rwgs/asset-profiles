@@ -2,10 +2,12 @@
   "country": "Italy",
   "country_code": "IT",
   "identifiers": {
+    "composite_figi": "BBG000S9BZH1",
+    "figi": "BBG000S9C0C2",
     "isin": "IT0005508921"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "IT0005508921",
   "kind": "stock",
   "listings": [
@@ -27,6 +29,16 @@
     {
       "currency": "EUR",
       "exchange_mic": "XFRA",
+      "symbol": "MPI0.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "MPI0.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
       "symbol": "MPIN.F"
     },
     {
@@ -39,7 +51,7 @@
   "name": "Banca Monte dei Paschi di Siena S.p.A.",
   "primary_symbol": "0RK6.IL",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

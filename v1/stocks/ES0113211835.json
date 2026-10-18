@@ -8,7 +8,7 @@
     "isin": "ES0113211835"
   },
   "industry": "Banks",
-  "industry_group": "Banks",
+  "industry_group": "Banking",
   "isin": "ES0113211835",
   "kind": "stock",
   "listings": [
@@ -16,6 +16,11 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "BBVA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMIL",
+      "symbol": "1BBVA.MI"
     },
     {
       "currency": "ARS",
@@ -29,6 +34,16 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BBVA.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "BBVA.F"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XMAD",
       "symbol": "BBVA.MC"
     },
@@ -38,9 +53,19 @@
       "symbol": "BBVA.MI"
     },
     {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BBVA.MU"
+    },
+    {
       "currency": "MXN",
       "exchange_mic": "XMEX",
       "symbol": "BBVA.MX"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "BBVA.SG"
     },
     {
       "currency": "EUR",
@@ -54,13 +79,38 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "BOY.BE"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XETR",
       "symbol": "BOY.DE"
     },
     {
       "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "BOY.DU"
+    },
+    {
+      "currency": "EUR",
       "exchange_mic": "XFRA",
       "symbol": "BOY.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAN",
+      "symbol": "BOY.HA"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XHAM",
+      "symbol": "BOY.HM"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "BOY.MU"
     },
     {
       "currency": "EUR",
@@ -77,7 +127,7 @@
   "name": "Banco Bilbao Vizcaya Argentaria, S.A.",
   "primary_symbol": "BBVA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

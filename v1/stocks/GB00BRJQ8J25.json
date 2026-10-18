@@ -2,19 +2,54 @@
   "country": "United Kingdom",
   "country_code": "GB",
   "identifiers": {
-    "composite_figi": "BBG000D3ZS26",
-    "figi": "BBG000D3ZS26",
+    "composite_figi": "BBG000FBNVF8",
+    "figi": "BBG000FBQZJ2",
     "isin": "GB00BRJQ8J25"
   },
-  "industry": "Equity Real Estate Investment Trusts (REITs)",
-  "industry_group": "Real Estate",
+  "industry": "Retail REITs",
+  "industry_group": "REITs",
   "isin": "GB00BRJQ8J25",
   "kind": "stock",
   "listings": [
     {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "H2V.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "H2V.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "H2V2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "H2V2.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "H2V2.F"
+    },
+    {
+      "currency": "ZAR",
+      "exchange_mic": "XJSE",
+      "symbol": "HMN.JO"
+    },
+    {
       "currency": "USD",
       "exchange_mic": "OTCM",
       "symbol": "HMSNF"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XDUB",
+      "symbol": "HMSO.IR"
     },
     {
       "currency": "GBP",
@@ -24,9 +59,9 @@
   ],
   "market_cap_band": "Mid Cap",
   "name": "Hammerson plc",
-  "primary_symbol": "HMSNF",
+  "primary_symbol": "H2V.DU",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

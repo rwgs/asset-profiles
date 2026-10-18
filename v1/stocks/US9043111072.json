@@ -7,8 +7,8 @@
     "figi": "BBG000BXM875",
     "isin": "US9043111072"
   },
-  "industry": "Textiles, Apparel & Luxury Goods",
-  "industry_group": "Consumer Durables & Apparel",
+  "industry": "Apparel & Luxury Goods",
+  "industry_group": "Consumer Goods & Apparel",
   "isin": "US9043111072",
   "kind": "stock",
   "listings": [
@@ -59,6 +59,7 @@
     },
     {
       "currency": "EUR",
+      "exchange_mic": "ETLX",
       "symbol": "U9R.TI"
     },
     {
@@ -75,13 +76,18 @@
       "currency": "EUR",
       "exchange_mic": "XWBO",
       "symbol": "UAA.VI"
+    },
+    {
+      "currency": "MXN",
+      "exchange_mic": "XMEX",
+      "symbol": "UAAC.MX"
     }
   ],
   "market_cap_band": "Mid Cap",
   "name": "Under Armour, Inc. Class A",
   "primary_symbol": "UAA",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

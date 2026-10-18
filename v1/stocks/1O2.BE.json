@@ -3,23 +3,49 @@
   "country_code": "US",
   "identifiers": {
     "composite_figi": "BBG00JB4HSS7",
+    "cusip": "30222R109",
     "figi": "BBG00JB4HT05"
   },
   "industry": "Food Products",
-  "industry_group": "Food, Beverage & Tobacco",
+  "industry_group": "Food, Drinks & Tobacco",
   "kind": "stock",
   "listings": [
     {
       "currency": "EUR",
       "exchange_mic": "XBER",
       "symbol": "1O2.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "1O2.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "1O2.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "CA30222R1091.SG"
+    },
+    {
+      "currency": "CAD",
+      "exchange_mic": "XTSX",
+      "symbol": "EXRO.V"
+    },
+    {
+      "currency": "USD",
+      "exchange_mic": "OTCM",
+      "symbol": "EXROF"
     }
   ],
   "market_cap_band": "Micro Cap",
   "name": "CHS Inc.",
   "primary_symbol": "1O2.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

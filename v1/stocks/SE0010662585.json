@@ -2,13 +2,20 @@
   "country": "Sweden",
   "country_code": "SE",
   "identifiers": {
-    "composite_figi": "BBG00PF8PQ87",
+    "composite_figi": "BBG00YXWQ8R3",
+    "figi": "BBG00YXWQ8S2",
     "isin": "SE0010662585"
   },
-  "industry_group": "Diversified Financials",
+  "industry": "Payments & Specialty Finance",
+  "industry_group": "Investing, Lending & Payments",
   "isin": "SE0010662585",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "QBT.F"
+    },
     {
       "currency": "EUR",
       "exchange_mic": "XSTU",
@@ -16,14 +23,14 @@
     }
   ],
   "name": "QUICKBIT EU AB",
-  "primary_symbol": "SE0010662585.SG",
+  "primary_symbol": "QBT.F",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
   },
   "schema_version": "1.0.0",
   "sector": "Financials",
-  "summary": "QUICKBIT EU AB is a Swedish fintech company that provides solutions for cryptocurrency transactions and blockchain technology. The company focuses on developing and offering services for secure and efficient handling of digital currencies. Quickbit EU AB is based in Stockholm, Sweden."
+  "summary": "QUICKBIT EU AB is a Swedish company focused on blockchain technology and cryptocurrency solutions. It develops and offers services within the crypto space. The company is based in Sweden."
 }

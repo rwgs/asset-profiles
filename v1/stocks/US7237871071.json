@@ -7,8 +7,8 @@
     "figi": "BBG000BXRQN2",
     "isin": "US7237871071"
   },
-  "industry": "Oil, Gas & Consumable Fuels",
-  "industry_group": "Energy",
+  "industry": "Oil, Gas & Fuels",
+  "industry_group": "Energy Production & Services",
   "isin": "US7237871071",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,43 @@
       "currency": "USD",
       "exchange_mic": "XNYS",
       "symbol": "PXD"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "PNK.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XDUS",
+      "symbol": "PNK.DU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "PNK.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "PNK.MU"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XSTU",
+      "symbol": "PNK.SG"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "ETLX",
+      "symbol": "PNK.TI"
     }
   ],
   "market_cap_band": "Large Cap",
   "name": "Pioneer Natural Resources",
   "primary_symbol": "PXD",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

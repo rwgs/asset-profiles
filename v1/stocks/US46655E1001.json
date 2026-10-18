@@ -7,8 +7,8 @@
     "figi": "BBG0120W17D2",
     "isin": "US46655E1001"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "US46655E1001",
   "kind": "stock",
   "listings": [
@@ -16,13 +16,18 @@
       "currency": "USD",
       "exchange_mic": "XASE",
       "symbol": "DC"
+    },
+    {
+      "currency": "GBP",
+      "exchange_mic": "XLON",
+      "symbol": "DC.L"
     }
   ],
   "market_cap_band": "Small Cap",
-  "name": "Dakota Gold Corp. Common Stock",
+  "name": "Dakota Gold Corp.",
   "primary_symbol": "DC",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"

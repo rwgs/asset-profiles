@@ -2,16 +2,31 @@
   "country": "Canada",
   "country_code": "CA",
   "identifiers": {
-    "composite_figi": "BBG00VSGTG17",
+    "composite_figi": "BBG00Z848YG5",
     "cusip": "527369102",
-    "figi": "BBG00YDFFKF0",
+    "figi": "BBG00Z848YN7",
     "isin": "CA5273691025"
   },
-  "industry": "Metals & Mining",
-  "industry_group": "Materials",
+  "industry": "Mining & Metals",
+  "industry_group": "Basic Materials",
   "isin": "CA5273691025",
   "kind": "stock",
   "listings": [
+    {
+      "currency": "EUR",
+      "exchange_mic": "XBER",
+      "symbol": "0GP.BE"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XFRA",
+      "symbol": "0GP.F"
+    },
+    {
+      "currency": "EUR",
+      "exchange_mic": "XMUN",
+      "symbol": "0GP.MU"
+    },
     {
       "currency": "CAD",
       "exchange_mic": "XTSX",
@@ -25,9 +40,9 @@
   ],
   "market_cap_band": "Nano Cap",
   "name": "Leviathan Gold Ltd.",
-  "primary_symbol": "LVX.V",
+  "primary_symbol": "0GP.BE",
   "provenance": {
-    "fetched_at": "2026-10-11T12:21:30Z",
+    "fetched_at": "2026-10-18T10:36:51Z",
     "license": "MIT",
     "source": "FinanceDatabase",
     "source_url": "https://github.com/JerBouma/FinanceDatabase"
