@@ -3,98 +3,103 @@
   "asset_class_weights": [
     {
       "asset_class": "Fixed Income",
-      "weight": 0.923032
+      "weight": 0.898042
     },
     {
       "asset_class": "Cash",
-      "weight": 0.076968
+      "weight": 0.101958
     }
   ],
-  "aum_usd": 34163011134.9,
+  "aum_usd": 38496158458.74,
   "category": "Corporate Bonds",
   "category_group": "Fixed Income",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.889479
+      "weight": 0.888978
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
-      "weight": 0.030485
+      "weight": 0.03164
     },
     {
       "country": "Canada",
       "country_code": "CA",
-      "weight": 0.022444
+      "weight": 0.022299
     },
     {
       "country": "Japan",
       "country_code": "JP",
-      "weight": 0.016746
+      "weight": 0.016527
     },
     {
       "country": "Netherlands",
       "country_code": "NL",
-      "weight": 0.008284
-    },
-    {
-      "country": "Spain",
-      "country_code": "ES",
-      "weight": 0.006148
+      "weight": 0.007935
     },
     {
       "country": "Australia",
       "country_code": "AU",
-      "weight": 0.006131
+      "weight": 0.006029
+    },
+    {
+      "country": "Spain",
+      "country_code": "ES",
+      "weight": 0.005918
     },
     {
       "country": "Singapore",
       "country_code": "SG",
-      "weight": 0.005188
+      "weight": 0.005179
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.004357
+      "weight": 0.004338
     },
     {
       "country": "France",
       "country_code": "FR",
-      "weight": 0.003705
+      "weight": 0.003823
     },
     {
       "country": "Germany",
       "country_code": "DE",
-      "weight": 0.002177
-    },
-    {
-      "country": "Unknown",
-      "weight": 0.001572
+      "weight": 0.002099
     },
     {
       "country": "Luxembourg",
       "country_code": "LU",
-      "weight": 0.001357
+      "weight": 0.001431
+    },
+    {
+      "country": "Unknown",
+      "weight": 0.001362
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.000952
+      "weight": 0.00096
     },
     {
       "country": "Norway",
       "country_code": "NO",
-      "weight": 0.000737
+      "weight": 0.000713
+    },
+    {
+      "country": "Bermuda",
+      "country_code": "BM",
+      "weight": 0.00043
     },
     {
       "country": "Jersey",
       "country_code": "JE",
-      "weight": 0.000237
+      "weight": 0.000339
     }
   ],
-  "holdings_count": 3137,
+  "holdings_count": 3167,
   "identifiers": {
     "isin": "US4642872422"
   },
@@ -110,7 +115,7 @@
   "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
   "primary_symbol": "LQD",
   "provenance": {
-    "fetched_at": "2026-10-18T10:36:51Z",
+    "fetched_at": "2026-10-25T10:58:25Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
@@ -121,61 +126,61 @@
       "cusip": "066922519",
       "isin": "US0669225197",
       "name": "BlackRock Funds III",
-      "weight": 0.063052
+      "weight": 0.083672
     },
     {
       "cusip": "066922477",
       "isin": "US0669224778",
       "name": "BLACKROCK CASH FUNDS TREASURY SL AGENCY SHARES",
-      "weight": 0.008267
+      "weight": 0.008581
     },
     {
       "cusip": "03522AAJ9",
       "isin": "US03522AAJ97",
       "name": "ANHEUSER-BUSCH CO/INBEV",
-      "weight": 0.001784
+      "weight": 0.001532
     },
     {
       "cusip": "126650CZ1",
       "isin": "US126650CZ11",
       "name": "CVS HEALTH CORP",
-      "weight": 0.001474
+      "weight": 0.001429
     },
     {
       "cusip": "87264ABF1",
       "isin": "US87264ABF12",
       "name": "T-MOBILE USA INC",
+      "weight": 0.001421
+    },
+    {
+      "cusip": "84615QAA1",
+      "isin": "US84615QAA13",
+      "name": "SPACE EXPLORATION TECH",
       "weight": 0.001408
     },
     {
       "cusip": "30303MAD4",
       "isin": "US30303MAD48",
       "name": "META PLATFORMS INC",
-      "weight": 0.001396
+      "weight": 0.001358
+    },
+    {
+      "cusip": "161175CU6",
+      "isin": "US161175CU68",
+      "name": "CHARTER COMM OPT LLC/CAP",
+      "weight": 0.001287
+    },
+    {
+      "cusip": "161175CV4",
+      "isin": "US161175CV42",
+      "name": "CHARTER COMM OPT LLC/CAP",
+      "weight": 0.001257
     },
     {
       "cusip": "023135DF0",
       "isin": "US023135DF00",
       "name": "AMAZON.COM INC",
-      "weight": 0.001346
-    },
-    {
-      "cusip": "716973AG7",
-      "isin": "US716973AG71",
-      "name": "PFIZER INVESTMENT ENTER",
-      "weight": 0.001327
-    },
-    {
-      "cusip": "30303MAE2",
-      "isin": "US30303MAE21",
-      "name": "META PLATFORMS INC",
-      "weight": 0.00131
-    },
-    {
-      "cusip": "38141GFD1",
-      "isin": "US38141GFD16",
-      "name": "GOLDMAN SACHS GROUP INC",
-      "weight": 0.001291
+      "weight": 0.001203
     }
   ]
 }

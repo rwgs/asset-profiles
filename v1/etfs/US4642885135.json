@@ -3,123 +3,119 @@
   "asset_class_weights": [
     {
       "asset_class": "Fixed Income",
-      "weight": 0.88042
+      "weight": 0.867961
     },
     {
       "asset_class": "Cash",
-      "weight": 0.117552
-    },
-    {
-      "asset_class": "Loan",
-      "weight": 0.001956
+      "weight": 0.130349
     },
     {
       "asset_class": "Equity",
-      "weight": 7.3e-05
+      "weight": 0.00169
     }
   ],
-  "aum_usd": 20205662035.7,
+  "aum_usd": 20471444905.05,
   "category": "High Yield Bonds",
   "category_group": "Fixed Income",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.85353
+      "weight": 0.868279
     },
     {
       "country": "Canada",
       "country_code": "CA",
-      "weight": 0.036368
+      "weight": 0.033794
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
-      "weight": 0.015716
+      "weight": 0.014803
     },
     {
       "country": "Unknown",
-      "weight": 0.01365
-    },
-    {
-      "country": "Japan",
-      "country_code": "JP",
-      "weight": 0.0107
-    },
-    {
-      "country": "Netherlands",
-      "country_code": "NL",
-      "weight": 0.010264
+      "weight": 0.012422
     },
     {
       "country": "Bermuda",
       "country_code": "BM",
-      "weight": 0.009866
+      "weight": 0.009653
     },
     {
       "country": "France",
       "country_code": "FR",
-      "weight": 0.009461
-    },
-    {
-      "country": "Luxembourg",
-      "country_code": "LU",
-      "weight": 0.008244
+      "weight": 0.009134
     },
     {
       "country": "Cayman Islands",
       "country_code": "KY",
-      "weight": 0.008044
+      "weight": 0.008711
+    },
+    {
+      "country": "Japan",
+      "country_code": "JP",
+      "weight": 0.008437
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.007362
+    },
+    {
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "weight": 0.006752
     },
     {
       "country": "Australia",
       "country_code": "AU",
-      "weight": 0.005297
+      "weight": 0.005062
     },
     {
       "country": "Jersey",
       "country_code": "JE",
-      "weight": 0.004768
+      "weight": 0.004089
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.003838
+      "weight": 0.003384
     },
     {
       "country": "Denmark",
       "country_code": "DK",
-      "weight": 0.002023
-    },
-    {
-      "country": "Israel",
-      "country_code": "IL",
-      "weight": 0.001966
-    },
-    {
-      "country": "Singapore",
-      "country_code": "SG",
-      "weight": 0.001751
+      "weight": 0.001815
     },
     {
       "country": "Italy",
       "country_code": "IT",
-      "weight": 0.0015
+      "weight": 0.001576
+    },
+    {
+      "country": "Israel",
+      "country_code": "IL",
+      "weight": 0.001351
     },
     {
       "country": "Germany",
       "country_code": "DE",
-      "weight": 0.001248
+      "weight": 0.001297
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.001065
     },
     {
       "country": "Virgin Islands, British",
       "country_code": "VG",
-      "weight": 0.001038
+      "weight": 0.000852
     },
     {
       "country": "Spain",
       "country_code": "ES",
-      "weight": 0.000727
+      "weight": 0.000161
     }
   ],
   "holdings_count": 1324,
@@ -138,7 +134,7 @@
   "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
   "primary_symbol": "HYG",
   "provenance": {
-    "fetched_at": "2026-10-18T10:36:51Z",
+    "fetched_at": "2026-10-25T10:58:25Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001100663"
@@ -149,61 +145,61 @@
       "cusip": "066922519",
       "isin": "US0669225197",
       "name": "BlackRock Funds III",
-      "weight": 0.101173
+      "weight": 0.104381
+    },
+    {
+      "cusip": "066922477",
+      "isin": "US0669224778",
+      "name": "BLACKROCK CASH FUNDS TREASURY SL AGENCY SHARES",
+      "weight": 0.010408
     },
     {
       "cusip": "68288AAA5",
       "isin": "US68288AAA51",
       "name": "1261229 BC LTD",
-      "weight": 0.00434
+      "weight": 0.003991
+    },
+    {
+      "cusip": "58990CAA1",
+      "isin": "US58990CAA18",
+      "name": "MERIDIAN ARC HOLDCO LLC",
+      "weight": 0.003543
     },
     {
       "cusip": "278768AC0",
       "isin": "US278768AC00",
       "name": "ECHOSTAR CORP",
-      "weight": 0.00353
+      "weight": 0.003417
     },
     {
-      "cusip": "18912UAA0",
-      "isin": "US18912UAA07",
-      "name": "CLOUD SOFTWARE GRP INC",
-      "weight": 0.002708
+      "cusip": "69393LAA1",
+      "isin": "US69393LAA17",
+      "name": "PR RNO PROPERTY OWNER 1",
+      "weight": 0.002723
     },
     {
       "cusip": "74843PAA8",
       "isin": "US74843PAA84",
       "name": "QUIKRETE HOLDINGS INC",
-      "weight": 0.00263
+      "weight": 0.002552
     },
     {
       "cusip": "88632QAE3",
       "isin": "US88632QAE35",
-      "name": "CLOUD SOFTWARE GRP INC",
-      "weight": 0.002623
+      "name": "CLOUD SOFTWARE GRP LLC",
+      "weight": 0.002531
     },
     {
-      "cusip": "25470MAG4",
-      "isin": "US25470MAG42",
-      "name": "DISH NETWORK CORP",
-      "weight": 0.002535
+      "cusip": "18912UAA0",
+      "isin": "US18912UAA07",
+      "name": "CLOUD SOFTWARE GRP LLC",
+      "weight": 0.002525
     },
     {
-      "cusip": "78488XAA2",
-      "isin": "US78488XAA28",
-      "name": "SV RNO PROPERTY OWNER 1",
-      "weight": 0.002398
-    },
-    {
-      "cusip": "65346UAB5",
-      "isin": "US65346UAB52",
-      "name": "NEXSTAR MEDIA INC",
-      "weight": 0.00237
-    },
-    {
-      "cusip": "44332PAH4",
-      "isin": "US44332PAH47",
-      "name": "HUB INTERNATIONAL LTD",
-      "weight": 0.002341
+      "cusip": "36322DAA4",
+      "isin": "US36322DAA46",
+      "name": "GALAXY HELIOS DATA CNTR",
+      "weight": 0.002369
     }
   ]
 }
