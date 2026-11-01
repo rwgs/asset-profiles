@@ -3,108 +3,108 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.997966
+      "weight": 0.998655
     },
     {
       "asset_class": "Cash",
-      "weight": 0.002005
+      "weight": 0.001358
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 2.9e-05
+      "weight": -1.3e-05
     }
   ],
-  "aum_usd": 43365718410.48,
+  "aum_usd": 44635304160.92,
   "category": "Developed Markets",
   "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.967903
+      "weight": 0.968562
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.018337
+      "weight": 0.018256
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.002842
+      "weight": 0.002939
     },
     {
       "country": "Bermuda",
       "country_code": "BM",
-      "weight": 0.002554
+      "weight": 0.002676
     },
     {
       "country": "Netherlands",
       "country_code": "NL",
-      "weight": 0.00159
+      "weight": 0.001295
     },
     {
       "country": "Cayman Islands",
       "country_code": "KY",
-      "weight": 0.001465
+      "weight": 0.001289
     },
     {
       "country": "Curaçao",
       "country_code": "CW",
-      "weight": 0.001114
+      "weight": 0.00121
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
-      "weight": 0.001
+      "weight": 0.000964
     },
     {
       "country": "Liberia",
       "country_code": "LR",
-      "weight": 0.000979
+      "weight": 0.000899
     },
     {
       "country": "Singapore",
       "country_code": "SG",
-      "weight": 0.000772
+      "weight": 0.000539
     },
     {
       "country": "Jersey",
       "country_code": "JE",
-      "weight": 0.000608
+      "weight": 0.000502
     },
     {
       "country": "Canada",
       "country_code": "CA",
-      "weight": 0.000432
+      "weight": 0.000396
     },
     {
       "country": "Puerto Rico",
       "country_code": "PR",
-      "weight": 0.000233
+      "weight": 0.00026
     },
     {
       "country": "Marshall Islands",
       "country_code": "MH",
-      "weight": 7.8e-05
+      "weight": 9.3e-05
     },
     {
       "country": "Virgin Islands, British",
       "country_code": "VG",
-      "weight": 4.7e-05
+      "weight": 7.8e-05
     },
     {
       "country": "Bahamas",
       "country_code": "BS",
-      "weight": 3.4e-05
+      "weight": 3.5e-05
     },
     {
       "country": "Luxembourg",
       "country_code": "LU",
-      "weight": 1.2e-05
+      "weight": 5e-06
     }
   ],
-  "holdings_count": 2411,
+  "holdings_count": 2378,
   "identifiers": {
     "isin": "US8085241029"
   },
@@ -120,7 +120,7 @@
   "name": "Schwab U.S. Broad Market ETF",
   "primary_symbol": "SCHB",
   "provenance": {
-    "fetched_at": "2026-10-25T10:58:25Z",
+    "fetched_at": "2026-11-01T12:53:04Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001454889"
@@ -129,51 +129,51 @@
   "sector_weights": [
     {
       "sector": "Information Technology",
-      "weight": 0.370288
+      "weight": 0.363852
     },
     {
       "sector": "Financials",
-      "weight": 0.115648
-    },
-    {
-      "sector": "Communications",
-      "weight": 0.096289
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "weight": 0.095889
-    },
-    {
-      "sector": "Industrials",
-      "weight": 0.090323
+      "weight": 0.125466
     },
     {
       "sector": "Health Care",
-      "weight": 0.087219
+      "weight": 0.098375
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.090654
+    },
+    {
+      "sector": "Industrials",
+      "weight": 0.090559
+    },
+    {
+      "sector": "Communications",
+      "weight": 0.087427
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.041372
+      "weight": 0.041259
     },
     {
       "sector": "Energy",
-      "weight": 0.032712
+      "weight": 0.036472
     },
     {
       "sector": "Real Estate",
-      "weight": 0.021721
+      "weight": 0.021715
     },
     {
       "sector": "Materials",
-      "weight": 0.021512
+      "weight": 0.021258
     },
     {
       "sector": "Utilities",
-      "weight": 0.020815
+      "weight": 0.01961
     },
     {
       "sector": "Unknown",
-      "weight": 0.006211
+      "weight": 0.003354
     }
   ],
   "top_holdings": [
@@ -181,61 +181,61 @@
       "cusip": "67066G104",
       "isin": "US67066G1040",
       "name": "NVIDIA Corp",
-      "weight": 0.070066
+      "weight": 0.071977
     },
     {
       "cusip": "037833100",
       "isin": "US0378331005",
       "name": "Apple Inc",
-      "weight": 0.062565
+      "weight": 0.062641
     },
     {
       "cusip": "594918104",
       "isin": "US5949181045",
       "name": "Microsoft Corp",
-      "weight": 0.045657
+      "weight": 0.050723
     },
     {
       "cusip": "023135106",
       "isin": "US0231351067",
       "name": "Amazon.com Inc",
-      "weight": 0.036105
+      "weight": 0.034223
     },
     {
       "cusip": "02079K305",
       "isin": "US02079K3059",
       "name": "Alphabet Inc",
-      "weight": 0.03024
+      "weight": 0.026783
     },
     {
       "cusip": "11135F101",
       "isin": "US11135F1012",
       "name": "Broadcom Inc",
-      "weight": 0.028927
+      "weight": 0.023601
     },
     {
       "cusip": "02079K107",
       "isin": "US02079K1079",
       "name": "Alphabet Inc",
-      "weight": 0.024041
+      "weight": 0.021338
     },
     {
       "cusip": "30303M102",
       "isin": "US30303M1027",
       "name": "Meta Platforms Inc",
-      "weight": 0.018892
-    },
-    {
-      "cusip": "88160R101",
-      "isin": "US88160R1014",
-      "name": "Tesla Inc",
-      "weight": 0.016738
+      "weight": 0.016917
     },
     {
       "cusip": "595112103",
       "isin": "US5951121038",
       "name": "Micron Technology Inc",
-      "weight": 0.014924
+      "weight": 0.014553
+    },
+    {
+      "cusip": "88160R101",
+      "isin": "US88160R1014",
+      "name": "Tesla Inc",
+      "weight": 0.013938
     }
   ]
 }

@@ -3,57 +3,57 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.995382
+      "weight": 0.987484
     },
     {
       "asset_class": "Cash",
-      "weight": 0.004346
+      "weight": 0.01253
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 0.000273
+      "weight": -1.4e-05
     }
   ],
-  "aum_usd": 97487815149.22,
+  "aum_usd": 105581688355.58,
   "category": "Large Cap",
   "category_group": "Information Technology",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.954912
+      "weight": 0.950453
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.018469
+      "weight": 0.017927
     },
     {
       "country": "Netherlands",
       "country_code": "NL",
-      "weight": 0.011888
+      "weight": 0.013039
     },
     {
       "country": "Canada",
       "country_code": "CA",
-      "weight": 0.008019
+      "weight": 0.009597
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
-      "weight": 0.003973
+      "weight": 0.006558
     },
     {
       "country": "Cayman Islands",
       "country_code": "KY",
-      "weight": 0.002465
+      "weight": 0.00244
     },
     {
       "country": "Unknown",
-      "weight": 0.000273
+      "weight": -1.4e-05
     }
   ],
-  "holdings_count": 105,
+  "holdings_count": 106,
   "identifiers": {
     "isin": "US46138G6492"
   },
@@ -69,7 +69,7 @@
   "name": "Invesco NASDAQ 100 ETF",
   "primary_symbol": "QQQM",
   "provenance": {
-    "fetched_at": "2026-10-25T10:58:25Z",
+    "fetched_at": "2026-11-01T12:53:04Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000826644"
@@ -78,47 +78,47 @@
   "sector_weights": [
     {
       "sector": "Information Technology",
-      "weight": 0.585416
+      "weight": 0.580259
     },
     {
       "sector": "Communications",
-      "weight": 0.136451
+      "weight": 0.125162
     },
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.110694
+      "weight": 0.105343
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.063945
-    },
-    {
-      "sector": "Health Care",
-      "weight": 0.036786
+      "weight": 0.061493
     },
     {
       "sector": "Industrials",
-      "weight": 0.02672
+      "weight": 0.047305
     },
     {
-      "sector": "Utilities",
-      "weight": 0.011756
+      "sector": "Health Care",
+      "weight": 0.039642
     },
     {
       "sector": "Unknown",
-      "weight": 0.011227
+      "weight": 0.012516
+    },
+    {
+      "sector": "Utilities",
+      "weight": 0.011217
     },
     {
       "sector": "Materials",
-      "weight": 0.010084
+      "weight": 0.009846
     },
     {
       "sector": "Energy",
-      "weight": 0.00512
+      "weight": 0.005196
     },
     {
       "sector": "Financials",
-      "weight": 0.001801
+      "weight": 0.002021
     }
   ],
   "top_holdings": [
@@ -126,61 +126,61 @@
       "cusip": "67066G104",
       "isin": "US67066G1040",
       "name": "NVIDIA Corp.",
-      "weight": 0.081023
+      "weight": 0.084149
     },
     {
       "cusip": "037833100",
       "isin": "US0378331005",
       "name": "Apple Inc.",
-      "weight": 0.072347
+      "weight": 0.073294
     },
     {
       "cusip": "594918104",
       "isin": "US5949181045",
       "name": "Microsoft Corp.",
-      "weight": 0.052798
+      "weight": 0.059349
     },
     {
       "cusip": "595112103",
       "isin": "US5951121038",
       "name": "Micron Technology, Inc.",
-      "weight": 0.047644
+      "weight": 0.047008
     },
     {
       "cusip": "023135106",
       "isin": "US0231351067",
       "name": "Amazon.com, Inc.",
-      "weight": 0.045879
+      "weight": 0.044008
     },
     {
       "cusip": "007903107",
       "isin": "US0079031078",
       "name": "Advanced Micro Devices, Inc.",
-      "weight": 0.036684
+      "weight": 0.033372
     },
     {
       "cusip": "02079K305",
       "isin": "US02079K3059",
       "name": "Alphabet Inc.",
-      "weight": 0.034967
+      "weight": 0.031126
     },
     {
       "cusip": "88160R101",
       "isin": "US88160R1014",
       "name": "Tesla, Inc.",
-      "weight": 0.034348
-    },
-    {
-      "cusip": "11135F101",
-      "isin": "US11135F1012",
-      "name": "Broadcom Inc.",
-      "weight": 0.033452
+      "weight": 0.028948
     },
     {
       "cusip": "02079K107",
       "isin": "US02079K1079",
       "name": "Alphabet Inc.",
-      "weight": 0.032327
+      "weight": 0.02882
+    },
+    {
+      "cusip": "11135F101",
+      "isin": "US11135F1012",
+      "name": "Broadcom Inc.",
+      "weight": 0.027653
     }
   ]
 }

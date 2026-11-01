@@ -3,40 +3,40 @@
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.999503
+      "weight": 0.999433
     },
     {
       "asset_class": "Cash",
-      "weight": 0.000437
+      "weight": 0.000575
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 6e-05
+      "weight": -8e-06
     }
   ],
-  "aum_usd": 94950901903.98,
+  "aum_usd": 112342430664.69,
   "category": "Developed Markets",
   "category_group": "Equities",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.949935
+      "weight": 0.94914
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.02901
+      "weight": 0.02841
     },
     {
       "country": "Curaçao",
       "country_code": "CW",
-      "weight": 0.020558
+      "weight": 0.021912
     },
     {
       "country": "Puerto Rico",
       "country_code": "PR",
-      "weight": 0.000498
+      "weight": 0.000538
     }
   ],
   "holdings_count": 102,
@@ -55,7 +55,7 @@
   "name": "Schwab U.S. Dividend Equity ETF",
   "primary_symbol": "SCHD",
   "provenance": {
-    "fetched_at": "2026-10-25T10:58:25Z",
+    "fetched_at": "2026-11-01T12:53:04Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001454889"
@@ -64,105 +64,105 @@
   "sector_weights": [
     {
       "sector": "Health Care",
-      "weight": 0.183449
+      "weight": 0.213108
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.170065
-    },
-    {
-      "sector": "Information Technology",
-      "weight": 0.163137
+      "weight": 0.175781
     },
     {
       "sector": "Energy",
-      "weight": 0.145863
+      "weight": 0.157425
     },
     {
       "sector": "Industrials",
-      "weight": 0.10399
+      "weight": 0.112315
     },
     {
       "sector": "Financials",
-      "weight": 0.0906
+      "weight": 0.09701
+    },
+    {
+      "sector": "Information Technology",
+      "weight": 0.092546
     },
     {
       "sector": "Consumer Discretionary",
-      "weight": 0.081693
+      "weight": 0.086217
     },
     {
       "sector": "Communications",
-      "weight": 0.060349
-    },
-    {
-      "sector": "Unknown",
-      "weight": 0.000497
+      "weight": 0.064095
     },
     {
       "sector": "Utilities",
-      "weight": 0.000358
+      "weight": 0.000937
+    },
+    {
+      "sector": "Unknown",
+      "weight": 0.000567
     }
   ],
   "top_holdings": [
     {
-      "cusip": "747525103",
-      "isin": "US7475251036",
-      "name": "QUALCOMM Inc",
-      "weight": 0.067374
-    },
-    {
-      "cusip": "882508104",
-      "isin": "US8825081040",
-      "name": "Texas Instruments Inc",
-      "weight": 0.059044
-    },
-    {
-      "cusip": "91324P102",
-      "isin": "US91324P1021",
-      "name": "UnitedHealth Group Inc",
-      "weight": 0.050923
-    },
-    {
-      "cusip": "191216100",
-      "isin": "US1912161007",
-      "name": "Coca-Cola Co/The",
-      "weight": 0.039549
-    },
-    {
       "cusip": "58933Y105",
       "isin": "US58933Y1055",
       "name": "Merck & Co Inc",
-      "weight": 0.038586
-    },
-    {
-      "cusip": "166764100",
-      "isin": "US1667641005",
-      "name": "Chevron Corp",
-      "weight": 0.038343
-    },
-    {
-      "cusip": "92343V104",
-      "isin": "US92343V1044",
-      "name": "Verizon Communications Inc",
-      "weight": 0.036505
-    },
-    {
-      "cusip": "742718109",
-      "isin": "US7427181091",
-      "name": "Procter & Gamble Co/The",
-      "weight": 0.035453
-    },
-    {
-      "cusip": "20825C104",
-      "isin": "US20825C1045",
-      "name": "ConocoPhillips",
-      "weight": 0.035127
+      "weight": 0.047598
     },
     {
       "cusip": "031162100",
       "isin": "US0311621009",
       "name": "Amgen Inc",
-      "weight": 0.034714
+      "weight": 0.04696
+    },
+    {
+      "cusip": "002824100",
+      "isin": "US0028241000",
+      "name": "Abbott Laboratories",
+      "weight": 0.046791
+    },
+    {
+      "cusip": "191216100",
+      "isin": "US1912161007",
+      "name": "Coca-Cola Co/The",
+      "weight": 0.041598
+    },
+    {
+      "cusip": "166764100",
+      "isin": "US1667641005",
+      "name": "Chevron Corp",
+      "weight": 0.040148
+    },
+    {
+      "cusip": "92343V104",
+      "isin": "US92343V1044",
+      "name": "Verizon Communications Inc",
+      "weight": 0.039618
+    },
+    {
+      "cusip": "20825C104",
+      "isin": "US20825C1045",
+      "name": "ConocoPhillips",
+      "weight": 0.039291
+    },
+    {
+      "cusip": "437076102",
+      "isin": "US4370761029",
+      "name": "Home Depot Inc/The",
+      "weight": 0.038701
+    },
+    {
+      "cusip": "742718109",
+      "isin": "US7427181091",
+      "name": "Procter & Gamble Co/The",
+      "weight": 0.038247
+    },
+    {
+      "cusip": "91324P102",
+      "isin": "US91324P1021",
+      "name": "UnitedHealth Group Inc",
+      "weight": 0.038162
     }
   ]
 }

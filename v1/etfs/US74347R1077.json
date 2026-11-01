@@ -1,73 +1,78 @@
 {
-  "as_of_date": "2026-05-31",
+  "as_of_date": "2027-05-31",
   "asset_class_weights": [
     {
       "asset_class": "Equity",
-      "weight": 0.657516
+      "weight": 0.6974
     },
     {
       "asset_class": "Other",
-      "weight": 0.155749
+      "weight": 0.150835
     },
     {
       "asset_class": "Derivative-equity",
-      "weight": 0.131361
+      "weight": 0.099547
     },
     {
       "asset_class": "Cash",
-      "weight": 0.040192
+      "weight": 0.047584
     },
     {
       "asset_class": "Repurchase",
-      "weight": 0.015182
+      "weight": 0.004635
     }
   ],
-  "aum_usd": 8384502853.96,
+  "aum_usd": 8820477211.86,
   "category": "Trading",
   "category_group": "Derivatives",
   "country_weights": [
     {
       "country": "United States",
       "country_code": "US",
-      "weight": 0.981619
+      "weight": 0.980319
     },
     {
       "country": "Ireland",
       "country_code": "IE",
-      "weight": 0.012805
+      "weight": 0.013486
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
-      "weight": 0.00171
+      "weight": 0.001946
     },
     {
       "country": "Bermuda",
       "country_code": "BM",
-      "weight": 0.000996
-    },
-    {
-      "country": "Netherlands",
-      "country_code": "NL",
-      "weight": 0.000991
+      "weight": 0.001072
     },
     {
       "country": "Curaçao",
       "country_code": "CW",
-      "weight": 0.000826
+      "weight": 0.000948
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "weight": 0.000775
     },
     {
       "country": "Liberia",
       "country_code": "LR",
-      "weight": 0.000724
+      "weight": 0.000706
+    },
+    {
+      "country": "Singapore",
+      "country_code": "SG",
+      "weight": 0.000424
     },
     {
       "country": "Jersey",
       "country_code": "JE",
-      "weight": 0.000328
+      "weight": 0.000324
     }
   ],
-  "holdings_count": 525,
+  "holdings_count": 528,
   "identifiers": {
     "isin": "US74347R1077"
   },
@@ -83,7 +88,7 @@
   "name": "ProShares Ultra S&P500",
   "primary_symbol": "SSO",
   "provenance": {
-    "fetched_at": "2026-10-25T10:58:25Z",
+    "fetched_at": "2026-11-01T12:53:04Z",
     "license": "public domain",
     "source": "SEC EDGAR N-PORT",
     "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001174610"
@@ -92,51 +97,51 @@
   "sector_weights": [
     {
       "sector": "Unknown",
-      "weight": 0.344935
+      "weight": 0.303688
     },
     {
       "sector": "Information Technology",
-      "weight": 0.255904
+      "weight": 0.267731
     },
     {
       "sector": "Financials",
-      "weight": 0.074158
+      "weight": 0.085585
     },
     {
       "sector": "Communications",
-      "weight": 0.06863
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "weight": 0.063517
+      "weight": 0.066057
     },
     {
       "sector": "Health Care",
-      "weight": 0.054615
+      "weight": 0.064739
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "weight": 0.063153
     },
     {
       "sector": "Industrials",
-      "weight": 0.051042
+      "weight": 0.055563
     },
     {
       "sector": "Consumer Staples",
-      "weight": 0.028839
+      "weight": 0.030116
     },
     {
       "sector": "Energy",
-      "weight": 0.020589
+      "weight": 0.024274
     },
     {
       "sector": "Utilities",
-      "weight": 0.013865
+      "weight": 0.013835
     },
     {
       "sector": "Real Estate",
-      "weight": 0.012036
+      "weight": 0.012733
     },
     {
       "sector": "Materials",
-      "weight": 0.01187
+      "weight": 0.012527
     }
   ],
   "top_holdings": [
@@ -144,58 +149,58 @@
       "cusip": "74350P691",
       "isin": "US74350P6916",
       "name": "ProShares GENIUS Money Market ETF",
-      "weight": 0.155234
+      "weight": 0.148696
     },
     {
       "cusip": "67066G104",
       "isin": "US67066G1040",
       "name": "NVIDIA Corp.",
-      "weight": 0.05178
+      "weight": 0.055617
     },
     {
       "cusip": "037833100",
       "isin": "US0378331005",
       "name": "Apple, Inc.",
-      "weight": 0.046238
+      "weight": 0.048401
     },
     {
       "cusip": "594918104",
       "isin": "US5949181045",
       "name": "Microsoft Corp.",
-      "weight": 0.033745
+      "weight": 0.039193
     },
     {
       "cusip": "023135106",
       "isin": "US0231351067",
       "name": "Amazon.com, Inc.",
-      "weight": 0.026679
+      "weight": 0.026446
     },
     {
       "name": "N/A",
       "symbol": "SPY",
-      "weight": 0.023417
+      "weight": 0.02118
     },
     {
       "cusip": "02079K305",
       "isin": "US02079K3059",
       "name": "Alphabet, Inc.",
-      "weight": 0.022346
+      "weight": 0.020695
     },
     {
-      "cusip": "912797SX6",
-      "isin": "US912797SX61",
-      "name": "United States of America",
-      "weight": 0.022058
+      "name": "N/A",
+      "weight": 0.018449
     },
     {
       "cusip": "11135F101",
       "isin": "US11135F1012",
       "name": "Broadcom, Inc.",
-      "weight": 0.021374
+      "weight": 0.018238
     },
     {
-      "name": "N/A",
-      "weight": 0.018652
+      "cusip": "02079K107",
+      "isin": "US02079K1079",
+      "name": "Alphabet, Inc.",
+      "weight": 0.016487
     }
   ]
 }
